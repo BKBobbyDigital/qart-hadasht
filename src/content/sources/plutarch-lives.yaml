@@ -1,0 +1,35 @@
+slug: plutarch-lives
+title: Parallel Lives (selected — Cato the Elder, Fabius Maximus, Marcellus, Aemilius Paullus)
+author: Plutarch of Chaeronea
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: 110
+  precision: decade
+  circa: true
+temporal_distance_years: 300
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Greek biographer writing under Trajan, drawing extensively on Polybius and
+  on now-lost Hellenistic sources. The Lives are biographies, not histories:
+  shaped by moral and characterological aims, with anecdotes selected for
+  illustrative power rather than strict reportage. Plutarch's distance from
+  his Roman subjects is real, and where he and Polybius overlap, Polybius
+  is generally to be preferred. Where Plutarch preserves material absent
+  from elsewhere — sayings, domestic details, anecdotes about Roman public
+  life — the material may be authentic transmission from lost intermediaries
+  or may be Plutarchean elaboration; usually impossible to tell.
+public_domain_translation:
+  translator: Bernadotte Perrin
+  year: 1916
+  url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0004
+summary: >
+  Forty-six paired biographies (Greek and Roman, presented in matched pairs
+  with comparative essays). Several Lives are central to Carthaginian
+  history: Fabius Maximus and Marcellus (the Italian campaign of the Second
+  Punic War from the Roman side), Aemilius Paullus (Cannae, where his
+  father fell), and especially Cato the Elder (the architect of the Roman
+  case for the Third Punic War, including the famous "Carthago delenda est"
+  formulation). Plutarch's Lives of Pyrrhus and Timoleon are also relevant
+  for earlier Mediterranean conflict involving Carthage.

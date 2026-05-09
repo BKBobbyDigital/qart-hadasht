@@ -1,0 +1,34 @@
+slug: justin-epitome
+title: Epitome of the Philippic Histories of Pompeius Trogus
+author: Marcus Junianus Justinus
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: 250
+  precision: century
+  circa: true
+temporal_distance_years: 1000
+access_to_witnesses: literary_tradition
+bias_notes: >
+  A late epitome (selective abridgement) of a now-lost universal history
+  written by Pompeius Trogus in the Augustan period. Justin's date is itself
+  uncertain — anywhere from the 2nd to 4th century CE. The text is therefore
+  a digest of a source we cannot check, written centuries after the events
+  and shaped by the epitomator's interests as well as Trogus's. Useful but
+  to be handled carefully: where Justin agrees with better-attested sources
+  he confirms; where he disagrees, the disagreement may be due to Trogus,
+  to Justin's selection, or to genuine alternative tradition.
+public_domain_translation:
+  translator: John Selby Watson
+  year: 1853
+  url: https://www.attalus.org/translate/justin1.html
+summary: >
+  An epitome of Pompeius Trogus's Historiae Philippicae, organized around
+  the rise and succession of empires. Book 18 is the principal preserved
+  account of the Tyrian foundation legend of Carthage — Elissa/Dido fleeing
+  Tyre, the Byrsa stratagem, the city's foundation. Books 19–22 cover the
+  Sicilian Wars and Agathocles. Justin/Trogus preserves traditions independent
+  of the Roman annalistic mainstream, including elements of the foundation
+  story that the Romans (especially Virgil) reshaped. For the foundation
+  period, Justin is irreplaceable.

@@ -1,0 +1,35 @@
+slug: aristotle-politics
+title: Politics, Book II.11 (the Carthaginian constitution)
+author: Aristotle
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: -335
+  precision: decade
+  circa: true
+  range_end: -322
+temporal_distance_years: 0
+access_to_witnesses: contemporary
+bias_notes: >
+  Strictly contemporary with the Carthaginian constitution he describes —
+  4th-century BCE Athens looking across the Mediterranean to a polity Greek
+  philosophy classed as one of the few non-Greek constitutions worth serious
+  analysis. Aristotle's frame is comparative: he discusses Carthage alongside
+  Sparta and Crete as a "well-ordered" mixed constitution. The account is
+  schematic and idealized rather than ethnographic — Aristotle is interested
+  in institutional types, not Carthaginian self-understanding — but the
+  detail is precise enough that he plainly worked from informants.
+public_domain_translation:
+  translator: Benjamin Jowett
+  year: 1885
+  url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0058
+summary: >
+  Aristotle devotes Politics II.11 to a sustained analysis of the Carthaginian
+  constitution, identifying suffetes, the Council of 104, the senate, and the
+  popular assembly, and praising the city's institutional stability. Despite
+  its brevity (a few pages of Greek), the passage is the single most important
+  external description of Carthaginian government we possess — fuller and
+  more analytic than anything in the Roman tradition, and uniquely free of
+  the Punic-Wars frame that distorts most surviving accounts. Indispensable
+  for any treatment of Carthaginian institutions.

@@ -1,0 +1,38 @@
+slug: hanno-periplus
+title: Periplus of Hanno
+author: Hanno the Navigator (attrib.)
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: -500
+  precision: century
+  circa: true
+  range_end: -450
+temporal_distance_years: 0
+access_to_witnesses: contemporary
+bias_notes: >
+  The text presents itself as a Greek translation of a Punic original — the
+  account of Hanno's voyage along the Atlantic coast of West Africa, said
+  to have been inscribed on a stele in the temple of Baal (or Kronos, in
+  Greek interpretatio) at Carthage. The translation is undated; the original
+  inscription, if real, was 5th-century BCE. The text's authenticity has
+  been debated since antiquity. Most modern scholars accept it as broadly
+  genuine — a real Punic geographic record, transmitted via Greek — though
+  with corruptions in the place-names and animals that have accumulated in
+  transmission. Whether genuine in detail or not, it is the closest thing
+  we have to a Punic-authored text surviving from Carthage's classical period.
+public_domain_translation:
+  translator: Wilfred Harvey Schoff
+  year: 1912
+  url: https://www.metmuseum.org/art/metpublications/The_Periplus_of_Hanno_a_voyage_of_discovery_down_the_West_African_coast_by_a_Carthaginian_admiral_of_the_fifth_century_B_C
+summary: >
+  A short text — under a thousand words — recording a Carthaginian
+  expedition along the Atlantic coast of Africa, founding colonies and
+  reaching as far as (most likely) the Gulf of Guinea or the Cameroon
+  highlands. The voyage is dated to the 5th century BCE. The text describes
+  fortified outposts, encounters with peoples and animals, fires seen from
+  the sea, and a return prompted by exhausted supplies. Specifics — including
+  the famous "gorillai" — are uncertain in identification, but the document
+  is unique: a near-contemporary Carthaginian record of Carthaginian activity,
+  not a Greco-Roman description from outside.

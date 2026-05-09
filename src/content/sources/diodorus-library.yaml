@@ -1,0 +1,36 @@
+slug: diodorus-library
+title: Bibliotheca historica (Library of History)
+author: Diodorus Siculus
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: -40
+  precision: decade
+  circa: true
+  range_end: -30
+temporal_distance_years: 500
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Greek historian writing in the late Hellenistic period under Caesar and
+  Augustus. Compiled from earlier sources rather than original investigation;
+  for Carthage and Sicily, his principal source was Timaeus of Tauromenium
+  (early 3rd c. BCE), giving us indirect but valuable access to a tradition
+  hostile to Carthage from the Sicilian-Greek perspective. Reliability varies
+  sharply by passage depending on which source he was excerpting; generally
+  most reliable when paraphrasing Polybius or contemporaries of events, less
+  so for early periods.
+public_domain_translation:
+  translator: C. H. Oldfather
+  year: 1933
+  url: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/home.html
+summary: >
+  A forty-book universal history covering events from the mythical age to
+  60 BCE. Books 1–5 and 11–20 survive complete; the rest in fragments and
+  Byzantine excerpts. For Carthage, the indispensable books are 11–14 (the
+  fifth-century Sicilian Wars between Carthage and Syracuse, including the
+  campaigns of Hamilcar, Himilco, and Hannibal son of Gisco), 15 (further
+  Sicilian conflicts), 19–20 (the Agathocles crisis and his African
+  invasion, 310–307 BCE), and the surviving fragments of 21–32, which cover
+  the Pyrrhic and First and Second Punic Wars from a perspective independent
+  of — though sometimes harmonizing with — Polybius.
