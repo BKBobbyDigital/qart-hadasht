@@ -68,6 +68,12 @@ related_events:
       Hasdrubal Barca's relief expedition destroyed in Umbria
       before reaching Hannibal in southern Italy. Modern scholarship
       generally treats this as the war's structural turning point.
+  - event: battle-of-great-plains
+    relation: African campaign decision (203 BCE)
+    notes: >
+      Scipio's African victory and capture of Syphax, forcing the
+      Carthaginian recall of Hannibal from Italy and producing
+      the strategic conditions for Zama.
   - event: battle-of-zama
     relation: war-ending engagement (202 BCE)
     notes: >

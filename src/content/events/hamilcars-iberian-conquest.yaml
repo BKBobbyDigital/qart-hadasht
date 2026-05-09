@@ -1,0 +1,62 @@
+slug: hamilcars-iberian-conquest
+name: Hamilcar Barca's Iberian Conquest
+type: expedition
+date_start:
+  value: -237
+  precision: year
+date_end:
+  value: -228
+  precision: year
+  notes: Ending with Hamilcar's death by drowning during a withdrawal from a Vettonian ambush in 228 BCE.
+place: iberia
+participants:
+  - person: hamilcar-barca
+    role: commander
+    side: Carthaginian
+  - person: hannibal-barca
+    role: junior officer (accompanied his father; aged 9 at the start of the expedition)
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - hoyos-hannibal-2003
+referenced_themes:
+  - carthaginian-economy
+related_events: []
+summary: >
+  Hamilcar Barca's nine-year campaign of Iberian conquest from
+  237 to 228 BCE, the project that transformed the Carthaginian
+  position in the western Mediterranean from the post-Punic-War
+  contraction of the 230s BCE into the resource base that would
+  fund the Second Punic War a generation later. Hamilcar's
+  command followed his suppression of the Mercenary War and
+  capitalized on the political authority that suppression had
+  produced. The senatorial coalition under Hanno the Great
+  opposed the project but could not prevent its authorization;
+  Hamilcar departed Carthage with his army and his nine-year-old
+  son Hannibal in 237 BCE, crossed to Iberia at Gades (modern
+  Cádiz), and began the systematic conquest of the southern
+  Iberian peninsula.
+
+  The campaign's military phase produced the Carthaginian
+  conquest of substantial portions of southern Iberia, with
+  particular success against the Iberian tribes of the
+  southwestern peninsula and the Tartessian-Phoenician coastal
+  zone. The economic phase was at least as significant: the
+  Carthaginian-controlled silver mines of southern Iberia (the
+  Sierra Morena range and the area around modern Cartagena)
+  produced substantial revenue that funded both the continued
+  campaign and Carthaginian state finances more broadly. The
+  Treaty of 201 indemnity, paid down ahead of schedule across
+  the 190s BCE, was substantially financed from Iberian silver
+  reserves accumulated during this period.
+
+  Hamilcar's death in 228 BCE during a withdrawal from a
+  Vettonian ambush ended the campaign's first phase. Command
+  passed to his son-in-law Hasdrubal the Fair (who would
+  consolidate the conquest, found Carthago Nova as the new
+  Carthaginian Iberian capital, and negotiate the Ebro Treaty
+  with Rome before his assassination in 221 BCE), and then to
+  Hannibal. The ten-year conquest under Hamilcar is the
+  structural foundation of everything that followed in the
+  Barcid Iberian project, and indirectly the foundation of the
+  Second Punic War.

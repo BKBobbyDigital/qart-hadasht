@@ -1,0 +1,63 @@
+slug: war-with-masinissa
+name: Carthage's War with Masinissa
+type: battle
+date_start:
+  value: -150
+  precision: year
+  notes: The Carthaginian expedition was dispatched in late summer 150 BCE; the engagement and capitulation followed within months.
+place: carthage
+participants:
+  - person: hasdrubal-boetharch
+    role: Carthaginian commander
+    side: Carthaginian
+  - person: masinissa
+    role: Numidian commander (~88 years old)
+    side: Numidian / Roman ally
+principal_sources:
+  - appian-punica
+  - polybius-histories
+related_events:
+  - event: third-punic-war
+    relation: casus belli (provided the Roman legal pretext)
+    notes: >
+      Carthage's military operation against Masinissa was a
+      treaty violation under the Treaty of 201's allied-protection
+      clause. Rome treated it as such and used it as the
+      formal legal trigger for the Third Punic War.
+referenced_themes:
+  - carthaginian-economy
+summary: >
+  The Carthaginian military expedition against Masinissa in 150
+  BCE that gave Rome the legal pretext for declaring the Third
+  Punic War. After fifty years of Masinissa's incremental
+  encroachments on Carthaginian territory, conducted under
+  the protection of the Treaty of 201's allied-protection
+  clause and Roman refusal to enforce the treaty against
+  Masinissa, Carthage finally responded with military action.
+  The expedition was conducted by Hasdrubal the Boetharch
+  (the same Hasdrubal who would later command the city's
+  defense in 149-146 BCE) at the head of approximately
+  25,000 troops.
+
+  The engagement itself was a Carthaginian defeat. Masinissa,
+  approaching ninety years old, commanded a Numidian force in
+  person; the Carthaginian army was defeated in the field and
+  eventually surrendered after extended siege of its camp.
+  Hasdrubal escaped with a portion of the survivors but was
+  condemned to death in absentia by the Carthaginian senate
+  in an attempt to placate Roman demands for accountability.
+
+  The Roman response was mobilization. The senate had been
+  prepared, under Cato the Elder's persistent advocacy, to use
+  any Carthaginian violation of the Treaty of 201 as a casus
+  belli for the destruction of the city. The 150 BCE
+  engagement provided that violation. Roman embassies arrived
+  at Carthage through 149 BCE with escalating demands; the
+  Carthaginian senate's compliance with the surrender of
+  hostages and weapons was followed by the Roman ultimatum to
+  abandon the city; rejection of that ultimatum produced the
+  Third Punic War. The structural causation runs from this
+  engagement: Carthage could not have continued to lose
+  territory to Masinissa indefinitely, and any military
+  response was a treaty violation by design of the post-Zama
+  settlement.

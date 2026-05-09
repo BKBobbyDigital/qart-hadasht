@@ -25,6 +25,12 @@ referenced_themes:
   - carthaginian-economy
   - punic-identity
 related_events:
+  - event: war-with-masinissa
+    relation: casus belli (the 150 BCE engagement that gave Rome the legal pretext)
+    notes: >
+      Carthage's military operation against Masinissa in 150 BCE
+      provided the Roman pretext for declaring war the following
+      year. The structural framework had been prepared for decades.
   - event: destruction-of-carthage
     relation: focal engagement and outcome (the siege and destruction itself)
     notes: >

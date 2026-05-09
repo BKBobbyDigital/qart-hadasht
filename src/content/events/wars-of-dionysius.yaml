@@ -1,0 +1,61 @@
+slug: wars-of-dionysius
+name: Wars of Dionysius (Greek-Sicilian wars with Carthage, 398–367 BCE)
+type: war
+date_start:
+  value: -398
+  precision: year
+date_end:
+  value: -367
+  precision: year
+place: sicily
+participants:
+  - person: dionysius-i
+    role: principal Greek commander
+    side: Syracuse
+principal_sources:
+  - diodorus-library
+related_events:
+  - event: second-sicilian-war
+    relation: precursor
+    notes: >
+      The Hannibalic invasion of 410-404 BCE produced the political
+      conditions of Dionysius's rise; his subsequent wars are
+      structurally the continuation of the Greek-Sicilian-
+      Carthaginian conflict that the Hannibalic war had reopened.
+summary: >
+  The four wars between Dionysius I of Syracuse and Carthage
+  across approximately three decades, fought intermittently from
+  the Syracusan attack on Carthaginian-controlled Sicily in 398
+  BCE through Dionysius's last campaign and death in 367 BCE.
+  No single war was decisive; the four-war pattern is a useful
+  framing for the long-running contestation rather than a
+  unified strategic project.
+
+  **First war (398-397 BCE).** Dionysius's invasion of
+  Carthaginian Sicily, including the famous siege and capture
+  of Motya (the Carthaginian Sicilian stronghold) in 397 BCE.
+  Carthaginian counter-offensive under Himilco recovered most
+  of western Sicily and besieged Syracuse itself; a plague in
+  the Carthaginian army produced its withdrawal in 396 BCE.
+
+  **Second war (393-392 BCE).** Brief renewal of conflict
+  ending in inconclusive peace.
+
+  **Third war (383-376 BCE).** Major Carthaginian campaign with
+  the engagement at Cabala (initial Greek victory) and the
+  subsequent Carthaginian victory at Cronium that restored the
+  status quo.
+
+  **Fourth war (368-367 BCE).** Dionysius's final invasion of
+  western Sicily, ending with his death in 367 BCE and a
+  status-quo settlement.
+
+  The wars are preserved principally in Diodorus Siculus
+  (books 14-15), whose account draws substantially on the lost
+  history of Philistus of Syracuse (a contemporary and political
+  associate of Dionysius). The aggregate outcome was the
+  preservation of the rough territorial division of Sicily
+  established by 404 BCE: Carthage holding the western and
+  southwestern coast, Syracuse the east. This pattern would
+  hold, with adjustments, until the Agathocles invasion of
+  Africa changed the strategic geography in 310 BCE.

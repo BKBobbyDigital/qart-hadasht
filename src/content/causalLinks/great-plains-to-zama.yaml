@@ -1,0 +1,28 @@
+slug: great-plains-to-zama
+cause: battle-of-great-plains
+effect: battle-of-zama
+relation: forced (the Carthaginian recall of Hannibal)
+confidence: attested
+mechanism: |
+  The Roman victory at the Great Plains in spring 203 BCE,
+  combined with the capture of Syphax days later at Cirta,
+  destroyed the Carthaginian field force in Africa and made
+  the strategic position untenable without recall of Hannibal
+  from Italy. The Carthaginian senate's recall order followed
+  in summer 203; Hannibal landed at Hadrumetum that autumn
+  and assembled the army for the engagement at Zama in October
+  202 BCE.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "14.7-9, 15.1-3"
+    passage_summary: >
+      Polybius narrates the Great Plains victory, the capture of
+      Syphax, the Carthaginian senate's recall of Hannibal, and
+      the strategic continuity from the engagement to Zama.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.7-8, 30.20"
+    passage_summary: >
+      Livy preserves the same sequence with characteristic
+      dramatic detail.

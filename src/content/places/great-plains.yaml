@@ -1,0 +1,27 @@
+slug: great-plains
+name_display: Great Plains (Campi Magni)
+names_alt:
+  greek: Μεγάλα Πεδία (Megala Pedia)
+  latin: Campi Magni
+  modern: Bagradas (Medjerda) river valley near Souk el Khemis, Tunisia
+type: battlefield
+primary:
+  label: Bagradas valley (broad area of the engagement)
+  lat: 36.4900
+  lon: 9.1100
+  confidence: probable
+  notes: >
+    The exact battlefield within the Bagradas/Medjerda valley is
+    not precisely identified; the location given is the broad
+    area where modern reconstructions place the engagement.
+modern_location: Medjerda river valley, Tunisia
+summary: >
+  Site of the engagement in spring 203 BCE in which Scipio
+  Africanus and Masinissa defeated the combined Carthaginian-
+  Numidian army under Hasdrubal Gisco and Syphax. The plain
+  lies in the Bagradas (modern Medjerda) river valley,
+  approximately 75 km southwest of Carthage. The Roman victory
+  produced the capture of Syphax shortly afterward, the
+  Sophonisba episode at Cirta, and the strategic conditions
+  that forced the Carthaginian recall of Hannibal from Italy
+  for the campaign that culminated at Zama later in 202 BCE.

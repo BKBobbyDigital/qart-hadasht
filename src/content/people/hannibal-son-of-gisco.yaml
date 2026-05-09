@@ -1,0 +1,38 @@
+slug: hannibal-son-of-gisco
+name_display: Hannibal son of Gisco (Magonid)
+name_punic: Ḥannibaʿl
+name_punic_script: 𐤇𐤍𐤁𐤏𐤋
+name_greek: Ἀννίβας
+name_latin: Hannibal
+etymology: >
+  Ḥannibaʿl ("grace of Baʿal"), the same name borne by the more
+  famous Hannibal Barca two centuries later. Distinguished from
+  him by the patronymic and family designation. Grandson of the
+  Hamilcar Magonid who died at Himera in 480 BCE.
+floruit:
+  value: -410
+  precision: decade
+  circa: true
+death:
+  value: -406
+  precision: year
+  circa: true
+  notes: Died of plague during the Carthaginian siege of Akragas in 406 BCE.
+roles:
+  - general
+polity: Carthage
+summary: >
+  Carthaginian commander of the Magonid family who led the
+  great Sicilian invasion of 410-406 BCE, the campaign
+  understood by the Greek tradition as Carthaginian revenge for
+  the defeat at Himera in 480 BCE that had killed his
+  grandfather. Hannibal's army sacked Selinus and Himera in
+  409 BCE in successive campaigns of unusual brutality (Selinus
+  in particular was effectively destroyed; tens of thousands of
+  Greek inhabitants killed or enslaved). In 406 BCE he returned
+  with a larger force to besiege Akragas, the principal Greek
+  city of central-southern Sicily. He died of plague during the
+  siege; his subordinate Himilco completed the operation. The
+  invasion's scale and brutality reshaped Greek-Sicilian
+  geography for generations and produced the political
+  conditions for the rise of Dionysius I of Syracuse.

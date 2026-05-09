@@ -1,0 +1,63 @@
+slug: second-sicilian-war
+name: Second Sicilian War (Hannibalic invasion of Sicily)
+type: war
+date_start:
+  value: -410
+  precision: year
+date_end:
+  value: -404
+  precision: year
+place: sicily
+participants:
+  - person: hannibal-son-of-gisco
+    role: commander (410-406 BCE)
+    side: Carthaginian
+  - person: dionysius-i
+    role: rising opponent (consolidated power 405-404 BCE)
+    side: Syracuse
+principal_sources:
+  - diodorus-library
+related_events:
+  - event: battle-of-himera
+    relation: motivating precedent (revenge for the 480 BCE defeat)
+    notes: >
+      The Hannibalic invasion was understood by the surviving Greek
+      tradition as deliberate Carthaginian revenge for Himera,
+      where Hannibal son of Gisco's grandfather Hamilcar Magonid
+      had been killed two generations earlier.
+referenced_themes:
+  - punic-religion
+summary: >
+  The major Carthaginian invasion of Sicily in 410-404 BCE,
+  conventionally treated as the second of the cycles of
+  Greco-Carthaginian Sicilian wars and the most destructive single
+  Carthaginian campaign of the 5th century BCE. Initiated by
+  Hannibal son of Gisco of the Magonid family in revenge for the
+  defeat at Himera that had killed his grandfather seven decades
+  earlier, the invasion sacked Selinus and Himera in successive
+  campaigns of 409 BCE, returned in 406 BCE under Hannibal and
+  his subordinate Himilco to besiege Akragas (the principal Greek
+  city of central-southern Sicily), and continued under Himilco
+  alone after Hannibal's death from plague during the siege.
+
+  The war's principal Greek-Sicilian victims were Selinus
+  (effectively destroyed in 409 BCE; tens of thousands killed or
+  enslaved), Himera (sacked in 409 BCE; the city's destruction
+  was preserved by the surviving Greek tradition with explicit
+  framing as the avenged 480 BCE defeat), and Akragas (besieged
+  and abandoned by the surviving population in 406 BCE before
+  being sacked). The campaign produced massive demographic
+  disruption in Greek Sicily and reshaped the political geography
+  of the island for generations: surviving Greek populations
+  concentrated in Syracuse and a handful of fortified eastern
+  cities while western and southern Sicily fell substantially
+  under Carthaginian control.
+
+  The political consequences in Greek Sicily were as substantial
+  as the military ones. The political crisis at Syracuse
+  produced by the defeats brought Dionysius to power in 405 BCE
+  through the kind of crisis-driven tyranny that had been latent
+  in Greek-Sicilian politics for decades. The peace of 404 BCE
+  ended the immediate war but left Carthage in possession of
+  most of Sicily's western and southern coast, setting the
+  framework for the subsequent forty years of Dionysian wars.

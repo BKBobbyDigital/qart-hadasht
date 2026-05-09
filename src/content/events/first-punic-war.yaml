@@ -19,6 +19,11 @@ related_events:
     notes: >
       The Mamertine appeal and the Roman crossing of the Strait
       of Messina that began the war.
+  - event: battle-of-mylae
+    relation: first major Roman naval victory (260 BCE)
+    notes: >
+      The corvus debut; the engagement that established Roman
+      naval capability could match Carthage's at fleet scale.
   - event: battle-of-cape-ecnomus
     relation: principal naval engagement (256 BCE)
     notes: >

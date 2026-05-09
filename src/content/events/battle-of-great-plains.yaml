@@ -1,0 +1,62 @@
+slug: battle-of-great-plains
+name: Battle of the Great Plains
+type: battle
+date_start:
+  value: -203
+  precision: year
+  notes: Spring 203 BCE; the engagement was followed within days by the capture of Syphax at Cirta.
+place: great-plains
+participants:
+  - person: scipio-africanus
+    role: commander
+    side: Roman
+  - person: masinissa
+    role: cavalry commander
+    side: Roman (Numidian ally)
+  - person: hasdrubal-gisco
+    role: commander
+    side: Carthaginian
+  - person: syphax
+    role: commander
+    side: Carthaginian (Masaesylian ally)
+principal_sources:
+  - polybius-histories
+  - livy-auc
+related_events:
+  - event: battle-of-zama
+    relation: precursor (forced the Carthaginian recall of Hannibal)
+    notes: >
+      The Roman victory at the Great Plains, combined with the
+      capture of Syphax shortly afterward, eliminated the
+      Carthaginian-Masaesylian field force and made the
+      Carthaginian recall of Hannibal from Italy strategically
+      necessary. Zama is the resulting engagement.
+summary: >
+  Scipio Africanus's victory over the Carthaginian-Masaesylian
+  army under Hasdrubal Gisco and Syphax in spring 203 BCE, the
+  decisive Roman engagement of the African campaign before Zama.
+  Scipio had crossed to Africa in 204 BCE and spent the
+  following winter conducting a war of position around Utica;
+  the Great Plains was the field engagement that resolved the
+  strategic situation. Roman tactical execution combined the
+  veterans of the Iberian campaign (under Scipio) with
+  Masinissa's Numidian cavalry, defeating the larger
+  Carthaginian-Masaesylian force decisively.
+
+  The engagement's principal aftermath was the pursuit of Syphax
+  by Masinissa: at Cirta (modern Constantine, Algeria) days
+  later, Syphax was captured. Masinissa entered Cirta and
+  married Sophonisba, Syphax's wife (and previously Masinissa's
+  own betrothed), in a move that secured Masaesylian succession
+  but produced Scipio's demand for Sophonisba's surrender as a
+  Roman war captive. Sophonisba's poisoning at Masinissa's hand
+  followed within days, the central episode in Livy's dramatic
+  preservation of the campaign.
+
+  The strategic outcome was decisive. With Syphax captured, his
+  kingdom passed to Masinissa under Roman patronage; with the
+  Carthaginian field force destroyed, the Carthaginian senate
+  recalled Hannibal from Italy for the campaign that culminated
+  at Zama in October 202 BCE. The Great Plains is the engagement
+  that made Zama strategically necessary; without it, Hannibal
+  might have remained in Italy for years longer.

@@ -1,0 +1,52 @@
+slug: sophonisba
+name_display: Sophonisba
+name_punic: Ṣafanbaʿl
+name_punic_script: 𐤑𐤐𐤍𐤁𐤏𐤋
+name_greek: Σοφονίσβα
+name_latin: Sophonisba; Sophoniba
+etymology: >
+  Ṣafanbaʿl ("Baal protects") in the underlying Punic; the
+  Greek-Latin form Sophonisba is the conventional Hellenized
+  rendering preserved in the surviving sources.
+birth:
+  value: -225
+  precision: decade
+  circa: true
+death:
+  value: -203
+  precision: year
+  notes: Took poison at Cirta in late 203 BCE rather than be paraded in Scipio's eventual Roman triumph.
+roles:
+  - princess
+polity: Carthage
+summary: >
+  Daughter of Hasdrubal Gisco and one of the most prominent
+  Carthaginian aristocratic women preserved in the surviving
+  record. Originally betrothed to the Numidian Massylii prince
+  Masinissa during his service with the Carthaginian army in
+  Iberia, Sophonisba was instead married by her father to
+  Syphax of the Masaesyli around 206 BCE as a Carthaginian
+  diplomatic move to secure western Numidian alliance against
+  the Roman threat. After Syphax's defeat by Scipio and
+  Masinissa at the Battle of the Great Plains in 203 BCE,
+  Masinissa entered Cirta (the Masaesylian capital) and married
+  Sophonisba within a day of her former husband's capture, a
+  marriage understood by both Greek and Roman sources as a
+  political move to extend Masinissa's authority over Syphax's
+  kingdom under cover of dynastic continuity.
+
+  Scipio Africanus, learning of the marriage, demanded that
+  Masinissa surrender Sophonisba for the Roman triumph as a
+  Carthaginian war captive. Masinissa, unwilling to surrender
+  her and unwilling (or unable) to refuse Scipio's demand, sent
+  her poison; Sophonisba took it and died at Cirta in late 203
+  BCE. The episode is preserved in Livy 30.12-15 with
+  characteristic dramatic detail; the substance is firmly
+  attested across the sources, while the specific dialogue and
+  the romantic-tragic framing are Livian and Greek-Latin
+  literary elaboration. The episode has had an extensive
+  literary afterlife in European reception (Petrarch, Voltaire,
+  multiple operas).
+referenced_themes:
+  - women-and-family
+  - punic-identity

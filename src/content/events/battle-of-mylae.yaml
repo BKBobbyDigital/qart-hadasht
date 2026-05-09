@@ -1,0 +1,55 @@
+slug: battle-of-mylae
+name: Battle of Mylae
+type: battle
+date_start:
+  value: -260
+  precision: year
+place: mylae
+participants:
+  - person: duilius
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+related_events:
+  - event: battle-of-cape-ecnomus
+    relation: precedent (the corvus debut, four years before the larger Ecnomus engagement)
+    notes: >
+      Mylae is where the corvus boarding bridge was first deployed
+      in fleet engagement; Ecnomus is where its tactical doctrine
+      was demonstrated at scale. The two engagements bracket the
+      Roman naval revolution of the 260s and 250s BCE.
+referenced_themes:
+  - carthaginian-seafaring-and-trade
+summary: >
+  The first major Roman naval victory of the First Punic War
+  and the engagement that established that the new Roman fleet
+  could match Carthaginian naval power in fleet combat. Fought
+  in 260 BCE in the waters off Mylae on the north coast of
+  Sicily, the engagement saw the Roman fleet under the consul
+  Gaius Duilius defeat a Carthaginian fleet under Hannibal
+  Gisco (a different Hannibal from later Punic-War figures).
+  Roman accounts give approximately 30 Carthaginian ships sunk
+  and 50 captured against minimal Roman losses.
+
+  The decisive tactical innovation was the *corvus* (Latin
+  "raven," more accurately translated as "boarding bridge"), a
+  spiked plank mounted at the prow of Roman quinqueremes that
+  could be dropped onto an enemy deck on contact, locking the
+  ships together and allowing Roman marines to swing onto the
+  enemy ship to fight at close quarters. Roman legionary close-
+  combat capability was substantially superior to Carthaginian
+  marine training, so any engagement that became a boarding
+  fight tended to favor Rome. Mylae was the first major naval
+  engagement where this tactical doctrine was deployed at scale,
+  and its success vindicated the Roman naval improvisation of
+  the late 260s BCE.
+
+  The Roman commemoration of the victory was substantial: a
+  dedicated monumental column in the Forum decorated with the
+  rams of captured Carthaginian ships (the *columna rostrata*),
+  and a substantive inscription preserving the engagement's
+  outcome (the *Elogium Duilii*, an early Latin inscription
+  preserved in fragmentary form). Both indicate that Mylae was
+  understood at Rome itself as a transformative moment: the
+  beginning of Rome as a naval power.

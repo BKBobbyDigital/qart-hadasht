@@ -1,0 +1,31 @@
+slug: syphax
+name_display: Syphax
+name_greek: Σύφαξ
+name_latin: Syphax
+birth:
+  value: -250
+  precision: decade
+  circa: true
+death:
+  value: -202
+  precision: year
+  notes: Died in Roman captivity at Tibur (modern Tivoli) shortly after his capture, before being paraded in Scipio's eventual triumph.
+roles:
+  - king
+polity: Numidia (Masaesylian)
+summary: >
+  King of the Masaesyli, the western Numidian confederation,
+  through the late 3rd century BCE until his capture by Scipio
+  and Masinissa at the Battle of the Great Plains in 203 BCE.
+  Syphax's strategic position in western Numidia made him a
+  major prize sought by both Rome and Carthage in the African
+  campaign of the closing Second Punic War. The Carthaginians
+  secured his alliance through the dynastic marriage with
+  Sophonisba, daughter of Hasdrubal Gisco; he commanded a
+  substantial Numidian force against Scipio's expedition through
+  204-203 BCE before being defeated and captured. His Numidian
+  kingdom passed to Masinissa (his rival of the eastern Massylii
+  confederation) under Roman patronage, beginning the unified
+  Numidian kingdom whose subsequent encroachments on
+  Carthaginian territory would produce the Third Punic War half
+  a century later.

@@ -1,0 +1,30 @@
+slug: war-with-masinissa-to-third-punic-war
+cause: war-with-masinissa
+effect: third-punic-war
+relation: casus belli (legal pretext)
+confidence: attested
+mechanism: |
+  Carthage's military operation against Masinissa in 150 BCE
+  was a violation of the Treaty of 201 BCE's allied-protection
+  clause. Rome had been prepared for years (under Cato the
+  Elder's persistent senatorial advocacy) to use any
+  Carthaginian treaty violation as the formal legal pretext
+  for declaring war and destroying the city. The 150 BCE
+  engagement provided that pretext. Roman embassies in 149 BCE
+  with escalating demands followed; the Carthaginian rejection
+  of the relocation ultimatum produced the war.
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 67-74"
+    passage_summary: >
+      Appian narrates the legal-procedural sequence from the
+      150 BCE engagement to the Roman declaration of war as a
+      direct chain.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "36.2 (fragments)"
+    passage_summary: >
+      The Polybian fragments preserve the structural reading of
+      the war's causation: Carthaginian treaty violation as the
+      pretext Rome had been preparing for.
