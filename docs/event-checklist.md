@@ -39,6 +39,40 @@ sorts events chronologically.
 9. **Cape Ecnomus** — naval, scale claims
 10. **Third Punic War** — last because it's the biggest and Appian-as-principal-source deserves practice
 
+## Civilization hub — themes and institutions checklist
+
+Tracked separately from events. The Carthage city page stays focused
+on the physical city; everything cross-cutting goes here.
+
+### Themes (cross-cutting topical pages)
+
+- [x] **Punic religion** — Baal Hammon, Tanit, Melqart, Eshmun, the pantheon
+- [x] **The Tophet question** — the infant-sacrifice debate
+- [ ] **Daily life in Carthage** — housing, food, dress, family, work
+- [ ] **Punic language and script** — alphabet, inscriptions, script on coins
+- [ ] **Carthaginian seafaring and trade** — networks, harbors, Phoenician inheritance
+- [ ] **Carthaginian agriculture** — Mago's lost treatise, the African hinterland
+- [ ] **Punic identity** — Quinn's challenge: what "Phoenician/Punic" meant
+- [ ] **Art and material culture** — stelae, mosaics, jewelry, terracottas
+- [ ] **Slavery and labor** — what we know and largely don't
+- [ ] **Women and family** — Sophonisba, attested practice, gaps in record
+- [ ] **Carthaginian economy** — coinage, tribute, indemnities, silver
+
+### Institutions (formal civic/political bodies)
+
+- [x] **Suffetes** — the two annual chief magistrates *(Aristotle II.11)*
+- [ ] **Council of 104** — judicial-aristocratic oversight body
+- [ ] **Carthaginian Senate** — the deliberative assembly
+- [ ] **Popular assembly** — the civic body for major decisions
+- [ ] **Tophet** (as institution) — the sacred precinct and its priesthood
+
+### Pilots (build first to prove the pattern)
+
+- [x] Theme: **Punic religion**
+- [x] Theme: **The Tophet question**
+- [x] Institution: **Suffetes**
+- [x] **Civilization hub page** at /civilization
+
 ## Schema extensions to grow
 
 As content density forces them. Each will likely come up while building

@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const institutions = (await getCollection('institutions')).sort(
+  (a, b) => a.data.name_display.localeCompare(b.data.name_display)
+);
+---
+
+<BaseLayout title="Institutions">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-2">Institutions</h1>
+    <p class="text-sand-700 mb-8">
+      Formal civic, political, and sacred bodies of Carthage.
+    </p>
+    <ul class="grid sm:grid-cols-2 gap-3">
+      {institutions.map((i) => (
+        <li>
+          <a href={`/institutions/${i.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+            <h2 class="font-serif text-lg text-tyrian-700">{i.data.name_display}</h2>
+            <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{i.data.type}</p>
+            {i.data.name_punic && <p class="text-sm text-sand-700 mt-1">{i.data.name_punic}</p>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

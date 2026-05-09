@@ -1,0 +1,56 @@
+slug: suffetes
+name_display: Suffetes
+name_punic: šofeṭim (sing. šofeṭ)
+name_punic_script: 𐤔𐤐𐤈𐤌
+name_greek: βασιλεῖς (in earlier Greek sources, "kings"); δικασταί (in later sources, "judges")
+name_latin: suffetes
+type: magistracy
+polity: Carthage
+active_from:
+  value: -550
+  precision: century
+  circa: true
+active_to:
+  value: -146
+  precision: year
+summary: >
+  The two annual chief magistrates of Carthage, attested from at least the
+  6th century BCE through the destruction of the city in 146 BCE. The
+  Punic title šofeṭ (cognate with the Hebrew shofet, "judge") was
+  rendered into Greek and Latin in different ways across the surviving
+  sources: earlier Greek writers, including some Polybian passages,
+  treat the suffetes as kings (basileis), while later Greek and Latin
+  writers more accurately translate them as "judges" (dikastai,
+  iudices). The institution is described directly by Aristotle in the
+  one substantial pre-conquest external account of the Carthaginian
+  constitution.
+
+  Two suffetes were elected each year, evidently from the senatorial
+  aristocracy and apparently with eligibility shaped by family standing
+  and merit rather than strict hereditary right. Their functions
+  combined elements that Greek and Roman analysts mapped onto their own
+  consular and archontic categories: presidency over the senate and
+  popular assembly, judicial authority, ceremonial leadership at civic
+  festivals, and (early in the institution's history) command of
+  Carthaginian armies. By the third century BCE the military function
+  had become detachable: military commanders were elected separately,
+  and suffetes might or might not also hold imperium. Hannibal Barca's
+  service as suffete in 196 BCE, in which he reformed Carthaginian
+  finances rather than commanded armies, illustrates the institution's
+  late-Republican civilian character.
+
+  Aristotle's analysis (Politics II.11) compared the Carthaginian
+  suffeteship to the Spartan kingship and the Roman consulship, treating
+  it as one component of a "mixed" constitution that he counted, with
+  the Carthaginian senate and popular assembly, among the better
+  organized non-Greek polities of his day. The institution survived the
+  Roman destruction of Carthage in 146 BCE in altered form: at sites of
+  Punic continuity in North Africa, including Roman-period inscriptions
+  from Lepcis Magna and other former Punic-sphere cities, suffetes
+  continued to be elected as local magistrates well into the early
+  imperial period.
+principal_sources:
+  - aristotle-politics
+  - polybius-histories
+  - livy-auc
+  - hoyos-carthaginians-2010

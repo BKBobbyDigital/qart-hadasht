@@ -338,6 +338,70 @@ const causalLinks = defineCollection({
   }),
 });
 
+// ─── Themes, cross-cutting topical pages ──────────────────────────────────────
+//
+// Long-form prose for topics that span the whole civilization rather than
+// belonging to any single event, place, or person. Religion, daily life,
+// trade networks, identity. Markdown-bodied with structured frontmatter so
+// they slot into the same renderer pattern as narratives but live at /themes.
+
+const themes = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    scope: z.enum([
+      'religion',
+      'daily_life',
+      'society',
+      'economy',
+      'culture',
+      'language',
+      'trade',
+      'identity',
+      'material_culture',
+      'agriculture',
+    ]),
+    summary: z.string(),
+    primary_entities: z.array(claimEntity).default([]),
+    related_themes: z.array(reference('themes')).default([]),
+    referenced_claims: z.array(reference('claims')).default([]),
+    last_revised: z.string(),
+  }),
+});
+
+// ─── Institutions, formal civic and political bodies ──────────────────────────
+//
+// Suffetes, Senate, Council of 104, Tophet (as priestly institution), popular
+// assembly. Distinct from groups (collective actors like Mamertines) and from
+// places (geographic locations). An institution has a function, members, and
+// an active period.
+
+const institutions = defineCollection({
+  type: 'data',
+  schema: z.object({
+    slug: z.string(),
+    name_display: z.string(),
+    name_punic: z.string().optional(),
+    name_punic_script: z.string().optional(),
+    name_greek: z.string().optional(),
+    name_latin: z.string().optional(),
+    type: z.enum([
+      'magistracy',
+      'council',
+      'assembly',
+      'sacred',
+      'judicial',
+      'military',
+    ]),
+    polity: z.string().default('Carthage'),
+    active_from: historicalDate.optional(),
+    active_to: historicalDate.optional(),
+    summary: z.string(),
+    /** Sources that describe or attest the institution. */
+    principal_sources: z.array(reference('sources')).default([]),
+  }),
+});
+
 // ─── Export ───────────────────────────────────────────────────────────────────
 
 export const collections = {
@@ -351,4 +415,6 @@ export const collections = {
   narratives,
   groups,
   causalLinks,
+  themes,
+  institutions,
 };

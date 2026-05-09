@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const themes = await getCollection('themes');
+  return themes.map((t) => ({
+    params: { slug: t.id.replace(/\.md$/, '') },
+    props: { theme: t },
+  }));
+}
+
+const { theme } = Astro.props;
+const { Content } = await render(theme);
+const d = theme.data;
+
+// Resolve related themes
+const relatedThemes = await Promise.all(
+  (d.related_themes ?? []).map(async (r: any) => {
+    const all = await getCollection('themes');
+    return all.find((t) => t.id === r.id || t.id.replace(/\.md$/, '') === r.id);
+  })
+);
+---
+
+<BaseLayout title={d.title} description={d.summary}>
+  <article class="max-w-3xl mx-auto px-6 py-12">
+    <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Theme · {d.scope.replace('_', ' ')}</p>
+    <h1 class="font-serif text-4xl mb-4">{d.title}</h1>
+
+    <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
+      <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Summary</p>
+      <p class="font-serif text-lg leading-snug text-sand-900">{d.summary}</p>
+    </aside>
+
+    <div class="prose-encyclopedia text-sand-900 mt-8">
+      <Content />
+    </div>
+
+    {relatedThemes.filter(Boolean).length > 0 && (
+      <section class="mt-12 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Related themes</h2>
+        <ul class="space-y-2">
+          {relatedThemes.filter(Boolean).map((rt: any) => (
+            <li>
+              <a href={`/themes/${rt.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline font-serif text-lg">{rt.data.title}</a>
+              <p class="text-sm text-sand-700">{rt.data.summary.slice(0, 160)}...</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
+      <p>Last revised {d.last_revised}.</p>
+    </footer>
+  </article>
+</BaseLayout>
