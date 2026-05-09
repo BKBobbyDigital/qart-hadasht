@@ -1,0 +1,73 @@
+slug: fpw-pre-264-treaties
+question: >
+  What were the actual contents of the Roman-Carthaginian treaties before
+  264 BCE — and did any of them restrict Roman action in Sicily?
+why_unknown: >
+  Three or four treaties between Rome and Carthage are referenced in the
+  surviving sources before 264 BCE, but only Polybius preserves any of
+  their contents, and he does so partly to argue against Philinus of
+  Akragas's claim that Rome had violated an existing treaty by
+  intervening in Sicily. The reliability of Polybius's archival access,
+  the completeness of the Roman archives in his day, and the question of
+  whether earlier treaties had been forgotten or quietly ignored are
+  all legitimately disputed. The Carthaginian-side records, if they
+  ever existed, were destroyed in 146 BCE.
+evidence_summary: >
+  Polybius preserves the text of three treaties (3.22–25): the first
+  conventionally dated to 509 BCE, a second to 348 BCE, and a third
+  during the Pyrrhic War (279 or 278 BCE). The first treaty restricts
+  Roman ships from sailing past a defined coastal limit and reserves
+  certain trading regions for Carthage. The second extends and clarifies
+  similar provisions. The third — sometimes called the "Pyrrhic"
+  treaty — concerns mutual aid against Pyrrhus and may have included
+  provisions about the western Mediterranean status quo. Polybius
+  rejects (3.26) the existence of any further treaty restricting
+  Roman action in Sicily, contra Philinus.
+candidate_answers:
+  - answer: Polybius's archival list is complete; no Sicily-restricting treaty existed
+    arguments_for: >
+      Polybius's claim of access to the Capitoline archives is plausible.
+      The three treaties he preserves are detailed and internally
+      consistent. No alternative source preserves a fourth treaty.
+    arguments_against: >
+      Polybius wrote ~150 BCE about treaties of the 4th and 3rd
+      centuries; archival completeness is hard to verify. Roman
+      archives were notoriously imperfect for this period.
+    held_by: Traditional view; defended by some modern scholars on
+      grounds of source fidelity.
+  - answer: A Sicily-restricting treaty existed but was lost or quietly suppressed
+    arguments_for: >
+      Philinus of Akragas — a contemporary of the events — claimed
+      such a treaty existed, and Polybius's rebuttal partly relies on
+      Roman testimony of his own day, which was not disinterested.
+      The Philinus tradition is precisely the kind of inconvenient
+      memory a politically embarrassing treaty would have produced.
+    arguments_against: >
+      No independent attestation; Philinus's full text is lost; the
+      claim cannot be verified from the surviving record.
+    held_by: A minority modern view; defended as plausible without
+      direct evidence.
+  - answer: Understandings short of formal treaty existed and were genuinely contested
+    arguments_for: >
+      Ancient inter-state relations frequently operated on understandings,
+      assurances, and informal restraints rather than formal treaty
+      texts. The Carthaginian and Roman sides may have held different
+      views of what their pre-264 relationship implied for Sicily,
+      with both sides genuinely believing themselves in the right.
+      This reading is consistent with the evidence and with the
+      character of pre-264 Mediterranean diplomacy.
+    arguments_against: >
+      Less satisfying as a definite answer; relies on inference from
+      analogous cases rather than direct testimony.
+    held_by: Approximately Hoyos's reading in *Unplanned Wars* (1998);
+      consistent with Gruen's broader work on ancient diplomacy.
+relevant_entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: context
+what_would_resolve_this: >
+  Discovery of an independent attestation of a fourth pre-264 treaty
+  — a Greek source citing a different tradition, an inscription
+  preserving treaty text, or an archival reference in a now-fragmentary
+  source — would settle it. Such attestation is unlikely to surface
+  given the survival pattern of the relevant historiography.

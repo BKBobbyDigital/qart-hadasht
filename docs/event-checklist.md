@@ -15,7 +15,7 @@ sorts events chronologically.
 - [x] **Battle of Zama** — 202 BCE *(reference implementation)*
 - [x] **Treaty of 201 BCE** *(built alongside Zama)*
 - [x] **Battle of Cannae** — 216 BCE
-- [ ] **First Punic War — Outbreak** — 264 BCE
+- [x] **First Punic War — Outbreak** — 264 BCE
 - [ ] **Agathocles' Invasion of Africa** — 310–307 BCE
 - [ ] **Battle of the Aegates Islands & Treaty of Lutatius** — 241 BCE
 - [ ] **The Mercenary War** — 241–237 BCE
@@ -37,6 +37,28 @@ sorts events chronologically.
 8. **Battle of Himera** — Greek-source bias, opens the Sicilian-Wars cycle
 9. **Cape Ecnomus** — naval, scale claims
 10. **Third Punic War** — last because it's the biggest and Appian-as-principal-source deserves practice
+
+## Future visual work (deferred)
+
+Tracking ideas surfaced during the build that need a separate pass once
+content is denser:
+
+- **Battlefield disposition diagrams** — SVG illustrations of tactical
+  layouts (Hannibal's three lines at Zama, the double envelopment at
+  Cannae, the Carthaginian-Roman fleet dispositions at Mylae and
+  Ecnomus). Hand-crafted, reusable component, marker conventions
+  consistent across battles.
+- **Campaign movement arrows** — over the map, showing march routes
+  (Hannibal's Italian campaign 218–203, Scipio in Iberia and Africa,
+  Agathocles' invasion).
+- **Force-strength visualizations** — bar/area charts comparing
+  reported troop figures across sources, surfacing the inflation
+  problem visually.
+- **Source-distance timeline strip** — "this claim attested by
+  Polybius (50 yrs), Livy (200 yrs), Appian (350 yrs)" rendered as
+  a small graphic on each claim card.
+- **Time-aware territorial maps** — Carthaginian / Roman / Numidian
+  control at 500, 300, 218, 200, 146 BCE.
 
 ## Slice template (for each)
 

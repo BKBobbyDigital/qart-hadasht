@@ -1,0 +1,38 @@
+slug: fpw-first-overseas
+statement: >
+  Appius Claudius Caudex's crossing of the Strait of Messina in 264 BCE
+  was the first time a Roman army had ever deployed outside the Italian
+  peninsula — a structural shift whose long-term significance is
+  underemphasized in narrative accounts focused on the Mamertine crisis.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested and treated by modern scholarship as the structurally
+  decisive moment in the war's outbreak — the act that committed Rome
+  to a category of military action it had previously declined.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.11-12"
+    passage_summary: >
+      Polybius narrates the crossing and notes its unprecedented
+      character.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos identifies the crossing as the threshold act that turned
+      a contained Sicilian crisis into an open war between Rome and
+      Carthage. Once Roman legions were operating overseas and
+      Carthaginian forces were directly engaged, the structural
+      consequences ran ahead of any of the political actors' intentions.
+  - source: macdonald-carthage-2015
+    stance: supports
+    passage_summary: >
+      MacDonald frames the crossing as the moment Carthage's western
+      Mediterranean dominance ceased to be unchallenged.
+entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: context
+  - type: person
+    slug: appius-claudius-caudex
+    role: subject

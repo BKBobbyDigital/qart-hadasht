@@ -1,0 +1,46 @@
+slug: first-punic-war-outbreak
+name: First Punic War — Outbreak
+type: political
+date_start:
+  value: -264
+  precision: year
+  notes: >
+    The political processes spanned 265–264 BCE: the Mamertine appeal
+    in late 265 or early 264, the Roman senate's debate, the comitia
+    centuriata's vote, the establishment of the Carthaginian garrison
+    at Messana, and the Roman expedition under Appius Claudius Caudex
+    in mid-264. The "outbreak" is composite, not a single dated act.
+place: messana
+participants:
+  - person: hiero-ii
+    role: catalyst
+    side: Syracuse
+  - person: appius-claudius-caudex
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+summary: >
+  The political crisis of 265–264 BCE that produced Rome's first
+  overseas war and the first of the three Punic Wars. The trigger was
+  the Mamertines — a band of Campanian mercenaries who had seized the
+  Greek city of Messana in 288 BCE — appealing for protection against
+  Hiero II of Syracuse, whose campaign against them in 265 BCE
+  threatened to end their hold on the city. The Mamertine appeal was
+  directed both to Carthage and to Rome, and both powers responded:
+  Carthage by establishing a garrison at Messana under a commander
+  named Hanno; Rome, after a divided senate referred the matter to the
+  comitia centuriata, by voting for war and dispatching the consul
+  Appius Claudius Caudex with an expeditionary force. The Roman
+  crossing of the Strait of Messina in 264 BCE was the first time a
+  Roman army had ever deployed outside the Italian peninsula. The
+  Carthaginian garrison was expelled (in some accounts at Mamertine
+  hands), Hiero was defeated and forced to terms, and the war that
+  followed lasted twenty-three years. The causal sequence — appeal,
+  senate division, popular vote, expedition, accidental escalation —
+  is the most causally complex event in early Roman-Carthaginian
+  relations and the one most fully reconstructed from the surviving
+  sources, principally Polybius working from now-lost predecessors
+  including Fabius Pictor and Philinus of Akragas.

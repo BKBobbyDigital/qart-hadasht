@@ -1,0 +1,72 @@
+slug: fpw-philinus-treaty
+statement: >
+  Philinus of Akragas alleged in a now-lost history that Rome had
+  violated an existing treaty with Carthage by intervening in Sicily —
+  a claim Polybius preserves only in order to reject it.
+confidence: contested
+scholarly_consensus: >
+  That Philinus made the claim is firmly attested by Polybius's
+  rebuttal. Whether the treaty Philinus cited actually existed in
+  the form he claimed is genuinely disputed and probably unrecoverable.
+  Modern scholarship is divided.
+dispute_summary: |
+  The Polybian rebuttal (3.26) is our only substantive evidence. Polybius
+  argues that no such treaty existed in the Roman archives he had access
+  to and that the Romans of Polybius's day denied any such restriction
+  on Roman action in Sicily.
+
+  Three positions in modern scholarship:
+
+  1. **Philinus invented or misremembered.** Polybius's archival
+     argument is decisive; no such treaty existed and Philinus's claim
+     was either a misunderstanding or a deliberately favorable framing
+     for Carthage. (The traditional view, dominant before Hoyos.)
+
+  2. **Philinus referred to a real treaty Polybius didn't find.**
+     The Roman archives Polybius consulted may have been incomplete;
+     a treaty restricting Roman action in Sicily — perhaps from the
+     280s BCE Pyrrhic-War period — may genuinely have existed and
+     been quietly forgotten by Polybius's Roman informants.
+
+  3. **The truth is in between.** There may have been understandings
+     short of formal treaty that Philinus or his sources interpreted
+     as treaty-restrictions. The Carthaginian and Roman sides may
+     have had different views of what the relationship implied.
+     (Roughly Hoyos's reading.)
+
+  The substantive point matters: if Philinus's tradition has any
+  weight, the Roman expedition of 264 was not unambiguously legitimate
+  and the Carthaginian-Roman confrontation was framed by genuinely
+  contested expectations. The disagreement is the kind of source
+  problem that modern scholarship has had to handle without resolution.
+sources:
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.26"
+    passage_summary: >
+      Polybius preserves Philinus's claim only to refute it, citing
+      the Roman archives and the testimony of Roman informants of
+      his own day.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos surveys the modern scholarly debate and treats Polybius's
+      rebuttal as not fully decisive, while stopping short of accepting
+      Philinus's claim in the strong form Philinus made it.
+  - source: gruen-rethinking-2011
+    stance: qualifies
+    passage_summary: >
+      Gruen's broader argument about ancient inter-state relations
+      lends support to the third reading: that ancient states often
+      operated under understandings short of formal treaty whose
+      existence and terms were genuinely contested.
+notes: >
+  This is a claim about a lost source. The schema's confidence model
+  handles it: the claim itself is "Philinus alleged X" — that Philinus
+  alleged it is firmly attested in Polybius's rebuttal. The deeper
+  question of whether Philinus was right is captured in the dispute
+  summary and is where the genuine scholarly disagreement lies.
+entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: context

@@ -1,0 +1,96 @@
+slug: fpw-causation
+subject_question: >
+  Was the First Punic War the product of long-developing structural
+  forces — Roman expansion, Carthaginian imperial defense — or of
+  contingent decisions in 265–264 BCE that escalated beyond what
+  either party had intended?
+subject_entity:
+  type: event
+  slug: first-punic-war-outbreak
+  role: subject
+position: >
+  The contingent reading is closer to the truth. Rome and Carthage
+  in 265 BCE were not on a structurally inevitable collision course;
+  they had coexisted under a series of treaties for two and a half
+  centuries. The war emerged from a specific political crisis at
+  Messana that escalated through a series of decisions — Carthaginian,
+  Mamertine, Roman — none of which had to be made the way they were.
+  The structural reading retroactively imposes a teleology of Roman
+  expansion that was not visible to the actors of 265–264 and is
+  difficult to reconstruct from the surviving sources. The implication
+  is not that Rome was a peaceful actor or that Carthage was — neither
+  was — but that the war's specific outbreak in this year, in this
+  form, was a contingent outcome.
+reasoning: |
+  Three lines of evidence support reading the war as contingent rather
+  than structural:
+
+  1. **The Roman senatorial division.** Polybius's account — and
+     this is the testimony of a historian generally favorable to Roman
+     decision-making — explicitly reports that the senate could not
+     reach a position on the Mamertine appeal and referred the matter
+     to the comitia. A coherent imperial program would not have
+     produced this kind of constitutional indecision. Whatever was
+     pushing Rome toward Sicily in 265 was not a settled policy.
+
+  2. **The unusual character of the comitial vote.** The matter was
+     unusual enough to require the people's decision, and even then
+     was reportedly carried by a combination of strategic anxiety
+     and the prospect of plunder. This is not the operation of
+     long-developing imperial design.
+
+  3. **The pre-264 record.** The known treaties between Rome and
+     Carthage (509, 348, possibly 279/278) had established a pattern
+     of mutual restraint. Both states had observed it through the
+     Pyrrhic War, when their interests aligned against a common
+     enemy. The breakdown of that pattern in 264 was not the
+     culmination of a long deterioration; it was a sudden crisis
+     produced by a specific event.
+
+  The Hoyos thesis — *Unplanned Wars* (1998) — has substantially
+  reshaped Anglophone scholarship on this question. The site adopts
+  it not as an article of faith but because the evidence as preserved
+  in Polybius supports it more clearly than the older structural
+  reading does. The structural reading is not refuted by what the
+  sources say; it is undersupported by what the sources say.
+
+  This take applies to the war's *outbreak*, not to its character
+  once underway. Once Rome was committed to overseas warfare and
+  Carthage to defending its Sicilian position, both states behaved
+  in ways that look more "imperial" — and the war's escalation,
+  duration, and terms are properly read in those terms. But the
+  decision to begin the war in 264 was not the decision of two
+  states pursuing settled imperial programs.
+confidence: moderate
+weighed_claims:
+  - fpw-mamertine-appeal
+  - fpw-carthaginian-garrison
+  - fpw-roman-senate-divided
+  - fpw-comitia-vote
+  - fpw-philinus-treaty
+  - fpw-first-overseas
+competing_positions:
+  - position: >
+      Rome's expansion in the western Mediterranean was structurally
+      inevitable by the 260s BCE; the Mamertine crisis was a trigger,
+      not a cause.
+    why_rejected: >
+      The structural reading is consistent with the long-term outcome
+      but not well-supported by the moment-of-decision evidence. If
+      Roman expansion had been settled, the senate would not have
+      divided and the comitia would not have needed to be persuaded.
+    held_by: An older view, dominant in mid-20th-century scholarship.
+  - position: >
+      Carthaginian imperial expansion in Sicily was the actual cause;
+      Rome's intervention was a defensive response.
+    why_rejected: >
+      Polybius's framing essentially. Treats the Carthaginian garrison
+      at Messana as the aggressive act and Roman action as response.
+      Defensible if Polybius is read at face value, but Hoyos's source
+      critique and the Philinus tradition complicate the framing.
+      The Carthaginian intervention was not unambiguously aggressive
+      in the way this reading requires.
+    held_by: The Polybian framing; followed by sources that take Polybius
+      at face value.
+last_reviewed: "2026-05-08"
+open_to_revision: true

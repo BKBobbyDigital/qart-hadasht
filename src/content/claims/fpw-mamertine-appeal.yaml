@@ -1,0 +1,40 @@
+slug: fpw-mamertine-appeal
+statement: >
+  The Mamertines of Messana, threatened by Hiero II of Syracuse, appealed
+  for protection both to Carthage and to Rome in 265 or early 264 BCE.
+confidence: attested
+scholarly_consensus: >
+  The double appeal is firmly attested in Polybius and accepted by
+  modern scholarship. Some details — the order of the appeals, whether
+  one preceded the other, whether the Mamertines played the two powers
+  off against each other — are debated, but the central fact of an
+  appeal to both is not.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.10"
+    passage_summary: >
+      Polybius reports that the Mamertines, faced with defeat by Hiero,
+      divided into two factions — one favoring an appeal to Carthage,
+      the other an appeal to Rome — and that ultimately appeals were
+      made to both powers.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "23.1.4"
+    passage_summary: >
+      Diodorus's surviving fragments preserve the Mamertine appeal
+      with details consistent with Polybius's narrative.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos analyzes the appeal as the contingent trigger that drew
+      both powers into a confrontation neither had clearly intended,
+      treating the Mamertine factional split as decisive for what
+      followed.
+entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: subject
+  - type: person
+    slug: hiero-ii
+    role: catalyst

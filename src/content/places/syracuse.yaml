@@ -1,0 +1,26 @@
+slug: syracuse
+name_display: Syracuse
+names_alt:
+  greek: Συράκουσαι
+  latin: Syracusae
+  modern: Siracusa, Sicily
+type: city
+primary:
+  label: Syracuse (modern Siracusa)
+  lat: 37.0755
+  lon: 15.2866
+  confidence: certain
+modern_location: Siracusa, Sicily, Italy
+summary: >
+  The principal Greek city of Sicily, founded as a Corinthian colony
+  in 734 BCE and developed by the 5th and 4th centuries BCE into one
+  of the greatest cities of the Mediterranean — large enough to defeat
+  the Athenian expedition in 413 BCE, repeatedly to lead Greek Sicily
+  against Carthaginian invasions, and under Agathocles in 310 BCE to
+  carry the war to Africa itself. By the early third century BCE the
+  city was ruled by Hiero II, whose long alignment with Rome through
+  the First Punic War made Syracuse the linchpin of the Roman position
+  in Sicily. The city's relationship with Rome turned hostile under
+  Hiero's grandson Hieronymus during the Second Punic War, producing
+  the famous Roman siege of 213–211 BCE under Marcellus and the death
+  of Archimedes during its sack.

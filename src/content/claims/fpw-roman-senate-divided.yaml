@@ -1,0 +1,36 @@
+slug: fpw-roman-senate-divided
+statement: >
+  The Roman senate was divided on whether to intervene at Messana, and
+  the matter was referred to the comitia centuriata for decision —
+  an unusual constitutional step that suggests serious doubt about the
+  legitimacy or wisdom of the war.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in Polybius. Modern constitutional historians treat
+  the referral to the comitia as the most striking procedural feature
+  of the war's outbreak and as evidence that the senate could not
+  reach a clear position.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.11"
+    passage_summary: >
+      Polybius reports the senatorial division explicitly and notes
+      that the senate, unable to reach a decision, referred the matter
+      to the people. He frames this as evidence of the unusual character
+      of the proposed action.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos treats the senatorial division as central evidence for the
+      "unplanned wars" thesis: a coherent imperial program would not
+      have produced this kind of constitutional hesitation.
+  - source: macdonald-carthage-2015
+    stance: supports
+    passage_summary: >
+      MacDonald reads the senatorial division as a useful corrective
+      to retrospective narratives of inevitable Roman expansion.
+entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: context
