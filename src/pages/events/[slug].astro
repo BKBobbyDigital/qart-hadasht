@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
+import CannaeDiagram from '../../components/CannaeDiagram.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -177,6 +178,8 @@ const era = data.date_start.value < 0 ? 'BCE' : 'CE';
           : undefined}
       />
     )}
+
+    {event.id === 'battle-of-cannae' && <CannaeDiagram />}
 
     {hasContext && (
       <section class="mt-8">
