@@ -1,0 +1,47 @@
+slug: hamilcar-magonid
+name_display: Hamilcar (the Magonid, son of Hanno)
+name_punic: ʿAbd-Melqart
+name_punic_script: 𐤏𐤁𐤃𐤌𐤋𐤒𐤓𐤕
+name_greek: Ἀμίλκας
+name_latin: Hamilcar
+etymology: >
+  Hamilcar (Punic ʿAbd-Melqart, "servant of Melqart") was a common
+  Carthaginian theophoric name borne by multiple distinct historical
+  figures. This Hamilcar is distinguished by his patronymic (son of
+  Hanno) and by his Magonid family connection. The Magonids, named
+  after the founding general Mago, dominated Carthaginian military
+  and political life from the late 6th to the mid-5th century BCE
+  and provided the principal commanders of the early Carthaginian
+  Sicilian campaigns.
+floruit:
+  value: -485
+  precision: decade
+  circa: true
+death:
+  value: -480
+  precision: year
+  notes: Reportedly killed himself by leaping into a sacrificial fire at Himera when he saw the battle going against him (Herodotus 7.167).
+roles:
+  - general
+polity: Carthage
+summary: >
+  Carthaginian general of the Magonid family who commanded the
+  Carthaginian invasion of Sicily in 480 BCE that ended in the
+  catastrophic defeat at Himera. Sent in response to appeals from
+  Terillus (the exiled tyrant of Himera) and Anaxilas of Rhegium,
+  Hamilcar landed at Panormus (modern Palermo) with a force the
+  surviving sources estimate at hundreds of thousands of men, almost
+  certainly an inflated figure but pointing to a major expedition by
+  any reasonable reading. The army marched east along the north
+  coast of Sicily and was met at Himera by the combined forces of
+  Gelon of Syracuse and Theron of Akragas. The engagement that
+  followed was a Greek victory of the first magnitude. Hamilcar,
+  according to Herodotus, killed himself in the Carthaginian camp by
+  leaping into the sacrificial fire when he saw the battle going
+  against him; Diodorus has a slightly different version. Either
+  way, his death and the Carthaginian rout produced a Greek victory
+  the surviving sources treat as comparable in scale to the
+  contemporary Greek victories over the Persians on the mainland.
+  Hamilcar is the first major Carthaginian commander to enter the
+  surviving record by name and the first to suffer a catastrophic
+  defeat at Greek hands.

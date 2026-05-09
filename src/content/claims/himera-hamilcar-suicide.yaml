@@ -1,0 +1,68 @@
+slug: himera-hamilcar-suicide
+statement: >
+  Hamilcar the Magonid, watching the battle going against him from
+  the Carthaginian camp, killed himself by leaping into the
+  sacrificial fire at which he had been making offerings.
+confidence: contested
+scholarly_consensus: >
+  The death of Hamilcar at Himera is firmly attested. The specific
+  manner of death (leap into the sacrificial fire) is preserved in
+  Herodotus but reads as legendary in form. Modern scholarship
+  generally treats the leap-into-fire detail as a Greek
+  historiographic motif rather than verifiable testimony.
+dispute_summary: |
+  Two surviving versions:
+
+  - **Herodotus (7.167).** Hamilcar, watching the battle from the
+    camp, was sacrificing whole victims on a great fire and pouring
+    libations. When he saw the Carthaginian army turning to flight,
+    he flung himself into the fire and was burned to death. No
+    body was found.
+
+  - **Diodorus (11.22).** Hamilcar was killed in the cavalry attack
+    on the Carthaginian camp by Greek raiders.
+
+  The two accounts are not reconcilable, and the difference is
+  diagnostic of the source traditions:
+
+  - The Herodotean version has the formal shape of a Greek
+    historiographic motif: the eastern barbarian commander whose
+    death by self-sacrifice in the fire combines hubris,
+    punishment, and the inability to comprehend Greek victory.
+    Comparable passages in Herodotus's narrative of the Persian
+    Wars treat Persian commanders in similar terms.
+
+  - The Diodoran version is more prosaic and probably closer to
+    what occurred: Hamilcar fell when his camp was overrun.
+
+  Modern scholarship generally reads the Herodotean account as a
+  literary elaboration of an underlying fact (Hamilcar's death in
+  the camp during the Greek attack) and prefers the Diodoran
+  version's broader contour.
+
+  The cultic detail, however, is not without basis. Carthaginian
+  pre-battle sacrifice (likely to Baal Hammon and Tanit) is
+  attested elsewhere and is consistent with the kind of ritual
+  setting Herodotus describes. The cultic-ritual frame may be
+  authentic, even if Hamilcar's specific manner of death is
+  Herodotean elaboration.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "7.167"
+    passage_summary: >
+      Herodotus's account of the leap into the fire and the
+      ritualized framing of Hamilcar's death.
+  - source: diodorus-library
+    stance: contradicts
+    passage_ref: "11.22"
+    passage_summary: >
+      Diodorus's account of Hamilcar killed in the cavalry attack
+      on the camp, without the ritual-suicide detail.
+entities:
+  - type: person
+    slug: hamilcar-magonid
+    role: subject
+  - type: event
+    slug: battle-of-himera
+    role: context

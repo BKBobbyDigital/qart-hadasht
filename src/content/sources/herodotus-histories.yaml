@@ -1,0 +1,46 @@
+slug: herodotus-histories
+title: Histories
+author: Herodotus of Halicarnassus
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: -440
+  precision: decade
+  circa: true
+temporal_distance_years: 40
+access_to_witnesses: contemporary
+bias_notes: >
+  Greek historian writing in the mid-5th century BCE, approximately
+  forty years after the events of Himera. Herodotus's principal
+  subject is the Persian Wars and the broader confrontation between
+  Greeks and "barbarians" he reads as their structural counterpart;
+  Carthage and Sicily enter his narrative substantially as the
+  western mirror of the eastern Persian-Greek conflict, with the
+  Sicilian victory over Carthage explicitly paired with Salamis as
+  a Greek dual triumph. The framing is more rhetorically
+  constructed than historically grounded: the same-day coincidence
+  Herodotus emphasizes is impossible to verify and may be
+  literary rather than factual. Where Herodotus reports specific
+  details about Carthage and Carthaginian practice, his information
+  is often distant and sometimes confused, having traveled to him
+  through multiple intermediaries. Where he provides Greek-Sicilian
+  political detail, his sources were likely better.
+public_domain_translation:
+  translator: A. D. Godley
+  year: 1920
+  url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0125
+summary: >
+  Nine-book history of the Persian Wars, conventionally treated as
+  the foundational work of Greek (and Western) historical writing.
+  Books 7-9 cover the years 480-479 BCE in detail, including the
+  battles of Thermopylae, Salamis, and Plataea on the Greek
+  mainland. Book 7.165-167 contains Herodotus's brief but
+  influential account of the Carthaginian invasion of Sicily and
+  the Battle of Himera, framed as the western counterpart to the
+  Persian invasion. The chapter introduces the same-day-as-Salamis
+  tradition that subsequent Greek and Latin authors (especially
+  Diodorus) would elaborate. For Carthaginian history, Herodotus
+  is the earliest preserved literary source naming Carthaginian
+  individuals; for the Sicilian-Greek world he is essential
+  background.

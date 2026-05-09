@@ -1,0 +1,71 @@
+slug: himera-salamis-pairing
+statement: >
+  Greek historiography pairs Himera with the contemporary Greek
+  victories over the Persians on the mainland (Salamis in
+  Herodotus, Thermopylae in Diodorus), framing Himera and the
+  Persian War as a coordinated Greek triumph over barbarian
+  invasion. The pairing is a literary-historiographic device, not
+  evidence of actual coordination between Persia and Carthage.
+confidence: contested
+scholarly_consensus: >
+  The Greek-historiographic pairing is firmly attested. Whether
+  it reflects historical coordination of the Carthaginian and
+  Persian invasions or is a Greek literary construction is
+  contested but with strong modern preference for the
+  literary-construction reading.
+dispute_summary: |
+  Three positions on the pairing:
+
+  1. **Coordinated Persian-Carthaginian invasion.** A minority of
+     ancient sources and some modern scholars treat the pairing as
+     historical: that Carthage and Persia coordinated their attacks
+     on the Greek world for the same year. Evidence: Herodotus's
+     same-day claim, the broad strategic logic (a two-front
+     pressure on Greek freedom), the Phoenician naval contingent
+     in Xerxes' fleet (which would have given Carthage and Persia
+     channels for coordination).
+
+  2. **Greek-historiographic construction.** Most modern
+     scholarship treats the same-day claim as impossible to
+     verify and most likely literary. The two events occurred in
+     the same year because the geopolitical conditions of 480
+     BCE produced both independently: the Persian invasion was
+     planned for years; the Carthaginian intervention was a
+     response to Theron's seizure of Himera in 483. Chronological
+     coincidence at the level of the year is plausible;
+     coordination is not attested.
+
+  3. **Symbolic coincidence with no historical basis at all.** A
+     stronger skeptical reading argues that even the same-year
+     claim is rhetorical, with Herodotus or his sources adjusting
+     the chronology of Himera to match the Persian War narrative.
+     This reading is held by relatively few modern scholars but
+     is defensible.
+
+  The site adopts the second position as the working reading:
+  the pairing is Greek-historiographic, the year is genuinely
+  shared but coincidentally, no Persian-Carthaginian coordination
+  is attested. The first reading is not refuted but is not
+  well-supported.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "7.166"
+    passage_summary: >
+      Herodotus's same-day claim ("on the very day of the sea-fight
+      at Salamis") is the principal source for the pairing
+      tradition. The framing is rhetorically deliberate;
+      Herodotus uses it to argue for the Greeks' simultaneous
+      victory at both ends of their world.
+  - source: diodorus-library
+    stance: qualifies
+    passage_ref: "11.24"
+    passage_summary: >
+      Diodorus pairs Himera with Thermopylae rather than Salamis,
+      indicating that the specific pairing was not stable across
+      the Greek tradition and was adjusted by different authors
+      for different rhetorical purposes.
+entities:
+  - type: event
+    slug: battle-of-himera
+    role: subject

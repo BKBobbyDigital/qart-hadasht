@@ -1,0 +1,39 @@
+slug: himera-aftermath-indemnity
+statement: >
+  After Himera, Carthage paid an indemnity of 2,000 silver talents
+  to Syracuse and Akragas and concluded a peace with Greek Sicily
+  that lasted approximately 70 years until the Carthaginian
+  invasion of 409 BCE.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. The indemnity figure and the duration of the
+  subsequent peace are preserved consistently across the Greek
+  tradition and are not seriously contested.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "11.26"
+    passage_summary: >
+      Diodorus records the 2,000-talent indemnity and the peace
+      terms, with sufficient detail to anchor the modern
+      understanding of the post-Himera settlement. The same
+      passage records the Greek victors' use of the indemnity to
+      fund temple construction at Akragas and Syracuse.
+  - source: herodotus-histories
+    stance: qualifies
+    passage_ref: "7.167"
+    passage_summary: >
+      Herodotus does not give the indemnity figure but records
+      the broad outcome consistent with Diodorus's fuller account.
+notes: >
+  The 70-year peace was not absolute; smaller-scale conflicts and
+  Carthaginian territorial adjustments in western Sicily occurred
+  through the period. But the major Carthaginian-Greek warfare in
+  Sicily resumed only with the Hannibalic invasion of 409 BCE
+  (not the Hannibal of the Punic Wars but an earlier Magonid
+  Hannibal son of Gisco), which was conceived in the surviving
+  Greek tradition as a generations-long revenge for Himera.
+entities:
+  - type: event
+    slug: battle-of-himera
+    role: subject

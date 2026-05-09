@@ -1,0 +1,85 @@
+slug: himera-greek-pairing
+subject_question: >
+  How should we read Herodotus's pairing of Himera with Salamis?
+subject_entity:
+  type: event
+  slug: battle-of-himera
+  role: subject
+position: >
+  As a Greek-historiographic literary construction, not as evidence
+  of historical coordination between Persia and Carthage. The two
+  victories occurred in the same year because the strategic
+  conditions of 480 BCE independently produced both: the Persian
+  invasion had been planned for years, and the Carthaginian
+  intervention was a response to Theron of Akragas's 483 BCE
+  seizure of Himera and its tyrant Terillus's appeal for help. The
+  year-coincidence is real but coincidental. The same-day
+  coincidence Herodotus claims is impossible to verify and is best
+  read as rhetorical. The pairing's importance is not what it
+  tells us about 480 BCE diplomacy but what it tells us about
+  Greek-historiographic self-understanding: the Greek world
+  imagined its struggle with the "barbarian" as a single
+  Mediterranean-spanning conflict, with Salamis and Himera as
+  the western and eastern poles of one Greek triumph. That is a
+  fact about Greek thought, not about Carthaginian or Persian
+  planning.
+reasoning: |
+  Three observations:
+
+  1. **The rhetoric is deliberate.** Herodotus's same-day claim
+     comes in a passage explicitly framed around the parallelism
+     of the two victories. He is making a literary argument about
+     Greek unity-in-victory; he is not claiming to have evidence
+     of Persian-Carthaginian communication or coordination. The
+     subsequent Greek tradition (Diodorus, Aristotle, others)
+     elaborates the literary frame without adding new evidence
+     for actual coordination.
+
+  2. **The chronology is coincidence-shaped, not coordination-
+     shaped.** The Persian invasion of 480 was planned in detail
+     for years; the Carthaginian expedition was a response to
+     specific events in Sicilian Greek politics in 483 BCE. The
+     two were on independent timelines. They converged in 480
+     because of the practical sailing seasons of the Mediterranean
+     in that year, not because either was waiting for the other.
+
+  3. **The structural argument for coordination is weak.** The
+     Persian-Carthaginian "two-front strategy" reading requires
+     channels of communication and command coordination that no
+     surviving evidence attests. Phoenician contingents in the
+     Persian fleet provide a hypothetical channel but nothing
+     more. The strategic logic is reconstructed by modern
+     scholars in retrospect; it is not preserved in any source
+     as a plan articulated by the actual decision-makers.
+
+  The pairing is therefore best read at face value: as Greek
+  thinking about the Greek victory rather than as ancient
+  reportage of Persian-Carthaginian planning. Reading it any
+  other way confuses the level at which Herodotus is operating.
+confidence: moderate
+weighed_claims:
+  - himera-salamis-pairing
+  - himera-carthaginian-defeat
+competing_positions:
+  - position: >
+      The Carthaginian and Persian invasions were genuinely
+      coordinated.
+    why_rejected: >
+      No surviving evidence attests planning communication between
+      the two states. The structural-strategic argument is a
+      modern reconstruction that ancient sources do not articulate.
+      The same-day claim is most plausibly rhetorical.
+    held_by: A minority of ancient sources and some modern
+      scholars; rarely strongly defended in current scholarship.
+  - position: >
+      The same-year claim is itself rhetorical; even the broad
+      chronological coincidence is doubtful.
+    why_rejected: >
+      Pushes skepticism further than the evidence supports. The
+      Persian invasion of 480 BCE is firmly dated; the
+      Carthaginian invasion of the same year is the dating modern
+      scholarship accepts. The same-day claim is rhetorical but
+      the same-year is real.
+    held_by: A skeptical minority; defensible but not standard.
+last_reviewed: "2026-05-09"
+open_to_revision: true

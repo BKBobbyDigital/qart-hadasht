@@ -1,0 +1,64 @@
+slug: battle-of-himera
+name: Battle of Himera
+type: battle
+date_start:
+  value: -480
+  precision: year
+  notes: >
+    The Greek tradition (Herodotus 7.166, Diodorus 11.24) places
+    Himera on the same day as the Battle of Salamis (in Herodotus)
+    or Thermopylae (in Diodorus). The pairing is itself part of
+    the historiographic tradition; the actual chronological
+    coincidence is contested.
+place: himera
+participants:
+  - person: hamilcar-magonid
+    role: commander
+    side: Carthaginian
+  - person: gelon
+    role: commander
+    side: Greek (Syracuse)
+  - person: theron
+    role: commander
+    side: Greek (Akragas)
+principal_sources:
+  - herodotus-histories
+  - diodorus-library
+related_events:
+  - event: third-sicilian-war
+    relation: precursor (the long Greco-Carthaginian conflict over Sicily)
+    notes: >
+      Himera is the first major engagement in the long
+      Greco-Carthaginian struggle over Sicily, conventionally
+      treated as the opening of a cycle that runs through the
+      Sicilian Wars of the 5th-4th centuries and into the
+      Agathocles invasion at the cycle's close.
+summary: >
+  The decisive Greek-Sicilian victory over the Carthaginian invasion
+  of 480 BCE, the largest engagement in the western Mediterranean
+  before the Punic Wars and the foundation of Greek-Sicilian
+  dominance for the half-century that followed. The Carthaginian
+  expedition under the Magonid Hamilcar son of Hanno had been
+  dispatched in support of the exiled Himeran tyrant Terillus and
+  his ally Anaxilas of Rhegium against the Akragantine Theron and
+  the Syracusan Gelon. The Carthaginian force, the surviving
+  sources estimate at hundreds of thousands of men (almost
+  certainly inflated, but pointing to a major expedition), landed
+  at Panormus and marched east. Met at Himera by the combined
+  Syracusan-Akragantine army under Gelon and Theron, the
+  Carthaginian camp was stormed and the army routed. Hamilcar was
+  reportedly killed in the camp during the fighting, in some
+  versions by leaping into a sacrificial fire when he saw the
+  battle going against him. Greek casualty figures for the
+  Carthaginian side run as high as 150,000 dead (Diodorus 11.22)
+  and are universally treated by modern scholarship as inflated.
+  The aftermath imposed a 2,000-talent indemnity on Carthage and
+  produced an approximately 70-year peace with Greek Sicily.
+
+  The Greek-historiographic tradition pairs Himera with the
+  contemporary Greek victories over the Persians on the mainland
+  (Salamis in Herodotus, Thermopylae in Diodorus), a pairing
+  treated by some ancient sources as evidence of coordinated
+  Persian-Carthaginian planning and by most modern scholarship
+  as a literary device for situating Greek-Sicilian victory in
+  the broader narrative of Greek triumph over barbarian invasion.

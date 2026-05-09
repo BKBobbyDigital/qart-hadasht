@@ -1,0 +1,73 @@
+slug: himera-troop-numbers
+statement: >
+  The surviving sources give Carthaginian troop figures at Himera
+  ranging from 200,000 to 300,000 men. These numbers are
+  universally treated by modern scholarship as inflated, though
+  they are consistent in pointing to a major expedition by the
+  standards of the period.
+confidence: contested
+scholarly_consensus: >
+  The order of magnitude (a major Carthaginian expedition rather
+  than a routine punitive force) is firmly attested. The specific
+  totals are not. Modern reconstructions typically estimate
+  20,000-50,000 Carthaginian effectives, an order of magnitude
+  smaller than the ancient figures.
+dispute_summary: |
+  Herodotus (7.165) gives 300,000; Diodorus (11.20) gives 300,000
+  troops plus 200,000 in support; later traditions vary. The
+  pattern is characteristic of Greek and Roman casualty
+  reporting for non-Greek invasions, where round-number figures
+  in the hundreds of thousands serve rhetorical purposes (the
+  scale of the threat, the magnitude of the Greek victory) more
+  than they describe actual force structure.
+
+  Modern reconstructions work from comparative evidence:
+
+  - **Logistical capacity.** Carthaginian transport and supply
+    capability in 480 BCE could not have moved 300,000 men across
+    the central Mediterranean in any plausible reading of period
+    naval and supply technology.
+
+  - **Demographic constraints.** A Carthaginian field army of
+    300,000 would have required mobilization of essentially the
+    entire male population of Carthage and its dependencies, which
+    is incompatible with what we know of the city's size in the
+    early 5th century BCE.
+
+  - **Comparative engagement scales.** Even the largest verified
+    ancient battle scales (Cannae, Cape Ecnomus) involve forces
+    in the tens of thousands, not the hundreds of thousands. A
+    Himera figure of 30,000-50,000 would be comparable to those.
+
+  Modern estimates therefore place the actual Carthaginian
+  expedition at somewhere between 20,000 and 50,000 effectives.
+  The Greek victory was substantial regardless of the exact
+  figures; the scale-inflation is a historiographic feature
+  rather than a fundamental challenge to the basic outcome.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "7.165"
+    passage_summary: >
+      Herodotus reports 300,000 Carthaginian troops, treated by
+      modern scholarship as inflated but indicative of a major
+      expedition.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "11.20-22"
+    passage_summary: >
+      Diodorus elaborates the figures with troop-type breakdowns
+      that follow the same pattern of inflation; modern
+      scholarship reads the breakdown as Timaean rather than
+      historical.
+  - source: aubet-phoenicians-west-2001
+    stance: qualifies
+    passage_summary: >
+      Aubet treats the ancient figures as illustrative of
+      Greek-historiographic convention rather than historically
+      reliable, while affirming the underlying scale of the
+      expedition as substantial.
+entities:
+  - type: event
+    slug: battle-of-himera
+    role: subject

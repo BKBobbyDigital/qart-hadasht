@@ -22,7 +22,7 @@ sorts events chronologically.
 - [x] **The Mercenary War** — 241–237 BCE
 - [x] **Founding of Carthage** — traditional 814 BCE
 - [x] **First Treaty with Rome** — 509 BCE
-- [ ] **Battle of Himera** — 480 BCE
+- [x] **Battle of Himera** — 480 BCE
 - [ ] **Battle of Cape Ecnomus** — 256 BCE
 - [ ] **Third Punic War & Destruction of Carthage** — 149–146 BCE
 

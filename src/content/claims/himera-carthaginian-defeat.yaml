@@ -1,0 +1,34 @@
+slug: himera-carthaginian-defeat
+statement: >
+  The Carthaginian expeditionary force under Hamilcar the Magonid was
+  decisively defeated at Himera by the combined Greek-Sicilian army
+  under Gelon of Syracuse and Theron of Akragas in 480 BCE.
+confidence: attested
+scholarly_consensus: >
+  Universally accepted across the surviving sources and modern
+  scholarship. The fact of the Carthaginian defeat at Himera is
+  one of the most secure events in 5th-century BCE western
+  Mediterranean history; only the specific scale and detail are
+  contested.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "7.165-167"
+    passage_summary: >
+      Herodotus narrates the Carthaginian expedition, the
+      engagement at Himera, the destruction of the Carthaginian
+      army, and Hamilcar's death in the camp. The account is brief
+      but unambiguous on the outcome.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "11.20-26"
+    passage_summary: >
+      Diodorus provides the fullest preserved narrative of the
+      battle, drawing on Timaeus and other now-lost Sicilian-Greek
+      sources. The tactical detail is more developed than in
+      Herodotus and is the principal basis for modern
+      reconstructions.
+entities:
+  - type: event
+    slug: battle-of-himera
+    role: subject
