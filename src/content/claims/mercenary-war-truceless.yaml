@@ -1,0 +1,31 @@
+slug: mercenary-war-truceless
+statement: >
+  The Mercenary War's brutality was unusual even by the standards of
+  ancient warfare. Both sides systematically used torture, mutilation,
+  and reciprocal atrocity. Polybius's term *aspondos polemos*
+  ("truceless war") reflects this character and is the basis for the
+  conflict's modern English name, "the Truceless War."
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.81, 1.88"
+    passage_summary: >
+      Polybius repeatedly characterizes the war as without parallel
+      in his time for cruelty, describes specific atrocities by both
+      Carthaginian and rebel forces, and uses *aspondos polemos*
+      explicitly. The framing is one of his strongest moral
+      judgments anywhere in the Histories.
+  - source: hoyos-truceless-war-2007
+    stance: qualifies
+    passage_summary: >
+      Hoyos accepts the brutality as historical while contextualizing
+      Polybius's framing: the *aspondos polemos* characterization
+      partly serves Polybius's narrative purposes (positioning the
+      Mercenary War as the moral baseline against which Hannibal's
+      later war was less savage than Roman tradition claimed). The
+      brutality was real; the framing is also rhetorical.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject

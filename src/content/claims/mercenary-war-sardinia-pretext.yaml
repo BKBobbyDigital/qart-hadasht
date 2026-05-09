@@ -1,0 +1,41 @@
+slug: mercenary-war-sardinia-pretext
+statement: >
+  Sardinian mercenaries also revolted during the war, and Carthage's
+  inability to suppress them gave Rome the pretext to seize Sardinia
+  in 238 BCE on a manufactured charge of Carthaginian "preparation
+  for war" against Rome. Polybius identifies this seizure, not the
+  Lutatius treaty itself, as the deepest cause of the Second Punic
+  War.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. The 238 BCE seizure is preserved in Polybius's
+  narrative of the Second Punic War's causes and is treated by
+  modern scholarship as a key Roman misstep that converted a
+  defeated Carthage into a permanently aggrieved one.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.10, 3.27-28"
+    passage_summary: >
+      Polybius treats the Sardinian seizure as the structural cause
+      of Carthaginian grievance and as the Roman conduct that the
+      Barcid family carried forward into the next war. He
+      distinguishes this from the original treaty terms, which he
+      treats as defensible.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the Sardinian episode as part of a broader
+      pattern of Roman opportunism toward Carthage in the late 230s
+      BCE; the seizure is the moment that the Lutatius framework
+      shifted from peace settlement to ongoing strategic
+      humiliation.
+notes: >
+  This claim links the Mercenary War to a future event the site
+  has not yet built: the Roman seizure of Sardinia and the
+  subsequent Barcid pivot to Iberia. Both will be treated in their
+  own right when those events are added.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: context

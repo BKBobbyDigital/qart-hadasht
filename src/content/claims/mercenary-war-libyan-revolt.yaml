@@ -1,0 +1,39 @@
+slug: mercenary-war-libyan-revolt
+statement: >
+  The mercenary pay dispute escalated into a broader Libyan-African
+  revolt against Carthaginian tribute and military levy demands,
+  substantially expanding the scale of the conflict. By 240 BCE the
+  rebel coalition was as much an indigenous African revolt as a
+  mercenary one, and women contributed jewelry and savings to the
+  rebel cause in numbers Polybius treats as remarkable.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. The Libyan dimension of the revolt is central to
+  Polybius's account and to all modern reconstructions; the war's
+  scale and brutality are not explicable in terms of the mercenary
+  contingents alone.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.70-72"
+    passage_summary: >
+      Polybius describes the Libyan and African communities joining
+      the revolt, the contributions of women (including jewelry and
+      coin) to rebel finances, and the resulting expansion of the
+      war into a conflict between the Carthaginian state and large
+      portions of its African hinterland.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the Libyan revolt as the structurally more
+      dangerous component of the war: mercenary contingents could
+      eventually be defeated militarily, but the disaffection of
+      the African subjects threatened the Carthaginian state's
+      basic fiscal and demographic foundation.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject
+  - type: person
+    slug: mathos
+    role: subject

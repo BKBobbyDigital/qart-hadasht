@@ -1,0 +1,29 @@
+slug: mercenary-war-pay-dispute
+statement: >
+  The Mercenary War began as a pay dispute between the Carthaginian
+  government and the mercenary contingents assembled at Sicca in late
+  241 BCE. The Carthaginian state, fiscally constrained by the
+  Lutatius indemnity, attempted to negotiate reduced back pay; the
+  mercenaries refused and marched on Tunis.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.66-67"
+    passage_summary: >
+      Polybius narrates the assembly of the mercenary contingents at
+      Sicca, the Carthaginian attempt at reduced settlement under
+      Hanno the Great, the breakdown of negotiations, and the
+      march on Tunis as the opening sequence of the war.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos's account develops the structural background: the
+      composition of the contingents, the variety of pay claims
+      that had accumulated over the twenty-three-year war, and the
+      Carthaginian government's calculation that immediate full
+      payment was beyond available cash flow.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject

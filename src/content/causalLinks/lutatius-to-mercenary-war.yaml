@@ -1,0 +1,30 @@
+slug: lutatius-to-mercenary-war
+cause: treaty-of-lutatius
+effect: mercenary-war
+relation: set conditions for
+confidence: attested
+mechanism: |
+  The Lutatius indemnity (originally 2,200 talents over twenty years,
+  stiffened on Roman ratification to 3,200 talents over ten with a
+  substantial portion paid immediately) deprived the Carthaginian
+  treasury of the cash needed to settle accumulated mercenary back
+  pay. The Carthaginian government attempted to negotiate reduced
+  payments with the mercenary contingents assembled at Sicca in late
+  241 BCE; the negotiations failed; the mercenaries marched on Tunis
+  and the revolt began. Polybius treats the connection as direct
+  and undisputed.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.66-67"
+    passage_summary: >
+      Polybius narrates the breakdown of the Sicca pay negotiations
+      explicitly in the context of Carthage's post-treaty fiscal
+      situation, identifying the indemnity as the structural cause
+      of the cash shortage that produced the dispute.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos's monograph treats the Lutatius treaty as the structural
+      cause of the war and the Sicca negotiations as the proximate
+      trigger.

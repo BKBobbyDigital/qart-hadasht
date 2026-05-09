@@ -1,0 +1,64 @@
+slug: mercenary-war
+name: The Mercenary War (Truceless War)
+type: war
+date_start:
+  value: -241
+  precision: year
+  notes: Revolt began at Sicca in late 241 BCE following the post-First-Punic-War mercenary pay dispute.
+date_end:
+  value: -237
+  precision: year
+place: carthage
+participants:
+  - person: hamilcar-barca
+    role: commander (from 240 BCE)
+    side: Carthaginian
+  - person: hanno-the-great
+    role: commander (initial phase)
+    side: Carthaginian
+  - person: spendius
+    role: rebel commander
+    side: Mercenary / rebel
+  - person: mathos
+    role: rebel commander
+    side: Libyan rebel
+  - person: naravas
+    role: cavalry commander
+    side: Carthaginian (Numidian ally, from 239 BCE)
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-truceless-war-2007
+related_events:
+  - event: treaty-of-lutatius
+    relation: caused by (fiscal pressure of indemnity)
+    notes: >
+      The Lutatius indemnity, especially as stiffened on Roman
+      ratification, denied Carthage the cash flow to settle the
+      mercenary back pay promptly. The fiscal pressure was the
+      proximate cause of the revolt.
+summary: >
+  Carthaginian existential crisis of 241-237 BCE, fought between the
+  Carthaginian state and a coalition of mercenary armies (recovered
+  from the failed Sicilian war effort) and Libyan-African subjects
+  (joining the revolt to throw off the tribute and military levy
+  burdens that had accumulated through the First Punic War). Polybius
+  (1.65-88) treats the conflict at length as the structural
+  consequence of the Lutatius indemnity, the post-war disposition
+  of the mercenary contingents, and the long-running Libyan
+  resentment of Carthaginian hinterland exploitation. The war's
+  early phase under Hanno the Great produced minimal Carthaginian
+  progress and substantial mercenary expansion. With the senate's
+  transfer of command to Hamilcar Barca in 240 BCE, the
+  Carthaginian effort recovered: Hamilcar's defeat of the rebels at
+  the Bagradas River, the alliance with Naravas of the Massylii,
+  and the climactic siege-and-starvation engagement at "the Saw" or
+  Defile in 238 BCE eliminated the principal rebel forces. The
+  remaining rebellion under Mathos was contained and destroyed by
+  237 BCE. The war's brutality was unusual even by ancient
+  standards. Polybius's term *aspondos polemos* ("truceless war")
+  reflects the systematic use of torture, mutilation, and reciprocal
+  atrocity by both sides, and is the basis for the war's modern
+  English name. The conflict made Hamilcar's military reputation
+  and gave the Barcid family the political capital with which it
+  initiated the Iberian project later in the same decade.

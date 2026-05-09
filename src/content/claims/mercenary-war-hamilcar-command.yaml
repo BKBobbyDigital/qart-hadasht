@@ -1,0 +1,38 @@
+slug: mercenary-war-hamilcar-command
+statement: >
+  The Carthaginian senate transferred command of the war from Hanno
+  the Great to Hamilcar Barca in 240 BCE after Hanno's early
+  campaigns produced minimal progress. Under Hamilcar, supported by
+  Naravas's Numidian cavalry from 239 BCE, the Carthaginian effort
+  recovered, culminating in the climactic engagement at "the Saw" or
+  Defile in 238 BCE that destroyed the principal rebel forces.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. Hamilcar's appointment, his alliance with
+  Naravas, his victories in 239-238 BCE, and the political
+  rivalry with Hanno that the campaign opened are all preserved
+  in Polybius and developed in modern accounts.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.75-86"
+    passage_summary: >
+      Polybius narrates Hamilcar's appointment, his early campaigns
+      against the rebels, the alliance with Naravas (sealed with
+      Hamilcar's daughter's marriage), and the climactic siege at
+      the Defile in which approximately 40,000 rebels were starved
+      out and either killed or enslaved.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos provides extended military analysis of Hamilcar's
+      campaigns and treats the Mercenary War as the formative
+      episode of his command, demonstrating the operational style
+      that would shape his subsequent Iberian project.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: context
+  - type: person
+    slug: hamilcar-barca
+    role: subject

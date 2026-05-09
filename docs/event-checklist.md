@@ -19,7 +19,7 @@ sorts events chronologically.
 - [x] **Agathocles' Invasion of Africa** — 310–307 BCE
 - [x] **Third Sicilian War** — 311–306 BCE *(built as light-depth context for Agathocles)*
 - [x] **Battle of the Aegates Islands & Treaty of Lutatius** — 241 BCE
-- [ ] **The Mercenary War** — 241–237 BCE
+- [x] **The Mercenary War** — 241–237 BCE
 - [ ] **Founding of Carthage** — traditional 814 BCE
 - [ ] **First Treaty with Rome** — 509 BCE
 - [ ] **Battle of Himera** — 480 BCE
