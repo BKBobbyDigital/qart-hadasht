@@ -36,6 +36,11 @@ const standaloneEvents = allEvents.filter(
   (e) => e.data.type !== 'war' && !phaseEventIds.has(e.id)
 );
 
+// Top-level entries: wars + standalones, interleaved chronologically.
+const topLevelEntries = [...warEvents, ...standaloneEvents].sort(
+  (a, b) => a.data.date_start.value - b.data.date_start.value
+);
+
 // Format helpers
 const fmtRange = (data: any) => {
   const start = Math.abs(data.date_start.value);
@@ -66,26 +71,36 @@ const typeBadgeStyle = (type: string) => {
   <div class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="font-serif text-4xl mb-2">Events</h1>
     <p class="text-sand-700 mb-8">
-      Wars are listed at the top with their phase events nested below.
-      Standalone events (foundings, treaties, isolated battles) follow
-      chronologically.
+      Listed chronologically. Wars are highlighted with their phase
+      events (battles, treaties, sieges) nested below; standalone events
+      (foundings, isolated treaties, individual battles) appear at their
+      own dates in the timeline.
     </p>
 
-    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Wars</h2>
-    <ul class="space-y-6 mb-12">
-      {warEvents.map((war) => {
-        const phases = warToPhases.get(war.id) ?? [];
+    <ul class="space-y-4">
+      {topLevelEntries.map((entry) => {
+        const isWar = entry.data.type === 'war';
+        const phases = isWar ? (warToPhases.get(entry.id) ?? []) : [];
         return (
           <li>
-            <a href={`/events/${war.id}`} class="block p-4 border-2 border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100">
+            <a
+              href={`/events/${entry.id}`}
+              class={isWar
+                ? 'block p-4 border-2 border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100'
+                : 'block p-4 border border-sand-300 rounded-lg hover:bg-white'}
+            >
               <div class="flex items-baseline justify-between gap-4">
                 <div class="flex items-baseline gap-3">
-                  <span class={`text-[10px] uppercase tracking-widest font-bold px-2 py-0.5 rounded ${typeBadgeStyle('war')}`}>war</span>
-                  <h3 class="font-serif text-xl text-tyrian-900">{war.data.name}</h3>
+                  <span class={`text-[10px] uppercase tracking-widest font-bold px-2 py-0.5 rounded ${typeBadgeStyle(entry.data.type)}`}>
+                    {entry.data.type}
+                  </span>
+                  <h3 class={isWar ? 'font-serif text-xl text-tyrian-900' : 'font-serif text-xl text-tyrian-700'}>
+                    {entry.data.name}
+                  </h3>
                 </div>
-                <span class="text-sm text-sand-700 shrink-0">{fmtRange(war.data)}</span>
+                <span class="text-sm text-sand-700 shrink-0">{fmtRange(entry.data)}</span>
               </div>
-              <p class="text-sm text-sand-900 mt-2">{war.data.summary.slice(0, 220)}...</p>
+              <p class="text-sm text-sand-900 mt-2">{entry.data.summary.slice(0, 220)}...</p>
             </a>
             {phases.length > 0 && (
               <ul class="ml-6 mt-2 space-y-2 border-l-2 border-sand-300 pl-4">
@@ -94,7 +109,9 @@ const typeBadgeStyle = (type: string) => {
                     <a href={`/events/${phase.id}`} class="block p-3 border border-sand-300 rounded hover:bg-white">
                       <div class="flex items-baseline justify-between gap-3">
                         <div class="flex items-baseline gap-2">
-                          <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(phase.data.type)}`}>{phase.data.type}</span>
+                          <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(phase.data.type)}`}>
+                            {phase.data.type}
+                          </span>
                           <h4 class="font-serif text-lg text-tyrian-700">{phase.data.name}</h4>
                         </div>
                         <span class="text-xs text-sand-700 shrink-0">{fmtRange(phase.data)}</span>
@@ -107,24 +124,6 @@ const typeBadgeStyle = (type: string) => {
           </li>
         );
       })}
-    </ul>
-
-    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Other events</h2>
-    <ul class="space-y-3">
-      {standaloneEvents.map((e) => (
-        <li>
-          <a href={`/events/${e.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
-            <div class="flex items-baseline justify-between gap-4">
-              <div class="flex items-baseline gap-3">
-                <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(e.data.type)}`}>{e.data.type}</span>
-                <h3 class="font-serif text-xl text-tyrian-700">{e.data.name}</h3>
-              </div>
-              <span class="text-sm text-sand-700 shrink-0">{fmtRange(e.data)}</span>
-            </div>
-            <p class="text-sm text-sand-900 mt-2">{e.data.summary.slice(0, 220)}...</p>
-          </a>
-        </li>
-      ))}
     </ul>
   </div>
 </BaseLayout>
