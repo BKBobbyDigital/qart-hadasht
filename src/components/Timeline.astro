@@ -1,0 +1,141 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  startYear?: number;
+  endYear?: number;
+  height?: string;
+  compact?: boolean;
+}
+
+const { startYear = -820, endYear = -140, height = '420px', compact = false } = Astro.props;
+
+const allEvents = await getCollection('events');
+
+// Categorize events: wars (have date ranges and type='war') vs. focal events
+const wars = allEvents
+  .filter((e) => e.data.type === 'war' && e.data.date_end)
+  .map((e) => ({
+    id: e.id,
+    name: e.data.name,
+    start: e.data.date_start.value,
+    end: e.data.date_end!.value,
+    type: e.data.type,
+  }))
+  .sort((a, b) => a.start - b.start);
+
+const focalEvents = allEvents
+  .filter((e) => e.data.type !== 'war')
+  .map((e) => ({
+    id: e.id,
+    name: e.data.name,
+    year: e.data.date_start.value,
+    endYear: e.data.date_end?.value,
+    type: e.data.type,
+    summary: e.data.summary,
+  }))
+  .sort((a, b) => a.year - b.year);
+
+// Type → color mapping for event markers
+const typeColor: Record<string, string> = {
+  battle: '#b45309',      // amber-700
+  siege: '#b45309',       // amber-700
+  treaty: '#065f46',      // emerald-800
+  political: '#0369a1',   // sky-700
+  expedition: '#0369a1',  // sky-700
+  founding: '#5b0f31',    // tyrian
+  cultural: '#6b5638',    // sand
+  disaster: '#6b7280',    // gray
+};
+
+// Year → percentage along the timeline
+const totalSpan = endYear - startYear;
+const xPct = (year: number) => ((year - startYear) / totalSpan) * 100;
+
+// Tick marks every 100 years
+const ticks: number[] = [];
+for (let y = Math.ceil(startYear / 100) * 100; y <= endYear; y += 100) {
+  ticks.push(y);
+}
+
+// Stagger war bands vertically when they overlap so they don't visually collide
+type WarLane = typeof wars;
+const warLanes: WarLane[] = [];
+for (const war of wars) {
+  let placed = false;
+  for (const lane of warLanes) {
+    if (lane.every((existing) => existing.end < war.start || existing.start > war.end)) {
+      lane.push(war);
+      placed = true;
+      break;
+    }
+  }
+  if (!placed) warLanes.push([war]);
+}
+---
+
+<figure class="my-8">
+  <div class="border border-sand-300 rounded-lg bg-sand-50 p-4 overflow-x-auto">
+    <div class="relative" style={`height: ${height}; min-width: 900px;`}>
+      <!-- Year axis -->
+      <div class="absolute left-0 right-0 bottom-12 h-px bg-sand-700"></div>
+      {ticks.map((year) => (
+        <div
+          class="absolute bottom-0 flex flex-col items-center -translate-x-1/2"
+          style={`left: ${xPct(year)}%;`}
+        >
+          <div class="w-px h-3 bg-sand-700 mb-1"></div>
+          <div class="text-[10px] text-sand-700 tabular-nums">{Math.abs(year)} BCE</div>
+        </div>
+      ))}
+
+      <!-- War bands -->
+      {warLanes.map((lane, laneIdx) => (
+        lane.map((war) => (
+          <a
+            href={`/events/${war.id}`}
+            class="absolute border border-tyrian-300 bg-tyrian-100 hover:bg-tyrian-200 rounded text-[11px] flex items-center px-1.5 truncate transition-colors"
+            style={`
+              left: ${xPct(war.start)}%;
+              width: ${xPct(war.end) - xPct(war.start)}%;
+              bottom: ${64 + laneIdx * 24}px;
+              height: 20px;
+              min-width: 30px;
+            `}
+            title={`${war.name} (${Math.abs(war.start)}–${Math.abs(war.end)} BCE)`}
+          >
+            <span class="font-serif text-tyrian-900 truncate">{war.name.replace(/^The /, '').replace(/Punic War/, 'Punic')}</span>
+          </a>
+        ))
+      ))}
+
+      <!-- Focal event markers -->
+      {focalEvents.map((event, idx) => {
+        const top = (idx % 7) * 14;
+        const isCompact = compact;
+        return (
+          <a
+            href={`/events/${event.id}`}
+            class="absolute group"
+            style={`left: ${xPct(event.year)}%; top: ${top}px;`}
+            title={`${event.name} (${Math.abs(event.year)} BCE)`}
+          >
+            <div
+              class="w-2 h-2 rounded-full -translate-x-1/2 hover:w-3 hover:h-3 hover:-translate-x-1.5 transition-all"
+              style={`background-color: ${typeColor[event.type] ?? '#6b5638'};`}
+            ></div>
+            {!isCompact && (
+              <div class="absolute hidden group-hover:block left-3 top-0 z-10 w-48 bg-white border border-sand-300 rounded shadow-lg p-2 text-xs">
+                <div class="font-serif text-tyrian-700 font-semibold">{event.name}</div>
+                <div class="text-sand-700 mt-0.5">{Math.abs(event.year)} BCE · {event.type}</div>
+              </div>
+            )}
+          </a>
+        );
+      })}
+    </div>
+  </div>
+  <figcaption class="mt-2 text-xs text-sand-700 italic">
+    Wars shown as colored bands; individual events as dots above. Hover for details, click to navigate.
+  </figcaption>
+</figure>

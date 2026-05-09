@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Timeline from '../../components/Timeline.astro';
 import { getCollection } from 'astro:content';
 
 const allEvents = (await getCollection('events')).sort(
@@ -70,12 +71,15 @@ const typeBadgeStyle = (type: string) => {
 <BaseLayout title="Events">
   <div class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="font-serif text-4xl mb-2">Events</h1>
-    <p class="text-sand-700 mb-8">
+    <p class="text-sand-700 mb-6">
       Listed chronologically. Wars are highlighted with their phase
       events (battles, treaties, sieges) nested below; standalone events
       (foundings, isolated treaties, individual battles) appear at their
       own dates in the timeline.
     </p>
+
+    <Timeline />
+
 
     <ul class="space-y-4">
       {topLevelEntries.map((entry) => {

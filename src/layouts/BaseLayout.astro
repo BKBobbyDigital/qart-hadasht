@@ -21,17 +21,18 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="border-b border-sand-300 bg-sand-50">
-      <div class="max-w-5xl mx-auto px-6 py-5 flex items-baseline justify-between">
+      <div class="max-w-5xl mx-auto px-6 py-5 flex flex-col sm:flex-row gap-4 sm:items-baseline sm:justify-between">
         <a href="/" class="group">
           <div class="font-phoenician text-2xl text-tyrian-700 leading-none">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</div>
           <div class="font-serif text-xl text-sand-900 mt-1">Qart-Hadasht</div>
           <div class="text-xs uppercase tracking-widest text-sand-700 mt-0.5">The Carthage Encyclopedia</div>
         </a>
-        <nav class="flex gap-6 text-sm font-medium text-sand-900">
+        <nav class="flex flex-wrap gap-x-5 gap-y-1 text-sm font-medium text-sand-900 justify-end">
           <a href="/civilization" class="hover:text-tyrian-700">Civilization</a>
           <a href="/events" class="hover:text-tyrian-700">Events</a>
-          <a href="/people" class="hover:text-tyrian-700">People &amp; Groups</a>
+          <a href="/people" class="hover:text-tyrian-700">People</a>
           <a href="/places" class="hover:text-tyrian-700">Places</a>
+          <a href="/narratives" class="hover:text-tyrian-700">Narratives</a>
           <a href="/sources" class="hover:text-tyrian-700">Sources</a>
           <a href="/about" class="hover:text-tyrian-700">About</a>
         </nav>
