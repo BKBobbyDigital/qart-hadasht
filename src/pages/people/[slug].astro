@@ -46,6 +46,12 @@ const personInstitutions = await Promise.all(
 const personThemes = await Promise.all(
   (d.referenced_themes ?? []).map(async (ref: any) => await getEntry('themes', ref.id))
 );
+
+// Find narratives whose primary subject is this person
+const allNarratives = await getCollection('narratives');
+const personNarratives = allNarratives.filter((n) =>
+  n.data.primary_entities?.some((e: any) => e.type === 'person' && e.slug === person.id)
+);
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
@@ -76,6 +82,14 @@ const personThemes = await Promise.all(
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
       <p>{d.summary}</p>
     </div>
+
+    {personNarratives.map((n) => (
+      <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors">
+        <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Read the full narrative →</p>
+        <p class="font-serif text-lg text-tyrian-900 mt-1">{n.data.title}</p>
+        <p class="text-sm text-sand-900 mt-1">{n.data.thesis}</p>
+      </a>
+    ))}
 
     {referencingEvents.length > 0 && (
       <section class="mt-12 pt-6 border-t border-sand-300">
