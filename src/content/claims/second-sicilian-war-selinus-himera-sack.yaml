@@ -1,0 +1,31 @@
+slug: second-sicilian-war-selinus-himera-sack
+statement: >
+  Hannibal son of Gisco's invasion sacked Selinus and Himera in
+  successive campaigns of 409 BCE. Selinus was effectively
+  destroyed; Himera was sacked with explicit framing in the
+  surviving Greek tradition as the avenged 480 BCE defeat that
+  had killed Hannibal's grandfather. Tens of thousands of Greek
+  inhabitants were killed or enslaved across the two campaigns.
+confidence: attested
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "13.43-62"
+    passage_summary: >
+      Diodorus gives the fullest preserved narrative of the
+      campaigns, with detailed siege and sack descriptions for
+      both cities and explicit framing of the Himera operation
+      as revenge.
+notes: >
+  The destruction of Selinus and Himera substantially reshaped
+  Greek-Sicilian demographic geography for generations.
+  Surviving populations concentrated in Syracuse and a handful
+  of fortified eastern cities; the western and southern
+  positions fell substantially under Carthaginian control.
+entities:
+  - type: event
+    slug: second-sicilian-war
+    role: subject
+  - type: person
+    slug: hannibal-son-of-gisco
+    role: subject

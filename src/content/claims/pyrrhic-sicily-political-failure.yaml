@@ -1,0 +1,30 @@
+slug: pyrrhic-sicily-political-failure
+statement: >
+  Pyrrhus's Sicilian campaign succeeded militarily (driving
+  Carthage from most of Sicily within two years) but failed
+  politically. His autocratic command style, substantial
+  requisitions from the Greek-Sicilian cities, and treatment
+  of those cities as subordinate to his strategic project
+  alienated the very communities that had invited him.
+confidence: attested
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Pyrrhus 22-23"
+    passage_summary: >
+      Plutarch's Life of Pyrrhus preserves the alienation of
+      Greek-Sicilian opinion in detail and treats the political
+      collapse as the immediate cause of Pyrrhus's withdrawal.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "22"
+    passage_summary: >
+      Diodorus's surviving fragments preserve substantively the
+      same political analysis.
+entities:
+  - type: event
+    slug: pyrrhic-war-in-sicily
+    role: subject
+  - type: person
+    slug: pyrrhus
+    role: subject

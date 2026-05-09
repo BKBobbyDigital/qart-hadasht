@@ -1,0 +1,26 @@
+slug: mylae-corvus-debut
+statement: >
+  The Battle of Mylae was the first major fleet engagement in
+  which the Roman *corvus* boarding bridge was deployed at scale.
+  The device's success at Mylae established the tactical
+  doctrine that would underwrite Roman naval victories at
+  Cape Ecnomus and elsewhere through the following decade.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.22-23"
+    passage_summary: >
+      Polybius describes the *corvus* in detail and treats Mylae
+      as the engagement that vindicated the device. His account
+      is the principal source for the Roman naval revolution of
+      the 260s BCE.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy provides extended modern military analysis of
+      the corvus at Mylae and the broader Roman naval doctrine.
+entities:
+  - type: event
+    slug: battle-of-mylae
+    role: subject

@@ -1,0 +1,27 @@
+slug: great-plains-tactical-execution
+statement: >
+  Scipio's tactical execution at the Great Plains combined the
+  veteran Iberian-campaign legions with Masinissa's Numidian
+  cavalry to defeat the larger Carthaginian-Masaesylian force
+  in a coordinated infantry-cavalry engagement. The
+  Carthaginian flank was broken by Masinissa's cavalry envelopment
+  before the central infantry engagement was decided.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "14.7-9"
+    passage_summary: >
+      Polybius's tactical account preserves the cavalry-led
+      envelopment and the rapid collapse of the
+      Carthaginian-Masaesylian formation that followed.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.7-8"
+    passage_summary: >
+      Livy provides additional dramatic detail on the
+      engagement and the subsequent pursuit.
+entities:
+  - type: event
+    slug: battle-of-great-plains
+    role: context

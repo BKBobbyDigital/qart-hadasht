@@ -1,0 +1,35 @@
+slug: syracuse-roman-art-looting
+statement: >
+  The Roman sack of Syracuse produced substantial transfer of
+  Greek artistic treasure to Rome. Plutarch and others treat the
+  looting as a moral turning point in Roman cultural history,
+  the moment when Greek art entered Roman elite life at scale
+  and began the cultural-Hellenizing pattern that would
+  characterize the later Republic.
+confidence: attested
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Marcellus 21"
+    passage_summary: >
+      Plutarch frames the looting as a transformative cultural
+      moment and preserves the moralizing tradition that
+      treated it as the introduction of Greek luxury and
+      decadence into Roman public life.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "25.40"
+    passage_summary: >
+      Livy preserves substantively the same account with
+      similar moralizing framing.
+notes: >
+  The cultural-political significance of the Syracuse looting is
+  outside this encyclopedia's strict scope but is preserved as
+  the principal Carthaginian-war episode whose consequences
+  reshaped Roman cultural life. The pattern would recur
+  through the 2nd-century BCE Roman conquests of the
+  Hellenistic east.
+entities:
+  - type: event
+    slug: siege-of-syracuse-marcellus
+    role: subject

@@ -1,0 +1,29 @@
+slug: mylae-roman-naval-revolution
+statement: >
+  Mylae demonstrated that Rome's naval improvisation of the late
+  260s BCE could match Carthaginian naval power in fleet
+  combat. Combined with Roman manpower depth and the corvus,
+  the engagement opened the operational space for the African
+  expedition four years later.
+confidence: inferred
+scholarly_consensus: >
+  Strong; the standard reading in modern military histories of
+  the First Punic War. Mylae is the moment Rome ceased to be
+  the obvious maritime underdog.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.20-23"
+    passage_summary: >
+      Polybius's broader narrative of the Roman naval revolution
+      treats Mylae as the engagement that confirmed the new
+      Roman naval program could deliver fleet-scale victory.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy treats Mylae as the structural pivot in the
+      First Punic War's naval phase.
+entities:
+  - type: event
+    slug: battle-of-mylae
+    role: context

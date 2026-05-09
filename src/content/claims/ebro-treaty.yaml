@@ -1,0 +1,34 @@
+slug: ebro-treaty
+statement: >
+  Hasdrubal the Fair negotiated the Ebro Treaty with Rome in
+  226 BCE, establishing the Ebro river as the boundary north
+  of which Carthage would not undertake military operations.
+  The treaty's exact terms are imperfectly preserved; whether
+  it also addressed Saguntum's status is contested and was
+  central to the diplomatic question that produced the Second
+  Punic War.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "2.13, 2.22, 3.27, 3.30"
+    passage_summary: >
+      Polybius preserves the treaty's geographic provision
+      explicitly across multiple passages and acknowledges the
+      ambiguity about whether Saguntum was protected.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.2"
+    passage_summary: >
+      Livy preserves the treaty in the broader context of
+      pre-war diplomatic history.
+notes: >
+  The treaty is the principal diplomatic document of the
+  inter-war period and the legal framework against which the
+  Saguntum question was contested. The Saguntum claim that
+  contested whether the treaty applied is treated separately
+  on the Saguntum event page.
+entities:
+  - type: event
+    slug: hasdrubal-the-fairs-command
+    role: subject

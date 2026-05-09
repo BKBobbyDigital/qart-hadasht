@@ -1,0 +1,24 @@
+slug: drepana-adherbal-tactical-execution
+statement: >
+  The Carthaginian admiral Adherbal exploited the Roman
+  formation's poor disposition against the Drepana shore: the
+  Roman fleet was caught with limited maneuver room while the
+  Carthaginian fleet operated with full freedom of movement
+  outside the harbor. The Carthaginian tactical execution was
+  unusually crisp; the Roman defeat was operational, not
+  primarily strategic.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.50"
+    passage_summary: >
+      Polybius's tactical analysis attributes the outcome to
+      the Roman formation problem and Adherbal's exploitation
+      of it; the Carthaginian fleet was no larger than the
+      Roman, but its tactical position was substantially
+      better.
+entities:
+  - type: event
+    slug: battle-of-drepana
+    role: context

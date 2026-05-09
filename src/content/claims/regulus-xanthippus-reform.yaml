@@ -1,0 +1,32 @@
+slug: regulus-xanthippus-reform
+statement: >
+  The Carthaginian government recruited the Spartan mercenary
+  general Xanthippus in early 255 BCE to reorganize the
+  Carthaginian field army. Xanthippus's combined-arms doctrine
+  (integration of Carthaginian elephants, Numidian cavalry,
+  and African heavy infantry on terrain favorable to maneuver)
+  defeated Regulus at the Battle of the Bagradas River later
+  that year.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.32-34"
+    passage_summary: >
+      Polybius treats Xanthippus as the operational genius of
+      the engagement and notes that the Carthaginian army he
+      had been given to work with had been incapable of similar
+      success under its previous commanders.
+notes: >
+  The Xanthippus episode is one of the few well-attested cases
+  of foreign mercenary command transforming a state's military
+  capability in a single campaigning season. Approximately
+  12,000 Roman troops were killed or captured at the Bagradas;
+  Regulus was among the captured.
+entities:
+  - type: person
+    slug: xanthippus
+    role: subject
+  - type: event
+    slug: regulus-african-expedition
+    role: subject

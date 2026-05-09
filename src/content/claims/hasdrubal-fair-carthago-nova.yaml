@@ -1,0 +1,27 @@
+slug: hasdrubal-fair-carthago-nova
+statement: >
+  Hasdrubal the Fair founded Carthago Nova (modern Cartagena) in
+  approximately 228-227 BCE on the southeastern Iberian coast,
+  establishing it as the new Carthaginian Iberian capital and
+  the operational base for the Barcid Iberian project.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "2.13"
+    passage_summary: >
+      Polybius preserves the foundation in his discussion of
+      Carthaginian Iberian operations.
+notes: >
+  The site combined an excellent natural harbor, a defensible
+  position, and proximity to the southern Iberian silver mines
+  that funded Carthaginian operations. Carthago Nova remained
+  the Carthaginian Iberian capital until its capture by the
+  future Scipio Africanus in 209 BCE.
+entities:
+  - type: event
+    slug: hasdrubal-the-fairs-command
+    role: subject
+  - type: place
+    slug: carthago-nova
+    role: subject

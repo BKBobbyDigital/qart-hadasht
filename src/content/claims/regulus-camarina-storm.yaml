@@ -1,0 +1,27 @@
+slug: regulus-camarina-storm
+statement: >
+  The Roman fleet attempting to evacuate the surviving forces
+  from Africa was caught in a storm off Camarina on the southern
+  Sicilian coast in summer 255 BCE and lost approximately 280
+  of its ships. Roman casualties from the storm exceeded those
+  from any single engagement of the war.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.36-37"
+    passage_summary: >
+      Polybius gives the storm losses and notes their structural
+      consequences. The corvus's destabilizing effect on ships
+      in heavy weather has been suggested by modern scholarship
+      as a partial cause.
+notes: >
+  Combined with the loss of approximately 12,000 troops at the
+  Bagradas, the Camarina storm meant that the Roman strategic
+  position in 255 BCE was substantially worse than at the
+  beginning of 256 BCE. The war was effectively reset to a
+  Sicilian theater that would last another fourteen years.
+entities:
+  - type: event
+    slug: regulus-african-expedition
+    role: context

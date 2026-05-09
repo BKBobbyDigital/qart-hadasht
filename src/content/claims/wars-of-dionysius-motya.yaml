@@ -1,0 +1,32 @@
+slug: wars-of-dionysius-motya
+statement: >
+  Dionysius's siege and capture of Motya in 397 BCE was the
+  principal Greek-Sicilian tactical achievement of the
+  Dionysian wars and one of the most-preserved sieges of the
+  4th century BCE. The Carthaginian Sicilian stronghold on the
+  small island off western Sicily was reduced through extended
+  siege and stormed; the Carthaginian recovery of the
+  position the following year required a separate campaign.
+confidence: attested
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "14.47-53"
+    passage_summary: >
+      Diodorus gives the fullest preserved narrative of the
+      siege, with detailed engineering and tactical
+      descriptions that have made Motya a standard reference
+      for 4th-century BCE siege technique.
+notes: >
+  Modern excavations on Motya (modern San Pantaleo) have
+  recovered substantial Carthaginian-period archaeology,
+  including the famous Motya Charioteer (a 5th-century BCE
+  marble statue of the highest quality). The siege's
+  destruction layers are visible in the archaeological record.
+entities:
+  - type: event
+    slug: wars-of-dionysius
+    role: context
+  - type: person
+    slug: dionysius-i
+    role: subject

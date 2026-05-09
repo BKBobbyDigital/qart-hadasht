@@ -1,0 +1,38 @@
+slug: drepana-pulcher-chickens
+statement: >
+  Before the engagement at Drepana, the sacred chickens carried
+  on Roman ships for divinatory purposes refused to eat (an
+  unfavorable omen). Pulcher reportedly responded "if they
+  will not eat, let them drink" and ordered them thrown
+  overboard. The Roman tradition treats this as the
+  proximate cause of the divine displeasure that followed.
+confidence: contested
+scholarly_consensus: >
+  The chickens-overboard episode is preserved in multiple
+  surviving sources but its specific verbal form is later
+  literary reconstruction. The underlying naval defeat is
+  firmly attested; the religious-augural framing is partly
+  later moralization.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.49"
+    passage_summary: >
+      Polybius preserves the augural framing; the specific
+      chicken-overboard quotation does not appear in his text.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "Periochae 19"
+    passage_summary: >
+      Livy's epitome preserves the episode with the famous quotation.
+notes: >
+  Cicero's *De Divinatione* (2.71) is the principal source for
+  the precise verbal form ("aquam bibant"); the framing is
+  Ciceronian moralization on Roman augural practice.
+entities:
+  - type: person
+    slug: claudius-pulcher
+    role: subject
+  - type: event
+    slug: battle-of-drepana
+    role: context

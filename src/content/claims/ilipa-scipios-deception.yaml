@@ -1,0 +1,46 @@
+slug: ilipa-scipios-deception
+statement: >
+  Scipio Africanus's tactical innovation at Ilipa was a reversed
+  battlefield deployment: weaker Iberian allies in the center
+  (where the Carthaginian commanders expected to face Roman
+  legions), Roman legions on the wings (where the Carthaginians
+  expected weaker allied troops). Scipio then advanced his line
+  in a configuration that engaged the Carthaginian wings
+  before the centers met, defeating the Carthaginian flanks
+  with his strongest troops while their elite center was
+  unable to engage.
+confidence: attested
+scholarly_consensus: >
+  Universally treated by modern military scholarship as one of
+  the most sophisticated examples of asymmetric battlefield
+  deployment in ancient warfare and as Scipio's tactical
+  masterpiece. The disposition is preserved consistently
+  across Polybius and Livy.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "11.20-24"
+    passage_summary: >
+      Polybius gives the fullest tactical account, with the
+      reversed deployment, the synchronized advance, and the
+      sequence by which the Carthaginian flanks broke before
+      their center could engage.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "28.12-16"
+    passage_summary: >
+      Livy reproduces the tactical account with characteristic
+      narrative framing.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's analysis treats Ilipa as Scipio's principal
+      tactical innovation, comparable to Cannae in
+      sophistication while structurally different.
+entities:
+  - type: person
+    slug: scipio-africanus
+    role: subject
+  - type: event
+    slug: battle-of-ilipa
+    role: context

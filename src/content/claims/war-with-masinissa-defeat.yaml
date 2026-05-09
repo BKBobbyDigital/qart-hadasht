@@ -1,0 +1,29 @@
+slug: war-with-masinissa-defeat
+statement: >
+  Hasdrubal the Boetharch's Carthaginian expedition of 25,000
+  troops was defeated by Masinissa's Numidian force in 150
+  BCE. The Carthaginian army surrendered after extended siege
+  of its camp; Hasdrubal escaped with a portion of the
+  survivors but was condemned to death in absentia by the
+  Carthaginian senate.
+confidence: attested
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 70-73"
+    passage_summary: >
+      Appian gives the fullest preserved narrative of the
+      engagement and its political aftermath.
+notes: >
+  The Carthaginian senate's condemnation of Hasdrubal in
+  absentia was an attempt to placate Roman demands for
+  accountability. The same Hasdrubal would be recalled in
+  147 BCE to command the city's defense during the Roman
+  siege.
+entities:
+  - type: event
+    slug: war-with-masinissa
+    role: subject
+  - type: person
+    slug: hasdrubal-boetharch
+    role: subject

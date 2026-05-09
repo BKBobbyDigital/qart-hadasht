@@ -1,0 +1,54 @@
+slug: syracuse-archimedes-death
+statement: >
+  Archimedes was killed by a Roman soldier during the sack of
+  Syracuse in 212 BCE. Plutarch preserves the standard
+  tradition: a Roman soldier interrupted Archimedes at his
+  geometric diagrams and (in one version) killed him when he
+  refused to leave his work, in another against Marcellus's
+  explicit orders that the mathematician be spared.
+confidence: contested
+scholarly_consensus: >
+  The death itself is firmly attested. The specific circumstances
+  vary across the surviving sources and the standard
+  "geometry-diagrams" version is probably literary
+  reconstruction. Modern scholarship treats the underlying fact
+  (death during the sack) as historical and the specific
+  dramatic detail as tradition.
+dispute_summary: |
+  Three principal versions in the surviving sources:
+
+  - **Plutarch (*Marcellus* 19) — the geometry version.**
+    Archimedes refused to leave his diagrams and was killed by
+    a frustrated Roman soldier. The standard later-tradition
+    version.
+  - **Livy (25.31).** Archimedes was killed by a Roman soldier
+    who did not recognize him during the general looting.
+  - **Other sources.** Various variant details preserved in
+    later authors, generally elaborating the dramatic moral
+    of the loss of the great mathematician.
+
+  Modern scholarship is generally cautious: the underlying fact
+  of the death is historical; the specific framing varies and
+  is shaped by the authors' purposes (Plutarch's interest in
+  character; Livy's interest in Roman discipline failure).
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Marcellus 19"
+    passage_summary: >
+      Plutarch's account is the principal preserved version,
+      with the famous geometry detail.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "25.31"
+    passage_summary: >
+      Livy's account preserves the death in the broader
+      context of the sack but without the specific
+      geometry detail.
+entities:
+  - type: person
+    slug: archimedes
+    role: subject
+  - type: event
+    slug: siege-of-syracuse-marcellus
+    role: context

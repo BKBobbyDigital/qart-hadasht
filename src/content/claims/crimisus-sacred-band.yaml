@@ -1,0 +1,35 @@
+slug: crimisus-sacred-band
+statement: >
+  The elite Carthaginian Sacred Band, the principal
+  Carthaginian heavy-infantry formation of the period, was
+  destroyed at the Battle of the Crimisus in 341 BCE. The
+  loss of this formation was the principal Carthaginian
+  military consequence of the engagement and contributed to
+  the generational pattern of Greek-Sicilian-Carthaginian
+  coexistence that followed.
+confidence: attested
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Timoleon 27-28"
+    passage_summary: >
+      Plutarch identifies the Sacred Band specifically and
+      describes its destruction as the principal military
+      consequence of the engagement.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "16.78-81"
+    passage_summary: >
+      Diodorus preserves the engagement with substantively the
+      same military analysis.
+notes: >
+  The Sacred Band was a distinctive Carthaginian formation of
+  approximately 2,500 elite citizen heavy infantry. Its
+  destruction at Crimisus is the only attested moment when the
+  formation was lost in combat at scale, and the formation's
+  reconstitution in subsequent Carthaginian armies is not
+  clearly documented.
+entities:
+  - type: event
+    slug: battle-of-crimisus
+    role: subject

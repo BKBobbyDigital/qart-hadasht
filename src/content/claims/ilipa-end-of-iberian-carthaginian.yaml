@@ -1,0 +1,30 @@
+slug: ilipa-end-of-iberian-carthaginian
+statement: >
+  The Roman victory at Ilipa effectively ended Carthaginian
+  power in the Iberian peninsula. The Carthaginian field army
+  was destroyed; Hasdrubal Gisco and Mago Barca withdrew with
+  remnants; the peninsula's Carthaginian-aligned communities
+  shifted to Roman or independent alignment within months.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "11.24-33"
+    passage_summary: >
+      Polybius narrates the Carthaginian withdrawal and the
+      collapse of Carthaginian Iberian authority through the
+      following months.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "28.16-25"
+    passage_summary: >
+      Livy preserves the broader collapse with substantially
+      more political-narrative detail than Polybius.
+notes: >
+  The thirty-one years from Hamilcar Barca's invasion of 237
+  BCE to Ilipa in 206 BCE represent the full arc of the
+  Carthaginian Iberian project. Ilipa is its terminus.
+entities:
+  - type: event
+    slug: battle-of-ilipa
+    role: subject

@@ -1,0 +1,27 @@
+slug: wars-of-dionysius-himilco-plague
+statement: >
+  The Carthaginian counter-offensive of 396 BCE under Himilco
+  recovered most of western Sicily and besieged Syracuse
+  itself; a plague in the Carthaginian army produced its
+  withdrawal that summer. The plague preserved the Greek-
+  Sicilian position despite the campaign's tactical failure.
+confidence: attested
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "14.61-77"
+    passage_summary: >
+      Diodorus narrates the Carthaginian counter-offensive, the
+      siege of Syracuse, the plague's outbreak in the
+      Carthaginian camp, and the subsequent withdrawal.
+notes: >
+  Plague outbreaks in Sicilian campaigns recur as a feature of
+  the surviving record (Carthaginian armies suffered comparable
+  losses at the Agathocles-era engagements and elsewhere). The
+  combination of summer climate, large concentrations of
+  troops, and limited sanitation produced repeated patterns of
+  campaign-shaping disease.
+entities:
+  - type: event
+    slug: wars-of-dionysius
+    role: context

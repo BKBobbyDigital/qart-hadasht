@@ -1,0 +1,26 @@
+slug: mylae-casualties
+statement: >
+  Polybius reports approximately 30 Carthaginian ships sunk and
+  50 captured at Mylae, against minimal Roman losses. The
+  rams from the captured Carthaginian ships were displayed on
+  the columna rostrata Duilius dedicated in the Roman Forum.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.23"
+    passage_summary: >
+      Polybius gives the casualty figures and notes the
+      commemorative significance of the captured ships.
+notes: >
+  The columna rostrata is one of the few early-Republican Roman
+  monuments preserved (in fragmentary form) into the imperial
+  period, with the elogium Duilii inscription giving an
+  early-Latin attestation of the engagement and its outcome.
+entities:
+  - type: event
+    slug: battle-of-mylae
+    role: subject
+  - type: person
+    slug: duilius
+    role: subject

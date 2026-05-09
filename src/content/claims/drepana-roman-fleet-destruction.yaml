@@ -1,0 +1,26 @@
+slug: drepana-roman-fleet-destruction
+statement: >
+  Approximately 93 of Pulcher's 123 ships were lost at Drepana,
+  the worst single Roman naval defeat of the First Punic War
+  and the engagement that effectively eliminated Roman naval
+  operations in western Sicilian waters for nearly a decade.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.49-51"
+    passage_summary: >
+      Polybius gives the casualty figures and the tactical
+      analysis of how the Roman fleet's poor disposition
+      against the shore enabled the Carthaginian victory.
+notes: >
+  The Drepana defeat combined with the loss of the Roman
+  supply fleet under Lucius Junius Pullus in a storm shortly
+  afterward eliminated Roman naval capacity. The structural
+  consequence was the eight-year gap before Roman naval
+  reconstruction (the 242 BCE private-subscription fleet) that
+  produced the Aegates Islands engagement.
+entities:
+  - type: event
+    slug: battle-of-drepana
+    role: subject

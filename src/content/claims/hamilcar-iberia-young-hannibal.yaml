@@ -1,0 +1,31 @@
+slug: hamilcar-iberia-young-hannibal
+statement: >
+  The young Hannibal Barca accompanied his father throughout
+  the Iberian conquest from age nine to age nineteen. The
+  decade of operational service under Hamilcar's command
+  shaped Hannibal's military formation and produced the
+  campaign experience that the Italian campaign of 218-203
+  BCE drew on.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.11"
+    passage_summary: >
+      Polybius preserves the famous oath Hannibal allegedly
+      swore at his father's altar in 237 BCE before the
+      Iberian departure (treated separately on the site as a
+      contested-claim open question), and references the
+      decade of subsequent service.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's biography treats the Iberian decade as the formative
+      period of Hannibal's military development.
+entities:
+  - type: event
+    slug: hamilcars-iberian-conquest
+    role: context
+  - type: person
+    slug: hannibal-barca
+    role: subject

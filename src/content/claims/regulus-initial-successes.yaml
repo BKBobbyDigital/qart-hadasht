@@ -1,0 +1,27 @@
+slug: regulus-initial-successes
+statement: >
+  The first phase of Regulus's African expedition (autumn
+  256 - spring 255 BCE) produced substantial Roman success: the
+  consuls landed at Aspis on the Cape Bon peninsula, defeated
+  Carthaginian forces at Adys, and advanced into the
+  Carthaginian hinterland with the city of Carthage itself
+  within reach.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.29-31"
+    passage_summary: >
+      Polybius narrates the African landing, the Adys
+      engagement, and the Roman advance into the Carthaginian
+      hinterland.
+notes: >
+  Carthage's vulnerability in the early phase of the African
+  campaign is part of why the city resorted to the Spartan
+  mercenary general Xanthippus to reorganize its forces. The
+  initial Roman position threatened immediate Carthaginian
+  collapse.
+entities:
+  - type: event
+    slug: regulus-african-expedition
+    role: context

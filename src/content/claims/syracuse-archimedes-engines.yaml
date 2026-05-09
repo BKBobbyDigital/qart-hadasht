@@ -1,0 +1,43 @@
+slug: syracuse-archimedes-engines
+statement: >
+  The defensive engines designed by Archimedes substantially
+  prolonged the Roman siege of Syracuse. The catapults of
+  varying ranges, the so-called "claw of Archimedes" that
+  lifted Roman ships out of the water, and other specialized
+  weapons are preserved in detail across the surviving sources
+  and were sufficient to repulse the Roman naval assault and
+  contain the Roman land assault for nearly two years.
+confidence: attested
+scholarly_consensus: >
+  The defensive engines themselves are firmly attested. Some
+  specific devices preserved in later tradition (notably the
+  "burning mirrors" attributed to Archimedes by Byzantine
+  sources) are probably later embellishment; the catapults
+  and the ship-lifting claw are firmly attested.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "8.3-7"
+    passage_summary: >
+      Polybius gives detailed tactical descriptions of the
+      defensive engines and their effects on Roman siege
+      operations.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Marcellus 14-17"
+    passage_summary: >
+      Plutarch's biography preserves additional dramatic detail,
+      including Marcellus's reported observation that
+      Archimedes was "playing ball with the Roman ships."
+  - source: livy-auc
+    stance: supports
+    passage_ref: "24.34"
+    passage_summary: >
+      Livy preserves substantively the same tactical account.
+entities:
+  - type: event
+    slug: siege-of-syracuse-marcellus
+    role: context
+  - type: person
+    slug: archimedes
+    role: subject

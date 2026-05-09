@@ -1,0 +1,41 @@
+slug: great-plains-sophonisba-aftermath
+statement: >
+  Days after the engagement, Masinissa entered Cirta and married
+  Sophonisba (Syphax's wife and Masinissa's own former
+  betrothed) in a move that secured Masaesylian succession but
+  produced Scipio's demand for her surrender as a Roman war
+  captive. Masinissa, unable to refuse Scipio's demand and
+  unwilling to surrender Sophonisba, sent her poison; she took
+  it and died at Cirta in late 203 BCE.
+confidence: attested
+scholarly_consensus: >
+  The episode is preserved consistently across the surviving
+  sources. The specific dialogue (the negotiations between
+  Scipio and Masinissa, Sophonisba's preserved speech) is
+  Greco-Roman literary elaboration; the underlying sequence
+  (Masinissa's marriage, Scipio's demand, the poisoning) is
+  firmly attested.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.12-15"
+    passage_summary: >
+      Livy preserves the fullest dramatic account, with
+      developed dialogue and the Sophonisba speech traditional
+      to the Roman literary record.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "14.7-9"
+    passage_summary: >
+      Polybius's account is briefer but consistent on the
+      principal facts.
+entities:
+  - type: event
+    slug: battle-of-great-plains
+    role: context
+  - type: person
+    slug: sophonisba
+    role: subject
+  - type: person
+    slug: masinissa
+    role: subject
