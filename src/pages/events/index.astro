@@ -2,23 +2,126 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const events = (await getCollection('events')).sort(
+const allEvents = (await getCollection('events')).sort(
   (a, b) => a.data.date_start.value - b.data.date_start.value
 );
+
+// Identify wars and the events they contain (via related_events).
+const warEvents = allEvents.filter((e) => e.data.type === 'war');
+const phaseEventIds = new Set<string>();
+const warToPhases = new Map<string, typeof allEvents>();
+
+for (const war of warEvents) {
+  const warStart = war.data.date_start.value;
+  const warEnd = war.data.date_end?.value ?? warStart;
+  const phases = (war.data.related_events ?? [])
+    .map((r: any) => allEvents.find((e) => e.id === r.event.id))
+    .filter((e): e is (typeof allEvents)[number] => Boolean(e))
+    // Don't nest wars under wars
+    .filter((e) => e.data.type !== 'war')
+    // Only nest phases whose date falls within the war's range, so an event
+    // referenced by two wars (e.g. Treaty of 201 as peace settlement of SPW
+    // and structural cause of TPW) appears under only its containing war.
+    .filter((e) => {
+      const phaseStart = e.data.date_start.value;
+      return phaseStart >= warStart && phaseStart <= warEnd;
+    })
+    .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
+  warToPhases.set(war.id, phases);
+  phases.forEach((p) => phaseEventIds.add(p.id));
+}
+
+// Standalone events: not wars and not nested under any war.
+const standaloneEvents = allEvents.filter(
+  (e) => e.data.type !== 'war' && !phaseEventIds.has(e.id)
+);
+
+// Format helpers
+const fmtRange = (data: any) => {
+  const start = Math.abs(data.date_start.value);
+  if (data.date_end) {
+    const end = Math.abs(data.date_end.value);
+    return start === end ? `${start} BCE` : `${start}–${end} BCE`;
+  }
+  return `${start} BCE`;
+};
+
+const typeBadgeStyle = (type: string) => {
+  const map: Record<string, string> = {
+    war: 'bg-tyrian-100 text-tyrian-900',
+    battle: 'bg-amber-100 text-amber-900',
+    siege: 'bg-amber-100 text-amber-900',
+    treaty: 'bg-emerald-100 text-emerald-900',
+    political: 'bg-sky-100 text-sky-900',
+    expedition: 'bg-sky-100 text-sky-900',
+    founding: 'bg-sand-200 text-sand-900',
+    cultural: 'bg-sand-200 text-sand-900',
+    disaster: 'bg-gray-200 text-gray-900',
+  };
+  return map[type] ?? 'bg-sand-200 text-sand-900';
+};
 ---
 
 <BaseLayout title="Events">
   <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="font-serif text-4xl mb-6">Events</h1>
+    <h1 class="font-serif text-4xl mb-2">Events</h1>
+    <p class="text-sand-700 mb-8">
+      Wars are listed at the top with their phase events nested below.
+      Standalone events (foundings, treaties, isolated battles) follow
+      chronologically.
+    </p>
+
+    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Wars</h2>
+    <ul class="space-y-6 mb-12">
+      {warEvents.map((war) => {
+        const phases = warToPhases.get(war.id) ?? [];
+        return (
+          <li>
+            <a href={`/events/${war.id}`} class="block p-4 border-2 border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100">
+              <div class="flex items-baseline justify-between gap-4">
+                <div class="flex items-baseline gap-3">
+                  <span class={`text-[10px] uppercase tracking-widest font-bold px-2 py-0.5 rounded ${typeBadgeStyle('war')}`}>war</span>
+                  <h3 class="font-serif text-xl text-tyrian-900">{war.data.name}</h3>
+                </div>
+                <span class="text-sm text-sand-700 shrink-0">{fmtRange(war.data)}</span>
+              </div>
+              <p class="text-sm text-sand-900 mt-2">{war.data.summary.slice(0, 220)}...</p>
+            </a>
+            {phases.length > 0 && (
+              <ul class="ml-6 mt-2 space-y-2 border-l-2 border-sand-300 pl-4">
+                {phases.map((phase) => (
+                  <li>
+                    <a href={`/events/${phase.id}`} class="block p-3 border border-sand-300 rounded hover:bg-white">
+                      <div class="flex items-baseline justify-between gap-3">
+                        <div class="flex items-baseline gap-2">
+                          <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(phase.data.type)}`}>{phase.data.type}</span>
+                          <h4 class="font-serif text-lg text-tyrian-700">{phase.data.name}</h4>
+                        </div>
+                        <span class="text-xs text-sand-700 shrink-0">{fmtRange(phase.data)}</span>
+                      </div>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+
+    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Other events</h2>
     <ul class="space-y-3">
-      {events.map((e) => (
+      {standaloneEvents.map((e) => (
         <li>
           <a href={`/events/${e.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
             <div class="flex items-baseline justify-between gap-4">
-              <h2 class="font-serif text-xl text-tyrian-700">{e.data.name}</h2>
-              <span class="text-sm text-sand-700">{Math.abs(e.data.date_start.value)} BCE</span>
+              <div class="flex items-baseline gap-3">
+                <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(e.data.type)}`}>{e.data.type}</span>
+                <h3 class="font-serif text-xl text-tyrian-700">{e.data.name}</h3>
+              </div>
+              <span class="text-sm text-sand-700 shrink-0">{fmtRange(e.data)}</span>
             </div>
-            <p class="text-sm text-sand-900 mt-2">{e.data.summary.slice(0, 200)}...</p>
+            <p class="text-sm text-sand-900 mt-2">{e.data.summary.slice(0, 220)}...</p>
           </a>
         </li>
       ))}
