@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Phoenician&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-text: #2a2218;
+  --color-text-muted: #6b5638;
+  --color-bg: #faf7f2;
+  --color-bg-elevated: #ffffff;
+  --color-rule: #d4bc94;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.font-phoenician {
+  font-family: 'Noto Sans Phoenician', serif;
+}
+
+.prose-encyclopedia p { @apply my-4; }
+.prose-encyclopedia h2 { @apply mt-10 mb-3 text-2xl border-b border-sand-300 pb-2; }
+.prose-encyclopedia h3 { @apply mt-8 mb-2 text-xl; }
+.prose-encyclopedia ul { @apply list-disc pl-6 my-4; }
+.prose-encyclopedia ol { @apply list-decimal pl-6 my-4; }
+.prose-encyclopedia a { @apply text-tyrian-700 underline decoration-tyrian-500/40 underline-offset-2 hover:decoration-tyrian-700; }

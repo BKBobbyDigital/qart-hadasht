@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Qart-Hadasht — The Carthage Encyclopedia. A reference for ancient Carthage from founding to destruction.' } = Astro.props;
+const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{fullTitle}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="border-b border-sand-300 bg-sand-50">
+      <div class="max-w-5xl mx-auto px-6 py-5 flex items-baseline justify-between">
+        <a href="/" class="group">
+          <div class="font-phoenician text-2xl text-tyrian-700 leading-none">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</div>
+          <div class="font-serif text-xl text-sand-900 mt-1">Qart-Hadasht</div>
+          <div class="text-xs uppercase tracking-widest text-sand-700 mt-0.5">The Carthage Encyclopedia</div>
+        </a>
+        <nav class="flex gap-6 text-sm font-medium text-sand-900">
+          <a href="/events" class="hover:text-tyrian-700">Events</a>
+          <a href="/people" class="hover:text-tyrian-700">People</a>
+          <a href="/places" class="hover:text-tyrian-700">Places</a>
+          <a href="/sources" class="hover:text-tyrian-700">Sources</a>
+          <a href="/about" class="hover:text-tyrian-700">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="border-t border-sand-300 bg-sand-50 mt-16">
+      <div class="max-w-5xl mx-auto px-6 py-8 text-sm text-sand-700">
+        <p>
+          <span class="font-phoenician">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span> · Qart-Hadasht ·
+          The Carthage Encyclopedia
+        </p>
+        <p class="mt-2">
+          Content licensed CC&nbsp;BY&nbsp;4.0 · Code MIT · An evolving reference for ancient Carthage.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

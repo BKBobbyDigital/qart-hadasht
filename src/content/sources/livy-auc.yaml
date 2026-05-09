@@ -1,0 +1,29 @@
+slug: livy-auc
+title: Ab Urbe Condita
+author: Titus Livius (Livy)
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: -25
+  precision: decade
+  circa: true
+  range_end: 17
+temporal_distance_years: 200
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Roman historian writing under Augustus, ~175 years after the Second Punic War.
+  Worked from earlier sources (Polybius, Fabius Pictor, Coelius Antipater) rather
+  than direct testimony. Strong pro-Roman, moralizing voice; speeches and dramatic
+  set-pieces are often rhetorical compositions rather than reportage. Most valuable
+  where he draws on Polybius (often verifiable), least reliable in tactical detail
+  and troop figures.
+public_domain_translation:
+  translator: Canon Roberts
+  year: 1912
+  url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0144
+summary: >
+  Monumental 142-book history of Rome from its founding to 9 BCE. Books 21–30 cover
+  the Second Punic War (218–201 BCE) and are the fullest surviving narrative of
+  Hannibal's war. Books 31 onward continue through the Macedonian wars and the
+  Third Punic War (in books now lost; survives only in epitome).

@@ -1,0 +1,24 @@
+slug: masinissa
+name_display: Masinissa
+name_greek: Μασσανάσσης
+name_latin: Masinissa
+birth:
+  value: -238
+  precision: year
+  circa: true
+death:
+  value: -148
+  precision: year
+roles:
+  - king
+  - general
+  - cavalry commander
+polity: Numidia
+summary: >
+  Numidian prince of the Massylii who fought first for Carthage in Spain and
+  then defected to Rome before the Zama campaign. His cavalry — long the
+  decisive arm of Numidian armies — proved critical at Zama, where Masinissa's
+  charge in the late stages of the battle broke the Carthaginian line. Rome
+  rewarded him with a unified Numidian kingdom; his subsequent border
+  provocations against Carthage were a proximate cause of the Third Punic War.
+  Lived to nearly 90, dying as Rome moved to destroy Carthage.

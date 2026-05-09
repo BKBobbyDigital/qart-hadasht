@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const sources = await getCollection('sources');
+const primary = sources.filter((s) => s.data.is_primary);
+const modern = sources.filter((s) => !s.data.is_primary);
+---
+
+<BaseLayout title="Sources">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-2">Sources</h1>
+    <p class="text-sand-700 mb-8">Every claim on this site is grounded in the sources below.</p>
+
+    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Primary sources</h2>
+    <ul class="space-y-2 mb-10">
+      {primary.map((s) => (
+        <li class="border border-sand-300 rounded p-3">
+          <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
+            {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+          </a>
+          <p class="text-sm text-sand-700 mt-1 capitalize">{s.data.type.replace('_', ' ')} · {s.data.language}</p>
+        </li>
+      ))}
+    </ul>
+
+    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Modern scholarship</h2>
+    <ul class="space-y-2">
+      {modern.map((s) => (
+        <li class="border border-sand-300 rounded p-3">
+          <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
+            {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+            {s.data.date_composed && <> ({s.data.date_composed.value})</>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

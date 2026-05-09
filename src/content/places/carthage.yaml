@@ -1,0 +1,24 @@
+slug: carthage
+name_display: Carthage
+names_alt:
+  punic: Qart-Hadasht
+  punic_script: 𐤒𐤓𐤕𐤇𐤃𐤔𐤕
+  greek: Καρχηδών (Karchedon)
+  latin: Carthago
+  modern: Carthage, Tunisia (suburb of Tunis)
+type: city
+primary:
+  label: Byrsa Hill, ancient Carthage
+  lat: 36.8531
+  lon: 10.3236
+  confidence: certain
+modern_location: Tunis governorate, Tunisia
+summary: >
+  The principal Phoenician colony in the western Mediterranean, founded by
+  settlers from Tyre traditionally dated to 814 BCE. Its Punic name Qart-Hadasht
+  ("New City") distinguished it from the older Phoenician settlement of Utica
+  to the north. By the 4th century BCE, Carthage controlled a maritime empire
+  encompassing North Africa, Sicily, Sardinia, the Balearics, and southern
+  Iberia. Destroyed by Rome in 146 BCE at the close of the Third Punic War.
+  Refounded as a Roman colony by Augustus and again, eventually, ruined; the
+  archaeological site is today a UNESCO World Heritage Site.

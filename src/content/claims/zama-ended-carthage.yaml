@@ -1,0 +1,51 @@
+slug: zama-ended-carthage
+statement: Zama ended Carthage as a great power.
+confidence: contested
+dispute_summary: |
+  This is one of the most pervasive simplifications of Carthaginian history,
+  and it is true only in a narrow sense.
+
+  - **Militarily and politically**: yes. The peace terms of 201 BCE stripped
+    Carthage of its overseas territories, its war fleet (reduced to 10 ships),
+    and its right to wage war outside Africa without Roman permission. The city
+    became a regional power constrained to its African hinterland.
+  - **Economically**: no. Carthage recovered rapidly. By the 190s BCE Hannibal,
+    serving as suffete, was reforming the city's finances and reportedly paying
+    down the Roman war indemnity ahead of schedule. By the 150s BCE Carthage's
+    wealth was sufficient to alarm Cato the Elder and contribute to the case
+    for the Third Punic War.
+  - **Civilizationally**: no — that ended in 146 BCE with the Roman destruction,
+    a separate event 56 years later.
+
+  The "Zama ended Carthage" framing collapses these distinct outcomes and
+  flattens half a century of history.
+scholarly_consensus: >
+  Modern scholarship is clear that Zama ended Carthage's status as a great
+  military power, not the city itself. The conflation persists in popular
+  histories.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.18"
+    passage_summary: >
+      Polybius gives the peace terms imposed after Zama, including loss of
+      overseas territory, a 50-year indemnity of 10,000 talents, the surrender
+      of the fleet and elephants, and a prohibition on war outside Africa
+      without Roman consent.
+  - source: miles-carthage-2010
+    stance: qualifies
+    passage_ref: "ch. 9"
+    passage_summary: >
+      Miles emphasizes Carthaginian economic recovery in the decades after
+      Zama and argues that the city's renewed prosperity, not its weakness,
+      was what provoked Roman anxiety in the lead-up to 149 BCE.
+  - source: macdonald-carthage-2015
+    stance: qualifies
+    passage_summary: >
+      MacDonald details the post-Zama recovery and Hannibal's domestic reforms
+      as suffete, framing 202–149 BCE as a distinct and substantive period
+      rather than a long aftermath.
+entities:
+  - type: event
+    slug: battle-of-zama
+    role: subject

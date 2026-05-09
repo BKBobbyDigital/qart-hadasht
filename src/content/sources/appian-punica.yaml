@@ -1,0 +1,29 @@
+slug: appian-punica
+title: Punica (Roman History, Book 8)
+author: Appian of Alexandria
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: 160
+  precision: decade
+  circa: true
+temporal_distance_years: 350
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Greek historian writing under the Antonines, ~3.5 centuries after the events.
+  Used now-lost sources (likely including Polybius and possibly Carthaginian
+  traditions transmitted via Greek intermediaries). Less reliable than Polybius
+  for the Second Punic War, but indispensable for the Third Punic War — Appian's
+  Punica is our single best continuous account of the destruction of Carthage in
+  149–146 BCE.
+public_domain_translation:
+  translator: Horace White
+  year: 1899
+  url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0230
+summary: >
+  Book 8 of Appian's Roman History, covering Rome's wars with Carthage. Strongest
+  on the Third Punic War (chapters 67–135), where it is our principal narrative
+  source for the siege and destruction of Carthage. Earlier sections on the First
+  and Second Punic Wars are derivative and should be checked against Polybius
+  where overlap exists.

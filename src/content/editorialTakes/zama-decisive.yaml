@@ -1,0 +1,63 @@
+slug: zama-decisive
+subject_question: >
+  Was Zama the decisive battle of the Second Punic War — or was the war already
+  decided by 207 BCE?
+subject_entity:
+  type: event
+  slug: battle-of-zama
+  role: subject
+position: >
+  Zama was the necessary closing act, but the Second Punic War was effectively
+  decided three to five years earlier — at the Metaurus in 207 BCE and through
+  the slow strategic strangulation of Hannibal in southern Italy. By the time
+  Scipio crossed to Africa, Carthage had no realistic path to victory; Zama
+  determined the terms, not the outcome.
+reasoning: |
+  Three lines of evidence support reading Zama as confirmation rather than cause:
+
+  1. **The Metaurus (207 BCE).** Hasdrubal Barca's defeat and death cut off the
+     reinforcements that were Hannibal's last strategic hope. Polybius and
+     Livy both treat the Metaurus as the war's pivot, and Roman senators
+     reportedly saw it that way at the time.
+
+  2. **Italy 207–203 BCE.** Hannibal was confined to Bruttium, unable to
+     threaten Rome and unable to extract himself; Roman recovery in Spain under
+     Scipio (210–206 BCE) eliminated Carthage's principal recruiting ground
+     and silver supply.
+
+  3. **The state of Carthaginian power in 202 BCE.** The army Hannibal fielded
+     at Zama was hastily assembled — recently raised levies, a reduced
+     veteran core, poorly conditioned elephants. A Carthaginian victory would
+     have prolonged the war but not reversed the strategic situation; Rome
+     would have raised another army.
+
+  The "Zama-as-decisive" framing reflects ancient historiography's preference
+  for set-piece battles as turning points and the literary appeal of two
+  great commanders meeting once in the field. The strategic historian's
+  question — when did one side lose the ability to win? — points earlier.
+confidence: moderate
+weighed_claims:
+  - zama-elephants-poorly-trained
+  - zama-ended-carthage
+competing_positions:
+  - position: >
+      Zama was genuinely decisive because a Carthaginian victory would have
+      forced Rome to negotiate.
+    why_rejected: >
+      This underestimates Roman strategic depth. Rome had absorbed Cannae —
+      a vastly worse defeat — without negotiating; a tactical defeat in
+      Africa with Scipio's army would have been similarly survivable. Rome's
+      capacity to raise new armies remained the war's central asymmetry.
+    held_by: Some military histories in the Liddell Hart tradition.
+  - position: >
+      The war was decided even earlier, at Cannae's failure to translate into
+      Roman political collapse.
+    why_rejected: >
+      This is closer to defensible but conflates what was possible (Roman
+      collapse after Cannae was at least imaginable) with what was strategic
+      reality by 207. Cannae proved Roman political resilience; the Metaurus
+      ended the strategic threat.
+    held_by: A minority view; defensible but stronger as an argument about
+      Carthaginian options than about when defeat became inevitable.
+last_reviewed: "2026-05-08"
+open_to_revision: true

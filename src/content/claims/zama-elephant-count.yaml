@@ -1,0 +1,30 @@
+slug: zama-elephant-count
+statement: Hannibal deployed approximately 80 war elephants at the Battle of Zama.
+confidence: attested
+scholarly_consensus: >
+  Universally accepted; the figure 80 is given by both major sources and is not
+  meaningfully disputed.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.11.1"
+    passage_summary: >
+      Polybius states that Hannibal placed 80 elephants in front of his line.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.33.4"
+    passage_summary: >
+      Livy gives the same figure of 80 elephants stationed in the Carthaginian van.
+  - source: appian-punica
+    stance: qualifies
+    passage_ref: "Pun. 41"
+    passage_summary: >
+      Appian gives a higher figure but is generally less reliable for tactical
+      detail than Polybius and Livy.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: battle-of-zama
+    role: context

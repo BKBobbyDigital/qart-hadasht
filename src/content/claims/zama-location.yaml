@@ -1,0 +1,48 @@
+slug: zama-location
+statement: >
+  The Battle of Zama was fought near Naraggara (modern Sakiet Sidi Youssef,
+  Tunisia), not at Zama Regia itself, despite the traditional name.
+confidence: contested
+dispute_summary: |
+  The precise battlefield is uncertain even among the ancient sources:
+
+  - **Polybius (15.5.14)** locates Scipio's camp at Naraggara, on the border of
+    Numidia and Carthaginian territory.
+  - **Livy (30.29.1–2)** places the engagement at Zama, "five days' march" from
+    Carthage. Zama Regia (modern Jama) lies ~80 km south-east of Naraggara.
+  - **Modern reconstructions** (notably Lancel 1995) generally favor the
+    Naraggara site on the strength of Polybius's earlier and more reliable
+    account, while acknowledging that the toponym "Zama" — preserved by Livy
+    and Cornelius Nepos — is the one that stuck.
+
+  The disagreement is not trivial: the two candidate sites are nearly 80 km
+  apart, with different topography, water access, and implications for the
+  approaches and lines of retreat reconstructed in modern accounts.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.5.14"
+    passage_summary: >
+      Polybius locates Scipio's camp at Naraggara before the battle.
+  - source: livy-auc
+    stance: contradicts
+    passage_ref: "30.29.1-2"
+    passage_summary: >
+      Livy places the engagement at Zama, five days' march from Carthage.
+  - source: lancel-carthage-1995
+    stance: qualifies
+    passage_summary: >
+      Lancel surveys the candidate sites and inclines toward Naraggara on
+      topographic grounds.
+  - source: macdonald-carthage-2015
+    stance: qualifies
+    passage_summary: >
+      MacDonald summarizes the disagreement and notes that no candidate site
+      has produced direct archaeological confirmation of the battle.
+entities:
+  - type: event
+    slug: battle-of-zama
+    role: subject
+  - type: place
+    slug: zama
+    role: location

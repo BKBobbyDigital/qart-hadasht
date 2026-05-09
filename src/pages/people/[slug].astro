@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const people = await getCollection('people');
+  return people.map((p) => ({
+    params: { slug: p.id },
+    props: { person: p },
+  }));
+}
+
+const { person } = Astro.props;
+const d = person.data;
+
+const fmtDate = (date: any) => {
+  if (!date) return null;
+  const year = Math.abs(date.value);
+  const era = date.value < 0 ? 'BCE' : 'CE';
+  return `${date.circa ? 'c. ' : ''}${year} ${era}`;
+};
+---
+
+<BaseLayout title={d.name_display} description={d.summary}>
+  <article class="max-w-3xl mx-auto px-6 py-12">
+    {d.name_punic_script && (
+      <p class="font-phoenician text-3xl text-tyrian-700 mb-2">{d.name_punic_script}</p>
+    )}
+    <h1 class="font-serif text-4xl mb-2">{d.name_display}</h1>
+    <p class="text-sand-700">
+      {d.birth && <>b. {fmtDate(d.birth)}</>}
+      {d.birth && d.death && <> · </>}
+      {d.death && <>d. {fmtDate(d.death)}</>}
+      {d.polity && <> · {d.polity}</>}
+    </p>
+
+    {(d.name_punic || d.name_greek || d.name_latin) && (
+      <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
+        <h2 class="font-serif text-xl mb-3">Name</h2>
+        <dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
+          {d.name_punic && (<><dt class="font-semibold text-sand-700">Punic</dt><dd>{d.name_punic} {d.name_punic_script && <span class="font-phoenician text-tyrian-700 ml-2">{d.name_punic_script}</span>}</dd></>)}
+          {d.name_greek && (<><dt class="font-semibold text-sand-700">Greek</dt><dd>{d.name_greek}</dd></>)}
+          {d.name_latin && (<><dt class="font-semibold text-sand-700">Latin</dt><dd>{d.name_latin}</dd></>)}
+        </dl>
+        {d.etymology && <p class="text-sm mt-3 text-sand-900">{d.etymology}</p>}
+      </section>
+    )}
+
+    <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
+      <p>{d.summary}</p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,28 @@
+slug: scipio-africanus
+name_display: Scipio Africanus
+name_latin: Publius Cornelius Scipio Africanus
+etymology: >
+  The cognomen "Africanus" was awarded after his victory at Zama and the defeat
+  of Carthage in Africa — making it one of the earliest examples of a Roman
+  general taking a triumphal name from the territory he conquered.
+birth:
+  value: -236
+  precision: year
+  circa: true
+death:
+  value: -183
+  precision: year
+  circa: true
+roles:
+  - general
+  - consul
+  - statesman
+polity: Rome
+summary: >
+  Roman general who turned the Second Punic War. Survived Cannae as a young
+  military tribune; took command of the Roman war effort in Spain (210–206 BCE),
+  capturing Carthago Nova and breaking Carthaginian power on the peninsula.
+  Crossed to Africa in 204 BCE, allied with the Numidian prince Masinissa, and
+  defeated Hannibal at Zama in 202 BCE. Honored with the cognomen Africanus.
+  Later prosecuted by political rivals and withdrew from public life; died in
+  the same year as Hannibal (183 BCE).

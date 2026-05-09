@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const places = (await getCollection('places')).sort(
+  (a, b) => a.data.name_display.localeCompare(b.data.name_display)
+);
+---
+
+<BaseLayout title="Places">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-6">Places</h1>
+    <ul class="grid sm:grid-cols-2 gap-3">
+      {places.map((p) => (
+        <li>
+          <a href={`/places/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+            <h2 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h2>
+            <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{p.data.type}</p>
+            {p.data.modern_location && <p class="text-sm text-sand-700 mt-1">{p.data.modern_location}</p>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

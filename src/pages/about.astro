@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About">
+  <article class="max-w-3xl mx-auto px-6 py-12 prose-encyclopedia">
+    <h1 class="font-serif text-4xl mb-6">About this project</h1>
+
+    <p class="text-lg text-sand-900">
+      Qart-Hadasht is an evolving encyclopedia of ancient Carthage, from its
+      founding to its destruction in 146 BCE.
+    </p>
+
+    <h2>The name</h2>
+    <p>
+      <span class="font-phoenician text-tyrian-700">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span> —
+      <em>Qart-Hadasht</em>, "New City" — is what the Carthaginians called
+      Carthage. "Carthage" itself is the Latin form, by way of the Greek
+      <em>Karchedon</em>. Most of what survives about Carthage was written by
+      its enemies; using the city's own name, on its own terms, is part of how
+      this project tries to push past that.
+    </p>
+
+    <h2>How this site works</h2>
+    <p>
+      Every factual statement is modeled as a <strong>claim</strong> — atomic,
+      individually citable, and tagged with one of:
+    </p>
+    <ul>
+      <li><strong>attested</strong> — directly stated in primary sources, not meaningfully disputed.</li>
+      <li><strong>inferred</strong> — reasoned from primary evidence; not directly stated, but well-supported.</li>
+      <li><strong>contested</strong> — genuinely disputed in the sources or among modern scholars.</li>
+      <li><strong>legendary</strong> — drawn from legendary or mythologized tradition; historicity uncertain.</li>
+    </ul>
+    <p>
+      Each claim links to the ancient and modern sources that support, qualify,
+      or contradict it. Source pages, in turn, list every claim that cites them,
+      with metadata on each source's reliability — author, language, date of
+      composition, distance from events, and known biases.
+    </p>
+
+    <h2>Editorial takes</h2>
+    <p>
+      Where the evidence supports a synthesis, the site occasionally offers an
+      <strong>editorial take</strong> — a labeled, signed position with explicit
+      reasoning. These are clearly marked as the site's own judgment, never
+      blended into the surrounding prose, and always open to revision.
+    </p>
+
+    <h2>Open questions</h2>
+    <p>
+      Where we genuinely don't know, that gap gets its own page. Knowing what
+      we don't know — and why — is part of the history.
+    </p>
+
+    <h2>Scope</h2>
+    <p>
+      The current scope runs from the legendary founding (traditionally 814 BCE)
+      to the destruction of Carthage in 146 BCE. The Roman Carthage that
+      followed, and Carthage's long afterlife in literature and modern memory,
+      are out of scope for this version but on the roadmap.
+    </p>
+
+    <h2>Licensing</h2>
+    <p>
+      Content is licensed CC&nbsp;BY&nbsp;4.0 — quote it, cite it, build on it
+      freely with attribution. Code is MIT.
+    </p>
+  </article>
+</BaseLayout>

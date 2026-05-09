@@ -1,0 +1,48 @@
+---
+interface Props {
+  confidence: 'attested' | 'inferred' | 'contested' | 'legendary' | 'disputed';
+}
+const { confidence } = Astro.props;
+
+const styles: Record<string, { bg: string; text: string; label: string; title: string }> = {
+  attested: {
+    bg: 'bg-emerald-100',
+    text: 'text-emerald-900',
+    label: 'attested',
+    title: 'Directly stated in primary sources; not meaningfully disputed.',
+  },
+  inferred: {
+    bg: 'bg-sky-100',
+    text: 'text-sky-900',
+    label: 'inferred',
+    title: 'Reasoned from primary evidence; not directly stated, but well-supported.',
+  },
+  contested: {
+    bg: 'bg-amber-100',
+    text: 'text-amber-900',
+    label: 'contested',
+    title: 'Genuinely disputed in the sources or among modern scholars.',
+  },
+  disputed: {
+    bg: 'bg-amber-100',
+    text: 'text-amber-900',
+    label: 'disputed',
+    title: 'Disagreement among modern scholars.',
+  },
+  legendary: {
+    bg: 'bg-tyrian-100',
+    text: 'text-tyrian-900',
+    label: 'legendary',
+    title: 'Drawn from legendary or mythologized tradition; historicity uncertain.',
+  },
+};
+
+const s = styles[confidence];
+---
+
+<span
+  class={`inline-block text-[11px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded ${s.bg} ${s.text}`}
+  title={s.title}
+>
+  {s.label}
+</span>

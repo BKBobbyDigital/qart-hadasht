@@ -1,0 +1,37 @@
+---
+interface Props {
+  take: any;
+}
+const { take } = Astro.props;
+const data = take.data;
+---
+
+<aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Editorial take</span>
+    <span class="text-[11px] uppercase tracking-wider text-sand-700">· {data.confidence} confidence</span>
+  </div>
+  <h4 class="font-serif text-xl mt-1 mb-2">{data.subject_question}</h4>
+  <p class="font-serif text-lg leading-snug text-sand-900">{data.position}</p>
+  <details class="mt-4 text-sm">
+    <summary class="cursor-pointer font-medium text-tyrian-700">Reasoning →</summary>
+    <div class="mt-2 prose-encyclopedia" set:html={data.reasoning.replace(/\n/g, '<br/>')} />
+    {data.competing_positions && data.competing_positions.length > 0 && (
+      <div class="mt-4">
+        <h5 class="text-xs uppercase tracking-widest font-semibold text-sand-700">Positions considered and rejected</h5>
+        <ul class="mt-2 space-y-3">
+          {data.competing_positions.map((cp: any) => (
+            <li class="border-l-2 border-sand-300 pl-3">
+              <p class="font-medium">{cp.position}</p>
+              <p class="text-sand-700 text-sm mt-1">Why rejected: {cp.why_rejected}</p>
+              {cp.held_by && <p class="text-sand-700 text-xs mt-1 italic">Held by: {cp.held_by}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </details>
+  <p class="mt-4 text-xs text-sand-700">
+    Site position · last reviewed {data.last_reviewed} · {data.open_to_revision ? 'open to revision' : 'considered settled'}
+  </p>
+</aside>

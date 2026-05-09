@@ -1,0 +1,32 @@
+slug: hannibal-barca
+name_display: Hannibal Barca
+name_punic: Ḥannibaʿl
+name_punic_script: 𐤇𐤍𐤁𐤏𐤋
+name_greek: Ἀννίβας
+name_latin: Hannibal
+etymology: >
+  Ḥannibaʿl combines ḥnn ("grace, favor") with the divine name Baʿal ("lord"),
+  yielding "grace of Baʿal" or "Baʿal has been gracious." The Barca surname —
+  Punic Brq, "lightning" — was a family epithet of his father Hamilcar, not
+  inherited from earlier generations.
+birth:
+  value: -247
+  precision: year
+  circa: true
+death:
+  value: -183
+  precision: year
+  circa: true
+roles:
+  - general
+  - statesman
+  - suffete
+polity: Carthage
+summary: >
+  Carthaginian general and statesman, son of Hamilcar Barca. Commanded the
+  Carthaginian war effort against Rome in the Second Punic War (218–201 BCE),
+  including the crossing of the Alps and the victories at Trebia, Trasimene, and
+  Cannae. Defeated by Scipio Africanus at Zama in 202 BCE. Served as suffete in
+  Carthage after the war and reformed the city's finances before being driven
+  into exile by Roman pressure. Took his own life c. 183 BCE in Bithynia to avoid
+  capture.

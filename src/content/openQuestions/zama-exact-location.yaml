@@ -1,0 +1,47 @@
+slug: zama-exact-location
+question: Where exactly was the Battle of Zama fought?
+why_unknown: >
+  The two principal ancient sources disagree: Polybius locates Scipio's camp
+  at Naraggara, Livy at Zama. The two candidate sites are ~80 km apart. No
+  battlefield archaeology has confirmed either location — large set-piece
+  battles of this period rarely leave durable physical traces, and the
+  ancient toponymy of the region is imperfectly mapped to modern sites.
+evidence_summary: >
+  Textual: Polybius 15.5.14 (Naraggara); Livy 30.29.1–2 (Zama, five days from
+  Carthage); Cornelius Nepos preserves "Zama" as the battle's name, following
+  Livy's tradition. Topographic: Lancel's surveys of the Naraggara area
+  identify it as militarily plausible. Archaeological: no direct evidence
+  from any candidate site.
+candidate_answers:
+  - answer: Naraggara (modern Sakiet Sidi Youssef, Tunisia)
+    arguments_for: >
+      Polybius's account is earlier, more reliable in detail, and identifies
+      Scipio's camp by name. Lancel's topographic survey supports the site.
+    arguments_against: >
+      Loses the toponymic continuity with the battle's traditional name.
+    held_by: Most modern scholarship since Lancel.
+  - answer: Zama Regia (modern Jama, Siliana governorate)
+    arguments_for: >
+      Preserves the toponym; Livy's account is detailed and consistent.
+    arguments_against: >
+      Livy is generally less reliable than Polybius for battlefield
+      identification, and the site is harder to reconcile with Polybius's
+      logistical details.
+    held_by: Earlier scholarship; some modern accounts.
+  - answer: An intermediate site
+    arguments_for: >
+      Could in principle reconcile both ancient accounts.
+    arguments_against: >
+      No textual support; introduces a candidate not named by any source.
+    held_by: A minority of 20th-century reconstructions.
+relevant_entities:
+  - type: event
+    slug: battle-of-zama
+    role: subject
+  - type: place
+    slug: zama
+    role: location
+what_would_resolve_this: >
+  Battlefield archaeology — mass burials, weapons deposits, or fortification
+  remnants at one of the candidate sites — would be decisive but is unlikely
+  given the period and the sites' subsequent agricultural use.

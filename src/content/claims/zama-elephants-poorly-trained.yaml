@@ -1,0 +1,36 @@
+slug: zama-elephants-poorly-trained
+statement: >
+  Hannibal's elephants at Zama were inadequately trained, contributing to their
+  failure when Scipio's maniples opened lanes for them to charge through harmlessly.
+confidence: inferred
+scholarly_consensus: >
+  Strong; the standard explanation in modern military histories. The ancient
+  sources describe the failure but not its cause; modern scholarship infers
+  poor training from the circumstances of Hannibal's hurried mobilization.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.12"
+    passage_summary: >
+      Polybius describes the elephants panicking from the noise of Roman trumpets
+      and being channeled through the lanes left open in Scipio's maniples; he
+      notes their failure but does not state poor training as the cause.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_ref: "ch. on Zama"
+    passage_summary: >
+      Hoyos argues the elephants were recently acquired and lacked the
+      conditioning of Hannibal's earlier campaigns, where elephants performed
+      more reliably under his direction.
+  - source: macdonald-carthage-2015
+    stance: supports
+    passage_summary: >
+      MacDonald notes the broader context of Carthage's rushed and improvised
+      preparations for Zama, of which the elephant force was one expression.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: battle-of-zama
+    role: context

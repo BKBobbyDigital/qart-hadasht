@@ -1,0 +1,34 @@
+slug: battle-of-zama
+name: Battle of Zama
+type: battle
+date_start:
+  value: -202
+  precision: year
+  notes: >
+    Traditionally dated 19 October 202 BCE, but the day is itself a later
+    reconstruction; ancient sources give only the year and broad season.
+place: zama
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: scipio-africanus
+    role: commander
+    side: Roman
+  - person: masinissa
+    role: cavalry commander
+    side: Roman (Numidian ally)
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - appian-punica
+summary: >
+  The decisive engagement of the Second Punic War. After Scipio's invasion of
+  Africa forced Hannibal's recall from Italy, the two commanders met in open
+  battle in Numidia in autumn 202 BCE. Scipio's reformed maniples opened lanes
+  for Hannibal's elephants to pass through harmlessly; the Roman and Numidian
+  cavalry under Masinissa drove off the Carthaginian horse and returned to
+  strike Hannibal's veteran third line in the rear. Carthage sued for peace on
+  Roman terms within months. The battle ended Carthage as a great Mediterranean
+  military power, though not — as is often claimed — the city itself, which
+  endured for another 56 years until the Third Punic War.

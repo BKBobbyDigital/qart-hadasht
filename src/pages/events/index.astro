@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const events = (await getCollection('events')).sort(
+  (a, b) => a.data.date_start.value - b.data.date_start.value
+);
+---
+
+<BaseLayout title="Events">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-6">Events</h1>
+    <ul class="space-y-3">
+      {events.map((e) => (
+        <li>
+          <a href={`/events/${e.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+            <div class="flex items-baseline justify-between gap-4">
+              <h2 class="font-serif text-xl text-tyrian-700">{e.data.name}</h2>
+              <span class="text-sm text-sand-700">{Math.abs(e.data.date_start.value)} BCE</span>
+            </div>
+            <p class="text-sm text-sand-900 mt-2">{e.data.summary.slice(0, 200)}...</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
