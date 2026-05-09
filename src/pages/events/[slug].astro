@@ -63,6 +63,35 @@ const ledToResolved = await Promise.all(
   ledToLinks.map(async (l) => ({ link: l, event: await resolveLinkedEvent(l.data.effect.id) }))
 );
 
+// Related events — bidirectional. This event's own list, plus reverse lookups
+// from any other event that references this one.
+const allEvents = await getCollection('events');
+type RelatedEntry = { event: any; relation: string; notes?: string };
+const relatedDirect: RelatedEntry[] = await Promise.all(
+  (data.related_events ?? []).map(async (r: any) => ({
+    event: await getEntry('events', r.event.id),
+    relation: r.relation,
+    notes: r.notes,
+  }))
+);
+const relatedReverse: RelatedEntry[] = allEvents
+  .filter((e) => e.id !== event.id)
+  .flatMap((e) =>
+    (e.data.related_events ?? [])
+      .filter((r: any) => r.event.id === event.id)
+      .map((r: any) => ({ event: e, relation: r.relation, notes: r.notes }))
+  );
+// Dedupe (a forward + reverse pair to the same target should count once)
+const relatedSeen = new Set<string>();
+const relatedAll: RelatedEntry[] = [...relatedDirect, ...relatedReverse].filter((r) => {
+  if (!r.event) return false;
+  if (relatedSeen.has(r.event.id)) return false;
+  relatedSeen.add(r.event.id);
+  return true;
+});
+
+const hasContext = causedByResolved.length > 0 || ledToResolved.length > 0 || relatedAll.length > 0;
+
 // Resolve place
 const place = data.place ? await getEntry('places', data.place.id) : null;
 
@@ -136,36 +165,50 @@ const era = data.date_start.value < 0 ? 'BCE' : 'CE';
       />
     )}
 
-    {(causedByResolved.length > 0 || ledToResolved.length > 0) && (
-      <section class="mt-8 grid sm:grid-cols-2 gap-3">
-        {causedByResolved.length > 0 && (
-          <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
-            <h2 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Caused by</h2>
-            <ul class="space-y-2">
-              {causedByResolved.map((r: any) => r.event && (
-                <li>
-                  <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
-                  <span class="text-xs text-sand-700"> · {r.link.data.relation}</span>
-                  <span class="text-[11px] uppercase tracking-wider text-sand-700 ml-1">{r.link.data.confidence}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-        {ledToResolved.length > 0 && (
-          <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
-            <h2 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Led to</h2>
-            <ul class="space-y-2">
-              {ledToResolved.map((r: any) => r.event && (
-                <li>
-                  <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
-                  <span class="text-xs text-sand-700"> · {r.link.data.relation}</span>
-                  <span class="text-[11px] uppercase tracking-wider text-sand-700 ml-1">{r.link.data.confidence}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+    {hasContext && (
+      <section class="mt-8">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Context</h2>
+        <div class="grid sm:grid-cols-3 gap-3">
+          {causedByResolved.length > 0 && (
+            <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+              <h3 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Caused by</h3>
+              <ul class="space-y-2 text-sm">
+                {causedByResolved.map((r: any) => r.event && (
+                  <li>
+                    <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
+                    <p class="text-xs text-sand-700 mt-0.5">{r.link.data.relation} <span class="uppercase tracking-wider ml-1">· {r.link.data.confidence}</span></p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {ledToResolved.length > 0 && (
+            <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+              <h3 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Led to</h3>
+              <ul class="space-y-2 text-sm">
+                {ledToResolved.map((r: any) => r.event && (
+                  <li>
+                    <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
+                    <p class="text-xs text-sand-700 mt-0.5">{r.link.data.relation} <span class="uppercase tracking-wider ml-1">· {r.link.data.confidence}</span></p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {relatedAll.length > 0 && (
+            <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+              <h3 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Related events</h3>
+              <ul class="space-y-2 text-sm">
+                {relatedAll.map((r) => (
+                  <li>
+                    <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
+                    <p class="text-xs text-sand-700 mt-0.5">{r.relation}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
       </section>
     )}
 

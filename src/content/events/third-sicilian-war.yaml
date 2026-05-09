@@ -1,0 +1,48 @@
+slug: third-sicilian-war
+name: Third Sicilian War (Carthage and Agathocles)
+type: war
+date_start:
+  value: -311
+  precision: year
+date_end:
+  value: -306
+  precision: year
+place: sicily
+participants:
+  - person: agathocles
+    role: commander
+    side: Syracuse
+  - person: hamilcar-son-of-gisco
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - diodorus-library
+  - justin-epitome
+summary: >
+  The five-year conflict between Carthage and Agathocles of Syracuse,
+  fought across Sicily and (uniquely) into Carthaginian Africa itself.
+  Carthage opened the war strongly: Hamilcar son of Gisco defeated
+  Agathocles at the Battle of the Himera River in 311 BCE, recovered
+  most of Greek Sicily, and besieged Syracuse in 311–310 BCE. With
+  Agathocles trapped in his own capital and his territory shrinking,
+  the war seemed effectively decided. It was at this point — in
+  August 310 BCE — that Agathocles took the unprecedented step of
+  shifting the theater. He slipped a small army through the
+  Carthaginian naval blockade, landed in Africa, and forced Carthage
+  onto the strategic defensive on its own home ground. Hamilcar son
+  of Gisco was eventually recalled from Sicily and killed in 309 BCE
+  in a Greek counterattack. Agathocles's African campaign collapsed
+  in 307 BCE. The peace of 306 BCE restored the pre-war division of
+  Sicily — Carthage retained the western half, Syracuse and the
+  Greek cities the east — and was, by both ancient and modern
+  reckoning, a status-quo settlement that resolved nothing strategic
+  but exhausted both sides for a generation. The war is essential
+  context for the African Invasion of 310–307 BCE, which is treated
+  in its own dedicated event entry.
+related_events:
+  - event: agathocles-invasion-of-africa
+    relation: contained within / strategic pivot of
+    notes: >
+      Agathocles opened the African theater while still fighting in
+      Sicily; the African campaign is best read as a phase of this
+      larger war rather than as a separate conflict.

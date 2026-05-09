@@ -1,0 +1,36 @@
+slug: agathocles-burned-ships
+statement: >
+  After landing in Africa in August 310 BCE, Agathocles burned his own
+  ships on the beach to prevent his troops from retreating to Sicily.
+confidence: attested
+scholarly_consensus: >
+  Universally accepted; the burning of the ships is the canonical and
+  most-remembered moment of the African expedition and is preserved in
+  Diodorus and the broader literary tradition with consistent detail.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.7"
+    passage_summary: >
+      Diodorus narrates the landing, the burning of the ships, and
+      Agathocles's address to his troops — the act framed as a
+      deliberate elimination of the option of retreat to commit the
+      army to the African campaign.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "22.5-6"
+    passage_summary: >
+      Justin's epitome preserves the same act, with characteristic
+      compression.
+notes: >
+  The burning is sometimes treated in modern accounts as proverbial —
+  the original "burn your boats" gesture — but the historical instance
+  is firmly attested and has no clear earlier example in Greek
+  military narrative.
+entities:
+  - type: person
+    slug: agathocles
+    role: subject
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: context

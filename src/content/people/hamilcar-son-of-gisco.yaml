@@ -1,0 +1,36 @@
+slug: hamilcar-son-of-gisco
+name_display: Hamilcar (son of Gisco)
+name_punic: ʿAbd-Melqart
+name_punic_script: 𐤏𐤁𐤃𐤌𐤋𐤒𐤓𐤕
+name_greek: Ἀμίλκας
+name_latin: Hamilcar
+etymology: >
+  Hamilcar is the Greek/Latin rendering of the Punic ʿAbd-Melqart,
+  "servant of Melqart" — a common Carthaginian theophoric name
+  honoring the Tyrian patron deity. The patronymic "son of Gisco"
+  distinguishes him from the several other Carthaginian commanders
+  named Hamilcar in the third and fourth centuries BCE — including
+  the more famous father of Hannibal, more than half a century later.
+floruit:
+  value: -315
+  precision: decade
+  circa: true
+death:
+  value: -309
+  precision: year
+  notes: Killed in Sicily during a Greek counterattack; his head was reportedly sent to Agathocles in Africa as a trophy.
+roles:
+  - general
+polity: Carthage
+summary: >
+  Carthaginian general who commanded the war against Agathocles in
+  Sicily from approximately 311 BCE. Defeated Agathocles at the Battle
+  of the Himera River in 311 BCE, recovering most of Greek Sicily for
+  Carthage and besieging Syracuse itself. The siege was interrupted in
+  310 BCE by Agathocles's audacious invasion of Africa, which forced
+  Carthage to redirect resources homeward. Hamilcar continued the
+  Sicilian war but was defeated and killed in 309 BCE in a Greek
+  counterattack near Syracuse — Diodorus reports that his head was
+  decapitated and sent to Agathocles in Africa as a trophy of victory.
+  His death effectively ended Carthaginian momentum in Sicily and
+  contributed to the status-quo settlement of 306 BCE.

@@ -1,0 +1,36 @@
+slug: agathocles-hamilcar-recalled
+statement: >
+  The African crisis forced the Carthaginian recall of Hamilcar son of
+  Gisco from his Sicilian command; he died in 309 BCE in a Greek
+  counterattack near Syracuse, with his head reportedly sent as a
+  trophy to Agathocles in Africa.
+confidence: attested
+scholarly_consensus: >
+  The Sicilian death is firmly attested. The detail of the head being
+  sent to Agathocles as a trophy is in Diodorus and is generally
+  accepted, though it is the kind of dramatic motif that ancient
+  historiography sometimes inserts; modern scholarship treats it as
+  plausibly true rather than certainly so.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.29-30"
+    passage_summary: >
+      Diodorus narrates the Greek counterattack near Syracuse, Hamilcar's
+      death, and the trophy-head sent to Agathocles in Africa as a
+      morale-restoring gesture for the Greek troops there.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "22.7"
+    passage_summary: >
+      Justin preserves Hamilcar's death in less detail.
+entities:
+  - type: person
+    slug: hamilcar-son-of-gisco
+    role: subject
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: context
+  - type: event
+    slug: third-sicilian-war
+    role: context

@@ -1,0 +1,33 @@
+slug: agathocles-white-tunis-victory
+statement: >
+  At White Tunis (Leukon Tyneta), shortly after his landing, Agathocles
+  defeated the Carthaginian field army under Hanno and Bomilcar in a
+  major engagement that established him in the Carthaginian hinterland
+  and put Greek troops within striking distance of Carthage itself.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. The victory's tactical details are preserved in
+  Diodorus with characteristic specificity; the strategic significance
+  is not disputed.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.10-12"
+    passage_summary: >
+      Diodorus describes the disposition of forces, the battle, and
+      the Carthaginian retreat to the city, noting that Hanno was
+      killed in the fighting and Bomilcar withdrew with the surviving
+      forces.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "22.6"
+    passage_summary: >
+      Justin preserves the victory with substantively the same
+      account, briefer in detail.
+entities:
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: context
+  - type: place
+    slug: white-tunis
+    role: location

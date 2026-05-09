@@ -1,0 +1,64 @@
+slug: agathocles-invasion-of-africa
+name: Agathocles' Invasion of Africa
+type: expedition
+date_start:
+  value: -310
+  precision: year
+  notes: Crossing from Sicily to Africa in August 310 BCE.
+date_end:
+  value: -307
+  precision: year
+  notes: Final collapse and Agathocles's flight back to Sicily late 307 BCE.
+place: white-tunis
+places:
+  - white-tunis
+  - carthage
+  - cyrene
+participants:
+  - person: agathocles
+    role: commander
+    side: Syracuse
+  - person: bomilcar
+    role: commander
+    side: Carthaginian
+  - person: ophellas
+    role: ally / victim
+    side: Cyrenian Greek (later absorbed)
+  - person: hamilcar-son-of-gisco
+    role: theater commander (Sicily)
+    side: Carthaginian
+principal_sources:
+  - diodorus-library
+  - justin-epitome
+related_events:
+  - event: third-sicilian-war
+    relation: phase of / strategic response to
+    notes: >
+      The invasion was launched while Agathocles was actively losing the
+      war in Sicily; it cannot be understood apart from that larger
+      conflict.
+summary: >
+  The first foreign army ever to operate on Carthage's home territory.
+  In August 310 BCE — besieged in Syracuse, defeated in the field, his
+  treasury empty — Agathocles of Syracuse took the audacious step of
+  loading approximately 14,000 troops onto a fleet, slipping through
+  the Carthaginian naval blockade, landing on the African coast, and
+  burning his own ships to prevent retreat. In three campaigning
+  seasons (310–307 BCE) he defeated multiple Carthaginian armies, won
+  the major engagement at White Tunis shortly after landing, came
+  within striking distance of Carthage itself, allied with the
+  Cyrenian Greek Ophellas (whom he then murdered to absorb his army),
+  and forced the recall of the Carthaginian commander in Sicily —
+  contributing indirectly to Hamilcar son of Gisco's death in 309 BCE.
+  The campaign collapsed in 307 BCE under the combined pressure of
+  Carthaginian recovery, troop disaffection, and the failure of
+  expected reinforcements. Agathocles fled back to Sicily, abandoning
+  his army and his sons (both of whom were killed by their own
+  troops). The peace of 306 BCE that ended the wider war restored the
+  pre-war division of Sicily. The invasion's lasting significance
+  lies less in what it achieved — the strategic outcome was a
+  status-quo settlement — than in what it demonstrated: that Carthage
+  could be attacked at home, by a determined adversary willing to
+  burn his ships behind him. Scipio's invasion of Africa 105 years
+  later was operating in the historical shadow of Agathocles's
+  precedent, however differently it ended.

@@ -1,0 +1,41 @@
+slug: agathocles-bomilcar-coup
+statement: >
+  During the Agathocles crisis, the Carthaginian commander Bomilcar
+  attempted a coup against the Carthaginian government, marched his
+  troops into the city, and was defeated when the citizenry rallied
+  against him; he was captured, tortured, and crucified in the agora.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in Diodorus's extended account. The episode is one
+  of the few internal Carthaginian political events of any period
+  preserved in detail in the surviving sources and is treated by
+  modern scholarship as substantially reliable, though the dramatic
+  framing may exceed the bare facts.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.43-44"
+    passage_summary: >
+      Diodorus narrates the coup at length: Bomilcar's troop concentration,
+      the march into Carthage, the citizenry's defense, the betrayal by
+      Bomilcar's supporters, the capture, the crucifixion in the agora.
+      The level of preserved detail is unusual for Carthaginian internal
+      politics.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "22.7"
+    passage_summary: >
+      Justin preserves the coup attempt and the execution in summary form.
+notes: >
+  The coup is one of the very few moments where the surviving sources
+  open a window onto Carthaginian internal politics. Most modern
+  scholarship treats it as a significant data point for understanding
+  Carthaginian factional dynamics, even if the specific narrative
+  detail is filtered through Diodorus's hostile-to-Carthage framing.
+entities:
+  - type: person
+    slug: bomilcar
+    role: subject
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: context

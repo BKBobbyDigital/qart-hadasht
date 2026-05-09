@@ -1,0 +1,84 @@
+slug: agathocles-how-close-to-carthage
+question: >
+  How close did Agathocles actually come to taking Carthage?
+why_unknown: >
+  The principal source — Diodorus, transmitting Timaeus — gives a narrative
+  in which Agathocles's army repeatedly defeats Carthaginian forces in the
+  field and operates in the immediate hinterland of the city, but does
+  not provide a clear assessment of whether he could have taken the city
+  itself by storm or extended siege. The relevant questions — Greek
+  siege capacity in this period, the state of Carthage's walls in the
+  late 4th century BCE, the Carthaginian fleet's continued capacity to
+  resupply the city by sea — are imperfectly answered by the surviving
+  evidence and have produced a wide range of modern reconstructions.
+evidence_summary: >
+  Diodorus reports victories at White Tunis (310), the second battle of
+  Tunis (309), and unspecified engagements in the Carthaginian
+  hinterland through 308. The siege of Utica is attempted in 307. There
+  is no clear ancient assessment of whether Carthage itself was a
+  realistic objective. Modern scholarship has to infer from operational
+  context, comparative evidence (the much later Roman siege of 149-146
+  BCE provides some baseline for what taking the city required), and
+  the limits of late-fourth-century Greek siegecraft.
+candidate_answers:
+  - answer: Agathocles came close to taking Carthage; the campaign's
+      collapse in 307 was contingent rather than structural.
+    arguments_for: >
+      The Bomilcar coup attempt — itself a sign of senatorial panic —
+      indicates the Carthaginian government was under genuine threat.
+      Carthage's walls had not been seriously tested at this point, and
+      the city's experienced field force was tied up in Sicily for much
+      of the campaign. With the Ophellas reinforcement absorbed, the
+      Greek force had numerical capacity for a serious siege attempt.
+    arguments_against: >
+      The Greek army never seriously invested Carthage. Carthaginian
+      sea power remained operational and could have resupplied the
+      city indefinitely. Agathocles's force, even reinforced, was
+      probably too small to maintain a sustained siege without
+      reliable supply.
+    held_by: Some modern military histories that emphasize operational
+      possibility.
+  - answer: Carthage was never a realistic objective; Agathocles's
+      goal was always to force a Carthaginian recall from Sicily and
+      a negotiated peace, not the city itself.
+    arguments_for: >
+      Greek armies of this period rarely took fortified cities of
+      Carthage's scale by storm or sustained siege. Agathocles's
+      explicit strategic logic, as preserved in Diodorus, was about
+      relieving Sicily, not conquering Africa. The campaign achieved
+      its actual strategic goal (Hamilcar's recall, Sicilian relief)
+      well before its catastrophic end.
+    arguments_against: >
+      Underweights the operational reach Agathocles achieved. If
+      taking the city was implausible, why did Carthaginian internal
+      politics dissolve into a coup attempt? The answer the ancient
+      sources implicitly give is that the city was in real danger.
+    held_by: Approximately the dominant view in current scholarship,
+      with the strategic-relief reading taken as primary.
+  - answer: The question is unanswerable in principle.
+    arguments_for: >
+      The relevant facts — the state of Carthage's walls in 308 BCE,
+      Greek siegecraft capacity, the actual proximity of Agathocles's
+      forces, the political will inside Carthage — are inadequately
+      preserved. Counterfactual military reasoning depends on data
+      we do not have and cannot recover.
+    arguments_against: >
+      Counsel of despair; historians do regularly reconstruct
+      operational situations from imperfect evidence and produce
+      defensible if uncertain conclusions.
+    held_by: A minority skeptical view; rarely held as the primary
+      position but often acknowledged as a fallback.
+relevant_entities:
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: subject
+  - type: place
+    slug: carthage
+    role: object
+what_would_resolve_this: >
+  New archaeological evidence on the state of Carthage's land walls
+  in the late fourth century BCE; survival of an additional Greek or
+  Carthaginian source describing the operational situation in 308 BCE
+  in greater detail; a fragmentary attestation of Agathocles's own
+  strategic articulation beyond the brief paraphrases preserved in
+  Diodorus.

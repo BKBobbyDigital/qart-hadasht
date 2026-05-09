@@ -16,7 +16,8 @@ sorts events chronologically.
 - [x] **Treaty of 201 BCE** *(built alongside Zama)*
 - [x] **Battle of Cannae** — 216 BCE
 - [x] **First Punic War — Outbreak** — 264 BCE
-- [ ] **Agathocles' Invasion of Africa** — 310–307 BCE
+- [x] **Agathocles' Invasion of Africa** — 310–307 BCE
+- [x] **Third Sicilian War** — 311–306 BCE *(built as light-depth context for Agathocles)*
 - [ ] **Battle of the Aegates Islands & Treaty of Lutatius** — 241 BCE
 - [ ] **The Mercenary War** — 241–237 BCE
 - [ ] **Founding of Carthage** — traditional 814 BCE

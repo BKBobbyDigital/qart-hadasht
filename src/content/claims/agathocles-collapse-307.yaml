@@ -1,0 +1,35 @@
+slug: agathocles-collapse-307
+statement: >
+  In the autumn of 307 BCE the African campaign collapsed. Agathocles,
+  facing army disaffection and Carthaginian recovery, fled secretly back
+  to Sicily, abandoning his army and his sons; the troops, on
+  discovering the desertion, killed both sons and surrendered to
+  Carthage on terms.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. The collapse and Agathocles's personal abandonment
+  of the army are universally accepted in modern scholarship and are
+  the moral climax of the campaign in the surviving narrative tradition.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.66-69"
+    passage_summary: >
+      Diodorus narrates the deteriorating situation in 307 BCE: the
+      defeat at the second battle of Tunis, the troop disaffection,
+      Agathocles's secret departure with his closest companions, the
+      troops' discovery of the desertion, the killing of his sons, and
+      the surrender of the surviving Greek force to Carthage.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "22.8"
+    passage_summary: >
+      Justin preserves the substance: collapse, flight, killing of the
+      sons, surrender.
+entities:
+  - type: person
+    slug: agathocles
+    role: subject
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: context

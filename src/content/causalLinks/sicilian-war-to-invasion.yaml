@@ -1,0 +1,37 @@
+slug: sicilian-war-to-invasion
+cause: third-sicilian-war
+effect: agathocles-invasion-of-africa
+relation: produced the strategic crisis that drove
+confidence: attested
+mechanism: |
+  The Sicilian War's catastrophic course for Agathocles in 311–310 BCE —
+  defeat at the Himera River, loss of most of Greek Sicily, the siege of
+  Syracuse, the depletion of his treasury, the deterioration of his
+  political position at home — created the strategic crisis that the
+  African invasion was a desperate response to. Agathocles is reported
+  by Diodorus (20.3) to have decided on the invasion specifically as a
+  way to force Carthage to fight on its own ground rather than continue
+  the siege of Syracuse. The causal connection is direct and
+  consciously articulated in the surviving narrative tradition.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.3"
+    passage_summary: >
+      Diodorus narrates Agathocles's decision to invade Africa as a
+      direct strategic response to the Sicilian situation, with the
+      explicit aim of compelling Carthage to fight at home rather than
+      maintain pressure in Sicily.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "22.4"
+    passage_summary: >
+      Justin's epitome of Trogus preserves substantively the same
+      causal narrative.
+notes: >
+  The reverse causation also holds: the invasion altered the course of
+  the war in Sicily by forcing Hamilcar son of Gisco's eventual recall
+  and contributing to his death. That feedback effect is treated in
+  the narrative rather than as a separate causal link, since the two
+  events are best read as phases of a single conflict whose tactical
+  geography Agathocles deliberately changed.

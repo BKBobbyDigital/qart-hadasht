@@ -150,6 +150,7 @@ const events = defineCollection({
       'expedition',
       'disaster',
       'cultural',
+      'war',
     ]),
     date_start: historicalDate,
     date_end: historicalDate.optional(),
@@ -160,6 +161,21 @@ const events = defineCollection({
     summary: z.string(),
     /** Which sources are the principal narrators of this event. */
     principal_sources: z.array(reference('sources')).default([]),
+    /**
+     * Soft associations to other events — concurrent campaigns, comparative
+     * cases, see-also references. Distinct from causalLinks, which model
+     * explicit cause/effect with mechanism. Bidirectional in rendering: if
+     * event A lists B, the event page for B also surfaces A.
+     */
+    related_events: z
+      .array(
+        z.object({
+          event: reference('events'),
+          relation: z.string(),
+          notes: z.string().optional(),
+        })
+      )
+      .default([]),
   }),
 });
 

@@ -32,6 +32,15 @@ principal_sources:
   - polybius-histories
   - livy-auc
   - plutarch-lives
+related_events:
+  - event: battle-of-zama
+    relation: matched pair
+    notes: >
+      Cannae and Zama bookend Hannibal's career as a field commander.
+      Cannae is his tactical masterpiece; Zama the strategic limit
+      revealed. The double envelopment that destroyed the Roman army
+      at Cannae is, with the cavalry roles inverted, the same
+      tactical structure that destroyed Hannibal's army at Zama.
 summary: >
   The most studied battle of antiquity and Hannibal's tactical
   masterpiece. Drawn south into Apulia by Hannibal's seizure of the

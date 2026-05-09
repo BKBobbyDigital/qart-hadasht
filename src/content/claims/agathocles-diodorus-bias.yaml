@@ -1,0 +1,45 @@
+slug: agathocles-diodorus-bias
+statement: >
+  The principal surviving narrative of Agathocles's African campaign —
+  Diodorus Books 19–20 — is shaped by the now-lost history of Timaeus
+  of Tauromenium, a Sicilian Greek contemporary of Agathocles whose
+  treatment of the tyrant was personally hostile. Modern scholarship
+  reads Diodorus's portrayal of Agathocles partly as a transmission
+  of Timaeus's anti-Agathoclean framing rather than a neutral account.
+confidence: inferred
+scholarly_consensus: >
+  Strongly held in modern source-critical scholarship. The Timaean
+  influence on Diodorus's account of fourth-century Sicily and Africa
+  is a standard finding; the question is which specific details are
+  Timaean coloring versus historical fact.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_summary: >
+      Diodorus himself acknowledges Timaeus as a principal source
+      while criticizing Timaeus's hostility to Agathocles in
+      particular. The acknowledgement permits modern scholars to
+      identify Timaean material with reasonable confidence in many
+      passages.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "12.15"
+    passage_summary: >
+      Polybius's surviving polemic against Timaeus (in Book 12, partly
+      preserved) explicitly criticizes Timaeus's treatment of
+      Agathocles as biased and provides external evidence for the
+      hostility that Diodorus partially transmits.
+notes: >
+  This is a meta-claim about source reliability rather than about the
+  events themselves. It bears on every other Agathocles claim on the
+  site: the bare facts of his campaign are reasonably secure, but the
+  moral framing — the systematic emphasis on treachery, cruelty, and
+  abandonment — owes more to Timaeus's hostile pen than the events
+  themselves necessarily required.
+entities:
+  - type: person
+    slug: agathocles
+    role: subject
+  - type: event
+    slug: agathocles-invasion-of-africa
+    role: context
