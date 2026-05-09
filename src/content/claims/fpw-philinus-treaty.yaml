@@ -1,7 +1,7 @@
 slug: fpw-philinus-treaty
 statement: >
   Philinus of Akragas alleged in a now-lost history that Rome had
-  violated an existing treaty with Carthage by intervening in Sicily —
+  violated an existing treaty with Carthage by intervening in Sicily,
   a claim Polybius preserves only in order to reject it.
 confidence: contested
 scholarly_consensus: >
@@ -24,8 +24,8 @@ dispute_summary: |
 
   2. **Philinus referred to a real treaty Polybius didn't find.**
      The Roman archives Polybius consulted may have been incomplete;
-     a treaty restricting Roman action in Sicily — perhaps from the
-     280s BCE Pyrrhic-War period — may genuinely have existed and
+     a treaty restricting Roman action in Sicily, perhaps from the
+     280s BCE Pyrrhic-War period, may genuinely have existed and
      been quietly forgotten by Polybius's Roman informants.
 
   3. **The truth is in between.** There may have been understandings
@@ -62,7 +62,7 @@ sources:
       existence and terms were genuinely contested.
 notes: >
   This is a claim about a lost source. The schema's confidence model
-  handles it: the claim itself is "Philinus alleged X" — that Philinus
+  handles it: the claim itself is "Philinus alleged X", that Philinus
   alleged it is firmly attested in Polybius's rebuttal. The deeper
   question of whether Philinus was right is captured in the dispute
   summary and is where the genuine scholarly disagreement lies.

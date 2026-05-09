@@ -1,13 +1,13 @@
 slug: cannae-strategic-objective
 question: >
-  What was Hannibal's actual strategic objective in Italy — and was Cannae
+  What was Hannibal's actual strategic objective in Italy, and was Cannae
   meant to achieve it?
 why_unknown: >
   Hannibal left no surviving statement of his war aims; the sources that
   attempt to reconstruct them (especially Polybius and Livy) write decades
   or centuries later, with access to events but not always to motivation.
   The result is that modern scholarship can describe what Hannibal did
-  but must infer what he was trying to do — and the inference is
+  but must infer what he was trying to do. The inference is
   genuinely contested, because the same actions are consistent with
   several distinct strategic theories.
 evidence_summary: >
@@ -34,11 +34,11 @@ candidate_answers:
       refusal-to-negotiate, which suggests either Hannibal expected
       eventual Roman concession (not given) or had a contingency he
       never reached.
-    held_by: The dominant view in modern scholarship — Hoyos, MacDonald,
-      Goldsworthy, Lazenby.
+    held_by: The dominant view in modern scholarship (Hoyos, MacDonald,
+      Goldsworthy, Lazenby).
   - answer: Destroy Roman military capacity and dictate terms by force
     arguments_for: >
-      Cannae itself is consistent with this — a battle of annihilation
+      Cannae itself is consistent with this: a battle of annihilation
       rather than positioning. The earlier engagements at Trebia and
       Trasimene were also intended as decisive battles. Hannibal
       consistently sought engagement on his terms.
@@ -53,8 +53,8 @@ candidate_answers:
     arguments_for: >
       Carthage had lost Sicily, Sardinia, and Corsica in the first war
       and the inter-war Roman annexations. A negotiated peace returning
-      these territories — and confirming Carthaginian dominance in
-      Iberia — would have been a substantive Carthaginian victory short
+      these territories, and confirming Carthaginian dominance in
+      Iberia, would have been a substantive Carthaginian victory short
       of destroying Rome.
     arguments_against: >
       Plausible as a desired endpoint but not directly attested. The
@@ -70,7 +70,7 @@ relevant_entities:
     slug: battle-of-cannae
     role: context
 what_would_resolve_this: >
-  A surviving Carthaginian source — a Punic inscription, a state record,
-  a contemporary Greek narrative drawing on Carthaginian testimony —
+  A surviving Carthaginian source (a Punic inscription, a state record,
+  a contemporary Greek narrative drawing on Carthaginian testimony)
   would settle the question. None has surfaced and none is plausibly
   expected to.

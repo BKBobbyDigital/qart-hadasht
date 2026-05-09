@@ -1,6 +1,6 @@
 slug: zama-decisive
 subject_question: >
-  Was Zama the decisive battle of the Second Punic War — or was the war already
+  Was Zama the decisive battle of the Second Punic War, or was the war already
   decided by 207 BCE?
 subject_entity:
   type: event
@@ -8,7 +8,7 @@ subject_entity:
   role: subject
 position: >
   Zama was the necessary closing act, but the Second Punic War was effectively
-  decided three to five years earlier — at the Metaurus in 207 BCE and through
+  decided three to five years earlier, at the Metaurus in 207 BCE and through
   the slow strategic strangulation of Hannibal in southern Italy. By the time
   Scipio crossed to Africa, Carthage had no realistic path to victory; Zama
   determined the terms, not the outcome.
@@ -26,7 +26,7 @@ reasoning: |
      and silver supply.
 
   3. **The state of Carthaginian power in 202 BCE.** The army Hannibal fielded
-     at Zama was hastily assembled — recently raised levies, a reduced
+     at Zama was hastily assembled, recently raised levies, a reduced
      veteran core, poorly conditioned elephants. A Carthaginian victory would
      have prolonged the war but not reversed the strategic situation; Rome
      would have raised another army.
@@ -34,7 +34,7 @@ reasoning: |
   The "Zama-as-decisive" framing reflects ancient historiography's preference
   for set-piece battles as turning points and the literary appeal of two
   great commanders meeting once in the field. The strategic historian's
-  question — when did one side lose the ability to win? — points earlier.
+  question, when did one side lose the ability to win?, points earlier.
 confidence: moderate
 weighed_claims:
   - zama-elephants-poorly-trained
@@ -44,8 +44,8 @@ competing_positions:
       Zama was genuinely decisive because a Carthaginian victory would have
       forced Rome to negotiate.
     why_rejected: >
-      This underestimates Roman strategic depth. Rome had absorbed Cannae —
-      a vastly worse defeat — without negotiating; a tactical defeat in
+      This underestimates Roman strategic depth. Rome had absorbed Cannae,
+      a vastly worse defeat, without negotiating; a tactical defeat in
       Africa with Scipio's army would have been similarly survivable. Rome's
       capacity to raise new armies remained the war's central asymmetry.
     held_by: Some military histories in the Liddell Hart tradition.

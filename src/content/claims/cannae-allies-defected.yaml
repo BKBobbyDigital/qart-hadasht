@@ -1,21 +1,21 @@
 slug: cannae-allies-defected
 statement: >
-  Major Italian allies of Rome — including Capua, the second-largest city
-  of Italy, and most of the Greek south — defected to Hannibal in the
+  Major Italian allies of Rome, including Capua, the second-largest city
+  of Italy, and most of the Greek south, defected to Hannibal in the
   weeks and months after Cannae.
 confidence: attested
 scholarly_consensus: >
   Universally accepted. The pattern of Italian defections in the year
   after Cannae is well-documented and is generally read as evidence that
-  Hannibal's broader strategy — to break Rome's confederation rather than
-  to take Rome itself — was at least partly working.
+  Hannibal's broader strategy, to break Rome's confederation rather than
+  to take Rome itself, was at least partly working.
 sources:
   - source: polybius-histories
     stance: supports
     passage_ref: "3.118"
     passage_summary: >
-      Polybius lists the principal defections — Capua, Atella, Calatia,
-      most of Bruttium and Lucania, the Hirpini, and parts of Apulia —
+      Polybius lists the principal defections, Capua, Atella, Calatia,
+      most of Bruttium and Lucania, the Hirpini, and parts of Apulia,
       and treats this as the immediate consequence of Cannae.
   - source: livy-auc
     stance: supports
@@ -28,7 +28,7 @@ sources:
     stance: supports
     passage_summary: >
       MacDonald reads the defection pattern as evidence of how thinly
-      Rome's hegemony in central and southern Italy had been built —
+      Rome's hegemony in central and southern Italy had been built,
       and as evidence that Hannibal's strategy of detaching allies was
       a coherent alternative to direct attack on Rome.
 entities:

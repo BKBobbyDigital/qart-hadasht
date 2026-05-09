@@ -5,9 +5,9 @@ statement: >
 confidence: attested
 scholarly_consensus: >
   The double appeal is firmly attested in Polybius and accepted by
-  modern scholarship. Some details — the order of the appeals, whether
+  modern scholarship. Some details, the order of the appeals, whether
   one preceded the other, whether the Mamertines played the two powers
-  off against each other — are debated, but the central fact of an
+  off against each other, are debated, but the central fact of an
   appeal to both is not.
 sources:
   - source: polybius-histories
@@ -15,8 +15,8 @@ sources:
     passage_ref: "1.10"
     passage_summary: >
       Polybius reports that the Mamertines, faced with defeat by Hiero,
-      divided into two factions — one favoring an appeal to Carthage,
-      the other an appeal to Rome — and that ultimately appeals were
+      divided into two factions, one favoring an appeal to Carthage,
+      the other an appeal to Rome, and that ultimately appeals were
       made to both powers.
   - source: diodorus-library
     stance: supports

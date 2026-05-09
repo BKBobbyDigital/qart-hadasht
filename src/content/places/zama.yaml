@@ -3,7 +3,7 @@ name_display: Zama (battle site)
 names_alt:
   greek: Ζάμα
   latin: Zama
-  modern: Disputed — most likely Naraggara (Sakiet Sidi Youssef, Tunisia)
+  modern: Disputed, most likely Naraggara (Sakiet Sidi Youssef, Tunisia)
 type: battlefield
 candidates:
   - label: Naraggara (modern Sakiet Sidi Youssef)
@@ -12,7 +12,7 @@ candidates:
     confidence: probable
     notes: >
       Polybius (15.5.14) names Naraggara as the location of Scipio's camp before
-      the battle. Modern scholarship — including Lancel's topographic survey —
+      the battle. Modern scholarship, including Lancel's topographic survey,
       treats this as the most likely battle site.
   - label: Zama Regia (Jama, near Siliana)
     lat: 36.1167

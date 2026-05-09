@@ -1,14 +1,14 @@
 slug: cannae-casualties
 statement: >
   Roman losses at Cannae were among the highest of any single day in
-  the history of warfare — perhaps 50,000–70,000 dead and 10,000 captured.
+  the history of warfare, perhaps 50,000–70,000 dead and 10,000 captured.
   Carthaginian losses were under 10,000.
 confidence: contested
 scholarly_consensus: >
   The catastrophic asymmetry is firmly attested. The specific totals
   vary across the principal sources and are treated by modern scholars
-  as approximate. The order of magnitude — tens of thousands of Roman
-  dead — is not seriously contested.
+  as approximate. The order of magnitude, tens of thousands of Roman
+  dead, is not seriously contested.
 dispute_summary: |
   The two principal sources give different figures:
 
@@ -25,7 +25,7 @@ dispute_summary: |
   Roman forces lost is the more telling figure: on Polybius's totals
   ~75% of the Roman field army was killed or captured in a single day.
 
-  The asymmetry between Roman and Carthaginian losses — roughly 10:1 —
+  The asymmetry between Roman and Carthaginian losses, roughly 10:1,
   is striking and may itself be partly inflated. Even at Livy's figure
   of 8,000 Carthaginian dead, a tactical victory of this magnitude with
   losses under 20% is extraordinary and unparalleled in the period.
@@ -61,7 +61,7 @@ sources:
     stance: qualifies
     passage_summary: >
       Goldsworthy surveys the figures and treats the proportion of
-      forces lost — rather than any specific total — as the measure
+      forces lost, rather than any specific total, as the measure
       that matters militarily.
 entities:
   - type: event

@@ -1,33 +1,32 @@
 slug: fpw-causation
 subject_question: >
-  Was the First Punic War the product of long-developing structural
-  forces — Roman expansion, Carthaginian imperial defense — or of
-  contingent decisions in 265–264 BCE that escalated beyond what
-  either party had intended?
+  Was the First Punic War the product of long-developing structural forces
+  (Roman expansion, Carthaginian imperial defense) or of contingent
+  decisions in 265–264 BCE that escalated beyond what either party had
+  intended?
 subject_entity:
   type: event
   slug: first-punic-war-outbreak
   role: subject
 position: >
-  The contingent reading is closer to the truth. Rome and Carthage
-  in 265 BCE were not on a structurally inevitable collision course;
-  they had coexisted under a series of treaties for two and a half
-  centuries. The war emerged from a specific political crisis at
-  Messana that escalated through a series of decisions — Carthaginian,
-  Mamertine, Roman — none of which had to be made the way they were.
-  The structural reading retroactively imposes a teleology of Roman
-  expansion that was not visible to the actors of 265–264 and is
-  difficult to reconstruct from the surviving sources. The implication
-  is not that Rome was a peaceful actor or that Carthage was — neither
-  was — but that the war's specific outbreak in this year, in this
-  form, was a contingent outcome.
+  The contingent reading is closer to the truth. Rome and Carthage in 265
+  BCE were not on a structurally inevitable collision course; they had
+  coexisted under a series of treaties for two and a half centuries.
+  The war emerged from a specific political crisis at Messana that
+  escalated through Carthaginian, Mamertine, and Roman decisions, none
+  of which had to be made the way they were. The structural reading
+  retroactively imposes a teleology of Roman expansion that was not
+  visible to the actors of 265–264 and is difficult to reconstruct from
+  the surviving sources. The implication is not that Rome was a peaceful
+  actor or that Carthage was; neither was. The point is that the war's
+  specific outbreak in this year, in this form, was a contingent outcome.
 reasoning: |
   Three lines of evidence support reading the war as contingent rather
   than structural:
 
-  1. **The Roman senatorial division.** Polybius's account — and
-     this is the testimony of a historian generally favorable to Roman
-     decision-making — explicitly reports that the senate could not
+  1. **The Roman senatorial division.** Polybius's account, the
+     testimony of a historian generally favorable to Roman
+     decision-making, explicitly reports that the senate could not
      reach a position on the Mamertine appeal and referred the matter
      to the comitia. A coherent imperial program would not have
      produced this kind of constitutional indecision. Whatever was
@@ -47,7 +46,7 @@ reasoning: |
      culmination of a long deterioration; it was a sudden crisis
      produced by a specific event.
 
-  The Hoyos thesis — *Unplanned Wars* (1998) — has substantially
+  The Hoyos thesis in *Unplanned Wars* (1998) has substantially
   reshaped Anglophone scholarship on this question. The site adopts
   it not as an article of faith but because the evidence as preserved
   in Polybius supports it more clearly than the older structural
@@ -57,7 +56,7 @@ reasoning: |
   This take applies to the war's *outbreak*, not to its character
   once underway. Once Rome was committed to overseas warfare and
   Carthage to defending its Sicilian position, both states behaved
-  in ways that look more "imperial" — and the war's escalation,
+  in ways that look more "imperial," and the war's escalation,
   duration, and terms are properly read in those terms. But the
   decision to begin the war in 264 was not the decision of two
   states pursuing settled imperial programs.
@@ -92,5 +91,5 @@ competing_positions:
       in the way this reading requires.
     held_by: The Polybian framing; followed by sources that take Polybius
       at face value.
-last_reviewed: "2026-05-08"
+last_reviewed: "2026-05-09"
 open_to_revision: true

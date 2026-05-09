@@ -3,7 +3,7 @@ question: Where exactly was the Battle of Zama fought?
 why_unknown: >
   The two principal ancient sources disagree: Polybius locates Scipio's camp
   at Naraggara, Livy at Zama. The two candidate sites are ~80 km apart. No
-  battlefield archaeology has confirmed either location — large set-piece
+  battlefield archaeology has confirmed either location, large set-piece
   battles of this period rarely leave durable physical traces, and the
   ancient toponymy of the region is imperfectly mapped to modern sites.
 evidence_summary: >
@@ -42,6 +42,6 @@ relevant_entities:
     slug: zama
     role: location
 what_would_resolve_this: >
-  Battlefield archaeology — mass burials, weapons deposits, or fortification
-  remnants at one of the candidate sites — would be decisive but is unlikely
+  Battlefield archaeology, mass burials, weapons deposits, or fortification
+  remnants at one of the candidate sites, would be decisive but is unlikely
   given the period and the sites' subsequent agricultural use.
