@@ -1,0 +1,35 @@
+slug: zama-treaty-201
+cause: battle-of-zama
+effect: treaty-of-201-bce
+relation: led directly to
+confidence: attested
+mechanism: |
+  Hannibal's defeat at Zama in October 202 BCE eliminated Carthage's
+  capacity to continue the war in the field. With the Roman army
+  uncontested in Africa, the Carthaginian senate had no realistic
+  option but to seek terms. Negotiations through the winter of 202/201
+  BCE — in which Hannibal himself counseled acceptance and reportedly
+  silenced the war party in the senate — produced the Treaty of 201
+  BCE on terms substantially dictated by Rome. The causal connection
+  is direct, attested, and undisputed: without Zama's specific outcome
+  the treaty in this form does not happen.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.18-19"
+    passage_summary: >
+      Polybius narrates the negotiation directly from the battle's
+      aftermath, treating the treaty terms as the immediate consequence
+      of the Roman victory and Hannibal's intervention as the decisive
+      voice for acceptance.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.36-37"
+    passage_summary: >
+      Livy preserves the same direct sequence with additional detail
+      on the Roman side's ratification.
+notes: >
+  The mechanism is unusual in historical causation in that the
+  defeated commander was himself the principal advocate for accepting
+  the victor's terms — a structural fact of Carthaginian politics in
+  201 BCE rather than of Roman dictation alone.

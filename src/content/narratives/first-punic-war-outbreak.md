@@ -48,8 +48,9 @@ suddenly, over a specific crisis."
 The crisis came from Messana, the Greek city at the north-eastern
 corner of Sicily that controlled the strait separating Sicily from
 the Italian mainland. In 288 BCE — forty years before the war —
-Messana had been seized by the Mamertines, a band of Campanian
-mercenaries discharged from the service of Agathocles of Syracuse.
+Messana had been seized by the [Mamertines](/groups/mamertines),
+a band of Campanian mercenaries discharged from the service of
+Agathocles of Syracuse.
 The Mamertines had massacred or expelled the male population of
 the city and held it as a base for raiding Greek Sicily. They had
 been an annoyance to the Greek cities for two generations.

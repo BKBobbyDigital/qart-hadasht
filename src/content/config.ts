@@ -259,6 +259,69 @@ const narratives = defineCollection({
   }),
 });
 
+// ─── Groups — collective entities (peoples, mercenary bands, ethnic groups) ───
+//
+// Distinct from people (individuals) and from institutions (formal political
+// bodies like the Carthaginian Senate). Groups are collective actors —
+// Mamertines, Numidians, Italian socii, Greek Sicilians — that participate in
+// events but cannot be reduced to a single named person or a formal office.
+
+const groups = defineCollection({
+  type: 'data',
+  schema: z.object({
+    slug: z.string(),
+    name_display: z.string(),
+    name_alt: z
+      .object({
+        greek: z.string().optional(),
+        latin: z.string().optional(),
+        punic: z.string().optional(),
+        modern: z.string().optional(),
+      })
+      .optional(),
+    /** What kind of collective: ethnic, mercenary, political faction, etc. */
+    type: z.enum([
+      'ethnic',
+      'mercenary',
+      'civic',
+      'tribal',
+      'political_faction',
+      'military_unit',
+    ]),
+    /** Period of existence as an identifiable group. */
+    active_from: historicalDate.optional(),
+    active_to: historicalDate.optional(),
+    polity_affiliation: z.string().optional(), // "Carthage", "Rome", "Numidia", or "independent"
+    summary: z.string(),
+  }),
+});
+
+// ─── Causal links — explicit cause/effect relationships between events ────────
+//
+// First-class modeling of historical causation. Lets us trace, for example,
+// the Battle of Zama -> the Treaty of 201 -> Masinissa's later encroachments,
+// or the Treaty of Lutatius -> the Mercenary War. The mechanism field captures
+// *how* one event caused the other; confidence captures whether the causal
+// claim itself is well-attested, inferred, or contested.
+
+const causalLinks = defineCollection({
+  type: 'data',
+  schema: z.object({
+    slug: z.string(),
+    cause: reference('events'),
+    effect: reference('events'),
+    /** A short label for navigation: "ended", "led directly to", "set conditions for". */
+    relation: z.string(),
+    /** How the causation operated. Markdown-friendly. */
+    mechanism: z.string(),
+    confidence: z.enum(['attested', 'inferred', 'contested']),
+    /** True if the causal claim itself (not the events) is disputed. */
+    contested: z.boolean().default(false),
+    notes: z.string().optional(),
+    sources: z.array(claimSource).optional(),
+  }),
+});
+
 // ─── Export ───────────────────────────────────────────────────────────────────
 
 export const collections = {
@@ -270,4 +333,6 @@ export const collections = {
   editorialTakes,
   openQuestions,
   narratives,
+  groups,
+  causalLinks,
 };

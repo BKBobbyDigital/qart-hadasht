@@ -48,6 +48,21 @@ const matchingNarrative = allNarratives.find((n) =>
   n.data.primary_entities?.some((e: any) => e.type === 'event' && e.slug === event.id)
 );
 
+// Causal links — what this event caused, and what caused it
+const allCausalLinks = await getCollection('causalLinks');
+const causedByLinks = allCausalLinks.filter((l) => l.data.effect.id === event.id);
+const ledToLinks = allCausalLinks.filter((l) => l.data.cause.id === event.id);
+
+const resolveLinkedEvent = async (slug: string) => {
+  return await getEntry('events', slug);
+};
+const causedByResolved = await Promise.all(
+  causedByLinks.map(async (l) => ({ link: l, event: await resolveLinkedEvent(l.data.cause.id) }))
+);
+const ledToResolved = await Promise.all(
+  ledToLinks.map(async (l) => ({ link: l, event: await resolveLinkedEvent(l.data.effect.id) }))
+);
+
 // Resolve place
 const place = data.place ? await getEntry('places', data.place.id) : null;
 
@@ -119,6 +134,39 @@ const era = data.date_start.value < 0 ? 'BCE' : 'CE';
           ? `The location of this event is contested — candidate sites are shown along with Carthage as a geographic reference.`
           : undefined}
       />
+    )}
+
+    {(causedByResolved.length > 0 || ledToResolved.length > 0) && (
+      <section class="mt-8 grid sm:grid-cols-2 gap-3">
+        {causedByResolved.length > 0 && (
+          <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+            <h2 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Caused by</h2>
+            <ul class="space-y-2">
+              {causedByResolved.map((r: any) => r.event && (
+                <li>
+                  <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
+                  <span class="text-xs text-sand-700"> · {r.link.data.relation}</span>
+                  <span class="text-[11px] uppercase tracking-wider text-sand-700 ml-1">{r.link.data.confidence}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {ledToResolved.length > 0 && (
+          <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+            <h2 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Led to</h2>
+            <ul class="space-y-2">
+              {ledToResolved.map((r: any) => r.event && (
+                <li>
+                  <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
+                  <span class="text-xs text-sand-700"> · {r.link.data.relation}</span>
+                  <span class="text-[11px] uppercase tracking-wider text-sand-700 ml-1">{r.link.data.confidence}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
     )}
 
     {matchingNarrative && (

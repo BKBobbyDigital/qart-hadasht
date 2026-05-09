@@ -1,0 +1,31 @@
+slug: sicily
+name_display: Sicily
+names_alt:
+  greek: Σικελία
+  latin: Sicilia
+  punic: ʿYY (the western islands generally; no Punic name specifically for Sicily survives)
+  modern: Sicily, Italy
+type: island
+primary:
+  label: Sicily (geographic center)
+  lat: 37.5996
+  lon: 14.0153
+  confidence: certain
+modern_location: Sicily (autonomous region of Italy)
+summary: >
+  The largest island in the Mediterranean and the principal contested
+  territory between Carthage, the Greek cities, and (from 264 BCE) Rome
+  for nearly six centuries — from the first Phoenician colonies of the
+  9th century BCE to the Roman annexation of the entire island as a
+  province in 241 BCE. Sicily's strategic position between North Africa
+  and Italy made it the natural pivot of any Mediterranean power
+  projection: Carthaginian control of western Sicily (Motya, Panormus,
+  Lilybaeum) underwrote Carthage's western Mediterranean dominance for
+  centuries; Greek control of the east (Syracuse, Akragas, Selinus,
+  Gela) produced the long Greco-Carthaginian wars chronicled by
+  Diodorus; and Roman intervention in 264 BCE — the proximate trigger
+  of the First Punic War — turned the island from a contested boundary
+  into a Roman province whose grain underwrote Roman power for
+  centuries afterward. Almost every event in Carthage's external history
+  before 218 BCE either took place in Sicily or was shaped by what was
+  happening there.

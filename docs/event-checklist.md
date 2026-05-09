@@ -38,6 +38,26 @@ sorts events chronologically.
 9. **Cape Ecnomus** — naval, scale claims
 10. **Third Punic War** — last because it's the biggest and Appian-as-principal-source deserves practice
 
+## Schema extensions to grow
+
+As content density forces them. Each will likely come up while building
+specific events; track here so they're not lost.
+
+- [x] **`groups` collection** — collective entities (Mamertines, Numidians,
+  socii, factions). Distinct from `people` and `institutions`.
+  *Added during FPW outbreak slice.*
+- [x] **`causalLinks` collection** — first-class event-to-event causation
+  with mechanism and confidence. *Added during FPW outbreak slice.*
+- [ ] **`institutions` collection** — Suffetes, Council of 104, Senate,
+  Tophet. Will surface when we have Aristotle-anchored content.
+- [ ] **`themes` collection** — cross-cutting topical pages (Punic religion,
+  Carthaginian seafaring, Roman strategic culture).
+- [ ] **Place type for region/territory** — currently island/region exist
+  in the enum but we should add proper polygon/territory support for
+  time-aware empire boundaries.
+- [ ] **Causal links between non-event entities** — currently only
+  event→event. Eventually we'll want claim→claim and condition→event.
+
 ## Future visual work (deferred)
 
 Tracking ideas surfaced during the build that need a separate pass once
