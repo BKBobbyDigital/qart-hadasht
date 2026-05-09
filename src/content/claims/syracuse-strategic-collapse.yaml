@@ -1,0 +1,26 @@
+slug: syracuse-strategic-collapse
+statement: >
+  The Roman conquest of Syracuse in 211 BCE produced the
+  collapse of Carthaginian-Sicilian alliance. The Carthaginian
+  relief expedition under Himilco had been defeated and largely
+  destroyed during the siege; the Carthaginian Sicilian theater
+  effectively closed in 210 BCE.
+confidence: attested
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "25.26-27"
+    passage_summary: >
+      Livy preserves the failed Carthaginian relief operations
+      and the broader collapse of Carthaginian-aligned Sicilian
+      cities through 210-209 BCE.
+notes: >
+  The Sicilian theater's collapse contributed to the broader
+  Roman strategic recovery in the Second Punic War. Combined
+  with the elder Scipios' operations in Iberia (and their
+  deaths in 211 BCE), the period of 211 BCE was a turning point
+  in the war's overall direction.
+entities:
+  - type: event
+    slug: siege-of-syracuse-marcellus
+    role: subject

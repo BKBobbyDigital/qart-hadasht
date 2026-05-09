@@ -1,0 +1,28 @@
+slug: sardinian-seizure-roman-bad-faith
+statement: >
+  Polybius's reading of the Sardinian seizure as Roman bad faith
+  is unusually direct for an author generally favorable to
+  Roman decision-making. The judgment frames the broader
+  Polybian analysis of how the Lutatius framework deteriorated
+  into the structural conditions for the Second Punic War.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.28-30"
+    passage_summary: >
+      Polybius's framing of the seizure: "no fair pretext could
+      be found for it" (3.28). The criticism is unusual for him
+      and signals how seriously he took the structural injury
+      the seizure represented.
+notes: >
+  Polybius's directness on this point has been one of the
+  principal arguments for taking his analysis of war causation
+  seriously: he is willing to criticize Roman conduct where
+  the evidence requires, which lends his broader analysis
+  credibility on points where Roman conduct can plausibly be
+  defended.
+entities:
+  - type: event
+    slug: sardinian-seizure
+    role: subject

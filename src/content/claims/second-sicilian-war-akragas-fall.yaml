@@ -1,0 +1,27 @@
+slug: second-sicilian-war-akragas-fall
+statement: >
+  The Carthaginian capture of Akragas in 406 BCE, after the
+  city had been abandoned by its surviving population, was the
+  largest single Greek-Sicilian loss of the second Sicilian
+  war. Akragas had been the principal Greek city of central-
+  southern Sicily and one of the wealthiest of the Greek world.
+confidence: attested
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "13.85-90"
+    passage_summary: >
+      Diodorus narrates the siege of Akragas at length, including
+      the death of Hannibal son of Gisco from plague during the
+      siege, the population's abandonment of the city, and
+      Himilco's subsequent capture and sack.
+notes: >
+  Akragas's fall produced massive demographic disruption: the
+  surviving population fled to Gela and other eastern Greek
+  cities, with the broader pattern of Greek-Sicilian
+  contraction this represented continuing through the war's
+  remaining phases.
+entities:
+  - type: event
+    slug: second-sicilian-war
+    role: subject

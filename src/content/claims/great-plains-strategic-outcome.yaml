@@ -1,0 +1,27 @@
+slug: great-plains-strategic-outcome
+statement: >
+  The strategic outcome of the Great Plains was the Carthaginian
+  recall of Hannibal from Italy. With Syphax captured and the
+  Carthaginian field force destroyed in Africa, the Carthaginian
+  senate recalled Hannibal in summer 203 BCE; he landed at
+  Hadrumetum that autumn and assembled the army for the
+  engagement at Zama in October 202 BCE.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "14.9, 15.1-3"
+    passage_summary: >
+      Polybius traces the direct sequence from the Great Plains
+      victory through the Carthaginian recall to the Zama
+      engagement.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.20"
+    passage_summary: >
+      Livy preserves the same sequence with characteristic
+      narrative detail.
+entities:
+  - type: event
+    slug: battle-of-great-plains
+    role: subject

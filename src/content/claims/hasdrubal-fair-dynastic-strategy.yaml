@@ -1,0 +1,31 @@
+slug: hasdrubal-fair-dynastic-strategy
+statement: >
+  Hasdrubal the Fair's command style favored political integration
+  through dynastic marriage rather than primarily military
+  conquest. He himself married an Iberian princess; he arranged
+  similar marriages between the Carthaginian elite and Iberian
+  aristocracy. The resulting Iberian-Carthaginian alliance
+  network became the structural foundation of Carthaginian
+  authority in the peninsula.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "2.13"
+    passage_summary: >
+      Polybius preserves the dynastic-marriage strategy as
+      Hasdrubal's distinctive command approach.
+notes: >
+  The marriage strategy is the structural reason that
+  Hannibal inherited a working Iberian political system in 221
+  BCE rather than a continually-rebellious conquest territory.
+  The Barcid Iberian project's resilience through the
+  20-year Roman war partly depends on the alliance network
+  Hasdrubal built.
+entities:
+  - type: event
+    slug: hasdrubal-the-fairs-command
+    role: context
+  - type: person
+    slug: hasdrubal-the-fair
+    role: subject

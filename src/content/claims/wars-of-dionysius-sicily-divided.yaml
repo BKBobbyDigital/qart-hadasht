@@ -1,0 +1,28 @@
+slug: wars-of-dionysius-sicily-divided
+statement: >
+  The aggregate outcome of the four wars of Dionysius was the
+  preservation of the rough territorial division of Sicily
+  established by 404 BCE: Carthage holding the western and
+  southwestern coast, Syracuse the east. This division held
+  with adjustments until the Agathocles invasion of Africa in
+  310 BCE changed the strategic geography.
+confidence: attested
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "14-15"
+    passage_summary: >
+      Diodorus's narrative across Books 14-15 preserves the
+      pattern of Greek-Sicilian-Carthaginian engagement and
+      withdrawal that maintained the territorial division.
+notes: >
+  The forty-year stability of the Sicilian division is itself
+  significant. After two generations of major Carthaginian
+  invasions and Greek-Sicilian counter-offensives, neither
+  side could permanently expel the other, and the eventual
+  pattern was coexistence under the threat of renewed conflict
+  rather than territorial consolidation.
+entities:
+  - type: event
+    slug: wars-of-dionysius
+    role: subject
