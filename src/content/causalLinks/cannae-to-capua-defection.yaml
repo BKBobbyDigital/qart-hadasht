@@ -1,0 +1,23 @@
+slug: cannae-to-capua-defection
+cause: battle-of-cannae
+effect: capua-defection
+relation: produced (the political opening)
+confidence: attested
+mechanism: |
+  Cannae destroyed the Roman field army at a scale that made
+  Italian-allied calculation about Roman survival immediately
+  contingent. Capuan elite politics had included a substantial
+  pro-Hannibal faction since at least the Trasimene aftermath;
+  Cannae's outcome made that faction's case (that Roman defeat
+  was now likely and Capuan repositioning timely) decisive in
+  the local political contest. The Capuan magistrates opened
+  negotiations with Hannibal within weeks of Cannae; the
+  defection was completed by autumn 216.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "23.2-7"
+    passage_summary: >
+      Livy narrates the political process at Capua in extended
+      detail, treating the defection as the immediate political
+      consequence of Cannae.

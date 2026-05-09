@@ -29,6 +29,12 @@ related_events:
     notes: >
       Hannibal's march from Iberia to northern Italy across the
       Alps, the operation that opened the Italian campaign.
+  - event: battle-of-ticinus
+    relation: first Italian engagement (November 218 BCE)
+    notes: >
+      Cavalry skirmish on the Ticino river days after Hannibal's
+      descent from the Alps. The elder Scipio wounded; future
+      Africanus saved his father in tradition.
   - event: battle-of-trebia
     relation: first major Italian victory (218 BCE)
     notes: >
@@ -46,6 +52,16 @@ related_events:
       structural resilience was demonstrated. The battle that should
       have ended the war on Carthaginian terms; the Roman refusal
       to negotiate that followed it set the war's strategic limit.
+  - event: capua-defection
+    relation: principal Italian-allied defection (216 BCE)
+    notes: >
+      The second-largest city of Italy joined Hannibal after
+      Cannae; most of the Italian south followed within months.
+  - event: treaty-with-philip-v
+    relation: external alliance (215 BCE)
+    notes: >
+      The treaty that opened the First Macedonian War as a
+      second front against Roman power.
   - event: battle-of-metaurus
     relation: strategic decision (207 BCE)
     notes: >

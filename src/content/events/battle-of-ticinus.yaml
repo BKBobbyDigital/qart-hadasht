@@ -1,0 +1,48 @@
+slug: battle-of-ticinus
+name: Battle of the Ticinus
+type: battle
+date_start:
+  value: -218
+  precision: year
+  notes: Late November 218 BCE, days after Hannibal's descent from the Alps and shortly before the Battle of the Trebia.
+place: ticinus
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: maharbal
+    role: cavalry commander
+    side: Carthaginian
+  - person: scipio-the-elder
+    role: commander
+    side: Roman
+  - person: scipio-africanus
+    role: junior officer (cavalry, age ~17)
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+related_events: []
+summary: >
+  The first engagement between Hannibal and a Roman force on
+  Italian soil, fought in the late autumn of 218 BCE shortly
+  after Hannibal's descent from the Alps. The engagement was a
+  cavalry skirmish rather than a major battle: Hannibal's
+  combined Numidian and Iberian horse, screened by light
+  troops, met the Roman cavalry under the consul Publius
+  Cornelius Scipio (the elder, father of the future Africanus)
+  near the Ticino river west of Placentia. The Carthaginian
+  cavalry's tactical superiority, particularly the Numidians'
+  capacity for envelopment, broke the Roman force. Scipio was
+  wounded in the engagement and (according to the surviving
+  tradition) saved by his teenage son, the future Scipio
+  Africanus, then approximately seventeen years old and
+  serving as a junior officer in his father's cavalry. The
+  rescue is preserved in Polybius (10.3) on the authority of
+  Laelius, who was present with the future Africanus, and is
+  treated by modern scholarship as substantially historical.
+  The Roman defeat at the Ticinus, combined with Scipio's
+  wound, set the strategic conditions for the subsequent
+  Carthaginian engagement at the Trebia, where the wounded
+  Scipio's caution was overruled by his consular colleague
+  Sempronius Longus.

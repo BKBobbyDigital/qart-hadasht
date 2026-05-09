@@ -1,0 +1,47 @@
+slug: ticinus-young-scipio-rescue
+statement: >
+  The teenage Scipio (the future Africanus, then approximately
+  seventeen) saved his wounded father at the Ticinus by
+  charging the Carthaginian cavalry that had surrounded him.
+  The episode is preserved in Polybius on the authority of
+  Laelius, who was present with the future Africanus.
+confidence: attested
+scholarly_consensus: >
+  The episode is attested with an unusually direct chain of
+  transmission (Laelius was Polybius's source for many Scipionic
+  details; Laelius was present at the engagement). Modern
+  scholarship treats it as substantially historical, while
+  noting that the dramatic framing in some later sources
+  (notably Livy) is rhetorically heightened.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "10.3"
+    passage_summary: >
+      Polybius preserves the episode explicitly, attributing the
+      account to Laelius, the future Africanus's lifelong
+      companion who was present at the engagement.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.46"
+    passage_summary: >
+      Livy preserves the episode with characteristic dramatic
+      framing; some Roman antiquarian tradition disputed the
+      detail, attributing the rescue instead to a Ligurian
+      slave, but Livy follows Polybius.
+notes: >
+  The episode connects the two principal Roman families of the
+  Punic Wars in a single moment: the elder Scipio's son becomes
+  the victor of Zama; his subsequent adopted grandson, Scipio
+  Aemilianus, destroys Carthage in 146 BCE. The Ticinus rescue
+  is the inception of that family arc.
+entities:
+  - type: person
+    slug: scipio-africanus
+    role: subject
+  - type: person
+    slug: scipio-the-elder
+    role: object
+  - type: event
+    slug: battle-of-ticinus
+    role: context

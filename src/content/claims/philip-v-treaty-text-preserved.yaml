@@ -1,0 +1,29 @@
+slug: philip-v-treaty-text-preserved
+statement: >
+  Polybius preserves the text of the Hannibal-Philip V treaty in
+  what is generally treated as a faithful Greek translation of
+  the original document, making it one of the few near-verbatim
+  ancient diplomatic instruments to survive.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "7.9"
+    passage_summary: >
+      Polybius preserves the treaty's substantive provisions in a
+      Greek translation that includes formulaic Punic-Greek
+      diplomatic vocabulary, suggesting transmission via the
+      original Carthaginian document rather than a Greek
+      paraphrase.
+notes: >
+  The intercepted original document gave Rome the formal pretext
+  for declaring the First Macedonian War; the same document is
+  what Polybius worked from in writing his preservation of the
+  text. The transmission chain is therefore unusually direct:
+  the document was captured by Roman officials, archived in
+  Rome, consulted by Polybius decades later, and preserved in
+  Greek translation for subsequent readers.
+entities:
+  - type: event
+    slug: treaty-with-philip-v
+    role: subject

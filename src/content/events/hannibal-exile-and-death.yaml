@@ -1,0 +1,91 @@
+slug: hannibal-exile-and-death
+name: Hannibal's Exile and Death
+type: political
+date_start:
+  value: -195
+  precision: year
+  notes: Flight from Carthage in late 195 BCE following senatorial denunciation to Rome.
+date_end:
+  value: -183
+  precision: year
+  notes: Suicide by poison at Libyssa in Bithynia, 183 BCE.
+place: bithynia
+places:
+  - bithynia
+  - carthage
+participants:
+  - person: hannibal-barca
+    role: subject
+    side: Carthaginian (in exile)
+principal_sources:
+  - livy-auc
+  - nepos-hannibal
+  - plutarch-lives
+  - polybius-histories
+related_events: []
+summary: >
+  The twelve-year exile and eventual death of Hannibal Barca,
+  beginning with his flight from Carthage in late 195 BCE and
+  ending with his suicide by poison at Libyssa in Bithynia in
+  183 BCE. The arc, preserved with substantial detail across
+  Livy, Cornelius Nepos, Plutarch, and the Polybian fragments,
+  is one of the more directly attested episodes in the
+  Hellenistic-period biography of any non-king. Hannibal's
+  itinerary in exile traces, in compressed form, the geography
+  of late-Hellenistic resistance to Roman power.
+
+  **Phase 1 (195-189 BCE): the Seleucid court of Antiochus III.**
+  Hannibal fled Carthage to Tyre, then to Antioch, where he was
+  received by Antiochus III as an honored counselor in the
+  Seleucid king's developing conflict with Rome. Hannibal
+  advised Antiochus on the war against Rome (against, in
+  general, the consensus of the Seleucid court, which he found
+  insufficiently committed to a coherent western strategy);
+  commanded a small Seleucid naval force in the Aegean and
+  eastern Mediterranean theater; was probably present, in some
+  capacity, at the catastrophic Battle of Magnesia in 190 BCE
+  that ended Antiochus's war. The Apamea peace treaty of 188
+  BCE included a Roman demand for Hannibal's surrender; he
+  fled before it could be executed.
+
+  **Phase 2 (189-184 BCE): Crete and the eastern Mediterranean.**
+  Hannibal reportedly stopped briefly in Crete before moving
+  east to the kingdom of Bithynia under Prusias I. The Cretan
+  episode is preserved in some sources with the famous detail
+  of Hannibal depositing earthenware jars filled with lead at a
+  temple, the gold he actually possessed concealed in bronze
+  statues outside the temple — a stratagem to protect his
+  wealth from local plundering while appearing to entrust it
+  to the priests.
+
+  **Phase 3 (184-183 BCE): Bithynia.** Hannibal advised
+  Prusias I in the Bithynian operations against Pergamum and
+  contributed to a naval engagement in which (according to
+  the surviving tradition) he ordered jars of poisonous snakes
+  flung onto the Pergamene ships, a device improvised because
+  the Bithynian fleet was numerically inferior. In 183 BCE the
+  Roman embassy under Titus Quinctius Flamininus demanded his
+  surrender from Prusias. Hannibal, recognizing that Prusias
+  would comply, took poison at his fortified residence at
+  Libyssa rather than be handed over.
+
+  The famous closing speech preserved in Plutarch (*Flamininus*
+  20) and elsewhere is rhetorical reconstruction of one of the
+  most-cited moments in ancient biography: "Let us release the
+  Romans of their long anxiety, since they consider it too
+  tedious to wait for the death of an old man." Whether
+  Hannibal actually said anything of the kind is uncertain;
+  that he died at Libyssa in 183 BCE rather than be surrendered
+  is firmly attested. He was buried at Libyssa; Septimius
+  Severus reportedly built a mausoleum at the site centuries
+  later, though no archaeological remains have been securely
+  identified.
+
+  Hannibal's death in 183 BCE is conventionally noted as
+  occurring in the same year as Scipio Africanus's death in
+  Italy. The two principal commanders of the Second Punic War
+  thus ended their lives within months of each other, both in
+  forms of internal political marginalization rather than at
+  the height of their public power. The coincidence is one of
+  the more striking biographical pairings in ancient
+  historiography.

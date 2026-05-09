@@ -1,0 +1,46 @@
+slug: hannibal-death-libyssa
+statement: >
+  Hannibal took poison at his fortified residence at Libyssa in
+  Bithynia in 183 BCE rather than be surrendered to a Roman
+  embassy under Titus Quinctius Flamininus that had demanded
+  his extradition from King Prusias I.
+confidence: attested
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "39.51"
+    passage_summary: >
+      Livy preserves the episode with characteristic detail,
+      including the geography of the residence (the seven
+      tunnels Hannibal had reportedly prepared as escape routes
+      against just this kind of demand) and the closing
+      speech.
+  - source: nepos-hannibal
+    stance: supports
+    passage_ref: "Han. 12-13"
+    passage_summary: >
+      Cornelius Nepos preserves the death with sympathetic
+      framing, including the famous closing speech and the
+      Roman senate's reaction.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Flam. 20-21"
+    passage_summary: >
+      Plutarch's Life of Flamininus preserves the closing
+      speech and treats Flamininus's role in the episode with
+      ambivalence.
+notes: >
+  The closing speech traditionally attributed to Hannibal
+  ("let us release the Romans of their long anxiety, since
+  they consider it too tedious to wait for the death of an
+  old man") is preserved in multiple late sources but is
+  almost certainly rhetorical reconstruction. The
+  underlying fact of the suicide at Libyssa is firmly
+  attested.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: hannibal-exile-and-death
+    role: subject

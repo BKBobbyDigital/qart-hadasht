@@ -1,0 +1,35 @@
+slug: hannibal-scipio-same-year-deaths
+statement: >
+  Hannibal Barca and Scipio Africanus died in the same year, 183
+  BCE, both in forms of internal political marginalization
+  rather than at the height of their public power.
+confidence: attested
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "39.50-52"
+    passage_summary: >
+      Livy treats the parallel deaths as a matter of explicit
+      historiographic significance, with the deaths of the two
+      principal commanders of the Second Punic War in the same
+      year preserved as a moment of symbolic conclusion.
+  - source: nepos-hannibal
+    stance: supports
+    passage_summary: >
+      Cornelius Nepos preserves the parallel and uses it to
+      frame the closing of his Hannibal biography.
+notes: >
+  Scipio Africanus had withdrawn from public life in Italy
+  after political prosecution by his enemies in the Roman
+  senate (the so-called "Trials of the Scipios"); he died on his
+  estate at Liternum in 183 BCE. Hannibal died at Libyssa in
+  Bithynia in the same year. The coincidence is one of the more
+  striking biographical pairings in ancient historiography and
+  was treated as such by the Hellenistic and Roman traditions.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: person
+    slug: scipio-africanus
+    role: subject

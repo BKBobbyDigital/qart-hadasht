@@ -1,0 +1,38 @@
+slug: hannibal-suffete-council-104-reform
+statement: >
+  As suffete, Hannibal reformed the Council of 104 from a
+  life-tenure body into an annually-elected one, substantially
+  reducing the senatorial-aristocratic faction's institutional
+  control over military commanders.
+confidence: attested
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "33.46"
+    passage_summary: >
+      Livy describes the constitutional reform as part of
+      Hannibal's broader program against the senatorial
+      faction's entrenched institutional power.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the reform as a substantive constitutional
+      change with longer-term consequences for the
+      senatorial-aristocratic-faction's authority. Whether the
+      change persisted after Hannibal's exile is unclear from
+      the surviving record.
+notes: >
+  The Council of 104 had historically held the
+  post-campaign judgment of military commanders, sometimes with
+  severe consequences (the crucifixion of Hanno after the
+  Aegates is the canonical example). Hannibal had personal
+  reason to reform an institution that could threaten
+  successful commanders; his constitutional reform was both
+  politically self-interested and structurally significant.
+entities:
+  - type: event
+    slug: hannibal-as-suffete
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject

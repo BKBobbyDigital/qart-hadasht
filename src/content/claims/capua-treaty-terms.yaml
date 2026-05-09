@@ -1,0 +1,25 @@
+slug: capua-treaty-terms
+statement: >
+  The treaty between Capua and Hannibal preserved Capuan
+  autonomy: Capua to retain its political institutions, no
+  Capuan citizen to be conscripted into Carthaginian service
+  against his will, Capua to occupy a privileged position in
+  the post-war Italian political order Hannibal's victory was
+  understood to be producing.
+confidence: attested
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "23.7"
+    passage_summary: >
+      Livy preserves the treaty's substantive provisions with
+      characteristic political detail.
+  - source: polybius-histories
+    stance: supports
+    passage_summary: >
+      Polybius's surviving fragments are consistent with Livy's
+      account on the broad terms.
+entities:
+  - type: event
+    slug: capua-defection
+    role: subject

@@ -1,0 +1,39 @@
+slug: hannibal-suffete-financial-reform
+statement: >
+  Hannibal's investigation of Carthaginian state finances as
+  suffete in 196 BCE found that the indemnity to Rome could be
+  paid ahead of schedule from current revenues alone, the
+  apparent deficit being explained by senatorial-elite
+  peculation rather than by any actual revenue shortfall.
+confidence: attested
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "33.46-47"
+    passage_summary: >
+      Livy preserves the financial investigation in detail,
+      including Hannibal's address to the popular assembly
+      explaining the recovery of misappropriated funds and
+      proposing the early-payment scheme.
+  - source: nepos-hannibal
+    stance: supports
+    passage_ref: "Han. 7"
+    passage_summary: >
+      Cornelius Nepos's biography preserves the substance of
+      the financial reform in compressed form.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's analysis treats the reform as a substantive
+      administrative achievement: Hannibal's competence in
+      financial management is consistent with what the
+      surviving record preserves about his Italian-campaign
+      logistics, and the political reaction it produced was
+      severe enough to drive him into exile.
+entities:
+  - type: event
+    slug: hannibal-as-suffete
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject
