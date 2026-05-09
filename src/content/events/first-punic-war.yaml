@@ -1,0 +1,55 @@
+slug: first-punic-war
+name: First Punic War
+type: war
+date_start:
+  value: -264
+  precision: year
+date_end:
+  value: -241
+  precision: year
+place: sicily
+participants: []
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+related_events:
+  - event: first-punic-war-outbreak
+    relation: opening political crisis (264 BCE)
+    notes: >
+      The Mamertine appeal and the Roman crossing of the Strait
+      of Messina that began the war.
+  - event: battle-of-cape-ecnomus
+    relation: principal naval engagement (256 BCE)
+    notes: >
+      The largest naval battle of antiquity, the Roman victory
+      that opened the path to the African expedition.
+  - event: battle-of-aegates-islands
+    relation: war-ending naval engagement (10 March 241 BCE)
+    notes: >
+      The morning engagement that broke Carthaginian capacity to
+      continue the war.
+  - event: treaty-of-lutatius
+    relation: peace settlement (241 BCE)
+    notes: >
+      The treaty that ended the war and set the conditions for
+      the Mercenary War and the Roman seizure of Sardinia.
+summary: >
+  The first of the three Punic Wars, fought between Rome and
+  Carthage from 264 to 241 BCE, principally over Sicily. The
+  longest single conflict either state had yet undertaken: 23
+  years of intermittent warfare on land, at sea, and across the
+  central Mediterranean, ending in Roman victory and a settlement
+  that transferred Sicily and (within three years) Sardinia to
+  Roman control. The war's principal phases (the opening crisis at
+  Messana in 264 BCE, the Roman naval revolution of the 260s and
+  250s BCE culminating in the victory at Cape Ecnomus, Regulus's
+  African expedition and its catastrophic 255 BCE collapse, the
+  long Carthaginian-Roman attritional warfare in western Sicily
+  through the 240s, and the closing engagement at the Aegates
+  Islands in 241) are treated in their own dedicated event
+  entries linked from this parent. The war is the structural
+  origin of all subsequent Roman-Carthaginian conflict: the
+  conditions it created (the Lutatius treaty and the 238 BCE
+  Sardinian seizure) produced the Barcid response that became
+  the Second Punic War a generation later.

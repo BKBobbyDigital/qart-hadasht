@@ -1,0 +1,50 @@
+slug: atilius-regulus
+name_display: Marcus Atilius Regulus
+name_latin: Marcus Atilius Regulus
+birth:
+  value: -300
+  precision: decade
+  circa: true
+death:
+  value: -250
+  precision: year
+  circa: true
+  notes: >
+    Tradition reports he died in Carthaginian captivity, in the
+    most elaborated versions tortured to death after refusing to
+    negotiate peace terms favorable to Carthage. The torture
+    detail is heavily moralized in later Roman tradition and is
+    treated by modern scholarship as legendary embellishment of
+    an underlying captivity-and-death.
+roles:
+  - consul
+  - general
+  - admiral
+polity: Rome
+summary: >
+  Roman consul of 256 BCE and one of the principal commanders of
+  Rome's African strategy in the First Punic War. With his
+  colleague Lucius Manlius Vulso Longus, Regulus commanded the
+  Roman fleet at Cape Ecnomus in 256 BCE, the largest naval
+  engagement of classical antiquity by claimed combatant count.
+  After the Roman victory at Ecnomus, Regulus crossed with the
+  legions to Africa and conducted the initial campaign of the
+  Roman invasion (256-255 BCE), winning early engagements and
+  reaching the Carthaginian hinterland before being defeated and
+  captured at the Battle of the Bagradas River by a Carthaginian
+  army under the Spartan mercenary general Xanthippus in 255 BCE.
+
+  His subsequent fate is the subject of one of the most famous
+  set-pieces in the surviving Roman tradition. Tradition reports
+  that he was sent back to Rome on parole to negotiate peace
+  terms and a prisoner exchange, advised the Roman senate to
+  reject the Carthaginian terms, returned voluntarily to
+  Carthaginian captivity in keeping with his oath, and was then
+  tortured to death by the Carthaginians in retaliation. The
+  story is preserved in Cicero, Horace, Livy's now-fragmentary
+  account of this period, and Augustine, and forms the basis of
+  the Roman moral-exemplum tradition treating Regulus as the
+  model of *fides*. Modern scholarship is generally cautious about
+  the elaborated torture detail, treating it as later moralized
+  embellishment of an underlying captivity-and-death whose
+  specific circumstances are not securely attested.

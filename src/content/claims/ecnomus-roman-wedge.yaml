@@ -1,0 +1,38 @@
+slug: ecnomus-roman-wedge
+statement: >
+  The Roman fleet at Cape Ecnomus deployed in a triangular wedge
+  formation, with four squadrons configured to protect the troop
+  transports inside the formation while concentrating offensive
+  capacity at the apex. The arrangement was a tactical innovation
+  responsive to the specific operational requirement of moving
+  army transports through a contested sea.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in Polybius and treated by modern scholarship as
+  a notable example of Roman tactical adaptation in the naval
+  domain. The wedge formation was not used in subsequent
+  engagements (where the army transport was not part of the
+  tactical problem) but is preserved as evidence that Roman naval
+  thinking was not simply imitating Carthaginian or Greek practice.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.26"
+    passage_summary: >
+      Polybius describes the wedge formation in detail: the apex
+      with the consular flagships, the second line behind the apex
+      towing horse-transports, the third line as a rearguard, the
+      inverted-triangle configuration that protected the
+      transports from outflanking attacks.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy provides modern military analysis of the
+      formation and its tactical purposes, treating it as the most
+      ambitious Roman naval disposition of the war and as
+      evidence of Roman willingness to innovate within the
+      constraints of unfamiliar operational requirements.
+entities:
+  - type: event
+    slug: battle-of-cape-ecnomus
+    role: context

@@ -1,0 +1,63 @@
+slug: ecnomus-scale
+statement: >
+  Cape Ecnomus is the largest naval battle of classical antiquity
+  by claimed combatant count. Polybius (1.26) reports approximately
+  290,000 combatants engaged across both fleets at full crew
+  strength: ~140,000 Roman and ~150,000 Carthaginian.
+confidence: contested
+scholarly_consensus: >
+  The order of magnitude (300+ ships per side, hundreds of thousands
+  of men) is consistent with what is known of mid-3rd-century BCE
+  Roman and Carthaginian naval mobilization. The specific Polybian
+  figure is treated by modern scholarship with the usual caution
+  around ancient combatant counts but is not unreasonable for the
+  scale Polybius describes.
+dispute_summary: |
+  Polybius's numbers break down as: ~330 Roman quinqueremes, each
+  with a standard crew of approximately 300 rowers and 120 marines
+  (~420 total) for ~140,000 Roman combatants; ~350 Carthaginian
+  quinqueremes at similar manning for ~150,000 Carthaginian
+  combatants. The total of ~290,000 is the figure the Polybian
+  arithmetic produces.
+
+  Three considerations qualify the figure:
+
+  1. **Standard crew strength.** Whether ancient quinqueremes were
+     actually manned at the standard 420-per-ship in major
+     mobilizations is debated. Reduced crew strengths of
+     250-350 are sometimes proposed for cost and logistical
+     reasons.
+
+  2. **Marine count.** The Roman ships at Ecnomus carried
+     additional marines for the African expedition, which would
+     adjust totals upward; Carthaginian ships were not similarly
+     loaded.
+
+  3. **Counting method.** Whether to count rowers as "combatants"
+     is itself a methodological question. Polybius's figure counts
+     them. Modern figures sometimes separate "combat strength"
+     (marines and officers) from total personnel.
+
+  Even at conservative readings (250 per ship per side, marines
+  only counted as combatants, transport ships not counted), the
+  engagement is substantially larger than any other preserved
+  ancient naval battle. The "largest by claimed combatant count"
+  claim is secure; the specific ~290,000 is the upper bound
+  reading.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.26"
+    passage_summary: >
+      Polybius gives the ship counts and crew breakdowns explicitly
+      and notes the engagement's exceptional scale.
+  - source: goldsworthy-fall-carthage-2003
+    stance: qualifies
+    passage_summary: >
+      Goldsworthy treats the Polybian figures as approximately
+      correct in order of magnitude while noting the standard
+      methodological caveats.
+entities:
+  - type: event
+    slug: battle-of-cape-ecnomus
+    role: subject

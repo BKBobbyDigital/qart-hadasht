@@ -1,0 +1,42 @@
+slug: ecnomus-african-expedition
+statement: >
+  The Roman victory at Cape Ecnomus opened the path to the African
+  expedition of 256-255 BCE, in which Atilius Regulus landed the
+  legions in North Africa and conducted the first Roman invasion
+  of Carthaginian home territory. The expedition's initial
+  successes were reversed in 255 BCE by the Carthaginian victory
+  at the Bagradas River under the Spartan mercenary general
+  Xanthippus.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.29-34"
+    passage_summary: >
+      Polybius narrates the African expedition's opening, the
+      initial Roman successes, the recall of Manlius Vulso with
+      part of the force (leaving Regulus with a reduced army), the
+      Carthaginian recruitment of Xanthippus, and the catastrophic
+      Roman defeat at the Bagradas River.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy traces the African expedition in detail and
+      treats it as a structural precedent for Scipio's later
+      African strategy of 204 BCE, while noting the specific
+      operational errors (force-splitting, slow consolidation,
+      underestimation of Carthaginian recruiting capacity) that
+      produced the 255 BCE collapse.
+notes: >
+  The African expedition is a separate event sequence the site has
+  not yet built as a dedicated entry. Its failure under Xanthippus
+  in 255 BCE, and Regulus's subsequent captivity and death, are
+  central to the Roman political-moral tradition and will be
+  treated when the expedition itself is added as an event.
+entities:
+  - type: event
+    slug: battle-of-cape-ecnomus
+    role: context
+  - type: person
+    slug: atilius-regulus
+    role: subject

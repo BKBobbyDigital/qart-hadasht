@@ -1,0 +1,39 @@
+slug: ecnomus-corvus-boarding
+statement: >
+  The Roman victory at Cape Ecnomus depended on the *corvus*, a
+  boarding bridge mounted at the prow of Roman quinqueremes that
+  allowed Roman marines to swing onto enemy decks and convert
+  naval engagements into close-combat fights of the kind Roman
+  legions excelled in. The Carthaginian envelopment plan was
+  structurally sound; it failed because Roman ships, once in
+  contact, won every close-combat fight they entered.
+confidence: attested
+scholarly_consensus: >
+  The role of the *corvus* in Roman naval success in the First
+  Punic War is firmly attested in Polybius and treated by modern
+  scholarship as the principal Roman tactical innovation of the
+  decade. The device was abandoned later in the war, probably
+  because of its destabilizing effect on ships in heavy weather;
+  the Roman naval losses to storms in the late 250s and 240s BCE
+  may be partly attributable to its continued use.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.22-23, 1.27"
+    passage_summary: >
+      Polybius introduces the *corvus* in his account of the
+      first major Roman naval victory at Mylae (260 BCE) and
+      treats its continued use through Ecnomus as the
+      operative cause of Roman naval success in this period.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy provides extended modern analysis of the
+      *corvus*: the mechanical design, the tactical doctrine
+      built around it, the trade-offs (sea-keeping ability for
+      close-combat capability), and the eventual abandonment of
+      the device.
+entities:
+  - type: event
+    slug: battle-of-cape-ecnomus
+    role: context

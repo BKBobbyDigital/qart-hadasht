@@ -1,0 +1,71 @@
+slug: battle-of-cape-ecnomus
+name: Battle of Cape Ecnomus
+type: battle
+date_start:
+  value: -256
+  precision: year
+  notes: Summer 256 BCE, the precise day not preserved.
+place: cape-ecnomus
+participants:
+  - person: atilius-regulus
+    role: commander
+    side: Roman
+  - person: manlius-vulso
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - goldsworthy-fall-carthage-2003
+related_events:
+  - event: battle-of-aegates-islands
+    relation: matched pair (major naval engagements of the First Punic War)
+    notes: >
+      Cape Ecnomus and the Aegates are the two decisive naval
+      engagements of the First Punic War, separated by fifteen
+      years and by a structural shift in the strategic balance.
+      Ecnomus established Roman naval capability; the Aegates
+      ended the war with that capability fully matured.
+summary: >
+  The largest naval engagement of classical antiquity by claimed
+  combatant count and the Roman victory that opened the path to
+  the African invasion of 256-255 BCE. The Roman fleet of
+  approximately 330 quinqueremes under the consuls Marcus Atilius
+  Regulus and Lucius Manlius Vulso Longus, carrying the legions
+  destined for the African expedition, moved south from Sicily in
+  the early summer of 256 BCE. The Carthaginian fleet of
+  approximately 350 quinqueremes under Hamilcar (a different
+  Hamilcar from the Magonid of 480 or the Barcid father of
+  Hannibal) and Hanno moved to intercept off Cape Ecnomus on the
+  south coast of Sicily.
+
+  The Roman tactical disposition was a triangular wedge: four
+  squadrons in a four-element configuration with the consular
+  flagship and elite ships at the apex, transports towing
+  horse-carriers protected within the formation, and a rearguard
+  squadron astern. The Carthaginian plan was to envelop the Roman
+  formation: a thin extended center to absorb the Roman wedge
+  while the wings curved around the Roman flanks and a detached
+  Carthaginian squadron attacked the Roman rearguard. The
+  Carthaginian center fell back as planned, drawing the Roman
+  apex squadrons forward; the Carthaginian wings then closed.
+  The engagement broke into three separate fights: the Roman
+  apex pursuing the retreating Carthaginian center, the
+  Carthaginian wings attacking the Roman second-line squadrons,
+  and the Carthaginian detachment engaging the Roman rearguard.
+
+  In each of the three engagements the Roman ships, equipped with
+  the *corvus* boarding bridge that had transformed Roman naval
+  capability earlier in the decade, prevailed through close-in
+  fighting. Polybius reports approximately 30 Roman ships sunk
+  (no Roman ships captured) against approximately 30 Carthaginian
+  ships sunk and 64 captured. The Roman victory was decisive
+  enough that Regulus and Vulso were able to land the legions in
+  Africa within weeks.
+
+  The engagement's claimed scale (Polybius 1.26 reports ~290,000
+  combatants across both fleets) makes it the largest preserved
+  naval battle of classical antiquity by combatant count.
+  Whether the figure is accurate is contested in modern
+  scholarship, but the order of magnitude (300+ ships per side at
+  fully manned crew strength) is consistent with what is known of
+  Roman and Carthaginian naval mobilization in this period.

@@ -1,0 +1,30 @@
+slug: ecnomus-carthaginian-envelopment
+statement: >
+  The Carthaginian plan at Cape Ecnomus was envelopment: a thin
+  extended center to absorb the Roman wedge while the wings curved
+  around the Roman flanks, with a detached squadron attacking the
+  Roman rearguard. The center fell back as designed, drawing the
+  Roman apex forward; the engagement broke into three separate
+  fights as the wings closed.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.27"
+    passage_summary: >
+      Polybius describes the Carthaginian plan and execution: the
+      center's deliberate withdrawal, the wings' engagement of the
+      Roman second-line squadrons, the rearguard attack, and the
+      resulting fragmentation of the engagement into three
+      separate fights.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy treats the Carthaginian plan as tactically sound
+      and notes that its failure was a function of Roman
+      close-combat superiority via the *corvus* boarding bridge
+      rather than of any flaw in the envelopment design.
+entities:
+  - type: event
+    slug: battle-of-cape-ecnomus
+    role: context

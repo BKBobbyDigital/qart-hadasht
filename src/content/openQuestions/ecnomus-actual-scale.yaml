@@ -1,0 +1,86 @@
+slug: ecnomus-actual-scale
+question: >
+  How many men actually fought at Cape Ecnomus, and is the
+  "largest naval battle of antiquity" claim defensible?
+why_unknown: >
+  Polybius's figure of approximately 290,000 combatants depends on
+  full standard crew strength for both fleets at full ship counts.
+  Whether either side actually manned the standard 420-per-ship
+  in the mobilization for this engagement is contested. Modern
+  estimates vary by a factor of two depending on assumptions about
+  rower numbers, marine numbers, and what counts as a "combatant."
+  The result is that the claim is consistent with the Polybian
+  arithmetic but its precise validity depends on assumptions that
+  the surviving sources do not preserve.
+evidence_summary: >
+  Polybius (1.26) gives the ship counts (~330 Roman, ~350
+  Carthaginian) and crew breakdown (300 rowers + 120 marines per
+  quinquereme). Modern scholarship has worked from comparative
+  evidence about ancient quinquereme manning, the logistics of
+  recruiting and provisioning fleets at this scale, and the
+  surviving evidence about ship-payment costs to test whether the
+  Polybian figures are plausible.
+candidate_answers:
+  - answer: Polybius's figure is approximately correct; ~290,000 combatants
+    arguments_for: >
+      The Polybian arithmetic is internally consistent. Both
+      states had the demographic and fiscal capacity to mobilize
+      at this scale (the Roman state had just made the unusual
+      step of private-subscription financing for the fleet
+      construction; the Carthaginian state had been mobilizing
+      naval forces at scale throughout the war). The standard
+      quinquereme manning figures Polybius uses are conventional
+      and not unique to this engagement.
+    arguments_against: >
+      Full standard manning is an upper bound, not a normal
+      operational state. Recruitment shortfalls, sickness, desertion,
+      and unfilled marine billets routinely reduced effective
+      strength below the nominal complement. The 290,000 figure
+      assumes a manning level that is theoretically possible but
+      not historically verified for this specific mobilization.
+    held_by: A reading defended by some military historians who
+      take Polybius's arithmetic at face value.
+  - answer: The figure overstates by ~30-50%; actual combatants 150,000-200,000
+    arguments_for: >
+      Reduced manning is the norm in extended ancient naval
+      campaigns, especially after years of fighting that produced
+      losses in skilled rowers and marines. A 250-300 per ship
+      operational manning is more consistent with what is known of
+      mid-3rd-century BCE Roman and Carthaginian naval recruitment.
+      The order of magnitude (hundreds of thousands) is preserved;
+      the specific figure is reduced.
+    arguments_against: >
+      Speculative modern adjustment to a figure Polybius gives
+      precisely. Without independent evidence for reduced manning
+      at this specific engagement, the adjustment is not strongly
+      grounded.
+    held_by: A common modern scholarly position that treats the
+      Polybian figure as the upper bound.
+  - answer: The "largest of antiquity" claim is questionable
+    arguments_for: >
+      Even on reduced estimates the engagement is among the
+      largest naval battles of antiquity, but not necessarily the
+      largest. Other engagements (Salamis at ~150,000 combatants
+      on conventional estimates; later Hellenistic and Roman
+      naval engagements) are within the same range, and the
+      "largest" claim depends on accepting Polybius's upper-bound
+      arithmetic.
+    arguments_against: >
+      Even on reduced estimates Ecnomus is among the largest
+      preserved naval engagements; whether it is *the* largest is
+      a marginal call that does not change the broader fact of
+      its exceptional scale.
+    held_by: A skeptical position; rarely strongly defended but
+      sometimes acknowledged as a methodological caveat.
+relevant_entities:
+  - type: event
+    slug: battle-of-cape-ecnomus
+    role: subject
+what_would_resolve_this: >
+  Independent attestation of crew sizes for either fleet, perhaps
+  through preserved logistics or recruitment records that have not
+  yet been recovered. Comparative evidence from other ancient
+  naval mobilizations of similar scale. Ship-archaeological
+  evidence about quinquereme dimensions and capacity, which has
+  improved substantially in recent decades but does not directly
+  address mobilization-level manning.

@@ -23,7 +23,8 @@ sorts events chronologically.
 - [x] **Founding of Carthage** — traditional 814 BCE
 - [x] **First Treaty with Rome** — 509 BCE
 - [x] **Battle of Himera** — 480 BCE
-- [ ] **Battle of Cape Ecnomus** — 256 BCE
+- [x] **Battle of Cape Ecnomus** — 256 BCE
+- [x] **First Punic War** — 264–241 BCE *(built as light parent linking the four FPW phase events)*
 - [ ] **Third Punic War & Destruction of Carthage** — 149–146 BCE
 
 ## Build-order rationale
