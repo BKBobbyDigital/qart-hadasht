@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
+import Map from '../../components/Map.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -50,6 +51,44 @@ const matchingNarrative = allNarratives.find((n) =>
 // Resolve place
 const place = data.place ? await getEntry('places', data.place.id) : null;
 
+// Build map points for the event's geographic context
+type MapPoint = { label: string; lat: number; lon: number; confidence?: string; notes?: string; marker_kind?: string };
+const eventMapPoints: MapPoint[] = [];
+if (place) {
+  const pd = place.data;
+  if (pd.candidates && pd.candidates.length > 0) {
+    pd.candidates.forEach((c: any) => eventMapPoints.push({
+      label: c.label,
+      lat: c.lat,
+      lon: c.lon,
+      confidence: c.confidence,
+      notes: c.notes,
+      marker_kind: 'subject',
+    }));
+  } else if (pd.primary) {
+    eventMapPoints.push({
+      label: pd.name_display,
+      lat: pd.primary.lat,
+      lon: pd.primary.lon,
+      confidence: pd.primary.confidence,
+      marker_kind: 'subject',
+    });
+  }
+}
+// Add Carthage as reference if event is not at Carthage itself
+if (eventMapPoints.length > 0 && place?.id !== 'carthage') {
+  const allPlaces = await getCollection('places');
+  const carthage = allPlaces.find((p) => p.id === 'carthage');
+  if (carthage?.data.primary) {
+    eventMapPoints.push({
+      label: 'Carthage (reference)',
+      lat: carthage.data.primary.lat,
+      lon: carthage.data.primary.lon,
+      marker_kind: 'reference',
+    });
+  }
+}
+
 // Format date
 const year = Math.abs(data.date_start.value);
 const era = data.date_start.value < 0 ? 'BCE' : 'CE';
@@ -71,6 +110,16 @@ const era = data.date_start.value < 0 ? 'BCE' : 'CE';
     <div class="prose-encyclopedia mt-6 text-lg text-sand-900">
       <p>{data.summary}</p>
     </div>
+
+    {eventMapPoints.length > 0 && (
+      <Map
+        points={eventMapPoints}
+        height="320px"
+        caption={place?.data.candidates && place.data.candidates.length > 0
+          ? `The location of this event is contested — candidate sites are shown along with Carthage as a geographic reference.`
+          : undefined}
+      />
+    )}
 
     {matchingNarrative && (
       <a href={`/narratives/${matchingNarrative.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors">

@@ -1,0 +1,109 @@
+---
+/**
+ * Map.astro — interactive Leaflet map.
+ *
+ * Pass `points` with lat/lon and optional confidence/notes. Confidence drives
+ * marker color. The map auto-fits to the points' bounds.
+ *
+ * Multiple Map components can coexist on the same page; the bootstrapping
+ * script finds all uninitialized maps and initializes them.
+ */
+interface MapPoint {
+  label: string;
+  lat: number;
+  lon: number;
+  /** One of: certain | probable | possible | speculative. Drives marker color. */
+  confidence?: string;
+  notes?: string;
+  /** Visual treatment: 'reference' (e.g. Carthage as context), or 'subject' (the actual subject). */
+  marker_kind?: string;
+}
+
+interface Props {
+  points: MapPoint[];
+  height?: string;
+  caption?: string;
+}
+
+const { points, height = '420px', caption } = Astro.props;
+const mapId = `map-${Math.random().toString(36).slice(2, 11)}`;
+---
+
+<figure class="my-6">
+  <div
+    id={mapId}
+    data-leaflet-map
+    data-points={JSON.stringify(points)}
+    class="rounded-lg border border-sand-300 overflow-hidden bg-sand-100"
+    style={`height: ${height};`}
+  ></div>
+  {caption && (
+    <figcaption class="mt-2 text-xs text-sand-700 italic">{caption}</figcaption>
+  )}
+</figure>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  // Confidence → color
+  const confidenceColors: Record<string, string> = {
+    certain: '#065f46',     // emerald-800
+    probable: '#15803d',    // green-700
+    possible: '#b45309',    // amber-700
+    speculative: '#6b7280', // gray-500
+  };
+
+  function makeMarker(p: any) {
+    const isReference = p.marker_kind === 'reference';
+    const color = isReference ? '#5b0f31' /* tyrian-700 */ : (confidenceColors[p.confidence] ?? '#5b0f31');
+    const radius = isReference ? 7 : 9;
+    return L.circleMarker([p.lat, p.lon], {
+      radius,
+      fillColor: color,
+      color: '#ffffff',
+      weight: 2,
+      opacity: 1,
+      fillOpacity: isReference ? 0.6 : 0.9,
+    });
+  }
+
+  function popupHtml(p: any): string {
+    const conf = p.confidence
+      ? `<div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#6b5638;margin-top:2px">${p.confidence}</div>`
+      : '';
+    const notes = p.notes ? `<div style="margin-top:6px;font-size:13px;color:#3d3020">${p.notes}</div>` : '';
+    return `<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:16px;font-weight:600;color:#3d0a21">${p.label}</div>${conf}${notes}`;
+  }
+
+  function initMaps() {
+    document.querySelectorAll<HTMLElement>('[data-leaflet-map]').forEach((el) => {
+      if (el.dataset.initialized === 'true') return;
+      el.dataset.initialized = 'true';
+
+      const points = JSON.parse(el.dataset.points || '[]');
+      if (points.length === 0) return;
+
+      const map = L.map(el, { scrollWheelZoom: false });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19,
+      }).addTo(map);
+
+      const markers = points.map((p: any) => {
+        const m = makeMarker(p);
+        m.bindPopup(popupHtml(p));
+        m.addTo(map);
+        return m;
+      });
+
+      // Fit bounds with padding
+      const group = L.featureGroup(markers);
+      map.fitBounds(group.getBounds(), { padding: [40, 40], maxZoom: 9 });
+    });
+  }
+
+  // Run on initial load and on Astro view transitions
+  initMaps();
+  document.addEventListener('astro:page-load', initMaps);
+</script>
