@@ -1,0 +1,33 @@
+slug: mago-barca
+name_display: Mago Barca
+name_punic: Magon
+name_punic_script: 𐤌𐤂𐤍
+name_greek: Μάγων
+name_latin: Mago
+etymology: >
+  Magon (𐤌𐤂𐤍) derives from the Punic root mgn ("to bestow, give"),
+  yielding "gift" or "benefactor" — a common Phoenician personal name
+  also borne by the Carthaginian agricultural writer Mago and several
+  earlier figures. The Barca surname distinguishes him as a son of
+  Hamilcar.
+birth:
+  value: -243
+  precision: year
+  circa: true
+death:
+  value: -203
+  precision: year
+  circa: true
+roles:
+  - general
+polity: Carthage
+summary: >
+  Youngest brother of Hannibal and Hasdrubal Barca. Commanded the
+  Carthaginian reserve at Cannae in 216 BCE, where his veteran African
+  troops were decisive in the encirclement that destroyed the Roman army.
+  Sent back to Carthage after Cannae to deliver the news (and reportedly
+  the famous bushel of equestrian rings), then commanded in Iberia
+  (215–206 BCE) before opening a third front in northern Italy in
+  205–203 BCE in an attempt to relieve pressure on his brother. Wounded
+  at the Battle of Insubria (203 BCE), he died at sea on the return
+  voyage to Africa, never reaching Carthage.

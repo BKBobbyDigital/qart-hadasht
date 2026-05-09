@@ -1,0 +1,29 @@
+slug: aemilius-paullus
+name_display: Lucius Aemilius Paullus
+name_latin: Lucius Aemilius Paullus
+birth:
+  value: -260
+  precision: decade
+  circa: true
+death:
+  value: -216
+  precision: year
+  notes: Killed at Cannae, 2 August 216 BCE (traditional date).
+roles:
+  - consul
+  - general
+polity: Rome
+summary: >
+  Roman aristocrat of the Aemilii Paulli, consul for the second time in
+  216 BCE alongside Gaius Terentius Varro. The two consuls commanded
+  the Roman army at Cannae on alternating days under the convention of
+  rotating command; ancient sources (especially Polybius and Livy)
+  generally portray Paullus as the prudent commander who counseled
+  caution and Varro as the rash demagogue who forced battle, though
+  modern scholarship treats this as a senatorial-aristocratic
+  rehabilitation of Paullus's memory rather than reliable history.
+  Paullus fell in the battle. His son, also Lucius Aemilius Paullus
+  (Macedonicus), would later defeat Perseus of Macedon at Pydna in
+  168 BCE; his daughter Aemilia married Scipio Africanus, drawing
+  the family into the Scipionic circle that produced Polybius's
+  patron Scipio Aemilianus.

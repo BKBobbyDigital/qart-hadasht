@@ -2,7 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const events = await getCollection('events');
+const events = (await getCollection('events')).sort(
+  (a, b) => a.data.date_start.value - b.data.date_start.value
+);
 const people = await getCollection('people');
 const sources = await getCollection('sources');
 ---

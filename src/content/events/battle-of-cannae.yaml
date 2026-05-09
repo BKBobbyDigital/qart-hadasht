@@ -1,0 +1,55 @@
+slug: battle-of-cannae
+name: Battle of Cannae
+type: battle
+date_start:
+  value: -216
+  precision: year
+  notes: >
+    Traditionally dated 2 August 216 BCE. The day is preserved in the
+    later Roman tradition; Polybius and Livy both place the battle in
+    midsummer 216, but neither gives a calendar date with certainty.
+place: cannae
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: hasdrubal-cannae
+    role: cavalry commander
+    side: Carthaginian
+  - person: maharbal
+    role: cavalry commander
+    side: Carthaginian
+  - person: mago-barca
+    role: subordinate commander
+    side: Carthaginian
+  - person: aemilius-paullus
+    role: commander
+    side: Roman
+  - person: terentius-varro
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - plutarch-lives
+summary: >
+  The most studied battle of antiquity and Hannibal's tactical
+  masterpiece. Drawn south into Apulia by Hannibal's seizure of the
+  Roman supply depot at Cannae, the Roman consuls Aemilius Paullus
+  and Terentius Varro engaged with an army roughly twice the size of
+  the Carthaginian force. Hannibal placed his weakest infantry — Iberians
+  and Gauls — in a forward crescent in the center, with his veteran
+  African heavy infantry held back on the wings. As the Roman center
+  pressed forward, the crescent flexed back without breaking; the
+  African veterans wheeled inward against the Roman flanks while the
+  Carthaginian cavalry, having broken the Roman horse on both wings,
+  returned to attack the Roman rear. The Roman army was encircled and
+  systematically destroyed. Casualty figures are contested — Polybius
+  reports 70,000 Roman dead, Livy somewhat fewer — but on any plausible
+  reading the proportion of Roman forces lost in a single day at Cannae
+  is among the highest in the history of warfare. Three of the four
+  senior Roman commanders fell. Capua and most of the Italian south
+  defected to Hannibal in the months that followed. Yet Rome did not
+  negotiate. The battle ended Roman field engagements on Hannibal's
+  terms but did not end Roman strategic capacity — a survival the
+  ancient historians treat as the pivot of the entire war.

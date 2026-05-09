@@ -1,0 +1,46 @@
+slug: cannae-rome-resilience
+statement: >
+  Cannae did not produce Roman political collapse. The senate refused to
+  negotiate with Hannibal, refused to ransom captured prisoners, and within
+  months had raised replacement legions and resumed the war effort.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in both Polybius and Livy. Modern scholarship treats
+  this as the war's true pivot — the moment that demonstrated Rome's
+  strategic depth and structural resilience, and the point after which
+  Hannibal's path to victory effectively closed.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.118, 6.58"
+    passage_summary: >
+      Polybius emphasizes Rome's refusal to despair as the defining Roman
+      virtue. Book 6, the analytic excursus on the Roman constitution,
+      uses Cannae as the test case for the constitutional structure that
+      enabled the survival.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.55-61"
+    passage_summary: >
+      Livy gives an extended account of the senate's response: refusal
+      to negotiate, refusal of ransom, replacement levy of younger
+      citizens and even slaves, the prosecution of survivors who had
+      fled, and Varro's reception on his return.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Fabius 17-19"
+    passage_summary: >
+      Plutarch's Fabius traces the return to Fabian strategy after
+      Cannae and the gradual restoration of Roman strategic position
+      through avoidance of decisive engagement.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos identifies the post-Cannae Roman response as the structural
+      reason Hannibal's strategy could not succeed: a victory of this
+      scale should have ended the war and, in any other state of the
+      ancient Mediterranean, would have.
+entities:
+  - type: event
+    slug: battle-of-cannae
+    role: context

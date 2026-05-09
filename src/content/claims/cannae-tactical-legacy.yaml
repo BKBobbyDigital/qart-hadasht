@@ -1,0 +1,44 @@
+slug: cannae-tactical-legacy
+statement: >
+  Cannae transformed Roman strategic and tactical thinking in the long
+  run — driving the return to Fabian avoidance of decisive engagement,
+  the systematic destruction of the Roman senatorial-tribunate command
+  pool, and the eventual Scipionic reforms that produced the more
+  flexible manipular practice on display at Zama.
+confidence: inferred
+scholarly_consensus: >
+  Strong; standard reading in modern military histories of the Roman
+  Republic, though the specific causal chains from Cannae to later
+  Roman tactical developments are inferred from outcomes rather than
+  directly documented in the sources.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "6.58"
+    passage_summary: >
+      Polybius treats Cannae as the test case for the Roman constitution
+      and notes the transformation of senior Roman command following
+      the loss of so much of the senatorial class in the battle.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy traces the tactical lineage from post-Cannae Roman
+      reforms through the Iberian campaigns to Scipio's reformed
+      maniples at Zama, treating Cannae as the catalyst for changes
+      that took two decades to mature.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos identifies the post-Cannae senatorial losses as a structural
+      transformation of Roman politics in their own right, opening
+      command opportunities to a younger generation that included
+      Scipio Africanus.
+notes: >
+  This is an inferred claim drawing connections that the ancient sources
+  themselves do not make explicitly. The transformation is real but its
+  attribution specifically to Cannae rather than to the cumulative
+  effect of all post-Trasimene Roman defeats is a modern reading.
+entities:
+  - type: event
+    slug: battle-of-cannae
+    role: context

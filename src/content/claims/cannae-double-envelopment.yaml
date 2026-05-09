@@ -1,0 +1,45 @@
+slug: cannae-double-envelopment
+statement: >
+  Hannibal's deliberate tactical design at Cannae was a double envelopment:
+  a forward crescent of weaker Iberian and Gallic infantry that gave ground
+  under Roman pressure, while veteran African heavy infantry on the wings
+  held position and then wheeled inward against the Roman flanks, with the
+  cavalry — victorious on both wings — completing the encirclement from
+  the rear.
+confidence: attested
+scholarly_consensus: >
+  Universally accepted; the Cannae double envelopment is the canonical
+  ancient and modern account of the battle's tactical structure.
+  Disagreements concern detail (which Carthaginian wing won the cavalry
+  fight first; how deliberate the crescent's flex was) rather than the
+  basic disposition.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.113-117"
+    passage_summary: >
+      Polybius gives the fullest tactical account: the crescent disposition
+      with the weakest infantry forward, the African heavy infantry held
+      back on the wings, the cavalry envelopment from both flanks, and the
+      systematic destruction of the encircled Roman army.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.46-47"
+    passage_summary: >
+      Livy reproduces substantively the same account with characteristic
+      rhetorical heightening of the Roman experience inside the
+      encirclement.
+  - source: goldsworthy-fall-carthage-2003
+    stance: supports
+    passage_summary: >
+      Goldsworthy provides detailed modern military analysis of the
+      tactical execution, treating the maneuver as a deliberate design
+      that depended on the cavalry's ability to defeat the Roman horse
+      and return to the infantry battle in time.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: battle-of-cannae
+    role: context

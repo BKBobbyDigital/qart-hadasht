@@ -1,0 +1,34 @@
+slug: cannae
+name_display: Cannae
+names_alt:
+  greek: Κάνναι
+  latin: Cannae
+  modern: Canne della Battaglia (Province of Barletta-Andria-Trani, Apulia, Italy)
+type: battlefield
+primary:
+  label: Cannae (battlefield, near the Aufidus / modern Ofanto)
+  lat: 41.3056
+  lon: 16.1331
+  confidence: probable
+  notes: >
+    The settlement of Cannae itself is well-identified at modern Canne
+    della Battaglia. The exact battlefield is less certain — Polybius
+    and Livy disagree on which bank of the Aufidus the engagement was
+    fought, and modern reconstructions vary by several kilometers.
+    Unlike at Zama, the disagreement is over the precise field rather
+    than the general region.
+modern_location: Apulia, Italy (~10 km southwest of modern Barletta on the Adriatic coast)
+summary: >
+  Site of the most-studied battle of antiquity, fought on 2 August
+  216 BCE between Hannibal and the Roman consuls Aemilius Paullus and
+  Terentius Varro. Cannae itself was a ruined hilltop settlement on
+  the south bank of the Aufidus river (modern Ofanto) in Apulia,
+  northern Italy; in the third century BCE it served as a Roman supply
+  depot, the seizure of which by Hannibal in the spring of 216 BCE
+  drew the Roman field army south into Apulia and produced the
+  engagement. The battlefield itself lay on the open plain north or
+  south of the settlement, depending on which ancient source one
+  follows: Polybius (3.110) places the Roman camp on the same bank
+  as Cannae; Livy (22.43-44) locates it on the opposite bank. Modern
+  reconstructions favor the south bank but with substantial
+  uncertainty about the specific dispositions.

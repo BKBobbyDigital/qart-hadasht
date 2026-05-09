@@ -1,0 +1,88 @@
+slug: cannae-march-on-rome
+subject_question: >
+  Could Hannibal have ended the war by marching on Rome immediately after
+  Cannae?
+subject_entity:
+  type: event
+  slug: battle-of-cannae
+  role: subject
+position: >
+  No. The "march on Rome" counterfactual is a Roman literary device, not
+  a strategic option Hannibal foreclosed by failure of nerve. Hannibal
+  lacked siege equipment, his army needed weeks to recover from the
+  battle, the distance from Cannae to Rome was over 300 kilometers, and
+  Rome itself retained substantial defensive resources including the
+  remnant legions of Cannae and the city's walls. More fundamentally,
+  Hannibal's strategy throughout the Italian campaign was to break Rome's
+  Italian confederation, not to capture the city — and the post-Cannae
+  defections show that strategy was working on its own terms. The
+  anecdote of Maharbal's reproach exists because it dramatizes a Roman
+  thesis — that Rome was saved by Hannibal's failure — rather than
+  because the alternative was real.
+reasoning: |
+  Four lines of argument support reading the "march on Rome" question
+  as a literary problem rather than a strategic one:
+
+  1. **Logistics.** Hannibal's army was approximately 50,000 strong
+     after a major battle, hundreds of kilometers from Rome, in late
+     summer with no secure supply line. A forced march to Rome with
+     siege intentions would have stretched the army and exposed it to
+     ambush by the surviving Roman forces, including the consular
+     remnants under Varro and the strong garrisons in Italy that
+     remained loyal.
+
+  2. **Siegecraft.** Hannibal had no siege train. His army had captured
+     no major city by storm. Carthaginian doctrine in this period
+     favored open engagement and political negotiation; the kind of
+     systematic siege Rome's walls would have required was outside
+     Hannibal's operational repertoire — as his subsequent fifteen
+     years in Italy without taking Rome confirms. He never even
+     attempted it.
+
+  3. **Strategy.** The defections after Cannae — Capua, much of the
+     Italian south, eventually most of Magna Graecia — demonstrate
+     that Hannibal's actual strategy was working. Detaching Rome's
+     allies, not destroying the city, was the route to a negotiated
+     peace on Carthaginian terms. A march on Rome would have abandoned
+     this strategy without offering a credible alternative.
+
+  4. **Source critique.** The Maharbal anecdote appears in Livy and
+     later sources but not in Polybius, who interviewed participants
+     and was closer to the events. Polybius's silence — combined with
+     the anecdote's neat literary form — is strong evidence that the
+     exchange is later tradition, not historical record.
+
+  The site does not regard the question as settled in the sense that
+  no scholar disagrees: Goldsworthy and other military historians treat
+  the march on Rome as worth analyzing seriously, even when concluding
+  against it. But the verdict — that Hannibal made the right strategic
+  choice given his resources and aims — is the strong scholarly
+  consensus and the position the site adopts.
+confidence: strong
+weighed_claims:
+  - cannae-double-envelopment
+  - cannae-rome-resilience
+  - cannae-allies-defected
+  - cannae-maharbal-anecdote
+competing_positions:
+  - position: >
+      Hannibal did fail to use his victory and could have ended the
+      war by an immediate march on Rome.
+    why_rejected: >
+      Built on the Maharbal anecdote (probably non-historical) and
+      requires assuming Hannibal had siegecraft and logistics he is
+      not attested to have possessed. Sympathetic reading of the
+      sources rather than analysis of the operational situation.
+    held_by: The Roman literary tradition; some popular military histories.
+  - position: >
+      The march on Rome was logistically impossible but Hannibal still
+      erred by not pressing his advantage in some other form.
+    why_rejected: >
+      Defensible but non-specific. Hannibal did press his advantage —
+      diplomatic outreach, the Italian defections, alliance with
+      Philip V of Macedon, his brother Hasdrubal's eventual relief
+      expedition. The criticism implicitly demands that he have done
+      something dramatic he is not attested to have considered.
+    held_by: Some 20th-century military historians.
+last_reviewed: "2026-05-08"
+open_to_revision: true

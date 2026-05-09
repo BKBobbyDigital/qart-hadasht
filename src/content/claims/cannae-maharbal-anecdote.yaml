@@ -1,0 +1,80 @@
+slug: cannae-maharbal-anecdote
+statement: >
+  Maharbal urged Hannibal to march directly on Rome immediately after
+  Cannae and, when Hannibal refused, replied "you know how to win a
+  victory, Hannibal, but you do not know how to use one."
+confidence: contested
+scholarly_consensus: >
+  Modern scholarship overwhelmingly treats the episode as later literary
+  invention — most likely Livian or developed in the post-Polybian Latin
+  tradition — rather than historical record. The substantive question
+  the anecdote raises (whether Hannibal could or should have marched on
+  Rome) is real and serious; the specific exchange is almost certainly not.
+dispute_summary: |
+  The exchange appears in **Livy 22.51** and is repeated in Plutarch's
+  *Fabius* and in later Roman literary tradition. The famous formulation
+  — *vincere scis, Hannibal; victoria uti nescis* — is a tightly
+  constructed Latin epigram, of the kind characteristic of Livian speech
+  composition.
+
+  Reasons modern scholarship is skeptical:
+
+  1. **Polybius does not preserve it.** Polybius wrote earlier (~150 BCE
+     vs. Livy's ~25 BCE), interviewed participants and their families,
+     and gives the post-Cannae council without this exchange. An anecdote
+     this dramatic would not have escaped Polybius's notice if it had
+     been current in the historical tradition he worked from.
+
+  2. **It serves a Roman literary purpose.** The exchange dramatizes the
+     thesis — central to Livy's narrative — that Rome was saved by
+     Hannibal's failure to seize the moment after Cannae. The anecdote
+     externalizes onto a Carthaginian voice the criticism Roman
+     historiography needed to validate Roman survival.
+
+  3. **The military assessment behind the anecdote is questionable.**
+     Hannibal lacked siege equipment for an assault on Rome, his army
+     had just fought a major battle, and the march from Cannae to Rome
+     would have taken weeks. The "if only Hannibal had marched on Rome"
+     scenario is a counterfactual the ancient sources favor more than
+     modern military analysis does.
+
+  The site treats the anecdote as Roman literary tradition rather than
+  historical reportage. The underlying strategic question — what
+  Hannibal could realistically have achieved by marching on Rome — is
+  treated separately as an open question.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.51"
+    passage_summary: >
+      Livy preserves the exchange in its classic Latin form, with
+      Maharbal's epigram as the dramatic close of the Cannae chapter.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Fabius 17"
+    passage_summary: >
+      Plutarch preserves a version of the same exchange, working from
+      the Latin tradition.
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.118"
+    passage_summary: >
+      Polybius's account of Hannibal's post-Cannae deliberations does
+      not include the exchange with Maharbal. The silence is generally
+      treated as significant.
+  - source: goldsworthy-fall-carthage-2003
+    stance: qualifies
+    passage_summary: >
+      Goldsworthy treats the anecdote as later tradition but uses it
+      as a frame for the substantive military question of whether
+      marching on Rome was a real option.
+entities:
+  - type: person
+    slug: maharbal
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: battle-of-cannae
+    role: context

@@ -1,0 +1,33 @@
+slug: terentius-varro
+name_display: Gaius Terentius Varro
+name_latin: Gaius Terentius Varro
+birth:
+  value: -260
+  precision: decade
+  circa: true
+death:
+  value: -200
+  precision: decade
+  circa: true
+floruit:
+  value: -216
+  precision: year
+roles:
+  - consul
+  - general
+polity: Rome
+summary: >
+  Roman politician of relatively modest origins (his father is sometimes
+  called a butcher in the hostile tradition), elected consul for 216 BCE
+  alongside Lucius Aemilius Paullus. The senatorial-aristocratic tradition
+  preserved by Polybius and developed by Livy casts Varro as the rash and
+  demagogic consul whose insistence on battle produced the disaster at
+  Cannae, in contrast to Paullus's restraint. Modern scholarship is more
+  cautious: the alternating-command convention means Varro alone cannot
+  bear responsibility for the engagement, the source tradition is shaped
+  by family memory and political alignment, and Varro continued to hold
+  imperium and senior commands for years after Cannae — including
+  the embassy to Philip V — which is hard to square with the figure of
+  contempt the literary tradition presents. He survived the battle by
+  retreating with a small force and was famously thanked by the senate
+  on his return for "not despairing of the Republic."

@@ -1,0 +1,56 @@
+slug: cannae-troop-numbers
+statement: >
+  At Cannae the Roman force outnumbered Hannibal's army roughly two-to-one
+  in infantry but was inferior in cavalry — approximately 80,000 Roman
+  infantry and 6,000 cavalry against 40,000 Carthaginian infantry and
+  10,000 cavalry.
+confidence: contested
+scholarly_consensus: >
+  The asymmetric advantages — Roman infantry preponderance, Carthaginian
+  cavalry preponderance — are firmly attested. The specific totals are
+  Polybius's figures and are debated by modern scholarship; some recent
+  reconstructions place the Roman force somewhat lower, but the order of
+  magnitude and the cavalry imbalance are not seriously contested.
+dispute_summary: |
+  Polybius (3.107, 3.113) gives the Roman army at eight legions plus
+  allies — roughly 80,000 infantry and 6,000 cavalry — and the
+  Carthaginian force at approximately 40,000 infantry and 10,000 cavalry.
+  Livy (22.36) is broadly consistent.
+
+  Modern scholarship treats Polybius's totals as plausible but inflated:
+  Brunt's *Italian Manpower* and Goldsworthy's *The Fall of Carthage*
+  both note that mobilizing eight full legions for a single field army
+  was unprecedented and that Polybius may be retroactively reasoning
+  from the constitutional limit of consular forces. Lower estimates
+  (~50,000–70,000 Roman effectives) have been proposed but no consensus
+  alternative has emerged.
+
+  What is not disputed is the *structural* situation: a deep, thickened
+  Roman line — Varro is reported to have ordered the maniples drawn up
+  closer than usual to maximize shock — facing a thinner Carthaginian
+  line with cavalry strength concentrated on the wings.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.107, 3.113"
+    passage_summary: >
+      Polybius gives the Roman army as eight legions plus allies, with
+      ~80,000 infantry and ~6,000 cavalry; Hannibal's force at ~40,000
+      infantry and ~10,000 cavalry.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.36"
+    passage_summary: >
+      Livy is broadly consistent with Polybius's figures, with minor
+      variations in the breakdown of Roman versus allied troops.
+  - source: goldsworthy-fall-carthage-2003
+    stance: qualifies
+    passage_summary: >
+      Goldsworthy treats Polybius's totals as the upper bound and
+      surveys lower modern estimates. The cavalry imbalance and the
+      Roman infantry preponderance are not affected by the
+      uncertainty in totals.
+entities:
+  - type: event
+    slug: battle-of-cannae
+    role: subject
