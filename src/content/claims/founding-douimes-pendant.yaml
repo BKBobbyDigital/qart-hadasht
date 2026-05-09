@@ -1,0 +1,68 @@
+slug: founding-douimes-pendant
+statement: >
+  Krahmalkov's 1981 reading of the Douïmès Pendant inscription, an
+  inscribed gold pendant from the Douïmès cemetery at Carthage,
+  argues that the inscription provides Punic-script support for an
+  early 9th-century BCE foundation date consistent with the
+  traditional 814 BCE chronology.
+confidence: contested
+scholarly_consensus: >
+  The reading is not generally accepted. Most modern scholarship
+  treats the pendant as either undateable to the level of
+  precision required to confirm an 814 BCE foundation, or as
+  reading differently than Krahmalkov proposed. The article
+  remains essential reading for the foundation-date question
+  because it is the most substantial attempt to bring Punic-script
+  evidence to bear on the chronology.
+dispute_summary: |
+  Krahmalkov's argument turns on a particular reading of a brief
+  inscription on a small gold pendant recovered from the Douïmès
+  cemetery at Carthage in late 19th-century French excavations.
+  The inscription is short and damaged. Krahmalkov reads it as
+  containing a personal name and a relative date that, given the
+  pendant's archaeological context, would push the cemetery's
+  early phase into the 9th century BCE.
+
+  Three principal lines of objection in subsequent scholarship:
+
+  1. **The reading is contested philologically.** Other scholars
+     have proposed alternative readings of the relevant
+     characters that would not produce the early date.
+
+  2. **The archaeological context is uncertain.** The pendant was
+     recovered in 19th-century excavations of variable
+     stratigraphic precision; the dating it would imply for the
+     cemetery as a whole is hard to verify against later
+     excavation evidence.
+
+  3. **Even if the reading is correct, what it implies for the
+     foundation date is debatable.** The pendant could attest a
+     burial in a cemetery that had been in use for some time, not
+     necessarily indicate the cemetery's earliest date.
+
+  Krahmalkov's reading remains a serious minority position rather
+  than an established consensus. The site treats the question as
+  open and the reading as contested rather than refuted.
+sources:
+  - source: krahmalkov-foundation-1981
+    stance: supports
+    passage_summary: >
+      The original 1981 *Journal of Semitic Studies* article
+      makes the case for the early reading and the 814 BCE
+      foundation date.
+  - source: aubet-phoenicians-west-2001
+    stance: qualifies
+    passage_summary: >
+      Aubet treats the Douïmès reading as a noteworthy minority
+      position but does not adopt it as the basis for the
+      chronological discussion.
+  - source: macdonald-carthage-2015
+    stance: qualifies
+    passage_summary: >
+      MacDonald surveys the dispute and treats the inscription as
+      an example of the difficulties of using fragmentary
+      Punic-script evidence to address chronological questions.
+entities:
+  - type: event
+    slug: founding-of-carthage
+    role: context

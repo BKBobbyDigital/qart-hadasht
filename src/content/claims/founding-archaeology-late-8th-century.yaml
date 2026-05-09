@@ -1,0 +1,47 @@
+slug: founding-archaeology-late-8th-century
+statement: >
+  The earliest material-culture horizon recovered at Carthage dates
+  to the late 8th century BCE, approximately a century after the
+  traditional foundation date of 814 BCE.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in the modern archaeological literature. The
+  recovered ceramic and structural evidence indicates continuous
+  Phoenician urban occupation from approximately the 750-720 BCE
+  range. Whether this horizon represents the actual foundation or
+  the consolidation of an earlier seasonal-trading presence is
+  the genuinely open question.
+sources:
+  - source: aubet-phoenicians-west-2001
+    stance: supports
+    passage_summary: >
+      Aubet's standard synthesis treats the late 8th-century
+      horizon as the secure archaeological floor for Carthage's
+      continuous existence as a Phoenician colony, situating it
+      within the broader chronology of Phoenician western
+      expansion in the 9th and 8th centuries BCE.
+  - source: lancel-carthage-1995
+    stance: supports
+    passage_summary: >
+      Lancel's archaeological synthesis confirms the late
+      8th-century horizon and discusses the relationship between
+      the literary chronology and the recovered material culture.
+  - source: macdonald-carthage-2015
+    stance: supports
+    passage_summary: >
+      MacDonald summarizes the archaeological consensus while
+      noting the unresolved relationship to the literary
+      chronology.
+notes: >
+  The archaeological situation is complicated by the city's
+  continuous occupation through 146 BCE and the substantial
+  destruction and Roman rebuilding that followed. Earlier
+  Phoenician material may exist at the site but be inaccessible
+  beneath later strata.
+entities:
+  - type: event
+    slug: founding-of-carthage
+    role: context
+  - type: place
+    slug: carthage
+    role: subject

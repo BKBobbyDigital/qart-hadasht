@@ -1,0 +1,41 @@
+slug: virgil-aeneid
+title: Aeneid
+author: Publius Vergilius Maro (Virgil)
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: -19
+  precision: year
+  notes: Composed c. 29-19 BCE; Virgil died before final revision.
+temporal_distance_years: 800
+access_to_witnesses: literary_tradition
+bias_notes: >
+  An Augustan epic poem rather than a historical source, written
+  approximately 800 years after the legendary foundation of Carthage
+  and 130 years after the city's destruction. The Aeneid's treatment
+  of Dido and Carthage is a literary construction shaped by Virgil's
+  Augustan-era purposes: positioning Rome's foundation as the
+  providential successor to the Phoenician one, dramatizing the
+  origins of the Roman-Carthaginian conflict, and developing
+  Aeneas's character through his relationship with Dido. The
+  Aeneid's account is therefore not evidence about Carthage's
+  actual foundation; it is evidence about how the foundation
+  tradition was reshaped in Augustan Rome and how it has been
+  received in the European literary imagination since. The
+  romantic-tragic Dido of European reception is substantially
+  Virgil's, not the earlier tradition's.
+public_domain_translation:
+  translator: John Dryden
+  year: 1697
+  url: https://www.gutenberg.org/ebooks/228
+summary: >
+  Latin epic poem in twelve books, narrating the journey of Aeneas
+  from the fall of Troy to the founding of the Latin people in
+  Italy. Books I and IV contain Virgil's elaborated treatment of
+  Dido, the Tyrian queen who founds Carthage, falls in love with
+  Aeneas during his enforced stop in North Africa, and takes her
+  own life when he departs to fulfill his destiny in Italy. The
+  Aeneid is essential reading for the reception history of the
+  Carthage foundation tradition but is not a historical source
+  for the foundation itself.

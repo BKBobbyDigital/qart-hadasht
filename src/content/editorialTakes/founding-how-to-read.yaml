@@ -1,0 +1,101 @@
+slug: founding-how-to-read
+subject_question: >
+  How should we read the foundation tradition of Carthage?
+subject_entity:
+  type: event
+  slug: founding-of-carthage
+  role: subject
+position: >
+  As a memorialized tradition with a real historical core. Carthage
+  was founded by Phoenician colonists from Tyre in the late 9th to
+  late 8th century BCE; on this much the literary tradition,
+  Phoenician colonial chronology, and archaeology agree. The
+  specific date 814 BCE is best treated as the symbolic date of a
+  tradition that crystallized around it, not a verifiable
+  historical event. The figure of Dido is best treated as the
+  legendary focus around which the foundation memory organized
+  itself, not a verifiable historical individual. The narrative
+  details (the *byrsa* stratagem, the romantic episodes, the
+  specific motivations) are unambiguously legendary. None of this
+  reduces the foundation tradition's importance: it is the longest
+  continuously-transmitted memory of any specific Phoenician
+  colonial foundation, and what it transmits, even where it is
+  not literally true, is genuinely informative about how
+  Carthage understood its own origins.
+reasoning: |
+  Three observations support reading the foundation as a
+  *memorialized* tradition rather than as either literal history
+  or pure legend:
+
+  1. **The Tyrian-colonial frame is real.** Phoenician colonization
+     of the western Mediterranean in the 9th and 8th centuries BCE
+     is firmly attested archaeologically and historically. Tyre
+     was the principal Phoenician colonial sponsor of the period.
+     A Tyrian foundation of Carthage in this window is not a
+     legendary claim; it is the archaeological consensus.
+
+  2. **The chronology is approximately right.** The 814 BCE date
+     and the late 8th-century BCE archaeological horizon are not
+     wildly inconsistent. Either a foundation around 814 followed
+     by a slow build-up to the city visible in the late 8th
+     century, or a sustained pre-foundation Phoenician trading
+     presence consolidated into a permanent foundation in the late
+     8th century, would reconcile both bodies of evidence. The
+     literary tradition's date and the archaeology's date are
+     close enough that the difference is interpretation rather
+     than refutation.
+
+  3. **The narrative details are legendary in form.** The
+     *byrsa* stratagem follows a recognizable folktale type
+     (clever foreigner outwits local potentate); the dramatic
+     suicide is the kind of foundation-narrative element that
+     Greek and Latin authors regularly preserved or composed for
+     non-Greek city-foundation traditions; the etymology
+     (*byrsa* = "ox-hide") is itself almost certainly a folk
+     etymology of the Punic place-name. These features are
+     diagnostic of a legendary tradition's literary shape, not
+     evidence against the underlying foundation event.
+
+  The site's position is that the standard contrast between
+  "historical" and "legendary" foundation accounts misunderstands
+  the relationship between the two. The Carthaginian foundation
+  tradition is *both*. It preserves a real historical event in a
+  literary form that has been shaped by centuries of
+  retransmission. Reading it as either pure history or pure
+  legend misses what it actually is.
+confidence: moderate
+weighed_claims:
+  - founding-tyrian-colonization
+  - founding-traditional-date-814
+  - founding-dido-elissa
+  - founding-archaeology-late-8th-century
+  - founding-douimes-pendant
+  - founding-virgilian-dido
+competing_positions:
+  - position: >
+      The 814 BCE date is approximately accurate and Dido is a
+      historical figure preserved through the foundation tradition.
+    why_rejected: >
+      No contemporary Phoenician source attests Dido. The 814
+      date is calculatedly precise in the Greek-historiographic
+      style and is not independently confirmed. Treating both as
+      historical pushes the evidence further than the surviving
+      record supports.
+    held_by: A traditional reading sometimes encountered in older
+      scholarship and in some popular treatments.
+  - position: >
+      The whole tradition is later Greek-Latin literary
+      construction with no historical core.
+    why_rejected: >
+      The Tyrian colonial relationship is firmly attested and
+      cannot be dismissed as fiction. Carthaginian state
+      delegations to Tyre across centuries indicate that Carthage
+      itself treated the Tyrian connection as historical and
+      foundational. Dismissing the entire tradition as fiction
+      requires explaining away substantial independent
+      attestation.
+    held_by: A skeptical position in some post-1960s
+      historiographic writing; rarely defended in the strong
+      form.
+last_reviewed: "2026-05-09"
+open_to_revision: true

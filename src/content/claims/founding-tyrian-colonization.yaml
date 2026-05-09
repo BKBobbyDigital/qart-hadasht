@@ -1,0 +1,35 @@
+slug: founding-tyrian-colonization
+statement: >
+  Carthage was founded as a Phoenician colony by settlers from Tyre.
+confidence: attested
+scholarly_consensus: >
+  Universally accepted across the literary tradition, the
+  archaeological record, and modern scholarship. The Tyrian origin
+  of Carthage is one of the few elements of the foundation tradition
+  not seriously contested.
+sources:
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "18.4-6"
+    passage_summary: >
+      Justin's epitome of Trogus preserves the Tyrian origin of the
+      foundation as a settled feature of the tradition.
+  - source: diodorus-library
+    stance: supports
+    passage_summary: >
+      Diodorus's surviving fragments and the universal tradition
+      he transmits identify Carthage as a Tyrian foundation.
+  - source: aubet-phoenicians-west-2001
+    stance: supports
+    passage_summary: >
+      Aubet's standard synthesis of Phoenician colonization treats
+      the Tyrian foundation of Carthage as the major event in the
+      western Phoenician expansion of the ninth and eighth
+      centuries BCE.
+entities:
+  - type: event
+    slug: founding-of-carthage
+    role: subject
+  - type: place
+    slug: tyre
+    role: object

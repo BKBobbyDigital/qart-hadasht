@@ -1,0 +1,82 @@
+slug: founding-when-actually
+question: >
+  When was Carthage actually founded?
+why_unknown: >
+  The principal evidence (literary tradition, Punic epigraphy,
+  archaeology) points to overlapping but non-identical dates.
+  The literary tradition fixes 814 BCE; the archaeological
+  horizon is the late 8th century BCE; Krahmalkov's reading of
+  the Douïmès Pendant inscription supports the early date but is
+  contested. None of the available evidence forecloses the
+  others, and the question is whether the actual foundation
+  occurred in approximately 814 BCE (with archaeology yet to
+  recover the earliest strata), in the late 8th century (with the
+  literary date being a symbolic calculation), or as an extended
+  process of consolidation across the intervening period.
+evidence_summary: >
+  Literary: Timaeus's 814 BCE date preserved through Justin and
+  Velleius Paterculus. Phoenician epigraphy: Krahmalkov's 1981
+  reading of the Douïmès Pendant. Archaeology: ceramic and
+  structural horizons indicating continuous Phoenician occupation
+  from approximately 750-720 BCE. Comparative: the broader
+  chronology of Phoenician western expansion in the 9th and 8th
+  centuries BCE provides the framework within which a Carthaginian
+  foundation in this window is intelligible.
+candidate_answers:
+  - answer: Approximately 814 BCE (the traditional date)
+    arguments_for: >
+      Multiple independent attestations in the literary tradition.
+      The chronology is consistent with Tyrian regnal sequence and
+      the broader Phoenician colonial timeline. Krahmalkov's
+      reading (if accepted) provides Punic-script support.
+      Earliest archaeological material may simply not have been
+      recovered from a continuously occupied site.
+    arguments_against: >
+      No contemporary attestation. The literary date may be a
+      Greek calculation backward from later evidence. The Krahmalkov
+      reading is contested and not generally accepted. The
+      archaeological gap is substantial.
+    held_by: Traditional view; defended on inscriptional grounds
+      by Krahmalkov 1981.
+  - answer: Late 8th century BCE (the archaeological horizon)
+    arguments_for: >
+      Direct material evidence from the site itself. Consistent
+      with the broader pattern of Phoenician western colonization
+      in the late 8th century. The earliest recoverable continuous
+      occupation is what archaeology can speak to with confidence.
+    arguments_against: >
+      Requires explaining the literary tradition as either
+      symbolic or as based on calculation. Difficult to reconcile
+      with the apparent stability of the Tyrian colonial connection
+      across the period.
+    held_by: The dominant archaeological view; standard in modern
+      syntheses.
+  - answer: Extended foundation process (c. 814 to late 8th century)
+    arguments_for: >
+      Reconciles both bodies of evidence: the literary tradition
+      preserves the symbolic beginning of an extended Phoenician
+      presence at the site; the archaeological horizon represents
+      its consolidation into a continuous urban settlement.
+      Consistent with the actual pattern of Phoenician colonial
+      expansion in the western Mediterranean, where seasonal
+      trading installations often preceded permanent foundations.
+    arguments_against: >
+      Less satisfying as a definite answer. The "long process"
+      reading risks dissolving the question rather than answering
+      it.
+    held_by: A common modern position that takes both literary and
+      archaeological evidence seriously without privileging either.
+relevant_entities:
+  - type: event
+    slug: founding-of-carthage
+    role: subject
+  - type: place
+    slug: carthage
+    role: subject
+what_would_resolve_this: >
+  New excavation evidence reaching pre-late-8th-century strata at
+  the site, particularly in areas not yet systematically excavated.
+  Independent epigraphic attestation of either the foundation
+  event or the early Phoenician presence. Refinement of the
+  Phoenician colonial chronology across the western Mediterranean
+  that would bracket the Carthage foundation more precisely.

@@ -1,0 +1,71 @@
+slug: founding-traditional-date-814
+statement: >
+  The traditional foundation date of 814 BCE comes from Timaeus of
+  Tauromenium (early 3rd century BCE) and is preserved through
+  Justin and Velleius Paterculus. It is the focal date of the
+  literary tradition but is not independently confirmed by
+  archaeology, which generally indicates the late 8th century BCE
+  as the earliest material-culture horizon at the site.
+confidence: contested
+scholarly_consensus: >
+  The 814 BCE date is universally cited as the traditional date.
+  Whether it represents an actual foundation event or a later
+  Greek-historiographic calculation is genuinely disputed.
+dispute_summary: |
+  Three positions in modern scholarship:
+
+  1. **The traditional date is approximately correct.** Carthage
+     was founded around 814 BCE; the gap with archaeology reflects
+     the limits of what early Phoenician colonial material can be
+     recovered from a site continuously occupied for 2,800 years.
+     This view gains some support from Krahmalkov's 1981 reading
+     of the Douïmès Pendant inscription.
+
+  2. **The traditional date is symbolic, not historical.** Timaeus
+     calculated backwards from later evidence (perhaps from a
+     known Tyrian regnal sequence) to produce a foundation date
+     that gave Carthage suitably ancient origins. The actual
+     foundation occurred in the late 8th century BCE and
+     corresponds to the earliest material-culture horizon.
+
+  3. **The tradition compresses an extended foundation process.**
+     Carthage as a continuous urban settlement dates to the late
+     8th century, but earlier Phoenician seasonal or trading
+     installations may have existed at the site for decades or
+     longer before being consolidated into a permanent
+     foundation. The 814 date marks the symbolic beginning of
+     the longer process.
+
+  The site treats the chronology question as genuinely open. See
+  the open question on the foundation date for more.
+sources:
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "18.6"
+    passage_summary: >
+      Justin preserves the foundation date in the Trogus tradition,
+      with the chronology calculated relative to other early
+      Phoenician events.
+  - source: krahmalkov-foundation-1981
+    stance: supports
+    passage_summary: >
+      Krahmalkov argues the Douïmès Pendant inscription provides
+      Punic-script support for an early 9th-century foundation,
+      consistent with the traditional date.
+  - source: aubet-phoenicians-west-2001
+    stance: qualifies
+    passage_summary: >
+      Aubet treats the archaeological evidence as pointing to the
+      late 8th century BCE and the literary date as either symbolic
+      or representing earlier Phoenician trading presence not yet
+      a permanent foundation.
+  - source: macdonald-carthage-2015
+    stance: qualifies
+    passage_summary: >
+      MacDonald surveys the chronological dispute and treats the
+      late 8th-century horizon as the most secure date for the
+      city's continuous existence as a Phoenician colony.
+entities:
+  - type: event
+    slug: founding-of-carthage
+    role: subject

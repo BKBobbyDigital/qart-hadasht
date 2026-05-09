@@ -1,0 +1,50 @@
+slug: founding-virgilian-dido
+statement: >
+  The romantic-tragic Dido of European literary tradition, who falls
+  in love with Aeneas during his Mediterranean voyage and takes her
+  own life when he departs, is substantially Virgil's invention in
+  the Aeneid (29-19 BCE). The earlier tradition preserved by Justin
+  has Dido die rather than marry the Libyan king Iarbas, with no
+  Aeneas episode at all.
+confidence: attested
+scholarly_consensus: >
+  The Virgilian elaboration of the Dido tradition is universally
+  accepted as a literary development specific to the Aeneid and
+  to its Augustan-era purposes. The chronology alone makes the
+  Aeneas-Dido relationship impossible: Aeneas is a figure of the
+  Trojan War tradition (12th century BCE), Dido of the foundation
+  tradition (9th-8th century BCE). Virgil compresses the two for
+  literary purposes.
+sources:
+  - source: virgil-aeneid
+    stance: supports
+    passage_ref: "Books I, IV"
+    passage_summary: >
+      Virgil's Books I and IV develop the Dido-Aeneas
+      relationship: Aeneas's enforced stop at Carthage during his
+      voyage from Troy, the love affair, his departure to fulfill
+      his Italian destiny, Dido's suicide on the pyre. The
+      passages are among the most influential in European
+      literature and are unambiguously Virgil's own elaboration.
+  - source: justin-epitome
+    stance: contradicts
+    passage_ref: "18.6"
+    passage_summary: >
+      Justin's earlier preserved tradition has Dido throw herself
+      onto the pyre to escape marriage to the Libyan king Iarbas,
+      not for love of Aeneas. The Iarbas version is the older
+      tradition; the Aeneas version is Virgil's literary
+      development.
+notes: >
+  This is a claim about reception and literary tradition, not
+  about Carthaginian historical practice. It is included because
+  the Virgilian Dido has so dominated European reception of the
+  foundation tradition that any account of the founding has to
+  distinguish the two versions explicitly.
+entities:
+  - type: event
+    slug: founding-of-carthage
+    role: context
+  - type: person
+    slug: dido
+    role: subject

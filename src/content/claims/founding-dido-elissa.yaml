@@ -1,0 +1,55 @@
+slug: founding-dido-elissa
+statement: >
+  The foundation tradition centers on Dido (Phoenician Elissa), a
+  princess of Tyre who fled the city after her brother Pygmalion
+  murdered her husband Sychaeus. She led a band of Tyrian followers
+  to North Africa and founded Carthage on a hilltop site obtained
+  from local Libyans through the famous *byrsa* stratagem.
+confidence: legendary
+scholarly_consensus: >
+  The Dido tradition is preserved consistently across the surviving
+  Greek and Latin authors. Whether the figure is historical, partly
+  historical, or fully legendary is genuinely contested. The
+  narrative details (the *byrsa* stratagem, the romantic episode
+  with Iarbas in Justin or with Aeneas in Virgil) are unambiguously
+  legendary in form.
+sources:
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "18.4-6"
+    passage_summary: >
+      Justin's epitome preserves the fullest surviving narrative
+      of the Dido tradition: the murder of Sychaeus, the flight
+      from Tyre, the arrival in North Africa, the *byrsa*
+      stratagem, the foundation of Carthage, and Dido's eventual
+      suicide rather than marry Iarbas.
+  - source: virgil-aeneid
+    stance: qualifies
+    passage_ref: "Books I, IV"
+    passage_summary: >
+      Virgil's Aeneid elaborates the foundation narrative in
+      Augustan literary form, replacing Iarbas with Aeneas as the
+      object of Dido's love and producing the romantic-tragic
+      version that has dominated European reception. Virgil's
+      account is not historical evidence; it is evidence about
+      how the foundation tradition was reshaped in Augustan Rome.
+  - source: diodorus-library
+    stance: qualifies
+    passage_summary: >
+      Diodorus's surviving fragments preserve elements of the
+      Dido tradition consistent with Justin's fuller account.
+notes: >
+  The Punic name *Elissa* (𐤀𐤋𐤔𐤕) is preserved in Greek tradition
+  alongside the Greek-Latin *Dido*; both refer to the same
+  legendary figure. *Byrsa* is etymologized in the surviving
+  tradition as Greek for "ox-hide" (the cut-strips stratagem),
+  but the Punic place-name *bṣrh* ("fortified place") is the more
+  likely origin of the Carthaginian citadel hill's name; the
+  ox-hide etymology is itself part of the legend.
+entities:
+  - type: event
+    slug: founding-of-carthage
+    role: subject
+  - type: person
+    slug: dido
+    role: subject

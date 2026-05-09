@@ -1,0 +1,65 @@
+slug: founding-of-carthage
+name: Founding of Carthage
+type: founding
+date_start:
+  value: -814
+  precision: legendary
+  notes: >
+    The traditional date 814 BCE comes from Timaeus of Tauromenium
+    (early 3rd century BCE), preserved through Justin and
+    Velleius Paterculus. The actual foundation may have occurred
+    several decades to a century later on the available
+    archaeological evidence. Treated here as legendary precisely
+    because it is the focal date of a tradition rather than an
+    independently verified event.
+place: carthage
+places:
+  - carthage
+  - tyre
+participants:
+  - person: dido
+    role: founder (legendary)
+    side: Tyrian colonists
+  - person: pygmalion
+    role: catalyst (legendary)
+    side: Tyre
+principal_sources:
+  - justin-epitome
+  - diodorus-library
+  - virgil-aeneid
+  - krahmalkov-foundation-1981
+  - aubet-phoenicians-west-2001
+related_events: []
+summary: >
+  The foundation of Carthage by Phoenician colonists from Tyre,
+  conventionally dated 814 BCE in the surviving literary tradition
+  and treated by archaeology as having occurred somewhat later, in
+  the late 8th century BCE on the basis of the earliest
+  recoverable material culture from the site. The foundation is
+  associated in the literary tradition with Dido (Elissa), a
+  Phoenician princess whose flight from her brother Pygmalion is
+  preserved most fully in Justin's epitome of Pompeius Trogus
+  (Book 18) and elaborated romantically by Virgil in the Aeneid.
+  The tradition includes the famous *byrsa* stratagem in which
+  Dido obtained land enough for a citadel by cutting an ox-hide
+  into thin strips, an etymology that is itself part of the
+  legend (the Greek *byrsa*, "ox-hide," is more likely a folk
+  etymology for the Punic *bṣrh*, "fortified place," which gave
+  the citadel hill of Carthage its name in Punic).
+
+  The historicity of the foundation tradition is genuinely
+  contested at three levels. The chronology (814 BCE vs. late
+  8th century BCE) is debated between literary and
+  archaeological evidence; Krahmalkov's 1981 reading of the
+  Douïmès Pendant inscription has been cited as supporting the
+  earlier date but is contested. The figure of Dido is preserved
+  exclusively in Greek and Latin authors writing centuries after
+  the events; her historicity cannot be established from
+  contemporary Phoenician sources. The narrative details (the
+  ox-hide stratagem, the romantic episode with Iarbas in Justin
+  or Aeneas in Virgil) are unambiguously legendary in form even
+  where the underlying foundation event is real. The site treats
+  the founding as a *legendary* event in the sense that the
+  historical core (Tyrian colonization of the African coast in
+  the late 9th or 8th century BCE) is firmly attested but the
+  specific narrative framing is irrecoverable.
