@@ -1,0 +1,43 @@
+slug: pyrrhus
+name_display: Pyrrhus of Epirus
+name_greek: Πύρρος
+name_latin: Pyrrhus
+birth:
+  value: -319
+  precision: year
+death:
+  value: -272
+  precision: year
+  notes: Killed at the siege of Argos in 272 BCE, struck by a tile thrown from a roof by an Argive woman.
+roles:
+  - king
+  - general
+polity: Epirus
+summary: >
+  King of Epirus and one of the most prominent Hellenistic
+  generals of his generation, principal Greek-and-Italian
+  opponent of Rome and Carthage during his Italian and Sicilian
+  campaigns of 280-275 BCE. Invited to Italy by Tarentum in 280
+  BCE to defend Greek-Italian cities against Roman expansion,
+  Pyrrhus won notable but costly victories at Heraclea (280) and
+  Asculum (279) before crossing to Sicily in 278 BCE at the
+  invitation of the Greek-Sicilian cities seeking relief from
+  Carthaginian pressure. His Sicilian campaign of 278-275 BCE
+  drove Carthage from most of Sicily except Lilybaeum but
+  produced political tensions with the Greek-Sicilian
+  communities themselves; he returned to Italy in 275 BCE,
+  fought one more inconclusive engagement against Rome at
+  Beneventum, and withdrew to Epirus.
+
+  The "Pyrrhic victory" tradition (preserving Pyrrhus's
+  reflection that another such victory would ruin him) comes
+  from Plutarch's *Life of Pyrrhus* in connection with the
+  Asculum engagement; the substance is generally accepted as
+  historical. Pyrrhus's strategic failure was structural: his
+  campaigns won battles without producing the political
+  resolutions his Greek-Italian-Sicilian patrons required, and
+  the Roman and Carthaginian states he faced both proved
+  capable of recovery from his tactical defeats. The Pyrrhic
+  campaigns are the principal precedent for the strategic
+  pattern that Hannibal would attempt and similarly fail to
+  resolve in the Second Punic War.

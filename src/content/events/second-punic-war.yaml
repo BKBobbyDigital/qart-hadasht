@@ -62,6 +62,17 @@ related_events:
     notes: >
       The treaty that opened the First Macedonian War as a
       second front against Roman power.
+  - event: siege-of-syracuse-marcellus
+    relation: Sicilian theater (213-211 BCE)
+    notes: >
+      The Roman siege and conquest of Syracuse that ended
+      Carthaginian-Sicilian alliance. Death of Archimedes.
+  - event: battle-of-ilipa
+    relation: Iberian decision (206 BCE)
+    notes: >
+      Scipio's victory in southern Iberia that ended
+      Carthaginian power in the peninsula and produced the
+      strategic conditions for the African crossing.
   - event: battle-of-metaurus
     relation: strategic decision (207 BCE)
     notes: >

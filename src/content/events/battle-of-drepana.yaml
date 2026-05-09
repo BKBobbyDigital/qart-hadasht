@@ -1,0 +1,58 @@
+slug: battle-of-drepana
+name: Battle of Drepana
+type: battle
+date_start:
+  value: -249
+  precision: year
+place: drepana
+participants:
+  - person: claudius-pulcher
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+related_events:
+  - event: battle-of-aegates-islands
+    relation: precursor (the defeat that produced the conditions for the 242 BCE private-subscription fleet)
+    notes: >
+      The Drepana defeat eliminated Roman naval capacity in
+      western Sicilian waters for nearly a decade and produced
+      the structural fiscal conditions that drove the 242 BCE
+      private-subscription fleet construction.
+summary: >
+  The major Carthaginian naval victory of the First Punic War
+  and the worst Roman naval defeat of the conflict. Fought in
+  249 BCE in the waters off Drepana on the western Sicilian
+  coast, the engagement saw the Roman fleet of approximately
+  123 ships under the consul Publius Claudius Pulcher attack
+  the Carthaginian fleet under the admiral Adherbal in the
+  harbor of Drepana itself. The Roman tactical disposition was
+  poor: Pulcher's fleet was caught in a long line against the
+  shore with the Carthaginian fleet maneuvering freely behind
+  them. Approximately 93 of the 123 Roman ships were lost; the
+  Roman naval position in western Sicily was effectively
+  eliminated.
+
+  The engagement is preserved with extensive narrative
+  attention because of the famous chickens-overboard episode
+  before the battle. Pulcher, finding that the sacred *pulli*
+  carried for divinatory purposes refused to eat (an
+  unfavorable omen), reportedly responded "if they will not
+  eat, let them drink" and ordered them thrown into the sea.
+  He then engaged the Carthaginian fleet against augural
+  warning. The episode is preserved in Cicero (*De Divinatione*
+  2.71), Livy's epitome, and various other sources, generally
+  as a moralizing demonstration of the consequences of
+  disregarding religious-augural authority. The underlying
+  naval defeat is firmly attested; the dramatic framing is
+  partly later moralization.
+
+  The strategic consequences were substantial. Combined with
+  the loss of the Roman supply fleet under the praetor Lucius
+  Junius Pullus in a storm shortly afterward, Drepana
+  effectively eliminated Roman naval operations in Sicilian
+  waters for approximately eight years. The fleet that won at
+  the Aegates Islands in 241 BCE was a new fleet financed by
+  private subscription specifically because the Roman public
+  treasury could not, after Drepana and Camarina, fund a
+  third major naval reconstruction.

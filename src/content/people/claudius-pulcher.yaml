@@ -1,0 +1,35 @@
+slug: claudius-pulcher
+name_display: Publius Claudius Pulcher
+name_latin: Publius Claudius Pulcher
+floruit:
+  value: -249
+  precision: year
+death:
+  value: -246
+  precision: year
+  circa: true
+  notes: Died approximately three years after the Drepana defeat, in disgraced retirement; some sources report suicide.
+roles:
+  - consul
+  - admiral
+polity: Rome
+summary: >
+  Roman consul of 249 BCE, commander at the catastrophic Roman
+  naval defeat at Drepana, and the subject of one of the
+  most-preserved episodes of Roman religious-political tradition.
+  Before the engagement, the sacred chickens (*pulli*) carried
+  on Roman ships for divinatory purposes refused to eat, an
+  unfavorable omen by the standard Roman augural reading;
+  Pulcher reportedly responded "if they will not eat, let
+  them drink" and ordered the chickens thrown overboard. He
+  then engaged the Carthaginian fleet under Adherbal in
+  unfavorable tactical conditions and was decisively defeated:
+  approximately 93 of his 123 ships lost, the Roman naval
+  position in western Sicily essentially eliminated. Recalled
+  to Rome, prosecuted, fined heavily, and politically disgraced.
+  The chickens-overboard episode is preserved in Cicero (*De
+  Divinatione* 2.71), Polybius, Livy's epitome, and various
+  other sources, generally as a moral lesson about the
+  consequences of disregarding religious-augural authority. The
+  underlying naval defeat is firmly attested; the dramatic
+  framing of the religious detail is partly later moralization.

@@ -1,0 +1,66 @@
+slug: battle-of-ilipa
+name: Battle of Ilipa
+type: battle
+date_start:
+  value: -206
+  precision: year
+  notes: Spring or early summer 206 BCE.
+place: ilipa
+participants:
+  - person: scipio-africanus
+    role: commander
+    side: Roman
+  - person: hasdrubal-gisco
+    role: commander
+    side: Carthaginian
+  - person: mago-barca
+    role: subordinate commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+related_events:
+  - event: hamilcars-iberian-conquest
+    relation: end of the Carthaginian Iberian project that began with this conquest
+    notes: >
+      Ilipa ended what Hamilcar's invasion of 237 BCE had
+      begun: thirty-one years of Carthaginian Iberian
+      operations terminated in a single engagement.
+  - event: battle-of-great-plains
+    relation: precursor (the Iberian victory that enabled the African crossing)
+    notes: >
+      Ilipa freed Scipio's army for the African expedition that
+      culminated at the Great Plains and Zama.
+summary: >
+  Scipio Africanus's decisive victory in southern Iberia in
+  206 BCE, the engagement that ended Carthaginian power in the
+  peninsula and produced the strategic conditions for the
+  Roman invasion of Africa. Fought near the Iberian-Phoenician
+  town of Ilipa on the lower Guadalquivir, the engagement saw
+  Scipio's approximately 45,000 troops defeat a substantially
+  larger Carthaginian army (~50,000-70,000 in Polybius's
+  figures, almost certainly inflated) under Hasdrubal Gisco
+  and Mago Barca.
+
+  Scipio's tactical innovation at Ilipa is one of the most-
+  studied examples of asymmetric battlefield deployment in
+  ancient warfare. Where the Carthaginian commanders had
+  expected the standard Roman engagement (legions in the
+  center, allies on the wings), Scipio reversed the
+  disposition: his weaker Iberian allies in the center, his
+  veteran legions on the wings. He then advanced his line in a
+  configuration that engaged the Carthaginian wings (their
+  weakest forces, including freshly raised Iberian levies)
+  with his strongest troops while the centers (where the
+  Carthaginian elite African infantry was concentrated) had not
+  yet engaged. The Carthaginian flanks broke first; the elite
+  center, unsupported, withdrew without serious engagement.
+
+  The engagement is preserved in detail in Polybius (11.20-24)
+  and Livy (28.12-16) and is generally treated by modern
+  scholarship as Scipio's tactical masterpiece, comparable in
+  sophistication to Hannibal's Cannae though structurally
+  different. The strategic outcome was the rapid collapse of
+  Carthaginian Iberian authority over the following year and
+  the Roman crossing to Africa under Scipio in 204 BCE.

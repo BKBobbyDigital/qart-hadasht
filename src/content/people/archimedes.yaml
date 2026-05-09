@@ -1,0 +1,47 @@
+slug: archimedes
+name_display: Archimedes of Syracuse
+name_greek: Ἀρχιμήδης
+name_latin: Archimedes
+birth:
+  value: -287
+  precision: year
+  circa: true
+death:
+  value: -212
+  precision: year
+  notes: Killed by a Roman soldier during the sack of Syracuse in 212 BCE, in circumstances preserved in detail in the surviving sources.
+roles:
+  - mathematician
+  - engineer
+polity: Syracuse
+summary: >
+  The greatest mathematician and engineer of antiquity, born
+  and resident at Syracuse, killed during the Roman sack of the
+  city in 212 BCE. Archimedes is included in this encyclopedia
+  because his death at the conclusion of the Roman siege of
+  Syracuse is one of the most-preserved episodes of the
+  Second Punic War's Sicilian theater, and because his
+  defensive engines (the famous catapults, the so-called
+  "claw of Archimedes" that lifted Roman ships out of the
+  water, the burning mirrors of later legend) constituted the
+  principal Syracusan defensive capability through the two-year
+  Roman siege.
+
+  The death itself is preserved with multiple variant accounts.
+  Plutarch (*Marcellus* 19) gives the standard tradition: a
+  Roman soldier interrupted Archimedes at his geometric
+  diagrams during the sack, and (in one version) was killed
+  when Archimedes refused to leave his work; (in another)
+  killed Archimedes against Marcellus's explicit orders that
+  the mathematician be spared. Marcellus is preserved as
+  furious at the death and as ordering Archimedes a public
+  burial.
+
+  His mathematical and engineering works are largely outside
+  this encyclopedia's scope; what matters here is that his
+  defensive engineering substantially shaped the duration of
+  the Roman siege of Syracuse, contributed to the difficulty
+  Rome faced in breaking the Carthaginian-aligned Sicilian
+  position during the central years of the Second Punic War,
+  and that his death in 212 BCE was preserved in the surviving
+  tradition with unusual care for a non-political figure.

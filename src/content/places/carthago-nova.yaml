@@ -1,0 +1,30 @@
+slug: carthago-nova
+name_display: Carthago Nova
+names_alt:
+  punic: Qart-Hadasht (the same Punic name as the parent city)
+  punic_script: 𐤒𐤓𐤕𐤇𐤃𐤔𐤕
+  greek: Καρχηδών νέα (Karchedon Nea)
+  latin: Carthago Nova
+  modern: Cartagena, Region of Murcia, Spain
+type: city
+primary:
+  label: Carthago Nova (modern Cartagena)
+  lat: 37.6050
+  lon: -0.9870
+  confidence: certain
+modern_location: Cartagena, Region of Murcia, Spain
+summary: >
+  Carthaginian Iberian capital founded by Hasdrubal the Fair in
+  approximately 228 BCE on the southeastern coast of the
+  Iberian peninsula. The Punic name was the same as the parent
+  city in North Africa (Qart-Hadasht, "New City"); Greek and
+  Latin sources distinguished the two by adding *Nea* /
+  *Nova* ("new"), giving the modern name. The site was chosen
+  for its excellent natural harbor, defensible position, and
+  proximity to the southern Iberian silver mines that funded
+  the Barcid project. As the principal Carthaginian Iberian
+  base, the city was the operational center of Hannibal's
+  pre-218 BCE preparations and remained the Carthaginian
+  Iberian capital until its capture by Scipio Africanus in
+  209 BCE — a Roman victory that broke Carthaginian Iberian
+  finances and military logistics.

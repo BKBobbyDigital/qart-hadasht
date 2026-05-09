@@ -1,0 +1,30 @@
+slug: marcellus
+name_display: Marcus Claudius Marcellus
+name_latin: Marcus Claudius Marcellus
+birth:
+  value: -268
+  precision: year
+  circa: true
+death:
+  value: -208
+  precision: year
+  notes: Killed in an ambush by Numidian cavalry in southern Italy in 208 BCE during operations against Hannibal.
+roles:
+  - consul
+  - general
+polity: Rome
+summary: >
+  Roman consul five times (222, 215, 214, 210, 208 BCE), the
+  most successful Roman field commander of the Second Punic
+  War's Italian phase. Won early renown for killing the Gallic
+  king Viridomarus in single combat at the Battle of
+  Clastidium in 222 BCE, earning the *spolia opima* (the third
+  and last Roman ever to do so). His principal achievement in
+  the Hannibalic War was the conquest of Syracuse in 213-211
+  BCE after extended siege, breaking the Carthaginian-Sicilian
+  alliance that had threatened to reopen the western theater.
+  Operations against Hannibal in southern Italy through 210-208
+  BCE produced no decisive engagement; Marcellus was killed in
+  a Numidian-cavalry ambush in 208 BCE. Plutarch's *Life of
+  Marcellus* preserves the Syracuse siege in extensive detail,
+  including the famous Archimedes episodes.

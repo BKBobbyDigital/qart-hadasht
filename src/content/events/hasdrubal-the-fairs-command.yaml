@@ -1,0 +1,82 @@
+slug: hasdrubal-the-fairs-command
+name: Hasdrubal the Fair's Command in Iberia
+type: expedition
+date_start:
+  value: -228
+  precision: year
+date_end:
+  value: -221
+  precision: year
+  notes: Ending with Hasdrubal's assassination by a Celtiberian (or Iberian) attendant in 221 BCE.
+place: iberia
+places:
+  - iberia
+  - carthago-nova
+participants:
+  - person: hasdrubal-the-fair
+    role: commander
+    side: Carthaginian
+  - person: hannibal-barca
+    role: junior officer (under Hasdrubal's tutelage)
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - hoyos-hannibal-2003
+related_events:
+  - event: hamilcars-iberian-conquest
+    relation: continuation of (Hasdrubal inherited the Iberian command on Hamilcar's death)
+    notes: >
+      Hasdrubal the Fair was Hamilcar Barca's son-in-law and
+      the natural successor to the Iberian command on
+      Hamilcar's death in 228 BCE. His seven-year command
+      consolidated and extended what Hamilcar had begun.
+referenced_themes:
+  - carthaginian-economy
+summary: >
+  Hasdrubal the Fair's seven-year command of Carthaginian
+  Iberian operations from 228 to 221 BCE, the period in
+  which the Barcid Iberian project transformed from
+  Hamilcar's military conquest into the consolidated
+  political-economic framework that funded the Second Punic
+  War. Hasdrubal's three principal achievements:
+
+  **Foundation of Carthago Nova (c. 228-227 BCE).** Hasdrubal
+  established a new Carthaginian Iberian capital on the
+  southeastern coast at modern Cartagena. The site combined an
+  excellent natural harbor, defensible position, and proximity
+  to the southern Iberian silver mines. Carthago Nova became
+  the operational center of Carthaginian Iberian command and
+  the principal naval base for western Mediterranean
+  operations through 209 BCE.
+
+  **Diplomatic-dynastic consolidation.** Where Hamilcar had
+  favored military conquest, Hasdrubal favored political
+  integration: he married an Iberian princess himself, married
+  members of the Carthaginian elite to Iberian aristocracy,
+  and built an Iberian-Carthaginian alliance network that
+  became the structural foundation of Carthaginian authority.
+  This integration was both the political method and the
+  political legacy of his command.
+
+  **The Ebro Treaty (226 BCE).** Roman concern about the
+  expanding Carthaginian Iberian project produced the
+  diplomatic mission of 226 BCE that resulted in the Ebro
+  Treaty: Carthage to undertake no military operations north
+  of the Ebro river (modern Ebro). The treaty's terms are
+  preserved imperfectly in the surviving sources; whether it
+  also addressed Saguntum's status (as a Roman ally south of
+  the Ebro) is contested and was central to the diplomatic
+  question that produced the Second Punic War. The Ebro Treaty
+  is the principal diplomatic document of the inter-war
+  period.
+
+  Hasdrubal was assassinated in 221 BCE by a Celtiberian
+  attendant, in revenge for an execution Hasdrubal had ordered
+  earlier. Command passed by acclamation of the Iberian army
+  (rather than by Carthaginian senatorial appointment) to the
+  26-year-old Hannibal Barca, who had served under Hasdrubal's
+  command since 224 BCE. The command transition is one of the
+  more striking examples in the surviving record of Barcid
+  army politics: the Iberian field army treating its
+  succession as its own to determine, with the Carthaginian
+  senate ratifying after the fact.

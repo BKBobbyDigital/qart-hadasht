@@ -1,0 +1,75 @@
+slug: siege-of-syracuse-marcellus
+name: Marcellus's Siege of Syracuse
+type: siege
+date_start:
+  value: -213
+  precision: year
+date_end:
+  value: -211
+  precision: year
+  notes: Two-year siege ending with the Roman sack of the city in spring 211 BCE.
+place: syracuse
+participants:
+  - person: marcellus
+    role: Roman commander
+    side: Roman
+  - person: archimedes
+    role: defending engineer (killed during the sack)
+    side: Syracuse
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - plutarch-lives
+related_events:
+  - event: battle-of-cannae
+    relation: aftermath context (Hieronymus's defection followed the post-Cannae configuration)
+    notes: >
+      The Syracusan defection to Carthage came after Hiero II's
+      death in 215 BCE and his grandson Hieronymus's pro-
+      Carthaginian alignment, itself produced by the post-Cannae
+      perception that Roman defeat was likely.
+summary: >
+  The two-year Roman siege of Syracuse from 213 to 211 BCE,
+  the engagement that ended Carthaginian-Sicilian alliance and
+  preserved one of the most-cited episodes of the
+  Second Punic War's secondary theater. Following the death of
+  Hiero II of Syracuse in 215 BCE and his grandson Hieronymus's
+  pro-Carthaginian alignment (a brief tyranny ended by
+  assassination in 214), Syracuse formally aligned with Carthage
+  through the influence of two Carthaginian-allied politicians,
+  Hippocrates and Epicydes. Roman response was the dispatch of
+  Marcus Claudius Marcellus with consular forces in 213 BCE.
+
+  The siege was substantially prolonged by Syracusan defensive
+  engineering, attributed in the surviving sources principally
+  to Archimedes. Polybius (8.3-7) and Plutarch (*Marcellus*
+  14-17) preserve detailed accounts of the defensive engines:
+  catapults of varying ranges; the so-called "claw of
+  Archimedes" that lifted Roman ships out of the water and
+  dropped them; specialized siege-tower-counter weapons.
+  Marcellus reportedly observed that Archimedes was "playing
+  ball with the Roman ships." The Roman naval assault was
+  repulsed; the Roman land assault was contained for nearly
+  two years.
+
+  Roman success came through penetration of an undefended
+  section of wall during a religious festival in spring 212
+  BCE, followed by a year of street fighting and starvation
+  in the city's outer districts before the citadel surrendered
+  in spring 211. During the sack, Archimedes was killed by a
+  Roman soldier (in circumstances preserved with multiple
+  variant accounts; see his page). Marcellus reportedly was
+  furious at the death and ordered the mathematician's burial
+  with honors.
+
+  The strategic outcome was the Roman conquest of Syracuse and
+  the broader collapse of Carthaginian-Sicilian alliance. The
+  Carthaginian relief expedition under Himilco that had
+  attempted to break the siege was defeated and largely
+  destroyed; the Carthaginian Sicilian theater effectively
+  closed in 210 BCE. The conquest's cultural-political
+  significance was substantial: substantial Greek artistic
+  treasure was taken to Rome, beginning the cultural-Hellenizing
+  pattern that would characterize Roman elite life through the
+  later Republic. Plutarch and others treat the looting of
+  Syracuse as a moral turning point in Roman cultural history.

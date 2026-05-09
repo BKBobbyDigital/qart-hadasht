@@ -29,6 +29,20 @@ related_events:
     notes: >
       The largest naval battle of antiquity, the Roman victory
       that opened the path to the African expedition.
+  - event: regulus-african-expedition
+    relation: African campaign (256-255 BCE)
+    notes: >
+      The Roman invasion of North Africa that the Cape Ecnomus
+      victory had been designed to enable. Catastrophic
+      collapse at the Bagradas River produced by Xanthippus's
+      reorganization of the Carthaginian army.
+  - event: battle-of-drepana
+    relation: major Carthaginian naval victory (249 BCE)
+    notes: >
+      The Carthaginian victory under Adherbal that effectively
+      eliminated Roman naval operations in Sicilian waters for
+      the next eight years and produced the conditions for the
+      241 BCE private-subscription fleet.
   - event: battle-of-aegates-islands
     relation: war-ending naval engagement (10 March 241 BCE)
     notes: >

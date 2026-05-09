@@ -1,0 +1,70 @@
+slug: pyrrhic-war-in-sicily
+name: Pyrrhic War in Sicily
+type: war
+date_start:
+  value: -278
+  precision: year
+date_end:
+  value: -275
+  precision: year
+place: sicily
+participants:
+  - person: pyrrhus
+    role: commander
+    side: Epirote / Greek-Sicilian coalition
+principal_sources:
+  - plutarch-lives
+  - diodorus-library
+  - justin-epitome
+related_events:
+  - event: battle-of-crimisus
+    relation: precursor (the previous major Greek-Sicilian victory over Carthage, three generations earlier)
+    notes: >
+      The pattern of Greek intervention against Carthaginian
+      Sicilian dominance extends back through Crimisus (341)
+      and the Wars of Dionysius. Pyrrhus's intervention is the
+      last episode in this pattern before the First Punic War
+      transformed the strategic geography entirely.
+  - event: first-punic-war-outbreak
+    relation: structural precursor (the strategic configuration that produced the FPW)
+    notes: >
+      Pyrrhus's withdrawal from Sicily in 275 BCE left a
+      Carthaginian-restored position that combined with Roman
+      cooperation in his Italian war to produce the framework
+      within which the 264 BCE Mamertine crisis emerged.
+summary: >
+  Pyrrhus of Epirus's Sicilian campaign of 278-275 BCE,
+  conducted between his Italian campaigns against Rome. Invited
+  to Sicily in 278 BCE by Greek-Sicilian cities seeking relief
+  from continued Carthaginian pressure (the post-Agathocles
+  pattern had restored substantial Carthaginian territorial
+  control), Pyrrhus arrived with approximately 30,000 troops
+  and a substantial fleet. His campaign drove Carthage from
+  most of Sicily within two years, with the principal
+  Carthaginian holdout the fortified port of Lilybaeum
+  (modern Marsala) on the western tip of the island.
+
+  Pyrrhus's failure was political rather than military. His
+  campaigning style (substantial requisitions, autocratic
+  command, treatment of the Greek-Sicilian cities as
+  subordinate to his strategic project) alienated the
+  communities that had originally invited him. By 275 BCE
+  Greek-Sicilian political opposition had developed to the
+  point that further campaigning against Lilybaeum was
+  impractical; Pyrrhus withdrew to Italy for the engagement
+  at Beneventum and ultimately to Epirus.
+
+  The strategic outcome restored substantial Carthaginian
+  territorial control in western Sicily through the 270s and
+  260s BCE. The configuration combined with the Mamertine
+  crisis of 265-264 BCE to produce the conditions in which
+  Roman intervention at Messana opened the First Punic War.
+  Pyrrhus is, in this sense, the bridge between the long
+  Greco-Carthaginian Sicilian Wars cycle and the
+  Roman-Carthaginian Punic War cycle.
+
+  The "Pyrrhic victory" tradition (preserved in Plutarch's
+  *Life of Pyrrhus* in connection with the Italian engagement
+  at Asculum) is sometimes anachronistically attached to the
+  Sicilian campaign. The Sicilian campaign was distinct in
+  character: tactically successful, politically failed.

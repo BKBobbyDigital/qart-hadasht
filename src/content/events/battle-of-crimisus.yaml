@@ -1,0 +1,56 @@
+slug: battle-of-crimisus
+name: Battle of the Crimisus
+type: battle
+date_start:
+  value: -341
+  precision: year
+  notes: Spring or early summer 341 BCE.
+place: sicily
+participants:
+  - person: timoleon
+    role: commander
+    side: Greek (Corinthian-led Sicilian coalition)
+principal_sources:
+  - diodorus-library
+  - plutarch-lives
+related_events:
+  - event: wars-of-dionysius
+    relation: subsequent Sicilian engagement (post-Dionysian Carthaginian-Greek conflict)
+    notes: >
+      The Crimisus engagement is the next major
+      Greek-Sicilian-Carthaginian engagement after the wars
+      of Dionysius and is structurally part of the same long
+      pattern of Carthaginian incursion and Greek defensive
+      response.
+referenced_themes:
+  - punic-religion
+summary: >
+  Major Greek-Sicilian victory over a Carthaginian invasion
+  army in 341 BCE under the leadership of Timoleon of Corinth.
+  The Carthaginian expedition (estimated by ancient sources at
+  approximately 70,000 men, though as usual the figures are
+  inflated) had crossed to Sicily under the commanders
+  Hasdrubal and Hamilcar (both names borne by multiple
+  Carthaginians of the period; these are not the same figures
+  as the later Punic War commanders). Timoleon's force of
+  approximately 12,000 Greek troops engaged the Carthaginian
+  army at the crossing of the Crimisus river in western Sicily.
+
+  The engagement was decided by the Greek attack on the
+  Carthaginian advance guard while the bulk of the
+  Carthaginian army was still crossing the river, combined with
+  a sudden storm that disorganized the Carthaginian formations.
+  The Greek victory was decisive: the elite Carthaginian
+  Sacred Band (the principal Carthaginian heavy-infantry
+  formation of the period) was destroyed, the surviving
+  Carthaginian army withdrew to western Sicilian
+  fortifications, and the campaign ended without Carthaginian
+  territorial gain.
+
+  The engagement is preserved most fully in Plutarch's *Life
+  of Timoleon* (25-29) and in Diodorus 16.78-81, both drawing
+  on now-lost Sicilian-Greek sources. The Greek victory
+  reversed the Carthaginian incursions of the late 4th century
+  BCE and produced a generation-long pattern of
+  Carthaginian-Greek coexistence in Sicily that the Agathocles
+  invasion of 310 BCE would eventually disrupt.

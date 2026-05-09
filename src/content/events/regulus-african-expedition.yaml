@@ -1,0 +1,69 @@
+slug: regulus-african-expedition
+name: Regulus's African Expedition
+type: expedition
+date_start:
+  value: -256
+  precision: year
+date_end:
+  value: -255
+  precision: year
+  notes: The expedition's catastrophic conclusion at the Battle of the Bagradas River in summer 255 BCE.
+place: carthage
+participants:
+  - person: atilius-regulus
+    role: commander
+    side: Roman
+  - person: manlius-vulso
+    role: commander (recalled with part of force)
+    side: Roman
+  - person: xanthippus
+    role: Carthaginian field commander (255 BCE)
+    side: Carthaginian (Spartan mercenary)
+principal_sources:
+  - polybius-histories
+  - goldsworthy-fall-carthage-2003
+related_events:
+  - event: battle-of-cape-ecnomus
+    relation: opened by (the Roman naval victory that enabled the African crossing)
+    notes: >
+      Cape Ecnomus's victory in summer 256 BCE produced the
+      strategic conditions for Regulus's landing in Africa.
+summary: >
+  The Roman invasion of North Africa under the consuls Atilius
+  Regulus and Manlius Vulso in 256-255 BCE, the first Roman
+  expedition to operate on Carthaginian home territory and the
+  campaign that the Cape Ecnomus naval victory had been
+  designed to enable. The expedition's first phase (autumn
+  256-spring 255 BCE) produced substantial Roman success: the
+  consuls landed at Aspis on the Cape Bon peninsula, defeated
+  Carthaginian forces at Adys, and advanced into the
+  Carthaginian hinterland with the city itself within reach.
+  Manlius Vulso was recalled to Rome with part of the force,
+  leaving Regulus with reduced numbers but the strategic
+  initiative.
+
+  The campaign's catastrophic conclusion came at the Battle of
+  the Bagradas River in summer 255 BCE. The Carthaginian
+  government, facing destruction, recruited the Spartan
+  mercenary general Xanthippus, who reorganized the
+  Carthaginian army around its African heavy infantry and
+  Numidian cavalry and engaged Regulus on the open plain on
+  terms favorable to combined-arms doctrine rather than to
+  Roman legionary close-combat capability. The Roman army was
+  defeated; Regulus was captured. Approximately 12,000
+  Roman troops were killed or captured.
+
+  The naval consequences were nearly as bad. The Roman fleet
+  attempting to evacuate the surviving forces from Africa was
+  caught in a storm off Camarina in summer 255 and lost
+  approximately 280 of its ships. Roman casualties from the
+  storm exceeded those from any single engagement of the war.
+  The strategic outcome of the Cape Ecnomus-to-Camarina arc
+  was therefore catastrophic: the war was effectively reset
+  to a Sicilian theater that would last another fourteen
+  years.
+
+  Regulus's subsequent fate (captivity, return to Rome on parole
+  to negotiate, refusal to advise acceptance of Carthaginian
+  terms, voluntary return to captivity, alleged tortured death)
+  is treated separately in the people page.
