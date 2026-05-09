@@ -1,0 +1,50 @@
+slug: first-treaty-asymmetric-power
+statement: >
+  The 509 BCE treaty is structured around an asymmetry of power: it
+  imposes navigational and territorial restrictions on Rome while
+  imposing relatively few corresponding restrictions on Carthage.
+  By 509 BCE Carthage was already a major regional power capable of
+  setting commercial terms with newly-republican Italian cities;
+  Rome was the smaller and more constrained partner.
+confidence: inferred
+scholarly_consensus: >
+  Strong; the standard reading in modern scholarship of the
+  treaty's structural implications. The asymmetry is visible in the
+  treaty's actual terms (which Polybius preserves) without needing
+  to be argued for; the inference is from the terms to the relative
+  power configuration they imply.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.22-23"
+    passage_summary: >
+      Polybius's preservation of the terms makes the asymmetry
+      visible: the navigational restriction is on Rome, the
+      land-purchase restriction is on Rome, the Carthaginian
+      formalities Roman traders must observe are imposed by
+      Carthage. The Carthaginian undertakings (not to harm Latin
+      allies) are correspondingly limited.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos treats the asymmetry as a useful corrective to
+      teleological readings of the Punic Wars: the relationship
+      these later wars culminated in did not always have its
+      participants as equals.
+  - source: aubet-phoenicians-west-2001
+    stance: supports
+    passage_summary: >
+      Aubet contextualizes the asymmetry within the broader
+      Phoenician colonial-commercial network of the period, in
+      which Carthaginian interests in the central and western
+      Mediterranean were already organized at a scale Rome could
+      not match.
+notes: >
+  This is an inferred claim from the treaty's specific provisions.
+  The conclusion (Carthage as senior, Rome as junior) is a modern
+  reading rather than an explicit contemporary statement, but it
+  follows directly from the terms Polybius preserves.
+entities:
+  - type: event
+    slug: first-treaty-with-rome
+    role: context

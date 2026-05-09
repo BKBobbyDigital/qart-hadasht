@@ -1,0 +1,53 @@
+slug: first-treaty-with-rome
+name: First Treaty with Rome
+type: treaty
+date_start:
+  value: -509
+  precision: year
+  notes: >
+    Polybius dates the treaty to "twenty-eight years before Xerxes'
+    crossing into Greece" (3.22), placing it at 508/509 BCE in the
+    first year of the Roman Republic. The dating depends on
+    Polybius's identification of the consuls Brutus and Horatius
+    and is the conventional date in modern scholarship. A minority
+    position, going back to Mommsen, argues that Polybius's "first"
+    treaty is actually a doublet of the 348 BCE treaty.
+place: carthage
+participants: []
+principal_sources:
+  - polybius-histories
+related_events:
+  - event: first-punic-war-outbreak
+    relation: pre-history of (Polybius cites this treaty in his discussion of pre-264 Roman-Carthaginian relations)
+    notes: >
+      The 509 treaty is one of three Polybius preserves in his
+      discussion (3.22-26) of the pre-264 treaty record. Its
+      contents and chronology are central to the question of what
+      Roman-Carthaginian understandings existed before the Mamertine
+      crisis.
+summary: >
+  The earliest preserved treaty between Rome and Carthage,
+  conventionally dated to 509 BCE on the basis of Polybius's
+  account in *Histories* 3.22. The treaty is preserved by Polybius
+  alone among surviving sources; he gives the text in Greek
+  translation, citing the Roman archives as his source. Its
+  provisions establish a sphere-of-influence settlement: Roman
+  ships are not to sail past a navigational landmark Polybius
+  calls the Fair Promontory (Καλοῦ Ἀκρωτηρίου), with exceptions
+  for storm or enemy pursuit; Roman traders are admitted to
+  Carthage and Carthaginian-controlled territory subject to
+  prescribed formalities; Carthage undertakes not to harm Latin
+  allies of Rome; Romans are barred from acquiring land or
+  settling in Carthaginian-controlled regions.
+
+  The treaty matters for what it implies as much as for what it
+  says. By 509 BCE, on Polybius's chronology, Rome was only just
+  emerging from monarchy and Carthage was a regional Mediterranean
+  power capable of negotiating commercial-and-territorial
+  agreements with newly-republican Italian cities. The asymmetry
+  of the relationship at the date Polybius preserves is striking:
+  Carthage as the senior partner, Rome as the smaller and
+  geographically constrained junior. The conventional wisdom that
+  the Punic Wars were a clash of equals is a description of the
+  3rd century, not the 6th. The 509 treaty preserves the earlier
+  configuration.

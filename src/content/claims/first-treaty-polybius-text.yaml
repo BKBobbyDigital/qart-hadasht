@@ -1,0 +1,35 @@
+slug: first-treaty-polybius-text
+statement: >
+  Polybius preserves the text of the first Roman-Carthaginian treaty
+  in Greek translation in *Histories* 3.22, citing the Roman
+  archives as his source. The treaty text is one of the few
+  diplomatic documents of the early Roman Republic preserved in
+  any surviving source.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. Polybius's preservation of the treaty text is
+  the principal source for its content and is universally
+  accepted as authentic Polybian transmission of an actual
+  archival document, whatever the disputes about the date.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.22"
+    passage_summary: >
+      Polybius gives the text of the treaty in Greek translation,
+      explicitly citing the Roman archives as his source and
+      noting the difficulty of reading the archaic Latin original.
+      The provisions cover navigational restrictions, commercial
+      formalities, the protection of Latin allies, and territorial
+      restraints.
+notes: >
+  Polybius's claim of access to the Capitoline archives is itself
+  one of the points of dispute in the broader treaty debate (see
+  the open question on pre-264 treaties associated with the First
+  Punic War outbreak event). The fact of his preservation of *some*
+  treaty text is not in dispute; whether the text is the 509 BCE
+  document or a later one is the question.
+entities:
+  - type: event
+    slug: first-treaty-with-rome
+    role: subject

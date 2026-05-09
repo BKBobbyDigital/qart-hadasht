@@ -1,0 +1,62 @@
+slug: first-treaty-fair-promontory
+statement: >
+  The treaty established a navigational limit at the "Fair
+  Promontory" (Καλοῦ Ἀκρωτηρίου) beyond which Roman ships were not
+  to sail except under storm or enemy pursuit. The location of
+  this promontory has been debated since antiquity; the leading
+  candidates are Cape Bon (Tunisia) and Cape Farina (modern Ras Sidi
+  Ali el Mekki).
+confidence: contested
+scholarly_consensus: >
+  The existence of the navigational restriction is firmly attested
+  in Polybius. The location of the Fair Promontory is contested
+  and has not been securely identified.
+dispute_summary: |
+  Polybius identifies the Fair Promontory only by name; he does
+  not provide coordinates. Three candidate identifications have
+  been proposed in modern scholarship:
+
+  1. **Cape Bon (modern Ras ed-Dar)**, the prominent peninsula
+     east of Carthage. Geographically the most natural reading of
+     a "promontory" defining the sea zone north of Carthage; the
+     candidate adopted by most modern reconstructions.
+
+  2. **Cape Farina (Ras Sidi Ali el Mekki)**, the smaller
+     promontory between modern Bizerte and Tunis. A minority
+     reading that gives the Romans wider notional access.
+
+  3. **Cape Hermaeum**, an alternative ancient name sometimes
+     equated with Cape Bon and sometimes treated as a separate
+     point.
+
+  The substantive question is what trade and naval activity the
+  treaty was designed to restrict, and the answer turns partly
+  on which promontory is meant. Cape Bon implies a more
+  restrictive treaty (Romans largely excluded from the western
+  Mediterranean basin); Cape Farina a less restrictive one. Most
+  modern scholarship favors Cape Bon and the more restrictive
+  reading.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.22-23"
+    passage_summary: >
+      Polybius records the navigational restriction at the Fair
+      Promontory but does not specify the location.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos surveys the candidate identifications and adopts Cape
+      Bon as the most defensible reading on geographic and
+      strategic grounds.
+  - source: aubet-phoenicians-west-2001
+    stance: qualifies
+    passage_summary: >
+      Aubet treats the Fair Promontory question in the broader
+      context of Phoenician and Carthaginian navigational practice
+      in the 6th century BCE, with the Cape Bon identification as
+      the working assumption.
+entities:
+  - type: event
+    slug: first-treaty-with-rome
+    role: subject

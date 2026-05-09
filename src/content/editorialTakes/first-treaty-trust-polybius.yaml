@@ -1,0 +1,82 @@
+slug: first-treaty-trust-polybius
+subject_question: >
+  Should we trust Polybius's 509 BCE date for the first
+  Roman-Carthaginian treaty?
+subject_entity:
+  type: event
+  slug: first-treaty-with-rome
+  role: subject
+position: >
+  Yes, on balance, while acknowledging the reasonable minority
+  doubts. Polybius had access to the Capitoline archives, dated
+  the treaty by reference to the consuls of the year and to a
+  fixed external chronological marker (Xerxes' crossing into
+  Greece, 480 BCE), and treated the 509 dating as uncontroversial
+  among his contemporary sources. The Mommsen doublet hypothesis
+  is a defensible alternative that has not produced compelling
+  evidence to overturn Polybius's chronology in the 150 years it
+  has been on the table. The dating is not certain but it is the
+  best-supported reading of the evidence.
+reasoning: |
+  Three considerations support accepting the 509 date:
+
+  1. **Polybius's chronological method.** Polybius does not
+     simply assert the 509 date; he derives it. He gives the
+     consuls Brutus and Horatius from the Roman consular fasti.
+     He cross-references the date to Xerxes' crossing into
+     Greece, a fixed point in Greek chronology. He does not
+     introduce the dating as a controversial claim. A historian
+     treating a settled chronology will date this way; a
+     historian fabricating or misremembering will not generally
+     bother with the cross-reference.
+
+  2. **The archival argument cuts both ways.** Mommsen's
+     skepticism about Polybius's archival access is principled
+     but not decisive. The Capitoline archives were among the more
+     stable Roman documentary collections. Polybius was known to
+     consult them in person. The argument that he did not
+     actually find a 509 document there requires positive evidence
+     that no such document existed, and that evidence is not
+     available.
+
+  3. **The political-geographic context fits.** The 509 BCE date
+     places the treaty at the moment of Roman transition from
+     monarchy to Republic, when Roman external commitments were
+     genuinely being renegotiated. Carthaginian regional power at
+     this date is consistent with the broader Phoenician colonial
+     picture: Tyre's western network was at its peak, Carthage was
+     emerging as the principal western colony, the strategic
+     geography the treaty assumes is plausible for the late 6th
+     century BCE.
+
+  The site adopts the 509 dating as the working chronology while
+  acknowledging the dating dispute in the contested-claim treatment
+  of the Mommsen doublet hypothesis. A reader who concludes
+  differently will not be making an unreasonable judgment, but the
+  weight of the evidence favors Polybius.
+confidence: moderate
+weighed_claims:
+  - first-treaty-polybius-text
+  - first-treaty-mommsen-doublet
+competing_positions:
+  - position: >
+      Polybius's "first" treaty is actually the 348 BCE document;
+      the 509 BCE treaty did not exist as a separate text.
+    why_rejected: >
+      The doublet hypothesis is defensible but not independently
+      supported. Polybius's chronological derivation, his archival
+      access, and the political-geographic context all favor the
+      509 reading.
+    held_by: Mommsen and a minority modern tradition.
+  - position: >
+      The 509 treaty existed but its specific date is uncertain;
+      the conventional 509 BCE may be a Polybian reconstruction
+      from imperfect archival evidence.
+    why_rejected: >
+      A reasonable cautious position that the site does not
+      strongly oppose. The conventional date is the best-supported
+      reading; alternatives within a few years either way are
+      possible but not strongly motivated.
+    held_by: A common cautious modern position.
+last_reviewed: "2026-05-09"
+open_to_revision: true

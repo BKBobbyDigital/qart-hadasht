@@ -1,0 +1,69 @@
+slug: first-treaty-mommsen-doublet
+statement: >
+  Theodor Mommsen and a minority modern tradition argue that
+  Polybius's "first" Roman-Carthaginian treaty is actually a
+  doublet of the 348 BCE treaty rather than a separate earlier
+  document. On this reading, the actual first formal
+  Roman-Carthaginian treaty would be the 348 BCE one and no 509
+  BCE document existed.
+confidence: contested
+scholarly_consensus: >
+  The Mommsen doublet hypothesis is rarely held in the strong
+  form today. Most modern scholarship accepts Polybius's chronology
+  on the strength of his archival access and consular dating.
+  Reasonable scholars continue to acknowledge that Polybius's
+  archival claims are not independently verifiable.
+dispute_summary: |
+  The hypothesis was advanced principally by Theodor Mommsen in
+  the 19th century and rests on three observations:
+
+  1. The 509 and 348 treaties (in Polybius's account) share
+     substantial provisions in common, suggesting either a model-
+     and-renewal relationship or a single document split in
+     transmission.
+
+  2. Polybius's claim of access to the Capitoline archives is
+     itself contested; the archives may not have preserved a 509
+     BCE document that the rest of the surviving record does not
+     attest.
+
+  3. The political geography presupposed by the 509 treaty
+     (Carthaginian dominance of trade routes, Roman navigational
+     constraints) fits the mid-4th century better than the late
+     6th in some readings of Carthaginian colonial development.
+
+  Modern scholarship generally responds:
+
+  1. Treaties of this period commonly renewed prior documents with
+     elaborated terms; the parallels are evidence of continuity, not
+     of duplication.
+
+  2. Polybius's archival access is not perfectly verifiable but is
+     not implausible; the Capitoline archives were among the more
+     stable Roman documentary collections through this period.
+
+  3. The political-geographic argument is not decisive; Carthaginian
+     regional power in the late 6th century BCE is consistent with
+     the broader Phoenician colonial picture.
+
+  The site treats the Mommsen reading as a contested minority
+  position rather than a refuted one. The dating question is real,
+  even if Polybius's chronology remains the dominant view.
+sources:
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.22"
+    passage_summary: >
+      Polybius's explicit chronology and his identification of the
+      consuls who made the treaty are the principal contradiction
+      of the doublet reading.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos surveys the dating debate and treats Polybius's
+      chronology as the working assumption while acknowledging
+      that the alternative is not refuted.
+entities:
+  - type: event
+    slug: first-treaty-with-rome
+    role: subject

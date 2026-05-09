@@ -22,6 +22,15 @@ principal_sources:
   - polybius-histories
   - diodorus-library
   - hoyos-unplanned-wars-1998
+related_events:
+  - event: first-treaty-with-rome
+    relation: presupposed by (the pre-264 treaty framework that broke down here)
+    notes: >
+      Polybius's discussion of the FPW outbreak (3.22-26) explicitly
+      addresses the 509 treaty and the subsequent agreements of 348
+      and 279/278 BCE. The Mamertine crisis is what the 264 break
+      with that framework looked like; the 509 treaty is what the
+      framework had originally established.
 summary: >
   The political crisis of 265–264 BCE that produced Rome's first
   overseas war and the first of the three Punic Wars. The trigger was
