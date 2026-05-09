@@ -51,7 +51,7 @@ notes: >
   tradition can be traced back to the eyewitness.
 entities:
   - type: event
-    slug: third-punic-war
+    slug: destruction-of-carthage
     role: subject
   - type: person
     slug: scipio-aemilianus

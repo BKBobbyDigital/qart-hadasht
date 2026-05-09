@@ -1,0 +1,64 @@
+slug: second-punic-war
+name: Second Punic War
+type: war
+date_start:
+  value: -218
+  precision: year
+date_end:
+  value: -201
+  precision: year
+place: carthage
+participants: []
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+related_events:
+  - event: battle-of-cannae
+    relation: principal Italian engagement (216 BCE)
+    notes: >
+      Hannibal's tactical masterpiece in Italy and the moment Rome's
+      structural resilience was demonstrated. The battle that should
+      have ended the war on Carthaginian terms; the Roman refusal
+      to negotiate that followed it set the war's strategic limit.
+  - event: battle-of-zama
+    relation: war-ending engagement (202 BCE)
+    notes: >
+      Scipio's victory in Africa that produced the Carthaginian
+      capitulation. The closing act of a war that had been
+      strategically decided several years earlier.
+  - event: treaty-of-201-bce
+    relation: peace settlement (201 BCE)
+    notes: >
+      The treaty terms that ended the war and (through their
+      allied-protection clause and Masinissa's enabled
+      encroachments) set the structural conditions for the
+      Third Punic War half a century later.
+summary: >
+  The second of the three Punic Wars, fought from 218 to 201 BCE
+  and the longest sustained Carthaginian-Roman conflict by any
+  measure of intensity. The war opened with Hannibal Barca's
+  crossing of the Alps and his subsequent campaigns in Italy
+  (Trebia 218, Trasimene 217, Cannae 216), continued through the
+  long strategic strangulation of Hannibal's army in southern
+  Italy after Rome's refusal to negotiate following Cannae, the
+  Roman recovery and conquest of Iberia under Scipio Africanus
+  (210-206), and the Roman invasion of Africa that culminated at
+  Zama in 202 BCE. The war's principal phases (the crossing and
+  the early Italian victories, the Cannae-and-defections crisis,
+  the long Italian stalemate, the Iberian campaigns, the African
+  invasion, Zama, and the peace) are treated through the focal
+  events linked from this parent.
+
+  The war was the most consequential single conflict of the
+  pre-imperial Roman era and the war that reshaped the
+  Mediterranean's political geography. Roman strategic culture,
+  military institutions, and political imagination were
+  permanently altered by the experience of absorbing Cannae and
+  recovering from it; Carthaginian military and territorial power
+  was reduced to a regional African role from which it would not
+  recover; the post-war Treaty of 201 set the structural conditions
+  for the destruction of Carthage in 146 BCE. The Polybian
+  framework for understanding Rome's rise to Mediterranean
+  dominance is largely a framework for understanding this war.

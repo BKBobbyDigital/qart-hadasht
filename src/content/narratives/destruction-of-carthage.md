@@ -22,7 +22,7 @@ thesis: >
   history. It is also one of the most institutionally engineered.
 primary_entities:
   - type: event
-    slug: third-punic-war
+    slug: destruction-of-carthage
     role: subject
 referenced_claims:
   - cato-delenda-est

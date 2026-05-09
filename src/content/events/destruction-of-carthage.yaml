@@ -1,0 +1,67 @@
+slug: destruction-of-carthage
+name: Destruction of Carthage
+type: siege
+date_start:
+  value: -149
+  precision: year
+date_end:
+  value: -146
+  precision: year
+  notes: Final assault and destruction in spring 146 BCE.
+place: carthage
+participants:
+  - person: scipio-aemilianus
+    role: commander (from 147 BCE)
+    side: Roman
+  - person: hasdrubal-boetharch
+    role: defending commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - appian-punica
+  - plutarch-lives
+related_events:
+  - event: third-punic-war
+    relation: focal engagement of (the entire war was effectively this one extended siege)
+    notes: >
+      The Third Punic War as a whole was substantially this single
+      extended siege. The "war" event preserves the framing and
+      causation; this event preserves the siege itself, the
+      Polybian eyewitness testimony, and the destruction.
+summary: >
+  The four-year Roman siege of Carthage (149-146 BCE) and the
+  systematic destruction of the city in spring 146 BCE. Following
+  the Roman ultimatum to abandon the city (issued after Carthage
+  surrendered hostages and weapons in 149 BCE), the Carthaginians
+  refused and the siege began. Two years of ineffective Roman
+  command (149-148 BCE) produced minimal progress; the senate's
+  appointment of Scipio Aemilianus to consular command in 147 BCE
+  transformed the siege into a methodical reduction of the city's
+  defenses. By spring 146 BCE the city was effectively isolated,
+  starving, and its defensive perimeter compressed to the citadel
+  and inner residential quarters.
+
+  The final assault produced six days of street fighting through
+  the residential quarters before the surviving defenders
+  surrendered on the Byrsa hill. Hasdrubal the Boetharch
+  surrendered to Scipio personally; his wife and children chose
+  self-immolation in the temple of Eshmun rather than surrender.
+  Scipio then ordered the systematic destruction of the city: the
+  buildings demolished, the population enslaved (approximately
+  50,000 survivors per Appian), the site burned for seventeen
+  days, the urban site itself ploughed over to ensure no
+  reoccupation.
+
+  The "salting of the earth" tradition, popular in modern
+  accounts, is not attested in any ancient source and is treated
+  as a 19th-century elaboration; see the open question on the
+  matter.
+
+  The eyewitness presence of **Polybius**, traveling with Scipio
+  Aemilianus, makes this the most directly attested major event
+  in V1's scope. The famous "tears of Scipio" passage (Histories
+  38.21-22), in which Scipio weeps at the burning city and
+  recites Homer's lines on the fall of Troy before privately
+  predicting the same fate for Rome, comes to us through the
+  most direct chain ancient historiography preserves: eyewitness
+  to surviving text via Appian's quotation in Punica 132.
