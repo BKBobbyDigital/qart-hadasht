@@ -1,0 +1,41 @@
+slug: zama-cavalry-decisive
+statement: >
+  Zama was decided by the Roman and Numidian cavalry under Laelius and
+  Masinissa, who drove off the Carthaginian horse early in the battle and
+  then returned to attack Hannibal's veteran third line in the rear.
+confidence: attested
+scholarly_consensus: >
+  Universally accepted; the cavalry-rear-charge is the canonical explanation
+  for the battle's outcome and is preserved consistently across the principal
+  sources.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.12, 15.14"
+    passage_summary: >
+      Polybius describes Laelius and Masinissa pursuing the routed Carthaginian
+      cavalry off the field, returning at the critical moment to strike
+      Hannibal's veteran reserve in the rear and deciding the engagement.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.35"
+    passage_summary: >
+      Livy gives substantively the same account of the cavalry maneuver and
+      its decisive return.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos identifies the cavalry envelopment as the operative cause of
+      defeat, contrasting Zama with Cannae as a structural inversion: at
+      Cannae Hannibal won through cavalry superiority, at Zama he lost
+      through cavalry inferiority.
+entities:
+  - type: person
+    slug: laelius
+    role: subject
+  - type: person
+    slug: masinissa
+    role: subject
+  - type: event
+    slug: battle-of-zama
+    role: context

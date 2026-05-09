@@ -1,0 +1,33 @@
+slug: hasdrubal-gisco
+name_display: Hasdrubal Gisco
+name_punic: ʿAzrubaʿl
+name_punic_script: 𐤏𐤆𐤓𐤁𐤏𐤋
+name_greek: Ἀσδρούβας
+name_latin: Hasdrubal
+etymology: >
+  ʿAzrubaʿl combines ʿzr ("help") with the divine name Baʿal ("lord"), yielding
+  "Baʿal helps" or "help of Baʿal." The patronymic "son of Gisco" (Punic GSKN)
+  distinguishes him from the several other Carthaginian commanders named
+  Hasdrubal active in the same period — including Hannibal's brother and his
+  brother-in-law.
+floruit:
+  value: -210
+  precision: decade
+  circa: true
+death:
+  value: -202
+  precision: year
+  circa: true
+roles:
+  - general
+  - politician
+polity: Carthage
+summary: >
+  Carthaginian general active in Iberia during the later Second Punic War, where
+  he commanded one of the three Punic armies confronting Scipio. Defeated at
+  Ilipa in 206 BCE, he withdrew to Africa to organize the defense of Carthage
+  itself. Took a leading role at Zama in 202 BCE, where ancient sources name
+  him among Hannibal's principal subordinates. His daughter Sophonisba married
+  first the Numidian king Syphax — securing him as a Carthaginian ally — and
+  later, briefly, Masinissa. Tradition reports that Hasdrubal Gisco took his
+  own life after Zama to avoid Roman reprisal.

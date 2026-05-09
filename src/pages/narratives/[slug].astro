@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const narratives = await getCollection('narratives');
+  return narratives.map((n) => ({
+    params: { slug: n.id.replace(/\.md$/, '') },
+    props: { narrative: n },
+  }));
+}
+
+const { narrative } = Astro.props;
+const { Content } = await render(narrative);
+const d = narrative.data;
+---
+
+<BaseLayout title={d.title} description={d.thesis}>
+  <article class="max-w-3xl mx-auto px-6 py-12">
+    <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Narrative · {d.scope}</p>
+    <h1 class="font-serif text-4xl mb-4">{d.title}</h1>
+
+    <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
+      <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Thesis</p>
+      <p class="font-serif text-lg leading-snug text-sand-900">{d.thesis}</p>
+    </aside>
+
+    <div class="prose-encyclopedia text-sand-900 mt-8">
+      <Content />
+    </div>
+
+    <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
+      <p>Last revised {d.last_revised}. Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.</p>
+    </footer>
+  </article>
+</BaseLayout>

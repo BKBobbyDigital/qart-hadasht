@@ -1,0 +1,56 @@
+slug: zama-casualties
+statement: >
+  Carthaginian losses at Zama were severe — perhaps 20,000 dead and a
+  comparable number captured — while Roman losses were comparatively light.
+confidence: contested
+scholarly_consensus: >
+  The asymmetry is firmly attested; the specific figures are not. Modern
+  scholarship treats ancient casualty counts for Zama as approximate at best
+  and rhetorically inflated at worst.
+dispute_summary: |
+  The principal sources give consistent-looking numbers that modern
+  scholarship treats with caution:
+
+  - **Polybius (15.14)** reports more than 20,000 Carthaginian dead and a
+    similar number captured, against ~1,500 Roman dead.
+  - **Livy (30.35)** gives essentially the same figures.
+  - **Appian** offers a higher Roman casualty figure but is generally less
+    reliable here.
+
+  Three points qualify these numbers:
+
+  1. Ancient battle casualty figures are systematically inflated for the
+     losing side and minimized for the winner. The factor-of-thirteen
+     asymmetry between Carthaginian and Roman dead is suspicious on its
+     face.
+  2. Polybius and Livy ultimately derive from overlapping sources (Laelius,
+     Polybius himself for Livy), so their agreement is not strong
+     independent attestation.
+  3. The total fits the literary need to depict Zama as a decisive,
+     annihilating Roman victory. A more measured outcome — Roman victory
+     with substantial losses on both sides — is plausible but unrecoverable.
+
+  The figures are best read as orders of magnitude indicating a clear
+  Carthaginian defeat, not as precise counts.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.14"
+    passage_summary: >
+      Polybius reports more than 20,000 Carthaginian dead, a comparable
+      number captured, and ~1,500 Roman dead.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.35"
+    passage_summary: >
+      Livy gives substantively the same casualty figures as Polybius.
+  - source: appian-punica
+    stance: qualifies
+    passage_ref: "Pun. 48"
+    passage_summary: >
+      Appian gives a higher Roman casualty figure that is generally
+      considered less reliable than the Polybian-Livian tradition.
+entities:
+  - type: event
+    slug: battle-of-zama
+    role: subject

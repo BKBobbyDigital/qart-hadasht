@@ -1,0 +1,47 @@
+slug: treaty-201-terms
+statement: >
+  The Treaty of 201 BCE imposed on Carthage: a 10,000-talent indemnity payable
+  over 50 years, surrender of all war elephants and prohibition on training
+  more, reduction of the navy to 10 triremes, return of all Roman prisoners
+  and deserters, 100 hostages, recognition of Masinissa's expanded Numidian
+  kingdom, and prohibitions on warfare both outside Africa (without Roman
+  consent) and within Africa against Roman allies.
+confidence: attested
+scholarly_consensus: >
+  The terms are well-attested; Polybius preserves them in detail and Livy
+  substantively confirms. Modern scholarship is unanimous on the substance.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.18"
+    passage_summary: >
+      Polybius lists the terms in detail: territorial settlement within the
+      "Phoenician trenches," 10,000 talents over 50 years, surrender of
+      elephants and ships, prisoner return, 100 hostages, and the dual
+      prohibition on extra-African and intra-African warfare without Roman
+      sanction.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.37"
+    passage_summary: >
+      Livy gives substantively the same terms with minor procedural
+      additions on the ratification process at Rome.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 54"
+    passage_summary: >
+      Appian preserves the same essential terms with characteristic
+      compression.
+notes: >
+  The two warfare-prohibition clauses are structurally critical to the
+  next half-century of Carthaginian history. By prohibiting both
+  extra-African and intra-African warfare against Roman allies, the
+  treaty made it legally impossible for Carthage to resist Masinissa's
+  subsequent border encroachments without Roman permission — and Rome
+  would refuse that permission, repeatedly, in the years leading to 149
+  BCE. The terms designed to prevent another Punic war became the
+  mechanism that produced the third one.
+entities:
+  - type: event
+    slug: treaty-of-201-bce
+    role: subject

@@ -1,0 +1,57 @@
+slug: zama-troop-numbers
+statement: >
+  The forces engaged at Zama were comparable in infantry strength but Rome
+  held a decisive advantage in cavalry — likely 6,000 horse to roughly
+  3,000–4,000 for Carthage.
+confidence: contested
+scholarly_consensus: >
+  The cavalry asymmetry is firmly attested and undisputed. Total infantry
+  numbers are debated: ancient figures vary between sources, modern estimates
+  place each side roughly 30,000–40,000 strong, and the surviving accounts
+  do not give consistent overall totals.
+dispute_summary: |
+  Ancient and modern figures diverge in characteristic ways:
+
+  - **Polybius** is precise about cavalry (Masinissa's 6,000 horse plus
+    Roman cavalry under Laelius vs. Tychaeus's 2,000 Numidian horse with
+    a smaller Carthaginian contingent) but does not give explicit infantry
+    totals at Zama. He describes Hannibal's army as drawn up in three lines
+    of similar depth without naming a number.
+
+  - **Livy** (30.29, 30.32) and **Appian** report higher figures and offer
+    explicit totals, but their numbers conflict with one another and with
+    Polybius's disposition; Livy in particular is generally treated as
+    rhetorically inflated where troop counts are concerned.
+
+  - **Modern reconstructions** typically estimate ~30,000–40,000 infantry
+    on each side. Hoyos (2003) treats both armies as roughly comparable in
+    size; Goldsworthy (2003) similarly. The cavalry advantage — about 2:1
+    in Rome's favor — is the figure the sources agree on and the one
+    that mattered.
+
+  The substantive point is that the cavalry asymmetry, not the infantry
+  count, decided the battle.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.3, 15.9"
+    passage_summary: >
+      Polybius reports Tychaeus's 2,000 Numidian cavalry joining Hannibal
+      and describes the combined Roman-Numidian cavalry as substantially
+      larger; he gives no explicit infantry total.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "30.29, 30.32"
+    passage_summary: >
+      Livy gives explicit troop figures that conflict with both Polybius
+      and with one another across passages; treated cautiously by modern
+      scholarship.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos treats the armies as roughly comparable in infantry strength
+      and emphasizes the cavalry imbalance as the operative factor.
+entities:
+  - type: event
+    slug: battle-of-zama
+    role: subject

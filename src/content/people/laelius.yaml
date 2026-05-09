@@ -1,0 +1,27 @@
+slug: laelius
+name_display: Gaius Laelius
+name_latin: Gaius Laelius
+birth:
+  value: -235
+  precision: decade
+  circa: true
+death:
+  value: -160
+  precision: year
+  circa: true
+roles:
+  - general
+  - consul
+  - cavalry commander
+polity: Rome
+summary: >
+  Roman commander, lifelong friend and lieutenant of Scipio Africanus. Served
+  with Scipio throughout the Iberian campaign (210–206 BCE) and in the African
+  expedition that ended the Second Punic War. At Zama, Laelius commanded the
+  Roman cavalry on the left wing while Masinissa commanded the Numidian horse
+  on the right; their joint pursuit and return-charge into Hannibal's third
+  line was the battle's decisive maneuver. Reached the consulship in 190 BCE.
+  Polybius, who interviewed Laelius for his account of the war, treats him as
+  a principal source for Scipio's African campaign — making Laelius's testimony
+  one of the few cases where a participant's voice reaches us through a reliable
+  intermediary.

@@ -1,0 +1,57 @@
+slug: zama-hannibal-scipio-parley
+statement: >
+  Hannibal and Scipio met in person before the battle and exchanged speeches
+  through interpreters, with Hannibal proposing peace terms that Scipio
+  rejected.
+confidence: contested
+scholarly_consensus: >
+  That a parley occurred is generally accepted; that the speeches preserved
+  in Polybius and Livy are anything close to verbatim is not. The encounter
+  is most plausibly read as historical, the dialogue as Polybian literary
+  composition shaped by speech-writing convention.
+dispute_summary: |
+  The meeting is reported by both Polybius (15.6–8) and Livy (30.30–31), at
+  considerable length, with extended speeches by both commanders. Modern
+  scholarship typically treats the encounter as historical fact but the
+  speeches as literary reconstruction:
+
+  - Polybius wrote partly from interviews with Laelius, who would have
+    known whether such a meeting occurred. The fact of a parley is therefore
+    well-grounded.
+  - The verbatim dialogue is a different matter. Greco-Roman historiography
+    routinely composes speeches in character to dramatize a moment; Polybius
+    himself stated principles for doing so. The speeches at Zama follow the
+    convention.
+  - Some skeptics question whether the meeting happened at all, treating it
+    as a literary doublet of the negotiations that followed the battle.
+
+  The site treats the parley as historically likely and the speeches as
+  Polybian literary reconstruction.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.6-8"
+    passage_summary: >
+      Polybius narrates a face-to-face meeting before the battle, with
+      Hannibal proposing terms Scipio judges insufficient.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.30-31"
+    passage_summary: >
+      Livy reproduces the meeting with elaborated speeches in the Latin
+      historiographic tradition.
+  - source: hoyos-hannibal-2003
+    stance: qualifies
+    passage_summary: >
+      Hoyos accepts the meeting as historical while treating the speeches
+      as literary composition.
+entities:
+  - type: event
+    slug: battle-of-zama
+    role: context
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: person
+    slug: scipio-africanus
+    role: subject

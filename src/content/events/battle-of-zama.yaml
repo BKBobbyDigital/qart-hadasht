@@ -12,8 +12,17 @@ participants:
   - person: hannibal-barca
     role: commander
     side: Carthaginian
+  - person: hasdrubal-gisco
+    role: subordinate commander
+    side: Carthaginian
+  - person: tychaeus
+    role: cavalry commander
+    side: Carthaginian (Numidian ally)
   - person: scipio-africanus
     role: commander
+    side: Roman
+  - person: laelius
+    role: cavalry commander
     side: Roman
   - person: masinissa
     role: cavalry commander

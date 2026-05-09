@@ -1,0 +1,38 @@
+slug: zama-maniple-innovation
+statement: >
+  Scipio departed from standard Roman manipular deployment by aligning his
+  maniples in straight columns with open lanes, rather than the usual
+  staggered (quincunx) arrangement, so that Hannibal's elephants could be
+  channeled through the lanes without disrupting the Roman line.
+confidence: attested
+scholarly_consensus: >
+  Treated as one of the canonical examples of Roman tactical adaptation. The
+  innovation is explicitly described by Polybius and reproduced in essentially
+  every modern military history of the battle.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "15.9"
+    passage_summary: >
+      Polybius describes Scipio drawing up his maniples with the maniples of
+      the principes directly behind those of the hastati — leaving open lanes
+      from front to rear — rather than in the usual staggered formation.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "30.33"
+    passage_summary: >
+      Livy reproduces the same disposition, with the maniples arranged so as
+      to leave passages for the elephants.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos treats the deployment as a deliberate tactical answer to the
+      elephant threat and credits it with neutralizing what Hannibal had
+      hoped would disorder the Roman line.
+entities:
+  - type: person
+    slug: scipio-africanus
+    role: subject
+  - type: event
+    slug: battle-of-zama
+    role: context
