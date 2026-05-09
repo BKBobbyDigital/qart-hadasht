@@ -22,6 +22,15 @@ principal_sources:
   - polybius-histories
   - livy-auc
   - appian-punica
+related_events:
+  - event: treaty-of-lutatius
+    relation: matched pair (war-ending treaty)
+    notes: >
+      The Treaty of 201 and the Treaty of Lutatius (241 BCE) are the
+      two Roman-dictated peace settlements that ended the First and
+      Second Punic Wars. Each produced structural conditions that
+      shaped the next phase of the Carthaginian-Roman relationship
+      in ways the treaties' parties did not fully anticipate.
 summary: >
   The peace treaty that ended the Second Punic War. Negotiated in the months
   after Zama, the terms were dictated by Rome and ratified, by Polybius's

@@ -1,0 +1,32 @@
+slug: lutatius-treaty-original-terms
+statement: >
+  The treaty originally negotiated between Lutatius and Hamilcar in
+  the spring of 241 BCE imposed: Carthaginian evacuation of Sicily;
+  return of all Roman prisoners without ransom; an indemnity of
+  2,200 talents over twenty years; and an undertaking by neither
+  side to attack the other's allies.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in Polybius. The original terms are generally
+  read by modern scholarship as relatively moderate by the standards
+  of Roman post-war settlements, especially in comparison with the
+  stiffer ratified version that followed.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.62"
+    passage_summary: >
+      Polybius lists the original terms negotiated between Lutatius
+      and Hamilcar before the treaty's transmission to Rome for
+      ratification.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the original terms as the product of two
+      commanders both wishing to end the war on terms each could
+      defend at home, and treats the subsequent Roman stiffening as
+      a separate political event.
+entities:
+  - type: event
+    slug: treaty-of-lutatius
+    role: subject

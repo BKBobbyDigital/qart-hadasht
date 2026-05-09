@@ -1,0 +1,53 @@
+slug: treaty-of-lutatius
+name: Treaty of Lutatius (241 BCE)
+type: treaty
+date_start:
+  value: -241
+  precision: year
+  notes: >
+    Initial terms negotiated by Lutatius and Hamilcar in the spring
+    of 241 BCE; ratified at Rome with stiffer provisions later in
+    the same year.
+place: carthage
+participants:
+  - person: lutatius-catulus
+    role: principal negotiator
+    side: Roman
+  - person: hamilcar-barca
+    role: principal negotiator
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+related_events:
+  - event: treaty-of-201-bce
+    relation: matched pair (war-ending treaty)
+    notes: >
+      The Treaty of Lutatius and the Treaty of 201 BCE are the
+      principal Roman-dictated peace settlements of the Punic Wars.
+      Both produced subsequent strategic conditions that the
+      treaties' immediate parties did not fully anticipate.
+summary: >
+  The peace settlement that ended the First Punic War. Negotiated in
+  the spring of 241 BCE between Lutatius and Hamilcar Barca after the
+  Aegates defeat had made continued Carthaginian resistance
+  impractical, the original treaty was relatively moderate by the
+  standards of Roman post-war settlements: Carthage to evacuate
+  Sicily, return Roman prisoners without ransom, refrain from
+  attacking Roman allies (specifically including the Greek cities
+  newly aligned with Rome), and pay a war indemnity of 2,200
+  talents over twenty years. The Roman senate and comitia, on
+  ratification, stiffened the terms substantially: the indemnity
+  rose to 3,200 talents to be paid over ten years (with a portion
+  paid immediately), the territorial concession was extended to
+  include the Lipari Islands as well as Sicily, and provisions
+  were added regulating Carthaginian movement in the central
+  Mediterranean. Three years later, taking advantage of the
+  Carthaginian collapse during the Mercenary War, Rome would
+  unilaterally extort Sardinia and an additional 1,200 talents
+  from Carthage on a manufactured pretext, an act Polybius
+  himself identifies as the deepest cause of the Second Punic
+  War. The Treaty of Lutatius as ratified, and as subsequently
+  augmented in 238 BCE, set the structural conditions for the
+  next half-century of Carthaginian-Roman relations.

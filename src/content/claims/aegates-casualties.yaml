@@ -1,0 +1,30 @@
+slug: aegates-casualties
+statement: >
+  Polybius reports approximately 50 Carthaginian ships sunk and 70
+  captured at the Aegates, with crews taken prisoner. Roman losses
+  were substantially smaller: ~30 ships sunk and ~50 disabled.
+confidence: attested
+scholarly_consensus: >
+  Universally cited Polybian figures. Modern scholarship treats them
+  as approximate but not seriously inflated, given the Carthaginian
+  fleet's structural disadvantages and the asymmetry visible in
+  outcomes.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.61"
+    passage_summary: >
+      Polybius gives the figures of approximately 50 Carthaginian
+      ships sunk, 70 captured, and 10,000 Carthaginian sailors taken
+      prisoner; Roman losses are listed lower, at ~30 ships sunk
+      and ~50 disabled.
+  - source: diodorus-library
+    stance: qualifies
+    passage_ref: "24.11"
+    passage_summary: >
+      Diodorus's surviving figures are broadly consistent with
+      Polybius but less detailed.
+entities:
+  - type: event
+    slug: battle-of-aegates-islands
+    role: subject

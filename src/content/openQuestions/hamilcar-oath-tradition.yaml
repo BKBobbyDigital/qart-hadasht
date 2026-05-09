@@ -1,0 +1,83 @@
+slug: hamilcar-oath-tradition
+question: >
+  Did the young Hannibal swear an oath of eternal enmity to Rome at
+  Hamilcar's altar before the Iberian expedition, and if so, what
+  exactly was sworn?
+why_unknown: >
+  The oath story is among the most famous in ancient warfare and is
+  preserved in multiple sources, but its exact content varies, the
+  earliest preserved version is decades after the fact, and modern
+  scholarship is divided on whether the episode is historical
+  reportage or later literary tradition that crystallized around
+  Hamilcar's well-attested anti-Roman feeling after the 238 BCE
+  Sardinian seizure.
+evidence_summary: >
+  The principal sources are Polybius 3.11 (Hannibal himself recounts
+  the oath to Antiochus III), Livy 21.1 (the same story preserved
+  with rhetorical elaboration), and Cornelius Nepos *Hannibal* 2.
+  Polybius's version is the earliest and most restrained: Hamilcar,
+  preparing to depart for Iberia in 237 BCE, took the nine-year-old
+  Hannibal to an altar (almost certainly of Melqart) and made him
+  swear never to be a friend to Rome. Polybius reports that
+  Hannibal told this story to Antiochus III decades later. Livy
+  preserves a more elaborate version with the formula "I swear to
+  be the eternal enemy of Rome" or similar.
+candidate_answers:
+  - answer: The oath story is substantially historical
+    arguments_for: >
+      Polybius's version is restrained, plausible in family-religious
+      terms (Carthaginian altars at Melqart sanctuaries are
+      well-attested for personal oaths), and reaches Polybius via
+      Hannibal himself. The story coheres with the post-238 Barcid
+      anti-Roman direction without being so dramatic that ancient
+      readers would have suspected literary invention.
+    arguments_against: >
+      The story comes to us through Hannibal's later self-narration,
+      delivered to Antiochus III at a moment when Hannibal had
+      every political reason to dramatize his anti-Roman commitment.
+      Polybius's restraint does not by itself make the underlying
+      event historical.
+    held_by: The dominant view in modern scholarship; defended by
+      Hoyos and others on grounds of source quality.
+  - answer: An oath occurred but the dramatic content is later embroidery
+    arguments_for: >
+      The basic premise (a Carthaginian altar, a nine-year-old taken
+      by his father, a religious pledge before the Iberian
+      expedition) is plausible. The specific words Livy preserves are
+      less so, and may represent later Latin rhetorical
+      crystallization of a more prosaic underlying event.
+    arguments_against: >
+      Splits the difference unsatisfyingly. If Polybius's restraint
+      is to be trusted, what we have is roughly what occurred; if
+      the story is literary, it is fully literary.
+    held_by: A common cautious modern position; not strongly defended
+      as a primary view.
+  - answer: The oath story is later literary tradition
+    arguments_for: >
+      Ancient historiography routinely manufactures dramatic origin
+      stories for major historical figures' lifelong projects. The
+      "young Hannibal sworn to enmity" template fits a recognizable
+      genre and may have crystallized in the post-Cannae period
+      when Roman writers (and possibly Hannibal himself, in his
+      Antiochene exile) had reason to construct such an origin story.
+    arguments_against: >
+      Polybius's source is direct (Hannibal himself, via the
+      Antiochene court). The skeptical reading requires the rejection
+      of one of the most direct lines of attestation we have for
+      any episode in Hannibal's early life.
+    held_by: A minority skeptical position.
+relevant_entities:
+  - type: person
+    slug: hamilcar-barca
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: treaty-of-lutatius
+    role: context
+what_would_resolve_this: >
+  Probably nothing. The episode is at the limit of what the surviving
+  evidence can settle. Most modern scholarship is comfortable
+  treating Polybius's version as historically defensible while
+  acknowledging that its exact content is unrecoverable.

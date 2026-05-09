@@ -1,0 +1,34 @@
+slug: aegates-tactical-engagement
+statement: >
+  Lutatius engaged the Carthaginian fleet at the Aegates in a brisk
+  wind that the Romans had drilled their crews to exploit, while
+  the Carthaginian fleet's loaded condition and inexperienced
+  oarsmanship turned the same conditions against them. The
+  engagement was decided in approximately one morning.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.60-61"
+    passage_summary: >
+      Polybius describes the wind, the Roman tactical preparation
+      against just this kind of engagement, the rapid disorganization
+      of the Carthaginian line, and the short duration of the battle
+      itself.
+  - source: diodorus-library
+    stance: qualifies
+    passage_ref: "24.11"
+    passage_summary: >
+      Diodorus's surviving account is brief but consistent with
+      Polybius on the principal points.
+entities:
+  - type: event
+    slug: battle-of-aegates-islands
+    role: context
+notes: >
+  The recovery of bronze warship rams from the seabed in this area
+  since 2010 has produced one of the few cases in classical naval
+  history where a major battle's site has been physically located
+  and substantially attested archaeologically. The rams' inscriptions
+  (in both Latin and Punic) confirm both the location and the
+  identification with the Aegates engagement.

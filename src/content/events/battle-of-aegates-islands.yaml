@@ -1,0 +1,54 @@
+slug: battle-of-aegates-islands
+name: Battle of the Aegates Islands
+type: battle
+date_start:
+  value: -241
+  precision: exact
+  notes: >
+    10 March 241 BCE in the traditional Roman calendar (Polybius
+    1.59-61 with Ovid Fasti). The battle is one of the few
+    engagements of the Punic Wars for which a specific calendar
+    date is preserved.
+place: aegates-islands
+participants:
+  - person: lutatius-catulus
+    role: commander
+    side: Roman
+  - person: hanno-aegates
+    role: commander
+    side: Carthaginian
+  - person: hamilcar-barca
+    role: theater commander (Sicily, land forces)
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+related_events:
+  - event: battle-of-zama
+    relation: matched pair (war-ending naval battle / war-ending land battle)
+    notes: >
+      The Aegates and Zama bookend the First and Second Punic Wars
+      respectively, each producing a surrender and a treaty
+      negotiated under Roman terms.
+summary: >
+  The decisive naval engagement that ended the First Punic War. After
+  twenty-three years of fighting, Rome had constructed a new fleet of
+  approximately 200 quinqueremes financed by private subscription
+  from wealthy citizens, the treasury being depleted. The Roman
+  consul Gaius Lutatius Catulus took command of the new fleet in
+  the summer of 242 BCE and operated it off western Sicily through
+  the autumn and winter, blockading the Carthaginian-held ports and
+  drilling his crews in conditions where Carthage could not contest
+  him at sea. Carthage assembled a relief fleet under Hanno through
+  the winter, intending to resupply Hamilcar Barca's land forces at
+  Mount Eryx and then take on Lutatius with experienced rowers
+  detached from Hamilcar's army. Hanno arrived first. Lutatius
+  intercepted him in the channel between the Aegates Islands and
+  the Sicilian coast on 10 March 241 BCE. The Carthaginian ships,
+  weighted with supplies and crewed by inexperienced rowers, were
+  defeated decisively. Polybius reports approximately 50 Carthaginian
+  ships sunk and 70 captured; the Roman losses were substantially
+  smaller. The defeat eliminated Carthaginian capacity to continue
+  the war and produced direct negotiations between Lutatius and
+  Hamilcar that became the Treaty of Lutatius.

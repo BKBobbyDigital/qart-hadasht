@@ -1,0 +1,22 @@
+slug: aegates-to-treaty-lutatius
+cause: battle-of-aegates-islands
+effect: treaty-of-lutatius
+relation: led directly to
+confidence: attested
+mechanism: |
+  The Aegates defeat eliminated Carthaginian capacity to resupply
+  Hamilcar's land forces in Sicily and to contest the central
+  Mediterranean at sea. With supply lines severed and no realistic
+  prospect of relieving Sicily, the Carthaginian government
+  authorized Hamilcar to negotiate terms. Lutatius and Hamilcar
+  met directly, in keeping with the practice of commanders settling
+  immediate post-battle terms before referral home for ratification.
+  The causal connection is direct, attested, and undisputed.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.62"
+    passage_summary: >
+      Polybius narrates the negotiations as the immediate consequence
+      of the Aegates defeat, with both commanders treating the
+      strategic situation as having been settled by the engagement.

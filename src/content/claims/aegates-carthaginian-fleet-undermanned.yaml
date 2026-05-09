@@ -1,0 +1,37 @@
+slug: aegates-carthaginian-fleet-undermanned
+statement: >
+  The Carthaginian relief fleet at the Aegates Islands was hastily
+  assembled, weighted with supplies for Hamilcar's army in Sicily, and
+  crewed by inexperienced rowers. Its plan was to drop the supplies,
+  embark Hamilcar's veteran troops as marines, and then engage the
+  Roman fleet at full strength. The Roman interception denied that
+  sequence.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in Polybius. The structural inadequacy of the
+  Carthaginian fleet at the Aegates is a standard feature in modern
+  accounts and explains the lopsided outcome of an engagement that
+  on paper might have been more even.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.60"
+    passage_summary: >
+      Polybius describes the Carthaginian plan, the inadequacy of
+      the fleet's preparation, and the strategic reasoning behind
+      Hanno's attempt to reach Hamilcar before engaging.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the Carthaginian preparation as a function of the
+      city's exhausted naval capacity by 242-241 BCE; the Roman
+      buildup had not been matched in Carthage, where the financial
+      and demographic resources for new fleet construction had been
+      consumed earlier in the war.
+entities:
+  - type: event
+    slug: battle-of-aegates-islands
+    role: context
+  - type: person
+    slug: hanno-aegates
+    role: subject

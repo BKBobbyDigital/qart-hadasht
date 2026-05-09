@@ -1,0 +1,31 @@
+slug: aegates-roman-fleet-private-subscription
+statement: >
+  The Roman fleet that won at the Aegates Islands was financed by private
+  subscription from wealthy Roman citizens, the public treasury being
+  depleted after twenty-three years of war.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested in Polybius and treated by modern scholarship as a
+  distinctive moment in Roman fiscal history: a war-effort sustained
+  by what amounted to interest-free loans from the senatorial
+  aristocracy on the security of victory.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.59"
+    passage_summary: >
+      Polybius states explicitly that the Roman state could no longer
+      bear the cost and that the fleet was equipped through private
+      contributions from individual citizens, with the understanding
+      that they would be repaid if the state could afford it.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos treats the private financing as evidence of how close to
+      its limits the Roman war effort had been pushed by 243-242 BCE,
+      and as a structural precedent for the kinds of senatorial
+      capital mobilization that would recur in later Roman wars.
+entities:
+  - type: event
+    slug: battle-of-aegates-islands
+    role: context

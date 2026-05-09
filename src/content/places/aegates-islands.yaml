@@ -1,0 +1,32 @@
+slug: aegates-islands
+name_display: Aegates Islands
+names_alt:
+  greek: Αἰγάται νῆσοι (Aigatai nēsoi, "goat islands")
+  latin: Aegates Insulae
+  modern: Egadi Islands (Favignana, Levanzo, Marettimo), Sicily
+type: island
+primary:
+  label: Aegates archipelago (waters off western Sicily)
+  lat: 37.9333
+  lon: 12.3333
+  confidence: certain
+  notes: >
+    The actual battle was fought in the channel between the islands
+    and the western coast of Sicily, with the Carthaginian fleet
+    approaching from the open sea and Lutatius's Roman fleet stationed
+    to intercept. Underwater archaeology since the early 2010s has
+    recovered a substantial number of bronze warship rams and
+    anchor stocks from the seabed in this area, allowing the
+    battlefield to be located more precisely than for almost any
+    other ancient naval engagement.
+modern_location: Egadi Islands, Province of Trapani, Sicily, Italy
+summary: >
+  Small archipelago off the western coast of Sicily, ~10 km from the
+  coast at Trapani (ancient Drepana). The three principal islands are
+  Favignana (ancient Aegusa), Levanzo (Phorbantia), and Marettimo
+  (Hiera). The waters between the islands and the Sicilian mainland
+  were the site of the decisive naval engagement that ended the First
+  Punic War on 10 March 241 BCE. Underwater archaeology has recovered
+  bronze warship rams and other materials from the battle, making the
+  Aegates the most archaeologically substantiated naval battlefield of
+  classical antiquity.

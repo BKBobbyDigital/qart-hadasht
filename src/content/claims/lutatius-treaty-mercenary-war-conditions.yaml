@@ -1,0 +1,38 @@
+slug: lutatius-treaty-mercenary-war-conditions
+statement: >
+  The Treaty of Lutatius set the financial conditions that produced
+  the Mercenary War (241–237 BCE): the indemnity payment schedule
+  forced Carthage to delay paying off its mercenary armies, who
+  revolted when they finally arrived back in Africa expecting
+  immediate compensation.
+confidence: inferred
+scholarly_consensus: >
+  Strong; the standard reading in modern scholarship of the causal
+  link between the post-war Carthaginian fiscal situation and the
+  Mercenary War. The connection is suggested in Polybius and
+  developed explicitly in modern accounts.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.66-67"
+    passage_summary: >
+      Polybius narrates the Mercenary War as beginning with the
+      mercenary contingents' assembly at Carthage and the breakdown
+      of negotiations over back pay; he traces the financial
+      pressure to the indemnity Carthage owed Rome.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos treats the connection as structural: the Lutatius
+      indemnity, especially as stiffened on ratification, denied
+      Carthage the fiscal flexibility to settle the mercenaries
+      promptly and so produced the conditions for the revolt.
+notes: >
+  This is an inferred causal claim from the structural facts (the
+  indemnity, the mercenary back-pay problem, the timing of the
+  revolt). The Mercenary War itself is the next event slice on the
+  site's roadmap.
+entities:
+  - type: event
+    slug: treaty-of-lutatius
+    role: context

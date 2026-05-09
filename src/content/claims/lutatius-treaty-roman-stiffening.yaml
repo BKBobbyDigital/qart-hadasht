@@ -1,0 +1,32 @@
+slug: lutatius-treaty-roman-stiffening
+statement: >
+  The Roman senate and comitia stiffened the Treaty of Lutatius on
+  ratification, raising the indemnity from 2,200 talents over twenty
+  years to 3,200 talents over ten (with a portion paid immediately),
+  and adding the Lipari Islands to the territorial concession.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. Modern scholarship treats the Roman stiffening as
+  a politically significant act, partly because of how it positioned
+  Rome to extort additional concessions during the Carthaginian
+  Mercenary War a few years later.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.63, 3.27"
+    passage_summary: >
+      Polybius records the Roman ratification process and the
+      stiffened terms in 1.63, and returns to the topic in 3.27 in
+      his discussion of the causes of the Second Punic War, where
+      he treats the post-war Roman conduct toward Carthage as part
+      of a longer pattern leading to renewed conflict.
+notes: >
+  The 1,200 additional talents and the seizure of Sardinia in 238 BCE
+  are technically a separate event (treated below in the open
+  question on the post-Aegates Roman conduct toward Carthage), but
+  the stiffening of the original Lutatius treaty is the first move
+  in that sequence.
+entities:
+  - type: event
+    slug: treaty-of-lutatius
+    role: subject
