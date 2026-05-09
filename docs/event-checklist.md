@@ -58,15 +58,15 @@ on the physical city; everything cross-cutting goes here.
 
 - [x] **Punic religion** — Baal Hammon, Tanit, Melqart, Eshmun, the pantheon
 - [x] **The Tophet question** — the infant-sacrifice debate
-- [ ] **Daily life in Carthage** — housing, food, dress, family, work
-- [ ] **Punic language and script** — alphabet, inscriptions, script on coins
-- [ ] **Carthaginian seafaring and trade** — networks, harbors, Phoenician inheritance
-- [ ] **Carthaginian agriculture** — Mago's lost treatise, the African hinterland
-- [ ] **Punic identity** — Quinn's challenge: what "Phoenician/Punic" meant
-- [ ] **Art and material culture** — stelae, mosaics, jewelry, terracottas
-- [ ] **Slavery and labor** — what we know and largely don't
-- [ ] **Women and family** — Sophonisba, attested practice, gaps in record
-- [ ] **Carthaginian economy** — coinage, tribute, indemnities, silver
+- [x] **Daily life in Carthage** — housing, food, dress, family, work
+- [x] **Punic language and script** — alphabet, inscriptions, script on coins
+- [x] **Carthaginian seafaring and trade** — networks, harbors, Phoenician inheritance
+- [x] **Carthaginian agriculture** — Mago's lost treatise, the African hinterland
+- [x] **Punic identity** — Quinn's challenge: what "Phoenician/Punic" meant
+- [x] **Art and material culture** — stelae, mosaics, jewelry, terracottas
+- [x] **Slavery and labor** — what we know and largely don't
+- [x] **Women and family** — Sophonisba, attested practice, gaps in record
+- [x] **Carthaginian economy** — coinage, tribute, indemnities, silver
 
 ### Institutions (formal civic/political bodies)
 
