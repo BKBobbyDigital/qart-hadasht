@@ -19,6 +19,24 @@ const fmtDate = (date: any) => {
   const era = date.value < 0 ? 'BCE' : 'CE';
   return `${date.circa ? 'c. ' : ''}${year} ${era}`;
 };
+
+// Reverse lookup: events where this person is a participant
+const allEvents = await getCollection('events');
+const referencingEvents = allEvents
+  .filter((e) =>
+    (e.data.participants ?? []).some((p: any) => p.person.id === person.id)
+  )
+  .map((e) => {
+    const participation = e.data.participants.find((p: any) => p.person.id === person.id);
+    return { event: e, role: participation?.role, side: participation?.side };
+  })
+  .sort((a, b) => a.event.data.date_start.value - b.event.data.date_start.value);
+
+// Reverse lookup: claims referencing this person via entities
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'person' && e.slug === person.id)
+);
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
@@ -49,5 +67,44 @@ const fmtDate = (date: any) => {
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
       <p>{d.summary}</p>
     </div>
+
+    {referencingEvents.length > 0 && (
+      <section class="mt-12 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Events</h2>
+        <ul class="space-y-2">
+          {referencingEvents.map((entry) => (
+            <li class="flex items-baseline gap-3">
+              <span class="text-sm text-sand-700 shrink-0 tabular-nums w-20">
+                {Math.abs(entry.event.data.date_start.value)} BCE
+              </span>
+              <div class="flex-1">
+                <a href={`/events/${entry.event.id}`} class="text-tyrian-700 hover:underline font-serif">
+                  {entry.event.data.name}
+                </a>
+                {entry.role && (
+                  <p class="text-xs text-sand-700 mt-0.5">
+                    {entry.role}{entry.side ? ` · ${entry.side}` : ''}
+                  </p>
+                )}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {referencingClaims.length > 0 && (
+      <section class="mt-10 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Mentioned in claims</h2>
+        <ul class="space-y-2">
+          {referencingClaims.map((c) => (
+            <li class="text-sm">
+              <p class="text-sand-900">{c.data.statement}</p>
+              <p class="text-xs text-sand-700 mt-0.5 uppercase tracking-wider">{c.data.confidence}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </article>
 </BaseLayout>

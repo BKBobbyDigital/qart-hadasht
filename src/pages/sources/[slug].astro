@@ -18,6 +18,14 @@ const allClaims = await getCollection('claims');
 const claimsCiting = allClaims.filter((c) =>
   c.data.sources.some((s: any) => s.source.id === source.id)
 );
+
+// Find events that list this source as a principal narrator
+const allEvents = await getCollection('events');
+const eventsUsingAsPrincipal = allEvents
+  .filter((e) =>
+    (e.data.principal_sources ?? []).some((s: any) => s.id === source.id)
+  )
+  .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
 ---
 
 <BaseLayout title={d.title} description={d.summary}>
@@ -66,6 +74,24 @@ const claimsCiting = allClaims.filter((c) =>
             {d.public_domain_translation.translator} ({d.public_domain_translation.year}) — read at Perseus →
           </a>
         </p>
+      </section>
+    )}
+
+    {eventsUsingAsPrincipal.length > 0 && (
+      <section class="mt-12">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Principal source for</h2>
+        <ul class="space-y-2">
+          {eventsUsingAsPrincipal.map((e) => (
+            <li class="flex items-baseline gap-3">
+              <span class="text-sm text-sand-700 shrink-0 tabular-nums w-20">
+                {Math.abs(e.data.date_start.value)} BCE
+              </span>
+              <a href={`/events/${e.id}`} class="text-tyrian-700 hover:underline font-serif">
+                {e.data.name}
+              </a>
+            </li>
+          ))}
+        </ul>
       </section>
     )}
 
