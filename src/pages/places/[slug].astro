@@ -82,7 +82,7 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
     )}
 
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      <p>{d.summary}</p>
+      {d.summary.split(/\n\n+/).map((para: string) => <p>{para}</p>)}
     </div>
 
     {mapPoints.length > 0 && (
