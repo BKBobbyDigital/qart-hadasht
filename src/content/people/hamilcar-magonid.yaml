@@ -24,6 +24,8 @@ death:
 roles:
   - general
 polity: Carthage
+referenced_themes:
+  - punic-religion
 summary: >
   Carthaginian general of the Magonid family who commanded the
   Carthaginian invasion of Sicily in 480 BCE that ended in the

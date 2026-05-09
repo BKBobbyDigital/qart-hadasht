@@ -82,6 +82,18 @@ const people = defineCollection({
     roles: z.array(z.string()),
     polity: z.string().optional(), // "Carthage", "Rome", "Numidia", ...
     summary: z.string(),
+    /**
+     * Institutions this person is substantively connected to (offices held,
+     * bodies they reformed or led, sacred precincts they were associated with).
+     * Bidirectional rendering with reverse-lookup on the institution page.
+     */
+    referenced_institutions: z.array(reference('institutions')).default([]),
+    /**
+     * Themes this person is substantively connected to (Hannibal → Carthaginian
+     * economy via his suffete reforms; Dido → Punic identity via the foundation
+     * tradition). Bidirectional rendering.
+     */
+    referenced_themes: z.array(reference('themes')).default([]),
   }),
 });
 

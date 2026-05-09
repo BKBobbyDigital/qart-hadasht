@@ -31,6 +31,14 @@ const referencingEvents = allEvents
     (e.data.referenced_institutions ?? []).some((ref: any) => ref.id === institution.id)
   )
   .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
+
+// Reverse lookup: people who reference this institution
+const allPeople = await getCollection('people');
+const referencingPeople = allPeople
+  .filter((p) =>
+    (p.data.referenced_institutions ?? []).some((ref: any) => ref.id === institution.id)
+  )
+  .sort((a, b) => a.data.name_display.localeCompare(b.data.name_display));
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
@@ -76,6 +84,22 @@ const referencingEvents = allEvents
               <a href={`/events/${e.id}`} class="text-tyrian-700 hover:underline font-serif">
                 {e.data.name}
               </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {referencingPeople.length > 0 && (
+      <section class="mt-12 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Associated people</h2>
+        <ul class="space-y-2">
+          {referencingPeople.map((p) => (
+            <li>
+              <a href={`/people/${p.id}`} class="text-tyrian-700 hover:underline font-serif">
+                {p.data.name_display}
+              </a>
+              {p.data.polity && <span class="text-xs text-sand-700 ml-2">{p.data.polity}</span>}
             </li>
           ))}
         </ul>

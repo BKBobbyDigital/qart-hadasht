@@ -17,6 +17,9 @@ roles:
   - statesman
   - orator
 polity: Rome
+referenced_themes:
+  - carthaginian-economy
+  - carthaginian-agriculture
 summary: >
   Roman consul of 195 BCE, censor of 184 BCE, and the most
   insistent senatorial advocate for the destruction of Carthage

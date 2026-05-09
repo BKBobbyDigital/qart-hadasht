@@ -19,6 +19,8 @@ death:
 roles:
   - general
 polity: Carthage
+referenced_institutions:
+  - carthaginian-senate
 summary: >
   Carthaginian commander during the Agathocles crisis. With most of
   Carthage's experienced field force in Sicily under Hamilcar son of

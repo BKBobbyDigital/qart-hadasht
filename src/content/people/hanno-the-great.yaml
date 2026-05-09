@@ -17,6 +17,9 @@ roles:
   - general
   - statesman
 polity: Carthage
+referenced_institutions:
+  - carthaginian-senate
+  - council-of-104
 summary: >
   Major Carthaginian aristocrat and political figure of the
   late-third-century BCE, leader of the senatorial faction

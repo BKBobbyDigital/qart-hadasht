@@ -25,6 +25,10 @@ roles:
   - general
   - statesman
 polity: Carthage
+referenced_institutions:
+  - carthaginian-senate
+referenced_themes:
+  - carthaginian-economy
 summary: >
   Carthaginian general and statesman, founder of the Barcid family
   whose three-generation arc dominated Carthaginian political and

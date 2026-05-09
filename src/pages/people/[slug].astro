@@ -37,6 +37,15 @@ const allClaims = await getCollection('claims');
 const referencingClaims = allClaims.filter((c) =>
   (c.data.entities ?? []).some((e: any) => e.type === 'person' && e.slug === person.id)
 );
+
+// Resolve referenced institutions and themes (if any)
+const { getEntry } = await import('astro:content');
+const personInstitutions = await Promise.all(
+  (d.referenced_institutions ?? []).map(async (ref: any) => await getEntry('institutions', ref.id))
+);
+const personThemes = await Promise.all(
+  (d.referenced_themes ?? []).map(async (ref: any) => await getEntry('themes', ref.id))
+);
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
@@ -90,6 +99,40 @@ const referencingClaims = allClaims.filter((c) =>
             </li>
           ))}
         </ul>
+      </section>
+    )}
+
+    {(personInstitutions.filter(Boolean).length > 0 || personThemes.filter(Boolean).length > 0) && (
+      <section class="mt-10 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Civilization context</h2>
+        <div class="grid sm:grid-cols-2 gap-3">
+          {personInstitutions.filter(Boolean).length > 0 && (
+            <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+              <h3 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Institutions</h3>
+              <ul class="space-y-2 text-sm">
+                {personInstitutions.filter(Boolean).map((i: any) => (
+                  <li>
+                    <a href={`/institutions/${i.id}`} class="font-serif text-tyrian-700 hover:underline">{i.data.name_display}</a>
+                    <p class="text-xs text-sand-700 mt-0.5">{i.data.type}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {personThemes.filter(Boolean).length > 0 && (
+            <div class="border border-sand-300 rounded-lg p-4 bg-sand-50">
+              <h3 class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-3">Themes</h3>
+              <ul class="space-y-2 text-sm">
+                {personThemes.filter(Boolean).map((t: any) => (
+                  <li>
+                    <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="font-serif text-tyrian-700 hover:underline">{t.data.title}</a>
+                    <p class="text-xs text-sand-700 mt-0.5">{t.data.scope.replace('_', ' ')}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
       </section>
     )}
 
