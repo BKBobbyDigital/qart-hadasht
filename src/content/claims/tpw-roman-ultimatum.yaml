@@ -1,0 +1,42 @@
+slug: tpw-roman-ultimatum
+statement: >
+  After Carthage surrendered 300 hostages and 200,000 panoplies
+  plus 2,000 catapults to Rome in 149 BCE, the Roman consuls
+  delivered a final ultimatum: the population must abandon the
+  city of Carthage entirely and resettle at least ten miles inland.
+  The ultimatum was structurally rejected by the Carthaginians and
+  formed the immediate trigger for the resistance the war
+  required.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested. The sequence of escalating Roman demands
+  (hostages, weapons, abandonment of the city) is preserved
+  consistently across Polybius's surviving fragments, Appian, and
+  the broader tradition. The ultimatum's deliberately impossible
+  character (a maritime commercial city ordered to relocate inland)
+  is treated by modern scholarship as the Roman mechanism for
+  ensuring that the destruction the senate had decided on would be
+  the war's outcome.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "36.4-7 (fragments)"
+    passage_summary: >
+      The surviving Polybian fragments preserve the surrender of
+      hostages and weapons and the demand for relocation,
+      treating the demand as deliberately calculated to produce
+      Carthaginian rejection.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 75-91"
+    passage_summary: >
+      Appian's continuous narrative gives the fullest account of
+      the negotiation, the surrender of weapons, the Roman
+      ultimatum, and the Carthaginian response (including the
+      famous detail of the Carthaginian envoys returning home and
+      the population's grief and rage when the ultimatum was
+      announced).
+entities:
+  - type: event
+    slug: third-punic-war
+    role: context

@@ -1,0 +1,47 @@
+slug: cato-delenda-est
+statement: >
+  Cato the Elder ended his senatorial speeches in the years before
+  the Third Punic War, on whatever subject, with a call for the
+  destruction of Carthage. The exact verbal formula is a later
+  reconstruction; the pattern of repetitive senatorial advocacy is
+  attested.
+confidence: attested
+scholarly_consensus: >
+  The pattern of Cato's repeated advocacy is firmly attested in
+  Plutarch and the broader Roman literary tradition. The specific
+  Latin formulation *Carthago delenda est* (or
+  *ceterum censeo Carthaginem esse delendam*) is a later
+  reconstruction; no contemporary source preserves the exact words
+  Cato used.
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Cato Maior 26-27"
+    passage_summary: >
+      Plutarch describes Cato's persistent advocacy and reports
+      the rhetorical-stylistic pattern: ending unrelated speeches
+      with the same call for Carthage's destruction. Plutarch does
+      not preserve the exact Latin formulation that later
+      tradition crystallized.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 69"
+    passage_summary: >
+      Appian preserves a different version of Cato's senatorial
+      argument, including the famous detail of Cato producing fresh
+      Carthaginian figs in the senate to dramatize the city's
+      proximity and prosperity.
+notes: >
+  The *delenda est* formulation became canonical in the Roman
+  literary tradition by the late Republic; it is reconstructed
+  from the pattern of Cato's behavior rather than directly
+  attested as his exact words. The substantive historical claim
+  (Cato's repeated advocacy) is firmly grounded; the verbal claim
+  (the precise Latin) is a later crystallization.
+entities:
+  - type: person
+    slug: cato-the-elder
+    role: subject
+  - type: event
+    slug: third-punic-war
+    role: context

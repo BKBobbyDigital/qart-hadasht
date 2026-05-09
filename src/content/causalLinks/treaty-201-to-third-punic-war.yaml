@@ -1,0 +1,47 @@
+slug: treaty-201-to-third-punic-war
+cause: treaty-of-201-bce
+effect: third-punic-war
+relation: set structural conditions for
+confidence: attested
+mechanism: |
+  The Treaty of 201 BCE prohibited Carthage from waging war
+  against Roman allies without Roman permission. Masinissa, having
+  been confirmed as Roman ally and given an expanded Numidian
+  kingdom by the same treaty, repeatedly encroached on
+  Carthaginian territory over the next half-century. Carthage's
+  appeals to Rome to enforce the treaty produced no action;
+  Carthage's eventual self-defense in 150 BCE was treated by Rome
+  as treaty violation and used as the legal pretext for the war
+  that destroyed the city.
+
+  The structural connection is direct and is the standard reading
+  in modern scholarship. Polybius (3.10, 36.2) treats the
+  Treaty's allied-protection clause as the mechanism by which
+  Roman policy was able to produce destruction without formal
+  Roman aggression: Carthage was structurally unable either to
+  defend itself or to acquiesce in continued Numidian
+  encroachment, and either response gave Rome a path to war.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.10, 36.2"
+    passage_summary: >
+      Polybius treats the structural connection between the
+      Treaty's terms and the final Carthaginian-Roman conflict
+      as central to understanding the war's causation.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 67-74"
+    passage_summary: >
+      Appian's narrative of the war's outbreak develops the same
+      structural reading: the Roman use of the Lutatius framework
+      (and its post-Zama re-articulation) as the legal mechanism
+      enabling the destruction.
+notes: >
+  The longer causal chain runs: Treaty of Lutatius (241) →
+  Sardinian seizure (238) → Treaty of 201 → Masinissa's
+  encroachments → Third Punic War. The single direct link
+  modeled here is from the Treaty of 201; the earlier links can be
+  added when the relevant events (the 238 BCE Sardinian seizure,
+  the post-201 Masinissa expansions) are built as their own
+  events.

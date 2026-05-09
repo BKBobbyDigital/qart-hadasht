@@ -1,0 +1,43 @@
+slug: tpw-final-assault-destruction
+statement: >
+  The final Roman assault on Carthage in spring 146 BCE produced
+  six days of street fighting through the city's residential
+  quarters before the surviving defenders surrendered on the
+  Byrsa hill. Scipio Aemilianus then ordered the systematic
+  destruction of the city: the buildings demolished, the
+  population enslaved, the site burned for seventeen days, the
+  ruins ploughed over to ensure the city could not be reoccupied.
+confidence: attested
+scholarly_consensus: >
+  The basic sequence (final assault, six days of fighting,
+  destruction, enslavement of survivors) is firmly attested.
+  Specific details (the seventeen-day burning, the ploughing of
+  the site) vary across the sources and are accepted by modern
+  scholarship in broad outline but with the standard caveats
+  about dramatic embellishment.
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 127-135"
+    passage_summary: >
+      Appian gives the fullest preserved narrative of the final
+      assault: Scipio's storming of the harbor walls, the six
+      days of street fighting through the residential quarters,
+      the surrender of the survivors on the Byrsa, the systematic
+      destruction of the buildings and the burning of the site.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "38.21-22 (fragments)"
+    passage_summary: >
+      Polybius's surviving fragments preserve eyewitness details
+      of the destruction, including the famous passage of
+      Scipio's tears at the burning city and the Homer quotation.
+notes: >
+  The number of survivors enslaved is given by Appian (Pun. 130)
+  as approximately 50,000. Modern scholarship treats this as
+  approximate; the order of magnitude is consistent with the
+  pre-war population estimates.
+entities:
+  - type: event
+    slug: third-punic-war
+    role: subject

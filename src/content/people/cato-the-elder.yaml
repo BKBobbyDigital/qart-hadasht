@@ -1,0 +1,56 @@
+slug: cato-the-elder
+name_display: Cato the Elder
+name_latin: Marcus Porcius Cato
+birth:
+  value: -234
+  precision: year
+death:
+  value: -149
+  precision: year
+  notes: >
+    Died at 85, in the same year that the war he had advocated
+    finally broke out, before the Roman declaration of war on
+    Carthage was formally voted.
+roles:
+  - consul
+  - censor
+  - statesman
+  - orator
+polity: Rome
+summary: >
+  Roman consul of 195 BCE, censor of 184 BCE, and the most
+  insistent senatorial advocate for the destruction of Carthage
+  in the years leading up to the Third Punic War. Cato had served
+  as a young military tribune in the late phase of the Second
+  Punic War, traveled to Carthage on a senatorial embassy in the
+  late 150s BCE, and reportedly returned shocked at the city's
+  recovery and continued prosperity. From that point until his
+  death in 149 BCE he made the destruction of Carthage a regular
+  feature of his senatorial speeches, ending unrelated speeches
+  on agriculture, religion, finance, and war alike with the
+  formulation tradition records as "moreover, I think Carthage
+  must be destroyed" (*ceterum censeo Carthaginem esse
+  delendam*). The exact wording varies across the sources;
+  Plutarch's *Cato* preserves the tradition with characteristic
+  detail.
+
+  Modern scholarship treats Cato's role as substantially historical
+  while flagging the *delenda est* formulation itself as
+  reconstructed. The pattern of repetitive senatorial advocacy is
+  attested. Whether Cato's persistent advocacy actually shaped the
+  Roman decision to destroy Carthage, or whether the decision was
+  driven by structural factors that Cato articulated rather than
+  caused, is treated separately as an editorial position on this
+  site.
+
+  Cato's broader career was substantially more than the
+  "Carthage must be destroyed" mantra: he was a major figure in
+  Roman political and cultural life, the author of the earliest
+  surviving Latin prose work (*De Agricultura*), an opponent of
+  Hellenizing trends in Roman culture, and a moralist whose
+  political-cultural program shaped Roman conservative thought for
+  centuries. The persona preserved in the surviving tradition
+  (the stern moralist, the relentless advocate for old Roman
+  virtues, the unwavering enemy of Carthage) is itself partly the
+  product of his own self-presentation in his speeches and
+  *Origines*.

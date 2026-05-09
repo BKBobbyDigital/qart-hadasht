@@ -1,0 +1,58 @@
+slug: tpw-polybius-eyewitness
+statement: >
+  Polybius was personally present at the destruction of Carthage in
+  146 BCE, traveling with Scipio Aemilianus as his intellectual
+  companion and eyewitness historian. The most famous moment of
+  the destruction tradition, Scipio weeping at the burning city
+  and reciting Homer's lines on the fall of Troy, comes to us
+  through Polybius's direct testimony in the surviving fragments
+  of *Histories* 38.21-22.
+confidence: attested
+scholarly_consensus: >
+  Firmly attested and treated by modern scholarship as the most
+  important single source-critical fact about the destruction
+  narrative. Polybius's eyewitness presence makes the Third Punic
+  War's surviving record exceptional in directly attested ancient
+  history; most ancient events of comparable significance are
+  preserved through sources writing decades or centuries later.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "38.21-22 (preserved in Appian Pun. 132 and elsewhere)"
+    passage_summary: >
+      Polybius's account of Scipio's tears and Homer-quotation
+      survives in fragmentary form preserved by Appian, who quotes
+      it explicitly: Scipio, watching Carthage burn, weeps openly
+      and recites the lines from Iliad VI in which Hector
+      foretells the fall of Troy ("There will come a day when
+      sacred Troy shall perish..."). Scipio reportedly added a
+      private remark to Polybius about the same fate awaiting
+      Rome itself.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 132"
+    passage_summary: >
+      Appian preserves the Polybian eyewitness passage explicitly,
+      attributing the account to Polybius and noting that
+      Polybius was present with Scipio at the moment.
+notes: >
+  The preservation chain is: Polybius witnesses the event 146 BCE,
+  records it in Histories 38; Polybius's full account is later
+  lost; Appian, writing in the 2nd century CE, quotes Polybius's
+  passage in *Punica* 132. So we have a direct chain from
+  eyewitness to surviving text, even though the surviving text is
+  not Polybius's own continuous narrative but a quotation
+  preserved in a later author.
+
+  This is the single best source-critical situation for any major
+  event in the V1 scope of this site: the principal narrator was
+  present, his account was preserved by a later author who quotes
+  it directly, and the most famous moments of the destruction
+  tradition can be traced back to the eyewitness.
+entities:
+  - type: event
+    slug: third-punic-war
+    role: subject
+  - type: person
+    slug: scipio-aemilianus
+    role: subject

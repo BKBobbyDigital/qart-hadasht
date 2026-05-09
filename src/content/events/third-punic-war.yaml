@@ -1,0 +1,73 @@
+slug: third-punic-war
+name: Third Punic War & Destruction of Carthage
+type: war
+date_start:
+  value: -149
+  precision: year
+date_end:
+  value: -146
+  precision: year
+place: carthage
+participants:
+  - person: cato-the-elder
+    role: senatorial advocate (died 149 BCE before war's outbreak)
+    side: Roman
+  - person: scipio-aemilianus
+    role: commander (from 147 BCE)
+    side: Roman
+  - person: hasdrubal-boetharch
+    role: defending commander
+    side: Carthaginian
+  - person: masinissa
+    role: catalyst (his encroachments produced the casus belli)
+    side: Numidian / Roman ally
+principal_sources:
+  - polybius-histories
+  - appian-punica
+  - plutarch-lives
+related_events:
+  - event: treaty-of-201-bce
+    relation: structural cause (the post-Zama settlement set the conditions)
+    notes: >
+      The Treaty of 201's prohibition on Carthaginian warfare against
+      Roman allies, combined with Masinissa's enabled territorial
+      encroachments over the next half-century, produced the
+      legal pretext for the war when Carthage finally fought back
+      in 150 BCE.
+summary: >
+  The final war between Rome and Carthage and the destruction of
+  the Carthaginian city, fought from 149 to 146 BCE and ending in
+  the systematic obliteration of Carthage as a continuous urban
+  settlement. The war's distinctive feature is the asymmetry
+  between *casus* and *outcome*: a war declared on a manufactured
+  legal pretext (the Carthaginian retaliation against Masinissa in
+  150 BCE in violation of the Lutatius treaty's allied-protection
+  clause) ended in the destruction of one of the largest cities of
+  the ancient Mediterranean and the enslavement of approximately
+  50,000 of its surviving inhabitants. The Roman strategic objective
+  was settled before the war began: Cato the Elder had advocated
+  destruction for years, and the senate's decision after the
+  surrender of Carthaginian weapons in 149 BCE to demand that the
+  population abandon the site and resettle ten miles inland made
+  destruction the only outcome the Roman terms could produce.
+
+  The war's principal phases: the Carthaginian appeals to Rome and
+  Roman ultimatum (149 BCE); the surrender of weapons and the
+  Roman demand to abandon the city (149); Carthaginian rejection
+  and the beginning of resistance; two years of ineffective Roman
+  command (149-148); Scipio Aemilianus's appointment to consular
+  command (147); the methodical reduction of the city's defenses
+  (147-146); the final assault and six days of street fighting in
+  the spring of 146; the city's burning and systematic
+  destruction. Hasdrubal the Boetharch surrendered; his wife and
+  children chose self-immolation in the temple of Eshmun rather
+  than surrender. The site was demolished, its ruins burned for
+  seventeen days, the surviving population enslaved, and the
+  territory reorganized as the Roman province of Africa.
+
+  The eyewitness presence of **Polybius**, traveling with Scipio
+  Aemilianus, makes this the most directly attested major event
+  in early Roman-Carthaginian history, despite the fragmentary
+  survival of his account. Appian's *Punica* (67-135) preserves
+  the fullest continuous narrative, written ~300 years later but
+  drawing substantially on Polybius's lost account.

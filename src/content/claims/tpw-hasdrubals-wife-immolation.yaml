@@ -1,0 +1,51 @@
+slug: tpw-hasdrubals-wife-immolation
+statement: >
+  As Hasdrubal the Boetharch surrendered to Scipio Aemilianus on
+  the day of the final Roman breakthrough, his wife (whose name is
+  not preserved) appeared on a balcony of the temple of Eshmun on
+  the Byrsa, denounced her husband as a coward, killed her two
+  children, and threw herself into the burning temple.
+confidence: attested
+scholarly_consensus: >
+  The episode is preserved in Appian and is treated as
+  substantially historical by modern scholarship, which notes
+  that the dramatic framing (the speech to Scipio, the killing of
+  the children, the leap into the fire) is the kind of element
+  that ancient historians tend to elaborate but that the
+  underlying event (defiant suicide of a Carthaginian noblewoman
+  in the temple) is consistent with attested patterns of
+  Carthaginian aristocratic conduct in the city's final phase.
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 131"
+    passage_summary: >
+      Appian preserves the episode with characteristic dramatic
+      detail: the wife's appearance on the temple balcony, her
+      denunciation of Hasdrubal in a preserved speech directed
+      at Scipio, the killing of the children, the self-
+      immolation. The speech as Appian preserves it is almost
+      certainly a literary composition; the underlying act is
+      historically grounded.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "38.21 (fragments)"
+    passage_summary: >
+      The Polybian fragments preserve elements of the same scene,
+      consistent with Appian's account though less rhetorically
+      developed. Polybius witnessed the destruction in person and
+      his preservation of the episode (in whatever form) is the
+      strongest evidence for its historical core.
+notes: >
+  The episode has had an extensive literary afterlife in European
+  reception (Flaubert, opera, etc.); the historical core is
+  modest and the dramatic elaboration is substantial. The site
+  treats the basic act as historical and the specific verbal
+  detail as later embellishment.
+entities:
+  - type: event
+    slug: third-punic-war
+    role: context
+  - type: person
+    slug: hasdrubal-boetharch
+    role: object

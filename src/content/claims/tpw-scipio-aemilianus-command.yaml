@@ -1,0 +1,39 @@
+slug: tpw-scipio-aemilianus-command
+statement: >
+  Scipio Aemilianus took command of the Roman siege in 147 BCE
+  through a special election to the consulship below the legal
+  age, after two years of ineffective Roman command had produced
+  minimal progress. His command turned the siege into a methodical
+  reduction of the city's defenses through 147-146 BCE, culminating
+  in the final assault and destruction in spring 146.
+confidence: attested
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "Pun. 109-131"
+    passage_summary: >
+      Appian narrates Scipio's appointment, his immediate
+      tightening of the blockade, the construction of the harbor
+      mole that denied Carthage seaborne supply, the methodical
+      reduction of the outer defenses, and the final assault on
+      the citadel.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "38.20-21 (fragments)"
+    passage_summary: >
+      Polybius's surviving fragments preserve substantial detail
+      on Scipio's command, including Polybius's own observations
+      from his eyewitness position with Scipio's headquarters.
+  - source: plutarch-lives
+    stance: supports
+    passage_summary: >
+      Plutarch's relevant biographies (especially Aemilius
+      Paullus and the lost or fragmentary Scipio Aemilianus)
+      preserve elements of the command tradition.
+entities:
+  - type: person
+    slug: scipio-aemilianus
+    role: subject
+  - type: event
+    slug: third-punic-war
+    role: context

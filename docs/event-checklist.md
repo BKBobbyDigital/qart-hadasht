@@ -25,7 +25,16 @@ sorts events chronologically.
 - [x] **Battle of Himera** — 480 BCE
 - [x] **Battle of Cape Ecnomus** — 256 BCE
 - [x] **First Punic War** — 264–241 BCE *(built as light parent linking the four FPW phase events)*
-- [ ] **Third Punic War & Destruction of Carthage** — 149–146 BCE
+- [x] **Third Punic War & Destruction of Carthage** — 149–146 BCE *(V1 closing slice)*
+
+---
+
+## V1 complete — 12/12 events plus 3 parents and 2 themes and 1 institution
+
+All twelve events on the original top-10 + 2 parents are built. The
+site now spans 814 BCE (founding tradition) to 146 BCE (destruction)
+with full Zama-depth treatment for every focal event and parent
+events linking the war-scale conflicts.
 
 ## Build-order rationale
 

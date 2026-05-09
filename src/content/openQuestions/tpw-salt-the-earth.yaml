@@ -1,0 +1,59 @@
+slug: tpw-salt-the-earth
+question: >
+  Did the Romans "salt the earth" of Carthage to prevent regrowth?
+why_unknown: >
+  This is one of the most popular claims about the destruction of
+  Carthage and one of the most clearly false. The "salting of the
+  earth" tradition appears in no ancient source. Modern scholarship
+  has traced the claim to 19th-century European historiography,
+  where it was apparently invented or extrapolated from biblical
+  echoes and from a misreading of Roman ritual demolition. The
+  question is not whether it happened (it did not) but why the
+  claim has had such persistent popular life despite being clearly
+  unsupported.
+evidence_summary: >
+  No surviving ancient source mentions the salting of the earth.
+  Polybius does not mention it. Appian, who gives the most detailed
+  surviving narrative of the destruction, does not mention it.
+  Plutarch, Cicero, Livy (in surviving fragments), Diodorus, and
+  the rest of the relevant classical tradition do not mention it.
+  The earliest preserved source for the claim is European
+  scholarship of the 19th century, where it appears to have been
+  introduced as elaboration of the destruction tradition.
+candidate_answers:
+  - answer: It did not happen
+    arguments_for: >
+      No ancient source attests it. The Romans had no agricultural
+      reason to render territory permanently uncultivable (they
+      reorganized the territory as the province of Africa and
+      developed it as one of the principal grain-producing
+      regions of the empire). The military reason (preventing
+      reoccupation) was achieved by the systematic demolition of
+      buildings and the symbolic ploughing of the site, not by
+      deliberate salting.
+    arguments_against: >
+      None compelling. The negative case is essentially complete.
+    held_by: Universally held in modern scholarship since the
+      claim was traced to 19th-century elaboration.
+  - answer: Some symbolic salt was scattered as part of the ritual
+    arguments_for: >
+      Roman ritual demolition (*evocatio* and *eradicatio*)
+      sometimes included symbolic-religious elements that might
+      have included a small ritual scattering of salt. This is
+      speculative; no source attests it specifically for Carthage.
+    arguments_against: >
+      Speculative. Even if some such ritual occurred, it would
+      have been symbolic-religious, not the practical
+      agricultural-poisoning the popular myth describes.
+    held_by: A speculative position rarely defended; not the
+      same as the popular myth.
+relevant_entities:
+  - type: event
+    slug: third-punic-war
+    role: subject
+what_would_resolve_this: >
+  Already resolved in scholarship. The popular myth persists in
+  cultural circulation but is not seriously defended in
+  historical work. The site flags it explicitly as one of the
+  most common modern misconceptions about the destruction of
+  Carthage.
