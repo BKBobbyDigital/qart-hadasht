@@ -1,0 +1,59 @@
+slug: carthaginian-senate
+name_display: Carthaginian Senate
+name_punic: Adirim ("the Mighty Ones")
+name_punic_script: 𐤀𐤃𐤓𐤌
+name_greek: γερουσία (gerousia); σύγκλητος (synkletos)
+name_latin: senatus
+type: council
+polity: Carthage
+active_from:
+  value: -550
+  precision: century
+  circa: true
+active_to:
+  value: -146
+  precision: year
+summary: >
+  The principal deliberative body of Carthage and the closest
+  Carthaginian institutional equivalent to the Roman senate. The
+  Punic name *Adirim* ("the Mighty Ones") is preserved in
+  inscriptions and was rendered into Greek as *gerousia* or
+  *synkletos* and into Latin as *senatus* by the surviving
+  ancient sources. The Senate's membership consisted of
+  approximately 300 aristocrats drawn from the leading
+  Carthaginian families, with selection processes and tenure
+  details that the surviving sources describe imperfectly.
+
+  The Senate's constitutional function combined deliberative,
+  consultative, and supervisory roles. It met regularly with the
+  suffetes to consider major foreign-policy questions, the
+  conduct of wars, treaty-making, the appointment of generals,
+  and the management of public finance and the Carthaginian
+  empire. Where senate and suffetes agreed, the matter was
+  generally settled; where they disagreed, the issue was referred
+  to the popular assembly. Aristotle (Politics II.11) treats this
+  as one of the distinctive features of the Carthaginian
+  constitution and as evidence of its mixed character.
+
+  The Senate's role in major Carthaginian decisions of the
+  surviving record is consistent: the senatorial debates over
+  whether to support Hannibal's army in Italy after Cannae, the
+  decision to send envoys to negotiate with Rome at the start of
+  the Third Punic War, the choice to authorize Hamilcar Barca's
+  Iberian project, the political rivalry between the Barcid
+  family and Hanno the Great's faction. The senate is the
+  institutional setting for these episodes in essentially every
+  ancient account.
+
+  Polybius (6.51), in his comparative analysis of the Carthaginian
+  and Roman constitutions, treats the Senate as parallel to the
+  Roman senate in structural function while distinguishing the
+  two on the basis of membership stability (Roman senators served
+  for life; Carthaginian senatorial tenure is less clear in the
+  surviving record) and the relative weight of senate versus
+  popular assembly in different kinds of decision.
+principal_sources:
+  - aristotle-politics
+  - polybius-histories
+  - hoyos-carthaginians-2010
+  - sznycer-civilisation-1978

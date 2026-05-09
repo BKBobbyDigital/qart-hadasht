@@ -1,0 +1,52 @@
+slug: popular-assembly
+name_display: Popular Assembly (the Carthaginian people in assembly)
+name_punic: ʿam ("the people"; the formal title of the assembly is not preserved)
+name_punic_script: 𐤏𐤌
+name_greek: δῆμος (demos); ἐκκλησία (ekklesia)
+name_latin: populus; comitia
+type: assembly
+polity: Carthage
+active_from:
+  value: -550
+  precision: century
+  circa: true
+active_to:
+  value: -146
+  precision: year
+summary: >
+  The civic body of Carthaginian citizens meeting in formal
+  assembly to vote on matters of state. Aristotle (Politics II.11)
+  identifies the popular assembly as the third element of the
+  Carthaginian constitution alongside the suffetes and the senate,
+  and treats its constitutional role as a distinctive feature of
+  the Carthaginian system. Where the suffetes and the senate
+  agreed on a matter, it was settled; where they disagreed (or
+  where one or both referred a matter to the people), the
+  assembly's decision was authoritative.
+
+  The assembly's substantive role in the surviving record is
+  attested in several major moments. The Carthaginian decision to
+  go to war with Rome in 264 BCE (after the senate had been
+  unable to reach a consensus on the Mamertine appeal) was, in
+  some reconstructions, ultimately ratified through the popular
+  assembly, paralleling the better-attested Roman decision in the
+  comitia centuriata in the same crisis. The election of Hannibal
+  Barca to the suffeteship in 196 BCE may have come through the
+  assembly. The post-Cannae senatorial debates of 216 BCE that
+  decided whether to commit further reinforcement to Hannibal in
+  Italy involved popular as well as senatorial deliberation.
+
+  The assembly's procedural details (the franchise, the manner of
+  voting, the relationship to military and tribal subdivisions of
+  the Carthaginian citizenry) are imperfectly preserved. Modern
+  scholarship has reconstructed elements from comparative
+  evidence and from the Phoenician-Punic municipal record at
+  successor cities, but the working details of the Carthaginian
+  popular assembly are less securely known than the analogous
+  Roman institutions. Aristotle's treatment is the principal
+  surviving description, and its brevity reflects the limit of
+  what was known to the Greek tradition.
+principal_sources:
+  - aristotle-politics
+  - polybius-histories
+  - hoyos-carthaginians-2010

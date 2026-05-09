@@ -1,0 +1,57 @@
+slug: council-of-104
+name_display: Council of 104
+name_punic: Mahanet (proposed reconstruction; the Punic title is not securely attested)
+name_greek: τὰ ἑκατὸν καὶ τέσσαρες (the Hundred and Four)
+name_latin: Centumviri (in some Latin sources, with adjustments for the count)
+type: judicial
+polity: Carthage
+active_from:
+  value: -450
+  precision: century
+  circa: true
+  notes: >
+    Aristotle (Politics II.11) treats the body as established in his
+    own day; Justin (19.2) attributes its founding to the 5th century
+    BCE in response to Magonid family overreach. The exact founding
+    date is contested and probably unrecoverable.
+active_to:
+  value: -146
+  precision: year
+summary: >
+  Aristocratic judicial body of approximately 104 members charged with
+  oversight of Carthaginian magistrates and especially generals.
+  Aristotle (Politics II.11) treats the body as one of the
+  distinctive features of the Carthaginian constitution and praises
+  its merit-based selection (the members "are not chosen by lot but
+  on merit," in his account, and serve as an unusually effective
+  check on official power). Justin (19.2) attributes the body's
+  founding to a moment of senatorial reaction against the
+  accumulated power of the Magonid family in the 5th century BCE,
+  when Carthage's leading family had begun to operate as if
+  exempt from political accountability.
+
+  The Council's principal practical function was the post-campaign
+  judgment of military commanders. Carthaginian generals who
+  suffered defeat could expect formal accountability proceedings
+  before the Council, and the consequences of unfavorable judgment
+  could be severe: Hanno, the admiral defeated at the Aegates
+  Islands in 241 BCE, is reported in some sources to have been
+  crucified by the Council's order, and similar punishments are
+  attested for other unsuccessful Carthaginian commanders. The
+  pattern of accountability the Council enforced is part of the
+  broader Carthaginian political-cultural difference from Rome,
+  where the consular accountability mechanisms operated through
+  electoral and senatorial means rather than judicial ones.
+
+  Whether the Council of 104 was a distinct body from the broader
+  Carthaginian senate, or rather a committee within it, is debated
+  in modern scholarship. Aristotle's terminology suggests
+  distinctness; the absence of clear Punic-language attestation
+  makes the question difficult to settle from the surviving
+  evidence. The dominant modern reading treats the Council as a
+  specialized judicial committee distinct in function but
+  overlapping in membership with the broader senate.
+principal_sources:
+  - aristotle-politics
+  - justin-epitome
+  - hoyos-carthaginians-2010

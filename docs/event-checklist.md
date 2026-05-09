@@ -71,10 +71,10 @@ on the physical city; everything cross-cutting goes here.
 ### Institutions (formal civic/political bodies)
 
 - [x] **Suffetes** — the two annual chief magistrates *(Aristotle II.11)*
-- [ ] **Council of 104** — judicial-aristocratic oversight body
-- [ ] **Carthaginian Senate** — the deliberative assembly
-- [ ] **Popular assembly** — the civic body for major decisions
-- [ ] **Tophet** (as institution) — the sacred precinct and its priesthood
+- [x] **Council of 104** — judicial-aristocratic oversight body
+- [x] **Carthaginian Senate** — the deliberative assembly
+- [x] **Popular assembly** — the civic body for major decisions
+- [x] **Tophet** (as institution) — the sacred precinct and its priesthood
 
 ### Pilots (build first to prove the pattern)
 

@@ -1,0 +1,58 @@
+slug: tophet
+name_display: Tophet of Carthage (the precinct as institution)
+name_punic: The Punic name for the precinct is not preserved (the modern name "Tophet" is derived from the Hebrew Bible's term for a place of child sacrifice in the Hinnom valley near Jerusalem and is not a Carthaginian self-designation).
+name_greek: Not named in surviving Greek sources as a single entity.
+name_latin: Not named in surviving Latin sources as a single entity.
+type: sacred
+polity: Carthage
+active_from:
+  value: -750
+  precision: century
+  circa: true
+active_to:
+  value: -146
+  precision: year
+summary: >
+  The sacred precinct in southern Carthage used continuously from
+  the late 8th century BCE to the city's destruction in 146 BCE
+  for the dedication of votive stelae and the burial of cremated
+  infant and animal remains. The Tophet is treated here as an
+  institution rather than a place because its continuous operation
+  required a sustained priestly establishment, ritual procedures,
+  and administrative practices that the archaeological record
+  partially preserves. The precinct's physical character is
+  treated more fully in the Carthage place page; the question of
+  whether the rituals practiced there included child sacrifice is
+  treated as a separate theme. This entry covers the precinct's
+  institutional functioning.
+
+  The institutional features attested in the inscriptional and
+  archaeological record include: a continuous priestly
+  establishment whose titles (variously *bʿl ḥrd*, *rb khnm*) are
+  preserved in dedicatory formulae; a regular ritual cycle that
+  the stratigraphic stacking of urns and stelae documents; a
+  formal vocabulary of dedication (the *molk* offering, the
+  *neder* vow) that recurs across centuries with relatively
+  stable formulation; an administrative practice of erecting
+  inscribed stelae that grew increasingly elaborate across the
+  precinct's life. The principal deities addressed in the
+  surviving inscriptions are Baal Hammon and Tanit, in
+  varying combinations and with the relative prominence of Tanit
+  rising over time.
+
+  The Tophet is the single richest source for the institutional
+  practice of Carthaginian religion. What we know about
+  Carthaginian priestly hierarchy, ritual vocabulary, and the
+  relationship between civic religion and personal dedication
+  comes substantially from the Tophet stelae corpus. What we do
+  not know (the specific rituals performed at the precinct, the
+  social composition of the priesthood, the relationship between
+  the Tophet and other Carthaginian sanctuaries) is what the
+  surviving record does not preserve. The institution
+  outlasted essentially every other Carthaginian institution
+  except the city itself, ending only with the city's destruction.
+principal_sources:
+  - diodorus-library
+  - lancel-carthage-1995
+  - macdonald-carthage-2015
+  - sznycer-civilisation-1978
