@@ -1,0 +1,28 @@
+slug: saguntum-to-second-punic-war
+cause: siege-of-saguntum
+effect: second-punic-war
+relation: casus belli
+confidence: attested
+mechanism: |
+  The fall of Saguntum in late 219 BCE produced the Roman
+  declaration of war on Carthage in spring 218 BCE. Whether
+  Hannibal's siege violated the Ebro Treaty or a separate
+  Roman-Saguntine alliance is contested, but Rome's response
+  is not: the senate sent envoys to Carthage demanding
+  Hannibal's surrender, was refused, and declared war. The
+  Saguntum-to-war causation is direct, attested, and
+  undisputed even where the legal framing is contested.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.20-21"
+    passage_summary: >
+      Polybius narrates the Roman embassy, the Carthaginian
+      refusal, and the resulting declaration of war as a direct
+      sequence following the fall of Saguntum.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.18-19"
+    passage_summary: >
+      Livy gives the same direct sequence with characteristic
+      dramatic framing of the Roman embassy and declaration.

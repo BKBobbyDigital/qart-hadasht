@@ -1,0 +1,32 @@
+slug: alps-troop-losses
+statement: >
+  Hannibal began the march from Iberia with approximately 50,000
+  infantry, 9,000 cavalry, and 37 elephants; arrived in the Po
+  Valley with approximately 20,000 infantry and 6,000 cavalry.
+  Most of the elephants survived the Alpine crossing itself but
+  died of cold and disease in the following weeks.
+confidence: attested
+scholarly_consensus: >
+  Polybian figures, broadly accepted by modern scholarship as
+  reasonable estimates. The specific numbers are upper bounds and
+  may overstate slightly, but the order of magnitude (substantial
+  losses through Gaul and the Alpine crossing, arrival with a
+  reduced but still operational army) is firmly attested.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.56"
+    passage_summary: >
+      Polybius gives the figures explicitly, drawing on what he
+      describes as a Carthaginian inscription in Hannibal's hand
+      at Lacinium that recorded the troop totals.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "21.38"
+    passage_summary: >
+      Livy gives slightly different figures but is broadly
+      consistent on the scale of the losses.
+entities:
+  - type: event
+    slug: crossing-of-the-alps
+    role: subject

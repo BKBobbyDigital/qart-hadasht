@@ -1,0 +1,44 @@
+slug: sardinian-seizure
+name: Roman Seizure of Sardinia
+type: political
+date_start:
+  value: -238
+  precision: year
+place: sardinia
+participants: []
+principal_sources:
+  - polybius-histories
+  - hoyos-truceless-war-2007
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: mercenary-war
+    relation: enabled by (Carthaginian distraction provided the opportunity)
+    notes: >
+      Rome's seizure of Sardinia took advantage of the Carthaginian
+      mobilization against the Mercenary War. With essentially all
+      Carthaginian field capacity committed in Africa, the city was
+      structurally unable to resist the Roman action.
+summary: >
+  The Roman annexation of Sardinia in 238 BCE on a manufactured
+  pretext, taking advantage of Carthaginian distraction during
+  the closing phase of the Mercenary War. The Sardinian mercenary
+  garrison had revolted against Carthaginian authority during the
+  broader mercenary crisis; Rome took the opportunity to occupy
+  the island, claim it had been "preparing for war" against Rome,
+  and demand both the formal cession of Sardinia and an additional
+  1,200 talents of indemnity beyond the Lutatius treaty's
+  schedule. Carthage, militarily incapable of resistance, paid.
+
+  Polybius (3.10, 3.27-28) treats the seizure as the deepest
+  structural cause of the Second Punic War. The Lutatius treaty
+  as ratified in 241 BCE had been a stress that Carthage bore;
+  the 238 BCE seizure was the Roman act that converted a defeated
+  state into a permanently aggrieved one. Hamilcar Barca's
+  subsequent Iberian project (which began in 237 BCE) and the
+  Barcid family's anti-Roman direction across the next thirty
+  years are both responses to this specific Roman conduct rather
+  than to the original peace settlement. The famous oath of
+  eternal enmity Hannibal allegedly swore at his father's altar
+  in 237 BCE comes after the Sardinian seizure, not before, and
+  is properly read against this immediate background.

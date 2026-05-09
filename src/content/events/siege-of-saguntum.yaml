@@ -1,0 +1,39 @@
+slug: siege-of-saguntum
+name: Siege of Saguntum
+type: siege
+date_start:
+  value: -219
+  precision: year
+  notes: Eight-month siege, spring through autumn 219 BCE.
+place: saguntum
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+related_events: []
+summary: >
+  Hannibal's siege and capture of the Iberian city of Saguntum in
+  219 BCE, the casus belli of the Second Punic War. Saguntum had
+  been a Roman ally through a treaty of friendship of uncertain
+  date and terms, but lay south of the Ebro river that the 226
+  BCE Ebro Treaty between Rome and Hasdrubal the Fair had nominally
+  established as the boundary of Carthaginian operations in Iberia.
+  Hannibal's siege, lasting eight months, ended with the city's
+  capture and destruction. Roman embassies during and after the
+  siege failed to halt the Carthaginian action; in spring 218 BCE
+  Rome declared war.
+
+  The legal-procedural question of whether Saguntum's status as a
+  Roman ally was protected by the Ebro Treaty (which seemed to
+  apply only to Carthaginian operations *north* of the river) or
+  by an earlier and separate Roman-Saguntine arrangement is
+  genuinely disputed in the surviving sources and in modern
+  scholarship. Polybius himself acknowledges the ambiguity. What
+  is not disputed is that Hannibal's siege was deliberate, that
+  Roman protests were ignored, and that the war that followed
+  was the consequence both states had been preparing for
+  throughout the 220s BCE.

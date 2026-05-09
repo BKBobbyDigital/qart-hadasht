@@ -1,0 +1,28 @@
+slug: trebia-cold-river-deception
+statement: >
+  Hannibal deliberately drew the Roman army across the cold
+  Trebia river before breakfast, using light Carthaginian
+  skirmishers as bait. The Roman troops crossed the river in
+  freezing temperatures, arrived at the engagement wet and
+  hungry, and were further degraded before the main fighting
+  began.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.71-72"
+    passage_summary: >
+      Polybius describes the deception in detail: the Numidian
+      cavalry skirmish that drew Sempronius's response, the
+      cold-water crossing, the Roman troops arriving for the
+      engagement in poor condition.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.54-55"
+    passage_summary: >
+      Livy reproduces substantively the same account with
+      characteristic dramatic detail.
+entities:
+  - type: event
+    slug: battle-of-trebia
+    role: context

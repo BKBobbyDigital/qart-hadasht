@@ -1,0 +1,40 @@
+slug: metaurus-hasdrubal-head
+statement: >
+  After the engagement, Claudius Nero returned south carrying
+  Hasdrubal Barca's severed head, which he had thrown into
+  Hannibal's camp in Bruttium as proof of the Carthaginian
+  defeat. Hannibal's reaction, in the surviving tradition, was
+  to recognize the engagement as the war's strategic decision.
+confidence: attested
+scholarly_consensus: >
+  The episode is preserved in Livy and treated by modern
+  scholarship as substantially historical. The dramatic detail
+  of Hannibal's specific reaction (Livy's "I see the fate of
+  Carthage") is more rhetorically composed; the underlying fact
+  of the head's delivery is firmly attested.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "27.51"
+    passage_summary: >
+      Livy preserves the episode with characteristic dramatic
+      detail: the head thrown into the camp, Hannibal's
+      preserved reaction speech, the moment understood by
+      Hannibal himself as the war's structural turning point.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "11.3 (fragments)"
+    passage_summary: >
+      The Polybian fragments preserve elements consistent with
+      Livy's account. The specific reaction speech is more
+      developed in Livy.
+entities:
+  - type: event
+    slug: battle-of-metaurus
+    role: context
+  - type: person
+    slug: hasdrubal-barca
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject

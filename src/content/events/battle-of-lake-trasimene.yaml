@@ -1,0 +1,49 @@
+slug: battle-of-lake-trasimene
+name: Battle of Lake Trasimene
+type: battle
+date_start:
+  value: -217
+  precision: exact
+  notes: 21 June 217 BCE in the traditional Roman calendar.
+place: lake-trasimene
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: maharbal
+    role: cavalry commander
+    side: Carthaginian
+  - person: flaminius
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+related_events: []
+summary: >
+  The largest ambush in the history of warfare by combatants
+  involved. After wintering in the Po Valley following the
+  Trebia, Hannibal in spring 217 BCE marched south through
+  Etruria, deliberately ravaging the countryside to provoke
+  pursuit. The Roman consul Gaius Flaminius, in command of the
+  northern Roman field army, took the bait and pursued. On the
+  morning of 21 June 217 BCE, Hannibal sprang the ambush:
+  approximately 25,000 Carthaginian troops concealed on the
+  hillsides above the narrow defile between Lake Trasimene and
+  the surrounding mountains attacked the Roman column of
+  approximately 25,000 as it passed below in heavy morning fog.
+  The engagement lasted approximately three hours; approximately
+  15,000 Romans were killed (including Flaminius, who fell
+  early in the fighting); approximately 6,000 escaped through
+  the western end of the defile but were captured the following
+  day; approximately 4,000 reinforcing Roman cavalry were
+  destroyed in a follow-up engagement at Plestia.
+
+  The political consequences in Rome were immediate. The senate
+  responded by appointing Quintus Fabius Maximus dictator, with
+  the explicit charge of avoiding direct engagement with
+  Hannibal. The strategy that became known as Fabian (delay,
+  shadow, decline battle, exhaust the invader through territorial
+  attrition) was the Roman response Trasimene's catastrophe
+  forced.

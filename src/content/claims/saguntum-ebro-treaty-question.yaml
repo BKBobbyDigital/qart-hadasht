@@ -1,0 +1,72 @@
+slug: saguntum-ebro-treaty-question
+statement: >
+  Whether Hannibal's siege of Saguntum violated the 226 BCE Ebro
+  Treaty is genuinely disputed. Saguntum lay south of the Ebro
+  river, the apparent boundary the treaty established for
+  Carthaginian operations, but the city's status as a Roman ally
+  may have been protected by a separate and earlier Roman-Saguntine
+  arrangement of unclear date and terms.
+confidence: contested
+dispute_summary: |
+  The Ebro Treaty, negotiated between Hasdrubal the Fair and
+  Roman envoys in 226 BCE, established the Ebro river as the
+  northern boundary of Carthaginian operations in Iberia. Its
+  exact terms are not preserved beyond this geographic
+  arrangement, and three positions on the Saguntum question
+  emerge from the surviving evidence:
+
+  1. **Hannibal violated nothing.** The Ebro Treaty addressed
+     only Carthaginian movement *north* of the river. Saguntum
+     lay south of the Ebro and was therefore within the
+     Carthaginian operational zone the treaty acknowledged.
+     Hannibal's siege was legally permissible; Roman protests
+     were diplomatic pretext.
+
+  2. **Hannibal violated a separate Roman-Saguntine alliance.**
+     Saguntum had been a Roman ally before the Ebro Treaty,
+     possibly through a friendship treaty of the 230s or 220s
+     BCE. The Ebro Treaty's geographic provision did not
+     supersede Saguntum's separate alliance status; Hannibal's
+     attack on a Roman ally was the casus belli regardless of
+     the geographic boundary.
+
+  3. **The legal situation was genuinely ambiguous.** Both
+     states had reason to interpret the post-Ebro arrangements
+     as serving their interests; the eight-month siege took
+     place during which Roman embassies came and went without
+     producing clear resolution; the war that followed was
+     declared on terms both states could defend politically at
+     home.
+
+  Modern scholarship is divided. Polybius himself acknowledges
+  the ambiguity (3.30) and treats the Saguntum question as part
+  of the broader Roman-Carthaginian breakdown rather than as a
+  clear-cut violation of one specific treaty.
+sources:
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "3.14-15, 3.30"
+    passage_summary: >
+      Polybius preserves the geographic framing of the Ebro Treaty
+      and acknowledges the legal ambiguity. He does not commit
+      to a clear position on whether Hannibal's siege was a
+      formal treaty violation.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "21.18-19"
+    passage_summary: >
+      Livy's account treats the Roman case more strongly than
+      Polybius does, with explicit framing of Saguntum as a
+      protected Roman ally.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos analyzes the legal question in detail and treats it
+      as genuinely ambiguous, arguing that both states had
+      defensible legal positions and that the war's
+      causation lies in the broader strategic configuration
+      rather than in the specific Saguntum question.
+entities:
+  - type: event
+    slug: siege-of-saguntum
+    role: subject

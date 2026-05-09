@@ -1,0 +1,28 @@
+slug: trebia-mago-ambush
+statement: >
+  Mago Barca commanded a concealed force of approximately 2,000
+  picked Carthaginian troops hidden in a watercourse south of
+  the engagement, who emerged at the engagement's critical
+  moment to attack the Roman rear. The ambush was the operative
+  cause of the Roman defeat.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.71, 3.74"
+    passage_summary: >
+      Polybius describes Mago's concealment, the timing of the
+      ambush, and its tactical effect on the Roman line.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.54-56"
+    passage_summary: >
+      Livy gives the same account with characteristic dramatic
+      detail.
+entities:
+  - type: event
+    slug: battle-of-trebia
+    role: context
+  - type: person
+    slug: mago-barca
+    role: subject

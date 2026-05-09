@@ -1,0 +1,46 @@
+slug: battle-of-trebia
+name: Battle of the Trebia
+type: battle
+date_start:
+  value: -218
+  precision: year
+  notes: Late December 218 BCE, on a cold morning shortly before or shortly after the winter solstice.
+place: trebia
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: mago-barca
+    role: subordinate commander (concealed reserve)
+    side: Carthaginian
+  - person: maharbal
+    role: cavalry commander
+    side: Carthaginian
+  - person: sempronius-longus
+    role: commander
+    side: Roman
+  - person: scipio-the-elder
+    role: commander (wounded, counseled against engagement)
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+related_events: []
+summary: >
+  Hannibal's first major Italian victory and the engagement that
+  established the operational pattern of his subsequent
+  Italian campaigns: deliberate engagement of a Roman field army
+  on terms favoring Carthaginian preparation, with concealed
+  reserves and exploitation of Roman command-political
+  pressures. The Roman force of approximately 40,000 was drawn
+  by light Carthaginian skirmishers across the cold Trebia
+  river before breakfast and engaged in poor condition;
+  Mago Barca's concealed reserve of approximately 2,000 picked
+  troops emerged from a watercourse to attack the Roman rear at
+  the engagement's critical moment. Approximately 20,000 Romans
+  were killed; Carthaginian losses were comparatively light.
+  The consul Sempronius Longus survived; his colleague Scipio
+  the elder, who had counseled against engagement, withdrew the
+  remnants to Placentia. Hannibal had won his first major
+  Italian victory within weeks of arriving from the Alps.

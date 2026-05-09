@@ -19,6 +19,26 @@ referenced_institutions:
 referenced_themes:
   - carthaginian-economy
 related_events:
+  - event: siege-of-saguntum
+    relation: casus belli (219 BCE)
+    notes: >
+      Hannibal's siege and capture of the Roman-allied Iberian city
+      that produced the Roman declaration of war.
+  - event: crossing-of-the-alps
+    relation: opening strategic move (218 BCE)
+    notes: >
+      Hannibal's march from Iberia to northern Italy across the
+      Alps, the operation that opened the Italian campaign.
+  - event: battle-of-trebia
+    relation: first major Italian victory (218 BCE)
+    notes: >
+      Hannibal's first major engagement of a Roman consular army,
+      establishing the operational pattern of his Italian campaigns.
+  - event: battle-of-lake-trasimene
+    relation: second major Italian victory (217 BCE)
+    notes: >
+      The largest ambush in the history of warfare; Flaminius killed,
+      Roman political response was the Fabian dictatorship.
   - event: battle-of-cannae
     relation: principal Italian engagement (216 BCE)
     notes: >
@@ -26,6 +46,12 @@ related_events:
       structural resilience was demonstrated. The battle that should
       have ended the war on Carthaginian terms; the Roman refusal
       to negotiate that followed it set the war's strategic limit.
+  - event: battle-of-metaurus
+    relation: strategic decision (207 BCE)
+    notes: >
+      Hasdrubal Barca's relief expedition destroyed in Umbria
+      before reaching Hannibal in southern Italy. Modern scholarship
+      generally treats this as the war's structural turning point.
   - event: battle-of-zama
     relation: war-ending engagement (202 BCE)
     notes: >

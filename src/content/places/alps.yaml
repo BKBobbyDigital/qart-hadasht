@@ -1,0 +1,34 @@
+slug: alps
+name_display: The Alps
+names_alt:
+  greek: τὰ Ἄλπεια ὄρη (ta Alpeia ore)
+  latin: Alpes
+  modern: The Alps (mountain range across France, Switzerland, Italy, Austria)
+type: region
+primary:
+  label: The Alps (broad geographic reference)
+  lat: 45.8326
+  lon: 6.8649
+  confidence: certain
+  notes: >
+    The specific pass Hannibal used in 218 BCE is contested. Five
+    candidate routes have been proposed in modern scholarship;
+    the Col de la Traversette and the Col du Clapier have the
+    strongest cases. The location given is a broad geographic
+    reference for the western Alps generally.
+modern_location: France / Italy / Switzerland border region
+summary: >
+  The Alpine mountain range separating northern Italy from
+  Transalpine Gaul, crossed by Hannibal Barca in autumn 218 BCE
+  in one of the most famous strategic moves of ancient warfare.
+  The specific pass Hannibal used is debated: Polybius's account
+  suggests a more northerly route, possibly the Col du Clapier or
+  the Col de la Traversette; Livy's account seems to imply a
+  different (more southerly) crossing. Modern scholarship has
+  proposed at least five candidate passes. Whatever the specific
+  route, the crossing produced substantial losses (Hannibal
+  reportedly began with approximately 50,000 infantry and 9,000
+  cavalry plus 37 elephants, and arrived in Italy with
+  approximately 20,000 infantry and 6,000 cavalry; most of the
+  elephants survived the crossing but died of cold and disease in
+  the following weeks).

@@ -1,0 +1,29 @@
+slug: trasimene-ambush-largest
+statement: >
+  The Battle of Lake Trasimene is the largest ambush in the
+  history of warfare by number of combatants involved.
+  Approximately 25,000 Roman troops, marching in a column along
+  the narrow defile between Lake Trasimene and the surrounding
+  mountains, were attacked by approximately 25,000 Carthaginian
+  troops concealed on the hillsides above. The engagement was
+  decided in approximately three hours.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.83-85"
+    passage_summary: >
+      Polybius gives the fullest tactical account: Hannibal's
+      reconnaissance of the terrain, the disposition of forces
+      on the hills, the morning fog, the timing of the ambush,
+      the duration and outcome of the engagement.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.4-6"
+    passage_summary: >
+      Livy reproduces the account with characteristic dramatic
+      framing of Flaminius's death and the broader catastrophe.
+entities:
+  - type: event
+    slug: battle-of-lake-trasimene
+    role: subject

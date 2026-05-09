@@ -1,0 +1,33 @@
+slug: flaminius
+name_display: Gaius Flaminius
+name_latin: Gaius Flaminius
+birth:
+  value: -260
+  precision: decade
+  circa: true
+death:
+  value: -217
+  precision: year
+  notes: Killed at the Battle of Lake Trasimene, 21 June 217 BCE.
+roles:
+  - consul
+  - general
+polity: Rome
+summary: >
+  Roman consul of 217 BCE, killed at Lake Trasimene in the ambush
+  Hannibal sprang on his consular army on 21 June 217. Flaminius
+  was a politically aggressive figure: tribune of the plebs in
+  232 BCE (when he forced through the controversial Lex Flaminia
+  distributing public land to plebeian settlers despite
+  senatorial opposition), consul in 223 BCE (when he defeated the
+  Insubres in the Po Valley), censor in 220 BCE (when he built
+  the Via Flaminia from Rome north to Ariminum and the Circus
+  Flaminius). His political-cultural type (the Roman new man,
+  challenging senatorial conservatism, popular with the
+  Roman plebs) is distinctive in the surviving record. The
+  hostile senatorial tradition treats him as reckless and
+  responsible for the Trasimene catastrophe through impatience
+  and refusal to take auspices; modern scholarship is more
+  cautious about how much of this characterization is
+  contemporary military analysis and how much is later
+  senatorial-aristocratic editorialization.

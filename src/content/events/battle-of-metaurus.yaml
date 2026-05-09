@@ -1,0 +1,67 @@
+slug: battle-of-metaurus
+name: Battle of the Metaurus
+type: battle
+date_start:
+  value: -207
+  precision: year
+  notes: Late June or early July 207 BCE; the specific day is disputed in modern reconstructions.
+place: metaurus
+participants:
+  - person: hasdrubal-barca
+    role: commander
+    side: Carthaginian
+  - person: livius-salinator
+    role: commander
+    side: Roman
+  - person: claudius-nero
+    role: commander (forced march from southern Italy)
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+related_events:
+  - event: battle-of-zama
+    relation: strategic precedent (Hannibal's brother killed before reaching him)
+    notes: >
+      The Metaurus is conventionally treated by modern scholarship
+      as the moment Hannibal's strategic position in Italy became
+      unrecoverable. The war would last another five years before
+      ending at Zama, but the path to Zama (rather than to a
+      Carthaginian-favorable peace) was set when Hasdrubal was
+      killed in Umbria before reaching Bruttium.
+summary: >
+  The strategically decisive engagement of the Second Punic War,
+  fought in the Metaurus river valley in Umbria in late June or
+  early July 207 BCE between the Roman consuls Marcus Livius
+  Salinator and Gaius Claudius Nero, and Hasdrubal Barca's
+  Carthaginian relief expedition from Iberia. Hasdrubal had
+  crossed the Alps in 208-207 BCE (more easily than his elder
+  brother had a decade earlier) and entered northern Italy in
+  early summer 207 with approximately 30,000 troops, intending to
+  rendezvous with Hannibal in southern Italy and renew the
+  strategic pressure on Rome that the Fabian strategy had
+  contained for years.
+
+  The Roman intervention turned on Claudius Nero's interception
+  of Hasdrubal's dispatches to his brother. Holding command in
+  southern Italy against Hannibal, Nero learned the rendezvous
+  plan from captured messengers, executed a forced march of
+  approximately 300 miles in seven days with a picked force of
+  approximately 6,000 infantry and 1,000 cavalry to join Livius
+  in the north unannounced, and contributed the decisive
+  intervention in the Metaurus engagement itself. Hasdrubal,
+  detecting the unexpected reinforcement on the day of battle,
+  attempted to disengage; the Roman forces caught and destroyed
+  his army. Hasdrubal was killed in the fighting; his severed
+  head was sent south by Nero on his return march and thrown
+  into Hannibal's camp in Bruttium as proof of the Carthaginian
+  defeat.
+
+  The strategic outcome ended Hannibal's hopes of meaningful
+  reinforcement. The war would last another five years and end
+  at Zama, but the path to Zama (rather than to a Carthaginian-
+  favorable peace) was structurally set when Hasdrubal's army
+  was destroyed in Umbria. Polybius and Livy both treat the
+  Metaurus as decisive in the war's outcome; modern scholarship
+  generally agrees.

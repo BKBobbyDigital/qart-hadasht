@@ -1,0 +1,32 @@
+slug: scipio-the-elder
+name_display: Publius Cornelius Scipio (the elder)
+name_latin: Publius Cornelius Scipio
+birth:
+  value: -253
+  precision: decade
+  circa: true
+death:
+  value: -211
+  precision: year
+  notes: Killed in Iberia in 211 BCE alongside his brother Gnaeus, in the Carthaginian counterattack that nearly ended the Roman position in Iberia before the future Africanus's arrival.
+roles:
+  - consul
+  - general
+polity: Rome
+summary: >
+  Roman consul of 218 BCE, father of the Scipio Africanus who would
+  later defeat Hannibal at Zama. Originally given command for the
+  Iberian theater, Scipio sent his brother Gnaeus on with the
+  army to Iberia and returned himself to northern Italy after
+  learning of Hannibal's Alpine crossing. Wounded in the
+  preliminary cavalry engagement at the Ticinus in November 218
+  BCE (saved, in tradition, by his teenage son the future
+  Africanus), he counseled against engagement at the Trebia but
+  was overruled by his consular colleague Sempronius Longus.
+  After the Trebia defeat, Scipio held imperium in Iberia from
+  217 BCE alongside his brother, conducting operations against
+  Hasdrubal Barca and the other Carthaginian commanders for six
+  years before being killed in the Carthaginian counterattack of
+  211 BCE. His son's vengeance for this death was one of the
+  motivations preserved in the Roman tradition for the African
+  expedition that ended the war.

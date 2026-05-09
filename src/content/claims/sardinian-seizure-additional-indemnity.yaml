@@ -1,0 +1,21 @@
+slug: sardinian-seizure-additional-indemnity
+statement: >
+  Beyond the cession of Sardinia, Rome demanded an additional
+  1,200 talents of silver as indemnity, on top of the unfinished
+  Lutatius treaty schedule. Carthage paid.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.10"
+    passage_summary: >
+      Polybius records the additional indemnity figure
+      explicitly and treats it as part of the broader pattern of
+      Roman post-war opportunism.
+entities:
+  - type: event
+    slug: sardinian-seizure
+    role: subject
+  - type: event
+    slug: treaty-of-lutatius
+    role: context

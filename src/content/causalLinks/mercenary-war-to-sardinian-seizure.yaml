@@ -1,0 +1,21 @@
+slug: mercenary-war-to-sardinian-seizure
+cause: mercenary-war
+effect: sardinian-seizure
+relation: enabled
+confidence: attested
+mechanism: |
+  The Mercenary War absorbed essentially all Carthaginian field
+  capacity from 241 to 237 BCE. With the city's military mobilized
+  in Africa against the rebel coalition, Rome had a window to
+  seize Sardinia (where the local Carthaginian mercenary garrison
+  had also revolted) without facing meaningful Carthaginian
+  resistance. The window would not have existed without the
+  Mercenary War's distraction; the seizure is enabled by, not
+  caused by, the broader Carthaginian crisis.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.10, 3.27-28"
+    passage_summary: >
+      Polybius treats the seizure as opportunistic Roman
+      exploitation of the Carthaginian mercenary distraction.

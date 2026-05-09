@@ -1,0 +1,28 @@
+slug: sardinian-seizure-pretext
+statement: >
+  Rome seized Sardinia in 238 BCE on a manufactured pretext. The
+  Carthaginian preparation of a punitive expedition to recover
+  the island from its rebellious mercenary garrison was reframed
+  by the Roman senate as Carthaginian "preparation for war"
+  against Rome, providing the legal framework for the seizure.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.10, 3.27-28"
+    passage_summary: >
+      Polybius is explicit that the Roman pretext was manufactured
+      and treats the seizure as the deepest cause of the Second
+      Punic War. The framing is unusual in Polybius for its open
+      criticism of Roman conduct.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos's specialist study analyzes the Sardinian episode as
+      part of the broader Roman opportunism of the late 230s BCE
+      and treats Polybius's reading of structural causation as
+      essentially correct.
+entities:
+  - type: event
+    slug: sardinian-seizure
+    role: subject

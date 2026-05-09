@@ -1,0 +1,29 @@
+slug: saguntum-eight-month-siege
+statement: >
+  Hannibal besieged Saguntum for approximately eight months in
+  219 BCE before the city fell. Surviving accounts emphasize the
+  siege's intensity, the defenders' resistance, and the city's
+  destruction at its conclusion.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.17"
+    passage_summary: >
+      Polybius records the siege's eight-month duration and
+      describes the operational character of the engagement
+      with characteristic precision.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.6-15"
+    passage_summary: >
+      Livy gives an extended dramatic account of the siege,
+      including the famous episode of the Saguntine citizens
+      preferring death to surrender. The dramatic detail is
+      Livian elaboration but the underlying facts (extended
+      siege, fall of city, severe destruction) are firmly
+      attested.
+entities:
+  - type: event
+    slug: siege-of-saguntum
+    role: subject

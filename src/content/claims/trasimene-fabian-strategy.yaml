@@ -1,0 +1,34 @@
+slug: trasimene-fabian-strategy
+statement: >
+  The Roman political response to Trasimene was the appointment
+  of Quintus Fabius Maximus as dictator, with the explicit charge
+  of avoiding direct engagement with Hannibal. The Fabian
+  strategy that followed (delay, shadow Hannibal's army, decline
+  decisive battle) was the Roman response Trasimene's
+  catastrophe forced.
+confidence: attested
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.86-88"
+    passage_summary: >
+      Polybius describes the political crisis at Rome and the
+      dictatorship of Fabius Maximus that followed. The strategy
+      is treated as the central example of Roman strategic
+      adjustment under pressure.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.7-12"
+    passage_summary: >
+      Livy gives a fuller political-narrative account of Fabius's
+      appointment and the senatorial debates that produced it.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Fabius 3-12"
+    passage_summary: >
+      Plutarch's Life of Fabius is the principal biographical
+      source for the strategy and its execution.
+entities:
+  - type: event
+    slug: battle-of-lake-trasimene
+    role: context

@@ -1,0 +1,40 @@
+slug: metaurus-strategic-decision
+statement: >
+  The Metaurus engagement was strategically decisive in the
+  Second Punic War. With Hasdrubal's relief expedition destroyed,
+  Hannibal had no realistic prospect of meaningful reinforcement
+  from Iberia or Africa, and his Italian campaign passed from
+  active strategic threat to long containment in the Bruttian
+  peninsula.
+confidence: inferred
+scholarly_consensus: >
+  Strong; the standard reading in modern military histories of
+  the Second Punic War. Polybius and Livy both treat the
+  engagement as the war's pivot in the surviving narrative; modern
+  scholarship has generally accepted this reading.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "11.1-3"
+    passage_summary: >
+      Polybius treats the Metaurus as the strategic decision of
+      the war; the structural argument is implicit in his
+      narrative ordering and explicit in his comparative
+      analysis of Roman victory.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "27.51"
+    passage_summary: >
+      Livy preserves Hannibal's reported reaction speech, in
+      which Hannibal explicitly recognizes the engagement as the
+      war's structural turning point.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the Metaurus as the moment Hannibal's
+      strategic position became unrecoverable and treats Zama
+      as the closing act rather than the decisive battle.
+entities:
+  - type: event
+    slug: battle-of-metaurus
+    role: subject

@@ -1,0 +1,69 @@
+slug: alps-which-pass
+question: >
+  Which Alpine pass did Hannibal use to cross into Italy in 218 BCE?
+why_unknown: >
+  Polybius and Livy describe the crossing in detail but neither
+  names the pass. The geographic features they describe (the
+  rivers approached, the peoples encountered, the duration of
+  ascent and descent, the famous episode of breaking rock with
+  fire and vinegar) can be read against modern Alpine geography
+  in several plausible ways. Five principal candidates have been
+  proposed in modern scholarship, with no consensus.
+evidence_summary: >
+  Polybius (3.50-56) gives the fullest geographic account; Livy
+  (21.32-37) supplements with elements that sometimes seem
+  inconsistent with Polybius. Modern reconstructions draw on
+  historical geography, comparative chronology of Alpine route
+  use, and (in recent decades) archaeological work that has
+  identified Hannibalic-period horse manure deposits at one of
+  the candidate passes.
+candidate_answers:
+  - answer: Col du Clapier
+    arguments_for: >
+      The geographic features Polybius describes (a single
+      large valley approach, a relatively low pass, a clear view
+      of the Po Valley from the summit) match Col du Clapier
+      reasonably well. The route is consistent with Polybius's
+      description of the peoples encountered (the Allobroges, the
+      Insubres on the descent).
+    arguments_against: >
+      Some details of Polybius's geography are difficult to map
+      onto Col du Clapier specifically; the pass's elevation
+      may be lower than Polybius's account requires.
+    held_by: A traditional view; defended in earlier 20th-century
+      reconstructions.
+  - answer: Col de la Traversette
+    arguments_for: >
+      Recent (2010s) archaeological work has identified
+      Hannibalic-period horse manure deposits at this pass,
+      providing physical evidence of the kind no other candidate
+      pass has produced. Strongest currently available evidence.
+    arguments_against: >
+      The pass is high (~3,000 m) and steep; the Polybian
+      account's emphasis on the army's exhaustion and the
+      logistical difficulties is consistent with this elevation
+      but the specific geographic details are mixed.
+    held_by: An increasingly favored modern view since the
+      archaeological work; not universally accepted.
+  - answer: Other candidate passes (Col de Montgenèvre, Col du
+      Mont-Cenis, Col de Larche)
+    arguments_for: >
+      Each candidate pass has specific Polybian-Livian textual
+      details that fit. The Mont-Cenis route was the principal
+      Alpine crossing in subsequent Roman use, suggesting it was
+      operationally feasible.
+    arguments_against: >
+      None has decisive evidence; the proposals depend on
+      reading specific textual elements as prioritized over
+      others.
+    held_by: A range of minority modern positions.
+relevant_entities:
+  - type: event
+    slug: crossing-of-the-alps
+    role: subject
+what_would_resolve_this: >
+  Further Alpine archaeological work, particularly at the
+  candidate passes that have not yet been systematically tested.
+  The 2016 Traversette horse-manure-deposit study established
+  that ancient archaeology can in principle settle this question;
+  comparable work at other passes would settle it definitively.

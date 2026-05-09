@@ -1,0 +1,24 @@
+slug: sardinian-seizure-to-second-punic-war
+cause: sardinian-seizure
+effect: second-punic-war
+relation: structural cause (per Polybius)
+confidence: attested
+mechanism: |
+  The 238 BCE seizure converted the Carthaginian state from a
+  defeated peace partner into a permanently aggrieved one. Hamilcar
+  Barca's Iberian project (begun 237 BCE), the systematic
+  Carthaginian recovery and reorientation toward a non-Roman
+  strategic frontier, the Barcid family's anti-Roman political
+  direction, and ultimately Hannibal's invasion of Italy in 218
+  BCE are all elements in a chain that Polybius traces back
+  specifically to the Sardinian seizure rather than to the
+  original Lutatius treaty terms.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.10, 3.27-28, 3.30"
+    passage_summary: >
+      Polybius makes the structural argument explicitly: the
+      Sardinian seizure was the deepest Roman act of opportunism
+      in the post-war period, and the Barcid response to it set
+      the conditions for the next war.

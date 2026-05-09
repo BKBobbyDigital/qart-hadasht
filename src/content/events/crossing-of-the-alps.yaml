@@ -1,0 +1,51 @@
+slug: crossing-of-the-alps
+name: Hannibal's Crossing of the Alps
+type: expedition
+date_start:
+  value: -218
+  precision: year
+  notes: Crossing took place in late autumn 218 BCE, with arrival in the Po Valley in November.
+place: alps
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: mago-barca
+    role: subordinate commander
+    side: Carthaginian
+  - person: maharbal
+    role: cavalry commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+related_events: []
+summary: >
+  Hannibal's march from Iberia across the Alps to northern Italy
+  in autumn 218 BCE, one of the most famous strategic operations
+  in ancient warfare. Departing from Carthago Nova in the late
+  spring of 218 BCE with approximately 50,000 infantry, 9,000
+  cavalry, and 37 war elephants, Hannibal crossed the Pyrenees,
+  marched through Gaul, forced the Rhone river crossing against
+  Gallic opposition in late summer, and entered the Alps in
+  October or early November 218 BCE. The crossing itself took
+  approximately fifteen days. Conditions were extreme: cold,
+  snow, hostile mountain peoples, narrow passes, the famous
+  episode of breaking rock with vinegar and fire to clear a
+  path. By the time the army descended into the Po Valley
+  Hannibal had approximately 20,000 infantry and 6,000 cavalry
+  remaining; most of the elephants had survived the crossing
+  but died of cold and disease in the following weeks.
+
+  The specific Alpine pass Hannibal used is contested in modern
+  scholarship. Polybius's account suggests one set of geographic
+  features (most consistent with the Col du Clapier or the Col
+  de la Traversette); Livy's account seems to imply a different
+  southerly crossing. At least five candidate passes have been
+  proposed. The question of which pass is interesting but not
+  central; what matters strategically is that the crossing
+  succeeded against expectation, that Hannibal arrived in Italy
+  with a smaller but still operational army, and that the Roman
+  strategic position had not anticipated this development.
