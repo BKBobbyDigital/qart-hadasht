@@ -24,6 +24,8 @@ participants:
 principal_sources:
   - herodotus-histories
   - diodorus-library
+referenced_themes:
+  - punic-religion
 related_events:
   - event: third-sicilian-war
     relation: precursor (the long Greco-Carthaginian conflict over Sicily)

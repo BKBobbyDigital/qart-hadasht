@@ -14,6 +14,10 @@ principal_sources:
   - livy-auc
   - hoyos-hannibal-2003
   - macdonald-hannibal-2015
+referenced_institutions:
+  - carthaginian-senate
+referenced_themes:
+  - carthaginian-economy
 related_events:
   - event: battle-of-cannae
     relation: principal Italian engagement (216 BCE)

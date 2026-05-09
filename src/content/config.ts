@@ -176,6 +176,19 @@ const events = defineCollection({
         })
       )
       .default([]),
+    /**
+     * Carthaginian institutions substantively relevant to this event
+     * (Senate decisions, Council of 104 judgments, Tophet rituals). The
+     * institution page reverse-lookups to display the event in its
+     * "Referenced in events" section.
+     */
+    referenced_institutions: z.array(reference('institutions')).default([]),
+    /**
+     * Themes substantively relevant to this event (Punic religion at
+     * Hamilcar's sacrificial fire, Carthaginian economy at the Lutatius
+     * indemnity). Same bidirectional rendering as institutions.
+     */
+    referenced_themes: z.array(reference('themes')).default([]),
   }),
 });
 

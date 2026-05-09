@@ -24,6 +24,10 @@ principal_sources:
   - polybius-histories
   - diodorus-library
   - hoyos-unplanned-wars-1998
+referenced_institutions:
+  - council-of-104
+referenced_themes:
+  - carthaginian-seafaring-and-trade
 related_events:
   - event: battle-of-zama
     relation: matched pair (war-ending naval battle / war-ending land battle)

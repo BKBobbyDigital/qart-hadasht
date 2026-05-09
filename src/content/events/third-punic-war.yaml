@@ -19,6 +19,11 @@ principal_sources:
   - polybius-histories
   - appian-punica
   - plutarch-lives
+referenced_institutions:
+  - carthaginian-senate
+referenced_themes:
+  - carthaginian-economy
+  - punic-identity
 related_events:
   - event: destruction-of-carthage
     relation: focal engagement and outcome (the siege and destruction itself)

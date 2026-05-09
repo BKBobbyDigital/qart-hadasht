@@ -22,6 +22,11 @@ principal_sources:
   - polybius-histories
   - livy-auc
   - appian-punica
+referenced_institutions:
+  - suffetes
+  - carthaginian-senate
+referenced_themes:
+  - carthaginian-economy
 related_events:
   - event: treaty-of-lutatius
     relation: matched pair (war-ending treaty)

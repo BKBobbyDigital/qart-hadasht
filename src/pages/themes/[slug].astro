@@ -21,6 +21,14 @@ const relatedThemes = await Promise.all(
     return all.find((t) => t.id === r.id || t.id.replace(/\.md$/, '') === r.id);
   })
 );
+
+// Reverse lookup: events that reference this theme
+const allEvents = await getCollection('events');
+const referencingEvents = allEvents
+  .filter((e) =>
+    (e.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === theme.id.replace(/\.md$/, ''))
+  )
+  .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
 ---
 
 <BaseLayout title={d.title} description={d.summary}>
@@ -36,6 +44,24 @@ const relatedThemes = await Promise.all(
     <div class="prose-encyclopedia text-sand-900 mt-8">
       <Content />
     </div>
+
+    {referencingEvents.length > 0 && (
+      <section class="mt-12 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Referenced in events</h2>
+        <ul class="space-y-2">
+          {referencingEvents.map((e) => (
+            <li class="flex items-baseline gap-3">
+              <span class="text-sm text-sand-700 shrink-0 tabular-nums">
+                {Math.abs(e.data.date_start.value)} BCE
+              </span>
+              <a href={`/events/${e.id}`} class="text-tyrian-700 hover:underline font-serif">
+                {e.data.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     {relatedThemes.filter(Boolean).length > 0 && (
       <section class="mt-12 pt-6 border-t border-sand-300">

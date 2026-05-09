@@ -16,6 +16,10 @@ place: carthage
 participants: []
 principal_sources:
   - polybius-histories
+referenced_institutions:
+  - carthaginian-senate
+referenced_themes:
+  - carthaginian-seafaring-and-trade
 related_events:
   - event: first-punic-war-outbreak
     relation: pre-history of (Polybius cites this treaty in his discussion of pre-264 Roman-Carthaginian relations)

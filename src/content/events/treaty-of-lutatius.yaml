@@ -20,6 +20,8 @@ principal_sources:
   - polybius-histories
   - diodorus-library
   - hoyos-unplanned-wars-1998
+referenced_themes:
+  - carthaginian-economy
 related_events:
   - event: treaty-of-201-bce
     relation: matched pair (war-ending treaty)

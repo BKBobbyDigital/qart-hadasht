@@ -16,6 +16,8 @@ participants:
 principal_sources:
   - polybius-histories
   - goldsworthy-fall-carthage-2003
+referenced_themes:
+  - carthaginian-seafaring-and-trade
 related_events:
   - event: battle-of-aegates-islands
     relation: matched pair (major naval engagements of the First Punic War)

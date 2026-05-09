@@ -22,6 +22,8 @@ principal_sources:
   - polybius-histories
   - diodorus-library
   - hoyos-unplanned-wars-1998
+referenced_institutions:
+  - carthaginian-senate
 related_events:
   - event: first-treaty-with-rome
     relation: presupposed by (the pre-264 treaty framework that broke down here)

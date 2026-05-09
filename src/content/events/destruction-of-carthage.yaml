@@ -20,6 +20,13 @@ principal_sources:
   - polybius-histories
   - appian-punica
   - plutarch-lives
+referenced_institutions:
+  - tophet
+referenced_themes:
+  - punic-religion
+  - women-and-family
+  - slavery-and-labor
+  - daily-life-in-carthage
 related_events:
   - event: third-punic-war
     relation: focal engagement of (the entire war was effectively this one extended siege)
