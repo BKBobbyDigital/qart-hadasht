@@ -1,8 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Timeline from '../components/Timeline.astro';
 import { getCollection, getEntry } from 'astro:content';
-import { formatHistoricalDate, formatDateRange } from '../lib/historicalDate';
 
 const periods = (await getCollection('periods')).sort(
   (a: any, b: any) => a.data.start_year - b.data.start_year
@@ -115,16 +113,6 @@ const kindLabel: Record<ChipKind, string> = {
         </li>
       ))}
     </ul>
-  </section>
-
-  <section class="max-w-5xl mx-auto px-6 py-8">
-    <h2 class="font-serif text-3xl mb-4">The arc</h2>
-    <p class="text-sand-700 mb-2 text-sm">
-      Six and a half centuries of Carthaginian history at a glance. Wars are
-      shown as colored bands; individual events as dots. Click anything to
-      navigate.
-    </p>
-    <Timeline />
   </section>
 
   <section class="max-w-5xl mx-auto px-6 py-8">
