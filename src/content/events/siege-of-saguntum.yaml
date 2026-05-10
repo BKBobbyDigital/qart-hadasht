@@ -24,6 +24,10 @@ related_events:
       Saguntum operation in 219 BCE.
   - event: ebro-treaty
     relation: contested under (the treaty whose interpretation the siege forced)
+  - event: roman-embassy-to-hannibal-219
+    relation: produced (the first Roman embassy received during the siege)
+  - event: roman-declaration-of-war-218
+    relation: led to (the formal declaration of war following Saguntum's fall)
 summary: >
   Hannibal's siege and capture of the Iberian city of Saguntum in
   219 BCE, the casus belli of the Second Punic War. Saguntum had

@@ -1,0 +1,89 @@
+slug: roman-declaration-of-war-218
+name: Roman Declaration of War (the Toga Episode, 218 BCE)
+type: political
+date_start:
+  value: -218
+  precision: year
+  notes: >
+    Spring 218 BCE, after the fall of Saguntum and the failure
+    of the 219 BCE Roman embassy.
+place: carthage
+participants:
+  - person: fabius-maximus-cunctator
+    role: leader of the Roman embassy
+    side: Roman
+  - person: hanno-the-great
+    role: Carthaginian senatorial responder (anti-Barcid faction)
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-unplanned-wars-1998
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: roman-embassy-to-hannibal-219
+    relation: produced by (the failure of the 219 embassy that drove the second)
+  - event: siege-of-saguntum
+    relation: aftermath of (the fall of Saguntum that the embassy responded to)
+  - event: second-punic-war
+    relation: opening event of (the formal start of the war)
+summary: >
+  The diplomatic act that opened the Second Punic War, and
+  one of the most-cited single dramatic episodes in surviving
+  Roman political history: the Roman embassy under Quintus
+  Fabius Maximus (the future Cunctator) to the Carthaginian
+  senate in spring 218 BCE, which delivered the formal
+  declaration through what Polybius and Livy preserve as
+  the famous "toga episode."
+
+  The diplomatic sequence is firmly attested:
+
+  - **The embassy's demand.** Fabius's delegation
+    presented the Roman senate's ultimatum: surrender
+    Hannibal and his lieutenants for trial in Rome, or
+    accept a state of war. The Carthaginian senate
+    debated the demand at length; the principal speech
+    against compliance was delivered by Hanno the Great,
+    leader of the anti-Barcid faction (Livy 21.10), who
+    argued that Hannibal's surrender — though justified
+    on the merits — would not actually preserve peace
+    given the broader strategic configuration.
+  - **The Carthaginian refusal.** The senate, after
+    extended debate, refused the demand. The grounds were
+    legalistic: Hannibal had operated within his
+    legitimate Iberian command; his actions were not
+    subject to Roman jurisdiction.
+  - **The toga episode.** Polybius (3.33) and Livy
+    (21.18-19) preserve the dramatic moment that
+    followed: Fabius gathered his toga into a fold and
+    declared, "I carry here both peace and war; choose
+    which you will." The Carthaginian senate replied,
+    "Choose for us!" Fabius let the fold drop and said,
+    "Then I let fall war." The Carthaginian assembly's
+    response — "We accept it" — concluded the embassy.
+
+  The historicity of the precise toga-fold episode is
+  genuinely contested in modern scholarship. The
+  structural fact — Fabius's embassy, the formal
+  declaration, the Carthaginian acceptance — is firmly
+  attested. The specific dramatic gesture is preserved
+  consistently across Polybius and Livy with sufficient
+  detail that complete fabrication is unlikely, but the
+  exact wording and stagecraft as the surviving sources
+  give them are plausibly literary elaboration on a real
+  underlying ceremonial sequence.
+
+  The declaration's strategic significance was both
+  immediate and structural. Immediately, it formalized
+  what the Saguntum siege had already made effective: a
+  state of war between Rome and Carthage. Structurally,
+  it established the diplomatic framing under which the
+  Second Punic War was conducted: Rome as the wronged
+  party responding to Carthaginian aggression. The
+  framing was politically useful for Roman alliance
+  management and for post-war historiography (preserved
+  through Polybius and the Roman annalistic tradition);
+  whether it accurately described the underlying
+  strategic situation is the question Hoyos's *Unplanned
+  Wars* takes up at length.

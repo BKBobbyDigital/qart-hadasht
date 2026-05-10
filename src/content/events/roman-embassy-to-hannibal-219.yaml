@@ -1,0 +1,59 @@
+slug: roman-embassy-to-hannibal-219
+name: Roman Embassy to Hannibal at Saguntum
+type: political
+date_start:
+  value: -219
+  precision: year
+  notes: >
+    Summer 219 BCE, during the early phase of the eight-month
+    siege of Saguntum.
+place: saguntum
+participants:
+  - person: hannibal-barca
+    role: Carthaginian commander; recipient of the embassy
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-unplanned-wars-1998
+related_events:
+  - event: siege-of-saguntum
+    relation: contemporaneous with (the embassy was received during the siege)
+  - event: roman-declaration-of-war-218
+    relation: preceded (the failed first embassy that produced the second)
+summary: >
+  The first of the two Roman embassies to the Carthaginian
+  side in the diplomatic crisis of 219-218 BCE — and the
+  one that produced the formal Roman casus belli when its
+  demands were refused. A Roman delegation of two
+  ex-consuls arrived at Hannibal's siege camp at Saguntum
+  in summer 219 BCE with a formal demand: cease the siege
+  immediately and refer the dispute over Saguntine status
+  to arbitration.
+
+  Hannibal refused the embassy access to formal audience.
+  Polybius (3.15) preserves the diplomatic detail: Hannibal
+  cited the Roman embassy's lack of standing to address
+  the situation directly, framing the engagement as a
+  Saguntine internal matter on which Carthaginian Iberian
+  command was competent to act without Roman supervision.
+  The Roman envoys, refused at Saguntum, proceeded directly
+  to Carthage to present their case to the Carthaginian
+  senate.
+
+  At Carthage the embassy fared little better. The
+  Carthaginian senate — divided between a pro-Hannibal
+  Barcid faction and a more cautious senatorial coalition
+  under Hanno the Great — eventually refused to repudiate
+  Hannibal's action. Whether this was a positive
+  Carthaginian commitment to the Saguntum operation or a
+  failure to constrain a field commander whose family
+  faction dominated the Iberian command is contested in
+  the surviving record.
+
+  The embassy's failure produced two consequences. First,
+  Saguntum fell in autumn 219 BCE, with the city destroyed
+  and its population enslaved. Second, the Roman senate,
+  now committed to a forcing-the-issue diplomatic strategy,
+  prepared the second embassy of spring 218 BCE — the one
+  that would deliver the formal declaration of war.

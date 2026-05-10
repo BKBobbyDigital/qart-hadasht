@@ -1,0 +1,78 @@
+slug: toga-episode-historicity
+statement: >
+  The famous "toga episode" — Fabius gathering the fold of
+  his toga, offering Carthage the choice of peace or war,
+  and dropping war when the Carthaginians refused to choose
+  — is preserved consistently across Polybius and Livy with
+  enough detail that wholesale fabrication is unlikely, but
+  the precise dramatic stagecraft as the surviving sources
+  give it is plausibly literary elaboration on a real
+  underlying ceremonial sequence. The structural fact of
+  Fabius's embassy and the formal declaration is firmly
+  attested; the specific toga-gesture is contested.
+confidence: contested
+dispute_summary: |
+  Three readings:
+
+  1. **Substantially historical.** The gesture preserves a
+     real Roman diplomatic-ceremonial practice — the toga
+     as visible ritual instrument carrying war and peace
+     simultaneously. Polybius's account is close to the
+     event in time and his methodological standards are
+     comparatively rigorous. The tradition is preserved
+     with sufficient consistency across independent
+     sources to support substantial historicity.
+
+  2. **Literary elaboration on a real diplomatic moment.**
+     The embassy occurred and the declaration was made;
+     the dramatic specifics were rhetorically heightened
+     in the Roman annalistic tradition before reaching
+     Polybius and Livy. The underlying event is real;
+     the toga-fold gesture as a distinct ritual moment
+     is later literary refinement.
+
+  3. **Substantially literary.** The episode is a
+     rhetorical-historiographical set-piece that may
+     bear no specific relationship to actual diplomatic
+     practice, drawing on Greek dramatic conventions
+     that Polybius and the Roman annalists adapted to
+     mark the war's formal opening with appropriate
+     ceremonial weight.
+
+  Modern scholarship divides between (1) and (2), with
+  (3) representing a minority skeptical position. Hoyos's
+  *Unplanned Wars* leans toward (2). The evidence is
+  insufficient to settle the question; the structural
+  fact of the embassy and declaration is what matters
+  historically.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.33"
+    passage_summary: >
+      Polybius preserves the toga gesture and the formal
+      declaration, with explicit dialogue between Fabius
+      and the Carthaginian senate.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.18-19"
+    passage_summary: >
+      Livy gives the same episode with additional dramatic
+      detail; the consistency between Livy's and Polybius's
+      accounts supports substantial historicity but the
+      Livian dramatic elaboration is itself part of what
+      is contested.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos discusses the episode with appropriate
+      caution and treats the underlying diplomatic
+      sequence as historical while questioning the
+      precise dramatic detail.
+entities:
+  - type: event
+    slug: roman-declaration-of-war-218
+    role: subject
+  - type: person
+    slug: fabius-maximus-cunctator
+    role: subject

@@ -1,0 +1,55 @@
+slug: hanno-the-great-anti-barcid-position
+statement: >
+  Hanno the Great's speech at the Carthaginian senate during
+  the 218 BCE Roman embassy — preserved at length in Livy
+  21.10 and in shorter form in Polybius — argued that
+  surrendering Hannibal to Rome was justified on the merits
+  but would not in fact preserve peace given the broader
+  strategic configuration. The position is the clearest
+  surviving instance of organized senatorial opposition to
+  the Barcid faction's foreign policy and reveals the
+  Carthaginian political class's substantial disagreement
+  about the war's necessity at the moment of its
+  declaration.
+confidence: attested
+scholarly_consensus: >
+  The speech's existence and Hanno's anti-Barcid position
+  are firmly attested. Whether Livy preserves Hanno's
+  actual words or has expanded a brief Polybian summary
+  with Roman-rhetorical elaboration is contested; the
+  consensus modern reading treats Livy's version as
+  substantially shaped by his rhetorical practice while
+  preserving Hanno's structural position accurately.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.10"
+    passage_summary: >
+      Livy preserves the most substantial version of
+      Hanno's speech: the legal merits of Hannibal's
+      surrender, the structural argument that surrender
+      would not preserve peace, the explicit anti-Barcid
+      framing.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.20-21"
+    passage_summary: >
+      Polybius preserves the Carthaginian senatorial
+      debate in shorter form; Hanno's position is
+      attested but with less rhetorical elaboration than
+      in Livy.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes Hanno's position as authentic
+      Carthaginian-political-historical evidence and
+      discusses the speech's significance for
+      understanding the late-3rd-century Carthaginian
+      senate.
+entities:
+  - type: event
+    slug: roman-declaration-of-war-218
+    role: subject
+  - type: person
+    slug: hanno-the-great
+    role: subject

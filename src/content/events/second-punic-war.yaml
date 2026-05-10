@@ -24,6 +24,10 @@ related_events:
     notes: >
       Hannibal's siege and capture of the Roman-allied Iberian city
       that produced the Roman declaration of war.
+  - event: roman-embassy-to-hannibal-219
+    relation: diplomatic prelude to (the failed first Roman embassy)
+  - event: roman-declaration-of-war-218
+    relation: opening event of (the formal declaration in spring 218 BCE)
   - event: crossing-of-the-alps
     relation: opening strategic move (218 BCE)
     notes: >
