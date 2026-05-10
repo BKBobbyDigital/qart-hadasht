@@ -182,6 +182,26 @@ determine — and a structural preview of the autonomy with which Hannibal
 would conduct the Iberian and Italian campaigns over the next two
 decades.
 
+The Barcid Iberian state's fiscal and military foundations are
+attested most directly by the Barcid Iberian Coinage — the silver
+shekels minted at Carthago Nova and other Iberian mints from 237
+BCE forward, with the male-portrait obverse iconography that
+sustains the modern debate over whether the figure is Melqart, a
+Hellenistic-style deified portrait of one of the Barcid generals,
+or deliberately ambiguous. The coinage is the principal physical
+evidence for the silver-economy underwriting of the Italian
+campaign.
+
+For the pre-Punic-political Iberian elite milieu the Barcid project
+built on, the Lady of Galera (a 7th-century BCE Phoenician
+alabaster statuette in an Iberian elite tomb), the Pozo Moro
+Funerary Monument (a late-6th-century BCE Iberian funerary tower
+with Phoenician-derived relief panels), and the Cancho Roano
+Sanctuary (a 6th-4th-century Tartessian-Iberian sanctuary with
+Phoenician imports) together document the multi-century Phoenician-
+Iberian elite-cultural exchange that the Barcid project inherited
+rather than created.
+
 ## The pre-Italy campaigns
 
 Hannibal's first three years of command (221-219 BCE) are the

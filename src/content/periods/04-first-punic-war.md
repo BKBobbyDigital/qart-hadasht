@@ -194,3 +194,16 @@ that Carthaginian Mediterranean dominance could be contested and lost
 to a state that, twenty years earlier, had been a junior diplomatic
 partner. The Hannibalic generation grew up in the consequences of that
 loss.
+
+The closing engagement is unusually well documented archaeologically.
+The Marsala Punic Warship — recovered off Lilybaeum in 1971 — is the
+only surviving Punic-period warship hull anywhere, and is probably a
+casualty of the Aegates battle or the surrounding First Punic War
+operations. The Egadi Islands Bronze Warship Rams — twenty-seven
+recovered since 2010 from the seabed at the battle site — extend
+the documentation dramatically, with rams identified to both
+Roman-built and Carthaginian vessels, V-shaped impact scratches
+preserving direct evidence of ram-against-ram engagement, and Punic
+inscriptions on the Carthaginian examples invoking Baal. The Aegates
+seabed is the most thoroughly archaeologically documented ancient
+naval engagement anywhere.

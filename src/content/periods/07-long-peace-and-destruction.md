@@ -222,12 +222,19 @@ empire. But Roman Carthage was a different polity in the same
 location; the Punic city's institutional, religious, and political
 life ended in 146 BCE.
 
-What Carthage left behind survives in fragments: the inscriptional
-record from the Tophet and from the Punic colonial network; the
-material culture preserved at sites like [Kerkouane](/places/kerkouane)
-that escaped Roman overlay; Mago's agricultural science transmitted
-through the Roman tradition; the Greek and Latin literary record that
-preserved Carthaginian history through hostile framing. What did not
+What Carthage left behind survives in fragments: the Tophet Stelae
+and the Carthage Votive Inscription Slab corpus from the Punic
+sanctuary precincts; the material culture preserved at sites like
+[Kerkouane](/places/kerkouane) — whose Kerkouane Domestic
+Architecture escaped Roman overlay because the city was abandoned
+during the First Punic War and never rebuilt; the El Hofra Stele
+Cache from Numidian Cirta, documenting the persistence of Punic
+religious practice in the North African interior for centuries
+after 146 BCE; the Libyco-Punic Mausoleum of Dougga, built in the
+2nd century BCE in the same Punic-Berber cultural sphere that the
+Hofra cache attests; Mago's agricultural science transmitted
+through the Roman tradition; and the Greek and Latin literary
+record that preserved Carthaginian history through hostile framing. What did not
 survive is most of what Carthage thought about itself — the
 theological tradition, the political treatises, the dramatic
 literature, the historical accounts — destroyed in the libraries

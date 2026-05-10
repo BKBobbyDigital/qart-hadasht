@@ -111,6 +111,17 @@ necropolis at Puig des Molins has yielded thousands of Punic-style
 burials, terracotta figurines, and inscribed amulets that constitute a
 substantial part of the surviving Carthaginian artifact record.
 
+The foundation period is anchored physically by the Nora Stone — a
+late-9th or early-8th century BCE Phoenician inscription from
+southern Sardinia, the earliest Phoenician text anywhere outside
+the Levantine homeland and direct evidence of Tyrian Phoenician
+activity in the western Mediterranean at or before Carthage's
+conventional foundation date. The Ahiram Sarcophagus from Byblos
+(c. 1000 BCE) and the Tabnit Sarcophagus from Sidon (c. 525 BCE)
+document the metropolitan Phoenician inscription and royal
+funerary traditions from which the Carthaginian colonial-cultural
+inheritance descends.
+
 ## What survives, what does not
 
 The early period is also distinctive in what its evidence base can and

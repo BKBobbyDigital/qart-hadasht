@@ -132,6 +132,14 @@ Mediterranean. The configuration reflects the actual asymmetry of
 the relationship at the date of the treaty. The 509 treaty is the
 diplomatic record of Carthaginian metropolitan dominance.
 
+The most consequential single piece of physical evidence for the
+Carthaginian-Etruscan diplomatic-religious relationship is the
+Pyrgi Tablets — three gold tablets, two in Etruscan and one in
+Phoenician, recording the c. 500 BCE Caere/Pyrgi dedicatory text
+that documents direct Phoenician-Etruscan religious exchange at
+state-cult level. The tablets are the principal physical witness
+to the diplomatic configuration the Battle of Alalia produced.
+
 ## Sicily as the structural problem
 
 The Sicilian theatre is the through-line of the Magonid period and the
@@ -158,7 +166,12 @@ Dionysius's [siege of Motya](/events/siege-of-motya-397) in 397 — the
 Phoenician colonial city on Sicily's western coast that had served as
 the Carthaginian operational base — destroyed one of the principal
 surviving Phoenician colonial sites and forced the Carthaginian counter-
-offensive of 396.
+offensive of 396. The Motya destruction sealed the city's Punic-period
+material record in a way no other major Phoenician colonial site
+matches: subsequent occupation was limited enough that Motya's
+archaeology preserves the Punic urban fabric, the Motya Kothon (the
+artificial sacred pool), the Motya House of Mosaics, and the Motya
+Charioteer in their late-5th-century condition.
 
 That counter-offensive ended in the [siege of Syracuse and the plague](/events/siege-of-syracuse-and-plague-396)
 that destroyed Himilco's army. The episode is the structural close of
