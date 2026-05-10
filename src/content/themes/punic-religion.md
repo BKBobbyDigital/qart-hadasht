@@ -137,6 +137,36 @@ practice. The Carthaginian religious imagination is irrecoverable in
 ways the religious imagination of literate-text-preserving cultures is
 not.
 
+## Material evidence
+
+The artifact corpus underlying this theme is substantial. The Tophet
+Stelae are the largest single body of Punic religious-textual evidence
+anywhere — thousands of inscribed votive stones from the Carthage
+Tophet, with dedications to Baal Hammon and Tanit, six centuries of
+continuous use, and the iconographic and inscriptional vocabulary that
+defines Punic state religion. The Sign of Tanit appears on the stelae,
+on votive iconography across the diaspora, on Carthaginian state
+coinage (the Carthage Tetradrachm of the 4th century BCE renders
+Tanit's head as the obverse type), and in domestic-religious contexts
+preserved at Kerkouane. Beyond the Carthage corpus, the El Hofra Stele
+Cache from Cirta in the Numidian interior documents the persistence
+of Punic religious practice across the post-146 BCE collapse; the
+Tharros Tophet Stele represents the Sardinian diaspora's distinct
+iconographic conventions.
+
+For the metropolitan Phoenician background, the Eshmun Sanctuary
+Votive Statue from Sidon attests to the healing-deity child-dedication
+tradition that the Carthage Eshmun cult on Byrsa hill descended from.
+The Cippi of Melqart, the 2nd-century BCE Punic-Greek bilinguals from
+Malta, record private dedications to the Tyrian patron god whose
+Carthaginian importance the Melqart-Heracles identification preserves.
+
+Apotropaic and personal-religious practice surfaces in the
+Phoenician/Punic Grinning Mask tradition and the Punic Glass Face
+Bead corpus — small protective objects deposited in tombs that
+extend Carthaginian religion beyond the state-sanctuary and Tophet
+contexts into the domestic register.
+
 ## Sources
 
 The principal modern syntheses are Lancel 1995, MacDonald 2015, and the

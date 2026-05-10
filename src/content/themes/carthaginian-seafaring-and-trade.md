@@ -140,6 +140,45 @@ voyages. The institutional infrastructure of Carthaginian
 commerce is largely reconstructed from comparative evidence
 and from scattered references in Greek and Roman sources.
 
+## Material evidence
+
+The physical record of Carthaginian seafaring is uneven but
+exceptional in specific cases. The Marsala Punic Warship is the
+single surviving Punic-period warship hull anywhere, recovered
+off Lilybaeum in 1971 and probably a casualty of the Battle of
+the Aegates Islands or its surrounding First Punic War
+operations. The hull's mortise-and-tenon joinery, the inscribed
+Punic shipwright's marks on the timbers, and the construction
+evidence the find preserves constitute the principal documentation
+for Punic naval architecture.
+
+The Egadi Islands Bronze Warship Rams — twenty-seven recovered
+since 2010 from the Battle of the Aegates Islands seabed — extend
+the documentation dramatically. Some rams carry Punic inscriptions
+invoking Baal; others bear Latin inscriptions naming Roman
+construction officials. V-shaped impact scratches across many
+striking surfaces preserve direct physical evidence of the
+tactical patterns Polybius described.
+
+Harbor architecture survives in the Carthage Cothon, the paired
+circular military and rectangular commercial basins still visible
+as topographic features in the modern archaeological park. The
+Motya Kothon, predating the Carthage cothon by approximately two
+centuries, is the earliest substantial Phoenician-colonial harbor
+(or sacred-pool, per recent reinterpretation) installation in the
+western Mediterranean.
+
+For Phoenician metropolitan-period commercial production, the
+Murex Shells and Tyrian Purple industry is the foundational
+Phoenician commercial activity — the practice that gave
+"Phoenician" its etymology and underwrote the Levantine
+commercial reach the Carthaginian network inherited and
+extended. The Mahdia Shipwreck (a Roman-period cargo of Greek
+art lost off Tunisia c. 80-60 BCE) extends the maritime
+narrative into the post-Carthaginian period and documents the
+late-Hellenistic trade routes that ran through what had been
+Carthage's commercial sphere.
+
 ## Sources
 
 The principal modern treatment of the Phoenician colonial

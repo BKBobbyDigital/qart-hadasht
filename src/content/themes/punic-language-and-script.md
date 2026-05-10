@@ -133,6 +133,45 @@ fields is for orientation and respect for the original; the
 Latinized name (Hannibal, Carthage, Hamilcar) is the primary
 display the encyclopedia uses for navigation.
 
+## Material evidence
+
+The script's history and decipherment depend on a handful of
+foundational inscriptions. The Ahiram Sarcophagus, dated to
+approximately 1000 BCE, bears the earliest substantial fully-developed
+Phoenician-alphabet text anywhere — the foundational physical
+document of the script Carthage inherited from its Tyrian
+metropolitan origin. The Nora Stone from southern Sardinia,
+inscribed in the late 9th or early 8th century BCE, is the earliest
+Phoenician inscription anywhere outside the Levantine homeland —
+direct evidence of the script's early western-Mediterranean reach
+that predates Carthage's conventional foundation date.
+
+Bilingual inscriptions anchor the modern decipherment apparatus.
+The Cippi of Melqart, recovered from Malta and entered into European
+scholarship in the 18th century, supplied Jean-Jacques Barthélemy
+with the parallel Punic-Greek text he used to break the Punic
+alphabet open in the 1750s. The Karatepe Bilingual provides the
+Phoenician-Luwian-hieroglyph parallel that allowed decipherment of
+the Anatolian hieroglyphic script. The Idalion Bilingual gave
+George Smith the Phoenician-Cypriot-syllabary parallel that broke
+the Cypriot syllabary in 1871. The Libyco-Punic Mausoleum of Dougga
+preserves the Libyan-Punic bilingual that enabled the 19th-century
+decipherment of the Libyan (Berber) alphabet.
+
+The Tabnit Sarcophagus and the Eshmunazar II Sarcophagus, both
+late-6th-century BCE Sidonian royal texts, are among the longest
+continuous Phoenician inscriptions; their curse-formula and royal-
+titulary vocabulary established conventions that subsequent
+Phoenician-Punic inscriptions inherit.
+
+Of the lost Punic-language literature, the Hanno's Periplus
+Inscription is the principal partial survival — the Punic
+original is lost, but the Greek translation preserved through the
+medieval manuscript tradition stands as the closest thing we have
+to a substantive specimen of Punic narrative literature, and as a
+methodological exemplar for how Punic writing reaches modern
+scholarship at all.
+
 ## Sources
 
 The principal modern reference works on Punic language are

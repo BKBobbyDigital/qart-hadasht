@@ -162,6 +162,39 @@ network was operated. What survives is enough to know the
 network was sophisticated and large; not enough to describe
 how it actually functioned at a transactional level.
 
+## Material evidence
+
+Carthaginian fiscal and commercial activity survives most directly
+in the coinage. The Carthage Tetradrachm series of the late 4th
+and early 3rd centuries BCE — the Tanit-head / horse-and-palm
+silver issues — was the principal pre-Barcid Carthaginian state
+coinage and the medium through which late-classical and early-
+Hellenistic Carthage paid its mercenaries and transacted its
+overseas commerce. The Barcid Iberian Coinage that succeeded it
+from 237 BCE forward documents the silver-economy reorganization
+under Hamilcar's and Hannibal's Iberian command, and is the
+single most important physical evidence for the Barcid fiscal
+foundation that made the Italian campaign possible.
+
+Phoenician metropolitan-period luxury production survives in
+the Cypriot Silver-Gilt Bowl tradition (representative of the
+8th-7th century BCE Phoenician metalwork that defined eastern
+Mediterranean elite consumption), the Tharros Gold Earrings
+(7th-6th century BCE Sardinian colonial Phoenician jewelry with
+characteristic granulation), and the Murex Shells and Tyrian
+Purple industry (the foundational Phoenician commercial
+activity). The Punic Glassware corpus — small core-formed
+perfume and cosmetic vessels — represents the Punic 5th-3rd
+century BCE luxury-craft production that entered the broader
+Mediterranean commerce network as recognized commodities.
+
+Maritime infrastructure is attested through the Carthage Cothon
+(the paired military and commercial harbors), the Motya Kothon
+(its 6th-century BCE predecessor or analog), the Marsala Punic
+Warship (the surviving Punic-period warship hull), and the
+Egadi Islands Bronze Warship Rams (recovered from the Aegates
+seabed since 2010).
+
 ## Sources
 
 The principal modern treatments are Aubet's *The Phoenicians

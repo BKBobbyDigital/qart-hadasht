@@ -162,6 +162,31 @@ literary sources. The result is a recognizable but blurred
 picture, with the basic outline secure and the details mostly
 gone.
 
+## Material evidence
+
+The principal archaeological window onto Punic domestic life is
+Kerkouane Domestic Architecture — the Punic city abandoned in
+the First Punic War and never rebuilt, preserving urban plan,
+house layouts, lime-plaster bath installations, painted wall
+surfaces, and household-scale religious installations in their
+Punic-period final state. The site is the only Phoenicio-Punic
+city to survive in something resembling its original form, and
+the principal corrective to the public-temple-and-elite-burial
+focus that the literary record naturally produces.
+
+Everyday material survives across multiple artifact classes. The
+Punic Oil Lamps (the distinctive two-spout terracotta type) are
+the most abundant single Punic artifact class and the principal
+chronological marker for unstratified contexts. The Punic
+Glassware corpus documents perfume, cosmetic, and oil container
+use across the Punic elite domestic register. The Punic Glass
+Face Bead and Phoenician/Punic Grinning Mask traditions
+document personal apotropaic practice at multiple scales. The
+Motya House of Mosaics preserves a late-5th or early-4th century
+BCE pebble mosaic floor in a Punic elite residence — the
+principal evidence for Punic-elite domestic decoration in the
+western Mediterranean.
+
 ## Sources
 
 The principal modern treatments of Carthaginian daily life are

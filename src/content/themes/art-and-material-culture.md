@@ -169,6 +169,48 @@ total is large enough to give a recognizable Carthaginian
 visual identity; small enough that any sweeping
 characterization should be qualified by what was lost.
 
+## Material evidence
+
+This theme is unusually well-served by surviving artifacts; the
+encyclopedia's artifact collection covers the principal visual
+evidence for Punic-cultural material production directly.
+
+For monumental sculpture, the Motya Charioteer (a larger-than-
+life-size marble youth recovered from Punic Sicily in 1979) is
+the single most-discussed individual artifact of Phoenician-Punic
+high-style sculpture and the principal evidence for the level of
+Greek-Punic artistic exchange in late-5th-century BCE Sicily.
+The Pozo Moro Funerary Monument (a late-6th-century BCE Iberian
+funerary tower with Phoenician-derived relief panels) documents
+the parallel Phoenician-Iberian elite-cultural exchange in
+pre-Barcid Iberia.
+
+For Phoenician metropolitan luxury production, the Nimrud
+Phoenician Ivory represents the Levantine workshop tradition
+that produced luxury goods for the broader Near Eastern imperial
+market; the Cypriot Silver-Gilt Bowl represents the
+corresponding metalwork tradition; the Tharros Gold Earrings
+represent the western-Mediterranean colonial jewelry production.
+
+For Carthaginian-period elite funerary art, the Punic Anthropoid
+Sarcophagi (the Sarcophagus of the Winged Priestess and related
+examples) and the Cádiz Anthropoid Sarcophagi (the Phoenician-
+colonial Iberian variant) document the late-Punic high-style
+sculptural tradition.
+
+For coinage, the Carthage Tetradrachm and the Barcid Iberian
+Coinage are the principal Carthaginian state issues, with
+iconographic programs that defined the visual identity of
+late-classical and Barcid-period Carthage. The Motya House of
+Mosaics extends the picture into domestic-elite decorative
+production.
+
+Small-scale apotropaic and decorative production includes the
+Phoenician/Punic Grinning Mask, the Punic Glass Face Bead, the
+Punic Glassware corpus, and the Punic Oil Lamps — together the
+everyday material register that complements the high-style
+monumental record.
+
 ## Sources
 
 The principal modern treatments are Lancel's *Carthage: A
