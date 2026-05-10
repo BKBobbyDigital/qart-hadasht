@@ -7,15 +7,22 @@
  * ~200. Appian ~300. The distance reframes how to read each citation
  * without burying the reader in source-criticism prose.
  *
+ * Hairline (outline-only) variant: the colored dot still carries the
+ * ordinal signal (close → far), but the chip itself drops the filled
+ * background so distance reads as quieter secondary metadata next to the
+ * louder filled confidence chip on a claim card. Confidence is primary;
+ * source distance is supporting context.
+ *
  * Color buckets (for primary literary sources):
  *   - contemporary / ≤50y → emerald (close witness or near-contemporary)
  *   - 51–150y           → amber  (one tradition removed; oral memory still alive)
  *   - 151+y             → rose   (literary tradition; events second-hand or later)
  *   - unknown distance  → stone  (cannot evaluate)
  *
- * Modern scholarship is shown as a neutral "modern" chip rather than a
- * thousand-year distance — the distance number isn't the epistemic story
- * for secondary scholarship.
+ * Modern scholarship is shown as a neutral slate "modern" chip rather than
+ * a thousand-year distance — the distance number isn't the epistemic story
+ * for secondary scholarship, and slate keeps it clear of the tyrian brand
+ * color.
  *
  * Inscriptions and archaeological sources are typically contemporary by
  * definition, so they get the emerald variant when no explicit distance is
@@ -52,10 +59,10 @@ if (source) {
     bucket = {
       label: 'modern',
       title: 'Modern scholarship — secondary source.',
-      dot: 'bg-tyrian-500',
-      border: 'border-tyrian-300',
-      bg: 'bg-tyrian-50',
-      text: 'text-tyrian-900',
+      dot: 'bg-slate-500',
+      border: 'border-slate-300',
+      bg: 'bg-transparent',
+      text: 'text-slate-700',
     };
   } else if (
     source.type === 'inscription' ||
@@ -67,8 +74,8 @@ if (source) {
       title: 'A material witness contemporary with the events.',
       dot: 'bg-emerald-600',
       border: 'border-emerald-300',
-      bg: 'bg-emerald-50',
-      text: 'text-emerald-900',
+      bg: 'bg-transparent',
+      text: 'text-emerald-800',
     };
   } else if (typeof dist === 'number') {
     if (dist <= 50) {
@@ -86,8 +93,8 @@ if (source) {
         title: 'One tradition removed — oral memory likely still alive.',
         dot: 'bg-amber-600',
         border: 'border-amber-300',
-        bg: 'bg-amber-50',
-        text: 'text-amber-900',
+        bg: 'bg-transparent',
+        text: 'text-amber-800',
       };
     } else {
       bucket = {
@@ -95,8 +102,8 @@ if (source) {
         title: 'Literary tradition — events second-hand or later.',
         dot: 'bg-rose-600',
         border: 'border-rose-300',
-        bg: 'bg-rose-50',
-        text: 'text-rose-900',
+        bg: 'bg-transparent',
+        text: 'text-rose-800',
       };
     }
   } else {
@@ -105,7 +112,7 @@ if (source) {
       title: 'Temporal distance from events is not recorded.',
       dot: 'bg-stone-400',
       border: 'border-stone-300',
-      bg: 'bg-stone-50',
+      bg: 'bg-transparent',
       text: 'text-stone-700',
     };
   }

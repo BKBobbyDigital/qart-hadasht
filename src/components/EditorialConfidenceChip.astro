@@ -11,29 +11,35 @@ interface Props {
 }
 const { confidence, size = 'sm' } = Astro.props;
 
+// Three steps of a single neutral (slate). Editorial confidence is a
+// distinct vocabulary from claim confidence (attested/inferred/contested
+// /disputed/legendary) and source distance — both of which use the
+// colored-dot palette. The chip stays in the same graphic family but
+// uses a graduated neutral to signal "this is the site's voice" rather
+// than competing with the epistemic scales.
 const styles: Record<
   string,
   { dot: string; border: string; bg: string; text: string; title: string }
 > = {
   tentative: {
-    dot: 'bg-stone-400',
-    border: 'border-stone-300',
-    bg: 'bg-stone-50',
-    text: 'text-stone-700',
+    dot: 'bg-slate-300',
+    border: 'border-slate-300',
+    bg: 'bg-slate-50',
+    text: 'text-slate-700',
     title: 'A working position — held lightly; we would not be surprised to revise.',
   },
   moderate: {
-    dot: 'bg-tyrian-500',
-    border: 'border-tyrian-300',
-    bg: 'bg-tyrian-50',
-    text: 'text-tyrian-900',
+    dot: 'bg-slate-500',
+    border: 'border-slate-300',
+    bg: 'bg-slate-50',
+    text: 'text-slate-800',
     title: 'A position we hold with some confidence; revisable but not lightly.',
   },
   strong: {
-    dot: 'bg-tyrian-700',
-    border: 'border-tyrian-500',
-    bg: 'bg-tyrian-50',
-    text: 'text-tyrian-900',
+    dot: 'bg-slate-800',
+    border: 'border-slate-400',
+    bg: 'bg-slate-50',
+    text: 'text-slate-900',
     title: 'A position we hold with high confidence given the available evidence.',
   },
 };

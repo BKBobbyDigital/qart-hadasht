@@ -53,20 +53,10 @@ const fmtRange = (data: any) => {
   return `${start} BCE`;
 };
 
-const typeBadgeStyle = (type: string) => {
-  const map: Record<string, string> = {
-    war: 'bg-tyrian-100 text-tyrian-900',
-    battle: 'bg-amber-100 text-amber-900',
-    siege: 'bg-amber-100 text-amber-900',
-    treaty: 'bg-emerald-100 text-emerald-900',
-    political: 'bg-sky-100 text-sky-900',
-    expedition: 'bg-sky-100 text-sky-900',
-    founding: 'bg-sand-200 text-sand-900',
-    cultural: 'bg-sand-200 text-sand-900',
-    disaster: 'bg-gray-200 text-gray-900',
-  };
-  return map[type] ?? 'bg-sand-200 text-sand-900';
-};
+// All event-type badges share one neutral style. Category is communicated
+// by the type word itself, not by hue — color on this site is reserved
+// for epistemic signal (confidence, source distance).
+const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
 ---
 
 <BaseLayout title="Events">
