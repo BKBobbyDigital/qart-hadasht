@@ -66,3 +66,6 @@ entities:
   - type: event
     slug: founding-of-carthage
     role: context
+  - type: artifact
+    slug: ahiram-sarcophagus
+    role: context

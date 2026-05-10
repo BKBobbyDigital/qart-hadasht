@@ -43,3 +43,9 @@ entities:
   - type: event
     slug: hasdrubal-the-fairs-command
     role: subject
+  - type: artifact
+    slug: lady-of-galera
+    role: context
+  - type: artifact
+    slug: pozo-moro-funerary-monument
+    role: context

@@ -33,3 +33,9 @@ entities:
   - type: place
     slug: tyre
     role: object
+  - type: artifact
+    slug: ahiram-sarcophagus
+    role: context
+  - type: artifact
+    slug: tabnit-sarcophagus
+    role: context

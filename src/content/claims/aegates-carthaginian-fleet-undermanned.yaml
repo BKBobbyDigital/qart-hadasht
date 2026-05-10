@@ -35,3 +35,6 @@ entities:
   - type: person
     slug: hanno-aegates
     role: subject
+  - type: artifact
+    slug: egadi-bronze-ram
+    role: context

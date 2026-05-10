@@ -29,3 +29,6 @@ entities:
   - type: event
     slug: battle-of-aegates-islands
     role: context
+  - type: artifact
+    slug: egadi-bronze-ram
+    role: context
