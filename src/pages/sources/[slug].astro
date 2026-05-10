@@ -1,9 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
   const sources = await getCollection('sources');
@@ -21,6 +22,90 @@ const allClaims = await getCollection('claims');
 const claimsCiting = allClaims.filter((c) =>
   c.data.sources.some((s: any) => s.source.id === source.id)
 );
+
+// ─── Build the citation digest ────────────────────────────────────────────────
+// One entry per (claim, source-row) — surfaces passage_ref, passage_summary,
+// passage_quote, and stance so the source page reads as a digest of what
+// this source preserves about Carthaginian history rather than a bare list
+// of claim statements.
+type Citation = {
+  claim: typeof claimsCiting[number];
+  passage_ref?: string;
+  passage_summary: string;
+  passage_quote?: string;
+  stance: 'supports' | 'contradicts' | 'qualifies';
+};
+const citations: Citation[] = claimsCiting.flatMap((c) =>
+  c.data.sources
+    .filter((s: any) => s.source.id === source.id)
+    .map((s: any) => ({
+      claim: c,
+      passage_ref: s.passage_ref,
+      passage_summary: s.passage_summary,
+      passage_quote: s.passage_quote,
+      stance: s.stance,
+    }))
+);
+
+// Natural sort by passage_ref so "3.22" precedes "15.11" and entries flow
+// in approximate textual order. Pad each numeric run so string compare
+// works numerically. Missing refs sort to the end.
+function naturalKey(ref: string | undefined): string {
+  if (!ref) return '￿';
+  return ref.replace(/\d+/g, (n) => n.padStart(6, '0'));
+}
+citations.sort((a, b) => naturalKey(a.passage_ref).localeCompare(naturalKey(b.passage_ref)));
+
+// ─── Topic chips: entities this source's citations touch ──────────────────────
+// Aggregate entity references across all citing claims, dedupe, resolve
+// display labels. Capped to keep the chip cluster readable.
+const TOPIC_COLLECTION: Record<string, string> = {
+  event: 'events',
+  person: 'people',
+  place: 'places',
+  institution: 'institutions',
+  theme: 'themes',
+  group: 'groups',
+  deity: 'deities',
+};
+const topicSeen = new Set<string>();
+const topicRefs: Array<{ type: string; slug: string }> = [];
+for (const c of claimsCiting) {
+  for (const e of (c.data.entities ?? []) as any[]) {
+    if (!TOPIC_COLLECTION[e.type]) continue;
+    const key = `${e.type}:${e.slug}`;
+    if (topicSeen.has(key)) continue;
+    topicSeen.add(key);
+    topicRefs.push({ type: e.type, slug: e.slug });
+  }
+}
+const topics = (
+  await Promise.all(
+    topicRefs.map(async (t) => {
+      const collection = TOPIC_COLLECTION[t.type];
+      const entry: any = await getEntry(collection as any, t.slug);
+      if (!entry) return null;
+      const label =
+        entry.data.name_display ||
+        entry.data.name ||
+        entry.data.title ||
+        t.slug;
+      return {
+        label,
+        href: `/${collection}/${entry.id.replace(/\.md$/, '')}`,
+      };
+    })
+  )
+).filter(Boolean) as Array<{ label: string; href: string }>;
+topics.sort((a, b) => a.label.localeCompare(b.label));
+
+// Stance display config — symbol + tone color. Reuses the ✓/~/✗ glyph
+// idiom from ClaimCard so readers learn it once.
+const stanceStyle: Record<string, { symbol: string; label: string; cls: string }> = {
+  supports: { symbol: '✓', label: 'supports', cls: 'text-emerald-700' },
+  qualifies: { symbol: '~', label: 'qualifies', cls: 'text-amber-700' },
+  contradicts: { symbol: '✗', label: 'contradicts', cls: 'text-rose-700' },
+};
 
 // Find events that list this source as a principal narrator
 const allEvents = await getCollection('events');
@@ -142,22 +227,59 @@ const sourceInfoboxRows: InfoboxRow[] = [
       </section>
     )}
 
-    {claimsCiting.length > 0 && (
+    {citations.length > 0 && (
       <section class="mt-12" id="claims">
-        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Claims citing this source</h2>
-        <ul class="space-y-2">
-          {claimsCiting.map((c) => {
-            const citation = c.data.sources.find((s: any) => s.source.id === source.id);
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">What this source preserves</h2>
+        <p class="text-sm text-sand-700 mb-6">
+          {citations.length} passage{citations.length === 1 ? '' : 's'} cited across the encyclopedia, in approximate textual order. Each entry is the encyclopedia's paraphrase of what the source says at the cited locus, with the claim it informs.
+        </p>
+
+        {topics.length > 0 && (
+          <div class="mb-6">
+            <p class="text-[11px] uppercase tracking-widest font-semibold text-sand-700 mb-2">Topics covered</p>
+            <div class="flex flex-wrap gap-1.5">
+              {topics.map((t) => (
+                <a
+                  href={t.href}
+                  class="text-xs px-2 py-1 border border-sand-300 rounded-full text-sand-900 hover:border-tyrian-500 hover:text-tyrian-700 transition-colors"
+                >
+                  {t.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <ol class="space-y-6">
+          {citations.map((c) => {
+            const stance = stanceStyle[c.stance] ?? stanceStyle.supports;
             return (
-              <li class="border border-sand-300 rounded p-3 text-sm">
-                <p>{c.data.statement}</p>
-                {citation?.passage_ref && (
-                  <p class="text-sand-700 text-xs mt-1">Cited at {citation.passage_ref}</p>
+              <li class="border-l-2 border-tyrian-300 pl-4">
+                <div class="flex items-baseline gap-3 flex-wrap">
+                  <span class="font-mono text-sm text-tyrian-700 tabular-nums font-semibold">
+                    {c.passage_ref ?? '— passage unspecified —'}
+                  </span>
+                  <span class={`text-xs ${stance.cls}`} title={`This source ${stance.label} the cited claim`}>
+                    <span class="font-bold">{stance.symbol}</span> {stance.label}
+                  </span>
+                </div>
+                <p class="mt-2 text-sand-900 leading-relaxed">{c.passage_summary}</p>
+                {c.passage_quote && (
+                  <blockquote class="mt-3 border-l-2 border-sand-300 pl-3 italic text-sm text-sand-800">
+                    &ldquo;{c.passage_quote}&rdquo;
+                  </blockquote>
                 )}
+                <div class="mt-2 flex items-baseline gap-2 flex-wrap text-xs">
+                  <span class="text-sand-700">On the claim:</span>
+                  <a href={`/claims/${c.claim.id}`} class="text-tyrian-700 hover:underline">
+                    {c.claim.data.statement}
+                  </a>
+                  <ConfidenceBadge confidence={c.claim.data.confidence} size="xs" />
+                </div>
               </li>
             );
           })}
-        </ul>
+        </ol>
       </section>
     )}
     </article>
