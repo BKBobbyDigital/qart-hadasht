@@ -1,0 +1,62 @@
+slug: 149-demands-as-deliberate-trap
+statement: >
+  The escalating sequence of Roman demands in 149 BCE —
+  hostages, then disarmament, then relocation 16 km inland
+  — was designed to produce Carthaginian refusal at the
+  third stage rather than to negotiate any actual political
+  settlement. The disarmament-then-impossible-demand
+  structure made the war's outcome a foregone conclusion
+  before the siege began. The Roman strategic objective
+  was Carthage's destruction; the demand sequence was its
+  diplomatic-procedural instrument.
+confidence: inferred
+scholarly_consensus: >
+  The reading is the consensus modern interpretation,
+  advanced explicitly by Hoyos and broadly accepted
+  across recent scholarship. It is "inferred" rather
+  than "attested" because the surviving Greco-Latin
+  sources (principally Appian) preserve the demand
+  sequence in detail without explicitly framing it as
+  deliberate trap; the trap-reading is reconstructed
+  from comparison of the demands' structure with the
+  Roman strategic objectives Cato had been advocating
+  for the prior decade.
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "75-86"
+    passage_summary: >
+      Appian preserves the demand sequence in detail,
+      including Carthaginian rhetorical recognition that
+      the relocation demand was designed to produce
+      refusal. The source's framing supports the trap
+      reading without naming it as such.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "36 (fragmentary)"
+    passage_summary: >
+      Polybius's surviving fragments on the Third Punic
+      War are limited but consistent with the sequenced-
+      demand reading.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the demand sequence as deliberately
+      structured for refusal and treats the trap reading
+      as the consensus modern interpretation.
+  - source: miles-carthage-2010
+    stance: supports
+    passage_summary: >
+      Miles integrates the demand sequence with the
+      broader Catonian advocacy and treats the war's
+      outcome as effectively settled before 149.
+entities:
+  - type: event
+    slug: roman-declaration-of-war-149
+    role: subject
+  - type: event
+    slug: third-punic-war
+    role: context
+  - type: event
+    slug: destruction-of-carthage
+    role: context

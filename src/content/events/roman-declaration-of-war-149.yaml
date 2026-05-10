@@ -1,0 +1,88 @@
+slug: roman-declaration-of-war-149
+name: Roman Declaration of War and Escalating Demands (149 BCE)
+type: political
+date_start:
+  value: -149
+  precision: year
+  notes: >
+    Spring through summer 149 BCE; the demand sequence ran
+    over several months as Roman commanders advanced the
+    expedition to Africa.
+place: carthage
+participants: []
+principal_sources:
+  - polybius-histories
+  - appian-punica
+  - livy-auc
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: war-with-masinissa
+    relation: produced by (the casus belli the Carthaginian operation provided)
+  - event: cato-commission-153
+    relation: pre-history of (the senatorial faction whose advocacy the declaration completed)
+  - event: third-punic-war
+    relation: opening event of (the formal declaration that began the war)
+  - event: destruction-of-carthage
+    relation: led directly to (the siege whose terms the declaration set)
+summary: >
+  The diplomatic sequence of 149 BCE that converted the
+  Roman declaration of war into the destruction of Carthage:
+  a deliberate, escalating series of Roman demands designed
+  to be either accepted (in which case Carthage would be
+  reduced to a defenseless inland settlement) or refused
+  (in which case Rome would have its preferred war on its
+  preferred terms). The sequence is preserved at length in
+  Appian (*Punica* 75-86) and is one of the clearest
+  surviving instances in ancient Mediterranean history of
+  diplomatic ultimatum-as-strategic-instrument.
+
+  The principal phases:
+
+  - **Spring 149 BCE: declaration of war.** The Roman
+    senate formally voted for war against Carthage on
+    grounds of treaty violation (the 150 BCE Carthaginian
+    operation against Masinissa). A consular army under
+    Manius Manilius and Lucius Marcius Censorinus was
+    dispatched to Sicily and then Africa.
+
+  - **The first demand: hostages.** Carthage was instructed
+    to surrender 300 children of senatorial families as
+    hostages to ensure compliance. Carthage complied. The
+    hostages were dispatched to Rome.
+
+  - **The second demand: weapons.** Carthage was instructed
+    to surrender all its armaments — military equipment,
+    siege materials, naval ordnance. Appian gives detailed
+    figures: 200,000 sets of arms and 2,000 catapults.
+    Carthage complied. The disarmament was conducted under
+    Roman supervision.
+
+  - **The third demand: relocate the city.** Carthage was
+    instructed to abandon its coastal site and resettle
+    its population at a new location at least 80 stadia
+    (approximately 16 km) inland from the sea. The
+    rationale offered — that maritime access enabled
+    Carthaginian war-making — was transparent pretext;
+    the demand was deliberately impossible for a maritime
+    commercial city to accept.
+
+  - **Summer 149 BCE: Carthaginian refusal.** The
+    Carthaginian senate, after substantial debate
+    (Appian preserves the rhetorical detail: the
+    senatorial speakers explicitly framed the demand as
+    designed to produce refusal), rejected the relocation
+    demand and prepared the city for siege. The
+    population that had surrendered its weapons months
+    earlier set about producing new ones from any
+    available material — Appian reports women cutting
+    their hair to provide bowstrings.
+
+  The deliberate-escalation structure of the demand
+  sequence is the principal evidence for the consensus
+  modern reading that Roman strategic objectives in 149
+  BCE were settled before the war began. (See claim:
+  149-demands-as-deliberate-trap.) The disarmament-then-
+  impossible-demand sequence was designed to produce a
+  defenseless adversary forced to fight a war the Roman
+  side had already chosen to wage.

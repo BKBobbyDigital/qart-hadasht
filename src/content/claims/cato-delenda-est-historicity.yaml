@@ -1,0 +1,79 @@
+slug: cato-delenda-est-historicity
+statement: >
+  The famous formula *Carthago delenda est* — "Carthage
+  must be destroyed," with which Cato the Elder reportedly
+  ended every senatorial speech regardless of topic across
+  the years from his return from the 153 BCE commission
+  through his death in 149 BCE — does not survive in any
+  contemporary source in this exact wording. Plutarch
+  (*Cato Major* 27) preserves the rhetorical pattern but
+  gives the phrase as *Δοκεῖ δέ μοι καὶ Καρχηδόνα μὴ εἶναι*
+  ("It seems to me that Carthage must not exist"). The
+  Latin tagline most cited in modern usage is a post-
+  classical retrojection of Plutarch's Greek into idiomatic
+  Latin form.
+confidence: contested
+dispute_summary: |
+  Three layers of contestation:
+
+  1. **The rhetorical practice.** That Cato systematically
+     advocated for Carthage's destruction in his senatorial
+     speeches across the 150s BCE is firmly attested in
+     Plutarch and broadly accepted. The structural fact
+     of the campaign is uncontroversial.
+
+  2. **The exact formula.** No source preserves "Carthago
+     delenda est" or "Ceterum censeo Carthaginem esse
+     delendam" (the most common modern citation form) in
+     the exact words. Plutarch's Greek formula is the
+     closest surviving attestation; the canonical Latin
+     phrase as cited today is a post-classical refinement
+     reaching its current standard form in modern usage,
+     possibly via 18th-century editorial conventions.
+
+  3. **The figure on the Senate floor.** Some scholarship
+     has questioned whether the speech-ending pattern
+     itself is a Plutarchan literary structure rather
+     than preserved senatorial practice. The minority
+     skeptical position holds that the pattern reflects
+     Plutarch's biographical method (giving the figure a
+     defining rhetorical signature) more than it reflects
+     Cato's actual senatorial conduct.
+
+  The structural fact — Cato's anti-Carthaginian advocacy
+  through the 150s — is firmly attested. The exact words
+  and the precise rhetorical practice are what is
+  contested. The modern dominance of the Latin form
+  reflects later transmission rather than Catonian
+  attestation.
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Cato Major 27"
+    passage_summary: >
+      Plutarch's Greek-language preservation of Cato's
+      campaign and the rhetorical formula. The principal
+      source.
+  - source: livy-auc
+    stance: supports
+    passage_summary: >
+      Livy's surviving accounts and the Periochae of his
+      lost books preserve traces of Cato's advocacy
+      without giving the exact formula in the modern
+      cited form.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos discusses the textual transmission of the
+      delenda-est formula in the context of the broader
+      Catonian-rhetorical tradition.
+entities:
+  - type: person
+    slug: cato-the-elder
+    role: subject
+  - type: event
+    slug: cato-commission-153
+    role: context
+  - type: event
+    slug: third-punic-war
+    role: context

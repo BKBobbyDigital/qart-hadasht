@@ -25,6 +25,10 @@ referenced_themes:
   - carthaginian-economy
   - punic-identity
 related_events:
+  - event: cato-commission-153
+    relation: structural prelude to (the 153 BCE commission that turned Cato decisively against Carthage)
+  - event: roman-declaration-of-war-149
+    relation: opening event of (the formal declaration and the escalating demand sequence)
   - event: war-with-masinissa
     relation: casus belli (the 150 BCE engagement that gave Rome the legal pretext)
     notes: >
