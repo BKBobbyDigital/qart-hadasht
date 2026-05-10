@@ -1,0 +1,54 @@
+slug: tagus-tactical-template-for-italy
+statement: >
+  The Battle of the Tagus (220 BCE) is the operational
+  template for Hannibal's later Italian engagements. The
+  combined-arms approach — terrain feature as tactical
+  instrument (the river itself), elephants as the screening
+  element, cavalry as the envelopment reserve, controlled
+  defeat-in-detail of a numerically superior opponent —
+  recurs in essentially the same configuration at Trebia
+  (218 BCE), Lake Trasimene (217 BCE), and the Cannae
+  envelopment (216 BCE).
+confidence: inferred
+scholarly_consensus: >
+  The continuity-of-method argument is broadly accepted in
+  modern scholarship. It is "inferred" rather than "attested"
+  because Polybius does not himself draw the explicit
+  connection — he treats the Tagus engagement and the
+  Italian engagements separately. The continuity is a
+  reading-back from the comparative analysis of the
+  engagements, foundational to MacDonald and Hoyos.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.14, 3.65-117"
+    passage_summary: >
+      Polybius narrates the Tagus engagement and the Italian
+      engagements separately; the continuity-of-method reading
+      is a synthesis from comparison of his accounts.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos integrates the Tagus engagement into the broader
+      tactical pattern of Hannibal's command and treats the
+      Italian engagements as iterative refinements of the
+      same approach.
+  - source: macdonald-hannibal-2015
+    stance: supports
+    passage_summary: >
+      MacDonald's biographical treatment of Hannibal makes the
+      continuity-of-method argument explicit and treats the
+      Tagus engagement as the foundational template.
+entities:
+  - type: event
+    slug: battle-of-the-tagus
+    role: subject
+  - type: event
+    slug: battle-of-cannae
+    role: context
+  - type: event
+    slug: battle-of-trebia
+    role: context
+  - type: event
+    slug: battle-of-lake-trasimene
+    role: context

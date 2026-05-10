@@ -1,0 +1,47 @@
+slug: saguntum-strategic-resource-consolidation
+statement: >
+  Hannibal's siege of Saguntum served a strategic-economic
+  function beyond the diplomatic provocation: the city was a
+  significant regional center whose plunder yielded substantial
+  silver and supplies usable for the planned Italian
+  expedition. The eight-month investment was itself a logistical
+  preparation for the campaign that would begin in spring 218
+  BCE. Polybius reports that Saguntum's plunder was
+  systematically distributed to fund the Iberian and the
+  Italian operations.
+confidence: attested
+scholarly_consensus: >
+  The dual-purpose reading — diplomatic provocation plus
+  resource consolidation — is the consensus modern
+  interpretation. Polybius's plunder-distribution detail is
+  the principal evidentiary basis. Hoyos and MacDonald both
+  treat the strategic-economic function as central rather
+  than ancillary.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.17"
+    passage_summary: >
+      Polybius records the systematic distribution of
+      Saguntum's plunder for the funding of subsequent
+      operations, treating the act as deliberate Carthaginian
+      preparation rather than incidental looting.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos treats the resource-consolidation function as
+      central to Hannibal's strategic logic in the
+      Saguntum decision.
+  - source: macdonald-hannibal-2015
+    stance: supports
+    passage_summary: >
+      MacDonald integrates the resource function with the
+      broader Iberian preparation that culminated in the
+      Alpine crossing.
+entities:
+  - type: event
+    slug: siege-of-saguntum
+    role: subject
+  - type: theme
+    slug: carthaginian-economy
+    role: context

@@ -1,0 +1,43 @@
+slug: saguntum-hannibal-wounded-falarica
+statement: >
+  Hannibal was wounded during the siege of Saguntum, struck in
+  the thigh by a heavy javelin (the *falarica*, an Iberian
+  weapon Livy treats as distinctively Saguntine). The wound
+  forced him to suspend personal direction of operations for
+  some weeks. The detail is preserved in Livy and is generally
+  treated by modern scholarship as a credible operational
+  episode rather than dramatic fiction.
+confidence: attested
+scholarly_consensus: >
+  Livy's account is the principal source. The detail is broadly
+  accepted in modern scholarship as plausible: the falarica is
+  attested independently as an Iberian weapon, the eight-month
+  siege provides ample opportunity for command-level wounding,
+  and the episode does not serve any obvious dramatic function
+  Livy would have invented. Hoyos and MacDonald both accept it.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.7-8"
+    passage_summary: >
+      Livy gives the wounding episode in the context of his
+      extended siege narrative, treating it as one operational
+      detail among many.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos accepts the wounding as historical and treats it
+      as part of the operational record of Hannibal's
+      pre-Italy command.
+  - source: macdonald-hannibal-2015
+    stance: supports
+    passage_summary: >
+      MacDonald's biography treats the episode as a plausible
+      operational detail.
+entities:
+  - type: event
+    slug: siege-of-saguntum
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject

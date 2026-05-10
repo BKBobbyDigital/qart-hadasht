@@ -1,0 +1,62 @@
+slug: saguntum-mass-suicide-livian-elaboration
+statement: >
+  Livy's narrative includes a famous episode in which the
+  remaining Saguntine citizens, recognizing the city's
+  imminent fall, gathered their valuables on a central pyre,
+  killed their families, and threw themselves into the flames
+  rather than surrender. The episode's historicity is
+  contested. The structural fact — that Saguntum was destroyed
+  rather than merely captured — is firmly attested. The
+  collective-suicide tableau as Livy gives it is widely treated
+  as Livian dramatic elaboration on a pattern of urban fall
+  topoi rather than as preserved historical detail.
+confidence: contested
+dispute_summary: |
+  The contestation runs along familiar lines for Livy's siege
+  narratives:
+
+  1. **Polybius does not include the collective-suicide
+     episode.** Polybius's account of the siege's conclusion
+     (3.17) emphasizes the city's destruction and the
+     transfer of plunder to Carthaginian use, but does not
+     describe the dramatic civic suicide.
+  2. **Livy's account fits a pattern of Roman-tradition urban-
+     fall topoi.** The collective-suicide tableau as a
+     literary set-piece appears across Livy's narratives of
+     besieged cities (compare Livy's Numantia, his Astapa,
+     his other Iberian set-pieces). The pattern's
+     consistency suggests literary convention as much as
+     preserved historical reportage.
+  3. **The structural fact of urban destruction is preserved
+     across all sources.** That Saguntum was destroyed and
+     its remnant population enslaved or killed is
+     uncontroversial. The specific dramatic episode is the
+     element treated as elaboration.
+
+  The consensus modern reading distinguishes between the
+  uncontroversial structural fact of Saguntum's destruction
+  and the contested status of the specific dramatic detail.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.14"
+    passage_summary: >
+      Livy gives the collective-suicide episode as the
+      dramatic climax of his siege narrative.
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.17"
+    passage_summary: >
+      Polybius does not include the collective-suicide
+      episode, instead describing the city's fall and
+      plunder distribution.
+  - source: hoyos-hannibal-2003
+    stance: qualifies
+    passage_summary: >
+      Hoyos treats the collective-suicide tableau as Livian
+      elaboration while accepting the structural fact of
+      destruction.
+entities:
+  - type: event
+    slug: siege-of-saguntum
+    role: subject

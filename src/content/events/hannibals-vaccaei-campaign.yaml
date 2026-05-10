@@ -1,0 +1,55 @@
+slug: hannibals-vaccaei-campaign
+name: Hannibal's Vaccaei Campaign
+type: expedition
+date_start:
+  value: -220
+  precision: year
+  notes: Summer 220 BCE, Hannibal's second independent campaign — the major northern operation.
+place: iberia
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: hannibals-olcades-campaign
+    relation: continuation of (the campaign sequence of 221–220 BCE)
+  - event: battle-of-the-tagus
+    relation: produced (the Tagus engagement on Hannibal's return south)
+    notes: >
+      The Vaccaei campaign's southward return route triggered
+      the Carpetani-Vaccaei-Olcadian coalition that Hannibal
+      met at the Tagus.
+summary: >
+  Hannibal Barca's second independent Iberian campaign,
+  conducted in summer 220 BCE against the Vaccaei — a major
+  Iberian tribal confederation occupying the central-northern
+  meseta around the upper Duero river (modern Salamanca-Zamora
+  region). The campaign produced two principal urban captures:
+  Hermandica (modern Salamanca) and Arbocala (modern Toro,
+  near Zamora). Both engagements produced substantial plunder
+  in silver and grain that funded the army's continued
+  operations.
+
+  The strategic significance lay in two areas. First, the
+  campaign extended Carthaginian operations far further north
+  than any previous Barcid expedition, demonstrating the
+  capacity of the Iberian field army to project force across
+  several hundred kilometers from its southeastern base.
+  Second, the campaign's return route through Carpetani
+  territory produced the political consequence that defined
+  the year: the Carpetani, Vaccaei survivors, and Olcadian
+  refugees who had sheltered with them combined into a
+  coalition force that intercepted Hannibal's army at the
+  Tagus river crossing. The Tagus engagement that followed
+  (one of the two clear pre-Italian demonstrations of
+  Hannibal's tactical command) eliminated the principal
+  organized Iberian opposition to Carthaginian expansion and
+  freed Hannibal to turn to the Saguntum operation the
+  following spring.

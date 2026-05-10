@@ -1,0 +1,47 @@
+slug: hannibals-olcades-campaign
+name: Hannibal's Olcades Campaign
+type: expedition
+date_start:
+  value: -221
+  precision: year
+  notes: Summer 221 BCE, Hannibal's first independent campaign as Carthaginian commander in Iberia.
+place: iberia
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: assassination-of-hasdrubal-the-fair
+    relation: caused by (the succession that produced Hannibal's command)
+  - event: hannibals-vaccaei-campaign
+    relation: prelude to (the larger 220 BCE northern campaign)
+summary: >
+  Hannibal Barca's first independent campaign as Carthaginian
+  commander in Iberia, conducted in summer 221 BCE against
+  the Olcades, a tribal confederation occupying the upper
+  Tagus / upper Guadiana valley region of central Iberia
+  (modern Cuenca-Toledo zone). The campaign produced the
+  capture of the principal Olcadian fortress town, named in
+  Polybius as "Althaea" and in Livy as "Cartala" — both
+  forms reflecting the imperfect transmission of Iberian
+  toponyms through Greek and Latin. The town's plunder
+  funded the winter quarters at Carthago Nova and provided
+  silver bullion for the army's wages.
+
+  The strategic-political function was as significant as
+  the operational one: the campaign demonstrated Hannibal's
+  capacity to conduct independent operations at scale,
+  consolidated Carthaginian authority over the central
+  Iberian interior (a zone that had remained outside the
+  effective control of both Hamilcar and Hasdrubal the Fair
+  during the previous fifteen years), and established the
+  tactical patterns — combined-arms manoeuvre, elephant
+  screening, Numidian cavalry envelopment — that would
+  characterize Hannibal's command for the next two decades.

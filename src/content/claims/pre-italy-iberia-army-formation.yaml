@@ -1,0 +1,55 @@
+slug: pre-italy-iberia-army-formation
+statement: >
+  The Iberian field army that crossed the Alps in late 218
+  BCE was substantially the army of the 221–220 BCE
+  pre-Italian campaigns: a force forged in two consecutive
+  summers of large-scale operations against the Olcades, the
+  Vaccaei, and the Carpetani-Vaccaei-Olcadian coalition at
+  the Tagus. The campaigns were the operational shakedown
+  that produced the integrated Carthaginian-Iberian-Numidian-
+  Gallic combined force whose tactical capacity would
+  determine the Italian theater.
+confidence: inferred
+scholarly_consensus: >
+  The army-formation reading is the consensus modern
+  interpretation. It is "inferred" rather than "attested"
+  because Polybius does not himself frame the pre-Italy
+  campaigns as army formation — he treats them as
+  consolidating Iberian operations. The army-formation
+  framing is Hoyos's and MacDonald's synthesis from
+  comparison of the troop configurations.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.13, 3.33-35"
+    passage_summary: >
+      Polybius records the Iberian operations of 221–220 BCE
+      and the troop configurations Hannibal subsequently led
+      across the Pyrenees, Rhone, and Alps in 218 BCE. The
+      army-formation continuity is implicit in the parallel
+      accounts.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the pre-Italy campaigns as preparation —
+      both political and operational — for the Italian
+      strategy.
+  - source: macdonald-hannibal-2015
+    stance: supports
+    passage_summary: >
+      MacDonald's biographical treatment integrates the
+      pre-Italy campaigns with the Italian campaign as
+      successive phases of the same operational programme.
+entities:
+  - type: event
+    slug: hannibals-olcades-campaign
+    role: subject
+  - type: event
+    slug: hannibals-vaccaei-campaign
+    role: subject
+  - type: event
+    slug: battle-of-the-tagus
+    role: subject
+  - type: event
+    slug: second-punic-war
+    role: context

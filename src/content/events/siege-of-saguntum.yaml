@@ -14,7 +14,16 @@ principal_sources:
   - polybius-histories
   - livy-auc
   - hoyos-hannibal-2003
-related_events: []
+related_events:
+  - event: battle-of-the-tagus
+    relation: prelude to (the engagement that freed Hannibal to turn to Saguntum)
+    notes: >
+      The Tagus battle eliminated the principal organized
+      Iberian opposition to Carthaginian expansion, freeing
+      Hannibal to commit the Iberian field army to the
+      Saguntum operation in 219 BCE.
+  - event: ebro-treaty
+    relation: contested under (the treaty whose interpretation the siege forced)
 summary: >
   Hannibal's siege and capture of the Iberian city of Saguntum in
   219 BCE, the casus belli of the Second Punic War. Saguntum had

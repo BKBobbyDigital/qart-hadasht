@@ -70,3 +70,9 @@ entities:
   - type: event
     slug: siege-of-saguntum
     role: subject
+  - type: event
+    slug: ebro-treaty
+    role: subject
+  - type: event
+    slug: second-punic-war
+    role: context

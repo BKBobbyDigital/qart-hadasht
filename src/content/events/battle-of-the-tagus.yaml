@@ -1,0 +1,61 @@
+slug: battle-of-the-tagus
+name: Battle of the Tagus
+type: battle
+date_start:
+  value: -220
+  precision: year
+  notes: Late summer 220 BCE, on the southern bank of the Tagus river during Hannibal's return from the Vaccaei campaign.
+place: tagus-river
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: hannibals-vaccaei-campaign
+    relation: produced by (the campaign whose return route triggered the engagement)
+  - event: siege-of-saguntum
+    relation: prelude to (the engagement that freed Hannibal to turn to Saguntum)
+summary: >
+  The principal pre-Italian engagement of Hannibal Barca's
+  command and the clearest surviving demonstration of his
+  tactical method before the Italian campaign. On the
+  southward return from the Vaccaei campaign, Hannibal's army
+  — encumbered with plunder and slaves — was intercepted at
+  the Tagus river by a coalition of Carpetani, surviving
+  Vaccaei, and Olcadian refugees. Polybius reports the
+  coalition force at 100,000, with the standard ancient-
+  numbers caveat; modern estimates place it somewhat lower
+  but still substantially superior to Hannibal's force.
+
+  Hannibal's tactical method, as Polybius reports it,
+  produced a textbook river-line defeat-in-detail:
+
+  - The Carthaginian army crossed the Tagus first and
+    deployed on the southern bank, with the river acting
+    as a barrier that the Iberian coalition would have to
+    force.
+  - The 40 elephants of the Iberian field army were
+    deployed along the bank to disorder the Iberian
+    crossing.
+  - The Numidian cavalry was held in reserve for
+    counter-crossing manoeuvre.
+  - The Iberian coalition, attempting to force the
+    crossing in disorder, was defeated piecemeal as
+    contingents reached the southern bank exhausted and
+    disorganized.
+
+  The engagement eliminated the principal organized Iberian
+  opposition to Carthaginian expansion in the southern half
+  of the peninsula. Hannibal could now turn to Saguntum
+  without exposing his rear. Modern scholarship treats the
+  engagement as the operational template — combined-arms
+  use of terrain, the elephant screen, the cavalry envelopment
+  reserve — that would recur at Trebia (218), Trasimene
+  (217), and Cannae (216).
