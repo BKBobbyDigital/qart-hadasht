@@ -43,6 +43,14 @@ key_themes:
   - punic-religion
   - carthaginian-economy
   - carthaginian-seafaring-and-trade
+principal_sources:
+  - herodotus-histories
+  - justin-epitome
+  - diodorus-library
+  - aristotle-politics
+  - hoyos-carthaginians-2010
+  - lancel-carthage-1995
+  - miles-carthage-2010
 last_revised: "2026-05-10"
 ---
 

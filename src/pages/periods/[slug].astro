@@ -27,6 +27,9 @@ const places = await Promise.all(
 const themes = await Promise.all(
   (d.key_themes ?? []).map(async (ref: any) => await getEntry('themes', ref.id))
 );
+const sources = await Promise.all(
+  (d.principal_sources ?? []).map(async (ref: any) => await getEntry('sources', ref.id))
+);
 
 const eventsResolved = events.filter(Boolean).sort(
   (a: any, b: any) => a.data.date_start.value - b.data.date_start.value
@@ -53,6 +56,18 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
     </p>
     <h1 class="font-serif text-4xl mb-2">{d.title}</h1>
     <p class="text-lg text-sand-700">{dateRange}</p>
+
+    <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-8 rounded-r-lg">
+      <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Site synthesis</p>
+      <p class="text-sm text-sand-900 leading-snug">
+        This page is the encyclopedia's own narrative reading of the period —
+        an interpretive synthesis of the underlying entities, claims, and
+        scholarly sources, not impersonal historical reportage. Specific
+        positions taken in the prose are the site's own; principal sources
+        are listed below; individual claims with their own confidence
+        assessments and citations are linked in the entity pages throughout.
+      </p>
+    </aside>
 
     <div class="prose-encyclopedia text-sand-900 mt-8">
       <Content />
@@ -118,6 +133,27 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       </section>
     )}
 
+    {sources.filter(Boolean).length > 0 && (
+      <section class="mt-12 pt-8 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Principal sources</h2>
+        <p class="text-sm text-sand-700 mb-4">
+          The ancient sources and modern scholarship the synthesis above draws
+          on. Individual claims throughout the entity pages link to specific
+          passages.
+        </p>
+        <ul class="space-y-2 text-sm">
+          {sources.filter(Boolean).map((s: any) => (
+            <li>
+              <a href={`/sources/${s.id}`} class="text-tyrian-700 hover:underline">
+                {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+              </a>
+              <span class="text-sand-700"> · <span class="italic">{s.data.type.replace('_', ' ')}</span></span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <nav class="mt-12 pt-6 border-t border-sand-300 flex justify-between gap-4 text-sm">
       {prev ? (
         <a href={`/periods/${prev.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline">
@@ -131,8 +167,11 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       ) : <span></span>}
     </nav>
 
-    <footer class="mt-8 text-xs text-sand-700">
-      Last revised {d.last_revised}.
+    <footer class="mt-8 text-xs text-sand-700 italic">
+      Period synthesis · last revised {d.last_revised} · open to revision.
+      Where the prose takes a position, the position is the site's own and
+      may be challenged. Underlying claims with their own confidence
+      assessments and source citations are linked throughout.
     </footer>
   </article>
 </BaseLayout>

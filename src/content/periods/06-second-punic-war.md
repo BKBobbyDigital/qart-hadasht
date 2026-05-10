@@ -60,6 +60,17 @@ key_places:
   - zama
 key_themes:
   - carthaginian-economy
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - plutarch-lives
+  - appian-punica
+  - nepos-hannibal
+  - hoyos-hannibal-2003
+  - hoyos-unplanned-wars-1998
+  - macdonald-hannibal-2015
+  - goldsworthy-fall-carthage-2003
+  - lancel-carthage-1995
 last_revised: "2026-05-10"
 ---
 

@@ -40,6 +40,13 @@ key_places:
 key_themes:
   - carthaginian-economy
   - carthaginian-seafaring-and-trade
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+  - hoyos-carthaginians-2010
+  - lancel-carthage-1995
+  - goldsworthy-fall-carthage-2003
 last_revised: "2026-05-10"
 ---
 

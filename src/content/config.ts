@@ -494,6 +494,8 @@ const periods = defineCollection({
     key_places: z.array(reference('places')).default([]),
     /** Themes whose treatment is anchored in this period. */
     key_themes: z.array(reference('themes')).default([]),
+    /** Modern and ancient sources the synthesis draws on. */
+    principal_sources: z.array(reference('sources')).default([]),
     last_revised: z.string(),
   }),
 });

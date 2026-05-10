@@ -32,6 +32,15 @@ key_places:
 key_themes:
   - carthaginian-economy
   - carthaginian-governance
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - plutarch-lives
+  - justin-epitome
+  - aristotle-politics
+  - hoyos-unplanned-wars-1998
+  - hoyos-carthaginians-2010
+  - lancel-carthage-1995
 last_revised: "2026-05-10"
 ---
 

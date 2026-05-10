@@ -21,6 +21,14 @@ key_places:
 key_themes:
   - punic-identity
   - carthaginian-seafaring-and-trade
+principal_sources:
+  - aubet-phoenicians-west-2001
+  - lancel-carthage-1995
+  - hoyos-carthaginians-2010
+  - miles-carthage-2010
+  - quinn-phoenicians-2018
+  - krahmalkov-foundation-1981
+  - justin-epitome
 last_revised: "2026-05-10"
 ---
 

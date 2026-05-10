@@ -51,6 +51,15 @@ key_themes:
   - carthaginian-economy
   - carthaginian-agriculture
   - slavery-and-labor
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-truceless-war-2007
+  - hoyos-unplanned-wars-1998
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+  - lancel-carthage-1995
+  - goldsworthy-fall-carthage-2003
 last_revised: "2026-05-10"
 ---
 

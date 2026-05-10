@@ -27,6 +27,17 @@ key_places:
 key_themes:
   - carthaginian-economy
   - carthaginian-governance
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - appian-punica
+  - plutarch-lives
+  - nepos-hannibal
+  - hoyos-hannibal-2003
+  - hoyos-carthaginians-2010
+  - lancel-carthage-1995
+  - miles-carthage-2010
+  - goldsworthy-fall-carthage-2003
 last_revised: "2026-05-10"
 ---
 
