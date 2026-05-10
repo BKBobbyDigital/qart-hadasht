@@ -45,17 +45,19 @@ const isEmpty = (v: InfoboxRow['value']) =>
 ---
 
 <aside
-  class="mb-6 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start"
+  class="mb-4 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start"
   aria-label={`Quick facts about ${title}`}
 >
-  <div class="border border-sand-300 rounded-lg bg-sand-50 p-4 text-sm">
-    <div class="border-b border-sand-300 pb-2 mb-3">
-      <div class="text-[10px] uppercase tracking-widest font-bold text-sand-700">Quick facts</div>
-      <div class="font-serif text-base text-sand-900 leading-tight mt-0.5">{title}</div>
-      {subtitle && <div class="text-xs text-sand-700 italic mt-0.5">{subtitle}</div>}
-    </div>
-
-    <dl class="space-y-2.5">
+  <details class="border border-sand-300 rounded-lg bg-sand-50" open>
+    <summary class="cursor-pointer lg:cursor-default list-none px-3 py-2 lg:p-4 lg:pb-2 lg:border-b lg:border-sand-300 flex items-center justify-between gap-2">
+      <div class="min-w-0">
+        <div class="text-[10px] uppercase tracking-widest font-bold text-sand-700">Quick facts</div>
+        <div class="font-serif text-sm lg:text-base text-sand-900 leading-tight mt-0.5">{title}</div>
+        {subtitle && <div class="text-[11px] lg:text-xs text-sand-700 italic mt-0.5">{subtitle}</div>}
+      </div>
+      <span class="qh-infobox-arrow lg:hidden text-sand-700 text-xs shrink-0">▾</span>
+    </summary>
+    <dl class="space-y-2 lg:space-y-2.5 px-3 pb-3 lg:px-4 lg:pb-4 text-sm">
       {rows.map((row) => (
         <div>
           <dt class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{row.label}</dt>
@@ -87,5 +89,20 @@ const isEmpty = (v: InfoboxRow['value']) =>
         </div>
       ))}
     </dl>
-  </div>
+  </details>
 </aside>
+
+<style is:global>
+  /* Rotate the disclosure caret when expanded. */
+  aside[aria-label^='Quick facts'] details[open] > summary > .qh-infobox-arrow {
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+  /* On lg+, the infobox is always expanded — disable the toggle. */
+  @media (min-width: 1024px) {
+    aside[aria-label^='Quick facts'] details > summary { pointer-events: none; }
+  }
+  /* Suppress default disclosure marker across browsers. */
+  aside[aria-label^='Quick facts'] details > summary::-webkit-details-marker { display: none; }
+  aside[aria-label^='Quick facts'] details > summary::marker { display: none; }
+</style>
