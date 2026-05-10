@@ -231,8 +231,17 @@ const sourcesCited = (
 const typeLabel = data.type.charAt(0).toUpperCase() + data.type.slice(1);
 
 // War-type events are themselves the top of the war hierarchy — the "Part of"
-// row would always read "unknown" and that's misleading. Skip it for wars.
+// row would always read "unknown" and that's misleading. Skip for wars.
+// Also skip when no parent war is found at all (i.e., the event is genuinely
+// standalone — a treaty, founding, etc. with no parent war association).
 const isTopLevelWar = data.type === 'war';
+const showPartOf = !isTopLevelWar && partOfLink.length > 0;
+
+// Belligerents and Commanders only apply to military-type events. For
+// treaties, foundings, political, cultural, disaster events the concept
+// doesn't fit and rendering "unknown" is misleading.
+const militaryTypes = new Set(['battle', 'siege', 'war', 'expedition']);
+const isMilitary = militaryTypes.has(data.type);
 
 const infoboxRows: InfoboxRow[] = [
   {
@@ -250,24 +259,23 @@ const infoboxRows: InfoboxRow[] = [
       ? [{ text: place.data.name_display, href: `/places/${place.id}` }]
       : [],
   },
-  {
-    label: 'Belligerents',
-    value: belligerents,
-  },
-  {
-    label: 'Commanders',
-    value: commanderEntries,
-  },
-  ...(isTopLevelWar
-    ? []
-    : [{
+  ...(isMilitary
+    ? [
+        { label: 'Belligerents', value: belligerents } as InfoboxRow,
+        { label: 'Commanders', value: commanderEntries } as InfoboxRow,
+      ]
+    : []),
+  ...(showPartOf
+    ? [{
         label: 'Part of',
         value: partOfLink,
-      } as InfoboxRow]),
+      } as InfoboxRow]
+    : []),
   {
     label: 'Sources cited',
     value: sourcesCount > 0 ? `${sourcesCount}` : null,
     href: sourcesCount > 0 ? '#sources' : undefined,
+    emptyLabel: 'none',
   },
 ];
 ---

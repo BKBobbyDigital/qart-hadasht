@@ -47,8 +47,8 @@ const linkRegistry = buildLinkRegistry({
 
 const deityInfoboxRows: InfoboxRow[] = [
   { label: 'Domain', value: d.domain ?? null },
-  { label: 'Greek name', value: d.interpretatio?.greek ?? null },
-  { label: 'Roman name', value: d.interpretatio?.roman ?? null },
+  { label: 'Greek name', value: d.interpretatio?.greek ?? null, emptyLabel: 'none' },
+  { label: 'Roman name', value: d.interpretatio?.roman ?? null, emptyLabel: 'none' },
   { label: 'Epithet', value: d.epithet ?? null },
   { label: 'Attestation', value: d.attestation ?? null },
 ];
