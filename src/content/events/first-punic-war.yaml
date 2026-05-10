@@ -8,7 +8,28 @@ date_end:
   value: -241
   precision: year
 place: sicily
-participants: []
+participants:
+  - person: hamilcar-barca
+    role: commander (Sicily, 247–241 BCE)
+    side: Carthaginian
+  - person: hanno-the-great
+    role: commander (early phases) and senatorial faction leader
+    side: Carthaginian
+  - person: hanno-aegates
+    role: admiral at the Aegates Islands (defeated 241 BCE)
+    side: Carthaginian
+  - person: appius-claudius-caudex
+    role: consul; commanded the 264 BCE crossing of the Strait
+    side: Roman
+  - person: atilius-regulus
+    role: consul; commanded the 256–255 BCE African expedition
+    side: Roman
+  - person: lutatius-catulus
+    role: consul; commanded the Roman fleet at the Aegates 241 BCE
+    side: Roman
+  - person: hiero-ii
+    role: Mamertine-crisis catalyst; Roman ally from 263 BCE
+    side: Syracuse
 principal_sources:
   - polybius-histories
   - diodorus-library

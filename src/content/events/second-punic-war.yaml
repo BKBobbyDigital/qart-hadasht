@@ -8,7 +8,43 @@ date_end:
   value: -201
   precision: year
 place: carthage
-participants: []
+participants:
+  - person: hannibal-barca
+    role: commander-in-chief; Italian theatre 218–203 BCE
+    side: Carthaginian
+  - person: hasdrubal-barca
+    role: commander; Iberian theatre and Italian relief expedition (killed at Metaurus 207 BCE)
+    side: Carthaginian
+  - person: mago-barca
+    role: commander; Italian and Iberian operations
+    side: Carthaginian
+  - person: hasdrubal-gisco
+    role: commander; Iberian and African theatres
+    side: Carthaginian
+  - person: scipio-africanus
+    role: commander; Iberia 210–206 BCE, Africa 204–202 BCE; victor at Zama
+    side: Roman
+  - person: fabius-maximus-cunctator
+    role: consul (multiple); dictator 217 BCE; architect of the delaying strategy
+    side: Roman
+  - person: marcellus
+    role: consul; commander at Syracuse 213–211 BCE
+    side: Roman
+  - person: aemilius-paullus
+    role: consul; killed at Cannae 216 BCE
+    side: Roman
+  - person: terentius-varro
+    role: consul; co-commander at Cannae 216 BCE
+    side: Roman
+  - person: flaminius
+    role: consul; killed at Lake Trasimene 217 BCE
+    side: Roman
+  - person: masinissa
+    role: cavalry commander; Carthaginian-aligned then Roman-aligned from 206 BCE
+    side: Numidian (Roman ally from 206 BCE)
+  - person: syphax
+    role: king of the Masaesyli; Carthaginian ally; defeated and captured 203 BCE
+    side: Numidian (Carthaginian ally)
 principal_sources:
   - polybius-histories
   - livy-auc
