@@ -147,7 +147,7 @@ const scopeColors: Record<string, string> = {
     <ul class="grid sm:grid-cols-2 gap-4">
       {featuredThreads.map((t: any) => (
         <li>
-          <a href={`/threads/${t.id.replace(/\.md$/, '')}`} class={`block p-5 border rounded-lg hover:bg-white transition-colors h-full ${scopeColors[t.data.scope] ?? 'border-sand-300 bg-sand-50'}`}>
+          <a href={`/threads/${t.id.replace(/\.md$/, '')}`} class={`block p-5 border-2 rounded-lg hover:border-tyrian-700 transition-colors h-full ${scopeColors[t.data.scope] ?? "border-sand-300 bg-sand-50"}`}>
             <div class="flex items-baseline justify-between gap-3 flex-wrap">
               <h3 class="font-serif text-lg text-tyrian-900">{t.data.title}</h3>
               <span class="text-[10px] uppercase tracking-widest text-sand-700 shrink-0">

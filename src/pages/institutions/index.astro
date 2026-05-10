@@ -16,7 +16,7 @@ const institutions = (await getCollection('institutions')).sort(
     <ul class="grid sm:grid-cols-2 gap-3">
       {institutions.map((i) => (
         <li>
-          <a href={`/institutions/${i.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+          <a href={`/institutions/${i.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors">
             <h2 class="font-serif text-lg text-tyrian-700">{i.data.name_display}</h2>
             <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{i.data.type}</p>
             {i.data.name_punic && <p class="text-sm text-sand-700 mt-1">{i.data.name_punic}</p>}

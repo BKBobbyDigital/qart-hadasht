@@ -21,7 +21,7 @@ const fmtYear = (y: number) => `${Math.abs(y)} ${y < 0 ? 'BCE' : 'CE'}`;
     <ol class="space-y-4">
       {periods.map((p: any) => (
         <li>
-          <a href={`/periods/${p.id.replace(/\.md$/, '')}`} class="block p-5 border border-sand-300 rounded-lg hover:bg-white transition-colors">
+          <a href={`/periods/${p.id.replace(/\.md$/, '')}`} class="block p-5 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors">
             <div class="flex items-baseline justify-between gap-4 flex-wrap">
               <h2 class="font-serif text-xl text-tyrian-700">{p.data.title}</h2>
               <span class="text-sm text-sand-700 tabular-nums shrink-0">

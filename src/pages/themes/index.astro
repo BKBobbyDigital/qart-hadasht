@@ -36,7 +36,7 @@ const carthage = await getEntry('places', 'carthage');
     <ul class="grid sm:grid-cols-2 gap-3">
       {themes.map((t) => (
         <li>
-          <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white h-full">
+          <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors h-full">
             <div class="flex items-baseline justify-between gap-3 flex-wrap">
               <h3 class="font-serif text-lg text-tyrian-700">{t.data.title}</h3>
               <span class="text-[10px] uppercase tracking-widest text-sand-700">{t.data.scope.replace('_', ' ')}</span>
@@ -71,7 +71,7 @@ const carthage = await getEntry('places', 'carthage');
     <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
       {institutions.map((i) => (
         <li>
-          <a href={`/institutions/${i.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-white text-sm">
+          <a href={`/institutions/${i.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors text-sm">
             <h3 class="font-serif text-tyrian-700">{i.data.name_display}</h3>
             <p class="text-[11px] uppercase tracking-wider text-sand-700 mt-0.5">{i.data.type}</p>
           </a>
@@ -89,7 +89,7 @@ const carthage = await getEntry('places', 'carthage');
       <ul class="flex flex-wrap gap-2">
         {deities.map((d) => (
           <li>
-            <a href={`/deities/${d.id}`} class="inline-flex items-baseline gap-2 px-3 py-1.5 border border-sand-300 rounded-full hover:bg-white text-sm">
+            <a href={`/deities/${d.id}`} class="inline-flex items-baseline gap-2 px-3 py-1.5 border border-sand-300 rounded-full hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors text-sm">
               {d.data.name_punic_script && (
                 <span class="font-phoenician text-tyrian-700">{d.data.name_punic_script}</span>
               )}
@@ -110,7 +110,7 @@ const carthage = await getEntry('places', 'carthage');
       <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
         {groups.map((g) => (
           <li>
-            <a href={`/groups/${g.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-white text-sm">
+            <a href={`/groups/${g.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors text-sm">
               <h3 class="font-serif text-tyrian-700">{g.data.name_display}</h3>
               <p class="text-[11px] uppercase tracking-wider text-sand-700 mt-0.5">{g.data.type.replace('_', ' ')}</p>
             </a>
