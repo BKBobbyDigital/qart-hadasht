@@ -33,6 +33,15 @@ related_events:
       and 279/278 BCE. The Mamertine crisis is what the 264 break
       with that framework looked like; the 509 treaty is what the
       framework had originally established.
+  - event: second-treaty-with-rome
+    relation: presupposed by (the 348 commercial-exclusion treaty whose framework the Mamertine crisis ruptured)
+  - event: pyrrhic-war-treaty
+    relation: presupposed by (the 279 cooperation treaty whose collapse the Mamertine crisis represented)
+    notes: >
+      The 279 treaty's explicit military-cooperation framework
+      makes its 264 collapse particularly stark: Carthage and
+      Rome had been formal coalition partners against Pyrrhus
+      fifteen years earlier, and now stood at the brink of war.
 summary: >
   The political crisis of 265–264 BCE that produced Rome's first
   overseas war and the first of the three Punic Wars. The trigger was

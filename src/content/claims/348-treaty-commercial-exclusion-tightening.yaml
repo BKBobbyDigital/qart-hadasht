@@ -1,0 +1,40 @@
+slug: 348-treaty-commercial-exclusion-tightening
+statement: >
+  The 348 BCE treaty's principal substantive change from the
+  509 treaty is the tightening of Carthaginian commercial
+  exclusion. Where 509 barred Roman ships from sailing past
+  the Fair Promontory with limited exceptions, 348 closes the
+  Sardinian and Libyan markets to Roman traders entirely and
+  extends the geographic exclusion zone to include Mastia and
+  Tarseion in southern Iberia. The change reflects Carthaginian
+  recognition of accelerating Roman expansion and a
+  defensive consolidation of commercial sphere boundaries.
+confidence: attested
+scholarly_consensus: >
+  The textual difference between the 509 and 348 treaties is
+  firmly attested in Polybius's preserved texts (3.22 and
+  3.24). The interpretive reading — that the tightening was
+  defensive Carthaginian response to Roman expansion — is
+  the consensus modern interpretation, advanced explicitly
+  by Hoyos.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.24"
+    passage_summary: >
+      Polybius preserves the 348 treaty's text. The
+      tightening of commercial provisions is explicit in
+      the comparison with the 509 text he also preserves.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the 348 treaty's commercial provisions
+      as defensive Carthaginian response to Roman territorial
+      consolidation in central Italy.
+entities:
+  - type: event
+    slug: second-treaty-with-rome
+    role: subject
+  - type: event
+    slug: first-treaty-with-rome
+    role: context

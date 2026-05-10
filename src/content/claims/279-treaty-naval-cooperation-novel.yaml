@@ -1,0 +1,51 @@
+slug: 279-treaty-naval-cooperation-novel
+statement: >
+  The 279 BCE Pyrrhic-War treaty is the first
+  Roman-Carthaginian agreement that involves explicit
+  military cooperation rather than commercial-and-territorial
+  delimitation. Carthaginian naval transport of Roman armies
+  against Pyrrhus, mutual non-separate-peace clauses, and
+  reciprocal alliance protection are all novel relative to
+  the 509 and 348 treaties. The structural shift reflects
+  the convergence of Roman and Carthaginian strategic
+  interests against a common external threat.
+confidence: attested
+scholarly_consensus: >
+  The textual difference between the 279 treaty and its
+  predecessors is firmly attested in Polybius. The
+  interpretive reading — that the 279 cooperation reflects
+  a fundamental shift in the relationship from non-
+  interference to coordination — is broadly accepted in
+  modern scholarship.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.25"
+    passage_summary: >
+      Polybius preserves the 279 treaty's text. The military
+      cooperation provisions are explicit and contrast
+      sharply with the 509 and 348 commercial-and-
+      territorial framework Polybius preserves elsewhere
+      in the same passage.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos treats the 279 treaty as the structural prelude
+      to the post-Pyrrhic Mamertine crisis: the cooperation
+      framework's collapse at 264 BCE is the immediate
+      diplomatic cause of the First Punic War.
+  - source: diodorus-library
+    stance: supports
+    passage_summary: >
+      Diodorus's surviving fragments preserve the 279
+      treaty's strategic context.
+entities:
+  - type: event
+    slug: pyrrhic-war-treaty
+    role: subject
+  - type: event
+    slug: pyrrhic-war-in-sicily
+    role: context
+  - type: event
+    slug: first-punic-war-outbreak
+    role: context

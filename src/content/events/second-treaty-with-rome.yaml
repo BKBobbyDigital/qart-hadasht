@@ -1,0 +1,68 @@
+slug: second-treaty-with-rome
+name: Second Treaty with Rome
+type: treaty
+date_start:
+  value: -348
+  precision: year
+  notes: >
+    Polybius (3.24) places the treaty in the consulship of
+    M. Valerius Corvus, conventionally dated to 348 BCE.
+    Livy (7.27) records a Carthaginian embassy in this year
+    bringing a "crown" — possibly the same agreement
+    Polybius preserves, possibly a separate ceremonial
+    visit.
+place: carthage
+participants: []
+principal_sources:
+  - polybius-histories
+  - livy-auc
+referenced_institutions:
+  - carthaginian-senate
+referenced_themes:
+  - carthaginian-seafaring-and-trade
+related_events:
+  - event: first-treaty-with-rome
+    relation: successor to (the renegotiated arrangement following the 509 treaty)
+    notes: >
+      Polybius treats the 348 treaty as the second in a
+      sequence of Roman-Carthaginian agreements; its terms
+      both update and extend the 509 treaty's provisions.
+summary: >
+  The second of the three pre-Punic-War Roman-Carthaginian
+  treaties, conventionally dated to 348 BCE on Polybius's
+  account in *Histories* 3.24. Like the 509 treaty, the
+  agreement is preserved by Polybius alone among surviving
+  sources, with Livy (7.27) recording an associated
+  Carthaginian embassy.
+
+  The treaty's provisions extend and tighten the 509
+  arrangement:
+
+  - **Roman commercial exclusion** is broadened. Where the
+    509 treaty barred Romans from sailing past the "Fair
+    Promontory" except for storm or pursuit, the 348 treaty
+    bars Roman trading and raiding from much of the western
+    Mediterranean: from Mastia and Tarseion (in southern
+    Iberia) and the African coast west of the Fair
+    Promontory entirely. Carthaginian commercial exclusivity
+    in these zones is now explicitly enforced.
+  - **Reciprocal protections** for traders are formalized
+    with prescribed legal procedures.
+  - **Carthaginian raiding rights against Latin allies of
+    Rome** are explicitly restricted: any Latin city the
+    Carthaginians captured was to be returned to Rome.
+  - **Sardinian and Libyan markets** are closed to Roman
+    traders entirely; the African and Sardinian
+    Carthaginian commercial zones are now legally exclusive.
+
+  The treaty matters for what it shows about the relationship's
+  trajectory. By 348 BCE Carthage was tightening its
+  commercial sphere against an expanding Roman power that
+  was now the dominant force in central Italy. The
+  Carthaginian negotiating position assumes the 509
+  configuration — Carthage as the senior partner, Rome as
+  the junior — but the very tightening of provisions reflects
+  Carthaginian recognition that the configuration was
+  changing. The 348 treaty is the diplomatic record of
+  Carthaginian commercial defensiveness against Roman
+  expansion.

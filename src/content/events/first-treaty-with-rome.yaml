@@ -29,6 +29,10 @@ related_events:
       contents and chronology are central to the question of what
       Roman-Carthaginian understandings existed before the Mamertine
       crisis.
+  - event: second-treaty-with-rome
+    relation: successor (the renegotiated 348 BCE arrangement)
+  - event: pyrrhic-war-treaty
+    relation: successor (the 279 BCE coordination treaty against Pyrrhus)
 summary: >
   The earliest preserved treaty between Rome and Carthage,
   conventionally dated to 509 BCE on the basis of Polybius's

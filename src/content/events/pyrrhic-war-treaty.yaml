@@ -1,0 +1,71 @@
+slug: pyrrhic-war-treaty
+name: Pyrrhic-War Treaty (Third Treaty with Rome)
+type: treaty
+date_start:
+  value: -279
+  precision: year
+  notes: >
+    Negotiated 279/278 BCE during Pyrrhus's Italian campaign,
+    in the period between the battles of Heraclea (280) and
+    Asculum (279) and Pyrrhus's subsequent Sicilian crossing
+    (278). Polybius (3.25) preserves the treaty.
+place: carthage
+participants: []
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: pyrrhic-war-in-sicily
+    relation: produced by (the strategic crisis that drove the agreement)
+    notes: >
+      Pyrrhus's Italian victories and his anticipated Sicilian
+      crossing produced the convergent threat that drove
+      Carthage and Rome to a coordinated agreement.
+  - event: first-treaty-with-rome
+    relation: successor to (the third in the Polybian sequence of treaties)
+  - event: second-treaty-with-rome
+    relation: successor to (the third in the Polybian sequence of treaties)
+summary: >
+  The third of the three pre-Punic-War Roman-Carthaginian
+  treaties, negotiated in 279/278 BCE during the Pyrrhic
+  crisis. Pyrrhus of Epirus had crossed to Italy in 280 BCE
+  in response to Tarentine appeals; his victories at
+  Heraclea (280) and Asculum (279) — at heavy cost — had
+  produced a strategic configuration that threatened both
+  Roman dominance in southern Italy and Carthaginian
+  dominance in Sicily. Carthage and Rome, both
+  independently struggling against Pyrrhus, formalized a
+  coordination agreement.
+
+  Polybius (3.25) preserves the treaty's central provisions:
+
+  - **Mutual aid against Pyrrhus.** If either Carthage or
+    Rome made a treaty with Pyrrhus, both would do so
+    together; if either party went to war with Pyrrhus,
+    each could call on the other for support.
+  - **Carthaginian naval transport** would be available for
+    Roman armies operating against Pyrrhus, including (per
+    Polybius) carriage of Roman troops to Sicily if needed.
+  - **Reciprocal protection of allies** in the
+    anti-Pyrrhic alliance.
+
+  The treaty was operative for the duration of Pyrrhus's
+  Italian-Sicilian campaign, which ended with his
+  withdrawal in 275 BCE. It is the only one of the three
+  pre-Punic-War treaties that involves explicit military
+  cooperation as opposed to commercial-and-territorial
+  delimitation. The contrast with the 509 and 348 treaties
+  is structurally telling: the Roman-Carthaginian
+  relationship had moved from "two unrelated commercial
+  spheres negotiating non-interference" to "two
+  Mediterranean powers facing a common external threat."
+
+  The 279 treaty is also the diplomatic prelude to the First
+  Punic War. Polybius (3.26) cites it in his discussion of
+  whether the post-264 Roman-Carthaginian conflict involved
+  treaty violation; the treaty's clear provision for
+  cooperation against Pyrrhus is the structural precondition
+  for the immediate post-Pyrrhus collapse of the
+  relationship at the Mamertine crisis fifteen years later.
