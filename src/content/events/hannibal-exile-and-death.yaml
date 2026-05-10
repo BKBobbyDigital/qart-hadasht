@@ -22,7 +22,11 @@ principal_sources:
   - nepos-hannibal
   - plutarch-lives
   - polybius-histories
-related_events: []
+related_events:
+  - event: hannibal-suicide-at-bithynia
+    relation: focal closing event of (the eighteen-year exile)
+  - event: hannibal-196-reforms
+    relation: produced by (the political backlash of 196 BCE that triggered the flight)
 summary: >
   The twelve-year exile and eventual death of Hannibal Barca,
   beginning with his flight from Carthage in late 195 BCE and

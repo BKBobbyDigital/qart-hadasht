@@ -17,6 +17,8 @@ principal_sources:
   - appian-punica
   - polybius-histories
 related_events:
+  - event: battle-of-oroscopa
+    relation: focal engagement of (the principal battle of the expedition)
   - event: third-punic-war
     relation: casus belli (provided the Roman legal pretext)
     notes: >
@@ -24,6 +26,10 @@ related_events:
       treaty violation under the Treaty of 201's allied-protection
       clause. Rome treated it as such and used it as the
       formal legal trigger for the Third Punic War.
+  - event: roman-commission-162
+    relation: pre-history of (the cumulative arbitration sequence that produced the conditions)
+  - event: roman-commission-157
+    relation: pre-history of
 referenced_themes:
   - carthaginian-economy
 summary: >

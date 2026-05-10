@@ -1,0 +1,74 @@
+slug: masinissa-territorial-seizures-pattern
+statement: >
+  Masinissa's encroachments on Carthaginian territory across
+  the half-century from Zama (202 BCE) to his death (148 BCE)
+  followed a consistent pattern: a Numidian seizure of a
+  contested Carthaginian-frontier zone, followed by a
+  Carthaginian appeal to Rome under the Treaty of 201's
+  allied-protection clause, followed by a Roman commission
+  ruling in Masinissa's favor. The pattern repeated through
+  multiple territorial transfers, including the
+  Emporia/Lesser Syrtis coast in the 190s, Carthaginian
+  border districts in the central African plain across
+  the 170s and 160s, and the "Great Plains" agricultural
+  region (Latin: *Campi Magni*) and the Tysca/Thusca
+  district in the 150s. The cumulative territorial loss
+  reduced Carthaginian Africa to a substantially smaller
+  hinterland than the Treaty of 201 had nominally
+  preserved.
+confidence: attested
+scholarly_consensus: >
+  The pattern itself is firmly attested across Polybius's
+  surviving fragments, Appian, and Livy's surviving
+  coverage, with broad acceptance in modern scholarship.
+  Specific seizure-by-seizure chronology is imperfectly
+  preserved — the surviving sources name principal
+  episodes but not a complete inventory — and modern
+  reconstructions vary somewhat in exact dating. The
+  structural pattern is uncontested.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "31 (fragments)"
+    passage_summary: >
+      Polybius's surviving fragments from the post-Zama
+      period preserve specific territorial-seizure episodes
+      with attention to the Roman commission pattern.
+  - source: appian-punica
+    stance: supports
+    passage_summary: >
+      Appian's account of the pre-Third-Punic-War period
+      preserves the cumulative territorial-loss pattern
+      and the role of the Roman commissions in enabling
+      it.
+  - source: livy-auc
+    stance: supports
+    passage_summary: >
+      Livy's surviving coverage and his Periochae preserve
+      multiple specific commissions and territorial
+      transfers across the period.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the pattern explicitly as the
+      structural mechanism producing the conditions for
+      the Third Punic War.
+entities:
+  - type: person
+    slug: masinissa
+    role: subject
+  - type: event
+    slug: roman-commission-162
+    role: subject
+  - type: event
+    slug: roman-commission-157
+    role: subject
+  - type: event
+    slug: cato-commission-153
+    role: subject
+  - type: event
+    slug: war-with-masinissa
+    role: subject
+  - type: event
+    slug: third-punic-war
+    role: context

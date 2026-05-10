@@ -1,0 +1,64 @@
+slug: mago-barca-death-203
+name: Death of Mago Barca
+type: battle
+date_start:
+  value: -203
+  precision: year
+  notes: >
+    Mago died at sea in summer 203 BCE during the voyage
+    from Liguria back to Carthage following his recall.
+place: sardinia
+participants:
+  - person: mago-barca
+    role: commander; died of wounds during the return voyage
+    side: Carthaginian
+principal_sources:
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+related_events:
+  - event: second-punic-war
+    relation: closing event of (the Italian-theatre command)
+  - event: battle-of-zama
+    relation: precursor of (Mago's death and the contemporaneous Hannibal recall set up the African endgame)
+referenced_themes:
+  - carthaginian-economy
+summary: >
+  The death of Hannibal's youngest brother Mago Barca at
+  sea in 203 BCE — one of the relatively rare surviving
+  cases where a senior Carthaginian commander's death
+  is preserved in operational detail. Mago had commanded
+  the Carthaginian Italian secondary theatre in northern
+  Italy from his landing at Genoa in summer 205 BCE, with
+  the strategic intent of opening a second front against
+  Roman power in Cisalpine Gaul to relieve pressure on
+  Hannibal's main army in southern Italy. The campaign's
+  effectiveness was limited — Roman counter-pressure
+  contained Mago's operations to the Po valley without
+  significant breakthrough — but it had occupied
+  substantial Roman attention through 204 and 203 BCE.
+
+  In summer 203 BCE the Carthaginian senate, facing the
+  Roman invasion of Africa under Scipio, recalled both
+  Hannibal and Mago to Africa. Mago's recall was
+  conducted under conditions of Roman naval pressure: a
+  Roman force under Publius Quinctilius Varus and the
+  consul Marcus Cornelius Cethegus engaged Mago's
+  Ligurian-Carthaginian army at the Battle of the
+  Insubres, in which Mago was severely wounded.
+  Withdrawing under the wound, Mago embarked his army
+  for the African return; he died at sea, off the coast
+  of Sardinia per Livy (30.19), before reaching
+  Carthage.
+
+  The episode's significance is as the structural close
+  of the Italian theatre's secondary front. Hannibal's
+  African recall would follow within weeks; Zama would
+  follow the next year. With Mago dead and Hasdrubal
+  Barca already killed at the Metaurus in 207, the
+  Barcid generation's Italian project — from the
+  crossing of the Alps in 218 through the Italian-Iberian
+  coordinated strategy of the 210s — closed in two
+  successive deaths and one defeat. The brothers' father
+  Hamilcar's Iberian project of 237 BCE had run thirty-
+  four years before this final closure.

@@ -31,8 +31,14 @@ referenced_themes:
   - carthaginian-economy
   - punic-identity
 related_events:
+  - event: roman-commission-162
+    relation: structural prelude to (the first of the pre-149 Roman arbitration commissions)
+  - event: roman-commission-157
+    relation: structural prelude to (the second arbitration commission)
   - event: cato-commission-153
     relation: structural prelude to (the 153 BCE commission that turned Cato decisively against Carthage)
+  - event: battle-of-oroscopa
+    relation: casus belli engagement (the focal battle that gave Rome the legal pretext)
   - event: roman-declaration-of-war-149
     relation: opening event of (the formal declaration and the escalating demand sequence)
   - event: war-with-masinissa

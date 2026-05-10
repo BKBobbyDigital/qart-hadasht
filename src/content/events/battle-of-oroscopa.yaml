@@ -1,0 +1,85 @@
+slug: battle-of-oroscopa
+name: Battle of Oroscopa
+type: battle
+date_start:
+  value: -150
+  precision: year
+  notes: >
+    Late summer or autumn 150 BCE; the engagement closed
+    Carthage's military expedition against Masinissa.
+place: carthage
+participants:
+  - person: hasdrubal-boetharch
+    role: Carthaginian commander
+    side: Carthaginian
+  - person: masinissa
+    role: Numidian commander (~88 years old)
+    side: Numidian / Roman ally
+  - person: scipio-aemilianus
+    role: Roman observer (military tribune attending the engagement on behalf of the senate)
+    side: Roman (observer)
+principal_sources:
+  - appian-punica
+  - polybius-histories
+  - hoyos-carthaginians-2010
+related_events:
+  - event: war-with-masinissa
+    relation: focal engagement of (the umbrella event)
+  - event: third-punic-war
+    relation: casus belli for (the engagement that gave Rome its legal pretext)
+referenced_themes:
+  - carthaginian-economy
+summary: >
+  The decisive engagement of Carthage's 150 BCE expedition
+  against Masinissa, fought near a place the surviving
+  sources call Oroscopa (location not securely identified
+  in modern terms; modern scholarship places it
+  somewhere in the contested zone of central-northern
+  modern Tunisia). The Carthaginian expedition under
+  [Hasdrubal the Boetharch](/people/hasdrubal-boetharch)
+  — approximately 25,000 troops — had advanced into
+  Numidian territory in response to fifty years of
+  accumulated Masinissan encroachment, conducted under
+  the Treaty of 201's allied-protection clause and Roman
+  refusal to enforce the treaty against Masinissa.
+
+  The engagement is preserved most fully in Appian
+  (*Punica* 70-72) and in Polybius's surviving fragments.
+  What the sources give us is consistent: the
+  Carthaginian force was caught in unfavorable terrain by
+  Masinissa's mobile cavalry; the engagement turned into
+  a siege as the Carthaginian troops took refuge in a
+  fortified position; supplies ran out across several
+  weeks; the Carthaginian survivors negotiated a
+  capitulation that was reportedly violated as they
+  withdrew, with substantial casualties among the
+  retreating column. Hasdrubal the Boetharch survived
+  and would later command the defense of Carthage in
+  149-146 BCE.
+
+  Two features of the engagement preserve in unusual
+  detail. First, the 88-year-old Masinissa reportedly
+  commanded in person, riding with his cavalry — a
+  preserved detail about the Numidian king's continued
+  military capacity at the end of his long reign that
+  modern scholarship has generally accepted as
+  historical. Second, the future Scipio Aemilianus —
+  then a young military tribune serving on Roman
+  diplomatic missions in Africa — observed the
+  engagement personally, reportedly at Masinissa's
+  invitation. The detail is preserved in Polybius
+  through his close personal connection to Aemilianus
+  and is one of the more direct surviving witnesses to
+  pre-Third-Punic-War Carthaginian-Numidian military
+  operations.
+
+  The engagement's strategic significance was decisive
+  rather than tactical. Whatever the specific Roman
+  attitude before the engagement, the Carthaginian
+  expedition's launch and conduct constituted a treaty
+  violation under the Treaty of 201's prohibition on
+  Carthaginian operations against Roman allies. Rome
+  had its legal pretext for the Third Punic War. The
+  expedition's military failure was less consequential
+  than the diplomatic-political fact of its having been
+  attempted at all.

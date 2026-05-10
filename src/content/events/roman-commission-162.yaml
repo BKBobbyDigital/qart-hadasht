@@ -1,0 +1,70 @@
+slug: roman-commission-162
+name: Roman Commission to Carthage (162 BCE)
+type: political
+date_start:
+  value: -162
+  precision: year
+  notes: >
+    First well-attested Roman senatorial commission to
+    arbitrate a Carthaginian-Numidian border dispute under
+    the Treaty of 201's allied-protection clause.
+place: carthage
+participants: []
+principal_sources:
+  - livy-auc
+  - appian-punica
+  - hoyos-carthaginians-2010
+related_events:
+  - event: treaty-of-201-bce
+    relation: structural cause of (the indemnity-free zone the commissions arbitrated)
+  - event: roman-commission-157
+    relation: precursor of (the next major commission five years later)
+  - event: cato-commission-153
+    relation: precursor of (the commission a decade later that produced the strategic shift)
+  - event: war-with-masinissa
+    relation: pre-history of (the cumulative commission record that produced the 150 BCE Carthaginian response)
+referenced_themes:
+  - carthaginian-economy
+summary: >
+  The first well-attested Roman senatorial commission to
+  arbitrate a Carthaginian-Numidian border dispute under
+  the Treaty of 201's allied-protection clause. The
+  commission of 162 BCE responded to one of the early
+  Masinissan encroachments on Carthaginian territory —
+  the surviving sources do not preserve which specific
+  dispute — and ruled, on the now-familiar pattern, in
+  Masinissa's favor. The ruling itself is less
+  consequential than the structural pattern it
+  established: a Roman commission framework in which
+  Carthaginian appeals against Numidian territorial
+  pressure were systematically rejected, with no
+  documented exception across the period from 162
+  through Cato's commission of 153 BCE.
+
+  The commission's significance is therefore primarily
+  structural rather than incident-specific. It is the
+  first surviving instance of the Roman-arbitration-
+  enabling-Numidian-encroachment pattern that would
+  define Carthaginian-Roman-Numidian relations for the
+  following twelve years. The pattern's strategic logic —
+  Roman preference for a strong Numidian client adjacent
+  to a constrained former Carthaginian adversary —
+  produced exactly the configuration Rome wanted, with
+  the Carthaginian state unable to respond militarily
+  without violating its own treaty obligations.
+
+  Whether the 162 commission was conducted in conscious
+  recognition of this strategic configuration or simply
+  reflected the structural incentives the post-Zama
+  arrangement had created is contested in modern
+  scholarship. The pattern was sufficiently consistent
+  across 162, 157, and 153 — three commissions in
+  succession, all ruling for Masinissa — that some
+  underlying Roman strategic preference was operative,
+  whether explicitly articulated in the senate or simply
+  reflected in commission-level decisions.
+
+  The commission stands at the beginning of the
+  pre-149 BCE diplomatic-political sequence whose end
+  point was the Carthaginian war with Masinissa in 150
+  BCE and the Roman declaration in 149.
