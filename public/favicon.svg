@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="4" fill="#5b0f31"/>
-  <text x="16" y="22" text-anchor="middle" fill="#faf7f2" font-family="serif" font-size="16" font-weight="700">Q</text>
+  <g fill="#f4f0e6" transform="translate(4 1)">
+    <!-- Body triangle (legs/dress) -->
+    <path d="M12 12 L4 28 L20 28 Z" />
+    <!-- Arms bar -->
+    <rect x="2" y="9.5" width="20" height="2" rx="0.5" />
+    <!-- Head circle -->
+    <circle cx="12" cy="5" r="3" />
+  </g>
 </svg>

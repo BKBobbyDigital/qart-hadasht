@@ -5,11 +5,12 @@
 @tailwind utilities;
 
 :root {
-  --color-text: #2a2218;
+  --color-text: #111111;
   --color-text-muted: #6b5638;
-  --color-bg: #faf7f2;
-  --color-bg-elevated: #ffffff;
-  --color-rule: #d4bc94;
+  --color-bg: #f4f0e6;
+  --color-bg-elevated: #faf7ed;
+  --color-rule: #c9b794;
+  --color-tyrian: #5b0f31;
 }
 
 html {
@@ -20,29 +21,59 @@ html {
 body {
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.6;
+  font-feature-settings: 'kern' 1;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
+  color: var(--color-text);
+}
+
+/* Display heading — bigger and tighter tracking. */
+h1 {
+  letter-spacing: -0.02em;
+  line-height: 1.05;
 }
 
 .font-phoenician {
   font-family: 'Noto Sans Phoenician', serif;
 }
 
+/* Editorial label — small caps, tracked, used as section eyebrows. */
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-tyrian);
+}
+.eyebrow-muted {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* Tyrian rule — thin horizontal divider in the brand color, used to
+   separate major sections in editorial style. */
+.rule-tyrian {
+  border-top: 1px solid var(--color-tyrian);
+}
+
+/* Editorial prose styling. Section h2s now sit under a thin tyrian rule
+   instead of the previous sand border. */
 .prose-encyclopedia p { @apply my-4; }
-.prose-encyclopedia h2 { @apply mt-10 mb-3 text-2xl border-b border-sand-300 pb-2; }
+.prose-encyclopedia h2 { @apply mt-12 mb-4 text-3xl pt-6; border-top: 1px solid theme('colors.tyrian.700'); }
 .prose-encyclopedia h3 { @apply mt-8 mb-2 text-xl; }
 .prose-encyclopedia ul { @apply list-disc pl-6 my-4; }
 .prose-encyclopedia ol { @apply list-decimal pl-6 my-4; }
 .prose-encyclopedia a { @apply text-tyrian-700 underline decoration-tyrian-500/40 underline-offset-2 hover:decoration-tyrian-700; }
 
-/* Auto-linked cross-references in entity summaries. Quieter than explicit
-   editorial links: tyrian text, no underline by default, dotted underline
-   on hover so they read as light cross-references rather than calls to action. */
+/* Auto-linked cross-references: quieter dotted underline. */
 .auto-link { @apply text-tyrian-700 no-underline; border-bottom: 1px dotted theme('colors.tyrian.500'); opacity: 0.95; }
 .auto-link:hover { border-bottom-color: theme('colors.tyrian.700'); opacity: 1; }
 .prose-encyclopedia a.auto-link { @apply no-underline; }

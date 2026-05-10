@@ -1,0 +1,58 @@
+---
+/**
+ * The sign of Tanit — schematic stylized figure used as the encyclopedia's
+ * brand mark. Triangle body (legs/dress), horizontal arms bar, circle head.
+ *
+ * Pass `size` (default 24) and rely on `currentColor` for fill — wrap in any
+ * tyrian/ink/sand text color via the parent.
+ */
+
+interface Props {
+  size?: number;
+  class?: string;
+  /** When true, render with stroked outlines instead of solid fill. */
+  outline?: boolean;
+  ariaLabel?: string;
+}
+
+const { size = 24, class: className = '', outline = false, ariaLabel = 'Sign of Tanit' } = Astro.props;
+---
+
+{outline ? (
+  <svg
+    width={size}
+    height={size * 1.25}
+    viewBox="0 0 24 30"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linejoin="round"
+    class={className}
+    role="img"
+    aria-label={ariaLabel}
+  >
+    <!-- Body triangle (point up, base at bottom) -->
+    <path d="M12 12 L4 28 L20 28 Z" />
+    <!-- Arms bar -->
+    <line x1="2" y1="10.5" x2="22" y2="10.5" />
+    <!-- Head circle -->
+    <circle cx="12" cy="5" r="3" />
+  </svg>
+) : (
+  <svg
+    width={size}
+    height={size * 1.25}
+    viewBox="0 0 24 30"
+    fill="currentColor"
+    class={className}
+    role="img"
+    aria-label={ariaLabel}
+  >
+    <!-- Body triangle -->
+    <path d="M12 12 L4 28 L20 28 Z" />
+    <!-- Arms bar -->
+    <rect x="2" y="9.5" width="20" height="2" rx="0.5" />
+    <!-- Head circle -->
+    <circle cx="12" cy="5" r="3" />
+  </svg>
+)}

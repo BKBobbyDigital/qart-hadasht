@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import CmdKSearch from '../components/CmdKSearch.astro';
+import TanitMark from '../components/TanitMark.astro';
 
 interface Props {
   title: string;
@@ -20,27 +21,34 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{fullTitle}</title>
   </head>
-  <body class="min-h-screen flex flex-col">
+  <body class="min-h-screen flex flex-col bg-sand-50">
     <header class="border-b border-sand-300 bg-sand-50">
-      <div class="max-w-5xl mx-auto px-6 py-5 flex flex-col sm:flex-row gap-4 sm:items-baseline sm:justify-between">
-        <a href="/" class="group">
-          <div class="font-phoenician text-2xl text-tyrian-700 leading-none">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</div>
-          <div class="font-serif text-xl text-sand-900 mt-1">Qart-Hadasht</div>
-          <div class="text-xs uppercase tracking-widest text-sand-700 mt-0.5">The Carthage Encyclopedia</div>
+      <!-- Top tyrian rule — small visual signature reading from across the room -->
+      <div class="h-1 bg-tyrian-700"></div>
+      <div class="max-w-5xl mx-auto px-6 py-5 flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
+        <a href="/" class="group flex items-center gap-3">
+          <span class="text-tyrian-700 group-hover:text-tyrian-900 transition-colors">
+            <TanitMark size={32} />
+          </span>
+          <span class="flex flex-col leading-tight">
+            <span class="font-serif text-xl text-ink-900">Qart-Hadasht</span>
+            <span class="font-phoenician text-base text-tyrian-700 leading-none mt-0.5">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span>
+            <span class="eyebrow-muted mt-1.5">The Carthage Encyclopedia</span>
+          </span>
         </a>
-        <nav class="flex flex-wrap items-baseline gap-x-3 sm:gap-x-4 gap-y-1 text-sm font-medium text-sand-900 sm:justify-end">
-          <a href="/periods" class="hover:text-tyrian-700">Periods</a>
-          <a href="/themes" class="hover:text-tyrian-700">Themes</a>
-          <a href="/threads" class="hover:text-tyrian-700">Threads</a>
-          <a href="/narratives" class="hover:text-tyrian-700">Narratives</a>
-          <span class="hidden sm:inline-block w-px h-3 bg-sand-300 self-center" aria-hidden="true"></span>
-          <a href="/events" class="hover:text-tyrian-700">Events</a>
-          <a href="/people" class="hover:text-tyrian-700">People</a>
-          <a href="/places" class="hover:text-tyrian-700">Places</a>
-          <a href="/sources" class="hover:text-tyrian-700">Sources</a>
-          <span class="hidden sm:inline-block w-px h-3 bg-sand-300 self-center" aria-hidden="true"></span>
-          <a href="/about" class="hover:text-tyrian-700">About</a>
-          <a href="/search" class="md:hidden hover:text-tyrian-700">Search</a>
+        <nav class="flex flex-wrap items-center gap-x-3 sm:gap-x-4 gap-y-1 text-sm font-medium text-ink-900 sm:justify-end">
+          <a href="/periods" class="hover:text-tyrian-700 transition-colors">Periods</a>
+          <a href="/themes" class="hover:text-tyrian-700 transition-colors">Themes</a>
+          <a href="/threads" class="hover:text-tyrian-700 transition-colors">Threads</a>
+          <a href="/narratives" class="hover:text-tyrian-700 transition-colors">Narratives</a>
+          <span class="hidden sm:inline-block w-px h-3 bg-sand-300" aria-hidden="true"></span>
+          <a href="/events" class="hover:text-tyrian-700 transition-colors">Events</a>
+          <a href="/people" class="hover:text-tyrian-700 transition-colors">People</a>
+          <a href="/places" class="hover:text-tyrian-700 transition-colors">Places</a>
+          <a href="/sources" class="hover:text-tyrian-700 transition-colors">Sources</a>
+          <span class="hidden sm:inline-block w-px h-3 bg-sand-300" aria-hidden="true"></span>
+          <a href="/about" class="hover:text-tyrian-700 transition-colors">About</a>
+          <a href="/search" class="md:hidden hover:text-tyrian-700 transition-colors">Search</a>
           <CmdKSearch />
         </nav>
       </div>
@@ -50,15 +58,23 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
       <slot />
     </main>
 
-    <footer class="border-t border-sand-300 bg-sand-50 mt-16">
-      <div class="max-w-5xl mx-auto px-6 py-8 text-sm text-sand-700">
-        <p>
-          <span class="font-phoenician">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span> · Qart-Hadasht ·
-          The Carthage Encyclopedia
-        </p>
-        <p class="mt-2">
-          Content licensed CC&nbsp;BY&nbsp;4.0 · Code MIT · An evolving reference for ancient Carthage.
-        </p>
+    <footer class="mt-16 border-t border-tyrian-700 bg-sand-50">
+      <div class="max-w-5xl mx-auto px-6 py-10 text-sm text-sand-700">
+        <div class="flex items-start gap-4">
+          <span class="text-tyrian-700 shrink-0">
+            <TanitMark size={28} />
+          </span>
+          <div>
+            <p class="text-ink-900">
+              <span class="font-serif text-base">Qart-Hadasht</span> ·
+              <span class="font-phoenician text-tyrian-700">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span>
+              <span class="text-sand-700"> · The Carthage Encyclopedia</span>
+            </p>
+            <p class="mt-2 text-xs">
+              Content licensed CC&nbsp;BY&nbsp;4.0 · Code MIT · An evolving reference for ancient Carthage.
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
