@@ -1,0 +1,95 @@
+slug: carthage-cothon
+name_display: The Carthage Cothon
+name_alt:
+  punic: kṯn (the Punic-derived term, possibly cognate with the Greek κώθων)
+  greek: Κώθων
+  latin: Cothon
+type: architecture
+material: stone-faced earthworks; harbor basin cut into the alluvial coastal plain
+dimensions: circular military harbor c. 325 m diameter; rectangular merchant harbor adjacent, c. 400 × 200 m
+date_made:
+  value: -250
+  precision: century
+  circa: true
+  notes: >
+    Conventional dating to the early-to-mid 3rd century BCE based on
+    Polybius's description of the harbor as already in service during
+    the First Punic War. Some scholars place the principal construction
+    earlier. The complex underwent successive expansion through the
+    Punic period.
+current_location: Carthage archaeological park, Tunisia — the circular and rectangular basins are still visible as topographic features at the modern site
+find_context:
+  site: Carthage, southern margin of the ancient city
+  circumstances: >
+    The harbor complex was extensively damaged in the Roman destruction
+    of 146 BCE but was substantially preserved as a topographic feature
+    and re-used in modified form under Roman Carthage. Modern
+    archaeological investigation by British and French teams (1970s
+    onward) has clarified the Punic-period plan and confirmed many
+    elements of Polybius's surviving description.
+dating_method: multiple
+interpretation_status: contested
+principal_sources:
+  - polybius-histories
+  - lancel-carthage-1995
+  - hoyos-carthaginians-2010
+referenced_themes:
+  - carthaginian-economy
+image:
+  src: /artifacts/carthage-cothon.jpg
+  alt: An aerial photograph of Carthage showing the distinctive circular and rectangular Punic harbor basins still preserved as topographic features in the coastal plain.
+  credit: "Photograph: Citizen59, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:PortsPuniquesCarthage.JPG
+  license: CC BY-SA 3.0
+summary_short: >
+  The Carthaginian military and merchant harbor complex — the circular
+  cothon and the rectangular commercial basin — described in detail by
+  Polybius and still visible in the modern Carthage archaeological park.
+  The principal physical evidence for Punic naval-administrative
+  capacity at imperial scale.
+summary: >
+  The Carthaginian harbor complex on the southern margin of the ancient
+  city — a paired circular military harbor and rectangular merchant
+  harbor that together constituted one of the largest naval-
+  administrative installations of the ancient Mediterranean. The
+  complex is still visible at the modern Carthage archaeological park
+  as a topographic feature: the two basins, dug into the alluvial
+  coastal plain and connected to the sea by a single narrow channel,
+  preserve the Punic-period plan in its essentials despite the Roman
+  destruction of 146 BCE.
+
+  The principal surviving description is in Polybius (1.73-74,
+  preserved indirectly via later sources for the 3rd-century state of
+  the harbor). His account describes the circular military basin as
+  having an internal ring of ship-sheds for as many as 220 warships,
+  with a central island holding the admiral's headquarters from
+  which the entire fleet could be observed simultaneously. The
+  ship-shed configuration — wedge-shaped slips arranged radially
+  around the basin's perimeter — is one of the more remarkable
+  examples of dedicated naval architecture preserved from the
+  ancient world. The merchant harbor adjacent provided commercial
+  shipping access and was substantially larger but conventionally
+  designed.
+
+  The Polybian description has been substantially confirmed by modern
+  excavation, which has identified ship-shed foundations consistent
+  with the radial-slip arrangement and central administrative island.
+  Some details — the precise count of 220 warships, the
+  characterization of the harbor as completely concealed from
+  external observers — are conventionally read with appropriate
+  ancient-source skepticism, but the basic plan is well-attested.
+  The harbor's strategic importance for the Carthaginian naval
+  posture in the Punic Wars cannot be overstated; the loss of
+  effective harbor access during the 149-146 BCE siege was one of
+  the determining factors in the city's eventual fall.
+
+  The site is the principal piece of physical evidence for
+  Carthaginian engineering and administrative capacity at imperial
+  scale — the kind of structure that required substantial fiscal
+  and political coordination over years of construction, and the
+  kind of thing the surviving Greco-Roman literary sources
+  underemphasize because their narrative focus was almost
+  exclusively on military events. The cothon is what the city's
+  state apparatus could build when it built; for understanding what
+  Carthage actually was as an administrative and economic entity,
+  it is among the most important surviving artifacts.

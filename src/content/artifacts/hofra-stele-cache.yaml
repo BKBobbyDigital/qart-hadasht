@@ -1,0 +1,99 @@
+slug: hofra-stele-cache
+name_display: El Hofra Stele Cache (Constantine, Algeria)
+name_alt:
+  punic: Punic-Berber votive cache from El Hofra
+  latin: Cirta (the Roman name of modern Constantine)
+type: stele
+material: limestone (predominant); local Algerian sandstone for some examples
+dimensions: most examples 30-100 cm tall; varies considerably across the cache
+date_made:
+  value: -300
+  precision: century
+  circa: true
+  range_end: -100
+  notes: >
+    The Hofra deposit spans approximately the 3rd-1st centuries BCE,
+    with the bulk of well-dated examples from the 2nd century BCE.
+    Some scholars push the earliest examples back to the late 4th
+    century BCE.
+current_location: Musée National Cirta, Constantine, Algeria; smaller examples in European collections
+find_context:
+  site: El Hofra ("the Hollow"), a sanctuary precinct on the outskirts of Cirta (modern Constantine, Algeria) — the principal city of the Numidian Massylii kingdom
+  year: 1875
+  excavator: Léon Costa, with later systematic work by Jean-Baptiste Chabot and Stéphane Gsell
+  circumstances: >
+    Discovered in 1875 in a sacred deposit consisting of more than 800
+    inscribed stelae and additional uninscribed examples — the largest
+    single Punic-Numidian votive cache anywhere. The deposit was
+    accumulated over generations of votive activity at the El Hofra
+    sanctuary and was buried at some point in the late Punic-early
+    Roman period for reasons that remain debated.
+dating_method: paleographic
+languages:
+  - punic
+  - neopunic
+interpretation_status: attested
+principal_sources:
+  - quinn-phoenicians-2018
+referenced_themes:
+  - punic-identity
+  - punic-religion
+image:
+  src: /artifacts/hofra-stele.jpg
+  alt: A stylized Punic funerary stele from El Hofra showing a standing male figure in a long robe with arms raised in a gesture of benediction; Punic inscription on the base.
+  credit: "Photograph: Jona Lendering (Livius.org), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Cirta_hofra_funerary_stele_03_mus_constantine_(Livius).jpg
+  license: CC0 1.0 (Public Domain Dedication)
+summary_short: >
+  A cache of more than 800 inscribed Punic-Numidian votive stelae from
+  the El Hofra sanctuary at Cirta (modern Constantine), the principal
+  evidence for the persistence of Punic religious practice in the
+  Numidian interior into the late-Punic and early-Roman period.
+summary: >
+  The El Hofra cache is the largest single deposit of Punic-period
+  votive stelae anywhere — more than 800 inscribed examples plus
+  additional uninscribed stelae, all recovered from a single
+  sanctuary precinct on the outskirts of ancient Cirta (modern
+  Constantine, Algeria). The deposit is the principal evidence for
+  what happened to Punic religious practice in the North African
+  interior during and after the Carthaginian collapse, and it
+  decisively reframes the question of Punic-cultural continuity
+  beyond Carthage's destruction in 146 BCE.
+
+  The site's significance is in three areas:
+
+  - **Massylian Punic religion.** Cirta was the principal city of
+    the Numidian Massylii kingdom (Masinissa's people, and the seat
+    of his successor Micipsa and of Jugurtha). The El Hofra
+    sanctuary was active from at least the 3rd century BCE and
+    accumulated votive deposits for more than two centuries,
+    documenting a sustained Punic-religious practice within a
+    Numidian-administered, Berber-language-speaking interior. The
+    cache is one of the principal arguments against the older view
+    of Punic religion as primarily a coastal-Carthaginian phenomenon
+    that didn't penetrate the interior.
+
+  - **Bilingual stelae and language transition.** A subset of the
+    Hofra stelae carry parallel Punic and neopunic (a slightly
+    later, more cursive Punic) or, in a few late-deposit cases,
+    Latin alongside Punic. The cache documents the slow language
+    transition from Punic to Latin in the North African interior
+    over the 2nd and 1st centuries BCE — the linguistic substrate
+    of what would later become the Roman provincial culture of
+    Numidia.
+
+  - **Religious iconography.** The Hofra stelae deploy the full
+    Punic iconographic vocabulary — Sign of Tanit, palm trees,
+    raised-hands gestures, occasional figural representations of the
+    dedicator — within a regional treatment that includes
+    distinctive Numidian-cultural elements (cavalryman motifs,
+    specifically Numidian dress, occasional Berber-language elements
+    in the inscriptions). The cache shows Punic religious practice
+    as actively engaged with rather than imposed upon the regional
+    cultural matrix.
+
+  The 1875 discovery was a watershed for North African Punic
+  studies; the cache substantially expanded the surviving corpus of
+  Punic inscriptions and remains one of the principal data
+  sources for any analysis of late-Punic religious practice and
+  cultural continuity.
