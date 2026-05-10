@@ -51,3 +51,6 @@ entities:
   - type: theme
     slug: carthaginian-seafaring-and-trade
     role: context
+  - type: artifact
+    slug: carthage-cothon
+    role: subject

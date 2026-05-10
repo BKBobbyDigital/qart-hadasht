@@ -68,3 +68,9 @@ entities:
   - type: theme
     slug: punic-religion
     role: context
+  - type: artifact
+    slug: sign-of-tanit
+    role: subject
+  - type: artifact
+    slug: tophet-stelae-carthage
+    role: context

@@ -47,3 +47,6 @@ entities:
   - type: theme
     slug: carthaginian-economy
     role: context
+  - type: artifact
+    slug: barcid-iberian-coinage
+    role: subject

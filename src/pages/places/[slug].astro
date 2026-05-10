@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Map from '../../components/Map.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
+import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
@@ -31,6 +32,17 @@ const allClaims = await getCollection('claims');
 const referencingClaims = allClaims.filter((c) =>
   (c.data.entities ?? []).some((e: any) => e.type === 'place' && e.slug === place.id)
 );
+
+// Material evidence: artifacts co-referenced with this place via any
+// of the referencing claims.
+const allArtifacts = await getCollection('artifacts');
+const artifactSlugs = new Set<string>();
+for (const c of referencingClaims) {
+  for (const e of (c.data.entities ?? []) as any[]) {
+    if (e.type === 'artifact') artifactSlugs.add(e.slug);
+  }
+}
+const materialEvidence = allArtifacts.filter((a) => artifactSlugs.has(a.id));
 
 // Build the points array for the map. Include candidates if present, otherwise primary.
 type MapPoint = { label: string; lat: number; lon: number; confidence?: string; notes?: string; marker_kind?: string };
@@ -216,6 +228,8 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
         </ul>
       </section>
     )}
+
+    <MaterialEvidence artifacts={materialEvidence} />
 
     <Bibliography claims={referencingClaims} />
     </article>

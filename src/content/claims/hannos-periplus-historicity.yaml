@@ -58,3 +58,6 @@ entities:
   - type: theme
     slug: carthaginian-seafaring-and-trade
     role: context
+  - type: artifact
+    slug: hannos-periplus-inscription
+    role: subject

@@ -60,3 +60,6 @@ entities:
   - type: theme
     slug: punic-identity
     role: context
+  - type: artifact
+    slug: cippi-of-melqart
+    role: context

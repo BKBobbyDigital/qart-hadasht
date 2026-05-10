@@ -25,6 +25,9 @@ entities:
   - type: event
     slug: battle-of-aegates-islands
     role: context
+  - type: artifact
+    slug: marsala-punic-warship
+    role: context
 notes: >
   The recovery of bronze warship rams from the seabed in this area
   since 2010 has produced one of the few cases in classical naval

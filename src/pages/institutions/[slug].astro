@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
+import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
@@ -32,6 +33,17 @@ const allClaims = await getCollection('claims');
 const referencingClaims = allClaims.filter((c) =>
   (c.data.entities ?? []).some((e: any) => e.type === 'institution' && e.slug === institution.id)
 );
+
+// Material evidence: artifacts co-referenced with this institution in
+// any of the referencing claims.
+const allArtifacts = await getCollection('artifacts');
+const artifactSlugs = new Set<string>();
+for (const c of referencingClaims) {
+  for (const e of (c.data.entities ?? []) as any[]) {
+    if (e.type === 'artifact') artifactSlugs.add(e.slug);
+  }
+}
+const materialEvidence = allArtifacts.filter((a) => artifactSlugs.has(a.id));
 
 // Reverse lookup: events that reference this institution
 const allEvents = await getCollection('events');
@@ -163,6 +175,8 @@ const institutionInfoboxRows: InfoboxRow[] = [
         </ul>
       </section>
     )}
+
+    <MaterialEvidence artifacts={materialEvidence} />
 
     <Bibliography claims={referencingClaims} principalSourceIds={principalSourceIds} />
     </article>

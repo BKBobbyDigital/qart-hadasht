@@ -28,3 +28,6 @@ entities:
   - type: event
     slug: hamilcars-iberian-conquest
     role: context
+  - type: artifact
+    slug: barcid-iberian-coinage
+    role: subject

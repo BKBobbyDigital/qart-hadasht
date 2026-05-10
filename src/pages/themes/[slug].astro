@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
+import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -48,6 +49,13 @@ const referencingDeities = allDeities
   .sort((a, b) => a.data.name_display.localeCompare(b.data.name_display));
 
 // Reverse lookup: claims that name this theme as an entity
+// Material evidence: artifacts whose `referenced_themes` includes
+// this theme (direct frontmatter linkage on the artifact side).
+const allArtifacts = await getCollection('artifacts');
+const materialEvidence = allArtifacts.filter((a) =>
+  (a.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id.replace(/\.md$/, ''))
+);
+
 const allClaims = await getCollection('claims');
 const referencingClaims = allClaims.filter((c) =>
   (c.data.entities ?? []).some((e: any) => e.type === 'theme' && (e.slug === themeSlug || e.slug === theme.id))
@@ -252,6 +260,8 @@ const jumps: Jump[] = [
           </ul>
         </section>
       )}
+
+      <MaterialEvidence artifacts={materialEvidence} />
 
       <Bibliography claims={referencingClaims} />
 

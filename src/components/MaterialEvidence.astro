@@ -1,0 +1,82 @@
+---
+/**
+ * Material evidence section — surfaces artifacts connected to an
+ * entity, on entity pages.
+ *
+ * Two derivation paths:
+ *
+ *   - For theme pages: artifacts whose `referenced_themes` field
+ *     includes this theme. Direct frontmatter linkage.
+ *
+ *   - For everything else (people, places, events, groups, deities,
+ *     institutions): claim co-occurrence. If a claim references both
+ *     this entity and an artifact via its `entities` array, the
+ *     artifact surfaces here. Degrades gracefully — only shows
+ *     artifacts where there's an actual claim linking them, which
+ *     keeps the cross-references substantive rather than speculative.
+ *
+ * Both paths feed a unified list passed in as the `artifacts` prop.
+ * The rendering side doesn't care which path produced the list.
+ */
+
+interface Props {
+  /** Resolved artifact entries to render. */
+  artifacts: any[];
+  /** Heading text. Default "Material evidence". */
+  heading?: string;
+}
+
+const { artifacts, heading = 'Material evidence' } = Astro.props;
+
+const typeLabel: Record<string, string> = {
+  statuary: 'Statuary',
+  inscription: 'Inscription',
+  stele: 'Stele',
+  coin: 'Coin',
+  vessel: 'Vessel',
+  architecture: 'Architecture',
+  sarcophagus: 'Sarcophagus',
+  shipwreck: 'Shipwreck',
+  metalwork: 'Metalwork',
+  jewelry: 'Jewelry',
+  mosaic: 'Mosaic',
+  composite: 'Composite',
+};
+
+// Sort: by display name asc
+const sorted = [...artifacts].sort((a, b) =>
+  a.data.name_display.localeCompare(b.data.name_display)
+);
+---
+
+{sorted.length > 0 && (
+  <section class="mt-12 pt-6 border-t border-sand-300" id="material-evidence">
+    <h2 class="font-serif text-2xl mb-3">{heading}</h2>
+    <ul class="grid sm:grid-cols-2 gap-3">
+      {sorted.map((a) => (
+        <li>
+          <a
+            href={`/artifacts/${a.id}`}
+            class="flex gap-3 p-3 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+          >
+            {a.data.image && (
+              <img
+                src={a.data.image.src}
+                alt=""
+                loading="lazy"
+                class="w-16 h-16 object-cover rounded shrink-0 bg-sand-100"
+              />
+            )}
+            <div class="min-w-0 flex-1">
+              <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
+                {typeLabel[a.data.type] ?? a.data.type}
+              </p>
+              <h3 class="font-serif text-base text-tyrian-700 leading-tight mt-0.5">{a.data.name_display}</h3>
+              <p class="text-xs text-sand-900 mt-1 line-clamp-2">{a.data.summary_short}</p>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

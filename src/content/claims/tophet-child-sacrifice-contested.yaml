@@ -88,3 +88,9 @@ entities:
   - type: deity
     slug: tanit
     role: context
+  - type: artifact
+    slug: tophet-stelae-carthage
+    role: subject
+  - type: artifact
+    slug: sign-of-tanit
+    role: context

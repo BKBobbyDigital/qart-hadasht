@@ -46,3 +46,6 @@ entities:
   - type: theme
     slug: daily-life-in-carthage
     role: context
+  - type: artifact
+    slug: kerkouane-domestic-architecture
+    role: subject

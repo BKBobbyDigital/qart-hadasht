@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import Bibliography from '../../components/Bibliography.astro';
+import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
@@ -42,6 +43,17 @@ const allClaims = await getCollection('claims');
 const referencingClaims = allClaims.filter((c) =>
   (c.data.entities ?? []).some((e: any) => e.type === 'person' && e.slug === person.id)
 );
+
+// Material evidence: artifacts that share an `entities` link with
+// this person via any of the referencing claims.
+const allArtifacts = await getCollection('artifacts');
+const artifactSlugs = new Set<string>();
+for (const c of referencingClaims) {
+  for (const e of (c.data.entities ?? []) as any[]) {
+    if (e.type === 'artifact') artifactSlugs.add(e.slug);
+  }
+}
+const materialEvidence = allArtifacts.filter((a) => artifactSlugs.has(a.id));
 
 // Resolve referenced institutions and themes (if any)
 const { getEntry } = await import('astro:content');
@@ -248,6 +260,8 @@ const personInfoboxRows: InfoboxRow[] = [
         </ul>
       </section>
     )}
+    <MaterialEvidence artifacts={materialEvidence} />
+
     <Bibliography claims={referencingClaims} />
     </article>
   </div>

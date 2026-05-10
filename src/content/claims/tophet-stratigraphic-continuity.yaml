@@ -41,3 +41,6 @@ entities:
   - type: institution
     slug: tophet
     role: subject
+  - type: artifact
+    slug: tophet-stelae-carthage
+    role: subject
