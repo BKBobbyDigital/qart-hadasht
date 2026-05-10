@@ -71,6 +71,18 @@ principal_sources:
   - macdonald-hannibal-2015
   - goldsworthy-fall-carthage-2003
   - lancel-carthage-1995
+map_id: spw
+map_caption: >
+  Strategic geography of the Second Punic War. The Barcid Iberian
+  state and the Carthaginian African heartland in tyrian; Roman Italy
+  in slate; the Numidian kingdoms shown as a single zone in muted
+  olive (Syphax's Masaesyli to the west and the Massyli of Gala /
+  later Masinissa to the east are not separately rendered).
+  Hannibal's 218 BCE march from Carthago Nova through the Pyrenees,
+  across the Rhône, over the Alps and onto the Po plain is shown as
+  the dashed line. Battle markers at Trebia (218), Trasimene (217),
+  Cannae (216), and Zama (202). Polygons and route adapted from
+  Hoyos 2010 and Goldsworthy 2003.
 last_revised: "2026-05-10"
 ---
 

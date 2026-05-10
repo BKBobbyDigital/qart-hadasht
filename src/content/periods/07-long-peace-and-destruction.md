@@ -38,6 +38,17 @@ principal_sources:
   - lancel-carthage-1995
   - miles-carthage-2010
   - goldsworthy-fall-carthage-2003
+map_id: tpw
+map_caption: >
+  Strategic geography of the Third Punic War. The Carthaginian
+  territorial remnant by 149 BCE — substantially smaller than the
+  pre-201 African heartland after fifty years of Masinissa's
+  encroachment under Roman cover — is shown in tyrian; the Numidian
+  kingdom in olive. The siege of Carthage 149–146 BCE is marked at
+  the city itself; Scipio Aemilianus took over command in 147 and
+  tightened the siege through systematic demolition of the city's
+  outer defenses before the final spring 146 assault. Polygons
+  adapted from Goldsworthy 2003 and Hoyos 2010.
 last_revised: "2026-05-10"
 ---
 

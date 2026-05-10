@@ -1,0 +1,43 @@
+{
+  "viewport": { "lonMin": 7.5, "lonMax": 12.5, "latMin": 35.0, "latMax": 38.0 },
+  "polygons": [
+    {
+      "name": "Carthaginian remnant territory, 149 BCE",
+      "fill": "#5b0f31",
+      "opacity": 0.28,
+      "coords": [
+        [9.95, 37.30], [10.30, 37.20], [10.75, 36.95], [11.05, 36.55], [10.95, 36.20], [10.60, 35.95], [10.30, 35.85], [10.05, 36.10], [9.95, 36.50], [9.95, 36.95], [9.95, 37.30]
+      ]
+    },
+    {
+      "name": "Numidian kingdom under Masinissa (post-c.150)",
+      "fill": "#7a8c6c",
+      "opacity": 0.22,
+      "coords": [
+        [9.95, 37.20], [9.55, 37.00], [9.10, 36.85], [8.50, 36.85], [7.55, 36.85], [7.55, 36.35], [7.80, 35.90], [8.50, 35.55], [9.30, 35.40], [9.85, 35.30], [10.15, 35.55], [10.20, 35.80], [9.95, 36.10], [9.85, 36.50], [9.90, 36.95], [9.95, 37.20]
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "name": "Scipio Aemilianus's approach, 147 BCE",
+      "color": "#4b6584",
+      "dashed": true,
+      "points": [
+        [9.95, 37.20], [10.10, 37.15], [10.25, 37.00]
+      ]
+    }
+  ],
+  "region_labels": [
+    { "text": "NUMIDIA", "lon": 8.60, "lat": 36.20, "size": "large", "italic": true },
+    { "text": "Mare Internum", "lon": 11.50, "lat": 37.55, "size": "small", "italic": true }
+  ],
+  "cities": [
+    { "name": "Qart-ḥadasht", "lon": 10.32, "lat": 36.86, "role": "major", "label_anchor": "right" },
+    { "name": "Utica", "lon": 10.06, "lat": 37.06, "role": "minor", "label_anchor": "left" },
+    { "name": "Hippo Diarrhytus", "lon": 9.87, "lat": 37.27, "role": "minor", "label_anchor": "left" },
+    { "name": "Hadrumetum", "lon": 10.63, "lat": 35.83, "role": "minor", "label_anchor": "right" },
+    { "name": "Cirta", "lon": 7.95, "lat": 36.36, "role": "minor", "label_anchor": "bottom" },
+    { "name": "Siege 149–146", "lon": 10.32, "lat": 36.78, "role": "battle", "label_anchor": "bottom" }
+  ]
+}
