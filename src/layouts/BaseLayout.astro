@@ -6,27 +6,15 @@ import TanitMark from '../components/TanitMark.astro';
 interface Props {
   title: string;
   description?: string;
-  /**
-   * Header layout. 'editorial' is the magazine-cover masthead used on
-   * the homepage: utility row, big wordmark block, full primary nav
-   * with dividers. 'condensed' (the default) is the slim single-row
-   * version used on every other page: small brand lockup left, primary
-   * nav center, search right.
-   */
-  variant?: 'editorial' | 'condensed';
 }
 
 const {
   title,
   description = 'Qart-Hadasht — The Carthage Encyclopedia. A reference for ancient Carthage from founding to destruction.',
-  variant = 'condensed',
 } = Astro.props;
 const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
 
-// Primary nav items, in order. Dividers go between every item on the
-// editorial homepage; the condensed inner-page strip uses a slightly
-// looser scheme (pipes between content sections, About sits at the end
-// without a pipe — a small visual demotion).
+// Primary nav items, in order. Pipes between every item on every page.
 const primaryNav = [
   { href: '/periods', label: 'Periods' },
   { href: '/themes', label: 'Themes' },
@@ -50,86 +38,60 @@ const primaryNav = [
   </head>
   <body class="min-h-screen flex flex-col bg-sand-50">
 
-    {variant === 'editorial' ? (
-      <header class="bg-sand-100">
-        <!-- Top tyrian rule -->
-        <div class="h-[2px] bg-tyrian-700"></div>
+    <!-- Editorial masthead — used across every page. Magazine-cover
+         identity treatment: utility row (About + Search), then a big
+         wordmark block with Tanit + tagline left and Phoenician script
+         + Qart-Hadasht wordmark right, then the primary nav with pipes
+         between every item. Sealed top and bottom by tyrian rules; an
+         additional rule between each band gives the editorial rhythm. -->
+    <header class="bg-sand-100">
+      <!-- Top tyrian rule -->
+      <div class="h-[2px] bg-tyrian-700"></div>
 
-        <!-- Utility row: About left, Search right -->
-        <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between text-sm">
-          <a href="/about" class="text-ink-900 hover:text-tyrian-700 transition-colors">About</a>
-          <CmdKSearch />
-        </div>
+      <!-- Utility row: About left-of-search, both anchored right -->
+      <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-end gap-5 text-sm">
+        <a href="/about" class="text-ink-900 hover:text-tyrian-700 transition-colors">About</a>
+        <CmdKSearch />
+      </div>
 
-        <!-- Tyrian rule -->
-        <div class="border-t border-tyrian-700"></div>
+      <!-- Tyrian rule -->
+      <div class="border-t border-tyrian-700"></div>
 
-        <!-- Editorial masthead block: Phoenician + giant wordmark, Tanit+tagline floated right -->
-        <div class="max-w-6xl mx-auto px-6 py-10 sm:py-14 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
-          <a href="/" class="block group">
-            <p class="font-phoenician text-3xl sm:text-4xl text-tyrian-700 leading-none mb-3">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
-            <h1 class="font-serif text-6xl sm:text-8xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</h1>
-          </a>
-          <div class="flex items-center gap-3 sm:flex-col sm:items-end sm:text-right shrink-0">
-            <span class="text-tyrian-700">
-              <TanitMark size={36} />
-            </span>
-            <p class="eyebrow leading-tight">An encyclopedia<br class="hidden sm:inline" /> of ancient Carthage</p>
-          </div>
-        </div>
-
-        <!-- Tyrian rule -->
-        <div class="border-t border-tyrian-700"></div>
-
-        <!-- Primary nav, dividers between every item -->
-        <nav class="max-w-6xl mx-auto px-6 py-4 flex flex-wrap items-center justify-center gap-x-3 sm:gap-x-4 gap-y-2 text-sm font-medium text-ink-900">
-          {primaryNav.map((item, i) => (
-            <>
-              {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
-              <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
-            </>
-          ))}
-        </nav>
-
-        <!-- Bottom tyrian rule -->
-        <div class="border-t border-tyrian-700"></div>
-      </header>
-    ) : (
-      <header class="bg-sand-50">
-        <!-- Top tyrian rule -->
-        <div class="h-[2px] bg-tyrian-700"></div>
-
-        <!-- Condensed strip: brand lockup left, nav center, search right -->
-        <div class="max-w-6xl mx-auto px-6 py-3 flex flex-wrap items-center gap-x-6 gap-y-3">
-          <a href="/" class="group flex items-center gap-2.5 shrink-0">
+      <!-- Editorial masthead block.
+           Mobile: stacks vertically (Tanit + tagline above wordmark).
+           Desktop: Tanit + tagline left, Phoenician + wordmark right,
+           with the wordmark right-aligned for editorial weight. -->
+      <a href="/" class="block group">
+        <div class="max-w-6xl mx-auto px-6 py-8 sm:py-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 sm:gap-10">
+          <div class="flex items-center gap-4 sm:flex-col sm:items-start shrink-0">
             <span class="text-tyrian-700 group-hover:text-tyrian-900 transition-colors">
-              <TanitMark size={28} />
+              <TanitMark size={56} />
             </span>
-            <span class="flex flex-col leading-none">
-              <span class="font-phoenician text-xs text-tyrian-700">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span>
-              <span class="font-serif text-base text-ink-900 mt-0.5">Qart-Hadasht</span>
-            </span>
-          </a>
-          <nav class="flex flex-wrap items-center gap-x-2.5 sm:gap-x-3 gap-y-1 text-sm font-medium text-ink-900 flex-1 sm:justify-center">
-            {primaryNav.map((item, i) => (
-              <>
-                {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
-                <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
-              </>
-            ))}
-            <span class="text-sand-400" aria-hidden="true">|</span>
-            <a href="/about" class="text-sand-700 hover:text-tyrian-700 transition-colors">About</a>
-            <a href="/search" class="md:hidden text-sand-700 hover:text-tyrian-700 transition-colors">Search</a>
-          </nav>
-          <div class="shrink-0 ml-auto sm:ml-0">
-            <CmdKSearch />
+            <p class="eyebrow leading-tight">An encyclopedia<br /> of ancient Carthage</p>
+          </div>
+          <div class="text-right">
+            <p class="font-phoenician text-2xl sm:text-3xl text-tyrian-700 leading-none mb-2 sm:mb-3">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
+            <h1 class="font-serif text-5xl sm:text-7xl lg:text-8xl text-ink-900 leading-[0.95] tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</h1>
           </div>
         </div>
+      </a>
 
-        <!-- Bottom tyrian rule -->
-        <div class="border-t border-tyrian-700"></div>
-      </header>
-    )}
+      <!-- Tyrian rule -->
+      <div class="border-t border-tyrian-700"></div>
+
+      <!-- Primary nav, dividers between every item -->
+      <nav class="max-w-6xl mx-auto px-6 py-3 flex flex-wrap items-center justify-center gap-x-3 sm:gap-x-4 gap-y-2 text-sm font-medium text-ink-900">
+        {primaryNav.map((item, i) => (
+          <>
+            {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+            <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
+          </>
+        ))}
+      </nav>
+
+      <!-- Bottom tyrian rule -->
+      <div class="border-t border-tyrian-700"></div>
+    </header>
 
     <main class="flex-1" data-pagefind-body>
       <slot />
