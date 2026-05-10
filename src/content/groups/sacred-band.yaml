@@ -1,0 +1,77 @@
+slug: sacred-band
+name_display: The Sacred Band
+name_alt:
+  greek: Ἱερὸς λόχος (Hieros lochos)
+  latin: Sacra Cohors / Sacer Ordo
+  modern: the Carthaginian elite citizen heavy infantry
+type: military_unit
+polity_affiliation: Carthage (citizen-elite force, recruited from leading Carthaginian families)
+active_from:
+  value: -400
+  precision: century
+  circa: true
+active_to:
+  value: -341
+  precision: year
+  notes: >
+    The Sacred Band as an organized formation was
+    effectively destroyed at the Battle of the Crimisus
+    in 341 BCE; subsequent Carthaginian armies relied
+    increasingly on mercenary and Libyan-Phoenician
+    heavy infantry without an equivalent elite citizen
+    formation.
+summary: >
+  The Carthaginian elite citizen heavy infantry — a
+  formation of approximately 2,500 to 3,000 men recruited
+  exclusively from the leading Carthaginian families and
+  organized in the manner of a Greek hoplite phalanx. The
+  Sacred Band is one of the few Carthaginian military
+  formations in the surviving record whose distinguishing
+  feature was citizenship rather than mercenary status:
+  the unit's members were the sons and adult relatives of
+  the Carthaginian senatorial class itself, fighting as
+  the political symbol as well as the operational core of
+  the army.
+
+  Diodorus (16.80) gives the most substantial surviving
+  account, in his narrative of the Battle of the Crimisus
+  (341 BCE) where the Sacred Band was effectively
+  destroyed:
+
+  > "The Carthaginians had a body of three thousand men,
+  > picked from among themselves, who were called the
+  > Sacred Band — men who in birth and wealth, and in
+  > fame for valour, surpassed the rest of the citizens.
+  > These were all cut down on the field."
+
+  The destruction at Crimisus was the structural moment
+  when Carthaginian armies shifted decisively away from
+  citizen-heavy-infantry composition toward the
+  mercenary-and-Libyan-Phoenician model that would
+  characterize Carthaginian forces through the entire
+  Punic Wars period. The political consequences at
+  Carthage were substantial: a substantial fraction of
+  the senatorial class's adult males died in a single
+  engagement, with effects on senatorial composition and
+  political balance that the surviving sources do not
+  fully document but that modern reconstructions treat
+  as significant.
+
+  The Sacred Band is also the principal historical
+  ancestor — at least in the surviving Greek tradition —
+  of later citizen-elite formations Carthage maintained in
+  smaller numbers. References to "the sacred company"
+  appear in some 4th-century Carthaginian inscriptions,
+  and the institution may have persisted in attenuated
+  form through the Punic Wars, but Crimisus is the
+  organized formation's effective end.
+
+  The "Sacred" designation reflects the unit's religious
+  character as well as its political status: members swore
+  oaths at the temple of Baal Hammon and were buried with
+  ritual honors in dedicated necropolis sections. The
+  unit was a religious as well as a military institution,
+  binding the Carthaginian aristocratic class's
+  self-understanding to its military commitment in a
+  way that subsequent mercenary-army Carthage no longer
+  preserved.
