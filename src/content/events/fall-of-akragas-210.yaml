@@ -1,0 +1,55 @@
+slug: fall-of-akragas-210
+name: Fall of Akragas (210 BCE)
+type: siege
+date_start:
+  value: -210
+  precision: year
+  notes: >
+    Spring 210 BCE; the city fell through betrayal rather
+    than direct assault.
+place: akragas
+participants:
+  - person: hanno-the-great
+    role: Carthaginian commander (probably; the "Hanno" of Livy's account is most likely Hanno the Great, though identification is contested)
+    side: Carthaginian
+principal_sources:
+  - livy-auc
+  - polybius-histories
+  - hoyos-hannibal-2003
+related_events:
+  - event: carthaginian-sicilian-relief-213-211
+    relation: continuation of (the closing engagement of the failed relief sequence)
+  - event: siege-of-syracuse-marcellus
+    relation: aftermath of (the Roman consolidation that followed Syracuse's fall)
+  - event: second-punic-war
+    relation: phase of (the Sicilian theatre's closure)
+summary: >
+  The Roman conquest of Akragas in 210 BCE — by Marcus
+  Valerius Laevinus, replacing Marcellus on the Sicilian
+  command — that closed the Carthaginian Sicilian theatre of
+  the Second Punic War. After Syracuse's fall in 211 BCE,
+  Akragas was the last major Carthaginian-aligned Greek-
+  Sicilian city. Carthaginian forces under a commander Livy
+  names as "Hanno" (probably Hanno the Great) held the city
+  together with substantial Numidian cavalry contingents
+  under Mottones — a Numidian commander whose subsequent
+  defection became the operation's decisive event.
+
+  The siege's outcome turned on Mottones rather than on
+  Roman pressure. Hanno had reportedly mistreated Mottones
+  and his Numidian troops; Mottones in response opened
+  negotiations with Laevinus and, at the agreed moment,
+  opened a city gate to admit the Roman force. Akragas fell
+  with limited fighting; Hanno escaped the city; the
+  Carthaginian and Greek leaders who had organized the
+  resistance were executed by Laevinus.
+
+  The strategic consequence was the end of effective
+  Carthaginian operations in Sicily for the duration of the
+  Second Punic War. Mottones — rewarded with Roman
+  citizenship and honors — became the prototype of the
+  Numidian-Roman alliance pattern that would culminate in
+  Masinissa's role at Zama. The Sicilian theatre's closure
+  freed substantial Roman resources for the Iberian and
+  Italian theatres just as the Scipionic Iberian operations
+  began producing decisive results.

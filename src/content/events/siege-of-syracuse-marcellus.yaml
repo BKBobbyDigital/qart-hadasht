@@ -25,9 +25,15 @@ related_events:
     relation: aftermath context (Hieronymus's defection followed the post-Cannae configuration)
     notes: >
       The Syracusan defection to Carthage came after Hiero II's
-      death in 215 BCE and his grandson Hieronymus's pro-
-      Carthaginian alignment, itself produced by the post-Cannae
-      perception that Roman defeat was likely.
+      death in 215 BCE and his grandson Hieronymus's pro-Carthaginian
+      alignment, itself produced by the post-Cannae perception that
+      Roman defeat was likely.
+  - event: syracusan-defection-215
+    relation: produced by (the alliance whose preservation the siege contested)
+  - event: carthaginian-sicilian-relief-213-211
+    relation: faced (the relief operations attempted during the siege)
+  - event: fall-of-akragas-210
+    relation: led to (the closing engagement of the Sicilian theatre after Syracuse's fall)
 summary: >
   The two-year Roman siege of Syracuse from 213 to 211 BCE,
   the engagement that ended Carthaginian-Sicilian alliance and

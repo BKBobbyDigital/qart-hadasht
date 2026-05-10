@@ -1,0 +1,46 @@
+slug: syracuse-sack-roman-hellenization
+statement: >
+  Marcellus's sack of Syracuse in 211 BCE produced the first
+  major influx of Greek artistic treasure into Rome and is
+  conventionally treated by Plutarch and the surviving
+  Roman tradition as a turning point in Roman cultural
+  history: the moment when Greek aesthetic culture began
+  systematically penetrating Roman elite life. Plutarch
+  treats the moral significance of the looting with
+  considerable ambivalence — Marcellus is praised for
+  preserving Greek artworks rather than destroying them,
+  but the long-term cultural-political consequences are
+  framed as morally compromised.
+confidence: attested
+scholarly_consensus: >
+  The structural fact — Marcellus's sack as a major
+  inflection point for Greek artistic transfer to Rome — is
+  firmly attested and broadly accepted. The interpretive
+  framing — that this moment opened a long arc of
+  Hellenization that would transform Roman cultural life —
+  is the consensus modern reading, though it draws as much
+  from Plutarch's retrospective framing as from
+  contemporary evidence.
+sources:
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Marcellus 21"
+    passage_summary: >
+      Plutarch treats the Sicilian plunder explicitly as a
+      cultural turning point and discusses the moral
+      ambivalence of Marcellus's role at length.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "25.40"
+    passage_summary: >
+      Livy's account of the sack preserves the artistic-
+      transfer detail and the broader cultural significance.
+  - source: miles-carthage-2010
+    stance: supports
+    passage_summary: >
+      Miles's overview integrates the Syracuse sack with
+      the long arc of Roman cultural Hellenization.
+entities:
+  - type: event
+    slug: siege-of-syracuse-marcellus
+    role: subject

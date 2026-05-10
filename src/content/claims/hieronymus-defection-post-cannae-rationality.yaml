@@ -1,0 +1,67 @@
+slug: hieronymus-defection-post-cannae-rationality
+statement: >
+  The standard surviving characterization of Hieronymus's
+  defection from Rome to Carthage as the reckless decision
+  of an incompetent young king reflects retrospective Roman
+  framing rather than the actual strategic information
+  available in autumn 215 BCE. On the post-Cannae
+  intelligence — Roman field armies destroyed, Italian
+  allies including Capua defecting, no apparent Roman
+  recovery in prospect — the Syracusan reorientation was
+  defensible. The negative tradition is a function of
+  outcome bias.
+confidence: contested
+dispute_summary: |
+  Two readings of the defection's rationality:
+
+  1. **The standard surviving tradition** treats
+     Hieronymus's defection as fundamentally misjudged: the
+     act of an inexperienced young king dominated by
+     pro-Carthaginian advisors who overestimated Carthage
+     and underestimated Roman recovery capacity. This is
+     Polybius's framing (7.2-7) and Livy's, and has been
+     the consensus reading until recently.
+
+  2. **Modern revisionist readings** (advanced explicitly
+     by Hoyos and developing through 2010s scholarship)
+     treat the defection's logic as defensible on the
+     strategic information available in autumn 215 BCE.
+     Cannae had been catastrophic; the Italian allied
+     defections were ongoing; Hannibal's Italian command
+     appeared sustainable; no specific intelligence about
+     Roman recovery capacity was available to Syracusan
+     analysts. The decision to reorient could be rational
+     even if the outcome proved unfavorable.
+
+  The contestation is genuine and modern. The standard
+  tradition is preserved in the surviving sources; the
+  revisionist reading argues that the surviving sources
+  reflect outcome bias and Roman victors' framing.
+sources:
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "7.2-7"
+    passage_summary: >
+      Polybius treats Hieronymus's defection as the act of
+      an unstable young king and treats the defection's
+      logic as fundamentally flawed.
+  - source: livy-auc
+    stance: contradicts
+    passage_ref: "24.4-7"
+    passage_summary: >
+      Livy gives the standard negative characterization,
+      with additional dramatic-political detail.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's biographical treatment of Hannibal includes
+      analysis of the Syracusan defection's strategic
+      logic on the post-Cannae information available, and
+      argues for the rationality reading.
+entities:
+  - type: event
+    slug: syracusan-defection-215
+    role: subject
+  - type: event
+    slug: battle-of-cannae
+    role: context

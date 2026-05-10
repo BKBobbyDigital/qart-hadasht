@@ -1,0 +1,82 @@
+slug: syracusan-defection-215
+name: Syracusan Defection (Hieronymus's Reign)
+type: political
+date_start:
+  value: -215
+  precision: year
+date_end:
+  value: -214
+  precision: year
+  notes: >
+    The defection process spanned the period from Hiero II's
+    death in summer 215 BCE through Hieronymus's assassination
+    in spring 214 BCE; the formal Syracusan-Carthaginian
+    alliance was concluded during Hieronymus's brief reign.
+place: syracuse
+participants:
+  - person: hieronymus
+    role: king of Syracuse
+    side: Syracuse
+  - person: hippocrates-and-epicydes
+    role: Carthaginian envoys; effective architects of the defection
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+related_events:
+  - event: battle-of-cannae
+    relation: produced the conditions for (the post-Cannae perception of imminent Roman defeat)
+    notes: >
+      The Syracusan defection followed directly on the
+      post-Cannae configuration: Roman field armies
+      destroyed, Italian allies defecting, and the
+      perception across the Greek world that Roman defeat
+      was now likely.
+  - event: siege-of-syracuse-marcellus
+    relation: produced (the Roman response that became Marcellus's siege)
+  - event: second-punic-war
+    relation: phase of (the Sicilian theatre's opening)
+summary: >
+  The diplomatic-political event that opened the Sicilian
+  theatre of the Second Punic War. Hiero II of Syracuse —
+  who had ruled for 54 years and held the Roman alliance
+  consistently across his reign — died in mid-215 BCE,
+  shortly after the disaster at Cannae. His successor was
+  his grandson Hieronymus, aged about fifteen.
+
+  The defection process spanned about ten months:
+
+  - **Late 215 BCE: Carthaginian embassy.** Hannibal's
+    Italian command, exploiting the post-Cannae moment,
+    dispatched the brothers Hippocrates and Epicydes —
+    Syracusan in family origin, Carthaginian in birth and
+    upbringing — as envoys to the new young king. Their
+    dual cultural identity made them ideal intermediaries.
+  - **Winter 215/214 BCE: formal alliance.** Hieronymus,
+    influenced by the Carthaginian envoys and reading the
+    post-Cannae Roman position as terminal, concluded a
+    formal Syracusan-Carthaginian alliance. The treaty's
+    terms reportedly included Carthaginian recognition of
+    Syracusan rule over all of Greek Sicily and a defense
+    pact against Roman counter-action.
+  - **Spring 214 BCE: assassination of Hieronymus.**
+    Hieronymus was killed by pro-Roman conspirators after
+    a brief reign characterized in the surviving sources
+    as politically incompetent. The conspirators briefly
+    established a republican-style government but could
+    not reverse the Carthaginian alliance: Hippocrates and
+    Epicydes survived the political turbulence and
+    emerged as effective leaders of the pro-Carthaginian
+    faction.
+  - **Summer 214 BCE: Roman intervention.** Marcellus
+    arrived in Sicily with consular forces; the
+    siege of Syracuse began the following year.
+
+  The defection's strategic significance was substantial:
+  for the only time in the Second Punic War, Carthage
+  acquired an active Greek-state ally in the central
+  Mediterranean, with the strategic possibility of
+  Sicilian resupply for Hannibal's Italian operation. The
+  Roman response was the multi-year Sicilian campaign that
+  closed the theatre by 210 BCE.

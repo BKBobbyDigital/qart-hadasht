@@ -1,0 +1,68 @@
+slug: carthaginian-sicilian-relief-213-211
+name: Carthaginian Sicilian Relief Operations (213–211 BCE)
+type: expedition
+date_start:
+  value: -213
+  precision: year
+date_end:
+  value: -211
+  precision: year
+  notes: >
+    Three distinct relief operations across the period of
+    Marcellus's siege; none broke the Roman position. The
+    final relief failure preceded the Syracusan fall by
+    months.
+place: sicily
+participants:
+  - person: himilco
+    role: commander of the principal land relief expedition (213 BCE) — name disputed; "Himilco" is the conventional designation but may be a different commander from the 5th-century Himilco
+    side: Carthaginian
+principal_sources:
+  - livy-auc
+  - polybius-histories
+  - hoyos-hannibal-2003
+related_events:
+  - event: siege-of-syracuse-marcellus
+    relation: relief attempt for (the operations that aimed to break Marcellus's siege)
+  - event: syracusan-defection-215
+    relation: produced by (the alliance whose preservation was the relief operations' purpose)
+  - event: fall-of-akragas-210
+    relation: led to (the final Carthaginian Sicilian withdrawal)
+summary: >
+  The three Carthaginian relief operations across 213-211 BCE
+  that attempted to break the Roman siege of Syracuse and
+  preserve the Sicilian-Carthaginian alliance. None succeeded;
+  the cumulative failure produced the closing of the
+  Carthaginian Sicilian theatre by 210 BCE.
+
+  The three operations:
+
+  1. **Himilco's expedition (213 BCE).** A substantial
+     Carthaginian force landed at Heraclea Minoa on the
+     southwestern Sicilian coast and advanced inland. The
+     expedition recovered most of the Sicilian interior
+     from Roman control and established Carthaginian
+     positions in support of Syracuse, but could not
+     directly threaten Marcellus's siege lines around
+     Syracuse itself. Himilco wintered in Sicily without
+     achieving relief.
+  2. **Bomilcar's naval relief (212 BCE).** A Carthaginian
+     fleet under the admiral Bomilcar carried supplies and
+     reinforcements toward Syracuse during the siege.
+     Bomilcar's force reached the harbor approaches but,
+     facing the Roman fleet under Marcellus's command,
+     withdrew without attempting to force the engagement.
+     Polybius and Livy treat the withdrawal as failure of
+     nerve; modern reconstructions are more sympathetic to
+     the operational difficulty Bomilcar faced.
+  3. **Final relief failure (212-211 BCE).** A combined
+     Carthaginian-Syracusan effort to break the siege
+     through coordinated land-and-sea action collapsed
+     under the plague that swept the Carthaginian land
+     camp during the late summer of 212. Himilco and
+     Hippocrates both died in the plague; the relief force
+     dispersed.
+
+  The strategic outcome: by spring 211, Syracuse was on its
+  own. The siege's fall in spring 211 was the consequence as
+  much of relief failure as of Roman pressure.
