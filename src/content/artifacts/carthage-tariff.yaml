@@ -1,0 +1,77 @@
+slug: carthage-tariff
+name_display: Carthage Tariff
+name_alt:
+  punic: fragmentary tariff inscription from Carthage
+  greek: not preserved
+  latin: tarifa sacrificiorum Carthaginiensis (modern Latin conventional name)
+type: inscription
+material: limestone
+dimensions: surviving fragment c. 35 cm × 25 cm
+date_made:
+  value: -250
+  precision: century
+  circa: true
+  notes: >
+    Conventional dating to the 3rd century BCE on paleographic grounds.
+    More fragmentary than the Marseille Tariff and accordingly more
+    difficult to date precisely.
+current_location: Bardo National Museum, Tunis
+find_context:
+  site: Carthage — exact ancient deposit site uncertain; the fragment was recovered in 19th-century excavation work in the city precincts
+  circumstances: >
+    Recovered in 19th-century excavation; the precise findspot within
+    the Carthaginian sacred precinct is not documented to modern
+    archaeological standards. The fragment is internally identifiable
+    as a sacrificial tariff parallel to the Marseille Tariff in
+    structure and vocabulary.
+dating_method: paleographic
+languages:
+  - punic
+interpretation_status: attested
+principal_sources:
+  - cis
+  - kai
+referenced_themes:
+  - punic-religion
+  - punic-inscriptional-record
+  - the-tophet-question
+summary_short: >
+  A fragmentary 3rd-century BCE Punic-language tariff inscription from
+  Carthage, parallel in structure to the more fully preserved Marseille
+  Tariff. Confirms that the systematic priest-and-dedicator sacrificial
+  economy documented at Marseille was the practice at Carthage itself.
+summary: >
+  The Carthage Tariff (KAI 74) is a fragmentary Punic-language
+  inscription recovered from Carthage that preserves a portion of a
+  sacrificial price-list and division-of-offerings text, parallel in
+  structure and vocabulary to the more extensively preserved
+  Marseille Tariff. The Carthage fragment is smaller and more
+  damaged than the Marseille text — only a few categories of
+  offering and a portion of the price-list are clearly readable —
+  but the parallel is close enough that the Marseille Tariff is
+  read against it as evidence for a shared Carthaginian-and-western-
+  Punic sacrificial-administration tradition.
+
+  The fragment's principal evidentiary contribution is to confirm
+  that the kind of systematic, economically organized priest-and-
+  dedicator sacrificial cult documented in the Marseille Tariff was
+  the actual practice at Carthage itself, not a Massalian-Phoenician
+  local development or a re-deposited Carthaginian original
+  representing something other than metropolitan Punic religion.
+  The Carthaginian sacred precincts ran a systematic temple
+  economy with priestly cuts of sacrificed animals, dedicator-side
+  returns, sliding-scale prices, and codified penalty clauses for
+  malpractice — the same kind of cult administration any
+  late-classical or Hellenistic Mediterranean city would have run.
+
+  The fragment is referenced alongside the Marseille Tariff in
+  treatments of Punic religion that argue against the "exceptional
+  Carthaginian religion" framing the hostile Greco-Roman tradition
+  encourages: at the level of routine civic-temple practice,
+  Carthage looks like a Mediterranean city, not like a site of
+  uniquely shocking ritual. The *molk* offering at the Tophet — if
+  it was sacrificial — was either a separate category that the
+  tariff inscriptions chose not to address or a practice limited to
+  the Tophet precinct and not part of the broader temple economy.
+  Either way, the tariff inscriptions are the evidence that the
+  bulk of Carthaginian sacrificial practice was ordinary.

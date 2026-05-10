@@ -154,6 +154,25 @@ that response involved the deliberate killing of children remains
 unresolved, and that any answer that takes one side of the modern
 disagreement as settled is ahead of the evidence.
 
+## The tariffs and the question of "ordinary" Punic sacrifice
+
+The Marseille Tariff (KAI 69) and the fragmentary Carthage Tariff
+(KAI 74) document the kind of routine sacrificial cult that ran in
+Punic temples: systematic price-lists for ox, ram, ewe, kid, lamb,
+and bird offerings; specified cuts to the officiating priests and
+returns to the dedicators; provisions for poor donors and penalty
+clauses for priestly malpractice. The vocabulary is ordinary
+Mediterranean ritual vocabulary; human offerings do not appear. The
+tariffs are direct evidence that the bulk of Carthaginian
+sacrificial practice was unremarkable temple economy of the kind
+any late-classical Mediterranean city would have run. Whether the
+Tophet *molk* offering was a separate category outside the tariffs'
+scope or a practice limited to the Tophet precinct, the tariffs
+establish that "Carthaginian sacrifice" cannot be reduced to what
+happened at the Tophet. The broader treatment of Carthaginian
+inscriptional evidence as a category lives at the
+[Punic inscriptional record theme](/themes/punic-inscriptional-record).
+
 ## Editorial position
 
 The site takes a narrow position rather than declining to take one. The

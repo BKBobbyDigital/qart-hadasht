@@ -1,0 +1,49 @@
+slug: cis
+title: Corpus Inscriptionum Semiticarum
+author: Académie des Inscriptions et Belles-Lettres (Renan, Berger, Halévy, and successors)
+type: inscription
+is_primary: true
+language: phoenician
+date_composed:
+  value: 1881
+  precision: year
+  notes: >
+    Publication began in 1881 and continued in successive fascicles through
+    the 20th century. The Phoenician-Punic material is concentrated in Part I.
+bias_notes: >
+  The corpus is a 19th- and 20th-century scholarly edition; the underlying
+  inscriptions are primary Phoenician-Punic evidence. Editorial conventions
+  reflect the philological methods of the period: text restorations,
+  drawings, and translations are scholarly judgments and have been
+  reassessed in successor publications (KAI, individual site-corpus
+  studies). The corpus is comprehensive for its publication date but
+  inscriptions discovered after the relevant fascicle's release appear in
+  later editions or in independent publication only.
+summary: >
+  The principal 19th-century scholarly corpus of Northwest Semitic
+  inscriptions, founded by Ernest Renan in 1867 and published by the Académie
+  des Inscriptions et Belles-Lettres in Paris from 1881 forward. Part I
+  collects Phoenician and Punic inscriptions; the Carthaginian, Punic
+  Sicilian, Sardinian, and Iberian material constitutes the bulk of the
+  Phoenician-Punic record as published before the early 20th century.
+
+  When the encyclopedia cites "CIS I 5510" or similar, it is citing a
+  specific Phoenician-Punic inscription as published in the corpus. The
+  underlying object is the primary evidence — a stele, a sarcophagus, a
+  bronze plaque, a votive object — but the corpus is the standard published
+  reference through which the inscription is identified, transcribed, and
+  numbered in modern scholarship. The 6,000+ Phoenician-Punic inscriptions
+  collected in CIS Part I together constitute the single largest body of
+  surviving Carthaginian self-representation: votive dedications to Baal
+  Hammon and Tanit (the bulk of the Carthage Tophet corpus), funerary
+  epitaphs, civic dedications, commercial and ritual texts, theophoric
+  personal names. The corpus is the foundation that makes the modern
+  reconstruction of Punic religion, social structure, and onomastic practice
+  possible at all; everything the inscriptional record carries that the
+  Greco-Roman literary record does not begins here.
+
+  CIS has been substantially supplemented and partly superseded by Donner
+  and Röllig's KAI for the most cited inscriptions, and by site-specific
+  corpora for individual collections (Maktar, Constantine, Sulci, Tharros).
+  But for the bulk of the Carthaginian Tophet stelae, CIS remains the
+  principal published reference.

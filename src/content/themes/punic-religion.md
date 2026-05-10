@@ -174,5 +174,10 @@ relevant chapters of Hoyos's *The Carthaginians* (2010). Krings's
 *La civilisation phénicienne et punique* handbook provides the deepest
 specialist coverage; Sznycer's chapter in Nicolet 1978 is essential for
 the inscriptions. The major epigraphic corpora are the *CIS* (*Corpus
-Inscriptionum Semiticarum*) and Donner & Röllig's *KAI*. For the wider
-Phoenician background, Aubet 2001 is the standard reference.
+Inscriptionum Semiticarum*) and Donner & Röllig's *KAI* — the site
+treats the inscriptional corpus as a primary evidence category in its
+own right under the
+[Punic inscriptional record theme](/themes/punic-inscriptional-record),
+which surveys what the corpus contains and what it tells us that the
+literary tradition does not. For the wider Phoenician background,
+Aubet 2001 is the standard reference.

@@ -1,0 +1,105 @@
+slug: marseille-tariff
+name_display: Marseille Tariff
+name_alt:
+  punic: tariff inscription of the priests of the temple of Baal Saphon
+  greek: not preserved
+  latin: tarifa sacrificiorum Massiliensis (modern Latin conventional name)
+type: inscription
+material: limestone
+dimensions: surviving fragments together approximately 1 m × 0.5 m
+date_made:
+  value: -325
+  precision: century
+  circa: true
+  notes: >
+    Conventional dating to the late 4th or early 3rd century BCE on
+    paleographic grounds. The inscription is plausibly a Carthaginian
+    original re-deposited at Marseille rather than a locally produced
+    Punic text, but the question is contested.
+current_location: Musée d'Archéologie Méditerranéenne, Marseille (principal fragments). Found in 1844–1845 during construction in Marseille; brought to scholarly attention by Judas (1847) and Movers (1850). The exact original deposition context is unknown.
+find_context:
+  site: Marseille — exact ancient deposit site unknown; the inscription was reused as building material and recovered during 19th-century construction work
+  circumstances: >
+    Recovered as worked stone in a 19th-century construction context.
+    The deposition site (a Phoenician sanctuary at Massalia / Marseille?
+    a re-imported Carthaginian original? a Punic sanctuary elsewhere?)
+    is not securely identified. The inscription itself is internally
+    self-evident as Punic priestly material; the find-context question
+    is about where it had been before reuse.
+dating_method: paleographic
+languages:
+  - punic
+interpretation_status: attested
+principal_sources:
+  - cis
+  - kai
+referenced_themes:
+  - punic-religion
+  - punic-inscriptional-record
+  - the-tophet-question
+summary_short: >
+  A late 4th- or early 3rd-century BCE Punic-language tariff inscription
+  listing prices for different categories of sacrificial offering and
+  specifying the cuts that go to officiating priests versus those that
+  return to the dedicators. The single most informative surviving
+  Phoenician-Punic text on actual sacrificial practice.
+summary: >
+  The Marseille Tariff is a long Punic-language inscription, surviving
+  in fragmentary condition, that lists the prices for different
+  sacrificial animals and specifies how the offering is divided
+  between the priest and the dedicator. The text published as KAI 69
+  is the most extensively preserved of the surviving Phoenician-Punic
+  "tariff" inscriptions and the single most directly informative text
+  on actual Punic sacrificial practice — the closest surviving
+  approach to a priest-side ritual handbook.
+
+  The structure is systematic. For each animal category — ox, calf,
+  ram, ewe, kid, lamb, bird, low-status bird, oil-cake or grain
+  offering — the text gives a price (in shekels or fractions of a
+  shekel), specifies whether the offering is a *kll* (whole burnt
+  offering), a *ṣwʿt* (a category whose exact ritual content is
+  contested), or a *šlm kll* (a "whole peace-offering"), and lists
+  the specific cuts of the carcass that the priests receive and
+  those that return to the dedicator. The vocabulary of cuts is
+  detailed: skin, fat, certain internal organs, specific weight
+  portions of the haunches, etc. The text concludes with provisions
+  for poor dedicators (reduced prices), penalty clauses for
+  priestly malpractice, and references to the temple's governing
+  body.
+
+  The Marseille Tariff is directly relevant to the Tophet question.
+  The animals listed — ox, ram, ewe, kid, lamb, bird — are ordinary
+  domesticated sacrificial animals; the categories of offering are
+  ordinary Mediterranean ritual categories (whole-burnt, peace-
+  offering, etc.); the priest-and-dedicator division is ordinary
+  ancient-Mediterranean temple economy. Human sacrifice does not
+  appear in the tariff. What the tariff documents is a normal,
+  systematic, economically organized Punic sacrificial cult of
+  exactly the kind one would expect to see across the Punic-
+  cultural world. The presence of this kind of ordinary sacrificial
+  practice does not establish that Tophet *molk* practice was
+  identical to or different from it — the *molk* offering may have
+  been a separate category not covered by the tariff — but it does
+  document the unremarkable, well-organized civic cult against
+  which any reading of the Tophet evidence has to be calibrated.
+
+  The provenance of the inscription is itself a source-criticism
+  question. The stone was recovered in 19th-century Marseille
+  construction work in a reused context — i.e., the inscription
+  had been broken up and used as building material by the time it
+  was found. The original deposition context is unknown. Three
+  readings: (a) the inscription was a Phoenician sanctuary tariff
+  from Massalia / Marseille itself, indicating a Punic religious
+  presence at that Greek colony deeper than the literary record
+  attests; (b) the inscription was carried from Carthage to
+  Marseille at some point — possibly in late antiquity, possibly
+  in the medieval period as exotic stone — and re-deposited there;
+  (c) the inscription originated at some other western Phoenician
+  site and arrived at Marseille through indirect transmission. The
+  internal language is Punic and the specific deity named (Baal
+  Saphon, the storm-god of the Phoenician-homeland tradition with
+  attested cult at Carthage and in the colonial network) is
+  consistent with any of the three readings. The provenance
+  question affects the inscription's evidentiary use for any
+  specific site but does not affect its general informativeness
+  for Punic sacrificial practice.
