@@ -1,0 +1,49 @@
+slug: barcid-iberia-silver-funded-spw
+statement: >
+  Iberian silver was the principal financial basis of the
+  Second Punic War. The southeastern silver mines (concentrated
+  in the Sierra Morena and the area around Carthago Nova)
+  produced sufficient revenue under Barcid management to fund
+  the Carthaginian war effort from 237 to 202 BCE without the
+  fiscal collapse that the First Punic War's indemnity demands
+  had produced. The Iberian silver also financed Carthage's
+  payment of the post-Zama indemnity ahead of schedule across
+  the 190s BCE.
+confidence: attested
+scholarly_consensus: >
+  The general claim — that Iberian silver was the financial
+  basis of the SPW — is the consensus modern reading. Specific
+  production figures for the Barcid period are not available
+  in the ancient sources; modern numismatic and archaeological
+  estimates are based on later Roman-period evidence (Diodorus,
+  Strabo) and on indirect inference from Carthaginian coinage
+  output.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.13"
+    passage_summary: >
+      Polybius treats the Iberian project as the financial
+      basis of subsequent Carthaginian operations, though
+      without specific production figures.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos integrates the financial mechanism with the
+      strategic logic of the Barcid Iberian project.
+  - source: macdonald-hannibal-2015
+    stance: supports
+    passage_summary: >
+      MacDonald's biography treats the silver economy as
+      the structural precondition of Hannibal's Italian
+      campaign.
+entities:
+  - type: event
+    slug: hamilcars-iberian-conquest
+    role: subject
+  - type: event
+    slug: hasdrubal-the-fairs-command
+    role: subject
+  - type: theme
+    slug: carthaginian-economy
+    role: context

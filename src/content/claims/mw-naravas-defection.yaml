@@ -1,0 +1,41 @@
+slug: mw-naravas-defection
+statement: >
+  The defection of Naravas, a Numidian Massylian commander, to
+  the Carthaginian side in 239 BCE was a turning point of the
+  war. Naravas brought 2,000 Numidian cavalry — the troops
+  Hamilcar most needed for hinterland operations — and a
+  marriage alliance with Hamilcar's daughter consolidated the
+  defection. The cavalry advantage was a precondition of the
+  later envelopment at the Saw.
+confidence: attested
+scholarly_consensus: >
+  The defection and its terms are firmly attested in Polybius
+  and broadly accepted. The marriage alliance is a Polybian
+  detail, sometimes questioned in older scholarship as a
+  Roman-tradition romanticization, but is generally accepted
+  in current Hoyos-school treatments.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.78"
+    passage_summary: >
+      Polybius narrates the defection in detail: Naravas's
+      arrival in person at the Carthaginian camp, the
+      negotiation with Hamilcar, the marriage offer, and the
+      transfer of the 2,000 cavalry contingent.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the defection's strategic and political
+      significance, including its place in the long-term
+      pattern of Carthaginian-Numidian alliance politics.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject
+  - type: person
+    slug: naravas
+    role: subject
+  - type: person
+    slug: hamilcar-barca
+    role: subject

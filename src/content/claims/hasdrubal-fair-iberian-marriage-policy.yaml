@@ -1,0 +1,45 @@
+slug: hasdrubal-fair-iberian-marriage-policy
+statement: >
+  Hasdrubal the Fair's distinctive contribution to the Barcid
+  Iberian project was its diplomatic-dynastic consolidation:
+  where Hamilcar had favored military conquest, Hasdrubal
+  married an Iberian princess himself, sponsored marriages of
+  Carthaginian elite figures into Iberian aristocracy, and
+  built an alliance network that integrated Carthaginian
+  authority with local Iberian elites. The integration was
+  both the political method and the political legacy of his
+  command.
+confidence: attested
+scholarly_consensus: >
+  The general policy is firmly attested. Specific marriages
+  beyond Hasdrubal's own are imperfectly attested, but the
+  pattern of marriage-alliance integration is consistent
+  across Polybius, Livy, and the Diodorus tradition.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "2.36, 3.13"
+    passage_summary: >
+      Polybius treats the diplomatic-marriage approach as a
+      distinguishing feature of Hasdrubal's command and
+      contrasts it with Hamilcar's military approach.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.2"
+    passage_summary: >
+      Livy's account of Hasdrubal preserves the marriage
+      narrative with additional detail.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos integrates the marriage policy with the broader
+      Iberian alliance network and treats it as the
+      structural foundation of Carthaginian authority during
+      the SPW.
+entities:
+  - type: person
+    slug: hasdrubal-the-fair
+    role: subject
+  - type: event
+    slug: hasdrubal-the-fairs-command
+    role: subject

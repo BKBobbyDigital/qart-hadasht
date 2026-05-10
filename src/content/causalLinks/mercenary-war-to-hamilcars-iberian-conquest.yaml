@@ -1,0 +1,51 @@
+slug: mercenary-war-to-hamilcars-iberian-conquest
+cause: mercenary-war
+effect: hamilcars-iberian-conquest
+relation: produced the political authority for
+confidence: attested
+mechanism: |
+  Hamilcar Barca's command and conduct of the Mercenary War
+  produced the Carthaginian political authority that authorized
+  the Iberian project in 237 BCE — over the parallel
+  senatorial coalition under Hanno the Great that opposed it.
+  The mechanism is twofold:
+
+  1. **Military reputation:** Hamilcar's recovery from the
+     post-Hanno-the-Great phase of the war, the Bagradas
+     manoeuvre, the alliance with Naravas, and the Saw
+     envelopment cumulatively produced a record that no
+     surviving Carthaginian commander of the generation could
+     match. This reputation was the indispensable political
+     capital of the Iberian authorization.
+
+  2. **Demonstrated indispensability:** the war's near-loss of
+     Carthage in its early phase, and its successful
+     resolution under Hamilcar specifically, made the
+     senatorial position that Hamilcar's political project
+     should be checked extremely difficult to maintain. The
+     Iberian command was authorized despite Hanno's
+     opposition.
+
+  The causal connection is direct, attested across Polybius
+  and the modern scholarship, and is the standard reading.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.88, 2.1"
+    passage_summary: >
+      Polybius narrates the post-war political settlement and
+      the authorization of the Iberian command as direct
+      consequences of Hamilcar's military reputation in the
+      Mercenary War.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos's monograph on the Mercenary War includes
+      extended analysis of the post-war political
+      settlement and the Iberian authorization.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's biographical treatment of Hannibal traces the
+      Iberian project's authorization to Hamilcar's Mercenary
+      War record.

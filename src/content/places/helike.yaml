@@ -1,0 +1,41 @@
+slug: helike
+name_display: Helike
+names_alt:
+  greek: Ἑλίκη
+  latin: Helice
+type: city
+candidates:
+  - label: Elche de la Sierra (Albacete, Spain) — interior Vettonian/Oretanian zone
+    lat: 38.4500
+    lon: -2.0500
+    confidence: possible
+    notes: >
+      The most-cited modern candidate. The interior location is
+      consistent with the surviving narrative that Hamilcar's
+      drowning followed a withdrawal from a Vettonian or
+      Oretanian ambush in the upper-Tagus or upper-Segura zone.
+  - label: Elche (Alicante, Spain) — coastal Bastetanian zone
+    lat: 38.2667
+    lon: -0.7000
+    confidence: possible
+    notes: >
+      A second-place candidate in older scholarship. Less
+      consistent with the river-drowning narrative since the
+      coastal location does not match the surviving terrain
+      detail in the sources.
+modern_location: Likely Albacete-region interior Spain; precise identification contested
+summary: >
+  An Iberian town in the interior of southeastern Spain, the
+  reported site of the engagement in 228 BCE in which Hamilcar
+  Barca was killed during a withdrawal from a Vettonian or
+  Oretanian ambush. The surviving accounts (Diodorus, Justin,
+  later Roman tradition) describe Hamilcar leading a relief
+  column toward Helike to lift a Vettonian siege; the
+  Vettonians ambushed the column with cattle-driven fire-carts,
+  and Hamilcar drowned during the retreat across an unnamed
+  river. The town's exact identification is contested in modern
+  scholarship; Elche de la Sierra (interior Albacete) is the
+  most commonly cited candidate, though coastal Elche has its
+  defenders. The site's importance is as the location of the
+  end of the first Barcid commander in Iberia and the
+  succession crisis that brought Hasdrubal the Fair to command.

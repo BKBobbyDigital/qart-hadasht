@@ -41,6 +41,14 @@ related_events:
       ratification, denied Carthage the cash flow to settle the
       mercenary back pay promptly. The fiscal pressure was the
       proximate cause of the revolt.
+  - event: mutiny-at-sicca
+    relation: opening event (the trigger mutiny, late 241 BCE)
+  - event: battle-of-bagradas-238
+    relation: turning-point engagement (mid 240 BCE)
+  - event: battle-of-the-saw
+    relation: climactic engagement (late 238 BCE)
+  - event: sardinian-seizure
+    relation: concurrent Roman opportunism (238 BCE)
 summary: >
   Carthaginian existential crisis of 241-237 BCE, fought between the
   Carthaginian state and a coalition of mercenary armies (recovered

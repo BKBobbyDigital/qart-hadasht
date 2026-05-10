@@ -1,0 +1,43 @@
+slug: mw-libyan-adherence-tribute
+statement: >
+  Libyan rural communities adhered to the rebellion in
+  substantial numbers, transforming what began as a
+  mercenary mutiny into a general anti-Carthaginian rising.
+  The Libyan grievance was the tribute and military levy
+  regime: rural Libyan villages supplied substantial portions
+  of their grain harvest and a regular contingent of
+  conscript troops to Carthage as a non-negotiable condition
+  of inhabiting the hinterland. Polybius reports that some
+  70,000 Libyan men joined the revolt in its peak phase.
+confidence: attested
+scholarly_consensus: >
+  The Libyan adherence and the underlying tribute mechanism
+  are firmly attested. The 70,000 figure is Polybius's, has
+  the standard ancient-numbers caveat, but is the only
+  surviving estimate and is broadly accepted as an order of
+  magnitude. The structural reading — that the war revealed
+  the Carthaginian state's dependence on a coerced rural
+  Libyan economy that could revolt under stress — is the
+  consensus modern interpretation.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.71-72"
+    passage_summary: >
+      Polybius narrates the Libyan adherence as a separate
+      structural development from the original mercenary
+      mutiny, and treats the tribute and conscription regime
+      as the mechanism by which it became general.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the Libyan rural economy, the tribute
+      mechanism, and the structural conditions that made
+      the rebellion's adherence pattern possible.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject
+  - type: theme
+    slug: carthaginian-economy
+    role: context

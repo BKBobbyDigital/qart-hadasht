@@ -1,0 +1,48 @@
+slug: founding-of-carthago-nova
+name: Founding of Carthago Nova
+type: founding
+date_start:
+  value: -228
+  precision: year
+  circa: true
+  notes: >
+    Founded c. 228–227 BCE under Hasdrubal the Fair. Polybius
+    treats it as one of his first major acts on assuming the
+    Iberian command.
+place: carthago-nova
+participants:
+  - person: hasdrubal-the-fair
+    role: founder (ordered the foundation)
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+referenced_themes:
+  - carthaginian-economy
+  - carthaginian-seafaring-and-trade
+related_events:
+  - event: hasdrubal-the-fairs-command
+    relation: opening project of (the foundational act of his command)
+    notes: >
+      Hasdrubal the Fair's first major act on assuming the
+      Iberian command was the foundation of a new Carthaginian
+      capital on the southeastern Iberian coast.
+summary: >
+  Hasdrubal the Fair's foundation of a new Carthaginian
+  capital on the southeastern Iberian coast at modern
+  Cartagena, c. 228–227 BCE. The site combined three
+  strategic advantages that no existing Carthaginian Iberian
+  base offered: an excellent natural harbor (a near-circular
+  protected bay with a defensible peninsular approach); a
+  fortified high acropolis usable as both palace and citadel;
+  and immediate proximity to the southeastern silver mines
+  whose revenue would fund the Barcid project for the next
+  two decades. The new city's name — *Qart-Hadasht*, the same
+  Punic phrase as the metropolitan Carthage — explicitly
+  reframed the Iberian project as the establishment of a
+  second Carthage in the western Mediterranean. The Roman
+  reading "Carthago Nova" (New Carthage) is the version
+  preserved in Polybius and Livy. The city served as the
+  principal Carthaginian Iberian capital and naval base
+  until its capture by Scipio Africanus in 209 BCE.

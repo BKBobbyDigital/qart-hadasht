@@ -1,0 +1,72 @@
+slug: ebro-treaty-saguntum-question-contested
+statement: >
+  Whether the Ebro Treaty of 226 BCE specifically excluded
+  Saguntum from the Carthaginian sphere — or merely set the
+  Ebro as the northern operational limit, with Saguntum's
+  Roman-allied status implicit but unmentioned — is the central
+  contested diplomatic question of the inter-war period. The
+  question matters because the answer determines whether
+  Hannibal's siege of Saguntum in 219 BCE was a treaty
+  violation or a permitted operation south of the Ebro that
+  Rome chose to escalate.
+confidence: contested
+scholarly_consensus: >
+  The question is genuinely contested in the ancient sources
+  and in modern scholarship. Polybius's account (3.30) suggests
+  that the Saguntum question was addressed in the treaty, with
+  Saguntine immunity preserved; Livy's account (21.2) treats
+  Saguntine immunity as a separate, prior agreement. Modern
+  scholarship divides between Hoyos's reading (no treaty
+  protection for Saguntum, Roman casus belli construction
+  retrospective) and a broadly Polybian reading that does
+  recognize treaty protection.
+dispute_summary: |
+  The contestation has three layers:
+
+  1. **Source contradiction:** Polybius and Livy give different
+     accounts of how Saguntine immunity related to the Ebro
+     Treaty.
+  2. **Modern scholarly division:** Hoyos's *Unplanned Wars*
+     (1998) argues for the no-treaty-protection reading; older
+     and some current scholarship maintains that Saguntine
+     status was specifically addressed.
+  3. **The strategic question of how Rome constructed a casus
+     belli** if no specific treaty violation occurred — is the
+     question the sources are grappling with.
+sources:
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "3.30"
+    passage_summary: >
+      Polybius treats the Ebro Treaty and Saguntine immunity
+      as connected provisions; the connection is explicit but
+      the precise legal mechanism is not specified.
+  - source: livy-auc
+    stance: contradicts
+    passage_ref: "21.2"
+    passage_summary: >
+      Livy treats Saguntine immunity as a separate prior
+      agreement, distinct from the Ebro Treaty.
+  - source: hoyos-unplanned-wars-1998
+    stance: contradicts
+    passage_summary: >
+      Hoyos argues that the Saguntum question was not
+      addressed in the Ebro Treaty and that the Roman
+      construction of casus belli in 218 BCE was largely
+      retrospective.
+  - source: hoyos-hannibal-2003
+    stance: qualifies
+    passage_summary: >
+      Hoyos's later biographical treatment of Hannibal
+      provides additional analysis of the diplomatic
+      sequence.
+entities:
+  - type: event
+    slug: ebro-treaty
+    role: subject
+  - type: event
+    slug: siege-of-saguntum
+    role: subject
+  - type: event
+    slug: second-punic-war
+    role: context

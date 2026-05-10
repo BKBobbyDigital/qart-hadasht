@@ -1,0 +1,50 @@
+slug: death-of-hamilcar-at-helike
+name: Death of Hamilcar at Helike
+type: battle
+date_start:
+  value: -228
+  precision: year
+  notes: Winter 229/228 BCE, in the field operations of the Iberian campaign.
+place: helike
+participants:
+  - person: hamilcar-barca
+    role: commander (killed in action)
+    side: Carthaginian
+  - person: hannibal-barca
+    role: junior officer (aged 19; present)
+    side: Carthaginian
+  - person: hasdrubal-barca
+    role: junior officer (Hannibal's brother; present)
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: hamilcars-iberian-conquest
+    relation: terminating event
+    notes: >
+      The engagement that ended Hamilcar's nine-year Iberian
+      command and triggered the succession to Hasdrubal the
+      Fair.
+summary: >
+  The engagement that ended the first phase of the Barcid
+  Iberian project and triggered the command succession to
+  Hasdrubal the Fair. Hamilcar Barca, conducting a winter
+  relief operation against the Vettonian or Oretanian siege of
+  the Iberian town of Helike, walked into a stratagem
+  Polybius and the later tradition both describe as
+  characteristically Iberian: cattle-driven fire-carts —
+  oxen yoked to flaming wagons — driven into the Carthaginian
+  formation to break order, followed by Vettonian assault.
+  Hamilcar's withdrawal across an unnamed river ended in his
+  drowning, possibly while drawing pursuit away from his sons
+  Hannibal (then 19) and Hasdrubal (younger). Polybius
+  treats the death as the definitive close of Hamilcar's
+  Iberian command. Command in Iberia passed to Hasdrubal the
+  Fair (Hamilcar's son-in-law and senior lieutenant);
+  Hannibal would not assume command until Hasdrubal's
+  assassination seven years later. The exact location of
+  Helike is contested in modern scholarship.

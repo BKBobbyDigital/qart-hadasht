@@ -1,0 +1,59 @@
+slug: ebro-treaty
+name: The Ebro Treaty
+type: treaty
+date_start:
+  value: -226
+  precision: year
+  notes: >
+    Negotiated 226 BCE between Hasdrubal the Fair and a Roman
+    diplomatic mission. Signed at or near Carthago Nova.
+place: iberia
+participants:
+  - person: hasdrubal-the-fair
+    role: Carthaginian negotiator
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+  - hoyos-unplanned-wars-1998
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: hasdrubal-the-fairs-command
+    relation: principal diplomatic event of (Hasdrubal's command)
+    notes: >
+      The treaty was the principal diplomatic act of
+      Hasdrubal's seven-year Iberian command and the central
+      Roman-Carthaginian agreement of the inter-war period.
+  - event: siege-of-saguntum
+    relation: contested precondition for (the agreement whose interpretation produced the SPW)
+    notes: >
+      The Ebro Treaty's silence or otherwise on Saguntum's
+      status was the diplomatic question that the Saguntum
+      crisis would force in 219 BCE.
+summary: >
+  The principal Roman-Carthaginian agreement of the inter-war
+  period, negotiated in 226 BCE between Hasdrubal the Fair
+  and a Roman diplomatic mission concerned about the
+  expanding Carthaginian Iberian project. The treaty's
+  central provision is firmly attested in Polybius:
+  Carthaginian armed operations were not to cross the Ebro
+  river. The agreement effectively recognized Carthaginian
+  control of the Iberian peninsula south of the river while
+  reserving the territory north of it as a Roman sphere of
+  interest.
+
+  The treaty's terms beyond this central provision are
+  imperfectly preserved. The most consequential interpretive
+  question — whether the agreement specifically excluded
+  Saguntum (a Roman ally located south of the Ebro) from
+  the Carthaginian sphere — became the central diplomatic
+  question of the decade leading to the Second Punic War.
+  Polybius's account suggests the Saguntum question was
+  addressed; Roman tradition (Livy) emphasizes Saguntine
+  immunity as a separate prior agreement; the modern
+  scholarly literature treats the question as genuinely
+  contested. Hannibal's siege of Saguntum in 219 BCE forced
+  the question and produced Roman declaration of war in
+  spring 218 BCE.

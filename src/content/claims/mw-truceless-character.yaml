@@ -1,0 +1,39 @@
+slug: mw-truceless-character
+statement: >
+  Polybius's term *aspondos polemos* — "truceless war" — is the
+  basis for the war's modern English name and reflects his
+  view that the conflict's brutality was unusual even by the
+  ancient standard. The systematic use of mutilation, ritualized
+  execution, and reciprocal atrocity by both sides distinguished
+  this war from the contemporary First Punic War or any of
+  Polybius's other narrative subjects. The torture-execution of
+  the Carthaginian envoy Gisco by Spendius and Autaritus, and
+  the crucifixion of Spendius and Autaritus by Hamilcar, are
+  the paired episodes Polybius treats as exemplary.
+confidence: attested
+scholarly_consensus: >
+  Polybius's framing is the foundational source and is broadly
+  accepted in modern scholarship. The structural reading — that
+  the war's brutality reflected the dehumanized status of
+  mercenaries and Libyan rural subjects in the Carthaginian
+  political imagination, and the corresponding Carthaginian
+  status in the rebels' — is Hoyos's principal contribution.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.65, 1.81-85"
+    passage_summary: >
+      Polybius opens his account with the explicit framing of
+      the war as exceptional in its character, and narrates
+      the Gisco execution and the Spendius-Autaritus crucifixion
+      as the paired set-piece episodes that demonstrate this.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos integrates the brutality with structural conditions
+      and treats Polybius's framing as the definitive ancient
+      account.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject

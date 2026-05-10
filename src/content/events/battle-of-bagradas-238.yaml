@@ -1,0 +1,46 @@
+slug: battle-of-bagradas-238
+name: Battle of the Bagradas River (240 BCE)
+type: battle
+date_start:
+  value: -240
+  precision: year
+  notes: Mid 240 BCE, soon after Hamilcar's transfer from Hanno the Great to overall command.
+place: bagradas-river
+participants:
+  - person: hamilcar-barca
+    role: commander
+    side: Carthaginian
+  - person: spendius
+    role: rebel co-commander
+    side: Mercenary / rebel
+  - person: mathos
+    role: rebel co-commander
+    side: Libyan rebel
+principal_sources:
+  - polybius-histories
+  - hoyos-truceless-war-2007
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: mercenary-war
+    relation: phase of (the engagement that began the Carthaginian recovery)
+summary: >
+  The first major Carthaginian victory of the Mercenary War,
+  and the engagement that established Hamilcar Barca's
+  reputation as the indispensable Carthaginian field
+  commander of his generation. By mid 240 BCE the rebel
+  coalition under Spendius and Mathos had tightened the
+  blockade of Carthage and Utica and held most of the
+  Carthaginian hinterland; Hanno the Great's initial command
+  had produced no meaningful recovery. The transfer of
+  command to Hamilcar — over the senatorial opposition that
+  the Barcid faction would face for the rest of the
+  generation — produced the operation that broke the rebel
+  siege concentration. Hamilcar's force, exploiting
+  unfavorable wind conditions that opened the Bagradas
+  river mouth as a fordable bar, crossed at night to take
+  the rebel siege of Utica from the rear. The engagement
+  forced Spendius's army from the river line and reopened
+  Carthaginian operational mobility in the hinterland. The
+  battle is the strategic turning point of the war's
+  second phase.

@@ -1,0 +1,40 @@
+slug: mw-cause-indemnity-cash-flow
+statement: >
+  The proximate cause of the mercenary mutiny was Carthage's
+  inability to pay accumulated back wages on the army's return
+  from Sicily, a fiscal incapacity that the Lutatius indemnity
+  produced or sharply aggravated. The structural cause was the
+  Libyan tribute and recruitment regime, which gave the Libyan
+  rural population an immediate interest in joining a mercenary
+  revolt against the state.
+confidence: attested
+scholarly_consensus: >
+  The fiscal mechanism is firmly attested in Polybius and is the
+  consensus reading in modern scholarship. Hoyos's monograph
+  treatment is the most extended modern analysis; the
+  proximate-cause-versus-structural-cause distinction is his.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.66-67"
+    passage_summary: >
+      Polybius narrates the post-Sicily settlement crisis, the
+      decision to transfer the army to Sicca, and the Libyan
+      adherence to the revolt as the structural cause of its
+      escalation from mutiny to existential war.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos's full-length treatment integrates the fiscal
+      mechanism with the structural Libyan grievances and the
+      political failures of Hanno the Great's command.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: subject
+  - type: event
+    slug: mutiny-at-sicca
+    role: subject
+  - type: event
+    slug: treaty-of-lutatius
+    role: cause

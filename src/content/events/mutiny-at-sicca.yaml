@@ -1,0 +1,56 @@
+slug: mutiny-at-sicca
+name: Mutiny at Sicca
+type: political
+date_start:
+  value: -241
+  precision: year
+  notes: Late 241 BCE, after the army's transfer from Carthage's outskirts to Sicca Veneria.
+place: sicca
+participants:
+  - person: hanno-the-great
+    role: government commander attempting initial settlement
+    side: Carthaginian
+  - person: spendius
+    role: emerging rebel leader (Campanian deserter from Roman service)
+    side: Mercenary / rebel
+  - person: mathos
+    role: emerging rebel leader (Libyan)
+    side: Libyan rebel
+principal_sources:
+  - polybius-histories
+  - hoyos-truceless-war-2007
+referenced_themes:
+  - carthaginian-economy
+  - slavery-and-labor
+related_events:
+  - event: treaty-of-lutatius
+    relation: enabled by (the indemnity that prevented prompt back-pay settlement)
+    notes: >
+      The Lutatius indemnity stripped Carthage of the cash flow
+      needed to settle the mercenary back pay promptly on the
+      army's return from Sicily. The fiscal pressure created the
+      conditions for the mutiny.
+summary: >
+  The trigger event of the Mercenary War. Hamilcar Barca
+  evacuated the Carthaginian army from Sicily under the
+  Lutatius armistice in 241 BCE; on the army's return to
+  Africa, the Carthaginian government — short of cash from
+  the indemnity payment and unable or unwilling to settle
+  the substantial accumulated back pay — ordered the
+  mercenary contingents transferred from the city's
+  outskirts to Sicca Veneria, an interior Numidian-Libyan
+  town some 175 km southwest of Carthage. The political
+  calculation was that distance would suppress collective
+  bargaining and allow the state to negotiate piecemeal
+  terms with smaller groups. The calculation failed
+  catastrophically: the army at Sicca consolidated its
+  grievances rather than dispersing them, identified
+  charismatic leadership (Spendius the Campanian, a deserter
+  from Roman service who feared extradition; Mathos the
+  Libyan, who feared reprisal for past collective protests),
+  and marched on Carthage from the interior. The Carthaginian
+  envoy Gisco — who had supervised the army's evacuation
+  from Sicily and was trusted by the troops — was sent with
+  back-pay funds; he was seized by the rebels and would
+  later be tortured to death. The mutiny became the
+  Mercenary War.

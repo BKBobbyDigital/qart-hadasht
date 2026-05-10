@@ -21,7 +21,12 @@ principal_sources:
   - hoyos-hannibal-2003
 referenced_themes:
   - carthaginian-economy
-related_events: []
+related_events:
+  - event: death-of-hamilcar-at-helike
+    relation: terminating event (228 BCE)
+    notes: >
+      Hamilcar's death in the Vettonian/Oretanian ambush ended
+      the first phase of the Barcid Iberian project.
 summary: >
   Hamilcar Barca's nine-year campaign of Iberian conquest from
   237 to 228 BCE, the project that transformed the Carthaginian

@@ -30,6 +30,12 @@ related_events:
       the natural successor to the Iberian command on
       Hamilcar's death in 228 BCE. His seven-year command
       consolidated and extended what Hamilcar had begun.
+  - event: founding-of-carthago-nova
+    relation: opening project of (c. 228–227 BCE)
+  - event: ebro-treaty
+    relation: principal diplomatic event of (226 BCE)
+  - event: assassination-of-hasdrubal-the-fair
+    relation: terminating event (221 BCE)
 referenced_themes:
   - carthaginian-economy
 summary: >

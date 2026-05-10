@@ -1,0 +1,48 @@
+slug: battle-of-the-saw
+name: The Saw (Battle of the Defile)
+type: siege
+date_start:
+  value: -238
+  precision: year
+  notes: Late 238 BCE; the climactic engagement that destroyed Spendius's army.
+place: bagradas-river
+participants:
+  - person: hamilcar-barca
+    role: commander
+    side: Carthaginian
+  - person: naravas
+    role: cavalry commander (Numidian ally)
+    side: Carthaginian
+  - person: spendius
+    role: rebel commander (army destroyed and Spendius captured)
+    side: Mercenary / rebel
+  - person: autaritus
+    role: rebel sub-commander (Gallic contingent leader)
+    side: Mercenary / rebel
+principal_sources:
+  - polybius-histories
+  - hoyos-truceless-war-2007
+referenced_themes:
+  - carthaginian-economy
+related_events:
+  - event: mercenary-war
+    relation: climactic phase of (the engagement that destroyed Spendius's principal army)
+summary: >
+  The climactic engagement of the Mercenary War: a strategic
+  envelopment in which Hamilcar Barca, exploiting Naravas's
+  Numidian cavalry advantage, manoeuvred Spendius's principal
+  rebel army into a constricted defile in the broken country
+  of the Carthaginian hinterland. The terrain — Polybius
+  describes it under the name "the Saw" (*prion*) for the
+  serrated ridge profile — prevented rebel breakout and
+  starved the trapped army for some weeks. The reduction of
+  Spendius's force followed a sequence Polybius treats as
+  exemplary of the war's character: cannibalism among the
+  besieged; Spendius's attempt at parley resulting in his
+  seizure and execution; reciprocal atrocity by both sides.
+  The destruction of the Saw army eliminated the principal
+  rebel field force and reduced the conflict's remainder to
+  Mathos's defeated rear-guard operations and the suppression
+  of the Libyan-rural-rebellion phase of the war. The
+  engagement marks the decisive Carthaginian recovery and the
+  prelude to the war's conclusion in 237 BCE.
