@@ -1,25 +1,71 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { getCollection } from 'astro:content';
 
 const places = (await getCollection('places')).sort(
   (a, b) => a.data.name_display.localeCompare(b.data.name_display)
 );
+
+// Reverse-lookup event count per place
+const allEvents = await getCollection('events');
+const eventsByPlace = new Map<string, number>();
+for (const e of allEvents) {
+  const ids = new Set<string>();
+  if (e.data.place?.id) ids.add(e.data.place.id);
+  for (const p of e.data.places ?? []) ids.add(p.id);
+  for (const id of ids) eventsByPlace.set(id, (eventsByPlace.get(id) ?? 0) + 1);
+}
 ---
 
 <BaseLayout title="Places">
-  <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="font-serif text-4xl mb-6">Places</h1>
-    <ul class="grid sm:grid-cols-2 gap-3">
-      {places.map((p) => (
-        <li>
-          <a href={`/places/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
-            <h2 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h2>
-            <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{p.data.type}</p>
-            {p.data.modern_location && <p class="text-sm text-sand-700 mt-1">{p.data.modern_location}</p>}
-          </a>
-        </li>
-      ))}
-    </ul>
+  <div class="max-w-4xl mx-auto px-6 py-12" data-view-container>
+    <div class="flex items-baseline justify-between gap-4 mb-6">
+      <h1 class="font-serif text-4xl">Places</h1>
+      <IndexViewToggle />
+    </div>
+
+    <div data-view-cards>
+      <ul class="grid sm:grid-cols-2 gap-3">
+        {places.map((p) => (
+          <li>
+            <a href={`/places/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+              <h2 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h2>
+              <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{p.data.type}</p>
+              {p.data.modern_location && <p class="text-sm text-sand-700 mt-1">{p.data.modern_location}</p>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div data-view-table class="overflow-x-auto">
+      <table data-sortable class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b border-sand-300 bg-sand-50">
+            <th data-sort-key="name" data-sort-active="asc" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Name</th>
+            <th data-sort-key="type" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Type</th>
+            <th data-sort-key="modern" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Modern location</th>
+            <th data-sort-key="events" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Events</th>
+          </tr>
+        </thead>
+        <tbody>
+          {places.map((p) => (
+            <tr
+              class="border-b border-sand-200 hover:bg-sand-50"
+              data-sort-name={p.data.name_display}
+              data-sort-type={p.data.type}
+              data-sort-modern={p.data.modern_location ?? ''}
+              data-sort-events={eventsByPlace.get(p.id) ?? 0}
+            >
+              <td class="px-3 py-2"><a href={`/places/${p.id}`} class="font-serif text-tyrian-700 hover:underline">{p.data.name_display}</a></td>
+              <td class="px-3 py-2 text-sand-900 capitalize">{p.data.type}</td>
+              <td class="px-3 py-2 text-sand-700">{p.data.modern_location ?? ''}</td>
+              <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{eventsByPlace.get(p.id) || ''}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   </div>
 </BaseLayout>

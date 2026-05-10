@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Timeline from '../../components/Timeline.astro';
+import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { getCollection } from 'astro:content';
 
 const allEvents = (await getCollection('events')).sort(
@@ -69,8 +70,11 @@ const typeBadgeStyle = (type: string) => {
 ---
 
 <BaseLayout title="Events">
-  <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="font-serif text-4xl mb-2">Events</h1>
+  <div class="max-w-4xl mx-auto px-6 py-12" data-view-container>
+    <div class="flex items-baseline justify-between gap-4 mb-2">
+      <h1 class="font-serif text-4xl">Events</h1>
+      <IndexViewToggle />
+    </div>
     <p class="text-sand-700 mb-6">
       Listed chronologically. Wars are highlighted with their phase
       events (battles, treaties, sieges) nested below; standalone events
@@ -81,6 +85,7 @@ const typeBadgeStyle = (type: string) => {
     <Timeline />
 
 
+    <div data-view-cards>
     <ul class="space-y-4">
       {topLevelEntries.map((entry) => {
         const isWar = entry.data.type === 'war';
@@ -129,5 +134,40 @@ const typeBadgeStyle = (type: string) => {
         );
       })}
     </ul>
+    </div>
+
+    <div data-view-table class="overflow-x-auto">
+      <table data-sortable class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b border-sand-300 bg-sand-50">
+            <th data-sort-key="year" data-sort-active="asc" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Year</th>
+            <th data-sort-key="name" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Name</th>
+            <th data-sort-key="type" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Type</th>
+            <th data-sort-key="duration" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          {allEvents.map((e) => {
+            const start = e.data.date_start.value;
+            const end = e.data.date_end?.value ?? start;
+            const duration = Math.abs(end - start);
+            return (
+              <tr
+                class="border-b border-sand-200 hover:bg-sand-50"
+                data-sort-year={start}
+                data-sort-name={e.data.name}
+                data-sort-type={e.data.type}
+                data-sort-duration={duration}
+              >
+                <td class="px-3 py-2 text-sand-700 tabular-nums whitespace-nowrap">{fmtRange(e.data)}</td>
+                <td class="px-3 py-2"><a href={`/events/${e.id}`} class="font-serif text-tyrian-700 hover:underline">{e.data.name}</a></td>
+                <td class="px-3 py-2"><span class={`text-[10px] uppercase tracking-widest font-semibold px-2 py-0.5 rounded ${typeBadgeStyle(e.data.type)}`}>{e.data.type}</span></td>
+                <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{duration > 0 ? `${duration}y` : ''}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
   </div>
 </BaseLayout>

@@ -1,0 +1,155 @@
+---
+/**
+ * Cards / Table view toggle for index pages.
+ *
+ * Renders a pill-style two-button toggle. Persists the user's choice in
+ * localStorage under `qh.indexView` so it sticks across sessions and pages.
+ *
+ * Pages using this component should structure markup as:
+ *   <div data-view-container>
+ *     <IndexViewToggle />
+ *     <div data-view-cards>...cards...</div>
+ *     <div data-view-table>...table...</div>
+ *   </div>
+ *
+ * The shared script below toggles which child is visible based on the
+ * `data-view` attribute on the container. Cards are the default.
+ */
+---
+
+<div class="flex justify-end mb-4">
+  <div class="inline-flex border border-sand-300 rounded-full p-0.5 bg-sand-50 text-xs">
+    <button
+      type="button"
+      data-view-button="cards"
+      class="px-3 py-1 rounded-full uppercase tracking-wider font-semibold transition-colors"
+      aria-label="Card view"
+    >
+      Cards
+    </button>
+    <button
+      type="button"
+      data-view-button="table"
+      class="px-3 py-1 rounded-full uppercase tracking-wider font-semibold transition-colors"
+      aria-label="Table view"
+    >
+      Table
+    </button>
+  </div>
+</div>
+
+<style is:global>
+  /* The two view subtrees both render to the DOM; the container's data-view
+     attribute decides which is visible. */
+  [data-view-container][data-view='cards'] [data-view-table] { display: none; }
+  [data-view-container][data-view='table'] [data-view-cards] { display: none; }
+
+  /* Active button state */
+  [data-view-container][data-view='cards'] [data-view-button='cards'],
+  [data-view-container][data-view='table'] [data-view-button='table'] {
+    background-color: #5b0f31; /* tyrian-700 */
+    color: white;
+  }
+  [data-view-container][data-view='cards'] [data-view-button='table'],
+  [data-view-container][data-view='table'] [data-view-button='cards'] {
+    color: #6b5638; /* sand-700 */
+  }
+  [data-view-container][data-view='cards'] [data-view-button='table']:hover,
+  [data-view-container][data-view='table'] [data-view-button='cards']:hover {
+    background-color: #f4ede0; /* sand-100 */
+  }
+
+  /* Sortable table headers */
+  th[data-sort-key] {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+  }
+  th[data-sort-key]:hover {
+    background-color: #f4ede0;
+  }
+  th[data-sort-key][data-sort-active='asc']::after,
+  th[data-sort-key][data-sort-active='desc']::after {
+    content: '';
+    display: inline-block;
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    vertical-align: middle;
+  }
+  th[data-sort-key][data-sort-active='asc']::after {
+    border-bottom: 5px solid #5b0f31;
+  }
+  th[data-sort-key][data-sort-active='desc']::after {
+    border-top: 5px solid #5b0f31;
+  }
+
+  /* Mobile fallback: tables are unwieldy on small screens. Force cards on
+     narrow viewports regardless of preference. */
+  @media (max-width: 640px) {
+    [data-view-container] [data-view-table] { display: none !important; }
+    [data-view-container] [data-view-cards] { display: block !important; }
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const STORAGE_KEY = 'qh.indexView';
+
+    function applyView(container, view) {
+      container.setAttribute('data-view', view);
+    }
+
+    function setupContainer(container) {
+      const stored = (() => {
+        try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+      })();
+      const initial = stored === 'table' || stored === 'cards' ? stored : 'cards';
+      applyView(container, initial);
+
+      container.querySelectorAll('[data-view-button]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const view = btn.getAttribute('data-view-button');
+          if (view !== 'cards' && view !== 'table') return;
+          applyView(container, view);
+          try { localStorage.setItem(STORAGE_KEY, view); } catch { /* noop */ }
+        });
+      });
+
+      // Wire up sortable table headers within this container.
+      container.querySelectorAll('table[data-sortable]').forEach((table) => {
+        const tbody = table.querySelector('tbody');
+        if (!tbody) return;
+        table.querySelectorAll('th[data-sort-key]').forEach((th) => {
+          th.addEventListener('click', () => {
+            const key = th.getAttribute('data-sort-key');
+            if (!key) return;
+            const current = th.getAttribute('data-sort-active');
+            const next = current === 'asc' ? 'desc' : 'asc';
+            // Clear other headers
+            table.querySelectorAll('th[data-sort-active]').forEach((other) => {
+              if (other !== th) other.removeAttribute('data-sort-active');
+            });
+            th.setAttribute('data-sort-active', next);
+
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            rows.sort((a, b) => {
+              const av = a.getAttribute(`data-sort-${key}`) ?? '';
+              const bv = b.getAttribute(`data-sort-${key}`) ?? '';
+              const an = parseFloat(av);
+              const bn = parseFloat(bv);
+              const numeric = !Number.isNaN(an) && !Number.isNaN(bn);
+              const cmp = numeric ? an - bn : av.localeCompare(bv);
+              return next === 'asc' ? cmp : -cmp;
+            });
+            rows.forEach((r) => tbody.appendChild(r));
+          });
+        });
+      });
+    }
+
+    document.querySelectorAll('[data-view-container]').forEach(setupContainer);
+  })();
+</script>

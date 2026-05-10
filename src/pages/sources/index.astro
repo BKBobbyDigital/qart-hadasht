@@ -1,39 +1,97 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { getCollection } from 'astro:content';
 
 const sources = await getCollection('sources');
 const primary = sources.filter((s) => s.data.is_primary);
 const modern = sources.filter((s) => !s.data.is_primary);
+
+// Reverse-lookup citation count per source
+const allClaims = await getCollection('claims');
+const citationsBySource = new Map<string, number>();
+for (const c of allClaims) {
+  const seen = new Set<string>();
+  for (const s of c.data.sources ?? []) {
+    if (seen.has(s.source.id)) continue;
+    seen.add(s.source.id);
+    citationsBySource.set(s.source.id, (citationsBySource.get(s.source.id) ?? 0) + 1);
+  }
+}
+
+const fmtComposed = (s: any) =>
+  s.data.date_composed
+    ? `${s.data.date_composed.circa ? 'c. ' : ''}${Math.abs(s.data.date_composed.value)} ${s.data.date_composed.value < 0 ? 'BCE' : 'CE'}`
+    : '';
 ---
 
 <BaseLayout title="Sources">
-  <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="font-serif text-4xl mb-2">Sources</h1>
+  <div class="max-w-4xl mx-auto px-6 py-12" data-view-container>
+    <div class="flex items-baseline justify-between gap-4 mb-2">
+      <h1 class="font-serif text-4xl">Sources</h1>
+      <IndexViewToggle />
+    </div>
     <p class="text-sand-700 mb-8">Every claim on this site is grounded in the sources below.</p>
 
-    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Primary sources</h2>
-    <ul class="space-y-2 mb-10">
-      {primary.map((s) => (
-        <li class="border border-sand-300 rounded p-3">
-          <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
-            {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
-          </a>
-          <p class="text-sm text-sand-700 mt-1 capitalize">{s.data.type.replace('_', ' ')} · {s.data.language}</p>
-        </li>
-      ))}
-    </ul>
+    <div data-view-cards>
+      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Primary sources</h2>
+      <ul class="space-y-2 mb-10">
+        {primary.map((s) => (
+          <li class="border border-sand-300 rounded p-3">
+            <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
+              {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+            </a>
+            <p class="text-sm text-sand-700 mt-1 capitalize">{s.data.type.replace('_', ' ')} · {s.data.language}</p>
+          </li>
+        ))}
+      </ul>
 
-    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Modern scholarship</h2>
-    <ul class="space-y-2">
-      {modern.map((s) => (
-        <li class="border border-sand-300 rounded p-3">
-          <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
-            {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
-            {s.data.date_composed && <> ({s.data.date_composed.value})</>}
-          </a>
-        </li>
-      ))}
-    </ul>
+      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Modern scholarship</h2>
+      <ul class="space-y-2">
+        {modern.map((s) => (
+          <li class="border border-sand-300 rounded p-3">
+            <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
+              {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+              {s.data.date_composed && <> ({s.data.date_composed.value})</>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div data-view-table class="overflow-x-auto">
+      <table data-sortable class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b border-sand-300 bg-sand-50">
+            <th data-sort-key="title" data-sort-active="asc" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Title</th>
+            <th data-sort-key="author" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Author</th>
+            <th data-sort-key="year" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Composed</th>
+            <th data-sort-key="language" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Language</th>
+            <th data-sort-key="type" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Type</th>
+            <th data-sort-key="cited" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Cited</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sources.map((s) => (
+            <tr
+              class="border-b border-sand-200 hover:bg-sand-50"
+              data-sort-title={s.data.title}
+              data-sort-author={s.data.author ?? ''}
+              data-sort-year={s.data.date_composed?.value ?? 9999}
+              data-sort-language={s.data.language}
+              data-sort-type={s.data.type}
+              data-sort-cited={citationsBySource.get(s.id) ?? 0}
+            >
+              <td class="px-3 py-2"><a href={`/sources/${s.id}`} class="font-serif text-tyrian-700 hover:underline">{s.data.title}</a></td>
+              <td class="px-3 py-2 text-sand-900">{s.data.author ?? ''}</td>
+              <td class="px-3 py-2 text-sand-700 tabular-nums whitespace-nowrap">{fmtComposed(s)}</td>
+              <td class="px-3 py-2 text-sand-900 capitalize">{s.data.language}</td>
+              <td class="px-3 py-2 text-sand-900 capitalize">{s.data.type.replace('_', ' ')}</td>
+              <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{citationsBySource.get(s.id) || ''}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   </div>
 </BaseLayout>

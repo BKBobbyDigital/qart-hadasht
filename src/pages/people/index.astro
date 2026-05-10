@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import IndexViewToggle from '../../components/IndexViewToggle.astro';
+import { formatHistoricalDate } from '../../lib/historicalDate';
 import { getCollection } from 'astro:content';
 
 const people = (await getCollection('people')).sort(
@@ -8,6 +10,32 @@ const people = (await getCollection('people')).sort(
 const groups = (await getCollection('groups')).sort(
   (a, b) => a.data.name_display.localeCompare(b.data.name_display)
 );
+
+// Reverse-lookup event count per person
+const allEvents = await getCollection('events');
+const eventsByPerson = new Map<string, number>();
+for (const e of allEvents) {
+  for (const p of e.data.participants ?? []) {
+    eventsByPerson.set(p.person.id, (eventsByPerson.get(p.person.id) ?? 0) + 1);
+  }
+}
+
+const personRow = (p: any) => {
+  const dates = p.data.birth || p.data.death
+    ? `${formatHistoricalDate(p.data.birth) ?? '?'} – ${formatHistoricalDate(p.data.death) ?? '?'}`
+    : (formatHistoricalDate(p.data.floruit) ?? '');
+  const sortYear = p.data.birth?.value ?? p.data.floruit?.value ?? p.data.death?.value ?? 9999;
+  return {
+    id: p.id,
+    name: p.data.name_display,
+    role: (p.data.roles && p.data.roles[0]) || '',
+    polity: p.data.polity || '',
+    dates,
+    sortYear,
+    events: eventsByPerson.get(p.id) ?? 0,
+  };
+};
+const personRows = people.map(personRow);
 ---
 
 <BaseLayout title="People & Groups">
@@ -37,19 +65,57 @@ const groups = (await getCollection('groups')).sort(
       </section>
     )}
 
-    <section>
-      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">People</h2>
-      <ul class="grid sm:grid-cols-2 gap-3">
-        {people.map((p) => (
-          <li>
-            <a href={`/people/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
-              <h3 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h3>
-              {p.data.name_punic && <p class="text-sm text-sand-700">{p.data.name_punic}</p>}
-              <p class="text-xs text-sand-700 mt-1">{p.data.polity} · {p.data.roles.join(', ')}</p>
-            </a>
-          </li>
-        ))}
-      </ul>
+    <section data-view-container>
+      <div class="flex items-baseline justify-between gap-4 border-b border-sand-300 pb-2 mb-4">
+        <h2 class="font-serif text-2xl">People</h2>
+        <IndexViewToggle />
+      </div>
+
+      <div data-view-cards>
+        <ul class="grid sm:grid-cols-2 gap-3">
+          {people.map((p) => (
+            <li>
+              <a href={`/people/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+                <h3 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h3>
+                {p.data.name_punic && <p class="text-sm text-sand-700">{p.data.name_punic}</p>}
+                <p class="text-xs text-sand-700 mt-1">{p.data.polity} · {p.data.roles.join(', ')}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div data-view-table class="overflow-x-auto">
+        <table data-sortable class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-sand-300 bg-sand-50">
+              <th data-sort-key="name" data-sort-active="asc" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Name</th>
+              <th data-sort-key="role" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Role</th>
+              <th data-sort-key="polity" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Affiliation</th>
+              <th data-sort-key="year" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Dates</th>
+              <th data-sort-key="events" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            {personRows.map((r) => (
+              <tr
+                class="border-b border-sand-200 hover:bg-sand-50"
+                data-sort-name={r.name}
+                data-sort-role={r.role}
+                data-sort-polity={r.polity}
+                data-sort-year={r.sortYear}
+                data-sort-events={r.events}
+              >
+                <td class="px-3 py-2"><a href={`/people/${r.id}`} class="font-serif text-tyrian-700 hover:underline">{r.name}</a></td>
+                <td class="px-3 py-2 text-sand-900 capitalize">{r.role}</td>
+                <td class="px-3 py-2 text-sand-900">{r.polity}</td>
+                <td class="px-3 py-2 text-sand-700 tabular-nums whitespace-nowrap">{r.dates}</td>
+                <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{r.events || ''}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
   </div>
 </BaseLayout>
