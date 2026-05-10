@@ -18,20 +18,16 @@ const carthage = await getEntry('places', 'carthage');
 ---
 
 <BaseLayout title="Themes" description="The cultural side of Carthage: themes, institutions, groups, deities, the city itself.">
-  <section class="bg-sand-100 border-b border-sand-300">
-    <div class="max-w-5xl mx-auto px-6 py-10">
-      <p class="eyebrow mb-3">Hub</p>
-      <h1 class="font-serif text-4xl sm:text-5xl leading-tight">Themes</h1>
-      <p class="mt-3 max-w-2xl text-base text-sand-900">
-        The cultural side of Carthage. Themes are the cross-cutting essays
-        — religion, daily life, language, trade, identity. This page also
-        collects the supporting structural entities they touch:
-        institutions, groups, deities, and the city itself.
-      </p>
-    </div>
-  </section>
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">Themes</h1>
+    <p class="text-sand-700 mb-8 max-w-2xl">
+      The cultural side of Carthage. Themes are the cross-cutting essays
+      — religion, daily life, language, trade, identity. This page also
+      collects the supporting structural entities they touch: institutions,
+      groups, deities, and the city itself.
+    </p>
 
-  <section class="max-w-5xl mx-auto px-6 py-8">
+  <section class="mb-12">
     <h2 class="font-serif text-2xl mb-4">Themes <span class="text-sm text-sand-700 font-normal">({themes.length})</span></h2>
     <ul class="grid sm:grid-cols-2 gap-3">
       {themes.map((t) => (
@@ -49,7 +45,7 @@ const carthage = await getEntry('places', 'carthage');
   </section>
 
   {carthage && (
-    <section class="max-w-5xl mx-auto px-6 py-6">
+    <section class="mb-12">
       <h2 class="font-serif text-2xl mb-4">The city</h2>
       <a href={`/places/${carthage.id}`} class="block p-5 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100">
         <div class="flex items-baseline gap-3 flex-wrap">
@@ -63,7 +59,7 @@ const carthage = await getEntry('places', 'carthage');
     </section>
   )}
 
-  <section class="max-w-5xl mx-auto px-6 py-6">
+  <section class="mb-12">
     <h2 class="font-serif text-2xl mb-4">Institutions <span class="text-sm text-sand-700 font-normal">({institutions.length})</span></h2>
     <p class="text-sand-700 text-sm mb-4">
       Formal civic, political, and judicial bodies of Carthage.
@@ -81,7 +77,7 @@ const carthage = await getEntry('places', 'carthage');
   </section>
 
   {deities.length > 0 && (
-    <section class="max-w-5xl mx-auto px-6 py-6">
+    <section class="mb-12">
       <h2 class="font-serif text-2xl mb-4">Deities <span class="text-sm text-sand-700 font-normal">({deities.length})</span></h2>
       <p class="text-sand-700 text-sm mb-4">
         The principal gods of the Carthaginian pantheon. See <a href="/themes/punic-religion" class="text-tyrian-700 hover:underline">Punic religion</a> for the framing prose.
@@ -102,7 +98,7 @@ const carthage = await getEntry('places', 'carthage');
   )}
 
   {groups.length > 0 && (
-    <section class="max-w-5xl mx-auto px-6 py-6">
+    <section class="mb-12">
       <h2 class="font-serif text-2xl mb-4">Groups and peoples <span class="text-sm text-sand-700 font-normal">({groups.length})</span></h2>
       <p class="text-sand-700 text-sm mb-4">
         Collective entities — peoples, mercenary specialists, military units, dynasties — distinct from individual people and from formal institutions.
@@ -119,4 +115,5 @@ const carthage = await getEntry('places', 'carthage');
       </ul>
     </section>
   )}
+  </div>
 </BaseLayout>
