@@ -25,7 +25,7 @@ const deities = (await getCollection('deities')).sort((a, b) =>
     <ul class="grid sm:grid-cols-2 gap-3">
       {deities.map((d) => (
         <li>
-          <a href={`/deities/${d.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors">
+          <a href={`/deities/${d.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
             <div class="flex items-baseline gap-3">
               {d.data.name_punic_script && (
                 <span class="font-phoenician text-2xl text-tyrian-700">{d.data.name_punic_script}</span>

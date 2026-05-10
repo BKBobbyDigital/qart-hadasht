@@ -52,7 +52,7 @@ const personRows = people.map(personRow);
         <ul class="grid sm:grid-cols-2 gap-3">
           {groups.map((g) => (
             <li>
-              <a href={`/groups/${g.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors">
+              <a href={`/groups/${g.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
                 <h3 class="font-serif text-lg text-tyrian-700">{g.data.name_display}</h3>
                 <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{g.data.type.replace('_', ' ')}</p>
                 {g.data.polity_affiliation && (
@@ -75,7 +75,7 @@ const personRows = people.map(personRow);
         <ul class="grid sm:grid-cols-2 gap-3">
           {people.map((p) => (
             <li>
-              <a href={`/people/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors">
+              <a href={`/people/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
                 <h3 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h3>
                 {p.data.name_punic && <p class="text-sm text-sand-700">{p.data.name_punic}</p>}
                 <p class="text-xs text-sand-700 mt-1">{p.data.polity} · {p.data.roles.join(', ')}</p>
@@ -99,7 +99,7 @@ const personRows = people.map(personRow);
           <tbody>
             {personRows.map((r) => (
               <tr
-                class="border-b border-sand-200 hover:bg-tyrian-50 active:bg-tyrian-100 transition-colors"
+                class="border-b border-sand-200 hover:bg-tyrian-100 active:bg-tyrian-200 transition-colors"
                 data-sort-name={r.name}
                 data-sort-role={r.role}
                 data-sort-polity={r.polity}
