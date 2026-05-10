@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import { formatDateRange, dateQualifier } from '../../lib/historicalDate';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -14,6 +15,25 @@ export async function getStaticPaths() {
 
 const { group } = Astro.props;
 const d = group.data;
+
+// Auto-link registry
+const allEvents = await getCollection('events');
+const allPeople = await getCollection('people');
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+});
+const summaryHtml = autolink(d.summary, linkRegistry, {
+  excludeKey: `group:${group.id}`,
+});
 
 const typeLabel = d.type.replace('_', ' ');
 const typeLabelCap = typeLabel.charAt(0).toUpperCase() + typeLabel.slice(1);
@@ -59,7 +79,7 @@ const groupInfoboxRows: InfoboxRow[] = [
     )}
 
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      <p>{d.summary}</p>
+      <p set:html={summaryHtml} />
     </div>
     </article>
   </div>

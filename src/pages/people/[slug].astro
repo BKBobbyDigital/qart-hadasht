@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -69,6 +70,24 @@ const sourcesCited = (
 )
   .filter(Boolean)
   .sort((a: any, b: any) => a!.data.title.localeCompare(b!.data.title));
+
+// Auto-link registry
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const allPeople = await getCollection('people');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+});
+const summaryHtml = autolink(d.summary, linkRegistry, {
+  excludeKey: `person:${person.id}`,
+});
 
 const personInfoboxRows: InfoboxRow[] = [
   {
@@ -140,7 +159,7 @@ const personInfoboxRows: InfoboxRow[] = [
     )}
 
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      <p>{d.summary}</p>
+      <p set:html={summaryHtml} />
     </div>
 
     {personNarratives.map((n) => (

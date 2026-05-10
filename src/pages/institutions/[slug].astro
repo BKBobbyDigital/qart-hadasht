@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -41,6 +42,20 @@ const referencingPeople = allPeople
     (p.data.referenced_institutions ?? []).some((ref: any) => ref.id === institution.id)
   )
   .sort((a, b) => a.data.name_display.localeCompare(b.data.name_display));
+
+// Auto-link registry
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+});
 
 const typeLabel = d.type.charAt(0).toUpperCase() + d.type.slice(1);
 const activeText = formatDateRange(d.active_from, d.active_to);
@@ -100,7 +115,9 @@ const institutionInfoboxRows: InfoboxRow[] = [
     )}
 
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      {d.summary.split(/\n\n+/).map((para: string) => <p>{para}</p>)}
+      {d.summary.split(/\n\n+/).map((para: string) => (
+        <p set:html={autolink(para, linkRegistry, { excludeKey: `institution:${institution.id}` })} />
+      ))}
     </div>
 
     {referencingEvents.length > 0 && (

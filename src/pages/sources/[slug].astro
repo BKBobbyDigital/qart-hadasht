@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -28,6 +29,24 @@ const eventsUsingAsPrincipal = allEvents
     (e.data.principal_sources ?? []).some((s: any) => s.id === source.id)
   )
   .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
+
+// Auto-link registry
+const allPeople = await getCollection('people');
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+});
+const summaryHtml = d.summary
+  ? autolink(d.summary, linkRegistry, { excludeKey: `source:${source.id}` })
+  : '';
 
 // ─── Infobox derivations ─────────────────────────────────────────────────────
 const typeLabel = d.type.replace('_', ' ');
@@ -81,7 +100,7 @@ const sourceInfoboxRows: InfoboxRow[] = [
     {d.author && <p class="text-xl text-sand-700 italic">{d.author}</p>}
 
     <div class="prose-encyclopedia mt-8 text-sand-900">
-      <p>{d.summary}</p>
+      <p set:html={summaryHtml} />
     </div>
 
     {d.bias_notes && (

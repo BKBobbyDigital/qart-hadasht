@@ -6,6 +6,7 @@ import Map from '../../components/Map.astro';
 import CannaeDiagram from '../../components/CannaeDiagram.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -196,6 +197,24 @@ relatedClaims.forEach((c) =>
 );
 const sourcesCount = sourceIds.size;
 
+// ─── Auto-link registry for the summary prose ───────────────────────────────
+const allPeople = await getCollection('people');
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+});
+const summaryHtml = autolink(data.summary, linkRegistry, {
+  excludeKey: `event:${event.id}`,
+});
+
 // Resolve source entries for the Sources cited section
 const sourcesCited = (
   await Promise.all(
@@ -265,7 +284,7 @@ const infoboxRows: InfoboxRow[] = [
     </p>
 
     <div class="prose-encyclopedia mt-6 text-lg text-sand-900">
-      <p>{data.summary}</p>
+      <p set:html={summaryHtml} />
     </div>
 
     {eventMapPoints.length > 0 && (
