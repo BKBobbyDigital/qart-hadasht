@@ -17,12 +17,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </noscript>
   </section>
 
-  <script type="module">
-    // Pagefind ships into /pagefind/ at build time; dev server won't have it,
-    // so guard against the missing-script case.
-    try {
-      const { PagefindUI } = await import('/pagefind/pagefind-ui.js');
-      new PagefindUI({
+  <!--
+    Pagefind UI ships as a classic script that exposes window.PagefindUI.
+    The /pagefind/ directory is generated at build time, so the script will
+    404 on the dev server — we detect that and show a friendly message.
+  -->
+  <script is:inline src="/pagefind/pagefind-ui.js" onerror="window.__pagefindMissing = true"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      const el = document.getElementById('search');
+      if (window.__pagefindMissing || typeof window.PagefindUI === 'undefined') {
+        if (el) {
+          el.innerHTML = '<p class="text-sm text-sand-700">Search index is built only on production deploys. Try the live site, or run <code class="font-mono">npm run build &amp;&amp; npm run preview</code> locally.</p>';
+        }
+        return;
+      }
+      new window.PagefindUI({
         element: '#search',
         showSubResults: true,
         showImages: false,
@@ -30,12 +40,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         autofocus: true,
         excerptLength: 25,
       });
-    } catch (err) {
-      const el = document.getElementById('search');
-      if (el) {
-        el.innerHTML = '<p class="text-sm text-sand-700">Search index is built only on production deploys. Try the live site, or run <code class="font-mono">npm run build &amp;&amp; npm run preview</code> locally.</p>';
-      }
-    }
+    });
   </script>
 
   <style is:global>
