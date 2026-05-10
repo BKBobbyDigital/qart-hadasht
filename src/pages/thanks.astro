@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Thanks for the note"
+  description="Your message has been received."
+>
+  <article class="max-w-2xl mx-auto px-6 py-16 text-center">
+    <p class="eyebrow mb-4">Message received</p>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-4">Thanks for the note.</h1>
+    <p class="text-lg text-sand-900 leading-relaxed mb-8">
+      Your message went through. If you left an email and asked for a reply,
+      I'll get back to you when I can. Either way, the encyclopedia is better
+      for the input.
+    </p>
+
+    <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm">
+      <a href="/" class="text-tyrian-700 hover:underline">Back to the homepage →</a>
+      <a href="/threads" class="text-tyrian-700 hover:underline">Reading threads →</a>
+      <a href="/about" class="text-tyrian-700 hover:underline">About this project →</a>
+    </div>
+  </article>
+</BaseLayout>
