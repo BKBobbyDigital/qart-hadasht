@@ -2,31 +2,46 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection, getEntry } from 'astro:content';
 
-// ─── Curated "Start here" chips ──────────────────────────────────────────────
+// ─── Curated "Start here" entries ────────────────────────────────────────────
 //
-// A mix of events, people, and places — the most-iconic entry points into
-// the Carthaginian story. Resolves to live entity data so titles and dates
-// stay accurate as content evolves.
-type ChipKind = 'event' | 'person' | 'place';
-type StartHereSpec = { kind: ChipKind; slug: string };
+// Six deliberate entry points covering the narrative arc — legendary
+// founder, founding event, the city, signature military moment, the
+// great commander, the ending. A balanced mix of person / event / place.
+type EntryKind = 'event' | 'person' | 'place';
+type EntrySpec = { kind: EntryKind; slug: string };
 
-const startHereSpecs: StartHereSpec[] = [
-  { kind: 'person', slug: 'hannibal-barca' },
-  { kind: 'event', slug: 'founding-of-carthage' },
-  { kind: 'event', slug: 'crossing-of-the-alps' },
-  { kind: 'event', slug: 'battle-of-cannae' },
-  { kind: 'event', slug: 'battle-of-zama' },
-  { kind: 'event', slug: 'destruction-of-carthage' },
+const startHereSpecs: EntrySpec[] = [
   { kind: 'person', slug: 'dido' },
-  { kind: 'person', slug: 'scipio-africanus' },
+  { kind: 'event', slug: 'founding-of-carthage' },
   { kind: 'place', slug: 'carthage' },
-  { kind: 'person', slug: 'cato-the-elder' },
+  { kind: 'person', slug: 'hannibal-barca' },
+  { kind: 'event', slug: 'battle-of-cannae' },
+  { kind: 'event', slug: 'destruction-of-carthage' },
 ];
 
-type Chip = { kind: ChipKind; href: string; label: string; date: string };
+type Entry = {
+  kind: EntryKind;
+  href: string;
+  label: string;
+  date: string;
+  gloss: string;
+};
 
-const startHereChips: Chip[] = await Promise.all(
-  startHereSpecs.map(async (s): Promise<Chip | null> => {
+// Trim a long summary down to a single editorial gloss. Prefers the
+// first complete sentence; falls back to a word-boundary truncation.
+function trimGloss(s: string | undefined, max = 160): string {
+  if (!s) return '';
+  const flat = s.replace(/\s+/g, ' ').trim();
+  if (flat.length <= max) return flat;
+  const periodIdx = flat.indexOf('. ');
+  if (periodIdx > 0 && periodIdx < max) return flat.slice(0, periodIdx + 1);
+  const cut = flat.slice(0, max);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
+}
+
+const startHereEntries: Entry[] = await Promise.all(
+  startHereSpecs.map(async (s): Promise<Entry | null> => {
     if (s.kind === 'event') {
       const e: any = await getEntry('events', s.slug);
       if (!e) return null;
@@ -36,7 +51,7 @@ const startHereChips: Chip[] = await Promise.all(
         : (d.date_end
             ? `${Math.abs(d.date_start.value)}–${Math.abs(d.date_end.value)} BCE`
             : `${Math.abs(d.date_start.value)} BCE`);
-      return { kind: 'event', href: `/events/${s.slug}`, label: d.name, date };
+      return { kind: 'event', href: `/events/${s.slug}`, label: d.name, date, gloss: trimGloss(d.summary) };
     }
     if (s.kind === 'person') {
       const p: any = await getEntry('people', s.slug);
@@ -54,29 +69,28 @@ const startHereChips: Chip[] = await Promise.all(
       } else if (d.floruit) {
         date = `fl. ${Math.abs(d.floruit.value)} BCE`;
       }
-      return { kind: 'person', href: `/people/${s.slug}`, label: d.name_display, date };
+      return { kind: 'person', href: `/people/${s.slug}`, label: d.name_display, date, gloss: trimGloss(d.summary) };
     }
     // place
     const pl: any = await getEntry('places', s.slug);
     if (!pl) return null;
-    return { kind: 'place', href: `/places/${s.slug}`, label: pl.data.name_display, date: pl.data.modern_location ? `today: ${pl.data.modern_location}` : '' };
+    return {
+      kind: 'place',
+      href: `/places/${s.slug}`,
+      label: pl.data.name_display,
+      date: pl.data.modern_location ? `today: ${pl.data.modern_location}` : '',
+      gloss: trimGloss(pl.data.summary),
+    };
   })
-).then((arr) => arr.filter(Boolean) as Chip[]);
+).then((arr) => arr.filter(Boolean) as Entry[]);
 
-// Single neutral chip style across all kinds. Category is signaled by
-// a small uppercase type label inside the chip rather than by hue —
-// color on this site is reserved for epistemic signal (claim confidence,
-// source distance), not category.
-const kindLabel: Record<ChipKind, string> = {
+const kindLabel: Record<EntryKind, string> = {
   event: 'Event',
   person: 'Person',
   place: 'Place',
 };
 
 // ─── Featured threads ────────────────────────────────────────────────────────
-//
-// Curated reading paths the homepage surfaces. Hand-picked for variety of
-// scope and to showcase what threads do that index pages don't.
 const featuredThreadSlugs = [
   'hannibals-life',
   'road-to-146',
@@ -89,14 +103,13 @@ const featuredThreads = await Promise.all(
     return t;
   })
 ).then((arr) => arr.filter(Boolean));
-
 ---
 
 <BaseLayout title="Qart-Hadasht">
-  <section class="max-w-5xl mx-auto px-6 py-12">
-    <!-- Editorial pull-quote: the project's pitch sentence, lifted from
-         the old hero block. Sets the encyclopedia's stance before the
-         Start Here chips offer entry points. -->
+  <section class="max-w-4xl mx-auto px-6 py-12">
+    <!-- Editorial pull-quote: the project's pitch sentence sets the
+         encyclopedia's stance before the Start Here cards offer entry
+         points. -->
     <blockquote class="border-l-2 border-tyrian-700 pl-6 mb-12 max-w-3xl">
       <p class="font-serif text-xl sm:text-2xl leading-snug text-ink-900">
         An evolving encyclopedia of ancient Carthage from its founding to its
@@ -110,40 +123,46 @@ const featuredThreads = await Promise.all(
     </blockquote>
 
     <h2 class="font-serif text-3xl sm:text-4xl mb-6">Start here</h2>
-    <ul class="flex flex-wrap gap-2">
-      {startHereChips.map((c) => (
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {startHereEntries.map((e) => (
         <li>
           <a
-            href={c.href}
-            class="inline-flex items-baseline gap-2 px-3 py-1.5 border border-sand-300 bg-white/60 rounded-full text-sm hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors"
+            href={e.href}
+            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
           >
-            <span class="text-[9px] uppercase tracking-widest font-semibold text-sand-700">{kindLabel[c.kind]}</span>
-            <span class="font-serif text-sand-900">{c.label}</span>
-            {c.date && <span class="text-[11px] text-sand-700 tabular-nums">· {c.date}</span>}
+            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{kindLabel[e.kind]}</p>
+            <h3 class="font-serif text-xl text-ink-900 mt-1.5 leading-tight">{e.label}</h3>
+            {e.date && <p class="text-xs text-sand-700 tabular-nums mt-1">{e.date}</p>}
+            <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-4">{e.gloss}</p>
           </a>
         </li>
       ))}
     </ul>
   </section>
 
-  <section class="max-w-5xl mx-auto px-6 py-10 border-t border-tyrian-700">
+  <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
     <h2 class="font-serif text-3xl sm:text-4xl mb-3">Reading threads</h2>
     <p class="text-sand-700 mb-6 text-base max-w-2xl">
       Curated multi-page journeys through the encyclopedia. Each is an ordered
       path of stops with editorial annotation. A way in if you want shape
       rather than search.
     </p>
-    <ul class="grid sm:grid-cols-2 gap-4">
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {featuredThreads.map((t: any) => (
         <li>
-          <a href={`/threads/${t.id.replace(/\.md$/, '')}`} class="block p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors h-full">
-            <div class="flex items-baseline justify-between gap-3 flex-wrap">
-              <h3 class="font-serif text-lg text-tyrian-900">{t.data.title}</h3>
-              <span class="text-[10px] uppercase tracking-widest text-sand-700 shrink-0">
-                {t.data.scope} · {t.data.stops.length} stops
-              </span>
+          <a
+            href={`/threads/${t.id.replace(/\.md$/, '')}`}
+            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+          >
+            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
+              Thread · {t.data.scope}
+            </p>
+            <h3 class="font-serif text-lg text-ink-900 mt-1.5 leading-snug">{t.data.title}</h3>
+            <p class="text-sm text-sand-900 mt-3 leading-relaxed line-clamp-6 flex-1">{t.data.summary}</p>
+            <div class="mt-4 pt-3 border-t border-sand-200 flex items-baseline justify-between text-xs">
+              <span class="text-sand-700">{t.data.stops.length} stops</span>
+              <span class="text-tyrian-700 font-medium">Begin →</span>
             </div>
-            <p class="text-sm text-ink-900 mt-2 line-clamp-3">{t.data.summary}</p>
           </a>
         </li>
       ))}
@@ -153,7 +172,7 @@ const featuredThreads = await Promise.all(
     </p>
   </section>
 
-  <section class="max-w-5xl mx-auto px-6 py-12 border-t border-tyrian-700">
+  <section class="max-w-4xl mx-auto px-6 py-12 border-t border-tyrian-700">
     <h2 class="font-serif text-3xl sm:text-4xl mb-8">From the encyclopedia</h2>
     <div class="grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 items-start">
       <p class="font-phoenician text-5xl text-tyrian-700 leading-none md:mt-1">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
@@ -177,7 +196,7 @@ const featuredThreads = await Promise.all(
     </div>
   </section>
 
-  <section class="max-w-5xl mx-auto px-6 py-12 border-t border-tyrian-700">
+  <section class="max-w-4xl mx-auto px-6 py-12 border-t border-tyrian-700">
     <h2 class="font-serif text-3xl sm:text-4xl mb-8">What this is</h2>
     <div class="grid md:grid-cols-3 gap-8 text-ink-900">
       <div>
