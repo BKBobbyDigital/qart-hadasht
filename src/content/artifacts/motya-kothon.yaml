@@ -1,0 +1,92 @@
+slug: motya-kothon
+name_display: Motya Kothon
+name_alt:
+  punic: 'kṯn — the Punic term, parallel to the Carthage cothon'
+  greek: Κώθων
+type: architecture
+material: cut stone (limestone, locally quarried)
+dimensions: rectangular basin c. 52.5 × 35.7 m
+date_made:
+  value: -550
+  precision: century
+  circa: true
+  notes: >
+    Dated to the 6th century BCE based on stratigraphic analysis of
+    construction fill and comparable Phoenician harbor architecture
+    at other western Mediterranean sites. Pre-dates the Carthage
+    cothon by approximately two centuries.
+current_location: in situ at Motya (Mozia island), in the Stagnone Lagoon off western Sicily
+find_context:
+  site: Motya island, Stagnone Lagoon, off Marsala (western Sicily)
+  circumstances: >
+    The kothon's identification as a built artificial pool — rather
+    than as a natural lagoon feature — emerged from systematic
+    excavation at Motya in the 20th century. Construction is
+    attested through the cut-stone perimeter walls, channel-feed
+    architecture, and stratigraphic association with adjacent
+    sanctuary buildings.
+dating_method: stratigraphic
+interpretation_status: contested
+principal_sources:
+  - lancel-carthage-1995
+  - quinn-phoenicians-2018
+referenced_themes:
+  - punic-religion
+image:
+  src: /artifacts/motya-kothon.jpg
+  alt: A rectangular stone-built basin filled with water, located in the interior of Motya island. The basin's perimeter shows cut-stone construction; adjacent to it sit the foundations of the Temple of Baal.
+  credit: "Photograph: Pitichinaccio (2006), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Mozia_Kothon.jpg
+  license: Public domain
+summary_short: >
+  The artificial sacred pool at Motya, c. 52 × 36 m, associated with
+  the adjacent Temple of Baal. Originally read as a Punic military
+  harbor (parallel to Carthage's cothon); modern scholarship now
+  reads it as a sacred-ritual pool rather than a functional harbor.
+summary: >
+  The Motya kothon is one of the more contested interpretive
+  problems in Punic-cultural archaeology. The structure — a
+  rectangular cut-stone basin approximately 52.5 by 35.7 meters,
+  filled with water, located on the otherwise relatively dry
+  island of Motya — was for most of the 20th century read as a
+  small inland military harbor structurally parallel to (and
+  pre-dating) the Carthage cothon. The interpretation followed the
+  Greek word *kothon* (typically translated as "harbor" or
+  "anchorage") and the structure's general form.
+
+  Recent scholarship has substantially revised the reading. Lorenzo
+  Nigro's excavations at Motya in the 2000s and 2010s established
+  that the basin's hydrology — the depth profile, the absence of a
+  navigable channel to the open sea sufficient for shipping, the
+  shallow water-table interaction — is incompatible with use as a
+  functional harbor. The current dominant interpretation treats the
+  basin as a sacred ritual pool, associated with the adjacent
+  Temple of Baal that excavation has identified on the same
+  platform.
+
+  The interpretive shift matters for the Carthage cothon as well.
+  The conventional reading of the Carthage cothon as a functional
+  military harbor rests on Polybius's surviving description; the
+  Motya basin, now read as ritual rather than functional, suggests
+  that the "kothon" terminology in Punic-cultural usage may have
+  ranged across both ritual and functional applications rather
+  than being a strict harbor-engineering term. The Carthage cothon
+  itself is not typically reinterpreted on this basis — its
+  archaeological signature is more clearly that of a functional
+  installation — but the Motya example complicates any simple
+  reading of "kothon = harbor" across the Punic sphere.
+
+  The artifact's significance is also chronological: the Motya
+  basin predates the Carthage cothon by approximately two
+  centuries, making it one of the earliest substantial
+  Phoenician-colonial built features anywhere in the western
+  Mediterranean. The construction skill the kothon documents —
+  cut-stone perimeter walls, channel-feed water supply,
+  precise rectangular planning — places Motya at the high end of
+  6th-century BCE Phoenician colonial engineering capacity.
+
+  The relevance to Carthage is two-fold: the kothon is a direct
+  iconographic-engineering precedent for the later Carthage
+  cothon, and the broader Motya site is the principal
+  Carthaginian-aligned settlement in Punic Sicily through the
+  6th-4th centuries BCE.

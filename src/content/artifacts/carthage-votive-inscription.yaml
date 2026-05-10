@@ -1,0 +1,89 @@
+slug: carthage-votive-inscription
+name_display: Carthage Votive Inscription Slab
+name_alt:
+  punic: typical Carthaginian votive dedication inscription
+  latin: cippus (modern usage); the example shown is a flat slab rather than a column
+type: inscription
+material: limestone
+dimensions: c. 50 × 30 cm (typical for the class)
+date_made:
+  value: -300
+  precision: century
+  circa: true
+  range_end: -146
+  notes: >
+    The Carthaginian votive-inscription tradition is principally a
+    3rd-2nd century BCE practice, with peak documentation in the
+    period before the 146 BCE destruction. Earlier and later
+    examples are attested.
+current_location: principal collections at the Carthage National Museum, the Bardo (Tunis), the Louvre, the British Museum, and other European holdings
+find_context:
+  site: Carthage — recovered from multiple sanctuary, civic, and necropolis contexts across the Punic period
+  circumstances: >
+    The Carthage votive-inscription corpus is one of the larger
+    surviving Punic-language inscriptional bodies, accumulated
+    through 19th and 20th-century excavation of multiple sites
+    within the ancient city. Most surviving examples were
+    recovered from secondary contexts (re-used as building
+    material in later Roman construction, or in tomb-pit fill);
+    the original installation settings are typically
+    reconstructed rather than directly attested.
+dating_method: paleographic
+languages:
+  - punic
+interpretation_status: attested
+principal_sources:
+  - quinn-phoenicians-2018
+  - lancel-carthage-1995
+image:
+  src: /artifacts/carthage-votive-inscription.jpg
+  alt: A limestone slab carved with several lines of Punic script in clearly cut characters running horizontally across the surface. The stone shows weathering but the inscription is substantially legible.
+  credit: "Photograph: Jamie Heath, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Carthago_exhibition_-_Slab_with_Punic_Inscription_(49340890592).jpg
+  license: CC BY 2.0
+summary_short: >
+  A typical Punic votive inscription slab from Carthage, c. 3rd-2nd
+  century BCE. Representative of the larger surviving corpus of
+  Carthaginian dedicatory texts that constitute the principal
+  Punic-language inscriptional record outside the Tophet stelae.
+summary: >
+  The Carthage votive-inscription corpus is, alongside the Carthage
+  Tophet stelae, the principal surviving body of Punic-language
+  inscriptional evidence anywhere. The example shown here is a
+  representative slab from the broader corpus — a roughly
+  rectangular limestone block carved with several lines of clear
+  Punic script, recovered from one of the many sanctuary and
+  civic contexts the Carthaginian city's ancient fabric contained.
+
+  The Punic inscriptional tradition outside the Tophet operated in
+  several distinguishable registers. **Sanctuary dedications**
+  record offerings to specific deities — Baal Hammon, Tanit,
+  Eshmun, Melqart, and others — by named dedicators, often
+  including the dedicator's lineage and the occasion of the
+  offering. **Civic-administrative inscriptions** record the
+  actions of magistrates (suffetes, treasurers, public-works
+  officials) or the dedication of buildings and public spaces.
+  **Funerary inscriptions** mark elite burials with names,
+  lineages, and occasional brief biographical detail.
+  **Honorific inscriptions** commemorate individuals for civic
+  service or military achievement.
+
+  The example shown is most likely a sanctuary dedication based
+  on the visible content and format. The broader corpus is large
+  enough to support systematic analysis of Punic religious
+  practice, Carthaginian elite-family lineages, and civic
+  administration, but small enough that individual finds remain
+  notable and individually catalogued. The Corpus Inscriptionum
+  Semiticarum (CIS) — the 19th-century scholarly compilation —
+  remains the principal catalog, with substantial supplementary
+  additions through the 20th and 21st centuries.
+
+  The corpus's interpretive importance is the access it provides
+  to Carthaginian society on its own linguistic terms, rather
+  than through Greco-Roman literary mediation. The names, the
+  dedicatory formulas, the divine epithets, the administrative
+  titles — all are recorded in the language and conceptual
+  framework that Carthaginians used about themselves. The
+  inscriptional evidence is one of the principal correctives
+  to the hostile-source distortions that the surviving Greek and
+  Roman literary records introduce.

@@ -1,0 +1,79 @@
+slug: idalion-bilingual
+name_display: Idalion Bilingual
+name_alt:
+  phoenician: dedicatory inscription, c. 388 BCE
+  greek: parallel Greek text in the Cypriot syllabary
+type: inscription
+material: marble
+date_made:
+  value: -388
+  precision: year
+current_location: British Museum, London (catalogue number 125320)
+find_context:
+  site: Idalion (modern Dali), Nicosia District, Cyprus — sanctuary precinct
+  year: 1869
+  excavator: Robert Hamilton Lang
+  circumstances: >
+    Recovered during the late-19th-century European antiquarian
+    excavations on Cyprus that produced much of the British Museum's
+    Cypriot collection. The stone is conventionally identified as
+    the pedestal of a votive statue dedicated at one of Idalion's
+    sanctuaries.
+dating_method: epigraphic
+languages:
+  - phoenician
+  - greek
+interpretation_status: attested
+principal_sources:
+  - aubet-phoenicians-west-2001
+image:
+  src: /artifacts/idalion-bilingual.jpg
+  alt: A marble slab inscribed with parallel texts — Phoenician script in horizontal lines and Cypriot syllabary in vertical lines — displayed in the British Museum's antiquities gallery.
+  credit: "Photograph: George M. Groutas, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Idalion_Antiquities_at_the_British_Museum_089.jpg
+  license: CC BY 2.0
+summary_short: >
+  A c. 388 BCE Phoenician-Cypriot syllabary bilingual inscription
+  from Idalion (Cyprus). The Rosetta-Stone-equivalent for deciphering
+  the Cypriot syllabary — George Smith's 1871 reading from this
+  stone broke the script open.
+summary: >
+  A 4th-century BCE bilingual votive inscription from the Phoenician-
+  Cypriot sanctuary precinct at Idalion (modern Dali). The stone
+  bears parallel Phoenician-alphabet and Cypriot-syllabary versions
+  of the same dedicatory text, making it the foundational document
+  for the modern decipherment of the Cypriot syllabary — the
+  pre-Greek Cypriot writing system in which Cypriot-language texts
+  were recorded for several centuries before the spread of the
+  Greek alphabet.
+
+  The decipherment history is the artifact's principal scholarly
+  significance. The Cypriot syllabary had resisted reading since
+  modern antiquarian interest emerged in the 17th century. In 1871,
+  the British Museum Assyriologist George Smith — best known for
+  his Gilgamesh epic work — used the Idalion bilingual's parallel
+  Phoenician text to break the syllabary open, identifying the
+  sound values of the principal characters and producing the first
+  systematic reading of a Cypriot text. The discipline of Cypriot
+  philology dates from this moment.
+
+  The inscription's content is a brief dedicatory text recording
+  the dedication of a statue at one of Idalion's sanctuaries.
+  Idalion itself was a major Phoenician colonial center on Cyprus,
+  active from the 9th century BCE through the late Hellenistic
+  period, with strong commercial and religious ties to both the
+  Levantine metropolitan cities and the Greek-Cypriot political
+  configuration. The bilingual format reflects the city's
+  bicultural reality: Phoenician for the colonial-religious
+  register, Cypriot syllabary for local administrative and
+  ceremonial use.
+
+  The artifact's relevance to Carthage is the broader Phoenician
+  diaspora context. Cyprus was one of the principal Phoenician
+  colonial spheres in the eastern Mediterranean, structurally
+  analogous to the western-Mediterranean Punic-cultural sphere
+  that Carthage led. The Idalion bilingual, the Karatepe bilingual,
+  the Cippi of Melqart, and the broader corpus of Phoenician
+  bilingual inscriptions together constitute the philological
+  foundation on which the modern study of every Phoenician-
+  cultural sphere — including Punic Carthage — rests.

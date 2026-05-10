@@ -1,0 +1,87 @@
+slug: nora-stone
+name_display: Nora Stone
+name_alt:
+  phoenician: 'BŠRDN — "in Sardinia" appears in the surviving text'
+type: inscription
+material: sandstone
+dimensions: c. 1.05 m tall
+date_made:
+  value: -800
+  precision: century
+  circa: true
+  notes: >
+    Paleographic dating places the inscription in the late 9th to
+    early 8th century BCE, making it the earliest Phoenician
+    inscription anywhere outside the Levantine homeland and the
+    foundational document of western-Mediterranean Phoenician
+    colonial activity.
+current_location: Museo Archeologico Nazionale, Cagliari (Sardinia)
+find_context:
+  site: Nora, on the southern Sardinian coast near modern Pula
+  year: 1773
+  circumstances: >
+    Discovered re-used as building material in the wall of a small
+    church near Pula in 1773. The stone had been moved from its
+    original setting at some point in the post-antique reuse of
+    the Nora site for building stone; the original installation
+    context (probably a temple precinct at Nora itself) cannot be
+    reconstructed.
+dating_method: paleographic
+languages:
+  - phoenician
+interpretation_status: contested
+principal_sources:
+  - aubet-phoenicians-west-2001
+  - quinn-phoenicians-2018
+image:
+  src: /artifacts/nora-stone.jpg
+  alt: A weathered sandstone slab carved with an archaic Phoenician inscription running in horizontal lines across its surface. The letterforms are angular and recognizable as early Phoenician.
+  credit: "Photograph: Olaf Tausch (2017), Museo Archeologico Nazionale Cagliari, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Stele_von_Nora_07.jpg
+  license: CC BY 3.0
+summary_short: >
+  A late-9th or early-8th century BCE Phoenician inscription from
+  Nora (Sardinia) — the earliest Phoenician text anywhere outside
+  the Levantine homeland. Foundational document of Tyrian
+  western-Mediterranean colonial activity.
+summary: >
+  The Nora Stone is one of the most consequential single artifacts
+  for understanding the earliest phase of Phoenician western
+  expansion. Paleographic dating places the inscription in the late
+  9th to early 8th century BCE — earlier than every other surviving
+  Phoenician inscription outside the Levant, earlier than the
+  foundation tradition would place Carthage itself, and the principal
+  physical witness to Tyrian-led Phoenician activity in the western
+  Mediterranean during the period before the great colonial
+  expansion took off in earnest.
+
+  The text itself is short, weathered, and contested. The surviving
+  letters identify the place "in Sardinia" (BŠRDN) and reference
+  what is conventionally read as a military or religious dedication.
+  Multiple translations have been proposed; the variants disagree on
+  whether the stone records a victory inscription by Pumayyaton (a
+  Tyrian king), a temple dedication, or a more generic ritual
+  commemoration. What is uncontested is the dating, the place-name
+  identification, and the inscription's status as one of the earliest
+  fully-developed Phoenician-alphabet texts anywhere.
+
+  The find context is unsatisfying. The stone was recovered in 1773
+  re-used as building material in the wall of a small church near
+  Pula on the southern Sardinian coast. Its original installation
+  setting — probably a temple precinct at Nora itself, the
+  Phoenician colonial city whose name appears on the inscription —
+  cannot be reconstructed. The stratigraphic context that would
+  pin down dating more precisely is therefore unavailable; the
+  paleographic case for the late-9th-century date rests on
+  comparison with the Ahiram, Yehimilk, and other early Levantine
+  inscriptions rather than on archaeological stratigraphy.
+
+  The artifact's relevance to Carthage is foundational: the Nora
+  Stone documents that Tyrian Phoenicians were active in the
+  western Mediterranean — establishing inscriptional, probably
+  cultic, and certainly commercial activity — at or before the
+  conventional date of Carthage's founding. The Carthage
+  foundation legend places the city's establishment by Tyrian
+  colonists in 814 BCE; the Nora Stone provides independent
+  physical evidence that Tyrian Phoenician activity in the western
+  Mediterranean at that approximate scale was already underway.
