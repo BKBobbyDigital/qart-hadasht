@@ -47,6 +47,16 @@ principal_sources:
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
+map_id: fpw
+map_caption: >
+  Strategic geography of the First Punic War. Carthaginian territory
+  (the African heartland and the Sicilian epicracy west of the
+  Halycus) in tyrian; Roman Italy and Hiero II's Syracusan kingdom in
+  slate. The dashed line traces Regulus's 256 BCE African invasion
+  route from Sicily to the landing at Aspis. Battle markers at Mylae
+  (260), Ecnomus (256), Aegates (241), and the Tunis–Bagradas
+  engagements around Regulus's 255 defeat. Territorial polygons
+  adapted from Hoyos 2010; battle locations from Goldsworthy 2003.
 last_revised: "2026-05-10"
 ---
 

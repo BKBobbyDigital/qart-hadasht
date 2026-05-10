@@ -656,6 +656,11 @@ const periods = defineCollection({
     key_themes: z.array(reference('themes')).default([]),
     /** Modern and ancient sources the synthesis draws on. */
     principal_sources: z.array(reference('sources')).default([]),
+    /** Optional map id (filename stem under src/data/maps/) to render
+     *  a historical-atlas map at the top of the period page. */
+    map_id: z.string().optional(),
+    /** Optional caption for the historical map. */
+    map_caption: z.string().optional(),
     last_revised: z.string(),
   }),
 });

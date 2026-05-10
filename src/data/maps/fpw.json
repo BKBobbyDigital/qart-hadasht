@@ -1,0 +1,72 @@
+{
+  "viewport": { "lonMin": 7.5, "lonMax": 18.0, "latMin": 34.5, "latMax": 42.5 },
+  "polygons": [
+    {
+      "name": "Carthaginian African heartland",
+      "fill": "#5b0f31",
+      "opacity": 0.28,
+      "coords": [
+        [9.2, 37.5], [10.0, 37.4], [10.7, 36.9], [11.1, 36.5], [11.0, 36.0], [10.6, 35.5], [10.2, 35.1], [9.7, 34.7], [9.0, 34.7], [8.5, 35.0], [8.3, 35.4], [8.5, 36.0], [8.8, 36.6], [9.2, 37.5]
+      ]
+    },
+    {
+      "name": "Carthaginian Sicily (epicracy)",
+      "fill": "#5b0f31",
+      "opacity": 0.28,
+      "coords": [
+        [12.43, 37.80], [12.65, 38.18], [13.20, 38.15], [13.50, 37.90], [13.65, 37.55], [13.55, 37.25], [13.30, 37.10], [12.85, 37.10], [12.55, 37.30], [12.43, 37.80]
+      ]
+    },
+    {
+      "name": "Syracusan kingdom (Hiero II)",
+      "fill": "#4b6584",
+      "opacity": 0.22,
+      "coords": [
+        [14.30, 36.70], [14.50, 37.05], [14.85, 37.30], [15.20, 37.35], [15.30, 37.55], [15.25, 37.85], [15.10, 38.10], [14.80, 38.20], [14.55, 37.95], [14.40, 37.50], [14.30, 37.10], [14.30, 36.70]
+      ]
+    },
+    {
+      "name": "Roman Italy",
+      "fill": "#4b6584",
+      "opacity": 0.22,
+      "coords": [
+        [9.0, 42.5], [10.5, 42.5], [12.3, 42.0], [13.5, 41.5], [14.5, 41.9], [15.5, 41.8], [16.5, 41.0], [17.4, 40.5], [18.0, 40.1], [17.8, 39.6], [17.0, 39.3], [16.5, 38.9], [16.3, 38.7], [16.0, 38.3], [15.65, 38.05], [15.55, 38.20], [15.85, 38.55], [16.05, 39.20], [15.80, 39.90], [15.10, 40.15], [14.45, 40.50], [13.80, 40.85], [12.85, 41.30], [11.90, 41.85], [11.00, 42.20], [9.5, 42.5], [9.0, 42.5]
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "name": "Regulus invasion of Africa, 256 BCE",
+      "color": "#5b0f31",
+      "dashed": true,
+      "arrow": true,
+      "points": [
+        [14.20, 37.25], [13.50, 36.95], [12.50, 36.70], [11.50, 36.55], [11.05, 36.45], [10.95, 36.50]
+      ]
+    }
+  ],
+  "region_labels": [
+    { "text": "ITALIA", "lon": 13.5, "lat": 41.5, "size": "large", "italic": true },
+    { "text": "SICILIA", "lon": 13.9, "lat": 37.6, "size": "small", "italic": true },
+    { "text": "AFRICA", "lon": 9.5, "lat": 35.5, "size": "small", "italic": true },
+    { "text": "SARDINIA", "lon": 9.0, "lat": 40.2, "size": "small", "italic": true },
+    { "text": "Mare Internum", "lon": 12.5, "lat": 39.5, "size": "small", "italic": true }
+  ],
+  "cities": [
+    { "name": "Qart-ḥadasht (Carthage)", "lon": 10.32, "lat": 36.86, "role": "major", "label_anchor": "right" },
+    { "name": "Utica", "lon": 10.06, "lat": 37.06, "role": "minor", "label_anchor": "left" },
+    { "name": "Hadrumetum", "lon": 10.63, "lat": 35.83, "role": "minor", "label_anchor": "right" },
+    { "name": "Lilybaeum", "lon": 12.55, "lat": 37.80, "role": "major", "label_anchor": "left" },
+    { "name": "Drepana", "lon": 12.52, "lat": 38.02, "role": "minor", "label_anchor": "top" },
+    { "name": "Panormus", "lon": 13.36, "lat": 38.12, "role": "minor", "label_anchor": "top" },
+    { "name": "Akragas", "lon": 13.59, "lat": 37.31, "role": "minor", "label_anchor": "bottom" },
+    { "name": "Messana", "lon": 15.55, "lat": 38.19, "role": "minor", "label_anchor": "right" },
+    { "name": "Syracuse", "lon": 15.29, "lat": 37.07, "role": "major", "label_anchor": "right" },
+    { "name": "Aspis (Clypea)", "lon": 11.04, "lat": 36.85, "role": "minor", "label_anchor": "right" },
+    { "name": "Roma", "lon": 12.50, "lat": 41.90, "role": "major", "label_anchor": "left" },
+    { "name": "Mylae 260", "lon": 15.23, "lat": 38.22, "role": "battle", "label_anchor": "top" },
+    { "name": "Ecnomus 256", "lon": 14.05, "lat": 37.05, "role": "battle", "label_anchor": "bottom" },
+    { "name": "Aegates 241", "lon": 12.05, "lat": 37.95, "role": "battle", "label_anchor": "left" },
+    { "name": "Tunis (Regulus 255)", "lon": 10.18, "lat": 36.80, "role": "battle", "label_anchor": "left" }
+  ]
+}

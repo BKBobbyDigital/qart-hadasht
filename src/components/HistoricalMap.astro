@@ -1,0 +1,293 @@
+---
+/**
+ * HistoricalMap.astro — server-side rendered SVG map.
+ *
+ * Renders a historical-atlas-style map: cream paper background, muted
+ * coastline-only base (no OSM tiles, no modern roads), translucent
+ * polygons for territory, route lines for campaigns, city dots and
+ * Cormorant labels for places. Pure SVG, no client JS.
+ *
+ * Coastline data is Natural Earth 50m clipped to the Mediterranean
+ * basin (lon -12 to 36, lat 28 to 47) and lives in
+ * src/data/maps/coastline-mediterranean.geojson.
+ *
+ * Map configuration (props.config) describes one map's overlay
+ * content: viewport bbox, polygons, routes, cities, region labels.
+ * See src/data/maps/fpw.json for an example.
+ */
+import coastline from '../data/coastline-mediterranean.json';
+
+interface Viewport {
+  lonMin: number;
+  lonMax: number;
+  latMin: number;
+  latMax: number;
+}
+
+interface Polygon {
+  name: string;
+  fill: string;
+  /** 0..1 */
+  opacity?: number;
+  stroke?: string;
+  coords: [number, number][];
+}
+
+interface Route {
+  name: string;
+  color: string;
+  dashed?: boolean;
+  points: [number, number][];
+  /** Optional end-of-route arrowhead. */
+  arrow?: boolean;
+}
+
+interface City {
+  name: string;
+  lon: number;
+  lat: number;
+  /** "major" = filled circle + serif label; "minor" = small circle + small label; "battle" = X marker + italic label. */
+  role: 'major' | 'minor' | 'battle';
+  /** Where label sits relative to the marker. Default 'right'. */
+  label_anchor?: 'right' | 'left' | 'top' | 'bottom';
+}
+
+interface RegionLabel {
+  text: string;
+  lon: number;
+  lat: number;
+  size?: 'large' | 'small';
+  /** Optional italic. */
+  italic?: boolean;
+}
+
+interface MapConfig {
+  viewport: Viewport;
+  polygons?: Polygon[];
+  routes?: Route[];
+  cities?: City[];
+  region_labels?: RegionLabel[];
+}
+
+interface Props {
+  config: MapConfig;
+  caption?: string;
+  height?: string;
+}
+
+const { config, caption, height = '520px' } = Astro.props;
+const v = config.viewport;
+
+// Equirectangular projection scaled so 1° longitude * cos(centerLat) ≈ 1° latitude.
+const centerLat = (v.latMin + v.latMax) / 2;
+const k = Math.cos((centerLat * Math.PI) / 180);
+
+const vbWidth = (v.lonMax - v.lonMin) * k;
+const vbHeight = v.latMax - v.latMin;
+
+function projX(lon: number): number {
+  return (lon - v.lonMin) * k;
+}
+function projY(lat: number): number {
+  return v.latMax - lat;
+}
+function projectPath(coords: [number, number][]): string {
+  return coords
+    .map((c, i) => `${i === 0 ? 'M' : 'L'}${projX(c[0]).toFixed(3)} ${projY(c[1]).toFixed(3)}`)
+    .join(' ');
+}
+function projectClosedPath(coords: [number, number][]): string {
+  return projectPath(coords) + ' Z';
+}
+
+// Build coastline path data — concatenate all LineString features. Each
+// feature becomes one M..L..L.. subpath. SVG handles bbox-clipping via
+// viewBox; lines extending outside are silently truncated.
+const coastlinePaths: string[] = [];
+for (const f of (coastline as any).features as any[]) {
+  if (f.geometry?.type === 'LineString') {
+    coastlinePaths.push(projectPath(f.geometry.coordinates as [number, number][]));
+  }
+}
+const coastlineD = coastlinePaths.join(' ');
+
+// Stroke/label sizing in user units (degrees of latitude). Tuned so that
+// at the typical Mediterranean viewport (~13°×10°) the visual weight
+// reads correctly without becoming hairline on very wide maps.
+const ref = Math.max(vbWidth, vbHeight);
+const coastStroke = ref * 0.0015;
+const polyStroke = ref * 0.0025;
+const routeStroke = ref * 0.004;
+const cityRadiusMajor = ref * 0.008;
+const cityRadiusMinor = ref * 0.005;
+const battleSize = ref * 0.012;
+const labelMajor = ref * 0.022;
+const labelMinor = ref * 0.016;
+const labelBattle = ref * 0.015;
+const regionLabelLarge = ref * 0.032;
+const regionLabelSmall = ref * 0.022;
+
+function labelOffsetFor(anchor: string | undefined, radius: number) {
+  // SVG y grows downward in our projection.
+  switch (anchor) {
+    case 'left':
+      return { dx: -radius * 1.6, dy: radius * 0.4, textAnchor: 'end' };
+    case 'top':
+      return { dx: 0, dy: -radius * 1.6, textAnchor: 'middle' };
+    case 'bottom':
+      return { dx: 0, dy: radius * 2.6, textAnchor: 'middle' };
+    case 'right':
+    default:
+      return { dx: radius * 1.6, dy: radius * 0.4, textAnchor: 'start' };
+  }
+}
+---
+
+<figure class="my-6">
+  <div
+    class="rounded-lg border border-sand-300 overflow-hidden bg-sand-100"
+    style={`height: ${height};`}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox={`0 0 ${vbWidth.toFixed(3)} ${vbHeight.toFixed(3)}`}
+      preserveAspectRatio="xMidYMid meet"
+      style="width: 100%; height: 100%; display: block;"
+      role="img"
+      aria-label={caption ?? 'Historical map'}
+    >
+      <!-- Paper background -->
+      <rect x="0" y="0" width={vbWidth} height={vbHeight} fill="#f4f0e6" />
+
+      <!-- Filled polygons render under the coastline so the coast trims them visually. -->
+      {(config.polygons ?? []).map((p) => (
+        <path
+          d={projectClosedPath(p.coords)}
+          fill={p.fill}
+          fill-opacity={p.opacity ?? 0.35}
+          stroke={p.stroke ?? p.fill}
+          stroke-width={polyStroke}
+          stroke-opacity="0.55"
+          stroke-linejoin="round"
+        />
+      ))}
+
+      <!-- Coastline -->
+      <path
+        d={coastlineD}
+        fill="none"
+        stroke="#6b5638"
+        stroke-width={coastStroke}
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        opacity="0.65"
+      />
+
+      <!-- Routes -->
+      {(config.routes ?? []).map((r) => (
+        <path
+          d={projectPath(r.points)}
+          fill="none"
+          stroke={r.color}
+          stroke-width={routeStroke}
+          stroke-dasharray={r.dashed ? `${routeStroke * 2.5} ${routeStroke * 1.8}` : undefined}
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          opacity="0.85"
+        />
+      ))}
+
+      <!-- Region labels (territory names) -->
+      {(config.region_labels ?? []).map((l) => (
+        <text
+          x={projX(l.lon)}
+          y={projY(l.lat)}
+          font-family="Cormorant Garamond, Georgia, serif"
+          font-size={l.size === 'small' ? regionLabelSmall : regionLabelLarge}
+          font-style={l.italic ? 'italic' : 'normal'}
+          font-weight="600"
+          fill="#3d3020"
+          fill-opacity="0.6"
+          text-anchor="middle"
+          letter-spacing={ref * 0.003}
+        >
+          {l.text}
+        </text>
+      ))}
+
+      <!-- City markers + labels -->
+      {(config.cities ?? []).map((c) => {
+        const cx = projX(c.lon);
+        const cy = projY(c.lat);
+        if (c.role === 'battle') {
+          const half = battleSize / 2;
+          const labelOffset = labelOffsetFor(c.label_anchor, battleSize);
+          return (
+            <g>
+              <line
+                x1={cx - half}
+                y1={cy - half}
+                x2={cx + half}
+                y2={cy + half}
+                stroke="#5b0f31"
+                stroke-width={routeStroke * 0.8}
+                stroke-linecap="round"
+              />
+              <line
+                x1={cx - half}
+                y1={cy + half}
+                x2={cx + half}
+                y2={cy - half}
+                stroke="#5b0f31"
+                stroke-width={routeStroke * 0.8}
+                stroke-linecap="round"
+              />
+              <text
+                x={cx + labelOffset.dx}
+                y={cy + labelOffset.dy}
+                font-family="Cormorant Garamond, Georgia, serif"
+                font-size={labelBattle}
+                font-style="italic"
+                fill="#5b0f31"
+                text-anchor={labelOffset.textAnchor}
+              >
+                {c.name}
+              </text>
+            </g>
+          );
+        }
+        const isMajor = c.role === 'major';
+        const radius = isMajor ? cityRadiusMajor : cityRadiusMinor;
+        const labelOffset = labelOffsetFor(c.label_anchor, radius);
+        return (
+          <g>
+            <circle
+              cx={cx}
+              cy={cy}
+              r={radius}
+              fill={isMajor ? '#3d3020' : '#ffffff'}
+              stroke="#3d3020"
+              stroke-width={polyStroke * 0.9}
+            />
+            <text
+              x={cx + labelOffset.dx}
+              y={cy + labelOffset.dy}
+              font-family="Cormorant Garamond, Georgia, serif"
+              font-size={isMajor ? labelMajor : labelMinor}
+              font-weight={isMajor ? 600 : 500}
+              fill="#3d3020"
+              text-anchor={labelOffset.textAnchor}
+            >
+              {c.name}
+            </text>
+          </g>
+        );
+      })}
+    </svg>
+  </div>
+  {caption && (
+    <figcaption class="mt-2 text-xs text-sand-700 italic leading-relaxed">
+      {caption}
+    </figcaption>
+  )}
+</figure>

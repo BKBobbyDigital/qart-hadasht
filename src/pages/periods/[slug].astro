@@ -1,6 +1,16 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HistoricalMap from '../../components/HistoricalMap.astro';
 import { getCollection, getEntry, render } from 'astro:content';
+
+// Eagerly import every map config under src/data/maps/*.json so the
+// period frontmatter `map_id` field can resolve at build time.
+const mapModules = import.meta.glob('../../data/maps/*.json', { eager: true });
+const mapConfigs: Record<string, any> = {};
+for (const [path, mod] of Object.entries(mapModules)) {
+  const stem = path.split('/').pop()!.replace(/\.json$/, '');
+  mapConfigs[stem] = (mod as any).default ?? mod;
+}
 
 export async function getStaticPaths() {
   const periods = await getCollection('periods');
@@ -56,6 +66,14 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
     </p>
     <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
     <p class="text-lg text-sand-700">{dateRange}</p>
+
+    {d.map_id && mapConfigs[d.map_id] && (
+      <HistoricalMap
+        config={mapConfigs[d.map_id]}
+        caption={d.map_caption}
+        height="520px"
+      />
+    )}
 
     <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-8 rounded-r-lg">
       <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Site synthesis</p>
