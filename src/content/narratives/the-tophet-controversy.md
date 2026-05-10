@@ -93,13 +93,17 @@ the practice they describe is real, and how much is the framing?
 The Carthaginian Tophet was rediscovered archaeologically in the
 1920s, principally through the work of French and American
 expeditions to the Salammbô district of Carthage. The site yielded
-what would become its defining feature: thousands of small stone
-stelae bearing dedicatory inscriptions to Baal Hammon and (from the
-5th century BCE forward) Tanit, with cremated remains in urns
-beneath the stelae. The remains were predominantly of very young
-individuals — neonates and small children — with smaller numbers of
-animal remains (typically lambs or kids) appearing at the same
-strata.
+what would become its defining feature: the Tophet Stelae corpus —
+thousands of small stone stelae bearing dedicatory inscriptions to
+Baal Hammon and (from the 5th century BCE forward) Tanit, with the
+Sign of Tanit and other iconographic motifs carved on the stones,
+and cremated remains in urns beneath the stelae. The remains were
+predominantly of very young individuals — neonates and small
+children — with smaller numbers of animal remains (typically lambs
+or kids) appearing at the same strata. Parallel deposits at the
+Tharros Tophet Stele site in Sardinia and at the broader
+Punic-cultural diaspora sites confirm the practice was not
+unique to Carthage.
 
 The early-20th-century interpretation was straightforward: the
 classical sources were broadly correct. The Tophet was a sacrificial

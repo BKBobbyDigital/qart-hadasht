@@ -256,7 +256,15 @@ late 8th century BCE, that had built the Mediterranean's largest
 maritime empire of the 5th to 3rd centuries BCE, that had
 produced the longest sustained military challenge to Roman power
 in the central Mediterranean, ceased to exist as an active
-political and cultural community. The Roman Carthage that
+political and cultural community. What survived archaeologically
+— the Tophet Stelae corpus, the Carthage Cothon, the Carthage
+Votive Inscription Slab corpus, the broader inscriptional and
+material record — is the residue of that ending. The Punic
+religious-cultural tradition would persist for centuries longer
+in the Numidian interior (attested by the El Hofra Stele Cache at
+Cirta and the Libyco-Punic Mausoleum of Dougga, both built in
+the period after 146 BCE), but the metropolitan city itself was
+gone. The Roman Carthage that
 Augustus would refound a century later was a different city in
 substantively different terms, on the same site but without
 continuous institutional, religious, or cultural connection to
