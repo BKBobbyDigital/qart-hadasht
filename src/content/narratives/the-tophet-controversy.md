@@ -205,10 +205,16 @@ the classical sources is no longer defensible.
 Modern overviews — **Hoyos** (2010), **Lancel** (1995), **Quinn**
 (2018) — generally report the controversy in roughly these terms,
 with individual emphasis varying by author. The encyclopedia's
-position follows this current consensus: the question is contested,
-the evidence supports a mixed reading, and confident statements in
-either direction (systematic mass sacrifice / no sacrifice at all)
-require ignoring evidence the other side preserves.
+position, formalized as the editorial take
+[Did Tophet sacrifice happen, and at what scale?](/editorialTakes/tophet-happened-scale-unrecoverable),
+is narrower than the loose "mixed-practice consensus" framing
+suggests: the practice happened (the bioarchaeology and the
+inscriptional *molk* formula together defeat the pure-cemetery
+reading), but the scale is unrecoverable. Confident statements in
+either direction — systematic mass sacrifice on the one hand, no
+sacrifice at all on the other — require ignoring evidence the
+other side preserves. So do confident statements about specific
+proportions of sacrificial-versus-funerary deposits.
 
 ## What the controversy reveals
 

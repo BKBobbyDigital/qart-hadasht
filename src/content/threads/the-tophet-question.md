@@ -65,17 +65,25 @@ deliberate:
 5. **The principal hostile-tradition sources** — read with
    appropriate caution about pro-Roman / anti-Carthaginian framing
 
-What the thread will *not* do is take a position on the question of
-whether systematic child sacrifice occurred at the Tophet. The
-encyclopedia's position is that the question is genuinely contested
-in modern scholarship and the site's role is to make the contestation
-visible rather than to resolve it. The
-[the-tophet-question theme](/themes/the-tophet-question) lays out the
-positions; the surrounding entity pages give the underlying evidence
-each position draws on.
+The site does take a position, but a narrow one. The practice
+happened — the bioarchaeology defeats the pure-cemetery revision,
+and the inscriptional *molk* formula's restriction to Tophet
+contexts argues against a generic-funerary reading. But scale is
+unrecoverable: how systematic the practice was, what fraction of
+deposits represent killed-versus-natural-death children, how the
+proportions varied across six centuries — none of this is
+settleable from the surviving evidence. The full reasoning, the
+weighed evidence, and the competing readings are treated under the
+editorial take
+[Did Tophet sacrifice happen, and at what scale?](/editorialTakes/tophet-happened-scale-unrecoverable).
+The historiographical arc of how the controversy reached this point
+is treated in the
+[Tophet controversy narrative](/narratives/the-tophet-controversy).
 
-This is one of the cases where the encyclopedia's structural
-commitment to surfacing what we don't know is most visible. The
-modern reader who wants a clear answer will not find one here. The
-modern reader who wants to understand why the answer is contested
+The [the-tophet-question theme](/themes/the-tophet-question) lays
+out the positions; the surrounding entity pages give the underlying
+evidence each position draws on. The modern reader who wants a
+clean "it did happen at scale X" or "it didn't happen at all"
+answer will not find one here. The modern reader who wants to
+understand why the practice is established but the scale is not
 will, hopefully, leave better informed.

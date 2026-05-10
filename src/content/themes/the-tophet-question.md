@@ -156,14 +156,23 @@ disagreement as settled is ahead of the evidence.
 
 ## Editorial position
 
-Where the evidence is genuinely contested, the site declines to take a
-side. The Tophet question is one of those cases. The literary
-tradition cannot simply be dismissed as ancient defamation; the
-revisionist bioarchaeology cannot simply be dismissed as modern
-apology. What can be said with confidence is that the Tophet was a
-sacred precinct, that infant remains predominate, that the *mlk*
-ritual was real, and that what exactly happened there is a question
-the evidence has not yet settled.
+The site takes a narrow position rather than declining to take one. The
+practice happened: the 2010s dental-development bioarchaeology showing a
+substantial 1–3 year age cohort defeats the pure-cemetery reading, and
+the inscriptional *mlk* formula's restriction to Tophet contexts argues
+against reading the precinct's deposits as generic funerary. But scale
+is unrecoverable. No surviving evidence supports a confident statement
+about how systematic the practice was, what fraction of deposits
+represent killed-versus-natural-death children, or how the proportions
+varied across the precinct's six centuries.
+
+The full reasoning, the weighed evidence, and the competing readings —
+universal-systematic, pure-cemetery, and specific-proportion mixed
+readings — are treated under the editorial take
+[Did Tophet sacrifice happen, and at what scale?](/editorialTakes/tophet-happened-scale-unrecoverable).
+The historiographical arc of how the controversy reached this point is
+treated separately in the
+[Tophet controversy narrative](/narratives/the-tophet-controversy).
 
 ## Sources
 
