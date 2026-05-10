@@ -63,6 +63,7 @@ const allInstitutions = await getCollection('institutions');
 const allGroups = await getCollection('groups');
 const allThemes = await getCollection('themes');
 const allDeities = await getCollection('deities');
+const allArtifacts = await getCollection('artifacts');
 const linkRegistry = buildLinkRegistry({
   events: allEvents,
   people: allPeople,
@@ -71,6 +72,7 @@ const linkRegistry = buildLinkRegistry({
   groups: allGroups,
   themes: allThemes,
   deities: allDeities,
+  artifacts: allArtifacts,
 });
 
 const principalSourceIds = (d.principal_sources ?? []).map((s: any) => s.id);

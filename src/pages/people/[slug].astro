@@ -100,6 +100,7 @@ const linkRegistry = buildLinkRegistry({
   groups: allGroups,
   themes: allThemes,
   deities: allDeities,
+  artifacts: allArtifacts,
 });
 const summaryHtml = autolink(d.summary, linkRegistry, {
   excludeKey: `person:${person.id}`,

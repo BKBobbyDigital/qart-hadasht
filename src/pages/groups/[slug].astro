@@ -26,6 +26,7 @@ const allInstitutions = await getCollection('institutions');
 const allGroups = await getCollection('groups');
 const allThemes = await getCollection('themes');
 const allDeities = await getCollection('deities');
+const allArtifacts = await getCollection('artifacts');
 const linkRegistry = buildLinkRegistry({
   events: allEvents,
   people: allPeople,
@@ -34,6 +35,7 @@ const linkRegistry = buildLinkRegistry({
   groups: allGroups,
   themes: allThemes,
   deities: allDeities,
+  artifacts: allArtifacts,
 });
 const summaryHtml = autolink(d.summary, linkRegistry, {
   excludeKey: `group:${group.id}`,
@@ -46,8 +48,7 @@ const referencingClaims = allClaims.filter((c) =>
 );
 
 // Material evidence: artifacts co-referenced with this group in any
-// of the referencing claims.
-const allArtifacts = await getCollection('artifacts');
+// of the referencing claims. (allArtifacts already loaded above.)
 const artifactSlugs = new Set<string>();
 for (const c of referencingClaims) {
   for (const e of (c.data.entities ?? []) as any[]) {

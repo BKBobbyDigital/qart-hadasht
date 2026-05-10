@@ -226,6 +226,7 @@ const linkRegistry = buildLinkRegistry({
   groups: allGroups,
   themes: allThemes,
   deities: allDeities,
+  artifacts: allArtifacts,
 });
 const summaryHtml = autolink(data.summary, linkRegistry, {
   excludeKey: `event:${event.id}`,

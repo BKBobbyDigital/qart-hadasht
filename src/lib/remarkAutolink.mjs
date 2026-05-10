@@ -32,6 +32,7 @@ const COLLECTIONS = [
   { dir: 'institutions', nameKey: 'name_display', urlPrefix: '/institutions', keyType: 'institution' },
   { dir: 'groups', nameKey: 'name_display', urlPrefix: '/groups', keyType: 'group' },
   { dir: 'deities', nameKey: 'name_display', urlPrefix: '/deities', keyType: 'deity' },
+  { dir: 'artifacts', nameKey: 'name_display', urlPrefix: '/artifacts', keyType: 'artifact' },
 ];
 
 /** Markdown-bodied collections — frontmatter under `title`, slug = filename. */

@@ -43,6 +43,7 @@ export function buildLinkRegistry(input: {
   groups?: Array<{ id: string; data: { name_display: string } }>;
   themes?: Array<{ id: string; data: { title: string } }>;
   deities?: Array<{ id: string; data: { name_display: string } }>;
+  artifacts?: Array<{ id: string; data: { name_display: string } }>;
 }): LinkRegistry {
   const raw: LinkTarget[] = [];
 
@@ -93,6 +94,13 @@ export function buildLinkRegistry(input: {
       name: d.data.name_display,
       href: `/deities/${d.id}`,
       key: `deity:${d.id}`,
+    })
+  );
+  (input.artifacts ?? []).forEach((a) =>
+    raw.push({
+      name: a.data.name_display,
+      href: `/artifacts/${a.id}`,
+      key: `artifact:${a.id}`,
     })
   );
 

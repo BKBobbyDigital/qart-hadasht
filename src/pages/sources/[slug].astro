@@ -122,6 +122,7 @@ const allInstitutions = await getCollection('institutions');
 const allGroups = await getCollection('groups');
 const allThemes = await getCollection('themes');
 const allDeities = await getCollection('deities');
+const allArtifacts = await getCollection('artifacts');
 const linkRegistry = buildLinkRegistry({
   events: allEvents,
   people: allPeople,
@@ -130,6 +131,7 @@ const linkRegistry = buildLinkRegistry({
   groups: allGroups,
   themes: allThemes,
   deities: allDeities,
+  artifacts: allArtifacts,
 });
 const summaryHtml = d.summary
   ? autolink(d.summary, linkRegistry, { excludeKey: `source:${source.id}` })
