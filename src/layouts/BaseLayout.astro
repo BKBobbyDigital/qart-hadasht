@@ -39,52 +39,54 @@ const primaryNav = [
   <body class="min-h-screen flex flex-col bg-sand-50">
 
     <!-- Editorial masthead — sealed top and bottom by tyrian rules,
-         no internal rules. Three bands flow as one continuous cream
-         block: utility row (About + Search), then masthead with
-         Phoenician + Qart-Hadasht wordmark left and Tanit + tagline
-         cluster right (center-aligned within), then primary nav with
-         pipes between every item. -->
+         no internal rules. All three bands (utility row, masthead,
+         primary nav) share one parent max-w-6xl px-6 container so the
+         bounds are guaranteed identical: Periods/wordmark/About-side
+         line up on the left, Sources/Tanit-cluster/Search line up on
+         the right. Mobile (below sm) collapses to centered stacks. -->
     <header class="bg-sand-100">
       <!-- Top tyrian rule -->
       <div class="h-[2px] bg-tyrian-700"></div>
 
-      <!-- Utility row -->
-      <div class="max-w-6xl mx-auto px-6 py-2 flex items-center justify-end gap-5 text-sm">
-        <a href="/about" class="text-ink-900 hover:text-tyrian-700 transition-colors">About</a>
-        <CmdKSearch />
-      </div>
-
-      <!-- Masthead block.
-           Desktop: Phoenician + Qart-Hadasht wordmark left, Tanit +
-           tagline cluster right with content centered within itself.
-           Mobile: wordmark on top, Tanit cluster below, both centered. -->
-      <a href="/" class="block group">
-        <div class="max-w-6xl mx-auto px-6 py-4 sm:py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-8">
-          <div class="text-center sm:text-left">
-            <p class="font-phoenician text-xl sm:text-2xl text-tyrian-700 leading-none mb-1.5">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
-            <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</h1>
-          </div>
-          <div class="flex flex-col items-center text-center shrink-0">
-            <span class="text-tyrian-700 group-hover:text-tyrian-900 transition-colors">
-              <TanitMark size={32} />
-            </span>
-            <p class="eyebrow leading-tight mt-1.5">An encyclopedia<br />of ancient Carthage</p>
-          </div>
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- Utility row -->
+        <div class="py-2 flex items-center justify-end gap-5 text-sm">
+          <a href="/about" class="text-ink-900 hover:text-tyrian-700 transition-colors">About</a>
+          <CmdKSearch />
         </div>
-      </a>
 
-      <!-- Primary nav, pipes between every item. justify-between on
-           desktop so the last item (Sources) lands at the right edge
-           of the max-w-6xl container, aligning with the Search pill
-           in the utility row directly above. Mobile wraps and centers. -->
-      <nav class="max-w-6xl mx-auto px-6 py-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-3 sm:gap-x-4 gap-y-2 text-sm font-medium text-ink-900">
-        {primaryNav.map((item, i) => (
-          <>
-            {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
-            <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
-          </>
-        ))}
-      </nav>
+        <!-- Masthead block.
+             Desktop: Phoenician + Qart-Hadasht wordmark left-bound,
+             Tanit + tagline cluster right-bound (content centered
+             within itself).
+             Mobile: stacks vertically, both centered. -->
+        <a href="/" class="block group py-4 sm:py-5">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-8">
+            <div class="text-center sm:text-left">
+              <p class="font-phoenician text-xl sm:text-2xl text-tyrian-700 leading-none mb-1.5">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
+              <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</h1>
+            </div>
+            <div class="flex flex-col items-center text-center shrink-0">
+              <span class="text-tyrian-700 group-hover:text-tyrian-900 transition-colors">
+                <TanitMark size={32} />
+              </span>
+              <p class="eyebrow leading-tight mt-1.5">An encyclopedia<br />of ancient Carthage</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Primary nav. justify-between on desktop binds Periods to
+             left edge and Sources to right edge of this same parent
+             container. Mobile wraps and centers. -->
+        <nav class="py-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-3 sm:gap-x-4 gap-y-2 text-sm font-medium text-ink-900">
+          {primaryNav.map((item, i) => (
+            <>
+              {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+              <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
+            </>
+          ))}
+        </nav>
+      </div>
 
       <!-- Bottom tyrian rule -->
       <div class="border-t border-tyrian-700"></div>
