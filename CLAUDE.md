@@ -48,8 +48,15 @@ confidence; the prose itself should not speak with God-voice.
 - **Pagefind** for client-side search (built into the postbuild step)
 - **Leaflet** for maps
 - **Two custom remark plugins**:
-  - `remarkAutolink.mjs` — auto-links entity mentions in markdown to their
-    pages, first-mention-per-entity
+  - `remarkAutolink.mjs` — auto-links entity mentions in markdown to
+    their pages, first-mention-per-entity. Reads frontmatter from
+    every entity collection (events, people, places, institutions,
+    groups, deities, themes, artifacts) at build time and rewrites
+    matching text nodes into `<a>` links. Mirrored at runtime by
+    `src/lib/autolink.ts` for entity-page summary `set:html` prose;
+    both share the same accept/reject rules (whole-word match,
+    longest-match-wins, ambiguous-name skip, first-mention-per-key,
+    `excludeKey` for self-references).
   - `remarkCitations.mjs` — auto-links ancient-source citation patterns
     (Polybius 3.22, Plutarch *Cato Major* 27, etc.) to source pages
 
@@ -66,6 +73,7 @@ Located in `src/content/`. The schema is in `src/content/config.ts`.
 | `claims` | data | **Atomic** factual statements with citations and confidence |
 | `editorialTakes` | data | The site's own labeled positions on contested questions |
 | `openQuestions` | data | What we don't know — gaps as first-class entities |
+| `artifacts` | data | Material culture (stelae, coins, inscriptions, ships) — first-class evidence, parallel to sources |
 | `narratives` | content (md) | Long-form interpretive prose (biographies, debates, event arcs) |
 | `themes` | content (md) | Cross-cutting topics (religion, agriculture, governance, etc.) |
 | `periods` | content (md) | Era-level synthesis (7 chronological periods) |
@@ -258,6 +266,13 @@ Key components in `src/components/`:
 - `Infobox.astro` — right-rail Quick facts panel; supports `emptyLabel`
   override (use `'none'` for count rows, default `'unknown'` for
   date/categorical rows)
+- `Bibliography.astro` — auto-derives per-entity "Further reading"
+  list from `relatedClaims`; splits ancient sources / modern
+  scholarship; sorts by citation count desc; honors optional
+  `principalSourceIds` (for entities with curated `principal_sources`)
+- `MaterialEvidence.astro` — surfaces artifacts on entity pages via
+  two derivation paths: (a) artifact frontmatter `referenced_themes`
+  for theme pages, (b) claim co-occurrence for everyone else
 - `ConfidenceBadge.astro` — claim confidence chip
 - `EditorialConfidenceChip.astro` — editorial take confidence chip
 - `SourceDistance.astro` — temporal-distance chip on cited sources
@@ -279,57 +294,99 @@ Cards are default; tables are forced to cards on mobile.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles.
+parked until the day version settles. The site is ~557 pages.
 
-Most recent significant work:
-1. Visual redesign Phase 1+2 — cream canvas, tyrian rules, Tanit mark,
-   bigger headlines, eyebrow labels, hover/click states
-2. Inline source citations across narrative/theme/period prose via
+Major work shipped (most recent first):
+
+**Artifacts collection — 39 entries with deep site integration**
+First-class `artifacts` content collection with detail pages, image-card
+index, Wikimedia-sourced photography (~38 of 39 entries imaged), and
+full bibliographic / material-evidence cross-referencing. Schema covers
+material, dimensions, find_context, dating_method, languages,
+interpretation_status, and an image block with src/alt/credit/license.
+Render at `/artifacts/<slug>`. Wired into masthead nav after Sources.
+Includes a `MaterialEvidence.astro` component on every entity render
+route that derives artifact connections via (a) theme frontmatter
+`referenced_themes` linkage and (b) claim co-occurrence — if a claim
+references both an entity and an artifact, the artifact surfaces as
+material evidence on the entity page. Heavy in-prose interlinking via
+autolink (artifacts registered in both `src/lib/autolink.ts` and
+`src/lib/remarkAutolink.mjs`); 195+ artifact links rendered across
+the dist/ tree as of last update.
+
+**Editorial header (every page)**
+Unified masthead with utility row (About + Search), big Qart-Hadasht
+wordmark + Phoenician script left-aligned, Tanit mark + tagline
+center-aligned right, primary nav with pipes between every item.
+`max-w-4xl` content bound throughout for one consistent column.
+
+**Page-header standardization**
+Every landing/index page uses one canonical pattern (max-w-4xl,
+`text-4xl sm:text-5xl mb-3` h1, sand-700 description mb-8).
+
+**Color discipline — epistemic signal only**
+Color reserved for two ordinal scales: claim confidence (filled chip,
+primary) and source distance (hairline chip, secondary). All
+category-color usage (Start Here chips, thread cards, event-type
+badges) neutralized. Editorial-confidence chip on graduated slate.
+
+**Source-weaving (three phases complete)**
+1. Inline citations across narrative/theme/period prose via
    `remarkCitations.mjs`
-3. Tophet narrative (`/narratives/the-tophet-controversy`) — historiographical
-   arc rather than position-taking essay
-4. Infobox audit — `emptyLabel` distinction between "unknown" (genuine
-   missing fact) and "none" (count = 0); inappropriate rows suppressed
-   per entity-type
-5. Theme pages reworked as hubs with quick-jump navigation
-6. Cmd-K search modal global component
-7. Threads collection (curated reading paths) — 7 threads
-8. Period pages — 7 era synthesis pages with structured sidebars
+2. Enriched source pages with passage-digest "What this source
+   preserves" sections
+3. `/methodology` page explaining confidence vocabulary, source
+   distance, stance vocabulary, editorial-take framework
+
+**Per-page bibliography**
+`Bibliography.astro` component auto-derives a per-entity reading list
+from the claims that reference it, split into Ancient sources and
+Modern scholarship, sorted by citation count desc.
+
+**Contact form**
+Netlify Forms-based contact form at `/about` (Name / Title / Email /
+Message + honeypot), submissions routed to email + Netlify dashboard.
+Thanks page at `/thanks`. `public/__forms.html` stub guarantees Netlify
+form detection on the static-site build.
+
+**Security and provenance hardening**
+- robots.txt categorizes crawlers: allow traditional search + AI
+  live-answer (ChatGPT-User, Claude-Web, PerplexityBot, Applebot,
+  OAI-SearchBot, YouBot); block AI training (GPTBot, ClaudeBot,
+  CCBot, Google-Extended, Bytespider, FacebookBot, meta-externalagent,
+  Diffbot, Omgilibot, ImagesiftBot, cohere-ai, Amazonbot)
+- HTTP headers: HSTS (1y, includeSubDomains), Permissions-Policy
+  (camera/mic/geolocation/payment/USB/sensors all off), X-Robots-Tag
+  noai/noimageai
+- HTML provenance markers: `<meta name="robots" content="noai, noimageai">`,
+  Schema.org JSON-LD WebSite block, HTML comment signature on every page
+- 2FA enabled on GitHub / Netlify / domain registrar (user-side, done)
+
+**Earlier shipped work (still relevant)**
+- Inline source citations across narrative/theme/period prose
+- The Tophet narrative (`/narratives/the-tophet-controversy`) —
+  historiographical arc rather than position-taking essay
+- Infobox audit — `emptyLabel` distinction between "unknown" (genuine
+  missing fact) and "none" (count = 0)
+- Theme pages reworked as hubs
+- Cmd-K search modal global component
+- Threads collection (curated reading paths) — 7 threads
+- Period pages — 7 era synthesis pages
+- Smaller content gaps filled: places (Lepcis Magna, Hadrumetum,
+  Byrsa), Iberian groups (Olcades, Vaccaei, Carpetani, Lacetani),
+  events (Battle of the Insubres, Annual Tyre Delegation), Hanno the
+  Great upgrade, *ius fetiale* claim
 
 ---
 
 ## Outstanding work
 
-### Recently completed (no longer pending)
-- ✅ Source-weaving Phase 2 — enriched source pages with passage digests
-- ✅ Source-weaving Phase 3 — `/methodology` page
-- ✅ Per-page bibliography ("Further reading") via `Bibliography.astro`
-- ✅ Artifacts collection — 19 entries with Wikimedia images (Tier 1 + 2)
-- ✅ Material evidence wire-up — `MaterialEvidence.astro` on all entity types
-- ✅ Contact form via Netlify Forms (`/about` + `/thanks`)
-- ✅ Security hardening — robots.txt, HSTS, Permissions-Policy, AI-training opt-out, Schema.org provenance, HTML comment signature
-- ✅ Most "smaller content gaps" — places (Lepcis Magna, Hadrumetum, Byrsa), Iberian groups (Olcades, Vaccaei, Carpetani, Lacetani), events (Battle of the Insubres, Annual Tyre Delegation), Hanno the Great upgrade, *ius fetiale* claim
-- ✅ Header redesign, page-header standardization, em dash discipline
-
 ### Still pending — the active work list
 
 **Time-aware territorial maps** — Carthaginian extent at 550 / 264 /
 218 / 202 / 146 BCE. Five polygons across time on a Leaflet map.
-Significant lift, big visual payoff. The largest remaining item.
-
-**Tier 3 artifact expansion** — 10+ more artifacts beyond the 19
-already shipped (Tier 1 + Tier 2). Candidates from earlier scoping:
-Khelibia bronze plaques, Sidi Bou Said stelae, Sulci Tophet stelae,
-Punic seals (cylinder/stamp), Aegates Islands warship rams (recent
-underwater finds), Punic anchor stocks, Carthaginian incense altars,
-Karatepe bilingual, Punic mosaics at Kerkouane. Subject to
-Wikimedia image availability.
-
-**Claim-artifact wire-up expansion** — go through existing claims and
-add `entities: [{type: artifact, slug: X}]` references where
-appropriate so more entity pages surface their Material Evidence.
-Example: the Carthage place page doesn't yet show artifacts because
-no claims tag both `place: carthage` and an artifact.
+Significant lift, big visual payoff. The largest remaining item from
+the original work list.
 
 **Editorial takes elevated from existing prose** — read narratives,
 themes, periods; lift strongest implicit positions into formal
@@ -337,6 +394,17 @@ themes, periods; lift strongest implicit positions into formal
 
 **Richer deity infobox** — schema addition (sanctuary, iconography
 fields) + content sweep across all deity YAMLs.
+
+**Further artifact integration** — the heavy wire-up is done (themes,
+periods, key places/events/people, Tophet and destruction narratives
+all reference relevant artifacts). Remaining integration is
+diminishing-returns work: more narratives (young-hannibal,
+hamilcar-life, indibilis-and-mandonius), more deities (Tanit/Baal
+Hammon/Melqart/Eshmun summaries), more event pages (founding,
+Annual Tyre Delegation, Mercenary War), more claim
+passage_summaries. Each individual edit is small and the autolink
+plus MaterialEvidence components do most of the structural work
+automatically.
 
 **Marcus Atilius Regulus / co-envoys of 218 BCE** — different Atilius
 from the existing FPW prisoner page; could be a small new people entry.
@@ -433,7 +501,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of last session it was around **505 pages**. New entity
+output. As of last session it was around **557 pages**. New entity
 additions will increase it; render-page additions for already-existing
 collections will increase it dramatically.
 
