@@ -470,6 +470,34 @@ const deities = defineCollection({
   }),
 });
 
+// ─── Periods, era-level synthesis pages ───────────────────────────────────────
+//
+// The narrative connective tissue between the entity collections. Each period
+// is markdown prose tying the events, people, and themes of an era into a
+// coherent arc. Frontmatter declares the constituent entities so the render
+// page can produce a structured "in this period" sidebar / footer.
+
+const periods = defineCollection({
+  type: 'content', // markdown
+  schema: z.object({
+    title: z.string(),
+    /** Negative for BCE. Used for chronological ordering. */
+    start_year: z.number().int(),
+    end_year: z.number().int(),
+    /** Short prose summary for the index card and the page subtitle. */
+    summary: z.string(),
+    /** Curated principal events of the era; not exhaustive. */
+    key_events: z.array(reference('events')).default([]),
+    /** Curated principal figures. */
+    key_people: z.array(reference('people')).default([]),
+    /** Curated principal places. */
+    key_places: z.array(reference('places')).default([]),
+    /** Themes whose treatment is anchored in this period. */
+    key_themes: z.array(reference('themes')).default([]),
+    last_revised: z.string(),
+  }),
+});
+
 // ─── Export ───────────────────────────────────────────────────────────────────
 
 export const collections = {
@@ -486,4 +514,5 @@ export const collections = {
   themes,
   institutions,
   deities,
+  periods,
 };

@@ -1,0 +1,217 @@
+---
+title: Inter-war and the Iberian project
+start_year: -241
+end_year: -218
+summary: >
+  The twenty-three years between the Treaty of Lutatius and Hannibal's
+  crossing of the Ebro. The most intensely transformative period of
+  Carthaginian history outside the Punic Wars themselves: the
+  Mercenary War nearly destroying the city, the Roman seizure of
+  Sardinia, and the Barcid family's reconstruction of Carthaginian
+  power through systematic Iberian conquest.
+key_events:
+  - mercenary-war
+  - mutiny-at-sicca
+  - battle-of-bagradas-238
+  - battle-of-the-saw
+  - sardinian-seizure
+  - hamilcars-iberian-conquest
+  - hasdrubal-the-fairs-command
+  - founding-of-carthago-nova
+  - ebro-treaty
+  - death-of-hamilcar-at-helike
+  - assassination-of-hasdrubal-the-fair
+  - hannibals-olcades-campaign
+  - hannibals-vaccaei-campaign
+  - battle-of-the-tagus
+  - siege-of-saguntum
+  - roman-embassy-to-hannibal-219
+key_people:
+  - hamilcar-barca
+  - hanno-the-great
+  - spendius
+  - mathos
+  - autaritus
+  - naravas
+  - hasdrubal-the-fair
+  - hannibal-barca
+  - hasdrubal-barca
+  - mago-barca
+key_places:
+  - sicca
+  - bagradas-river
+  - sardinia
+  - iberia
+  - carthago-nova
+  - ebro-river
+  - helike
+  - tagus-river
+  - saguntum
+key_themes:
+  - carthaginian-economy
+  - carthaginian-agriculture
+  - slavery-and-labor
+last_revised: "2026-05-10"
+---
+
+The twenty-three years between the [Treaty of Lutatius](/events/treaty-of-lutatius)
+in 241 BCE and Hannibal's crossing of the Ebro in spring 218 are the
+most intensely transformative period of Carthaginian history outside
+the Punic Wars themselves. Within months of the Lutatius settlement
+Carthage faced an existential internal crisis that nearly destroyed the
+city; within years it had lost Sardinia and Corsica to opportunistic
+Roman seizure; within a decade it had begun the Iberian conquest that
+would reconstruct its strategic position; and by the period's close it
+had produced — through the Barcid family's persistent operation outside
+direct senatorial control — a military commander whose Italian campaign
+would bring Rome closer to defeat than any other in the surviving
+record.
+
+## The Mercenary War
+
+The [Mercenary War](/events/mercenary-war) of 241-237 BCE — Polybius's
+*aspondos polemos*, "truceless war" — was the most existentially
+dangerous conflict Carthage faced before 149 BCE. Its proximate cause
+was Carthage's inability to pay accumulated back wages on the army's
+return from Sicily; its structural cause was the Libyan tribute and
+recruitment regime that gave the rural population an immediate interest
+in joining a mercenary revolt against the state.
+
+The war's trigger was the [mutiny at Sicca](/events/mutiny-at-sicca) in
+late 241, in which the Carthaginian government — short of cash from the
+Lutatius indemnity and unable to settle the back pay promptly —
+transferred the mercenary contingents inland on the calculation that
+distance would suppress collective bargaining. The calculation failed
+catastrophically: the assembled army consolidated its grievances rather
+than dispersing them, identified leadership in [Spendius](/people/spendius)
+the Campanian (a deserter from Roman service who feared extradition),
+[Mathos](/people/mathos) the Libyan (who feared reprisal for past
+collective protests), and [Autaritus](/people/autaritus) (the Gallic
+contingent leader), and marched on Carthage from the interior.
+
+Libyan rural communities adhered to the rebellion in substantial
+numbers — Polybius reports 70,000 — transforming what began as a
+mercenary mutiny into a general anti-Carthaginian rising. The revolt
+revealed the Carthaginian state's dependence on a coerced rural Libyan
+economy that could revolt under stress, and produced what the surviving
+sources unanimously treat as the most brutal sustained conflict of the
+period: systematic mutilation, ritualized execution, and reciprocal
+atrocity by both sides.
+
+The recovery began with [Hamilcar Barca](/people/hamilcar-barca)'s
+transfer to overall command in 240 BCE. His
+[manoeuvre across the Bagradas](/events/battle-of-bagradas-238) broke
+the rebel siege of Utica; the [defection of Naravas](/people/naravas)
+of the Massylian Numidians in 239 with 2,000 cavalry consolidated the
+turn; and the climactic envelopment at the
+[Saw](/events/battle-of-the-saw) in late 238 destroyed Spendius's
+principal army through siege and starvation. The remaining rebellion
+under Mathos was contained and destroyed by 237 BCE.
+
+## The Sardinian seizure
+
+While Carthage was absorbed in the Mercenary War, Rome seized
+[Sardinia](/places/sardinia) and Corsica from the Carthaginian-imposed
+mercenary garrison that had also revolted. The
+[Sardinian seizure](/events/sardinian-seizure) of 238 BCE was
+opportunistic Roman exploitation of Carthaginian distraction and a
+clear violation of the Lutatius Treaty's terms; Polybius (3.10) treats
+it as the principal Carthaginian grievance against Rome that produced
+the strategic motivation for the Second Punic War. The seizure stripped
+Carthage of an island it had held for nearly three centuries, the
+agricultural and mineral resources that had formed important state
+revenue components, and a strategic position commanding the central
+Mediterranean. Rome's payment for the seizure was an additional 1,200
+talents in indemnity demanded under threat of renewed war — a demand
+the post-Mercenary-War Carthaginian state could not refuse.
+
+## The Iberian project
+
+The Mercenary War's most structurally consequential outcome was the
+political authority it produced for [Hamilcar](/people/hamilcar-barca)'s
+faction. Hamilcar's reputation as the indispensable Carthaginian
+commander of his generation, combined with the senatorial position
+that the post-war reconstruction required new resource bases, produced
+authorization for the [Iberian conquest](/events/hamilcars-iberian-conquest)
+in 237 BCE — over the parallel senatorial coalition under
+[Hanno the Great](/people/hanno-the-great) that opposed it.
+
+Hamilcar's nine-year command (237-228 BCE) transformed the Carthaginian
+position in the western Mediterranean from the post-war contraction
+of the 230s into the resource base that would fund the Second Punic
+War a generation later. The campaign's military phase produced
+Carthaginian conquest of southern Iberia; the economic phase, at least
+as significant, produced the silver-mine revenue that funded everything
+that followed. Hamilcar's [death at Helike](/events/death-of-hamilcar-at-helike)
+in 228 BCE — drowned during a withdrawal from a Vettonian ambush —
+ended the campaign's first phase.
+
+Command passed to his son-in-law [Hasdrubal the Fair](/people/hasdrubal-the-fair),
+whose [seven-year command](/events/hasdrubal-the-fairs-command) (228-221
+BCE) was structurally distinctive: where Hamilcar had favored military
+conquest, Hasdrubal favored political integration through marriage
+alliance with Iberian aristocracy and the
+[foundation of Carthago Nova](/events/founding-of-carthago-nova) as a
+new Carthaginian Iberian capital. The
+[Ebro Treaty](/events/ebro-treaty) of 226 BCE — Hasdrubal's
+negotiation with a Roman embassy concerned about the expanding Iberian
+project — established the Ebro river as the northern limit of
+Carthaginian operations. Whether the treaty also addressed
+[Saguntum](/places/saguntum)'s status as a Roman ally south of the
+Ebro is genuinely contested in the surviving sources and would become
+the central diplomatic question of the next decade.
+
+Hasdrubal's [assassination](/events/assassination-of-hasdrubal-the-fair)
+in 221 BCE produced the irregular succession to
+[Hannibal Barca](/people/hannibal-barca): command in Iberia passed by
+acclamation of the Iberian field army rather than by Carthaginian
+senatorial appointment, with the senate ratifying after the fact. The
+succession is one of the more striking surviving instances of Barcid
+army politics — the field army treating its succession as its own to
+determine — and a structural preview of the autonomy with which Hannibal
+would conduct the Iberian and Italian campaigns over the next two
+decades.
+
+## The pre-Italy campaigns
+
+Hannibal's first three years of command (221-219 BCE) are the
+operational shakedown that produced the army that would cross the Alps.
+The [Olcades campaign](/events/hannibals-olcades-campaign) of 221
+established his independent command authority; the
+[Vaccaei campaign](/events/hannibals-vaccaei-campaign) of 220 extended
+operations far beyond previous Barcid expeditions; and the
+[Battle of the Tagus](/events/battle-of-the-tagus) in 220 — the
+defeat of a Carpetani-Vaccaei-Olcadian coalition Polybius reports at
+100,000 through a textbook river-line manoeuvre with elephant screen
+and Numidian cavalry envelopment — eliminated the principal organized
+Iberian opposition to Carthaginian expansion.
+
+The Tagus engagement is the operational template for Trebia,
+Trasimene, and Cannae: combined-arms use of terrain as tactical
+instrument, controlled defeat-in-detail of a numerically superior
+opponent, the cavalry envelopment reserve that defines Hannibalic
+tactics. Polybius does not himself draw the connection — he treats the
+Tagus and Italian engagements separately — but modern reconstructions
+treat the continuity of method as substantive.
+
+## The diplomatic rupture
+
+The period closes with the diplomatic sequence that opened the Second
+Punic War: the [siege of Saguntum](/events/siege-of-saguntum) in 219
+BCE — Hannibal's eight-month siege and destruction of a Roman ally,
+formally consistent with the Ebro Treaty's geographic terms but
+contested under the Saguntine-immunity question — followed by the
+[Roman embassy](/events/roman-embassy-to-hannibal-219) of 219 BCE to
+Hannibal's siege camp and to the Carthaginian senate. The embassy's
+failure produced the second embassy of spring 218 BCE and the
+[formal declaration of war](/events/roman-declaration-of-war-218).
+
+By spring 218, the inter-war period was over. The Carthaginian state
+that emerged from the Mercenary War was substantially the Carthaginian
+state that would fight the Second Punic War, but its strategic
+configuration had been reshaped — through the Iberian conquest, through
+the Barcid family's accumulated political authority, through the
+Sardinian grievance — into something the post-Lutatius generation
+could not have predicted. Hannibal's army was already mobilizing for
+the Italian campaign that would test the limits of what the
+Carthaginian state could project.
