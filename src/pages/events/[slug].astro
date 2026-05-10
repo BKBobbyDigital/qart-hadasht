@@ -154,6 +154,7 @@ const era = data.date_start.value < 0 ? 'BCE' : 'CE';
 
 <BaseLayout title={data.name} description={data.summary}>
   <article class="max-w-3xl mx-auto px-6 py-12">
+    <span hidden data-pagefind-filter="type:Events" data-pagefind-meta="type:Event"></span>
     <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">{data.type}</p>
     <h1 class="font-serif text-4xl mb-3">{data.name}</h1>
     <p class="text-lg text-sand-700">
