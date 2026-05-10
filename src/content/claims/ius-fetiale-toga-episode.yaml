@@ -1,0 +1,83 @@
+slug: ius-fetiale-toga-episode
+statement: >
+  The "toga episode" of the 218 BCE Roman embassy at Carthage —
+  Quintus Fabius Maximus folding his toga to offer the Carthaginian
+  senate the choice of "war or peace" — was a stylized Roman
+  fetial-priestly ritual rather than a spontaneous diplomatic
+  gesture. The episode draws on the *ius fetiale*, the religiously-
+  framed Roman legal procedure for declaring war.
+confidence: inferred
+scholarly_consensus: >
+  Modern scholarship generally reads the toga episode as a
+  fetial-derived ritual; the ancient sources preserve the gesture
+  but do not unpack its religious-legal background, and the
+  inference is essentially modern. The reading is well-supported by
+  what is known of fetial procedure from other contexts (Livy's
+  archaic Roman material, Cicero's De Officiis, late-republican
+  ritual references) but is not directly stated in the 218 BCE
+  source narratives themselves.
+dispute_summary: >
+  The minority position is that the gesture was idiosyncratic to
+  Fabius — a personal rhetorical flourish rather than a fetial
+  ritual. The two readings are difficult to adjudicate from the
+  surviving evidence: Polybius and Livy preserve the dramatic
+  gesture without commenting on its ritual genealogy, and what
+  survives of fetial procedure is itself reconstructed from
+  scattered later references rather than from a continuous
+  archaic tradition. The mainstream reading of fetial-derived
+  ritual is the safer one because it accounts for the gesture's
+  formality and its acceptance by both sides as legally
+  consequential, but the personal-flourish reading cannot be
+  definitively excluded.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.20-21, 3.33"
+    passage_summary: >
+      Polybius gives the diplomatic sequence of the 218 embassy
+      and preserves the Roman senate's framing of the alternatives
+      as a ritual offer rather than a negotiation. He does not
+      explicitly invoke the fetiales but the procedure he
+      describes is consistent with fetial-priestly form.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.18"
+    passage_summary: >
+      Livy's account preserves the toga gesture in its dramatic
+      form: Fabius gathers the fold of his toga and tells the
+      Carthaginian senate that he carries war and peace within
+      it, and that they may choose. The Carthaginian response
+      and Fabius's release of the war fold is preserved as an
+      explicit ritual exchange.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos's Unplanned Wars treats the embassy at length and
+      reads the toga gesture as a fetial-derived ritualized
+      declaration of war, framing the religiously-sanctioned
+      formality as a key feature of the Roman late-republican
+      war-declaration tradition.
+entities:
+  - type: event
+    slug: roman-declaration-of-war-218
+    role: subject
+  - type: person
+    slug: fabius-maximus-cunctator
+    role: agent
+  - type: institution
+    slug: carthaginian-senate
+    role: location
+notes: >
+  The fetiales were a college of Roman priests whose responsibilities
+  included the ritual procedure for declaring war: a formal demand
+  for redress (rerum repetitio), a 33-day waiting period for
+  satisfaction, and — if no satisfaction was received — a ritual
+  declaration of war (indictio belli) traditionally performed by
+  hurling a sacred spear into enemy territory. By the late
+  third century the spear-hurling procedure had been
+  symbolicized — performed at a designated plot near the temple
+  of Bellona in Rome rather than at the actual frontier — but
+  the underlying ritual logic remained operative in
+  diplomatic-procedural form. The toga episode at Carthage in
+  218 BCE is generally read as the ritual-procedural surface of
+  a substantively fetial declaration.
