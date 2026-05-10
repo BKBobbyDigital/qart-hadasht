@@ -1,0 +1,58 @@
+slug: mamertine-appeal-265
+name: The Mamertine Appeal (265 BCE)
+type: political
+date_start:
+  value: -265
+  precision: year
+  notes: >
+    Late 265 or very early 264 BCE, after Hiero II's
+    Sicilian campaign against the Mamertines had reduced
+    them to defending Messana itself.
+place: messana
+participants:
+  - person: hiero-ii
+    role: pressing the Mamertines toward collapse
+    side: Syracuse
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+related_events:
+  - event: mamertine-seizure-of-messana
+    relation: produced the conditions for (the seized city now under threat)
+  - event: first-punic-war-outbreak
+    relation: trigger of (the appeal that the senate and comitia would respond to)
+summary: >
+  The Mamertine appeal of late 265 / early 264 BCE — the
+  diplomatic act that triggered the political crisis at Rome
+  and Carthage from which the First Punic War emerged.
+
+  By 265 BCE Hiero II of Syracuse, who had been campaigning
+  against Mamertine raiding for several years, had defeated
+  the Mamertines in the field and reduced them to defending
+  Messana itself. With the city's fall imminent, the
+  Mamertine leadership made the decision to appeal for
+  external protection. The appeal was directed both to
+  Carthage (the long-standing Mediterranean power with
+  Sicilian interests) and to Rome (the Italian power that
+  had recently established itself in southern Italy after
+  the Pyrrhic War). The duplicity is itself notable: the
+  Mamertines were simultaneously offering submission to two
+  powers whose Sicilian-Italian relationship was governed
+  by the 279 cooperation treaty.
+
+  Carthage responded first and substantively: a Carthaginian
+  garrison under a commander named Hanno was established
+  at Messana, with the apparent logic of preserving a
+  northeastern-Sicilian buffer against Hieronian Syracuse.
+  Rome's response was delayed by the senatorial debate the
+  appeal produced, and arrived in 264 BCE in the form of
+  Appius Claudius Caudex's expedition.
+
+  The appeal's significance lies in what it triggered
+  rather than in itself. The Mamertine decision to appeal
+  to two powers simultaneously, the Carthaginian decision
+  to garrison Messana, the Roman decision to dispatch a
+  consular army across the Strait — each was responding to
+  a real local crisis but cumulatively constituted the
+  rupture of the post-Pyrrhic-War cooperation framework.

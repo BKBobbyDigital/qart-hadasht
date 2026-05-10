@@ -42,6 +42,14 @@ related_events:
       makes its 264 collapse particularly stark: Carthage and
       Rome had been formal coalition partners against Pyrrhus
       fifteen years earlier, and now stood at the brink of war.
+  - event: mamertine-seizure-of-messana
+    relation: pre-history of (~289-288 BCE seizure that produced the Mamertine polity)
+  - event: mamertine-appeal-265
+    relation: trigger of (the late 265 appeal to Carthage and Rome)
+  - event: appius-claudius-crossing
+    relation: operational act of (the 264 Roman crossing of the Strait)
+  - event: philinus-treaty-controversy
+    relation: contested under (the alleged 306 treaty Philinus claimed the FPW outbreak violated)
 summary: >
   The political crisis of 265–264 BCE that produced Rome's first
   overseas war and the first of the three Punic Wars. The trigger was

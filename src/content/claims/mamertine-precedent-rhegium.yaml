@@ -1,0 +1,42 @@
+slug: mamertine-precedent-rhegium
+statement: >
+  The Roman decision to intervene on behalf of the Mamertines
+  is structurally awkward because Rome had recently — c. 270
+  BCE — recaptured and severely punished a Roman Campanian
+  garrison that had pulled the same trick at Rhegium that
+  the Mamertines had pulled at Messana. The Rhegium
+  garrison's leaders had been executed; their men had been
+  scourged and beheaded. To then accept the Mamertine appeal
+  in 264 BCE meant defending a polity Rome had recently
+  punished its own citizens for joining. The contradiction
+  is preserved in Polybius's narrative and is one of the
+  reasons the senatorial debate could not reach agreement.
+confidence: attested
+scholarly_consensus: >
+  The Rhegium precedent and its political-rhetorical weight
+  in the 264 debate are firmly attested in Polybius and
+  broadly accepted. The structural reading — that the
+  contradiction is part of why the FPW outbreak required
+  comitia override of senatorial hesitation — is the
+  consensus modern interpretation.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.7-11"
+    passage_summary: >
+      Polybius narrates the Rhegium episode and explicitly
+      notes the parallel and contradiction with the
+      Mamertine case in the senate's debate.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos treats the Rhegium contradiction as central to
+      understanding the senatorial debate's character and
+      the comitia's eventual override.
+entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: subject
+  - type: event
+    slug: mamertine-appeal-265
+    role: subject

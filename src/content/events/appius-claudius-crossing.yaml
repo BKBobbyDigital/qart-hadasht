@@ -1,0 +1,71 @@
+slug: appius-claudius-crossing
+name: Appius Claudius Caudex's Crossing of the Strait
+type: expedition
+date_start:
+  value: -264
+  precision: year
+  notes: >
+    Mid 264 BCE. The crossing was conducted in stages, with
+    advance forces preceding the main expedition. The exact
+    chronology of the spring-summer 264 deployment is not
+    fully reconstructable.
+place: messana
+participants:
+  - person: appius-claudius-caudex
+    role: commander
+    side: Roman
+  - person: hiero-ii
+    role: opposing commander (initially)
+    side: Syracuse
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - hoyos-unplanned-wars-1998
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: mamertine-appeal-265
+    relation: produced by (the appeal whose Roman acceptance produced the expedition)
+  - event: first-punic-war-outbreak
+    relation: operational act of (the actual military deployment)
+  - event: pyrrhic-war-treaty
+    relation: superseded by (the cooperation framework whose collapse the crossing represents)
+summary: >
+  The Roman military operation that turned the political
+  crisis of 265–264 into open Roman-Carthaginian war: the
+  consul Appius Claudius Caudex's crossing of the Strait of
+  Messina with a Roman expeditionary army in mid 264 BCE.
+  This was the first time a Roman army had ever deployed
+  outside the Italian peninsula. The crossing required
+  shipping Caudex did not himself control; Polybius records
+  the use of vessels supplied by Greek allies and possibly
+  Etruscan merchant shipping, an improvised arrangement that
+  reflects the limited Roman naval infrastructure of the
+  period.
+
+  The operational sequence:
+
+  1. **Initial passage of advance forces** under Caius
+     Claudius (a military tribune), who reached Messana
+     before the main consular force.
+  2. **Negotiation with the Carthaginian garrison** under
+     Hanno: a tense political-military standoff in which
+     the Carthaginians initially withdrew (Polybius's
+     account) or were expelled by the Mamertines (Diodorus's
+     variant).
+  3. **Caudex's main force crossing**, with the army now
+     established at Messana.
+  4. **Engagement with Hiero's Syracusan force**, which had
+     advanced to contest the Roman position. Caudex
+     defeated Hiero in a series of engagements, forcing
+     Hiero to terms by 263 BCE — but not before the
+     Carthaginian senate had committed to general war and
+     dispatched the major fleet operations that defined the
+     conflict's first phase.
+
+  The crossing is the structural pivot of the entire
+  Punic-Wars sequence. Before mid 264, Roman military
+  capacity was an Italian-peninsula configuration; after
+  mid 264, Rome was operating in Sicily with the
+  expeditionary capacity that would carry through to the
+  destruction of Carthage 118 years later.

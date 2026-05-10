@@ -1,0 +1,69 @@
+slug: philinus-treaty-existence-disputed
+statement: >
+  Whether a fourth Roman-Carthaginian treaty existed before
+  264 BCE — distinct from the 509, 348, and 279 treaties
+  Polybius preserves — is genuinely disputed in the surviving
+  record. Philinus of Akragas (a contemporary Sicilian-Greek
+  historian) cited a c. 306 BCE treaty in which Rome agreed
+  to stay out of Sicily and Carthage agreed to stay out of
+  Italy. Polybius (3.26) denies the treaty existed at all.
+  Modern scholarship has largely accepted Polybius's denial
+  while acknowledging the controversy's significance for the
+  First Punic War's causation.
+confidence: contested
+dispute_summary: |
+  The contestation is fundamental: not about a treaty's
+  *terms* but about whether it existed at all.
+
+  1. **Polybius's denial (consensus):** The alleged treaty
+     does not appear in the Roman archive evidence Polybius
+     consulted. Its terms as Philinus reports them are
+     structurally inconsistent with the 348 and 279 treaties
+     Polybius does preserve. Philinus's claim is
+     pro-Carthaginian advocacy, not preserved diplomatic
+     fact.
+
+  2. **Philinus's claim (minority):** A real agreement may
+     have existed that Polybius's Roman-archive sources did
+     not preserve — perhaps because the Romans did not
+     consider it binding by 264, or because the Roman
+     records of the period are themselves incomplete.
+     Philinus, writing from a contemporary Sicilian-Greek
+     perspective, may have preserved details the later
+     Polybian tradition lost.
+
+  3. **Modern scholarship divides** between Hoyos's strong
+     reading (Polybius is right; the alleged treaty is
+     fabrication) and a softer reading that allows for
+     the possibility of a less formal Roman-Carthaginian
+     understanding c. 306 that Polybius did not recognize
+     as treaty-status. The Hoyos reading is the consensus
+     in current scholarship.
+sources:
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.26"
+    passage_summary: >
+      Polybius denies the treaty's existence and treats
+      Philinus's claim as pro-Carthaginian polemic. The
+      passage is one of his most explicit
+      historiographical-method statements.
+  - source: philinus-akragas
+    stance: supports
+    passage_summary: >
+      Philinus's claim is preserved only in Polybius's
+      paraphrase and denial; no Philinian text on the
+      treaty survives independently.
+  - source: hoyos-unplanned-wars-1998
+    stance: contradicts
+    passage_summary: >
+      Hoyos defends Polybius's denial and treats the
+      Philinus claim as pro-Carthaginian advocacy without
+      independent evidentiary basis.
+entities:
+  - type: event
+    slug: philinus-treaty-controversy
+    role: subject
+  - type: event
+    slug: first-punic-war-outbreak
+    role: context

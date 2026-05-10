@@ -1,0 +1,56 @@
+slug: mamertine-seizure-of-messana
+name: Mamertine Seizure of Messana
+type: political
+date_start:
+  value: -288
+  precision: year
+  circa: true
+  notes: >
+    Conventionally placed c. 289–288 BCE, after Agathocles's
+    death (289 BCE) created the political vacuum the
+    Mamertines exploited. Polybius does not give a precise
+    date.
+place: messana
+participants:
+  - person: agathocles
+    role: previous employer (the Campanian mercenaries had served under him)
+    side: Syracuse
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+related_events:
+  - event: first-punic-war-outbreak
+    relation: pre-history of (the seizure that produced the 265 crisis)
+  - event: agathocles-invasion-of-africa
+    relation: pre-history of (Agathocles employed the Campanian mercenaries who became the Mamertines)
+summary: >
+  The act that planted the Mamertines as a polity in their
+  own right and set the conditions for the political crisis
+  twenty-five years later. The Mamertines — a band of
+  Campanian mercenaries whose name derives from Mamers, the
+  Oscan name for Mars — had been recruited into Agathocles's
+  Syracusan army in the late 4th century. On Agathocles's
+  death in 289 BCE the band, dismissed from Syracusan
+  service, made its way north along the Sicilian coast and
+  was admitted to the Greek city of Messana on the Strait
+  as guests or temporary garrison.
+
+  The "seizure" itself was murderous: the Mamertines killed
+  the adult male population of their host city, took the
+  women and remaining children as their own, and reorganized
+  the polity under their command. The pattern — a foreign
+  mercenary band converting from guest to occupier through a
+  single act of organized violence — would have been
+  recognizable to Greek audiences from earlier instances
+  (most notoriously the Phocian seizure of Delphi); the
+  Mamertine version was distinctive in producing a stable
+  polity that lasted for the next twenty-five years.
+
+  The seized city was used as a base for Mamertine raiding
+  across northeastern Sicily, with substantial economic
+  damage to neighboring Greek and Sicel communities. The
+  raiding reputation, and the structural threat the
+  Mamertine state posed to organized Sicilian polities,
+  produced the diplomatic and military hostility — first
+  from Hiero of Syracuse, then from a wider coalition —
+  that culminated in the 265 crisis.

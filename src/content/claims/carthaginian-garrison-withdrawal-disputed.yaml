@@ -1,0 +1,70 @@
+slug: carthaginian-garrison-withdrawal-disputed
+statement: >
+  Whether the Carthaginian garrison at Messana withdrew
+  voluntarily on the Roman crossing or was expelled by the
+  Mamertines (or by some combination) is genuinely disputed
+  in the surviving sources. Polybius's account suggests
+  voluntary Carthaginian withdrawal under the threat of
+  Roman engagement; Diodorus's account preserves the
+  Mamertine-expulsion variant. The question matters for the
+  causation of the war: if the garrison was expelled, the
+  Mamertines (not Rome) committed the formal break with the
+  Carthaginian position; if it withdrew, Rome's mere arrival
+  was sufficient to dislodge a Carthaginian deployment.
+confidence: contested
+dispute_summary: |
+  The two accounts give different agency to different
+  parties:
+
+  1. **Polybius (1.11):** The Carthaginian commander Hanno,
+     facing the prospect of armed engagement with the Roman
+     advance forces, withdrew the garrison without a fight.
+     The Carthaginian senate subsequently executed Hanno
+     for the withdrawal — an act that suggests the
+     senatorial position was that the garrison should have
+     fought. The withdrawal is effectively a Carthaginian
+     diplomatic-military error.
+
+  2. **Diodorus (23.1):** The Mamertines themselves expelled
+     the Carthaginian garrison, in the immediate context of
+     accepting the Roman alternative. The Mamertines made
+     the formal break.
+
+  3. **Modern reconstructions** generally accept some
+     combination — Carthaginian hesitation, Mamertine
+     pressure, Roman arrival — without firmly choosing
+     between the variants. Hoyos's reconstruction
+     emphasizes the multiple-actors-with-incomplete-
+     information character of the moment.
+
+  The senatorial execution of Hanno after the withdrawal is
+  preserved across both accounts and is the strongest
+  surviving evidence that, whatever the proximate sequence,
+  the Carthaginian senate regarded the loss of Messana as
+  an avoidable disaster.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.11"
+    passage_summary: >
+      Polybius gives the voluntary-withdrawal variant and
+      records the senate's subsequent execution of Hanno.
+  - source: diodorus-library
+    stance: contradicts
+    passage_ref: "23.1"
+    passage_summary: >
+      Diodorus gives the Mamertine-expulsion variant.
+  - source: hoyos-unplanned-wars-1998
+    stance: qualifies
+    passage_summary: >
+      Hoyos's reconstruction treats the question as
+      genuinely uncertain and emphasizes the multiple-
+      actors-with-incomplete-information character of the
+      situation.
+entities:
+  - type: event
+    slug: appius-claudius-crossing
+    role: subject
+  - type: event
+    slug: first-punic-war-outbreak
+    role: subject

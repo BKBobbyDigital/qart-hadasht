@@ -1,0 +1,61 @@
+slug: philinus-treaty-controversy
+name: The Philinus-Treaty Controversy
+type: political
+date_start:
+  value: -306
+  precision: year
+  circa: true
+  notes: >
+    Per Philinus's claim, a fourth Roman-Carthaginian
+    treaty was concluded c. 306 BCE in the context of
+    Roman-Samnite war and Carthaginian Sicilian operations.
+    Polybius denies the treaty existed at all. The "event"
+    is the historiographical dispute itself, not a
+    settled diplomatic act.
+place: carthage
+participants: []
+principal_sources:
+  - polybius-histories
+  - philinus-akragas
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: first-punic-war-outbreak
+    relation: relevant to (the dispute is about whether the FPW outbreak violated an earlier agreement)
+    notes: >
+      Philinus cited the alleged 306 treaty as evidence
+      that Rome's 264 intervention in Sicily violated a
+      pre-existing Roman-Carthaginian arrangement.
+      Polybius's denial is therefore a defense of the
+      Roman action's legality.
+  - event: first-treaty-with-rome
+    relation: comparison case (one of three treaties Polybius preserves and a fourth he denies)
+summary: >
+  A contested-existence event: a treaty between Rome and
+  Carthage that the contemporary historian Philinus of
+  Akragas claimed had been concluded c. 306 BCE, in which
+  Rome agreed to stay out of Sicily and Carthage agreed to
+  stay out of Italy. Philinus cited the alleged treaty as
+  evidence that the Roman intervention at Messana in 264
+  BCE — the immediate cause of the First Punic War —
+  was a treaty violation.
+
+  Polybius (3.26) denies the treaty ever existed. He
+  preserves three Roman-Carthaginian treaties (509, 348,
+  279 BCE) on the basis of Roman archive evidence, but
+  treats Philinus's fourth as pro-Carthaginian polemic.
+  Polybius's argument: the alleged 306 treaty does not
+  appear in the Roman archives, and Philinus's account of
+  its terms is structurally implausible given what the
+  surviving 348 and 279 treaties actually say. Modern
+  scholarship has largely accepted Polybius's denial,
+  though a minority position holds that Philinus may
+  have preserved a real agreement Polybius could not (or
+  would not) confirm from the Roman side.
+
+  The controversy matters for what it shows about how
+  contested the diplomatic record before the First Punic
+  War was even in the generation that lived through the
+  war. The "Philinus treaty" is the principal surviving
+  instance of pre-264 historiographical dispute about
+  Roman-Carthaginian relations.

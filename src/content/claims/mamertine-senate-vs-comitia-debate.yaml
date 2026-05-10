@@ -1,0 +1,46 @@
+slug: mamertine-senate-vs-comitia-debate
+statement: >
+  The Roman decision to accept the Mamertine appeal was
+  taken by the popular assembly (comitia centuriata) after
+  the senate had failed to reach agreement. Polybius (1.11)
+  preserves the unusual procedural sequence: senatorial
+  division, referral to the comitia, popular vote in favor
+  of intervention. The episode is one of the most explicit
+  surviving instances of Roman foreign-policy decisions
+  being driven by the assemblies against senatorial
+  hesitation, and structurally significant for understanding
+  how the First Punic War began.
+confidence: attested
+scholarly_consensus: >
+  The procedural sequence is firmly attested in Polybius
+  and broadly accepted in modern scholarship. The
+  interpretive question — whether the senate's hesitation
+  reflected legitimate strategic caution or a faction-
+  political opposition that the comitia overrode — is more
+  open. Hoyos's reading emphasizes the genuine strategic
+  ambivalence; older scholarship sometimes treated the
+  episode as evidence of structural senatorial weakness in
+  the period.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.11"
+    passage_summary: >
+      Polybius preserves the procedural sequence
+      explicitly: the senatorial debate, the failure to
+      reach agreement, the referral to the comitia, the
+      popular vote.
+  - source: hoyos-unplanned-wars-1998
+    stance: supports
+    passage_summary: >
+      Hoyos analyzes the episode in the context of his
+      broader argument that the FPW outbreak was
+      genuinely contingent rather than the product of
+      systematic Roman aggression.
+entities:
+  - type: event
+    slug: first-punic-war-outbreak
+    role: subject
+  - type: event
+    slug: mamertine-appeal-265
+    role: subject
