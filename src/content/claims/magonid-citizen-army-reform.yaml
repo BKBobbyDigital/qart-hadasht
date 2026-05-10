@@ -1,0 +1,62 @@
+slug: magonid-citizen-army-reform
+statement: >
+  The Magonid period's structural transformation of the
+  Carthaginian armed forces — from a primarily mercenary
+  configuration into a citizen-led professional army — is
+  treated by Justin (18.7) as Mago I's principal contribution.
+  The reform produced the military basis for the western-
+  Mediterranean expansion of the second half of the 6th
+  century and for the subsequent Sicilian and Sardinian
+  campaigns.
+confidence: contested
+dispute_summary: |
+  Two interpretive questions are open in modern scholarship:
+
+  1. **Did the reform actually occur as Justin describes,
+     or is "Magonid army reform" a Hellenistic narrative
+     framing of a longer structural process?** Justin's
+     account compresses what may have been a generation-long
+     development into a single Mago-attributed transformation.
+     The evidence for a precise chronology is weak.
+
+  2. **Was the reform a citizen-army reform or a different
+     kind of structural change?** Modern scholarship divides
+     between treatments that take the citizen-soldier framing
+     literally (the Carthaginian state expanding the political-
+     military participation of its citizen body) and treatments
+     that read the change as primarily institutional — the
+     Magonid family centralizing military command authority
+     within an existing citizen-and-mercenary mix.
+
+  Justin's narrative is the principal surviving source and is
+  read with appropriate caution. The structural fact — that
+  6th-century Carthaginian military capacity expanded
+  substantially under Magonid leadership — is not in dispute.
+sources:
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "18.7"
+    passage_summary: >
+      Justin gives the reform-attribution narrative explicitly
+      and treats it as Mago's principal achievement.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos discusses the structural transformation while
+      treating Justin's narrative framing with appropriate
+      caution.
+  - source: miles-carthage-2010
+    stance: qualifies
+    passage_summary: >
+      Miles integrates the Magonid period with the broader
+      6th-century Carthaginian transformation.
+entities:
+  - type: event
+    slug: magonid-rise
+    role: subject
+  - type: person
+    slug: mago-i
+    role: subject
+  - type: theme
+    slug: punic-identity
+    role: context

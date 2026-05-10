@@ -1,0 +1,47 @@
+slug: alalia-locked-western-mediterranean
+statement: >
+  The Battle of Alalia is the event that locked in
+  Carthaginian-Etruscan control of the western Mediterranean
+  for the subsequent ~250 years. Phocaean withdrawal from
+  Corsica eliminated the principal Greek presence in the
+  western Mediterranean north of Massalia; the demonstrated
+  Carthaginian-Etruscan capacity for coordinated naval
+  action was a structural fact no other power in the region
+  could match until Roman naval emergence in the First Punic
+  War.
+confidence: inferred
+scholarly_consensus: >
+  The strategic-consequence reading is the consensus modern
+  interpretation. It is "inferred" rather than "attested"
+  because Herodotus does not himself draw the long-term
+  consequence — he reports the engagement and the immediate
+  Phocaean withdrawal but does not theorize the western-
+  Mediterranean configuration the engagement produced. The
+  long-term reading is a synthesis from comparison of the
+  pre-Alalia and post-Alalia western Mediterranean source
+  records.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "1.166-167"
+    passage_summary: >
+      Herodotus narrates the engagement and the immediate
+      Phocaean migration to Velia.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos integrates Alalia with the broader 6th-century
+      transformation of the western Mediterranean and treats
+      it as the structurally decisive event.
+  - source: miles-carthage-2010
+    stance: supports
+    passage_summary: >
+      Miles's treatment integrates the engagement with the
+      longer arc of Carthaginian western-Mediterranean policy.
+entities:
+  - type: event
+    slug: battle-of-alalia
+    role: subject
+  - type: event
+    slug: first-punic-war
+    role: context

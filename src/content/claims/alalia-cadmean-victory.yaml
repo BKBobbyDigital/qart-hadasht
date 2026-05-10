@@ -1,0 +1,35 @@
+slug: alalia-cadmean-victory
+statement: >
+  The Battle of Alalia (~535 BCE) produced a tactical Phocaean
+  victory at prohibitive strategic cost: Phocaean losses were
+  severe enough that the colony was abandoned and the survivors
+  emigrated to southern Italy. Herodotus's term — a "Cadmean
+  victory" — became the origin of the modern English idiom
+  "Pyrrhic victory."
+confidence: attested
+scholarly_consensus: >
+  The structural outcome — Phocaean tactical victory followed
+  by Phocaean strategic withdrawal — is firmly attested in
+  Herodotus 1.166 and is the consensus modern reading. Specific
+  ship counts (60-60-60) are Herodotean and bear the standard
+  ancient-numbers caveat but are broadly accepted.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "1.166"
+    passage_summary: >
+      Herodotus describes the engagement, the ship counts, and
+      the Phocaean withdrawal explicitly. His "Cadmean victory"
+      framing is the origin of the strategic-versus-tactical
+      reading.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos's overview treats Alalia as the decisive 6th-
+      century Mediterranean engagement and integrates the
+      tactical and strategic dimensions consistently with the
+      Herodotean account.
+entities:
+  - type: event
+    slug: battle-of-alalia
+    role: subject

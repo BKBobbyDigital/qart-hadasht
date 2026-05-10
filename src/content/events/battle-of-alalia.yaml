@@ -1,0 +1,62 @@
+slug: battle-of-alalia
+name: Battle of Alalia
+type: battle
+date_start:
+  value: -535
+  precision: year
+  circa: true
+  notes: >
+    Herodotus does not give a precise date; the conventional
+    c. 540–535 BCE dating is calibrated against the Phocaean
+    flight from Persian Phocaea (c. 545 BCE) and the
+    Phocaean post-engagement migration to Velia (c. 530s BCE).
+place: alalia
+participants:
+  - person: mago-i
+    role: probable Carthaginian commander (the surviving sources do not name a Carthaginian commander; Magonid leadership is inferred from the period)
+    side: Carthaginian
+principal_sources:
+  - herodotus-histories
+referenced_themes:
+  - carthaginian-seafaring-and-trade
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: magonid-rise
+    relation: produced by (the Magonid military reorganization that made the engagement possible)
+summary: >
+  The principal naval engagement of 6th-century western
+  Mediterranean history and the event that locked in
+  Carthaginian-Etruscan control of the western seas for the
+  next 250 years. The engagement was provoked by the
+  expansion of the Greek Phocaean colony at Alalia on the
+  eastern Corsican coast, which had become a base for piracy
+  and trade across a corridor that both Carthage and the
+  Etruscan city-states regarded as their own. The
+  Carthaginian and Etruscan responses converged: the surviving
+  source, Herodotus (1.166), reports a coordinated fleet
+  of 60 Carthaginian and 60 Etruscan ships engaging the
+  Phocaean 60 off the Corsican coast.
+
+  The engagement's outcome was a tactical Phocaean victory at
+  prohibitive strategic cost. The Phocaeans damaged or sank
+  more of the combined fleet than they themselves lost, but
+  their own losses were severe enough that they could no
+  longer hold Alalia: they evacuated the colony, withdrew
+  first to Rhegium and then to a new foundation at Velia in
+  southern Italy. Herodotus calls the outcome a "Cadmean
+  victory" — a tactical victory worse than defeat. The phrase
+  is the origin of the modern English idiom "Pyrrhic
+  victory."
+
+  The strategic consequence was decisive. Phocaean
+  withdrawal eliminated the principal Greek presence in the
+  western Mediterranean north of Massalia (Marseilles); the
+  combined Carthaginian-Etruscan fleet had demonstrated a
+  capacity for coordinated action that no other power in the
+  region could match; and the corridor between the African
+  coast, Sardinia, Corsica, and the Italian peninsula was
+  consolidated as Carthaginian-Etruscan space. The
+  configuration would not be seriously challenged until the
+  emergence of Roman naval capacity in the First Punic War
+  more than two centuries later.

@@ -1,0 +1,60 @@
+slug: hannos-periplus-historicity
+statement: >
+  The historicity of Hanno's Periplus voyage is broadly
+  accepted in modern scholarship despite its imprecise
+  chronology and the contested transmission of the surviving
+  Greek text. The text's ethnographic specificity (the
+  description of West African geography, the volcanic
+  activity at "the Chariot of the Gods", the encounter with
+  hippopotami and crocodiles at a great river, the
+  *gorillai*) is sufficient to argue that real Carthaginian
+  Atlantic experience underlies the document.
+confidence: contested
+dispute_summary: |
+  Three interpretive questions are open:
+
+  1. **Did the voyage occur substantially as described?** The
+     consensus modern reading is yes, though with
+     reservations about the specific colonist counts (30,000
+     is implausible) and the southernmost extent of the
+     voyage (Senegal, Cap Vert, or Sierra Leone — modern
+     identifications differ).
+
+  2. **Is the surviving Greek text an accurate translation
+     of an authentic 5th-century BCE Carthaginian
+     monumental original?** The translator's preface claims
+     so. Some modern scholarship accepts this; others argue
+     for Hellenistic literary fabrication using real
+     Carthaginian Atlantic experience.
+
+  3. **What was the voyage's purpose?** The text presents
+     itself as colonization, but the colonist count is
+     implausible and the documented southern extent of the
+     voyage went well beyond what colonization required.
+     Some modern readings treat the voyage as primarily
+     exploratory or commercial, with the colonization framing
+     a literary or political overlay.
+sources:
+  - source: hanno-periplus
+    stance: supports
+    passage_summary: >
+      The Periplus itself is the principal surviving source
+      and the text whose historicity is at issue.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos treats the voyage as substantively historical
+      while remaining appropriately agnostic about specific
+      details and the text's transmission.
+  - source: miles-carthage-2010
+    stance: qualifies
+    passage_summary: >
+      Miles's overview integrates the Periplus with broader
+      Carthaginian Atlantic activity attested independently.
+entities:
+  - type: event
+    slug: hannos-periplus-voyage
+    role: subject
+  - type: theme
+    slug: carthaginian-seafaring-and-trade
+    role: context

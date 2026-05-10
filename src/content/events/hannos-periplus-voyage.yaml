@@ -1,0 +1,63 @@
+slug: hannos-periplus-voyage
+name: Hanno's Periplus (West African Voyage)
+type: expedition
+date_start:
+  value: -480
+  precision: decade
+  circa: true
+  notes: >
+    The voyage's exact chronology is not securely
+    established; modern scholarship places it variously
+    between c. 510 and c. 470 BCE. Some authorities argue
+    for a later date, into the mid-5th century.
+place: carthage
+places:
+  - carthage
+participants:
+  - person: hanno-the-navigator
+    role: commander of the expedition
+    side: Carthaginian
+principal_sources:
+  - hanno-periplus
+referenced_themes:
+  - carthaginian-seafaring-and-trade
+referenced_institutions:
+  - carthaginian-senate
+related_events: []
+summary: >
+  The major Carthaginian colonization-and-exploration
+  expedition along the West African Atlantic coast,
+  preserved in a Greek translation known as the Periplus of
+  Hanno — one of the very few surviving Carthaginian
+  literary documents (in any form) and the principal
+  evidence for Carthaginian Atlantic exploration.
+
+  The Periplus describes an expedition of 60 fifty-oared
+  ships carrying some 30,000 colonists (the figure has the
+  standard ancient-numbers caveat). The fleet passed
+  through the Pillars of Heracles, founded several coastal
+  colonies along the Mauretanian Atlantic coast (Thymiaterion,
+  Carikon Teichos, Akra, Cyte, Soloeis), continued southward
+  past the Senegal river and into the tropics, and reached a
+  furthest point conventionally identified with either the
+  Senegal estuary, Cap Vert, or possibly Sierra Leone.
+  Detail in the text — the description of crocodiles and
+  hippopotami at a great river, the descriptions of volcanic
+  activity at "the Chariot of the Gods" (possibly Mount
+  Cameroon), the encounter with hairy "wild men and women"
+  called *gorillai* on a southern island — is preserved
+  with sufficient ethnographic specificity that modern
+  scholarship has generally accepted the voyage as
+  historical despite its imprecise chronology.
+
+  The Periplus's transmission is itself contested: the
+  surviving Greek translation claims to derive from an
+  inscribed monumental original at the Tanit temple in
+  Carthage, which is plausible given Carthaginian epigraphic
+  practice, but the translation's date and authorship are
+  not securely established. Whether modern readers possess a
+  substantially accurate translation of an authentic 5th-
+  century BCE document or a later literary fabrication
+  drawing on real Carthaginian Atlantic experience is a
+  question modern scholarship has not definitively
+  resolved.
