@@ -20,7 +20,7 @@ const carthage = await getEntry('places', 'carthage');
 <BaseLayout title="Themes" description="The cultural side of Carthage: themes, institutions, groups, deities, the city itself.">
   <section class="bg-sand-100 border-b border-sand-300">
     <div class="max-w-5xl mx-auto px-6 py-10">
-      <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Hub</p>
+      <p class="eyebrow mb-3">Hub</p>
       <h1 class="font-serif text-4xl sm:text-5xl leading-tight">Themes</h1>
       <p class="mt-3 max-w-2xl text-base text-sand-900">
         The cultural side of Carthage. Themes are the cross-cutting essays
@@ -41,7 +41,7 @@ const carthage = await getEntry('places', 'carthage');
               <h3 class="font-serif text-lg text-tyrian-700">{t.data.title}</h3>
               <span class="text-[10px] uppercase tracking-widest text-sand-700">{t.data.scope.replace('_', ' ')}</span>
             </div>
-            <p class="text-sm text-sand-900 mt-2 line-clamp-3">{t.data.summary}</p>
+            <p class="text-sm text-ink-900 mt-2 line-clamp-3">{t.data.summary}</p>
           </a>
         </li>
       ))}
@@ -58,7 +58,7 @@ const carthage = await getEntry('places', 'carthage');
           )}
           <h3 class="font-serif text-xl text-tyrian-900">{carthage.data.name_display}</h3>
         </div>
-        <p class="text-sm text-sand-900 mt-2 line-clamp-3">{carthage.data.summary}</p>
+        <p class="text-sm text-ink-900 mt-2 line-clamp-3">{carthage.data.summary}</p>
       </a>
     </section>
   )}

@@ -281,8 +281,8 @@ const infoboxRows: InfoboxRow[] = [
     />
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
       <span hidden data-pagefind-filter="type:Events" data-pagefind-meta="type:Event"></span>
-    <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">{data.type}</p>
-    <h1 class="font-serif text-4xl mb-3">{data.name}</h1>
+    <p class="eyebrow mb-3">{data.type}</p>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">{data.name}</h1>
     <p class="text-lg text-sand-700">
       {year} {era}
       {place && (
@@ -432,7 +432,7 @@ const infoboxRows: InfoboxRow[] = [
           {relatedQuestions.map((q) => (
             <li class="border border-amber-200 bg-amber-50 rounded p-4">
               <h3 class="font-serif text-lg text-amber-900">{q.data.question}</h3>
-              <p class="text-sm text-sand-900 mt-2">{q.data.why_unknown}</p>
+              <p class="text-sm text-ink-900 mt-2">{q.data.why_unknown}</p>
             </li>
           ))}
         </ul>

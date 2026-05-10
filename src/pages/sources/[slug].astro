@@ -95,10 +95,10 @@ const sourceInfoboxRows: InfoboxRow[] = [
     />
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
       <span hidden data-pagefind-filter="type:Sources" data-pagefind-meta="type:Source"></span>
-    <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">
+    <p class="eyebrow mb-3">
       {d.is_primary ? 'Primary source' : 'Modern scholarship'} · {d.type.replace('_', ' ')}
     </p>
-    <h1 class="font-serif text-4xl mb-2">{d.title}</h1>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
     {d.author && <p class="text-xl text-sand-700 italic">{d.author}</p>}
 
     <div class="prose-encyclopedia mt-8 text-sand-900">
@@ -108,7 +108,7 @@ const sourceInfoboxRows: InfoboxRow[] = [
     {d.bias_notes && (
       <section class="mt-8 border-l-4 border-amber-300 bg-amber-50 p-5 rounded-r-lg">
         <h2 class="font-serif text-xl mb-2">Bias and reliability notes</h2>
-        <p class="text-sand-900">{d.bias_notes}</p>
+        <p class="text-ink-900">{d.bias_notes}</p>
       </section>
     )}
 
