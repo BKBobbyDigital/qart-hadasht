@@ -1,0 +1,77 @@
+slug: suffeteship-military-command-detached
+statement: >
+  Whether the suffeteship ever included routine military
+  command in the classical period (5th–3rd centuries BCE)
+  is contested. The Punic title *šptm* (cognate with Hebrew
+  *šofet*) and the Hebrew Bible's "judges" both originally
+  combined judicial and military authority; later
+  Carthaginian practice clearly separated the two, with
+  generals appointed independently and frequently from the
+  Magonid or Barcid families. When the detachment occurred —
+  and whether it was ever total — is unresolved in the
+  surviving sources.
+confidence: contested
+dispute_summary: |
+  Three positions:
+
+  1. **Early-detachment reading.** The military function
+     was already distinct from the suffeteship by Aristotle's
+     time (c. 330 BCE). Aristotle treats the suffetes as
+     primarily judicial-political; military commands are
+     held separately. The detachment was complete by the
+     classical period.
+
+  2. **Gradual-detachment reading.** The suffeteship
+     originally combined judicial and military functions
+     (consistent with the etymology and with comparative
+     Phoenician practice) but the military function
+     gradually detached over the 5th and 4th centuries as
+     the Magonid and (later) Barcid families monopolized
+     long-term military commands. The classical-period
+     suffeteship is the residue of this process.
+
+  3. **Late-detachment reading.** Some military command
+     authority remained attached to the suffeteship
+     informally even in the 3rd century, though formal
+     command authority was held separately. Hannibal's
+     suffeteship of 196 BCE is unusual in being explicitly
+     civilian; earlier suffetes may have held looser
+     command authority that escaped systematic
+     documentation.
+
+  The contestation is real because the surviving sources
+  rarely specify the office their narrative figures hold
+  when commanding armies. Hamilcar Barca during the
+  Mercenary War, Hasdrubal in Spain, Hannibal in Italy —
+  all are described by family name and command title
+  rather than by office. Whether they were ever
+  concurrently suffetes is rarely stated.
+sources:
+  - source: aristotle-politics
+    stance: supports
+    passage_ref: "II.11"
+    passage_summary: >
+      Aristotle treats the suffeteship as primarily
+      judicial-political; military command appears as a
+      separate function.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "33.46-47"
+    passage_summary: >
+      Livy's account of Hannibal's 196 BCE suffeteship
+      describes a civilian-political reform office, not
+      a military command.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos discusses the question across the longer
+      institutional history and treats the gradual-
+      detachment reading as the most defensible modern
+      reconstruction.
+entities:
+  - type: institution
+    slug: suffetes
+    role: subject
+  - type: theme
+    slug: carthaginian-governance
+    role: context

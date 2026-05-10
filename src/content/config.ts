@@ -385,6 +385,7 @@ const themes = defineCollection({
       'identity',
       'material_culture',
       'agriculture',
+      'governance',
     ]),
     summary: z.string(),
     primary_entities: z.array(claimEntity).default([]),

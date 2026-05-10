@@ -1,0 +1,66 @@
+slug: council-104-vs-adirim-distinct
+statement: >
+  Whether the Council of 104 was a distinct institutional
+  body from the broader Adirim (Carthaginian senate) — or
+  rather a specialized judicial committee within it — is
+  genuinely contested in modern scholarship. Aristotle's
+  terminology in Politics II.11 suggests distinctness; the
+  absence of clear Punic-language attestation makes the
+  question difficult to settle. The dominant modern reading
+  treats the Council as a specialized judicial committee
+  distinct in function but overlapping in membership with
+  the broader senate.
+confidence: contested
+dispute_summary: |
+  Three readings:
+
+  1. **Distinct body (Aristotelian).** The Council of 104
+     and the Adirim are separately constituted bodies with
+     different memberships and functions. Aristotle treats
+     them as distinct in II.11; some modern scholarship
+     follows.
+
+  2. **Overlapping committee (consensus modern).** The
+     Council of 104 is a specialized judicial committee
+     within the Adirim, with members drawn from the senate
+     but operating under a distinct procedural framework
+     and with distinct authority over military commanders.
+     This is the dominant modern reconstruction.
+
+  3. **Functionally indistinguishable.** A minority
+     position holds that the institutional distinction is
+     ultimately one of convenience rather than substance,
+     and that the surviving sources that distinguish the
+     two are reflecting Aristotle's analytical categories
+     rather than actual Carthaginian institutional
+     practice.
+
+  The Punic-language record does not preserve clear
+  separate terminology for the two bodies, which both
+  hampers the resolution of the question and supports
+  reading 2 (overlapping committee) as the consensus
+  position.
+sources:
+  - source: aristotle-politics
+    stance: supports
+    passage_ref: "II.11"
+    passage_summary: >
+      Aristotle treats the Council of 104 and the senate as
+      distinct in his discussion, with different functions
+      and selection mechanisms.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos discusses the question as genuinely contested
+      and treats the overlapping-committee reading as the
+      most defensible modern reconstruction.
+entities:
+  - type: institution
+    slug: council-of-104
+    role: subject
+  - type: institution
+    slug: carthaginian-senate
+    role: subject
+  - type: theme
+    slug: carthaginian-governance
+    role: context

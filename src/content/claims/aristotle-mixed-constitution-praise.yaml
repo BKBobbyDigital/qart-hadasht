@@ -1,0 +1,54 @@
+slug: aristotle-mixed-constitution-praise
+statement: >
+  Aristotle (Politics II.11, written c. 330 BCE) ranks the
+  Carthaginian politeia among the three best-arranged states
+  he knows — alongside Sparta and Crete — and analyzes it as
+  a mixed constitution combining monarchic (suffetes),
+  aristocratic (Adirim/Council of 104), and democratic
+  (popular assembly) elements. The classification is the
+  earliest systematic external analysis of Carthaginian
+  governance and remains the foundation of all subsequent
+  scholarly treatment.
+confidence: attested
+scholarly_consensus: >
+  Aristotle's analysis is firmly attested in the surviving
+  Politics text and is the foundational source for all
+  modern reconstructions. The interpretive question — how
+  far Aristotle's analytical categories (monarchic /
+  aristocratic / democratic) accurately reflect Carthaginian
+  self-understanding versus how far they impose Greek
+  political-theoretical structure on a different polity —
+  is a question scholarship has engaged with seriously
+  without resolving.
+sources:
+  - source: aristotle-politics
+    stance: supports
+    passage_ref: "II.11"
+    passage_summary: >
+      Aristotle's substantive analysis of the Carthaginian
+      constitution. He treats the institutions in detail
+      and ranks Carthage's arrangement comparatively
+      favorable.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos's overview integrates Aristotle's analysis with
+      what the Punic epigraphic record adds and treats the
+      Politics II.11 framework as the foundation of modern
+      reconstruction.
+entities:
+  - type: theme
+    slug: carthaginian-governance
+    role: subject
+  - type: institution
+    slug: suffetes
+    role: subject
+  - type: institution
+    slug: carthaginian-senate
+    role: subject
+  - type: institution
+    slug: popular-assembly
+    role: subject
+  - type: institution
+    slug: council-of-104
+    role: subject

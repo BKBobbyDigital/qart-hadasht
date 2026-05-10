@@ -1,0 +1,52 @@
+slug: hannibal-196-reforms-mechanism
+statement: >
+  Hannibal's 196 BCE reforms targeted the Council of 104's
+  oligarchic-hereditary character by limiting members'
+  tenure to one year and requiring re-election to
+  consecutive terms. The reform was passed through the
+  popular assembly with explicit suffete sponsorship — a
+  procedural sequence demonstrating that the Carthaginian
+  *politeia* was not a fixed structure but could be
+  substantially reformed through suffete-led legislative
+  action backed by popular support, even against
+  aristocratic resistance.
+confidence: attested
+scholarly_consensus: >
+  The reform's content and procedural mechanism are firmly
+  attested in Livy 33.46-47 and Cornelius Nepos's *Hannibal*.
+  Both sources are pro-Roman in their broader framing but
+  give the reform episode in operational detail that
+  modern scholarship has accepted as substantively reliable.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "33.46-47"
+    passage_summary: >
+      Livy's detailed account of Hannibal's suffeteship,
+      the financial investigation, the reform of the
+      Council of 104, and the political backlash that
+      followed.
+  - source: nepos-hannibal
+    stance: supports
+    passage_summary: >
+      Nepos's brief biography of Hannibal preserves the
+      reform episode with consistent operational detail.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's biographical treatment integrates the reform
+      with broader analysis of Hannibal's post-Zama
+      political program.
+entities:
+  - type: event
+    slug: hannibal-196-reforms
+    role: subject
+  - type: institution
+    slug: council-of-104
+    role: subject
+  - type: institution
+    slug: suffetes
+    role: subject
+  - type: institution
+    slug: popular-assembly
+    role: subject

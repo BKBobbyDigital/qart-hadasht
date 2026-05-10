@@ -1,0 +1,67 @@
+slug: polybius-decline-narrative-polemical
+statement: >
+  Polybius's reading of the Carthaginian politeia as having
+  decayed from Aristotle's mixed-constitution ideal toward
+  "rule of the many" by the time of the Punic Wars
+  (Histories 6.51-56) is genuinely contested. The
+  declension framing serves Polybius's broader pro-Roman
+  argument that Carthage lost because its system had
+  decayed; whether the historical record actually supports
+  the framing — versus reflecting Polybius's polemical
+  needs — divides modern scholarship.
+confidence: contested
+dispute_summary: |
+  Two readings of Polybius 6.51-56:
+
+  1. **Descriptive reading.** The Carthaginian system did
+     genuinely change between Aristotle's time (c. 330 BCE)
+     and Polybius's time (c. 150 BCE). The popular
+     assembly's role expanded; the Barcid faction's
+     cultivation of popular support shifted the balance
+     toward democratic-mass-political character. Polybius
+     is reporting an actual structural change.
+
+  2. **Polemical reading.** Polybius's "decline-toward-
+     democracy" framing serves his broader argument about
+     why Rome won and reflects pro-Roman analytical
+     categories. The actual structural changes between 330
+     and 150 BCE are less dramatic than Polybius's
+     framing implies; the narrative of constitutional
+     decay is overlaid on what was really a political-
+     factional shift.
+
+  3. **Modern scholarship divides** between these readings.
+     Hoyos and others lean toward the polemical reading;
+     older 19th- and early-20th-century scholarship
+     generally followed Polybius's framing more
+     uncritically. The contestation is genuine and
+     unresolved.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "6.51-56"
+    passage_summary: >
+      Polybius's comparative analysis of the Roman,
+      Carthaginian, and Spartan systems, with the
+      decline-toward-democracy reading of Carthage.
+  - source: aristotle-politics
+    stance: contradicts
+    passage_ref: "II.11"
+    passage_summary: >
+      Aristotle's earlier analysis treats the Carthaginian
+      system as a balanced mixed constitution; the
+      contrast with Polybius supports the "real change"
+      reading but does not establish it.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos analyzes Polybius's framing critically and
+      treats the decline narrative as substantially
+      polemical.
+entities:
+  - type: theme
+    slug: carthaginian-governance
+    role: subject
+  - type: institution
+    slug: popular-assembly
+    role: subject

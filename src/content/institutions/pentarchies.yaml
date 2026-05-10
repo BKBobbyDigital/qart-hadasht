@@ -1,0 +1,57 @@
+slug: pentarchies
+name_display: Pentarchies
+name_punic: not preserved
+name_greek: πενταρχίαι (pentarchiai, "five-rules")
+name_latin: pentarchiae
+type: magistracy
+polity: Carthage
+active_from:
+  value: -450
+  precision: century
+  circa: true
+  notes: >
+    Aristotle treats the pentarchies as a contemporary feature of the
+    4th-century Carthaginian system; their founding is not separately
+    attested.
+active_to:
+  value: -146
+  precision: year
+summary: >
+  Five-member self-perpetuating committees attested in Aristotle
+  (Politics II.11) as a distinctive feature of Carthaginian
+  governance. The pentarchies' principal known function was the
+  selection of members of the Council of 104, the judicial body that
+  oversaw Carthaginian magistrates. Aristotle treats them as a
+  merit-based selection mechanism — emphasizing that they chose
+  Council members on merit rather than by lot — and credits them
+  for the relative effectiveness of the Council as a check on
+  official power.
+
+  The pentarchies were self-perpetuating: members co-opted their
+  own successors. Aristotle treats this as a structural feature
+  rather than a defect, but observes that the practice produced
+  an aristocratic-oligarchic character at the heart of what
+  Aristotle otherwise reads as a balanced mixed constitution.
+  Their tenure was apparently lengthy (Aristotle implies extended
+  service), and members held additional offices concurrently.
+
+  The pentarchies are imperfectly preserved beyond Aristotle's
+  brief notice. The Punic title is not securely attested; the
+  Greek term *pentarchia* is itself a translator's term rather
+  than a transliteration. The institution's exact procedures —
+  how new members were selected, how disagreements within a
+  pentarchy were resolved, how their selection authority related
+  to the broader senate — are not recoverable from the surviving
+  evidence.
+
+  The pentarchies' political significance lies in their being
+  the structural mechanism by which the Carthaginian aristocratic
+  class reproduced itself through the formal institutions. They
+  are also the principal evidence that the Carthaginian "mixed
+  constitution" that Aristotle praised had a strong oligarchic
+  element built into its selection mechanisms — a feature
+  Hannibal's 196 BCE reforms would later attack directly when
+  they targeted the Council of 104's tenure structure.
+principal_sources:
+  - aristotle-politics
+  - hoyos-carthaginians-2010
