@@ -1,0 +1,55 @@
+slug: battle-of-the-insubres-203
+name: Battle of the Insubres (203 BCE)
+type: battle
+date_start:
+  value: -203
+  precision: year
+  notes: >
+    The engagement is dated to summer 203 BCE; the precise day
+    is not preserved.
+participants:
+  - person: mago-barca
+    role: commander; severely wounded in the engagement
+    side: Carthaginian
+principal_sources:
+  - livy-auc
+  - hoyos-hannibal-2003
+  - macdonald-hannibal-2015
+related_events:
+  - event: mago-barca-death-203
+    relation: directly led to (Mago died of his wounds during the subsequent voyage home)
+  - event: second-punic-war
+    relation: phase of (the closing engagement of the Italian-theatre command)
+summary: >
+  The pitched battle in the territory of the Insubres in summer
+  203 BCE — the engagement in which Mago Barca, commanding the
+  Carthaginian secondary theatre in Cisalpine Gaul since his
+  205 BCE landing at Genoa, was severely wounded. Roman forces
+  under the proconsul Publius Quinctilius Varus and the
+  praetor Marcus Cornelius Cethegus brought Mago to battle in
+  the territory of the Insubres in the Po valley, and after a
+  hard-fought engagement the Carthaginians broke off and
+  retreated. Mago took a wound to the thigh during the action
+  that, by Livy's account, never properly healed.
+
+  The battle's strategic significance is principally as the
+  end of the Carthaginian Italian secondary theatre. Mago's
+  campaign in northern Italy from 205 BCE forward had been
+  intended to open a second front in Cisalpine Gaul that would
+  draw Roman forces away from Hannibal's southern command and
+  from the African theatre Scipio was preparing to invade.
+  After the Insubres defeat the Carthaginian Senate's recall
+  order — issued the same year as the recall of Hannibal from
+  Italy — followed naturally; Mago's wounded condition and the
+  campaign's stalled state both pointed to evacuation rather
+  than continued operations. He died at sea during the return
+  voyage in late summer 203 BCE.
+
+  Tactically the Insubres engagement is one of the better-
+  attested examples of late-Second-Punic-War Roman command
+  competence: by 203 the Roman tactical system had absorbed
+  enough of the lessons of Trasimene and Cannae to bring a
+  Hannibalic-trained commander to battle on Roman terms and
+  prevail. The same generation of Roman officers would
+  shortly transfer their experience to the African theatre
+  and to Zama.
