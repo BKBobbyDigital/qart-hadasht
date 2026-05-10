@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -52,11 +54,68 @@ const allNarratives = await getCollection('narratives');
 const personNarratives = allNarratives.filter((n) =>
   n.data.primary_entities?.some((e: any) => e.type === 'person' && e.slug === person.id)
 );
+
+// ─── Infobox derivations ─────────────────────────────────────────────────────
+const primaryRole = (d.roles && d.roles.length > 0) ? d.roles[0] : null;
+
+// Resolve unique sources cited about this person
+const sourceIds = new Set<string>();
+referencingClaims.forEach((c) =>
+  (c.data.sources ?? []).forEach((s: any) => sourceIds.add(s.source.id))
+);
+const sourcesCount = sourceIds.size;
+const sourcesCited = (
+  await Promise.all(Array.from(sourceIds).map((id) => getEntry('sources', id)))
+)
+  .filter(Boolean)
+  .sort((a: any, b: any) => a!.data.title.localeCompare(b!.data.title));
+
+const personInfoboxRows: InfoboxRow[] = [
+  {
+    label: 'Born',
+    value: formatHistoricalDate(d.birth),
+    qualifier: dateQualifier(d.birth),
+  },
+  {
+    label: 'Died',
+    value: formatHistoricalDate(d.death),
+    qualifier: dateQualifier(d.death),
+  },
+  {
+    label: 'Active',
+    value: formatHistoricalDate(d.floruit),
+    qualifier: dateQualifier(d.floruit),
+  },
+  {
+    label: 'Role',
+    value: primaryRole,
+  },
+  {
+    label: 'Affiliation',
+    value: d.polity ?? null,
+  },
+  {
+    label: 'Appears in',
+    value: referencingEvents.length > 0 ? `${referencingEvents.length} event${referencingEvents.length === 1 ? '' : 's'}` : null,
+    href: referencingEvents.length > 0 ? '#events' : undefined,
+  },
+  {
+    label: 'Sources cited',
+    value: sourcesCount > 0 ? `${sourcesCount}` : null,
+    href: sourcesCount > 0 ? '#sources' : undefined,
+  },
+];
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
-    <span hidden data-pagefind-filter="type:People" data-pagefind-meta="type:Person"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.name_display}
+      subtitle={d.polity ?? primaryRole ?? undefined}
+      rows={personInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:People" data-pagefind-meta="type:Person"></span>
     {d.name_punic_script && (
       <p class="font-phoenician text-3xl text-tyrian-700 mb-2">{d.name_punic_script}</p>
     )}
@@ -93,7 +152,7 @@ const personNarratives = allNarratives.filter((n) =>
     ))}
 
     {referencingEvents.length > 0 && (
-      <section class="mt-12 pt-6 border-t border-sand-300">
+      <section class="mt-12 pt-6 border-t border-sand-300" id="events">
         <h2 class="font-serif text-2xl mb-3">Events</h2>
         <ul class="space-y-2">
           {referencingEvents.map((entry) => (
@@ -164,5 +223,20 @@ const personNarratives = allNarratives.filter((n) =>
         </ul>
       </section>
     )}
-  </article>
+    {sourcesCited.length > 0 && (
+      <section class="mt-10 pt-6 border-t border-sand-300" id="sources">
+        <h2 class="font-serif text-2xl mb-3">Sources cited</h2>
+        <ul class="space-y-2">
+          {sourcesCited.map((s: any) => (
+            <li class="text-sm">
+              <a href={`/sources/${s.id}`} class="text-tyrian-700 hover:underline font-serif">{s.data.title}</a>
+              {s.data.author && <span class="text-sand-700"> · {s.data.author}</span>}
+              <span class="text-sand-700"> · <span class="italic">{s.data.type.replace('_', ' ')}</span></span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    </article>
+  </div>
 </BaseLayout>

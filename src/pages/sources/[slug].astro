@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -26,35 +28,57 @@ const eventsUsingAsPrincipal = allEvents
     (e.data.principal_sources ?? []).some((s: any) => s.id === source.id)
   )
   .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
+
+// ─── Infobox derivations ─────────────────────────────────────────────────────
+const typeLabel = d.type.replace('_', ' ');
+const typeLabelCap = typeLabel.charAt(0).toUpperCase() + typeLabel.slice(1);
+
+const accessLabel = d.access_to_witnesses
+  ? d.access_to_witnesses.replace('_', ' ')
+  : null;
+
+const distanceText = d.temporal_distance_years
+  ? `~${d.temporal_distance_years} years from events`
+  : null;
+
+const sourceInfoboxRows: InfoboxRow[] = [
+  { label: 'Author', value: d.author ?? null },
+  {
+    label: 'Composed',
+    value: formatHistoricalDate(d.date_composed),
+    qualifier: dateQualifier(d.date_composed),
+  },
+  {
+    label: 'Language',
+    value: d.language.charAt(0).toUpperCase() + d.language.slice(1),
+  },
+  { label: 'Type', value: typeLabelCap },
+  { label: 'Distance from events', value: distanceText },
+  { label: 'Access', value: accessLabel },
+  {
+    label: 'Cited in',
+    value: claimsCiting.length > 0
+      ? `${claimsCiting.length} claim${claimsCiting.length === 1 ? '' : 's'}`
+      : null,
+    href: claimsCiting.length > 0 ? '#claims' : undefined,
+  },
+];
 ---
 
 <BaseLayout title={d.title} description={d.summary}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
-    <span hidden data-pagefind-filter="type:Sources" data-pagefind-meta="type:Source"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.title}
+      subtitle={d.is_primary ? `Primary source · ${typeLabel}` : `Modern scholarship · ${typeLabel}`}
+      rows={sourceInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Sources" data-pagefind-meta="type:Source"></span>
     <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">
       {d.is_primary ? 'Primary source' : 'Modern scholarship'} · {d.type.replace('_', ' ')}
     </p>
     <h1 class="font-serif text-4xl mb-2">{d.title}</h1>
     {d.author && <p class="text-xl text-sand-700 italic">{d.author}</p>}
-
-    <div class="mt-6 grid sm:grid-cols-2 gap-4 text-sm">
-      <div class="border border-sand-300 rounded p-4 bg-white/60">
-        <h3 class="text-xs uppercase tracking-widest text-sand-700 font-semibold mb-2">Composition</h3>
-        {d.date_composed && (
-          <p>{d.date_composed.circa ? 'c. ' : ''}{Math.abs(d.date_composed.value)} {d.date_composed.value < 0 ? 'BCE' : 'CE'}</p>
-        )}
-        <p class="text-sand-700 capitalize">Language: {d.language}</p>
-      </div>
-      {d.access_to_witnesses && (
-        <div class="border border-sand-300 rounded p-4 bg-white/60">
-          <h3 class="text-xs uppercase tracking-widest text-sand-700 font-semibold mb-2">Reliability</h3>
-          <p class="capitalize">{d.access_to_witnesses.replace('_', ' ')} access</p>
-          {d.temporal_distance_years && (
-            <p class="text-sand-700">~{d.temporal_distance_years} years from events</p>
-          )}
-        </div>
-      )}
-    </div>
 
     <div class="prose-encyclopedia mt-8 text-sand-900">
       <p>{d.summary}</p>
@@ -97,7 +121,7 @@ const eventsUsingAsPrincipal = allEvents
     )}
 
     {claimsCiting.length > 0 && (
-      <section class="mt-12">
+      <section class="mt-12" id="claims">
         <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Claims citing this source</h2>
         <ul class="space-y-2">
           {claimsCiting.map((c) => {
@@ -114,5 +138,6 @@ const eventsUsingAsPrincipal = allEvents
         </ul>
       </section>
     )}
-  </article>
+    </article>
+  </div>
 </BaseLayout>

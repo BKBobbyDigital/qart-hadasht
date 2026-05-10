@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Map from '../../components/Map.astro';
+import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -48,6 +49,46 @@ if (d.candidates && d.candidates.length > 0) {
   }];
 }
 
+// ─── Infobox derivations ─────────────────────────────────────────────────────
+const typeLabel = d.type.charAt(0).toUpperCase() + d.type.slice(1);
+
+const coords = d.primary
+  ? `${d.primary.lat.toFixed(2)}, ${d.primary.lon.toFixed(2)}`
+  : (d.candidates && d.candidates.length > 0 ? null : null);
+const coordsQual = (!d.primary && d.candidates && d.candidates.length > 0) ? 'contested' : undefined;
+
+// Period of activity — earliest and latest event year at this place
+let periodText: string | null = null;
+if (eventsHere.length > 0) {
+  const years = eventsHere.map((e: any) => e.data.date_start.value);
+  const earliest = Math.min(...years);
+  const latest = Math.max(...years);
+  if (earliest === latest) {
+    periodText = `${Math.abs(earliest)} BCE`;
+  } else {
+    periodText = `${Math.abs(earliest)}–${Math.abs(latest)} BCE`;
+  }
+}
+
+const placeInfoboxRows: InfoboxRow[] = [
+  { label: 'Type', value: typeLabel },
+  { label: 'Modern location', value: d.modern_location ?? null },
+  {
+    label: 'Coordinates',
+    value: coords,
+    qualifier: coordsQual,
+  },
+  {
+    label: 'Period of activity',
+    value: periodText,
+  },
+  {
+    label: 'Mentioned in',
+    value: eventsHere.length > 0 ? `${eventsHere.length} event${eventsHere.length === 1 ? '' : 's'}` : null,
+    href: eventsHere.length > 0 ? '#events' : undefined,
+  },
+];
+
 // For battlefields with candidates, optionally add Carthage as a geographic reference point.
 if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
   const allPlaces = await getCollection('places');
@@ -64,8 +105,14 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
-    <span hidden data-pagefind-filter="type:Places" data-pagefind-meta="type:Place"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.name_display}
+      subtitle={d.modern_location ? `${typeLabel} · ${d.modern_location}` : typeLabel}
+      rows={placeInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Places" data-pagefind-meta="type:Place"></span>
     <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">{d.type}</p>
     <h1 class="font-serif text-4xl mb-3">{d.name_display}</h1>
     {d.modern_location && <p class="text-sand-700">Modern: {d.modern_location}</p>}
@@ -102,7 +149,7 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
     )}
 
     {eventsHere.length > 0 && (
-      <section class="mt-12 pt-6 border-t border-sand-300">
+      <section class="mt-12 pt-6 border-t border-sand-300" id="events">
         <h2 class="font-serif text-2xl mb-3">Events here</h2>
         <ul class="space-y-2">
           {eventsHere.map((e) => (
@@ -140,5 +187,6 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
         </ul>
       </section>
     )}
-  </article>
+    </article>
+  </div>
 </BaseLayout>

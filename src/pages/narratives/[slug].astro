@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection, render } from 'astro:content';
+import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import { getCollection, getEntry, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const narratives = await getCollection('narratives');
@@ -13,11 +14,53 @@ export async function getStaticPaths() {
 const { narrative } = Astro.props;
 const { Content } = await render(narrative);
 const d = narrative.data;
+
+// Resolve primary subject entity (first one) into a link
+const primary = (d.primary_entities ?? [])[0];
+const subjectCollection: Record<string, string> = {
+  event: 'events',
+  person: 'people',
+  place: 'places',
+  institution: 'institutions',
+  theme: 'themes',
+};
+let subjectLinks: InfoboxLink[] = [];
+if (primary && subjectCollection[primary.type]) {
+  const entity: any = await getEntry(subjectCollection[primary.type] as any, primary.slug);
+  if (entity) {
+    const text =
+      entity.data.name_display ||
+      entity.data.name ||
+      entity.data.title ||
+      primary.slug;
+    subjectLinks = [{ text, href: `/${subjectCollection[primary.type]}/${entity.id.replace(/\.md$/, '')}` }];
+  }
+}
+
+const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
+
+const narrativeInfoboxRows: InfoboxRow[] = [
+  { label: 'Scope', value: scopeLabel },
+  { label: 'Subject', value: subjectLinks },
+  { label: 'Last revised', value: d.last_revised },
+  {
+    label: 'Referenced claims',
+    value: (d.referenced_claims ?? []).length > 0
+      ? `${d.referenced_claims.length}`
+      : null,
+  },
+];
 ---
 
 <BaseLayout title={d.title} description={d.thesis}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
-    <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.title}
+      subtitle={`Narrative · ${scopeLabel}`}
+      rows={narrativeInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
     <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Narrative · {d.scope}</p>
     <h1 class="font-serif text-4xl mb-4">{d.title}</h1>
 
@@ -33,5 +76,6 @@ const d = narrative.data;
     <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
       <p>Last revised {d.last_revised}. Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.</p>
     </footer>
-  </article>
+    </article>
+  </div>
 </BaseLayout>

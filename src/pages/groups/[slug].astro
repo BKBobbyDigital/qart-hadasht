@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import { formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -13,24 +15,36 @@ export async function getStaticPaths() {
 const { group } = Astro.props;
 const d = group.data;
 
-const fmtDate = (date: any) => {
-  if (!date) return null;
-  const year = Math.abs(date.value);
-  const era = date.value < 0 ? 'BCE' : 'CE';
-  return `${date.circa ? 'c. ' : ''}${year} ${era}`;
-};
+const typeLabel = d.type.replace('_', ' ');
+const typeLabelCap = typeLabel.charAt(0).toUpperCase() + typeLabel.slice(1);
+const activeText = formatDateRange(d.active_from, d.active_to);
+const activeQual = dateQualifier(d.active_from);
+
+const groupInfoboxRows: InfoboxRow[] = [
+  { label: 'Type', value: typeLabelCap },
+  { label: 'Affiliation', value: d.polity_affiliation ?? null },
+  { label: 'Active', value: activeText, qualifier: activeQual },
+];
 ---
 
 <BaseLayout title={d.name_display} description={d.summary}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
-    <span hidden data-pagefind-filter="type:Groups" data-pagefind-meta="type:Group"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.name_display}
+      subtitle={`Group · ${typeLabel}`}
+      rows={groupInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Groups" data-pagefind-meta="type:Group"></span>
     <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Group · {d.type.replace('_', ' ')}</p>
     <h1 class="font-serif text-4xl mb-2">{d.name_display}</h1>
-    <p class="text-sand-700">
-      {d.active_from && <>active {fmtDate(d.active_from)}</>}
-      {d.active_from && d.active_to && <> – {fmtDate(d.active_to)}</>}
-      {d.polity_affiliation && <> · {d.polity_affiliation}</>}
-    </p>
+    {(activeText || d.polity_affiliation) && (
+      <p class="text-sand-700">
+        {activeText && <>active {activeText}</>}
+        {activeText && d.polity_affiliation && <> · </>}
+        {d.polity_affiliation}
+      </p>
+    )}
 
     {d.name_alt && (
       <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
@@ -47,5 +61,6 @@ const fmtDate = (date: any) => {
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
       <p>{d.summary}</p>
     </div>
-  </article>
+    </article>
+  </div>
 </BaseLayout>
