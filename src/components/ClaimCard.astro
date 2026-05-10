@@ -1,6 +1,7 @@
 ---
 import { getEntry } from 'astro:content';
 import ConfidenceBadge from './ConfidenceBadge.astro';
+import SourceDistance from './SourceDistance.astro';
 
 interface Props {
   claim: any;
@@ -42,10 +43,13 @@ const sourceEntries = await Promise.all(
       {sourceEntries.map((s: any) => (
         <li class="flex gap-2">
           <span class="text-sand-500 shrink-0">{s.stance === 'supports' ? '✓' : s.stance === 'contradicts' ? '✗' : '~'}</span>
-          <span>
-            <a href={`/sources/${s.source.id}`} class="font-medium text-tyrian-700 hover:underline">
-              {s.sourceData?.author ? `${s.sourceData.author}, ` : ''}{s.sourceData?.title}
-            </a>
+          <span class="flex-1">
+            <span class="inline-flex items-baseline gap-2 flex-wrap">
+              <a href={`/sources/${s.source.id}`} class="font-medium text-tyrian-700 hover:underline">
+                {s.sourceData?.author ? `${s.sourceData.author}, ` : ''}{s.sourceData?.title}
+              </a>
+              <SourceDistance source={s.sourceData} />
+            </span>
             {s.passage_ref && <span class="text-sand-700"> {s.passage_ref}</span>}
             <span class="text-sand-700"> — {s.passage_summary}</span>
           </span>

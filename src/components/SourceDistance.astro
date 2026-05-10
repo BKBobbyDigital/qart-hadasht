@@ -1,0 +1,123 @@
+---
+/**
+ * Source-distance chip for claim cards.
+ *
+ * Shows how far a cited source sits from the events it describes — a quietly
+ * powerful epistemic signal. Polybius wrote ~50 years after Cannae. Livy
+ * ~200. Appian ~300. The distance reframes how to read each citation
+ * without burying the reader in source-criticism prose.
+ *
+ * Color buckets (for primary literary sources):
+ *   - contemporary / ≤50y → emerald (close witness or near-contemporary)
+ *   - 51–150y           → amber  (one tradition removed; oral memory still alive)
+ *   - 151+y             → rose   (literary tradition; events second-hand or later)
+ *   - unknown distance  → stone  (cannot evaluate)
+ *
+ * Modern scholarship is shown as a neutral "modern" chip rather than a
+ * thousand-year distance — the distance number isn't the epistemic story
+ * for secondary scholarship.
+ *
+ * Inscriptions and archaeological sources are typically contemporary by
+ * definition, so they get the emerald variant when no explicit distance is
+ * given.
+ */
+
+interface Props {
+  /** The source's `data` object — fields used: type, is_primary,
+      temporal_distance_years, access_to_witnesses. */
+  source?: {
+    type?: string;
+    is_primary?: boolean;
+    temporal_distance_years?: number | null;
+    access_to_witnesses?: string;
+  };
+}
+const { source } = Astro.props;
+
+type Bucket = {
+  label: string;
+  title: string;
+  dot: string;
+  border: string;
+  bg: string;
+  text: string;
+};
+
+let bucket: Bucket | null = null;
+
+if (source) {
+  const dist = source.temporal_distance_years;
+
+  if (source.is_primary === false || source.type === 'modern_scholarship') {
+    bucket = {
+      label: 'modern',
+      title: 'Modern scholarship — secondary source.',
+      dot: 'bg-tyrian-500',
+      border: 'border-tyrian-300',
+      bg: 'bg-tyrian-50',
+      text: 'text-tyrian-900',
+    };
+  } else if (
+    source.type === 'inscription' ||
+    source.type === 'archaeological' ||
+    source.type === 'numismatic'
+  ) {
+    bucket = {
+      label: 'contemporary',
+      title: 'A material witness contemporary with the events.',
+      dot: 'bg-emerald-600',
+      border: 'border-emerald-300',
+      bg: 'bg-emerald-50',
+      text: 'text-emerald-900',
+    };
+  } else if (typeof dist === 'number') {
+    if (dist <= 50) {
+      bucket = {
+        label: `~${dist}y from events`,
+        title: 'Near-contemporary — direct or very close witness.',
+        dot: 'bg-emerald-600',
+        border: 'border-emerald-300',
+        bg: 'bg-emerald-50',
+        text: 'text-emerald-900',
+      };
+    } else if (dist <= 150) {
+      bucket = {
+        label: `~${dist}y from events`,
+        title: 'One tradition removed — oral memory likely still alive.',
+        dot: 'bg-amber-600',
+        border: 'border-amber-300',
+        bg: 'bg-amber-50',
+        text: 'text-amber-900',
+      };
+    } else {
+      bucket = {
+        label: `~${dist}y from events`,
+        title: 'Literary tradition — events second-hand or later.',
+        dot: 'bg-rose-600',
+        border: 'border-rose-300',
+        bg: 'bg-rose-50',
+        text: 'text-rose-900',
+      };
+    }
+  } else {
+    bucket = {
+      label: 'distance unknown',
+      title: 'Temporal distance from events is not recorded.',
+      dot: 'bg-stone-400',
+      border: 'border-stone-300',
+      bg: 'bg-stone-50',
+      text: 'text-stone-700',
+    };
+  }
+}
+---
+
+{bucket && (
+  <span
+    class={`inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider rounded-full border px-2 py-0.5 ${bucket.border} ${bucket.bg} ${bucket.text}`}
+    title={bucket.title}
+  >
+    <span class={`inline-block w-1.5 h-1.5 rounded-full ${bucket.dot}`} aria-hidden="true"></span>
+    <span>{bucket.label}</span>
+  </span>
+)}
