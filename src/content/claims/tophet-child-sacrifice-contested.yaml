@@ -1,0 +1,90 @@
+slug: tophet-child-sacrifice-contested
+statement: >
+  Whether the Tophet precinct at Carthage was the site of systematic
+  ritual child sacrifice — as the surviving Greco-Roman literary
+  tradition consistently reports (Diodorus 20.14, Plutarch
+  *De Superstitione*, Tertullian) — or whether the deposits represent
+  cremation of children who died of natural causes (a position
+  developed in 1980s-90s scholarship by Sabatino Moscati, Sergio
+  Ribichini and others) is one of the most-contested questions of
+  Carthaginian religious history. The literary record is consistent
+  but hostile-framed; the stratigraphic-archaeological record is
+  ambiguous and admits both readings.
+confidence: contested
+dispute_summary: |
+  Three positions divide the modern scholarship:
+
+  1. **Systematic sacrifice (consensus through ~1980).** The
+     Greco-Roman literary tradition is reading something real: the
+     Tophet was a precinct where children were ritually killed and
+     cremated, with stelae dedicated to Baal Hammon and Tanit
+     marking the dedications. The continuity of practice across
+     six centuries and the geographic spread of similar precincts
+     across the Punic-cultural zone (Motya, Sulci, Tharros)
+     supports the systematic-sacrifice reading.
+
+  2. **Natural-cause cremation cemetery (Moscati school, ~1980s
+     forward).** The Tophet is a cemetery for children who died
+     in infancy of natural causes — essentially an ancient
+     equivalent of an infant burial ground — and the literary
+     tradition is hostile-framed misinterpretation by Greek and
+     Roman polemicists who could not understand a foreign mortuary
+     practice as anything other than barbarism. The stratigraphic
+     evidence (small bones, calcined remains, urns of standardized
+     types) is at least as consistent with this reading as with
+     systematic sacrifice.
+
+  3. **Mixed practice (current consensus, broadly).** Both
+     readings preserve real elements: the Tophet contains both
+     sacrificial deposits AND natural-cause cremations, with the
+     proportions varying by period and locale. The 2010s
+     bioarchaeological work (Smith, Stager and others on
+     dental development analysis) has produced evidence
+     consistent with at least some of the deposits being too old
+     to fit the natural-infant-mortality reading. The mixed-
+     practice position is the dominant current reading but
+     individual specialists vary substantially.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.14"
+    passage_summary: >
+      Diodorus's principal narrative of Carthaginian sacrifice
+      during the Agathocles invasion of 310 BCE — the most-cited
+      ancient passage and the source of the modern systematic-
+      sacrifice tradition.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "De Superstitione 13"
+    passage_summary: >
+      Plutarch's treatment of the practice through hostile
+      philosophical-moral framing.
+  - source: lancel-carthage-1995
+    stance: qualifies
+    passage_summary: >
+      Lancel's overview discusses the question across the
+      surviving evidence and the modern interpretive tradition.
+  - source: hoyos-carthaginians-2010
+    stance: qualifies
+    passage_summary: >
+      Hoyos treats the question as genuinely contested and
+      surveys the modern positions.
+  - source: quinn-phoenicians-2018
+    stance: qualifies
+    passage_summary: >
+      Quinn's analysis integrates the Tophet question with
+      broader Phoenician-Punic religious-historical
+      reconstruction.
+entities:
+  - type: theme
+    slug: the-tophet-question
+    role: subject
+  - type: institution
+    slug: tophet
+    role: subject
+  - type: deity
+    slug: baal-hammon
+    role: context
+  - type: deity
+    slug: tanit
+    role: context

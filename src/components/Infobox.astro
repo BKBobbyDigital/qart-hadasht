@@ -13,7 +13,8 @@
 export type InfoboxRow = {
   label: string;
   /**
-   * The value. Falsy/empty values render as "unknown".
+   * The value. Falsy/empty values render as the empty-state label
+   * (default "unknown" — override per-row via emptyLabel).
    * - string | number: rendered as text (or as a link if href is given)
    * - InfoboxLink[]: rendered as a comma-separated list of links
    */
@@ -22,6 +23,11 @@ export type InfoboxRow = {
   href?: string;
   /** Italic qualifier appended after the value, e.g. "legendary", "c.", "approximate". */
   qualifier?: string;
+  /**
+   * Override the default "unknown" label for empty values. Use "none" for
+   * count-style rows ("Claims: none" rather than "Claims: unknown").
+   */
+  emptyLabel?: string;
 };
 
 export type InfoboxLink = {
@@ -63,7 +69,7 @@ const isEmpty = (v: InfoboxRow['value']) =>
           <dt class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{row.label}</dt>
           <dd class="text-ink-900 leading-snug mt-1">
             {isEmpty(row.value) ? (
-              <span class="text-sand-700 italic">unknown</span>
+              <span class="text-sand-700 italic">{row.emptyLabel ?? 'unknown'}</span>
             ) : Array.isArray(row.value) ? (
               <span>
                 {(row.value as InfoboxLink[]).map((link, i) => (

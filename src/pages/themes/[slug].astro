@@ -73,26 +73,31 @@ const themeInfoboxRows: InfoboxRow[] = [
     label: 'Events',
     value: referencingEvents.length > 0 ? `${referencingEvents.length}` : null,
     href: referencingEvents.length > 0 ? '#events' : undefined,
+    emptyLabel: 'none',
   },
   {
     label: 'People',
     value: referencingPeople.length > 0 ? `${referencingPeople.length}` : null,
     href: referencingPeople.length > 0 ? '#people' : undefined,
+    emptyLabel: 'none',
   },
   {
     label: 'Deities',
     value: referencingDeities.length > 0 ? `${referencingDeities.length}` : null,
     href: referencingDeities.length > 0 ? '#deities' : undefined,
+    emptyLabel: 'none',
   },
   {
     label: 'Claims',
     value: referencingClaims.length > 0 ? `${referencingClaims.length}` : null,
     href: referencingClaims.length > 0 ? '#claims' : undefined,
+    emptyLabel: 'none',
   },
   {
     label: 'Narratives',
     value: referencingNarratives.length > 0 ? `${referencingNarratives.length}` : null,
     href: referencingNarratives.length > 0 ? '#narratives' : undefined,
+    emptyLabel: 'none',
   },
   { label: 'Last revised', value: d.last_revised },
 ];

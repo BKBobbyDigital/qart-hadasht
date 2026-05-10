@@ -1,0 +1,43 @@
+slug: tophet-stratigraphic-continuity
+statement: >
+  The Tophet precinct at Carthage shows continuous stratigraphic
+  use from the late 8th century BCE through the city's destruction
+  in 146 BCE — approximately six centuries of dedicatory deposits
+  layered into a single coherent precinct. The continuity itself is
+  one of the structural facts about Carthaginian religion that any
+  reading of the precinct's function has to accommodate.
+confidence: attested
+scholarly_consensus: >
+  The stratigraphic continuity is firmly attested through the
+  20th-century excavations (principally the 1976-79 campaigns of
+  the American Schools of Oriental Research and the Tunisian
+  Institut National du Patrimoine) and is broadly accepted in
+  modern scholarship across all positions on the broader
+  child-sacrifice question. What the deposits *mean* is contested;
+  that they were continuously laid down across six centuries is
+  not.
+sources:
+  - source: lancel-carthage-1995
+    stance: supports
+    passage_summary: >
+      Lancel's overview integrates the stratigraphic record from
+      the 1976-79 excavation campaign with the broader
+      archaeological reconstruction of Punic Carthage.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos discusses the stratigraphic continuity as a feature
+      of Carthaginian religious-cultural persistence.
+  - source: quinn-phoenicians-2018
+    stance: supports
+    passage_summary: >
+      Quinn's broader Phoenician-Punic treatment integrates the
+      Carthage Tophet stratigraphy with comparable precincts at
+      Motya, Sulci, and other Punic-cultural sites.
+entities:
+  - type: theme
+    slug: the-tophet-question
+    role: subject
+  - type: institution
+    slug: tophet
+    role: subject
