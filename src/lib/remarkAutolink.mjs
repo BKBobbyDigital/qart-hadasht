@@ -31,6 +31,7 @@ const COLLECTIONS = [
   { dir: 'places', nameKey: 'name_display', urlPrefix: '/places', keyType: 'place' },
   { dir: 'institutions', nameKey: 'name_display', urlPrefix: '/institutions', keyType: 'institution' },
   { dir: 'groups', nameKey: 'name_display', urlPrefix: '/groups', keyType: 'group' },
+  { dir: 'deities', nameKey: 'name_display', urlPrefix: '/deities', keyType: 'deity' },
 ];
 
 /** Markdown-bodied collections — frontmatter under `title`, slug = filename. */
@@ -148,6 +149,7 @@ function fileToExcludeKey(filePath) {
     places: 'place',
     institutions: 'institution',
     groups: 'group',
+    deities: 'deity',
   };
   const t = map[collection];
   return t ? `${t}:${slug}` : undefined;

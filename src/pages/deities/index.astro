@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const deities = (await getCollection('deities')).sort((a, b) =>
+  a.data.name_display.localeCompare(b.data.name_display)
+);
+---
+
+<BaseLayout title="Deities">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-2">Deities</h1>
+    <p class="text-sand-700 mb-8">
+      The principal gods of the Carthaginian pantheon. Punic religion descended
+      from the Phoenician tradition of the Levantine homeland; the relative
+      weight of individual deities at Carthage diverged over time from the
+      original Tyrian pattern. For the broader treatment of Carthaginian
+      religion, see <a href="/themes/punic-religion" class="text-tyrian-700 hover:underline">the Punic religion theme</a>.
+    </p>
+    <ul class="grid sm:grid-cols-2 gap-3">
+      {deities.map((d) => (
+        <li>
+          <a href={`/deities/${d.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-white">
+            <div class="flex items-baseline gap-3">
+              {d.data.name_punic_script && (
+                <span class="font-phoenician text-2xl text-tyrian-700">{d.data.name_punic_script}</span>
+              )}
+              <h2 class="font-serif text-lg text-tyrian-700">{d.data.name_display}</h2>
+            </div>
+            {d.data.epithet && <p class="text-sm text-sand-700 mt-1 italic">{d.data.epithet}</p>}
+            {d.data.domain && <p class="text-xs text-sand-700 mt-1">{d.data.domain.split(';')[0].trim()}</p>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

@@ -1,0 +1,70 @@
+slug: tanit-late-emergence
+statement: >
+  Tanit emerges in the Carthaginian inscriptional record from
+  approximately the 5th century BCE forward and is rare to absent
+  in earlier Punic dedications. The shift is one of the few
+  religious-historical changes clearly visible in the surviving
+  evidence over time. Whether Tanit emerged through differentiation
+  from Astarte, was imported from elsewhere in the Phoenician
+  colonial network, or represents a genuinely Carthaginian
+  theological development is contested.
+confidence: contested
+dispute_summary: |
+  The chronological pattern itself is firmly attested — pre-5th-
+  century Carthaginian inscriptions name Astarte (or no female
+  deity at all); post-5th-century inscriptions overwhelmingly
+  name Tanit. The mechanism behind the shift is what divides
+  modern scholarship:
+
+  1. **Differentiation from Astarte.** Tanit emerged as a
+     specifically Carthaginian local form of Astarte through
+     a process of theological development; the new name
+     marked the differentiation. The two are continuous.
+
+  2. **Import from elsewhere.** Tanit was a deity from
+     elsewhere in the Phoenician-Punic colonial network whose
+     cult was imported to Carthage and rose to prominence
+     there. The Phoenician homeland evidence is too
+     fragmentary to confirm or rule this out.
+
+  3. **Local Carthaginian development.** Tanit emerged from
+     a syncretic process involving Phoenician, Libyan, and
+     possibly other religious traditions distinctive to
+     Carthage's hinterland. This reading takes seriously
+     the etymological opacity of the name.
+
+  Modern scholarship has not converged. Quinn's *Phoenicians*
+  treatment leans toward (3); older syntheses lean toward (1).
+  Aubet's *Phoenicians and the West* discusses the question
+  inconclusively.
+sources:
+  - source: sznycer-civilisation-1978
+    stance: supports
+    passage_summary: >
+      Sznycer treats the late emergence as one of the
+      principal features of Carthaginian inscriptional history.
+  - source: lancel-carthage-1995
+    stance: supports
+    passage_summary: >
+      Lancel's overview discusses the chronological shift and
+      surveys the competing explanations.
+  - source: quinn-phoenicians-2018
+    stance: supports
+    passage_summary: >
+      Quinn's analysis emphasizes the Carthaginian-local
+      character of the development.
+  - source: aubet-phoenicians-west-2001
+    stance: qualifies
+    passage_summary: >
+      Aubet treats the question as genuinely unresolved and
+      surveys the evidence on both sides.
+entities:
+  - type: deity
+    slug: tanit
+    role: subject
+  - type: deity
+    slug: astarte
+    role: subject
+  - type: theme
+    slug: punic-religion
+    role: context

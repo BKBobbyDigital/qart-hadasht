@@ -1,0 +1,62 @@
+slug: melqart-heracles-identification
+statement: >
+  The identification of the Tyrian-Punic god Melqart with the
+  Greek Heracles, attested as early as Herodotus (2.44) and
+  systematized through the Hellenistic period, is the most
+  consequential single Greek-Phoenician religious assimilation
+  in the surviving record. The *interpretatio Graeca* was so
+  thorough that the two largely fused in Greek literary
+  discussion; Greek and Latin sources discussing "Heracles"
+  in Phoenician or Punic contexts are typically referring to
+  Melqart cults.
+confidence: attested
+scholarly_consensus: >
+  The identification itself is firmly attested across
+  Herodotus, Diodorus, and the broader Greek tradition. The
+  interpretive question — whether the identification reflects
+  genuine theological correspondence between the two deities
+  or a Greek analytical projection that flattened
+  Phoenician religious distinctiveness — is more open. The
+  modern consensus accepts the identification as a real
+  feature of ancient Mediterranean religious thought while
+  remaining cautious about reading it backward into pre-
+  contact Phoenician religion.
+sources:
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "2.44"
+    passage_summary: >
+      Herodotus's explicit identification of Tyrian Heracles
+      with Phoenician Melqart, including a visit to the
+      Tyrian temple to investigate the cult.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.11"
+    passage_summary: >
+      Polybius preserves Hannibal's pre-war oath at his
+      father's altar — conventionally identified as
+      Melqart's altar — using the Greek-Phoenician
+      religious vocabulary that the Heracles identification
+      had made standard.
+  - source: aubet-phoenicians-west-2001
+    stance: qualifies
+    passage_summary: >
+      Aubet discusses the identification's theological
+      significance and the limits of *interpretatio* as
+      historical evidence.
+  - source: quinn-phoenicians-2018
+    stance: qualifies
+    passage_summary: >
+      Quinn analyzes the identification as a feature of
+      Greek religious thought as much as of Phoenician
+      religious history.
+entities:
+  - type: deity
+    slug: melqart
+    role: subject
+  - type: theme
+    slug: punic-religion
+    role: context
+  - type: theme
+    slug: punic-identity
+    role: context

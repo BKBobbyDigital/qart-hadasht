@@ -42,6 +42,7 @@ export function buildLinkRegistry(input: {
   institutions?: Array<{ id: string; data: { name_display: string } }>;
   groups?: Array<{ id: string; data: { name_display: string } }>;
   themes?: Array<{ id: string; data: { title: string } }>;
+  deities?: Array<{ id: string; data: { name_display: string } }>;
 }): LinkRegistry {
   const raw: LinkTarget[] = [];
 
@@ -85,6 +86,13 @@ export function buildLinkRegistry(input: {
       name: t.data.title,
       href: `/themes/${t.id.replace(/\.md$/, '')}`,
       key: `theme:${t.id.replace(/\.md$/, '')}`,
+    })
+  );
+  (input.deities ?? []).forEach((d) =>
+    raw.push({
+      name: d.data.name_display,
+      href: `/deities/${d.id}`,
+      key: `deity:${d.id}`,
     })
   );
 

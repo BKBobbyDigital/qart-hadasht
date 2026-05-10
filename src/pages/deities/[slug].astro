@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const deities = await getCollection('deities');
+  return deities.map((d) => ({
+    params: { slug: d.id },
+    props: { deity: d },
+  }));
+}
+
+const { deity } = Astro.props;
+const d = deity.data;
+
+// Reverse-lookup: claims that reference this deity via entities
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'deity' && e.slug === deity.id)
+);
+
+const sources = await Promise.all(
+  (d.principal_sources ?? []).map(async (s: any) => await getEntry('sources', s.id))
+);
+
+const referencedThemes = await Promise.all(
+  (d.referenced_themes ?? []).map(async (ref: any) => await getEntry('themes', ref.id))
+);
+
+// Auto-link registry
+const allEvents = await getCollection('events');
+const allPeople = await getCollection('people');
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+});
+
+const deityInfoboxRows: InfoboxRow[] = [
+  { label: 'Domain', value: d.domain ?? null },
+  { label: 'Greek name', value: d.interpretatio?.greek ?? null },
+  { label: 'Roman name', value: d.interpretatio?.roman ?? null },
+  { label: 'Epithet', value: d.epithet ?? null },
+  { label: 'Attestation', value: d.attestation ?? null },
+];
+---
+
+<BaseLayout title={d.name_display} description={d.summary}>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.name_display}
+      subtitle={`Deity${d.domain ? ` · ${d.domain.split(';')[0].trim()}` : ''}`}
+      rows={deityInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Deities" data-pagefind-meta="type:Deity"></span>
+      {d.name_punic_script && (
+        <p class="font-phoenician text-3xl text-tyrian-700 mb-2">{d.name_punic_script}</p>
+      )}
+      <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Deity</p>
+      <h1 class="font-serif text-4xl mb-2">{d.name_display}</h1>
+      {d.epithet && <p class="text-lg text-sand-700 italic">{d.epithet}</p>}
+
+      {(d.name_punic || d.name_greek || d.name_latin) && (
+        <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
+          <h2 class="font-serif text-xl mb-3">Names</h2>
+          <dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
+            {d.name_punic && (<><dt class="font-semibold text-sand-700">Punic</dt><dd>{d.name_punic} {d.name_punic_script && <span class="font-phoenician text-tyrian-700 ml-2">{d.name_punic_script}</span>}</dd></>)}
+            {d.name_greek && (<><dt class="font-semibold text-sand-700">Greek</dt><dd>{d.name_greek}</dd></>)}
+            {d.name_latin && (<><dt class="font-semibold text-sand-700">Latin</dt><dd>{d.name_latin}</dd></>)}
+          </dl>
+          {d.etymology && <p class="text-sm mt-3 text-sand-900">{d.etymology}</p>}
+        </section>
+      )}
+
+      <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
+        {d.summary.split(/\n\n+/).map((para: string) => (
+          <p set:html={autolink(para, linkRegistry, { excludeKey: `deity:${deity.id}` })} />
+        ))}
+      </div>
+
+      {referencingClaims.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300">
+          <h2 class="font-serif text-2xl mb-3">Mentioned in claims</h2>
+          <ul class="space-y-2">
+            {referencingClaims.map((c) => (
+              <li class="text-sm">
+                <p class="text-sand-900">{c.data.statement}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {referencedThemes.filter(Boolean).length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300">
+          <h2 class="font-serif text-2xl mb-3">Themes</h2>
+          <ul class="space-y-2">
+            {referencedThemes.filter(Boolean).map((t: any) => (
+              <li>
+                <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline font-serif">
+                  {t.data.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {sources.filter(Boolean).length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300">
+          <h2 class="font-serif text-2xl mb-3">Principal sources</h2>
+          <ul class="space-y-2">
+            {sources.filter(Boolean).map((s: any) => (
+              <li>
+                <a href={`/sources/${s.id}`} class="text-tyrian-700 hover:underline">
+                  {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </article>
+  </div>
+</BaseLayout>

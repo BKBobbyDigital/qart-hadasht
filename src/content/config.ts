@@ -428,6 +428,48 @@ const institutions = defineCollection({
   }),
 });
 
+// ─── Deities, the gods of the Carthaginian pantheon ───────────────────────────
+//
+// First-class entities for the principal deities. Distinct from people
+// (mortal historical figures) and from institutions (priestly bodies and
+// sanctuaries). Each deity has Phoenician/Greek/Roman attestation patterns,
+// associated cults and sanctuaries, and characteristic iconography. The
+// surviving evidence is uneven — much more inscriptional and archaeological
+// than literary — so the schema is designed to accommodate fragmentary
+// attestation.
+
+const deities = defineCollection({
+  type: 'data',
+  schema: z.object({
+    slug: z.string(),
+    name_display: z.string(),
+    name_punic: z.string().optional(),
+    name_punic_script: z.string().optional(),
+    name_greek: z.string().optional(),
+    name_latin: z.string().optional(),
+    /** "Lord of X", "the great mother", etc. */
+    epithet: z.string().optional(),
+    /** Brief etymology, with appropriate caution about contested readings. */
+    etymology: z.string().optional(),
+    /** Greco-Roman gods this deity was identified with via interpretatio. */
+    interpretatio: z
+      .object({
+        greek: z.string().optional(),
+        roman: z.string().optional(),
+      })
+      .optional(),
+    /** "supreme male god", "great mother", "healing", "sea & maritime", etc. */
+    domain: z.string().optional(),
+    /** How securely attested, broadly: "well-attested", "well-attested locally",
+     *  "attested in inscriptions only", "primarily literary", etc. */
+    attestation: z.string().optional(),
+    summary: z.string(),
+    principal_sources: z.array(reference('sources')).default([]),
+    /** Themes this deity appears in: religion, identity, etc. */
+    referenced_themes: z.array(reference('themes')).default([]),
+  }),
+});
+
 // ─── Export ───────────────────────────────────────────────────────────────────
 
 export const collections = {
@@ -443,4 +485,5 @@ export const collections = {
   causalLinks,
   themes,
   institutions,
+  deities,
 };

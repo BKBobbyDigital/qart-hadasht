@@ -204,6 +204,7 @@ const allPlaces = await getCollection('places');
 const allInstitutions = await getCollection('institutions');
 const allGroups = await getCollection('groups');
 const allThemes = await getCollection('themes');
+const allDeities = await getCollection('deities');
 const linkRegistry = buildLinkRegistry({
   events: allEvents,
   people: allPeople,
@@ -211,6 +212,7 @@ const linkRegistry = buildLinkRegistry({
   institutions: allInstitutions,
   groups: allGroups,
   themes: allThemes,
+  deities: allDeities,
 });
 const summaryHtml = autolink(data.summary, linkRegistry, {
   excludeKey: `event:${event.id}`,
