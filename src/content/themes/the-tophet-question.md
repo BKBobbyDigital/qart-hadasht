@@ -108,6 +108,21 @@ support either reading specifically. As of 2020s scholarship, the
 question is genuinely unresolved, with substantial publications on
 both sides and no clear convergence.
 
+A useful comparative anchor sits in the Phoenician homeland. The
+Eshmun Sanctuary Votive Statue from the precinct at Bustan
+esh-Sheikh near Sidon — a 5th-century BCE marble figure of a seated
+child dedicated by a named Sidonian aristocrat to the healing god —
+attests a parallel Phoenician dedication tradition in which the
+*figure* of a child, not the child itself, served as the offering.
+The Sidonian sanctuary preserves a series of such votives across
+several centuries. They are emphatically not sacrificial: the
+inscriptions name living donors petitioning Eshmun on behalf of
+specific children, often with reference to healing. Whether the
+Carthaginian Tophet inherited a related dedication grammar — with
+the actual remains in the urns standing in for, rather than
+constituting, the offering — is one of the open questions in
+the comparative reading.
+
 ## How to weigh the evidence
 
 Three considerations seem relevant to any honest assessment.

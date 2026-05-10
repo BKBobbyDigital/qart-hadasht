@@ -185,18 +185,18 @@ funerary tower with Phoenician-derived relief panels) documents
 the parallel Phoenician-Iberian elite-cultural exchange in
 pre-Barcid Iberia.
 
-For Phoenician metropolitan luxury production, the Nimrud
-Phoenician Ivory represents the Levantine workshop tradition
-that produced luxury goods for the broader Near Eastern imperial
-market; the Cypriot Silver-Gilt Bowl represents the
+For Phoenician metropolitan luxury production, the
+Nimrud Phoenician Ivory represents the Levantine workshop
+tradition that produced luxury goods for the broader Near Eastern
+imperial market; the Cypriot Silver-Gilt Bowl represents the
 corresponding metalwork tradition; the Tharros Gold Earrings
 represent the western-Mediterranean colonial jewelry production.
 
-For Carthaginian-period elite funerary art, the Punic Anthropoid
-Sarcophagi (the Sarcophagus of the Winged Priestess and related
-examples) and the Cádiz Anthropoid Sarcophagi (the Phoenician-
-colonial Iberian variant) document the late-Punic high-style
-sculptural tradition.
+For Carthaginian-period elite funerary art, the
+Punic Anthropoid Sarcophagi (the Sarcophagus of the Winged Priestess
+and related examples) and the Cádiz Anthropoid Sarcophagi (the
+Phoenician-colonial Iberian variant) document the late-Punic
+high-style sculptural tradition.
 
 For coinage, the Carthage Tetradrachm and the Barcid Iberian
 Coinage are the principal Carthaginian state issues, with
