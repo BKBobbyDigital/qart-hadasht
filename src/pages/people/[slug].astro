@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
@@ -236,7 +237,7 @@ const personInfoboxRows: InfoboxRow[] = [
           {referencingClaims.map((c) => (
             <li class="text-sm">
               <p class="text-sand-900">{c.data.statement}</p>
-              <p class="text-xs text-sand-700 mt-0.5 uppercase tracking-wider">{c.data.confidence}</p>
+              <div class="mt-1"><ConfidenceBadge confidence={c.data.confidence} size="xs" /></div>
             </li>
           ))}
         </ul>

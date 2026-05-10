@@ -5,6 +5,7 @@ import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
 import CannaeDiagram from '../../components/CannaeDiagram.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
@@ -310,7 +311,8 @@ const infoboxRows: InfoboxRow[] = [
                 {causedByResolved.map((r: any) => r.event && (
                   <li>
                     <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
-                    <p class="text-xs text-sand-700 mt-0.5">{r.link.data.relation} <span class="uppercase tracking-wider ml-1">· {r.link.data.confidence}</span></p>
+                    <p class="text-xs text-sand-700 mt-0.5">{r.link.data.relation}</p>
+                    <div class="mt-1"><ConfidenceBadge confidence={r.link.data.confidence} size="xs" /></div>
                   </li>
                 ))}
               </ul>
@@ -323,7 +325,8 @@ const infoboxRows: InfoboxRow[] = [
                 {ledToResolved.map((r: any) => r.event && (
                   <li>
                     <a href={`/events/${r.event.id}`} class="font-serif text-tyrian-700 hover:underline">{r.event.data.name}</a>
-                    <p class="text-xs text-sand-700 mt-0.5">{r.link.data.relation} <span class="uppercase tracking-wider ml-1">· {r.link.data.confidence}</span></p>
+                    <p class="text-xs text-sand-700 mt-0.5">{r.link.data.relation}</p>
+                    <div class="mt-1"><ConfidenceBadge confidence={r.link.data.confidence} size="xs" /></div>
                   </li>
                 ))}
               </ul>

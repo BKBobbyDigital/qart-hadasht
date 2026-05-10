@@ -1,4 +1,6 @@
 ---
+import EditorialConfidenceChip from './EditorialConfidenceChip.astro';
+
 interface Props {
   take: any;
 }
@@ -7,9 +9,9 @@ const data = take.data;
 ---
 
 <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
-  <div class="flex items-center gap-2 mb-2">
+  <div class="flex items-center gap-2 mb-2 flex-wrap">
     <span class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Editorial take</span>
-    <span class="text-[11px] uppercase tracking-wider text-sand-700">· {data.confidence} confidence</span>
+    <EditorialConfidenceChip confidence={data.confidence} />
   </div>
   <h4 class="font-serif text-xl mt-1 mb-2">{data.subject_question}</h4>
   <p class="font-serif text-lg leading-snug text-sand-900">{data.position}</p>

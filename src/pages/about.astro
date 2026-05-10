@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ConfidenceBadge from '../components/ConfidenceBadge.astro';
 ---
 
 <BaseLayout title="About">
@@ -52,11 +53,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       Every factual statement is modeled as a <strong>claim</strong>: atomic,
       individually citable, and tagged with one of:
     </p>
-    <ul>
-      <li><strong>attested</strong>:directly stated in primary sources, not meaningfully disputed.</li>
-      <li><strong>inferred</strong>:reasoned from primary evidence; not directly stated, but well-supported.</li>
-      <li><strong>contested</strong>:genuinely disputed in the sources or among modern scholars.</li>
-      <li><strong>legendary</strong>:drawn from legendary or mythologized tradition; historicity uncertain.</li>
+    <ul class="not-prose space-y-2 my-4">
+      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="attested" /> <span>directly stated in primary sources, not meaningfully disputed.</span></li>
+      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="inferred" /> <span>reasoned from primary evidence; not directly stated, but well-supported.</span></li>
+      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="contested" /> <span>genuinely disputed in the sources or among modern scholars.</span></li>
+      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="disputed" /> <span>active disagreement among modern scholars.</span></li>
+      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="legendary" /> <span>drawn from legendary or mythologized tradition; historicity uncertain.</span></li>
     </ul>
     <p>
       Each claim links to the ancient and modern sources that support, qualify,

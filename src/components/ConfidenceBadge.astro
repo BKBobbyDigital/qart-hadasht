@@ -1,48 +1,82 @@
 ---
+/**
+ * Site-wide confidence chip — one of the recurring epistemic glyphs.
+ *
+ * Used wherever a claim, date, or place identification is labeled with the
+ * site's confidence vocabulary (attested / inferred / contested / disputed /
+ * legendary). The colored dot is part of the design language: once a reader
+ * has seen each color a few times, the glyph reads faster than the word.
+ *
+ * For editorial-take confidence (tentative / moderate / strong) — a different
+ * vocabulary that describes the SITE's confidence in its own position — use
+ * EditorialConfidenceChip.
+ */
+
 interface Props {
   confidence: 'attested' | 'inferred' | 'contested' | 'legendary' | 'disputed';
+  /** Visual size. Default 'sm'. */
+  size?: 'sm' | 'xs';
 }
-const { confidence } = Astro.props;
+const { confidence, size = 'sm' } = Astro.props;
 
-const styles: Record<string, { bg: string; text: string; label: string; title: string }> = {
+const styles: Record<
+  string,
+  { dot: string; border: string; bg: string; text: string; label: string; title: string }
+> = {
   attested: {
-    bg: 'bg-emerald-100',
+    dot: 'bg-emerald-600',
+    border: 'border-emerald-300',
+    bg: 'bg-emerald-50',
     text: 'text-emerald-900',
     label: 'attested',
     title: 'Directly stated in primary sources; not meaningfully disputed.',
   },
   inferred: {
-    bg: 'bg-sky-100',
+    dot: 'bg-sky-600',
+    border: 'border-sky-300',
+    bg: 'bg-sky-50',
     text: 'text-sky-900',
     label: 'inferred',
     title: 'Reasoned from primary evidence; not directly stated, but well-supported.',
   },
   contested: {
-    bg: 'bg-amber-100',
+    dot: 'bg-amber-600',
+    border: 'border-amber-300',
+    bg: 'bg-amber-50',
     text: 'text-amber-900',
     label: 'contested',
     title: 'Genuinely disputed in the sources or among modern scholars.',
   },
   disputed: {
-    bg: 'bg-amber-100',
-    text: 'text-amber-900',
+    dot: 'bg-rose-600',
+    border: 'border-rose-300',
+    bg: 'bg-rose-50',
+    text: 'text-rose-900',
     label: 'disputed',
-    title: 'Disagreement among modern scholars.',
+    title: 'Active disagreement among modern scholars.',
   },
   legendary: {
-    bg: 'bg-tyrian-100',
-    text: 'text-tyrian-900',
+    dot: 'bg-stone-500',
+    border: 'border-stone-300',
+    bg: 'bg-stone-50',
+    text: 'text-stone-700',
     label: 'legendary',
     title: 'Drawn from legendary or mythologized tradition; historicity uncertain.',
   },
 };
 
 const s = styles[confidence];
+const sizeClasses =
+  size === 'xs'
+    ? 'text-[9px] px-1.5 py-0 gap-1'
+    : 'text-[10px] px-2 py-0.5 gap-1.5';
+const dotSize = size === 'xs' ? 'w-1 h-1' : 'w-1.5 h-1.5';
 ---
 
 <span
-  class={`inline-block text-[11px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded ${s.bg} ${s.text}`}
+  class={`inline-flex items-center font-semibold uppercase tracking-wider rounded-full border ${s.border} ${s.bg} ${s.text} ${sizeClasses}`}
   title={s.title}
 >
-  {s.label}
+  <span class={`inline-block rounded-full ${dotSize} ${s.dot}`} aria-hidden="true"></span>
+  <span>{s.label}</span>
 </span>
