@@ -51,35 +51,35 @@ import ConfidenceBadge from '../components/ConfidenceBadge.astro';
     <h2>How this site works</h2>
     <p>
       Every factual statement is modeled as a <strong>claim</strong>: atomic,
-      individually citable, and tagged with one of:
+      individually citable, and tagged with a confidence label
+      (<ConfidenceBadge confidence="attested" size="xs" />,
+      <ConfidenceBadge confidence="inferred" size="xs" />,
+      <ConfidenceBadge confidence="contested" size="xs" />,
+      <ConfidenceBadge confidence="disputed" size="xs" />, or
+      <ConfidenceBadge confidence="legendary" size="xs" />). Each claim
+      links to the ancient and modern sources that support, qualify, or
+      contradict it. Source pages, in turn, are digests of what each
+      source preserves about Carthaginian history, with metadata on
+      reliability: author, language, date of composition, distance from
+      events, known biases.
     </p>
-    <ul class="not-prose space-y-2 my-4">
-      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="attested" /> <span>directly stated in primary sources, not meaningfully disputed.</span></li>
-      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="inferred" /> <span>reasoned from primary evidence; not directly stated, but well-supported.</span></li>
-      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="contested" /> <span>genuinely disputed in the sources or among modern scholars.</span></li>
-      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="disputed" /> <span>active disagreement among modern scholars.</span></li>
-      <li class="flex items-baseline gap-3 flex-wrap"><ConfidenceBadge confidence="legendary" /> <span>drawn from legendary or mythologized tradition; historicity uncertain.</span></li>
-    </ul>
     <p>
-      Each claim links to the ancient and modern sources that support, qualify,
-      or contradict it. Source pages, in turn, list every claim that cites them,
-      with metadata on each source's reliability: author, language, date of
-      composition, distance from events, and known biases.
+      Where the evidence supports a synthesis, the site occasionally offers
+      a labeled <strong>editorial take</strong> with its reasoning and the
+      competing positions named. Where we genuinely don't know, the gap
+      itself gets a page as an open question.
     </p>
-
-    <h2>Editorial takes</h2>
-    <p>
-      Where the evidence supports a synthesis, the site occasionally offers an
-      <strong>editorial take</strong>: a labeled, signed position with explicit
-      reasoning. These are clearly marked as the site's own judgment, never
-      blended into the surrounding prose, and always open to revision.
-    </p>
-
-    <h2>Open questions</h2>
-    <p>
-      Where we genuinely don't know, that gap gets its own page. Knowing what
-      we don't know, and why, is part of the history.
-    </p>
+    <aside class="not-prose mt-6 mb-8 p-5 border border-tyrian-300 bg-tyrian-50 rounded-lg">
+      <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Methodology</p>
+      <p class="font-serif text-lg text-tyrian-900 mt-1">How we know what we know</p>
+      <p class="text-sm text-sand-900 mt-2">
+        The full methodology page covers the confidence vocabulary, source
+        distance and access, the supports/qualifies/contradicts stance
+        glyphs, editorial-take confidence, and how narratives, themes, and
+        open questions fit alongside the claim layer.
+      </p>
+      <p class="mt-3"><a href="/methodology" class="text-tyrian-700 font-medium hover:underline">Read the methodology →</a></p>
+    </aside>
 
     <h2>Scope</h2>
     <p>

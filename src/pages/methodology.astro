@@ -1,0 +1,336 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ConfidenceBadge from '../components/ConfidenceBadge.astro';
+import EditorialConfidenceChip from '../components/EditorialConfidenceChip.astro';
+import SourceDistance from '../components/SourceDistance.astro';
+
+// Sample source-distance chips — built inline so the page can show the
+// reader the actual chip they'll encounter on claim cards across the site.
+const polybiusLike = { type: 'literary', is_primary: true, temporal_distance_years: 50 };
+const livyLike = { type: 'literary', is_primary: true, temporal_distance_years: 200 };
+const appianLike = { type: 'literary', is_primary: true, temporal_distance_years: 300 };
+const inscriptionLike = { type: 'inscription', is_primary: true };
+const modernLike = { type: 'modern_scholarship', is_primary: false };
+const unknownLike = { type: 'literary', is_primary: true };
+---
+
+<BaseLayout
+  title="Methodology — How we know what we know"
+  description="The epistemic conventions behind Qart-Hadasht: claims, confidence levels, source distance, stance, editorial takes, and open questions."
+>
+  <article class="max-w-3xl mx-auto px-6 py-12">
+    <p class="eyebrow mb-3">Methodology</p>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-4">How we know what we know</h1>
+    <p class="text-lg text-sand-900 leading-snug">
+      An encyclopedia of Carthage is, almost more than anything else, an
+      argument about what the surviving evidence actually supports. The
+      sources are partial, polemical, and mostly written by the city's
+      enemies. Anything readers should trust on this site has to be
+      visibly tied to its evidence — and visibly distinguished from
+      what's inferred, contested, or unknown. This page describes how
+      that machinery works.
+    </p>
+
+    <div class="prose-encyclopedia mt-10 text-sand-900">
+      <h2>The unit of knowledge: the claim</h2>
+      <p>
+        The smallest knowable thing on the site is a <strong>claim</strong>: an
+        atomic factual statement, individually citable, tagged with one
+        confidence level, and backed by an explicit list of sources. "Hannibal
+        deployed 80 elephants at Zama" is a claim. "The Mercenary War lasted
+        from 241 to 237 BCE" is a claim. "Carthage was destroyed in 146 BCE
+        and the city site was systematically demolished" is a claim. Each one
+        lives in its own file and shows up wherever it's relevant.
+      </p>
+      <p>
+        Most encyclopedia prose blurs claims together — three or four
+        assertions per sentence, one citation at the end of the paragraph,
+        no way to tell which sentence rests on which source. The atomic-claim
+        structure is the site's protest against that. If the reader wants to
+        know <em>why</em> we say something, the link is right there.
+      </p>
+
+      <h2>The confidence vocabulary</h2>
+      <p>
+        Every claim wears one of five confidence chips. They are the most
+        important glyphs on the site:
+      </p>
+      <ul class="not-prose space-y-3 my-6">
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <ConfidenceBadge confidence="attested" />
+          <span class="flex-1">
+            Directly stated in surviving primary sources, and not meaningfully
+            disputed. The Battle of Cannae happened in 216 BCE; Hannibal
+            crossed the Alps; Scipio Aemilianus oversaw the destruction in 146.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <ConfidenceBadge confidence="inferred" />
+          <span class="flex-1">
+            Reasoned from the primary evidence — not directly stated, but
+            well-supported. That Cannae's double-envelopment became Hannibal's
+            tactical template for Italy is not a sentence Polybius writes; it
+            is a synthesis defensible from his narrative.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <ConfidenceBadge confidence="contested" />
+          <span class="flex-1">
+            Genuinely disputed in the ancient sources, between modern scholars,
+            or both — with serious evidence on more than one side. The Tophet
+            question lives here. So does the existence of the Philinus Treaty.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <ConfidenceBadge confidence="disputed" />
+          <span class="flex-1">
+            Active modern scholarly disagreement over a question the ancient
+            sources don't directly settle. Used where the dispute is
+            specifically a recent-scholarship one rather than an
+            ancient-source one.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <ConfidenceBadge confidence="legendary" />
+          <span class="flex-1">
+            Drawn from legendary or mythologized tradition — Dido's flight from
+            Tyre, the bull-hide founding of Carthage. Tagged this way because
+            the historicity is not the point; the tradition is.
+          </span>
+        </li>
+      </ul>
+      <p>
+        The colors are part of the design language. After a few pages they
+        read faster than the words: emerald for what's solid, amber and rose
+        for what's contested, sky for synthesis, stone for the legendary
+        layer.
+      </p>
+
+      <h2>Sources are first-class entities</h2>
+      <p>
+        Every cited source — Polybius's <em>Histories</em>, Livy's <em>Ab
+        Urbe Condita</em>, Diodorus's <em>Library</em>, modern monographs by
+        Hoyos and Lancel and Quinn, Punic inscriptions, the archaeological
+        record at Carthage and Motya — has its own page. Each source page
+        shows what kind of witness the source is, when and where it was
+        composed, what biases it carries, and a digest of the passages
+        cited across the encyclopedia. A reader who clicks through to
+        Polybius's page sees not just "Polybius" but a working table of
+        contents of his usefulness for Carthaginian history: the first
+        treaty at 3.22, Cannae at 3.107–117, the constitution at 6.51,
+        Zama at 15.11, and so on.
+      </p>
+      <p>
+        This is the load-bearing thing about the site. If the source layer
+        works, everything else works.
+      </p>
+
+      <h2>Source distance: how close is the witness?</h2>
+      <p>
+        On every claim card, the cited source appears beside a
+        <strong>distance chip</strong> — a small visual signal of how far the
+        source sits from the events it describes. The buckets:
+      </p>
+      <ul class="not-prose space-y-3 my-6">
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <SourceDistance source={polybiusLike} />
+          <span class="flex-1">
+            Within ~50 years. A near-contemporary witness or a writer with
+            access to people who lived through the events. Polybius on the
+            Punic Wars is the canonical example.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <SourceDistance source={livyLike} />
+          <span class="flex-1">
+            ~50–150 years removed. One tradition further out — oral memory
+            still alive in some form, but the writer is depending on
+            predecessors. Livy on the Hannibalic War sits here.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <SourceDistance source={appianLike} />
+          <span class="flex-1">
+            More than ~150 years removed. By now we are reading the literary
+            tradition rather than recoverable testimony. Appian on the Punic
+            Wars; Justin's epitome of Pompeius Trogus on Carthaginian
+            origins.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <SourceDistance source={inscriptionLike} />
+          <span class="flex-1">
+            A material witness — inscription, coin, archaeological context —
+            contemporary with the events by definition. Punic stelae from the
+            Tophet, the Pyrgi tablets, foundation deposits at Motya.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <SourceDistance source={modernLike} />
+          <span class="flex-1">
+            Modern scholarship: secondary, synthetic, where the distance
+            number stops being the epistemic story. Treated as a different
+            kind of citation — argument and synthesis rather than testimony.
+          </span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <SourceDistance source={unknownLike} />
+          <span class="flex-1">
+            Distance not recorded — typically a literary source we haven't
+            yet pinned a composition date to. Worth flagging because we
+            can't evaluate the witness without it.
+          </span>
+        </li>
+      </ul>
+      <p>
+        Distance does not equal reliability — Polybius's pro-Scipionic bias
+        is a real reading problem; a thousand-year-distant inscription that
+        names a magistrate is closer to the truth than a contemporary's
+        rumor. But the chip is the fastest way to remind a reader,
+        line-by-line, that "Polybius says" and "Appian says" are not
+        epistemically equivalent.
+      </p>
+
+      <h2>Access to witnesses</h2>
+      <p>
+        Source pages also carry an <strong>access</strong> field, distinct
+        from raw distance, describing how the writer got their information:
+      </p>
+      <ul>
+        <li>
+          <strong>contemporary</strong> — direct testimony or access to
+          living witnesses. Polybius on the Third Punic War (which he
+          watched).
+        </li>
+        <li>
+          <strong>one_step</strong> — drew on contemporaries' written
+          accounts, often now lost. Diodorus on Agathocles.
+        </li>
+        <li>
+          <strong>literary_tradition</strong> — working from a chain of
+          earlier historians; the distance to the events runs through
+          intermediate texts.
+        </li>
+        <li>
+          <strong>late</strong> — substantially after the literary
+          tradition coalesced. Justin abridging Trogus; Tertullian on
+          Carthaginian religion four centuries later.
+        </li>
+      </ul>
+
+      <h2>Stance: how does this source treat the claim?</h2>
+      <p>
+        On every claim, each cited source carries a stance: does the source
+        <em>support</em>, <em>qualify</em>, or <em>contradict</em> the claim?
+        The site uses a small inline glyph:
+      </p>
+      <ul class="not-prose space-y-2 my-6 text-sm">
+        <li class="flex items-baseline gap-3">
+          <span class="text-emerald-700"><span class="font-bold">✓</span> supports</span>
+          <span class="text-sand-700">— the source affirms the claim.</span>
+        </li>
+        <li class="flex items-baseline gap-3">
+          <span class="text-amber-700"><span class="font-bold">~</span> qualifies</span>
+          <span class="text-sand-700">— the source partially supports the claim, or supports it under conditions, or gives a different number / detail than another source.</span>
+        </li>
+        <li class="flex items-baseline gap-3">
+          <span class="text-rose-700"><span class="font-bold">✗</span> contradicts</span>
+          <span class="text-sand-700">— the source actively disagrees with the claim, and is cited so the reader can see the disagreement.</span>
+        </li>
+      </ul>
+      <p>
+        Contradicting sources are surfaced rather than hidden. The point is
+        not to tidy the evidence into agreement; the point is to show the
+        reader where the sources actually pull against each other.
+      </p>
+
+      <h2>Editorial takes: when the site argues</h2>
+      <p>
+        Some questions the surviving sources don't directly settle, and a
+        synthesis is unavoidable. For those, the site occasionally posts an
+        <strong>editorial take</strong> — a labeled, signed position with
+        explicit reasoning, the competing positions named and engaged, and
+        a confidence chip in a different vocabulary:
+      </p>
+      <ul class="not-prose space-y-3 my-6">
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <EditorialConfidenceChip confidence="tentative" />
+          <span class="flex-1">A working position, held lightly. We would not be surprised to revise it.</span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <EditorialConfidenceChip confidence="moderate" />
+          <span class="flex-1">A position held with some confidence — revisable, but not lightly.</span>
+        </li>
+        <li class="flex items-baseline gap-3 flex-wrap">
+          <EditorialConfidenceChip confidence="strong" />
+          <span class="flex-1">A position held with high confidence, given the evidence currently available.</span>
+        </li>
+      </ul>
+      <p>
+        Editorial takes are visually marked, never blended into surrounding
+        prose, and always name the readings they're rejecting and why.
+        Strong takes are fine; quiet takes hidden inside paragraphs are not.
+      </p>
+
+      <h2>Open questions: what we don't know</h2>
+      <p>
+        Where the evidence does not support a confident answer in any
+        direction, the gap itself gets a page. Open-question pages name
+        the question, explain why it's unknown, summarize the candidate
+        answers and the arguments for each, and describe what would
+        actually resolve the question if it were ever to come — a new
+        inscription, a securely dated stratum, a recovered text.
+      </p>
+      <p>
+        Treating gaps as first-class entities is the site's protest against
+        the encyclopedia habit of pretending the evidence is denser than it
+        is. The structural question of Carthaginian internal politics
+        between roughly 480 and 264 BCE is a hole in the record, and the
+        right thing to do is name it.
+      </p>
+
+      <h2>Narratives, themes, periods: when prose is the right shape</h2>
+      <p>
+        Atomic claims are the right shape for facts. They are the wrong
+        shape for arcs. The Tophet controversy is a two-century debate
+        across multiple disciplines; reducing it to a list of claim cards
+        loses the shape of the disagreement. So the site also has
+        long-form prose — <strong>narratives</strong> for biographical or
+        debate arcs, <strong>themes</strong> for cross-cutting topics like
+        Punic religion or Carthaginian governance, <strong>periods</strong>
+        for era-level synthesis.
+      </p>
+      <p>
+        The convention there is the same as everywhere else: positions are
+        attributed, citations are inline (Polybius 3.22, Plutarch <em>Cato
+        Major</em> 27 — auto-linked to the source page), and where the
+        prose takes a strong reading, the competing reading is named.
+      </p>
+
+      <h2>What this site does not do</h2>
+      <p>
+        It does not paraphrase translations as if they were the original
+        text — passage summaries are the site's own paraphrase, with
+        public-domain quotes reserved for places where the exact wording
+        matters. It does not flatten contested questions into smooth
+        summaries. It does not pretend the source base is denser than it
+        is. It does not use authority where confidence labels would do the
+        same work more honestly.
+      </p>
+      <p>
+        Where the site is wrong — and on a topic this thinly sourced, it
+        will sometimes be wrong — the structure is designed to make the
+        wrongness fixable: each claim is a single file, each source is a
+        single page, each take has a date and an open-to-revision flag.
+        Corrections are welcome.
+      </p>
+
+      <hr class="my-10 border-tyrian-500" />
+      <p class="text-sm text-sand-700">
+        This methodology page is itself revisable. If a convention here
+        does not match what you see across the site, the convention is
+        wrong (or out of date) and worth flagging.
+      </p>
+    </div>
+  </article>
+</BaseLayout>
