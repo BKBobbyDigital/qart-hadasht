@@ -14,20 +14,19 @@ export async function getStaticPaths() {
 const { theme } = Astro.props;
 const { Content } = await render(theme);
 const d = theme.data;
+const themeSlug = theme.id.replace(/\.md$/, '');
 
 // Resolve related themes
-const relatedThemes = await Promise.all(
-  (d.related_themes ?? []).map(async (r: any) => {
-    const all = await getCollection('themes');
-    return all.find((t) => t.id === r.id || t.id.replace(/\.md$/, '') === r.id);
-  })
-);
+const allThemes = await getCollection('themes');
+const relatedThemes = (d.related_themes ?? [])
+  .map((r: any) => allThemes.find((t) => t.id === r.id || t.id.replace(/\.md$/, '') === r.id))
+  .filter(Boolean);
 
 // Reverse lookup: events that reference this theme
 const allEvents = await getCollection('events');
 const referencingEvents = allEvents
   .filter((e) =>
-    (e.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === theme.id.replace(/\.md$/, ''))
+    (e.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === themeSlug)
   )
   .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
 
@@ -35,33 +34,79 @@ const referencingEvents = allEvents
 const allPeople = await getCollection('people');
 const referencingPeople = allPeople
   .filter((p) =>
-    (p.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === theme.id.replace(/\.md$/, ''))
+    (p.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === themeSlug)
   )
   .sort((a, b) => a.data.name_display.localeCompare(b.data.name_display));
+
+// Reverse lookup: deities that reference this theme
+const allDeities = await getCollection('deities');
+const referencingDeities = allDeities
+  .filter((dty) =>
+    (dty.data.referenced_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === themeSlug)
+  )
+  .sort((a, b) => a.data.name_display.localeCompare(b.data.name_display));
+
+// Reverse lookup: claims that name this theme as an entity
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'theme' && (e.slug === themeSlug || e.slug === theme.id))
+);
+
+// Reverse lookup: narratives whose primary_entities include this theme
+const allNarratives = await getCollection('narratives');
+const referencingNarratives = allNarratives.filter((n) =>
+  (n.data.primary_entities ?? []).some((e: any) => e.type === 'theme' && (e.slug === themeSlug || e.slug === theme.id))
+);
+
+// Reverse lookup: periods that include this theme as a key_theme
+const allPeriods = await getCollection('periods');
+const referencingPeriods = allPeriods
+  .filter((p: any) =>
+    (p.data.key_themes ?? []).some((ref: any) => ref.id === theme.id || ref.id === themeSlug)
+  )
+  .sort((a: any, b: any) => a.data.start_year - b.data.start_year);
 
 const scopeLabel = d.scope.replace('_', ' ');
 const themeInfoboxRows: InfoboxRow[] = [
   { label: 'Scope', value: scopeLabel.charAt(0).toUpperCase() + scopeLabel.slice(1) },
   {
-    label: 'Referenced in',
-    value: referencingEvents.length > 0
-      ? `${referencingEvents.length} event${referencingEvents.length === 1 ? '' : 's'}`
-      : null,
+    label: 'Events',
+    value: referencingEvents.length > 0 ? `${referencingEvents.length}` : null,
     href: referencingEvents.length > 0 ? '#events' : undefined,
   },
   {
-    label: 'Associated people',
+    label: 'People',
     value: referencingPeople.length > 0 ? `${referencingPeople.length}` : null,
     href: referencingPeople.length > 0 ? '#people' : undefined,
   },
   {
-    label: 'Related themes',
-    value: relatedThemes.filter(Boolean).length > 0
-      ? `${relatedThemes.filter(Boolean).length}`
-      : null,
+    label: 'Deities',
+    value: referencingDeities.length > 0 ? `${referencingDeities.length}` : null,
+    href: referencingDeities.length > 0 ? '#deities' : undefined,
+  },
+  {
+    label: 'Claims',
+    value: referencingClaims.length > 0 ? `${referencingClaims.length}` : null,
+    href: referencingClaims.length > 0 ? '#claims' : undefined,
+  },
+  {
+    label: 'Narratives',
+    value: referencingNarratives.length > 0 ? `${referencingNarratives.length}` : null,
+    href: referencingNarratives.length > 0 ? '#narratives' : undefined,
   },
   { label: 'Last revised', value: d.last_revised },
 ];
+
+// Quick-jump tile config for the hub band
+type Jump = { label: string; href: string; count: number };
+const jumps: Jump[] = [
+  { label: 'Events', href: '#events', count: referencingEvents.length },
+  { label: 'People', href: '#people', count: referencingPeople.length },
+  { label: 'Deities', href: '#deities', count: referencingDeities.length },
+  { label: 'Periods', href: '#periods', count: referencingPeriods.length },
+  { label: 'Claims', href: '#claims', count: referencingClaims.length },
+  { label: 'Narratives', href: '#narratives', count: referencingNarratives.length },
+].filter((j) => j.count > 0);
 ---
 
 <BaseLayout title={d.title} description={d.summary}>
@@ -73,69 +118,152 @@ const themeInfoboxRows: InfoboxRow[] = [
     />
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
       <span hidden data-pagefind-filter="type:Themes" data-pagefind-meta="type:Theme"></span>
-    <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Theme · {d.scope.replace('_', ' ')}</p>
-    <h1 class="font-serif text-4xl mb-4">{d.title}</h1>
+      <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">Theme · {d.scope.replace('_', ' ')}</p>
+      <h1 class="font-serif text-4xl mb-4">{d.title}</h1>
 
-    <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
-      <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Summary</p>
-      <p class="font-serif text-lg leading-snug text-sand-900">{d.summary}</p>
-    </aside>
+      <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
+        <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Summary</p>
+        <p class="font-serif text-lg leading-snug text-sand-900">{d.summary}</p>
+      </aside>
 
-    <div class="prose-encyclopedia text-sand-900 mt-8">
-      <Content />
-    </div>
+      {jumps.length > 0 && (
+        <nav class="my-6 p-4 border border-sand-300 rounded-lg bg-sand-50" aria-label="In this theme">
+          <p class="text-[10px] uppercase tracking-widest font-bold text-sand-700 mb-3">In this theme</p>
+          <ul class="flex flex-wrap gap-2">
+            {jumps.map((j) => (
+              <li>
+                <a
+                  href={j.href}
+                  class="inline-flex items-baseline gap-1.5 px-3 py-1 border border-sand-300 rounded-full text-sm bg-white hover:bg-tyrian-50 hover:border-tyrian-300 transition-colors"
+                >
+                  <span class="font-medium text-sand-900">{j.label}</span>
+                  <span class="text-xs text-sand-700 tabular-nums">{j.count}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
 
-    {referencingEvents.length > 0 && (
-      <section class="mt-12 pt-6 border-t border-sand-300" id="events">
-        <h2 class="font-serif text-2xl mb-3">Referenced in events</h2>
-        <ul class="space-y-2">
-          {referencingEvents.map((e) => (
-            <li class="flex items-baseline gap-3">
-              <span class="text-sm text-sand-700 shrink-0 tabular-nums">
-                {Math.abs(e.data.date_start.value)} BCE
-              </span>
-              <a href={`/events/${e.id}`} class="text-tyrian-700 hover:underline font-serif">
-                {e.data.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
+      <div class="prose-encyclopedia text-sand-900 mt-8">
+        <Content />
+      </div>
 
-    {referencingPeople.length > 0 && (
-      <section class="mt-12 pt-6 border-t border-sand-300" id="people">
-        <h2 class="font-serif text-2xl mb-3">Associated people</h2>
-        <ul class="space-y-2">
-          {referencingPeople.map((p) => (
-            <li>
-              <a href={`/people/${p.id}`} class="text-tyrian-700 hover:underline font-serif">
-                {p.data.name_display}
-              </a>
-              {p.data.polity && <span class="text-xs text-sand-700 ml-2">{p.data.polity}</span>}
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
+      {referencingPeriods.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="periods">
+          <h2 class="font-serif text-2xl mb-3">In which periods</h2>
+          <ul class="space-y-2">
+            {referencingPeriods.map((p: any) => (
+              <li>
+                <a href={`/periods/${p.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline font-serif">{p.data.title}</a>
+                <span class="text-xs text-sand-700 ml-2 tabular-nums">
+                  {Math.abs(p.data.start_year)}–{Math.abs(p.data.end_year)} BCE
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
-    {relatedThemes.filter(Boolean).length > 0 && (
-      <section class="mt-12 pt-6 border-t border-sand-300">
-        <h2 class="font-serif text-2xl mb-3">Related themes</h2>
-        <ul class="space-y-2">
-          {relatedThemes.filter(Boolean).map((rt: any) => (
-            <li>
-              <a href={`/themes/${rt.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline font-serif text-lg">{rt.data.title}</a>
-              <p class="text-sm text-sand-700">{rt.data.summary.slice(0, 160)}...</p>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
+      {referencingEvents.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="events">
+          <h2 class="font-serif text-2xl mb-3">Referenced in events <span class="text-base text-sand-700 font-normal">({referencingEvents.length})</span></h2>
+          <ul class="space-y-2">
+            {referencingEvents.map((e) => (
+              <li class="flex items-baseline gap-3">
+                <span class="text-sm text-sand-700 shrink-0 tabular-nums w-20">
+                  {Math.abs(e.data.date_start.value)} BCE
+                </span>
+                <a href={`/events/${e.id}`} class="text-tyrian-700 hover:underline font-serif">
+                  {e.data.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
-    <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
-      <p>Last revised {d.last_revised}.</p>
-    </footer>
+      {referencingPeople.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="people">
+          <h2 class="font-serif text-2xl mb-3">Associated people <span class="text-base text-sand-700 font-normal">({referencingPeople.length})</span></h2>
+          <ul class="grid sm:grid-cols-2 gap-2 text-sm">
+            {referencingPeople.map((p) => (
+              <li>
+                <a href={`/people/${p.id}`} class="text-tyrian-700 hover:underline font-serif">
+                  {p.data.name_display}
+                </a>
+                {p.data.polity && <span class="text-xs text-sand-700 ml-2">{p.data.polity}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {referencingDeities.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="deities">
+          <h2 class="font-serif text-2xl mb-3">Deities <span class="text-base text-sand-700 font-normal">({referencingDeities.length})</span></h2>
+          <ul class="grid sm:grid-cols-2 gap-2 text-sm">
+            {referencingDeities.map((dty: any) => (
+              <li class="flex items-baseline gap-2">
+                {dty.data.name_punic_script && (
+                  <span class="font-phoenician text-tyrian-700 shrink-0">{dty.data.name_punic_script}</span>
+                )}
+                <a href={`/deities/${dty.id}`} class="text-tyrian-700 hover:underline font-serif">
+                  {dty.data.name_display}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {referencingNarratives.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="narratives">
+          <h2 class="font-serif text-2xl mb-3">Narratives <span class="text-base text-sand-700 font-normal">({referencingNarratives.length})</span></h2>
+          <ul class="space-y-3">
+            {referencingNarratives.map((n: any) => (
+              <li>
+                <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="font-serif text-lg text-tyrian-700 hover:underline">
+                  {n.data.title}
+                </a>
+                <p class="text-sm text-sand-700 mt-1">{n.data.thesis.slice(0, 200)}...</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {referencingClaims.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="claims">
+          <h2 class="font-serif text-2xl mb-3">Claims <span class="text-base text-sand-700 font-normal">({referencingClaims.length})</span></h2>
+          <ul class="space-y-3">
+            {referencingClaims.map((c) => (
+              <li class="text-sm border-l-2 border-sand-300 pl-3">
+                <p class="text-sand-900">{c.data.statement}</p>
+                <p class="text-xs text-sand-700 mt-1 uppercase tracking-wider">{c.data.confidence}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {relatedThemes.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300">
+          <h2 class="font-serif text-2xl mb-3">Related themes</h2>
+          <ul class="space-y-2">
+            {relatedThemes.map((rt: any) => (
+              <li>
+                <a href={`/themes/${rt.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline font-serif text-lg">{rt.data.title}</a>
+                <p class="text-sm text-sand-700">{rt.data.summary.slice(0, 160)}...</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
+        <p>Last revised {d.last_revised}.</p>
+      </footer>
     </article>
   </div>
 </BaseLayout>

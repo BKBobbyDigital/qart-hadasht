@@ -1,0 +1,155 @@
+---
+/**
+ * Site-wide Cmd-K (Ctrl-K) search modal.
+ *
+ * Mounts a hidden dialog at the bottom of every page. Cmd-K from anywhere
+ * opens it; Esc or backdrop-click closes it. The modal reuses the same
+ * Pagefind UI as the /search page; the index is generated at build time
+ * via the existing pagefind --site dist postbuild step.
+ *
+ * The dialog is implemented as a native HTMLDialogElement for built-in
+ * focus trapping and accessibility. On the dev server (no /pagefind/
+ * directory) the inline fallback message displays just like /search.
+ */
+---
+
+<!-- Trigger pill (visible on screens wider than the masthead nav itself
+     would feel cramped on; hidden on small screens, where the masthead
+     "Search" link is the entry point). -->
+<button
+  type="button"
+  id="cmdk-trigger"
+  class="hidden md:inline-flex items-center gap-2 px-3 py-1 border border-sand-300 rounded-full text-xs text-sand-700 bg-sand-50 hover:bg-white hover:border-tyrian-300 transition-colors"
+  aria-label="Open search"
+>
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+    <circle cx="11" cy="11" r="7"/>
+    <path d="m20 20-4.35-4.35"/>
+  </svg>
+  <span>Search</span>
+  <kbd class="ml-1 font-mono text-[10px] text-sand-700 border border-sand-300 rounded px-1 bg-white">⌘K</kbd>
+</button>
+
+<dialog id="cmdk-dialog" class="cmdk-dialog">
+  <div class="cmdk-shell">
+    <div class="cmdk-header">
+      <p class="text-[10px] uppercase tracking-widest font-bold text-sand-700">Search the encyclopedia</p>
+      <button type="button" id="cmdk-close" class="text-sand-700 hover:text-tyrian-700 text-xl leading-none" aria-label="Close search">×</button>
+    </div>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="cmdk-search" class="qh-cmdk"></div>
+  </div>
+</dialog>
+
+<style is:global>
+  .cmdk-dialog {
+    width: min(680px, calc(100vw - 2rem));
+    max-height: 80vh;
+    margin: 8vh auto auto;
+    padding: 0;
+    border: 1px solid #d4bc94; /* sand-300 */
+    border-radius: 12px;
+    background: #faf7f2;       /* sand-50 */
+    box-shadow: 0 20px 60px -10px rgba(91, 15, 49, 0.25);
+    color: #2a2218;
+  }
+  .cmdk-dialog::backdrop {
+    background: rgba(42, 34, 24, 0.4);
+    backdrop-filter: blur(2px);
+  }
+  .cmdk-shell {
+    padding: 1rem 1.25rem 1.25rem;
+    overflow: auto;
+    max-height: calc(80vh - 2rem);
+  }
+  .cmdk-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  /* Pagefind UI styling within the modal */
+  .qh-cmdk {
+    --pagefind-ui-scale: 0.95;
+    --pagefind-ui-primary: #5b0f31;
+    --pagefind-ui-text: #1a1206;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #d6c9b0;
+    --pagefind-ui-tag: #efe7d4;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 8px;
+    --pagefind-ui-image-border-radius: 4px;
+    --pagefind-ui-font: ui-sans-serif, system-ui, sans-serif;
+  }
+</style>
+
+<script is:inline src="/pagefind/pagefind-ui.js" onerror="window.__cmdkPagefindMissing = true"></script>
+<script is:inline>
+  (() => {
+    const dialog = document.getElementById('cmdk-dialog');
+    const trigger = document.getElementById('cmdk-trigger');
+    const closeBtn = document.getElementById('cmdk-close');
+    const mountTarget = document.getElementById('cmdk-search');
+    if (!dialog || !mountTarget) return;
+
+    let initialised = false;
+
+    function ensureUi() {
+      if (initialised) return;
+      initialised = true;
+      if (window.__cmdkPagefindMissing || typeof window.PagefindUI === 'undefined') {
+        mountTarget.innerHTML =
+          '<p class="text-sm text-sand-700">Search index is built only on production deploys. Try the live site, or run <code class="font-mono">npm run build &amp;&amp; npm run preview</code> locally.</p>';
+        return;
+      }
+      // eslint-disable-next-line no-new
+      new window.PagefindUI({
+        element: '#cmdk-search',
+        showSubResults: true,
+        showImages: false,
+        resetStyles: false,
+        autofocus: true,
+        excerptLength: 25,
+      });
+    }
+
+    function open() {
+      ensureUi();
+      if (typeof dialog.showModal === 'function') {
+        dialog.showModal();
+        // Defer focus to the search input so users can type immediately.
+        requestAnimationFrame(() => {
+          const input = mountTarget.querySelector('input');
+          if (input) input.focus();
+        });
+      } else {
+        // Fallback for very old browsers
+        window.location.href = '/search';
+      }
+    }
+
+    function close() {
+      if (dialog.open) dialog.close();
+    }
+
+    if (trigger) trigger.addEventListener('click', open);
+    if (closeBtn) closeBtn.addEventListener('click', close);
+
+    // Cmd-K (mac) / Ctrl-K (everywhere else) opens the modal
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        if (dialog.open) close();
+        else open();
+      } else if (e.key === 'Escape' && dialog.open) {
+        close();
+      }
+    });
+
+    // Click on backdrop closes
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) close();
+    });
+  })();
+</script>

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import CmdKSearch from '../components/CmdKSearch.astro';
 
 interface Props {
   title: string;
@@ -35,8 +36,9 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
           <a href="/places" class="hover:text-tyrian-700">Places</a>
           <a href="/narratives" class="hover:text-tyrian-700">Narratives</a>
           <a href="/sources" class="hover:text-tyrian-700">Sources</a>
-          <a href="/search" class="hover:text-tyrian-700">Search</a>
+          <a href="/search" class="md:hidden hover:text-tyrian-700">Search</a>
           <a href="/about" class="hover:text-tyrian-700">About</a>
+          <CmdKSearch />
         </nav>
       </div>
     </header>

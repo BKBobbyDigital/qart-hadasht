@@ -16,6 +16,12 @@ participants:
   - person: mago-barca
     role: subordinate commander
     side: Carthaginian
+  - person: indibilis
+    role: Iberian ally fighting under Roman command
+    side: Roman / Iberian ally
+  - person: mandonius
+    role: Iberian ally fighting under Roman command
+    side: Roman / Iberian ally
 principal_sources:
   - polybius-histories
   - livy-auc
@@ -32,6 +38,13 @@ related_events:
     notes: >
       Ilipa freed Scipio's army for the African expedition that
       culminated at the Great Plains and Zama.
+  - event: ilergetes-revolt-205
+    relation: produced (the post-victory configuration whose breakdown after Scipio's departure produced the revolt)
+    notes: >
+      Indibilis and Mandonius fought under Roman command at
+      Ilipa. The Ilergetes revolt the following year was a
+      response to the post-victory administration's breakdown
+      of the alliance terms Scipio had established.
 summary: >
   Scipio Africanus's decisive victory in southern Iberia in
   206 BCE, the engagement that ended Carthaginian power in the
