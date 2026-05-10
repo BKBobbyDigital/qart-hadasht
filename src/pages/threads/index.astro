@@ -30,7 +30,7 @@ const scopeLabels: Record<string, string> = {
     <ul class="space-y-3">
       {threads.map((t: any) => (
         <li>
-          <a href={`/threads/${t.id.replace(/\.md$/, '')}`} class="block p-5 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
+          <a href={`/threads/${t.id.replace(/\.md$/, '')}`} class="block p-5 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
             <div class="flex items-baseline justify-between gap-4 flex-wrap">
               <h2 class="font-serif text-xl text-tyrian-700">{t.data.title}</h2>
               <span class="text-xs uppercase tracking-wider text-sand-700">

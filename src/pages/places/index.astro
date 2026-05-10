@@ -29,7 +29,7 @@ for (const e of allEvents) {
       <ul class="grid sm:grid-cols-2 gap-3">
         {places.map((p) => (
           <li>
-            <a href={`/places/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
+            <a href={`/places/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
               <h2 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h2>
               <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{p.data.type}</p>
               {p.data.modern_location && <p class="text-sm text-sand-700 mt-1">{p.data.modern_location}</p>}
@@ -52,7 +52,7 @@ for (const e of allEvents) {
         <tbody>
           {places.map((p) => (
             <tr
-              class="border-b border-sand-200 hover:bg-tyrian-100 active:bg-tyrian-200 transition-colors"
+              class="border-b border-sand-200 hover:bg-[#faf6ec] active:bg-purple-100 transition-colors"
               data-sort-name={p.data.name_display}
               data-sort-type={p.data.type}
               data-sort-modern={p.data.modern_location ?? ''}

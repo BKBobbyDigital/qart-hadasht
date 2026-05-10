@@ -65,7 +65,7 @@ const scopeLabels: Record<string, { title: string; description: string }> = {
           <ul class="space-y-3">
             {byScope[scope].map((n) => (
               <li>
-                <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
+                <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
                   <h3 class="font-serif text-xl text-tyrian-700">{n.data.title}</h3>
                   <p class="text-sm text-ink-900 mt-2">{n.data.thesis.slice(0, 280)}...</p>
                 </a>

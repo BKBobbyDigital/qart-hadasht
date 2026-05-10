@@ -96,7 +96,7 @@ const typeBadgeStyle = (type: string) => {
               href={`/events/${entry.id}`}
               class={isWar
                 ? 'block p-4 border-2 border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100'
-                : 'block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors'}
+                : 'block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors'}
             >
               <div class="flex items-baseline justify-between gap-4">
                 <div class="flex items-baseline gap-3">
@@ -115,7 +115,7 @@ const typeBadgeStyle = (type: string) => {
               <ul class="ml-6 mt-2 space-y-2 border-l-2 border-sand-300 pl-4">
                 {phases.map((phase) => (
                   <li>
-                    <a href={`/events/${phase.id}`} class="block p-3 border border-sand-300 rounded hover:bg-tyrian-100 hover:border-tyrian-300 transition-colors">
+                    <a href={`/events/${phase.id}`} class="block p-3 border border-sand-300 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
                       <div class="flex items-baseline justify-between gap-3">
                         <div class="flex items-baseline gap-2">
                           <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(phase.data.type)}`}>
@@ -153,7 +153,7 @@ const typeBadgeStyle = (type: string) => {
             const duration = Math.abs(end - start);
             return (
               <tr
-                class="border-b border-sand-200 hover:bg-tyrian-100 active:bg-tyrian-200 transition-colors"
+                class="border-b border-sand-200 hover:bg-[#faf6ec] active:bg-purple-100 transition-colors"
                 data-sort-year={start}
                 data-sort-name={e.data.name}
                 data-sort-type={e.data.type}
