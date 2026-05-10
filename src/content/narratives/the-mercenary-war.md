@@ -117,17 +117,30 @@ matched by further atrocities on the rebel side. By the end of
 sense Polybius's term suggests: no negotiated end was available
 because the accumulated atrocities had foreclosed it.
 
-Why this happened is genuinely contested. Polybius's account
-emphasizes the leadership: Spendius's escaped-slave status (which
-gave him personal reason to oppose any settlement that might
-return him to Roman jurisdiction) and Mathos's particular hatred
-of Carthaginian rule. Modern scholarship, particularly Hoyos
-(2007), is more willing to read the brutality structurally: a
-multi-ethnic mercenary force with no shared political identity
-plus an indigenous Libyan revolt drawing on long-running colonial
-grievance plus a Carthaginian state whose existence was at stake
-produced the conditions in which atrocity escalated faster than
-political restraint. The site treats the question as open.
+Why this happened is contested. Polybius's account emphasizes the
+leadership: Spendius's escaped-slave status (which gave him personal
+reason to oppose any settlement that might return him to Roman
+jurisdiction) and Mathos's particular hatred of Carthaginian rule.
+Modern scholarship, particularly Hoyos (2007), is more willing to
+read the brutality structurally: a multi-ethnic mercenary force
+with no shared political identity plus an indigenous Libyan revolt
+drawing on long-running colonial grievance plus a Carthaginian state
+whose existence was at stake produced the conditions in which
+atrocity escalated faster than political restraint could rebuild.
+
+The site's position, formalized as the editorial take
+[Was the Mercenary War's atrocity escalation structural or
+leadership-driven?](/editorialTakes/mercenary-war-atrocity-structural),
+takes the Hoyos structural reading as the better-supported account —
+principally because the Carthaginian-side atrocity under Hamilcar's
+command matched the rebel-side atrocity in scale, which is hard to
+explain through rebel-leadership psychology alone. The confidence is
+explicitly tentative: the structural reading partly depends on
+importing modern conflict-studies frameworks onto ancient evidence,
+the Polybian individual-leadership reading has its own explanatory
+weight, and the "both-causes" middle reading is probably the most
+cautious available position. The site takes the structural reading
+and flags where it is thin.
 
 ## What it meant
 

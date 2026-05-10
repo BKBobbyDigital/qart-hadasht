@@ -1,0 +1,140 @@
+slug: mercenary-war-atrocity-structural
+subject_question: >
+  Why did the Mercenary War (241–237 BCE) escalate into the sustained
+  reciprocal atrocity that Polybius termed *aspondos polemos*,
+  "truceless war"? Was the escalation driven by individual rebel
+  leadership (Polybius's framing) or by structural conditions in
+  which restraint had no purchase (Hoyos's framing)?
+subject_entity:
+  type: event
+  slug: mercenary-war
+  role: subject
+position: >
+  The Hoyos structural reading is the better-supported account. The
+  Mercenary War's atrocity escalation was driven principally by the
+  conditions in which the conflict took place — a multi-ethnic
+  mercenary force with no shared political identity to ground
+  restraint, an indigenous Libyan rural revolt drawing on long-
+  running colonial grievance, a Carthaginian state whose existence
+  was at stake, and the early-stage atrocities that foreclosed
+  negotiated settlement faster than any political mechanism could
+  rebuild it — rather than by the individual leadership-psychology
+  Polybius emphasized.
+
+  The site holds the position with explicit acknowledgment that the
+  evidence is thin and that the structural reading partly depends
+  on importing modern conflict-studies frameworks back onto ancient
+  evidence. Confidence is tentative-to-moderate, not stronger; the
+  Polybian framing is preserved as the surviving narrative source
+  and is not without its own explanatory weight.
+reasoning: |
+  Three observations support the structural reading. Two acknowledge
+  where it is thin.
+
+  **The Carthaginian-side atrocity matches the rebel-side
+  atrocity in scale.** Polybius preserves the Carthaginian record:
+  Hamilcar's troops crucified captured rebels at the rate of
+  hundreds, with extended public displays. If the cause of the
+  escalation were rebel leadership psychology alone (Spendius's
+  fear of Roman extradition, Mathos's hatred of Carthaginian
+  rule), the symmetry of Carthaginian atrocity is harder to
+  account for. Symmetric brutality across two sides with very
+  different leadership compositions points to conditions both
+  sides shared rather than to traits one side's leaders held.
+
+  **Modern conflict-studies scholarship on atrocity escalation
+  consistently tracks to structural conditions** — irregular
+  multi-ethnic force composition, absence of shared political
+  identity for ground restraint, existential stakes that foreclose
+  negotiated end, early-stage atrocity that creates a coordination
+  problem for restraint on subsequent rounds. The Mercenary War's
+  configuration was a near-textbook fit. Importing modern
+  frameworks onto ancient evidence is a methodological move that
+  needs to be acknowledged (see thinness section below); the fit
+  is nonetheless tight enough to be informative.
+
+  **Polybius had a structural blind spot.** His default
+  explanatory frame for political-military catastrophe is
+  individual virtue and vice. Reading the Mercenary War as the
+  consequence of rebel leadership's criminal character (Spendius
+  as escaped-slave criminal-on-the-run, Mathos as bitter
+  Libyan) is consistent with his approach across the rest of the
+  *Histories* and is not specifically responsive to the war's
+  conditions. The framework wasn't available to him; he applied
+  the one he had. This does not make the framing wrong, but it
+  does mean the surviving framing should not be treated as the
+  framework's verdict on the conditions question, only on the
+  individuals.
+
+  **Where the evidence is thin.** Two acknowledgments:
+
+  *First*, the structural reading depends on importing modern
+  conflict-studies frameworks onto ancient evidence — defensible
+  for the broad pattern (atrocity-cycle dynamics, irregular force
+  composition) but not unimpeachable. A reader who rejects the
+  back-projection move on methodological grounds will not be
+  moved by the position. We acknowledge the move and stand by it
+  while flagging the dependency.
+
+  *Second*, the Polybian individual-leadership reading has real
+  explanatory weight. Spendius's escaped-slave status is concrete
+  and well-attested, and his stake in foreclosing negotiated
+  settlement (which might have produced his extradition to Rome)
+  is a genuine specific motive. Mathos's particular hatred of
+  Carthaginian rule is similarly concrete. The structural reading
+  does not need to deny the individual-leadership reading; both
+  probably contributed. The position is that conditions were the
+  principal driver, not that leadership was negligible. The
+  competing readings section below treats this more carefully.
+confidence: tentative
+weighed_claims: []
+competing_positions:
+  - position: >
+      Polybian / individual-leadership reading. The Mercenary War's
+      atrocity escalation was driven principally by the specific
+      characters of the rebel leadership — Spendius's fear of Roman
+      extradition giving him a stake in foreclosing negotiated
+      settlement; Mathos's particular hatred of Carthaginian rule;
+      Autaritus's role as the Gallic-contingent enforcer. Rebel
+      leadership's pattern of escalating atrocity (mutilating
+      Carthaginian envoys, executing prisoners under torture) is
+      what foreclosed political restraint; Carthaginian
+      reciprocation was reactive.
+    why_rejected: >
+      Does not explain the symmetry of Carthaginian atrocity, which
+      occurred under a leadership (Hamilcar) with no parallel
+      personal motive for escalation; under-weights the structural
+      conditions (multi-ethnic force composition, indigenous-revolt
+      participation, existential Carthaginian stakes) that obtain
+      regardless of leadership specifics; treats Polybius's
+      framework as descriptive when it is in part normative-
+      moralizing. The Polybian reading is preserved as the surviving
+      narrative default but is not the best account of the
+      escalation specifically.
+    held_by: Polybius 1.65–88 and the surviving narrative tradition
+      derivative from it; some treatments that take Polybius's
+      moral framing as descriptively reliable.
+  - position: >
+      Both-causes reading. The atrocity escalation was driven by
+      structural conditions AND by individual leadership in
+      reinforcing combination, with neither alone sufficient. The
+      structural conditions made escalation possible; the specific
+      leadership configurations triggered and accelerated it. The
+      readings are not actually competing but describe different
+      causal layers.
+    why_rejected: >
+      Compatible with the site's position rather than competing
+      with it. The site takes the structural reading as the
+      *principal* driver while acknowledging that leadership
+      contributed. The both-causes reading is probably more honest
+      about the indeterminacy than the structural-principal
+      reading; we take the position we do because the symmetry
+      observation (Carthaginian-side atrocity matching rebel-side
+      atrocity under different leadership) carries some weight
+      toward structural-principal rather than equal-contribution.
+      Reasonable readers will hold the both-causes position.
+    held_by: Probably the implicit position of most current
+      treatments that engage Hoyos's framework without adopting
+      his full structural-principal framing.
+last_reviewed: "2026-05-10"
+open_to_revision: true
