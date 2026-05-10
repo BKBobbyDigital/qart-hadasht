@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
+import HistoricalMap from '../../components/HistoricalMap.astro';
 import CannaeDiagram from '../../components/CannaeDiagram.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
@@ -11,6 +12,15 @@ import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
+
+// Eagerly import every map config under src/data/maps/*.json so the
+// event frontmatter `map_id` field can resolve at build time.
+const mapModules = import.meta.glob('../../data/maps/*.json', { eager: true });
+const mapConfigs: Record<string, any> = {};
+for (const [path, mod] of Object.entries(mapModules)) {
+  const stem = path.split('/').pop()!.replace(/\.json$/, '');
+  mapConfigs[stem] = (mod as any).default ?? mod;
+}
 
 export async function getStaticPaths() {
   const events = await getCollection('events');
@@ -317,6 +327,14 @@ const infoboxRows: InfoboxRow[] = [
     <div class="prose-encyclopedia mt-6 text-lg text-sand-900">
       <p set:html={summaryHtml} />
     </div>
+
+    {data.map_id && mapConfigs[data.map_id] && (
+      <HistoricalMap
+        config={mapConfigs[data.map_id]}
+        caption={data.map_caption}
+        height="500px"
+      />
+    )}
 
     {eventMapPoints.length > 0 && (
       <Map

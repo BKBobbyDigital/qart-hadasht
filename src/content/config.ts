@@ -201,6 +201,12 @@ const events = defineCollection({
      * indemnity). Same bidirectional rendering as institutions.
      */
     referenced_themes: z.array(reference('themes')).default([]),
+    /** Optional map id (filename stem under src/data/maps/) to render
+     *  a historical-atlas map on the event page. Useful for war-level
+     *  events that span the same strategic theater as the period map. */
+    map_id: z.string().optional(),
+    /** Optional caption for the historical map. */
+    map_caption: z.string().optional(),
   }),
 });
 
