@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import Bibliography from '../../components/Bibliography.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
@@ -23,8 +24,13 @@ const fmtDate = (date: any) => {
   return `${date.circa ? 'c. ' : ''}${year} ${era}`;
 };
 
-const sources = await Promise.all(
-  (d.principal_sources ?? []).map(async (s: any) => await getEntry('sources', s.id))
+// Curated principal source IDs (from frontmatter)
+const principalSourceIds = (d.principal_sources ?? []).map((s: any) => s.id);
+
+// Reverse lookup: claims that reference this institution
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'institution' && e.slug === institution.id)
 );
 
 // Reverse lookup: events that reference this institution
@@ -158,20 +164,7 @@ const institutionInfoboxRows: InfoboxRow[] = [
       </section>
     )}
 
-    {sources.filter(Boolean).length > 0 && (
-      <section class="mt-12 pt-6 border-t border-sand-300">
-        <h2 class="font-serif text-2xl mb-3">Principal sources</h2>
-        <ul class="space-y-2">
-          {sources.filter(Boolean).map((s: any) => (
-            <li>
-              <a href={`/sources/${s.id}`} class="text-tyrian-700 hover:underline">
-                {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
+    <Bibliography claims={referencingClaims} principalSourceIds={principalSourceIds} />
     </article>
   </div>
 </BaseLayout>

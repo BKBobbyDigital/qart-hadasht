@@ -1,0 +1,169 @@
+---
+/**
+ * Bibliography section for entity pages.
+ *
+ * Auto-derives a per-page reading list from the claims that reference
+ * the entity:
+ *
+ *   - Aggregates citation counts (how many claims on this page cite
+ *     each source)
+ *   - Splits into Ancient sources / Modern scholarship by `is_primary`
+ *   - Within each group, sorts by citation count descending then title
+ *     ascending — most-cited sources for THIS entity rise to the top,
+ *     so a reader on Hannibal's page sees Hoyos (Hannibal) and Polybius
+ *     before incidental one-off citations
+ *   - Optionally surfaces a curated `principal_sources` list (set on
+ *     entities that have the field — events, institutions, deities,
+ *     periods) by ranking those entries first
+ *
+ * Each entry shows: author + italic title + composition year + a
+ * SourceDistance chip (epistemic context) + citation count for the
+ * page. Linked to the full source page where the digest of cited
+ * passages lives.
+ */
+import { getEntry } from 'astro:content';
+import SourceDistance from './SourceDistance.astro';
+
+interface Props {
+  /** Claims that reference this entity (the page's relatedClaims). */
+  claims: any[];
+  /**
+   * Optional curated source IDs (from the entity's `principal_sources`
+   * frontmatter field). When set, these entries sort to the top of
+   * their group regardless of citation count.
+   */
+  principalSourceIds?: string[];
+  /** Heading text. Default "Further reading". */
+  heading?: string;
+}
+
+const { claims, principalSourceIds = [], heading = 'Further reading' } = Astro.props;
+
+// Aggregate citation counts: how many distinct claims on this page
+// cite each source.
+const counts = new Map<string, number>();
+for (const c of claims) {
+  const seen = new Set<string>();
+  for (const s of (c.data.sources ?? [])) {
+    if (seen.has(s.source.id)) continue;
+    seen.add(s.source.id);
+    counts.set(s.source.id, (counts.get(s.source.id) ?? 0) + 1);
+  }
+}
+
+// Curated principal sources are included even if they aren't cited in
+// any claim on the page.
+for (const id of principalSourceIds) {
+  if (!counts.has(id)) counts.set(id, 0);
+}
+
+const principalSet = new Set(principalSourceIds);
+
+type Resolved = {
+  entry: any;
+  count: number;
+  isPrincipal: boolean;
+};
+
+const allIds = Array.from(counts.keys());
+const entries: Resolved[] = (
+  await Promise.all(
+    allIds.map(async (id) => {
+      const entry = await getEntry('sources', id);
+      if (!entry) return null;
+      return {
+        entry,
+        count: counts.get(id) ?? 0,
+        isPrincipal: principalSet.has(id),
+      };
+    })
+  )
+).filter(Boolean) as Resolved[];
+
+const ancient = entries.filter((e) => e.entry.data.is_primary);
+const modern = entries.filter((e) => !e.entry.data.is_primary);
+
+// Sort: principal first (curated relevance), then citation count desc
+// (auto-derived relevance), then title asc as tiebreaker.
+const sortFn = (a: Resolved, b: Resolved) => {
+  if (a.isPrincipal !== b.isPrincipal) return a.isPrincipal ? -1 : 1;
+  if (a.count !== b.count) return b.count - a.count;
+  return a.entry.data.title.localeCompare(b.entry.data.title);
+};
+ancient.sort(sortFn);
+modern.sort(sortFn);
+
+function fmtYear(date: any): string | null {
+  if (!date) return null;
+  const year = Math.abs(date.value);
+  const era = date.value < 0 ? ' BCE' : '';
+  const circa = date.circa ? 'c. ' : '';
+  return `${circa}${year}${era}`;
+}
+
+const hasContent = ancient.length > 0 || modern.length > 0;
+---
+
+{hasContent && (
+  <section class="mt-12" id="bibliography">
+    <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">{heading}</h2>
+
+    {ancient.length > 0 && (
+      <div class="mb-8">
+        <p class="text-[11px] uppercase tracking-widest font-semibold text-sand-700 mb-3">
+          Ancient sources <span class="text-sand-500 font-normal">({ancient.length})</span>
+        </p>
+        <ul class="space-y-3">
+          {ancient.map(({ entry, count, isPrincipal }) => (
+            <li class="text-sm">
+              <div class="flex items-baseline gap-2 flex-wrap">
+                <a href={`/sources/${entry.id}`} class="text-tyrian-700 hover:underline">
+                  {entry.data.author && <span class="text-ink-900 not-italic">{entry.data.author}, </span>}
+                  <em class="text-ink-900">{entry.data.title}</em>
+                </a>
+                {fmtYear(entry.data.date_composed) && (
+                  <span class="text-sand-700 text-xs">({fmtYear(entry.data.date_composed)})</span>
+                )}
+                <SourceDistance source={entry.data} />
+              </div>
+              <p class="text-xs text-sand-700 mt-0.5">
+                {isPrincipal && <span class="text-tyrian-700 font-medium">Principal source</span>}
+                {isPrincipal && count > 0 && <span> · </span>}
+                {count > 0 && <span>{`cited in ${count} ${count === 1 ? 'claim' : 'claims'}`}</span>}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {modern.length > 0 && (
+      <div>
+        <p class="text-[11px] uppercase tracking-widest font-semibold text-sand-700 mb-3">
+          Modern scholarship <span class="text-sand-500 font-normal">({modern.length})</span>
+        </p>
+        <ul class="space-y-3">
+          {modern.map(({ entry, count, isPrincipal }) => (
+            <li class="text-sm">
+              <div class="flex items-baseline gap-2 flex-wrap">
+                <a href={`/sources/${entry.id}`} class="text-tyrian-700 hover:underline">
+                  {entry.data.author && <span class="text-ink-900 not-italic">{entry.data.author}, </span>}
+                  <em class="text-ink-900">{entry.data.title}</em>
+                </a>
+                {fmtYear(entry.data.date_composed) && (
+                  <span class="text-sand-700 text-xs">({fmtYear(entry.data.date_composed)})</span>
+                )}
+                <SourceDistance source={entry.data} />
+              </div>
+              <p class="text-xs text-sand-700 mt-0.5">
+                {isPrincipal && <span class="text-tyrian-700 font-medium">Principal source</span>}
+                {isPrincipal && count > 0 && <span> · </span>}
+                {count > 0 && <span>{`cited in ${count} ${count === 1 ? 'claim' : 'claims'}`}</span>}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </section>
+)}

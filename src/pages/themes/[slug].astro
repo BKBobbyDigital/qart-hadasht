@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import Bibliography from '../../components/Bibliography.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -251,6 +252,8 @@ const jumps: Jump[] = [
           </ul>
         </section>
       )}
+
+      <Bibliography claims={referencingClaims} />
 
       {relatedThemes.length > 0 && (
         <section class="mt-12 pt-6 border-t border-sand-300">

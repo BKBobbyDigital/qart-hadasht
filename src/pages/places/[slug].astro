@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Map from '../../components/Map.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import Bibliography from '../../components/Bibliography.astro';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
@@ -24,6 +25,12 @@ const eventsHere = allEvents
     (e.data.places ?? []).some((p: any) => p.id === place.id)
   )
   .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
+
+// Reverse lookup: claims that reference this place via the entities array
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'place' && e.slug === place.id)
+);
 
 // Build the points array for the map. Include candidates if present, otherwise primary.
 type MapPoint = { label: string; lat: number; lon: number; confidence?: string; notes?: string; marker_kind?: string };
@@ -209,6 +216,8 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
         </ul>
       </section>
     )}
+
+    <Bibliography claims={referencingClaims} />
     </article>
   </div>
 </BaseLayout>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import Bibliography from '../../components/Bibliography.astro';
 import { formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
@@ -36,6 +37,12 @@ const linkRegistry = buildLinkRegistry({
 const summaryHtml = autolink(d.summary, linkRegistry, {
   excludeKey: `group:${group.id}`,
 });
+
+// Reverse lookup: claims that reference this group via the entities array
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'group' && e.slug === group.id)
+);
 
 const typeLabel = d.type.replace('_', ' ');
 const typeLabelCap = typeLabel.charAt(0).toUpperCase() + typeLabel.slice(1);
@@ -83,6 +90,8 @@ const groupInfoboxRows: InfoboxRow[] = [
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
       <p set:html={summaryHtml} />
     </div>
+
+    <Bibliography claims={referencingClaims} />
     </article>
   </div>
 </BaseLayout>

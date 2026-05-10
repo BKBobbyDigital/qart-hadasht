@@ -6,6 +6,7 @@ import Map from '../../components/Map.astro';
 import CannaeDiagram from '../../components/CannaeDiagram.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
+import Bibliography from '../../components/Bibliography.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
@@ -274,7 +275,7 @@ const infoboxRows: InfoboxRow[] = [
   {
     label: 'Sources cited',
     value: sourcesCount > 0 ? `${sourcesCount}` : null,
-    href: sourcesCount > 0 ? '#sources' : undefined,
+    href: sourcesCount > 0 ? '#bibliography' : undefined,
     emptyLabel: 'none',
   },
 ];
@@ -446,20 +447,10 @@ const infoboxRows: InfoboxRow[] = [
         </ul>
       </section>
     )}
-    {sourcesCited.length > 0 && (
-      <section class="mt-12" id="sources">
-        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Sources cited</h2>
-        <ul class="space-y-2">
-          {sourcesCited.map((s: any) => (
-            <li class="text-sm">
-              <a href={`/sources/${s.id}`} class="text-tyrian-700 hover:underline font-serif">{s.data.title}</a>
-              {s.data.author && <span class="text-sand-700"> · {s.data.author}</span>}
-              <span class="text-sand-700"> · <span class="italic">{s.data.type.replace('_', ' ')}</span></span>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
+    <Bibliography
+      claims={relatedClaims}
+      principalSourceIds={(data.principal_sources ?? []).map((s: any) => s.id)}
+    />
     </article>
   </div>
 </BaseLayout>
