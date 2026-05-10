@@ -1,0 +1,91 @@
+---
+/**
+ * Reusable infobox panel for entity detail pages.
+ *
+ * Top-of-article on mobile, right-rail (sticky) on lg+ screens.
+ * Each row of the rows array has the same shape regardless of entity type.
+ *
+ * Empty values render as "unknown" in muted style — by design, so missing
+ * data reads as a deliberate gap rather than an absent row. Keeps boxes of
+ * the same entity type visually identical.
+ */
+
+export type InfoboxRow = {
+  label: string;
+  /**
+   * The value. Falsy/empty values render as "unknown".
+   * - string | number: rendered as text (or as a link if href is given)
+   * - InfoboxLink[]: rendered as a comma-separated list of links
+   */
+  value?: string | number | null | InfoboxLink[];
+  /** Optional href for a single-value text row. Ignored if value is a list. */
+  href?: string;
+  /** Italic qualifier appended after the value, e.g. "legendary", "c.", "approximate". */
+  qualifier?: string;
+};
+
+export type InfoboxLink = {
+  text: string;
+  href?: string;
+};
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  rows: InfoboxRow[];
+}
+
+const { title, subtitle, rows } = Astro.props;
+
+const isEmpty = (v: InfoboxRow['value']) =>
+  v === undefined ||
+  v === null ||
+  v === '' ||
+  (Array.isArray(v) && v.length === 0);
+---
+
+<aside
+  class="mb-6 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start"
+  aria-label={`Quick facts about ${title}`}
+>
+  <div class="border border-sand-300 rounded-lg bg-sand-50 p-4 text-sm">
+    <div class="border-b border-sand-300 pb-2 mb-3">
+      <div class="text-[10px] uppercase tracking-widest font-bold text-sand-700">Quick facts</div>
+      <div class="font-serif text-base text-sand-900 leading-tight mt-0.5">{title}</div>
+      {subtitle && <div class="text-xs text-sand-700 italic mt-0.5">{subtitle}</div>}
+    </div>
+
+    <dl class="space-y-2.5">
+      {rows.map((row) => (
+        <div>
+          <dt class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{row.label}</dt>
+          <dd class="text-sand-900 leading-snug mt-0.5">
+            {isEmpty(row.value) ? (
+              <span class="text-sand-700 italic">unknown</span>
+            ) : Array.isArray(row.value) ? (
+              <span>
+                {(row.value as InfoboxLink[]).map((link, i) => (
+                  <>
+                    {i > 0 && <span class="text-sand-700">, </span>}
+                    {link.href ? (
+                      <a href={link.href} class="text-tyrian-700 hover:underline">{link.text}</a>
+                    ) : (
+                      <span>{link.text}</span>
+                    )}
+                  </>
+                ))}
+              </span>
+            ) : row.href ? (
+              <a href={row.href} class="text-tyrian-700 hover:underline">{row.value}</a>
+            ) : (
+              <span>{row.value}</span>
+            )}
+            {row.qualifier && !isEmpty(row.value) && (
+              <span class="text-sand-700 italic"> ({row.qualifier})</span>
+            )}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</aside>

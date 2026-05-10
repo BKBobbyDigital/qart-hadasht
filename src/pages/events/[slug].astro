@@ -4,6 +4,8 @@ import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
 import CannaeDiagram from '../../components/CannaeDiagram.astro';
+import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -150,11 +152,107 @@ if (eventMapPoints.length > 0 && place?.id !== 'carthage') {
 // Format date
 const year = Math.abs(data.date_start.value);
 const era = data.date_start.value < 0 ? 'BCE' : 'CE';
+
+// ─── Infobox derivations ─────────────────────────────────────────────────────
+const dateText = formatDateRange(data.date_start, data.date_end);
+const dateQual = dateQualifier(data.date_start);
+
+// Belligerents — distinct sides among participants
+const sides = Array.from(
+  new Set(
+    (data.participants ?? [])
+      .map((p: any) => p.side)
+      .filter((s: string | undefined): s is string => Boolean(s))
+  )
+);
+const belligerents: InfoboxLink[] = sides.map((s) => ({ text: s }));
+
+// Commanders — participants whose role contains "commander" or "general"
+const commanderRoles = /command|general|leader|admiral|consul|suffete|king/i;
+const commanderEntries: InfoboxLink[] = participants
+  .filter((p: any) => commanderRoles.test(p.role) && p.personData)
+  .map((p: any) => ({
+    text: p.personData.name_display,
+    href: `/people/${p.person.id}`,
+  }));
+
+// Parent war — any event of type 'war' whose related_events references this one
+const parentWar = allEvents.find(
+  (e) =>
+    e.id !== event.id &&
+    e.data.type === 'war' &&
+    (e.data.related_events ?? []).some((r: any) => r.event.id === event.id)
+);
+const partOfLink: InfoboxLink[] = parentWar
+  ? [{ text: parentWar.data.name, href: `/events/${parentWar.id}` }]
+  : [];
+
+// Sources cited count — distinct source ids from claims about this event,
+// plus principal_sources declared on the event itself
+const sourceIds = new Set<string>();
+(data.principal_sources ?? []).forEach((s: any) => sourceIds.add(s.id));
+relatedClaims.forEach((c) =>
+  (c.data.sources ?? []).forEach((s: any) => sourceIds.add(s.source.id))
+);
+const sourcesCount = sourceIds.size;
+
+// Resolve source entries for the Sources cited section
+const sourcesCited = (
+  await Promise.all(
+    Array.from(sourceIds).map(async (id) => await getEntry('sources', id))
+  )
+)
+  .filter(Boolean)
+  .sort((a: any, b: any) => a!.data.title.localeCompare(b!.data.title));
+
+// Type label, capitalized
+const typeLabel = data.type.charAt(0).toUpperCase() + data.type.slice(1);
+
+const infoboxRows: InfoboxRow[] = [
+  {
+    label: 'Date',
+    value: dateText,
+    qualifier: dateQual,
+  },
+  {
+    label: 'Type',
+    value: typeLabel,
+  },
+  {
+    label: 'Location',
+    value: place
+      ? [{ text: place.data.name_display, href: `/places/${place.id}` }]
+      : [],
+  },
+  {
+    label: 'Belligerents',
+    value: belligerents,
+  },
+  {
+    label: 'Commanders',
+    value: commanderEntries,
+  },
+  {
+    label: 'Part of',
+    value: partOfLink,
+  },
+  {
+    label: 'Sources cited',
+    value: sourcesCount > 0 ? `${sourcesCount}` : null,
+    href: sourcesCount > 0 ? '#sources' : undefined,
+  },
+];
 ---
 
 <BaseLayout title={data.name} description={data.summary}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
-    <span hidden data-pagefind-filter="type:Events" data-pagefind-meta="type:Event"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={data.name}
+      subtitle={`${typeLabel} · ${year} ${era}`}
+      rows={infoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Events" data-pagefind-meta="type:Event"></span>
     <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">{data.type}</p>
     <h1 class="font-serif text-4xl mb-3">{data.name}</h1>
     <p class="text-lg text-sand-700">
@@ -310,5 +408,20 @@ const era = data.date_start.value < 0 ? 'BCE' : 'CE';
         </ul>
       </section>
     )}
-  </article>
+    {sourcesCited.length > 0 && (
+      <section class="mt-12" id="sources">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Sources cited</h2>
+        <ul class="space-y-2">
+          {sourcesCited.map((s: any) => (
+            <li class="text-sm">
+              <a href={`/sources/${s.id}`} class="text-tyrian-700 hover:underline font-serif">{s.data.title}</a>
+              {s.data.author && <span class="text-sand-700"> · {s.data.author}</span>}
+              <span class="text-sand-700"> · <span class="italic">{s.data.type.replace('_', ' ')}</span></span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    </article>
+  </div>
 </BaseLayout>
