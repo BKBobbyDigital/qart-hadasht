@@ -470,6 +470,47 @@ const deities = defineCollection({
   }),
 });
 
+// ─── Threads, curated reading paths through the encyclopedia ─────────────────
+//
+// A thread is an explicitly curated multi-page journey: an ordered list of
+// stops (events, people, places, narratives, claims, etc.) framed by an
+// introductory thesis. Threads complement the period pages — periods are
+// chronological synthesis, threads are topical or biographical journeys
+// that may cut across periods.
+
+const threadStop = z.object({
+  type: z.enum([
+    'event',
+    'person',
+    'place',
+    'institution',
+    'group',
+    'deity',
+    'theme',
+    'narrative',
+    'claim',
+    'editorial-take',
+    'period',
+    'source',
+  ]),
+  slug: z.string(),
+  /** Optional editorial annotation explaining what to look for at this stop. */
+  note: z.string().optional(),
+});
+
+const threads = defineCollection({
+  type: 'content', // markdown
+  schema: z.object({
+    title: z.string(),
+    /** Short tagline shown on the index card and as page subtitle. */
+    summary: z.string(),
+    /** What kind of journey: biography / question / period / theatre / debate. */
+    scope: z.enum(['biography', 'question', 'period', 'theatre', 'debate']),
+    stops: z.array(threadStop).min(2),
+    last_revised: z.string(),
+  }),
+});
+
 // ─── Periods, era-level synthesis pages ───────────────────────────────────────
 //
 // The narrative connective tissue between the entity collections. Each period
@@ -517,4 +558,5 @@ export const collections = {
   institutions,
   deities,
   periods,
+  threads,
 };

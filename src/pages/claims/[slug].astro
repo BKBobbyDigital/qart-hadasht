@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ClaimCard from '../../components/ClaimCard.astro';
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const claims = await getCollection('claims');
+  return claims.map((c) => ({
+    params: { slug: c.id },
+    props: { claim: c },
+  }));
+}
+
+const { claim } = Astro.props;
+const d = claim.data;
+
+// Resolve referenced entities
+const entityMap: Record<string, string> = {
+  event: 'events',
+  person: 'people',
+  place: 'places',
+  institution: 'institutions',
+  group: 'groups',
+  deity: 'deities',
+  theme: 'themes',
+};
+
+const resolvedEntities = await Promise.all(
+  (d.entities ?? []).map(async (e: any) => {
+    const collection = entityMap[e.type];
+    if (!collection) return null;
+    try {
+      const entry: any = await getEntry(collection as any, e.slug);
+      if (!entry) return null;
+      const slug = entry.id.replace(/\.md$/, '');
+      const title = entry.data.name || entry.data.name_display || entry.data.title;
+      return { type: e.type, role: e.role, href: `/${collection}/${slug}`, title };
+    } catch {
+      return null;
+    }
+  })
+).then((arr) => arr.filter(Boolean) as Array<any>);
+---
+
+<BaseLayout title={`Claim: ${d.statement.slice(0, 80)}`} description={d.statement}>
+  <article class="max-w-3xl mx-auto px-6 py-12">
+    <span hidden data-pagefind-filter="type:Claims" data-pagefind-meta="type:Claim"></span>
+
+    <p class="text-xs uppercase tracking-widest text-sand-700 mb-2">
+      Claim · <a href="/claims" class="text-tyrian-700 hover:underline">All claims</a>
+    </p>
+    <h1 class="font-serif text-2xl mb-6">Claim</h1>
+
+    <ClaimCard claim={claim} />
+
+    {resolvedEntities.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-3">Referenced entities</h2>
+        <ul class="space-y-2">
+          {resolvedEntities.map((e: any) => (
+            <li>
+              <a href={e.href} class="text-tyrian-700 hover:underline font-serif">{e.title}</a>
+              <span class="text-xs text-sand-700 ml-2">{e.type} · {e.role}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>

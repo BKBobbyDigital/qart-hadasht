@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
+import { getCollection } from 'astro:content';
+
+const claims = (await getCollection('claims')).sort((a, b) =>
+  a.data.statement.localeCompare(b.data.statement)
+);
+
+// Group by confidence
+const byConfidence = claims.reduce((acc: any, c: any) => {
+  const key = c.data.confidence;
+  if (!acc[key]) acc[key] = [];
+  acc[key].push(c);
+  return acc;
+}, {});
+
+const order = ['attested', 'inferred', 'contested', 'disputed', 'legendary'];
+---
+
+<BaseLayout title="Claims">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-2">Claims</h1>
+    <p class="text-sand-700 mb-8 max-w-2xl">
+      The atomic factual statements the encyclopedia is built from.
+      Each claim has explicit confidence (<em>attested</em>, <em>inferred</em>,
+      <em>contested</em>, <em>disputed</em>, or <em>legendary</em>) and
+      cites the ancient and modern sources that support, qualify, or
+      contradict it. Grouped here by confidence; on each entity page
+      claims appear filtered to that entity.
+    </p>
+
+    {order.filter((c) => byConfidence[c]?.length > 0).map((conf) => (
+      <section class="mb-10">
+        <div class="flex items-baseline gap-3 mb-4">
+          <ConfidenceBadge confidence={conf as any} />
+          <h2 class="font-serif text-2xl text-sand-900">
+            {byConfidence[conf].length} {byConfidence[conf].length === 1 ? 'claim' : 'claims'}
+          </h2>
+        </div>
+        <ul class="space-y-2">
+          {byConfidence[conf].map((c: any) => (
+            <li class="border-l-2 border-sand-300 pl-3 py-1">
+              <a href={`/claims/${c.id}`} class="text-tyrian-700 hover:underline">
+                <p class="text-sm text-sand-900">{c.data.statement}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

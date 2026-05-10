@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const threads = (await getCollection('threads')).sort(
+  (a: any, b: any) => a.data.title.localeCompare(b.data.title)
+);
+
+const scopeLabels: Record<string, string> = {
+  biography: 'Biography',
+  question: 'Question',
+  period: 'Period',
+  theatre: 'Theatre',
+  debate: 'Debate',
+};
+---
+
+<BaseLayout title="Reading threads">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl mb-2">Reading threads</h1>
+    <p class="text-sand-700 mb-8 max-w-2xl">
+      Curated multi-page journeys through the encyclopedia. Each thread is an
+      ordered sequence of stops — events, people, places, claims — framed
+      by an editorial introduction. Threads complement the
+      <a href="/periods" class="text-tyrian-700 hover:underline">period pages</a>
+      (chronological synthesis) with topical or biographical paths that may
+      cut across periods.
+    </p>
+
+    <ul class="space-y-3">
+      {threads.map((t: any) => (
+        <li>
+          <a href={`/threads/${t.id.replace(/\.md$/, '')}`} class="block p-5 border border-sand-300 rounded-lg hover:bg-white transition-colors">
+            <div class="flex items-baseline justify-between gap-4 flex-wrap">
+              <h2 class="font-serif text-xl text-tyrian-700">{t.data.title}</h2>
+              <span class="text-xs uppercase tracking-wider text-sand-700">
+                {scopeLabels[t.data.scope] ?? t.data.scope} · {t.data.stops.length} stops
+              </span>
+            </div>
+            <p class="text-sm text-sand-900 mt-2">{t.data.summary}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

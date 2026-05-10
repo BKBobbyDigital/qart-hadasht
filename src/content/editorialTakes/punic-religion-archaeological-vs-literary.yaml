@@ -1,0 +1,100 @@
+slug: punic-religion-archaeological-vs-literary
+subject_question: >
+  Why does the encyclopedia weight archaeological and inscriptional
+  evidence more heavily than the surviving Greco-Latin literary
+  evidence in reconstructing Carthaginian religion?
+subject_entity:
+  type: theme
+  slug: punic-religion
+  role: subject
+position: >
+  The encyclopedia's Punic religion treatment weights inscriptional
+  and archaeological evidence above the surviving Greco-Latin
+  literary record because the literary record is structurally
+  hostile in ways the material record is not. Diodorus, Plutarch,
+  and Tertullian preserve real ritual practice but through framing
+  designed to demonstrate Carthaginian moral inferiority to Greek
+  and Roman civilization; the inscriptional record (Tophet stelae,
+  dedicatory inscriptions, theophoric names) and the archaeological
+  record (precincts, figurines, household assemblages) preserve the
+  practice without the polemical overlay. This is a methodological
+  position about epistemic weight, not a claim that literary sources
+  should be ignored — they preserve information the material record
+  alone cannot — but they should be read for what they preserve
+  through the polemic, not through it.
+reasoning: |
+  The methodological commitment has three substantive consequences:
+
+  1. **The Tophet question is treated as contested.** The literary
+     record is consistent that systematic child sacrifice occurred;
+     the archaeological-stratigraphic record is more ambiguous, with
+     modern scholarly debate about whether the deposits indicate
+     sacrifice, cremation of children who died of natural causes,
+     or some combination. The encyclopedia's tagging of the
+     question as `contested` reflects the methodological
+     commitment: we do not take the literary record's framing as
+     dispositive when the material evidence permits more than one
+     reading.
+
+  2. **The pantheon's chronological development is reconstructed
+     from inscriptions, not from literary frames.** Tanit's
+     emergence in the 5th century BCE, the Astarte-to-Tanit
+     transition, the
+     [Demeter-Kore adoption](/deities/demeter-kore) of 396 BCE —
+     all of these are visible in the inscriptional record over time
+     in a way the literary record does not preserve. The literary
+     sources give us a static snapshot of a dynamic religious
+     system; the inscriptions give us the dynamics.
+
+  3. **Household and personal religion is recoverable mostly
+     through archaeology.** [Bes](/deities/bes), the principal
+     domestic-protection deity, is rare in formal inscriptions and
+     literary references but ubiquitous in household material
+     contexts. The asymmetry tells us something both about
+     Carthaginian religious practice (civic and household
+     religion as relatively distinct domains) and about the
+     limits of any reconstruction that takes the literary record
+     as primary.
+
+  The position is not that the Greco-Latin sources are
+  "untrustworthy" — they preserve real information and the
+  encyclopedia draws on them throughout. The position is that
+  the surviving literary record's hostile framing makes it a
+  filtered evidence base for Carthaginian religion specifically,
+  in a way that the material record (which has no equivalent
+  framing) is not. The methodological weight should reflect this.
+confidence: moderate
+weighed_claims: []
+competing_positions:
+  - position: >
+      The literary sources are sufficiently extensive and
+      consistent that they should be taken as the primary
+      reconstruction basis for Carthaginian religion, with the
+      material record supplementing rather than checking them.
+    why_rejected: >
+      The literary record's consistency is partly the consistency
+      of a shared polemical framing (Greek and Roman authors drawing
+      on shared Hellenistic-philosophical traditions about
+      "barbarian" religion) rather than independent corroboration.
+      The archaeological record provides the independent check that
+      pure literary-source convergence would otherwise lack.
+    held_by: Some older scholarship that gives substantial weight
+      to literary sources as primary historical evidence,
+      particularly in 19th-century classical historiography.
+  - position: >
+      The hostility of the literary sources is overstated and the
+      modern weighting toward archaeology reflects a contemporary
+      academic preference for material evidence over textual
+      evidence rather than a real epistemic asymmetry.
+    why_rejected: >
+      The hostility of specific passages (Diodorus's sacrificial
+      panic narrative, Plutarch's De Superstitione, Tertullian's
+      anti-Punic polemic) is not contestable; the question is
+      whether it pervades the literary record's framing of the
+      religious system as a whole. The site's position is that it
+      does, but the position is open to revision if the
+      pervasiveness can be more precisely measured.
+    held_by: Some recent scholarship that pushes back on the
+      "hostile-source" framing of older Phoenician-Punic studies.
+last_reviewed: "2026-05-10"
+open_to_revision: true
