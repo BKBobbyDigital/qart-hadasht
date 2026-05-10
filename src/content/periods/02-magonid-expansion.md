@@ -62,11 +62,17 @@ his sons, his grandsons, and their successors over five generations —
 ran the city as a hereditary military aristocracy operating within and
 through the formal Carthaginian institutions. They were the figures
 through whom Carthage fought its wars, negotiated its treaties,
-conducted its colonization, and projected its power. They were also the
-figures whose accumulating concentration of authority produced the
-political reaction that would eventually constrain them: the Council of
-104, established in the aftermath of Magonid overreach, was the
-institutional response that ended the dynasty's unchecked operation.
+conducted its colonization, and projected its power. On Justin's reading (19.2), the dynasty's accumulating concentration
+of authority eventually produced the political reaction that
+constrained it: the Council of 104 as the institutional response to
+Magonid overreach. Justin's framing is the principal surviving source
+for this causal sequence; modern scholarship treats it as plausible
+but cautions against taking it as more securely dated or more
+mechanically attested than the surviving evidence supports. The
+structural fact — that the Council of 104 was established in the
+late-Magonid period and operated as a check on commander authority —
+is firmly attested. The Magonid-overreach causation is Justin's
+framing carried forward.
 
 ## The reorganization and its first phase
 

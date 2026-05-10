@@ -47,10 +47,18 @@ a war of total mobilization and catastrophic defeat, Carthage entered
 a long peace and — within a generation — recovered to such an extent
 that Roman observers visiting in 153 BCE could not reconcile the
 prosperous commercial city they saw with the indemnity-burdened
-defeated state the Treaty of 201 had supposedly produced. The
-recovery's visibility was itself the structural cause of the
-destruction. By 146 BCE Carthage was annihilated not because it had
-become weak but because it had not become weak enough.
+defeated state the Treaty of 201 had supposedly produced.
+
+The site takes the position — broadly the modern scholarly consensus
+across Hoyos, Goldsworthy, and Miles, though contested by the surviving
+Roman tradition's own framing — that **Carthage was destroyed in 146
+BCE not because it had become weak but because it had not become weak
+enough**: the recovery's visibility was itself the structural cause of
+the destruction. The reasoning, the weighed claims (including
+[the 149-demands-as-deliberate-trap](/claims/149-demands-as-deliberate-trap)
+position), and the competing readings (including the Roman-tradition
+"Carthaginian aggression" framing) are treated under the editorial take
+[Why was Carthage destroyed in 146 BCE?](/editorialTakes/destruction-not-weak-enough).
 
 ## Hannibal's reforms
 
@@ -103,15 +111,18 @@ ruled in Masinissa's favor; each Carthaginian attempt to respond
 militarily would have constituted treaty violation; the encroachments
 continued.
 
-The pattern's strategic logic was Roman as much as Numidian.
-Masinissa's expansion at Carthaginian expense produced exactly the
-kind of regional configuration Rome preferred: a strong Roman ally
-adjacent to a constrained former adversary, with the constrained
-adversary unable to respond without violating its own treaty
-obligations. Whether Rome's commissioners were consciously executing
-this strategy or whether they were simply reflecting the structural
-incentives the configuration produced is contested in modern
-scholarship. The outcome was the same.
+The pattern's strategic logic, on the site's reading, was Roman as
+much as Numidian: Masinissa's expansion at Carthaginian expense
+produced exactly the regional configuration Rome preferred — a strong
+Roman ally adjacent to a constrained former adversary, with the
+constrained adversary unable to respond without violating its own
+treaty obligations. Whether Rome's commissioners were consciously
+executing this strategy or whether they were simply reflecting the
+structural incentives the configuration produced is genuinely
+contested in modern scholarship; what the surviving Roman tradition
+itself frames as Carthaginian-Numidian dispute, the modern reading
+treats as Roman-enabled territorial pressure. Either way, the outcome
+was a Carthaginian position that could not stably hold.
 
 ## Cato's commission
 
@@ -163,10 +174,14 @@ terms). The sequence: 300 hostage children of senatorial families
 relocation of the city to a site at least 80 stadia from the sea
 (refused, as designed).
 
-The disarmament-then-impossible-demand structure made the war's
-outcome foregone before the siege began. Roman strategic objectives
-in 149 BCE were settled before the war began. The demands were the
-diplomatic-procedural instrument.
+The disarmament-then-impossible-demand structure is what supports the
+site's [149-demands-as-deliberate-trap](/claims/149-demands-as-deliberate-trap)
+reading: Roman strategic objectives in 149 BCE were settled before
+the war began, and the demands were the diplomatic-procedural
+instrument that converted decision into action. The reading is
+inferred — the surviving sources preserve the demands without
+explicitly framing them as a designed trap — but the structural
+pattern is the principal evidence.
 
 ## The siege and the destruction
 
@@ -221,7 +236,14 @@ given to Numidia or otherwise lost in the centuries since.
 This encyclopedia is one attempt to reconstruct what survives, to
 distinguish what is attested from what is inferred, contested, or
 legendary, and to name what cannot be recovered. The work is partial
-by structural necessity. Carthage's history is a history of what
-remained after substantial deliberate erasure; recovering even what
-remains requires careful attention to the limits of the surviving
-evidence.
+by structural necessity. Much of what we have of Carthage is what
+remained after the city's physical destruction and the loss of its
+literary tradition (the libraries reportedly given to the Numidian
+allies, with [Mago's agricultural treatise](/people/mago-agronomist)
+the explicit Roman exception); recovering even what remains requires
+careful attention to the limits of the surviving evidence and to the
+hostile framing that shapes much of the surviving Greco-Latin record.
+Whether the destruction's epistemic effect amounts to "deliberate
+erasure" in any strong sense, or simply to the consequences of
+total military victory, is a question the surviving evidence does not
+straightforwardly settle.

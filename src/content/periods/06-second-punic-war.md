@@ -85,13 +85,21 @@ has produced more sustained reconstruction of the war's military
 operations, political configurations, and structural consequences than
 of essentially any other ancient conflict.
 
-What is most striking about the war is how close Rome came to losing
-it — and how the Roman recovery, when it came, depended on factors the
-Hannibalic strategy had not quite accounted for. Hannibal's tactical
-brilliance produced victories that should have ended the war on
-Carthaginian terms. The Roman political configuration's refusal to
-negotiate after defeats that had ended other ancient conflicts was the
-structural fact Hannibal could not overcome.
+What is most striking about the war, on the site's reading, is how
+close Rome came to losing it — and how the Roman recovery, when it
+came, depended on factors the Hannibalic strategy had not quite
+accounted for. The encyclopedia takes the position — broadly
+consistent with modern strategic-historical scholarship though not
+directly attested as a framing in the ancient sources — that **the
+Roman political configuration's refusal to negotiate after Cannae is
+the single structural fact Hannibal's strategy could not overcome**.
+The tactical brilliance is real and the strategic concept (allied
+defection under direct pressure) coherent; what failed was a
+Hellenistic-precedent assumption about how cities concede defeat. The
+position's reasoning, the weighed claims, and the competing readings
+(including the long-standing march-on-Rome counterfactual) are
+treated under the editorial take
+[Why did Cannae not end the war?](/editorialTakes/cannae-roman-refusal-to-negotiate)
 
 ## The crossing and the Italian campaign
 
@@ -142,12 +150,15 @@ breaking the Roman cavalry on the flanks — produced approximately
 contingent; the Roman field army that the senate had assembled at
 unprecedented scale was destroyed.
 
-Cannae should have ended the war. By any reasonable comparative
-standard — the equivalent Hellenistic precedent — a state that lost a
-field army of that scale would have negotiated. The Roman senatorial
-refusal to negotiate is the structural fact Hannibal could not
-overcome. The political-cultural foundations of that refusal are
-genuinely contested in modern scholarship; what is not contested is
+By Hellenistic comparative standards a state that lost a field army of
+that scale would have opened negotiations; the Roman senate's decision
+to refuse envoys, refuse ransom for prisoners, and continue mobilizing
+is what distinguishes this war from contemporary Mediterranean conflicts.
+This is the structural pivot the site's editorial take
+[Why did Cannae not end the war?](/editorialTakes/cannae-roman-refusal-to-negotiate)
+develops in detail. The political-cultural foundations of the Roman
+refusal are genuinely contested in modern scholarship; what is not
+contested is
 that Cannae's tactical success was not converted into strategic
 settlement.
 

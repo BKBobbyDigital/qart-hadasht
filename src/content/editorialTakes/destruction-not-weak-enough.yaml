@@ -1,0 +1,110 @@
+slug: destruction-not-weak-enough
+subject_question: >
+  Why was Carthage destroyed in 146 BCE despite the Treaty of 201's
+  apparent success in reducing the city to a permanently constrained
+  Mediterranean power?
+subject_entity:
+  type: event
+  slug: third-punic-war
+  role: subject
+position: >
+  Carthage was destroyed in 146 BCE not because it had become weak but
+  because it had not become weak enough. The Treaty of 201 had reduced
+  Carthage to a regional African polity stripped of its Mediterranean
+  military projection capacity, and across the following half-century
+  the city met its indemnity obligations, accepted Numidian
+  encroachment on its African territory under Roman cover, and
+  refrained from independent foreign policy as required. By the time
+  of Cato's 153 BCE commission the city was visibly recovered —
+  prosperous markets, full harbor, agricultural hinterland producing
+  again — and that recovery was the structural condition that produced
+  the destruction. The Roman senatorial faction that decided to
+  destroy Carthage did so in response to its visible vitality, not in
+  response to any specific Carthaginian threat or treaty violation.
+  The 150 BCE war with Masinissa provided the legal pretext but the
+  strategic decision had been made earlier; the 149 BCE demand
+  sequence was designed to convert the strategic decision into action.
+reasoning: |
+  The "not weak enough" reading is the consensus modern interpretation
+  but it sits in tension with the surviving Roman tradition's framing,
+  which presents the war as a response to Carthaginian aggression
+  (the Masinissa expedition) rather than a deliberate Roman choice.
+  Three observations support the modern reading:
+
+  1. **Cato's 153 commission report is the structural pivot.** What
+     Cato saw at Carthage — prosperous, peaceful, full of commerce —
+     was not what the Treaty of 201 had been designed to produce in
+     perpetuity. The senate's reception of Cato's report and his
+     subsequent decade-long advocacy for destruction is the political
+     mechanism through which the strategic decision was made. Whatever
+     specific border dispute had triggered the commission, the policy
+     shift Cato produced was about Carthaginian recovery, not about
+     specific Carthaginian threats.
+
+  2. **The 149 demands were designed for refusal.** The escalating
+     sequence — hostages (compliable), disarmament (compliable),
+     relocation 16 km inland (impossible for a maritime commercial
+     city) — has the structure of an instrument designed to convert
+     a settled strategic objective into action, not the structure of
+     an actual negotiation. The site's claim
+     [149-demands-as-deliberate-trap](/claims/149-demands-as-deliberate-trap)
+     develops this in detail. Polybius and Appian preserve the
+     sequence; the trap reading is the reconstruction from the
+     sequence's structure.
+
+  3. **The Masinissa pattern was Roman as much as Numidian.**
+     Across fifty years, every Carthaginian-Numidian arbitration
+     produced Roman commissions ruling for Masinissa; every
+     Carthaginian appeal to Roman protection of treaty rights was
+     refused. The pattern was sufficiently consistent that even
+     without conscious Roman strategic intent it produced the same
+     outcome: Carthaginian territorial loss under Roman cover, with
+     the only Carthaginian alternative being treaty-violating
+     military response. The 150 BCE war was the predictable end-state
+     of the configuration.
+
+  The position is contested in the surviving Roman tradition but
+  broadly consistent across modern scholarship — Hoyos, Goldsworthy,
+  and Miles all converge on the deliberate-Roman-decision reading,
+  with variations in the specific causal mechanism. The site's
+  position takes the modern consensus as the better-supported reading
+  despite the surviving Roman tradition's contrary framing.
+confidence: moderate
+weighed_claims:
+  - 149-demands-as-deliberate-trap
+competing_positions:
+  - position: >
+      The destruction was the appropriate Roman response to genuine
+      Carthaginian treaty violation in the 150 BCE Masinissa war.
+      Roman strategic objectives in 149 were not pre-settled; the
+      escalating demand sequence was an attempt at coercive
+      diplomacy that Carthage chose to refuse.
+    why_rejected: >
+      Underweights the structural pattern of Roman commissions ruling
+      for Masinissa over fifty years (which made some Carthaginian
+      military response eventually inevitable), the timing of Cato's
+      decade-long advocacy (which preceded the 150 war), and the
+      designed-for-refusal structure of the 149 demand sequence. The
+      Roman-tradition framing is preserved but reads better as
+      retrospective legal justification than as descriptive account
+      of the strategic decision.
+    held_by: The surviving Roman tradition (Polybius's preserved
+      framing partially, Appian's framing, Livy's surviving
+      coverage) and some 19th-century scholarship.
+  - position: >
+      The destruction was overdetermined and any specific causal
+      mechanism (Cato's advocacy, Masinissa's encroachment, the
+      149 demands) is less important than the structural fact of
+      Roman Mediterranean expansion making any independent
+      Carthaginian polity eventually intolerable.
+    why_rejected: >
+      The overdetermination reading is compatible with the site's
+      position rather than competing with it; it understates the
+      contingent role of specific decisions (Cato's commission, the
+      149 demand-sequence design) but does not actually contradict
+      the "not weak enough" framing. We would treat this as a
+      compatible alternative emphasis.
+    held_by: Some structural-historical readings emphasizing
+      long-arc causation over specific decision-mechanism causation.
+last_reviewed: "2026-05-10"
+open_to_revision: true

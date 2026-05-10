@@ -59,10 +59,10 @@ through 146 BCE. Polybius treats it at length in Book 1 of his
 *Histories* as the foundational event of his project: the war that
 converted Rome from an Italian power into a Mediterranean one.
 
-What is most striking about the war from the Carthaginian side is how
-unexpected its eventual outcome would have appeared at the start. In
-264 BCE Carthage was the dominant Mediterranean naval power; Rome had
-no fleet to speak of. Carthage had defeated successive Greek-Sicilian
+From the Carthaginian side the war's eventual outcome would have
+appeared deeply unexpected at the start — a structural reversal worth
+flagging explicitly. In 264 BCE Carthage was the dominant
+Mediterranean naval power; Rome had no fleet to speak of. Carthage had defeated successive Greek-Sicilian
 attempts on its Sicilian sphere across two centuries; Rome had no
 operational experience outside the Italian peninsula. By 241, the
 relationship was reversed: Roman naval capacity exceeded Carthaginian,

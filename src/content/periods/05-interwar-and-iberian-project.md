@@ -64,9 +64,10 @@ last_revised: "2026-05-10"
 ---
 
 The twenty-three years between the [Treaty of Lutatius](/events/treaty-of-lutatius)
-in 241 BCE and Hannibal's crossing of the Ebro in spring 218 are the
-most intensely transformative period of Carthaginian history outside
-the Punic Wars themselves. Within months of the Lutatius settlement
+in 241 BCE and Hannibal's crossing of the Ebro in spring 218 are, on
+the site's reading, the most intensely transformative period of
+Carthaginian history outside the Punic Wars themselves — a strong
+characterization, but one supported by what the period contains. Within months of the Lutatius settlement
 Carthage faced an existential internal crisis that nearly destroyed the
 city; within years it had lost Sardinia and Corsica to opportunistic
 Roman seizure; within a decade it had begun the Iberian conquest that
@@ -195,13 +196,16 @@ defeat of a Carpetani-Vaccaei-Olcadian coalition Polybius reports at
 and Numidian cavalry envelopment — eliminated the principal organized
 Iberian opposition to Carthaginian expansion.
 
-The Tagus engagement is the operational template for Trebia,
-Trasimene, and Cannae: combined-arms use of terrain as tactical
-instrument, controlled defeat-in-detail of a numerically superior
-opponent, the cavalry envelopment reserve that defines Hannibalic
-tactics. Polybius does not himself draw the connection — he treats the
-Tagus and Italian engagements separately — but modern reconstructions
-treat the continuity of method as substantive.
+The Tagus engagement reads, on the modern reconstruction, as the
+operational template for Trebia, Trasimene, and Cannae: combined-arms
+use of terrain as tactical instrument, controlled defeat-in-detail of
+a numerically superior opponent, the cavalry envelopment reserve that
+defines Hannibalic tactics. The continuity-of-method argument is the
+site's claim
+[tagus-tactical-template-for-italy](/claims/tagus-tactical-template-for-italy)
+and is tagged inferred: Polybius treats Tagus and the Italian
+engagements separately, and the connection is the synthesis of Hoyos
+and MacDonald rather than directly attested in the ancient sources.
 
 ## The diplomatic rupture
 
