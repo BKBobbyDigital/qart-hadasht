@@ -1,46 +1,19 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 
 interface Props {
   startYear?: number;
   endYear?: number;
-  compact?: boolean;
 }
 
-const { startYear = -820, endYear = -140, compact = false } = Astro.props;
+const { startYear = -820, endYear = -140 } = Astro.props;
 
-const allEvents = await getCollection('events');
-const allPeriods = (await getCollection('periods')).sort(
-  (a: any, b: any) => a.data.start_year - b.data.start_year
-);
-
-// Categorize events: wars (have date ranges and type='war') vs. focal events
-const wars = allEvents
-  .filter((e) => e.data.type === 'war' && e.data.date_end)
-  .map((e) => ({
-    id: e.id,
-    name: e.data.name,
-    start: e.data.date_start.value,
-    end: e.data.date_end!.value,
-    type: e.data.type,
-  }))
-  .sort((a, b) => a.start - b.start);
-
-const focalEvents = allEvents
-  .filter((e) => e.data.type !== 'war')
-  .map((e) => ({
-    id: e.id,
-    name: e.data.name,
-    year: e.data.date_start.value,
-    type: e.data.type,
-  }))
-  .sort((a, b) => a.year - b.year);
-
-// Curated keystone events that get inline labels (not just hover tooltips).
-// Same intuition as the homepage "Start here" chips: the most-recognizable
-// surface for a casual reader.
-const keystoneEventSlugs = new Set([
+// Curated keystone events — the structural high points only.
+// Same intuition as the homepage "Start here" chips: this is a map,
+// not the territory. /events has the full data.
+const keystoneSlugs = [
   'founding-of-carthage',
+  'founding-of-ebusus',
   'battle-of-alalia',
   'first-treaty-with-rome',
   'battle-of-himera',
@@ -50,38 +23,51 @@ const keystoneEventSlugs = new Set([
   'battle-of-cannae',
   'battle-of-zama',
   'destruction-of-carthage',
-]);
-
-// Type → color mapping for event markers
-const typeColor: Record<string, string> = {
-  battle: '#b45309',      // amber-700
-  siege: '#b45309',       // amber-700
-  treaty: '#065f46',      // emerald-800
-  political: '#0369a1',   // sky-700
-  expedition: '#0369a1',  // sky-700
-  founding: '#5b0f31',    // tyrian-700
-  cultural: '#6b5638',    // sand-700
-  disaster: '#6b7280',    // gray-500
-};
-const typeLegend: Array<{ label: string; color: string }> = [
-  { label: 'battle / siege', color: typeColor.battle },
-  { label: 'treaty', color: typeColor.treaty },
-  { label: 'political', color: typeColor.political },
-  { label: 'founding', color: typeColor.founding },
-  { label: 'cultural', color: typeColor.cultural },
 ];
+
+const keystones = (
+  await Promise.all(
+    keystoneSlugs.map(async (slug) => {
+      const e: any = await getEntry('events', slug);
+      if (!e) return null;
+      return {
+        id: slug,
+        name: e.data.name,
+        year: e.data.date_start.value,
+        type: e.data.type,
+      };
+    })
+  )
+)
+  .filter(Boolean)
+  .sort((a: any, b: any) => a.year - b.year) as Array<{ id: string; name: string; year: number; type: string }>;
+
+const allEvents = await getCollection('events');
+const wars = allEvents
+  .filter((e) => e.data.type === 'war' && e.data.date_end)
+  .map((e) => ({
+    id: e.id,
+    name: e.data.name,
+    start: e.data.date_start.value,
+    end: e.data.date_end!.value,
+  }))
+  .sort((a, b) => a.start - b.start);
+
+const allPeriods = (await getCollection('periods')).sort(
+  (a: any, b: any) => a.data.start_year - b.data.start_year
+);
 
 // Year → percentage along the timeline
 const totalSpan = endYear - startYear;
 const xPct = (year: number) => ((year - startYear) / totalSpan) * 100;
 
-// Tick marks every 100 years
+// Tick marks every century
 const ticks: number[] = [];
 for (let y = Math.ceil(startYear / 100) * 100; y <= endYear; y += 100) {
   ticks.push(y);
 }
 
-// Stagger war bands vertically when they overlap
+// War lanes — stagger overlapping wars
 type War = typeof wars[number];
 const warLanes: War[][] = [];
 for (const war of wars) {
@@ -96,67 +82,54 @@ for (const war of wars) {
   if (!placed) warLanes.push([war]);
 }
 
-// Distribute focal events across vertical lanes when they cluster.
-// Greedy: assign each event to the lowest lane whose last event is at least
-// minSpacingYears earlier — keeps adjacent dots from overlapping in dense
-// regions like 220–200 BCE.
-const minSpacingYears = 8;
-type FocalLaned = (typeof focalEvents)[number] & { lane: number };
-const lanesLastYear: number[] = [];
-const focalEventsLaned: FocalLaned[] = focalEvents.map((e) => {
+// Keystone label lanes — alternate above/below to reduce overlap
+// for events that cluster (the Hannibalic period particularly).
+// Greedy: assign lane based on min spacing in same lane.
+const keystoneLaneSpacingYears = 35;
+type KeystoneLaned = typeof keystones[number] & { lane: number };
+const keystoneLanesLastX: number[] = [];
+const keystonesLaned: KeystoneLaned[] = keystones.map((k) => {
   let lane = -1;
-  for (let i = 0; i < lanesLastYear.length; i++) {
-    if (e.year - lanesLastYear[i] >= minSpacingYears) {
+  for (let i = 0; i < keystoneLanesLastX.length; i++) {
+    if (k.year - keystoneLanesLastX[i] >= keystoneLaneSpacingYears) {
       lane = i;
       break;
     }
   }
   if (lane === -1) {
-    lane = lanesLastYear.length;
-    lanesLastYear.push(e.year);
+    lane = keystoneLanesLastX.length;
+    keystoneLanesLastX.push(k.year);
   } else {
-    lanesLastYear[lane] = e.year;
+    keystoneLanesLastX[lane] = k.year;
   }
-  return { ...e, lane };
+  return { ...k, lane };
 });
-const eventLaneCount = Math.max(1, lanesLastYear.length);
+const keystoneLaneCount = Math.max(1, keystoneLanesLastX.length);
 
 // Layout dimensions
-const eventLaneHeight = 12;     // px per dot lane
-const eventStackTop = 36;        // top padding to leave room for keystone labels
-const eventStackHeight = eventStackTop + eventLaneCount * eventLaneHeight + 6;
+const keystoneLaneHeight = 22;
+const keystoneAreaHeight = keystoneLaneCount * keystoneLaneHeight + 14;
+const dotRowHeight = 16;        // the line of dots itself
 const warLaneHeight = 22;
-const warStackHeight = warLanes.length * warLaneHeight + 4;
-const periodStripHeight = 18;
+const warAreaHeight = warLanes.length * warLaneHeight + 4;
+const periodStripHeight = 22;
 const tickHeight = 24;
-const containerHeight = eventStackHeight + warStackHeight + periodStripHeight + tickHeight;
+const containerHeight =
+  keystoneAreaHeight + dotRowHeight + warAreaHeight + periodStripHeight + tickHeight;
 
-// Period color palette — subtle alternating tints
-const periodColors = [
-  '#f4ede0', // sand-100
-  '#e8dcc4', // sand-200
-];
+// Where the central "spine" of the timeline sits — between keystone labels
+// (above) and war bands (below)
+const spineFromBottom = tickHeight + periodStripHeight + warAreaHeight + dotRowHeight / 2;
+
+// Period color palette
+const periodColors = ['#f4ede0', '#e8dcc4'];
 ---
 
 <figure class="my-8">
   <div class="border border-sand-300 rounded-lg bg-sand-50 p-3 sm:p-4 overflow-x-auto">
-    <!-- Legend strip -->
-    <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-sand-700 mb-3">
-      {typeLegend.map((l) => (
-        <span class="flex items-center gap-1.5">
-          <span class="inline-block w-2 h-2 rounded-full" style={`background-color: ${l.color};`}></span>
-          {l.label}
-        </span>
-      ))}
-      <span class="flex items-center gap-1.5">
-        <span class="inline-block w-3 h-2 bg-tyrian-200 border border-tyrian-300"></span>
-        war
-      </span>
-    </div>
+    <div class="relative" style={`height: ${containerHeight}px; min-width: 760px;`}>
 
-    <div class="relative" style={`height: ${containerHeight}px; min-width: 900px;`}>
-
-      <!-- Period strip (background colored bands across the whole bottom) -->
+      <!-- Period strip across the bottom -->
       {allPeriods
         .filter((p: any) => Math.min(p.data.end_year, endYear) > Math.max(p.data.start_year, startYear))
         .map((p: any, i: number) => {
@@ -165,6 +138,11 @@ const periodColors = [
           const left = xPct(start);
           const width = xPct(end) - left;
           const slug = p.id.replace(/\.md$/, '');
+          // Compress long titles for the band label
+          const label = p.data.title
+            .replace(/^The /, '')
+            .replace(/and early /i, '/early ')
+            .replace(/and the /, ' & ');
           return (
             <a
               href={`/periods/${slug}`}
@@ -179,18 +157,17 @@ const periodColors = [
               `}
               title={`${p.data.title} (${Math.abs(p.data.start_year)}–${Math.abs(p.data.end_year)} BCE)`}
             >
-              <span class="truncate">{p.data.title}</span>
+              <span class="truncate">{label}</span>
             </a>
           );
         })}
 
-      <!-- War bands (between event dots and period strip) -->
+      <!-- War bands above the period strip -->
       {warLanes.map((lane, laneIdx) =>
         lane.map((war) => {
           const left = xPct(war.start);
           const width = xPct(war.end) - left;
           const bottom = tickHeight + periodStripHeight + 4 + laneIdx * warLaneHeight;
-          // Compress display name in tight space
           const display = war.name
             .replace(/^The /, '')
             .replace(/Punic War/, 'Punic')
@@ -198,13 +175,13 @@ const periodColors = [
           return (
             <a
               href={`/events/${war.id}`}
-              class="absolute border border-tyrian-400 bg-tyrian-100 hover:bg-tyrian-200 rounded text-[11px] flex items-center px-1.5 truncate transition-colors font-serif text-tyrian-900"
+              class="absolute border border-tyrian-400 bg-tyrian-100 hover:bg-tyrian-200 rounded text-[11px] flex items-center px-2 truncate transition-colors font-serif text-tyrian-900"
               style={`
                 left: ${left}%;
                 width: ${width}%;
                 bottom: ${bottom}px;
                 height: ${warLaneHeight - 4}px;
-                min-width: 16px;
+                min-width: 18px;
               `}
               title={`${war.name} (${Math.abs(war.start)}–${Math.abs(war.end)} BCE)`}
             >
@@ -214,11 +191,44 @@ const periodColors = [
         })
       )}
 
-      <!-- Tick marks (year axis at bottom) -->
+      <!-- The horizontal spine -->
       <div
         class="absolute left-0 right-0 h-px bg-sand-700"
-        style={`bottom: ${tickHeight}px;`}
+        style={`bottom: ${spineFromBottom}px;`}
       ></div>
+
+      <!-- Keystone event dots on the spine + labels above with connector lines -->
+      {keystonesLaned.map((k) => {
+        const dotBottom = spineFromBottom - 5;       // 10px diameter dot centered on spine
+        const labelBottom = spineFromBottom + 8 + (keystoneLaneCount - 1 - k.lane) * keystoneLaneHeight;
+        const connectorHeight = labelBottom - (spineFromBottom + 5);
+        return (
+          <a
+            href={`/events/${k.id}`}
+            class="absolute group"
+            style={`left: ${xPct(k.year)}%; bottom: 0; width: 0; height: 0;`}
+            title={`${k.name} (${Math.abs(k.year)} BCE)`}
+          >
+            <div
+              class="absolute rounded-full bg-tyrian-700 border-2 border-sand-50 -translate-x-1/2 group-hover:scale-125 transition-transform"
+              style={`bottom: ${dotBottom}px; width: 10px; height: 10px;`}
+            ></div>
+            <div
+              class="absolute w-px bg-sand-400 -translate-x-1/2"
+              style={`bottom: ${spineFromBottom + 5}px; height: ${connectorHeight}px;`}
+            ></div>
+            <div
+              class="absolute -translate-x-1/2 text-[11px] font-serif text-tyrian-700 group-hover:text-tyrian-900 whitespace-nowrap"
+              style={`bottom: ${labelBottom}px;`}
+            >
+              <span class="font-medium">{k.name.replace(/^Battle of /, '').replace(/^Founding of /, '').replace(/^The /, '')}</span>
+              <span class="text-sand-700 ml-1 tabular-nums">{Math.abs(k.year)}</span>
+            </div>
+          </a>
+        );
+      })}
+
+      <!-- Tick marks (year axis at bottom) -->
       {ticks.map((year) => (
         <div
           class="absolute flex flex-col items-center -translate-x-1/2"
@@ -228,60 +238,11 @@ const periodColors = [
           <div class="text-[10px] text-sand-700 tabular-nums">{Math.abs(year)} BCE</div>
         </div>
       ))}
-
-      <!-- Event dots (top zone) -->
-      {focalEventsLaned.map((event) => {
-        const top = eventStackTop + event.lane * eventLaneHeight;
-        const isKeystone = keystoneEventSlugs.has(event.id);
-        const dotSize = isKeystone ? 12 : 8;
-        return (
-          <a
-            href={`/events/${event.id}`}
-            class="absolute group"
-            style={`left: ${xPct(event.year)}%; top: ${top}px;`}
-            title={`${event.name} (${Math.abs(event.year)} BCE)`}
-          >
-            <div
-              class="rounded-full -translate-x-1/2 transition-all hover:scale-150"
-              style={`
-                background-color: ${typeColor[event.type] ?? '#6b5638'};
-                width: ${dotSize}px;
-                height: ${dotSize}px;
-                ${isKeystone ? 'box-shadow: 0 0 0 2px #faf7f2;' : ''}
-              `}
-            ></div>
-            {!compact && (
-              <div class="absolute hidden group-hover:block left-3 top-0 z-20 w-48 bg-white border border-sand-300 rounded shadow-lg p-2 text-xs">
-                <div class="font-serif text-tyrian-700 font-semibold">{event.name}</div>
-                <div class="text-sand-700 mt-0.5">{Math.abs(event.year)} BCE · {event.type}</div>
-              </div>
-            )}
-          </a>
-        );
-      })}
-
-      <!-- Inline labels for keystone events (above their dots) -->
-      {focalEventsLaned
-        .filter((e) => keystoneEventSlugs.has(e.id))
-        .map((event, i) => {
-          // Stagger label heights to reduce overlap when keystone events
-          // cluster (e.g., late 3rd century).
-          const labelTop = (i % 2 === 0) ? 2 : 16;
-          return (
-            <a
-              href={`/events/${event.id}`}
-              class="absolute text-[10px] font-serif text-tyrian-700 hover:text-tyrian-900 whitespace-nowrap pointer-events-auto -translate-x-1/2"
-              style={`left: ${xPct(event.year)}%; top: ${labelTop}px;`}
-            >
-              {event.name.replace(/^Battle of /, '').replace(/Founding of /, '').replace(/^The /, '')}
-            </a>
-          );
-        })}
     </div>
   </div>
   <figcaption class="mt-2 text-xs text-sand-700 italic">
-    Period bands at the bottom; war bands above them; individual events as dots.
-    Larger dots are keystone events with inline labels. Hover any element for
-    details, click to navigate.
+    A structural overview: periods at the bottom, wars as bands above them, and
+    {' '}{keystones.length} keystone events labeled on the central spine. For the
+    full event list see <a href="/events" class="text-tyrian-700 hover:underline not-italic">all events</a>.
   </figcaption>
 </figure>
