@@ -1,0 +1,86 @@
+slug: ilergetes-revolt-205
+name: The Ilergetes Revolt (206–205 BCE)
+type: political
+date_start:
+  value: -206
+  precision: year
+date_end:
+  value: -205
+  precision: year
+  notes: >
+    Late 206 BCE through summer 205 BCE; the principal
+    engagement was fought in spring or early summer 205.
+place: iberia
+participants:
+  - person: indibilis
+    role: leader of the revolt; killed in battle
+    side: Ilergetes / anti-Roman coalition
+  - person: mandonius
+    role: co-leader; captured and crucified after defeat
+    side: Ilergetes / anti-Roman coalition
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - hoyos-hannibal-2003
+referenced_themes:
+  - punic-identity
+related_events:
+  - event: second-punic-war
+    relation: late phase of (the closing engagement of the Iberian theatre)
+    notes: >
+      The revolt's structural context is the post-Carthaginian
+      Roman occupation of Iberia after the SPW's Iberian
+      theatre had effectively closed.
+summary: >
+  The major Iberian uprising against the Roman post-victory
+  occupation of the peninsula, led by the Ilergetes brothers
+  Indibilis and Mandonius after Scipio Africanus's
+  departure from Iberia in 206 BCE. The revolt is the
+  clearest surviving instance of organized post-conquest
+  Iberian resistance and the principal event of the
+  Iberian theatre's closing phase.
+
+  The revolt's causes were specific and locally driven. The
+  Roman commanders Scipio left in Iberia (Lucius Marcius
+  Septimus, Lucius Manlius Acidinus) failed to maintain
+  the alliance practices Scipio had cultivated:
+  reportedly imposed exactions, broke commitments to
+  allied chieftains, and treated Iberian elites with the
+  status-asymmetric contempt that Scipionic policy had
+  notably avoided. Indibilis and Mandonius — Roman allies
+  since their capture and rehabilitation at New Carthage
+  in 209 BCE — concluded that the post-Scipio
+  configuration could not be lived with.
+
+  The military operations:
+
+  - **Late 206 BCE: mobilization.** The Ilergetes raised
+    an army Polybius reports at 30,000 infantry and 4,000
+    cavalry — substantial Iberian force, with allied
+    contingents from neighboring tribes including
+    Ausetani and possibly Lacetani.
+  - **Spring 205 BCE: pitched battle.** Lucius Lentulus
+    and Lucius Manlius Acidinus combined Roman forces
+    against the Ilergetes coalition. The engagement was
+    sharp; Roman discipline overcame the larger Iberian
+    force. Indibilis was killed in the battle.
+  - **Summer 205 BCE: Mandonius's surrender and execution.**
+    Mandonius surrendered to negotiate terms; the Roman
+    commanders, after some deliberation, ordered his
+    crucifixion. The Ilergetes confederation as an
+    independent political entity was broken.
+
+  The revolt's significance extends beyond its immediate
+  military outcome. It is the principal surviving evidence
+  for two related claims about the SPW's Iberian theatre:
+  first, that Iberian alignments were always tactical and
+  revisable rather than identity-level commitments to one
+  metropolitan power or the other; second, that Scipionic
+  *humanitas* — Scipio's notable post-victory treatment of
+  defeated Iberian elites — was a personal-policy effect
+  rather than a Roman institutional norm. Without Scipio,
+  Roman administration of Iberia reverted to harsher
+  patterns that produced organized revolt. The episode is
+  also implicit critique of Roman provincial governance
+  that would echo across subsequent Iberian and provincial
+  conflicts of the 2nd century BCE.

@@ -217,7 +217,7 @@ const claimSource = z.object({
 });
 
 const claimEntity = z.object({
-  type: z.enum(['person', 'place', 'event', 'institution', 'deity', 'artifact', 'theme']),
+  type: z.enum(['person', 'place', 'event', 'institution', 'deity', 'artifact', 'theme', 'group']),
   slug: z.string(),
   role: z.string(), // "subject", "object", "location", "context"
 });

@@ -1,0 +1,58 @@
+slug: iberian-side-switching-as-agency
+statement: >
+  The repeated side-switching of Iberian tribal confederations
+  across the Second Punic War — Indibilis and Mandonius's
+  Ilergetes shifting from Carthaginian alignment (218-209) to
+  Roman alignment (209-206) to anti-Roman revolt (206-205) is
+  the clearest documented example — should be read as
+  evidence of Iberian political agency rather than as
+  unreliability or treachery. Iberian alignments were
+  tactical, locally driven, and revisable in light of how
+  metropolitan powers actually treated tribal interests on
+  the ground.
+confidence: inferred
+scholarly_consensus: >
+  The reading of side-switching as agency rather than
+  defect is the consensus modern interpretation, advanced
+  explicitly by Hoyos and developed across recent
+  scholarship. It is "inferred" rather than "attested"
+  because the surviving Greco-Latin sources frame the
+  side-switching primarily through the lens of fidelity-
+  to-metropolitan-power; the Iberian-perspective reading
+  is a modern reconstruction that the evidence supports
+  but the ancient framing does not directly state.
+sources:
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "9.11, 10.34-40, 11.32-33"
+    passage_summary: >
+      Polybius preserves the Indibilis-Mandonius career
+      with substantive detail but frames it within a
+      fidelity-and-betrayal narrative. The Iberian-
+      agency reading is implicit in his evidence rather
+      than explicit in his framing.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "27, 28, 29"
+    passage_summary: >
+      Livy's account is similar to Polybius's: rich
+      operational detail, fidelity-framed narrative.
+  - source: hoyos-hannibal-2003
+    stance: supports
+    passage_summary: >
+      Hoyos's biographical treatment of Hannibal develops
+      the Iberian-agency reading explicitly and treats
+      the Ilergetes pattern as a model case.
+entities:
+  - type: person
+    slug: indibilis
+    role: subject
+  - type: person
+    slug: mandonius
+    role: subject
+  - type: group
+    slug: ilergetes
+    role: subject
+  - type: event
+    slug: ilergetes-revolt-205
+    role: subject
