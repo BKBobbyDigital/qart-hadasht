@@ -10,6 +10,13 @@ interface Props {
 
 const { title, description = 'Qart-Hadasht — The Carthage Encyclopedia. A reference for ancient Carthage from founding to destruction.' } = Astro.props;
 const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
+
+// Pages can provide a `hero` slot to render an editorial hero block
+// merged into the masthead — one continuous header surface rather than
+// nav + separate hero stack. When the slot is present, the masthead
+// shifts to a slightly elevated cream and drops its bottom border so
+// the nav row and the hero share one visual block (Monocle-style).
+const hasHero = Astro.slots.has('hero');
 ---
 
 <!DOCTYPE html>
@@ -22,7 +29,7 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
     <title>{fullTitle}</title>
   </head>
   <body class="min-h-screen flex flex-col bg-sand-50">
-    <header class="border-b border-sand-300 bg-sand-50">
+    <header class={hasHero ? 'bg-sand-100' : 'border-b border-sand-300 bg-sand-50'}>
       <!-- Top tyrian rule — small visual signature reading from across the room -->
       <div class="h-1 bg-tyrian-700"></div>
       <div class="max-w-5xl mx-auto px-6 py-5 flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
@@ -52,7 +59,9 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
           <CmdKSearch />
         </nav>
       </div>
+      {hasHero && <slot name="hero" />}
     </header>
+    {hasHero && <div class="border-b border-tyrian-700"></div>}
 
     <main class="flex-1" data-pagefind-body>
       <slot />
