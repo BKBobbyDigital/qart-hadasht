@@ -1,0 +1,65 @@
+slug: siege-of-akragas-406
+name: Siege of Akragas
+type: siege
+date_start:
+  value: -406
+  precision: year
+date_end:
+  value: -406
+  precision: year
+  notes: >
+    Eight-month siege from spring 406 BCE through the
+    winter; the Greek evacuation occurred in late autumn / early
+    winter 406.
+place: akragas
+participants:
+  - person: hannibal-son-of-gisco
+    role: commander (initial phase; died of plague during siege)
+    side: Carthaginian
+  - person: himilco
+    role: successor commander (took over on Hannibal's death)
+    side: Carthaginian
+principal_sources:
+  - diodorus-library
+referenced_themes:
+  - punic-religion
+  - carthaginian-economy
+related_events:
+  - event: second-sicilian-war
+    relation: principal engagement of (the second Hannibalic campaign of 406-405)
+  - event: siege-of-gela-405
+    relation: led directly to (Carthaginian advance south to Gela the following spring)
+summary: >
+  The second great Carthaginian Sicilian campaign of the
+  Hannibalic invasion, opened in spring 406 BCE against
+  Akragas — by far the wealthiest Greek-Sicilian city of
+  the period and the principal target the 410-405 invasion
+  had not yet reached. The Carthaginian army Diodorus
+  reports at 120,000 (the standard caveat) opened with a
+  conventional siege of Akragas's circuit walls.
+
+  The siege's most-discussed episode was Hannibal son of
+  Gisco's death in the Carthaginian camp partway through
+  the operation — preserved in Diodorus as plague but more
+  plausibly disease compounded by the Sicilian summer.
+  Command passed to Himilco, Hannibal's cousin, who
+  continued the siege through the autumn. A Greek-Sicilian
+  relief force under the Syracusan general Daphnaeus was
+  defeated near the city; Akragantine confidence collapsed.
+
+  The city's fall came not by storm but by evacuation: the
+  surviving Akragantine population, recognizing the
+  siege's logic and unable to resupply, marched out of the
+  city by night in late 406 / early 405 BCE and withdrew
+  to Gela and Syracuse. The Carthaginians entered the
+  empty city the following day and conducted what may have
+  been the most lucrative single sack of the 5th century:
+  Diodorus's account dwells on the bronze and silver
+  vessels, the paintings, the monumental sculpture
+  catalogued (and removed). Some of the Akragantine plunder
+  was visible at Carthage for centuries; Roman accounts of
+  the 146 BCE sack of Carthage describe the recovery of
+  Sicilian Greek artworks the Romans returned to surviving
+  Sicilian cities. The siege's economic consequences for
+  Carthaginian capacity were as large as its strategic
+  consequences for Greek Sicily.

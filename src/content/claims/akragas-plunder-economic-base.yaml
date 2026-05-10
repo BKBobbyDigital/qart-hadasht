@@ -1,0 +1,50 @@
+slug: akragas-plunder-economic-base
+statement: >
+  The 406 BCE sack of Akragas produced the single largest
+  single influx of plunder into Carthaginian state coffers
+  in the surviving 5th-century record. The wealth — bronze
+  and silver vessels, paintings, monumental sculpture,
+  precious-metal accumulations of a century of Akragantine
+  prosperity — was substantial enough to be visible at
+  Carthage for centuries. Diodorus reports that the
+  Carthaginian state distributed and displayed the plunder
+  systematically; Roman accounts of the 146 BCE sack of
+  Carthage describe the recovery of Sicilian Greek artworks
+  the Romans returned to surviving Sicilian cities.
+confidence: attested
+scholarly_consensus: >
+  The basic claim — that Akragas's sack was unusually
+  lucrative and that the plunder was visible at Carthage
+  long afterward — is firmly attested in Diodorus and
+  archaeologically corroborated. The economic-historical
+  reading — that this plunder is part of how Carthage
+  funded the subsequent decades of Sicilian campaigning —
+  is the consensus modern interpretation.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "13.86-90"
+    passage_summary: >
+      Diodorus's detailed account of the sack catalogues
+      specific objects taken and treats the plunder's
+      systematic distribution at Carthage.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos integrates the Akragantine plunder with the
+      broader 5th-century Carthaginian economic
+      consolidation.
+  - source: miles-carthage-2010
+    stance: supports
+    passage_summary: >
+      Miles's overview discusses the Roman 146 BCE recovery
+      of Sicilian Greek artworks at Carthage and uses it
+      as evidence for the persistence of 5th-century
+      Sicilian plunder in the Carthaginian artifact record.
+entities:
+  - type: event
+    slug: siege-of-akragas-406
+    role: subject
+  - type: theme
+    slug: carthaginian-economy
+    role: context

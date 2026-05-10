@@ -1,0 +1,54 @@
+slug: siege-of-gela-405
+name: Siege of Gela
+type: siege
+date_start:
+  value: -405
+  precision: year
+  notes: Spring–summer 405 BCE.
+place: gela
+participants:
+  - person: himilco
+    role: commander
+    side: Carthaginian
+  - person: dionysius-i
+    role: relief commander (failed)
+    side: Syracuse
+principal_sources:
+  - diodorus-library
+related_events:
+  - event: siege-of-akragas-406
+    relation: continuation of (Himilco's southward advance after the fall of Akragas)
+  - event: second-sicilian-war
+    relation: phase of (the closing engagement of the Hannibalic invasion)
+  - event: wars-of-dionysius
+    relation: produced (Dionysius's tyranny was consolidated through the Geloan failure)
+summary: >
+  The closing engagement of the Hannibalic invasion of Sicily
+  and the operation through which Dionysius — newly emerged
+  at Syracuse as the rising political-military figure —
+  inherited his lasting tyranny. Himilco's army, fresh from
+  the sack of Akragas the previous winter, advanced south to
+  Gela in spring 405 BCE. The Geloans called for Syracusan
+  relief; Dionysius arrived with a substantial army but could
+  not break the Carthaginian position.
+
+  Dionysius's response was the decision that defined his
+  political future: rather than commit to a contested relief
+  battle, he ordered the evacuation of the entire Geloan
+  population to Syracuse. The evacuation succeeded — most of
+  the population reached Syracuse — but the city itself fell
+  to Himilco. The Carthaginian advance continued; Camarina,
+  the next Greek-Sicilian polity east, was evacuated similarly
+  in the same campaign without significant resistance.
+
+  The strategic outcome was a peace treaty (404 BCE) ceding
+  to Carthage most of southern and western Sicily plus
+  effective tributary status for the surviving Greek-Sicilian
+  states. The political outcome — at Syracuse — was
+  Dionysius's consolidation of personal rule on the back of
+  the refugee crisis: the surviving Geloans, Camarinans, and
+  earlier Akragantine refugees all arrived at Syracuse as
+  destitute populations dependent on whatever leadership
+  could feed them. Dionysius supplied that leadership.
+  Diodorus treats Gela as the engagement that, by failing
+  militarily, produced Dionysius's political success.

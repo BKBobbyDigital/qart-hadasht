@@ -1,0 +1,43 @@
+slug: himera-409-revenge-motivation
+statement: >
+  The 409 BCE sack of Himera was understood by both the
+  surviving Greek tradition and (apparently) by the
+  Carthaginians themselves as deliberate revenge for the 480
+  BCE defeat at Himera that had killed Hannibal son of
+  Gisco's grandfather Hamilcar Magonid. Diodorus reports
+  Hannibal performing ritual sacrifice on the supposed site
+  of his grandfather's death and executing 3,000 Himeran
+  prisoners there, in deliberate inversion of the earlier
+  engagement. The episode is one of the clearest surviving
+  instances of Carthaginian dynastic political memory
+  driving operational choice.
+confidence: attested
+scholarly_consensus: >
+  The revenge framing is firmly attested in Diodorus and is
+  consistent with the broader Magonid-family pattern of
+  dynastic-honor politics that the surviving sources
+  preserve. The framing is broadly accepted in modern
+  scholarship; the precise number (3,000 executed) bears the
+  standard ancient-numbers caveat.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "13.62"
+    passage_summary: >
+      Diodorus narrates the ritualized executions and the
+      explicit revenge framing in detail.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos's overview integrates the Himera revenge
+      narrative with broader Magonid dynastic politics.
+entities:
+  - type: event
+    slug: sack-of-himera-409
+    role: subject
+  - type: event
+    slug: battle-of-himera
+    role: context
+  - type: person
+    slug: hannibal-son-of-gisco
+    role: subject

@@ -1,0 +1,45 @@
+slug: carthaginian-demeter-adoption-396
+statement: >
+  Following the catastrophic plague that destroyed Himilco's
+  army at Syracuse in 396 BCE — which the surviving Greek
+  tradition explicitly framed as Demeter's retribution for
+  Carthaginian temple desecration during the campaign —
+  Carthage formally incorporated the cults of Demeter and
+  Kore (Persephone) into Carthaginian state religion. The
+  adoption is one of the most striking surviving instances of
+  Carthaginian-Greek religious accommodation and is preserved
+  explicitly in Diodorus.
+confidence: attested
+scholarly_consensus: >
+  The adoption itself is firmly attested in Diodorus and
+  archaeologically corroborated by the appearance of
+  Demeter-Kore cult material at Carthage from the 4th
+  century forward. The interpretive question — whether the
+  adoption reflected genuine theological accommodation, a
+  political-pragmatic act of propitiation, or a syncretism
+  that mapped the Greek goddesses onto existing Punic
+  agricultural deities — is more open. The straightforward
+  attestation is the consensus reading; the interpretive
+  questions are properly the domain of the Punic religion
+  theme.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "14.77"
+    passage_summary: >
+      Diodorus narrates the adoption explicitly as a
+      response to the plague and as Carthaginian state
+      action.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos integrates the adoption with the broader
+      Carthaginian religious-political response to the 396
+      catastrophe.
+entities:
+  - type: event
+    slug: siege-of-syracuse-and-plague-396
+    role: subject
+  - type: theme
+    slug: punic-religion
+    role: subject

@@ -25,6 +25,14 @@ related_events:
       tradition as deliberate Carthaginian revenge for Himera,
       where Hannibal son of Gisco's grandfather Hamilcar Magonid
       had been killed two generations earlier.
+  - event: sack-of-selinus-409
+    relation: opening engagement of (the war's first urban catastrophe)
+  - event: sack-of-himera-409
+    relation: principal revenge engagement of (Hannibal's 409 campaign)
+  - event: siege-of-akragas-406
+    relation: principal engagement of (the second campaign of 406-405)
+  - event: siege-of-gela-405
+    relation: closing engagement of (the campaign that ended the war and produced Dionysius)
 referenced_themes:
   - punic-religion
 summary: >

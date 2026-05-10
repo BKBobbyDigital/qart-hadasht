@@ -1,0 +1,71 @@
+slug: siege-of-syracuse-and-plague-396
+name: Siege of Syracuse and the Carthaginian Plague (396 BCE)
+type: siege
+date_start:
+  value: -396
+  precision: year
+  notes: >
+    Spring through high summer 396 BCE; the plague broke out
+    in the Carthaginian camp during the summer.
+place: syracuse
+participants:
+  - person: himilco
+    role: commander
+    side: Carthaginian
+  - person: dionysius-i
+    role: defender
+    side: Syracuse
+principal_sources:
+  - diodorus-library
+referenced_themes:
+  - punic-religion
+related_events:
+  - event: wars-of-dionysius
+    relation: principal engagement of (Dionysius's first war)
+  - event: siege-of-motya-397
+    relation: provoked by (Himilco's counter-offensive responding to the loss of Motya)
+summary: >
+  The Carthaginian counter-offensive of 397/396 BCE
+  recovered most of western Sicily by spring 396 and
+  advanced east toward Syracuse itself. Himilco's army was
+  the largest Carthaginian field force of the period —
+  Diodorus reports figures over 100,000 with the standard
+  caveat — and the Syracusan position by midsummer 396 was
+  desperate: the Carthaginian army had encamped on the
+  marshy ground south of the city, the harbor was contested
+  by Carthaginian fleet, and Dionysius's authority at
+  Syracuse was under internal political strain.
+
+  Then the army died. A plague — most plausibly malaria
+  combined with dysentery, given the marshy summer
+  encampment — broke out in the Carthaginian camp and spread
+  across the army within weeks. The Greek tradition,
+  preserved in Diodorus, interpreted the catastrophe as
+  divine retribution: Carthaginian troops had reportedly
+  desecrated shrines of Demeter and Persephone (the cthonic
+  goddesses with strong Sicilian-Greek associations) during
+  the campaign, and the plague was Demeter's response. The
+  religious framing was so vivid in the Greek tradition that
+  Carthage subsequently incorporated the Demeter cult into
+  state religion as an explicit propitiation — one of the
+  more striking acts of Carthaginian-Greek religious
+  accommodation in the surviving record.
+
+  Operationally, Himilco's army was effectively destroyed.
+  Dionysius launched a coordinated land-and-sea attack on
+  the weakened Carthaginian position, captured most of the
+  ships and supplies, and offered Himilco terms: safe
+  passage home for the Carthaginian citizen-soldiers in
+  exchange for a 300-talent payment, with the African and
+  mercenary contingents abandoned to capture or massacre.
+  Himilco accepted. The negotiated withdrawal saved the
+  citizen Carthaginian core of the army; the surviving Libyan
+  and mercenary contingents were largely killed or enslaved.
+
+  Himilco returned to Carthage in personal disgrace and
+  killed himself by self-starvation after performing public
+  acts of religious penance. The campaign's failure ended
+  the immediate Carthaginian threat to Syracuse and produced
+  the inconclusive 392 peace; the structural Greek-Carthaginian
+  contestation, however, continued through the next four
+  decades of intermittent Dionysian wars.

@@ -1,0 +1,61 @@
+slug: siege-of-motya-397
+name: Siege of Motya
+type: siege
+date_start:
+  value: -397
+  precision: year
+  notes: >
+    Summer 397 BCE; the siege itself ran from late spring
+    through the summer. The decisive assault occurred in
+    high summer 397.
+place: motya
+participants:
+  - person: dionysius-i
+    role: commander
+    side: Syracuse
+principal_sources:
+  - diodorus-library
+referenced_themes:
+  - punic-religion
+related_events:
+  - event: wars-of-dionysius
+    relation: opening engagement of (Dionysius's first major Carthaginian campaign)
+  - event: siege-of-syracuse-and-plague-396
+    relation: provoked (the Carthaginian counter-offensive that besieged Syracuse the following year)
+summary: >
+  Dionysius I's capture and destruction of the principal
+  Carthaginian fortified base in Sicily — the moment when
+  Greek-Sicilian counterattack against the post-405
+  Carthaginian dominance was first registered. Motya was the
+  operational center of Carthaginian Sicilian power; its
+  fall was the most spectacular Greek military event of the
+  early 4th century BCE.
+
+  The siege is significant for its technical character.
+  Diodorus (14.42-53) preserves an account of the siege's
+  technological features that modern scholarship has used as
+  the principal evidence for the development of Greek siege
+  artillery: torsion-powered catapults appear here in
+  Diodorus's narrative for the first time in the surviving
+  record, deployed by Dionysius's army in the assault on
+  Motya's harbor walls. Whether Dionysius's engineers
+  invented the technology or systematized existing practice
+  is contested in modern scholarship, but the siege of Motya
+  is the conventional inflection point.
+
+  The operational sequence: Dionysius constructed a mole
+  across the lagoon to the island and brought up assault
+  towers and catapults; the Carthaginian garrison and
+  Motyan civilian population resisted street by street;
+  Dionysius's troops eventually broke through, sacked the
+  city, killed most of the male population, and enslaved the
+  surviving women and children. The Carthaginian garrison
+  commander's name is not preserved in the surviving sources.
+
+  The strategic consequence: Carthaginian Sicilian operations
+  had to relocate. Lilybaeum was founded shortly after as
+  the new western-Sicilian Carthaginian base; the existing
+  network of Carthaginian Sicilian alliances had to be
+  rebuilt. The provocation, however, would produce the
+  Carthaginian counter-offensive under Himilco the following
+  year that nearly destroyed Syracuse in turn.

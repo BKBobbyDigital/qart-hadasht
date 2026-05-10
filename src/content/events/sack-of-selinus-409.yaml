@@ -1,0 +1,47 @@
+slug: sack-of-selinus-409
+name: Sack of Selinus
+type: siege
+date_start:
+  value: -409
+  precision: year
+  notes: Spring 409 BCE; the siege itself lasted nine days.
+place: selinus
+participants:
+  - person: hannibal-son-of-gisco
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - diodorus-library
+referenced_themes:
+  - punic-religion
+related_events:
+  - event: second-sicilian-war
+    relation: opening engagement of (the war's first major operation)
+  - event: sack-of-himera-409
+    relation: continuation by (Hannibal's force moving from Selinus to Himera)
+summary: >
+  The first major engagement of the Hannibalic invasion and
+  one of the most destructive single sieges of 5th-century
+  Greek-Sicilian warfare. The campaign was triggered by
+  appeals to Carthage from Segesta — a non-Greek Elymian
+  city in long-running border dispute with Selinus — but
+  the operation's scale far exceeded what local arbitration
+  required. Hannibal son of Gisco (grandson of the Hamilcar
+  killed at Himera in 480 BCE) took an army Diodorus
+  reports at 200,000 — the standard ancient-numbers caveat,
+  but unambiguously a major expeditionary force — to
+  southwestern Sicily.
+
+  The siege itself was rapid: Diodorus reports nine days
+  from Carthaginian arrival to the city's fall. The defense
+  collapsed when assault towers and battering rams (the
+  Carthaginians appear to have brought systematic Greek-style
+  siege equipment) breached the walls. The street-fighting
+  and post-capture massacre were extreme even by 5th-century
+  standards: 16,000 reported killed and 5,000 enslaved.
+  Surviving Selinuntine refugees who reached Akragas brought
+  the news of the sack to a Greek Sicily that had not faced
+  an existential Carthaginian threat in 71 years. The shock
+  reset the strategic configuration of Greek Sicily and
+  produced the rapid relief mobilization that the next
+  Carthaginian operation — the sack of Himera — would face.
