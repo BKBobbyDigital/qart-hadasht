@@ -44,14 +44,14 @@ last_revised: "2026-05-10"
 The fifty-five years between Zama and the destruction of Carthage are
 the most counterintuitive period of the entire Carthaginian arc. After
 a war of total mobilization and catastrophic defeat, Carthage entered
-a long peace and — within a generation — recovered to such an extent
+a long peace and, within a generation, recovered to such an extent
 that Roman observers visiting in 153 BCE could not reconcile the
 prosperous commercial city they saw with the indemnity-burdened
 defeated state the Treaty of 201 had supposedly produced.
 
-The site takes the position — broadly the modern scholarly consensus
+The site takes the position (broadly the modern scholarly consensus
 across Hoyos, Goldsworthy, and Miles, though contested by the surviving
-Roman tradition's own framing — that **Carthage was destroyed in 146
+Roman tradition's own framing) that **Carthage was destroyed in 146
 BCE not because it had become weak but because it had not become weak
 enough**: the recovery's visibility was itself the structural cause of
 the destruction. The reasoning, the weighed claims (including
@@ -80,8 +80,8 @@ year and requiring re-election to consecutive terms. The reform broke
 the Council's oligarchic-hereditary character at a structural level.
 For all the Aristotelian praise of Carthaginian governance as a
 mixed-constitution achievement, the actual political mechanism through
-which the reforms were enacted — suffete sponsorship, popular-assembly
-ratification, against aristocratic resistance — demonstrated that the
+which the reforms were enacted (suffete sponsorship, popular-assembly
+ratification, against aristocratic resistance) demonstrated that the
 *politeia* was a living political object, not a fixed structure, even
 in the second century BCE.
 
@@ -113,7 +113,7 @@ continued.
 
 The pattern's strategic logic, on the site's reading, was Roman as
 much as Numidian: Masinissa's expansion at Carthaginian expense
-produced exactly the regional configuration Rome preferred — a strong
+produced exactly the regional configuration Rome preferred: a strong
 Roman ally adjacent to a constrained former adversary, with the
 constrained adversary unable to respond without violating its own
 treaty obligations. Whether Rome's commissioners were consciously
@@ -195,9 +195,9 @@ new ones — Appian reports women cutting their hair to provide
 bowstrings.
 
 The Roman command was eventually transferred to
-[Scipio Aemilianus](/people/scipio-aemilianus) — adopted grandson of
-the Scipio Africanus who had won at Zama, by family connection the
-inheritor of the Punic-Wars commander tradition — who tightened the
+[Scipio Aemilianus](/people/scipio-aemilianus), adopted grandson of
+the Scipio Africanus who had won at Zama and by family connection the
+inheritor of the Punic-Wars commander tradition. He tightened the
 siege through systematic demolition of the city's outer defenses
 across 147 BCE. The final assault in spring 146 BCE produced six days
 of street fighting from the harbor up the Byrsa hill, with each

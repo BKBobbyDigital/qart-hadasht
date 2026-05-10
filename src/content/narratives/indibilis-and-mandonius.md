@@ -1,5 +1,5 @@
 ---
-title: Indibilis and Mandonius — Iberian agency in the Second Punic War
+title: "Indibilis and Mandonius: Iberian agency in the Second Punic War"
 scope: biography
 thesis: >
   The Ilergetes brothers Indibilis and Mandonius are the principal
@@ -68,9 +68,9 @@ in coordinated Carthaginian counter-offensive. The Ilergetes were
 nominally Carthaginian allies through this period, but the surviving
 sources preserve hints that the relationship was already deteriorating.
 Polybius mentions Hasdrubal Barca's heavy-handed treatment of Iberian
-allies in the 211 campaign — taking hostages from the leading
+allies in the 211 campaign (taking hostages from the leading
 families, including reportedly Indibilis and Mandonius's own
-families — as a feature of the Carthaginian operational pattern in
+families) as a feature of the Carthaginian operational pattern in
 that year. The hostage-taking is preserved across multiple sources
 and is structurally significant: the brothers' families were in
 Carthaginian custody when they were captured by Scipio Africanus at
@@ -81,8 +81,8 @@ New Carthage two years later.
 The single most consequential event in the brothers' career is
 [Scipio's capture of New Carthage](/places/carthago-nova) in 209 BCE.
 The capture produced the Carthaginian Iberian command treasury, the
-strategic initiative for the rest of the Iberian campaign, and — most
-importantly for our purposes — the Ilergetes hostages whom the
+strategic initiative for the rest of the Iberian campaign, and (most
+importantly for our purposes) the Ilergetes hostages whom the
 Carthaginians had been holding. Scipio's release of the hostages
 without ransom, his personal-protective treatment of the captured
 Iberian women (the famous episode of restoring the betrothed young
@@ -130,8 +130,8 @@ departure from Iberia later that year.
 
 ## The revolt and the parallel deaths
 
-Scipio's transfer to African command in late 206 BCE — eventually
-producing the Zama victory of 202 — left Iberia under the
+Scipio's transfer to African command in late 206 BCE, eventually
+producing the Zama victory of 202, left Iberia under the
 administration of Lucius Marcius Septimus and Lucius Manlius
 Acidinus. The post-Scipio Roman administration failed to maintain
 the alliance practices Scipio had cultivated. The surviving sources
@@ -140,14 +140,14 @@ communities, broken commitments to allied chieftains, and what
 Polybius and Livy treat as a general failure of Scipionic
 *humanitas* in his absence. The site's reading is that Scipio's
 *humanitas* was a personal-policy effect rather than a Roman
-institutional norm — see the claim
+institutional norm (see the claim
 [scipio-humanitas-as-personal-policy](/claims/scipio-humanitas-as-personal-policy)
-for the position's reasoning — and the post-departure failure is the
+for the position's reasoning), and the post-departure failure is the
 principal evidence.
 
 Indibilis and Mandonius concluded that the post-Scipio configuration
-could not be lived with. Their decision to revolt — knowing that
-Roman counter-action would be substantial — preserved the Ilergetes
+could not be lived with. Their decision to revolt, knowing that
+Roman counter-action would be substantial, preserved the Ilergetes
 political interest as the brothers understood it: better to fight
 on terms of one's own choosing than to be reduced to administered
 allies of a patron whose practice did not match its commitments.

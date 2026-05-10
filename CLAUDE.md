@@ -105,6 +105,32 @@ flows below.
 
 ## Editorial conventions
 
+### Prose discipline rules
+
+Two house-style rules that apply to all content the project ships:
+
+**No version self-references.** Do not write things like "in V1's
+scope," "the V1 scope of this site," "this version of the
+encyclopedia," or "out of scope for the first version." The site's
+internal roadmap is not the reader's concern. Frame scope statements
+in terms of the historical content itself ("of the Punic period,"
+"outside the principal Punic-period focus"), not in terms of site
+versions. Cross-references like "treated separately on this site as
+an open question" are fine — those describe the site's structure,
+not its version history.
+
+**Em dash discipline.** Em dashes ("—") are heavily over-used by
+default in long-form generated prose. Aim for **at most one em dash
+per ~250 words**, and prefer commas, parentheses, periods, semicolons,
+or colons in most cases. Em dashes are the right choice for: (a) a
+sharp interruption mid-sentence with strong rhetorical weight; (b) a
+list-in-apposition where the items themselves contain commas. They
+are the wrong choice for: routine parentheticals (use commas or
+parens), list expansions (use a colon), sentence breaks where a
+period would do, or "for emphasis" where the content is unremarkable.
+A long-form piece with more than ~10 em dashes is almost certainly
+overusing them; pause and convert.
+
 ### The confidence vocabulary
 
 Every claim on the site is tagged with one of:

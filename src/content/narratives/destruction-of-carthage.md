@@ -284,8 +284,8 @@ eventual fall.
 
 ## A note on sources
 
-The destruction of Carthage is the best-attested major event in
-the V1 scope of this site. **Polybius** was personally present
+The destruction of Carthage is the best-attested major event of
+the entire Punic period. **Polybius** was personally present
 at the destruction with Scipio Aemilianus; his account survives
 only in fragments (most of *Histories* 36-39 is lost) but the
 preserved fragments include the key eyewitness moments, and his

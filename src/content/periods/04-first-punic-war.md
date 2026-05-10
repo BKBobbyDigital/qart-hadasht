@@ -75,8 +75,8 @@ The war's outbreak is the most causally complex event in early
 Roman-Carthaginian relations and the one most fully preserved in the
 surviving sources. The trigger was the
 [Mamertine appeal of 265 BCE](/events/mamertine-appeal-265), in which a
-band of Campanian mercenaries holding the city of Messana — facing
-Hieronian Syracusan pressure that threatened their hold on the city —
+band of Campanian mercenaries holding the city of Messana, facing
+Hieronian Syracusan pressure that threatened their hold on the city,
 appealed simultaneously to both Carthage and Rome for protection. The
 duplicity was itself notable: the Mamertines were offering submission
 to two powers whose Sicilian-Italian relationship was governed by the
@@ -86,8 +86,8 @@ Both powers responded. Carthage moved first, establishing a garrison at
 Messana under a commander named Hanno; Rome's response was delayed by
 the [senatorial debate](/events/first-punic-war-outbreak) the appeal
 produced. The Roman acceptance of the appeal came through the popular
-assembly after the senate failed to reach agreement — Polybius
-preserves the unusual procedural sequence — and produced
+assembly after the senate failed to reach agreement (Polybius
+preserves the unusual procedural sequence) and produced
 [Appius Claudius Caudex's expedition](/events/appius-claudius-crossing)
 across the Strait of Messina in mid 264. The crossing was the first
 Roman army deployment outside the Italian peninsula in the surviving
@@ -114,8 +114,8 @@ boarding device known as the *corvus* to convert naval engagements
 into something closer to land battles.
 
 The first major test was the [Battle of Mylae](/events/battle-of-mylae)
-in 260 BCE, where Gaius Duilius's Roman fleet — using the corvus to
-counter Carthaginian naval superiority — won the first significant Roman
+in 260 BCE, where Gaius Duilius's Roman fleet, using the corvus to
+counter Carthaginian naval superiority, won the first significant Roman
 naval victory in the city's history. The engagement's strategic
 significance was as much psychological as tactical: it demonstrated that
 Carthaginian naval superiority could be contested. The

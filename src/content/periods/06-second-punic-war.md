@@ -86,11 +86,11 @@ operations, political configurations, and structural consequences than
 of essentially any other ancient conflict.
 
 What is most striking about the war, on the site's reading, is how
-close Rome came to losing it — and how the Roman recovery, when it
+close Rome came to losing it, and how the Roman recovery, when it
 came, depended on factors the Hannibalic strategy had not quite
-accounted for. The encyclopedia takes the position — broadly
+accounted for. The encyclopedia takes the position (broadly
 consistent with modern strategic-historical scholarship though not
-directly attested as a framing in the ancient sources — that **the
+directly attested as a framing in the ancient sources) that **the
 Roman political configuration's refusal to negotiate after Cannae is
 the single structural fact Hannibal's strategy could not overcome**.
 The tactical brilliance is real and the strategic concept (allied
@@ -131,8 +131,8 @@ The Roman response to Trasimene was the appointment of
 delaying-attritional strategy that would later make his Cunctator
 epithet honorary. Fabius refused pitched battle, harassed Hannibal's
 foragers, and preserved the field army intact. The strategy was
-politically unpopular in 217 — his master of horse Minucius publicly
-disputed it — but is the principal reason the post-Trasimene Roman
+politically unpopular in 217 (his master of horse Minucius publicly
+disputed it) but is the principal reason the post-Trasimene Roman
 position survived to fight again.
 
 ## Cannae and the limit of victory
@@ -164,8 +164,8 @@ settlement.
 
 The post-Cannae phase produced what the strategic logic had assumed:
 Italian-allied defections. [Capua's defection](/events/capua-defection)
-in late 216 BCE was the most significant — the second city of Italy
-shifting alignment to Hannibal's coalition — and was followed by
+in late 216 BCE was the most significant, the second city of Italy
+shifting alignment to Hannibal's coalition, and was followed by
 substantial Greek-Italian defections in southern Italy. But the core
 Latin League and the Roman citizen base held. The strategic
 configuration Hannibal had assumed could be produced by sufficient
@@ -201,7 +201,7 @@ The Iberian theatre opened with Roman expeditionary operations in 218
 BCE under the elder Scipio brothers (Publius and Gnaeus), continued
 through their deaths in coordinated Carthaginian counter-offensive in
 211 BCE, and was reset by the appointment of the younger
-[Scipio](/people/scipio-africanus) — Publius's son — to the Iberian
+[Scipio](/people/scipio-africanus), Publius's son, to the Iberian
 command in 210 at age twenty-five.
 
 Scipio's [capture of New Carthage](/places/carthago-nova) in 209 BCE
@@ -225,8 +225,8 @@ attritional defense.
 
 ## The African endgame
 
-Scipio's transfer to African command in 204 BCE — over the senatorial
-opposition led by Fabius — produced the war's final phase. The
+Scipio's transfer to African command in 204 BCE, over the senatorial
+opposition led by Fabius, produced the war's final phase. The
 [Battle of the Great Plains](/events/battle-of-great-plains) in 203
 BCE defeated the combined Carthaginian-Numidian forces under Hasdrubal
 Gisco and [Syphax](/people/syphax); Syphax was captured and the

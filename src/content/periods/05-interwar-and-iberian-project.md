@@ -72,8 +72,8 @@ Carthage faced an existential internal crisis that nearly destroyed the
 city; within years it had lost Sardinia and Corsica to opportunistic
 Roman seizure; within a decade it had begun the Iberian conquest that
 would reconstruct its strategic position; and by the period's close it
-had produced — through the Barcid family's persistent operation outside
-direct senatorial control — a military commander whose Italian campaign
+had produced (through the Barcid family's persistent operation outside
+direct senatorial control) a military commander whose Italian campaign
 would bring Rome closer to defeat than any other in the surviving
 record.
 
@@ -88,8 +88,8 @@ recruitment regime that gave the rural population an immediate interest
 in joining a mercenary revolt against the state.
 
 The war's trigger was the [mutiny at Sicca](/events/mutiny-at-sicca) in
-late 241, in which the Carthaginian government — short of cash from the
-Lutatius indemnity and unable to settle the back pay promptly —
+late 241, in which the Carthaginian government, short of cash from the
+Lutatius indemnity and unable to settle the back pay promptly,
 transferred the mercenary contingents inland on the calculation that
 distance would suppress collective bargaining. The calculation failed
 catastrophically: the assembled army consolidated its grievances rather
@@ -100,7 +100,7 @@ collective protests), and [Autaritus](/people/autaritus) (the Gallic
 contingent leader), and marched on Carthage from the interior.
 
 Libyan rural communities adhered to the rebellion in substantial
-numbers — Polybius reports 70,000 — transforming what began as a
+numbers (Polybius reports 70,000), transforming what began as a
 mercenary mutiny into a general anti-Carthaginian rising. The revolt
 revealed the Carthaginian state's dependence on a coerced rural Libyan
 economy that could revolt under stress, and produced what the surviving

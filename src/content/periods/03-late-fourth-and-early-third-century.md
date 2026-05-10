@@ -56,8 +56,8 @@ century gave way to a more diffused aristocratic-political configuration
 in which command was held by senatorially-appointed generals operating
 within institutional checks.
 
-The period is also the one in which Carthage faced — for the first time
-— the kinds of external threats that the Magonid wars had not produced.
+The period is also the one in which Carthage faced, for the first time,
+the kinds of external threats that the Magonid wars had not produced.
 Sicilian engagement persisted, but two new patterns emerged: a Sicilian-
 Greek invader operating not against Carthaginian Sicily but against
 Carthage itself in Africa, and an outside power (Pyrrhus) capable of
@@ -69,9 +69,9 @@ Carthaginian-Roman cooperation framework into open war.
 
 The most consequential single Carthaginian-Sicilian engagement of the
 fourth century is the [Battle of the Crimisus](/events/battle-of-crimisus)
-in 341 BCE. A Carthaginian expeditionary force — sent to support the
+in 341 BCE. A Carthaginian expeditionary force, sent to support the
 Sicilian-Greek tyrants against the reforming Corinthian general
-[Timoleon](/people/timoleon) — was caught crossing the swollen Crimisus
+[Timoleon](/people/timoleon), was caught crossing the swollen Crimisus
 river by Timoleon's smaller force and destroyed. The
 [Sacred Band](/groups/sacred-band) — Carthage's elite citizen heavy
 infantry, the formation that distinguished Carthaginian armies from
@@ -83,8 +83,8 @@ Crimisus is the structural moment when Carthaginian armies shifted
 decisively away from citizen-heavy-infantry composition toward the
 mercenary-and-Libyan-Phoenician model that would characterize
 Carthaginian forces through the entire Punic Wars period. The political
-consequences at Carthage were substantial — a fraction of the
-senatorial class's adult males died in a single afternoon — and the
+consequences at Carthage were substantial (a fraction of the
+senatorial class's adult males died in a single afternoon), and the
 military consequences were structural: the army that fought the First
 Punic War, the Mercenary War, and the Hannibalic War was the army that
 emerged from the post-Crimisus reorganization, not the citizen-elite

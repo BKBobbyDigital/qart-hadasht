@@ -69,15 +69,15 @@ Magonid overreach. Justin's framing is the principal surviving source
 for this causal sequence; modern scholarship treats it as plausible
 but cautions against taking it as more securely dated or more
 mechanically attested than the surviving evidence supports. The
-structural fact — that the Council of 104 was established in the
-late-Magonid period and operated as a check on commander authority —
+structural fact (that the Council of 104 was established in the
+late-Magonid period and operated as a check on commander authority)
 is firmly attested. The Magonid-overreach causation is Justin's
 framing carried forward.
 
 ## The reorganization and its first phase
 
 [Mago I](/people/mago-i) is preserved in Justin's epitome of Trogus as
-the architect of a structural reform of the Carthaginian armed forces —
+the architect of a structural reform of the Carthaginian armed forces:
 a shift from primarily mercenary configuration toward citizen-led
 professional army with the Magonid family providing hereditary military
 command. Whether the reform was a single Mago-attributed transformation
@@ -128,7 +128,7 @@ Polybius's preserved text shows a sphere-of-influence settlement in
 which Carthage is the senior partner and Rome the junior — Roman ships
 restricted from sailing past the Fair Promontory, Roman commercial
 exclusion from much of the Carthaginian-controlled western
-Mediterranean — a configuration that reflects the actual asymmetry of
+Mediterranean. The configuration reflects the actual asymmetry of
 the relationship at the date of the treaty. The 509 treaty is the
 diplomatic record of Carthaginian metropolitan dominance.
 
@@ -137,8 +137,8 @@ diplomatic record of Carthaginian metropolitan dominance.
 The Sicilian theatre is the through-line of the Magonid period and the
 limit of Magonid achievement. Carthaginian-Sicilian engagement begins
 with the **Battle of Himera in 480 BCE**, where a Carthaginian
-expeditionary force under [Hamilcar the Magonid](/people/hamilcar-magonid)
-— Mago I's grandson — was destroyed by the Sicilian-Greek tyrants
+expeditionary force under [Hamilcar the Magonid](/people/hamilcar-magonid),
+Mago I's grandson, was destroyed by the Sicilian-Greek tyrants
 Gelon of Syracuse and Theron of Akragas. The defeat was severe and
 constrained Carthaginian Sicilian operations for nearly seventy years.
 
@@ -174,7 +174,7 @@ as the senatorial reaction against accumulated Magonid family power.
 Beyond the Sicilian and western Mediterranean operations, the Magonid
 period saw the
 [introduction of Carthaginian coinage](/events/introduction-of-carthaginian-coinage)
-in the late fifth century — a structural institutional shift driven
+in the late fifth century, a structural institutional shift driven
 partly by the need to pay mercenary armies on a standardized basis. The
 period also produced the only systematic state-sponsored Atlantic
 exploration of the ancient Mediterranean: paired voyages by
