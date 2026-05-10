@@ -1,0 +1,88 @@
+slug: tabnit-sarcophagus
+name_display: Tabnit Sarcophagus
+name_alt:
+  punic: TBNT — king of Sidon, c. 549-539 BCE
+type: sarcophagus
+material: amphibolite (basalt-like volcanic stone); originally Egyptian, reused for Tabnit
+dimensions: c. 2.4 m long
+date_made:
+  value: -525
+  precision: decade
+  circa: true
+  notes: >
+    Tabnit reigned approximately 549-539 BCE; the sarcophagus is
+    contemporary with his reign. The stone case itself is older,
+    originally an Egyptian general's sarcophagus that was repurposed
+    after capture as war booty — visible in the partially-erased
+    Egyptian hieroglyphic inscription on the front, over which the
+    Phoenician text was added.
+current_location: Istanbul Archaeology Museums (since 1887)
+find_context:
+  site: Sidon (modern Saida, Lebanon) — royal necropolis south of the ancient city
+  year: 1887
+  excavator: Osman Hamdi Bey (Ottoman archaeologist)
+  circumstances: >
+    Discovered during the same Sidonian royal necropolis excavation
+    that produced the Eshmunazar sarcophagus and the Alexander
+    sarcophagus. When opened, the case still contained the king's
+    body preserved in an unknown embalming fluid; the body
+    deteriorated rapidly on exposure to air.
+dating_method: epigraphic
+languages:
+  - phoenician
+interpretation_status: attested
+principal_sources:
+  - aubet-phoenicians-west-2001
+  - quinn-phoenicians-2018
+image:
+  src: /artifacts/tabnit-sarcophagus.jpg
+  alt: A dark stone Egyptian-style anthropoid sarcophagus with a carved face at one end; Phoenician inscription visible across the front below an older partially-erased Egyptian hieroglyphic text.
+  credit: "Photograph: Oncenawhile (2014), Istanbul Archaeology Museums, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Tabnit_sarcophagus.jpg
+  license: CC BY-SA 3.0
+summary_short: >
+  The sarcophagus of Tabnit, Phoenician king of Sidon (c. 549-539 BCE)
+  and father of Eshmunazar II. Reused from an Egyptian original; the
+  Phoenician inscription's curse formula is one of the principal
+  attested examples of Phoenician royal funerary language.
+summary: >
+  An Egyptian-style anthropoid sarcophagus repurposed for Tabnit,
+  Phoenician king of Sidon and father of Eshmunazar II. The stone
+  case itself is older than its Phoenician occupant — originally an
+  Egyptian general's sarcophagus, captured as war booty by the
+  Sidonians at some point in the late 6th century BCE and refitted
+  for royal Sidonian use. The partially-erased Egyptian hieroglyphic
+  inscription on the front, over which the Phoenician text was
+  added, is visible and constitutes one of the more vivid surviving
+  examples of Levantine reuse of Egyptian funerary material.
+
+  The Phoenician inscription (catalogued as KAI 13) is the
+  artifact's principal scholarly value. The text identifies the
+  occupant, names his lineage, and ends with a curse formula
+  warning against tomb violation: "do not open it and do not disturb
+  me," with threats of impotence and afterlife denial for those who
+  do. The curse-formula tradition has direct structural parallels in
+  contemporary Levantine inscriptions (the Shebna inscription from
+  Jerusalem in particular) and is one of the principal pieces of
+  evidence for the broader Levantine epigraphic-religious koine in
+  which both Phoenician and Hebrew funerary practice operated.
+
+  The find context — the Sidonian royal necropolis south of ancient
+  Sidon, excavated in 1887 by the Ottoman archaeologist Osman Hamdi
+  Bey — was one of the most consequential single archaeological
+  campaigns of the late 19th century, producing also the Eshmunazar
+  II sarcophagus (the artifact's son's tomb) and the Alexander
+  sarcophagus. The three sarcophagi together constitute the core of
+  the Istanbul Archaeology Museums' Phoenician royal-funerary
+  collection.
+
+  The artifact's relevance to Carthage proper is indirect but
+  important. Sidon and Tyre were the metropolitan Phoenician
+  centers from which Carthage's foundation tradition derives;
+  Sidonian elite funerary practice in the late 6th century BCE
+  represents the immediate Levantine background from which the
+  Carthaginian elite-burial tradition diverged. The Egyptianizing
+  anthropoid sarcophagus form that Tabnit's example exemplifies
+  spread across the Phoenician sphere and reached Carthage by the
+  4th century BCE in the form attested in the late-Punic Carthaginian
+  necropoleis.

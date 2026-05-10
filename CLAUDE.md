@@ -300,55 +300,78 @@ Most recent significant work:
 
 ## Outstanding work
 
-The user wants to do these next:
+### Recently completed (no longer pending)
+- ✅ Source-weaving Phase 2 — enriched source pages with passage digests
+- ✅ Source-weaving Phase 3 — `/methodology` page
+- ✅ Per-page bibliography ("Further reading") via `Bibliography.astro`
+- ✅ Artifacts collection — 19 entries with Wikimedia images (Tier 1 + 2)
+- ✅ Material evidence wire-up — `MaterialEvidence.astro` on all entity types
+- ✅ Contact form via Netlify Forms (`/about` + `/thanks`)
+- ✅ Security hardening — robots.txt, HSTS, Permissions-Policy, AI-training opt-out, Schema.org provenance, HTML comment signature
+- ✅ Most "smaller content gaps" — places (Lepcis Magna, Hadrumetum, Byrsa), Iberian groups (Olcades, Vaccaei, Carpetani, Lacetani), events (Battle of the Insubres, Annual Tyre Delegation), Hanno the Great upgrade, *ius fetiale* claim
+- ✅ Header redesign, page-header standardization, em dash discipline
 
-### Source-weaving Phase 2 (next)
-**Enriched source pages.** Source pages currently list claims that cite
-them. Should become richer: for each citing claim, surface the
-`passage_summary` and `passage_quote` from YAML so the source page reads
-as a *digest* of the source's content as it relates to Carthaginian
-history. Reading the Polybius source page should tell you "here are the
-passages he preserves about Cannae, Mercenary War, etc." — not just
-"here are claims that cite Polybius."
+### Still pending — the active work list
 
-### Source-weaving Phase 3 (after)
-**A "How we know what we know" methodology page.** Meta-page (probably
-under About) explaining:
-- The confidence vocabulary
-- Source-distance reasoning (why temporal gap matters)
-- Access-to-witnesses categories (contemporary / one-step / literary
-  tradition / late)
-- The stance vocabulary (supports / qualifies / contradicts)
-- How editorial takes work
-- The contested-question framework
+**Time-aware territorial maps** — Carthaginian extent at 550 / 264 /
+218 / 202 / 146 BCE. Five polygons across time on a Leaflet map.
+Significant lift, big visual payoff. The largest remaining item.
 
-### Other items parked / flagged across past sessions
+**Tier 3 artifact expansion** — 10+ more artifacts beyond the 19
+already shipped (Tier 1 + Tier 2). Candidates from earlier scoping:
+Khelibia bronze plaques, Sidi Bou Said stelae, Sulci Tophet stelae,
+Punic seals (cylinder/stamp), Aegates Islands warship rams (recent
+underwater finds), Punic anchor stocks, Carthaginian incense altars,
+Karatepe bilingual, Punic mosaics at Kerkouane. Subject to
+Wikimedia image availability.
+
+**Claim-artifact wire-up expansion** — go through existing claims and
+add `entities: [{type: artifact, slug: X}]` references where
+appropriate so more entity pages surface their Material Evidence.
+Example: the Carthage place page doesn't yet show artifacts because
+no claims tag both `place: carthage` and an artifact.
+
+**Editorial takes elevated from existing prose** — read narratives,
+themes, periods; lift strongest implicit positions into formal
+`editorialTakes/<slug>.yaml`. Judgment-heavy work.
+
+**Richer deity infobox** — schema addition (sanctuary, iconography
+fields) + content sweep across all deity YAMLs.
+
+**Marcus Atilius Regulus / co-envoys of 218 BCE** — different Atilius
+from the existing FPW prisoner page; could be a small new people entry.
+
+### Parked indefinitely
 
 - **Dark mode** (Phase 3 of visual redesign) — once day version settles
-- **Time-aware territorial maps** — Carthaginian extent at 550 / 264 /
-  218 / 202 / 146 BCE. Significant lift, big visual payoff.
-- **Per-page bibliography / "further reading"** sections
 - **Keyboard navigation** (`j`/`k` between siblings) — niche
-- **Artifacts collection** — Motya charioteer, Pyrgi tablets,
-  sign-of-Tanit stelae, Hanno's Periplus inscription. Same
-  infrastructure pattern as deities.
 - **Reception history** (Roman Carthage, Augustine, modern memory) —
-  explicitly out of scope per original framing, possible v2
+  explicitly out of scope per original framing
+- **Per-entity-page rich imagery** — the artifact collection has
+  images because public-domain photos exist for material culture;
+  entity pages (people, events, etc.) don't get imagery because
+  AI-generated would feel cheap and consistent public-domain coverage
+  doesn't exist
 
-Smaller content gaps still flagged:
-- Eshmun temple foundation as event
-- Annual Tyre delegation as event
-- Tophet-specific stratigraphic events
-- Lepcis Magna, Hadrumetum (major Punic North African cities)
-- Byrsa as standalone place
-- Specific Iberian tribes as groups (Olcades, Vaccaei, Carpetani,
-  Lacetani)
-- Hanno the Great existing page upgrade (surface his speeches)
-- *Ius fetiale* ritual claim
-- Marcus Atilius Regulus / co-envoys of 218 BCE
-- Battle of the Insubres (203 BCE Mago Barca engagement)
-- More editorial takes elevated from existing prose
-- Richer deity infobox (sanctuary, iconography fields)
+### Known issues — flagged, not urgent
+
+**`npm audit` reports two moderate-severity CVEs:**
+
+1. **Astro <6.1.6** — XSS in `define:vars` directive. The codebase
+   doesn't use `define:vars`, so the vulnerability has no real-world
+   exploitability here. Fix requires upgrading to Astro 6 (major
+   version, breaking changes — content collections API has shifted,
+   some directives deprecated). Defer until a deliberate maintenance
+   window.
+
+2. **`yaml` package** — stack overflow on deeply nested YAML.
+   Transitive dependency of `yaml-language-server` via
+   `@astrojs/check`. Build-time / dev-time only; no production
+   runtime exposure. Defer.
+
+Revisit dependencies in 3-6 months or sooner if a CVE applies to a
+feature the site actually uses. `npm audit` will continue to flag
+these but they're informational for this codebase.
 
 ### The timeline on the homepage was removed
 

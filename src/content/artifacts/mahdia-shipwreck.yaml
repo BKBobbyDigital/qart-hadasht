@@ -1,0 +1,90 @@
+slug: mahdia-shipwreck
+name_display: Mahdia Shipwreck
+name_alt:
+  latin: Roman-period cargo wreck off Tunisian coast
+type: shipwreck
+material: cargo of bronze and marble Greek statuary, decorative architectural elements, fragmentary ship timbers
+dimensions: cargo recovery spanned a large seabed area; ship original length conjectured at c. 40 m
+date_made:
+  value: -70
+  precision: decade
+  circa: true
+  notes: >
+    The ship sank between approximately 80-60 BCE based on stylistic
+    dating of the cargo (late-Hellenistic Greek bronzes and marbles).
+    The artifact shown — a bronze satyr — dates to the 2nd-1st
+    century BCE, contemporary with the cargo composition.
+current_location: Musée National du Bardo, Tunis (the principal recovered cargo); other items in regional Tunisian museums
+find_context:
+  site: seabed off Mahdia, Tunisia (south-central Tunisian coast)
+  year: 1907
+  excavator: French archaeological mission under Alfred Merlin, with initial discovery by Greek sponge fishermen
+  circumstances: >
+    Discovered in June 1907 by Greek sponge fishermen working off
+    Mahdia. Systematic recovery proceeded under Alfred Merlin's
+    direction from 1907 through 1913, raising bronze sculptures,
+    marble columns and architectural elements, statuary fragments,
+    and other cargo. The wreck represented a Greek commercial
+    shipment of luxury art objects destined for Roman buyers in
+    Italy that foundered en route.
+dating_method: stylistic
+interpretation_status: attested
+principal_sources:
+  - lancel-carthage-1995
+referenced_themes:
+  - carthaginian-economy
+image:
+  src: /artifacts/mahdia-satyr.jpg
+  alt: A bronze sculpture of a satyr in a dancing pose, c. 35 cm tall, with archaic Hellenistic stylistic features. The dark patina shows the marine encrustation typical of long underwater immersion.
+  credit: "Photograph: Pascal Radigue (Pradigue), Bardo Museum, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Bardo_Satyre_Mahdia.JPG
+  license: CC BY 3.0
+summary_short: >
+  A Greek commercial shipment of luxury bronzes and marbles that
+  foundered off Tunisia c. 80-60 BCE. Roman-period rather than
+  Punic, but the principal archaeological evidence for the
+  late-Hellenistic art trade through the Carthaginian-Tunisian
+  maritime sphere.
+summary: >
+  The Mahdia shipwreck is a Roman-period (c. 80-60 BCE) cargo
+  wreck off the Tunisian coast — strictly post-Punic, but included
+  in the artifacts collection because it documents the
+  late-Hellenistic Mediterranean art trade through what had been
+  the Carthaginian maritime sphere and because the cargo
+  composition illuminates a critical feature of the post-146 BCE
+  Mediterranean economy: Roman elite consumption of Greek-cultural
+  luxury production at industrial scale.
+
+  The cargo included bronze sculptures (the small satyr shown here
+  is one of five smaller bronzes recovered in 1910), marble
+  columns and architectural elements presumably destined for a
+  Roman elite domestic or public installation, statuary fragments
+  of varying sizes, and other decorative material. The shipment
+  was almost certainly a commercial venture moving Greek-cultural
+  art objects from Athens or a similar Hellenistic production
+  center to Roman buyers in Italy — exactly the kind of
+  Mediterranean art trade that the Roman conquest of Greek-eastern
+  cities had triggered at scale, and that the Punic-Mediterranean
+  maritime network (with Carthage destroyed but the shipping
+  routes still active under Roman administration) facilitated.
+
+  The find context is historically important on its own terms. The
+  1907 discovery by Greek sponge fishermen and the subsequent
+  French archaeological campaign (1907-1913) under Alfred Merlin
+  was one of the earliest systematic underwater archaeological
+  recovery operations anywhere, with techniques developed during
+  the campaign substantially shaping subsequent Mediterranean
+  underwater practice. The Bardo Museum's Mahdia cargo became one
+  of the principal collections of Hellenistic bronze sculpture
+  recovered through underwater archaeology before the later
+  Antikythera and other 20th-century finds.
+
+  The artifact's relevance to the Carthage scope is two-fold:
+  the wreck sits in Tunisian waters, in the maritime sphere that
+  had been Punic until 146 BCE; and the cargo composition
+  (Greek-cultural luxury art for Roman consumption) illustrates
+  the late-Hellenistic Mediterranean economy that succeeded the
+  Punic commercial system. The destruction of Carthage did not
+  destroy the western-Mediterranean trade routes; it changed
+  who controlled them. The Mahdia ship is a piece of physical
+  evidence for that transition.

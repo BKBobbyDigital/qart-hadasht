@@ -1,0 +1,87 @@
+slug: karatepe-bilingual
+name_display: Karatepe Bilingual
+name_alt:
+  phoenician: dedicatory inscription of Azatiwada
+  other: Luwian hieroglyphic version of the same text
+type: inscription
+material: limestone (carved on the gate-jamb stones of the Azatiwada citadel)
+dimensions: substantial — the inscriptions run across multiple gate stones, with the full text covering several square meters
+date_made:
+  value: -730
+  precision: decade
+  circa: true
+  notes: >
+    Conventional dating to the late 8th century BCE based on
+    paleographic analysis and the political context of Azatiwada's
+    reign as a Cilician local ruler at the periphery of late Hittite
+    and emerging Assyrian power.
+current_location: Karatepe-Aslantaş Open-Air Museum, southern Turkey (preserved in situ at the citadel site)
+find_context:
+  site: Karatepe-Aslantaş, Osmaniye Province, southern Turkey — the gate complex of a late-8th-century BCE Cilician hilltop citadel
+  year: 1946
+  excavator: Helmuth Theodor Bossert and Halet Çambel (Turkish-German archaeological mission)
+  circumstances: >
+    Discovered in 1946 during the first systematic excavation of the
+    Karatepe site. The inscriptions were carved on the stone jambs
+    of the citadel's gate complexes — substantial monumental
+    inscriptions in two languages, recovered substantially intact in
+    their original architectural setting.
+dating_method: paleographic
+languages:
+  - phoenician
+  - other
+interpretation_status: attested
+principal_sources:
+  - aubet-phoenicians-west-2001
+  - quinn-phoenicians-2018
+image:
+  src: /artifacts/karatepe-bilingual.jpg
+  alt: A stone gate jamb at the Karatepe-Aslantaş citadel showing the carved Phoenician inscription in clear archaic letterforms, with another carved panel containing the parallel Luwian hieroglyphic text visible at right.
+  credit: "Photograph: Klaus-Peter Simon (Kpisimon), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:KaratepeNord7.jpg
+  license: CC BY-SA 3.0
+summary_short: >
+  An 8th-century BCE Cilician bilingual inscription in Phoenician and
+  Luwian hieroglyphs from the citadel of King Azatiwada. The Rosetta-
+  Stone-equivalent for deciphering Luwian hieroglyphic script and a
+  foundational document for understanding the Phoenician diaspora's
+  reach into Anatolia.
+summary: >
+  A monumental late-8th-century BCE inscription discovered at the
+  Cilician hilltop citadel of Karatepe-Aslantaş, recording in
+  parallel Phoenician and Luwian-hieroglyphic versions the
+  dedicatory text of Azatiwada, a local Cilician ruler. The
+  inscriptions are carved on the stone jambs of the citadel's gate
+  complexes and were recovered substantially intact in their
+  original architectural setting in 1946.
+
+  The bilingual's principal scholarly importance is its role in the
+  modern decipherment of Luwian hieroglyphic script. Luwian was the
+  language of an Anatolian Indo-European people who inhabited
+  Cilicia and adjacent regions in the late 2nd and early 1st
+  millennia BCE; the hieroglyphic script (related to but distinct
+  from Hittite cuneiform) had remained substantially undeciphered
+  until the Karatepe find provided the parallel-Phoenician anchor.
+  Subsequent advances in Luwian philology rest directly or
+  indirectly on the readings the Karatepe bilingual made possible.
+
+  The text itself is principally a praise-poem and political
+  self-presentation by Azatiwada, describing his achievements,
+  attributing them to divine favor, and ending with curse formulas
+  against anyone who would deface the inscriptions or attack the
+  city. The political context is a Cilician local ruler operating
+  at the periphery of late Hittite cultural memory and Assyrian
+  imperial expansion, deploying both languages to address both his
+  Luwian-speaking subjects and the Phoenician-cultural commercial
+  network that reached deep into Cilicia through the period.
+
+  The artifact's relevance to the Carthage scope is the role
+  Phoenician played as the eastern Mediterranean's commercial-
+  diplomatic lingua franca through the early 1st millennium BCE.
+  At Karatepe — far from any Phoenician colonial settlement —
+  the script and language were sufficiently established as the
+  prestige cosmopolitan medium that a Cilician ruler used them to
+  legitimate himself alongside the native Luwian text. The
+  Phoenician script's reach attested at Karatepe is the same
+  reach that brought it west to the Punic-cultural diaspora that
+  Carthage led.
