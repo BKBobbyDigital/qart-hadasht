@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Civilization hub was folded into Themes; preserve any external links.
+[[redirects]]
+  from = "/civilization"
+  to = "/themes"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
