@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Search">
+  <section class="max-w-3xl mx-auto px-6 py-12" data-pagefind-ignore="all">
+    <h1 class="font-serif text-4xl mb-2">Search</h1>
+    <p class="text-sand-700 mb-6 text-sm">
+      Search across all events, people, places, sources, narratives, and themes.
+    </p>
+
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="search" class="qh-search"></div>
+
+    <noscript>
+      <p class="text-sm text-sand-700 mt-4">Search requires JavaScript. Browse the indexes from the top nav instead.</p>
+    </noscript>
+  </section>
+
+  <script type="module">
+    // Pagefind ships into /pagefind/ at build time; dev server won't have it,
+    // so guard against the missing-script case.
+    try {
+      const { PagefindUI } = await import('/pagefind/pagefind-ui.js');
+      new PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        showImages: false,
+        resetStyles: false,
+        autofocus: true,
+        excerptLength: 25,
+      });
+    } catch (err) {
+      const el = document.getElementById('search');
+      if (el) {
+        el.innerHTML = '<p class="text-sm text-sand-700">Search index is built only on production deploys. Try the live site, or run <code class="font-mono">npm run build &amp;&amp; npm run preview</code> locally.</p>';
+      }
+    }
+  </script>
+
+  <style is:global>
+    /* Tone Pagefind UI to match the site palette */
+    .qh-search {
+      --pagefind-ui-scale: 0.95;
+      --pagefind-ui-primary: #5b0f31;       /* tyrian-700 */
+      --pagefind-ui-text: #1a1206;
+      --pagefind-ui-background: #faf7f2;
+      --pagefind-ui-border: #d6c9b0;        /* sand-300 */
+      --pagefind-ui-tag: #efe7d4;
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 8px;
+      --pagefind-ui-image-border-radius: 4px;
+      --pagefind-ui-font: ui-sans-serif, system-ui, sans-serif;
+    }
+  </style>
+</BaseLayout>
