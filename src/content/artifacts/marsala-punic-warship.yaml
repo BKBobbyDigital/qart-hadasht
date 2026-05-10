@@ -1,0 +1,88 @@
+slug: marsala-punic-warship
+name_display: Marsala Punic Warship
+name_alt:
+  latin: Punic ship from Lilybaeum
+type: shipwreck
+material: oak and pine (hull); various metals (fastenings)
+dimensions: surviving hull section c. 11 m (original ship c. 35 m)
+date_made:
+  value: -235
+  precision: decade
+  circa: true
+  notes: >
+    Carbon-14 dating yielded c. 235 ±65 BCE; paleographic dating of
+    Punic shipwright's marks on hull timbers narrows to the late 3rd
+    century BCE, plausibly the period of the First Punic War.
+current_location: Regional Archaeological Museum Baglio Anselmi, Marsala (Sicily)
+find_context:
+  site: shallow seafloor off Marsala (ancient Lilybaeum), Sicily
+  year: 1971
+  excavator: Honor Frost (lead excavator), with Gerhard Kapitän (initial discovery)
+  circumstances: >
+    Discovered during shallow-water survey work in 1969-71. The hull was
+    raised in sections through 1971-74 in an early example of underwater
+    archaeology applied to a wooden hull. A second ("sister") ship
+    fragment was identified nearby and reburied in situ for preservation.
+dating_method: multiple
+languages:
+  - punic
+interpretation_status: attested
+principal_sources:
+  - lancel-carthage-1995
+  - macdonald-carthage-2015
+referenced_themes:
+  - carthaginian-economy
+image:
+  src: /artifacts/marsala-punic-warship.jpg
+  alt: The reconstructed lower hull of the Punic warship displayed in a museum gallery, showing the wooden frame and planking with the curved keel visible.
+  credit: "Photograph: sarah_c_murray (Flickr), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Marsala_ship_4.jpg
+  license: CC BY 2.0
+summary_short: >
+  The single surviving Punic-period warship hull, recovered off Lilybaeum
+  in 1971. Probable casualty of the Battle of the Aegates Islands (241 BCE)
+  or the surrounding First Punic War operations. The principal physical
+  evidence for Carthaginian naval-construction technique.
+summary: >
+  The hull of a Punic-period warship recovered off the coast of Marsala
+  (ancient Lilybaeum) in 1971, the single most-important piece of
+  surviving physical evidence for Carthaginian naval architecture and
+  one of the principal documentary sources for ancient Mediterranean
+  shipbuilding generally.
+
+  The find context places the wreck in shallow water off the
+  Lilybaeum coast — the principal Carthaginian western-Sicilian
+  naval base through the First Punic War, and the launch point for
+  the Carthaginian fleet that engaged the Romans at the Aegates
+  Islands in 241 BCE. The most-cited reading is that the Marsala
+  ship was a casualty of the Aegates engagement, sunk in shallow
+  water during the Roman pursuit; the dating evidence (c. 235 ±65
+  BCE radiocarbon, with paleographic narrowing of Punic
+  shipwright's marks on the hull timbers to the late 3rd century)
+  is consistent with this reading though does not require it.
+
+  The hull-construction evidence is exceptional. The Punic
+  shipwrights worked in mortise-and-tenon joinery with treenails and
+  occasional metal fastenings, in a method that the Marsala find
+  shows in detail across multiple structural elements. The hull
+  timbers carry inscribed Punic shipwright's marks — letter codes
+  identifying which timber went where — which provide both a
+  philological window onto the working practice of Punic shipwrights
+  and a paleographic dating anchor for the construction period.
+
+  The interpretation of the ship's specific class is contested. The
+  surviving hull is too fragmentary to securely identify as a
+  trireme, quadrireme, or quinquereme; Honor Frost (the lead
+  excavator) argued for a "liburnian"-style scout/raider; later
+  scholars have variously read it as a small warship or a heavy
+  scout. What is uncontested is the construction technique and
+  the shipyard practices it documents.
+
+  A "sister ship" fragment identified nearby was reburied in situ
+  for preservation rather than raised — a reflection of the shift
+  in underwater archaeological practice toward in-situ
+  preservation when raising would damage the wreck. The Marsala
+  hull itself was raised and reconstructed at the museum where it
+  is now displayed; the conservation challenges of waterlogged
+  ancient timber make the surviving display itself a meaningful
+  achievement of late-20th-century underwater archaeology.

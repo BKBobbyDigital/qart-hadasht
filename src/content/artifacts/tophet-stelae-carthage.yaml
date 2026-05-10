@@ -1,0 +1,96 @@
+slug: tophet-stelae-carthage
+name_display: Tophet Stelae (Carthage)
+name_alt:
+  punic: votive stones to Baal Hammon and Tanit
+  latin: cippi (modern usage); stelae
+type: stele
+material: limestone (predominant), sandstone, occasionally other local stones
+dimensions: typically 30–80 cm tall; varies considerably across the corpus
+date_made:
+  value: -750
+  precision: century
+  circa: true
+  range_end: -146
+  notes: >
+    The Carthage Tophet stelae span approximately the 8th century BCE
+    through the destruction in 146 BCE. The bulk of well-dated examples
+    cluster in the 5th-3rd centuries BCE.
+current_location: principally the Bardo National Museum (Tunis), the Carthage National Museum, the Louvre, the British Museum, and other European collections
+find_context:
+  site: Carthage Tophet, Salammbô district — the precinct on the southern margin of the Punic city
+  year: 1921
+  excavator: Francis Kelsey (University of Michigan), and successive French and American expeditions
+  circumstances: >
+    Recovered in stratified deposits accompanying the cremation urns of
+    very young individuals (predominantly neonates and infants) and
+    smaller numbers of animal remains. The stratigraphic record at the
+    Carthage Tophet is unusually deep and is one of the principal
+    archaeological reasons the precinct can be analyzed across the
+    longue durée.
+dating_method: multiple
+languages:
+  - punic
+interpretation_status: contested
+principal_sources:
+  - quinn-phoenicians-2018
+  - lancel-carthage-1995
+referenced_themes:
+  - punic-religion
+  - the-tophet-question
+image:
+  src: /artifacts/tophet-stelae-carthage.jpg
+  alt: Several tall Punic limestone stelae from the Carthage Tophet displayed together in a museum case, each carved with the Sign of Tanit, dedicatory inscriptions in Punic, and decorative motifs.
+  credit: "Photograph: Tangopaso (2022), Louvre, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:St%C3%A8les_fun%C3%A9raire_du_tophet_de_Carthage_(Louvre).jpg
+  license: Public domain
+summary_short: >
+  Thousands of Punic limestone votive stones from the Carthage Tophet,
+  with dedicatory inscriptions to Baal Hammon and Tanit. The principal
+  archaeological corpus underlying the (still-contested) child-sacrifice
+  question, and the largest single body of Punic religious-textual
+  evidence anywhere.
+summary: >
+  The Carthage Tophet has yielded thousands of Punic stelae across more
+  than a century of excavation — the largest single corpus of Punic
+  religious inscription anywhere, and the principal archaeological
+  evidentiary deposit for any reading of Punic state religious
+  practice. The stelae accompany cremation urns of very young
+  individuals (predominantly neonates and infants) and smaller
+  numbers of animal remains, in stratified deposits that span
+  approximately six centuries of continuous use.
+
+  The typical stele bears: a dedicatory inscription naming Baal Hammon
+  (and from the 5th century BCE forward, Tanit "face of Baal") and
+  often the dedicator and the dedication formula; iconography
+  including the Sign of Tanit, palm trees, hands raised in
+  benediction, and (less commonly) representations of the dedicator
+  or the offering; and a base or framing register that often includes
+  more detailed pictorial content. The variation across the corpus
+  is enormous — date, workshop, site, and dedicator class all shape
+  the visual and textual choices — but the basic dedicatory frame
+  is consistent enough to read as a recognizable practice.
+
+  The stelae are at the center of the modern controversy over
+  whether the Tophet was a precinct of systematic ritual child
+  sacrifice (the reading that the classical sources support) or a
+  cemetery for infants who died of natural causes (the Moscati-school
+  reframing, dominant in late-20th-century Italian and French
+  scholarship). The stelae's inscriptions are themselves
+  interpretation-load: dedicatory formulas like "to Baal Hammon, by
+  X, what he vowed [or: what he offered]" are read by the
+  systematic-sacrifice camp as direct evidence of the offering, and
+  by the cemetery camp as conventional votive language compatible
+  with mortuary commemoration. Recent bioarchaeological work on the
+  cremated remains (Smith, Stager, Greene, Avishai 2011, 2013) has
+  shifted the scholarly center of gravity back toward at least
+  partial systematic-sacrifice readings, but the question is not
+  closed. See the Tophet question theme for the historiographical
+  arc.
+
+  The corpus also bears witness to the Punic-cultural diaspora —
+  comparable Tophet stelae are attested at Motya, Sulci, Tharros,
+  Hadrumetum, Constantine (the Hofra cache), and other Punic sites
+  across the western Mediterranean. The Carthage corpus is the
+  largest and best-documented, but the broader pattern of Tophet
+  votive practice across the Punic-cultural sphere is the level at
+  which the practice is most usefully analyzed.

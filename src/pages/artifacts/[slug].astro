@@ -1,0 +1,210 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
+import Bibliography from '../../components/Bibliography.astro';
+import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const artifacts = await getCollection('artifacts');
+  return artifacts.map((a) => ({
+    params: { slug: a.id },
+    props: { artifact: a },
+  }));
+}
+
+const { artifact } = Astro.props;
+const d = artifact.data;
+
+const typeLabel: Record<string, string> = {
+  statuary: 'Statuary',
+  inscription: 'Inscription',
+  stele: 'Stele',
+  coin: 'Coin',
+  vessel: 'Vessel',
+  architecture: 'Architecture',
+  sarcophagus: 'Sarcophagus',
+  shipwreck: 'Shipwreck',
+  metalwork: 'Metalwork',
+  jewelry: 'Jewelry',
+  mosaic: 'Mosaic',
+  composite: 'Composite',
+};
+
+const datingLabel: Record<string, string> = {
+  stratigraphic: 'Stratigraphic',
+  paleographic: 'Paleographic',
+  stylistic: 'Stylistic',
+  radiocarbon: 'Radiocarbon',
+  numismatic: 'Numismatic',
+  epigraphic: 'Epigraphic',
+  multiple: 'Multiple methods',
+  unknown: 'Uncertain',
+};
+
+const interpLabel: Record<string, string> = {
+  attested: 'Identification secure',
+  contested: 'Contested interpretation',
+  fragmentary: 'Fragmentary',
+};
+
+// Reverse lookup: claims that reference this artifact
+const allClaims = await getCollection('claims');
+const referencingClaims = allClaims.filter((c) =>
+  (c.data.entities ?? []).some((e: any) => e.type === 'artifact' && e.slug === artifact.id)
+);
+
+// Auto-link registry for the summary prose
+const allEvents = await getCollection('events');
+const allPeople = await getCollection('people');
+const allPlaces = await getCollection('places');
+const allInstitutions = await getCollection('institutions');
+const allGroups = await getCollection('groups');
+const allThemes = await getCollection('themes');
+const allDeities = await getCollection('deities');
+const linkRegistry = buildLinkRegistry({
+  events: allEvents,
+  people: allPeople,
+  places: allPlaces,
+  institutions: allInstitutions,
+  groups: allGroups,
+  themes: allThemes,
+  deities: allDeities,
+});
+
+const principalSourceIds = (d.principal_sources ?? []).map((s: any) => s.id);
+
+// ─── Infobox derivations ─────────────────────────────────────────────────────
+const findContextValue = d.find_context
+  ? `${d.find_context.site}${d.find_context.year ? ` (${d.find_context.year})` : ''}`
+  : null;
+
+const languagesValue = d.languages && d.languages.length > 0
+  ? d.languages.map((l) => l.charAt(0).toUpperCase() + l.slice(1)).join(' / ')
+  : null;
+
+const artifactInfoboxRows: InfoboxRow[] = [
+  { label: 'Type', value: typeLabel[d.type] ?? d.type },
+  { label: 'Material', value: d.material ?? null },
+  { label: 'Dimensions', value: d.dimensions ?? null },
+  {
+    label: 'Date made',
+    value: formatHistoricalDate(d.date_made),
+    qualifier: dateQualifier(d.date_made),
+  },
+  { label: 'Find context', value: findContextValue },
+  { label: 'Dating method', value: d.dating_method ? datingLabel[d.dating_method] : null },
+  { label: 'Languages', value: languagesValue },
+  { label: 'Status', value: d.interpretation_status ? interpLabel[d.interpretation_status] : null },
+  { label: 'Currently at', value: d.current_location ?? null },
+  {
+    label: 'Cited in',
+    value: referencingClaims.length > 0
+      ? `${referencingClaims.length} claim${referencingClaims.length === 1 ? '' : 's'}`
+      : null,
+    href: referencingClaims.length > 0 ? '#claims' : undefined,
+    emptyLabel: 'none',
+  },
+];
+
+// Resolve referenced themes
+const { getEntry } = await import('astro:content');
+const referencedThemeEntries = (
+  await Promise.all(
+    (d.referenced_themes ?? []).map(async (ref: any) => await getEntry('themes', ref.id))
+  )
+).filter(Boolean);
+---
+
+<BaseLayout title={d.name_display} description={d.summary_short}>
+  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+    <Infobox
+      title={d.name_display}
+      subtitle={`Artifact · ${typeLabel[d.type] ?? d.type}`}
+      rows={artifactInfoboxRows}
+    />
+    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+      <span hidden data-pagefind-filter="type:Artifacts" data-pagefind-meta="type:Artifact"></span>
+
+      <p class="eyebrow mb-3">Artifact · {typeLabel[d.type] ?? d.type}</p>
+      <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.name_display}</h1>
+      {d.summary_short && <p class="text-lg text-sand-700">{d.summary_short}</p>}
+
+      {(d.name_alt && (d.name_alt.punic || d.name_alt.greek || d.name_alt.latin || d.name_alt.other)) && (
+        <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
+          <h2 class="font-serif text-xl mb-3">Names</h2>
+          <dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
+            {d.name_alt.punic && (<><dt class="font-semibold text-sand-700">Punic</dt><dd>{d.name_alt.punic} {d.name_alt.punic_script && <span class="font-phoenician text-tyrian-700 ml-2">{d.name_alt.punic_script}</span>}</dd></>)}
+            {d.name_alt.greek && (<><dt class="font-semibold text-sand-700">Greek</dt><dd>{d.name_alt.greek}</dd></>)}
+            {d.name_alt.latin && (<><dt class="font-semibold text-sand-700">Latin</dt><dd>{d.name_alt.latin}</dd></>)}
+            {d.name_alt.other && (<><dt class="font-semibold text-sand-700">Other</dt><dd>{d.name_alt.other}</dd></>)}
+          </dl>
+        </section>
+      )}
+
+      {d.image && (
+        <figure class="mt-8">
+          <img
+            src={d.image.src}
+            alt={d.image.alt}
+            class="w-full rounded-lg border border-sand-300"
+          />
+          <figcaption class="mt-2 text-xs text-sand-700">
+            {d.image.credit_url
+              ? <a href={d.image.credit_url} class="hover:text-tyrian-700" target="_blank" rel="noopener noreferrer">{d.image.credit}</a>
+              : <>{d.image.credit}</>
+            }
+            {' · '}<span class="italic">{d.image.license}</span>
+          </figcaption>
+        </figure>
+      )}
+
+      <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
+        {d.summary.split(/\n\n+/).map((para: string) => (
+          <p set:html={autolink(para, linkRegistry, { excludeKey: `artifact:${artifact.id}` })} />
+        ))}
+      </div>
+
+      {d.find_context?.circumstances && (
+        <section class="mt-8 border-l-2 border-sand-300 pl-4">
+          <p class="text-[11px] uppercase tracking-widest font-semibold text-sand-700 mb-1">Find circumstances</p>
+          <p class="text-sm text-sand-900">
+            {d.find_context.circumstances}
+            {d.find_context.excavator && <> Excavated by <span class="text-ink-900">{d.find_context.excavator}</span>{d.find_context.year ? ` in ${d.find_context.year}` : ''}.</>}
+          </p>
+        </section>
+      )}
+
+      {referencedThemeEntries.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300">
+          <h2 class="font-serif text-2xl mb-3">Themes</h2>
+          <ul class="space-y-2">
+            {referencedThemeEntries.map((t: any) => (
+              <li>
+                <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="font-serif text-tyrian-700 hover:underline">{t.data.title}</a>
+                <p class="text-xs text-sand-700 mt-0.5">{t.data.scope.replace('_', ' ')}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {referencingClaims.length > 0 && (
+        <section class="mt-12 pt-6 border-t border-sand-300" id="claims">
+          <h2 class="font-serif text-2xl mb-3">Cited in</h2>
+          <ul class="space-y-2">
+            {referencingClaims.map((c) => (
+              <li class="text-sm border-l-2 border-sand-300 pl-3">
+                <p class="text-ink-900">{c.data.statement}</p>
+                <p class="text-xs text-sand-700 mt-1 uppercase tracking-wider">{c.data.confidence}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <Bibliography claims={referencingClaims} principalSourceIds={principalSourceIds} />
+    </article>
+  </div>
+</BaseLayout>

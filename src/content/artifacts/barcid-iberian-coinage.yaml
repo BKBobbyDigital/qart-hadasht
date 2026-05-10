@@ -1,0 +1,89 @@
+slug: barcid-iberian-coinage
+name_display: Barcid Iberian Coinage
+name_alt:
+  punic: silver shekels of Punic Iberia, c. 237-209 BCE
+  latin: monetae barcidae
+type: coin
+material: silver (principal); also gold (rare staters); bronze (smaller denominations)
+dimensions: "quarter shekel example: 13 mm diameter, 1.72 g (varies by denomination)"
+date_made:
+  value: -237
+  precision: year
+  range_end: -209
+  notes: >
+    The Barcid Iberian coinage tradition begins c. 237 BCE with
+    Hamilcar Barca's establishment of independent silver minting in
+    Iberia, and runs through the Roman capture of Carthago Nova in
+    209 BCE. The post-209 BCE Iberian Punic mints continued under
+    Roman administrative oversight in attenuated form.
+current_location: Major collections at the British Museum, the Bibliothèque nationale de France, the National Archaeological Museum of Spain, and numerous private and museum collections internationally
+find_context:
+  site: principally Carthago Nova (modern Cartagena) and other Punic Iberian mint cities; coin finds across the western Mediterranean trade network
+  circumstances: >
+    Barcid Iberian silver entered the wider Mediterranean economy via
+    Carthaginian military pay, trade, and the disposal of the Iberian
+    silver-mining surplus that the Barcids established as the
+    fiscal foundation of the post-First-Punic-War Carthaginian state.
+    Coin finds therefore turn up across the Carthaginian operational
+    sphere as well as in original-issue contexts in Iberia.
+dating_method: numismatic
+languages:
+  - punic
+interpretation_status: attested
+principal_sources:
+  - hoyos-hannibal-2003
+  - macdonald-carthage-2015
+referenced_themes:
+  - carthaginian-economy
+image:
+  src: /artifacts/barcid-iberian-shekel.jpg
+  alt: Two views (obverse and reverse) of a Punic silver quarter-shekel coin. Obverse shows a male head in profile; reverse shows an elephant advancing right.
+  credit: "Photograph: Classical Numismatic Group, Inc. (CNG), www.cngcoins.com"
+  credit_url: https://commons.wikimedia.org/wiki/File:Carthage,_quarter_shekel,_237-209_BC,_SNG_BM_Spain_102.jpg
+  license: CC BY-SA 2.5 (also available under GFDL)
+summary_short: >
+  Silver shekels and fractional denominations minted in Iberia under
+  Hamilcar, Hasdrubal, and Hannibal Barca, 237-209 BCE. The single most-
+  important physical evidence for the Barcid Iberian state and the
+  silver-economy underwriting of Hannibal's Italian campaign.
+summary: >
+  The Punic Iberian silver coinage minted under the Barcid generals
+  from Hamilcar's establishment of an independent silver mint c. 237
+  BCE through the Roman capture of Carthago Nova in 209 BCE. The
+  series is one of the principal pieces of evidence for the Barcid
+  Iberian state — the semi-autonomous Carthaginian-aligned military-
+  administrative complex that Hamilcar built after the First Punic
+  War, that Hasdrubal the Fair consolidated through the 220s, and
+  that Hannibal inherited and used to fund the army that crossed the
+  Alps in 218 BCE.
+
+  The principal denomination was the silver shekel; smaller fractions
+  (half-, quarter-, eighth-shekels) circulated alongside it for
+  everyday transactions, and some Barcid mints issued gold staters as
+  well. The iconographic program is striking: a male head in profile
+  on the obverse — variously identified as Melqart, as a Hellenistic-
+  style deified portrait of one of the Barcid generals (Hamilcar or
+  Hannibal), or as deliberately ambiguous between the two — paired
+  with reverse types that include the elephant (the Barcid Iberian
+  symbol par excellence), the prow of a warship, the palm tree (a
+  conventional Punic emblem), and others. The portrait identification
+  is one of the more famous numismatic-historical debates: the
+  Hellenistic-monarchical-portrait reading would make the Barcid
+  Iberian state effectively a Hellenistic kingdom in everything but
+  formal title, with significant implications for how the Barcid
+  command should be understood politically.
+
+  The economic significance is substantial. The Iberian silver mines
+  the Barcid state controlled — principally those around Carthago
+  Nova — were the principal source of new silver entering the
+  western Mediterranean economy in the late 3rd century BCE. The
+  coinage was the channel through which that silver became
+  Carthaginian state revenue, mercenary pay, and the fiscal
+  foundation of the army that fought the Second Punic War. Hannibal's
+  Italian campaign was paid for in this silver; the post-Zama
+  Carthaginian indemnity to Rome was largely drawn from the same
+  Iberian source. The coinage is therefore the load-bearing
+  artifact for understanding why Carthage could field the army it
+  did in 218 BCE — and why the loss of Iberia to Roman forces in
+  the late stages of the war was a strategic defeat the city could
+  not recover from.

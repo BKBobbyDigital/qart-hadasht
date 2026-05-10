@@ -511,6 +511,113 @@ const threads = defineCollection({
   }),
 });
 
+// ─── Artifacts — material culture as first-class entities ────────────────────
+//
+// The site's source layer is heavily weighted toward literary sources
+// (Polybius, Livy, modern monographs). Modern Punic studies has shifted
+// decisively toward archaeological / material evidence over the last
+// fifty years — the Tophet bioarchaeology, Quinn's reframing of the
+// Phoenician category, the long arc of Moscati / Lancel / Markoe — and
+// a reference encyclopedia of Carthage that doesn't surface material
+// culture as primary evidence is missing the field's actual scholarly
+// center of gravity. Artifacts are first-class entities here for the
+// same reason sources are: a claim that rests on the Pyrgi tablets or
+// the Motya charioteer should cite the artifact as a navigable,
+// metadata-rich entity rather than mention it in passing prose.
+
+const artifacts = defineCollection({
+  type: 'data',
+  schema: z.object({
+    slug: z.string(),
+    name_display: z.string(),
+    name_alt: z
+      .object({
+        punic: z.string().optional(),
+        punic_script: z.string().optional(),
+        greek: z.string().optional(),
+        latin: z.string().optional(),
+        /** Etruscan, Iberian, etc. — for multilingual artifacts. */
+        other: z.string().optional(),
+      })
+      .optional(),
+    /** What kind of object. */
+    type: z.enum([
+      'statuary',
+      'inscription',
+      'stele',
+      'coin',
+      'vessel',
+      'architecture',
+      'sarcophagus',
+      'shipwreck',
+      'metalwork',
+      'jewelry',
+      'mosaic',
+      'composite',
+    ]),
+    material: z.string().optional(),     // "Carrara marble", "limestone", "silver"
+    dimensions: z.string().optional(),   // "h. 1.81m", "23.4 × 18.6 cm"
+    date_made: historicalDate.optional(),
+    current_location: z.string().optional(),
+    find_context: z
+      .object({
+        site: z.string(),
+        year: z.number().int().optional(),
+        excavator: z.string().optional(),
+        circumstances: z.string().optional(),
+      })
+      .optional(),
+    /** How scholars date the object. */
+    dating_method: z
+      .enum([
+        'stratigraphic',
+        'paleographic',
+        'stylistic',
+        'radiocarbon',
+        'numismatic',
+        'epigraphic',
+        'multiple',
+        'unknown',
+      ])
+      .optional(),
+    /** Languages on inscriptions (when applicable). */
+    languages: z
+      .array(
+        z.enum([
+          'punic',
+          'neopunic',
+          'phoenician',
+          'greek',
+          'latin',
+          'etruscan',
+          'iberian',
+          'other',
+        ])
+      )
+      .optional(),
+    /** Whether scholars agree on what the artifact attests / means. */
+    interpretation_status: z
+      .enum(['attested', 'contested', 'fragmentary'])
+      .optional(),
+    /** Brief one-liner, used on index cards. */
+    summary_short: z.string(),
+    /** Long-form summary. */
+    summary: z.string(),
+    principal_sources: z.array(reference('sources')).default([]),
+    referenced_themes: z.array(reference('themes')).default([]),
+    /** Image data, with Wikimedia-style attribution. */
+    image: z
+      .object({
+        src: z.string(),                 // local path, e.g. /artifacts/motya-charioteer.jpg
+        alt: z.string(),
+        credit: z.string(),              // human-readable attribution
+        credit_url: z.string().url().optional(),
+        license: z.string(),             // "Public domain", "CC BY-SA 3.0", etc.
+      })
+      .optional(),
+  }),
+});
+
 // ─── Periods, era-level synthesis pages ───────────────────────────────────────
 //
 // The narrative connective tissue between the entity collections. Each period
@@ -559,4 +666,5 @@ export const collections = {
   deities,
   periods,
   threads,
+  artifacts,
 };

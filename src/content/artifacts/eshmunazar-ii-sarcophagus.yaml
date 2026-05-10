@@ -1,0 +1,96 @@
+slug: eshmunazar-ii-sarcophagus
+name_display: Eshmunazar II Sarcophagus
+name_alt:
+  punic: 'Eshmun-azar — "Eshmun-helps"; the Phoenician royal name of the sarcophagus''s occupant'
+type: sarcophagus
+material: amphibolite (a dark, volcanic-origin metamorphic stone, sometimes described as basalt-like)
+dimensions: 2.56 m long, 1.25 m wide, 1.19 m tall
+date_made:
+  value: -525
+  precision: decade
+  circa: true
+  notes: >
+    Eshmunazar II reigned approximately 539-525 BCE as a vassal of the
+    Persian Achaemenid Empire; the sarcophagus is contemporary with his
+    reign or shortly thereafter.
+current_location: Louvre Museum, Paris (Sully wing, room 311; AO 4806)
+find_context:
+  site: Sidon (modern Saida, Lebanon) — necropolis south of the ancient city
+  year: 1855
+  excavator: French archaeological mission, January 1855
+  circumstances: >
+    Recovered during a French archaeological expedition to Sidon in
+    January 1855. The sarcophagus was substantially intact when
+    excavated; the inscribed Phoenician text on the lid was the
+    principal scholarly find, and the sarcophagus entered the Louvre
+    later the same year.
+dating_method: epigraphic
+languages:
+  - phoenician
+interpretation_status: attested
+principal_sources:
+  - aubet-phoenicians-west-2001
+  - quinn-phoenicians-2018
+referenced_themes:
+  - punic-identity
+  - punic-religion
+image:
+  src: /artifacts/eshmunazar-ii-sarcophagus.jpg
+  alt: A large dark stone sarcophagus carved in Egyptian-style anthropoid form with a stylized human head and shoulders at one end; substantial Phoenician inscriptions cover the lid and front.
+  credit: "Photograph: Onceinawhile (cleaned-up version by पाटलिपुत्र), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Eshmunazar_II_sarcophagus_(cleaned_up).jpg
+  license: CC BY-SA 4.0
+summary_short: >
+  The 6th-century-BCE basalt-like sarcophagus of the Sidonian king Eshmunazar II,
+  bearing one of the longest known Phoenician royal inscriptions. Strictly
+  Sidonian rather than Carthaginian, but a foundational text for the broader
+  Phoenician epistemic context Carthage descends from.
+summary: >
+  The Egyptian-style anthropoid sarcophagus of Eshmunazar II
+  ("Eshmun-helps"), king of Sidon, who reigned approximately 539-525
+  BCE as a vassal of the Persian Achaemenid Empire. The sarcophagus
+  bears one of the longest surviving Phoenician royal inscriptions —
+  a 22-line text on the lid that includes the king's name and titles,
+  a curse formula against tomb-violation, a brief biographical sketch,
+  and a record of the king's mother (Amoashtart, priestess of
+  Astarte) and his temple-foundation activities at Sidon.
+
+  The artifact is strictly Sidonian rather than Carthaginian, and is
+  included in the encyclopedia for its broader Phoenician-epistemic
+  significance rather than as a directly Carthaginian artifact. Its
+  importance for the Carthage-relevant record is in three areas:
+
+  - **Phoenician royal-inscription corpus.** The Eshmunazar text is
+    one of the principal pieces of evidence for the Phoenician royal
+    inscription tradition that Carthage's own (much smaller and more
+    fragmentary) royal-political inscription record descends from. The
+    formal vocabulary, the curse-formula tradition, the
+    self-presentation conventions — Carthaginian state inscriptions
+    work in the same epigraphic family even where the local Punic
+    practice diverged.
+
+  - **Persian-period Phoenicia.** Eshmunazar II reigned at the
+    transition between independent Tyrian-Sidonian regional power and
+    Persian-vassal subordination — exactly the period when Carthage
+    became substantively independent of metropolitan Phoenician
+    political control and the Punic-cultural sphere consolidated as a
+    western Mediterranean force in its own right. The sarcophagus is
+    a primary document for the metropolitan side of the same
+    geopolitical inflection.
+
+  - **Egyptianizing royal style.** The sarcophagus's anthropoid form
+    is borrowed from Egyptian royal funerary practice — a style that
+    spread across the Phoenician sphere in the 6th-5th centuries BCE,
+    with Sidonian, Tyrian, and Carthaginian elite burials all engaging
+    Egyptian forms in varying degrees. The Eshmunazar sarcophagus is
+    one of the principal exemplars of this Phoenician-Egyptian
+    artistic engagement.
+
+  Eshmunazar's text was instrumental in the 19th-century decipherment
+  of Phoenician — its 22 lines provide one of the larger continuous
+  text samples available, and the regnal-formula and royal-titulary
+  conventions established here informed how subsequent Phoenician
+  texts were read. The artifact is therefore both a primary source
+  for late-6th-century Sidonian history and a philological anchor
+  for the broader Phoenician epigraphic record that the
+  Carthaginian inscriptional corpus is part of.

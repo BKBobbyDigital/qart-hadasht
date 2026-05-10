@@ -1,0 +1,82 @@
+slug: motya-charioteer
+name_display: Motya Charioteer
+name_alt:
+  greek: Aurige di Mozia (Italian)
+  latin: Aurige
+type: statuary
+material: Carrara-type marble (probably Greek-island)
+dimensions: h. 1.81 m (with arms and legs missing); original ~2 m
+date_made:
+  value: -470
+  precision: decade
+  circa: true
+  range_end: -460
+current_location: Museo Giuseppe Whitaker, Mozia (San Pantaleo), Sicily
+find_context:
+  site: Motya (Mozia), Sicily — northeastern sector, between an ancient potters' workshop and a sanctuary precinct
+  year: 1979
+  excavator: Vincenzo Tusa
+  circumstances: >
+    Recovered from rubble in the secondary, post-397-BCE Punic re-occupation
+    fill — the statue had been deliberately broken, the head detached and
+    apparently buried separately, in a context consistent with ritual
+    desacralization at the time of Dionysius's destruction of the city.
+dating_method: stylistic
+interpretation_status: contested
+principal_sources:
+  - quinn-phoenicians-2018
+  - lancel-carthage-1995
+  - macdonald-carthage-2015
+referenced_themes:
+  - punic-identity
+  - punic-religion
+image:
+  src: /artifacts/motya-charioteer.jpg
+  alt: Marble statue of a young man in a long pleated chiton with a broad belt, in a swinging contraposto pose; both arms and legs below the shins are missing.
+  credit: "Photograph: Ismoon (2022), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Aurige_de_Mozia_de_face-2.jpg
+  license: CC BY-SA 4.0
+summary_short: >
+  A larger-than-life marble youth in Greek style, found at Motya in 1979.
+  The single most-discussed artifact of Punic Sicily, with contested
+  identity (charioteer? Punic priest? hybrid?) and contested production
+  context (Greek workshop? Punic patron commission?).
+summary: >
+  An exceptional larger-than-life-size marble statue of a young man in
+  swinging contraposto pose, wearing a long pleated chiton drawn tight
+  by a broad belt — the single most-discussed individual artifact from
+  Punic Sicily, and the principal piece of high-style sculpture
+  surviving from any Carthaginian-controlled site.
+
+  The statue's identity is contested. The most-cited reading is that
+  the figure is a victorious charioteer dedicated as a votive at one
+  of the Sicilian Greek games, with the long chiton being the
+  conventional charioteer's garment. The competing reading proposes a
+  Punic priest of Melqart or Baal Hammon, with the pleated robe and
+  belt being the Punic ritual costume rather than the Greek
+  charioteer's; this reading depends on identifications of the
+  textile pattern and belt-decoration with elements visible on
+  Phoenician-Punic priestly figures elsewhere. A third reading argues
+  for ambiguity as the artifact's actual point — a deliberately
+  hybrid object commissioned by a Punic patron at a Greek workshop,
+  intended to perform identity bilingually for a Punic audience that
+  also engaged Greek artistic conventions.
+
+  The production context is similarly contested. The statue is
+  almost certainly the work of a Greek-trained sculptor, but the
+  patron and intended setting are unclear. The find context — the
+  northeastern sector of Motya near a sanctuary and potters'
+  quarter — is consistent with a Punic dedicatory setting; the
+  burial context (deliberate breaking and head-removal at the time
+  of Dionysius's 397 BCE destruction of the city) is consistent
+  with the kind of ritual desacralization a Punic community would
+  have performed on a sacred object before abandoning the
+  sanctuary to the invader.
+
+  Whatever its identity, the statue is the single most-important
+  piece of evidence for the level of Greek-Punic artistic
+  exchange in late-5th-century-BCE Sicily, and the principal
+  argument for taking Punic-Sicilian elite culture as
+  substantively engaged with Greek high-art production rather
+  than as the more-isolated Punic-cultural backwater that
+  earlier scholarship sometimes implied.

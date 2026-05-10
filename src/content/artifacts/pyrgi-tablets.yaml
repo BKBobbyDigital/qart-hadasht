@@ -1,0 +1,81 @@
+slug: pyrgi-tablets
+name_display: Pyrgi Tablets
+name_alt:
+  punic: dedication to Astarte
+  other: Etruscan dedication to Uni
+type: inscription
+material: gold (sheet)
+dimensions: c. 18.5–19.3 × 8.7–9.1 cm (each tablet)
+date_made:
+  value: -500
+  precision: decade
+  circa: true
+current_location: National Etruscan Museum (Villa Giulia), Rome
+find_context:
+  site: Pyrgi (modern Santa Severa), the port of Caere on the Etruscan coast — sanctuary precinct
+  year: 1964
+  excavator: Massimo Pallottino (Sapienza University of Rome)
+  circumstances: >
+    Recovered from a deposit beneath the sanctuary's Temple B, where the
+    tablets had been deliberately rolled up and buried, presumably as part
+    of the temple's foundation deposit or a later consecration ritual.
+dating_method: epigraphic
+languages:
+  - phoenician
+  - etruscan
+interpretation_status: attested
+principal_sources:
+  - quinn-phoenicians-2018
+  - aubet-phoenicians-west-2001
+referenced_themes:
+  - punic-identity
+image:
+  src: /artifacts/pyrgi-tablets.jpg
+  alt: Three small gold tablets with inscribed text — two in Etruscan script (longer) and one in Phoenician/Punic script (shorter), displayed side by side.
+  credit: "Photograph: Sailko (Wikimedia Commons)"
+  credit_url: https://commons.wikimedia.org/wiki/File:Lamine_d%27oro_in_lingua_etrusca_e_fenicia_con_dedica_di_un_luogo_sacro_a_pyrgi.jpg
+  license: CC BY-SA 4.0
+summary_short: >
+  Three gold tablets from c. 500 BCE inscribed in parallel Phoenician and
+  Etruscan, recording the Etruscan king Thefarie Velianas's dedication of
+  a sanctuary to Astarte/Uni. The principal piece of evidence for direct
+  Phoenician-Etruscan diplomatic and religious contact, and a foundational
+  text for the modern decipherment of Etruscan.
+summary: >
+  Three small gold tablets, two in Etruscan and one in Phoenician,
+  recording in parallel a dedicatory inscription by Thefarie Velianas,
+  king (zilac) of the Etruscan city of Caere, of a sanctuary at Pyrgi
+  (Caere's port) to the goddess Astarte / Uni. The text is dated by
+  Velianas's third regnal year, conventionally placed around 500 BCE —
+  one of the more securely datable inscriptions of the early
+  Mediterranean Iron Age.
+
+  The tablets are the single most-important piece of physical evidence
+  for direct, durable Phoenician-Etruscan diplomatic contact in the
+  6th-5th century BCE — the period when Carthage and the Etruscan
+  cities were the principal western-Mediterranean naval-commercial
+  powers and were probably formal allies (the Battle of Alalia in the
+  540s BCE was the high-water mark of that alignment). The Pyrgi text
+  attests to active Phoenician-Etruscan religious exchange at the
+  level of state cult, with the Phoenician goddess Astarte being
+  identified with the Etruscan Uni in interpretatio that runs in the
+  opposite direction from the more-familiar Greek-into-Roman
+  interpretatio of the late-Republican period.
+
+  The bilingual nature of the inscription has been load-bearing for
+  the modern decipherment of Etruscan. The Phoenician text — a known
+  language with secure phonology and grammar — provides a parallel
+  reading that allows the structure of the Etruscan version to be
+  reconstructed with confidence the surviving Etruscan corpus alone
+  could not support. The tablets are therefore both a primary source
+  for Phoenician-Etruscan diplomatic-religious history AND a
+  philological key text for the Etruscan language itself.
+
+  The find context — Temple B at Pyrgi, where the tablets were rolled
+  up and deposited beneath the sanctuary, probably as a foundation or
+  re-consecration deposit — is consistent with the inscription's
+  performative function: the gold tablets were not principally
+  intended to be read but to be ritually installed at the sanctuary
+  as a permanent embodiment of the dedicatory act. They survived
+  precisely because they were buried at deposition rather than
+  displayed.
