@@ -1,0 +1,79 @@
+slug: bomilcar-coup-308
+name: Bomilcar's Coup Attempt
+type: political
+date_start:
+  value: -308
+  precision: year
+  notes: >
+    Late 308 BCE, during the Carthaginian crisis produced
+    by Agathocles's Sicilian-Greek invasion of Africa
+    (310-307 BCE).
+place: carthage
+participants:
+  - person: bomilcar
+    role: coup leader; captured and executed
+    side: Carthaginian (anti-government faction)
+principal_sources:
+  - diodorus-library
+  - justin-epitome
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: agathocles-invasion-of-africa
+    relation: produced by (the Carthaginian crisis the invasion produced)
+  - event: third-sicilian-war
+    relation: phase of (Carthaginian internal-political phase of the Agathoclean crisis)
+summary: >
+  An attempted coup against the Carthaginian state during
+  the most acute phase of the Agathocles crisis — when
+  the Sicilian-Greek invasion had effectively cut
+  Carthage off from its African hinterland and the
+  Carthaginian senate was widely understood to have
+  failed in its response. Bomilcar, a senior Carthaginian
+  commander whose specific senatorial position is
+  imperfectly preserved, attempted to seize the
+  city through what surviving sources treat as a
+  combination of military force and demagogic appeal.
+
+  Diodorus (20.43-44) preserves the principal account:
+  Bomilcar had been assigned command of Carthaginian
+  forces operating in the African hinterland against
+  Agathocles's expeditionary army; rather than engage
+  Agathocles, he marched his force back to Carthage and
+  attempted to use it as the basis for political
+  takeover. The coup attempt collapsed quickly — the
+  Carthaginian citizen body refused the appeal, the
+  army contingents wavered, and Bomilcar was captured
+  within days of the attempted seizure.
+
+  The execution that followed was dramatic and
+  preserved in the surviving record: Bomilcar was
+  tortured and crucified in the city's central
+  marketplace, with his confession (extracted under
+  torture) used to justify subsequent purges of his
+  reported associates among the Carthaginian
+  political class.
+
+  The episode's significance lies in two areas:
+
+  1. **Stress on the Carthaginian governance system.**
+     The coup demonstrates that the formal politeia
+     Aristotle had praised a generation earlier could
+     fracture under acute external pressure; the
+     Magonid-era patterns of military-political
+     confrontation that had produced figures like
+     Malchus had not been fully suppressed.
+  2. **The Carthaginian recovery's contingent
+     character.** Carthage survived the Agathocles
+     crisis substantially because the field force
+     continued to oppose Agathocles even with the
+     metropolitan political crisis underway; had
+     Bomilcar's coup succeeded or had the field force
+     deserted, Carthage's strategic position in the
+     central Mediterranean might not have recovered.
+
+  The Bomilcar episode is one of the clearer surviving
+  windows onto Carthaginian internal political stress
+  in the late 4th century BCE, comparable to the
+  Justinian Malchus narrative for the 6th century but
+  better-attested.

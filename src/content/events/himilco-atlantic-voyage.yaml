@@ -1,0 +1,77 @@
+slug: himilco-atlantic-voyage
+name: Himilco's Atlantic Voyage
+type: expedition
+date_start:
+  value: -480
+  precision: decade
+  circa: true
+  notes: >
+    Conventionally dated to the late 6th or 5th century
+    BCE; the Avienus transmission does not fix the
+    chronology. Some scholarship treats Himilco as a
+    contemporary of Hanno the Navigator.
+place: gades
+places:
+  - gades
+  - carthage
+participants:
+  - person: himilco-navigator
+    role: commander of the expedition
+    side: Carthaginian
+principal_sources:
+  - sznycer-civilisation-1978
+referenced_themes:
+  - carthaginian-seafaring-and-trade
+related_events:
+  - event: hannos-periplus-voyage
+    relation: paired with (the African counterpart in the Carthaginian Atlantic exploration program)
+summary: >
+  The Carthaginian voyage to Atlantic Europe — the
+  northern counterpart to Hanno's better-attested West
+  African expedition. Himilco's voyage is preserved only
+  in fragmentary form in the late Roman poetic geographer
+  Avienus (*Ora Maritima*), who claims to have drawn on a
+  now-lost Punic periplus or sailing manual attributed
+  to Himilco himself.
+
+  The voyage's reconstructed track is approximately:
+  departure from Gades, north along the Atlantic Iberian
+  coast, across the Bay of Biscay, and into the waters
+  off Brittany and possibly the British Isles. The
+  voyage's apparent purpose was commercial-exploratory:
+  securing Carthaginian access to the Atlantic tin trade
+  that Phoenician-Punic shipping had conducted via Gades
+  for centuries, with direct Carthaginian observation
+  of the tin-producing regions (probably Brittany;
+  possibly the Cassiterides or "tin islands," whose
+  identification is contested).
+
+  The Avienus fragments preserve features broadly
+  consistent with what is independently known of
+  northwestern European Atlantic waters:
+
+  > "There is great quantity of seaweed in those waters,
+  > and many sea-monsters move among the slow ships..."
+  > "The waters there are calm, the winds slack..."
+  > "The voyage takes four months from the Pillars of
+  > Heracles to reach the inhabited regions..."
+
+  Whether Himilco actually reached Britain or the
+  Cassiterides is contested in modern scholarship; the
+  voyage's southward extent (Brittany) is more
+  defensibly attested than its northward limit. Either
+  way, the voyage represents — paired with Hanno's
+  southward African voyage — the only systematic
+  state-sponsored Atlantic exploration of the ancient
+  Mediterranean world before the Roman imperial period.
+
+  The voyage's strategic significance lies in what it
+  preserves of Carthaginian commercial-political
+  ambition: a metropolitan power capable of
+  long-distance state-sponsored exploration, with
+  enough confidence in its Atlantic shipping
+  infrastructure to dispatch official expeditions
+  beyond the limits of regular commerce. The pairing of
+  Hanno's African and Himilco's European voyages is the
+  clearest single piece of surviving evidence for
+  Carthage's Atlantic strategic horizon.

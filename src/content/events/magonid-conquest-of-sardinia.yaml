@@ -1,0 +1,81 @@
+slug: magonid-conquest-of-sardinia
+name: Magonid Conquest of Sardinia
+type: expedition
+date_start:
+  value: -540
+  precision: decade
+  circa: true
+date_end:
+  value: -510
+  precision: decade
+  circa: true
+  notes: >
+    Conventionally placed across the late 6th century BCE,
+    completing in stages between Mago I's command and his
+    sons' subsequent operations. The exact chronology is
+    not preserved in the surviving sources.
+place: sardinia
+participants:
+  - person: mago-i
+    role: founder of the Magonid dynasty; initial Sardinian operations
+    side: Carthaginian
+principal_sources:
+  - justin-epitome
+  - hoyos-carthaginians-2010
+referenced_themes:
+  - carthaginian-seafaring-and-trade
+referenced_institutions:
+  - carthaginian-senate
+related_events:
+  - event: magonid-rise
+    relation: produced by (the Magonid military reorganization that made the conquest possible)
+  - event: battle-of-alalia
+    relation: contemporaneous with (the western Mediterranean configuration that made Sardinia the next major Carthaginian objective)
+summary: >
+  The systematic Carthaginian conquest of Sardinia across
+  the late 6th century BCE — the structural transformation
+  of the Phoenician-colonial-trading-post pattern of the
+  earlier period into Carthaginian imperial control of the
+  island. The conquest was conducted under the Magonid
+  dynasty (Mago I and his sons Hasdrubal and Hamilcar) as
+  one of the family's principal achievements, alongside
+  the Magonid military reorganization itself.
+
+  The pre-Carthaginian configuration on Sardinia had been
+  Phoenician colonies (Karalis, Sulci, Tharros, Nora,
+  others) coexisting with the indigenous Nuragic
+  population in the interior. Carthaginian conquest
+  produced two structural changes: the Phoenician-
+  colonial cities passed to Carthaginian metropolitan
+  control on the model of Carthage's broader takeover of
+  the western Phoenician network, and the Carthaginian
+  army established new positions in the interior to
+  contain Nuragic resistance.
+
+  Justin (18.7) preserves a key episode: the death of
+  Hasdrubal son of Mago in Sardinia during the conquest,
+  reportedly in battle against the Nuragic interior
+  population. The episode is preserved with sufficient
+  ethnographic detail (Hasdrubal's reported eleven
+  triumphs before his Sardinian death) that some
+  underlying historical event is plausible, though the
+  specific attestations are imprecise.
+
+  Sardinian Carthaginian dominance, established in the
+  late 6th century, persisted through the Punic period
+  and was the structural reason Roman seizure of the
+  island during the Mercenary War (238 BCE) was a
+  particularly serious strategic loss for Carthage:
+  Sardinia had been Carthaginian for nearly three
+  centuries, its agricultural and mineral resources
+  formed an important part of Carthaginian state
+  revenue, and its geographic position commanded the
+  central Mediterranean shipping lanes.
+
+  The conquest is also a consequential moment in the
+  development of Carthaginian relations with Rome:
+  Sardinia is named in the treaties of 509 and 348 BCE
+  as the Carthaginian commercial sphere from which
+  Roman traders were excluded, and the pattern of
+  exclusion presupposes the conquest's prior
+  consolidation.
