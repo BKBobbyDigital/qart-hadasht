@@ -52,7 +52,7 @@ for (const e of allEvents) {
         <tbody>
           {places.map((p) => (
             <tr
-              class="border-b border-sand-200 hover:bg-sand-50"
+              class="border-b border-sand-200 hover:bg-tyrian-50 active:bg-tyrian-100 transition-colors"
               data-sort-name={p.data.name_display}
               data-sort-type={p.data.type}
               data-sort-modern={p.data.modern_location ?? ''}
