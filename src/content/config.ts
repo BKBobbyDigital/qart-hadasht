@@ -463,6 +463,18 @@ const deities = defineCollection({
     /** How securely attested, broadly: "well-attested", "well-attested locally",
      *  "attested in inscriptions only", "primarily literary", etc. */
     attestation: z.string().optional(),
+    /** Known sanctuaries / principal cult sites. Free-form short strings,
+     *  e.g. "Tophet at Carthage", "Eshmun sanctuary at Sidon",
+     *  "Antas sanctuary, Sardinia". */
+    sanctuaries: z.array(z.string()).default([]),
+    /** Characteristic visual attributes — symbols, attributes,
+     *  iconographic conventions. A short prose paragraph. */
+    iconography: z.string().optional(),
+    /** Divine consort or principal pairing, if any. Short string. */
+    consort: z.string().optional(),
+    /** Chronological span of attested cult at Carthage (or in the
+     *  Punic sphere), e.g. "8th c. BCE – 146 BCE", "5th c. BCE – 146 BCE". */
+    cult_period: z.string().optional(),
     summary: z.string(),
     principal_sources: z.array(reference('sources')).default([]),
     /** Themes this deity appears in: religion, identity, etc. */
