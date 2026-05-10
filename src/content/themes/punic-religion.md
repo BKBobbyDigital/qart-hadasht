@@ -21,7 +21,10 @@ last_revised: "2026-05-09"
 Carthaginian religion descended from the Phoenician tradition of Tyre. Its
 gods were continuous with those of the Levantine Phoenician cities, but the
 relative weight of individual deities at Carthage diverged from the Tyrian
-pattern. Four gods dominate the surviving Carthaginian record.
+pattern. Four gods dominate the surviving Carthaginian record; many more are
+attested in inscriptions and material culture. Each deity below has a
+structured entry under [Deities](/deities) with full *interpretatio*,
+attestation, etymology, and source citations.
 
 **Baal Hammon** (𐤁𐤏𐤋 𐤇𐤌𐤍, *Baʿal Ḥamon*) was the chief male deity of
 Carthage from at least the 7th century BCE. The name combines *Baʿal*
