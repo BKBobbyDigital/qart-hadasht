@@ -13,7 +13,10 @@ participants:
     role: commander
     side: Syracuse
   - person: hamilcar-son-of-gisco
-    role: commander
+    role: commander (Sicilian theatre)
+    side: Carthaginian
+  - person: bomilcar
+    role: commander; Carthaginian internal political figure (failed coup 308 BCE)
     side: Carthaginian
 principal_sources:
   - diodorus-library

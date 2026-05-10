@@ -12,6 +12,9 @@ participants:
   - person: dionysius-i
     role: principal Greek commander
     side: Syracuse
+  - person: himilco
+    role: Carthaginian commander (397–396 BCE counter-offensive)
+    side: Carthaginian
 principal_sources:
   - diodorus-library
 related_events:
