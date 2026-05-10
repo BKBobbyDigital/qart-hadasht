@@ -1,0 +1,81 @@
+slug: mago-agronomist
+name_display: Mago of Carthage (the Agronomist)
+name_punic: Magon
+name_punic_script: 𐤌𐤂𐤍
+name_greek: Μάγων
+name_latin: Mago Carthaginiensis
+etymology: >
+  Punic *Magon*, the same common Carthaginian aristocratic
+  name held by the founder of the Magonid dynasty (Mago I)
+  and the Barcid commander Mago Barca. Distinguishing the
+  agronomist from other Magos is a modern editorial
+  convention; the surviving sources call him simply "Mago of
+  Carthage" or "the Carthaginian Mago."
+floruit:
+  value: -300
+  precision: century
+  circa: true
+  notes: >
+    Mago's exact dates are not preserved. Modern scholarship
+    places him variously between the late 4th and the
+    mid-3rd century BCE on the basis of the institutional
+    context his treatise presupposes (a Carthaginian
+    agricultural economy operating across a settled
+    African hinterland with substantial estate-scale
+    production).
+roles:
+  - agricultural writer
+  - author of the 28-book agricultural treatise (the only
+    Carthaginian work the Romans systematically preserved)
+polity: Carthage
+referenced_themes:
+  - carthaginian-agriculture
+  - carthaginian-economy
+  - punic-language-and-script
+summary: >
+  The author of the most consequential single Carthaginian
+  literary text of which any substantial trace survives:
+  the 28-book agricultural treatise that the Roman senate,
+  alone among Punic literature recovered after the 146 BCE
+  destruction, specifically ordered translated into Latin
+  for preservation. The order is preserved in Pliny the
+  Elder (*Natural History* 18.5) and is one of the most
+  striking surviving instances of Roman engagement with
+  Carthaginian intellectual culture: the city's libraries
+  were given to its Numidian allies; only Mago's treatise
+  was held back for Latin translation.
+
+  The treatise itself is lost. What survives is preserved
+  in citations across the Roman agronomic tradition —
+  Varro, Columella, the elder Pliny, Palladius, and through
+  intermediate sources Mago's contemporary Greek translator
+  Cassius Dionysius of Utica. Approximately fifty
+  substantial Magonic fragments are recoverable from these
+  later sources, ranging from specific viticultural
+  techniques to estate-management principles to the
+  classification of soil types.
+
+  What survives shows a sophisticated agronomic intellectual
+  tradition operating at the scale of substantial estates
+  worked by slave and tenant labor. The fragments cover
+  vine-growing, olive cultivation, grain rotation, cattle
+  and bee management, and the division of labor on
+  large agricultural establishments. Mago's voice in the
+  fragments is empirical and systematic; his framework
+  presupposes substantial Carthaginian agricultural
+  literature predating his synthesis (he cites earlier
+  authors), almost all of which is lost.
+
+  The historical significance of Mago's treatise is
+  twofold. First, the Roman preservation order is itself
+  evidence for the Roman recognition of Carthaginian
+  agricultural sophistication — the city's defeat in 146
+  BCE did not extend to its agricultural science, which
+  Rome treated as a useful technical inheritance. Second,
+  Mago's treatise is the principal evidence for the
+  structural character of Carthaginian agricultural
+  economy: estate-scale production, slave-and-tenant
+  labor organization, sophisticated specialization in
+  Mediterranean tree crops. The Carthaginian rural
+  economy as we can reconstruct it is substantially
+  Mago's economy.

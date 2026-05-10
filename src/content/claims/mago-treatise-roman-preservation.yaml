@@ -1,0 +1,50 @@
+slug: mago-treatise-roman-preservation
+statement: >
+  The Roman senate, after the destruction of Carthage in 146
+  BCE, ordered Mago of Carthage's 28-book agricultural
+  treatise translated into Latin — the only Carthaginian
+  work singled out for preservation while the rest of the
+  city's libraries were given to its Numidian allies. The
+  preservation order is the single most striking surviving
+  instance of Roman engagement with Carthaginian
+  intellectual culture and the principal evidence for the
+  Roman recognition of Carthaginian agricultural
+  sophistication as worth inheriting.
+confidence: attested
+scholarly_consensus: >
+  The preservation order is firmly attested in Pliny the
+  Elder (*Natural History* 18.5) and is broadly accepted in
+  modern scholarship. The Latin translation itself is lost,
+  but its existence is corroborated by citations across the
+  Roman agronomic tradition (Varro, Columella, Palladius)
+  that preserve Mago's voice in approximately fifty
+  recoverable fragments.
+sources:
+  - source: lancel-carthage-1995
+    stance: supports
+    passage_summary: >
+      Lancel's treatment of the preservation order
+      integrates the Pliny passage with the broader
+      Roman agronomic tradition's transmission of
+      Mago's framework.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos discusses the preservation order in the
+      context of the broader 146 BCE Roman handling of
+      Carthaginian intellectual property.
+  - source: warmington-carthage-1969
+    stance: supports
+    passage_summary: >
+      Warmington's overview discusses the Mago-fragment
+      tradition and its preservation pattern in detail.
+entities:
+  - type: person
+    slug: mago-agronomist
+    role: subject
+  - type: theme
+    slug: carthaginian-agriculture
+    role: subject
+  - type: event
+    slug: destruction-of-carthage
+    role: context

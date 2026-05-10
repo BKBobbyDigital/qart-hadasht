@@ -1,0 +1,53 @@
+slug: cothon-architectural-distinctiveness
+statement: >
+  The Cothon — Carthage's circular military harbor with
+  central admiralty island and 220 perimeter ship-sheds —
+  is the most architecturally distinctive military-naval
+  installation surviving from the ancient Mediterranean.
+  Appian's literary description (Punica 96) was confirmed
+  in unusually close detail by 1970s-1980s UNESCO
+  excavation. The harbor's combination of weather-protected
+  dry-dock capacity, intelligence-shielded inner basin, and
+  monumental architectural ambition has no clear parallel
+  in surviving Greek or Roman naval infrastructure of the
+  period.
+confidence: attested
+scholarly_consensus: >
+  The architectural distinctiveness is firmly attested
+  through the convergence of literary description (Appian)
+  and modern archaeological evidence. The interpretive
+  question — how far the Cothon's design was a
+  Carthaginian innovation versus a Phoenician
+  inheritance — is more open. Similar harbor configurations
+  at Motya and the Phoenician homeland cities (Sidon, Tyre)
+  suggest the form may have been a Phoenician colonial-
+  network feature, with Carthage building the largest and
+  most monumental example.
+sources:
+  - source: appian-punica
+    stance: supports
+    passage_ref: "96"
+    passage_summary: >
+      Appian's literary description of the harbor's
+      configuration: 220 ship-sheds, central admiralty
+      island, defensive double-harbor arrangement.
+  - source: lancel-carthage-1995
+    stance: supports
+    passage_summary: >
+      Lancel's overview integrates the literary and
+      archaeological evidence on the Cothon and treats
+      its design as a coherent architectural-military
+      achievement.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos discusses the Cothon's strategic significance
+      and its place in Carthaginian naval-political
+      history.
+entities:
+  - type: place
+    slug: cothon
+    role: subject
+  - type: theme
+    slug: carthaginian-seafaring-and-trade
+    role: context

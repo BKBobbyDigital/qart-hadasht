@@ -1,0 +1,48 @@
+slug: kerkouane-preserved-punic-urban-fabric
+statement: >
+  Kerkouane — abandoned in the mid-3rd century BCE during
+  the First Punic War and never resettled — preserves the
+  only substantially intact Punic urban fabric in the
+  archaeological record. Where every other Carthaginian-
+  period site is destroyed, Romanized, or under modern
+  occupation, Kerkouane's orthogonal street grid, 100+
+  domestic structures with bathrooms and decorative
+  mosaics, distributed sanctuaries, and small-scale
+  workshops constitute the principal evidence base for
+  Punic domestic architecture and small-city life.
+confidence: attested
+scholarly_consensus: >
+  The site's preservation status and its archaeological
+  significance are firmly attested and broadly accepted.
+  The interpretive question — how representative
+  Kerkouane is of Punic urban life more broadly versus how
+  far it reflects local conditions of a small coastal
+  city — is an active question in modern scholarship.
+  The dominant reading treats Kerkouane as broadly
+  representative of Punic small-city patterns while
+  cautioning against extrapolating directly to metropolitan
+  Carthage.
+sources:
+  - source: lancel-carthage-1995
+    stance: supports
+    passage_summary: >
+      Lancel's treatment of Kerkouane integrates the site
+      with broader Punic urban patterns and discusses
+      the preservation context.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos's overview discusses Kerkouane's significance
+      for understanding Punic domestic life.
+  - source: quinn-phoenicians-2018
+    stance: supports
+    passage_summary: >
+      Quinn integrates Kerkouane evidence with broader
+      Phoenician-Punic urban-archaeological analysis.
+entities:
+  - type: place
+    slug: kerkouane
+    role: subject
+  - type: theme
+    slug: daily-life-in-carthage
+    role: context
