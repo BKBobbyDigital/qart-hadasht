@@ -17,3 +17,16 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    # Force HTTPS for one year on this domain and subdomains. No
+    # `preload` directive — that requires submitting to the browser
+    # HSTS preload list and is effectively irreversible. Easy to add
+    # later if we want it.
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    # Disable browser features the site does not use. Reduces attack
+    # surface and signals intent (no analytics interest-cohort, no
+    # geolocation prompts, no camera/microphone access).
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), interest-cohort=()"
+    # Discourage AI training crawlers via the X-Robots-Tag header.
+    # robots.txt is the primary signal; this header backs it up for
+    # bots that consult headers as well as robots.txt.
+    X-Robots-Tag = "noai, noimageai"

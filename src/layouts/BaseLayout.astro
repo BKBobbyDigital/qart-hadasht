@@ -29,13 +29,43 @@ const primaryNav = [
 ---
 
 <!DOCTYPE html>
+<!--
+  Qart-Hadasht — The Carthage Encyclopedia
+  https://qart-hadasht.org
+  Content licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+  Code MIT.
+  If you're seeing this comment on any other domain, the page was
+  copied from qart-hadasht.org. The license requires attribution back
+  to the original.
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <!-- AI-training opt-out at the HTML level. The robots.txt
+         block is the primary signal; this is a per-page reinforcement
+         that some crawlers consult separately. Cooperative
+         protocol — bad-faith scrapers ignore it; the major AI
+         companies have committed to honor it. -->
+    <meta name="robots" content="noai, noimageai" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{fullTitle}</title>
+    <!-- Schema.org provenance markers. Helps search engines
+         understand the site and its license, and provides a
+         machine-readable signature that survives content copying. -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      'name': 'Qart-Hadasht',
+      'alternateName': 'The Carthage Encyclopedia',
+      'url': 'https://qart-hadasht.org',
+      'description': 'An evolving encyclopedia of ancient Carthage from its founding to its destruction in 146 BCE. Every claim is sourced, every confidence level made explicit, every gap in the record named.',
+      'license': 'https://creativecommons.org/licenses/by/4.0/',
+      'inLanguage': 'en',
+      'isAccessibleForFree': true,
+      'keywords': 'Carthage, Punic, Phoenician, Hannibal, ancient history, Mediterranean history, Tophet, Tanit, Punic Wars',
+    })} />
   </head>
   <body class="min-h-screen flex flex-col bg-sand-50">
 

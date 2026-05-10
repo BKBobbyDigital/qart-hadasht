@@ -1,0 +1,112 @@
+# Qart-Hadasht — The Carthage Encyclopedia
+# https://qart-hadasht.org
+#
+# Strategy: allow traditional search and AI live-search/answer bots
+# that cite sources; block AI training scrapers that don't.
+# Cooperative protocol — bad-faith scrapers ignore this; the major AI
+# companies have made public commitments to honor it for the bot
+# identifiers below.
+
+# ─── Default: allow everything not explicitly blocked ────────────────
+User-agent: *
+Allow: /
+
+# ─── AI live-search / answer bots — ALLOW ────────────────────────────
+# These fetch in real time when a user asks an AI a question, and
+# cite the source in the response. This is the AI equivalent of
+# search traffic and exactly the discoverability we want.
+
+# OpenAI — live browsing in ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI — SearchGPT product
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic — Claude live-fetch when users ask Claude things
+User-agent: Claude-Web
+Allow: /
+
+User-agent: claude-web
+Allow: /
+
+# Perplexity — search/answer engine
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# You.com — answer engine
+User-agent: YouBot
+Allow: /
+
+# Apple — Siri / Spotlight Suggestions
+User-agent: Applebot
+Allow: /
+
+# ─── AI training scrapers — DISALLOW ─────────────────────────────────
+# These ingest content into foundation-model training corpora with no
+# attribution back. CC BY 4.0 license requires attribution; opting
+# out of training scrapes is a way of enforcing that requirement
+# proactively.
+
+# OpenAI — model training
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic — model training
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Common Crawl — feeds many AI training datasets
+User-agent: CCBot
+Disallow: /
+
+# Google — Gemini / Bard training (does NOT affect Googlebot search)
+User-agent: Google-Extended
+Disallow: /
+
+# ByteDance / TikTok — training
+User-agent: Bytespider
+Disallow: /
+
+# Meta — training crawlers
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Diffbot — knowledge-graph crawler that resells content
+User-agent: Diffbot
+Disallow: /
+
+# Omgili — content aggregator
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+# ImageSift — image scraper
+User-agent: ImagesiftBot
+Disallow: /
+
+# Cohere training
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# Amazon — internal training crawler
+User-agent: Amazonbot
+Disallow: /
