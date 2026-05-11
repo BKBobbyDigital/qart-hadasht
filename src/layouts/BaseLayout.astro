@@ -14,13 +14,19 @@ const {
 } = Astro.props;
 const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
 
-// Primary nav items, in order. Pipes between every item on every page.
-const primaryNav = [
+// Primary nav, split into two rows by conceptual group:
+//   - synthesisNav: the curated/interpretive surfaces ("the site's voice")
+//   - browseNav: the atomic-entry collections ("the encyclopedia A-to-Z")
+// Top row at normal weight; bottom row in slightly muted color to
+// signal "browse the entries" vs the top row's "synthesis."
+const synthesisNav = [
   { href: '/periods', label: 'Periods' },
   { href: '/themes', label: 'Themes' },
   { href: '/threads', label: 'Threads' },
-  { href: '/maps', label: 'Maps' },
   { href: '/narratives', label: 'Narratives' },
+  { href: '/maps', label: 'Maps' },
+];
+const browseNav = [
   { href: '/events', label: 'Events' },
   { href: '/people', label: 'People' },
   { href: '/places', label: 'Places' },
@@ -107,16 +113,29 @@ const primaryNav = [
           </div>
         </a>
 
-        <!-- Primary nav. justify-between on desktop binds Periods to
-             left edge and Sources to right edge of this same parent
-             container. Mobile wraps and centers. -->
-        <nav class="py-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-3 sm:gap-x-4 gap-y-2 text-sm font-medium text-ink-900">
-          {primaryNav.map((item, i) => (
-            <>
-              {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
-              <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
-            </>
-          ))}
+        <!-- Primary nav, two rows. Top row is synthesis surfaces
+             (Periods, Themes, Threads, Narratives, Maps); bottom row
+             is atomic-entry collections (Events, People, Places,
+             Sources, Artifacts). Bottom row in slightly muted color
+             to signal "browse" vs the top row's "synthesis." Both
+             rows wrap on narrow viewports. -->
+        <nav class="py-2 space-y-1" aria-label="Primary navigation">
+          <div class="flex flex-wrap items-center justify-center sm:justify-between gap-x-3 sm:gap-x-4 gap-y-1 text-sm font-medium text-ink-900">
+            {synthesisNav.map((item, i) => (
+              <>
+                {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+                <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
+              </>
+            ))}
+          </div>
+          <div class="flex flex-wrap items-center justify-center sm:justify-between gap-x-3 sm:gap-x-4 gap-y-1 text-[13px] font-medium text-sand-700">
+            {browseNav.map((item, i) => (
+              <>
+                {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+                <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
+              </>
+            ))}
+          </div>
         </nav>
       </div>
 
