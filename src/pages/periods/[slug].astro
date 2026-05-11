@@ -63,8 +63,8 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
 
 <BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-10 lg:items-start">
-    <aside class="lg:col-start-2 lg:row-start-1">
-      <ContentToc contentSelector=".period-content" />
+    <aside class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start">
+      <ContentToc contentSelector=".period-content" nonSticky />
     </aside>
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
     <span hidden data-pagefind-filter="type:Periods" data-pagefind-meta="type:Period"></span>

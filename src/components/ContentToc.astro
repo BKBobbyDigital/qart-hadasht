@@ -16,12 +16,22 @@
 interface Props {
   contentSelector?: string;
   label?: string;
+  /**
+   * Disable the component's own sticky positioning. Use when the
+   * ContentToc is placed inside an outer wrapper that already
+   * handles sticky positioning (e.g. when stacked with an Infobox
+   * in a shared sticky column).
+   */
+  nonSticky?: boolean;
 }
-const { contentSelector = '.prose-encyclopedia', label = 'On this page' } = Astro.props;
+const { contentSelector = '.prose-encyclopedia', label = 'On this page', nonSticky = false } = Astro.props;
+const wrapperClass = nonSticky
+  ? 'content-toc hidden lg:block text-sm'
+  : 'content-toc hidden lg:block sticky top-6 self-start text-sm';
 ---
 
 <nav
-  class="content-toc hidden lg:block sticky top-6 self-start text-sm"
+  class={wrapperClass}
   data-toc-source={contentSelector}
   aria-label={label}
 >

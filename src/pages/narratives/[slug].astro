@@ -58,13 +58,14 @@ const narrativeInfoboxRows: InfoboxRow[] = [
 
 <BaseLayout title={d.title} description={d.thesis}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
-    <div class="lg:col-start-2 lg:row-start-1 space-y-6">
+    <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
       <Infobox
         title={d.title}
         subtitle={`Narrative · ${scopeLabel}`}
         rows={narrativeInfoboxRows}
+        nonSticky
       />
-      <ContentToc contentSelector=".narrative-content" />
+      <ContentToc contentSelector=".narrative-content" nonSticky />
     </div>
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
       <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>

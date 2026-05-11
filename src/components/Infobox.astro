@@ -39,9 +39,19 @@ interface Props {
   title: string;
   subtitle?: string;
   rows: InfoboxRow[];
+  /**
+   * Disable the component's own sticky-right-rail and grid-placement
+   * classes. Use when the Infobox is being placed inside an outer
+   * wrapper that already handles sticky positioning (e.g. when
+   * stacked with a ContentToc).
+   */
+  nonSticky?: boolean;
 }
 
-const { title, subtitle, rows } = Astro.props;
+const { title, subtitle, rows, nonSticky = false } = Astro.props;
+const wrapperClass = nonSticky
+  ? 'mb-4 lg:mb-0'
+  : 'mb-4 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start';
 
 const isEmpty = (v: InfoboxRow['value']) =>
   v === undefined ||
@@ -51,7 +61,7 @@ const isEmpty = (v: InfoboxRow['value']) =>
 ---
 
 <aside
-  class="mb-4 lg:mb-0 lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start"
+  class={wrapperClass}
   aria-label={`Quick facts about ${title}`}
 >
   <details class="border-2 border-tyrian-700 rounded-lg bg-sand-100" open>
