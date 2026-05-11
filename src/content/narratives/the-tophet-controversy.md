@@ -125,12 +125,14 @@ to doubt it.
 ## The Moscati reframing
 
 The decisive challenge to the consensus came from Italian scholarship
-in the 1980s, principally through **Sabatino Moscati** and
-**Sergio Ribichini**. Moscati's argument, developed across multiple
-publications and refined through collaboration with Ribichini and
-**Paolo Xella**, was structural: the Tophet was a *cemetery for
-infants who had died of natural causes*, not a sacrificial precinct
-at all. The classical sources, on this reading, were hostile-tradition
+in the 1980s, principally through
+**[Sabatino Moscati](/sources/moscati-adoratori-1991)** and
+**[Sergio Ribichini](/sources/ribichini-tophet-2013)**. Moscati's
+argument, developed across multiple publications culminating in
+*Gli adoratori di Moloch* (1991) and refined through collaboration
+with Ribichini and **[Paolo Xella](/sources/xella-baal-hammon-1991)**,
+was structural: the Tophet was a *cemetery for infants who had died
+of natural causes*, not a sacrificial precinct at all. The classical sources, on this reading, were hostile-tradition
 misinterpretation; the archaeological evidence was at least as
 consistent with natural-mortality cremation as with deliberate
 killing.
@@ -181,12 +183,14 @@ articles. Their conclusion was that the systematic-sacrifice reading
 was substantially correct, and the Moscati cemetery hypothesis was
 wrong — at least for a meaningful fraction of the Tophet deposits.
 
-The Italian school responded skeptically. **Ribichini's** 2013 reply
-argued that the bioarchaeological methods were themselves contested,
-that the sample sizes were too small to support the conclusions
-drawn, and that the underlying ancient-source skepticism remained
-intact even if some of the deposits were of older children than the
-strict cemetery reading required.
+The Italian school responded skeptically. Ribichini's
+[2013 contributions](/sources/ribichini-tophet-2013) to the
+Xella-edited *Tophet in the Phoenician Mediterranean* supplement
+argued that the bioarchaeological methods were themselves
+contested, that the sample sizes were too small to support the
+conclusions drawn, and that the underlying ancient-source
+skepticism remained intact even if some of the deposits were of
+older children than the strict cemetery reading required.
 
 ## The current standoff
 

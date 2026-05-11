@@ -48,6 +48,15 @@ sources:
       both the strategic-harbor and the planned-capital
       readings without explicitly committing to the
       Hellenistic-pattern framing.
+  - source: lopez-castro-hispania-1995
+    stance: supports
+    passage_summary: >
+      López Castro synthesizes the Spanish archaeological work
+      at Cartagena and documents the Barcid-period strata at
+      the harbor, the residential quarters, and the
+      administrative complex as a single planned urban program.
+      The archaeological evidence is the principal corroboration
+      of the planned-foundation reading.
 entities:
   - type: place
     slug: carthago-nova

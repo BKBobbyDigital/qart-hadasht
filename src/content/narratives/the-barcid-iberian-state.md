@@ -133,10 +133,13 @@ a description of a polis, not of a war camp.
 
 The archaeological reconstruction confirms the literary record.
 The Spanish excavation program at Cartagena across the late
-twentieth and early twenty-first centuries has documented the
-Barcid-period strata at the harbor, the residential quarters, and
-the administrative complex; the foundation pattern reads as a
-single planned project rather than as accreted expansion. A
+twentieth and early twenty-first centuries — synthesized in
+[López Castro's *Hispania Poena* (1995)](/sources/lopez-castro-hispania-1995)
+and the subsequent specialist literature on Carthago Nova — has
+documented the Barcid-period strata at the harbor, the residential
+quarters, and the administrative complex; the foundation pattern
+reads as a single planned project rather than as accreted
+expansion. A
 foundation on this pattern — designed in advance, built across
 several years, integrating ritual and civic and economic functions
 in a single urban program — is the foundation pattern of a

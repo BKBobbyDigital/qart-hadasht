@@ -173,11 +173,17 @@ The principal modern syntheses are Lancel 1995, MacDonald 2015, and the
 relevant chapters of Hoyos's *The Carthaginians* (2010). Krings's
 *La civilisation phénicienne et punique* handbook provides the deepest
 specialist coverage; Sznycer's chapter in Nicolet 1978 is essential for
-the inscriptions. The major epigraphic corpora are the *CIS* (*Corpus
-Inscriptionum Semiticarum*) and Donner & Röllig's *KAI* — the site
-treats the inscriptional corpus as a primary evidence category in its
-own right under the
+the inscriptions. The major epigraphic corpora are the
+*[CIS](/sources/cis)* (*Corpus Inscriptionum Semiticarum*) and Donner
+& Röllig's *[KAI](/sources/kai)* — the site treats the inscriptional
+corpus as a primary evidence category in its own right under the
 [Punic inscriptional record theme](/themes/punic-inscriptional-record),
 which surveys what the corpus contains and what it tells us that the
-literary tradition does not. For the wider Phoenician background,
-Aubet 2001 is the standard reference.
+literary tradition does not. The standard French-language reference
+handbook is the
+[Krings-edited *Manuel de recherche*](/sources/krings-manuel-1995)
+(1995), with chapters by Sznycer, Ribichini, Xella, Bondì, Sader, and
+the other principal Italian and French voices in the field;
+[Xella's *Baal Hammon* (1991)](/sources/xella-baal-hammon-1991) is
+the canonical monograph on the deity. For the wider Phoenician
+background, Aubet 2001 is the standard reference.

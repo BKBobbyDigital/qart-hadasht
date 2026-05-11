@@ -45,7 +45,7 @@ const sources = defineCollection({
       'modern_scholarship',
     ]),
     is_primary: z.boolean(),
-    language: z.enum(['greek', 'latin', 'punic', 'neopunic', 'phoenician', 'english', 'french', 'italian', 'german']),
+    language: z.enum(['greek', 'latin', 'punic', 'neopunic', 'phoenician', 'english', 'french', 'italian', 'german', 'spanish']),
     date_composed: historicalDate.optional(),
     /** Approximate years between events described and composition. */
     temporal_distance_years: z.number().int().nullable().optional(),

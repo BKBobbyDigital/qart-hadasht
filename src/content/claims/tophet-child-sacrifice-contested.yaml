@@ -75,6 +75,35 @@ sources:
       Quinn's analysis integrates the Tophet question with
       broader Phoenician-Punic religious-historical
       reconstruction.
+  - source: moscati-adoratori-1991
+    stance: contradicts
+    passage_summary: >
+      Moscati's polemical statement of the cemetery-hypothesis
+      reading: the Tophet was a burial ground for infants who
+      died of natural causes, given ritual cremation because of
+      their special religious status, rather than a sacrificial
+      precinct. The classical sources are hostile-tradition
+      projection onto a misread mortuary practice. The position
+      shaped continental European scholarship through the 1990s
+      and 2000s.
+  - source: ribichini-tophet-2013
+    stance: contradicts
+    passage_summary: >
+      Ribichini's methodological reply to the Smith-Stager
+      bioarchaeological work: the dental-development techniques
+      are themselves contested, sample sizes are insufficient,
+      and the underlying source-criticism case against the
+      systematic-sacrifice reading remains intact. The cemetery-
+      hypothesis tradition's continuing position.
+  - source: xella-baal-hammon-1991
+    stance: qualifies
+    passage_summary: >
+      Xella's canonical monograph on Baal Hammon includes the
+      cemetery-hypothesis reading of the Tophet within the
+      wider Italian-school treatment of Punic religion. The
+      Baal Hammon work is the standard reference for the
+      deity who is named in the bulk of Tophet stele
+      dedications.
 entities:
   - type: theme
     slug: the-tophet-question
