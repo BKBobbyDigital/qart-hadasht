@@ -155,3 +155,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible,
   outline-offset: 2px;
   border-radius: 2px;
 }
+
+/* Uniform card layout for index pages (people, groups, etc).
+   Title is line-clamp-1, body is line-clamp-2 with a 2-line min-height
+   so cards stay the same size regardless of body content length. The
+   container takes h-full from the grid for cross-row consistency. */
+.card-uniform .card-body {
+  min-height: 2.75em;
+}

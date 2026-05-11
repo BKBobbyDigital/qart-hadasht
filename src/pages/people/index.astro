@@ -49,15 +49,20 @@ const personRows = people.map(personRow);
     {groups.length > 0 && (
       <section class="mb-12">
         <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Groups</h2>
-        <ul class="grid sm:grid-cols-2 gap-3">
+        <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 items-stretch">
           {groups.map((g) => (
-            <li>
-              <a href={`/groups/${g.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
-                <h3 class="font-serif text-lg text-tyrian-700">{g.data.name_display}</h3>
-                <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{g.data.type.replace('_', ' ')}</p>
-                {g.data.polity_affiliation && (
-                  <p class="text-sm text-sand-700 mt-1">{g.data.polity_affiliation}</p>
-                )}
+            <li class="h-full">
+              <a
+                href={`/groups/${g.id}`}
+                class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+              >
+                <h3 class="font-serif text-lg text-tyrian-800 leading-tight line-clamp-1">{g.data.name_display}</h3>
+                <p class="mt-1.5">
+                  <span class="inline-block text-[10px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-1.5 py-0.5 rounded">{g.data.type.replace('_', ' ')}</span>
+                </p>
+                <p class="text-sm text-sand-700 mt-2 line-clamp-2 leading-snug card-body">
+                  {g.data.polity_affiliation || ''}
+                </p>
               </a>
             </li>
           ))}
@@ -72,16 +77,27 @@ const personRows = people.map(personRow);
       </div>
 
       <div data-view-cards>
-        <ul class="grid sm:grid-cols-2 gap-3">
-          {people.map((p) => (
-            <li>
-              <a href={`/people/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
-                <h3 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h3>
-                {p.data.name_punic && <p class="text-sm text-sand-700">{p.data.name_punic}</p>}
-                <p class="text-xs text-sand-700 mt-1">{p.data.polity} · {p.data.roles.join(', ')}</p>
+        <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 items-stretch">
+          {people.map((p) => {
+            const row = personRow(p);
+            const bodyText = [row.role, row.dates].filter(Boolean).join(' · ');
+            return (
+            <li class="h-full">
+              <a
+                href={`/people/${p.id}`}
+                class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+              >
+                <h3 class="font-serif text-lg text-tyrian-800 leading-tight line-clamp-1">{p.data.name_display}</h3>
+                <p class="mt-1.5">
+                  <span class="inline-block text-[10px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-1.5 py-0.5 rounded">{p.data.polity}</span>
+                </p>
+                <p class="text-sm text-sand-700 mt-2 line-clamp-2 leading-snug card-body">
+                  {bodyText}
+                </p>
               </a>
             </li>
-          ))}
+            );
+          })}
         </ul>
       </div>
 
