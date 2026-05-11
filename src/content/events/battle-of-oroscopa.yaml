@@ -1,6 +1,7 @@
 slug: battle-of-oroscopa
 name: Battle of Oroscopa
 type: battle
+outcome: "Numidian (Masinissa) victory over the Carthaginian expedition; treaty-violating Carthaginian action that became the Third Punic War trigger"
 date_start:
   value: -150
   precision: year

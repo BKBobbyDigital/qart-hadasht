@@ -1,6 +1,7 @@
 slug: battle-of-cannae
 name: Battle of Cannae
 type: battle
+outcome: "Decisive Carthaginian tactical victory; one of antiquity's most-cited tactical envelopments"
 date_start:
   value: -216
   precision: year

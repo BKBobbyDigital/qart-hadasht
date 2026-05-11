@@ -13,6 +13,18 @@ primary:
   lon: 10.3236
   confidence: certain
 modern_location: Tunis governorate, Tunisia
+founded:
+  founder: 'Tyrian Phoenicians under the foundation tradition of Dido / Elissa'
+  date:
+    value: -814
+    precision: year
+    circa: true
+cultural_sphere: punic
+current_status: >
+  Archaeological park within the modern Tunis suburb of Carthage;
+  substantial Punic-period strata excavated; Roman re-foundation
+  overlies much of the Punic city
+patron_deity: 'Tanit and Baal Hammon (principally); Melqart (Tyrian connection)'
 summary: >
   The principal Phoenician colony in the western Mediterranean,
   founded by settlers from Tyre traditionally dated to 814 BCE

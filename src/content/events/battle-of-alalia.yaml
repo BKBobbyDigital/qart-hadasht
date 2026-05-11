@@ -1,6 +1,7 @@
 slug: battle-of-alalia
 name: Battle of Alalia
 type: battle
+outcome: "Pyrrhic Carthaginian-Etruscan victory; Phocaeans withdrew from Corsica"
 date_start:
   value: -535
   precision: year

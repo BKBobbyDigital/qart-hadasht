@@ -1,6 +1,7 @@
 slug: battle-of-crimisus
 name: Battle of the Crimisus
 type: battle
+outcome: "Decisive Greek (Timoleon) victory over Carthaginian forces in Sicily"
 date_start:
   value: -341
   precision: year

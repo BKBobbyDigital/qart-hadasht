@@ -1,6 +1,7 @@
 slug: third-punic-war
 name: Third Punic War
 type: war
+outcome: "Decisive Roman victory; the destruction of Carthage in 146 BCE"
 date_start:
   value: -149
   precision: year

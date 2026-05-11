@@ -1,6 +1,7 @@
 slug: battle-of-trebia
 name: Battle of the Trebia
 type: battle
+outcome: "Decisive Carthaginian victory; first major pitched battle of the Italian campaign"
 date_start:
   value: -218
   precision: year

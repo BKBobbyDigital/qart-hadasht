@@ -22,6 +22,11 @@ roles:
   - Roman strategist of the post-Cannae recovery
   - leader of the embassy to Carthage in 218 BCE that declared the Second Punic War
 polity: Rome
+offices_held:
+  - office: 'Roman consul (multiple terms)'
+    year: -233
+  - office: 'Roman dictator'
+    year: -217
 summary: >
   The Roman senator and military commander whose strategic
   patience after the disasters of Trebia, Trasimene, and

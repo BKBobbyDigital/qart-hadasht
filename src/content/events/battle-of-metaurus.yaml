@@ -1,6 +1,7 @@
 slug: battle-of-metaurus
 name: Battle of the Metaurus
 type: battle
+outcome: "Decisive Roman victory; killed Hasdrubal Barca and closed the Italian-reinforcement option"
 date_start:
   value: -207
   precision: year

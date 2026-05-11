@@ -13,6 +13,11 @@ roles:
   - consul
   - general
 polity: Rome
+offices_held:
+  - office: 'Member of the 218 BCE Roman embassy to Carthage'
+    year: -218
+  - office: 'Roman consul (the Cannae year)'
+    year: -216
 summary: >
   Roman aristocrat of the Aemilii Paulli, consul for the second time in
   216 BCE alongside Gaius Terentius Varro. The two consuls commanded

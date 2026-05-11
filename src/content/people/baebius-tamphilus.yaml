@@ -17,6 +17,13 @@ roles:
   - envoy
   - praetor
 polity: Rome
+offices_held:
+  - office: 'Member of the 219 BCE Roman embassy to Hannibal'
+    year: -219
+  - office: 'Member of the 218 BCE Roman embassy to Carthage'
+    year: -218
+  - office: 'Roman praetor (Hispania Citerior)'
+    year: -199
 summary: >
   Quintus Baebius Tamphilus is the principal Roman diplomat of the
   Second Punic War's outbreak in the surviving record — the one

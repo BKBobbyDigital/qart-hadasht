@@ -13,6 +13,17 @@ primary:
   lon: -0.9870
   confidence: certain
 modern_location: Cartagena, Region of Murcia, Spain
+founded:
+  founder: 'Hasdrubal the Fair'
+  date:
+    value: -228
+    precision: year
+cultural_sphere: punic
+current_status: >
+  Modern Cartagena (Spain); the Punic-period harbor and city plan
+  substantially preserved beneath the Roman and modern overlay; the
+  Barcid-period strata documented by Spanish archaeological work
+patron_deity: 'Eshmun (the principal Barcid Carthago Nova sanctuary)'
 summary: >
   Carthaginian Iberian capital founded by Hasdrubal the Fair
   in approximately 228 BCE on the southeastern coast of the

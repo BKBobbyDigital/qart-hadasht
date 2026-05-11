@@ -13,6 +13,18 @@ primary:
   lon: 12.4731
   confidence: certain
 modern_location: Mozia (San Pantaleo), Stagnone Lagoon, off Marsala (western Sicily)
+founded:
+  founder: 'Phoenicians, likely Tyrian colonists'
+  date:
+    value: -800
+    precision: century
+    circa: true
+cultural_sphere: punic
+current_status: >
+  Archaeological site on the island of San Pantaleo, western Sicily;
+  substantial Punic-period remains; destroyed by Dionysius I in 397
+  BCE and never rebuilt at scale
+patron_deity: 'Baal Hammon and Tanit (Tophet attested)'
 summary: >
   The principal Carthaginian fortified base in Sicily through
   the 6th and 5th centuries BCE — a small island in the

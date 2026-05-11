@@ -11,6 +11,16 @@ primary:
   lon: 21.8585
   confidence: certain
 modern_location: Jabal al-Akhdar (Cyrenaica), Libya
+founded:
+  founder: 'Greeks of Thera'
+  date:
+    value: -631
+    precision: year
+    circa: true
+cultural_sphere: greek
+current_status: >
+  UNESCO archaeological site in modern Libya; substantial Greek and
+  Roman-imperial-period remains
 summary: >
   Greek colony on the North African coast east of the Greater
   Syrtis, founded as a Therean settlement c. 631 BCE and

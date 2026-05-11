@@ -13,6 +13,17 @@ primary:
   lon: 10.6361
   confidence: certain
 modern_location: Sousse, Tunisia (central Tunisian Sahel coast)
+founded:
+  founder: 'Tyrian Phoenicians'
+  date:
+    value: -800
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Sousse (Tunisia); continuous occupation; Phoenician-Punic
+  strata accessible at specific sites within the modern city
+patron_deity: 'Baal Hammon (Tophet attested)'
 summary: >
   The second city of Punic North Africa after Carthage itself, on
   the central Sahel coast about 140 km south of the metropolis.

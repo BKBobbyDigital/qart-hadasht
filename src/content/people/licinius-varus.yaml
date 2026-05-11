@@ -19,6 +19,9 @@ roles:
   - senator
   - envoy
 polity: Rome
+offices_held:
+  - office: 'Member of the 218 BCE Roman embassy to Carthage'
+    year: -218
 summary: >
   Gaius Licinius Varus was one of the four co-envoys, alongside
   [Quintus Fabius Maximus](/people/fabius-maximus-cunctator) (the

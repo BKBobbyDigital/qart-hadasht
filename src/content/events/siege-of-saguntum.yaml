@@ -1,6 +1,7 @@
 slug: siege-of-saguntum
 name: Siege of Saguntum
 type: siege
+outcome: "Carthaginian victory; the eight-month siege fell, Saguntum destroyed"
 date_start:
   value: -219
   precision: year

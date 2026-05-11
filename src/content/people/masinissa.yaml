@@ -33,6 +33,18 @@ polity: Numidia
 referenced_themes:
   - punic-identity
   - punic-religion
+family:
+  father: gala
+  spouse_names:
+    - 'Sophonisba (briefly, 203 BCE)'
+  children_names:
+    - 'Micipsa'
+    - 'Gulussa'
+    - 'Mastanabal'
+offices_held:
+  - office: 'King of the unified Numidian kingdom'
+    year: -202
+    notes: 'reigned c. 206-148 BCE'
 summary: >
   Masinissa is one of the most consequential individual actors
   in the entire arc of Carthaginian history. He ruled the

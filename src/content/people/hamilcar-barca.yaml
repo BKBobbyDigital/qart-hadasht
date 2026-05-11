@@ -29,6 +29,21 @@ referenced_institutions:
   - carthaginian-senate
 referenced_themes:
   - carthaginian-economy
+family:
+  children:
+    - hannibal-barca
+    - hasdrubal-barca
+    - mago-barca
+  children_names:
+    - "Hamilcar's daughter (wife of Hasdrubal the Fair)"
+    - "Hamilcar's daughter (wife of Naravas)"
+offices_held:
+  - office: 'Carthaginian commander in Sicily (Mount Eryx)'
+    year: -247
+  - office: 'Carthaginian commander against the Mercenary War rebellion'
+    year: -240
+  - office: 'Commander of the Iberian expedition'
+    year: -237
 summary: >
   Carthaginian general and statesman, founder of the Barcid family
   whose three-generation arc dominated Carthaginian political and

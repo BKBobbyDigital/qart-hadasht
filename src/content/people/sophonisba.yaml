@@ -19,6 +19,11 @@ death:
 roles:
   - princess
 polity: Carthage
+family:
+  father: hasdrubal-gisco
+  spouse_names:
+    - 'Syphax (206-203 BCE)'
+    - 'Masinissa (briefly, 203 BCE)'
 summary: >
   Daughter of [Hasdrubal Gisco](/people/hasdrubal-gisco) and the
   most-attested individual Carthaginian woman in the surviving

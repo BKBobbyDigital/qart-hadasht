@@ -17,6 +17,9 @@ roles:
   - senator
   - envoy
 polity: Rome
+offices_held:
+  - office: 'Leader of the 219 BCE Roman embassy to Hannibal'
+    year: -219
 summary: >
   Publius Valerius Flaccus led the spring 219 BCE Roman embassy to
   Hannibal's siege camp at [Saguntum](/places/saguntum) — the earlier

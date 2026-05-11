@@ -13,6 +13,18 @@ primary:
   lon: 14.2906
   confidence: certain
 modern_location: Khoms (Al-Khums), Libya, on the Tripolitanian coast east of Tripoli
+founded:
+  founder: 'Phoenicians, conventionally Tyrian'
+  date:
+    value: -700
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  UNESCO archaeological site in modern Libya; Roman-imperial-period
+  remains dominate; neo-Punic inscriptional record substantively
+  preserved
+patron_deity: 'Shadrapa and Milkashtart (the principal Lepcis Punic-period deities)'
 summary: >
   The largest of the three Punic cities of the Tripolitanian coast
   (Sabratha and Oea were the others; the trio gave the region its

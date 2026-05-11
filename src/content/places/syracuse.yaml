@@ -11,6 +11,16 @@ primary:
   lon: 15.2866
   confidence: certain
 modern_location: Siracusa, Sicily, Italy
+founded:
+  founder: 'Corinthian Greeks'
+  date:
+    value: -733
+    precision: year
+    circa: true
+cultural_sphere: greek
+current_status: >
+  Modern Siracusa (Sicily); UNESCO archaeological site; substantial
+  Greek-Sicilian monumental remains
 summary: >
   The principal Greek city of Sicily, founded as a Corinthian
   colony in 734 BCE and developed by the 5th and 4th centuries

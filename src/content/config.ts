@@ -94,6 +94,39 @@ const people = defineCollection({
      * tradition). Bidirectional rendering.
      */
     referenced_themes: z.array(reference('themes')).default([]),
+    /**
+     * Family relationships. References to other people entries where possible;
+     * fallback to strings for figures not in the collection. Surfaced in the
+     * infobox as quick-reference family-tree links.
+     */
+    family: z
+      .object({
+        father: reference('people').optional(),
+        father_name: z.string().optional(), // freeform if father isn't on the site
+        mother: reference('people').optional(),
+        mother_name: z.string().optional(),
+        spouses: z.array(reference('people')).default([]),
+        spouse_names: z.array(z.string()).default([]),
+        children: z.array(reference('people')).default([]),
+        children_names: z.array(z.string()).default([]),
+      })
+      .optional(),
+    /**
+     * Offices held — array of structured entries with office name and year.
+     * Examples: { office: "Suffete", year: -196 } for Hannibal's 196 BCE
+     * suffeteship; { office: "Consul of Rome", year: -218 } for Scipio's
+     * consulship. Freeform office name (since some offices aren't in the
+     * institutions collection); year is the historical year integer.
+     */
+    offices_held: z
+      .array(
+        z.object({
+          office: z.string(),
+          year: z.number().int().optional(),
+          notes: z.string().optional(),
+        })
+      )
+      .default([]),
   }),
 });
 
@@ -136,6 +169,42 @@ const places = defineCollection({
     /** Used when location is contested or unknown — multiple candidates. */
     candidates: z.array(placeCandidate).optional(),
     modern_location: z.string().optional(),
+    /** Founding information for cities and sanctuaries. Founder is
+     *  freeform (e.g., "Tyrian Phoenicians", "Hasdrubal the Fair",
+     *  "Sicilian Greeks of Megara") since not all founders are people
+     *  in our collection. Date is the standard historicalDate. */
+    founded: z
+      .object({
+        founder: z.string().optional(),
+        date: historicalDate.optional(),
+        notes: z.string().optional(),
+      })
+      .optional(),
+    /** Cultural-political sphere the place belonged to during its
+     *  Carthaginian-relevant period. For sites that shifted spheres
+     *  across time (e.g., Carthage itself, which was Phoenician then
+     *  Punic then post-146 Roman), this captures the principal
+     *  Carthaginian-relevant period's affiliation. */
+    cultural_sphere: z
+      .enum([
+        'phoenician',
+        'punic',
+        'greek',
+        'numidian',
+        'libyo-phoenician',
+        'iberian',
+        'roman',
+        'mixed',
+      ])
+      .optional(),
+    /** Brief note on the place's current physical-archaeological
+     *  state — preserved as an archaeological site, lost beneath a
+     *  modern city, abandoned ruins, etc. Freeform short string. */
+    current_status: z.string().optional(),
+    /** Principal deity or sanctuary affiliation, where attested.
+     *  Freeform since not all attested deities are in our collection.
+     *  Examples: "Melqart (Tyrian patronage)", "Baal Hammon and Tanit". */
+    patron_deity: z.string().optional(),
     summary: z.string(),
   }),
 });
@@ -207,6 +276,12 @@ const events = defineCollection({
     map_id: z.string().optional(),
     /** Optional caption for the historical map. */
     map_caption: z.string().optional(),
+    /** Short freeform outcome statement for battles, sieges, political
+     *  events, treaties — surfaced in the infobox for at-a-glance
+     *  reference. Examples: "Decisive Carthaginian tactical victory",
+     *  "Roman strategic victory", "Inconclusive", "Pyrrhic Carthaginian
+     *  victory at strategic cost". */
+    outcome: z.string().optional(),
   }),
 });
 

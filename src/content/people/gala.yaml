@@ -34,6 +34,13 @@ roles:
 polity: Numidia
 referenced_themes:
   - punic-identity
+family:
+  children:
+    - masinissa
+offices_held:
+  - office: 'King of the Massylii'
+    year: -230
+    notes: 'died c. 206 BCE'
 summary: >
   Gala was the Massylii king through the principal Second Punic
   War period and the father of [Masinissa](/people/masinissa).

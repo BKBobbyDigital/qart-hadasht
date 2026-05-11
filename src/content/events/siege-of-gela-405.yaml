@@ -1,6 +1,7 @@
 slug: siege-of-gela-405
 name: Siege of Gela
 type: siege
+outcome: "Carthaginian victory; Gela evacuated under truce"
 date_start:
   value: -405
   precision: year

@@ -30,6 +30,11 @@ roles:
 polity: Carthage
 referenced_themes:
   - carthaginian-economy
+family:
+  father: hamilcar-barca
+offices_held:
+  - office: 'Carthaginian commander in northern Italy (Liguria)'
+    year: -205
 summary: >
   Youngest of the three sons of [Hamilcar Barca](/people/hamilcar-barca),
   brother of [Hannibal](/people/hannibal-barca) and

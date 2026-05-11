@@ -13,6 +13,17 @@ primary:
   lon: -6.2924
   confidence: certain
 modern_location: Cádiz, Andalusia, Atlantic coast of southwestern Spain
+founded:
+  founder: 'Tyrian Phoenicians'
+  date:
+    value: -1100
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Cádiz (Spain); continuous occupation; Phoenician strata
+  accessible at specific excavated sites within the modern city
+patron_deity: 'Melqart (the famous Heracleion of Gades)'
 summary: >
   The principal Phoenician colony of the western
   Mediterranean — and, on the surviving foundation

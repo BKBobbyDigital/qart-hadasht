@@ -1,6 +1,7 @@
 slug: siege-of-syracuse-and-plague-396
 name: Siege of Syracuse and the Carthaginian Plague (396 BCE)
 type: siege
+outcome: "Greek (Syracusan) victory; Carthaginian siege failed, plague destroyed the besieging army"
 date_start:
   value: -396
   precision: year

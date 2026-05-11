@@ -32,6 +32,14 @@ roles:
 polity: Carthage
 referenced_themes:
   - punic-identity
+family:
+  children:
+    - sophonisba
+offices_held:
+  - office: 'Carthaginian commander in Iberia'
+    year: -215
+  - office: 'Carthaginian commander in Africa'
+    year: -204
 summary: >
   Hasdrubal Gisco was the principal non-Barcid Carthaginian
   field-commander of the late Second Punic War and one of the

@@ -5,6 +5,7 @@ import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { formatHistoricalDate } from '../../lib/historicalDate';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -108,9 +109,39 @@ if (eventsHere.length > 0) {
   }
 }
 
+// Build the Founded value: combine founder and date if either is present.
+let foundedValue: string | null = null;
+if (d.founded) {
+  const f = d.founded;
+  const dateStr = f.date ? formatHistoricalDate(f.date) : null;
+  const founderStr = f.founder ?? null;
+  if (founderStr && dateStr) {
+    foundedValue = `${founderStr}, ${dateStr}`;
+  } else if (founderStr) {
+    foundedValue = founderStr;
+  } else if (dateStr) {
+    foundedValue = dateStr;
+  }
+}
+
+const culturalSphereLabel: Record<string, string> = {
+  phoenician: 'Phoenician',
+  punic: 'Punic (Carthaginian-affiliated)',
+  greek: 'Greek',
+  numidian: 'Numidian',
+  'libyo-phoenician': 'Libyo-Phoenician',
+  iberian: 'Iberian',
+  roman: 'Roman',
+  mixed: 'Mixed / contested',
+};
+
 const placeInfoboxRows: InfoboxRow[] = [
   { label: 'Type', value: typeLabel },
+  { label: 'Cultural sphere', value: d.cultural_sphere ? culturalSphereLabel[d.cultural_sphere] : null },
+  { label: 'Founded', value: foundedValue },
   { label: 'Modern location', value: d.modern_location ?? null },
+  { label: 'Current status', value: d.current_status ?? null },
+  { label: 'Patron deity', value: d.patron_deity ?? null },
   {
     label: 'Coordinates',
     value: coords,

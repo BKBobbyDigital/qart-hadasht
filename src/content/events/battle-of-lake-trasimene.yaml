@@ -1,6 +1,7 @@
 slug: battle-of-lake-trasimene
 name: Battle of Lake Trasimene
 type: battle
+outcome: "Decisive Carthaginian victory; destroyed the Roman consular army of Flaminius"
 date_start:
   value: -217
   precision: exact

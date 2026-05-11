@@ -1,6 +1,7 @@
 slug: battle-of-great-plains
 name: Battle of the Great Plains
 type: battle
+outcome: "Decisive Roman victory; captured Syphax, consolidated Roman-Numidian alignment"
 date_start:
   value: -203
   precision: year

@@ -1,6 +1,7 @@
 slug: siege-of-motya-397
 name: Siege of Motya
 type: siege
+outcome: "Greek (Dionysius I) victory; the major Punic Sicilian city destroyed"
 date_start:
   value: -397
   precision: year

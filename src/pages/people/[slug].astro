@@ -106,6 +106,49 @@ const summaryHtml = autolink(d.summary, linkRegistry, {
   excludeKey: `person:${person.id}`,
 });
 
+// Family resolution. References to other people entries are turned into
+// link-row values; freeform name fields are turned into plain strings.
+function resolveFamilyLink(ref: any, fallbackName?: string) {
+  if (ref) {
+    const p = allPeople.find((x: any) => x.id === ref.id);
+    if (p) return { text: p.data.name_display, href: `/people/${p.id}` };
+  }
+  if (fallbackName) return fallbackName;
+  return null;
+}
+const fam = d.family ?? {} as any;
+const fatherVal = resolveFamilyLink(fam.father, fam.father_name);
+const motherVal = resolveFamilyLink(fam.mother, fam.mother_name);
+const spouseLinks = [
+  ...((fam.spouses ?? []).map((r: any) => {
+    const p = allPeople.find((x: any) => x.id === r.id);
+    return p ? { text: p.data.name_display, href: `/people/${p.id}` } : null;
+  })),
+  ...((fam.spouse_names ?? []).map((n: string) => ({ text: n }))),
+].filter(Boolean);
+const childLinks = [
+  ...((fam.children ?? []).map((r: any) => {
+    const p = allPeople.find((x: any) => x.id === r.id);
+    return p ? { text: p.data.name_display, href: `/people/${p.id}` } : null;
+  })),
+  ...((fam.children_names ?? []).map((n: string) => ({ text: n }))),
+].filter(Boolean);
+
+// Wrap as InfoboxLink[] when there's content, else null.
+const spouseValue = spouseLinks.length > 0 ? (spouseLinks as any) : null;
+const childrenValue = childLinks.length > 0 ? (childLinks as any) : null;
+
+// Offices held: format as a string list like "Suffete (196 BCE), Consul (218 BCE)".
+const officesValue =
+  (d.offices_held ?? []).length > 0
+    ? (d.offices_held as any[])
+        .map((o) => {
+          const yr = o.year !== undefined ? ` (${Math.abs(o.year)} ${o.year < 0 ? 'BCE' : 'CE'})` : '';
+          return `${o.office}${yr}`;
+        })
+        .join('; ')
+    : null;
+
 const personInfoboxRows: InfoboxRow[] = [
   {
     label: 'Born',
@@ -130,6 +173,11 @@ const personInfoboxRows: InfoboxRow[] = [
     label: 'Affiliation',
     value: d.polity ?? null,
   },
+  ...(fatherVal ? [{ label: 'Father', value: typeof fatherVal === 'string' ? fatherVal : [fatherVal] as any } as InfoboxRow] : []),
+  ...(motherVal ? [{ label: 'Mother', value: typeof motherVal === 'string' ? motherVal : [motherVal] as any } as InfoboxRow] : []),
+  ...(spouseValue ? [{ label: spouseLinks.length === 1 ? 'Spouse' : 'Spouses', value: spouseValue } as InfoboxRow] : []),
+  ...(childrenValue ? [{ label: childLinks.length === 1 ? 'Child' : 'Children', value: childrenValue } as InfoboxRow] : []),
+  ...(officesValue ? [{ label: 'Offices held', value: officesValue } as InfoboxRow] : []),
   {
     label: 'Appears in',
     value: referencingEvents.length > 0 ? `${referencingEvents.length} event${referencingEvents.length === 1 ? '' : 's'}` : null,

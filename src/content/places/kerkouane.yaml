@@ -10,6 +10,17 @@ primary:
   lon: 11.0989
   confidence: certain
 modern_location: Cap Bon peninsula, northeastern Tunisia
+founded:
+  founder: 'Punic Carthaginians'
+  date:
+    value: -550
+    precision: century
+    circa: true
+cultural_sphere: punic
+current_status: >
+  UNESCO archaeological site on Cap Bon (modern Tunisia); abandoned
+  during the First Punic War and never rebuilt, preserving substantial
+  Punic domestic architecture unobscured by Roman overlay
 summary: >
   A Punic city on the eastern Cap Bon peninsula, abandoned
   in the mid-3rd century BCE during the First Punic War and

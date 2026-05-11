@@ -1,6 +1,7 @@
 slug: siege-of-akragas-406
 name: Siege of Akragas
 type: siege
+outcome: "Carthaginian victory; Akragas sacked and abandoned"
 date_start:
   value: -406
   precision: year

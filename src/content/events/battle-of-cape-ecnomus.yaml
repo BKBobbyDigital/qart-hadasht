@@ -1,6 +1,7 @@
 slug: battle-of-cape-ecnomus
 name: Battle of Cape Ecnomus
 type: battle
+outcome: "Roman naval victory enabling the Regulus African expedition"
 date_start:
   value: -256
   precision: year

@@ -1,6 +1,7 @@
 slug: first-punic-war
 name: First Punic War
 type: war
+outcome: "Roman victory; Treaty of Lutatius, Carthaginian cession of Sicily and indemnity"
 date_start:
   value: -264
   precision: year

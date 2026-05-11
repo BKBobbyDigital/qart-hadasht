@@ -29,6 +29,17 @@ referenced_institutions:
 referenced_themes:
   - carthaginian-economy
   - punic-religion
+family:
+  father: hamilcar-barca
+  spouse_names:
+    - 'Imilce (Iberian noblewoman)'
+  children_names:
+    - "Hannibal's son by Imilce (name not preserved)"
+offices_held:
+  - office: 'Carthaginian commander in Iberia'
+    year: -221
+  - office: 'Suffete of Carthage'
+    year: -196
 summary: >
   Carthaginian general and statesman, son of Hamilcar Barca. Commanded the
   Carthaginian war effort against Rome in the Second Punic War (218–201 BCE),

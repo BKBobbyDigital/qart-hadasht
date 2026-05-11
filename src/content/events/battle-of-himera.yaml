@@ -1,6 +1,7 @@
 slug: battle-of-himera
 name: Battle of Himera
 type: battle
+outcome: "Decisive Greek (Syracusan-Acragantine) victory over the Magonid expedition"
 date_start:
   value: -480
   precision: year

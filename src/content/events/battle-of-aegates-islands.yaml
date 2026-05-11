@@ -1,6 +1,7 @@
 slug: battle-of-aegates-islands
 name: Battle of the Aegates Islands
 type: battle
+outcome: "Decisive Roman naval victory ending the First Punic War"
 date_start:
   value: -241
   precision: exact

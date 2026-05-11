@@ -1,6 +1,7 @@
 slug: battle-of-mylae
 name: Battle of Mylae
 type: battle
+outcome: "Roman naval victory; the first major Roman naval success of the First Punic War"
 date_start:
   value: -260
   precision: year

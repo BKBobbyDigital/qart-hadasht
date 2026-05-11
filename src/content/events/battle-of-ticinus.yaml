@@ -1,6 +1,7 @@
 slug: battle-of-ticinus
 name: Battle of the Ticinus
 type: battle
+outcome: "Carthaginian cavalry victory; opening engagement of the Italian campaign"
 date_start:
   value: -218
   precision: year

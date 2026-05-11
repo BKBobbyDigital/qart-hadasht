@@ -1,6 +1,7 @@
 slug: battle-of-the-saw
 name: The Saw (Battle of the Defile)
 type: siege
+outcome: "Decisive Carthaginian victory; destroyed Spendius's principal rebel army by envelopment and starvation"
 date_start:
   value: -238
   precision: year

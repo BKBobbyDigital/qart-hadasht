@@ -13,6 +13,17 @@ primary:
   lon: 1.4206
   confidence: certain
 modern_location: Ibiza (Eivissa), Balearic Islands, Spain
+founded:
+  founder: 'Carthaginians'
+  date:
+    value: -654
+    precision: year
+cultural_sphere: punic
+current_status: >
+  Modern Ibiza (Spain); continuous occupation; Punic-period
+  archaeological remains accessible at the Puig des Molins necropolis
+  and other sites
+patron_deity: "Bes (notably; the island's name etymology connects to the deity)"
 summary: >
   An island in the western Balearics, settled by Carthaginian
   colonists in the mid-7th century BCE — Diodorus dates the

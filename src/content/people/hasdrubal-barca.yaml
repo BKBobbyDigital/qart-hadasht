@@ -31,6 +31,11 @@ roles:
 polity: Carthage
 referenced_themes:
   - punic-identity
+family:
+  father: hamilcar-barca
+offices_held:
+  - office: 'Carthaginian commander in Iberia'
+    year: -218
 summary: >
   Middle son of [Hamilcar Barca](/people/hamilcar-barca), brother of
   [Hannibal](/people/hannibal-barca) and [Mago Barca](/people/mago-barca),

@@ -1,6 +1,7 @@
 slug: destruction-of-carthage
 name: Destruction of Carthage
 type: siege
+outcome: "Roman victory; Carthage razed, population enslaved, the agri Romani imposed"
 date_start:
   value: -149
   precision: year

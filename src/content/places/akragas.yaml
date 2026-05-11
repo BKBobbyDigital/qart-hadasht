@@ -11,6 +11,17 @@ primary:
   lon: 13.5891
   confidence: certain
 modern_location: Agrigento, southern coast of Sicily
+founded:
+  founder: 'Greeks of Gela'
+  date:
+    value: -581
+    precision: year
+    circa: true
+cultural_sphere: greek
+current_status: >
+  Modern Agrigento (Sicily); UNESCO Valley of the Temples
+  archaeological site; sacked by the Carthaginians in 406 BCE and
+  substantially reduced thereafter
 summary: >
   The principal Greek city of southern-central Sicily through
   the 6th and 5th centuries BCE, founded c. 580 BCE as a

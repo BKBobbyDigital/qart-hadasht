@@ -289,6 +289,9 @@ const infoboxRows: InfoboxRow[] = [
         { label: 'Commanders', value: commanderEntries } as InfoboxRow,
       ]
     : []),
+  ...(data.outcome
+    ? [{ label: 'Outcome', value: data.outcome } as InfoboxRow]
+    : []),
   ...(showPartOf
     ? [{
         label: 'Part of',

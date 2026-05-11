@@ -26,6 +26,17 @@ roles:
 polity: Rome
 referenced_themes:
   - carthaginian-economy
+family:
+  father_name: 'Publius Cornelius Scipio (consul of 218 BCE, the elder Scipio)'
+offices_held:
+  - office: 'Roman commander in Iberia (privatus pro consule)'
+    year: -210
+  - office: 'Roman consul'
+    year: -205
+  - office: 'Roman consul'
+    year: -194
+  - office: 'Princeps senatus (multiple terms)'
+    year: -199
 summary: >
   Scipio Africanus is the principal Roman figure in the Second Punic
   War and the man whose strategic and tactical decisions ended

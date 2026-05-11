@@ -17,6 +17,15 @@ roles:
   - general
   - envoy
 polity: Rome
+offices_held:
+  - office: 'Roman consul'
+    year: -219
+  - office: 'Member of the 218 BCE Roman embassy to Carthage'
+    year: -218
+  - office: 'Roman consul (the Metaurus year)'
+    year: -207
+  - office: 'Roman censor'
+    year: -204
 summary: >
   Marcus Livius Salinator's career intersects Carthaginian history
   at two principal moments — the 218 BCE Roman embassy to Carthage

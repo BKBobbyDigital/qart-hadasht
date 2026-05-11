@@ -20,6 +20,11 @@ polity: Rome
 referenced_themes:
   - carthaginian-economy
   - carthaginian-agriculture
+offices_held:
+  - office: 'Roman consul'
+    year: -195
+  - office: 'Roman censor'
+    year: -184
 summary: >
   Roman consul of 195 BCE, censor of 184 BCE, and the most
   insistent senatorial advocate for the destruction of Carthage

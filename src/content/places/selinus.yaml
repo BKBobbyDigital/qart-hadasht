@@ -11,6 +11,16 @@ primary:
   lon: 12.8253
   confidence: certain
 modern_location: Selinunte, Province of Trapani, southwestern Sicily
+founded:
+  founder: 'Greeks of Megara Hyblaea'
+  date:
+    value: -650
+    precision: century
+    circa: true
+cultural_sphere: greek
+current_status: >
+  Archaeological site at Selinunte (Sicily); destroyed by Hannibal son
+  of Gisco in 409 BCE and substantially never reoccupied
 summary: >
   A major Greek (Doric) colony on the southwestern Sicilian
   coast, founded c. 628 BCE by colonists from Megara Hyblaea.

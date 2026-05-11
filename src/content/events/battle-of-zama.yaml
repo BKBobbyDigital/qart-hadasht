@@ -1,6 +1,7 @@
 slug: battle-of-zama
 name: Battle of Zama
 type: battle
+outcome: "Decisive Roman victory; ended the Second Punic War"
 date_start:
   value: -202
   precision: year

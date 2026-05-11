@@ -23,6 +23,13 @@ roles:
   - general
   - statesman
 polity: Carthage
+family:
+  spouse_names:
+    - 'Daughter of Hamilcar Barca'
+    - 'Iberian princess (name not preserved)'
+offices_held:
+  - office: 'Carthaginian commander in Iberia'
+    year: -228
 summary: >
   Carthaginian general and son-in-law of Hamilcar Barca, who
   inherited the Iberian command on Hamilcar's death in 228 BCE

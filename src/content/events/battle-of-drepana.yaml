@@ -1,6 +1,7 @@
 slug: battle-of-drepana
 name: Battle of Drepana
 type: battle
+outcome: "Decisive Carthaginian naval victory; the principal Carthaginian First Punic War naval success"
 date_start:
   value: -249
   precision: year

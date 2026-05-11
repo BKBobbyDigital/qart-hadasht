@@ -1,6 +1,7 @@
 slug: second-punic-war
 name: Second Punic War
 type: war
+outcome: "Roman victory; Treaty of 201, Carthaginian disarmament and indemnity"
 date_start:
   value: -218
   precision: year

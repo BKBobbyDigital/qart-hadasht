@@ -26,6 +26,13 @@ roles:
 polity: Numidia (Masaesylian)
 referenced_themes:
   - punic-identity
+family:
+  spouses:
+    - sophonisba
+offices_held:
+  - office: 'King of the Masaesyli'
+    year: -213
+    notes: 'reigned to 203 BCE'
 summary: >
   Syphax was the king of the [Masaesyli](/groups/masaesyli), the
   western and larger of the two principal Numidian confederations,
