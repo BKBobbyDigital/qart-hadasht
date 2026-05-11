@@ -57,36 +57,39 @@ const narrativeInfoboxRows: InfoboxRow[] = [
 ---
 
 <BaseLayout title={d.title} description={d.thesis}>
-  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
-    <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
-      <Infobox
-        title={d.title}
-        subtitle={`Narrative · ${scopeLabel}`}
-        rows={narrativeInfoboxRows}
-        nonSticky
-      />
-      <ContentToc contentSelector=".narrative-content" nonSticky />
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <header class="mb-8">
+      <p class="eyebrow mb-3">Narrative · {d.scope}</p>
+      <h1 class="font-serif text-4xl sm:text-5xl">{d.title}</h1>
+    </header>
+    <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+      <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
+        <Infobox
+          title={d.title}
+          subtitle={`Narrative · ${scopeLabel}`}
+          rows={narrativeInfoboxRows}
+          nonSticky
+        />
+        <ContentToc contentSelector=".narrative-content" nonSticky />
+      </div>
+      <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+        <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
+        <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 mb-6 rounded-lg">
+          <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
+          <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.thesis}</p>
+        </aside>
+
+        <div class="prose-encyclopedia narrative-content text-sand-900 mt-8">
+          <Content />
+        </div>
+
+        <p class="mt-12 text-sm text-sand-700 italic">
+          Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.
+        </p>
+
+        <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/narratives/${narrative.id.replace(/\.md$/, '')}`} />
+        <VersionStamp date={d.last_revised} filePath={`src/content/narratives/${narrative.id}`} />
+      </article>
     </div>
-    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
-      <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
-    <p class="eyebrow mb-3">Narrative · {d.scope}</p>
-    <h1 class="font-serif text-4xl sm:text-5xl mb-6">{d.title}</h1>
-
-    <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 my-6 rounded-lg">
-      <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-      <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.thesis}</p>
-    </aside>
-
-    <div class="prose-encyclopedia narrative-content text-sand-900 mt-8">
-      <Content />
-    </div>
-
-    <p class="mt-12 text-sm text-sand-700 italic">
-      Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.
-    </p>
-
-    <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/narratives/${narrative.id.replace(/\.md$/, '')}`} />
-    <VersionStamp date={d.last_revised} filePath={`src/content/narratives/${narrative.id}`} />
-    </article>
   </div>
 </BaseLayout>

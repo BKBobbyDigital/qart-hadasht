@@ -62,23 +62,25 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
 ---
 
 <BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
-  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-10 lg:items-start">
-    <aside class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start">
-      <ContentToc contentSelector=".period-content" nonSticky />
-    </aside>
-    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
-    <span hidden data-pagefind-filter="type:Periods" data-pagefind-meta="type:Period"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <header class="mb-8">
+      <p class="eyebrow mb-3">
+        Period · <a href="/periods" class="text-tyrian-700 hover:underline">All periods</a>
+      </p>
+      <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
+      <p class="text-lg text-sand-700">{dateRange}</p>
+    </header>
+    <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-10 lg:items-start">
+      <aside class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start">
+        <ContentToc contentSelector=".period-content" nonSticky />
+      </aside>
+      <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+        <span hidden data-pagefind-filter="type:Periods" data-pagefind-meta="type:Period"></span>
 
-    <p class="eyebrow mb-3">
-      Period · <a href="/periods" class="text-tyrian-700 hover:underline">All periods</a>
-    </p>
-    <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
-    <p class="text-lg text-sand-700 mb-6">{dateRange}</p>
-
-    <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 my-6 rounded-lg">
-      <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-      <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.summary}</p>
-    </aside>
+        <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 mb-6 rounded-lg">
+          <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
+          <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.summary}</p>
+        </aside>
 
     {d.map_id && mapConfigs[d.map_id] && (
       <HistoricalMap
@@ -200,8 +202,9 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       are linked throughout.
     </p>
 
-    <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/periods/${period.id.replace(/\.md$/, '')}`} />
-    <VersionStamp date={d.last_revised} filePath={`src/content/periods/${period.id}`} />
-    </article>
+        <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/periods/${period.id.replace(/\.md$/, '')}`} />
+        <VersionStamp date={d.last_revised} filePath={`src/content/periods/${period.id}`} />
+      </article>
+    </div>
   </div>
 </BaseLayout>

@@ -128,25 +128,28 @@ const jumps: Jump[] = [
 ---
 
 <BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
-  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
-    <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
-      <Infobox
-        title={d.title}
-        subtitle={`Theme · ${scopeLabel}`}
-        rows={themeInfoboxRows}
-        nonSticky
-      />
-      <ContentToc contentSelector=".theme-content" nonSticky />
-    </div>
-    <article class="lg:col-start-1 lg:row-start-1 min-w-0">
-      <span hidden data-pagefind-filter="type:Themes" data-pagefind-meta="type:Theme"></span>
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <header class="mb-8">
       <p class="eyebrow mb-3">Theme · {d.scope.replace('_', ' ')}</p>
-      <h1 class="font-serif text-4xl sm:text-5xl mb-6">{d.title}</h1>
+      <h1 class="font-serif text-4xl sm:text-5xl">{d.title}</h1>
+    </header>
+    <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+      <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
+        <Infobox
+          title={d.title}
+          subtitle={`Theme · ${scopeLabel}`}
+          rows={themeInfoboxRows}
+          nonSticky
+        />
+        <ContentToc contentSelector=".theme-content" nonSticky />
+      </div>
+      <article class="lg:col-start-1 lg:row-start-1 min-w-0">
+        <span hidden data-pagefind-filter="type:Themes" data-pagefind-meta="type:Theme"></span>
 
-      <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 my-6 rounded-lg">
-        <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-        <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.summary}</p>
-      </aside>
+        <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 mb-6 rounded-lg">
+          <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
+          <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.summary}</p>
+        </aside>
 
       {jumps.length > 0 && (
         <nav class="my-6 p-4 border border-sand-300 rounded-lg bg-sand-50" aria-label="In this theme">
@@ -287,8 +290,9 @@ const jumps: Jump[] = [
         </section>
       )}
 
-      <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/themes/${theme.id.replace(/\.md$/, '')}`} />
-      <VersionStamp date={d.last_revised} filePath={`src/content/themes/${theme.id}`} />
-    </article>
+        <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/themes/${theme.id.replace(/\.md$/, '')}`} />
+        <VersionStamp date={d.last_revised} filePath={`src/content/themes/${theme.id}`} />
+      </article>
+    </div>
   </div>
 </BaseLayout>
