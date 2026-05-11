@@ -11,6 +11,38 @@ const groups = (await getCollection('groups')).sort(
   (a, b) => a.data.name_display.localeCompare(b.data.name_display)
 );
 
+// Bucket people by polity for sub-section grouping. The polity field
+// is a freeform string ("Rome", "Carthage", "Numidia (Massylii)",
+// "Sparta (mercenary in Carthaginian service)", etc.) so we match on
+// substring rather than equality. Each person lands in exactly one
+// bucket; "Other" catches anything unmatched.
+function polityBucket(polity: string | undefined): string {
+  const p = (polity || '').toLowerCase();
+  // Order matters — first match wins. Carthage's variants come first
+  // since the Punic identity is the principal lens. Mercenaries and
+  // rebels are a distinct category from the polities they fought
+  // for/against.
+  if (p.includes('mercenary') || p.includes('rebellion') || p.includes('rebel')) return 'Mercenary / rebel';
+  if (p.includes('carthage') || p === 'tyre') return 'Carthaginian';
+  if (p.includes('rome')) return 'Roman';
+  if (p.includes('numidia')) return 'Numidian';
+  if (p.includes('syracuse') || p.includes('akragas') || p.includes('epirus') || p.includes('corinth') || p.includes('cyrene') || p.includes('sparta')) return 'Greek';
+  if (p.includes('iberian') || p.includes('ilergetes')) return 'Iberian';
+  return 'Other';
+}
+
+const bucketOrder = ['Carthaginian', 'Roman', 'Numidian', 'Greek', 'Iberian', 'Mercenary / rebel', 'Other'];
+const bucketSlug = (b: string) => b.toLowerCase().replace(/\s*\/\s*/g, '-').replace(/\s+/g, '-');
+const peopleBuckets: Record<string, typeof people> = {};
+for (const b of bucketOrder) peopleBuckets[b] = [];
+for (const p of people) {
+  peopleBuckets[polityBucket(p.data.polity)].push(p);
+}
+// Drop empty buckets from display
+const displayBuckets = bucketOrder
+  .map((b) => ({ label: b, slug: bucketSlug(b), items: peopleBuckets[b] }))
+  .filter((b) => b.items.length > 0);
+
 // Reverse-lookup event count per person
 const allEvents = await getCollection('events');
 const eventsByPerson = new Map<string, number>();
@@ -38,17 +70,39 @@ const personRow = (p: any) => {
 const personRows = people.map(personRow);
 ---
 
-<BaseLayout title="People & Groups">
+<BaseLayout title="People & Peoples">
   <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="font-serif text-4xl sm:text-5xl mb-3">People &amp; Groups</h1>
-    <p class="text-sand-700 mb-8">
-      Individual figures and the collective entities — peoples, mercenary
-      bands, factions — that participate in Carthage's history alongside them.
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">People &amp; Peoples</h1>
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      Individual figures, and the collective entities — peoples, dynasties,
+      mercenary bands, factions — that participate in Carthage's history
+      alongside them. People are grouped below by polity; the Peoples
+      section covers the collective actors.
     </p>
 
+    {/* Jump-to TOC: small pill nav with anchor links to every sub-section */}
+    <nav aria-label="Sections on this page" class="mb-10 flex flex-wrap items-baseline gap-x-2 gap-y-2 text-sm">
+      <span class="eyebrow text-[10px] mr-1">Jump to</span>
+      {groups.length > 0 && (
+        <a href="#peoples" class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+          <span class="text-sand-900">Peoples</span>
+          <span class="text-xs text-sand-700 tabular-nums">{groups.length}</span>
+        </a>
+      )}
+      {displayBuckets.map((b) => (
+        <a
+          href={`#${b.slug}`}
+          class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors"
+        >
+          <span class="text-sand-900">{b.label}</span>
+          <span class="text-xs text-sand-700 tabular-nums">{b.items.length}</span>
+        </a>
+      ))}
+    </nav>
+
     {groups.length > 0 && (
-      <section class="mb-12">
-        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Groups</h2>
+      <section id="peoples" class="mb-12 scroll-mt-8">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Peoples <span class="text-sm text-sand-700 font-normal tabular-nums ml-1">({groups.length})</span></h2>
         <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 items-stretch">
           {groups.map((g) => (
             <li class="h-full">
@@ -72,33 +126,41 @@ const personRows = people.map(personRow);
 
     <section data-view-container>
       <div class="flex items-baseline justify-between gap-4 border-b border-sand-300 pb-2 mb-4">
-        <h2 class="font-serif text-2xl">People</h2>
+        <h2 class="font-serif text-2xl">People <span class="text-sm text-sand-700 font-normal tabular-nums ml-1">({people.length})</span></h2>
         <IndexViewToggle />
       </div>
 
-      <div data-view-cards>
-        <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 items-stretch">
-          {people.map((p) => {
-            const row = personRow(p);
-            const bodyText = [row.role, row.dates].filter(Boolean).join(' · ');
-            return (
-            <li class="h-full">
-              <a
-                href={`/people/${p.id}`}
-                class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
-              >
-                <h3 class="font-serif text-lg text-tyrian-800 leading-tight line-clamp-1">{p.data.name_display}</h3>
-                <p class="mt-1.5">
-                  <span class="inline-block text-[10px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-1.5 py-0.5 rounded">{p.data.polity}</span>
-                </p>
-                <p class="text-sm text-sand-700 mt-2 line-clamp-2 leading-snug card-body">
-                  {bodyText}
-                </p>
-              </a>
-            </li>
-            );
-          })}
-        </ul>
+      <div data-view-cards class="space-y-10">
+        {displayBuckets.map((b) => (
+          <div id={b.slug} class="scroll-mt-8">
+            <h3 class="font-serif text-xl text-tyrian-800 mb-3 flex items-baseline gap-2">
+              <span>{b.label}</span>
+              <span class="text-xs text-sand-700 font-normal tabular-nums">({b.items.length})</span>
+            </h3>
+            <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 items-stretch">
+              {b.items.map((p: any) => {
+                const row = personRow(p);
+                const bodyText = [row.role, row.dates].filter(Boolean).join(' · ');
+                return (
+                  <li class="h-full">
+                    <a
+                      href={`/people/${p.id}`}
+                      class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+                    >
+                      <h3 class="font-serif text-lg text-tyrian-800 leading-tight line-clamp-1">{p.data.name_display}</h3>
+                      <p class="mt-1.5">
+                        <span class="inline-block text-[10px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-1.5 py-0.5 rounded">{p.data.polity}</span>
+                      </p>
+                      <p class="text-sm text-sand-700 mt-2 line-clamp-2 leading-snug card-body">
+                        {bodyText}
+                      </p>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
       </div>
 
       <div data-view-table class="overflow-x-auto">
