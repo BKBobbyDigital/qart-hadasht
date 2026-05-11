@@ -24,6 +24,12 @@ current_status: >
   Modern Cádiz (Spain); continuous occupation; Phoenician strata
   accessible at specific excavated sites within the modern city
 patron_deity: 'Melqart (the famous Heracleion of Gades)'
+image:
+  src: /places/gades.jpg
+  alt: "Interior of the Provincial Archaeological Museum of Cádiz (Spain), the principal institution preserving Phoenician and Punic material from the ancient city of Gades; display cases hold anthropoid sarcophagi and other recovered objects from the earliest western Phoenician colony."
+  credit: "Photograph: Axel Cotón Gutiérrez, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Museo_Arqueol%C3%B3gico_Provincial_de_C%C3%A1diz_20.jpg
+  license: CC BY-SA 4.0
 summary: >
   The principal Phoenician colony of the western
   Mediterranean — and, on the surviving foundation

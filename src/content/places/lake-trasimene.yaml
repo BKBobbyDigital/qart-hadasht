@@ -17,6 +17,12 @@ primary:
     place the engagement, between the modern villages of Tuoro
     sul Trasimeno and Passignano sul Trasimeno.
 modern_location: Lago Trasimeno, Province of Perugia, Umbria, Italy
+image:
+  src: /places/lake-trasimene.jpg
+  alt: "Lake Trasimeno at dawn seen from Castiglione del Lago in Umbria, Italy — the broad lake surface with the surrounding low hills. The 217 BCE Battle of Lake Trasimene, fought on the lake's northern shore, was one of Hannibal's principal Italian-campaign victories."
+  credit: "Photograph: Phacelias, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Lake_Trasimeno_Italy.jpg
+  license: CC BY-SA 4.0
 summary: >
   Site of one of the most famous ambushes in ancient warfare. On
   the morning of 21 June 217 BCE, Hannibal concealed his army

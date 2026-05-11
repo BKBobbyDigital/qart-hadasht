@@ -24,6 +24,12 @@ current_status: >
   Modern Sousse (Tunisia); continuous occupation; Phoenician-Punic
   strata accessible at specific sites within the modern city
 patron_deity: 'Baal Hammon (Tophet attested)'
+image:
+  src: /places/hadrumetum.jpg
+  alt: "Entry to the Archaeological Museum of Sousse (ancient Hadrumetum, Tunisia), the principal institution preserving Punic and Roman-period material from the Tunisian coast. Hadrumetum was the second-largest Carthaginian city on the African mainland."
+  credit: "Photograph: Carole Raddato, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Sousse_Archaeological_Museum%2C_Tunisia.jpg
+  license: CC BY-SA 2.0
 summary: >
   The second city of Punic North Africa after Carthage itself, on
   the central Sahel coast about 140 km south of the metropolis.

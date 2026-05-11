@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import TanitMark from '../../components/TanitMark.astro';
 import { getCollection } from 'astro:content';
 
 const artifacts = (await getCollection('artifacts')).sort((a, b) =>
@@ -44,7 +45,7 @@ const typeLabel: Record<string, string> = {
             href={`/artifacts/${a.id}`}
             class="flex flex-col h-full border border-sand-300 bg-white/60 rounded-lg overflow-hidden hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
           >
-            {a.data.image && (
+            {a.data.image ? (
               <div class="aspect-[4/3] bg-sand-100 overflow-hidden">
                 <img
                   src={a.data.image.src}
@@ -52,6 +53,10 @@ const typeLabel: Record<string, string> = {
                   loading="lazy"
                   class="w-full h-full object-cover"
                 />
+              </div>
+            ) : (
+              <div class="aspect-[4/3] bg-sand-100 flex items-center justify-center text-tyrian-700/30">
+                <TanitMark size={48} />
               </div>
             )}
             <div class="p-4 flex flex-col flex-1">

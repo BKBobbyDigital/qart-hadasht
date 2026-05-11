@@ -21,6 +21,12 @@ cultural_sphere: greek
 current_status: >
   UNESCO archaeological site in modern Libya; substantial Greek and
   Roman-imperial-period remains
+image:
+  src: /places/cyrene.jpg
+  alt: "Ruins of the Temple of Apollo at Cyrene (modern Shahhat, Libya), with standing column drums and exposed temple foundations on the terraced hillside. Cyrene was the principal Greek city of Cyrenaica, contesting Carthaginian influence in the central Mediterranean coastal margin."
+  credit: "Photograph: Koperczak, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Cyrene_Apollo_temple.jpg
+  license: Public domain
 summary: >
   Greek colony on the North African coast east of the Greater
   Syrtis, founded as a Therean settlement c. 631 BCE and

@@ -11,6 +11,12 @@ primary:
   lon: 15.2400
   confidence: probable
 modern_location: Milazzo, north coast of Sicily, Province of Messina
+image:
+  src: /places/mylae.jpg
+  alt: "The medieval castle of Milazzo (ancient Mylae), on the promontory jutting north from Sicily's Tyrrhenian coast. Mylae was the site of the 260 BCE Roman naval victory in the First Punic War, the first major naval engagement Rome won against Carthage."
+  credit: "Photograph: Effems, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Castello_(Milazzo)_08_09_2019_13.jpg
+  license: CC BY-SA 4.0
 summary: >
   Coastal town on the north coast of Sicily and site of the
   first major Roman naval victory in 260 BCE. The engagement was

@@ -16,6 +16,12 @@ primary:
     is the broad area of the Trebia's confluence with the Po
     where the battle was fought.
 modern_location: Trebbia river valley, Province of Piacenza, Italy
+image:
+  src: /places/trebia.jpg
+  alt: "The Valle Trebbia in northern Italy, looking upstream from south of Bobbio — the river running through a wooded valley in the Apennine foothills. The 218 BCE Battle of the Trebia, fought on the lower river near its confluence with the Po, was Hannibal's first major Italian victory."
+  credit: "Photograph: Gabri80 (scaled by Ian Spackman), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Valle_Trebbia-(scaled-and-sharpened).jpg
+  license: CC BY-SA 3.0
 summary: >
   Site of Hannibal's first major Italian victory over a Roman
   consular army on a cold December morning in 218 BCE. The

@@ -11,6 +11,12 @@ primary:
   lon: 12.5160
   confidence: certain
 modern_location: Trapani, western Sicily, Italy
+image:
+  src: /places/drepana.jpg
+  alt: "The port of Trapani (ancient Drepana) in western Sicily — the harbor entrance with the modern town beyond. Drepana was a principal Carthaginian naval base during the First Punic War; the 249 BCE Battle of Drepana was one of the major Carthaginian naval victories of the war."
+  credit: "Photograph: Traktorminze, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Porto-Trapani-Sicilia-Italia.jpg
+  license: Public domain
 summary: >
   Carthaginian harbor on the western coast of Sicily, principal
   Carthaginian naval base on the island during the First Punic

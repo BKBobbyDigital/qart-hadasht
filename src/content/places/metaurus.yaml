@@ -15,6 +15,12 @@ primary:
     not precisely identified; the location given is the broad
     area where modern reconstructions place the battle.
 modern_location: Metauro river, Province of Pesaro and Urbino, Marche, Italy
+image:
+  src: /places/metaurus.jpg
+  alt: "The Metauro river at Sant'Angelo in Vado, central Italy — a stretch of the river that flows northeast through the Marche region to the Adriatic. The 207 BCE Battle of the Metaurus, fought on the lower course of this river, killed Hasdrubal Barca and closed the Carthaginian Italian-reinforcement option."
+  credit: "Photograph: Adri08, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Metauro_%C3%A0_San_Angelo_in_Vado.jpg
+  license: CC BY-SA 3.0
 summary: >
   Site of the engagement in late June or early July 207 BCE in
   which the consuls Marcus Livius Salinator and Gaius Claudius

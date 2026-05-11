@@ -17,6 +17,12 @@ cultural_sphere: mixed
 current_status: >
   Modern Santa Maria Capua Vetere and Capua (Italy); substantial
   Roman-imperial-period archaeological remains
+image:
+  src: /places/capua.jpg
+  alt: "The Roman-period amphitheatre at Santa Maria Capua Vetere (ancient Capua, Campania, Italy), with its arched outer wall partially preserved. Capua was the principal Italian city to defect to Hannibal after Cannae, and remained one of the largest Italian cities through the Roman period."
+  credit: "Photograph: Dom De Felice e Carla Nunziata, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:The_Amphitheatre_of_Santa_Maria_Capua_Vetere_001.jpg
+  license: CC BY-SA 3.0
 summary: >
   Ancient Etruscan and subsequently Oscan-speaking city in the
   fertile Campanian plain, second-largest city of Italy after

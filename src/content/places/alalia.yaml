@@ -11,6 +11,12 @@ primary:
   lon: 9.5106
   confidence: certain
 modern_location: Aléria, Haute-Corse, eastern coast of Corsica
+image:
+  src: /places/alalia.jpg
+  alt: "The archaeological site of Aleria (ancient Alalia) on the eastern coast of Corsica — Roman-period foundations and walls extending across the coastal plain. Alalia was the Phocaean Greek colony whose 535 BCE naval battle with the Carthaginian-Etruscan alliance reshaped western Mediterranean naval politics."
+  credit: "Photograph: Zdenek Svoboda, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Aleria%2C_Corsica%2C_France.jpg
+  license: CC BY 2.0
 summary: >
   A Greek colony founded by Phocaean refugees on the eastern
   coast of Corsica c. 565 BCE, after the fall of their home

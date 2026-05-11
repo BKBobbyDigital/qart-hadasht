@@ -17,6 +17,12 @@ primary:
     strongest cases. The location given is a broad geographic
     reference for the western Alps generally.
 modern_location: France / Italy / Switzerland border region
+image:
+  src: /places/alps.jpg
+  alt: "The Julian Alps from the Vršič Pass in Slovenia — high peaks and forested slopes characteristic of the Alpine crossings. Hannibal's army crossed the Alps in autumn 218 BCE; the specific pass remains contested among modern reconstructions."
+  credit: "Photograph: Krzysztof Golik, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Julian_Alps_from_Vrsic_Pass_(3).jpg
+  license: CC BY-SA 4.0
 summary: >
   The Alpine mountain range separating northern Italy from
   Transalpine Gaul, crossed by Hannibal Barca in autumn 218 BCE

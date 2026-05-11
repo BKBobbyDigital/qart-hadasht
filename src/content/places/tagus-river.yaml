@@ -11,6 +11,12 @@ primary:
   lon: -4.2000
   confidence: certain
 modern_location: Central Iberian peninsula, draining west across central Spain (Toledo region) and Portugal to the Atlantic at Lisbon
+image:
+  src: /places/tagus-river.jpg
+  alt: "Panoramic view of the Tagus river at Toledo, central Spain — the river cutting through gorges below the historic city. Hannibal's 220 BCE Tagus river campaign against the Carpetani and other Iberian peoples was the principal pre-war military operation that consolidated Carthaginian control of central Iberia."
+  credit: "Photograph: Diliff, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Tagus_River_Panorama_-_Toledo%2C_Spain_-_Dec_2006.jpg
+  license: CC BY-SA 3.0
 summary: >
   The principal river of central Iberia, draining the central
   meseta west to the Atlantic. The site of the Battle of the

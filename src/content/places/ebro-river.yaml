@@ -11,6 +11,12 @@ primary:
   lon: 0.5167
   confidence: certain
 modern_location: Northeastern Spain, draining into the Mediterranean north of Tortosa (Tarraco region)
+image:
+  src: /places/ebro-river.jpg
+  alt: "The Ebro river flowing through Zaragoza, Spain — a broad stretch of the river with the city's basilica visible on the far bank. The 226 BCE Ebro Treaty between Rome and Carthaginian Iberia set the river as the northern limit of Carthaginian military operations, a boundary whose interpretation triggered the Second Punic War."
+  credit: "Photograph: Carlos Eduardo Joos, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Ebro_river_-_Zaragoza_-_Spain_%5Eexplore_-_Flickr_-_Carlos_Eduardo_Joos.jpg
+  license: CC BY 2.0
 summary: >
   The principal river of northeastern Iberia and the diplomatic
   boundary established between Carthage and Rome in the Ebro

@@ -21,6 +21,12 @@ cultural_sphere: greek
 current_status: >
   Archaeological site at Selinunte (Sicily); destroyed by Hannibal son
   of Gisco in 409 BCE and substantially never reoccupied
+image:
+  src: /places/selinus.jpg
+  alt: "Temple ruins at Selinunte (ancient Selinus), western Sicily — a substantial Doric structure with sections of its peristyle standing among scattered architectural fragments. Selinus was the westernmost Greek city in Sicily and was sacked by the Carthaginians under Hannibal son of Gisco in 409 BCE."
+  credit: "Photograph: Jos Dielis, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Temple_ruins_Selinunte%2C_Sicily.jpg
+  license: CC BY 2.0
 summary: >
   A major Greek (Doric) colony on the southwestern Sicilian
   coast, founded c. 628 BCE by colonists from Megara Hyblaea.
