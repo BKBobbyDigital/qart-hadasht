@@ -6,9 +6,13 @@ name_greek: Ἀσδρούβας Βάρκας
 name_latin: Hasdrubal Barca
 etymology: >
   ʿAzrubaʿl ("Baʿal helps") with the Barca cognomen ("lightning")
-  inherited from his father Hamilcar. Distinguished from the
-  several other Carthaginian Hasdrubals on the site by the
-  Barca surname.
+  inherited from his father [Hamilcar Barca](/people/hamilcar-barca).
+  Distinguished from the several other Carthaginian commanders named
+  Hasdrubal on the site by the Barca surname — principally from
+  [Hasdrubal the Fair](/people/hasdrubal-the-fair) (his
+  brother-in-law and Barcid Iberian-command predecessor) and
+  [Hasdrubal Gisco](/people/hasdrubal-gisco) (the non-Barcid
+  Carthaginian commander of the late war's African phase).
 birth:
   value: -245
   precision: decade
@@ -16,26 +20,133 @@ birth:
 death:
   value: -207
   precision: year
-  notes: Killed at the Battle of the Metaurus, late June or early July 207 BCE. His severed head was sent to Hannibal's camp in Bruttium as a Roman trophy.
+  notes: >
+    Killed at the [Battle of the Metaurus](/events/battle-of-the-metaurus),
+    late June or early July 207 BCE. His severed head was sent to
+    Hannibal's camp in Bruttium as a Roman trophy — the most-cited
+    single moment of Roman psychological warfare in the surviving
+    Second Punic War record.
 roles:
   - general
 polity: Carthage
+referenced_themes:
+  - punic-identity
 summary: >
-  Middle son of Hamilcar Barca, brother of Hannibal and Mago,
-  Carthaginian commander in Iberia from 218 BCE to 207 BCE and
-  the principal hope of Hannibal's strategic position in Italy.
-  Hasdrubal took over the Iberian command when Hannibal
-  departed for Italy in 218 BCE, defended the peninsula against
-  the elder Scipios for nearly a decade, and after the Roman
-  capture of Carthago Nova in 209 BCE under the future Africanus
-  began the march to Italy that the Roman strategy of his elder
-  brother in southern Italy desperately needed. He crossed the
-  Alps in 208-207 BCE (more easily than Hannibal had a decade
-  earlier) and entered northern Italy in early summer 207. The
-  Roman consuls Marcus Livius Salinator and Gaius Claudius Nero
-  intercepted him at the Metaurus river before he could reach
-  Hannibal in Bruttium; Hasdrubal was defeated and killed. The
-  delivery of his severed head to Hannibal's camp is preserved
-  in Livy 27.51 and was understood by Hannibal himself, in the
-  surviving tradition, as the moment the war's strategic
-  outcome became unrecoverable.
+  Middle son of [Hamilcar Barca](/people/hamilcar-barca), brother of
+  [Hannibal](/people/hannibal-barca) and [Mago Barca](/people/mago-barca),
+  and the Carthaginian commander whose Iberian-to-Italy march was the
+  pivotal Carthaginian strategic operation of the Second Punic War's
+  middle phase. Hasdrubal Barca's career intersects the war's
+  outcome at three principal moments: his eleven-year Iberian command
+  (218–207 BCE) that maintained the Carthaginian western position
+  against the elder Scipios and then against
+  [Scipio Africanus](/people/scipio-africanus); the Alpine march of
+  208–207 BCE that attempted to reinforce Hannibal's Italian
+  position; and the [Metaurus](/events/battle-of-the-metaurus)
+  engagement in summer 207 BCE that ended the operation and
+  substantively determined the war's outcome.
+
+  **The Iberian command (218–207 BCE).** Hasdrubal took over the
+  Iberian command when Hannibal departed for the Italian campaign in
+  spring 218 BCE. The command's structural challenge across the next
+  eleven years was to maintain the Barcid Iberian apparatus — the
+  silver-mine revenue, the Iberian-contingent military recruitment,
+  the political-administrative consolidation his predecessor
+  [Hasdrubal the Fair](/people/hasdrubal-the-fair) had built — under
+  sustained Roman pressure from the elder Scipios (Publius and
+  Gnaeus, who landed in Iberia in late 218 BCE) and subsequently
+  from their nephew Scipio Africanus (who took over the Roman
+  Iberian command in 210 BCE). The eleven-year duration of his
+  command is itself striking — across the same period in which his
+  brother Hannibal was operating in Italy, Hasdrubal Barca was
+  substantively running the Carthaginian Iberian polity that funded
+  and supplied that operation.
+
+  The command's tactical highlight was the 211 BCE destruction of
+  the elder Scipios at the Battle of the Upper Baetis, in which
+  Hasdrubal Barca participated alongside [Mago Barca](/people/mago-barca)
+  and [Hasdrubal Gisco](/people/hasdrubal-gisco). Publius Cornelius
+  Scipio (the father of Africanus) and Gnaeus Scipio (the uncle)
+  were both killed; the Roman Iberian position briefly collapsed
+  before the future Africanus's appointment restored it.
+
+  After Africanus took over Roman Iberian command in 210 BCE,
+  Hasdrubal Barca's position deteriorated steadily. The loss of
+  [Carthago Nova](/places/carthago-nova) in 209 BCE — the surprise
+  capture Polybius preserves in detail (10.10–14) — eliminated the
+  principal Barcid Iberian administrative and naval base. The
+  Battle of [Baecula](/events/battle-of-baecula) in 208 BCE was a
+  Carthaginian tactical defeat that nonetheless allowed Hasdrubal
+  to extract his core army intact; the engagement's outcome was
+  Africanus's choice to allow Hasdrubal's withdrawal in exchange
+  for the Carthaginian abandonment of the central Iberian
+  position, a calculation that subsequently produced the
+  cross-Alpine reinforcement attempt.
+
+  **The Alpine march (208–207 BCE).** Hasdrubal's decision to take
+  his surviving Carthaginian Iberian army across the Pyrenees, Gaul,
+  and the Alps to reinforce Hannibal in Italy was substantively
+  driven by the strategic configuration of late 208 BCE: the Iberian
+  position was deteriorating and the only Carthaginian operational
+  reserve capable of changing the Italian-theater outcome was his
+  own field army. The march itself, across the same general route
+  Hannibal had taken a decade earlier, was operationally easier
+  than the original — the Gallic populations along the route were
+  by then accustomed to Carthaginian passage, the Alpine crossing
+  was made in a more favorable season, and Hasdrubal's force was
+  smaller and more cohesive than Hannibal's. He entered northern
+  Italy in early summer 207 BCE with approximately 30,000 troops,
+  intending to link up with Hannibal in Bruttium for a combined
+  Carthaginian operation against the Roman central Italian
+  position.
+
+  **The Metaurus (June or July 207 BCE).** The Roman strategic
+  response was the principal operational achievement of the late
+  Roman war effort. The two consuls of 207 BCE — Marcus Livius
+  Salinator (the consul of the north) and Gaius Claudius Nero (the
+  consul of the south, facing Hannibal in Bruttium) — coordinated
+  a strategic maneuver in which Claudius Nero, leaving a screen
+  force facing Hannibal, marched approximately 250 miles north in
+  a week with picked legions to reinforce Livius Salinator against
+  Hasdrubal before Hannibal could detect the movement. The combined
+  Roman force intercepted Hasdrubal at the [Metaurus
+  river](/places/metaurus) in late June or early July 207 BCE; the
+  battle that followed was a decisive Roman victory in which
+  Hasdrubal was killed and his army substantively destroyed.
+  Polybius (11.1–3) and Livy (27.46–49) preserve the engagement
+  with relatively close agreement on the strategic significance.
+
+  Claudius Nero's return-march south carried Hasdrubal's severed
+  head, which was thrown into Hannibal's camp at the start of the
+  Roman commander's arrival. The detail is preserved by Livy
+  (27.51) and is the most-cited single moment of Roman
+  psychological warfare in the Second Punic War's surviving
+  literary record. Hannibal's reaction — reportedly recognizing,
+  on seeing his brother's head, that the war's strategic outcome
+  had become unrecoverable — is the literary tradition's framing
+  of the moment when the Carthaginian Italian campaign lost its
+  strategic possibility of producing a negotiated end. Whether
+  Hannibal himself articulated the realization in the form Livy
+  preserves is uncertain; the underlying strategic fact (the
+  Metaurus eliminated the Italian-theater Carthaginian reserve
+  that the Hannibalic strategy had depended on) is firmly
+  attested.
+
+  **Assessment.** Hasdrubal Barca is the second-most-consequential
+  Barcid commander of the Second Punic War after Hannibal himself,
+  and the figure whose death substantively determined the war's
+  outcome. The Iberian apparatus he maintained for eleven years was
+  the material foundation of the Italian campaign; the Alpine march
+  he undertook was the operational instrument that might have
+  changed the Italian-theater outcome; the Metaurus defeat closed
+  the strategic configuration in which a Carthaginian negotiated
+  end remained possible. After his death, the war continued for
+  another five years but without the Carthaginian operational
+  option of reinforcing the Italian theater; the path to Zama and
+  the Treaty of 201 ran through the Iberian-theater collapse that
+  followed Carthago Nova and Ilipa and the African expedition that
+  produced Hasdrubal Gisco's defeat at the Great Plains. Hasdrubal
+  Barca's Iberian command had bought eleven years of Carthaginian
+  operational continuity; his death closed the strategic window
+  in which that continuity could still produce a Carthaginian
+  outcome.

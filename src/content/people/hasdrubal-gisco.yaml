@@ -5,11 +5,13 @@ name_punic_script: 𐤏𐤆𐤓𐤁𐤏𐤋
 name_greek: Ἀσδρούβας
 name_latin: Hasdrubal
 etymology: >
-  ʿAzrubaʿl combines ʿzr ("help") with the divine name Baʿal ("lord"), yielding
-  "Baʿal helps" or "help of Baʿal." The patronymic "son of Gisco" (Punic GSKN)
-  distinguishes him from the several other Carthaginian commanders named
-  Hasdrubal active in the same period, including Hannibal's brother and his
-  brother-in-law.
+  ʿAzrubaʿl combines *ʿzr* ("help") with the divine name *Baʿal*
+  ("lord"), yielding "Baʿal helps" or "help of Baʿal." The patronymic
+  "son of Gisco" (Punic *GSKN*) distinguishes him from the several
+  other Carthaginian commanders named Hasdrubal active in the same
+  period, including [Hasdrubal Barca](/people/hasdrubal-barca)
+  (Hannibal's brother) and [Hasdrubal the Fair](/people/hasdrubal-the-fair)
+  (Hamilcar's son-in-law and Barcid Iberian-command predecessor).
 floruit:
   value: -210
   precision: decade
@@ -18,16 +20,122 @@ death:
   value: -202
   precision: year
   circa: true
+  notes: >
+    Death conventionally placed at or shortly after Zama in 202 BCE.
+    The surviving tradition (Appian *Punica* 38; Livy 30.7 and 30.42)
+    reports that Hasdrubal Gisco took his own life after Zama to
+    avoid Roman reprisal and to escape the political consequences of
+    the war's outcome.
 roles:
   - general
   - politician
 polity: Carthage
+referenced_themes:
+  - punic-identity
 summary: >
-  Carthaginian general active in Iberia during the later Second Punic War, where
-  he commanded one of the three Punic armies confronting Scipio. Defeated at
-  Ilipa in 206 BCE, he withdrew to Africa to organize the defense of Carthage
-  itself. Took a leading role at Zama in 202 BCE, where ancient sources name
-  him among Hannibal's principal subordinates. His daughter Sophonisba married
-  first the Numidian king Syphax, securing him as a Carthaginian ally, and
-  later, briefly, Masinissa. Tradition reports that Hasdrubal Gisco took his
-  own life after Zama to avoid Roman reprisal.
+  Hasdrubal Gisco was the principal non-Barcid Carthaginian
+  field-commander of the late Second Punic War and one of the
+  central figures of the war's African phase. His career intersects
+  the war's outcome at the Iberian operations of 211–206 BCE, the
+  Carthaginian-Numidian diplomatic axis through his daughter
+  [Sophonisba](/people/sophonisba)'s marriages, the African defense
+  against [Scipio Africanus](/people/scipio-africanus)'s expedition,
+  and the [Battle of Zama](/events/battle-of-zama) where he served
+  as one of Hannibal's principal subordinates. His political
+  position within the Carthaginian senate gave him substantive
+  influence over the late-war strategic decisions; the Barcid
+  family's dominance of the war's military command did not
+  preclude substantive non-Barcid commander participation, and
+  Hasdrubal Gisco is the most-attested example.
+
+  **The Iberian command (215–206 BCE).** Hasdrubal Gisco joined the
+  Carthaginian Iberian theater after the initial Barcid command
+  structure (under Hannibal's brothers Hasdrubal Barca and
+  [Mago Barca](/people/mago-barca)) required reinforcement. The
+  Iberian Carthaginian command across these years operated as a
+  multi-general configuration with shifting responsibilities;
+  Hasdrubal Gisco principally operated in the southern Iberian
+  zone around Gades and the silver-mining hinterland. He
+  participated in the 211 BCE destruction of the elder Scipios at
+  the Battle of the Upper Baetis; through 210–207 BCE he held
+  southern operations against the consolidating Roman command
+  under Scipio Africanus.
+
+  The decisive engagement of his Iberian career was the
+  [Battle of Ilipa](/events/battle-of-ilipa) in 206 BCE, where
+  Scipio Africanus defeated the combined Carthaginian army under
+  Hasdrubal Gisco and Mago Barca through a tactical surprise — an
+  early-morning attack timed before the Carthaginians had completed
+  their normal deployment, with Scipio's veterans placed
+  asymmetrically against the weaker Iberian wings of the
+  Carthaginian formation. Polybius (11.20–24) and Livy (28.12–16)
+  preserve detailed accounts; the engagement was the operational
+  end of Carthaginian Iberia. Hasdrubal Gisco withdrew to Africa
+  with the remnant of his forces to begin the defense of the
+  African heartland against the expected Roman expedition.
+
+  **The Carthaginian-Numidian diplomatic axis (206–203 BCE).**
+  Hasdrubal Gisco was the principal Carthaginian agent of the
+  Numidian-alignment policy that substantively shaped the war's
+  African phase. His daughter Sophonisba's marriages — first to
+  Syphax of the [Masaesyli](/groups/masaesyli) in 206 BCE
+  (replacing her earlier betrothal to Masinissa, who was then
+  still in Carthaginian alliance), then captured by
+  [Masinissa](/people/masinissa) of the
+  [Massylii](/groups/massylii) after Syphax's defeat in 203 BCE —
+  were the diplomatic instruments through which Carthage attempted
+  to secure Numidian alliance against Rome. The reversal of the
+  Sophonisba-Masinissa betrothal in favor of the Syphax marriage
+  was substantively Hasdrubal Gisco's political decision as
+  Sophonisba's father, undertaken in coordination with the
+  Carthaginian senate to align Numidian power with Carthaginian
+  rather than Roman strategic interests. The decision succeeded
+  in the immediate term (Syphax committed to Carthage) but
+  produced the secondary consequence of Masinissa's defection to
+  Rome that subsequently shaped the war's African outcome. The
+  [Sophonisba page](/people/sophonisba) treats the diplomatic
+  history in detail.
+
+  **The Battle of Utica and the Great Plains (203 BCE).**
+  Hasdrubal Gisco commanded the Carthaginian field army in
+  Africa during Scipio's expedition of 204–203 BCE. The
+  Battle of Utica in spring 203 — Scipio's night attack on the
+  combined Syphax-Hasdrubal Gisco camps, set on fire to produce
+  panic and break the Carthaginian-Numidian configuration — and
+  the subsequent Battle of the Great Plains (a pitched battle in
+  which Scipio captured Syphax and substantively eliminated the
+  Carthaginian-Masaesyli alliance) were the two decisive
+  engagements of the campaign's first phase. Hasdrubal Gisco
+  survived both engagements but lost the bulk of his African
+  field forces; the Carthaginian senate's subsequent decision to
+  recall Hannibal from Italy was the consequence of this
+  collapse rather than of any prior strategic plan.
+
+  **Zama (202 BCE).** At [Zama](/events/battle-of-zama)
+  Hasdrubal Gisco served as one of Hannibal's principal
+  subordinates, commanding either the Carthaginian-citizen
+  contingent or the African infantry wing depending on the source
+  (Polybius and Livy preserve different specifics). The
+  Carthaginian defeat that followed produced the Treaty of 201
+  framework and Hasdrubal Gisco's death — by suicide per Appian
+  and Livy — in the immediate aftermath. His political position
+  in Carthaginian senatorial politics had been substantively
+  anti-Roman across his career, and surrender to Roman political
+  retribution was not a stance he was willing to take.
+
+  **Assessment.** Hasdrubal Gisco is the principal non-Barcid
+  Carthaginian commander of the late Second Punic War and the
+  Carthaginian political figure most directly responsible for the
+  Carthaginian-Numidian diplomatic configuration that shaped the
+  war's African outcome. His Iberian command was not tactically
+  successful against Scipio Africanus; his Numidian diplomatic
+  program produced the Syphax alliance and the secondary
+  Masinissa-Roman alignment that subsequently undid it; his African
+  field command was substantively defeated at Utica and the Great
+  Plains before Hannibal's return. He is in the surviving record
+  the figure who carried the political-strategic weight of the
+  Carthaginian senate's late-war decisions outside the Barcid
+  family's command apparatus, and his career documents the
+  substantive senatorial-political dimension of Carthaginian
+  war-direction that the Hannibal-centered Greco-Roman literary
+  tradition tends to under-represent.

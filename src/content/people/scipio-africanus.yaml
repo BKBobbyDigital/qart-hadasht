@@ -1,10 +1,16 @@
 slug: scipio-africanus
 name_display: Scipio Africanus
+name_greek: Σκιπίων ὁ Ἀφρικανός
 name_latin: Publius Cornelius Scipio Africanus
 etymology: >
-  The cognomen "Africanus" was awarded after his victory at Zama and the defeat
-  of Carthage in Africa, making it one of the earliest examples of a Roman
-  general taking a triumphal name from the territory he conquered.
+  The cognomen *Africanus* was awarded after his victory at Zama and
+  the defeat of Carthage in Africa, making it one of the earliest
+  examples of a Roman general taking a triumphal name from the
+  territory he conquered. The Cornelii Scipiones were an old patrician
+  Roman gens; the family included his father (Publius Cornelius Scipio,
+  the elder Scipio, consul of 218 BCE) and uncle (Gnaeus Cornelius
+  Scipio Calvus), both of whom commanded the Iberian theater of the
+  Second Punic War until their deaths in 211 BCE.
 birth:
   value: -236
   precision: year
@@ -18,11 +24,120 @@ roles:
   - consul
   - statesman
 polity: Rome
+referenced_themes:
+  - carthaginian-economy
 summary: >
-  Roman general who turned the Second Punic War. Survived Cannae as a young
-  military tribune; took command of the Roman war effort in Spain (210–206 BCE),
-  capturing Carthago Nova and breaking Carthaginian power on the peninsula.
-  Crossed to Africa in 204 BCE, allied with the Numidian prince Masinissa, and
-  defeated Hannibal at Zama in 202 BCE. Honored with the cognomen Africanus.
-  Later prosecuted by political rivals and withdrew from public life; died in
-  the same year as Hannibal (183 BCE).
+  Scipio Africanus is the principal Roman figure in the Second Punic
+  War and the man whose strategic and tactical decisions ended
+  Carthaginian Mediterranean power. The site treats him from the
+  Carthage-perspective rather than as a conventional Roman biography:
+  for a Carthage encyclopedia, what matters about Scipio is what he
+  did to Carthaginian outcomes, not the Roman political career arc
+  that the conventional Latin tradition foregrounds. This page reads
+  as a Roman POV note on a Carthage site rather than as a
+  substantive Roman biography in its own terms.
+
+  His career intersects Carthaginian history at five principal
+  moments, each of which substantively shaped Carthaginian fate.
+
+  **Cannae survivor (216 BCE).** Scipio was a young military tribune
+  at the Battle of [Cannae](/events/battle-of-cannae) and one of the
+  few Roman commanders to survive Hannibal's tactical envelopment of
+  the Roman main army. Livy preserves an episode (22.53) in which
+  Scipio, hearing that Roman senatorial survivors at Canusium were
+  considering abandoning Italy, drew his sword and compelled them to
+  swear to continue the war. The episode is substantively literary
+  embellishment but the kernel — Scipio's survival of Cannae and his
+  early commitment to continued Roman resistance — is firmly
+  attested. The defining experience of his military career was
+  surviving Hannibal's tactical masterpiece; the strategic
+  conclusions he subsequently drew about how to defeat Hannibal
+  were shaped by what he had observed first-hand at Cannae.
+
+  **Iberian command (210–206 BCE).** After the deaths of his father
+  and uncle in the [211 BCE Iberian disaster](/events/battle-of-the-upper-baetis),
+  the Roman senate appointed Scipio — then 25 years old, technically
+  too young for the constitutional command — to take over the
+  Iberian theater. His five-year command broke Carthaginian power
+  on the peninsula through a combination of operational innovation
+  (the surprise capture of [Carthago Nova](/places/carthago-nova) in
+  209 BCE, exploiting low-tide lagoon conditions Polybius 10.10–14
+  preserves), tactical adaptation (the defeats of Hasdrubal Barca at
+  Baecula in 208 and of Hasdrubal Gisco, Mago Barca, and the Iberian
+  contingents at Ilipa in 206), and political-diplomatic work
+  (the conversion of [Masinissa](/people/masinissa) from
+  Carthaginian to Roman alignment, the integration of major Iberian
+  polities into the Roman alliance system). By 206 BCE Carthaginian
+  Iberia had collapsed, and the Barcid Iberian state that had funded
+  the Italian campaign was substantively gone. The
+  [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state)
+  treats what was lost; Scipio is the principal Roman agent of the
+  loss.
+
+  **The African expedition (204–202 BCE).** Scipio's strategic decision
+  to invade Africa rather than continue the Italian-theater operations
+  was substantively his own and was contested in the Roman senate
+  (Quintus Fabius Maximus the Cunctator opposed it; Scipio prevailed
+  through public-political pressure including a popular vote in the
+  comitia). The expedition's African operations across 204–203 BCE
+  produced two major engagements: the Battle of Utica (the
+  destruction of the Syphax-Hasdrubal Gisco army camps by fire,
+  spring 203 BCE) and the Battle of the Great Plains (the pitched
+  battle that captured Syphax and consolidated Masinissa's Numidian
+  position, summer 203 BCE). The expedition's strategic purpose was
+  to force the recall of Hannibal from Italy — which it accomplished —
+  and to defeat the Carthaginian field army on terrain Hannibal had
+  not chosen.
+
+  **Zama (202 BCE).** The [Battle of Zama](/events/battle-of-zama)
+  was the engagement that ended the Second Punic War. Scipio's tactical
+  preparation was substantively informed by his observation of Cannae
+  fifteen years earlier: he arranged his infantry in checkerboard
+  pattern lanes to absorb the elephant charge without the line
+  breaking, deployed his cavalry (substantially Masinissan Numidian)
+  to drive off the Carthaginian cavalry and return to envelop the
+  Carthaginian rear, and avoided the tactical envelopment that had
+  destroyed Roman armies at Trebia and Cannae. Hannibal's veteran
+  infantry from the Italian campaign was the Carthaginian principal
+  strength; Masinissa's cavalry was the Roman tactical instrument
+  that proved decisive. The battle's outcome was a Roman victory
+  produced substantively by Scipio's strategic decision to bring
+  Masinissa into the configuration; Hannibal himself reportedly
+  acknowledged Scipio's tactical achievement.
+
+  **The Treaty of 201 and post-war Carthage.** Scipio negotiated the
+  [Treaty of 201](/events/treaty-of-201) personally and the terms
+  reflected his strategic vision: substantial indemnity (10,000
+  talents over fifty years), Carthaginian disarmament (military
+  fleet reduced to 10 ships, war elephants surrendered, prohibition
+  on Carthaginian warfare without Roman authorization), recognition
+  of Masinissa's unified Numidian kingdom and territorial claims,
+  but the city of Carthage itself preserved. The terms are reported
+  by Polybius (15.18) and Livy (30.37) with relatively close
+  agreement; the principal modern reading treats them as Scipio's
+  attempt to constrain Carthage as a Mediterranean rival without
+  eliminating it, on the calculation that complete elimination
+  would produce regional instability. The decision to spare
+  Carthage rather than destroy it was substantively Scipio's,
+  taken against the position of some Roman senatorial voices, and
+  shaped the next fifty years of Carthaginian-Roman relations until
+  the Cato-faction destruction-decision of 149. The site's editorial
+  take on
+  [why the destruction happened in 146](/editorialTakes/destruction-not-weak-enough)
+  treats the Treaty of 201 as the framework Scipio established that
+  the destruction-decision eventually broke.
+
+  Scipio's later career — his triumph, his consulships, his eastern
+  command in the war against Antiochus III (during which he
+  encountered the exiled Hannibal in Asia Minor), his prosecution by
+  political rivals (the Scipionic trials of the late 180s BCE), his
+  withdrawal to his Liternum villa, his death in 183 BCE in the same
+  year as Hannibal — is substantively Roman political history that
+  the site treats only where it intersects Carthaginian outcomes.
+  The principal Roman-perspective treatments are extensive in modern
+  scholarship; for the Carthage-perspective treatment of what
+  Scipio's career meant for Carthaginian history, the cumulative
+  picture is that he was the single individual most responsible for
+  the Carthaginian outcome of the Second Punic War and for the
+  framework within which the Third Punic War subsequently became
+  possible.

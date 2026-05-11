@@ -5,11 +5,13 @@ name_punic_script: 𐤌𐤂𐤍
 name_greek: Μάγων
 name_latin: Mago
 etymology: >
-  Magon (𐤌𐤂𐤍) derives from the Punic root mgn ("to bestow, give"),
-  yielding "gift" or "benefactor", a common Phoenician personal name
-  also borne by the Carthaginian agricultural writer Mago and several
-  earlier figures. The Barca surname distinguishes him as a son of
-  Hamilcar.
+  Magon (𐤌𐤂𐤍) derives from the Punic root *mgn* ("to bestow, give"),
+  yielding "gift" or "benefactor" — a common Phoenician personal name
+  also borne by the founder of the Magonid dynasty (Mago I), by
+  [the Carthaginian agricultural writer](/people/mago-agronomist), and
+  by several other figures across Carthaginian history. The Barca
+  surname (Punic *brq*, "lightning") was his father Hamilcar's personal
+  epithet that became the family name of his line.
 birth:
   value: -243
   precision: year
@@ -18,16 +20,116 @@ death:
   value: -203
   precision: year
   circa: true
+  notes: >
+    Wounded at the Battle of the Insubres in 203 BCE; died at sea on
+    the return voyage to Africa, never reaching Carthage. The exact
+    circumstances of his death are preserved in Livy 30.19 and Appian
+    *Hannibalica* 54.
 roles:
   - general
 polity: Carthage
+referenced_themes:
+  - carthaginian-economy
 summary: >
-  Youngest brother of Hannibal and Hasdrubal Barca. Commanded the
-  Carthaginian reserve at Cannae in 216 BCE, where his veteran African
-  troops were decisive in the encirclement that destroyed the Roman army.
-  Sent back to Carthage after Cannae to deliver the news (and reportedly
-  the famous bushel of equestrian rings), then commanded in Iberia
-  (215–206 BCE) before opening a third front in northern Italy in
-  205–203 BCE in an attempt to relieve pressure on his brother. Wounded
-  at the Battle of Insubria (203 BCE), he died at sea on the return
-  voyage to Africa, never reaching Carthage.
+  Youngest of the three sons of [Hamilcar Barca](/people/hamilcar-barca),
+  brother of [Hannibal](/people/hannibal-barca) and
+  [Hasdrubal Barca](/people/hasdrubal-barca), and the third principal
+  Barcid commander of the Second Punic War. Mago's career intersects
+  the war's outcome at multiple decisive moments — the cavalry-reserve
+  action at Cannae, the diplomatic delivery of the Cannae news to
+  Carthage, the Iberian command, and the northern-Italian campaign
+  that was the war's final Carthaginian operational initiative — and
+  his death in 203 BCE removed the last surviving Barcid field
+  commander outside Africa at the moment when the Carthaginian
+  African position was collapsing.
+
+  **Cannae (216 BCE) and the diplomatic mission.** At
+  [Cannae](/events/battle-of-cannae) Mago commanded the Carthaginian
+  reserve, the African heavy infantry that Hannibal had held back
+  for the decisive encirclement maneuver. When the Roman center
+  pushed forward against the deliberately yielding Carthaginian
+  Spanish-Celtic infantry, Mago's African heavy infantry executed the
+  flanking advance that closed the trap. The reserve's role in the
+  encirclement is preserved in Polybius (3.115-117) and Livy
+  (22.45-49) with relatively close agreement; Mago is named
+  specifically by Polybius. After the battle, Hannibal sent Mago
+  back to Carthage to deliver news of the victory and to argue for
+  reinforcements. The mission included the famous theatrical gesture
+  of pouring out a bushel of equestrian rings — taken from the Roman
+  dead at Cannae — at the floor of the Carthaginian senate (Livy
+  23.11–13). The senatorial debate that followed — between Hanno
+  the Great's faction (opposed to reinforcing the Italian campaign)
+  and the Barcid faction (demanding immediate support) — is the
+  best-documented moment of Carthaginian senate politics during the
+  war and produced reinforcements substantially smaller than what
+  Hannibal had requested. Mago returned to operations subsequently.
+
+  **The Iberian command (215–206 BCE).** Mago joined Hasdrubal Barca
+  and [Hasdrubal Gisco](/people/hasdrubal-gisco) in the Iberian
+  theater after the 215 BCE return from Carthage. The Iberian
+  Carthaginian command across these years operated as a multi-general
+  configuration with shifting responsibilities — Hasdrubal Barca
+  principally in the northeast against Roman operations along the
+  Ebro, Hasdrubal Gisco in the south, Mago in central and southern
+  Iberia. The configuration's tactical successes (most prominently
+  the 211 BCE destruction of the elder Scipios at the Battle of the
+  Upper Baetis, in which Mago participated alongside the other
+  Carthaginian commanders) were followed by strategic deterioration
+  after Scipio Africanus took over the Roman Iberian command in 210
+  BCE. Mago was present at the Carthaginian defeats at
+  [Baecula](/events/battle-of-baecula) in 208 and
+  [Ilipa](/events/battle-of-ilipa) in 206; after Ilipa, with the
+  Iberian apparatus collapsing, he withdrew to the Balearic Islands
+  with the remnant of his forces, where he wintered through 205 BCE
+  preparing the next operation.
+
+  **The northern Italian campaign (205–203 BCE).** Mago's final
+  command was the most operationally ambitious Carthaginian initiative
+  of the late war: an attempt to open a third front in northern
+  Italy by landing forces at Genoa and rallying the Ligurian and
+  Cisalpine Gallic populations against Rome, in parallel with
+  Hannibal's continuing presence in southern Italy and Hasdrubal
+  Barca's earlier (and failed) attempt to cross from Iberia. Mago
+  landed in Liguria in 205 BCE, captured Genoa, and operated in the
+  Po valley region for nearly two years, accumulating Ligurian and
+  Gallic auxiliaries and engaging Roman forces in skirmishes and
+  smaller engagements without producing a decisive battle. The
+  campaign's strategic purpose was to compel the Roman senate to
+  divert forces from the African theater that Scipio Africanus was
+  by then operating in; the campaign's actual effect was to
+  consume Carthaginian operational capacity without producing the
+  relief of pressure on either the Italian or African theaters.
+
+  **The Battle of the Insubres and death (203 BCE).** The decisive
+  engagement of Mago's northern-Italian campaign was the
+  [Battle of the Insubres](/events/battle-of-the-insubres) in the
+  late summer of 203 BCE, in which Roman forces under the consul
+  Quinctilius Varus and the praetor Cornelius Cethegus defeated
+  Mago's army in a pitched battle. Mago was wounded — the surviving
+  sources are not specific about the nature of the wound but
+  describe it as serious — and the Carthaginian operation collapsed.
+  The Carthaginian senate had by then recalled Mago to defend the
+  African heartland against Scipio's expedition; he embarked from
+  the Ligurian coast with the surviving forces and died at sea on
+  the voyage south, never reaching Carthage. His death removed the
+  last surviving Barcid field commander outside Hannibal's own
+  position; when Hannibal himself was recalled to Africa later in
+  203 BCE, the Carthaginian command structure had been substantively
+  reduced to the home-army resources that would shortly face Scipio
+  at Zama.
+
+  **Assessment.** Mago is the least-developed of the three Barcid
+  brothers in the surviving record — Hannibal dominates the
+  literary tradition; Hasdrubal Barca's career has the dramatic
+  arc of the Metaurus disaster; Mago's career was operationally
+  significant but did not produce a single defining moment that the
+  literary tradition could foreground. The structural fact about
+  his career is that he was the Barcid commander who maintained
+  Carthaginian operational presence in two theaters (Iberia, then
+  northern Italy) across the long-attrition phase of the war when
+  Hannibal himself was substantively stuck in southern Italy
+  without operational reinforcement. The collapse of his command
+  in 203 BCE — combined with Hasdrubal Barca's earlier death at
+  the [Metaurus](/events/battle-of-the-metaurus) in 207 — left
+  Hannibal without Barcid field-command support during the
+  African endgame and substantively shaped the Zama outcome.

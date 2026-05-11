@@ -5,28 +5,122 @@ name_punic_script: 𐤌𐤄𐤓𐤁𐤏𐤋
 name_greek: Μαάρβας
 name_latin: Maharbal
 etymology: >
-  Maharbaʿl combines mhr ("swift, skilled") with the divine name Baʿal,
-  yielding something like "swift one of Baʿal." His patronymic in the
-  Roman tradition is "son of Himilco."
+  Maharbaʿl combines *mhr* ("swift, skilled") with the divine name
+  *Baʿal*, yielding something like "swift one of Baʿal." His
+  patronymic in the Roman tradition is "son of Himilco." The name
+  is attested in the broader Carthaginian onomastic record but the
+  Maharbal of Hannibal's cavalry command is the principal figure
+  the surviving sources preserve.
 floruit:
   value: -218
   precision: decade
   circa: true
+death:
+  value: -200
+  precision: decade
+  circa: true
+  notes: >
+    Maharbal disappears from the surviving record after Cannae (216
+    BCE); no death date is preserved. He may have died during the
+    subsequent Italian campaign, may have been transferred to other
+    operational theaters, or may have survived but ceased to be a
+    figure of literary interest after Cannae. The decade estimate
+    is a placeholder; the Greco-Roman tradition's interest in him
+    centers on the cavalry command through 216 BCE, and what
+    happened to him afterward is not recoverable.
 roles:
   - cavalry commander
 polity: Carthage
+referenced_themes:
+  - punic-identity
 summary: >
-  Carthaginian cavalry commander, identified by Livy as a son of Himilco.
-  Commanded the Numidian cavalry under Hannibal throughout the Italian
-  campaign, including at the Trebia, Lake Trasimene, and Cannae. Famous
-  in the later Latin tradition for an exchange that probably never
-  happened: Livy reports that immediately after Cannae, Maharbal urged
-  Hannibal to march directly on Rome and, when Hannibal demurred, replied
-  "you know how to win a victory, Hannibal, but you do not know how to
-  use one" (vincere scis, Hannibal; victoria uti nescis). The line
-  appears in no earlier source, Polybius, who was closer to the events,
-  does not preserve it, and is generally treated by modern scholarship
-  as Livian invention or later tradition shaped to dramatize Roman
-  survival. Whether Maharbal said it or not, his command of Hannibal's
-  Numidian horse was central to every major Carthaginian victory in
-  Italy through 216 BCE.
+  Maharbal was [Hannibal](/people/hannibal-barca)'s principal cavalry
+  commander through the opening years of the Italian campaign and
+  the tactical instrument of the Carthaginian cavalry advantage that
+  defined the war's early phase. The Numidian cavalry under his
+  command was substantively decisive at the
+  [Trebia](/events/battle-of-trebia) (218 BCE),
+  [Lake Trasimene](/events/battle-of-lake-trasimene) (217 BCE), and
+  [Cannae](/events/battle-of-cannae) (216 BCE) — the three
+  engagements that established Hannibal's tactical reputation and
+  brought Rome to its post-Cannae crisis. The site treats him as a
+  substantive Carthaginian tactical figure whose operational role
+  was load-bearing for the early-Italian-campaign outcomes, beyond
+  the famous-quote literary tradition the Latin sources subsequently
+  shaped around him.
+
+  **The cavalry command.** Hannibal's tactical doctrine — most
+  fully expressed at Cannae — depended substantively on cavalry
+  envelopment of the enemy rear after the infantry engagement had
+  fixed the opposing center. The doctrine required cavalry forces
+  capable of (a) defeating the enemy cavalry on the wings in the
+  battle's opening phase, (b) executing a disciplined pursuit short
+  of pursuit-fatigue, and (c) returning to the battle to envelop
+  the now-isolated enemy infantry rear. The Carthaginian cavalry
+  Maharbal commanded — principally Numidian light cavalry,
+  supplemented by Iberian and Celtic heavy cavalry — executed this
+  three-phase pattern at Cannae with the discipline the doctrine
+  required, producing the tactical envelopment that destroyed the
+  Roman main army. The cavalry's performance was substantively
+  Maharbal's operational achievement; the doctrine was Hannibal's.
+
+  **The famous-quote tradition (Livy 22.51).** Livy preserves the
+  most-cited single line attributed to Maharbal: immediately after
+  Cannae, Maharbal reportedly urged Hannibal to march directly on
+  Rome and, when Hannibal hesitated, said *vincere scis, Hannibal;
+  victoria uti nescis* — "you know how to win a victory, Hannibal,
+  but you do not know how to use one." The line is preserved by
+  Livy (writing around 200 years after Cannae) and not by Polybius
+  (writing approximately 60 years after, with access to Carthaginian
+  and Roman participant traditions). The line's absence from
+  Polybius is the principal reason modern scholarship treats it as
+  Livian narrative embellishment rather than as substantive
+  attestation: the dramatic moralizing voice, the literary economy
+  of the formulation, and the role the line plays in the
+  Polybian-vs-Livian tradition's framing of Cannae's strategic
+  consequences are all consistent with Livian shaping of a kernel
+  event (a cavalry-commander's tactical opinion in the immediate
+  Cannae aftermath) into a literary set-piece.
+
+  The substantive strategic question the quote raises — should
+  Hannibal have marched on Rome immediately after Cannae? — is one
+  of the central interpretive debates of the Second Punic War. The
+  site treats it under the editorial take
+  [Should Hannibal have marched on Rome after Cannae?](/editorialTakes/cannae-march-on-rome),
+  which weighs the operational arguments (supply, manpower
+  exhaustion, the absence of siege equipment) against the strategic
+  arguments (the political shock value of a Roman-city threat
+  immediately after Cannae). The Maharbal quote is the literary
+  vehicle through which the debate enters the conventional Latin
+  tradition; the underlying strategic question is substantively
+  Hannibal's not Maharbal's, regardless of whether the quote was
+  actually said.
+
+  **Operational role at each engagement.** At
+  [Trebia](/events/battle-of-trebia) (218 BCE), Maharbal's
+  Numidian cavalry executed the cold-river skirmishing that drew
+  the Roman force into Hannibal's prepared ambush; the cavalry's
+  flank action during the battle proper completed the
+  Carthaginian envelopment. At
+  [Trasimene](/events/battle-of-lake-trasimene) (217 BCE), the
+  cavalry's role was more limited because the ambush terrain
+  favored infantry engagement; Maharbal's command participated in
+  the closing pursuit but was not the principal tactical
+  instrument. At Cannae the cavalry was the principal tactical
+  instrument; the engagement is in significant part the cavalry's
+  battle, with the infantry serving as the fixing force the
+  cavalry's envelopment closed around.
+
+  **Assessment.** Maharbal is one of the principal Carthaginian
+  operational figures of the early Italian campaign and the
+  cavalry commander whose performance enabled Hannibal's most
+  consequential tactical successes. The Livian famous-quote
+  tradition has substantively shaped his subsequent literary
+  reception — he is in the conventional Latin tradition the
+  voice of "use the victory" against Hannibal's "win the
+  victory" — but the underlying operational reality is that he
+  was the Carthaginian cavalry commander whose execution of
+  Hannibal's tactical doctrine produced the Italian-campaign
+  victories that defined the war's early phase. He disappears
+  from the surviving record after Cannae, and his subsequent
+  fate is not preserved.
