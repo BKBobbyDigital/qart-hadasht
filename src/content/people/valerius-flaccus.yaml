@@ -1,0 +1,62 @@
+slug: valerius-flaccus
+name_display: Publius Valerius Flaccus
+name_latin: Publius Valerius Flaccus
+floruit:
+  value: -219
+  precision: year
+death:
+  precision: decade
+  value: -200
+  circa: true
+  notes: >
+    No specific death date is preserved. Valerius Flaccus appears in
+    the surviving Roman senatorial record principally through the
+    219 BCE embassy to Hannibal at Saguntum; his subsequent career
+    is fragmentary. The decade estimate is placeholder.
+roles:
+  - senator
+  - envoy
+polity: Rome
+summary: >
+  Publius Valerius Flaccus led the spring 219 BCE Roman embassy to
+  Hannibal's siege camp at [Saguntum](/places/saguntum) — the earlier
+  of the two principal Roman diplomatic actions that bracketed the
+  outbreak of the Second Punic War. With
+  [Quintus Baebius Tamphilus](/people/baebius-tamphilus) as the
+  second named envoy, Valerius Flaccus's embassy was the immediate
+  Roman senate response to the Saguntum siege and the diplomatic
+  prelude to the formal 218 BCE declaration of war that followed
+  Saguntum's fall.
+
+  **The embassy.** The Roman senate's instructions to Valerius
+  Flaccus and Baebius Tamphilus were to proceed first to Hannibal's
+  command in Iberia and demand the cessation of the Saguntum siege
+  on the grounds that Saguntum was a Roman ally; failing that, to
+  proceed to Carthage and present the same demand to the
+  Carthaginian senate. The embassy carried out the instructions:
+  the envoys reached Hannibal's camp at Saguntum, were either
+  refused audience or received without altering Hannibal's
+  operations, and continued to Carthage. The Carthaginian senate's
+  response was non-conciliatory — Hanno the Great's anti-Barcid
+  faction supported some compromise but the majority senatorial
+  position backed Hannibal's operations. The embassy returned to
+  Rome without having resolved the Saguntum crisis. Polybius
+  (3.20-21) and Livy (21.6, 21.10) preserve the embassy's outline
+  with reasonable consistency.
+
+  **Strategic-historical significance.** The 219 embassy is the
+  diplomatic moment that documents the Roman senate's first formal
+  response to Hannibal's Iberian operations. Its failure (or
+  refusal-to-resolve) established the political-diplomatic
+  framework that the 218 Fabius embassy subsequently operated
+  within. Valerius Flaccus's leadership of the embassy makes him
+  the principal Roman diplomat of the year preceding the formal
+  declaration; the substantive Roman political decision to escalate
+  through the 218 Fabius embassy depended on the negative outcome
+  of his 219 embassy. The [219 embassy event](/events/roman-embassy-to-hannibal-219)
+  treats the broader diplomatic sequence; this entry is the
+  individual-figure treatment of the embassy's leader.
+
+  Valerius Flaccus's subsequent career is fragmentary in the
+  surviving record; he is preserved principally as the named leader
+  of the 219 embassy.

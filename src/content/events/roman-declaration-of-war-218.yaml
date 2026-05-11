@@ -12,6 +12,18 @@ participants:
   - person: fabius-maximus-cunctator
     role: leader of the Roman embassy
     side: Roman
+  - person: livius-salinator
+    role: Roman co-envoy
+    side: Roman
+  - person: aemilius-paullus
+    role: Roman co-envoy
+    side: Roman
+  - person: licinius-varus
+    role: Roman co-envoy
+    side: Roman
+  - person: baebius-tamphilus
+    role: Roman co-envoy (also served on the 219 embassy)
+    side: Roman
   - person: hanno-the-great
     role: Carthaginian senatorial responder (anti-Barcid faction)
     side: Carthaginian

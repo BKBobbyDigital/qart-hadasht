@@ -9,6 +9,12 @@ date_start:
     siege of Saguntum.
 place: saguntum
 participants:
+  - person: valerius-flaccus
+    role: leader of the Roman embassy
+    side: Roman
+  - person: baebius-tamphilus
+    role: Roman co-envoy (also served on the 218 embassy)
+    side: Roman
   - person: hannibal-barca
     role: Carthaginian commander; recipient of the embassy
     side: Carthaginian

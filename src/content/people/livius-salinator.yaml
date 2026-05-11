@@ -1,23 +1,90 @@
 slug: livius-salinator
 name_display: Marcus Livius Salinator
 name_latin: Marcus Livius Salinator
+birth:
+  value: -254
+  precision: decade
+  circa: true
+death:
+  precision: decade
+  value: -200
+  circa: true
 floruit:
   value: -207
   precision: year
 roles:
   - consul
   - general
+  - envoy
 polity: Rome
 summary: >
-  Roman consul of 207 BCE, co-commander with Gaius Claudius Nero
-  of the Roman victory at the Metaurus that destroyed Hasdrubal
-  Barca's relief expedition from Iberia. Livius had previously
-  been consul in 219 BCE (in the campaign against the Illyrian
-  pirates), had subsequently been prosecuted on corruption
-  charges and gone into rural retirement for a decade, and was
-  recalled to public life specifically to take the second
-  consulship for the 207 emergency. The improbable return from
-  political disgrace to the consular command that saved the war
-  is one of the more striking episodes in the surviving Roman
-  political tradition. Honored with a triumph after the
-  Metaurus.
+  Marcus Livius Salinator's career intersects Carthaginian history
+  at two principal moments — the 218 BCE Roman embassy to Carthage
+  that delivered the formal declaration of war, and the 207 BCE
+  consulship and victory at the
+  [Battle of the Metaurus](/events/battle-of-the-metaurus) that
+  killed [Hasdrubal Barca](/people/hasdrubal-barca) and closed the
+  Carthaginian Italian-reinforcement option.
+
+  **First consulship (219 BCE) and the political eclipse.** Livius
+  was consul in 219 BCE, in the campaign against the Illyrian
+  pirates that ran in parallel with the Saguntum crisis. After his
+  return from the Illyrian campaign he was prosecuted on corruption
+  charges and went into rural retirement for nearly a decade, his
+  political career substantively in eclipse.
+
+  **The 218 BCE embassy to Carthage.** Livius was one of the four
+  co-envoys, alongside [Quintus Fabius Maximus](/people/fabius-maximus-cunctator)
+  (the embassy leader), [Lucius Aemilius Paullus](/people/aemilius-paullus),
+  [Gaius Licinius Varus](/people/licinius-varus), and
+  [Quintus Baebius Tamphilus](/people/baebius-tamphilus), of the
+  spring 218 BCE Roman embassy to Carthage that delivered the
+  formal declaration of war. The embassy's "toga episode"
+  ultimatum and the Carthaginian senate's acceptance of war are
+  documented at the [218 declaration event](/events/roman-declaration-of-war-218).
+  Livius's inclusion in the embassy was substantively despite his
+  political eclipse — the embassy required senior senatorial
+  standing, and Livius's prior consulship qualified him even
+  during his retirement.
+
+  **Recall to consulship (207 BCE).** The Roman senate recalled
+  Livius to public life specifically to take the second consulship
+  for the 207 BCE strategic emergency: Hasdrubal Barca had crossed
+  the Alps from Iberia with a reinforcement army intended for
+  Hannibal in southern Italy, and the Roman senate needed
+  experienced commanders against both Carthaginian armies
+  simultaneously. Livius's appointment was coupled with the
+  reconciliation of his old political rival Gaius Claudius Nero,
+  who was elected as his co-consul; the two consuls' formal
+  reconciliation before assuming joint command is preserved in
+  Livy 27.35 as a striking moment of Roman political ritual.
+
+  **The Metaurus campaign.** Livius commanded the Roman force in
+  the north against Hasdrubal; Claudius Nero held the south against
+  Hannibal. Claudius Nero's secret 250-mile forced march north with
+  picked legions reinforced Livius's army just before the engagement
+  with Hasdrubal at the Metaurus river in late June or early July
+  207 BCE. The combined Roman force defeated and destroyed
+  Hasdrubal's army; Hasdrubal himself was killed; the strategic
+  Carthaginian Italian-reinforcement option was closed. Livius
+  received the triumph for the victory; Claudius Nero received only
+  an ovation, the result of senatorial politics over the
+  attribution of the strategic credit.
+
+  **Censorship and later career.** Livius served as censor in 204
+  BCE — controversially extending citizenship registration in ways
+  that allegedly retaliated against the political faction that had
+  prosecuted him earlier. He died at some point in the early 2nd c.
+  BCE; no specific death date is preserved.
+
+  **Assessment.** Livius is one of the principal Roman figures whose
+  career intersects Carthaginian history at multiple substantive
+  moments. The 218 embassy role places him among the senators who
+  delivered the war's formal opening; the 207 Metaurus consulship
+  places him among the commanders who substantively closed the
+  Italian-reinforcement option. The improbable return from political
+  disgrace to consular command at the war's strategic pivot is one
+  of the more striking episodes in the surviving Roman political
+  tradition; the site treats it from the Carthage-perspective as
+  the Roman institutional reach that produced the Metaurus outcome
+  Hasdrubal Barca's strategic operation could not have anticipated.
