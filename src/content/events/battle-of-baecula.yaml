@@ -1,0 +1,54 @@
+slug: battle-of-baecula
+name: Battle of Baecula
+type: battle
+outcome: "Roman tactical victory; Hasdrubal Barca extracted his army intact and continued north toward Italy"
+date_start:
+  value: -208
+  precision: year
+place: iberia
+participants:
+  - person: hasdrubal-barca
+    role: commander
+    side: Carthaginian
+  - person: scipio-africanus
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+related_events:
+  - event: battle-of-metaurus
+    relation: precursor
+    notes: >
+      Baecula is conventionally treated as the engagement that
+      released Hasdrubal Barca's Iberian army for the march to
+      Italy that culminated at the Metaurus the following year.
+      Scipio's tactical victory at Baecula did not prevent
+      Hasdrubal's strategic withdrawal northward, which became
+      the principal Carthaginian operational decision of 208 BCE
+      and shaped the strategic configuration of the war's final
+      Italian phase.
+summary: >
+  Battle fought in 208 BCE in southeastern Iberia between
+  [Scipio Africanus](/people/scipio-africanus)'s Roman army and
+  [Hasdrubal Barca](/people/hasdrubal-barca)'s Carthaginian
+  Iberian army. Scipio's tactical innovations — flanking attacks
+  by detached cohorts against Hasdrubal's elevated camp position
+  — produced a Roman victory at the level of the engagement.
+  Hasdrubal, however, withdrew his core army intact and began the
+  march north that would carry him across the Pyrenees and Alps
+  toward Italy. The substantive strategic outcome of Baecula was
+  not the Roman tactical win but the Carthaginian strategic
+  withdrawal: Hasdrubal arrived in northern Italy in 207 BCE with
+  a substantial army, and the
+  [Battle of the Metaurus](/events/battle-of-metaurus) followed.
+
+  The site's substantive treatment of the Iberian theater and the
+  Baecula-to-Metaurus arc is at the
+  [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state)
+  and at the
+  [Scipio Africanus page](/people/scipio-africanus). Polybius
+  (10.38–39) and Livy (27.18) preserve the engagement; the
+  reconstruction is broadly secure on the tactical sequence and
+  contested on the specific location (modern Bailén or modern
+  Santo Tomé are the principal candidates).

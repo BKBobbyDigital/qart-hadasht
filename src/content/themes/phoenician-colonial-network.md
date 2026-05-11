@@ -224,7 +224,7 @@ attested.
 
 Melqart sanctuaries are attested archaeologically at every major
 Phoenician colonial foundation: the famous Heracleion at
-[Gadir](/places/gadir) (the principal western sanctuary, which
+[Gadir](/places/gades) (the principal western sanctuary, which
 Hannibal would visit before the Italian campaign); the
 [Cippi of Melqart](/artifacts/cippi-of-melqart) from Malta
 documenting the cult's diffusion to the central Mediterranean;

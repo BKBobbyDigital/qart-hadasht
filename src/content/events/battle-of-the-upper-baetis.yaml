@@ -1,0 +1,63 @@
+slug: battle-of-the-upper-baetis
+name: Battle of the Upper Baetis
+type: battle
+outcome: "Decisive Carthaginian victory; killed both Scipio brothers and broke Roman command in Iberia"
+date_start:
+  value: -211
+  precision: year
+place: iberia
+participants:
+  - person: hasdrubal-barca
+    role: commander
+    side: Carthaginian
+  - person: mago-barca
+    role: commander
+    side: Carthaginian
+  - person: hasdrubal-gisco
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+related_events:
+  - event: second-punic-war
+    relation: theater engagement
+    notes: >
+      The 211 BCE Iberian disaster produced the command vacuum
+      the Roman senate filled by sending the young
+      [Scipio Africanus](/people/scipio-africanus) to take over
+      the Iberian theater the following year. The Carthaginian
+      victory was substantively complete tactically but
+      politically produced the conditions for the Carthaginian
+      Iberian state's eventual collapse under Scipio's
+      209–206 BCE command.
+summary: >
+  The 211 BCE engagement in southern Iberia that killed both Roman
+  Iberian commanders — Publius Cornelius Scipio (the elder Scipio,
+  consul of 218 BCE) and his brother Gnaeus Cornelius Scipio
+  Calvus — and substantially destroyed the Roman field force in
+  the Iberian theater. The engagement was actually two related
+  battles fought within a few weeks of each other: the elder
+  Scipio was killed first in an engagement with a Carthaginian
+  army under [Hasdrubal Barca](/people/hasdrubal-barca) and
+  [Mago Barca](/people/mago-barca); Gnaeus Scipio was killed
+  shortly afterward in a separate engagement with the army of
+  [Hasdrubal Gisco](/people/hasdrubal-gisco), having been
+  abandoned by his Celtiberian auxiliaries who had been bought off
+  by Carthaginian gold.
+
+  The Carthaginian victory was the high-water mark of Carthaginian
+  Iberian operations during the Second Punic War. The Roman senate
+  responded by sending the elder Scipio's 25-year-old son
+  [Scipio Africanus](/people/scipio-africanus) — technically too
+  young for the constitutional command — to take over the
+  Iberian theater in 210 BCE. The young Scipio's subsequent
+  five-year campaign (Carthago Nova 209, Baecula 208, Ilipa 206)
+  produced the systematic collapse of Carthaginian Iberia and the
+  conditions for the African invasion that ended the war.
+
+  The site's substantive treatment of the Iberian theater is at
+  the
+  [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state).
+  Polybius (frag.; the relevant book is partially preserved) and
+  Livy (25.32–36) preserve the engagement.

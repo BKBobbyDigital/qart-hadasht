@@ -532,50 +532,117 @@ sort order.
 
 ## Outstanding work
 
-### Active work list
+### Active work queue (next-level pass)
 
-**(All prior active items have shipped as of the polish-pass
-commits 7e828f6 through 97ead55.)** The remaining items below are
-tabled — held until the user calls for them.
+After the polish-pass and the territorial-maps + three-companion-
+narratives + maps-index work, the project sits at ~602 pages with
+comprehensive entity coverage. Content additions are at diminishing
+returns; the queue below targets quality, scholarly rigor, and
+visible polish over new content surface.
 
-**Time-aware territorial maps (tabled)** — Carthaginian extent at
-550 / 264 / 218 / 202 / 146 BCE. Five polygons across time with a
-date-toggle UI. Distinct from the operational/strategic Punic War
-maps already shipped (which show one war each, not territorial
-extent over time). The largest unbuilt visual addition the site
-could still take. The existing `HistoricalMap.astro` component is
-the right starting point; the toggle UI and the five polygon
-datasets are the new work.
+**Order is foundation-first** — link audit and proofread before new
+content lands; new content (place imagery, year-by-year) on cleaned
+foundation; citation rigor and accessibility audit at the end so
+they capture the settled state.
 
-**UI/UX polish pass (tabled)** — Dark mode (Phase 3 of the visual
-redesign), keyboard navigation between sibling entities, possibly
-other small interaction improvements. User has explicitly tabled
-until after the content surface is settled.
+1. **Internal-link health audit** — scripted crawl of every
+   `<a href>` against actual page existence. 602 pages with heavy
+   cross-referencing means there are almost certainly broken or
+   stale internal references by now. Foundation work; also the
+   fastest item (single afternoon of scripted crawling + targeted
+   fixes).
 
-**Possible future content additions if the user wants them**:
+2. **Substantive prose proofread pass** — clean-eyes editorial walk
+   across all narratives, themes, periods, and substantive entity
+   summaries. Catches awkward phrasing from cross-session drift,
+   internal inconsistencies, accidentally-doubled coverage between
+   narrative and theme, em-dash overuse against the house-style
+   rule. Unsexy but the difference between good encyclopedia and
+   great encyclopedia.
 
-- Sicilian-Greek/Punic 4th-c. dialectic — the period and figures
-  between Himera 480 and the Agathocles crisis is thin in the
-  surviving record but the existing treatments could be deepened
-- Mago Barca's specific operational arc in finer detail — the
-  current treatment is substantive but the Iberian-Italian-
-  Ligurian arc could support a dedicated narrative
+3. **Place imagery** — public-domain photos of Carthage,
+   Kerkouane, Motya, Tharros, Sulci, the cothon, the Byrsa, Lepcis
+   Magna, etc. Same source/credit discipline as artifacts. The
+   places collection has been intentionally text-only; PD
+   archaeological-site photos do exist (Wikimedia Commons,
+   French/Italian national archive collections), and the visual
+   gap is real.
+
+4. **Year-by-year chronological spine** — `/chronology` collection
+   where each significant year from ~600 BCE to 146 BCE gets a
+   page tying together what happened. Currently the site has
+   three organizational axes (event importance, period era, theme
+   topic); year-by-year is the fourth, and it's the one a lot of
+   readers actually want ("what happened in 218 BCE?"). The data
+   exists across events; this synthesizes.
+
+5. **Citation rigor for academic use** — DOI minting via Zenodo
+   for substantive narratives. BibTeX/RIS export per claim. Stable
+   anchored permalinks per paragraph. Lets academics cite the site,
+   which drives academic linking and credibility. Possibly
+   highest-leverage move for scholarly standing, though invisible
+   to general readers.
+
+6. **Accessibility / performance audit** — Lighthouse scores;
+   screen-reader testing of maps and Cmd-K; color contrast
+   verification on muted text; keyboard navigation completeness.
+   Last because it should capture the whole settled site.
+
+### Tabled — substantial next-level moves, revisit after the active queue completes
+
+These are real "next level" directions the user has explicitly
+tabled until the active 6-item queue ships. **Revisit each after
+queue completion**; do not surface unsolicited.
+
+1. **Revamp all UI** — full visual / interaction redesign. Distinct
+   from the small UI/UX polish previously parked. User-scoped as
+   a deliberate future direction once the content side is
+   genuinely settled.
+
+2. **Battle tactical visualizations** — animated/diagrammatic SVG
+   of Cannae, Zama, Trebia, Trasimene, Aegates Islands, Drepana,
+   with step-through deployment-to-resolution views and sourcing
+   notes. The single biggest "wow" addition the site could take;
+   tooling fit is identical to the existing maps system plus the
+   territorial-map toggle pattern. ~10 days for the canonical
+   battle set done well.
+
+3. **Family tree / dynasty explorer** — SVG-rendered interactive
+   family trees for the Barcids (Hamilcar → Hannibal/Hasdrubal/
+   Mago + their generation and successors), the Magonid clan, the
+   Massylii royal house (Gala → Masinissa → his three sons), the
+   Cornelii Scipiones. Ancient prosopography is hard to follow in
+   prose; visual trees genuinely useful.
+
+4. **Punic inscriptional corpus interface** — searchable interface
+   for the CIS/KAI corpus excerpts the site references — Punic
+   text, transliteration, translation, find-context, museum
+   location. Most academically distinctive feature the site could
+   add. 4-6 weeks of careful work to do meaningfully.
+
+5. **Audio narration** — recorded readings of the substantive
+   narratives, hosted alongside the text. Podcast-like reach
+   without a podcast feed. Production lift is non-trivial; reach
+   gain is real but specific to a particular audience segment.
+
+### Possible future content additions (held; diminishing returns)
+
+These were flagged as possible content additions in earlier
+sessions but have not been prioritized. Available if the user
+calls for them; not part of the active queue:
+
+- Sicilian-Greek/Punic 4th-c. dialectic between Himera 480 and
+  the Agathocles crisis (existing treatments could be deepened)
+- Mago Barca's specific operational arc as a dedicated narrative
+  (currently substantive but distributed)
 - Hamilcar Magonid (480 BCE Himera commander) — currently 49
-  lines, slightly thinner than the comparable major commanders
-- Mercenary War leaders (Spendius, Mathos, Autaritus) — currently
-  at 28–29 lines each. The substantive treatment lives in the
-  Mercenary War narrative; the person pages are appropriately
-  brief for cross-reference but could be lifted if the user
-  wants individual-figure depth
-- Hellenistic-period treatment of Punic Sardinia and Sicily —
-  Punic-cultural sites (Sulci, Tharros, Motya, the Sicilian
-  Punic zone) have place entries but not the kind of regional-
-  cultural synthesis the new Numidian-Punic-interface narrative
-  treats for North Africa
-- Specific battle-tactical narratives for the under-treated
-  engagements (e.g., the Trebia, Trasimene, Ticinus, Drepana)
-  if individual-engagement narrative depth is wanted beyond what
-  the event pages already give
+  lines, slightly thinner than comparable major commanders
+- Mercenary War leaders (Spendius, Mathos, Autaritus) — at
+  28-29 lines each; substantive treatment lives in the war
+  narrative
+- Hellenistic-period synthesis of Punic Sardinia and Sicily
+  (Sulci, Tharros, Motya, the Sicilian Punic zone) parallel to
+  the Numidian-Punic-interface narrative
 
 ### Parked indefinitely
 

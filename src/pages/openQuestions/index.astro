@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const questions = (await getCollection('openQuestions')).sort((a, b) =>
+  a.data.question.localeCompare(b.data.question)
+);
+---
+
+<BaseLayout title="Open questions">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3 tracking-tight">Open questions</h1>
+    <p class="text-sand-700 mb-8 max-w-2xl leading-relaxed">
+      Substantive questions about Carthaginian history that the surviving
+      evidence does not resolve. The site treats these gaps as first-class
+      entities rather than papering over them: each entry frames the
+      question, summarizes what the evidence does and does not establish,
+      weighs candidate answers with their support and counter-arguments,
+      and notes what would resolve the question if such evidence ever
+      came to light.
+    </p>
+
+    <ul class="space-y-3">
+      {questions.map((q: any) => (
+        <li>
+          <a
+            href={`/openQuestions/${q.id}`}
+            class="block p-5 border border-sand-400 bg-sand-50 rounded-lg transition-colors hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100"
+          >
+            <h2 class="font-serif text-xl text-ink-900 leading-snug">{q.data.question}</h2>
+            <p class="text-xs uppercase tracking-wider text-sand-700 mt-3">
+              {(q.data.candidate_answers ?? []).length} candidate answer{(q.data.candidate_answers ?? []).length === 1 ? '' : 's'} weighed
+            </p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

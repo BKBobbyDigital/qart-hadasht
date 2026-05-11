@@ -194,7 +194,7 @@ not a general preservation of Carthaginian literature. The
 libraries of Carthage — substantial collections that Mago's own
 treatise presupposes — were not preserved at Rome. Pliny's
 account is explicit: those libraries were given to the
-[Numidian](/groups/numidians) allies (*regulis Africae*). The
+[Numidian](/narratives/the-numidian-punic-interface) allies (*regulis Africae*). The
 Numidians, by this point Roman clients with no particular
 incentive or apparatus for preserving Carthaginian written
 culture, are not heard from in the surviving record as a venue
