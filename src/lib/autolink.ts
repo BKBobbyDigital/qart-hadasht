@@ -193,12 +193,23 @@ export function autolink(
     claimed.push([start, end]);
   }
 
+  // Inline italic substitution for use INSIDE bold spans (where the inner
+  // content might contain *italic* markers we want to render).
+  const inlineItalic = (s: string): string =>
+    s.replace(/(?<![*\w])\*([^*\n]+?)\*(?![*\w])/g, (_m, inner) => `<em>${inner}</em>`);
+
   // Inline markdown: **bold** and *italic*. YAML summary fields use these
-  // sparingly for emphasis (proper nouns the autolink doesn't catch,
-  // citation-style title italics, named-entity bolding within paragraphs).
-  // We claim these ranges before the entity-autolink pass so the asterisks
-  // don't get escaped.
-  const boldRe = /\*\*([^*\n]+)\*\*/g;
+  // for emphasis (proper nouns the autolink doesn't catch, citation-style
+  // title italics, named-entity bolding within paragraphs). We claim these
+  // ranges before the entity-autolink pass so the asterisks don't get
+  // escaped as literal text.
+  //
+  // Bold uses a non-greedy match that allows inner asterisks so that
+  // patterns like `**The *gladius* term.**` (bold with nested italic) work.
+  // The inner content gets HTML-escaped, then italic substitution is run
+  // on the escaped result (the <em> tags themselves are emitted by
+  // inlineItalic and survive the escape).
+  const boldRe = /\*\*([^\n]+?)\*\*/g;
   let bMatch: RegExpExecArray | null;
   while ((bMatch = boldRe.exec(text)) !== null) {
     const start = bMatch.index;
@@ -207,13 +218,13 @@ export function autolink(
     replacements.push({
       start,
       end,
-      html: `<strong>${escapeHtml(bMatch[1])}</strong>`,
+      html: `<strong>${inlineItalic(escapeHtml(bMatch[1]))}</strong>`,
     });
     claimed.push([start, end]);
   }
-  // Single-asterisk italic. Must NOT match within bold (which we've already
-  // claimed) and must NOT match across newlines.
-  const italicRe = /(?<![*\w])\*([^*\n]+)\*(?![*\w])/g;
+  // Single-asterisk italic outside of bold spans. Must NOT match within
+  // bold (claimed ranges) and must NOT match across newlines.
+  const italicRe = /(?<![*\w])\*([^*\n]+?)\*(?![*\w])/g;
   let iMatch: RegExpExecArray | null;
   while ((iMatch = italicRe.exec(text)) !== null) {
     const start = iMatch.index;
@@ -302,21 +313,79 @@ export function renderSummaryHtml(
   opts: { excludeKey?: string } = {}
 ): string {
   if (!text) return '';
-  const blocks = text.split(/\n\n+/);
+  // Pre-process: collapse "more-indented continuation lines" into spaces.
+  // YAML `>` folded scalars fold normal soft-wraps to spaces but preserve
+  // newlines before more-indented lines (used to keep code blocks, bullet
+  // continuations, etc. as distinct lines). For summary prose those
+  // preserved newlines are just continuation softwraps that we want to
+  // collapse back into the same paragraph or bullet item.
+  const normalized = text.replace(/\n[ \t]+/g, ' ');
+  // Split on any run of newlines. Every remaining `\n` is an authored
+  // paragraph break (since soft-wraps were already folded by YAML and
+  // continuation-line newlines were normalized to spaces just above).
+  const blocks = normalized.split(/\n+/).map((b) => b.trim()).filter(Boolean);
+
   const parts: string[] = [];
-  for (const raw of blocks) {
-    const block = raw.trim();
-    if (!block) continue;
-    let tag: 'h2' | 'h3' | 'p' = 'p';
-    let inner = block;
-    if (inner.startsWith('### ')) {
-      tag = 'h3';
-      inner = inner.slice(4).trim();
-    } else if (inner.startsWith('## ')) {
-      tag = 'h2';
-      inner = inner.slice(3).trim();
+  let pendingItems: string[] = [];
+
+  const flushList = () => {
+    if (pendingItems.length === 0) return;
+    const lis = pendingItems
+      .map((it) => `<li>${autolink(it, registry, opts)}</li>`)
+      .join('');
+    parts.push(`<ul>${lis}</ul>`);
+    pendingItems = [];
+  };
+
+  for (const block of blocks) {
+    // Headings.
+    if (block.startsWith('### ')) {
+      flushList();
+      parts.push(`<h3>${autolink(block.slice(4).trim(), registry, opts)}</h3>`);
+      continue;
     }
-    parts.push(`<${tag}>${autolink(inner, registry, opts)}</${tag}>`);
+    if (block.startsWith('## ')) {
+      flushList();
+      parts.push(`<h2>${autolink(block.slice(3).trim(), registry, opts)}</h2>`);
+      continue;
+    }
+    // Bullet item — accumulate; consecutive bullets group into one <ul>.
+    if (block.startsWith('- ')) {
+      pendingItems.push(block.slice(2).trim());
+      continue;
+    }
+    // Anything else: flush any pending list, then paragraph.
+    flushList();
+    parts.push(`<p>${autolink(block, registry, opts)}</p>`);
   }
+  flushList();
   return parts.join('\n');
+}
+
+/**
+ * Strip markdown formatting from a YAML summary so it can be used in
+ * a <meta name="description"> tag without literal asterisks, hashes,
+ * or link syntax leaking into search-engine snippets and social
+ * unfurl cards. Returns plain text truncated to ~250 characters at a
+ * word boundary.
+ */
+export function stripMarkdownForMeta(text: string, maxLen = 250): string {
+  if (!text) return '';
+  let out = text;
+  // Remove heading markers entirely.
+  out = out.replace(/^#{1,6}\s+/gm, '');
+  // Convert markdown links to their visible text.
+  out = out.replace(/\[([^\]\n]+)\]\([^)\s]+\)/g, '$1');
+  // Bold and italic — strip the surrounding asterisks.
+  out = out.replace(/\*\*([^\n]+?)\*\*/g, '$1');
+  out = out.replace(/(?<![*\w])\*([^*\n]+?)\*(?![*\w])/g, '$1');
+  // Bullet markers at line start.
+  out = out.replace(/^\s*[-*]\s+/gm, '');
+  // Collapse all whitespace runs to single spaces.
+  out = out.replace(/\s+/g, ' ').trim();
+  if (out.length <= maxLen) return out;
+  // Truncate at word boundary, append ellipsis.
+  const cut = out.slice(0, maxLen);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > maxLen * 0.7 ? cut.slice(0, lastSpace) : cut).trimEnd() + '…';
 }

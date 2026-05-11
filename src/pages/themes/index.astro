@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { stripMarkdownForMeta } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
 
 const themes = (await getCollection('themes')).sort(
@@ -37,7 +38,7 @@ const carthage = await getEntry('places', 'carthage');
               <h3 class="font-serif text-lg text-tyrian-700">{t.data.title}</h3>
               <span class="text-[10px] uppercase tracking-widest text-sand-700">{t.data.scope.replace('_', ' ')}</span>
             </div>
-            <p class="text-sm text-ink-900 mt-2 line-clamp-3">{t.data.summary}</p>
+            <p class="text-sm text-ink-900 mt-2 line-clamp-3">{stripMarkdownForMeta(t.data.summary, 400)}</p>
           </a>
         </li>
       ))}
@@ -54,7 +55,7 @@ const carthage = await getEntry('places', 'carthage');
           )}
           <h3 class="font-serif text-xl text-tyrian-900">{carthage.data.name_display}</h3>
         </div>
-        <p class="text-sm text-ink-900 mt-2 line-clamp-3">{carthage.data.summary}</p>
+        <p class="text-sm text-ink-900 mt-2 line-clamp-3">{stripMarkdownForMeta(carthage.data.summary, 400)}</p>
       </a>
     </section>
   )}

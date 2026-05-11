@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { stripMarkdownForMeta } from '../../lib/autolink';
 import { getCollection, getEntry, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -96,7 +97,7 @@ const stops = await Promise.all(
 const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
   <article class="max-w-3xl mx-auto px-6 py-12">
     <span hidden data-pagefind-filter="type:Threads" data-pagefind-meta="type:Thread"></span>
 

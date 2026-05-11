@@ -1,11 +1,22 @@
 ---
 import EditorialConfidenceChip from './EditorialConfidenceChip.astro';
+import { autolink, renderSummaryHtml, type LinkRegistry } from '../lib/autolink';
 
 interface Props {
   take: any;
 }
 const { take } = Astro.props;
 const data = take.data;
+
+// Empty link registry — the component is reused in multiple contexts
+// (editorial-take detail page, embedded on entity pages, embedded in
+// narratives) and doesn't have a clean way to get the full registry.
+// Markdown formatting (**bold**, *italic*, [text](url), ## headings)
+// still works via the inline-md passes inside autolink/renderSummaryHtml;
+// entity-name autolinking just gets skipped here.
+const emptyRegistry: LinkRegistry = { candidates: [] };
+const positionHtml = autolink(data.position, emptyRegistry);
+const reasoningHtml = renderSummaryHtml(data.reasoning, emptyRegistry);
 ---
 
 <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
@@ -14,19 +25,19 @@ const data = take.data;
     <EditorialConfidenceChip confidence={data.confidence} />
   </div>
   <h4 class="font-serif text-xl mt-1 mb-2">{data.subject_question}</h4>
-  <p class="font-serif text-lg leading-snug text-sand-900">{data.position}</p>
+  <p class="font-serif text-lg leading-snug text-sand-900" set:html={positionHtml} />
   <details class="mt-4 text-sm">
     <summary class="cursor-pointer font-medium text-tyrian-700">Reasoning →</summary>
-    <div class="mt-2 prose-encyclopedia" set:html={data.reasoning.replace(/\n/g, '<br/>')} />
+    <div class="mt-2 prose-encyclopedia" set:html={reasoningHtml} />
     {data.competing_positions && data.competing_positions.length > 0 && (
       <div class="mt-4">
         <h5 class="text-xs uppercase tracking-widest font-semibold text-sand-700">Positions considered and rejected</h5>
         <ul class="mt-2 space-y-3">
           {data.competing_positions.map((cp: any) => (
             <li class="border-l-2 border-sand-300 pl-3">
-              <p class="font-medium">{cp.position}</p>
-              <p class="text-sand-700 text-sm mt-1">Why rejected: {cp.why_rejected}</p>
-              {cp.held_by && <p class="text-sand-700 text-xs mt-1 italic">Held by: {cp.held_by}</p>}
+              <p class="font-medium" set:html={autolink(cp.position, emptyRegistry)} />
+              <p class="text-sand-700 text-sm mt-1">Why rejected: <span set:html={autolink(cp.why_rejected, emptyRegistry)} /></p>
+              {cp.held_by && <p class="text-sand-700 text-xs mt-1 italic" set:html={autolink('Held by: ' + cp.held_by, emptyRegistry)} />}
             </li>
           ))}
         </ul>

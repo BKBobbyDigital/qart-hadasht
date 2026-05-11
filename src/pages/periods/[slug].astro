@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { stripMarkdownForMeta } from '../../lib/autolink';
 import HistoricalMap from '../../components/HistoricalMap.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 
@@ -57,7 +58,7 @@ const prev = idx > 0 ? allPeriods[idx - 1] : null;
 const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
   <article class="max-w-3xl mx-auto px-6 py-12">
     <span hidden data-pagefind-filter="type:Periods" data-pagefind-meta="type:Period"></span>
 

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { stripMarkdownForMeta } from '../../lib/autolink';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
@@ -123,7 +124,7 @@ const jumps: Jump[] = [
 ].filter((j) => j.count > 0);
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.title}
