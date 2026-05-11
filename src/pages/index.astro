@@ -1,35 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection, getEntry } from 'astro:content';
-
-// ─── Curated "Start here" entries ────────────────────────────────────────────
-//
-// Six deliberate entry points covering the narrative arc — legendary
-// founder, founding event, the city, signature military moment, the
-// great commander, the ending. A balanced mix of person / event / place.
-type EntryKind = 'event' | 'person' | 'place';
-type EntrySpec = { kind: EntryKind; slug: string };
-
-const startHereSpecs: EntrySpec[] = [
-  { kind: 'person', slug: 'dido' },
-  { kind: 'event', slug: 'founding-of-carthage' },
-  { kind: 'place', slug: 'carthage' },
-  { kind: 'person', slug: 'hannibal-barca' },
-  { kind: 'event', slug: 'battle-of-cannae' },
-  { kind: 'event', slug: 'destruction-of-carthage' },
-];
-
-type Entry = {
-  kind: EntryKind;
-  href: string;
-  label: string;
-  date: string;
-  gloss: string;
-};
+import { getEntry } from 'astro:content';
 
 // Trim a long summary down to a single editorial gloss. Prefers the
 // first complete sentence; falls back to a word-boundary truncation.
-function trimGloss(s: string | undefined, max = 160): string {
+function trimGloss(s: string | undefined, max = 200): string {
   if (!s) return '';
   const flat = s.replace(/\s+/g, ' ').trim();
   if (flat.length <= max) return flat;
@@ -40,55 +15,44 @@ function trimGloss(s: string | undefined, max = 160): string {
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
 
-const startHereEntries: Entry[] = await Promise.all(
-  startHereSpecs.map(async (s): Promise<Entry | null> => {
-    if (s.kind === 'event') {
-      const e: any = await getEntry('events', s.slug);
-      if (!e) return null;
-      const d = e.data;
-      const date = d.date_start.precision === 'legendary'
-        ? `legendary ${Math.abs(d.date_start.value)} BCE`
-        : (d.date_end
-            ? `${Math.abs(d.date_start.value)}–${Math.abs(d.date_end.value)} BCE`
-            : `${Math.abs(d.date_start.value)} BCE`);
-      return { kind: 'event', href: `/events/${s.slug}`, label: d.name, date, gloss: trimGloss(d.summary) };
-    }
-    if (s.kind === 'person') {
-      const p: any = await getEntry('people', s.slug);
-      if (!p) return null;
-      const d = p.data;
-      let date = '';
-      if (d.birth?.precision === 'legendary' || d.death?.precision === 'legendary') {
-        date = 'legendary';
-      } else if (d.birth && d.death) {
-        date = `${Math.abs(d.birth.value)}–${Math.abs(d.death.value)} BCE`;
-      } else if (d.death) {
-        date = `d. ${Math.abs(d.death.value)} BCE`;
-      } else if (d.birth) {
-        date = `b. ${Math.abs(d.birth.value)} BCE`;
-      } else if (d.floruit) {
-        date = `fl. ${Math.abs(d.floruit.value)} BCE`;
-      }
-      return { kind: 'person', href: `/people/${s.slug}`, label: d.name_display, date, gloss: trimGloss(d.summary) };
-    }
-    // place
-    const pl: any = await getEntry('places', s.slug);
-    if (!pl) return null;
-    return {
-      kind: 'place',
-      href: `/places/${s.slug}`,
-      label: pl.data.name_display,
-      date: pl.data.modern_location ? `today: ${pl.data.modern_location}` : '',
-      gloss: trimGloss(pl.data.summary),
-    };
-  })
-).then((arr) => arr.filter(Boolean) as Entry[]);
+// ─── Headline editorial takes ────────────────────────────────────────────────
+// Three positions the site argues that nobody else does in this form.
+// These are the sharpest possible front door — a first-time visitor
+// sees immediately what makes this encyclopedia distinct.
+const featuredTakeSlugs = [
+  'destruction-not-weak-enough',
+  'masinissa-strategic-opportunist',
+  'tophet-happened-scale-unrecoverable',
+];
+const featuredTakes = (await Promise.all(
+  featuredTakeSlugs.map(async (slug) => await getEntry('editorialTakes', slug))
+)).filter(Boolean) as any[];
 
-const kindLabel: Record<EntryKind, string> = {
-  event: 'Event',
-  person: 'Person',
-  place: 'Place',
-};
+// ─── Long-form narratives ────────────────────────────────────────────────────
+// Three substantive interpretive arcs — the "long arc and structural
+// questions" the pull-quote promises, vs the dramatic-highlights
+// framing that dominates the open-web Carthage record.
+const featuredNarrativeSlugs = [
+  'mago-of-carthage',
+  'punic-continuity-in-roman-africa',
+  'the-barcid-iberian-state',
+];
+const featuredNarratives = (await Promise.all(
+  featuredNarrativeSlugs.map(async (slug) => await getEntry('narratives', slug))
+)).filter(Boolean) as any[];
+
+// ─── Open questions ──────────────────────────────────────────────────────────
+// Gaps as first-class entities. Two featured: one the long-arc duration
+// question (load-bearing for the no-hard-endpoint discipline), and one
+// a famous claim the site reframes (salt-the-earth — almost everyone
+// gets this wrong).
+const featuredQuestionSlugs = [
+  'duration-of-punic-cultural-identity',
+  'tpw-salt-the-earth',
+];
+const featuredQuestions = (await Promise.all(
+  featuredQuestionSlugs.map(async (slug) => await getEntry('openQuestions', slug))
+)).filter(Boolean) as any[];
 
 // ─── Featured threads ────────────────────────────────────────────────────────
 const featuredThreadSlugs = [
@@ -97,12 +61,15 @@ const featuredThreadSlugs = [
   'why-cannae-didnt-end-the-war',
   'the-tophet-question',
 ];
-const featuredThreads = await Promise.all(
-  featuredThreadSlugs.map(async (slug) => {
-    const t: any = await getEntry('threads', slug);
-    return t;
-  })
-).then((arr) => arr.filter(Boolean));
+const featuredThreads = (await Promise.all(
+  featuredThreadSlugs.map(async (slug) => await getEntry('threads', slug))
+)).filter(Boolean) as any[];
+
+const confidenceLabel: Record<string, string> = {
+  tentative: 'tentative',
+  moderate: 'moderate',
+  strong: 'strong',
+};
 ---
 
 <BaseLayout title="Qart-Hadasht">
@@ -126,22 +93,115 @@ const featuredThreads = await Promise.all(
       </footer>
     </blockquote>
 
-    <h2 class="font-serif text-3xl sm:text-4xl mb-6">Start here</h2>
+    <p class="eyebrow mb-3">Where this site differs</p>
+    <h2 class="font-serif text-3xl sm:text-4xl mb-3">Headline positions</h2>
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      Three positions the site argues with full reasoning and
+      explicitly named competing readings. Each take is labeled
+      with confidence (<em>tentative</em>, <em>moderate</em>,
+      <em>strong</em>) and links to the underlying claims.
+    </p>
     <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {startHereEntries.map((e) => (
+      {featuredTakes.map((t: any) => (
         <li>
           <a
-            href={e.href}
-            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+            href={`/editorialTakes/${t.id}`}
+            class="flex flex-col h-full p-5 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-500 active:bg-purple-100 transition-colors"
           >
-            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{kindLabel[e.kind]}</p>
-            <h3 class="font-serif text-xl text-ink-900 mt-1.5 leading-tight">{e.label}</h3>
-            {e.date && <p class="text-xs text-sand-700 tabular-nums mt-1">{e.date}</p>}
-            <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-4">{e.gloss}</p>
+            <p class="text-[10px] uppercase tracking-widest font-semibold text-tyrian-700">
+              Editorial take · {confidenceLabel[t.data.confidence] ?? t.data.confidence}
+            </p>
+            <h3 class="font-serif text-lg text-tyrian-900 mt-2 leading-snug">{t.data.subject_question}</h3>
+            <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-4 flex-1">{trimGloss(t.data.position, 220)}</p>
+            <p class="mt-4 text-xs text-tyrian-700 font-medium">Read the take →</p>
           </a>
         </li>
       ))}
     </ul>
+    <p class="mt-4 text-sm text-sand-700">
+      <a href="/editorialTakes" class="text-tyrian-700 hover:underline">All 21 editorial takes →</a>
+    </p>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
+    <p class="eyebrow mb-3">The long arc and structural questions</p>
+    <h2 class="font-serif text-3xl sm:text-4xl mb-3">Long-form readings</h2>
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      Long-form interpretive arcs the open-web Carthage record
+      under-treats. Substantive synthesis with full source apparatus.
+    </p>
+    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {featuredNarratives.map((n: any) => (
+        <li>
+          <a
+            href={`/narratives/${n.id.replace(/\.md$/, '')}`}
+            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+          >
+            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
+              Narrative · {n.data.scope}
+            </p>
+            <h3 class="font-serif text-xl text-ink-900 mt-2 leading-tight">{n.data.title}</h3>
+            <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-5 flex-1">{trimGloss(n.data.thesis, 240)}</p>
+            <p class="mt-4 text-xs text-tyrian-700 font-medium">Read →</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-4 text-sm text-sand-700">
+      <a href="/narratives" class="text-tyrian-700 hover:underline">All 33 narratives →</a>
+    </p>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
+    <p class="eyebrow mb-3">Gaps as first-class entities</p>
+    <h2 class="font-serif text-3xl sm:text-4xl mb-3">What we don't know</h2>
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      Questions the surviving evidence doesn't resolve. Each gets its
+      own page with the evidence summary, candidate answers, and what
+      would resolve it.
+    </p>
+    <ul class="grid sm:grid-cols-2 gap-4">
+      {featuredQuestions.map((q: any) => (
+        <li>
+          <a
+            href={`/openQuestions/${q.id}`}
+            class="flex flex-col h-full p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+          >
+            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">Open question</p>
+            <h3 class="font-serif text-lg text-ink-900 mt-2 leading-snug">{q.data.question}</h3>
+            <p class="text-xs text-sand-700 mt-3">
+              {(q.data.candidate_answers ?? []).length} candidate answer{(q.data.candidate_answers ?? []).length === 1 ? '' : 's'} weighed
+            </p>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-4 text-sm text-sand-700">
+      <a href="/openQuestions" class="text-tyrian-700 hover:underline">All 13 open questions →</a>
+    </p>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
+    <p class="eyebrow mb-3">Historical atlas</p>
+    <a
+      href="/maps/extent-over-time"
+      class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start p-6 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+    >
+      <div class="flex-shrink-0 flex items-center justify-center w-full sm:w-48 aspect-[4/3] bg-tyrian-50 border border-tyrian-300 rounded-md">
+        <p class="font-phoenician text-tyrian-700 text-3xl sm:text-4xl tracking-wider">𐤒𐤓𐤕</p>
+      </div>
+      <div class="flex-1">
+        <h2 class="font-serif text-2xl sm:text-3xl mb-2 tracking-tight">Carthaginian territory, 550–146 BCE</h2>
+        <p class="text-sand-900 leading-relaxed">
+          Six centuries of Mediterranean shape in five toggleable
+          states — from the network hegemony of the mid-6th century
+          through the African heartland on the eve of destruction.
+          Visual encoding distinguishes directly-administered hinterland,
+          tributary zones, and territory lost since the prior state.
+        </p>
+        <p class="mt-3 text-sm text-tyrian-700 font-medium">Explore the map →</p>
+      </div>
+    </a>
   </section>
 
   <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
