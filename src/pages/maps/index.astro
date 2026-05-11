@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Maps — Qart-Hadasht"
+  description="Historical atlas maps of Carthaginian territorial extent, the three Punic Wars, and the operational geography of the Carthaginian Mediterranean."
+>
+  <article class="max-w-4xl mx-auto px-6 py-10">
+    <p class="eyebrow mb-3">Historical atlas</p>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-4 tracking-tight">Maps</h1>
+    <p class="text-lg text-sand-900 leading-snug mb-10 max-w-3xl">
+      Server-side-rendered historical maps with cream paper background,
+      Natural Earth coastline, and historical-atlas labeling
+      conventions. No tiled basemaps, no client-side mapping libraries.
+    </p>
+
+    <section class="mb-10">
+      <h2 class="eyebrow mb-3">Territorial extent over time</h2>
+      <a
+        href="/maps/extent-over-time"
+        class="block rounded-lg border border-sand-400 bg-sand-50 px-6 py-5 transition-colors hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100"
+      >
+        <h3 class="font-serif text-2xl mb-2 tracking-tight">
+          Carthaginian territorial extent, 550 → 146 BCE
+        </h3>
+        <p class="text-sand-900 leading-relaxed">
+          Five-state map with date toggle. Distinguishes
+          directly-administered hinterland, tributary and allied zones,
+          pre-territorial network sphere, and territory lost since the
+          prior state. Covers the network hegemony of the mid-6th
+          century, the pre-First Punic War peak (264), the eve of the
+          Second Punic War with the Barcid Iberian state (218), the
+          post-Zama Treaty configuration (202), and the eve of
+          destruction (146).
+        </p>
+      </a>
+    </section>
+
+    <section>
+      <h2 class="eyebrow mb-3">Strategic maps of the three Punic Wars</h2>
+      <p class="text-sand-900 leading-relaxed mb-4">
+        The three Punic War strategic maps are embedded on the
+        relevant period pages and war-level event pages, where they
+        sit alongside the substantive textual treatment they
+        illustrate. The maps show theater geography, principal cities,
+        campaign routes, and pivotal battle locations.
+      </p>
+      <ul class="space-y-3 text-sand-900 leading-relaxed">
+        <li>
+          <a class="font-medium underline decoration-tyrian-500 underline-offset-2 hover:text-tyrian-700" href="/periods/04-first-punic-war-264-241">
+            First Punic War strategic map
+          </a>
+          — on the period 04 page and on the
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/events/first-punic-war">First Punic War event page</a>.
+        </li>
+        <li>
+          <a class="font-medium underline decoration-tyrian-500 underline-offset-2 hover:text-tyrian-700" href="/periods/06-second-punic-war-218-201">
+            Second Punic War strategic map
+          </a>
+          — on the period 06 page and on the
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/events/second-punic-war">Second Punic War event page</a>.
+          Shows Hannibal's Pyrenees-Rhône-Alps route as a dashed line
+          alongside the major theaters.
+        </li>
+        <li>
+          <a class="font-medium underline decoration-tyrian-500 underline-offset-2 hover:text-tyrian-700" href="/periods/07-numidian-period-and-destruction-201-146">
+            Third Punic War strategic map
+          </a>
+          — zoomed to Cap Bon and the siege geography. On the period
+          07 page and on the
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/events/third-punic-war">Third Punic War event page</a>.
+        </li>
+      </ul>
+    </section>
+
+    <section class="mt-10 border-t border-sand-300 pt-6">
+      <h2 class="eyebrow mb-3">How the maps are made</h2>
+      <p class="text-sand-900 leading-relaxed">
+        Each map is a server-side-rendered SVG built from a JSON
+        configuration plus Natural Earth 50m coastline data. The
+        coastline is clipped to the Mediterranean basin (lon −12 to 36,
+        lat 28 to 47) and projected equirectangular with longitude
+        scaled by cos(centerLat). Polygons, route lines, and city
+        markers are drawn on top of the coastline base; no tiles, no
+        client-side mapping library. The territorial-extent map's
+        date toggle is the one client-side script in the system
+        (~15 lines, vanilla JS) and toggles which SVG state group is
+        visible. Polygon coordinates are scholarly approximations
+        derived by visual reference to standard reference maps
+        (Aubet, Lancel, Hoyos, MacDonald); the
+        <a class="underline decoration-tyrian-500 underline-offset-2" href="/maps/extent-over-time">extent-over-time page</a>
+        documents the methodology in its own right.
+      </p>
+    </section>
+  </article>
+</BaseLayout>
