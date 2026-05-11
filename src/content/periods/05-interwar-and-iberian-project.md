@@ -7,8 +7,10 @@ summary: >
   crossing of the Ebro. The most intensely transformative period of
   Carthaginian history outside the Punic Wars themselves: the
   Mercenary War nearly destroying the city, the Roman seizure of
-  Sardinia, and the Barcid family's reconstruction of Carthaginian
-  power through systematic Iberian conquest.
+  Sardinia, and the Barcid family's nineteen-year project in Iberia
+  — the foundation of Carthago Nova, the silver-shekel state coinage,
+  the integration of Iberian aristocratic polities, and the
+  preparation of the army that would cross the Alps in 218 BCE.
 key_events:
   - mercenary-war
   - mutiny-at-sicca
@@ -146,51 +148,71 @@ authorization for the [Iberian conquest](/events/hamilcars-iberian-conquest)
 in 237 BCE — over the parallel senatorial coalition under
 [Hanno the Great](/people/hanno-the-great) that opposed it.
 
-Hamilcar's nine-year command (237-228 BCE) transformed the Carthaginian
-position in the western Mediterranean from the post-war contraction
-of the 230s into the resource base that would fund the Second Punic
-War a generation later. The campaign's military phase produced
-Carthaginian conquest of southern Iberia; the economic phase, at least
-as significant, produced the silver-mine revenue that funded everything
-that followed. Hamilcar's [death at Helike](/events/death-of-hamilcar-at-helike)
-in 228 BCE — drowned during a withdrawal from a Vettonian ambush —
-ended the campaign's first phase.
+Across nineteen years (237–218 BCE) three successive Barcid
+commanders — Hamilcar, his son-in-law Hasdrubal the Fair, and
+Hamilcar's son Hannibal — held command in Iberia, founded planned
+colonial cities, issued the silver-shekel state coinage that
+funded the apparatus, integrated Iberian aristocratic polities
+through marriage and treaty, and prepared the army that would
+cross the Alps. What this period was — state-building enterprise,
+war-preparation operation, or some integration of both — is treated
+under the narrative
+[The Barcid Iberian state](/narratives/the-barcid-iberian-state)
+and the editorial take
+[Was the Barcid Iberian project state-building or war preparation?](/editorialTakes/barcid-iberian-state-as-state).
+This section walks the period's principal commanders and outputs.
+
+Hamilcar's nine-year command (237–228 BCE) opened the project: the
+conquest of southern Iberia, the foundation of Akra Leuke ("White
+Citadel," probably modern Alicante) as the first Barcid Iberian
+administrative center, and the establishment of the silver-mine
+revenue stream that would fund what followed. Hamilcar's
+[death at Helike](/events/death-of-hamilcar-at-helike) in 228 BCE
+— drowned during a withdrawal from a Vettonian ambush — closed
+the founding phase.
 
 Command passed to his son-in-law [Hasdrubal the Fair](/people/hasdrubal-the-fair),
-whose [seven-year command](/events/hasdrubal-the-fairs-command) (228-221
-BCE) was structurally distinctive: where Hamilcar had favored military
-conquest, Hasdrubal favored political integration through marriage
-alliance with Iberian aristocracy and the
-[foundation of Carthago Nova](/events/founding-of-carthago-nova) as a
-new Carthaginian Iberian capital. The
-[Ebro Treaty](/events/ebro-treaty) of 226 BCE — Hasdrubal's
-negotiation with a Roman embassy concerned about the expanding Iberian
-project — established the Ebro river as the northern limit of
-Carthaginian operations. Whether the treaty also addressed
-[Saguntum](/places/saguntum)'s status as a Roman ally south of the
-Ebro is genuinely contested in the surviving sources and would become
-the central diplomatic question of the next decade.
+whose [seven-year command](/events/hasdrubal-the-fairs-command)
+(228–221 BCE) was the apparatus-building phase. Where Hamilcar had
+extended Carthaginian control through military operations,
+Hasdrubal extended it through political-administrative
+infrastructure: the [foundation of Carthago Nova](/events/founding-of-carthago-nova)
+in 228 BCE as a planned colonial capital (designed harbor,
+residential and administrative quarters, sanctuary, mint), the
+marriage to an Iberian princess that anchored a network of
+aristocratic intermediaries, and the formalized treaty-and-tribute
+structures with the named Iberian polities of southern and eastern
+Iberia. The [Ebro Treaty](/events/ebro-treaty) of 226 BCE —
+Hasdrubal's negotiation with a Roman embassy concerned about the
+expanding Iberian apparatus — established the Ebro river as the
+northern limit of Carthaginian operations. Whether the treaty also
+addressed [Saguntum](/places/saguntum)'s status as a Roman ally
+south of the Ebro is genuinely contested in the surviving sources
+and would become the central diplomatic question of the next
+decade.
 
 Hasdrubal's [assassination](/events/assassination-of-hasdrubal-the-fair)
 in 221 BCE produced the irregular succession to
-[Hannibal Barca](/people/hannibal-barca): command in Iberia passed by
-acclamation of the Iberian field army rather than by Carthaginian
-senatorial appointment, with the senate ratifying after the fact. The
-succession is one of the more striking surviving instances of Barcid
-army politics — the field army treating its succession as its own to
-determine — and a structural preview of the autonomy with which Hannibal
-would conduct the Iberian and Italian campaigns over the next two
-decades.
+[Hannibal Barca](/people/hannibal-barca): command in Iberia passed
+by acclamation of the Iberian field army, with the Carthaginian
+senate ratifying after the fact. The pattern — third successive
+dynastic transmission within one family, the field army
+constituting the legitimating body rather than the senate — is the
+pattern of a Hellenistic-pattern royal house in formation rather
+than of a senate-appointed expeditionary command. It is one of the
+clearest single pieces of evidence for the state-building reading
+of the project.
 
-The Barcid Iberian state's fiscal and military foundations are
-attested most directly by the Barcid Iberian Coinage — the silver
-shekels minted at Carthago Nova and other Iberian mints from 237
-BCE forward, with the male-portrait obverse iconography that
-sustains the modern debate over whether the figure is Melqart, a
-Hellenistic-style deified portrait of one of the Barcid generals,
-or deliberately ambiguous. The coinage is the principal physical
-evidence for the silver-economy underwriting of the Italian
-campaign.
+The Barcid Iberian apparatus's fiscal and administrative reach is
+attested most directly by the [Barcid Iberian Coinage](/artifacts/barcid-iberian-coinage)
+— the silver shekel series minted at Carthago Nova and other
+Iberian mints from approximately 237 BCE forward, with consistent
+denominations and weight standards across mints and the contested
+male-portrait obverse iconography (Melqart, a Hellenistic-style
+deified Barcid portrait, or deliberately ambiguous between the
+two) that projects sovereignty in the Hellenistic-royal manner.
+The coinage funded armies and projected the apparatus as a state
+in the same act; both functions are substantive.
 
 For the pre-Punic-political Iberian elite milieu the Barcid project
 built on, the Lady of Galera (a 7th-century BCE Phoenician

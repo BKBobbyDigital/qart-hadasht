@@ -1,0 +1,73 @@
+slug: barcid-dynastic-succession-as-state-form
+statement: >
+  The three successive Barcid Iberian command transmissions
+  (Hamilcar → Hasdrubal the Fair, 228 BCE; Hasdrubal the Fair →
+  Hannibal, 221 BCE) — each by acclamation of the Iberian field
+  army with the Carthaginian senate ratifying after the fact —
+  follow the legitimation pattern of a Hellenistic-pattern royal
+  house in formation rather than the appointment pattern of a
+  senate-appointed expeditionary command. The succession pattern
+  is itself evidence that the Barcid apparatus in Iberia had the
+  political form of a state rather than of an extended military
+  expedition.
+confidence: inferred
+scholarly_consensus: >
+  The succession pattern is firmly attested in Polybius and not
+  contested. The reading of the pattern as a state-form marker
+  rather than as an irregular command-rotation is modern
+  synthesis: explicit in MacDonald 2015 and adjacent reframings;
+  implicit in earlier Italian and Spanish scholarship on the
+  Barcid Iberian apparatus. The reading is "inferred" because the
+  ancient sources preserve the events without articulating the
+  state-form framing.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "2.36, 3.13"
+    passage_summary: >
+      Polybius preserves both transmissions. Hasdrubal the Fair's
+      accession is described as election by the Iberian field
+      army and ratification by the Carthaginian senate;
+      Hannibal's is described as field-army acclamation following
+      Hasdrubal's assassination, again with senate ratification
+      after the fact. The Polybian framing presents this as the
+      observed practice without analytical commentary on its
+      constitutional significance.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.2-3"
+    passage_summary: >
+      Livy's account of Hannibal's accession parallels Polybius's,
+      with the field army constituting the legitimating body and
+      the senate ratifying.
+  - source: macdonald-hannibal-2015
+    stance: supports
+    passage_summary: >
+      MacDonald reads the succession pattern explicitly as a
+      Hellenistic-pattern royal-house marker, with the army's
+      role in legitimation analogous to the Macedonian and later
+      Hellenistic dynastic-succession practice.
+entities:
+  - type: person
+    slug: hamilcar-barca
+    role: subject
+  - type: person
+    slug: hasdrubal-the-fair
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: place
+    slug: iberia
+    role: subject
+notes: >
+  This claim is one of the load-bearing pieces of evidence for
+  the editorial take on the Barcid Iberian state as state. The
+  succession pattern is the cleanest single piece of evidence
+  for the state-form reading because the appointment vs.
+  acclamation distinction is procedurally bright-line: a
+  senate-appointed commander dies and the senate appoints a
+  successor; a Hellenistic-royal house's commander dies and the
+  army acclaims the dynastic successor. The Barcid practice is
+  the latter, repeated three times across the project's
+  nineteen-year span.

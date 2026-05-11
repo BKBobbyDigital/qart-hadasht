@@ -1,0 +1,69 @@
+slug: carthago-nova-as-planned-foundation
+statement: >
+  Carthago Nova, founded by Hasdrubal the Fair in 228 BCE, was a
+  Hellenistic-pattern planned colonial foundation rather than a
+  military launch facility — designed in advance, integrating
+  harbor, fortifications, residential and administrative quarters,
+  sanctuary, and mint in a single urban program. The foundation
+  pattern is consistent with the Hellenistic-royal foundations of
+  the post-Alexander Mediterranean (Antioch under Seleucus I,
+  Alexandria under Ptolemy I, Demetrias under Demetrius
+  Poliorcetes) and inconsistent with the foundation pattern of
+  a war camp or staging point.
+confidence: inferred
+scholarly_consensus: >
+  Polybius's description of the city at length (10.10–11),
+  preserved as background to Scipio Africanus's 209 BCE siege,
+  is the principal literary witness and is not contested. The
+  reading of the foundation pattern as Hellenistic-royal rather
+  than as expedient-military is modern synthesis based on
+  comparative foundation studies and Spanish archaeological work.
+  The reading is "inferred" because the ancient sources preserve
+  the description without articulating the Hellenistic-foundation
+  comparison.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "10.10-11"
+    passage_summary: >
+      Polybius's description of Carthago Nova at the time of
+      Scipio's 209 BCE siege: a planned coastal city with a
+      designed natural harbor, fortified landward and seaward
+      approaches, residential quarters, a citadel on the hill
+      above the harbor, an administrative complex, a sanctuary
+      to Eshmun on the highest point, and a mint. The
+      description is detailed and matches what the Spanish
+      archaeological excavation has subsequently confirmed at
+      modern Cartagena.
+  - source: macdonald-carthage-2015
+    stance: supports
+    passage_summary: >
+      MacDonald reads the foundation pattern explicitly as
+      Hellenistic-royal, drawing the comparison with the
+      Seleucid and Ptolemaic foundation programs.
+  - source: hoyos-hannibal-2003
+    stance: qualifies
+    passage_summary: >
+      Hoyos describes the foundation in terms consistent with
+      both the strategic-harbor and the planned-capital
+      readings without explicitly committing to the
+      Hellenistic-pattern framing.
+entities:
+  - type: place
+    slug: carthago-nova
+    role: subject
+  - type: person
+    slug: hasdrubal-the-fair
+    role: subject
+  - type: place
+    slug: iberia
+    role: subject
+notes: >
+  Load-bearing for the editorial take on the Barcid Iberian
+  state as state. The city's design choices — harbor scale,
+  the integration of sanctuary and mint into the urban program,
+  the administrative-quarter planning — are calibrated for the
+  operation of a polity rather than for the launching of a
+  campaign, while remaining compatible with the renewed-war-with-
+  Rome strategic orientation that the site treats as the
+  project's constant dimension.
