@@ -291,46 +291,227 @@ Key components in `src/components/`:
   can opt in via `map_id` + `map_caption` fields. Currently used for
   the three Punic War strategic maps (FPW, SPW, TPW) on the period
   pages and on the war-level event pages.
-- `Timeline.astro` — currently NOT on homepage (removed for redesign);
-  still appears on `/events`
-- `TanitMark.astro` — brand mark SVG
-- `CmdKSearch.astro` — global Cmd-K search modal
-- `IndexViewToggle.astro` — Cards/Table view switcher for index pages
+- `Timeline.astro` — keystone-events horizontal strip; no longer
+  rendered anywhere (removed from /events when the Timeline view
+  became the default). Preserved for potential future reuse.
+- `TerritorialExtentMap.astro` — multi-state SVG map with date
+  toggle. Sticky toggle group, segmented control; five named
+  states (550/264/218/202/146 BCE); core/tributary/network/lost
+  polygon types with distinct visual encoding (solid /
+  diagonal-hatch / translucent dashed / faint dashed). Powers
+  /maps/extent-over-time.
+- `TanitMark.astro` — brand mark SVG. Used in masthead, footer,
+  favicon, PWA icons, 404 page, place-index placeholder.
+- `CmdKSearch.astro` — global Cmd-K search modal (native
+  `<dialog>`; tracked via search-opened / search-query events).
+- `IndexViewToggle.astro` — Cards / Table / Timeline view
+  switcher. `views` prop lists supported views per page;
+  `defaultView` prop sets the initial fallback (e.g. /events
+  defaults to Timeline).
+- `VersionStamp.astro` — "Last revised [date] · View revision
+  history on GitHub →" footer. Surfaces frontmatter
+  last_revised / last_reviewed; links to the file's GitHub
+  commit log. Carries `data-version-stamp` for the
+  read-complete IntersectionObserver in BaseLayout.
+- `CiteThisPage.astro` — collapsible citation panel with
+  Chicago / APA / MLA / BibTeX / RIS formatted strings + copy
+  buttons. Institutional authorship only.
+- `CannaeDiagram.astro` — two-phase SVG illustration of the
+  double envelopment (deployment + envelopment). Embedded on the
+  Cannae event page.
 
 ### Sortable index tables
 
 Index pages (`/events`, `/people`, `/places`, `/sources`) have a
-Cards/Table view toggle. Tables sort on column header click.
-Cards are default; tables are forced to cards on mobile.
+view toggle. /events supports Cards / Table / Timeline with
+Timeline as default. Others use Cards / Table. Tables sort on
+column header click. Cards are forced on mobile.
+
+### Imagery: places + artifacts
+
+The artifacts collection has imagery in 38 of 41 entries (PD or
+CC BY / CC BY-SA from Wikimedia Commons). The places collection
+has imagery in 28 of 46 (added in two passes during the
+next-level work).
+
+For places that don't have imagery, the index card renders a
+Tanit-watermark placeholder (low-opacity TanitMark on sand-100
+background) so the grid stays visually consistent. Same
+placeholder pattern was retrofitted onto the artifact index for
+the 3 artifacts without images.
+
+`scripts/fetch-place-image.mjs` is the reusable Wikimedia
+Commons fetcher: pass a slug and a Commons file title; it
+downloads the image (~1400px width) to public/places/ and prints
+a ready-to-paste YAML image block. Use it for future imagery
+additions.
 
 ---
 
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~598 pages** as of
+parked until the day version settles. The site is **~623 pages** as of
 the last build.
 
 ### Collection counts (current)
 
 | Collection | Count |
 |---|---|
-| events | 89 |
+| events | 92 |
 | people | 74 |
-| places | 44 |
+| places | 46 |
 | sources | 47 |
 | claims | 172 |
 | editorialTakes | 21 |
 | openQuestions | 13 |
 | artifacts | 41 |
-| narratives | 30 |
+| narratives | 33 |
 | themes | 14 |
-| periods | 7 |
+| periods | 8 |
 | threads | 7 |
 | groups | 18 |
 | institutions | 6 |
 | deities | 10 |
 | causalLinks | 12 |
+
+### Headline state (post next-level pass)
+
+The 6-item active queue completed: link audit, prose proofread,
+place imagery, chronological spine, citation rigor, accessibility.
+Plus a substantial follow-on: analytics, 404, PWA, period 07 split,
+places imagery expansion, artifact placeholder consistency.
+
+Headline numbers:
+- 623 pages indexed
+- 28 of 46 places imaged (was 0); 38 of 41 artifacts imaged
+- 0 broken internal links; 0 accessibility findings on user-facing pages
+- Em-dash density 73% reduced from initial audit
+- Privacy-first analytics live with 9 tracked event types
+- Installable PWA with Tanit-mark icon set
+- Citation rigor: anchored headings, BibTeX/RIS/APA/MLA/Chicago export, version stamps with GitHub-history links
+
+### What shipped in the next-level pass (most recent major work)
+
+**1. Internal link audit (scripts/link-audit.mjs).** Scripted crawl of
+every `<a href>` in dist against actual page existence. Surfaced 16
+broken links + the entire missing `/openQuestions/` route (the
+collection had 13 entries that had never rendered as pages because
+the route was missing). Built the route. Re-audit clean.
+
+**2. Prose proofread pass (scripts/prose-audit.mjs +
+scripts/emdash-fix.mjs).** Auditor flags em-dash density (≤1 per
+250 words per house style), version self-references, doubled
+words, repeated phrases. 249 → 68 flagged files via scripted
+paired-parenthetical conversion (`X — phrase — Y` → `X (phrase) Y`
+or `X, phrase, Y` depending on internal commas). 558 conversions
+across 242 files. Residual 65 are single em-dashes needing
+human judgment; tracked for later.
+
+**3. Place imagery (scripts/fetch-place-image.mjs).** Wikimedia
+Commons fetcher with proper UA + metadata extraction + auto-emitted
+YAML block. 28 places imaged in total across two batches. The
+remaining ~16 are battles in obscure locations or broad regions
+where Wikimedia doesn't have good iconic imagery; they keep the
+Tanit-watermark placeholder card.
+
+**4. Year-by-year chronology (Timeline view).** The original plan
+was a separate /chronology collection. User flagged the duplication
+correctly and we built it as a third view on /events instead.
+Timeline view groups by era (the 8 site periods), then by year,
+with one-line event entries. Sticky era-jump nav on the right rail.
+Anchor IDs (#era-XX, #year-NNN) for prose cross-references. Default
+view (was Cards).
+
+**5. Citation rigor.** Three components:
+- Anchored heading permalinks: every <h2>/<h3> on substantive pages
+  gets a hover-revealed ¶ pilcrow that copies the absolute URL+hash
+  to clipboard. JS-based (handles both YAML-summary headings and
+  .md content headings); CSS `:target` flash; `.anchor-copied` class
+  for "link copied" feedback.
+- CiteThisPage component: collapsible panel on narratives/themes/
+  periods/threads/editorial-takes with Chicago / APA / MLA / BibTeX /
+  RIS formatted strings + copy buttons. Authorship is institutional
+  ("Qart-Hadasht: An Encyclopedia of Ancient Carthage") — no
+  personal attribution per user direction.
+- VersionStamp component: "Last revised [date] · View revision
+  history on GitHub →" footer on substantive pages. Date parsed
+  without timezone shift (YYYY-MM-DD treated as local).
+
+**6. Accessibility + performance audit (scripts/a11y-audit.mjs).**
+Initial run flagged 6 categories; all real-page findings resolved:
+- Skip-to-main-content link added in BaseLayout with off-screen-
+  until-focused CSS
+- Masthead "Qart-Hadasht" wordmark demoted from h1 to styled p with
+  aria-label; homepage gets its own sr-only h1
+- ClaimCard, EditorialTake, CannaeDiagram heading hierarchy fixes
+  (h4/h5 widget-internal labels demoted to styled p; promoted some
+  h3s to h2 where they were document-outline sections)
+- :focus-visible outline on all focusable elements
+- HTML comment false-positive in audit fixed
+Final state: 0 a11y findings on all 623 user-facing pages.
+
+**7. GoatCounter analytics.** Privacy-first (no cookies, no
+personal data), ~3KB async script. window.qhTrack() helper wraps
+the GoatCounter API. Nine tracked event types:
+- cite-panel-open
+- cite-copy:<format>
+- anchor-copy
+- github-history-click
+- search-opened / search-query
+- outbound-click:<host>
+- read-complete (IntersectionObserver on VersionStamp footer)
+- not-found (with attempted path)
+Methodology page extended with full disclosure section.
+
+**8. Custom 404 page.** Massive Phoenician 𐤋𐤀 ("not" / lo) glyph at
+clamp 7–14rem in tyrian, site-voice paragraph, four entry-point
+cards (Home/Periods/Events/Narratives), Cmd-K hint. Fires
+not-found tracking event.
+
+**9. PWA manifest.** Tanit-mark icon set (favicon.svg 64x64,
+icon-maskable.svg 512x512 with Android adaptive-icon safe zone,
+apple-touch-icon.svg 180x180). site.webmanifest with standalone
+display, tyrian theme color, three quick-action shortcuts
+(Periods, Maps, Search). Installable PWA (not offline-capable —
+service worker is a separate future item).
+
+**10. Period 07 split.** Previously period 07 was "The long peace
+and destruction" (201–146), jamming the fifty-year peace and the
+four-year war crisis into one chapter. Split into:
+- Period 07: The long peace (201–150)
+- Period 08: The Third Punic War and destruction (150–146)
+Now the events Timeline view shows symmetric era treatment across
+all three Punic Wars (FPW=period 04, SPW=period 06, TPW=period 08).
+Two thread refs updated; the TPW strategic map moved to period 08.
+
+**11. Markdown rendering in YAML summaries.** A bug where `##
+heading`, `**bold**`, `*italic*`, bullet lists, and nested
+bold/italic were rendering as literal text in YAML summary fields
+across places, people, events, etc. Fixed via:
+- Extended autolink.ts with inline-bold/italic passes alongside
+  the existing markdown-link pass
+- New renderSummaryHtml() helper handles block-level structure
+  (headings, paragraphs, bullet lists with continuation-line
+  normalization)
+- All 8 entity render templates updated to use it
+- stripMarkdownForMeta() helper for <meta description> contexts
+- ClaimCard and EditorialTake components updated to use the
+  renderSummaryHtml pipeline with an empty link registry
+- Audit: 0 literal markdown in body content (was 133 + 259 + many)
+
+### Scripts in scripts/
+
+| Script | Purpose |
+|---|---|
+| link-audit.mjs | Crawl dist/ for broken internal links |
+| prose-audit.mjs | Em-dash density + version self-refs + repeated phrases |
+| emdash-fix.mjs | Targeted paired-parenthetical em-dash conversion |
+| fetch-place-image.mjs | Wikimedia Commons image fetch + YAML block emit |
+| a11y-audit.mjs | Static a11y violation scan + asset-weight signals |
+
+All reusable; each prints results to stdout and (where applicable)
+modifies files only with --apply flag.
 
 ### The MacDonald-direction framing pass (most recent major work)
 
@@ -532,67 +713,26 @@ sort order.
 
 ## Outstanding work
 
-### Active work queue (next-level pass)
+### Active work queue (complete)
 
-After the polish-pass and the territorial-maps + three-companion-
-narratives + maps-index work, the project sits at ~602 pages with
-comprehensive entity coverage. Content additions are at diminishing
-returns; the queue below targets quality, scholarly rigor, and
-visible polish over new content surface.
+The 6-item next-level queue plus the follow-on additions all
+shipped (see "What shipped in the next-level pass" above for
+detail). Items 1–6 (link audit, prose proofread, place imagery,
+chronological spine, citation rigor, accessibility audit) plus
+the analytics, 404, PWA, period split, and consistency-pass work
+all landed in May 2026.
 
-**Order is foundation-first** — link audit and proofread before new
-content lands; new content (place imagery, year-by-year) on cleaned
-foundation; citation rigor and accessibility audit at the end so
-they capture the settled state.
+The next-level pass produced infrastructure (5 audit/utility
+scripts, 3 new components, GoatCounter analytics, PWA manifest)
+that future content work can lean on without rebuilding. The
+audit scripts are reusable; run them periodically to catch
+regression rot.
 
-1. **Internal-link health audit** — scripted crawl of every
-   `<a href>` against actual page existence. 602 pages with heavy
-   cross-referencing means there are almost certainly broken or
-   stale internal references by now. Foundation work; also the
-   fastest item (single afternoon of scripted crawling + targeted
-   fixes).
-
-2. **Substantive prose proofread pass** — clean-eyes editorial walk
-   across all narratives, themes, periods, and substantive entity
-   summaries. Catches awkward phrasing from cross-session drift,
-   internal inconsistencies, accidentally-doubled coverage between
-   narrative and theme, em-dash overuse against the house-style
-   rule. Unsexy but the difference between good encyclopedia and
-   great encyclopedia.
-
-3. **Place imagery** — public-domain photos of Carthage,
-   Kerkouane, Motya, Tharros, Sulci, the cothon, the Byrsa, Lepcis
-   Magna, etc. Same source/credit discipline as artifacts. The
-   places collection has been intentionally text-only; PD
-   archaeological-site photos do exist (Wikimedia Commons,
-   French/Italian national archive collections), and the visual
-   gap is real.
-
-4. **Year-by-year chronological spine** — `/chronology` collection
-   where each significant year from ~600 BCE to 146 BCE gets a
-   page tying together what happened. Currently the site has
-   three organizational axes (event importance, period era, theme
-   topic); year-by-year is the fourth, and it's the one a lot of
-   readers actually want ("what happened in 218 BCE?"). The data
-   exists across events; this synthesizes.
-
-5. **Citation rigor for academic use** — DOI minting via Zenodo
-   for substantive narratives. BibTeX/RIS export per claim. Stable
-   anchored permalinks per paragraph. Lets academics cite the site,
-   which drives academic linking and credibility. Possibly
-   highest-leverage move for scholarly standing, though invisible
-   to general readers.
-
-6. **Accessibility / performance audit** — Lighthouse scores;
-   screen-reader testing of maps and Cmd-K; color contrast
-   verification on muted text; keyboard navigation completeness.
-   Last because it should capture the whole settled site.
-
-### Tabled — substantial next-level moves, revisit after the active queue completes
+### Tabled — substantial next-level moves, revisit later
 
 These are real "next level" directions the user has explicitly
-tabled until the active 6-item queue ships. **Revisit each after
-queue completion**; do not surface unsolicited.
+tabled. **Revisit each only when the user calls for them**; do
+not surface unsolicited.
 
 1. **Revamp all UI** — full visual / interaction redesign. Distinct
    from the small UI/UX polish previously parked. User-scoped as
@@ -624,6 +764,22 @@ queue completion**; do not surface unsolicited.
    narratives, hosted alongside the text. Podcast-like reach
    without a podcast feed. Production lift is non-trivial; reach
    gain is real but specific to a particular audience segment.
+
+6. **DOI minting via Zenodo** — per-page DOIs for substantive
+   narratives, making them citable at academic-publication
+   standard. Distinctive but heavy: 2-3 days API integration + an
+   ongoing per-deposit operational workflow. The citation rigor
+   pass already delivers BibTeX/RIS/Chicago/APA/MLA export +
+   version stamps which covers most academic-citation needs.
+   Revisit if the site starts getting cited often enough that the
+   DOI question comes up specifically.
+
+7. **PWA offline mode (service worker)** — the current PWA
+   manifest makes the site installable as a home-screen app;
+   adding a service worker would make it offline-capable.
+   Substantial work (cache strategy for 623+ pages, update flows,
+   stale-while-revalidate logic). Foundation already in place via
+   the manifest. Revisit if user wants offline access.
 
 ### Residual prose work from active queue item #2 (held for later)
 
@@ -773,12 +929,60 @@ collection:
 - **artifacts**: `principal_sources[]`, `referenced_themes[]`,
   `image` block, `find_context`, `dating_method`,
   `interpretation_status`, `current_location`
+- **places**: added `image` block (mirror of artifacts) during the
+  place-imagery work. Same `src` / `alt` / `credit` / `credit_url`
+  / `license` shape.
 
 The autolink markdown-link first-pass (added to `lib/autolink.ts`)
 means YAML summary fields can contain `[text](url)` links that get
-rendered as proper anchors. This is heavily used for back-citations
-from people / deity / artifact summary fields into editorial takes
-and narratives.
+rendered as proper anchors. Plus inline `**bold**` and `*italic*`
+substitutions (parallel passes). Plus `## H2` / `### H3` heading
+detection in `renderSummaryHtml()`, which is the helper to use for
+rendering YAML summaries as full HTML with proper block structure.
+Plus `stripMarkdownForMeta()` for plain-text contexts like
+`<meta description>` and listing-card previews.
+
+`renderSummaryHtml` also handles bullet lists (`- item` lines
+within a block; consecutive bullet blocks group into one `<ul>`).
+It normalizes YAML `>` folded scalar continuation lines (more-
+indented `\n  ` runs collapse to spaces) before splitting on
+single newlines for paragraph boundaries.
+
+### Heading anchor permalinks
+
+Every `<h2>` and `<h3>` on substantive pages (narratives, themes,
+periods, threads, editorial takes, place/people/etc detail pages
+with `##` headings in YAML summaries) gets a hover-revealed ¶
+pilcrow link via a small JS routine in BaseLayout. Clicking it
+copies the absolute URL+hash to clipboard. CSS handles the
+fade-in on `h2:hover > .anchor-link`, the `:target` flash, and
+the `.anchor-copied` "link copied" feedback. The JS targets
+`.prose-encyclopedia h2[id], .prose-encyclopedia h3[id]` plus
+similar selectors so both YAML-summary and .md content paths get
+anchored.
+
+### Analytics
+
+GoatCounter is wired in (script in BaseLayout `<head>`).
+`window.qhTrack(name, detail)` helper in BaseLayout wraps the
+GoatCounter custom-event API. Nine tracked events:
+cite-panel-open, cite-copy:`<format>`, anchor-copy,
+github-history-click, search-opened, search-query,
+outbound-click:`<host>`, read-complete (IntersectionObserver
+on `[data-version-stamp]`), not-found (on the 404 page with
+attempted path). Full disclosure on /methodology under
+"Analytics and privacy".
+
+### PWA
+
+Installable (not offline-capable). `public/site.webmanifest`
+declares name, short_name, theme_color, three shortcuts
+(Periods, Maps, Search). Icon set: `favicon.svg` (64x64),
+`icon-maskable.svg` (512x512 with Android adaptive-icon safe
+zone), `apple-touch-icon.svg` (180x180). All Tanit-mark on
+tyrian. BaseLayout `<head>` has the standard link/meta complement
+(manifest, apple-touch-icon, theme-color,
+apple-mobile-web-app-title="Qart-Hadasht", capable=yes).
 
 ---
 
