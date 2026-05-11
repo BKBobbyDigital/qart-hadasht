@@ -14,18 +14,40 @@ const {
 } = Astro.props;
 const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
 
-// Primary nav items, in order. Pipes between every item on every page.
-const primaryNav = [
-  { href: '/periods', label: 'Periods' },
-  { href: '/themes', label: 'Themes' },
-  { href: '/threads', label: 'Threads' },
-  { href: '/maps', label: 'Maps' },
-  { href: '/narratives', label: 'Narratives' },
-  { href: '/events', label: 'Events' },
-  { href: '/people', label: 'People' },
-  { href: '/places', label: 'Places' },
-  { href: '/sources', label: 'Sources' },
-  { href: '/artifacts', label: 'Artifacts' },
+// Primary nav, grouped by epistemic kind:
+//   - REFERENCE: atomic encyclopedia entries (what/who/where lookups)
+//   - SYNTHESIS: the site's interpretive voice (long-form, curated,
+//     visualized)
+//   - EVIDENCE: source material backing the claims (ancient texts,
+//     modern scholarship, material culture)
+// Rendered as three groups separated by ‖ dividers, with eyebrow
+// labels centered over each group.
+const navGroups = [
+  {
+    label: 'Reference',
+    items: [
+      { href: '/events', label: 'Events' },
+      { href: '/people', label: 'People' },
+      { href: '/places', label: 'Places' },
+    ],
+  },
+  {
+    label: 'Synthesis',
+    items: [
+      { href: '/periods', label: 'Periods' },
+      { href: '/themes', label: 'Themes' },
+      { href: '/narratives', label: 'Narratives' },
+      { href: '/threads', label: 'Threads' },
+      { href: '/maps', label: 'Maps' },
+    ],
+  },
+  {
+    label: 'Evidence',
+    items: [
+      { href: '/sources', label: 'Sources' },
+      { href: '/artifacts', label: 'Artifacts' },
+    ],
+  },
 ];
 ---
 
@@ -132,19 +154,54 @@ const primaryNav = [
           </div>
         </a>
 
-        <!-- Primary nav. justify-between on desktop binds Periods to
-             left edge and Artifacts to right edge of this same parent
-             container. Tightened gaps (gap-x-2/2.5) so the 10-item
-             nav fits on one row at typical desktop widths; still
-             wraps gracefully on narrower viewports. whitespace-nowrap
-             on the anchors prevents mid-label breaks during wrap. -->
-        <nav class="py-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-2 sm:gap-x-2.5 gap-y-2 text-sm font-medium text-ink-900">
-          {primaryNav.map((item, i) => (
-            <>
-              {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
-              <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
-            </>
-          ))}
+        <!-- Primary nav grouped by epistemic kind. Three groups
+             (Reference / Synthesis / Evidence) separated by ‖
+             dividers, with eyebrow labels centered over each group.
+             Desktop: CSS grid with eyebrows in row 1 and links in
+             row 2; grid columns auto-size to content so eyebrow and
+             link rows share the same widths. Mobile: groups stack
+             vertically with eyebrow above each group's items. -->
+        <nav class="py-2 text-sm font-medium text-ink-900" aria-label="Primary navigation">
+          <!-- Desktop: 5-column grid (group / divider / group / divider / group). -->
+          <div class="hidden sm:grid sm:grid-cols-[auto_auto_auto_auto_auto] sm:items-baseline sm:justify-between sm:gap-x-3">
+            <!-- Eyebrow row -->
+            {navGroups.map((group, gi) => (
+              <>
+                {gi > 0 && <span aria-hidden="true" class="opacity-0 select-none">‖</span>}
+                <p class="eyebrow text-[10px] text-center mb-1 self-end">{group.label}</p>
+              </>
+            ))}
+            <!-- Links row -->
+            {navGroups.map((group, gi) => (
+              <>
+                {gi > 0 && <span aria-hidden="true" class="text-sand-400 text-base leading-none">‖</span>}
+                <div class="flex items-baseline justify-center gap-x-2.5">
+                  {group.items.map((item, ii) => (
+                    <>
+                      {ii > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+                      <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
+                    </>
+                  ))}
+                </div>
+              </>
+            ))}
+          </div>
+          <!-- Mobile: stack groups vertically, each with its eyebrow above its items. -->
+          <div class="sm:hidden space-y-3 text-center">
+            {navGroups.map((group) => (
+              <div>
+                <p class="eyebrow text-[10px] mb-1">{group.label}</p>
+                <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
+                  {group.items.map((item, ii) => (
+                    <>
+                      {ii > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+                      <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
+                    </>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </nav>
       </div>
 
