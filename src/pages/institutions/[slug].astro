@@ -4,7 +4,7 @@ import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
-import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -138,9 +138,7 @@ const institutionInfoboxRows: InfoboxRow[] = [
     )}
 
     <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      {d.summary.split(/\n\n+/).map((para: string) => (
-        <p set:html={autolink(para, linkRegistry, { excludeKey: `institution:${institution.id}` })} />
-      ))}
+      <div set:html={renderSummaryHtml(d.summary, linkRegistry, { excludeKey: `institution:${institution.id}` })} />
     </div>
 
     {referencingEvents.length > 0 && (

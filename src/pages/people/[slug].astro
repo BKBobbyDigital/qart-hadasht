@@ -5,7 +5,7 @@ import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
-import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -102,7 +102,7 @@ const linkRegistry = buildLinkRegistry({
   deities: allDeities,
   artifacts: allArtifacts,
 });
-const summaryHtml = autolink(d.summary, linkRegistry, {
+const summaryHtml = renderSummaryHtml(d.summary, linkRegistry, {
   excludeKey: `person:${person.id}`,
 });
 
@@ -225,9 +225,7 @@ const personInfoboxRows: InfoboxRow[] = [
       </section>
     )}
 
-    <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      <p set:html={summaryHtml} />
-    </div>
+    <div class="prose-encyclopedia mt-8 text-lg text-sand-900" set:html={summaryHtml} />
 
     {personNarratives.map((n) => (
       <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors">

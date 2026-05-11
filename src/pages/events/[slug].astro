@@ -10,7 +10,7 @@ import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, formatDateRange, dateQualifier } from '../../lib/historicalDate';
-import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
 
 // Eagerly import every map config under src/data/maps/*.json so the
@@ -238,7 +238,7 @@ const linkRegistry = buildLinkRegistry({
   deities: allDeities,
   artifacts: allArtifacts,
 });
-const summaryHtml = autolink(data.summary, linkRegistry, {
+const summaryHtml = renderSummaryHtml(data.summary, linkRegistry, {
   excludeKey: `event:${event.id}`,
 });
 
@@ -327,9 +327,7 @@ const infoboxRows: InfoboxRow[] = [
       )}
     </p>
 
-    <div class="prose-encyclopedia mt-6 text-lg text-sand-900">
-      <p set:html={summaryHtml} />
-    </div>
+    <div class="prose-encyclopedia mt-6 text-lg text-sand-900" set:html={summaryHtml} />
 
     {data.map_id && mapConfigs[data.map_id] && (
       <HistoricalMap

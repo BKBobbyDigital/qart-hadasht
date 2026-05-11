@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
-import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -134,7 +134,7 @@ const linkRegistry = buildLinkRegistry({
   artifacts: allArtifacts,
 });
 const summaryHtml = d.summary
-  ? autolink(d.summary, linkRegistry, { excludeKey: `source:${source.id}` })
+  ? renderSummaryHtml(d.summary, linkRegistry, { excludeKey: `source:${source.id}` })
   : '';
 
 // ─── Infobox derivations ─────────────────────────────────────────────────────
@@ -189,9 +189,7 @@ const sourceInfoboxRows: InfoboxRow[] = [
     <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
     {d.author && <p class="text-xl text-sand-700 italic">{d.author}</p>}
 
-    <div class="prose-encyclopedia mt-8 text-sand-900">
-      <p set:html={summaryHtml} />
-    </div>
+    <div class="prose-encyclopedia mt-8 text-sand-900" set:html={summaryHtml} />
 
     {d.bias_notes && (
       <section class="mt-8 border-l-4 border-amber-300 bg-amber-50 p-5 rounded-r-lg">

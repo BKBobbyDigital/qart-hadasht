@@ -193,6 +193,40 @@ export function autolink(
     claimed.push([start, end]);
   }
 
+  // Inline markdown: **bold** and *italic*. YAML summary fields use these
+  // sparingly for emphasis (proper nouns the autolink doesn't catch,
+  // citation-style title italics, named-entity bolding within paragraphs).
+  // We claim these ranges before the entity-autolink pass so the asterisks
+  // don't get escaped.
+  const boldRe = /\*\*([^*\n]+)\*\*/g;
+  let bMatch: RegExpExecArray | null;
+  while ((bMatch = boldRe.exec(text)) !== null) {
+    const start = bMatch.index;
+    const end = start + bMatch[0].length;
+    if (overlapsClaimed(start, end)) continue;
+    replacements.push({
+      start,
+      end,
+      html: `<strong>${escapeHtml(bMatch[1])}</strong>`,
+    });
+    claimed.push([start, end]);
+  }
+  // Single-asterisk italic. Must NOT match within bold (which we've already
+  // claimed) and must NOT match across newlines.
+  const italicRe = /(?<![*\w])\*([^*\n]+)\*(?![*\w])/g;
+  let iMatch: RegExpExecArray | null;
+  while ((iMatch = italicRe.exec(text)) !== null) {
+    const start = iMatch.index;
+    const end = start + iMatch[0].length;
+    if (overlapsClaimed(start, end)) continue;
+    replacements.push({
+      start,
+      end,
+      html: `<em>${escapeHtml(iMatch[1])}</em>`,
+    });
+    claimed.push([start, end]);
+  }
+
   for (const c of registry.candidates) {
     if (c.key === opts.excludeKey) continue;
     if (usedKeys.has(c.key)) continue;
@@ -240,4 +274,49 @@ export function autolink(
   }
   result += escapeHtml(text.slice(cursor));
   return result;
+}
+
+/**
+ * Render a YAML summary field as HTML, handling block-level markdown
+ * (## h2, ### h3) plus everything `autolink` covers (inline bold/italic,
+ * markdown links, entity autolinks).
+ *
+ * Returns a single HTML string ready for `set:html` on a wrapping div
+ * styled with the prose-encyclopedia class (which provides typography
+ * for h2/h3/p/ul/a within it).
+ *
+ * Block-level rules:
+ *   - A paragraph starting with `## ` is rendered as <h2>...</h2>.
+ *   - A paragraph starting with `### ` is rendered as <h3>...</h3>.
+ *   - Any other non-empty block is rendered as <p>...</p>.
+ *   - Blocks are separated by blank lines (the same convention the
+ *     prior split-on-\n\n+ rendering used).
+ *
+ * Inline content within each block goes through `autolink`, which
+ * handles `**bold**`, `*italic*`, `[text](url)`, and entity-name
+ * autolinks with appropriate escaping.
+ */
+export function renderSummaryHtml(
+  text: string,
+  registry: LinkRegistry,
+  opts: { excludeKey?: string } = {}
+): string {
+  if (!text) return '';
+  const blocks = text.split(/\n\n+/);
+  const parts: string[] = [];
+  for (const raw of blocks) {
+    const block = raw.trim();
+    if (!block) continue;
+    let tag: 'h2' | 'h3' | 'p' = 'p';
+    let inner = block;
+    if (inner.startsWith('### ')) {
+      tag = 'h3';
+      inner = inner.slice(4).trim();
+    } else if (inner.startsWith('## ')) {
+      tag = 'h2';
+      inner = inner.slice(3).trim();
+    }
+    parts.push(`<${tag}>${autolink(inner, registry, opts)}</${tag}>`);
+  }
+  return parts.join('\n');
 }

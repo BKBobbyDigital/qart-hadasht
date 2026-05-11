@@ -4,7 +4,7 @@ import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatDateRange, dateQualifier } from '../../lib/historicalDate';
-import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -37,7 +37,7 @@ const linkRegistry = buildLinkRegistry({
   deities: allDeities,
   artifacts: allArtifacts,
 });
-const summaryHtml = autolink(d.summary, linkRegistry, {
+const summaryHtml = renderSummaryHtml(d.summary, linkRegistry, {
   excludeKey: `group:${group.id}`,
 });
 
@@ -100,9 +100,7 @@ const groupInfoboxRows: InfoboxRow[] = [
       </section>
     )}
 
-    <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-      <p set:html={summaryHtml} />
-    </div>
+    <div class="prose-encyclopedia mt-8 text-lg text-sand-900" set:html={summaryHtml} />
 
     <MaterialEvidence artifacts={materialEvidence} />
 

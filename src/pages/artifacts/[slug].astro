@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
-import { autolink, buildLinkRegistry } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -163,9 +163,7 @@ const referencedThemeEntries = (
       )}
 
       <div class="prose-encyclopedia mt-8 text-lg text-sand-900">
-        {d.summary.split(/\n\n+/).map((para: string) => (
-          <p set:html={autolink(para, linkRegistry, { excludeKey: `artifact:${artifact.id}` })} />
-        ))}
+        <div set:html={renderSummaryHtml(d.summary, linkRegistry, { excludeKey: `artifact:${artifact.id}` })} />
       </div>
 
       {d.find_context?.circumstances && (
