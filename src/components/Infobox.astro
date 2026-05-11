@@ -74,7 +74,16 @@ const isEmpty = (v: InfoboxRow['value']) =>
       <span class="qh-infobox-arrow lg:hidden text-sand-700 text-xs shrink-0">▾</span>
     </summary>
     <dl class="space-y-3 px-3 pb-3 lg:px-4 lg:pb-4 lg:pt-3 text-sm">
-      {rows.map((row) => (
+      {rows.map((row) => {
+        // Skip rendering count-style empty rows entirely. Rows with
+        // `emptyLabel: 'none'` are conventionally count rows (e.g. number
+        // of referencing events/claims); when the count is zero there's
+        // no value in showing the row at all. Other empty rows keep the
+        // "deliberate gap" treatment — they render with the emptyLabel
+        // (default "unknown") so the absence of data reads as a
+        // considered gap rather than an absent field.
+        if (isEmpty(row.value) && row.emptyLabel === 'none') return null;
+        return (
         <div>
           <dt class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{row.label}</dt>
           <dd class="text-ink-900 leading-snug mt-1">
@@ -103,7 +112,8 @@ const isEmpty = (v: InfoboxRow['value']) =>
             )}
           </dd>
         </div>
-      ))}
+        );
+      })}
     </dl>
   </details>
 </aside>
