@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import IndexViewToggle from '../../components/IndexViewToggle.astro';
+import TanitMark from '../../components/TanitMark.astro';
 import { getCollection } from 'astro:content';
 
 const places = (await getCollection('places')).sort(
@@ -31,13 +32,34 @@ for (const e of allEvents) {
     </p>
 
     <div data-view-cards>
-      <ul class="grid sm:grid-cols-2 gap-3">
+      <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {places.map((p) => (
           <li>
-            <a href={`/places/${p.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
-              <h2 class="font-serif text-lg text-tyrian-700">{p.data.name_display}</h2>
-              <p class="text-xs uppercase tracking-wider text-sand-700 mt-1">{p.data.type}</p>
-              {p.data.modern_location && <p class="text-sm text-sand-700 mt-1">{p.data.modern_location}</p>}
+            <a
+              href={`/places/${p.id}`}
+              class="flex flex-col h-full border border-sand-300 bg-white/60 rounded-lg overflow-hidden hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+            >
+              {p.data.image ? (
+                <div class="aspect-[4/3] bg-sand-100 overflow-hidden">
+                  <img
+                    src={p.data.image.src}
+                    alt={p.data.image.alt}
+                    loading="lazy"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              ) : (
+                <div class="aspect-[4/3] bg-sand-100 flex items-center justify-center text-tyrian-700/30">
+                  <TanitMark size={48} />
+                </div>
+              )}
+              <div class="p-4 flex flex-col flex-1">
+                <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">{p.data.type}</p>
+                <h2 class="font-serif text-lg text-ink-900 mt-1 leading-tight">{p.data.name_display}</h2>
+                {p.data.modern_location && (
+                  <p class="text-xs text-sand-700 mt-1.5 leading-snug">{p.data.modern_location}</p>
+                )}
+              </div>
             </a>
           </li>
         ))}
