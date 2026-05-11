@@ -1,0 +1,54 @@
+---
+/**
+ * Version stamp + cite-this-page footer for substantive synthesis pages
+ * (narratives, themes, periods, editorial takes, open questions, threads).
+ *
+ * Shows when the page was last substantively revised and links to the
+ * GitHub commit history for the source file so academic readers can
+ * verify the version they cited. The accompanying CiteThisPage component
+ * (rendered alongside) provides BibTeX / RIS / formatted citation
+ * strings.
+ *
+ * `date`: ISO date string from frontmatter (last_revised / last_reviewed).
+ * `filePath`: path relative to repo root, used to construct the GitHub
+ *             history URL. Example: "src/content/narratives/foo.md".
+ */
+interface Props {
+  date: string;
+  filePath: string;
+}
+const { date, filePath } = Astro.props;
+
+const GITHUB_REPO = 'BKBobbyDigital/qart-hadasht';
+const historyUrl = `https://github.com/${GITHUB_REPO}/commits/main/${filePath}`;
+
+// Format the date as "11 May 2026" for human readability while keeping
+// the underlying machine-readable value in a <time datetime="..."> attr.
+function formatDate(iso: string): string {
+  // Parse YYYY-MM-DD directly to avoid timezone shifts (new Date("2026-05-10")
+  // treats it as UTC midnight, which displays as the prior day in
+  // western-hemisphere timezones at build time).
+  const m = iso.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return iso;
+  const year = parseInt(m[1], 10);
+  const month = parseInt(m[2], 10);
+  const day = parseInt(m[3], 10);
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return `${day} ${months[month - 1]} ${year}`;
+}
+---
+
+<footer class="mt-12 pt-4 border-t border-sand-300 text-xs text-sand-700 flex flex-wrap items-baseline gap-x-4 gap-y-1">
+  <span>
+    Last revised <time datetime={date}>{formatDate(date)}</time>
+  </span>
+  <span class="text-sand-400">·</span>
+  <a
+    href={historyUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-tyrian-700 hover:underline"
+  >
+    View revision history on GitHub
+  </a>
+</footer>

@@ -288,6 +288,30 @@ export function autolink(
 }
 
 /**
+ * Slugify heading text for stable anchor URLs. Mirrors rehype-slug's
+ * default behavior (which Astro applies to .md headings automatically)
+ * so YAML-summary headings and .md headings produce comparable anchors.
+ */
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-');
+}
+
+/**
+ * Anchor link emitted alongside each heading. The `¶` glyph is a
+ * pilcrow — the standard academic permalink convention. Default
+ * opacity 0; revealed on heading hover via CSS. Clicking copies the
+ * URL+hash to clipboard via a small script in BaseLayout.
+ */
+function anchorLink(id: string): string {
+  return ` <a class="anchor-link" href="#${id}" aria-label="Copy link to this section" data-anchor>¶</a>`;
+}
+
+/**
  * Render a YAML summary field as HTML, handling block-level markdown
  * (## h2, ### h3) plus everything `autolink` covers (inline bold/italic,
  * markdown links, entity autolinks).
@@ -338,15 +362,23 @@ export function renderSummaryHtml(
   };
 
   for (const block of blocks) {
-    // Headings.
+    // Headings — emit with a slug-derived id and an appended anchor
+    // link for permalink/copy behavior. The slug logic mirrors what
+    // rehype-slug does for .md content (lowercase, alpha-num + hyphens)
+    // so YAML-derived headings and .md-derived headings share the same
+    // anchor-style convention.
     if (block.startsWith('### ')) {
       flushList();
-      parts.push(`<h3>${autolink(block.slice(4).trim(), registry, opts)}</h3>`);
+      const text = block.slice(4).trim();
+      const id = slugify(text);
+      parts.push(`<h3 id="${id}">${autolink(text, registry, opts)}${anchorLink(id)}</h3>`);
       continue;
     }
     if (block.startsWith('## ')) {
       flushList();
-      parts.push(`<h2>${autolink(block.slice(3).trim(), registry, opts)}</h2>`);
+      const text = block.slice(3).trim();
+      const id = slugify(text);
+      parts.push(`<h2 id="${id}">${autolink(text, registry, opts)}${anchorLink(id)}</h2>`);
       continue;
     }
     // Bullet item — accumulate; consecutive bullets group into one <ul>.

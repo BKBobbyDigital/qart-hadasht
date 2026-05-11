@@ -1,0 +1,148 @@
+---
+/**
+ * "Cite this page" panel for substantive synthesis pages — narratives,
+ * themes, periods, editorial takes, threads, open questions.
+ *
+ * Renders a small toggleable details/summary section with:
+ *   - Formatted citations in Chicago / APA / MLA style
+ *   - BibTeX entry (paste into LaTeX / Zotero)
+ *   - RIS entry (paste into EndNote / Mendeley / Zotero)
+ *
+ * Each format has a "copy" button (vanilla JS, no clipboard library).
+ *
+ * Authorship is institutional ("Qart-Hadasht: An Encyclopedia of Ancient
+ * Carthage") — the site's deliberate framing avoids personal attribution
+ * for editorial synthesis.
+ */
+interface Props {
+  /** Title of the page being cited (h1 of the entity). */
+  title: string;
+  /** ISO date of last revision (YYYY-MM-DD). */
+  lastRevised: string;
+  /** Absolute path on the site (e.g. "/narratives/mago-of-carthage"). */
+  path: string;
+}
+const { title, lastRevised, path } = Astro.props;
+
+const SITE_NAME = 'Qart-Hadasht: An Encyclopedia of Ancient Carthage';
+const SITE_URL_BASE = 'https://qart-hadasht.org';
+const url = `${SITE_URL_BASE}${path}`;
+
+// Parse the YYYY-MM-DD without timezone shift; also derive a stable
+// citation key from the path slug for the BibTeX entry.
+const dateMatch = lastRevised.match(/^(\d{4})-(\d{2})-(\d{2})/);
+const year = dateMatch ? dateMatch[1] : new Date().getFullYear().toString();
+const month = dateMatch ? dateMatch[2] : '01';
+const day = dateMatch ? dateMatch[3] : '01';
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const monthName = months[parseInt(month, 10) - 1] || 'January';
+const fullDate = `${parseInt(day, 10)} ${monthName} ${year}`;
+
+const slug = path.split('/').filter(Boolean).slice(-1)[0] || 'page';
+const citeKey = `qartHadasht_${slug.replace(/[^a-z0-9]/gi, '')}_${year}`;
+
+// Citation strings.
+const chicago = `"${title}." ${SITE_NAME}. Last revised ${fullDate}. ${url}.`;
+const apa = `${SITE_NAME}. (${year}, ${monthName} ${parseInt(day, 10)}). ${title}. Retrieved from ${url}`;
+const mla = `"${title}." ${SITE_NAME}, ${fullDate}, ${url}.`;
+
+const bibtex = `@misc{${citeKey},
+  title        = {${title}},
+  author       = {{${SITE_NAME}}},
+  year         = {${year}},
+  month        = {${monthName}},
+  howpublished = {\\url{${url}}},
+  note         = {Last revised ${fullDate}}
+}`;
+
+const ris = `TY  - ELEC
+TI  - ${title}
+AU  - ${SITE_NAME}
+PY  - ${year}
+DA  - ${year}/${month}/${day}/
+UR  - ${url}
+N1  - Last revised ${fullDate}
+ER  - `;
+
+// Single payload object the client script reads to populate each
+// pre block's copy-source. Encoded as data attribute to avoid
+// re-escaping in inline JS.
+const payload = JSON.stringify({ chicago, apa, mla, bibtex, ris });
+---
+
+<details class="mt-6 border border-sand-300 rounded-lg bg-sand-50">
+  <summary class="cursor-pointer px-4 py-2.5 text-sm font-medium text-tyrian-700 hover:bg-[#faf6ec] rounded-lg select-none">
+    Cite this page
+  </summary>
+  <div class="px-4 pb-4 pt-1 text-sm" data-cite-payload={payload}>
+    <p class="text-xs text-sand-700 mb-3">
+      Authorship is institutional; the site does not credit individual
+      synthesis to a personal author. The version stamp above identifies
+      the specific revision being cited.
+    </p>
+
+    <div class="space-y-3">
+      <div>
+        <div class="flex items-baseline justify-between gap-3 mb-1">
+          <span class="text-[11px] uppercase tracking-wider font-semibold text-sand-700">Chicago</span>
+          <button type="button" data-cite-copy="chicago" class="text-[11px] uppercase tracking-wider text-tyrian-700 hover:underline">Copy</button>
+        </div>
+        <div class="text-ink-900 leading-snug">{chicago}</div>
+      </div>
+
+      <div>
+        <div class="flex items-baseline justify-between gap-3 mb-1">
+          <span class="text-[11px] uppercase tracking-wider font-semibold text-sand-700">APA</span>
+          <button type="button" data-cite-copy="apa" class="text-[11px] uppercase tracking-wider text-tyrian-700 hover:underline">Copy</button>
+        </div>
+        <div class="text-ink-900 leading-snug">{apa}</div>
+      </div>
+
+      <div>
+        <div class="flex items-baseline justify-between gap-3 mb-1">
+          <span class="text-[11px] uppercase tracking-wider font-semibold text-sand-700">MLA</span>
+          <button type="button" data-cite-copy="mla" class="text-[11px] uppercase tracking-wider text-tyrian-700 hover:underline">Copy</button>
+        </div>
+        <div class="text-ink-900 leading-snug">{mla}</div>
+      </div>
+
+      <div>
+        <div class="flex items-baseline justify-between gap-3 mb-1">
+          <span class="text-[11px] uppercase tracking-wider font-semibold text-sand-700">BibTeX</span>
+          <button type="button" data-cite-copy="bibtex" class="text-[11px] uppercase tracking-wider text-tyrian-700 hover:underline">Copy</button>
+        </div>
+        <pre class="text-[11px] text-ink-900 leading-snug bg-white border border-sand-300 rounded p-2 overflow-x-auto whitespace-pre">{bibtex}</pre>
+      </div>
+
+      <div>
+        <div class="flex items-baseline justify-between gap-3 mb-1">
+          <span class="text-[11px] uppercase tracking-wider font-semibold text-sand-700">RIS</span>
+          <button type="button" data-cite-copy="ris" class="text-[11px] uppercase tracking-wider text-tyrian-700 hover:underline">Copy</button>
+        </div>
+        <pre class="text-[11px] text-ink-900 leading-snug bg-white border border-sand-300 rounded p-2 overflow-x-auto whitespace-pre">{ris}</pre>
+      </div>
+    </div>
+  </div>
+</details>
+
+<script is:inline>
+  document.addEventListener('click', (e) => {
+    const btn = e.target instanceof Element ? e.target.closest('button[data-cite-copy]') : null;
+    if (!btn) return;
+    const panel = btn.closest('[data-cite-payload]');
+    if (!panel) return;
+    const format = btn.getAttribute('data-cite-copy');
+    let payload;
+    try { payload = JSON.parse(panel.getAttribute('data-cite-payload') || '{}'); }
+    catch { return; }
+    const text = payload[format];
+    if (!text) return;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => {
+        const original = btn.textContent;
+        btn.textContent = 'Copied ✓';
+        setTimeout(() => { btn.textContent = original; }, 1400);
+      });
+    }
+  });
+</script>

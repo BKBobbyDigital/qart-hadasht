@@ -78,6 +78,33 @@ h1 {
 .auto-link:hover { border-bottom-color: theme('colors.tyrian.700'); opacity: 1; }
 .prose-encyclopedia a.auto-link { @apply no-underline; }
 
+/* Heading anchor link — the small ¶ pilcrow appended to every section
+   heading. Default invisible; revealed on hover-of-the-heading (or focus)
+   so academic readers can grab a stable URL to that section. Clicking
+   copies the URL+hash to clipboard via the BaseLayout script.
+   Tyrian color; small relative-size; subtle. */
+h1 > .anchor-link, h2 > .anchor-link, h3 > .anchor-link,
+h4 > .anchor-link, h5 > .anchor-link, h6 > .anchor-link {
+  color: theme('colors.tyrian.500');
+  text-decoration: none;
+  border: none;
+  font-weight: 400;
+  font-size: 0.7em;
+  margin-left: 0.4em;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  vertical-align: 0.05em;
+  user-select: none;
+}
+h1:hover > .anchor-link, h2:hover > .anchor-link, h3:hover > .anchor-link,
+h4:hover > .anchor-link, h5:hover > .anchor-link, h6:hover > .anchor-link,
+.anchor-link:focus { opacity: 0.8; }
+.anchor-link:hover { opacity: 1 !important; color: theme('colors.tyrian.700'); }
+/* Brief background flash when arriving via an anchor (e.g. from a cited URL) */
+:target { background-color: theme('colors.tyrian.100'); transition: background-color 1.6s ease; }
+.anchor-copied { color: theme('colors.tyrian.700') !important; opacity: 1 !important; }
+.anchor-copied::after { content: ' link copied'; font-size: 0.7em; font-style: italic; margin-left: 0.3em; }
+
 /* Inline source citations. Visually distinct from auto-links: a solid
    thin tyrian underline wrapping the author + passage as a clickable
    unit. Reads as an attributable reference rather than a cross-link. */

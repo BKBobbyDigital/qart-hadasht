@@ -4,6 +4,8 @@ import { stripMarkdownForMeta } from '../../lib/autolink';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
+import VersionStamp from '../../components/VersionStamp.astro';
+import CiteThisPage from '../../components/CiteThisPage.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -280,9 +282,8 @@ const jumps: Jump[] = [
         </section>
       )}
 
-      <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
-        <p>Last revised {d.last_revised}.</p>
-      </footer>
+      <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/themes/${theme.id.replace(/\.md$/, '')}`} />
+      <VersionStamp date={d.last_revised} filePath={`src/content/themes/${theme.id}`} />
     </article>
   </div>
 </BaseLayout>

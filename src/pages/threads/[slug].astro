@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { stripMarkdownForMeta } from '../../lib/autolink';
+import VersionStamp from '../../components/VersionStamp.astro';
+import CiteThisPage from '../../components/CiteThisPage.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -143,8 +145,11 @@ const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
       </ol>
     </section>
 
-    <footer class="mt-12 pt-6 border-t border-sand-300 text-xs text-sand-700 italic">
-      Reading thread · last revised {d.last_revised} · open to revision.
-    </footer>
+    <p class="mt-12 text-xs text-sand-700 italic">
+      Reading thread · open to revision.
+    </p>
+
+    <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/threads/${thread.id.replace(/\.md$/, '')}`} />
+    <VersionStamp date={d.last_revised} filePath={`src/content/threads/${thread.id}`} />
   </article>
 </BaseLayout>

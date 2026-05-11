@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import VersionStamp from '../../components/VersionStamp.astro';
+import CiteThisPage from '../../components/CiteThisPage.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -74,9 +76,12 @@ const narrativeInfoboxRows: InfoboxRow[] = [
       <Content />
     </div>
 
-    <footer class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
-      <p>Last revised {d.last_revised}. Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.</p>
-    </footer>
+    <p class="mt-12 text-sm text-sand-700 italic">
+      Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.
+    </p>
+
+    <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/narratives/${narrative.id.replace(/\.md$/, '')}`} />
+    <VersionStamp date={d.last_revised} filePath={`src/content/narratives/${narrative.id}`} />
     </article>
   </div>
 </BaseLayout>

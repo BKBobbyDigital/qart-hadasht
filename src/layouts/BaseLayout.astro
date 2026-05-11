@@ -156,5 +156,54 @@ const primaryNav = [
         </div>
       </div>
     </footer>
+
+    <!-- Heading permalink anchors.
+         The renderSummaryHtml helper emits ¶ anchor links inline for YAML-
+         summary headings; for markdown content (narratives, themes, periods)
+         Astro injects heading ids but no anchor markup, so we append a ¶
+         anchor to every h2/h3 with an id at page load.
+         Clicking any ¶ anchor copies the absolute URL+hash to clipboard so
+         academic readers can paste a stable permalink directly into a
+         citation. -->
+    <script is:inline>
+      (() => {
+        // Inject ¶ anchors on prose headings that don't already have one
+        // (server-rendered YAML-summary headings already have theirs).
+        const proseContainers = document.querySelectorAll('.prose-encyclopedia, article > main, article');
+        const seen = new Set();
+        proseContainers.forEach((container) => {
+          container.querySelectorAll('h2[id], h3[id]').forEach((h) => {
+            if (seen.has(h)) return;
+            seen.add(h);
+            if (h.querySelector('.anchor-link')) return;
+            const id = h.getAttribute('id');
+            if (!id) return;
+            const a = document.createElement('a');
+            a.className = 'anchor-link';
+            a.href = '#' + id;
+            a.setAttribute('aria-label', 'Copy link to this section');
+            a.setAttribute('data-anchor', '');
+            a.textContent = '¶';
+            h.appendChild(document.createTextNode(' '));
+            h.appendChild(a);
+          });
+        });
+
+        // Click handler: copy absolute URL+hash to clipboard.
+        document.addEventListener('click', (e) => {
+          const a = e.target instanceof Element ? e.target.closest('a.anchor-link[data-anchor]') : null;
+          if (!a) return;
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          const hash = a.getAttribute('href') || '';
+          const url = window.location.origin + window.location.pathname + hash;
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(() => {
+              a.classList.add('anchor-copied');
+              setTimeout(() => a.classList.remove('anchor-copied'), 1400);
+            }).catch(() => { /* fall through to default nav */ });
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

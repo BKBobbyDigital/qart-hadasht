@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { stripMarkdownForMeta } from '../../lib/autolink';
 import HistoricalMap from '../../components/HistoricalMap.astro';
+import VersionStamp from '../../components/VersionStamp.astro';
+import CiteThisPage from '../../components/CiteThisPage.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 
 // Eagerly import every map config under src/data/maps/*.json so the
@@ -186,11 +188,14 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       ) : <span></span>}
     </nav>
 
-    <footer class="mt-8 text-xs text-sand-700 italic">
-      Period synthesis · last revised {d.last_revised} · open to revision.
-      Where the prose takes a position, the position is the site's own and
-      may be challenged. Underlying claims with their own confidence
-      assessments and source citations are linked throughout.
-    </footer>
+    <p class="mt-8 text-xs text-sand-700 italic">
+      Period synthesis · open to revision. Where the prose takes a position,
+      the position is the site's own and may be challenged. Underlying
+      claims with their own confidence assessments and source citations
+      are linked throughout.
+    </p>
+
+    <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/periods/${period.id.replace(/\.md$/, '')}`} />
+    <VersionStamp date={d.last_revised} filePath={`src/content/periods/${period.id}`} />
   </article>
 </BaseLayout>
