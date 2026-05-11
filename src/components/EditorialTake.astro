@@ -24,14 +24,14 @@ const reasoningHtml = renderSummaryHtml(data.reasoning, emptyRegistry);
     <span class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Editorial take</span>
     <EditorialConfidenceChip confidence={data.confidence} />
   </div>
-  <h4 class="font-serif text-xl mt-1 mb-2">{data.subject_question}</h4>
+  <p class="font-serif text-xl mt-1 mb-2">{data.subject_question}</p>
   <p class="font-serif text-lg leading-snug text-sand-900" set:html={positionHtml} />
   <details class="mt-4 text-sm">
     <summary class="cursor-pointer font-medium text-tyrian-700">Reasoning →</summary>
     <div class="mt-2 prose-encyclopedia" set:html={reasoningHtml} />
     {data.competing_positions && data.competing_positions.length > 0 && (
       <div class="mt-4">
-        <h5 class="text-xs uppercase tracking-widest font-semibold text-sand-700">Positions considered and rejected</h5>
+        <p class="text-xs uppercase tracking-widest font-semibold text-sand-700">Positions considered and rejected</p>
         <ul class="mt-2 space-y-3">
           {data.competing_positions.map((cp: any) => (
             <li class="border-l-2 border-sand-300 pl-3">

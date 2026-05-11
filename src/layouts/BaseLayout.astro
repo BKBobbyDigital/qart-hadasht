@@ -70,6 +70,10 @@ const primaryNav = [
   </head>
   <body class="min-h-screen flex flex-col bg-sand-50">
 
+    <!-- Skip-to-main-content link for keyboard and screen-reader users.
+         Visually hidden until focused; first thing tab-keyboard reaches. -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Editorial masthead — sealed top and bottom by tyrian rules,
          no internal rules. All three bands (utility row, masthead,
          primary nav) share one parent max-w-6xl px-6 container so the
@@ -96,7 +100,7 @@ const primaryNav = [
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-8">
             <div class="text-center sm:text-left">
               <p class="font-phoenician text-xl sm:text-2xl text-tyrian-700 leading-none mb-1.5">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
-              <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</h1>
+              <p aria-label="Qart-Hadasht — homepage link" class="font-serif text-4xl sm:text-5xl lg:text-6xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</p>
             </div>
             <div class="flex flex-col items-center text-center shrink-0">
               <span class="text-tyrian-700 group-hover:text-tyrian-900 transition-colors">
@@ -127,7 +131,7 @@ const primaryNav = [
       <div class="border-t border-tyrian-700"></div>
     </header>
 
-    <main class="flex-1" data-pagefind-body>
+    <main id="main-content" class="flex-1" data-pagefind-body tabindex="-1">
       <slot />
     </main>
 

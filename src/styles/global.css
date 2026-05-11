@@ -121,3 +121,37 @@ h4:hover > .anchor-link, h5:hover > .anchor-link, h6:hover > .anchor-link,
   background-color: theme('colors.tyrian.50');
 }
 .prose-encyclopedia a.citation-link { @apply no-underline; }
+
+/* Skip-to-main-content link. Hidden off-screen until keyboard focus
+   brings it back, then it appears pinned to the top-left in a tyrian
+   pill. The first thing tab-keyboard users hit when arriving on any
+   page; jumps to #main-content. */
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  top: 8px;
+  z-index: 100;
+  background: theme('colors.tyrian.700');
+  color: theme('colors.sand.50');
+  padding: 0.6em 1em;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 8px;
+  outline: 2px solid theme('colors.tyrian.300');
+  outline-offset: 2px;
+}
+
+/* Ensure focusable elements have a visible focus ring even when the
+   user-agent default focus style would be invisible against our cream
+   background. Targets keyboard navigation specifically (:focus-visible)
+   so mouse-click focus doesn't get a permanent ring. */
+a:focus-visible, button:focus-visible, summary:focus-visible,
+[role="button"]:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid theme('colors.tyrian.500');
+  outline-offset: 2px;
+  border-radius: 2px;
+}

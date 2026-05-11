@@ -147,9 +147,9 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
                   <span class={`text-[10px] uppercase tracking-widest font-bold px-2 py-0.5 rounded ${typeBadgeStyle(entry.data.type)}`}>
                     {entry.data.type}
                   </span>
-                  <h3 class={isWar ? 'font-serif text-xl text-tyrian-900' : 'font-serif text-xl text-tyrian-700'}>
+                  <h2 class={isWar ? 'font-serif text-xl text-tyrian-900 mt-0 mb-0' : 'font-serif text-xl text-tyrian-700 mt-0 mb-0'} style="border: none; padding: 0;">
                     {entry.data.name}
-                  </h3>
+                  </h2>
                 </div>
                 <span class="text-sm text-sand-700 shrink-0">{fmtRange(entry.data)}</span>
               </div>
@@ -165,7 +165,7 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
                           <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(phase.data.type)}`}>
                             {phase.data.type}
                           </span>
-                          <h4 class="font-serif text-lg text-tyrian-700">{phase.data.name}</h4>
+                          <h3 class="font-serif text-lg text-tyrian-700 mt-0 mb-0" style="border: none; padding: 0;">{phase.data.name}</h3>
                         </div>
                         <span class="text-xs text-sand-700 shrink-0">{fmtRange(phase.data)}</span>
                       </div>
