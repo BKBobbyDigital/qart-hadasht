@@ -1,0 +1,508 @@
+---
+/**
+ * TerritorialExtentMap.astro — multi-state historical territorial map
+ * with a date toggle.
+ *
+ * Companion to HistoricalMap.astro. Where HistoricalMap renders a single
+ * historical configuration, this component renders five distinct
+ * territorial states (550 / 264 / 218 / 202 / 146 BCE) on the same
+ * coastline base, with a segmented-control date toggle to swap between
+ * them.
+ *
+ * Visual encoding distinguishes:
+ *   - "core" polygons → solid fill (directly administered hinterland)
+ *   - "tributary" polygons → diagonal-striped fill (allied/tributary)
+ *   - "network" polygons → translucent fill with dashed border
+ *     (network sphere of influence; pre-territorial-polity era)
+ *   - "lost" polygons → faint dashed outline only (territory lost
+ *     since the prior state)
+ *
+ * Cities use three roles (major/minor/battle/node). "node" is a
+ * distinct diamond marker for trading-node-without-territorial-control
+ * positions in the 550 BCE network configuration.
+ *
+ * All five states are rendered into the same SVG as nested <g
+ * data-state="..."> groups; a small inline script toggles their
+ * display via the segmented control. Pure server-side SVG except for
+ * the ~15 lines of toggle JS.
+ */
+import coastline from '../data/coastline-mediterranean.json';
+
+interface Viewport {
+  lonMin: number;
+  lonMax: number;
+  latMin: number;
+  latMax: number;
+}
+
+interface Polygon {
+  name: string;
+  type: 'core' | 'tributary' | 'network' | 'lost';
+  color: string;
+  coords: [number, number][];
+}
+
+interface City {
+  name: string;
+  lon: number;
+  lat: number;
+  role: 'major' | 'minor' | 'battle' | 'node' | 'node-distant';
+  label_anchor?: 'right' | 'left' | 'top' | 'bottom';
+  note?: string;
+}
+
+interface RegionLabel {
+  text: string;
+  lon: number;
+  lat: number;
+  size?: 'large' | 'small';
+  italic?: boolean;
+}
+
+interface State {
+  id: string;
+  label: string;
+  sublabel?: string;
+  caption: string;
+  polygons?: Polygon[];
+  cities?: City[];
+  region_labels?: RegionLabel[];
+}
+
+interface LegendEntry {
+  type: string;
+  label: string;
+}
+
+interface Config {
+  viewport: Viewport;
+  default_state: string;
+  polygon_legend?: LegendEntry[];
+  states: State[];
+}
+
+interface Props {
+  config: Config;
+  height?: string;
+}
+
+const { config, height = '560px' } = Astro.props;
+const v = config.viewport;
+
+const centerLat = (v.latMin + v.latMax) / 2;
+const k = Math.cos((centerLat * Math.PI) / 180);
+const vbWidth = (v.lonMax - v.lonMin) * k;
+const vbHeight = v.latMax - v.latMin;
+
+function projX(lon: number): number {
+  return (lon - v.lonMin) * k;
+}
+function projY(lat: number): number {
+  return v.latMax - lat;
+}
+function projectPath(coords: [number, number][]): string {
+  return coords
+    .map((c, i) => `${i === 0 ? 'M' : 'L'}${projX(c[0]).toFixed(3)} ${projY(c[1]).toFixed(3)}`)
+    .join(' ');
+}
+function projectClosedPath(coords: [number, number][]): string {
+  return projectPath(coords) + ' Z';
+}
+
+const coastlinePaths: string[] = [];
+for (const f of (coastline as any).features as any[]) {
+  if (f.geometry?.type === 'LineString') {
+    coastlinePaths.push(projectPath(f.geometry.coordinates as [number, number][]));
+  }
+}
+const coastlineD = coastlinePaths.join(' ');
+
+const ref = Math.max(vbWidth, vbHeight);
+const coastStroke = ref * 0.0015;
+const polyStroke = ref * 0.0025;
+const cityRadiusMajor = ref * 0.008;
+const cityRadiusMinor = ref * 0.005;
+const nodeSize = ref * 0.009;
+const battleSize = ref * 0.012;
+const labelMajor = ref * 0.022;
+const labelMinor = ref * 0.016;
+const labelBattle = ref * 0.015;
+const regionLabelLarge = ref * 0.032;
+const regionLabelSmall = ref * 0.022;
+
+// Color palette for polygon types. Tyrian is the principal Carthaginian
+// signal color; stone is the "lost" muted gray.
+const COLORS: Record<string, string> = {
+  tyrian: '#5b0f31',
+  stone: '#8a8275',
+};
+
+function colorFor(name: string): string {
+  return COLORS[name] ?? name;
+}
+
+function labelOffsetFor(anchor: string | undefined, radius: number) {
+  switch (anchor) {
+    case 'left':
+      return { dx: -radius * 1.6, dy: radius * 0.4, textAnchor: 'end' };
+    case 'top':
+      return { dx: 0, dy: -radius * 1.6, textAnchor: 'middle' };
+    case 'bottom':
+      return { dx: 0, dy: radius * 2.6, textAnchor: 'middle' };
+    case 'right':
+    default:
+      return { dx: radius * 1.6, dy: radius * 0.4, textAnchor: 'start' };
+  }
+}
+
+const defaultId = config.default_state;
+const states = config.states;
+---
+
+<figure class="my-6">
+  <!-- Date toggle -->
+  <div
+    class="mb-3 flex flex-wrap items-stretch gap-px overflow-hidden rounded-md border border-sand-400 bg-sand-200"
+    role="tablist"
+    aria-label="Select date"
+    data-territorial-toggle
+  >
+    {states.map((s) => (
+      <button
+        type="button"
+        role="tab"
+        data-state-id={s.id}
+        aria-selected={s.id === defaultId ? 'true' : 'false'}
+        class:list={[
+          'flex-1 min-w-[120px] px-3 py-2 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-tyrian-500',
+          s.id === defaultId
+            ? 'bg-tyrian-700 text-sand-50'
+            : 'bg-sand-50 text-ink hover:bg-[#faf6ec]',
+        ]}
+      >
+        <span class="block leading-tight">{s.label}</span>
+        {s.sublabel && (
+          <span class="block text-[11px] font-normal opacity-80">{s.sublabel}</span>
+        )}
+      </button>
+    ))}
+  </div>
+
+  <div
+    class="rounded-lg border border-sand-300 overflow-hidden bg-sand-100"
+    style={`height: ${height};`}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox={`0 0 ${vbWidth.toFixed(3)} ${vbHeight.toFixed(3)}`}
+      preserveAspectRatio="xMidYMid meet"
+      style="width: 100%; height: 100%; display: block;"
+      role="img"
+      aria-label="Carthaginian territorial extent over time"
+    >
+      <defs>
+        <!-- Diagonal hatch pattern for tributary zones, parameterized by color. -->
+        <pattern
+          id="hatch-tyrian"
+          patternUnits="userSpaceOnUse"
+          width={ref * 0.018}
+          height={ref * 0.018}
+          patternTransform="rotate(45)"
+        >
+          <rect width={ref * 0.018} height={ref * 0.018} fill={COLORS.tyrian} fill-opacity="0.12" />
+          <line
+            x1="0"
+            y1="0"
+            x2="0"
+            y2={ref * 0.018}
+            stroke={COLORS.tyrian}
+            stroke-width={ref * 0.0028}
+            stroke-opacity="0.55"
+          />
+        </pattern>
+      </defs>
+
+      <!-- Paper background -->
+      <rect x="0" y="0" width={vbWidth} height={vbHeight} fill="#f4f0e6" />
+
+      <!-- Per-state polygon groups. Only the active one is visible. -->
+      {states.map((s) => (
+        <g
+          data-state={s.id}
+          style={s.id === defaultId ? '' : 'display:none;'}
+        >
+          {(s.polygons ?? []).map((p) => {
+            const baseColor = colorFor(p.color);
+            if (p.type === 'core') {
+              return (
+                <path
+                  d={projectClosedPath(p.coords)}
+                  fill={baseColor}
+                  fill-opacity="0.45"
+                  stroke={baseColor}
+                  stroke-width={polyStroke}
+                  stroke-opacity="0.65"
+                  stroke-linejoin="round"
+                />
+              );
+            }
+            if (p.type === 'tributary') {
+              return (
+                <path
+                  d={projectClosedPath(p.coords)}
+                  fill={`url(#hatch-${p.color})`}
+                  stroke={baseColor}
+                  stroke-width={polyStroke}
+                  stroke-opacity="0.55"
+                  stroke-linejoin="round"
+                />
+              );
+            }
+            if (p.type === 'network') {
+              return (
+                <path
+                  d={projectClosedPath(p.coords)}
+                  fill={baseColor}
+                  fill-opacity="0.15"
+                  stroke={baseColor}
+                  stroke-width={polyStroke}
+                  stroke-opacity="0.6"
+                  stroke-dasharray={`${polyStroke * 3} ${polyStroke * 2}`}
+                  stroke-linejoin="round"
+                />
+              );
+            }
+            // lost
+            return (
+              <path
+                d={projectClosedPath(p.coords)}
+                fill={baseColor}
+                fill-opacity="0.06"
+                stroke={baseColor}
+                stroke-width={polyStroke * 0.8}
+                stroke-opacity="0.5"
+                stroke-dasharray={`${polyStroke * 2.5} ${polyStroke * 2}`}
+                stroke-linejoin="round"
+              />
+            );
+          })}
+        </g>
+      ))}
+
+      <!-- Coastline (rendered on top of polygons, before cities) -->
+      <path
+        d={coastlineD}
+        fill="none"
+        stroke="#6b5638"
+        stroke-width={coastStroke}
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        opacity="0.65"
+      />
+
+      <!-- Per-state region labels + cities -->
+      {states.map((s) => (
+        <g
+          data-state={s.id}
+          style={s.id === defaultId ? '' : 'display:none;'}
+        >
+          {(s.region_labels ?? []).map((l) => (
+            <text
+              x={projX(l.lon)}
+              y={projY(l.lat)}
+              font-family="Cormorant Garamond, Georgia, serif"
+              font-size={l.size === 'small' ? regionLabelSmall : regionLabelLarge}
+              font-style={l.italic ? 'italic' : 'normal'}
+              font-weight="600"
+              fill="#3d3020"
+              fill-opacity="0.6"
+              text-anchor="middle"
+              letter-spacing={ref * 0.003}
+            >
+              {l.text}
+            </text>
+          ))}
+
+          {(s.cities ?? []).map((c) => {
+            const cx = projX(c.lon);
+            const cy = projY(c.lat);
+
+            if (c.role === 'battle') {
+              const half = battleSize / 2;
+              const labelOffset = labelOffsetFor(c.label_anchor, battleSize);
+              return (
+                <g>
+                  <line
+                    x1={cx - half}
+                    y1={cy - half}
+                    x2={cx + half}
+                    y2={cy + half}
+                    stroke="#5b0f31"
+                    stroke-width={polyStroke}
+                    stroke-linecap="round"
+                  />
+                  <line
+                    x1={cx - half}
+                    y1={cy + half}
+                    x2={cx + half}
+                    y2={cy - half}
+                    stroke="#5b0f31"
+                    stroke-width={polyStroke}
+                    stroke-linecap="round"
+                  />
+                  <text
+                    x={cx + labelOffset.dx}
+                    y={cy + labelOffset.dy}
+                    font-family="Cormorant Garamond, Georgia, serif"
+                    font-size={labelBattle}
+                    font-style="italic"
+                    fill="#5b0f31"
+                    text-anchor={labelOffset.textAnchor}
+                  >
+                    {c.name}
+                  </text>
+                </g>
+              );
+            }
+
+            if (c.role === 'node' || c.role === 'node-distant') {
+              const half = nodeSize / 2;
+              const labelOffset = labelOffsetFor(c.label_anchor, nodeSize);
+              const fillOpacity = c.role === 'node-distant' ? 0.4 : 1;
+              return (
+                <g>
+                  <path
+                    d={`M ${cx} ${cy - half} L ${cx + half} ${cy} L ${cx} ${cy + half} L ${cx - half} ${cy} Z`}
+                    fill="#5b0f31"
+                    fill-opacity={fillOpacity}
+                    stroke="#3d3020"
+                    stroke-width={polyStroke * 0.8}
+                  />
+                  <text
+                    x={cx + labelOffset.dx}
+                    y={cy + labelOffset.dy}
+                    font-family="Cormorant Garamond, Georgia, serif"
+                    font-size={labelMinor}
+                    font-weight="500"
+                    fill="#3d3020"
+                    text-anchor={labelOffset.textAnchor}
+                  >
+                    {c.name}
+                  </text>
+                </g>
+              );
+            }
+
+            const isMajor = c.role === 'major';
+            const radius = isMajor ? cityRadiusMajor : cityRadiusMinor;
+            const labelOffset = labelOffsetFor(c.label_anchor, radius);
+            return (
+              <g>
+                <circle
+                  cx={cx}
+                  cy={cy}
+                  r={radius}
+                  fill={isMajor ? '#3d3020' : '#ffffff'}
+                  stroke="#3d3020"
+                  stroke-width={polyStroke * 0.9}
+                />
+                <text
+                  x={cx + labelOffset.dx}
+                  y={cy + labelOffset.dy}
+                  font-family="Cormorant Garamond, Georgia, serif"
+                  font-size={isMajor ? labelMajor : labelMinor}
+                  font-weight={isMajor ? 600 : 500}
+                  fill="#3d3020"
+                  text-anchor={labelOffset.textAnchor}
+                >
+                  {c.name}
+                </text>
+              </g>
+            );
+          })}
+        </g>
+      ))}
+    </svg>
+  </div>
+
+  <!-- Legend -->
+  {config.polygon_legend && (
+    <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-[12px] text-sand-700">
+      {config.polygon_legend.map((entry) => (
+        <span class="inline-flex items-center gap-1.5">
+          {entry.type === 'core' && (
+            <span class="inline-block h-3 w-5 rounded-sm" style="background:#5b0f31;opacity:0.45;border:1px solid #5b0f31"></span>
+          )}
+          {entry.type === 'tributary' && (
+            <span
+              class="inline-block h-3 w-5 rounded-sm"
+              style="background:repeating-linear-gradient(45deg,#5b0f31 0 1.5px,transparent 1.5px 5px);background-color:#5b0f31;background-blend-mode:normal;opacity:0.7;border:1px solid #5b0f31"
+            ></span>
+          )}
+          {entry.type === 'network' && (
+            <span class="inline-block h-3 w-5 rounded-sm" style="background:#5b0f31;opacity:0.15;border:1px dashed #5b0f31"></span>
+          )}
+          {entry.type === 'lost' && (
+            <span class="inline-block h-3 w-5 rounded-sm" style="background:#8a8275;opacity:0.2;border:1px dashed #8a8275"></span>
+          )}
+          <span>{entry.label}</span>
+        </span>
+      ))}
+      <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block h-2 w-2 rotate-45" style="background:#5b0f31"></span>
+        <span>Trading node (no territorial control)</span>
+      </span>
+    </div>
+  )}
+
+  <!-- Per-state captions; only the active one is visible. -->
+  <figcaption class="mt-3 text-xs text-sand-700 italic leading-relaxed">
+    {states.map((s) => (
+      <span
+        data-state-caption={s.id}
+        style={s.id === defaultId ? '' : 'display:none;'}
+      >
+        {s.caption}
+      </span>
+    ))}
+  </figcaption>
+</figure>
+
+<script>
+  // Toggle territorial-extent map state via the segmented control.
+  document.querySelectorAll('[data-territorial-toggle]').forEach((toggle) => {
+    const figure = toggle.closest('figure');
+    if (!figure) return;
+    toggle.addEventListener('click', (e) => {
+      const target = (e.target as HTMLElement).closest('[data-state-id]');
+      if (!target) return;
+      const stateId = target.getAttribute('data-state-id');
+      if (!stateId) return;
+
+      // Update button selected state + styling.
+      toggle.querySelectorAll('[data-state-id]').forEach((btn) => {
+        const active = btn.getAttribute('data-state-id') === stateId;
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+        if (active) {
+          btn.classList.add('bg-tyrian-700', 'text-sand-50');
+          btn.classList.remove('bg-sand-50', 'text-ink', 'hover:bg-[#faf6ec]');
+        } else {
+          btn.classList.remove('bg-tyrian-700', 'text-sand-50');
+          btn.classList.add('bg-sand-50', 'text-ink', 'hover:bg-[#faf6ec]');
+        }
+      });
+
+      // Swap SVG state groups.
+      figure.querySelectorAll('[data-state]').forEach((g) => {
+        (g as HTMLElement).style.display =
+          g.getAttribute('data-state') === stateId ? '' : 'none';
+      });
+
+      // Swap caption.
+      figure.querySelectorAll('[data-state-caption]').forEach((cap) => {
+        (cap as HTMLElement).style.display =
+          cap.getAttribute('data-state-caption') === stateId ? '' : 'none';
+      });
+    });
+  });
+</script>

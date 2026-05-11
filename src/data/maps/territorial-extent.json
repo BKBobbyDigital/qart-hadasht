@@ -1,0 +1,365 @@
+{
+  "viewport": { "lonMin": -10, "lonMax": 17.5, "latMin": 30.5, "latMax": 43 },
+  "default_state": "264",
+  "polygon_legend": [
+    { "type": "core", "label": "Directly administered hinterland" },
+    { "type": "tributary", "label": "Tributary / allied zone" },
+    { "type": "network", "label": "Network sphere of influence" },
+    { "type": "lost", "label": "Territory lost since previous state" }
+  ],
+  "states": [
+    {
+      "id": "550",
+      "label": "550 BCE",
+      "sublabel": "network hegemony",
+      "caption": "c. 550 BCE — pre-Alalia. Carthaginian-Phoenician presence was substantially a network of trading nodes and limited hinterland zones rather than a contiguous territorial polity. The principal Carthaginian core was the Cap Bon and immediate hinterland; the broader Punic network reached across the western Mediterranean through allied and affiliated Phoenician settlements. Scholarly approximation; node positions follow the standard Aubet network reconstruction.",
+      "polygons": [
+        {
+          "name": "Cap Bon / immediate hinterland",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [9.7, 37.1], [10.1, 37.35], [10.7, 37.25], [11.2, 37.0],
+            [11.3, 36.7], [11.05, 36.45], [10.5, 36.3], [10.0, 36.4],
+            [9.65, 36.7], [9.7, 37.1]
+          ]
+        },
+        {
+          "name": "Western Sicily Punic zone",
+          "type": "network",
+          "color": "tyrian",
+          "coords": [
+            [12.45, 38.15], [12.6, 38.1], [12.95, 37.95], [13.0, 37.7],
+            [12.95, 37.55], [12.6, 37.55], [12.4, 37.7], [12.4, 38.0],
+            [12.45, 38.15]
+          ]
+        },
+        {
+          "name": "Southern Sardinia network zone",
+          "type": "network",
+          "color": "tyrian",
+          "coords": [
+            [8.3, 39.4], [8.6, 39.5], [9.1, 39.3], [9.25, 39.05],
+            [9.0, 38.85], [8.55, 38.85], [8.35, 39.05], [8.3, 39.4]
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Carthage", "lon": 10.32, "lat": 36.85, "role": "major", "label_anchor": "right" },
+        { "name": "Utica", "lon": 10.06, "lat": 37.05, "role": "minor", "label_anchor": "left" },
+        { "name": "Hadrumetum", "lon": 10.64, "lat": 35.83, "role": "node", "label_anchor": "right" },
+        { "name": "Motya", "lon": 12.47, "lat": 37.87, "role": "node", "label_anchor": "top" },
+        { "name": "Panormus", "lon": 13.36, "lat": 38.12, "role": "node", "label_anchor": "right" },
+        { "name": "Sulci", "lon": 8.43, "lat": 39.06, "role": "node", "label_anchor": "left" },
+        { "name": "Tharros", "lon": 8.44, "lat": 39.88, "role": "node", "label_anchor": "left" },
+        { "name": "Caralis", "lon": 9.12, "lat": 39.22, "role": "node", "label_anchor": "right" },
+        { "name": "Nora", "lon": 9.02, "lat": 38.98, "role": "node", "label_anchor": "bottom" },
+        { "name": "Ibiza", "lon": 1.43, "lat": 38.91, "role": "node", "label_anchor": "right" },
+        { "name": "Gades", "lon": -6.30, "lat": 36.53, "role": "node", "label_anchor": "left" },
+        { "name": "Malaca", "lon": -4.42, "lat": 36.72, "role": "node", "label_anchor": "bottom" },
+        { "name": "Lixus", "lon": -6.12, "lat": 35.20, "role": "node", "label_anchor": "left" },
+        { "name": "Tyre", "lon": 16.5, "lat": 40.5, "role": "node-distant", "label_anchor": "right", "note": "homeland metropolis (off-map east)" }
+      ],
+      "region_labels": [
+        { "text": "AFRICA", "lon": 9.5, "lat": 35.3, "size": "small", "italic": true },
+        { "text": "SICILIA", "lon": 13.7, "lat": 37.5, "size": "small", "italic": true },
+        { "text": "SARDINIA", "lon": 8.9, "lat": 40.3, "size": "small", "italic": true },
+        { "text": "HISPANIA", "lon": -4.5, "lat": 38.5, "size": "small", "italic": true }
+      ]
+    },
+    {
+      "id": "264",
+      "label": "264 BCE",
+      "sublabel": "pre-First Punic War peak",
+      "caption": "264 BCE — eve of the First Punic War. The Carthaginian polity at its widest geographic reach: the African heartland from Hippo Regius to the Emporia of Tripolitania, western Sicily west of the Halycos river, most of Sardinia and southern Corsica, the Balearics, and a network of Phoenician-Carthaginian coastal positions in southern Iberia and the Atlantic. The directly-administered core (solid fill) is the African hinterland; the broader sphere (hatched) includes the islands and tributary zones.",
+      "polygons": [
+        {
+          "name": "African core",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [7.7, 36.9], [8.6, 37.1], [9.8, 37.25], [10.7, 37.35],
+            [11.25, 37.05], [11.3, 36.55], [11.1, 36.0], [11.0, 35.5],
+            [10.95, 35.0], [11.2, 34.4], [10.9, 33.8], [10.4, 33.6],
+            [9.5, 34.0], [8.5, 34.2], [7.5, 34.8], [6.9, 35.5],
+            [6.8, 36.2], [7.2, 36.7], [7.7, 36.9]
+          ]
+        },
+        {
+          "name": "Emporia (Tripolitania)",
+          "type": "tributary",
+          "color": "tyrian",
+          "coords": [
+            [11.6, 33.4], [12.5, 33.0], [13.5, 32.9], [14.5, 32.7],
+            [14.6, 32.4], [13.8, 32.5], [12.7, 32.7], [11.7, 33.0],
+            [11.4, 33.2], [11.6, 33.4]
+          ]
+        },
+        {
+          "name": "Western Punic Sicily",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [12.45, 38.15], [12.7, 38.15], [13.2, 38.05], [13.55, 37.95],
+            [13.6, 37.6], [13.5, 37.3], [13.2, 37.0], [12.9, 36.85],
+            [12.5, 37.0], [12.4, 37.4], [12.4, 37.85], [12.45, 38.15]
+          ]
+        },
+        {
+          "name": "Sardinia",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [8.4, 41.0], [8.5, 41.15], [9.3, 41.2], [9.7, 40.9],
+            [9.7, 40.3], [9.6, 39.7], [9.35, 39.2], [9.05, 38.9],
+            [8.55, 38.85], [8.4, 39.2], [8.4, 39.9], [8.35, 40.55],
+            [8.4, 41.0]
+          ]
+        },
+        {
+          "name": "Southern Corsica",
+          "type": "tributary",
+          "color": "tyrian",
+          "coords": [
+            [8.7, 41.7], [9.3, 41.75], [9.55, 41.6], [9.4, 41.4],
+            [9.0, 41.35], [8.7, 41.5], [8.7, 41.7]
+          ]
+        },
+        {
+          "name": "Balearics (Ibiza/Formentera core)",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [1.2, 39.05], [1.6, 39.05], [1.65, 38.8], [1.3, 38.65],
+            [1.15, 38.8], [1.2, 39.05]
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Carthage", "lon": 10.32, "lat": 36.85, "role": "major", "label_anchor": "right" },
+        { "name": "Utica", "lon": 10.06, "lat": 37.05, "role": "minor", "label_anchor": "left" },
+        { "name": "Hadrumetum", "lon": 10.64, "lat": 35.83, "role": "minor", "label_anchor": "right" },
+        { "name": "Hippo Regius", "lon": 7.77, "lat": 36.9, "role": "minor", "label_anchor": "left" },
+        { "name": "Lepcis Magna", "lon": 14.29, "lat": 32.65, "role": "minor", "label_anchor": "right" },
+        { "name": "Lilybaeum", "lon": 12.43, "lat": 37.80, "role": "minor", "label_anchor": "left" },
+        { "name": "Panormus", "lon": 13.36, "lat": 38.12, "role": "minor", "label_anchor": "right" },
+        { "name": "Caralis", "lon": 9.12, "lat": 39.22, "role": "minor", "label_anchor": "right" },
+        { "name": "Tharros", "lon": 8.44, "lat": 39.88, "role": "minor", "label_anchor": "left" },
+        { "name": "Ibiza", "lon": 1.43, "lat": 38.91, "role": "minor", "label_anchor": "right" },
+        { "name": "Gades", "lon": -6.30, "lat": 36.53, "role": "node", "label_anchor": "left" },
+        { "name": "Malaca", "lon": -4.42, "lat": 36.72, "role": "node", "label_anchor": "bottom" }
+      ],
+      "region_labels": [
+        { "text": "AFRICA", "lon": 9.0, "lat": 35.0, "size": "small", "italic": true },
+        { "text": "SICILIA", "lon": 13.0, "lat": 37.4, "size": "small", "italic": true },
+        { "text": "SARDINIA", "lon": 9.0, "lat": 40.2, "size": "small", "italic": true },
+        { "text": "HISPANIA", "lon": -4.5, "lat": 38.5, "size": "small", "italic": true }
+      ]
+    },
+    {
+      "id": "218",
+      "label": "218 BCE",
+      "sublabel": "eve of Second Punic War",
+      "caption": "218 BCE — eve of the Second Punic War. Sicily lost to Rome in 241; Sardinia and Corsica seized by Rome in 238 in the post-Mercenary-War crisis. The Barcid project in Iberia, undertaken from 237 BCE forward under Hamilcar, Hasdrubal the Fair, and Hannibal, has produced a substantial second polity south of the Ebro: directly administered around Carthago Nova and the mining hinterland, with tributary and allied zones extending broadly. The African core remains intact at its 264 boundaries.",
+      "polygons": [
+        {
+          "name": "African core",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [7.7, 36.9], [8.6, 37.1], [9.8, 37.25], [10.7, 37.35],
+            [11.25, 37.05], [11.3, 36.55], [11.1, 36.0], [11.0, 35.5],
+            [10.95, 35.0], [11.2, 34.4], [10.9, 33.8], [10.4, 33.6],
+            [9.5, 34.0], [8.5, 34.2], [7.5, 34.8], [6.9, 35.5],
+            [6.8, 36.2], [7.2, 36.7], [7.7, 36.9]
+          ]
+        },
+        {
+          "name": "Emporia (Tripolitania)",
+          "type": "tributary",
+          "color": "tyrian",
+          "coords": [
+            [11.6, 33.4], [12.5, 33.0], [13.5, 32.9], [14.5, 32.7],
+            [14.6, 32.4], [13.8, 32.5], [12.7, 32.7], [11.7, 33.0],
+            [11.4, 33.2], [11.6, 33.4]
+          ]
+        },
+        {
+          "name": "Barcid Iberian core (Carthago Nova hinterland)",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [-2.3, 38.4], [-1.4, 38.55], [-0.5, 38.4], [-0.2, 38.0],
+            [-0.4, 37.5], [-1.0, 37.3], [-1.7, 37.3], [-2.4, 37.5],
+            [-2.7, 37.9], [-2.3, 38.4]
+          ]
+        },
+        {
+          "name": "Barcid Iberian tributary zone",
+          "type": "tributary",
+          "color": "tyrian",
+          "coords": [
+            [-7.2, 37.3], [-6.0, 37.7], [-5.0, 38.0], [-3.5, 38.4],
+            [-2.0, 38.7], [-0.5, 39.0], [0.5, 39.8], [0.7, 40.4],
+            [0.2, 40.4], [-0.5, 39.9], [-1.5, 39.6], [-2.5, 39.4],
+            [-3.5, 39.2], [-4.5, 38.8], [-5.5, 38.4], [-6.5, 38.0],
+            [-7.0, 37.6], [-7.2, 37.3]
+          ]
+        },
+        {
+          "name": "Lost: Sicily (to Rome 241)",
+          "type": "lost",
+          "color": "stone",
+          "coords": [
+            [12.45, 38.15], [12.7, 38.15], [13.2, 38.05], [13.55, 37.95],
+            [13.6, 37.6], [13.5, 37.3], [13.2, 37.0], [12.9, 36.85],
+            [12.5, 37.0], [12.4, 37.4], [12.4, 37.85], [12.45, 38.15]
+          ]
+        },
+        {
+          "name": "Lost: Sardinia (to Rome 238)",
+          "type": "lost",
+          "color": "stone",
+          "coords": [
+            [8.4, 41.0], [8.5, 41.15], [9.3, 41.2], [9.7, 40.9],
+            [9.7, 40.3], [9.6, 39.7], [9.35, 39.2], [9.05, 38.9],
+            [8.55, 38.85], [8.4, 39.2], [8.4, 39.9], [8.35, 40.55],
+            [8.4, 41.0]
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Carthage", "lon": 10.32, "lat": 36.85, "role": "major", "label_anchor": "right" },
+        { "name": "Utica", "lon": 10.06, "lat": 37.05, "role": "minor", "label_anchor": "left" },
+        { "name": "Hadrumetum", "lon": 10.64, "lat": 35.83, "role": "minor", "label_anchor": "right" },
+        { "name": "Hippo Regius", "lon": 7.77, "lat": 36.9, "role": "minor", "label_anchor": "left" },
+        { "name": "Lepcis Magna", "lon": 14.29, "lat": 32.65, "role": "minor", "label_anchor": "right" },
+        { "name": "Carthago Nova", "lon": -0.99, "lat": 37.6, "role": "major", "label_anchor": "bottom" },
+        { "name": "Gades", "lon": -6.30, "lat": 36.53, "role": "minor", "label_anchor": "left" },
+        { "name": "Saguntum", "lon": -0.27, "lat": 39.68, "role": "battle", "label_anchor": "right" }
+      ],
+      "region_labels": [
+        { "text": "AFRICA", "lon": 9.0, "lat": 35.0, "size": "small", "italic": true },
+        { "text": "HISPANIA", "lon": -4.0, "lat": 40.2, "size": "small", "italic": true },
+        { "text": "(LOST)", "lon": 13.0, "lat": 37.4, "size": "small", "italic": true },
+        { "text": "(LOST)", "lon": 9.0, "lat": 40.2, "size": "small", "italic": true }
+      ]
+    },
+    {
+      "id": "202",
+      "label": "202 BCE",
+      "sublabel": "Treaty of 201 framework",
+      "caption": "202 BCE — after Zama, on the eve of the Treaty of 201. Iberia entirely lost across the Second Punic War. The African core reduced by the Treaty's transfer of Masinissa-claimed Numidian territory: the western frontier pulled back, the southern steppe edge ceded, the Emporia confirmed to Carthage but the surrounding tributary zone diminished. Carthage retains the Cap Bon, the Medjerda valley, the immediate coast, and a substantially reduced inland zone.",
+      "polygons": [
+        {
+          "name": "Reduced African core",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [8.7, 37.1], [9.4, 37.25], [10.2, 37.3], [10.9, 37.35],
+            [11.25, 37.05], [11.3, 36.55], [11.1, 36.0], [11.0, 35.5],
+            [10.95, 35.0], [11.2, 34.4], [10.9, 33.8], [10.4, 33.6],
+            [9.7, 34.1], [9.0, 34.6], [8.5, 35.2], [8.5, 36.0],
+            [8.6, 36.6], [8.7, 37.1]
+          ]
+        },
+        {
+          "name": "Emporia (Tripolitania)",
+          "type": "tributary",
+          "color": "tyrian",
+          "coords": [
+            [11.6, 33.4], [12.5, 33.0], [13.5, 32.9], [14.5, 32.7],
+            [14.6, 32.4], [13.8, 32.5], [12.7, 32.7], [11.7, 33.0],
+            [11.4, 33.2], [11.6, 33.4]
+          ]
+        },
+        {
+          "name": "Lost: Iberia (across SPW)",
+          "type": "lost",
+          "color": "stone",
+          "coords": [
+            [-7.2, 37.3], [-6.0, 37.7], [-5.0, 38.0], [-3.5, 38.4],
+            [-2.0, 38.7], [-0.5, 39.0], [0.5, 39.8], [0.7, 40.4],
+            [0.2, 40.4], [-0.5, 39.9], [-1.5, 39.6], [-2.5, 39.4],
+            [-3.5, 39.2], [-4.5, 38.8], [-5.5, 38.4], [-6.5, 38.0],
+            [-7.0, 37.6], [-7.2, 37.3]
+          ]
+        },
+        {
+          "name": "Lost: western/inland zone (to Masinissa via Treaty)",
+          "type": "lost",
+          "color": "stone",
+          "coords": [
+            [6.8, 36.2], [7.2, 36.7], [7.7, 36.9], [8.6, 37.1],
+            [8.7, 37.1], [8.6, 36.6], [8.5, 36.0], [8.5, 35.2],
+            [9.0, 34.6], [9.7, 34.1], [10.4, 33.6], [9.5, 34.0],
+            [8.5, 34.2], [7.5, 34.8], [6.9, 35.5], [6.8, 36.2]
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Carthage", "lon": 10.32, "lat": 36.85, "role": "major", "label_anchor": "right" },
+        { "name": "Utica", "lon": 10.06, "lat": 37.05, "role": "minor", "label_anchor": "left" },
+        { "name": "Hadrumetum", "lon": 10.64, "lat": 35.83, "role": "minor", "label_anchor": "right" },
+        { "name": "Lepcis Magna", "lon": 14.29, "lat": 32.65, "role": "minor", "label_anchor": "right" },
+        { "name": "Cirta (Numidian capital)", "lon": 6.61, "lat": 36.36, "role": "minor", "label_anchor": "left" },
+        { "name": "Zama", "lon": 9.45, "lat": 36.30, "role": "battle", "label_anchor": "bottom" }
+      ],
+      "region_labels": [
+        { "text": "AFRICA", "lon": 10.0, "lat": 35.5, "size": "small", "italic": true },
+        { "text": "NUMIDIA", "lon": 6.5, "lat": 35.5, "size": "small", "italic": true }
+      ]
+    },
+    {
+      "id": "146",
+      "label": "146 BCE",
+      "sublabel": "eve of destruction",
+      "caption": "146 BCE — at the moment of destruction. Fifty years of Masinissa's incremental encroachment have further reduced the Carthaginian territory: each Carthaginian appeal to Rome produced a commission that ruled in Masinissa's favor; each ruling shrank the polity further. By the destruction the directly administered territory is substantially the Cap Bon peninsula, the immediate Medjerda lower valley, and the coastal strip — a fraction of the 264 BCE polity. The Emporia of Tripolitania were also transferred to Masinissa during the 150s BCE.",
+      "polygons": [
+        {
+          "name": "Reduced African core (eve of destruction)",
+          "type": "core",
+          "color": "tyrian",
+          "coords": [
+            [9.4, 37.2], [9.9, 37.3], [10.5, 37.35], [11.0, 37.3],
+            [11.25, 37.0], [11.3, 36.6], [11.1, 36.1], [11.0, 35.7],
+            [10.85, 35.3], [10.7, 34.8], [10.4, 34.5], [9.95, 34.9],
+            [9.5, 35.6], [9.3, 36.2], [9.35, 36.7], [9.4, 37.2]
+          ]
+        },
+        {
+          "name": "Lost since 202: western inland and Emporia (to Masinissa)",
+          "type": "lost",
+          "color": "stone",
+          "coords": [
+            [8.7, 37.1], [9.4, 37.2], [9.35, 36.7], [9.3, 36.2],
+            [9.5, 35.6], [9.95, 34.9], [10.4, 34.5], [10.7, 34.8],
+            [10.85, 35.3], [11.0, 35.5], [10.95, 35.0], [11.2, 34.4],
+            [10.9, 33.8], [10.4, 33.6], [9.7, 34.1], [9.0, 34.6],
+            [8.5, 35.2], [8.5, 36.0], [8.6, 36.6], [8.7, 37.1]
+          ]
+        },
+        {
+          "name": "Lost: Emporia (transferred to Masinissa, 150s)",
+          "type": "lost",
+          "color": "stone",
+          "coords": [
+            [11.6, 33.4], [12.5, 33.0], [13.5, 32.9], [14.5, 32.7],
+            [14.6, 32.4], [13.8, 32.5], [12.7, 32.7], [11.7, 33.0],
+            [11.4, 33.2], [11.6, 33.4]
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Carthage", "lon": 10.32, "lat": 36.85, "role": "major", "label_anchor": "right" },
+        { "name": "Utica", "lon": 10.06, "lat": 37.05, "role": "minor", "label_anchor": "left" },
+        { "name": "Hadrumetum", "lon": 10.64, "lat": 35.83, "role": "minor", "label_anchor": "right" },
+        { "name": "Cirta (Numidian capital)", "lon": 6.61, "lat": 36.36, "role": "minor", "label_anchor": "left" }
+      ],
+      "region_labels": [
+        { "text": "(Punic core)", "lon": 10.4, "lat": 36.1, "size": "small", "italic": true },
+        { "text": "NUMIDIA", "lon": 7.5, "lat": 35.0, "size": "small", "italic": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TerritorialExtentMap from '../../components/TerritorialExtentMap.astro';
+import territorialExtentRaw from '../../data/maps/territorial-extent.json';
+const territorialExtent = territorialExtentRaw as any;
+---
+
+<BaseLayout
+  title="Carthaginian territorial extent over time — Qart-Hadasht"
+  description="Five-state historical map of Carthaginian territorial extent at 550, 264, 218, 202, and 146 BCE, with directly-administered, tributary, network, and lost zones distinguished visually."
+>
+  <article class="max-w-5xl mx-auto px-6 py-10">
+    <p class="eyebrow mb-3">Historical atlas</p>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-4 tracking-tight">
+      Carthaginian territorial extent over time
+    </h1>
+    <p class="text-lg text-sand-900 leading-snug mb-8 max-w-3xl">
+      Five states across six centuries of Carthaginian history — from
+      the network hegemony of the mid-6th century BCE through the
+      reduced African polity on the eve of the 146 BCE destruction.
+      The visual encoding distinguishes the nature of Carthaginian
+      relationships with territory at each moment: directly administered
+      hinterland, tributary or allied zone, network sphere of influence,
+      or territory lost since the prior state.
+    </p>
+
+    <TerritorialExtentMap config={territorialExtent} height="600px" />
+
+    <section class="mt-12 max-w-3xl">
+      <h2 class="font-serif text-2xl mb-3 tracking-tight">
+        Why the encoding matters
+      </h2>
+      <p class="text-sand-900 leading-relaxed mb-4">
+        Carthaginian relationships with territory were not uniform across
+        time. At 550 BCE the Carthaginian polity was substantially a
+        network of trading nodes and limited hinterland zones, not a
+        contiguous territorial empire. At 264 BCE the polity at its
+        widest reach combined directly administered African hinterland,
+        tributary zones (the Emporia of Tripolitania, the inland zone
+        beyond Cap Bon), and outright island holdings under direct
+        Carthaginian administration (Sicily west of the Halycos,
+        Sardinia, southern Corsica, the Balearics). At 218 BCE the
+        Mediterranean-island holdings were lost but a substantial second
+        Carthaginian polity had been built in Iberia under the Barcid
+        family, with its own directly-administered core around Carthago
+        Nova and a broader tributary zone extending across most of
+        Iberia south of the Ebro. At 202 BCE the Iberian polity was
+        gone and the African core had been reduced by Treaty-mandated
+        Numidian territorial transfers. At 146 BCE fifty years of
+        further Masinissa encroachment had reduced the polity to
+        substantially the Cap Bon peninsula, the Medjerda lower valley,
+        and the immediate coastal strip.
+      </p>
+      <p class="text-sand-900 leading-relaxed mb-4">
+        A single visual metaphor (filled polygon) for all five dates
+        would flatten these distinctions. The layered encoding here
+        admits them: solid fill for directly-administered hinterland,
+        diagonal hatching for tributary and allied zones, translucent
+        dashed-border fill for the pre-territorial network sphere of
+        the early period, and faint dashed outline for territory lost
+        since the prior state.
+      </p>
+    </section>
+
+    <section class="mt-10 max-w-3xl">
+      <h2 class="font-serif text-2xl mb-3 tracking-tight">
+        What the polygons are and aren't
+      </h2>
+      <p class="text-sand-900 leading-relaxed mb-4">
+        The polygons are scholarly approximations derived by visual
+        reference to the standard reference maps in
+        Aubet's <em>The Phoenicians and the West</em> (2nd ed. 2001),
+        Lancel's <em>Carthage: A History</em> (1995), Hoyos's
+        <em>Hannibal's Dynasty</em> (2003) for the Barcid Iberian
+        state, and MacDonald's <em>Carthage</em> (2015). They are
+        not GIS-precise polity boundaries: the boundary between
+        directly-administered Carthaginian territory and the Numidian
+        and Libyan polities to the south and west was a gradient
+        rather than a line; the boundary between "tributary" and
+        "allied" relationships was administered through specific
+        local arrangements rather than through a uniform
+        administrative apparatus; the network nodes of 550 BCE
+        represent presence and trading relationship rather than
+        bordered territorial control. Treat the polygons as
+        illustrative of the configuration's substantive shape
+        rather than as authoritative boundary documentation.
+      </p>
+      <p class="text-sand-900 leading-relaxed">
+        The dates themselves are conventional pivots in the
+        Carthaginian historical arc: the eve of Alalia and the
+        opening of contested western Mediterranean naval politics
+        (550); the eve of the First Punic War (264); the eve of the
+        Second Punic War (218); the eve of the Treaty of 201 (202);
+        and the eve of the destruction (146). The intervening
+        configurations — the post-Himera 480 retraction, the
+        Agathocles-invasion crisis of 310, the moments between the
+        five chosen pivots — could be added but would multiply the
+        toggle complexity without changing the substantive arc the
+        five states already document.
+      </p>
+    </section>
+
+    <section class="mt-10 max-w-3xl border-t border-sand-300 pt-6">
+      <h2 class="font-serif text-2xl mb-3 tracking-tight">Related</h2>
+      <ul class="text-sand-900 space-y-2 leading-relaxed">
+        <li>
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/themes/phoenician-colonial-network">
+            Phoenician colonial network theme
+          </a>
+          — the network-first framing the 550 BCE state visualizes.
+        </li>
+        <li>
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/narratives/the-barcid-iberian-state">
+            The Barcid Iberian state narrative
+          </a>
+          — what the 218 BCE Iberian polygons represent as substantive
+          state-building.
+        </li>
+        <li>
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/people/masinissa">
+            Masinissa
+          </a>
+          — the agent of the 202-to-146 BCE territorial reduction.
+        </li>
+        <li>
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/editorialTakes/masinissa-strategic-opportunist">
+            Editorial take: Masinissa as strategic opportunist
+          </a>
+          — the site's reading of the fifty-year program.
+        </li>
+        <li>
+          <a class="underline decoration-tyrian-500 underline-offset-2" href="/periods">
+            Period overviews
+          </a>
+          — seven era-level syntheses that walk through the historical
+          arc the map states pivot on.
+        </li>
+      </ul>
+    </section>
+  </article>
+</BaseLayout>
