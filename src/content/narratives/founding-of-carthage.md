@@ -157,10 +157,10 @@ historical origin.
 
 Carthage was also not the only such foundation. The Tyrian
 western expansion of the 9th and 8th centuries BCE was a
-substantively integrated network enterprise — Gadir on the
+substantively integrated network enterprise (Gadir on the
 Atlantic, Lixus on the Moroccan coast, Motya on Sicily, Sulci
 and Tharros on Sardinia, the broader Tunisian coastal foundations,
-others — operating with shared religious-cultic infrastructure
+others) operating with shared religious-cultic infrastructure
 (principally the Melqart cult and the annual Tyrian
 delegations), shared commercial conventions, and shared
 linguistic-inscriptional practice. The

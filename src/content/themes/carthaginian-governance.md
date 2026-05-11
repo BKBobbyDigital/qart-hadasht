@@ -3,7 +3,7 @@ title: Carthaginian governance
 scope: governance
 summary: >
   Carthage had no codified constitution in the modern sense, but ancient
-  observers — Aristotle and Polybius most explicitly — analyzed Carthaginian
+  observers, Aristotle and Polybius most explicitly, analyzed Carthaginian
   governance as a coherent politeia worth comparing to Sparta and Rome. The
   visible institutions are the suffeteship, the Adirim (senate), the Council
   of 104, and the popular assembly; less visible but consequential are the
@@ -44,8 +44,7 @@ treated it: as a recognizable *politeia*, comparable to other states they
 analyzed, with identifiable institutions in identifiable relationships.
 That is genuinely all we can do. There is no surviving Punic-language
 political treatise, no native-tradition account of the structure from the
-inside. Everything below is reconstructed from external observation —
-Aristotle, Polybius, Livy, scattered Justin — checked against the Punic
+inside. Everything below is reconstructed from external observation (Aristotle, Polybius, Livy, scattered Justin) checked against the Punic
 epigraphic record where it exists.
 
 ## Aristotle's praise
@@ -150,8 +149,8 @@ centuries.
 
 The single best-documented piece of Carthaginian constitutional
 politics is Hannibal's reforms during his suffeteship of 196 BCE,
-about a generation after Zama. The Council of 104 had become — per
-Livy 33.46-47 — a self-perpetuating oligarchy whose members held
+about a generation after Zama. The Council of 104 had become, per
+Livy 33.46-47, a self-perpetuating oligarchy whose members held
 office for life and whose judgments operated essentially without
 external check. Hannibal pushed legislation through the popular
 assembly limiting members' tenure to one year and requiring

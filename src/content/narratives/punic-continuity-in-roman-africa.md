@@ -38,8 +38,8 @@ referenced_claims: []
 last_revised: "2026-05-10"
 ---
 
-A reader new to Carthage often arrives believing — because the
-literary record has so consistently said so — that the city was
+A reader new to Carthage often arrives believing, because the
+literary record has so consistently said so, that the city was
 destroyed in 146 BCE and that was the end of it. The literary
 record's framing reads naturally as a closure: a war won, a
 city razed, a population enslaved, a name passed into Roman
@@ -51,7 +51,7 @@ The framing is residual hostile-tradition closure narrative. The
 surviving evidence does not support it. Punic identity, language,
 religion, and onomastic forms persisted across the Numidian
 period, through the Roman imperial administration of North
-Africa, into the late Roman period, and — in some senses — into
+Africa, into the late Roman period, and, in some senses, into
 the early Islamic conquest era. The persistence is not a
 residual incompleteness of Romanization; it is a substantive
 historical fact attested directly in the Punic-side evidence
@@ -84,9 +84,9 @@ survival is one part.
 ## The Punic-language inscriptional record
 
 The single most directly Punic-side evidence is the neo-Punic
-inscriptional record. The late Punic script — derived from the
+inscriptional record. The late Punic script (derived from the
 classical Punic alphabet, used continuously in North Africa
-across the Numidian and early Roman periods — produced a
+across the Numidian and early Roman periods) produced a
 substantial inscriptional corpus that runs through at least the
 3rd century CE.
 
@@ -153,8 +153,8 @@ continue the Punic *molk*-dedication formula in Latin
 translation. The
 [Baal Hammon page](/deities/baal-hammon)
 documents the continuation; what is striking from the Punic
-side is that the formal vocabulary of the dedications — the
-*votum solvit libens merito* and adjacent Latin phrases — runs
+side is that the formal vocabulary of the dedications, the
+*votum solvit libens merito* and adjacent Latin phrases, runs
 parallel to the formulae the surviving Punic-language stelae
 preserve for the same deity in the pre-146 period. The
 dedicators' descendants are addressing the same god in the
@@ -184,10 +184,9 @@ Before the Roman-period evidence, the Numidian kingdom under
 [Masinissa](/people/masinissa) and his successors actively
 preserved and elaborated Punic religious and architectural
 forms. The
-[Dougga Libyco-Punic Mausoleum](/artifacts/dougga-libyco-punic-mausoleum)
-— a 2nd-century BCE monumental tomb in the Punic-Berber
+[Dougga Libyco-Punic Mausoleum](/artifacts/dougga-libyco-punic-mausoleum), a 2nd-century BCE monumental tomb in the Punic-Berber
 cultural sphere with bilingual Libyco-Punic inscriptional
-material — documents the Numidian elite's active continuation
+material, documents the Numidian elite's active continuation
 of Punic-cultural forms after 146 BCE. The mausoleum is not
 "Roman-influenced" architecture and is not "post-Carthaginian"
 in the closure sense; it is Numidian-period Punic-cultural
@@ -252,8 +251,8 @@ rooted in North African Carthaginian-cultural environments. The
 site treats them as Carthaginian-cultural voices in Latin form
 rather than as Roman observers of Carthaginian survivals. Their
 Latin literary framing filters their Punic-cultural position but
-does not eliminate it, and at specific moments — Apuleius's
-*Apologia* and Augustine's *Letter 17* — the position breaks
+does not eliminate it, and at specific moments, Apuleius's
+*Apologia* and Augustine's *Letter 17*, the position breaks
 through and is directly visible.
 
 **Apuleius's *Apologia*** (c. 158 CE) is the defense Apuleius
@@ -333,9 +332,9 @@ cultural population of mid-3rd-century Africa.
 
 The Harvester's voice is the closest we get in any surviving
 source to a non-elite Punic-background African voice in late
-antiquity, and the substance — agricultural labor, regional
+antiquity, and the substance (agricultural labor, regional
 labor migration, slow social mobility through estate
-agriculture — is exactly the world that
+agriculture) is exactly the world that
 [Mago's treatise](/sources/mago-treatise) had described seven
 centuries earlier. The continuity of agricultural-social
 forms from Punic Carthage through Roman Africa is visible in
@@ -348,9 +347,9 @@ forward did not erase Punic-cultural identity; in some
 respects it deepened the fault lines between Romanized urban
 Latin-speaking Christian populations and rural Punic-Berber-
 speaking Christian populations. The Donatist controversy of
-the 4th century — the schism between the rigorist Donatist
+the 4th century, the schism between the rigorist Donatist
 church (rural, North African, partly Punic-Berber) and the
-catholic-imperial Latin urban church — has been read by
+catholic-imperial Latin urban church, has been read by
 [Bénabou](/sources/benabou-resistance-1976) and others as in
 part a Punic-Berber rural cultural assertion against Latin-
 urban-imperial Christian orthodoxy. The reading is contested
@@ -404,10 +403,10 @@ the Berber-Arabic synthesis of medieval North Africa; or it
 may have ceased earlier than any of these. The surviving
 evidence does not establish the answer.
 
-What the surviving evidence does establish — directly,
+What the surviving evidence does establish (directly,
 through neo-Punic inscriptions and onomastic persistence and
 religious continuity and the spoken-Punic testimony of
-Augustine — is that 146 BCE is not the date Punic culture
+Augustine) is that 146 BCE is not the date Punic culture
 ended. The closure framing is residual Greco-Roman
 historiography. The Punic-side evidence consistently runs
 against it.
@@ -443,8 +442,8 @@ European Renaissance. The transmission is not the only line of
 continuity but it is the longest single one and the one whose
 chain is best documented. Whatever else 146 BCE ended,
 Carthaginian intellectual influence on the western
-Mediterranean — and through al-Andalus and the Arabic
-agricultural tradition on the wider medieval world — was
+Mediterranean, and through al-Andalus and the Arabic
+agricultural tradition on the wider medieval world, was
 not part of it.
 
 This is what the site means by closing one chapter and

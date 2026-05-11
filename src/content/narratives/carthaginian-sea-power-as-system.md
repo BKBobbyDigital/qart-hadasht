@@ -55,8 +55,7 @@ basin was the military harbor: an artificial lagoon ringed by
 ship-sheds, with a central island that housed the naval
 administration and (per Appian's late description, 8.96) provided
 elevated observation positions over the basin and its approaches.
-The ship-sheds — wedge-shaped roofed bays opening onto the basin
-— could accommodate approximately 170 warships under cover, with
+The ship-sheds, wedge-shaped roofed bays opening onto the basin, could accommodate approximately 170 warships under cover, with
 additional capacity at the central island. The whole installation
 was screened from external view by a perimeter wall: an observer
 on the city side could not see what was in the basin, an observer
@@ -79,9 +78,8 @@ The cothon's dating is contested in the archaeological literature.
 The visible installation is substantially a late Punic structure
 (probably 3rd or 2nd century BCE in its final form), and may
 postdate the loss of the First Punic War fleet. An earlier
-Carthaginian naval harbor must have existed — the war fleet of the
-late 4th and early 3rd centuries BCE was not housed in nothing —
-but its location and configuration are less securely identified.
+Carthaginian naval harbor must have existed, the war fleet of the
+late 4th and early 3rd centuries BCE was not housed in nothing, but its location and configuration are less securely identified.
 The [cothon place page](/places/cothon) treats the installation in
 its own right.
 
@@ -200,9 +198,9 @@ separated civilian from military command (treated under the
 [suffeteship arc narrative](/narratives/the-suffeteship-arc)),
 which implies that naval commanders, like land commanders,
 were appointed by the senate and operated outside the
-suffeteship's civic office. The structural pattern — civilian
+suffeteship's civic office. The structural pattern, civilian
 office holding civic authority; separately appointed military
-and naval commanders holding operational authority — is one of
+and naval commanders holding operational authority, is one of
 the substantive features of the Carthaginian constitution that
 distinguishes it from the Roman magistral system, where
 consuls held combined civic and military authority.
@@ -215,10 +213,10 @@ quinqueremes requires approximately 100,000 oarsmen alone, in
 addition to marines. The Carthaginian citizen body was not
 nearly large enough to provide this manpower from its own
 population. The literary tradition's gestures toward
-Carthaginian crews — mostly drawn from the broader Punic
+Carthaginian crews (mostly drawn from the broader Punic
 population of the African hinterland, plus subject and allied
 contingents from the Libyo-Phoenician coastal cities, plus
-hired specialists — are plausible but under-evidenced.
+hired specialists) are plausible but under-evidenced.
 
 The structural implication is that Carthaginian naval power
 depended on the same broader-Punic and dependent-population
@@ -277,9 +275,9 @@ Carthaginian system, learned from a captured Carthaginian ship
 and reverse-engineered into Roman production at scale (Polybius
 1.20). The Carthaginian system was the prototype; the Roman
 system was the imitation. The asymmetry of the surviving
-historical record — Roman naval achievement extensively
+historical record (Roman naval achievement extensively
 treated, Carthaginian naval achievement mostly subsumed under
-"commercial wealth" — substantively understates what the
+"commercial wealth") substantively understates what the
 Carthaginian apparatus was and what it produced.
 
 The site's treatment of Carthaginian seafaring under the

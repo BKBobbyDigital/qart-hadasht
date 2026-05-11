@@ -152,8 +152,8 @@ Punic shipwright's marks on the timbers, and the construction
 evidence the find preserves constitute the principal documentation
 for Punic naval architecture.
 
-The Egadi Islands Bronze Warship Rams — twenty-seven recovered
-since 2010 from the Battle of the Aegates Islands seabed — extend
+The Egadi Islands Bronze Warship Rams, twenty-seven recovered
+since 2010 from the Battle of the Aegates Islands seabed, extend
 the documentation dramatically. Some rams carry Punic inscriptions
 invoking Baal; others bear Latin inscriptions naming Roman
 construction officials. V-shaped impact scratches across many
@@ -181,9 +181,9 @@ Carthage's commercial sphere.
 
 ## Naval institutional structure
 
-The institutional dimension of Carthaginian sea power — the cothon
+The institutional dimension of Carthaginian sea power (the cothon
 basin infrastructure, the standardized shipbuilding apparatus, the
-mass-mobilization capacity, the naval command structure — is
+mass-mobilization capacity, the naval command structure) is
 treated as its own subject under the
 [Carthaginian sea power as institutional system narrative](/narratives/carthaginian-sea-power-as-system).
 The distinction matters: the commercial fleet was a private

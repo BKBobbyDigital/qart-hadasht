@@ -10,8 +10,8 @@ thesis: >
   contested rule, the audacious African invasion that nearly
   reshaped the Mediterranean, and a death that the surviving
   tradition preserved with characteristic moralizing about the
-  consequences of betrayal. The African Invasion — covered
-  separately in detail as an event — is the central episode
+  consequences of betrayal. The African Invasion, covered
+  separately in detail as an event, is the central episode
   of his career; the broader life is preserved with enough
   texture to recover a figure who combined genuine
   operational imagination with morally distinctive conduct
@@ -80,9 +80,9 @@ were dissolved; Agathocles was acclaimed *strategos
 autokrator* (commander with full powers) by the surviving
 democratic faction.
 
-The coup's substance — violent, illegal by any prior
+The coup's substance (violent, illegal by any prior
 constitutional standard, executed against political
-opponents convened under safe-conduct — established the
+opponents convened under safe-conduct) established the
 moral pattern that would persist through the rest of
 Agathocles's career.
 
@@ -185,8 +185,8 @@ Three observations.
 
 **Agathocles is the principal precedent for Hannibal's
 strategic imagination.** The African invasion's strategic
-concept — bringing the war to the Carthaginian home territory
-to relieve pressure elsewhere — would be repeated by Scipio
+concept, bringing the war to the Carthaginian home territory
+to relieve pressure elsewhere, would be repeated by Scipio
 Africanus 105 years later in the operation that ended the
 Second Punic War. Whether Scipio's African strategy in 204
 BCE was directly shaped by knowledge of Agathocles's precedent

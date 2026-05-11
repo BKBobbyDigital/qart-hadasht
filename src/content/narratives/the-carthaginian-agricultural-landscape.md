@@ -103,8 +103,7 @@ excavated deposits), archaeozoology (animal-bone evidence),
 and the installation record (oil presses, wine vats,
 storage facilities).
 
-**Cereals** — wheat (predominantly emmer and durum) and barley
-— are documented archaeobotanically across the Carthaginian
+**Cereals**, wheat (predominantly emmer and durum) and barley, are documented archaeobotanically across the Carthaginian
 heartland. Cereal cultivation was the agricultural foundation,
 and cereal surplus from the Medjerda valley and coastal plain
 was the principal Carthaginian export commodity in the
@@ -112,8 +111,8 @@ commercial network.
 
 **Olives** were a Carthaginian specialty. The peninsula and
 inland Tunisia preserve large numbers of Carthaginian-period
-olive-press installations — substantial stone-cut press beds
-and storage facilities — that document oil production at
+olive-press installations, substantial stone-cut press beds
+and storage facilities, that document oil production at
 export scale. The Punic and Libyo-Phoenician coastal cities
 appear to have specialized in oil export, and the Roman-period
 documentation of African olive oil as a major Mediterranean
@@ -126,10 +125,9 @@ Mediterranean carrying Carthaginian wine. The Carthaginian wine
 industry was less specialized than the olive industry but
 substantial.
 
-**Tree-crops and orchard fruit** — pomegranates (whose
+**Tree-crops and orchard fruit** (pomegranates (whose
 botanical name *Punica granatum* preserves the Carthaginian
-association), figs, almonds, dates from the southern margin —
-are documented in archaeobotanical and literary references. The
+association), figs, almonds, dates from the southern margin) are documented in archaeobotanical and literary references. The
 pomegranate's prominence in Carthaginian religious iconography
 (pomegranate motifs on votive offerings and tomb goods)
 overlaps with its prominence in the agricultural landscape.
@@ -138,7 +136,7 @@ overlaps with its prominence in the agricultural landscape.
 range: chickpeas, lentils, broad beans, the standard
 Mediterranean garden produce.
 
-**Livestock** — cattle, sheep, goats, and horses — is documented
+**Livestock** (cattle, sheep, goats, and horses) is documented
 archaeozoologically. The horse-breeding tradition that
 underwrote Numidian cavalry in the Punic Wars operated partly
 within Carthaginian territory and partly in the Numidian
@@ -283,8 +281,8 @@ BCE the Carthaginian recovery had restored fiscal capacity to
 levels comparable to the pre-Zama period.
 
 Cato's famous demonstration of the Carthaginian fig in the
-Roman senate — fresh from Carthage, ostensibly proof of
-Carthage's threatening proximity to Rome — is the iconic
+Roman senate (fresh from Carthage, ostensibly proof of
+Carthage's threatening proximity to Rome) is the iconic
 literary trace of this agricultural recovery. The fig was the
 political object, but the substantive point was the
 agricultural-economic vitality the fig represented. Cato's
@@ -332,10 +330,10 @@ unfree labor; the Libyan peasantry's grievance was
 politically consequential at moments) substantially
 exhausts what the evidence base supports.
 
-The peasant calendar of daily life — what the agricultural
+The peasant calendar of daily life, what the agricultural
 year looked like from the perspective of the rural Libyan
 or Punic-rural worker rather than the aristocratic estate
-owner — is essentially irrecoverable from the surviving
+owner, is essentially irrecoverable from the surviving
 record. The asymmetry is structural: the literary tradition
 preserves the aristocratic perspective; the inscriptional
 record preserves the votive-religious perspective; the

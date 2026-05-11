@@ -90,10 +90,10 @@ outcome as personal failure.
 
 Hamilcar returned from Sicily to a Carthage on the brink of
 existential crisis. The Mercenary War that erupted in late
-241 BCE — when the multi-ethnic mercenary contingents
+241 BCE, when the multi-ethnic mercenary contingents
 returned from Sicily revolted over back pay and joined a
 broader Libyan-African uprising against Carthaginian tribute
-authority — was the most dangerous internal conflict the
+authority, was the most dangerous internal conflict the
 Carthaginian state would face before the Third Punic War.
 
 Initial Carthaginian command under Hanno the Great produced
@@ -116,9 +116,9 @@ the war's command transfer initiated would continue for
 generations through the Barcid family.
 
 The war is also the period during which the structural
-injury to the Carthaginian state by Rome — the 238 BCE
+injury to the Carthaginian state by Rome (the 238 BCE
 seizure of Sardinia and the additional 1,200-talent indemnity
-imposed during Carthaginian distraction — was most severe. By
+imposed during Carthaginian distraction) was most severe. By
 the time Hamilcar ended the Mercenary War, the post-Lutatius
 settlement had been transformed by Roman opportunism into the
 configuration that the Barcid project would respond to.
@@ -129,8 +129,8 @@ Hamilcar's Iberian command began in 237 BCE with his
 departure from Carthage at the head of an army that included
 his nine-year-old son Hannibal. The famous oath of eternal
 enmity Hannibal allegedly swore at his father's altar before
-the departure — preserved in Polybius (3.11) on Hannibal's
-own subsequent telling to Antiochus III decades later — is
+the departure, preserved in Polybius (3.11) on Hannibal's
+own subsequent telling to Antiochus III decades later, is
 treated separately on this site as an open question; whether
 the oath occurred in the form preserved is contested, but the
 broader fact of the Barcid family's Iberian project and its

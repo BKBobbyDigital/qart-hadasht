@@ -73,8 +73,8 @@ treats the suffeteship's specific arc.
 The Carthaginian institutional record opens with the early
 monarchical period. The surviving Greek tradition (principally
 Justin and the Justin-derived sources) preserves a list of early
-Carthaginian *basileis* — kings in the substantively monarchic
-rather than later-suffete sense — that includes [Malchus](/people/malchus)
+Carthaginian *basileis*, kings in the substantively monarchic
+rather than later-suffete sense, that includes [Malchus](/people/malchus)
 of the late 6th century BCE and the founder of the Magonid
 dynasty,
 [Mago I](/people/mago-i)
@@ -150,8 +150,8 @@ something he found worth analyzing on its own terms.
 ## The suffeteship-military-command separation
 
 One of the structurally distinctive features of the developed
-Carthaginian suffeteship — a feature unusual in the ancient
-Mediterranean — is its separation from military command. By the
+Carthaginian suffeteship, a feature unusual in the ancient
+Mediterranean, is its separation from military command. By the
 4th-3rd centuries BCE the civil suffeteship and the military
 field-command office (*rb mḥnt*, "commander of the camp," which
 Greek sources translate as *strategos*) had become substantively
@@ -167,19 +167,18 @@ royal offices combined both. The Carthaginian configuration
 separated them: a man could hold the suffeteship without ever
 commanding troops, and could command troops without holding the
 suffeteship. The major Carthaginian military commanders of the
-3rd century BCE — [Hamilcar Barca](/people/hamilcar-barca), the
-Barcid brothers, [Hasdrubal Gisco](/people/hasdrubal-gisco) —
-held military command as a distinct office from the civil
+3rd century BCE ([Hamilcar Barca](/people/hamilcar-barca), the
+Barcid brothers, [Hasdrubal Gisco](/people/hasdrubal-gisco)) held military command as a distinct office from the civil
 suffeteship. [Hannibal](/people/hannibal-barca) himself
 substantively returned to Carthage in 196 BCE and was elected
 to the suffeteship as a civil office distinct from his prior
 military career — the structural pattern of the separation
 substantively visible in his individual case.
 
-The separation was not absolute — early-period Carthaginian
+The separation was not absolute (early-period Carthaginian
 suffetes appear to have held some military authority, and the
 late-Republican period evidence suggests overlap in some
-specific configurations — but the structural pattern across the
+specific configurations) but the structural pattern across the
 office's principal documented period was substantive separation.
 The reasons the Carthaginian constitution developed this
 separation are not directly attested in the surviving sources;
@@ -232,8 +231,8 @@ the constitutional configuration maintained is visible in his
 case with unusual clarity.
 
 **The political reaction.** The displaced aristocratic faction
-responded by denouncing Hannibal to Rome — alleging conspiracy
-with Antiochus III against Roman interests — and producing the
+responded by denouncing Hannibal to Rome, alleging conspiracy
+with Antiochus III against Roman interests, and producing the
 Roman pressure that forced Hannibal's flight from Carthage in
 late 195 BCE. The episode (treated under the editorial take
 [on the 195 denunciation](/editorialTakes/hannibal-195-denunciation-as-fabrication))
@@ -245,9 +244,9 @@ authority did not.
 
 ## The destruction and the end of the metropolitan suffeteship
 
-The metropolitan Carthaginian suffeteship — the office at
+The metropolitan Carthaginian suffeteship (the office at
 Carthage itself, in its substantively continuous institutional
-form across approximately four centuries — ended with the
+form across approximately four centuries) ended with the
 destruction of Carthage in 146 BCE. The city's institutional
 life ended with the polity; the office's metropolitan
 attestation closes with the destruction. The site does not
@@ -266,8 +265,8 @@ sites:
   inscriptional record (predominantly neo-Punic in the early
   imperial period, then bilingual neo-Punic and Latin) preserves
   named suffetes by office across substantial periods.
-- **[Sardinian Punic sites](/places/sardinia)** — Sulci,
-  Tharros, Nora — preserve the office in their inscriptional
+- **[Sardinian Punic sites](/places/sardinia)** (Sulci,
+  Tharros, Nora) preserve the office in their inscriptional
   records into the early imperial period.
 - **Mactar** in modern Tunisia preserves suffete attestations
   across late Punic and early Roman periods.
@@ -310,9 +309,9 @@ Hannibal's 196 BCE reform moment, to the destruction, and to
 the Roman-period continuation in the former Punic-cultural
 zone is firmly attested across multiple lines of evidence
 (literary, inscriptional, archaeological). The office's
-distinctive features — its mixed-constitution character, its
+distinctive features (its mixed-constitution character, its
 separation from military command, its institutional continuity
-across the Phoenician-Punic colonial network — are
+across the Phoenician-Punic colonial network) are
 substantively Phoenician achievements rather than developmental
 stages on the way to other models.
 

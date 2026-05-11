@@ -166,8 +166,8 @@ how it actually functioned at a transactional level.
 
 Carthaginian fiscal and commercial activity survives most directly
 in the coinage. The Carthage Tetradrachm series of the late 4th
-and early 3rd centuries BCE — the Tanit-head / horse-and-palm
-silver issues — was the principal pre-Barcid Carthaginian state
+and early 3rd centuries BCE, the Tanit-head / horse-and-palm
+silver issues, was the principal pre-Barcid Carthaginian state
 coinage and the medium through which late-classical and early-
 Hellenistic Carthage paid its mercenaries and transacted its
 overseas commerce. The Barcid Iberian Coinage that succeeded it
@@ -183,8 +183,8 @@ Mediterranean elite consumption), the Tharros Gold Earrings
 (7th-6th century BCE Sardinian colonial Phoenician jewelry with
 characteristic granulation), and the Murex Shells and Tyrian
 Purple industry (the foundational Phoenician commercial
-activity). The Punic Glassware corpus — small core-formed
-perfume and cosmetic vessels — represents the Punic 5th-3rd
+activity). The Punic Glassware corpus, small core-formed
+perfume and cosmetic vessels, represents the Punic 5th-3rd
 century BCE luxury-craft production that entered the broader
 Mediterranean commerce network as recognized commodities.
 

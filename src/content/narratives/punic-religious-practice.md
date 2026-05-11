@@ -4,10 +4,9 @@ scope: theme
 thesis: >
   The standard treatment of Carthaginian religion catalogs deities,
   attends to the Tophet question, and stops. What the religion
-  looked like as a lived practice — the rhythms of the festival
+  looked like as a lived practice (the rhythms of the festival
   calendar, the architecture of pilgrimage, the conduct of
-  household ritual, the routine work of the priestly hierarchy —
-  is harder to recover but is not absent from the surviving
+  household ritual, the routine work of the priestly hierarchy) is harder to recover but is not absent from the surviving
   record. The Marseille and Carthage Tariff inscriptions preserve
   the cult-fee schedules of operating sanctuaries; the El Hofra
   stele cache preserves the votive language of operating dedicants;
@@ -73,9 +72,9 @@ account, which substantively confirms how seriously the
 delegation was taken.
 
 **The Melqart resurrection festival (*egersis*).** The
-metropolitan Tyrian *egersis* — the annual festival celebrating
+metropolitan Tyrian *egersis* (the annual festival celebrating
 Melqart's death and resurrection, with substantial ritual
-processions and dedications — is attested at Tyre with some
+processions and dedications) is attested at Tyre with some
 specificity and was presumably continued at Carthage on a
 similar pattern. The festival's date in the Phoenician
 calendar (probably February-March, corresponding to the spring
@@ -94,9 +93,9 @@ which implies that vows were fulfilled at festival moments
 rather than continuously through the year.
 
 **The Adonis lamentation cycle.** The metropolitan Phoenician
-Adonis cult — annual lamentation for the death of the
+Adonis cult (annual lamentation for the death of the
 agricultural-fertility consort of Astarte, followed by
-resurrection celebration — is attested at Phoenician colonies
+resurrection celebration) is attested at Phoenician colonies
 across the Mediterranean and was almost certainly continued at
 Carthage in some form. The cycle's emotional register
 (public mourning rituals, with women's participation
@@ -189,9 +188,9 @@ deity, and (where applicable) the kinship of the dedicant to
 preceding generations.
 
 The vow formula's standardization across centuries is itself
-substantive. The *mlk* dedication formula — present on
+substantive. The *mlk* dedication formula, present on
 inscriptions from the late 8th century BCE through the 2nd
-century BCE — preserves the same basic ritual logic across more
+century BCE, preserves the same basic ritual logic across more
 than six hundred years of continuous practice. The dedicant
 vowed; the deity granted; the dedicant fulfilled; the stele
 recorded. The practice was deeply institutionalized, with
@@ -246,8 +245,7 @@ operated at Carthage and was a principal locus of civic
 religious activity.
 
 **Diasporic Punic sanctuaries.** Beyond Carthage proper, Punic
-sanctuaries operated across the western Mediterranean network
-— at Motya, Tharros, Sulci, Caralis, Lixus, Gades — each with
+sanctuaries operated across the western Mediterranean network (at Motya, Tharros, Sulci, Caralis, Lixus, Gades) each with
 its own physical installation, priestly administration, and
 ritual practice. The continuity of the Punic sanctuary
 network into the Numidian and Roman periods is one of the
@@ -267,8 +265,8 @@ entrance, betyls (sacred stones) deposited in domestic
 contexts, votive figurines in domestic shrines.
 
 **The Phoenician/Punic grinning mask tradition.** The
-distinctive apotropaic masks — small terracotta faces with
-exaggerated grinning expressions — are attested in tombs and
+distinctive apotropaic masks, small terracotta faces with
+exaggerated grinning expressions, are attested in tombs and
 in domestic contexts across the Phoenician-Punic world. The
 masks were almost certainly protective objects: deposits in
 domestic spaces and graves were intended to ward off harm. The
@@ -278,7 +276,7 @@ treats the corpus.
 **Glass face beads.** Small carved or molded glass faces, often
 brightly colored, were produced at Punic glassworking centers
 and circulated widely as personal ornaments. The beads served
-apotropaic functions — protection against the evil eye — and
+apotropaic functions, protection against the evil eye, and
 appear in domestic, mortuary, and personal-ornament contexts.
 
 **Domestic shrines and niches.** Kerkouane preserves the
@@ -305,8 +303,8 @@ religious practice that is hardest to recover from the
 literary record (which weighted toward state religion and toward
 the Tophet controversy) and that the archaeological record
 preserves most fully. The substantive observation is that
-Punic religion operated at three nested scales — civic-state,
-sanctuary, and household — with each scale having its own
+Punic religion operated at three nested scales (civic-state,
+sanctuary, and household) with each scale having its own
 infrastructure, its own ritual conventions, and its own
 material culture.
 
@@ -341,10 +339,9 @@ state by half a millennium.
 
 ## What we cannot recover
 
-The internal religious experience of Carthaginian worshippers —
-what the vow felt like, what the festival felt like, what
+The internal religious experience of Carthaginian worshippers (what the vow felt like, what the festival felt like, what
 participation in the civic religion meant for the participant's
-emotional and spiritual life — is largely irrecoverable. The
+emotional and spiritual life) is largely irrecoverable. The
 inscriptions preserve the institutional shell of the religion;
 they do not preserve the felt content. The hostile Greco-Roman
 literary tradition projects feelings onto Carthaginian
@@ -353,7 +350,7 @@ projections rather than documentation. The honest position is
 that the felt content of Punic religious life is not
 recoverable, and what survives is the institutional skeleton.
 
-The systematic theology — if there was one — does not survive.
+The systematic theology, if there was one, does not survive.
 Carthaginian religion left no equivalent of the Greek
 mythological tradition, no canonical scripture, no preserved
 prayer book. Whether the religion had a substantive theological

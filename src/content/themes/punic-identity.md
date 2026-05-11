@@ -152,7 +152,7 @@ Phoenician-cultural diaspora. The Cippi of Melqart from Malta
 Bilingual (Phoenician-Cypriot syllabary, 4th century BCE
 Cyprus), and the Libyco-Punic Mausoleum of Dougga (Numidian,
 2nd century BCE) form a corpus that documents the same
-identity-marker — Phoenician script and language — operating
+identity-marker, Phoenician script and language, operating
 across centuries and across the length of the eastern and
 western Mediterranean.
 
@@ -164,8 +164,8 @@ Punic-cultural diaspora developed its own identity. The Murex
 Shells and Tyrian Purple industry is the etymological source
 of "Phoenician" itself.
 
-For pre-Punic Phoenician-Iberian elite cultural exchange — the
-substrate the Barcid project would later draw on — the Lady of
+For pre-Punic Phoenician-Iberian elite cultural exchange, the
+substrate the Barcid project would later draw on, the Lady of
 Galera (7th century BCE Phoenician import in an Iberian tomb),
 the Pozo Moro Funerary Monument (Phoenician-derived Iberian
 funerary architecture), and the Cancho Roano Sanctuary

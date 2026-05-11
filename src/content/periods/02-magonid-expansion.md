@@ -57,9 +57,8 @@ last_revised: "2026-05-10"
 The century and a half from Mago I's emergence around 550 BCE through
 the destruction of Himilco's army at Syracuse in 396 is the period in
 which Carthage became the western Mediterranean's dominant power and
-discovered the limits of that dominance. The Magonid dynasty — Mago I,
-his sons, his grandsons, and their successors over five generations —
-ran the city as a hereditary military aristocracy operating within and
+discovered the limits of that dominance. The Magonid dynasty (Mago I,
+his sons, his grandsons, and their successors over five generations) ran the city as a hereditary military aristocracy operating within and
 through the formal Carthaginian institutions. They were the figures
 through whom Carthage fought its wars, negotiated its treaties,
 conducted its colonization, and projected its power. On Justin's reading (19.2), the dynasty's accumulating concentration
@@ -89,9 +88,9 @@ proceeded to use it.
 
 The case for caution about Justin's narrative is reinforced by the
 [Malchus episode](/events/malchus-coup-and-execution). Justin
-preserves a dramatic story — the general Malchus campaigning successfully
+preserves a dramatic story (the general Malchus campaigning successfully
 in Sicily, defeated in Sardinia, exiled by the senate, marching his army
-back on Carthage, briefly ruling, executed in turn — that may reflect a
+back on Carthage, briefly ruling, executed in turn) that may reflect a
 real sixth-century political crisis or may be Hellenistic literary
 elaboration. The structural fact that sixth-century Carthaginian
 governance included episodes of severe senatorial-military conflict
@@ -106,9 +105,9 @@ Carthaginian-Etruscan fleet of 120 ships engaged 60 Phocaean Greek ships
 off the eastern coast of Corsica, where the Phocaean colony at Alalia
 had become a base for piracy and trade across a corridor both Carthage
 and the Etruscan city-states regarded as their own. The engagement was
-a tactical Phocaean victory at prohibitive strategic cost — Herodotus's
+a tactical Phocaean victory at prohibitive strategic cost (Herodotus's
 "Cadmean victory," the origin of the modern English idiom "Pyrrhic
-victory" — and the Phocaean withdrawal that followed eliminated the
+victory") and the Phocaean withdrawal that followed eliminated the
 principal Greek presence in the western Mediterranean north of
 Massalia. Carthaginian-Etruscan control of the western seas was locked
 in for the next 250 years.
@@ -162,9 +161,9 @@ nearly two-thirds of the island.
 
 The reaction at Syracuse was the rise of [Dionysius I](/people/dionysius-i)
 and the [Wars of Dionysius](/events/wars-of-dionysius) of 398-367 BCE.
-Dionysius's [siege of Motya](/events/siege-of-motya-397) in 397 — the
+Dionysius's [siege of Motya](/events/siege-of-motya-397) in 397, the
 Phoenician colonial city on Sicily's western coast that had served as
-the Carthaginian operational base — destroyed one of the principal
+the Carthaginian operational base, destroyed one of the principal
 surviving Phoenician colonial sites and forced the Carthaginian counter-
 offensive of 396. The Motya destruction sealed the city's Punic-period
 material record in a way no other major Phoenician colonial site
@@ -213,13 +212,10 @@ authority was about to be constrained by the post-396 reaction — the
 Council of 104 explicitly designed to prevent another Magonid family
 overreach. The Sicilian theatre, despite the catastrophe, would remain
 the principal Carthaginian external concern for the next century and a
-half. The Carthaginian-Sicilian wars of the fourth century — the
-Crimisus campaign, the Agathoclean crisis, the Pyrrhic intervention —
-would be conducted within structural conditions the Magonid period had
+half. The Carthaginian-Sicilian wars of the fourth century (the
+Crimisus campaign, the Agathoclean crisis, the Pyrrhic intervention) would be conducted within structural conditions the Magonid period had
 established.
 
-What the Magonids had built — a Mediterranean power capable of
-sustained external operations across multiple theatres simultaneously —
-survived their dynasty's constraint. What they had reached the limit of
-— the conquest of Greek Sicily — would remain the limit until Roman
+What the Magonids had built, a Mediterranean power capable of
+sustained external operations across multiple theatres simultaneously, survived their dynasty's constraint. What they had reached the limit of, the conquest of Greek Sicily, would remain the limit until Roman
 intervention transformed the strategic geography entirely.

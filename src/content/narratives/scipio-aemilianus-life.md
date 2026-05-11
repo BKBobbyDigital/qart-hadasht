@@ -37,10 +37,9 @@ Aemilii Paulli were among the most distinguished Roman
 aristocratic families; the cognomen and the political-
 cultural prestige attached to the family were substantial.
 
-His adoption into the Cornelii Scipiones around 168 BCE — at
+His adoption into the Cornelii Scipiones around 168 BCE (at
 approximately age seventeen, by Publius Cornelius Scipio (the
-elder son of Scipio Africanus, who had no sons of his own) —
-made him heir to the second great Roman aristocratic family
+elder son of Scipio Africanus, who had no sons of his own)) made him heir to the second great Roman aristocratic family
 of the period. The double inheritance was unusual: he
 preserved the Aemilius Paullus connection (his biological
 father remained a substantial political figure until his
@@ -165,9 +164,9 @@ The passage as preserved: Scipio, observing the burning city,
 wept openly. He recited the lines from *Iliad* VI in which
 Hector foretells the fall of Troy ("there will come a day
 when sacred Troy shall perish, and Priam, and the people of
-Priam of the strong ash spear"). He turned to Polybius — the
+Priam of the strong ash spear"). He turned to Polybius, the
 preserved passage explicitly names Polybius as the
-addressee — and remarked, in private, that the same fate
+addressee, and remarked, in private, that the same fate
 would someday come to Rome.
 
 The episode is one of the most directly attested moments of
@@ -213,8 +212,8 @@ the city was systematically destroyed.
 
 The parallel to Carthage was preserved in the surviving
 tradition with explicit attention. Scipio Aemilianus is the
-Roman commander who destroyed two cities — Carthage and
-Numantia — in two great-state-ending acts of operational
+Roman commander who destroyed two cities, Carthage and
+Numantia, in two great-state-ending acts of operational
 violence twelve years apart. The pattern was substantial
 enough to produce its own moral framing in the Roman
 literary tradition, and the Polybius-Aemilianus connection
@@ -234,10 +233,10 @@ faction opposed to the reforms.
 
 The political configuration produced Scipio's apparent
 movement away from the Gracchan position through the late
-130s BCE. His preserved positions in this period — favoring
+130s BCE. His preserved positions in this period (favoring
 the Italian-allied claims that the Gracchan land reforms
 had complicated, opposing certain specific Gracchan
-provisions on procedural grounds — were sufficiently
+provisions on procedural grounds) were sufficiently
 contested that political opposition developed against him on
 both sides.
 
@@ -253,10 +252,10 @@ was never definitively explained.
 
 The political consequences of his death extended through the
 late Roman Republic. The political-cultural alignment Scipio
-had represented — Hellenizing aristocratic moderation, the
+had represented (Hellenizing aristocratic moderation, the
 Polybian framework for understanding Roman power, the
 operational competence of the late-mid-second-century
-generation — substantially weakened with his death. The
+generation) substantially weakened with his death. The
 Gracchan crisis intensified through the following decade;
 the political configuration that produced the late Republican
 violence developed through the political-cultural vacuum
@@ -297,10 +296,10 @@ destructions as historically necessary acts of state-violence,
 performed with intellectual reflection rather than barbaric
 cruelty, became one of the principal Roman literary traditions
 of the late Republic and early Empire. The "Scipionic moral
-position" that emerged from this framing — that Roman
+position" that emerged from this framing (that Roman
 imperial violence could be conducted with Hellenizing
 intellectual sensibility, that the destroying commander
-could weep at his work without ceasing to do it — is one
+could weep at his work without ceasing to do it) is one
 of the more morally complex traditions in the surviving
 record.
 

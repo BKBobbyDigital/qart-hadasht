@@ -256,10 +256,9 @@ late 8th century BCE, that had built the Mediterranean's largest
 maritime empire of the 5th to 3rd centuries BCE, that had
 produced the longest sustained military challenge to Roman power
 in the central Mediterranean, ceased to exist as an active
-political and cultural community. What survived archaeologically
-— the Tophet Stelae corpus, the Carthage Cothon, the Carthage
+political and cultural community. What survived archaeologically (the Tophet Stelae corpus, the Carthage Cothon, the Carthage
 Votive Inscription Slab corpus, the broader inscriptional and
-material record — is the residue of that ending. The Punic
+material record) is the residue of that ending. The Punic
 religious-cultural tradition would persist for centuries longer
 in the Numidian interior (attested by the El Hofra Stele Cache at
 Cirta and the Libyco-Punic Mausoleum of Dougga, both built in

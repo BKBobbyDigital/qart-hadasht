@@ -112,8 +112,8 @@ throughout.
 
 The twenty-eight books covered the full range of Mediterranean
 agriculture as practiced on substantial Carthaginian estates.
-The surviving fragments — recovered principally through Varro,
-Columella, Pliny, Palladius, and the Geoponica — cluster into
+The surviving fragments (recovered principally through Varro,
+Columella, Pliny, Palladius, and the Geoponica) cluster into
 several principal topic areas, each preserving glimpses of a
 sophisticated technical tradition behind Mago's synthesis.
 
@@ -121,9 +121,9 @@ sophisticated technical tradition behind Mago's synthesis.
 surviving citations. Mago on vine selection by soil type, vine
 training and pruning techniques, the timing of harvest, pressing
 methods, wine fermentation and storage. The fragments preserve
-specific quantitative guidance — proportions of vine to acreage,
+specific quantitative guidance (proportions of vine to acreage,
 the time between harvest and pressing, the temperatures and
-durations of fermentation — that suggest a technical literature
+durations of fermentation) that suggest a technical literature
 of considerable refinement. Columella's repeated citations of
 Mago on vines are the closest surviving approach to the
 Carthaginian viticulture of the 3rd century BCE in its own
@@ -158,16 +158,15 @@ preserve glimpses of the Carthaginian *chora*'s social
 organization that no other surviving source documents at
 comparable depth.
 
-**Soil science** appears in a fragmentary classification system —
-Mago distinguished multiple soil types by physical and
-agricultural characteristics — that the Roman tradition adopted
+**Soil science** appears in a fragmentary classification system, Mago distinguished multiple soil types by physical and
+agricultural characteristics, that the Roman tradition adopted
 and elaborated. Pliny's soil typology in *Natural History* 17
 draws extensively on the Mago tradition.
 
 The fragments cite earlier Carthaginian authors whom Mago in turn
-synthesized. The names that survive — most prominently a certain
+synthesized. The names that survive (most prominently a certain
 *Hamilcar* who wrote on agriculture before Mago, attested in
-Varro 1.1.10 — establish that Mago was working in an existing
+Varro 1.1.10) establish that Mago was working in an existing
 Carthaginian agronomic tradition rather than founding one. The
 pre-Mago Carthaginian agricultural literature is otherwise
 entirely lost; we know of it only through Mago citing it. Mago
@@ -191,8 +190,8 @@ years.
 
 What is remarkable about the decree is what it is *not*. It is
 not a general preservation of Carthaginian literature. The
-libraries of Carthage — substantial collections that Mago's own
-treatise presupposes — were not preserved at Rome. Pliny's
+libraries of Carthage, substantial collections that Mago's own
+treatise presupposes, were not preserved at Rome. Pliny's
 account is explicit: those libraries were given to the
 [Numidian](/narratives/the-numidian-punic-interface) allies (*regulis Africae*). The
 Numidians, by this point Roman clients with no particular
@@ -221,8 +220,8 @@ Carthaginian culture in the abstract; it is evidence that the
 Romans valued one technical area of Carthaginian production
 because they could apply it. The political-economic and
 intellectual-cultural Carthaginian literature that the Pliny
-passage does not mention being preserved — the bulk of what
-those libraries contained — is the cost of the selectivity.
+passage does not mention being preserved, the bulk of what
+those libraries contained, is the cost of the selectivity.
 Mago survives because the senate's constituency could use him.
 The rest did not survive because no Roman constituency had use
 for it.
@@ -268,8 +267,8 @@ qualification.
 **Palladius** in the *Opus Agriculturae* (late 4th / early 5th
 century CE) carry Mago's material into the late Roman period
 in attenuated but continuous form. By Palladius, the citations
-are typically at second or third hand — Mago via Columella, Mago
-via the Greek abridgments — rather than directly from the Latin
+are typically at second or third hand (Mago via Columella, Mago
+via the Greek abridgments) rather than directly from the Latin
 translation, which had become harder to access. But the
 material continued to circulate under Mago's name and to be
 attributed to him.
@@ -286,8 +285,8 @@ medieval Greek and Arabic agronomic literature.
 Arabic agronomic work and draws on Mago's material through the
 Palladius and Geoponica transmission chains. Ibn al-Awwam was
 working in Seville under late Almohad rule; his treatise
-preserved Mediterranean agronomic knowledge — including Mago's
-material — in a form that subsequently fed back into Latin
+preserved Mediterranean agronomic knowledge, including Mago's
+material, in a form that subsequently fed back into Latin
 Europe through the Spanish translation tradition. The
 [Carthaginian-Iberian](/narratives/the-barcid-iberian-state)
 connection here is more than ironic: the agricultural knowledge
@@ -301,9 +300,9 @@ and cites Mago by name as one of the ancient authorities. From
 Crescenzi forward, Mago's name remained a routine citation in
 European agronomic literature through the Renaissance and into
 the early modern period, when 18th and 19th-century
-fragment-collection scholarship — culminating in the
+fragment-collection scholarship, culminating in the
 *Magonis Carthaginiensis Fragmenta* (Mahaffy, 1889, and
-subsequent collections) — assembled the surviving citations
+subsequent collections), assembled the surviving citations
 into the form modern scholarship works from.
 
 The chain is unusual in the ancient literary record for both
@@ -403,9 +402,9 @@ Carthaginian estate agriculture, the institutional structure of
 [Carthaginian slavery and tenancy](/themes/slavery-and-labor),
 the agricultural-technical aspect of Carthaginian aristocratic
 intellectual culture. Where the surviving Greco-Roman literary
-record fails us — the great majority of what we would want to
+record fails us, the great majority of what we would want to
 know about how a Carthaginian aristocrat actually thought about
-his world — Mago is the partial exception.
+his world, Mago is the partial exception.
 
 The combined effect is that Mago is the only Carthaginian whose
 written voice the modern reader can encounter in something

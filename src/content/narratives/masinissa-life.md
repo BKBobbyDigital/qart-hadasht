@@ -15,8 +15,8 @@ thesis: >
   decision, decisive cavalry contribution to Scipio's victory
   at Zama, and the long subsequent reign in which his five-
   decade program of incremental Numidian expansion at
-  Carthaginian expense — calibrated against Roman patronage
-  he understood from the inside — produced the structural
+  Carthaginian expense, calibrated against Roman patronage
+  he understood from the inside, produced the structural
   conditions for the Third Punic War. The site's reading
   treats him as a strategic opportunist rather than as a
   Roman client or as an architect of destruction (see
@@ -46,9 +46,9 @@ geographic position adjacent to Carthaginian territory made
 them politically central to the Carthaginian-Numidian
 alliance system that developed across the third century BCE.
 
-Masinissa's education at Carthage during his youth — preserved
+Masinissa's education at Carthage during his youth (preserved
 in scattered references across Livy, Appian, and the
-Polybian fragments — established the cultural and political
+Polybian fragments) established the cultural and political
 formation that would define his subsequent career. He spoke
 Punic alongside Numidian; he was acculturated into
 Carthaginian aristocratic networks; he was reportedly betrothed
@@ -99,10 +99,10 @@ opposition.
 **The Roman approach.** Scipio Africanus, planning the
 African expedition that would culminate at Zama, opened
 diplomatic communication with Masinissa during the Iberian
-campaign. The political configuration — Masinissa's loss of
+campaign. The political configuration (Masinissa's loss of
 his Carthaginian connections through the Sophonisba episode,
 his exile from his own kingdom, his need for an external
-patron to reclaim his throne — made the Roman approach
+patron to reclaim his throne) made the Roman approach
 politically viable in a way it would not have been earlier.
 
 By 204 BCE Masinissa had committed to the Roman alliance and
@@ -185,9 +185,9 @@ in its institutional structure.
 
 ## The Third Punic War and death (150-148 BCE)
 
-The proximate cause of the Third Punic War — Carthage's
+The proximate cause of the Third Punic War, Carthage's
 military operation against Masinissa in 150 BCE in violation
-of the Treaty of 201's allied-protection clause — was the
+of the Treaty of 201's allied-protection clause, was the
 direct product of Masinissa's accumulated encroachments.
 Carthage had finally responded with force after fifty years
 of Roman-protected Numidian aggression; the Roman response
@@ -230,8 +230,8 @@ Masinissa did not draft the 149 demands or make the
 elimination decision. But the configuration the Roman
 faction converted into destruction was substantively his
 production, and reading the Third Punic War without him as
-a principal structural actor — alongside but distinct from
-the Roman destruction-faction — under-represents what the
+a principal structural actor, alongside but distinct from
+the Roman destruction-faction, under-represents what the
 surviving evidence shows.
 
 **The Numidian kingdom was a substantial achievement on its
@@ -264,10 +264,9 @@ Roman patronage; his 60s and 70s methodically pressuring
 the Carthaginian frontier; his 80s personally commanding
 Numidian cavalry against the 150 Carthaginian expedition;
 his 90th year on horseback as the Third Punic War began.
-The wisdom that comes with that kind of continuity — and
+The wisdom that comes with that kind of continuity, and
 the discipline to wait out three generations of his Roman
-and Carthaginian counterparts without overplaying the hand
-— is the distinctive feature of his career. The
+and Carthaginian counterparts without overplaying the hand, is the distinctive feature of his career. The
 [editorial take](/editorialTakes/masinissa-strategic-opportunist)
 treats this strategic-opportunist position in detail and
 weighs it against the conventional Roman-client and

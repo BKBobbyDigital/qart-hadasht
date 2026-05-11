@@ -41,9 +41,9 @@ principal_sources:
 map_id: tpw
 map_caption: >
   Strategic geography of the Third Punic War. The Carthaginian
-  territorial remnant by 149 BCE — substantially smaller than the
+  territorial remnant by 149 BCE, substantially smaller than the
   pre-201 African heartland after fifty years of Masinissa's
-  encroachment under Roman cover — is shown in tyrian; the Numidian
+  encroachment under Roman cover, is shown in tyrian; the Numidian
   kingdom in olive. The siege of Carthage 149–146 BCE is marked at
   the city itself; Scipio Aemilianus took over command in 147 and
   tightened the siege through systematic demolition of the city's
@@ -124,7 +124,7 @@ continued.
 
 The pattern's strategic logic on the site's reading involves three
 parallel actors, not two. Masinissa was substantively pursuing his
-own Numidian aggrandizement program — not Roman bidding — with full
+own Numidian aggrandizement program, not Roman bidding, with full
 understanding of how far Roman patronage would back his pressure;
 Rome was substantively enabling the program because Carthaginian
 containment served Roman strategic interests; and the Carthaginian
@@ -135,9 +135,8 @@ likely. Masinissa was not a Roman client doing Roman bidding; he
 was a clear-eyed strategic opportunist who had served as a Roman
 cavalry commander at Zama, understood Roman strategic intent from
 the inside, and calibrated his five-decade encroachment program to
-maximize Numidian gains within the patronage frame. His longevity
-— approximately ninety years, with a continuous reign of fifty-eight
-years from 206 to 148 BCE — gave him a strategic time horizon
+maximize Numidian gains within the patronage frame. His longevity (approximately ninety years, with a continuous reign of fifty-eight
+years from 206 to 148 BCE) gave him a strategic time horizon
 unusual in the ancient Mediterranean and the patience to play the
 incremental game across multiple generations of his Roman and
 Carthaginian counterparts. The site's full reading of his role is
@@ -162,9 +161,9 @@ Cato's strategic conclusion was that a Carthage this prosperous
 represented an ongoing threat to Roman interests regardless of treaty
 terms.
 
-The famous formula *Carthago delenda est* — "Carthage must be
+The famous formula *Carthago delenda est* ("Carthage must be
 destroyed," with which Cato reportedly ended every senatorial speech
-across the years from his return through his death in 149 — is
+across the years from his return through his death in 149) is
 contested in its exact wording. The structural fact of Cato's
 decade-long advocacy is firmly attested; the precise Latin phrase as
 cited in modern usage is post-classical refinement of Plutarch's
@@ -177,9 +176,8 @@ provide.
 
 ## The pretext and the demands
 
-Carthage's [war with Masinissa](/events/war-with-masinissa) in 150 BCE
-— the military expedition under [Hasdrubal the Boetharch](/people/hasdrubal-boetharch)
-that responded to fifty years of accumulated encroachment — was a
+Carthage's [war with Masinissa](/events/war-with-masinissa) in 150 BCE, the military expedition under [Hasdrubal the Boetharch](/people/hasdrubal-boetharch)
+that responded to fifty years of accumulated encroachment, was a
 treaty violation under the Treaty of 201's allied-protection clause.
 Rome treated it as such and used it as the formal legal trigger for
 the Third Punic War.
@@ -203,15 +201,15 @@ site's [149-demands-as-deliberate-trap](/claims/149-demands-as-deliberate-trap)
 reading: Roman strategic objectives in 149 BCE were settled before
 the war began, and the demands were the diplomatic-procedural
 instrument that converted decision into action. The reading is
-inferred — the surviving sources preserve the demands without
-explicitly framing them as a designed trap — but the structural
+inferred, the surviving sources preserve the demands without
+explicitly framing them as a designed trap, but the structural
 pattern is the principal evidence.
 
 ## The siege and the destruction
 
 The [Third Punic War](/events/third-punic-war) was substantially a
-single extended siege. The initial Roman commanders — Manius Manilius
-and Lucius Marcius Censorinus — failed to take the city through
+single extended siege. The initial Roman commanders, Manius Manilius
+and Lucius Marcius Censorinus, failed to take the city through
 direct assault; the Carthaginian defense under Hasdrubal the Boetharch
 proved more effective than the Roman senate had anticipated, and the
 population that had surrendered its weapons months earlier produced
@@ -243,9 +241,8 @@ The site lay essentially empty for a century before Roman
 recolonization began under Caesar and Augustus, producing the
 Roman Carthage that would become the second city of the western
 empire. Roman Carthage was a different polity in the same
-location; the Carthaginian state — the institutional-political
-form the city had taken since at least the 7th century BCE —
-ended with the 146 destruction.
+location; the Carthaginian state, the institutional-political
+form the city had taken since at least the 7th century BCE, ended with the 146 destruction.
 
 What did not end in 146 BCE was Punic culture, language, religion,
 intellectual influence, or identity. Each of these persisted, in
@@ -280,9 +277,9 @@ after 146 BCE; the Libyco-Punic Mausoleum of Dougga, built in the
 Hofra cache attests; Mago's agricultural science transmitted
 through the Roman tradition; and the Greek and Latin literary
 record that preserved Carthaginian history through hostile framing. What did not
-survive is most of what Carthage thought about itself — the
+survive is most of what Carthage thought about itself (the
 theological tradition, the political treatises, the dramatic
-literature, the historical accounts — destroyed in the libraries
+literature, the historical accounts) destroyed in the libraries
 given to Numidia or otherwise lost in the centuries since.
 
 This encyclopedia is one attempt to reconstruct what survives, to

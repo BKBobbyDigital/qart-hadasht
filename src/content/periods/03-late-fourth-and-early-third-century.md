@@ -73,9 +73,9 @@ in 341 BCE. A Carthaginian expeditionary force, sent to support the
 Sicilian-Greek tyrants against the reforming Corinthian general
 [Timoleon](/people/timoleon), was caught crossing the swollen Crimisus
 river by Timoleon's smaller force and destroyed. The
-[Sacred Band](/groups/sacred-band) — Carthage's elite citizen heavy
+[Sacred Band](/groups/sacred-band) (Carthage's elite citizen heavy
 infantry, the formation that distinguished Carthaginian armies from
-their predominantly mercenary character — was effectively annihilated.
+their predominantly mercenary character) was effectively annihilated.
 Diodorus reports three thousand Carthaginian citizens of senatorial
 families killed in the engagement.
 
@@ -114,23 +114,23 @@ of 310-307 BCE was the only successful pre-Roman external invasion of
 the Carthaginian hinterland, and it produced the most acute Carthaginian
 internal crisis of the surviving record.
 
-Agathocles's expeditionary army — small in absolute numbers but
-operating against an undefended hinterland — devastated the
+Agathocles's expeditionary army, small in absolute numbers but
+operating against an undefended hinterland, devastated the
 Carthaginian agricultural base, forced multiple Carthaginian field
 armies into engagement, and reduced the city itself to siege conditions
 for substantial periods over three years. The Carthaginian recovery
 was contingent and substantially political. The senatorial leadership
 was widely understood to have failed; the field army's continued
 operations preserved the strategic position; and the
-[Bomilcar coup attempt](/events/bomilcar-coup-308) of 308 BCE — a
+[Bomilcar coup attempt](/events/bomilcar-coup-308) of 308 BCE, a
 senior Carthaginian commander attempting to convert the crisis into
-political seizure — failed not through state strength but through the
+political seizure, failed not through state strength but through the
 citizen body's refusal of the appeal. Bomilcar was tortured and crucified
 in the central marketplace; the city survived; but the surviving
 sources preserve no triumphalism about the outcome.
 
-Agathocles's eventual recall to Sicily in 307 BCE — his forces
-abandoned in Africa, where they were absorbed or destroyed — ended the
+Agathocles's eventual recall to Sicily in 307 BCE (his forces
+abandoned in Africa, where they were absorbed or destroyed) ended the
 threat without resolving the structural questions the invasion had
 raised. The Carthaginian state had survived but the configuration was
 clearly visible: a militarily resourceful aggressor could threaten the
@@ -146,9 +146,9 @@ the costly victories at Heraclea and Asculum that gave the term "Pyrrhic
 victory" its modern meaning, then crossed to Sicily in 278 to support
 the Greek-Sicilian cities against Carthaginian operations.
 [Pyrrhus's Sicilian campaign](/events/pyrrhic-war-in-sicily) of 278-275
-BCE had initial success — the recovery of substantial Sicilian-Greek
+BCE had initial success (the recovery of substantial Sicilian-Greek
 territory from Carthaginian control, the siege of the Carthaginian
-fortress at Lilybaeum — but the campaign overextended and his
+fortress at Lilybaeum) but the campaign overextended and his
 withdrawal from Sicily in 275 ended the threat to the Carthaginian
 position.
 
@@ -165,9 +165,9 @@ Pyrrhus is the diplomatic record of the changing configuration.
 ## The setup
 
 The period closes with the [Mamertine seizure of Messana](/events/mamertine-seizure-of-messana)
-around 288 BCE — a band of Campanian mercenaries, dismissed from
+around 288 BCE (a band of Campanian mercenaries, dismissed from
 Agathoclean service on his death, killing the male population of their
-host city and converting it into their own polity — and the long
+host city and converting it into their own polity) and the long
 trajectory by which the Mamertine state's raiding produced the
 Hieronian Syracusan response that produced, eventually, the 265 BCE
 appeal to both Carthage and Rome.

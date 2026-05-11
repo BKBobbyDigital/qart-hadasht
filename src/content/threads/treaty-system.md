@@ -68,8 +68,8 @@ are preserved in a combination of Polybius, Livy, and the broader
 surviving tradition.
 
 This thread walks the treaty system in chronological order. What
-emerges is a relationship that is *not* — as the surviving Roman
-tradition often frames it — a confrontation that was always going to
+emerges is a relationship that is *not*, as the surviving Roman
+tradition often frames it, a confrontation that was always going to
 become war. It is a relationship that was structurally cooperative
 through the early third century, fractured at the Mamertine crisis
 in 264, partially reconstructed through Lutatius and the inter-war
@@ -78,10 +78,9 @@ producing the conditions for the Third Punic War's inevitable
 outcome.
 
 The treaty texts themselves are remarkable surviving documents. They
-preserve specific provisions — Roman ships restricted from sailing
+preserve specific provisions, Roman ships restricted from sailing
 past the Fair Promontory; Carthaginian operations restricted to
-south of the Ebro; reciprocal protection of allies against Pyrrhus —
-that allow modern reconstruction of the strategic configuration each
+south of the Ebro; reciprocal protection of allies against Pyrrhus, that allow modern reconstruction of the strategic configuration each
 agreement was meant to address. The thread is partly about the
 treaties as evidence and partly about the broader relationship the
 treaties preserve.

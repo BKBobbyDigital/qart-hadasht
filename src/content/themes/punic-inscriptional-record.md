@@ -64,8 +64,8 @@ in the surviving record.
 across the Phoenician homeland (the Eshmunazar II Sarcophagus and
 the Tabnit Sarcophagus from Sidon are the principal examples) and
 across the western diaspora. Carthaginian elite tomb inscriptions
-are rarer than one might expect — the city's necropoleis were
-extensively reused and disturbed in the Roman period — but
+are rarer than one might expect, the city's necropoleis were
+extensively reused and disturbed in the Roman period, but
 substantial corpora survive from Punic Sicily, Sardinia, and Spain.
 
 **Civic and bilingual inscriptions** include the Phoenician-Aramaic
@@ -78,8 +78,8 @@ reconstruction of Punic vocabulary and syntax — without bilingual
 texts, the script's consonantal structure would leave too many
 words ambiguous.
 
-**The two surviving "tariff" inscriptions** — the Marseille Tariff
-(KAI 69) and the fragmentary Carthage Tariff (KAI 74) — are the
+**The two surviving "tariff" inscriptions**, the Marseille Tariff
+(KAI 69) and the fragmentary Carthage Tariff (KAI 74), are the
 single most informative texts for reconstructing actual Punic
 sacrificial practice. Both list prices for different sacrificial
 animals (ox, ram, ewe, kid, lamb, bird) and specify the cuts that
@@ -145,8 +145,8 @@ of Carthaginian governance can be checked against the inscriptional
 attestation of the magistracies.
 
 **Punic continuity into Roman North Africa.** Neo-Punic
-inscriptions — the late Punic script that continued in use through
-the Roman imperial period — are attested into the 2nd-3rd c. CE
+inscriptions, the late Punic script that continued in use through
+the Roman imperial period, are attested into the 2nd-3rd c. CE
 in some North African contexts. The inscriptional record is the
 principal evidence for Punic linguistic and religious persistence
 after 146 BCE, a topic the Latin literary record handles only
@@ -165,8 +165,8 @@ centuries is the same conservatism that limits what each individual
 inscription can tell us. A six-line Tophet stele tells us a great
 deal about the formula and not much about the dedicator.
 
-The literary tradition's gap — what Carthaginians wrote about
-themselves in extended prose — remains a gap. The inscriptional
+The literary tradition's gap, what Carthaginians wrote about
+themselves in extended prose, remains a gap. The inscriptional
 record is the largest, most evidentiary-load-bearing piece of the
 surviving record, but it is not the missing literature. The two
 have to be read together, with the literary tradition's distortions
@@ -209,9 +209,9 @@ and [Tharros Tophet Stele](/artifacts/tharros-tophet-stele) and the
 broader [Tophet Stelae of Carthage](/artifacts/tophet-stelae-carthage)
 for the votive tradition.
 
-For the corpus as a whole — the body of evidence that makes the
+For the corpus as a whole (the body of evidence that makes the
 modern reconstruction of Carthaginian religion, society, and
-identity possible at all — the CIS and KAI source entries are the
+identity possible at all) the CIS and KAI source entries are the
 top-level reference, and this theme is the analytical hub through
 which the site treats inscriptional evidence as a primary category
 rather than as supplement.

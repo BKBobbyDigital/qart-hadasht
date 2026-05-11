@@ -13,9 +13,8 @@ thesis: >
   encroachments; Cato gave voice to the strategic conclusion
   the Roman senate was reaching independently rather than
   causing that conclusion himself. The interesting question
-  is not whether Cato caused the war but how his persona —
-  the moralist, the conservative, the sworn enemy of
-  Hellenizing decadence — became the symbolic figure
+  is not whether Cato caused the war but how his persona (the moralist, the conservative, the sworn enemy of
+  Hellenizing decadence) became the symbolic figure
   through which the destruction was politically authorized.
 primary_entities:
   - type: person
@@ -30,9 +29,8 @@ last_revised: "2026-05-09"
 
 Marcus Porcius Cato was born in 234 BCE at Tusculum, of a
 modest Sabine landowner family. The political category for
-his trajectory was *novus homo* — a new man entering the
-Roman senatorial elite without ancestral consular precedent —
-and the cultural-political program he developed across his
+his trajectory was *novus homo*, a new man entering the
+Roman senatorial elite without ancestral consular precedent, and the cultural-political program he developed across his
 long career was substantially the program of an outsider
 asserting the moral authority of older Roman traditions
 against the Hellenizing aristocratic culture he saw as
@@ -87,9 +85,9 @@ The figs episode is preserved across multiple sources and is
 generally treated as historically substantial. Whether the
 specific dramatic gesture (fresh figs as visible evidence)
 occurred in the precise form preserved is partly later
-reconstruction; the underlying political point — Cato's
+reconstruction; the underlying political point, Cato's
 post-embassy advocacy for Carthage's destruction was based on
-his direct observation of the city's recovery — is firmly
+his direct observation of the city's recovery, is firmly
 attested.
 
 ## The *delenda est* campaign
@@ -169,8 +167,8 @@ Cato died in 149 BCE at age 85, just before the formal Roman
 declaration of war on Carthage. The senatorial decision had
 been reached but not yet executed at the moment of his
 death. The Roman embassies that would deliver the escalating
-demands at Carthage through 149 BCE — surrender of hostages,
-surrender of weapons, abandonment of the city — followed
+demands at Carthage through 149 BCE (surrender of hostages,
+surrender of weapons, abandonment of the city) followed
 within weeks. The war that produced the destruction in 146
 BCE was substantially Cato-aligned in its strategic
 conception but executed by figures (the consuls of 149-147

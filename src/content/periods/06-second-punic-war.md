@@ -130,8 +130,8 @@ The first Italian engagements demonstrated the army's recovery. The
 a cavalry skirmish but established Carthaginian operational dominance
 over the Po valley; the [Battle of the Trebia](/events/battle-of-trebia)
 in December was Hannibal's first major engagement of a Roman consular
-army, demonstrating the operational pattern — terrain feature as
-tactical instrument, elephant screen, cavalry envelopment — that would
+army, demonstrating the operational pattern (terrain feature as
+tactical instrument, elephant screen, cavalry envelopment) that would
 characterize his Italian campaign. The [Battle of Lake Trasimene](/events/battle-of-lake-trasimene)
 in June 217 BCE was the largest ambush in the history of warfare:
 [Flaminius](/people/flaminius)'s consular army was destroyed in a
@@ -200,8 +200,8 @@ of 213-211 BCE, prolonged by the defensive engineering attributed to
 [Archimedes](/people/archimedes) and ended through penetration of an
 undefended wall section during a religious festival. The
 [Carthaginian relief operations](/events/carthaginian-sicilian-relief-213-211)
-of 213-211 — Himilco's land expedition, Bomilcar's withdrawing naval
-relief, the plague-destroyed combined effort — failed to break the
+of 213-211 (Himilco's land expedition, Bomilcar's withdrawing naval
+relief, the plague-destroyed combined effort) failed to break the
 siege. The [fall of Akragas in 210 BCE](/events/fall-of-akragas-210)
 through the Numidian commander Mottones's defection closed the
 Sicilian theatre and freed substantial Roman resources for Iberian
@@ -223,10 +223,10 @@ produced the Carthaginian Iberian command center, the principal
 treasury, hostage families that included [Indibilis](/people/indibilis)
 and [Mandonius](/people/mandonius), and the strategic initiative that
 Scipio would not lose for the rest of the war. The
-[Battle of Ilipa](/events/battle-of-ilipa) in 206 BCE — Scipio's
+[Battle of Ilipa](/events/battle-of-ilipa) in 206 BCE (Scipio's
 defeat of the combined Carthaginian armies under
 [Hasdrubal Gisco](/people/hasdrubal-gisco), [Mago Barca](/people/mago-barca),
-and [Masinissa](/people/masinissa) — closed the Carthaginian Iberian
+and [Masinissa](/people/masinissa)) closed the Carthaginian Iberian
 theatre.
 
 Earlier, in 207 BCE, the [Battle of the Metaurus](/events/battle-of-metaurus)
@@ -245,9 +245,8 @@ Gisco and [Syphax](/people/syphax); Syphax was captured and the
 Masaesylian alliance collapsed; Masinissa's Massylian forces had
 already defected to Rome.
 
-Hannibal's [recall from Italy](/people/hannibal-barca) in autumn 203 —
-sixteen years after the crossing of the Alps, with no Roman defeat
-having forced negotiation — produced the [Battle of Zama](/events/battle-of-zama)
+Hannibal's [recall from Italy](/people/hannibal-barca) in autumn 203 (sixteen years after the crossing of the Alps, with no Roman defeat
+having forced negotiation) produced the [Battle of Zama](/events/battle-of-zama)
 in October 202 BCE. Scipio's tactical reform — the maniple lanes that
 allowed elephant charges to pass through harmless, the integrated
 Roman-Numidian cavalry that swept the Carthaginian flanks and returned

@@ -80,8 +80,8 @@ rather than as direct attestation.
 
 The network's western expansion built on the existing structure
 of the Phoenician homeland city-state system. [Tyre](/places/tyre)
-and [Sidon](/places/sidon) — alongside [Byblos](/places/byblos),
-Arwad, Berytus, and others — were politically independent city-
+and [Sidon](/places/sidon) (alongside [Byblos](/places/byblos),
+Arwad, Berytus, and others) were politically independent city-
 states that operated as a substantively integrated commercial-
 cultural network across the Levant from at least the early Iron
 Age. The homeland was already a network *before* the western
@@ -96,7 +96,7 @@ diplomatic position but external coordination when facing larger
 powers.
 
 The homeland network's relationship with the Levantine imperial
-powers — Egyptian, Assyrian, subsequently Persian — was
+powers (Egyptian, Assyrian, subsequently Persian) was
 substantively commercial-tributary across centuries. The
 Phoenician cities paid tribute to the dominant power; they
 retained substantial internal autonomy in commerce, religion, and
@@ -164,10 +164,9 @@ of. The principal route ran along the southern Mediterranean
 shore: from the Levantine homeland, west to Cyprus (Kition and
 other Phoenician-occupied Cypriot sites), to Crete (the
 Kommos sanctuary among others), to the central Mediterranean
-(Sicily's western coast — Motya, Solunto, Panormus; Sardinia's
-southwest — Sulci, Tharros, Nora), to North Africa (the
-Tripolitanian coast — Lepcis, Sabratha; the Tunisian zone —
-Utica, Carthage, Hadrumetum; the broader North African coast
+(Sicily's western coast (Motya, Solunto, Panormus; Sardinia's
+southwest) Sulci, Tharros, Nora), to North Africa (the
+Tripolitanian coast (Lepcis, Sabratha; the Tunisian zone) Utica, Carthage, Hadrumetum; the broader North African coast
 westward), to Iberia (Gadir, Malaca, Sexi, the broader southern
 Iberian Phoenician zone), and to the Atlantic (Lixus, Mogador
 on the Moroccan coast — the network's western edge).
@@ -251,8 +250,8 @@ framing, as substantive coordinating institution.
 Beyond the Melqart cult, several other mechanisms operated as
 network coordination:
 
-**Shared script and language.** The Phoenician alphabet — the
-22-character consonantal script — was used across the network
+**Shared script and language.** The Phoenician alphabet, the
+22-character consonantal script, was used across the network
 with regional dialectal variation but with substantive mutual
 intelligibility. The
 [Punic-language inscriptional record](/themes/punic-inscriptional-record)
@@ -283,8 +282,8 @@ deities' cults across the network are documented in the
 inscriptional and archaeological evidence.
 
 The cumulative picture is of a network with multiple
-substantive coordinating mechanisms — religious, commercial,
-linguistic, social — operating in mutually reinforcing ways
+substantive coordinating mechanisms (religious, commercial,
+linguistic, social) operating in mutually reinforcing ways
 across centuries.
 
 ## The Assyrian crisis and the network's resilience
@@ -315,8 +314,8 @@ foundation date (814 BCE) places Carthage's founding before
 the Assyrian crisis reaches its severe phase; the
 archaeologically documentable 8th-c. occupation horizons at
 Carthage are consistent with foundation in this period. Across
-the 7th c. BCE — exactly as the homeland's political-commercial
-position was most constrained — Carthage's demographic and
+the 7th c. BCE, exactly as the homeland's political-commercial
+position was most constrained, Carthage's demographic and
 commercial scale grew substantially. By the 6th c. BCE Carthage
 had emerged as the western network's principal commercial-
 political center, taking over substantial elements of the
@@ -328,7 +327,7 @@ migrated westward as the eastern center's position weakened,
 producing by the late 6th c. BCE a network with Carthage as
 its dominant western node and the homeland as one substantive
 center among multiple. The Melqart cult's institutional
-practices — including the annual delegations — were maintained
+practices, including the annual delegations, were maintained
 through this transition, with Carthage and the other western
 nodes continuing to send delegations to a Tyrian sanctuary
 whose metropolitan-religious centrality was preserved even as
@@ -342,10 +341,10 @@ center of the western network." The transformation is
 documented in several lines of evidence:
 
 **Military leadership.** The Carthaginian state's leadership of
-western Phoenician military operations — against the Greek
+western Phoenician military operations (against the Greek
 expansion into Sicily and the western Mediterranean, against
 the Etruscans at sites like the [Battle of Alalia](/events/battle-of-alalia)
-in 537 BCE — established Carthage as the network's principal
+in 537 BCE) established Carthage as the network's principal
 military-strategic actor. Other western Phoenician
 foundations contributed to these operations but Carthage
 coordinated them.

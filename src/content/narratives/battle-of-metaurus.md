@@ -75,7 +75,7 @@ The forced march that followed is one of the most-praised
 operations in the surviving Roman military tradition. Nero
 took approximately 6,000 infantry and 1,000 cavalry, the
 fastest troops available to him, and marched from southern
-Italy to Umbria — approximately 300 miles — in seven days.
+Italy to Umbria, approximately 300 miles, in seven days.
 The march was conducted in secrecy: Hannibal in Bruttium was
 to remain unaware of Nero's absence; the Roman population
 along the route was to provide supplies without recognizing

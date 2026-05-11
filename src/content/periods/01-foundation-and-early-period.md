@@ -49,8 +49,8 @@ tradition preserved in legendary form.
 The conventional date for Carthage's founding is 814 BCE, derived from
 ancient chronological calculations (notably Timaeus of Tauromenium) and
 broadly compatible with the earliest archaeologically secure occupation
-of the site. The traditional narrative — preserved most fully in Justin's
-epitome of Trogus and in Virgil's *Aeneid* — gives the foundation to
+of the site. The traditional narrative, preserved most fully in Justin's
+epitome of Trogus and in Virgil's *Aeneid*, gives the foundation to
 *Elissa* (the Phoenician name), better known by her Greek-tradition name
 *Dido*. A Tyrian princess in flight from her brother Pygmalion's
 political tyranny, Dido led a colonization expedition west to North
@@ -59,8 +59,8 @@ and established the new city as *Qart-Ḥadasht*, "the new city," to
 distinguish it from the older Phoenician colony at Utica.
 
 Whether the foundation tradition preserves anything historical is
-contested. The structural fact — a Tyrian colonial foundation in the
-late ninth century BCE — is plausible and consistent with the broader
+contested. The structural fact, a Tyrian colonial foundation in the
+late ninth century BCE, is plausible and consistent with the broader
 Phoenician colonial expansion. The Dido narrative is treated by most
 modern scholarship as legendary elaboration on a real underlying
 foundation event, with the specific dramatic detail (Pygmalion's
@@ -91,8 +91,8 @@ Mediterranean Phoenician network as a whole.
 
 The structural transformation that defines the early period is
 Carthage's gradual shift from Tyrian dependent to independent metropole.
-The mechanism is partly economic — Carthage outgrew the volume of
-commerce that the homeland could continue to direct — and partly
+The mechanism is partly economic, Carthage outgrew the volume of
+commerce that the homeland could continue to direct, and partly
 political: the Persian conquest of Phoenicia in 539 BCE eliminated
 [Tyre](/places/tyre)'s capacity for sustained metropolitan oversight.
 Across the late seventh and sixth centuries BCE, Carthage came to
@@ -153,6 +153,6 @@ The period is the foundation in two senses: of the city itself, and of
 the evidence base that would later allow Carthage's history to be
 written. By 550 BCE, with the rise of [Mago I](/people/mago-i) and the
 Magonid dynasty, Carthage had become a Mediterranean power. How exactly
-the transition occurred — across what political-institutional pathway,
-through what relationship to the surviving Phoenician homeland — is
+the transition occurred (across what political-institutional pathway,
+through what relationship to the surviving Phoenician homeland) is
 substantially obscured by the limits of the surviving evidence.

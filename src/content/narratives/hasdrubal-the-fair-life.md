@@ -73,8 +73,8 @@ pattern would recur six years later when Hannibal succeeded
 to the same command: the Iberian army treating its
 succession as its own to determine, with formal Carthaginian
 authority operating subordinately. The structural character
-of Barcid-Iberian politics — autonomous military authority
-with substantial independence from senatorial control — was
+of Barcid-Iberian politics, autonomous military authority
+with substantial independence from senatorial control, was
 established or at least confirmed through this succession
 event.
 
@@ -144,8 +144,8 @@ Hasdrubal's court at Carthago Nova included Iberian
 aristocrats in substantive political roles, not merely as
 subordinate clients. The pattern produced an
 Iberian-Carthaginian elite that was substantively
-bicultural — Punic-speaking, Iberian-speaking, Greek-
-educated in some cases — and that operated as the political
+bicultural (Punic-speaking, Iberian-speaking, Greek-
+educated in some cases) and that operated as the political
 class of the Carthaginian Iberian state under Hannibal's
 later command.
 
@@ -185,9 +185,8 @@ The treaty's significance for the subsequent history is
 substantial. The legal-procedural question of whether
 Hannibal's siege of Saguntum in 219 BCE violated the treaty
 was central to the diplomatic-political conflict that
-produced the Second Punic War. The treaty itself — preserved
-in the surviving record principally through its breach —
-was the principal diplomatic instrument of the inter-war
+produced the Second Punic War. The treaty itself, preserved
+in the surviving record principally through its breach, was the principal diplomatic instrument of the inter-war
 period.
 
 ## Death (221 BCE)
@@ -207,9 +206,9 @@ settle from the surviving evidence; what is firmly attested
 is the assassination itself and the immediate political
 consequence: the succession to the Iberian command.
 
-The Iberian field army's acclamation of Hannibal — twenty-
+The Iberian field army's acclamation of Hannibal (twenty-
 six years old, with eight years of personal command
-experience under his father and brother-in-law — followed
+experience under his father and brother-in-law) followed
 within days. The Carthaginian senate's ratification followed
 in the conventional pattern. By the end of 221 BCE, the
 Iberian project's third phase under Hannibal had begun.

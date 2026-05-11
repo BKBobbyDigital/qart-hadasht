@@ -110,17 +110,16 @@ both sides and no clear convergence.
 
 A useful comparative anchor sits in the Phoenician homeland. The
 Eshmun Sanctuary Votive Statue from the precinct at Bustan
-esh-Sheikh near Sidon — a 5th-century BCE marble figure of a seated
-child dedicated by a named Sidonian aristocrat to the healing god —
-attests a parallel Phoenician dedication tradition in which the
+esh-Sheikh near Sidon, a 5th-century BCE marble figure of a seated
+child dedicated by a named Sidonian aristocrat to the healing god, attests a parallel Phoenician dedication tradition in which the
 *figure* of a child, not the child itself, served as the offering.
 The Sidonian sanctuary preserves a series of such votives across
 several centuries. They are emphatically not sacrificial: the
 inscriptions name living donors petitioning Eshmun on behalf of
 specific children, often with reference to healing. Whether the
-Carthaginian Tophet inherited a related dedication grammar — with
+Carthaginian Tophet inherited a related dedication grammar (with
 the actual remains in the urns standing in for, rather than
-constituting, the offering — is one of the open questions in
+constituting, the offering) is one of the open questions in
 the comparative reading.
 
 ## How to weigh the evidence
@@ -185,9 +184,8 @@ about how systematic the practice was, what fraction of deposits
 represent killed-versus-natural-death children, or how the proportions
 varied across the precinct's six centuries.
 
-The full reasoning, the weighed evidence, and the competing readings —
-universal-systematic, pure-cemetery, and specific-proportion mixed
-readings — are treated under the editorial take
+The full reasoning, the weighed evidence, and the competing readings (universal-systematic, pure-cemetery, and specific-proportion mixed
+readings) are treated under the editorial take
 [Did Tophet sacrifice happen, and at what scale?](/editorialTakes/tophet-happened-scale-unrecoverable).
 The historiographical arc of how the controversy reached this point is
 treated separately in the

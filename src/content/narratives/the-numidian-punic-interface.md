@@ -51,8 +51,8 @@ to it, that intersected the Punic-cultural sphere through deep
 mutual exchange across centuries, and that continued through the
 Roman period as the substrate of what would become Berber identity
 in the medieval and modern Maghreb. The cultural synthesis they
-produced with Punic civilization — what this narrative treats as
-the Numidian-Punic interface — is one of the substantively richest
+produced with Punic civilization, what this narrative treats as
+the Numidian-Punic interface, is one of the substantively richest
 cultural arcs in the post-Carthaginian Mediterranean and the
 principal vehicle through which Punic religious and intellectual
 forms survived into late antiquity.
@@ -83,8 +83,8 @@ tradition across Lixus, Gadir, Motya) preserve fragmentary
 glimpses of these initial Phoenician-Libyan interactions but
 substantively from the Phoenician side.
 
-By the 6th century BCE — the period of the Magonid expansion
-of Carthaginian territorial reach in the African chora — the
+By the 6th century BCE, the period of the Magonid expansion
+of Carthaginian territorial reach in the African chora, the
 Phoenician-Libyan relationship had developed into the
 substantive Carthaginian tribute administration treated in the
 [Libyans group page](/groups/libyans). The Libyan rural
@@ -93,8 +93,8 @@ military recruitment, and labor base on which the Carthaginian
 state substantively depended; the Carthaginian state in return
 provided the protection-and-order framework within which the
 Libyan rural economy operated. The relationship was
-substantively unequal — the Libyans paid tribute; the
-Carthaginians extracted it — but it was not pure subjugation:
+substantively unequal, the Libyans paid tribute; the
+Carthaginians extracted it, but it was not pure subjugation:
 the Libyan population maintained internal political and
 cultural identity across centuries of Carthaginian
 administration, and the substantive cultural exchange that the
@@ -102,9 +102,9 @@ relationship produced is the principal source of the Numidian-
 Punic interface that subsequently developed.
 
 The principal organized Libyan-Berber political formations of
-the Punic period — the [Massylii](/groups/massylii), the
+the Punic period (the [Massylii](/groups/massylii), the
 [Masaesyli](/groups/masaesyli), the further-western
-Mauretanian groups — were the parts of the Libyan substrate
+Mauretanian groups) were the parts of the Libyan substrate
 that organized into substantive royal-confederation polities
 rather than remaining in Carthaginian-administered tribute
 status. These polities were politically Libyan-Berber in their
@@ -119,9 +119,9 @@ tribute zone.
 
 The religious dimension of the Numidian-Punic interface is the
 most directly attested through surviving primary evidence. The
-[El Hofra Stele Cache](/artifacts/hofra-stele-cache) — recovered
+[El Hofra Stele Cache](/artifacts/hofra-stele-cache) (recovered
 from Constantine (ancient Cirta), the Massaesylian and
-subsequently Massylian royal capital — is the principal Numidian
+subsequently Massylian royal capital) is the principal Numidian
 Punic religious-inscriptional corpus. The cache contains
 substantial numbers of votive stelae in Punic-language script,
 addressed to [Baal Hammon](/deities/baal-hammon) and [Tanit](/deities/tanit)
@@ -162,10 +162,9 @@ Numidian-Punic synthesis.
 
 The architectural dimension of the interface is documented
 principally through the Numidian royal monumental tradition.
-The [Dougga Libyco-Punic Mausoleum](/artifacts/dougga-libyco-punic-mausoleum)
-— a 2nd-century BCE monumental tomb in the Punic-Berber
+The [Dougga Libyco-Punic Mausoleum](/artifacts/dougga-libyco-punic-mausoleum) (a 2nd-century BCE monumental tomb in the Punic-Berber
 cultural sphere of modern Tunisia, with bilingual Libyco-Punic
-inscriptional material — is the principal architectural
+inscriptional material) is the principal architectural
 witness to the synthesis. The mausoleum's form combines
 Hellenistic-architectural elements (the stepped tower, the
 sculpted ornamentation) with Punic religious-architectural
@@ -177,17 +176,16 @@ identity of the elite producing the monument.
 The Dougga mausoleum is not a Punic-influenced Berber tomb or
 a Berber-influenced Punic tomb. It is a substantive cultural
 production of the Numidian elite that drew on multiple
-traditions — Libyan-Berber, Punic, Hellenistic — to produce a
+traditions (Libyan-Berber, Punic, Hellenistic) to produce a
 synthesis that is internally coherent and distinctively
 Numidian-Punic. The architecture is one of the cleanest single
 pieces of evidence that the interface produced something
 genuinely new rather than residual cultural influence flowing
 in one direction.
 
-Other Numidian royal monumental sites — the El Khroub mausoleum
+Other Numidian royal monumental sites (the El Khroub mausoleum
 near Cirta, the Medracen royal tomb (a much earlier Numidian
-royal monument), various royal-cult sanctuary remains —
-document the broader pattern. The Numidian elite from at least
+royal monument), various royal-cult sanctuary remains) document the broader pattern. The Numidian elite from at least
 the 3rd century BCE invested substantively in monumental
 architecture that drew on Punic and Hellenistic conventions
 while maintaining Libyan-Berber royal-tomb traditions; the
@@ -208,9 +206,8 @@ religious-political language and Libyco-Berber maintaining its
 own attestation in monumental contexts where bilingual
 inscriptions documented elite identity in both languages.
 
-The prosopographic dimension — documented through
-[Jongeling's onomastic study](/sources/jongeling-names-1994) —
-shows substantial Punic theophoric naming patterns in
+The prosopographic dimension, documented through
+[Jongeling's onomastic study](/sources/jongeling-names-1994), shows substantial Punic theophoric naming patterns in
 Numidian-period and Roman-period Berber populations. Names
 containing Punic theophoric elements (the *ʿbd*-Baal-Hammon
 compounds, the *bn*-Melqart and *bn*-Astarte compounds, the
@@ -232,10 +229,10 @@ as the principal royal capital, and substantively elaborated
 the Numidian-Punic elite religious and architectural traditions
 the surviving evidence documents.
 
-Masinissa's own bilingual cultural formation — Punic and
+Masinissa's own bilingual cultural formation (Punic and
 Numidian languages, Carthaginian and Massylii political-
 cultural networks, the Iberian-service phase that exposed
-him to Hellenistic military-court forms — produced a
+him to Hellenistic military-court forms) produced a
 political-cultural style that was substantively synthetic.
 His royal cult presented him through Hellenistic conventions
 (the deified-royal coinage iconography) while maintaining

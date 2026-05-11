@@ -2,9 +2,9 @@
 title: The Young Hannibal (247-219 BCE)
 scope: biography
 thesis: >
-  Hannibal Barca's first twenty-eight years — from his birth in
+  Hannibal Barca's first twenty-eight years, from his birth in
   247 BCE to his elevation to the Iberian command in 221 BCE
-  and his decision to besiege Saguntum in 219 BCE — are the
+  and his decision to besiege Saguntum in 219 BCE, are the
   formative period that produced the commander of the Italian
   campaign. The surviving record preserves enough to recover
   the broad shape: the Iberian formation under his father and
@@ -204,8 +204,8 @@ fifteen years required extensive supply, recruitment, and
 political management beyond the military command itself. The
 formation Hannibal had received under his father and brother-
 in-law had included this competence as part of the larger
-package. The Italian campaign's structural endurance — even
-in the face of the Roman strategy of containment — depends
+package. The Italian campaign's structural endurance, even
+in the face of the Roman strategy of containment, depends
 substantially on this formation.
 
 **The strategic decision to commit Carthage to war was not

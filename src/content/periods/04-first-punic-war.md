@@ -130,8 +130,8 @@ naval victory in the city's history. The engagement's strategic
 significance was as much psychological as tactical: it demonstrated that
 Carthaginian naval superiority could be contested. The
 [Battle of Cape Ecnomus](/events/battle-of-cape-ecnomus) in 256 BCE was
-the largest naval engagement of antiquity in the surviving record — by
-some counts the largest in any record before Lepanto in 1571 — with
+the largest naval engagement of antiquity in the surviving record, by
+some counts the largest in any record before Lepanto in 1571, with
 both fleets approaching three hundred ships. The Roman victory produced
 operational conditions for the
 [Regulus African expedition](/events/regulus-african-expedition).
@@ -146,8 +146,8 @@ expectation that pressure on Carthage itself would force terms. The
 expedition's initial phase succeeded — Regulus defeated Carthaginian
 forces in pitched engagement, took Tunis, and offered terms so
 exacting that the Carthaginian senate rejected them. The
-[Battle of White Tunis](/places/white-tunis) in spring 255 — fought
-under the Spartan mercenary commander Xanthippus — destroyed Regulus's
+[Battle of White Tunis](/places/white-tunis) in spring 255, fought
+under the Spartan mercenary commander Xanthippus, destroyed Regulus's
 army and ended the African operation.
 
 The expedition's failure is one of the period's structural moments. It
@@ -162,14 +162,13 @@ across Polybius's lost books and Roman annalistic tradition.
 
 ## The long Sicilian phase
 
-The war's middle period — from the late 250s through the late 240s —
-was a war of attrition fought in Sicily and at sea. Successive
+The war's middle period, from the late 250s through the late 240s, was a war of attrition fought in Sicily and at sea. Successive
 Carthaginian naval recoveries (the [Battle of Drepana](/events/battle-of-drepana)
 in 249 BCE was a substantial Carthaginian victory under the admiral
 Adherbal) alternated with Roman naval losses to weather and Roman
 recoveries to renewed shipbuilding. The Carthaginian commander
-[Hamilcar Barca](/people/hamilcar-barca) — appointed to Sicilian
-command in 247 BCE — conducted the long final phase from Mount Eryx in
+[Hamilcar Barca](/people/hamilcar-barca), appointed to Sicilian
+command in 247 BCE, conducted the long final phase from Mount Eryx in
 western Sicily, sustaining a guerrilla-style operation against Roman
 positions that the Roman field army could not dislodge.
 
@@ -180,8 +179,8 @@ surviving Roman record). The new Roman fleet under Gaius Lutatius
 Catulus engaged a Carthaginian relief fleet under
 [Hanno](/people/hanno-aegates) at the
 [Aegates Islands](/events/battle-of-aegates-islands) in March 241 BCE.
-The Carthaginian fleet — hastily assembled, weighted with supplies for
-Hamilcar's army, crewed by inexperienced rowers — was defeated. With
+The Carthaginian fleet (hastily assembled, weighted with supplies for
+Hamilcar's army, crewed by inexperienced rowers) was defeated. With
 supply lines severed and no realistic prospect of relieving Sicily,
 Hamilcar received authorization to negotiate terms.
 
@@ -206,11 +205,11 @@ partner. The Hannibalic generation grew up in the consequences of that
 loss.
 
 The closing engagement is unusually well documented archaeologically.
-The Marsala Punic Warship — recovered off Lilybaeum in 1971 — is the
+The Marsala Punic Warship, recovered off Lilybaeum in 1971, is the
 only surviving Punic-period warship hull anywhere, and is probably a
 casualty of the Aegates battle or the surrounding First Punic War
-operations. The Egadi Islands Bronze Warship Rams — twenty-seven
-recovered since 2010 from the seabed at the battle site — extend
+operations. The Egadi Islands Bronze Warship Rams, twenty-seven
+recovered since 2010 from the seabed at the battle site, extend
 the documentation dramatically, with rams identified to both
 Roman-built and Carthaginian vessels, V-shaped impact scratches
 preserving direct evidence of ram-against-ram engagement, and Punic

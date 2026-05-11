@@ -28,9 +28,9 @@ last_revised: "2026-05-10"
 
 Ask a casual reader what they know about Carthage, and there's a good
 chance they'll mention child sacrifice before they mention Hannibal.
-The image — a precinct outside a major Mediterranean city where
+The image, a precinct outside a major Mediterranean city where
 parents ritually killed their children to appease Baal Hammon and
-Tanit — is one of the most-cited single facts about the Punic
+Tanit, is one of the most-cited single facts about the Punic
 civilization in modern public reception. It is also one of the most-
 contested in modern scholarship.
 
@@ -71,14 +71,14 @@ the foundational question the rest of the controversy would inherit.
 **Plutarch's *De Superstitione*** (chapter 13) is shorter but more
 explicit: parents stood by while priests killed their children at the
 Tophet, with music played to drown out the cries. The framing is
-moral-philosophical — Plutarch is arguing that fear-driven religion
-produces moral horror — and the Carthaginian practice is the
+moral-philosophical, Plutarch is arguing that fear-driven religion
+produces moral horror, and the Carthaginian practice is the
 exemplary case. **Tertullian's *Apologeticus*** (9), written from
 North Africa some four centuries later but in the same hostile-
 literary tradition, gives a Christian-polemical version: the Roman
 proconsul of his day had crucified the priests of Baal Hammon for
-continuing the practice clandestinely. The detail is doubtful — no
-other source corroborates it — but the tradition's persistence is
+continuing the practice clandestinely. The detail is doubtful, no
+other source corroborates it, but the tradition's persistence is
 evidence of how thoroughly the systematic-sacrifice reading had
 consolidated by the late antique period.
 
@@ -98,8 +98,8 @@ thousands of small stone stelae bearing dedicatory inscriptions to
 Baal Hammon and (from the 5th century BCE forward) Tanit, with the
 Sign of Tanit and other iconographic motifs carved on the stones,
 and cremated remains in urns beneath the stelae. The remains were
-predominantly of very young individuals — neonates and small
-children — with smaller numbers of animal remains (typically lambs
+predominantly of very young individuals, neonates and small
+children, with smaller numbers of animal remains (typically lambs
 or kids) appearing at the same strata. Parallel deposits at the
 Tharros Tophet Stele site in Sardinia and at the broader
 Punic-cultural diaspora sites confirm the practice was not
@@ -118,8 +118,7 @@ implied substantial scale of practice.
 
 By the early 1980s, the systematic-sacrifice reading was
 substantively the consensus position in Phoenician-Punic studies. It
-was not unanimous — individual scholars had always been more cautious
-— but it was the position one took unless one had a specific reason
+was not unanimous, individual scholars had always been more cautious, but it was the position one took unless one had a specific reason
 to doubt it.
 
 ## The Moscati reframing
@@ -206,8 +205,8 @@ practice at *some* scale across at least part of the precinct's
 history is broadly accepted; the universal-systematic reading of
 the classical sources is no longer defensible.
 
-Modern overviews — **Hoyos** (2010), **Lancel** (1995), **Quinn**
-(2018) — generally report the controversy in roughly these terms,
+Modern overviews (**Hoyos** (2010), **Lancel** (1995), **Quinn**
+(2018)) generally report the controversy in roughly these terms,
 with individual emphasis varying by author. The encyclopedia's
 position, formalized as the editorial take
 [Did Tophet sacrifice happen, and at what scale?](/editorialTakes/tophet-happened-scale-unrecoverable),
@@ -215,8 +214,8 @@ is narrower than the loose "mixed-practice consensus" framing
 suggests: the practice happened (the bioarchaeology and the
 inscriptional *molk* formula together defeat the pure-cemetery
 reading), but the scale is unrecoverable. Confident statements in
-either direction — systematic mass sacrifice on the one hand, no
-sacrifice at all on the other — require ignoring evidence the
+either direction (systematic mass sacrifice on the one hand, no
+sacrifice at all on the other) require ignoring evidence the
 other side preserves. So do confident statements about specific
 proportions of sacrificial-versus-funerary deposits.
 

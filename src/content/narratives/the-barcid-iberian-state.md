@@ -6,7 +6,7 @@ thesis: >
   state-building undertaken with renewed war against Rome as a
   constant strategic orientation from its 237 BCE founding. The Barcids
   went to Iberia for Carthage's recovery and they built what they
-  built knowing — and intending — that the polity's eventual strategic
+  built knowing, and intending, that the polity's eventual strategic
   application would include confrontation with Rome. The state-
   building and the Rome-orientation were not parallel purposes that
   the project served in turn; they were intertwined from the start.
@@ -63,8 +63,8 @@ sovereign iconographic projection. They integrated Iberian aristocratic
 elites through marriage and treaty. They passed command dynastically
 through three generations of one family. They projected the visual
 and institutional forms of a Hellenistic-royal regime. The Italian
-campaign was an output of that polity — an important output, the
-output its founders had probably envisioned from the start — but it
+campaign was an output of that polity (an important output, the
+output its founders had probably envisioned from the start) but it
 was one output of several, and the polity that produced it was a
 polity in its own right rather than a nineteen-year preparatory
 operation.
@@ -97,17 +97,17 @@ the framing requires a counterfactual that cannot be assumed.
 Had the Saguntum siege and the Ebro Treaty dispute not triggered
 Roman intervention in 219–218, the Barcid Iberian state would have
 continued operating. Hannibal might have launched the Italian
-campaign anyway — Polybius 3.6–7 attributes the campaign's
+campaign anyway (Polybius 3.6–7 attributes the campaign's
 inevitability to the structural Roman-Carthaginian rivalry, not to
-any specific contingent trigger — but the *date* of the launch
+any specific contingent trigger) but the *date* of the launch
 depended on contingent factors that the Barcids did not fully
 control. The nineteen-year duration is duration of a polity
 operating, not duration of a build-up timed to a fixed launch.
 
 Polybius 3.13–17 gives the chronology and is not contested. The
-specific framing — "nineteen years of state-operation that
+specific framing, "nineteen years of state-operation that
 produced the conditions for the Italian campaign" rather than
-"nineteen years of build-up to the Italian campaign" — is the
+"nineteen years of build-up to the Italian campaign", is the
 site's reading rather than Polybius's.
 
 ## The colonial foundations
@@ -123,8 +123,8 @@ center for the southeastern Iberian operations.
 The project's defining foundation was
 [Carthago Nova](/places/carthago-nova), the New Carthage, founded
 by Hasdrubal the Fair on the southeastern Iberian coast in 228 BCE.
-Polybius 10.10–11 — preserved in the context of Scipio Africanus's
-209 BCE siege of the city — describes Carthago Nova at length: a
+Polybius 10.10–11, preserved in the context of Scipio Africanus's
+209 BCE siege of the city, describes Carthago Nova at length: a
 planned colonial city with a designed natural harbor, fortified
 landward and seaward approaches, residential quarters, a citadel
 on the hill above the harbor, administrative buildings, a sanctuary
@@ -133,16 +133,16 @@ a description of a polis, not of a war camp.
 
 The archaeological reconstruction confirms the literary record.
 The Spanish excavation program at Cartagena across the late
-twentieth and early twenty-first centuries — synthesized in
+twentieth and early twenty-first centuries, synthesized in
 [López Castro's *Hispania Poena* (1995)](/sources/lopez-castro-hispania-1995)
-and the subsequent specialist literature on Carthago Nova — has
+and the subsequent specialist literature on Carthago Nova, has
 documented the Barcid-period strata at the harbor, the residential
 quarters, and the administrative complex; the foundation pattern
 reads as a single planned project rather than as accreted
 expansion. A
-foundation on this pattern — designed in advance, built across
+foundation on this pattern (designed in advance, built across
 several years, integrating ritual and civic and economic functions
-in a single urban program — is the foundation pattern of a
+in a single urban program) is the foundation pattern of a
 Hellenistic royal regime declaring permanence. Antioch under
 Seleucus I, Alexandria under Ptolemy I, Demetrias under Demetrius
 Poliorcetes are the comparable patterns. Carthago Nova was built
@@ -159,9 +159,8 @@ did not need the successor regimes to make it a city.
 
 ## The coinage as state coinage
 
-The [Barcid Iberian Coinage](/artifacts/barcid-iberian-coinage) —
-the silver shekel series minted principally at Carthago Nova from
-228 BCE forward and at additional Iberian mints — is the project's
+The [Barcid Iberian Coinage](/artifacts/barcid-iberian-coinage), the silver shekel series minted principally at Carthago Nova from
+228 BCE forward and at additional Iberian mints, is the project's
 single most directly attested administrative output. The coinage
 has the formal characteristics of state coinage rather than
 campaign treasury: consistent denominations (full shekel,
@@ -192,7 +191,7 @@ state coinage announces who rules.
 The Barcid project's most distinctively political instrument was
 the integration of Iberian aristocratic elites into the apparatus
 through marriage and treaty. **Hasdrubal the Fair's marriage to
-an Iberian princess** — preserved in Diodorus 25.12 — was the
+an Iberian princess**, preserved in Diodorus 25.12, was the
 defining single act of the integration policy. The princess's
 name and the specific Iberian polity are not preserved; the
 marriage's *political* significance is preserved. It anchored a
@@ -201,9 +200,9 @@ participation in the Barcid administration enabled the management
 of southern and eastern Iberia far beyond what direct Punic
 administration could have achieved.
 
-The named Iberian polities — the [Olcades](/groups/olcades), the
+The named Iberian polities (the [Olcades](/groups/olcades), the
 [Vaccaei](/groups/vaccaei), the [Carpetani](/groups/carpetani),
-the [Lacetani](/groups/lacetani), and others — were not simply
+the [Lacetani](/groups/lacetani), and others) were not simply
 conquered. The surviving literary record (principally Polybius and
 Livy) attests treaty arrangements, alliance structures, tribute
 obligations, and contingent-troop provision. Iberian troops formed
@@ -239,8 +238,8 @@ constitutive.
 This is not the pattern of a senate-appointed expeditionary
 commander. A senate-appointed commander dies and is replaced by
 the next senate-appointed commander, with the senate choosing.
-The Barcid pattern — the army acclaiming a successor from within
-the family, the senate ratifying — is the pattern of a Hellenistic
+The Barcid pattern (the army acclaiming a successor from within
+the family, the senate ratifying) is the pattern of a Hellenistic
 royal house in formation, with the army's role in dynastic
 legitimacy analogous to the army's role in Macedonian and later
 Hellenistic succession. The Barcids were Carthaginian commanders
@@ -265,9 +264,8 @@ Greek; Hannibal's later eastern Mediterranean career deployed
 the same Hellenistic-court fluency that Iberian-period training
 had produced.
 
-The court-form projection is not the heaviest piece of evidence —
-much of it is inferred from later-attested practice rather than
-directly attested for the Iberian period — but it is consistent
+The court-form projection is not the heaviest piece of evidence, much of it is inferred from later-attested practice rather than
+directly attested for the Iberian period, but it is consistent
 with the broader pattern of state-building rather than war-camp
 operation.
 
@@ -290,8 +288,8 @@ substantively oriented toward eventual confrontation with Rome
 across the entire nineteen-year period.
 
 The Barcids never lost sight of Rome. They went to Iberia for
-Carthage's recovery — that is the Carthaginian-political mandate
-that justified the project to the senate — and they built what
+Carthage's recovery, that is the Carthaginian-political mandate
+that justified the project to the senate, and they built what
 they built knowing, and intending, that the polity's eventual
 strategic application would include renewed confrontation with
 Rome. The Rome orientation was not a secondary or later-emerging
@@ -307,8 +305,8 @@ capacity was calibrated against the war-fund the campaign would
 consume. The polity's specific characteristics are not generic
 Hellenistic-client-polity characteristics; they are the
 characteristics of a polity built with Rome in view. At each
-stage — Hamilcar's foundation phase, Hasdrubal's apparatus-
-building phase, Hannibal's pre-Italian campaigns — the state-
+stage (Hamilcar's foundation phase, Hasdrubal's apparatus-
+building phase, Hannibal's pre-Italian campaigns) the state-
 building outputs and the Rome-orientation strategic outputs were
 produced by the same acts.
 

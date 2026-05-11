@@ -88,8 +88,8 @@ The destruction of Carthage in spring 146 BCE is a single event with a
 fifty-year prelude. The Treaty of 201 was meant to permanently
 constrain the city; instead Carthage met its indemnity obligations
 and quietly rebuilt. By Cato's 153 BCE commission the city was
-visibly prosperous, and that prosperity — not any specific treaty
-violation — produced the strategic decision the demand sequence of
+visibly prosperous, and that prosperity, not any specific treaty
+violation, produced the strategic decision the demand sequence of
 149 BCE would convert into action.
 
 This thread walks the arc in chronological order. It crosses two

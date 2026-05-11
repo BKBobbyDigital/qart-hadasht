@@ -81,8 +81,8 @@ record.
 
 ## The Mercenary War
 
-The [Mercenary War](/events/mercenary-war) of 241-237 BCE — Polybius's
-*aspondos polemos*, "truceless war" — was the most existentially
+The [Mercenary War](/events/mercenary-war) of 241-237 BCE (Polybius's
+*aspondos polemos*, "truceless war") was the most existentially
 dangerous conflict Carthage faced before 149 BCE. Its proximate cause
 was Carthage's inability to pay accumulated back wages on the army's
 return from Sicily; its structural cause was the Libyan tribute and
@@ -149,13 +149,13 @@ in 237 BCE — over the parallel senatorial coalition under
 [Hanno the Great](/people/hanno-the-great) that opposed it.
 
 Across nineteen years (237–218 BCE) three successive Barcid
-commanders — Hamilcar, his son-in-law Hasdrubal the Fair, and
-Hamilcar's son Hannibal — held command in Iberia, founded planned
+commanders (Hamilcar, his son-in-law Hasdrubal the Fair, and
+Hamilcar's son Hannibal) held command in Iberia, founded planned
 colonial cities, issued the silver-shekel state coinage that
 funded the apparatus, integrated Iberian aristocratic polities
 through marriage and treaty, and prepared the army that would
-cross the Alps. What this period was — state-building enterprise,
-war-preparation operation, or some integration of both — is treated
+cross the Alps. What this period was (state-building enterprise,
+war-preparation operation, or some integration of both) is treated
 under the narrative
 [The Barcid Iberian state](/narratives/the-barcid-iberian-state)
 and the editorial take
@@ -167,8 +167,7 @@ conquest of southern Iberia, the foundation of Akra Leuke ("White
 Citadel," probably modern Alicante) as the first Barcid Iberian
 administrative center, and the establishment of the silver-mine
 revenue stream that would fund what followed. Hamilcar's
-[death at Helike](/events/death-of-hamilcar-at-helike) in 228 BCE
-— drowned during a withdrawal from a Vettonian ambush — closed
+[death at Helike](/events/death-of-hamilcar-at-helike) in 228 BCE, drowned during a withdrawal from a Vettonian ambush, closed
 the founding phase.
 
 Command passed to his son-in-law [Hasdrubal the Fair](/people/hasdrubal-the-fair),
@@ -182,9 +181,8 @@ residential and administrative quarters, sanctuary, mint), the
 marriage to an Iberian princess that anchored a network of
 aristocratic intermediaries, and the formalized treaty-and-tribute
 structures with the named Iberian polities of southern and eastern
-Iberia. The [Ebro Treaty](/events/ebro-treaty) of 226 BCE —
-Hasdrubal's negotiation with a Roman embassy concerned about the
-expanding Iberian apparatus — established the Ebro river as the
+Iberia. The [Ebro Treaty](/events/ebro-treaty) of 226 BCE, Hasdrubal's negotiation with a Roman embassy concerned about the
+expanding Iberian apparatus, established the Ebro river as the
 northern limit of Carthaginian operations. Whether the treaty also
 addressed [Saguntum](/places/saguntum)'s status as a Roman ally
 south of the Ebro is genuinely contested in the surviving sources
@@ -195,9 +193,9 @@ Hasdrubal's [assassination](/events/assassination-of-hasdrubal-the-fair)
 in 221 BCE produced the irregular succession to
 [Hannibal Barca](/people/hannibal-barca): command in Iberia passed
 by acclamation of the Iberian field army, with the Carthaginian
-senate ratifying after the fact. The pattern — third successive
+senate ratifying after the fact. The pattern (third successive
 dynastic transmission within one family, the field army
-constituting the legitimating body rather than the senate — is the
+constituting the legitimating body rather than the senate) is the
 pattern of a Hellenistic-pattern royal house in formation rather
 than of a senate-appointed expeditionary command. It is one of the
 clearest single pieces of evidence for the state-building reading
@@ -232,10 +230,10 @@ The [Olcades campaign](/events/hannibals-olcades-campaign) of 221
 established his independent command authority; the
 [Vaccaei campaign](/events/hannibals-vaccaei-campaign) of 220 extended
 operations far beyond previous Barcid expeditions; and the
-[Battle of the Tagus](/events/battle-of-the-tagus) in 220 — the
+[Battle of the Tagus](/events/battle-of-the-tagus) in 220 (the
 defeat of a Carpetani-Vaccaei-Olcadian coalition Polybius reports at
 100,000 through a textbook river-line manoeuvre with elephant screen
-and Numidian cavalry envelopment — eliminated the principal organized
+and Numidian cavalry envelopment) eliminated the principal organized
 Iberian opposition to Carthaginian expansion.
 
 The Tagus engagement reads, on the modern reconstruction, as the
@@ -253,9 +251,9 @@ and MacDonald rather than directly attested in the ancient sources.
 
 The period closes with the diplomatic sequence that opened the Second
 Punic War: the [siege of Saguntum](/events/siege-of-saguntum) in 219
-BCE — Hannibal's eight-month siege and destruction of a Roman ally,
+BCE (Hannibal's eight-month siege and destruction of a Roman ally,
 formally consistent with the Ebro Treaty's geographic terms but
-contested under the Saguntine-immunity question — followed by the
+contested under the Saguntine-immunity question) followed by the
 [Roman embassy](/events/roman-embassy-to-hannibal-219) of 219 BCE to
 Hannibal's siege camp and to the Carthaginian senate. The embassy's
 failure produced the second embassy of spring 218 BCE and the
@@ -264,9 +262,9 @@ failure produced the second embassy of spring 218 BCE and the
 By spring 218, the inter-war period was over. The Carthaginian state
 that emerged from the Mercenary War was substantially the Carthaginian
 state that would fight the Second Punic War, but its strategic
-configuration had been reshaped — through the Iberian conquest, through
+configuration had been reshaped (through the Iberian conquest, through
 the Barcid family's accumulated political authority, through the
-Sardinian grievance — into something the post-Lutatius generation
+Sardinian grievance) into something the post-Lutatius generation
 could not have predicted. Hannibal's army was already mobilizing for
 the Italian campaign that would test the limits of what the
 Carthaginian state could project.

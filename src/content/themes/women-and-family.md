@@ -6,8 +6,7 @@ summary: >
   thin and filters principally through two sources: the Greco-Roman
   literary tradition, which names a handful of elite women in
   connection with major military-political events; and the
-  inscriptional record, which preserves hundreds of female names —
-  donors, priestesses, family members, funerary commemorands — but
+  inscriptional record, which preserves hundreds of female names (donors, priestesses, family members, funerary commemorands) but
   rarely substantive biographies. What can be reconstructed from
   these two bodies of evidence is a partial picture of ritual,
   familial, and economic participation by Carthaginian women across
@@ -96,7 +95,7 @@ threw herself into the flames. The episode is dramatic and
 substantially shaped by the Greco-Roman literary tradition's
 interest in noble-suicide *exempla* (parallel patterns appear in
 many siege-narrative endings). The historicizable kernel is that
-*someone* — the commander's wife and children — died at the
+*someone*, the commander's wife and children, died at the
 Eshmun temple at the assault's climax; the speech and the framing
 are literary embellishment of varying weight.
 
@@ -111,8 +110,8 @@ policy and Hannibal's continuation of it; see the
 [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state)
 for the marriage-as-state-building-infrastructure framing.
 
-**Barcid daughters.** Hamilcar Barca's daughters — none named in
-the surviving record — appear in passing as marriage instruments
+**Barcid daughters.** Hamilcar Barca's daughters, none named in
+the surviving record, appear in passing as marriage instruments
 of Barcid political integration. One married Hasdrubal the Fair,
 making him Hamilcar's son-in-law and the successor in command;
 another married Naravas the Numidian during the Mercenary War to
@@ -135,7 +134,7 @@ The pattern in the literary record is structural. Women are
 named when their marriages, suicides, or political acts
 intersect directly with major events the Greek and Roman
 tradition cared about. Women whose lives did not intersect with
-these events — that is, almost all Carthaginian women — are
+these events (that is, almost all Carthaginian women) are
 unnamed in the surviving literary tradition.
 
 ## The inscriptional record
@@ -176,7 +175,7 @@ particularly in connection with the Tanit cult. Female priestess
 titles also appear in other Phoenician-Punic contexts (the
 Astarte priesthood at Sidon, parallel offices in the colonial
 network). What the priestess actually did in cult practice is
-largely unrecoverable — we have titles, not duties — but the
+largely unrecoverable (we have titles, not duties) but the
 existence of formal female religious office is firmly
 documented.
 
@@ -243,17 +242,17 @@ Antigonid-Seleucid-Attalid network), the Numidian and Iberian
 aristocracies operated comparably, and the broader Mediterranean
 elite pattern was substantially the same. What the Carthaginian
 evidence specifically documents is that this system involved
-Carthaginian women as substantive participants — capable of
+Carthaginian women as substantive participants, capable of
 politically consequential action within the marriage structures
-(Sophonisba's Masinissa-realignment, for example) — even though
+(Sophonisba's Masinissa-realignment, for example), even though
 the surviving record frames their actions through male-political
 narrative.
 
 The non-elite marriage-and-family picture is essentially not
 recoverable from the surviving evidence. Ordinary Punic marriage
-practice — whom people married, at what age, with what social-
+practice (whom people married, at what age, with what social-
 economic implications, what the legal and customary framework
-was — survives only in fragmentary inferences from the
+was) survives only in fragmentary inferences from the
 inscriptional record (theophoric naming patterns, funerary
 commemoration patterns) and from comparative Phoenician
 homeland evidence (the Marseille and Carthage Tariffs, the
@@ -306,9 +305,9 @@ Carthaginian women's lives is the area where the archaeological
 record is densest, even though individual women remain
 unnamed within that record.
 
-The internal power relations of Carthaginian households — who
+The internal power relations of Carthaginian households (who
 made decisions, how labor was divided, what the customary
-framework of authority looked like — are not directly
+framework of authority looked like) are not directly
 recoverable from the surviving evidence. Comparative
 Phoenician-Mediterranean material suggests broad patterns
 typical of the wider region, but specifically Carthaginian
@@ -342,9 +341,9 @@ Carthaginian women's situation paralleled this is conjectural.
 
 **Non-elite women's lives.** The surviving evidence is
 overwhelmingly elite-focused. What ordinary Punic women did
-day-to-day — agricultural labor, market activity, domestic
+day-to-day (agricultural labor, market activity, domestic
 production, religious practice beyond the formal Tophet
-dedications — is fragmentary at best. Mago's agronomic fragments
+dedications) is fragmentary at best. Mago's agronomic fragments
 imply substantial female labor on agricultural estates but do
 not document it. The vast majority of Punic women's lives are
 not directly attested in any genre of surviving evidence.
@@ -376,8 +375,8 @@ patriarchal-oppression projection but as the honest reality
 of working with a source-survival pattern that does not
 preserve what we would want to know.
 
-This pattern is not unique to Carthage — it is the standard
-ancient-Mediterranean source-survival situation — but the
+This pattern is not unique to Carthage, it is the standard
+ancient-Mediterranean source-survival situation, but the
 Carthaginian case is particularly severe because so much of
 the broader Punic literary tradition is lost. The
 [open question on the evidence gap](/openQuestions/punic-womens-lives-evidence-gap)
@@ -401,9 +400,9 @@ post-146 period. The inscriptional corpus
 primary-evidence base, with the Tophet stelae being the
 single largest body of direct evidence.
 
-Recent specialist work — the broader research direction on
+Recent specialist work (the broader research direction on
 gender and Phoenician studies, the Spanish-school
 prosopographical-archaeological work, Bonnet's continuing
-contributions — has expanded what's recoverable but has not
+contributions) has expanded what's recoverable but has not
 fundamentally altered the structural evidence-base
 limitations.

@@ -4,8 +4,8 @@ scope: biography
 thesis: >
   The Ilergetes brothers Indibilis and Mandonius are the principal
   Iberian historical figures of the Second Punic War with substantial
-  surviving documentation, and their three-phase career — Carthaginian
-  ally, Roman ally, anti-Roman rebel — is the single clearest
+  surviving documentation, and their three-phase career (Carthaginian
+  ally, Roman ally, anti-Roman rebel) is the single clearest
   surviving evidence that the war's Iberian theatre was a war among
   three powers rather than a binary contest between two metropolitan
   ones. The Greco-Latin sources frame their side-switching through
@@ -34,9 +34,9 @@ theatre is structurally Roman-Carthaginian: the war is a contest
 between two metropolitan powers, with Iberian peoples appearing as
 auxiliaries, mercenaries, or terrain. The Indibilis-Mandonius career
 is the surviving record's clearest counterweight. The brothers'
-fifteen-year political life — from their first appearance as Carthaginian
+fifteen-year political life, from their first appearance as Carthaginian
 allies in 218 BCE through their joint death in the Ilergetes revolt of
-205 — preserves the Iberian-side-of-the-war perspective that the
+205, preserves the Iberian-side-of-the-war perspective that the
 metropolitan-source bias otherwise obscures.
 
 ## Origins and the Carthaginian phase
@@ -59,8 +59,8 @@ Second Punic War's Iberian theatre. Their forces participated in
 Carthaginian operations against the Roman expeditionary armies under
 the elder Scipios (Publius and Gnaeus, Scipio Africanus's father and
 uncle) across the period from 218 to 211 BCE. The surviving sources
-preserve the brothers in a paired narrative throughout — Indibilis as
-the senior military commander, Mandonius as the diplomat-envoy — that
+preserve the brothers in a paired narrative throughout (Indibilis as
+the senior military commander, Mandonius as the diplomat-envoy) that
 matches the typical Mediterranean tribal-confederation pattern.
 
 The first crisis came in 211 BCE, when the elder Scipios were killed
@@ -167,9 +167,9 @@ Mandonius's death is preserved with particular detail in the
 surviving sources. Captured during or after the battle, he attempted
 to negotiate surrender terms with the Roman commanders. The
 commanders, after some deliberation, ordered his crucifixion. The
-choice — capture rather than battlefield death, attempted negotiation
+choice (capture rather than battlefield death, attempted negotiation
 rather than continued resistance, execution rather than the
-alternatives the senior brother had achieved — preserves the
+alternatives the senior brother had achieved) preserves the
 diplomat-envoy role Mandonius had played throughout the brothers'
 career. The pattern even at death.
 
@@ -195,8 +195,8 @@ the Iberian-agency reading as the better-supported, while
 acknowledging that it is a reframing of the surviving evidence
 rather than a position the ancient sources themselves articulate.
 
-The brothers' fate — Indibilis killed in battle, Mandonius captured
-and crucified — closed the Ilergetes confederation as an independent
+The brothers' fate (Indibilis killed in battle, Mandonius captured
+and crucified) closed the Ilergetes confederation as an independent
 political entity. Roman administration of Iberia continued through
 the second century BCE without producing equivalent figures, but the
 patterns the brothers had navigated would recur: Roman commanders

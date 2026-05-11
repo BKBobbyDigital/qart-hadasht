@@ -159,10 +159,9 @@ But the post-war period also produced the political
 opposition that would eventually drive him from public life.
 Cato the Elder, who would later be the principal advocate of
 Carthage's destruction, was Africanus's principal political
-opponent through the 180s BCE. The "Trials of the Scipios" —
-the series of prosecutions launched against Africanus and
+opponent through the 180s BCE. The "Trials of the Scipios", the series of prosecutions launched against Africanus and
 his brother Lucius in the late 180s BCE on charges of
-financial irregularity in the Antiochene war — were
+financial irregularity in the Antiochene war, were
 politically motivated and Cato-aligned. The legal-procedural
 details are imperfectly preserved; the political outcome was
 clear: Africanus withdrew from public life and retired to

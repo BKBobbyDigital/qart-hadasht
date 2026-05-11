@@ -105,8 +105,8 @@ campaign. The Greco-Latin sources foreground the Italian theatre and
 the African endgame; the Iberian theatre is what made both possible
 and what eventually denied the war's sustainment.
 
-This thread walks the theatre's full arc — from Hamilcar's 237 BCE
-landing through the Ilergetes revolt of 205 — with attention both to
+This thread walks the theatre's full arc, from Hamilcar's 237 BCE
+landing through the Ilergetes revolt of 205, with attention both to
 the metropolitan Carthaginian-Roman story and to the Iberian agency
 the surviving sources structurally underweight. The brothers
 [Indibilis](/people/indibilis) and [Mandonius](/people/mandonius)
