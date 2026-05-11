@@ -118,10 +118,28 @@
       ensureUi();
       if (typeof dialog.showModal === 'function') {
         dialog.showModal();
+        if (window.qhTrack) window.qhTrack('search-opened');
         // Defer focus to the search input so users can type immediately.
         requestAnimationFrame(() => {
           const input = mountTarget.querySelector('input');
           if (input) input.focus();
+          // Track first-character typed as a "search query started" event
+          // (anonymized — we don't send the actual query text, only that
+          // a search was performed). Once per modal open.
+          if (input && !input.dataset.qhTrackBound) {
+            input.dataset.qhTrackBound = 'yes';
+            let queryFired = false;
+            input.addEventListener('input', () => {
+              if (queryFired) return;
+              if (input.value.length >= 2) {
+                queryFired = true;
+                if (window.qhTrack) window.qhTrack('search-query');
+              }
+            });
+            dialog.addEventListener('close', () => {
+              queryFired = false;
+            });
+          }
         });
       } else {
         // Fallback for very old browsers

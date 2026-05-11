@@ -126,6 +126,17 @@ const payload = JSON.stringify({ chicago, apa, mla, bibtex, ris });
 </details>
 
 <script is:inline>
+  // Track when the Cite this page panel is opened (details element
+  // toggle). Each panel fires its own 'toggle' event.
+  document.querySelectorAll('details > summary').forEach((summary) => {
+    const details = summary.parentElement;
+    if (!details || !details.querySelector('[data-cite-payload]')) return;
+    details.addEventListener('toggle', () => {
+      if (details.open && window.qhTrack) window.qhTrack('cite-panel-open');
+    });
+  });
+
+  // Track copy clicks per format, do the actual copy.
   document.addEventListener('click', (e) => {
     const btn = e.target instanceof Element ? e.target.closest('button[data-cite-copy]') : null;
     if (!btn) return;
@@ -142,6 +153,7 @@ const payload = JSON.stringify({ chicago, apa, mla, bibtex, ris });
         const original = btn.textContent;
         btn.textContent = 'Copied ✓';
         setTimeout(() => { btn.textContent = original; }, 1400);
+        if (window.qhTrack) window.qhTrack('cite-copy', format);
       });
     }
   });
