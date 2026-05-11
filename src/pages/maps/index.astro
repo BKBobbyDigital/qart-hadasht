@@ -48,50 +48,23 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </p>
       <ul class="space-y-3 text-sand-900 leading-relaxed">
         <li>
-          <a class="font-medium underline decoration-tyrian-500 underline-offset-2 hover:text-tyrian-700" href="/periods/04-first-punic-war-264-241">
-            First Punic War strategic map
-          </a>
-          — on the period 04 page and on the
+          <span class="font-medium">First Punic War strategic map</span>
+          — on the
           <a class="underline decoration-tyrian-500 underline-offset-2" href="/events/first-punic-war">First Punic War event page</a>.
         </li>
         <li>
-          <a class="font-medium underline decoration-tyrian-500 underline-offset-2 hover:text-tyrian-700" href="/periods/06-second-punic-war-218-201">
-            Second Punic War strategic map
-          </a>
-          — on the period 06 page and on the
+          <span class="font-medium">Second Punic War strategic map</span>
+          — on the
           <a class="underline decoration-tyrian-500 underline-offset-2" href="/events/second-punic-war">Second Punic War event page</a>.
           Shows Hannibal's Pyrenees-Rhône-Alps route as a dashed line
           alongside the major theaters.
         </li>
         <li>
-          <a class="font-medium underline decoration-tyrian-500 underline-offset-2 hover:text-tyrian-700" href="/periods/07-numidian-period-and-destruction-201-146">
-            Third Punic War strategic map
-          </a>
-          — zoomed to Cap Bon and the siege geography. On the period
-          07 page and on the
+          <span class="font-medium">Third Punic War strategic map</span>
+          — zoomed to Cap Bon and the siege geography. On the
           <a class="underline decoration-tyrian-500 underline-offset-2" href="/events/third-punic-war">Third Punic War event page</a>.
         </li>
       </ul>
-    </section>
-
-    <section class="mt-10 border-t border-sand-300 pt-6">
-      <h2 class="eyebrow mb-3">How the maps are made</h2>
-      <p class="text-sand-900 leading-relaxed">
-        Each map is a server-side-rendered SVG built from a JSON
-        configuration plus Natural Earth 50m coastline data. The
-        coastline is clipped to the Mediterranean basin (lon −12 to 36,
-        lat 28 to 47) and projected equirectangular with longitude
-        scaled by cos(centerLat). Polygons, route lines, and city
-        markers are drawn on top of the coastline base; no tiles, no
-        client-side mapping library. The territorial-extent map's
-        date toggle is the one client-side script in the system
-        (~15 lines, vanilla JS) and toggles which SVG state group is
-        visible. Polygon coordinates are scholarly approximations
-        derived by visual reference to standard reference maps
-        (Aubet, Lancel, Hoyos, MacDonald); the
-        <a class="underline decoration-tyrian-500 underline-offset-2" href="/maps/extent-over-time">extent-over-time page</a>
-        documents the methodology in its own right.
-      </p>
     </section>
   </article>
 </BaseLayout>
