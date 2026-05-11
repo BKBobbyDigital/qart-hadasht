@@ -1,62 +1,81 @@
 ---
 /**
- * Cards / Table view toggle for index pages.
+ * Cards / Table / Timeline view toggle for index pages.
  *
- * Renders a pill-style two-button toggle. Persists the user's choice in
- * localStorage under `qh.indexView` so it sticks across sessions and pages.
+ * Renders a pill-style toggle with one button per view passed in via the
+ * `views` prop. Persists the user's choice in localStorage under
+ * `qh.indexView` so it sticks across sessions and pages.
  *
  * Pages using this component should structure markup as:
  *   <div data-view-container>
- *     <IndexViewToggle />
+ *     <IndexViewToggle views={['cards', 'table', 'timeline']} />
  *     <div data-view-cards>...cards...</div>
  *     <div data-view-table>...table...</div>
+ *     <div data-view-timeline>...timeline...</div>
  *   </div>
  *
  * The shared script below toggles which child is visible based on the
- * `data-view` attribute on the container. Cards are the default.
+ * `data-view` attribute on the container.
  */
+type ViewName = 'cards' | 'table' | 'timeline';
+interface Props {
+  views?: ViewName[];
+}
+const { views = ['cards', 'table'] } = Astro.props;
+const labels: Record<ViewName, string> = {
+  cards: 'Cards',
+  table: 'Table',
+  timeline: 'Timeline',
+};
 ---
 
 <div class="hidden sm:flex justify-end mb-4">
   <div class="inline-flex border border-sand-300 rounded-full p-0.5 bg-sand-50 text-xs">
-    <button
-      type="button"
-      data-view-button="cards"
-      class="px-3 py-1 rounded-full uppercase tracking-wider font-semibold transition-colors"
-      aria-label="Card view"
-    >
-      Cards
-    </button>
-    <button
-      type="button"
-      data-view-button="table"
-      class="px-3 py-1 rounded-full uppercase tracking-wider font-semibold transition-colors"
-      aria-label="Table view"
-    >
-      Table
-    </button>
+    {views.map((v) => (
+      <button
+        type="button"
+        data-view-button={v}
+        class="px-3 py-1 rounded-full uppercase tracking-wider font-semibold transition-colors"
+        aria-label={`${labels[v]} view`}
+      >
+        {labels[v]}
+      </button>
+    ))}
   </div>
 </div>
 
 <style is:global>
-  /* The two view subtrees both render to the DOM; the container's data-view
-     attribute decides which is visible. */
-  [data-view-container][data-view='cards'] [data-view-table] { display: none; }
-  [data-view-container][data-view='table'] [data-view-cards] { display: none; }
+  /* View subtrees both render to the DOM; the container's data-view
+     attribute decides which is visible. Default-hide all non-active
+     subtrees, then explicitly un-hide the active one. */
+  [data-view-container][data-view='cards']    [data-view-table],
+  [data-view-container][data-view='cards']    [data-view-timeline],
+  [data-view-container][data-view='table']    [data-view-cards],
+  [data-view-container][data-view='table']    [data-view-timeline],
+  [data-view-container][data-view='timeline'] [data-view-cards],
+  [data-view-container][data-view='timeline'] [data-view-table] { display: none; }
 
   /* Active button state */
-  [data-view-container][data-view='cards'] [data-view-button='cards'],
-  [data-view-container][data-view='table'] [data-view-button='table'] {
+  [data-view-container][data-view='cards']    [data-view-button='cards'],
+  [data-view-container][data-view='table']    [data-view-button='table'],
+  [data-view-container][data-view='timeline'] [data-view-button='timeline'] {
     background-color: #5b0f31; /* tyrian-700 */
     color: white;
   }
-  [data-view-container][data-view='cards'] [data-view-button='table'],
-  [data-view-container][data-view='table'] [data-view-button='cards'] {
-    color: #6b5638; /* sand-700 */
+  /* Inactive button styling */
+  [data-view-container] [data-view-button] { color: #6b5638; /* sand-700 */ }
+  [data-view-container][data-view='cards']    [data-view-button='cards'],
+  [data-view-container][data-view='table']    [data-view-button='table'],
+  [data-view-container][data-view='timeline'] [data-view-button='timeline'] {
+    color: white;
   }
-  [data-view-container][data-view='cards'] [data-view-button='table']:hover,
-  [data-view-container][data-view='table'] [data-view-button='cards']:hover {
+  [data-view-container] [data-view-button]:hover {
     background-color: #f4ede0; /* sand-100 */
+  }
+  [data-view-container][data-view='cards']    [data-view-button='cards']:hover,
+  [data-view-container][data-view='table']    [data-view-button='table']:hover,
+  [data-view-container][data-view='timeline'] [data-view-button='timeline']:hover {
+    background-color: #5b0f31; /* keep active button tyrian on hover */
   }
 
   /* Sortable table headers */
@@ -103,16 +122,25 @@
     }
 
     function setupContainer(container) {
+      // Discover which views this container actually supports from the
+      // buttons rendered. Any stored value outside this set falls back to
+      // the first available view.
+      const supported = new Set(
+        Array.from(container.querySelectorAll('[data-view-button]'))
+          .map((b) => b.getAttribute('data-view-button'))
+          .filter(Boolean)
+      );
       const stored = (() => {
         try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
       })();
-      const initial = stored === 'table' || stored === 'cards' ? stored : 'cards';
+      const fallback = supported.has('cards') ? 'cards' : (supported.values().next().value || 'cards');
+      const initial = stored && supported.has(stored) ? stored : fallback;
       applyView(container, initial);
 
       container.querySelectorAll('[data-view-button]').forEach((btn) => {
         btn.addEventListener('click', () => {
           const view = btn.getAttribute('data-view-button');
-          if (view !== 'cards' && view !== 'table') return;
+          if (!view || !supported.has(view)) return;
           applyView(container, view);
           try { localStorage.setItem(STORAGE_KEY, view); } catch { /* noop */ }
         });

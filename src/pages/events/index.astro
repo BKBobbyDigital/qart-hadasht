@@ -8,6 +8,64 @@ const allEvents = (await getCollection('events')).sort(
   (a, b) => a.data.date_start.value - b.data.date_start.value
 );
 
+// ─── Timeline view derivations ────────────────────────────────────────────────
+// Bucket events into the 7 site periods using each period's start/end year,
+// then within each period group by start year. Each timeline row is a single
+// event with its type badge + name + brief outcome (or summary head).
+const allPeriods = (await getCollection('periods')).sort((a, b) =>
+  a.data.start_year - b.data.start_year
+);
+
+type TimelineEvent = (typeof allEvents)[number];
+type TimelineEra = {
+  period: (typeof allPeriods)[number];
+  yearBuckets: { year: number; events: TimelineEvent[] }[];
+};
+
+// Half-open intervals: each period covers [start_year, end_year). Adjacent
+// periods share a boundary year (e.g. period 5 ends in 218, period 6 starts
+// in 218); events at the boundary belong to the LATER period (the war
+// rather than the inter-war). The last period gets its boundary year
+// included so the corpus doesn't drop events at the final endpoint.
+const lastPeriodIdx = allPeriods.length - 1;
+const timelineEras: TimelineEra[] = allPeriods.map((p, idx) => {
+  const isLast = idx === lastPeriodIdx;
+  const inRange = allEvents.filter((e) => {
+    const start = e.data.date_start.value;
+    if (start < p.data.start_year) return false;
+    return isLast ? start <= p.data.end_year : start < p.data.end_year;
+  });
+  const byYear = new Map<number, TimelineEvent[]>();
+  for (const e of inRange) {
+    const y = e.data.date_start.value;
+    if (!byYear.has(y)) byYear.set(y, []);
+    byYear.get(y)!.push(e);
+  }
+  const yearBuckets = Array.from(byYear.entries())
+    .sort((a, b) => a[0] - b[0])
+    .map(([year, events]) => ({ year, events }));
+  return { period: p, yearBuckets };
+});
+
+// Events outside every period bucket (defensive — shouldn't happen if
+// period ranges cover the corpus, but surface anything that falls through).
+const erapedIds = new Set(
+  timelineEras.flatMap((era) => era.yearBuckets.flatMap((y) => y.events.map((e) => e.id)))
+);
+const orphanEvents = allEvents.filter((e) => !erapedIds.has(e.id));
+
+// Short outcome / summary head for the one-line entry.
+function eventLineSummary(e: TimelineEvent): string {
+  if ((e.data as any).outcome) return (e.data as any).outcome;
+  const summary = e.data.summary ?? '';
+  const firstSentence = summary.split(/\.\s+/)[0];
+  return firstSentence.length > 140 ? firstSentence.slice(0, 137) + '…' : firstSentence;
+}
+
+function fmtYear(v: number): string {
+  return v < 0 ? `${Math.abs(v)} BCE` : `${v} CE`;
+}
+
 // Identify wars and the events they contain (via related_events).
 const warEvents = allEvents.filter((e) => e.data.type === 'war');
 const phaseEventIds = new Set<string>();
@@ -63,7 +121,7 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
   <div class="max-w-4xl mx-auto px-6 py-12" data-view-container>
     <div class="flex items-baseline justify-between gap-4 mb-3">
       <h1 class="font-serif text-4xl sm:text-5xl">Events</h1>
-      <IndexViewToggle />
+      <IndexViewToggle views={['cards', 'table', 'timeline']} />
     </div>
     <p class="text-sand-700 mb-8 max-w-2xl">
       Listed chronologically. Wars are highlighted with their phase
@@ -124,6 +182,102 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
         );
       })}
     </ul>
+    </div>
+
+    <div data-view-timeline class="relative lg:grid lg:grid-cols-[minmax(0,1fr)_180px] lg:gap-8">
+      <div class="min-w-0">
+        {timelineEras.map((era) => {
+          const periodSlug = era.period.id.replace(/\.md$/, '');
+          const anchorId = `era-${periodSlug}`;
+          return (
+            <section class="mb-12 scroll-mt-8" id={anchorId}>
+              <a href={`/periods/${periodSlug}`} class="block group">
+                <p class="eyebrow mb-1">{fmtYear(era.period.data.start_year)} – {fmtYear(era.period.data.end_year)}</p>
+                <h2 class="font-serif text-2xl sm:text-3xl text-tyrian-900 group-hover:text-tyrian-700 transition-colors mt-0 mb-1 tracking-tight" style="border-top: none; padding-top: 0;">
+                  {era.period.data.title}
+                </h2>
+              </a>
+              {era.yearBuckets.length === 0 ? (
+                <p class="text-sm text-sand-700 italic mt-3">No events catalogued in this period yet.</p>
+              ) : (
+                <div class="mt-5 space-y-5">
+                  {era.yearBuckets.map((bucket) => (
+                    <div class="scroll-mt-8" id={`year-${Math.abs(bucket.year)}`}>
+                      <div class="flex items-baseline gap-3 mb-1.5">
+                        <h3 class="font-serif text-lg text-tyrian-700 tabular-nums tracking-tight" style="margin: 0; padding: 0; border: none;">
+                          {fmtYear(bucket.year)}
+                        </h3>
+                        <span class="text-xs text-sand-500 tabular-nums">
+                          {bucket.events.length} event{bucket.events.length === 1 ? '' : 's'}
+                        </span>
+                      </div>
+                      <ul class="space-y-1.5 pl-0 list-none">
+                        {bucket.events.map((e) => (
+                          <li class="flex items-baseline gap-2.5 text-sm">
+                            <span class="text-sand-400 shrink-0">▸</span>
+                            <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded shrink-0 ${typeBadgeStyle(e.data.type)}`}>
+                              {e.data.type}
+                            </span>
+                            <span class="min-w-0">
+                              <a href={`/events/${e.id}`} class="font-serif text-base text-tyrian-700 hover:underline">{e.data.name}</a>
+                              {eventLineSummary(e) && (
+                                <span class="text-sand-700"> — {eventLineSummary(e)}</span>
+                              )}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </section>
+          );
+        })}
+        {orphanEvents.length > 0 && (
+          <section class="mb-12">
+            <h2 class="font-serif text-2xl text-sand-700 mt-0 mb-2 tracking-tight" style="border-top: none; padding-top: 0;">
+              Other events
+            </h2>
+            <p class="text-sm text-sand-700 italic mb-3">
+              Events whose dates fall outside the seven period ranges; surfaced
+              here so they don't go missing.
+            </p>
+            <ul class="space-y-1.5 pl-0 list-none">
+              {orphanEvents.map((e) => (
+                <li class="flex items-baseline gap-2.5 text-sm">
+                  <span class="text-sand-400 shrink-0">▸</span>
+                  <span class="text-xs text-sand-700 tabular-nums shrink-0">{fmtYear(e.data.date_start.value)}</span>
+                  <span class="min-w-0">
+                    <a href={`/events/${e.id}`} class="font-serif text-base text-tyrian-700 hover:underline">{e.data.name}</a>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+
+      <!-- Sticky era-jump nav on the right rail, desktop only. -->
+      <aside class="hidden lg:block">
+        <nav class="sticky top-8 text-xs">
+          <p class="eyebrow mb-2">Jump to era</p>
+          <ul class="space-y-1.5">
+            {timelineEras.map((era) => {
+              const periodSlug = era.period.id.replace(/\.md$/, '');
+              return (
+                <li>
+                  <a href={`#era-${periodSlug}`} class="block text-sand-700 hover:text-tyrian-700 leading-snug">
+                    <span class="tabular-nums text-[11px] text-sand-500">{fmtYear(era.period.data.start_year)}</span>
+                    <br />
+                    <span class="font-medium">{era.period.data.title}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      </aside>
     </div>
 
     <div data-view-table class="overflow-x-auto">
