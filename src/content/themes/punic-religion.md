@@ -167,6 +167,27 @@ Bead corpus — small protective objects deposited in tombs that
 extend Carthaginian religion beyond the state-sanctuary and Tophet
 contexts into the domestic register.
 
+## Religion as lived practice
+
+The pantheon-and-Tophet treatment here is necessarily weighted
+toward what the inscriptional and literary records preserve most
+clearly. The practice-side dimension of Punic religion — the
+festival calendar, the priestly hierarchy in operation, the vow
+and votive practice, the sanctuary network, the household and
+domestic-religious infrastructure, the mortuary religion — is
+treated in its own right under the
+[Punic religious practice narrative](/narratives/punic-religious-practice).
+That treatment leads with the Marseille and Carthage Tariff
+inscriptions for the cult-fee administration; the Kerkouane
+domestic-quarter excavations for the household register; the
+grinning mask and glass face bead corpora for the apotropaic
+dimension; and the surviving Greco-Roman literary record (read
+past its hostile framing) for the festival cycle. The aggregate
+picture is of a religious system as fully developed and as
+deeply institutionalized as the contemporary Greek and Roman
+religious systems, with the asymmetry of the surviving record
+substantially understating what the religion operationally was.
+
 ## Sources
 
 The principal modern syntheses are Lancel 1995, MacDonald 2015, and the

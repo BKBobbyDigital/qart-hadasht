@@ -163,6 +163,22 @@ material on managing slave labor, but the surviving fragments
 are weighted toward technical agriculture rather than labor
 relations.
 
+## The landscape itself
+
+Mago's treatise is the load-bearing literate-tradition evidence for
+Carthaginian agricultural science, but the agricultural landscape
+that produced the Carthaginian surplus is treated in its own right
+under the
+[Carthaginian agricultural landscape narrative](/narratives/the-carthaginian-agricultural-landscape).
+That treatment leads with the Cap Bon peninsula, the Medjerda
+valley, the coastal plain, and the steppe transitional zone; it
+covers the Kerkouane archaeological evidence base for non-elite
+rural life; it treats the estate system, the dependent Libyan
+agricultural population, the post-201 BCE contraction and
+intensification, and the substantial agricultural continuity into
+Roman Africa. The narrative is the practical-landscape companion
+to the Magonic literate-tradition material here.
+
 ## Sources
 
 The principal modern treatments are Devillers and Krings,

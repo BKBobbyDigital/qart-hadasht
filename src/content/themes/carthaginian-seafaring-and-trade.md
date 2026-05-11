@@ -179,6 +179,24 @@ narrative into the post-Carthaginian period and documents the
 late-Hellenistic trade routes that ran through what had been
 Carthage's commercial sphere.
 
+## Naval institutional structure
+
+The institutional dimension of Carthaginian sea power — the cothon
+basin infrastructure, the standardized shipbuilding apparatus, the
+mass-mobilization capacity, the naval command structure — is
+treated as its own subject under the
+[Carthaginian sea power as institutional system narrative](/narratives/carthaginian-sea-power-as-system).
+The distinction matters: the commercial fleet was a private
+aristocratic apparatus operating across the network; the war fleet
+was a state institution with shared infrastructure, centralized
+command, and a mobilization scale that the commercial side did not
+require. The two operated in concert but were institutionally
+distinct, and the naval system's substantive achievements (the
+350-quinquereme Cape Ecnomus mobilization; the repeated First
+Punic War fleet rebuilds; the emergency Third Punic War rebuild
+after fifty years of treaty-mandated disarmament) deserve treatment
+in their own right rather than subsumed into the trade narrative.
+
 ## Sources
 
 The principal modern treatment of the Phoenician colonial
