@@ -103,7 +103,15 @@ categories: presidency over senate and assembly, judicial authority,
 ceremonial leadership. By the third century BCE the military command
 function had detached: generals were elected separately and might or
 might not be suffetes. Hannibal's 196 BCE suffeteship was civilian —
-fiscal-political reform rather than military command.
+fiscal-political reform rather than military command. The site's
+substantive institutional-arc treatment of the office is the
+narrative
+[The suffeteship — an institutional arc](/narratives/the-suffeteship-arc);
+the civil-military separation is developed as a load-bearing
+distinctive feature under
+[its own claim](/claims/suffeteship-military-command-separation).
+Both treat the office Phoenician-first rather than as proto-Roman
+or proto-republican developmental form.
 
 **Adirim / Carthaginian Senate** (*ʿdrm*, "the mighty ones"). Council
 of elders, drawn from the senatorial aristocracy. A core body of

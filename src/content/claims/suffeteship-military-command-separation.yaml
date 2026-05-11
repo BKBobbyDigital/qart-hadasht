@@ -1,0 +1,98 @@
+slug: suffeteship-military-command-separation
+statement: >
+  By the 4th–3rd centuries BCE, the Carthaginian civic suffeteship
+  and the military field-command office (Punic *rb mḥnt*,
+  "commander of the camp"; Greek *strategos*) had become
+  substantively distinct offices that the same individual could
+  hold separately or not at all. The separation is structurally
+  unusual in the ancient Mediterranean — Roman consulship,
+  Spartan dual kingship, Greek tyrannies, and most Hellenistic
+  royal offices combined civil and military authority — and is
+  one of the substantive marks of the Carthaginian constitution's
+  Phoenician institutional distinctiveness. The major Carthaginian
+  military commanders of the 3rd century BCE (Hamilcar Barca, the
+  Barcid brothers, Hasdrubal Gisco) held military command without
+  the suffeteship; Hannibal's 196 BCE suffeteship was a civilian
+  office held after his military career ended.
+confidence: inferred
+scholarly_consensus: >
+  The institutional separation is firmly attested in the surviving
+  record — the named military commanders of the 3rd c. BCE are
+  not the named suffetes of the same period — but the substantive-
+  structural framing (treating the separation as a distinctive
+  Carthaginian constitutional achievement rather than as
+  accidental administrative practice) is modern synthesis. Hoyos
+  2010 and the Krings handbook chapters on Carthaginian governance
+  develop the framing explicitly. Aristotle (*Politics* 2.11)
+  notes the offices but does not analyze the separation as
+  distinctive.
+sources:
+  - source: aristotle-politics
+    stance: supports
+    passage_ref: "2.11"
+    passage_summary: >
+      Aristotle's analysis of the Carthaginian constitution
+      identifies the suffeteship as a civic-judicial-executive
+      office and treats military command as a separate
+      configurational matter. The separation is implicit in his
+      categorization rather than explicitly analyzed as
+      distinctive.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "6.51-56"
+    passage_summary: >
+      Polybius's constitutional treatment of Carthage in Book 6
+      treats civil and military offices as substantively distinct,
+      with the military configuration substantively under
+      senatorial direction through appointed commanders rather
+      than through the civic-magistracy office.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "33.46-47"
+    passage_summary: >
+      Livy's account of Hannibal's 196 BCE suffeteship documents
+      it as a civilian office — Hannibal's reforms were
+      political-economic (Council of 104 reform, indemnity-
+      embezzlement exposure) rather than military. The
+      separation is visible in the substantive content of his
+      use of the office.
+  - source: hoyos-carthaginians-2010
+    stance: supports
+    passage_summary: >
+      Hoyos's treatment of Carthaginian governance develops the
+      suffeteship-military-command separation as a distinctive
+      structural feature. The institutional configuration that
+      separated the two offices is read as substantive
+      Carthaginian constitutional achievement rather than as
+      accidental administrative practice.
+  - source: krings-manuel-1995
+    stance: supports
+    passage_summary: >
+      The Krings handbook's chapters on Carthaginian governance
+      (principally Bondì on institutional structure) treat the
+      separation as one of the Carthaginian constitution's
+      distinctive features in comparative ancient-Mediterranean
+      context.
+entities:
+  - type: institution
+    slug: suffetes
+    role: subject
+  - type: theme
+    slug: carthaginian-governance
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: subject
+notes: >
+  Load-bearing for the suffeteship-arc narrative and the
+  Phoenician-first framing of Carthaginian governance. The
+  separation between civil and military authority that the
+  Carthaginian constitution maintained is one of the substantive
+  distinctive features that resists the conventional "proto-
+  Roman" or "proto-republican" reading of the office. Hannibal's
+  196 BCE suffeteship as a civilian executive office after his
+  military career is the clearest individual case the surviving
+  record preserves; the broader 3rd-c. BCE pattern (Hamilcar
+  Barca and the Barcid brothers holding military command as a
+  distinct office from the civil magistracy) is the structural
+  evidence.
