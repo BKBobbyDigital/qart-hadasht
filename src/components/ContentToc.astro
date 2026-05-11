@@ -1,0 +1,126 @@
+---
+/**
+ * Sticky table-of-contents sidebar for long-form pages (narratives,
+ * themes, periods, threads). Auto-generated from h2/h3 headings in
+ * the article content. Highlights the section currently visible
+ * via IntersectionObserver. Desktop-only; hidden on tablet and
+ * mobile where vertical scroll is the primary navigation.
+ *
+ * Usage:
+ *   <ContentToc contentSelector=".prose-encyclopedia" />
+ *
+ * The component renders an empty nav structure; client JS fills it
+ * by walking the headings inside the source element. If no h2/h3
+ * headings exist, the nav hides itself.
+ */
+interface Props {
+  contentSelector?: string;
+  label?: string;
+}
+const { contentSelector = '.prose-encyclopedia', label = 'On this page' } = Astro.props;
+---
+
+<nav
+  class="content-toc hidden lg:block sticky top-6 self-start text-sm"
+  data-toc-source={contentSelector}
+  aria-label={label}
+>
+  <p class="eyebrow mb-3">{label}</p>
+  <ol class="space-y-1 list-none pl-0" data-toc-list></ol>
+</nav>
+
+<style>
+  .content-toc [data-toc-list] a {
+    display: block;
+    padding: 0.2em 0 0.2em 0.6em;
+    border-left: 2px solid transparent;
+    color: theme('colors.sand.700');
+    line-height: 1.35;
+    transition: color 120ms ease, border-color 120ms ease;
+    margin-left: -0.6em;
+  }
+  .content-toc [data-toc-list] a:hover {
+    color: theme('colors.tyrian.700');
+  }
+  .content-toc [data-toc-list] li.toc-h3 a {
+    padding-left: 1.5em;
+    font-size: 0.92em;
+    color: theme('colors.sand.700');
+  }
+  .content-toc [data-toc-list] a.toc-active {
+    color: theme('colors.tyrian.700');
+    border-left-color: theme('colors.tyrian.500');
+    font-weight: 500;
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.content-toc').forEach((toc) => {
+    const sourceSel = toc.getAttribute('data-toc-source') || '.prose-encyclopedia';
+    const source = document.querySelector(sourceSel);
+    const list = toc.querySelector('[data-toc-list]');
+    if (!source || !list) {
+      toc.style.display = 'none';
+      return;
+    }
+    const headings = Array.from(source.querySelectorAll('h2[id], h3[id]'));
+    if (headings.length < 2) {
+      // Don't render a TOC for very short pages
+      toc.style.display = 'none';
+      return;
+    }
+    headings.forEach((h) => {
+      const li = document.createElement('li');
+      if (h.tagName === 'H3') li.className = 'toc-h3';
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      // Use heading text but strip the trailing ¶ anchor glyph
+      const cloned = h.cloneNode(true);
+      const anchor = cloned.querySelector('a.anchor-link');
+      if (anchor) anchor.remove();
+      a.textContent = cloned.textContent.trim();
+      a.setAttribute('data-toc-link', h.id);
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+    // Active-section tracking via IntersectionObserver. rootMargin
+    // biases activation to the top portion of the viewport so the
+    // active item is "the heading at or just above the fold".
+    if ('IntersectionObserver' in window) {
+      const linksById = {};
+      list.querySelectorAll('a[data-toc-link]').forEach((a) => {
+        linksById[a.getAttribute('data-toc-link')] = a;
+      });
+      const visibleHeadings = new Set();
+      let currentActive = null;
+      function updateActive() {
+        if (visibleHeadings.size === 0) return;
+        // Among visible headings, pick the topmost (by document order).
+        let topmost = null;
+        let topmostIndex = Infinity;
+        visibleHeadings.forEach((id) => {
+          const idx = headings.findIndex((h) => h.getAttribute('id') === id);
+          if (idx >= 0 && idx < topmostIndex) {
+            topmostIndex = idx;
+            topmost = id;
+          }
+        });
+        if (!topmost) return;
+        const link = linksById[topmost];
+        if (link === currentActive) return;
+        if (currentActive) currentActive.classList.remove('toc-active');
+        link.classList.add('toc-active');
+        currentActive = link;
+      }
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const id = entry.target.getAttribute('id');
+          if (entry.isIntersecting) visibleHeadings.add(id);
+          else visibleHeadings.delete(id);
+        });
+        updateActive();
+      }, { rootMargin: '-60px 0px -70% 0px', threshold: 0 });
+      headings.forEach((h) => obs.observe(h));
+    }
+  });
+</script>

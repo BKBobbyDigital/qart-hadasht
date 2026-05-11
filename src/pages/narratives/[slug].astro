@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
+import ContentToc from '../../components/ContentToc.astro';
 import VersionStamp from '../../components/VersionStamp.astro';
 import CiteThisPage from '../../components/CiteThisPage.astro';
 import { getCollection, getEntry, render } from 'astro:content';
@@ -57,22 +58,25 @@ const narrativeInfoboxRows: InfoboxRow[] = [
 
 <BaseLayout title={d.title} description={d.thesis}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
-    <Infobox
-      title={d.title}
-      subtitle={`Narrative · ${scopeLabel}`}
-      rows={narrativeInfoboxRows}
-    />
+    <div class="lg:col-start-2 lg:row-start-1 space-y-6">
+      <Infobox
+        title={d.title}
+        subtitle={`Narrative · ${scopeLabel}`}
+        rows={narrativeInfoboxRows}
+      />
+      <ContentToc contentSelector=".narrative-content" />
+    </div>
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
       <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
     <p class="eyebrow mb-3">Narrative · {d.scope}</p>
-    <h1 class="font-serif text-4xl sm:text-5xl mb-4">{d.title}</h1>
+    <h1 class="font-serif text-4xl sm:text-5xl mb-6">{d.title}</h1>
 
-    <aside class="border-l-4 border-tyrian-500 bg-tyrian-50 p-5 my-6 rounded-r-lg">
-      <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700 mb-2">Thesis</p>
-      <p class="font-serif text-lg leading-snug text-sand-900">{d.thesis}</p>
+    <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 my-6 rounded-lg">
+      <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
+      <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.thesis}</p>
     </aside>
 
-    <div class="prose-encyclopedia text-sand-900 mt-8">
+    <div class="prose-encyclopedia narrative-content text-sand-900 mt-8">
       <Content />
     </div>
 
