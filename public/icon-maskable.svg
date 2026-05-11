@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Qart-Hadasht — Sign of Tanit">
+  <!-- Full-bleed tyrian background. Maskable icons require the icon to
+       fill the entire canvas with the meaningful content inside the
+       central 40% "safe zone" (radius from center). Android/Chrome will
+       crop this to whatever shape the OS launcher uses (circle, squircle,
+       rounded square). -->
+  <rect width="512" height="512" fill="#5b0f31"/>
+  <!-- Tanit figure scaled into the safe zone (roughly centered, ~50%
+       of the canvas wide). -->
+  <g fill="#f4f0e6">
+    <!-- Body triangle (legs/dress) -->
+    <path d="M256 248 L160 408 L352 408 Z" />
+    <!-- Arms bar -->
+    <rect x="128" y="208" width="256" height="32" rx="6" />
+    <!-- Head circle -->
+    <circle cx="256" cy="152" r="40" />
+  </g>
+</svg>

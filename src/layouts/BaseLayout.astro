@@ -51,6 +51,17 @@ const primaryNav = [
          companies have committed to honor it. -->
     <meta name="robots" content="noai, noimageai" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- PWA: web manifest + theme color + iOS home-screen meta. The
+         site is installable as a home-screen app on modern browsers
+         (no service worker — this is "installable" not
+         "offline-capable"). The Tanit-mark icon set lives in /public
+         as SVG (favicon.svg, icon-maskable.svg, apple-touch-icon.svg). -->
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+    <meta name="theme-color" content="#5b0f31" />
+    <meta name="apple-mobile-web-app-title" content="Qart-Hadasht" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>{fullTitle}</title>
     <!-- Schema.org provenance markers. Helps search engines
          understand the site and its license, and provides a

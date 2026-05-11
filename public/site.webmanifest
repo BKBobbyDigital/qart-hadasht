@@ -1,0 +1,53 @@
+{
+  "name": "Qart-Hadasht — An Encyclopedia of Ancient Carthage",
+  "short_name": "Qart-Hadasht",
+  "description": "An evolving encyclopedia of ancient Carthage from its founding to its destruction in 146 BCE. Every claim sourced, every confidence level made explicit, every gap in the record named.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f0e6",
+  "theme_color": "#5b0f31",
+  "categories": ["education", "books", "news"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Periods",
+      "short_name": "Periods",
+      "description": "Seven era-level synthesis pages",
+      "url": "/periods"
+    },
+    {
+      "name": "Maps",
+      "short_name": "Maps",
+      "description": "Historical atlas — territorial extent over time and the three Punic Wars",
+      "url": "/maps"
+    },
+    {
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Search the encyclopedia",
+      "url": "/search"
+    }
+  ]
+}

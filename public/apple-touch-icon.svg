@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Qart-Hadasht — Sign of Tanit">
+  <!-- iOS rounds the corners on its own; tyrian background full-bleed.
+       The Tanit figure is sized to look right at the standard 180x180
+       iOS home-screen size (a touch smaller than the favicon proportions
+       since iOS doesn't add visual padding). -->
+  <rect width="180" height="180" fill="#5b0f31"/>
+  <g fill="#f4f0e6">
+    <!-- Body triangle -->
+    <path d="M90 80 L52 156 L128 156 Z" />
+    <!-- Arms bar -->
+    <rect x="34" y="62" width="112" height="11" rx="2" />
+    <!-- Head circle -->
+    <circle cx="90" cy="40" r="15" />
+  </g>
+</svg>
