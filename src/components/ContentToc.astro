@@ -65,6 +65,13 @@ const wrapperClass = nonSticky
 </style>
 
 <script is:inline>
+  // Wait for the full DOM. The TOC component renders in the right
+  // rail which appears BEFORE the article in source order (grid
+  // placement reorders it visually), so at the moment this script's
+  // closing tag is parsed, the article's headings don't yet exist
+  // in the DOM. DOMContentLoaded guarantees the article content is
+  // parsed before we walk it.
+  function initContentToc() {
   document.querySelectorAll('.content-toc').forEach((toc) => {
     const sourceSel = toc.getAttribute('data-toc-source') || '.prose-encyclopedia';
     const source = document.querySelector(sourceSel);
@@ -133,4 +140,10 @@ const wrapperClass = nonSticky
       headings.forEach((h) => obs.observe(h));
     }
   });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initContentToc);
+  } else {
+    initContentToc();
+  }
 </script>
