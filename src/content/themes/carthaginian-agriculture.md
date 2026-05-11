@@ -82,6 +82,15 @@ The single most important Carthaginian contribution to ancient
 agricultural science was a twenty-eight-book agricultural
 treatise composed by Mago of Carthage, a Carthaginian writer of
 uncertain date (most likely 4th or 3rd century BCE). The
+narrative
+[Mago of Carthage and the surviving Carthaginian voice](/narratives/mago-of-carthage)
+treats the treatise, the 146 BCE Roman preservation order, the
+two-thousand-year transmission chain that carried Mago's
+material from Carthage through Roman Italy, Hellenistic Greece,
+Byzantine Constantinople, al-Andalus, and medieval Europe, and
+the question of what Mago's survival reveals about the wider
+Carthaginian intellectual culture. The treatise itself is a
+[citable primary source](/sources/mago-treatise) on the site. The
 treatise covered the full range of agricultural and pastoral
 practice: cereal cultivation, vineyard management, olive
 cultivation, animal husbandry, beekeeping, and the management

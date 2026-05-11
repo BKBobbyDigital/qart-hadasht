@@ -1,0 +1,133 @@
+slug: what-mago-treatise-contained
+question: >
+  How much of Mago's twenty-eight-book agricultural treatise actually
+  survives in the transmission, what proportion of the original
+  content is recoverable from the surviving fragments, and what
+  topic areas the original may have covered that no surviving
+  citation preserves?
+why_unknown: >
+  The original Punic text is lost. The Latin translation commissioned
+  in 146 BCE is also lost. The Greek abridgments by Cassius
+  Dionysius and Diophanes are lost. What survives is approximately
+  fifty substantial citations and paraphrases across the Roman and
+  Greek agronomic tradition, recovered through Varro, Columella,
+  Pliny, Palladius, the Geoponica, and the medieval Arabic
+  agronomic literature. Modern fragment-collection scholarship
+  (Mahaffy 1889 and subsequent collections) has assembled these
+  citations but cannot recover the original 28-book structure,
+  the proportion of each topic area covered, or any topics the
+  Roman transmitters chose not to cite. The original treatise was
+  presumably ~1000 pages in modern terms; the surviving fragments
+  total perhaps 5-10% of the original at the most generous
+  estimate. Most of what Mago wrote is genuinely lost.
+evidence_summary: |
+  Several lines of evidence bear on what the original contained.
+
+  **Topic-area coverage in the surviving fragments** suggests
+  the treatise was structured by agricultural domain: viticulture
+  (the heaviest-cited topic), olive cultivation, grain agriculture,
+  livestock (cattle, sheep, horses, mules, pigs), beekeeping,
+  estate management and labor organization, soil classification.
+  These are the topics modern reconstructions can document; other
+  topics may have existed but left no surviving citation.
+
+  **Cross-citation patterns** in Roman agronomic literature (Mago
+  cited by Cato, Varro, Columella, Pliny, Palladius, Gargilius
+  Martialis) suggest the Latin translation was widely available
+  and substantively complete through at least the early Empire.
+  The progressive shortening across transmission (28 books →
+  Cassius Dionysius's 20 Greek books → Diophanes's 6 Greek books
+  → fragments in subsequent compilation literature) indicates
+  systematic abridgment rather than substantial loss before the
+  late Roman period.
+
+  **The internal references** in the surviving fragments suggest
+  the original had more sustained treatment of viticulture than
+  the surviving record makes obvious. Columella explicitly
+  references Mago's vine material as more extensive than his own
+  treatment, suggesting whole books of the original may have
+  been dedicated to vine selection, training, and processing.
+
+  **What may have been there but is unrecoverable:** religious or
+  ritual material connected to agricultural practice (the Punic
+  agricultural calendar, agricultural deities, propitiatory
+  practices) is conspicuously absent from the surviving Latin
+  transmission. The Romans transmitted the technical material
+  and may have systematically pruned the religious-ritual
+  material; or Mago may have written a technical-empirical
+  treatise that did not extensively cover religious dimensions
+  in the first place. Either reading is defensible. Theological,
+  political-economic, or social-philosophical reflection that
+  may have framed the technical material is similarly absent.
+candidate_answers:
+  - answer: >
+      Substantial loss. The surviving 50+ fragments represent
+      perhaps 5-10% of the original; the bulk of Mago's technical
+      content (especially in less-cited topic areas like livestock
+      veterinary practice, fruit-tree cultivation beyond olives,
+      gardening, fish-farming) is genuinely lost.
+    arguments_for: >
+      The Roman transmission tradition was selective; later
+      compilers cited from earlier compilers; the abridgment
+      chain (Mago → Cassius Dionysius → Diophanes → Columella →
+      Palladius → Geoponica → Ibn al-Awwam) systematically
+      reduces detail at each step. The surviving fragments are
+      a small fraction of what the 28 original books contained.
+    held_by: >
+      Most modern fragment-collection scholarship; the
+      conventional reading.
+  - answer: >
+      Moderate loss with topic-area concentration. The surviving
+      fragments preserve the topics that Roman estate-owners
+      considered most useful (viticulture, olive cultivation,
+      estate management), with proportionally less surviving of
+      the topics the Roman tradition found less applicable
+      (specifically Carthaginian-context material, religious-
+      ritual framing, social-economic philosophy). The technical
+      core may be relatively well preserved; the cultural framing
+      almost entirely lost.
+    arguments_for: >
+      Cross-citation patterns show Roman authors selecting
+      Carthaginian content by topic-area utility; the surviving
+      fragments cluster in the topic areas most directly
+      applicable to Roman estate agriculture; the cultural
+      framing of the original is invisible in surviving citations.
+    held_by: >
+      The reading the site treats as best-supported in the
+      narrative on Mago. The selective-preservation framing.
+  - answer: >
+      Light loss. The surviving Latin and Greek transmission
+      preserves the bulk of what Mago wrote, with most lost
+      material being incidental detail rather than substantive
+      topic-area coverage. The picture of Mago modern
+      scholarship has is approximately accurate to what Mago
+      wrote.
+    arguments_for: >
+      The Latin translation was systematic and circulated
+      widely; the substantive technical content reached Columella
+      and Pliny in detail; the cumulative six-vector transmission
+      chain preserved more than any single vector would have.
+    arguments_against: >
+      The original was 28 books and the surviving fragments
+      total a fraction of that volume; major topic areas (estate
+      religious practice, theological framing, social-economic
+      reflection) are conspicuously thin or absent in the
+      surviving record.
+    held_by: >
+      A minority position; rarely articulated as the principal
+      reading.
+relevant_entities:
+  - type: person
+    slug: mago-agronomist
+    role: subject
+  - type: theme
+    slug: carthaginian-agriculture
+    role: subject
+what_would_resolve_this: >
+  Discovery of any portion of the original Punic text, or of
+  Decimus Silanus's full Latin translation, or of Cassius
+  Dionysius's full Greek abridgment, in any manuscript or
+  papyrus context. The Mago original has not survived in any
+  known textual transmission; the question's resolution depends
+  on chance archival or papyrological recovery rather than on
+  reanalysis of available evidence.

@@ -1,0 +1,66 @@
+slug: varro-rerum-rusticarum
+title: Rerum Rusticarum libri tres (On Agriculture, in three books)
+author: Marcus Terentius Varro
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: -37
+  precision: year
+temporal_distance_years: 110
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Varro's three-book agricultural treatise was composed in his
+  old age (he was eighty) and is the earliest surviving Roman
+  systematic agronomic work. The treatise is structured as
+  three dialogues — on agriculture proper, on livestock, and on
+  estate-based animal-and-poultry husbandry — and draws on a
+  substantial body of prior agronomic literature that Varro
+  names systematically in his opening source-list (1.1.7-11).
+  That source-list is the principal surviving documentary
+  evidence for the network of earlier Greek and Carthaginian
+  agronomic authors whose work entered the Roman tradition
+  through the late Republic. Varro is the proximate Latin
+  vehicle through which the Mago tradition reaches Columella
+  and Pliny.
+public_domain_translation:
+  translator: William Davis Hooper and Harrison Boyd Ash
+  year: 1934
+  url: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Varro/de_Re_Rustica/home.html
+summary: >
+  Varro's *Rerum Rusticarum* (37 BCE) is the earliest surviving
+  Roman systematic agronomic treatise and one of the principal
+  vehicles through which earlier Greek and Carthaginian
+  agricultural literature entered the Roman intellectual
+  tradition. The opening source-list at 1.1.7-11 catalogues
+  approximately fifty prior authors on agriculture, including
+  the Carthaginian Mago (whom Varro names as
+  [Mago of Carthage](/people/mago-agronomist), accessed
+  primarily through the Greek abridgment of Cassius Dionysius
+  of Utica) and another Carthaginian named Hamilcar whose
+  agronomic work predated Mago's synthesis.
+
+  For the site, Varro is most important as the Latin
+  transmission vehicle for Mago and for the broader Punic
+  agronomic tradition that Mago synthesized. The specific
+  Magonic material Varro preserves — citations on viticulture,
+  livestock, beekeeping, estate management — is partly
+  duplicated in Columella and Pliny but is, for several
+  topics, the earliest surviving Latin form of the Carthaginian
+  technical content. Varro also preserves contextual
+  information about the transmission chain (the role of
+  Cassius Dionysius's Greek abridgment, the further reduction
+  by Diophanes of Bithynia) that anchors the modern
+  reconstruction of how Mago's twenty-eight Punic books
+  became the surviving Latin-Greek tradition.
+
+  Varro's broader importance to the site is as one of the
+  principal late-Republican Roman intellectuals whose work
+  documents the technical-economic knowledge environment of the
+  generation in which Roman agriculture transformed toward the
+  large-estate, slave-and-tenant configuration that
+  characterizes the late Republic and early Empire. The
+  Carthaginian connection to that transformation runs through
+  Mago, and Varro's preservation of Mago is one of the
+  load-bearing pieces of evidence for the Carthaginian
+  influence on Roman estate agriculture specifically.

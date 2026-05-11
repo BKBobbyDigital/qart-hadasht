@@ -20,6 +20,41 @@ scholarly_consensus: >
   that preserve Mago's voice in approximately fifty
   recoverable fragments.
 sources:
+  - source: pliny-natural-history
+    stance: supports
+    passage_ref: "18.5, 18.22-23"
+    passage_summary: >
+      The principal surviving witness for the preservation
+      order. NH 18.5 records the 146 BCE senatorial decree
+      assigning Decimus Junius Silanus to translate Mago into
+      Latin while the Carthaginian libraries were given to
+      the Numidian allies. NH 18.22-23 contains Pliny's
+      characterization of Mago as *parens rusticationis*,
+      "the father of country science."
+  - source: mago-treatise
+    stance: supports
+    passage_summary: >
+      Mago's treatise itself, preserved fragmentarily through
+      the Roman-Greek-Arabic transmission chain, is the
+      material whose preservation the senatorial decree
+      enabled. Mago survives because of the order; the
+      surviving fragments are the evidence the order was
+      executed.
+  - source: varro-rerum-rusticarum
+    stance: supports
+    passage_ref: "1.1.7-11"
+    passage_summary: >
+      Varro names Mago and Cassius Dionysius in his opening
+      source-list, attesting the Latin and Greek transmission
+      of Mago's material in the late Republic — one generation
+      after the preservation order itself.
+  - source: columella-de-re-rustica
+    stance: supports
+    passage_summary: >
+      Columella's dozens of Mago citations across *De Re
+      Rustica* are the principal surviving evidence that the
+      Latin translation circulated and was consulted as a
+      standard authority through the early Imperial period.
   - source: lancel-carthage-1995
     stance: supports
     passage_summary: >

@@ -1,0 +1,67 @@
+slug: pliny-natural-history
+title: Naturalis Historia (Natural History)
+author: Pliny the Elder
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: 77
+  precision: year
+temporal_distance_years: 220
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Roman encyclopedist writing under Vespasian and Titus. The
+  *Natural History* is a vast compilation of natural-historical,
+  technical, and ethnographic material drawn from prior Greek
+  and Roman sources; for Carthaginian matters, Pliny is at
+  considerable temporal distance from the events and works
+  through derivative material. His value for the site is
+  twofold: as the principal preserver of the 146 BCE Roman
+  senatorial decree on Mago's treatise (*NH* 18.5 and 18.22-23)
+  and as a rich source of citations of earlier Latin and Greek
+  agronomic writers, including Mago, that no longer survive
+  independently. Pliny's framing is straightforwardly Roman-
+  imperial — the standpoint from which Carthage was a defeated
+  rival whose useful technical contributions had been
+  appropriately absorbed into Roman knowledge — but his
+  preservation of specific passages and decree-language gives
+  the site direct evidentiary access it would otherwise lack.
+public_domain_translation:
+  translator: John Bostock and H. T. Riley
+  year: 1855
+  url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137
+summary: >
+  The thirty-seven-book encyclopedic compilation by Pliny the
+  Elder, completed in 77 CE and the largest single surviving
+  Roman work of its kind. The *Natural History* is the principal
+  surviving compendium of Roman technical and natural-historical
+  knowledge as of the late 1st century CE, drawing on hundreds
+  of earlier Greek and Latin sources that Pliny names
+  systematically.
+
+  For the site, the *Natural History*'s most important single
+  passage is Book 18.5, which preserves the 146 BCE Roman
+  senatorial decree ordering the Latin translation of
+  [Mago's twenty-eight-book agricultural treatise](/sources/mago-treatise)
+  — the only Carthaginian intellectual work systematically
+  preserved in the Greco-Roman tradition. The decree's specific
+  language (the assignment to Decimus Junius Silanus, the
+  treatment of the Carthaginian libraries as gifts to the
+  Numidian allies) is the principal evidence for how the Roman
+  senatorial class understood the post-destruction disposition
+  of Carthaginian intellectual culture. Pliny's characterization
+  of Mago at *NH* 18.22-23 as *parens rusticationis* ("the
+  father of country science") is the most striking Roman
+  acknowledgment of a Carthaginian intellectual figure in the
+  surviving literature.
+
+  Beyond the Mago material, Pliny preserves substantial citations
+  of earlier agronomic authorities (Cato, Varro, Cassius
+  Dionysius, Columella, the Mago tradition through these
+  intermediaries) and of Greek and Phoenician technical and
+  geographical writers, including material attributed to
+  Hanno's Periplus and other Carthaginian sources. The site
+  cites Pliny for the Mago transmission, the surviving Punic
+  technical material the *NH* preserves at second hand, and the
+  Roman imperial-period framing of Carthaginian cultural
+  inheritance.
