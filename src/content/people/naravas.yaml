@@ -1,25 +1,130 @@
 slug: naravas
 name_display: Naravas
 name_greek: Ναραύας
+name_latin: Naravas
+etymology: >
+  The Numidian name *Naravas* is preserved only in Greek and Latin
+  transliteration. The underlying Numidian-language form and
+  etymology are not recoverable. He is the principal attested
+  Massylii royal figure of the third quarter of the 3rd century
+  BCE; the broader Massylii royal genealogy of the period is
+  fragmentary, and his exact relationship to subsequent Massylii
+  rulers (and to [Gala](/people/gala), [Masinissa](/people/masinissa)'s
+  father) is not securely preserved.
 floruit:
   value: -239
   precision: year
+death:
+  value: -230
+  precision: decade
+  circa: true
+  notes: >
+    No death date is preserved. Naravas disappears from the
+    surviving record after his Mercenary War contribution; the
+    Massylii succession context of the late 230s BCE (the period
+    leading to Gala's emergence as Massylii king by approximately
+    the 220s) is not directly attested.
 roles:
   - prince
   - cavalry commander
 polity: Numidia (Massylii)
+referenced_themes:
+  - punic-identity
 summary: >
-  Numidian prince of the Massylii confederation who joined Hamilcar
-  Barca with approximately 2,000 cavalry during the Mercenary War in
-  239 BCE. His defection to the Carthaginian side was a decisive
-  reinforcement: cavalry was the rebel forces' principal weakness
-  and Hamilcar's principal need. Polybius (1.78) reports that
-  Hamilcar married his daughter to Naravas to seal the alliance,
-  one of the few preserved cases of a Carthaginian dynastic marriage
-  used for diplomatic purposes. Naravas's cavalry was central to
-  Hamilcar's victory at the Battle of the Bagradas River and to the
-  subsequent campaign that contained and ultimately destroyed the
-  rebel forces. The Massylii relationship Naravas opened would
-  recur a generation later under Massylii kings whose alliance
-  Carthage and Rome would compete for during the Second Punic War,
-  including Masinissa.
+  Naravas was the Numidian Massylii prince whose defection to
+  [Hamilcar Barca](/people/hamilcar-barca) during the
+  [Mercenary War](/events/mercenary-war) in 239 BCE substantively
+  changed the war's tactical balance and was one of the decisive
+  political-military events of the conflict. His career is preserved
+  only in the surviving Polybian account of the Mercenary War
+  (principally 1.78) and through fragmentary references in Diodorus
+  and later sources; the surviving record gives us essentially one
+  episode of his career — the defection, the marriage alliance with
+  Hamilcar, and the cavalry's substantive contribution to the
+  Carthaginian counter-offensive — but the episode is structurally
+  load-bearing for the war's outcome.
+
+  **The Mercenary War context.** Through 240–239 BCE the Mercenary
+  War had reached its tactically most precarious phase for Carthage.
+  The mutinous mercenary forces under [Spendius](/people/spendius),
+  [Mathos](/people/mathos), and [Autaritus](/people/autaritus) held
+  substantial territorial control of the Libyan countryside, the
+  cities of Utica and Hippo had defected to the rebel side, and
+  Hamilcar Barca's field operations — though tactically successful at
+  the [Battle of the Bagradas](/events/battle-of-bagradas-238) in
+  238 BCE — were constrained by the structural imbalance in cavalry
+  resources. The Carthaginian-Libyan recruitment base on which the
+  city had previously drawn for cavalry was largely in revolt; the
+  rebel forces had access to substantial cavalry of their own (the
+  Libyan light cavalry contingents that had originally been
+  Carthaginian-aligned); and Hamilcar's tactical doctrine required
+  cavalry capability that the immediate Carthaginian field
+  configuration could not supply.
+
+  **The defection (239 BCE).** Naravas's defection to the
+  Carthaginian side with approximately 2,000 Massylii cavalry was
+  the resource Hamilcar's configuration needed. Polybius (1.78)
+  preserves the meeting between Naravas and Hamilcar: Naravas
+  approached the Carthaginian camp during operations against
+  Spendius's force, requested a personal interview with Hamilcar,
+  and offered alliance. The political-strategic calculation on
+  Naravas's side is preserved only inferentially in the Greco-Roman
+  tradition — he is generally read as having chosen Carthaginian
+  alliance because the Massylii position required a stable
+  Mediterranean great-power ally and the Carthaginian configuration
+  offered better long-term prospects than the rebel mercenary
+  force could. The reading is consistent with how the broader
+  Massylii royal house operated across subsequent generations
+  (Gala's Carthaginian alignment; Masinissa's eventual reversal
+  under different conditions); Naravas's decision is the earliest
+  documented instance of the structural Massylii-Carthaginian
+  diplomatic relationship that the [Numidian-Punic interface
+  narrative](/narratives/the-numidian-punic-interface) treats as
+  a substantive multi-generational cultural-political alignment.
+
+  **The marriage alliance.** Hamilcar Barca sealed the alliance
+  through a dynastic marriage — giving one of his daughters to
+  Naravas as part of the alliance settlement (Polybius 1.78). The
+  marriage is one of the earliest preserved cases of Carthaginian-
+  Numidian dynastic-political marriage and is the precedent for
+  the broader Barcid marriage-diplomacy program subsequently
+  developed in Iberia by [Hasdrubal the Fair](/people/hasdrubal-the-fair).
+  The specific Carthaginian-Numidian marriage form — Carthaginian
+  daughter to Numidian elite, sealing political-military alliance —
+  recurs across the next century at multiple substantive moments
+  (the various Barcid daughters' marriages; Sophonisba and Syphax
+  in the Second Punic War's African phase). Naravas's marriage to
+  Hamilcar's daughter is the founding instance.
+
+  **The cavalry's tactical contribution.** Naravas's 2,000 Massylii
+  cavalry substantively changed the tactical balance of the
+  Mercenary War. Cavalry was the rebel forces' principal weakness
+  and Hamilcar's principal need; with the Massylii cavalry attached
+  to his command, Hamilcar could pursue rebel field operations with
+  the speed and envelopment-capability the previous configuration
+  had not allowed. The subsequent campaign that contained and
+  ultimately destroyed Spendius's principal army at the
+  [Battle of the Saw](/events/battle-of-the-saw) in late 238 BCE
+  depended substantively on the cavalry mobility Naravas had brought;
+  the rebellion's gradual reduction across 237 BCE drew on the same
+  tactical advantage. The Mercenary War's eventual outcome — the
+  destruction of the rebel forces and the survival of Carthaginian
+  state authority — runs through the Naravas defection at a
+  structural level.
+
+  **Assessment.** Naravas is one of the structurally most
+  consequential figures of Carthaginian history whom the surviving
+  record preserves only as a single episode. His Mercenary War
+  contribution substantively saved Carthaginian state authority at
+  the most precarious moment of the conflict; the resulting
+  Carthaginian-Massylii relationship he opened became the
+  multi-generational diplomatic axis through which Carthaginian
+  power in North Africa subsequently operated; the marriage-
+  alliance form he and Hamilcar instituted recurred across the
+  next century. What we do not have, beyond the Polybian episode,
+  is biographical access to Naravas himself — his subsequent
+  career, his relationship with Gala and the later Massylii royal
+  house, his death and succession circumstances are not preserved.
+  He is in the surviving record one of the principal Numidian
+  figures of the late 3rd century BCE whose substantive role we
+  can document and whose individual life we cannot.

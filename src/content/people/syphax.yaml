@@ -1,7 +1,13 @@
 slug: syphax
-name_display: Syphax
 name_greek: Σύφαξ
 name_latin: Syphax
+name_display: Syphax
+etymology: >
+  The Numidian name *Syphax* is preserved only in Greek and Latin
+  transliteration; the underlying Numidian-language form is not
+  securely reconstructable. The name was held only by this single
+  attested figure in the surviving record, making it the principal
+  Numidian-royal name not subsequently reused.
 birth:
   value: -250
   precision: decade
@@ -9,23 +15,129 @@ birth:
 death:
   value: -202
   precision: year
-  notes: Died in Roman captivity at Tibur (modern Tivoli) shortly after his capture, before being paraded in Scipio's eventual triumph.
+  notes: >
+    Died in Roman captivity at Tibur (modern Tivoli) shortly after
+    his capture in 203 BCE, before being paraded in Scipio's
+    eventual Roman triumph. The death in captivity is preserved in
+    Livy (30.45) and Appian; the specific circumstances are not
+    elaborated.
 roles:
   - king
 polity: Numidia (Masaesylian)
+referenced_themes:
+  - punic-identity
 summary: >
-  King of the Masaesyli, the western Numidian confederation,
-  through the late 3rd century BCE until his capture by Scipio
-  and Masinissa at the Battle of the Great Plains in 203 BCE.
-  Syphax's strategic position in western Numidia made him a
-  major prize sought by both Rome and Carthage in the African
-  campaign of the closing Second Punic War. The Carthaginians
-  secured his alliance through the dynastic marriage with
-  Sophonisba, daughter of Hasdrubal Gisco; he commanded a
-  substantial Numidian force against Scipio's expedition through
-  204-203 BCE before being defeated and captured. His Numidian
-  kingdom passed to Masinissa (his rival of the eastern Massylii
-  confederation) under Roman patronage, beginning the unified
-  Numidian kingdom whose subsequent encroachments on
-  Carthaginian territory would produce the Third Punic War half
-  a century later.
+  Syphax was the king of the [Masaesyli](/groups/masaesyli), the
+  western and larger of the two principal Numidian confederations,
+  through the closing decades of the Second Punic War. He is the
+  principal Numidian counterweight to [Masinissa](/people/masinissa)
+  in the war's African phase and the figure whose strategic
+  alignment with Carthage in 206 BCE substantively shaped the
+  conflict's African endgame. His career is preserved principally
+  through the Roman literary tradition (Polybius, Livy, Appian) and
+  reads through hostile framing — Syphax is generally treated as
+  Carthage's unreliable Numidian instrument and as the figure
+  Scipio Africanus had to defeat to consolidate the Roman African
+  position. The site treats him as a Numidian king pursuing
+  Numidian objectives within the configurations the Mediterranean
+  great-power conflict offered, parallel to how it treats Masinissa
+  and Indibilis-Mandonius.
+
+  **The Masaesyli position.** The Masaesylian kingdom occupied
+  what is now central and western Algeria, west of the
+  [Massylian](/groups/massylii) zone and the Carthaginian African
+  heartland. It was the larger and historically more powerful of
+  the two principal Numidian confederations through the late 4th
+  and 3rd centuries BCE, with a substantive royal-administrative
+  structure centered on the capital at Cirta (modern Constantine).
+  Syphax's kingship across the late 3rd century BCE consolidated
+  the Masaesylian position and gave him the manpower and
+  territorial base to operate as a major North African political
+  actor in his own right.
+
+  **The early Roman approach (213-206 BCE).** Syphax's initial
+  alignment in the Second Punic War was substantively pro-Roman.
+  Roman envoys had cultivated him from at least 213 BCE; he
+  reportedly received Roman military instruction at his court
+  (Centurion Quintus Statorius's training of Numidian heavy
+  infantry per Livy 24.48) and operated as a Roman-aligned
+  Numidian counterweight to the Carthaginian-aligned Massylii.
+  Through 213-207 BCE he fought against Carthaginian-Massylii
+  forces in western Numidia, with mixed operational results but
+  substantive political-strategic value to the Roman Iberian and
+  African positions.
+
+  **The Carthaginian realignment (206 BCE).** Hasdrubal Gisco's
+  daughter [Sophonisba](/people/sophonisba) had been betrothed to
+  Masinissa during his Iberian service with the Carthaginian
+  forces. In approximately 206 BCE the Carthaginian senate
+  reversed the betrothal and gave Sophonisba in marriage to
+  Syphax instead, as a diplomatic instrument to convert his
+  alignment from Roman to Carthaginian. The reversal succeeded:
+  Syphax substantively shifted to the Carthaginian side, breaking
+  off his Roman cooperation and entering the Carthaginian-aligned
+  configuration that would shortly face Scipio Africanus's
+  African expedition. The Roman literary tradition (Livy 29.23,
+  Appian *Punica* 10-11) emphasizes Sophonisba's role as the
+  political-sexual instrument that produced the shift; modern
+  scholarship reads Syphax's calculation more structurally —
+  Carthaginian alliance offered him Sophonisba's prestige, the
+  prospect of unified Numidian leadership against the rising
+  Masinissa, and a calculation about which Mediterranean great
+  power his interests were better served by.
+
+  **The African campaign (204-203 BCE).** Syphax commanded the
+  Masaesylian field forces in coordination with Hasdrubal Gisco
+  against Scipio Africanus's African expedition. Across the
+  winter of 204-203 BCE the combined Carthaginian-Masaesylian
+  army held positions around Utica facing Scipio's force; the
+  configuration held through the cold-weather operational pause.
+  In the spring of 203 BCE Scipio executed the **Battle of
+  Utica** — a night attack on the Syphax-Hasdrubal Gisco camps
+  in which Roman forces set fire to both camps and produced
+  panicked breakouts that Roman cavalry slaughtered. The
+  engagement is preserved in Polybius (14.4-5) and Livy (30.5-6)
+  with relatively close agreement; the Carthaginian-Masaesylian
+  loss is reported in numbers (40,000-plus casualties per Livy)
+  that may be inflated but reflect substantial destruction of
+  the combined field army.
+
+  Syphax escaped the Utica disaster with a reduced force and
+  attempted to reorganize at Cirta. The **Battle of the Great
+  Plains** in summer 203 BCE was a pitched battle in which
+  Scipio decisively defeated the regrouped Syphax-Hasdrubal
+  Gisco army; Syphax fled toward Cirta but was captured by
+  Masinissa's pursuing Numidian cavalry. The capture's
+  political consequence was immediate — Masinissa entered Cirta
+  shortly afterward, married Sophonisba (his former betrothed,
+  now Syphax's wife), and the Masaesylian kingdom passed to
+  the unified Numidian configuration under Masinissa's
+  leadership. The [Sophonisba page](/people/sophonisba) treats
+  the marriage and her subsequent suicide in detail.
+
+  **Captivity and death (203-202 BCE).** Syphax was sent to
+  Rome by Scipio as a war captive intended for the eventual
+  Roman triumph. He died in Roman custody at Tibur in 202 BCE,
+  before the triumph could be celebrated. The death in
+  captivity is preserved without elaboration; whether it was
+  illness, suicide, or quiet political execution is not
+  recoverable from the surviving sources.
+
+  **Assessment.** Syphax is the principal Numidian figure of
+  the Carthaginian-aligned side of the Second Punic War's
+  African phase and the king whose 206 BCE realignment
+  produced the war's critical Numidian configuration. The
+  conventional Roman tradition reads his career through the
+  Sophonisba-femme-fatale framing — he is the king seduced
+  away from Roman alliance by Carthaginian political
+  manipulation — but the structural reading treats his
+  alignment shifts as substantive Numidian-royal calculation
+  about which Mediterranean configuration better served
+  Masaesylian interests. The Carthaginian alliance failed
+  operationally (Utica and the Great Plains were decisive
+  defeats), and Masinissa's subsequent absorption of the
+  Masaesylian kingdom under Roman patronage ended Syphax's
+  dynasty. His career is the inverse-image of Masinissa's: the
+  Numidian king whose Carthaginian alignment produced
+  Carthaginian outcomes Masinissa's Roman alignment
+  subsequently capitalized on.

@@ -5,12 +5,15 @@ name_punic_script: 𐤏𐤁𐤃𐤌𐤋𐤒𐤓𐤕
 name_greek: Ἀμίλκας
 name_latin: Hamilcar
 etymology: >
-  Hamilcar is the Greek/Latin rendering of the Punic ʿAbd-Melqart,
-  "servant of Melqart", a common Carthaginian theophoric name
+  Hamilcar is the Greek/Latin rendering of the Punic *ʿAbd-Melqart*,
+  "servant of Melqart" — a common Carthaginian theophoric name
   honoring the Tyrian patron deity. The patronymic "son of Gisco"
   distinguishes him from the several other Carthaginian commanders
-  named Hamilcar in the third and fourth centuries BCE, including
-  the more famous father of Hannibal, more than half a century later.
+  named Hamilcar across the 4th and 3rd centuries BCE, including
+  [Hamilcar Barca](/people/hamilcar-barca) (the more famous father
+  of Hannibal, more than half a century later) and
+  [Hamilcar Magonid](/people/hamilcar-magonid) (the 480 BCE Himera
+  commander).
 floruit:
   value: -315
   precision: decade
@@ -18,19 +21,105 @@ floruit:
 death:
   value: -309
   precision: year
-  notes: Killed in Sicily during a Greek counterattack; his head was reportedly sent to Agathocles in Africa as a trophy.
+  notes: >
+    Killed near Syracuse in 309 BCE during the Greek counterattack
+    that turned the closing phase of the Sicilian war against
+    [Agathocles](/people/agathocles)'s African expedition. Diodorus
+    20.29 reports that Hamilcar's head was decapitated and sent to
+    Agathocles in Africa as a trophy of victory; the detail is
+    plausible Greek-Sicilian psychological-warfare practice but is
+    preserved by Diodorus only.
 roles:
   - general
 polity: Carthage
+referenced_themes:
+  - punic-identity
 summary: >
-  Carthaginian general who commanded the war against Agathocles in
-  Sicily from approximately 311 BCE. Defeated Agathocles at the Battle
-  of the Himera River in 311 BCE, recovering most of Greek Sicily for
-  Carthage and besieging Syracuse itself. The siege was interrupted in
-  310 BCE by Agathocles's audacious invasion of Africa, which forced
-  Carthage to redirect resources homeward. Hamilcar continued the
-  Sicilian war but was defeated and killed in 309 BCE in a Greek
-  counterattack near Syracuse, Diodorus reports that his head was
-  decapitated and sent to Agathocles in Africa as a trophy of victory.
-  His death effectively ended Carthaginian momentum in Sicily and
-  contributed to the status-quo settlement of 306 BCE.
+  Hamilcar son of Gisco was the principal Carthaginian commander of
+  the closing phase of the war against [Agathocles](/people/agathocles)
+  of Syracuse — the conflict that opened with the major Carthaginian
+  Sicilian initiative of 311 BCE and that culminated in Agathocles's
+  audacious 310 BCE invasion of Africa. His career intersects
+  Carthaginian history at the most consequential 4th-c. moment
+  between the earlier Sicilian wars of Timoleon's period and the
+  eventual onset of the [First Punic War](/events/first-punic-war)
+  two generations later. The campaign's outcome substantively
+  shaped the post-Agathocles Carthaginian-Sicilian configuration
+  that the Pyrrhic War and the First Punic War subsequently
+  developed.
+
+  **The Sicilian command (311 BCE).** Hamilcar took over the
+  Carthaginian Sicilian command in 311 BCE as the situation between
+  Carthaginian-aligned western Sicily and Agathocles's expanding
+  Syracusan tyranny escalated toward open war. The Sicilian
+  Carthaginian apparatus at this point was substantively focused
+  on the western third of the island (the territory west of the
+  Halycus river, including Lilybaeum, Drepana, Eryx, and Panormus)
+  with diplomatic-political reach across the Greek-Sicilian
+  central and southern cities that found Agathocles's tyrannical
+  expansion threatening. Hamilcar's command arrived with reinforced
+  forces and operated through the political-military configuration
+  Carthage had developed across the previous half-century of
+  Sicilian engagement.
+
+  **The Battle of the Himera River (311 BCE).** Hamilcar's first
+  major operation was a decisive victory over Agathocles at the
+  Himera River in 311 BCE — a different engagement from the earlier
+  [Battle of Himera](/events/battle-of-himera) of 480 BCE that had
+  killed Hamilcar Magonid. The 311 BCE engagement substantively
+  reversed Agathocles's Sicilian position: the Syracusan tyrant
+  lost most of his field army, was forced to withdraw to Syracuse
+  itself, and faced a Carthaginian siege of the principal Greek-
+  Sicilian city. Diodorus (19.107–110) preserves the engagement in
+  detail; the victory was substantively the greatest Carthaginian
+  military achievement in Sicily across the entire 4th c. BCE.
+
+  **The siege of Syracuse (310 BCE).** Across the early months of
+  310 BCE Hamilcar conducted the siege of Syracuse with the
+  reasonable expectation of eventually reducing the city to
+  surrender. The siege was operationally substantial; the
+  reasonable Carthaginian assumption was that the campaign would
+  shortly end with Agathocles's defeat and the consolidation of
+  Carthaginian political authority over central Sicily.
+
+  **Agathocles's African expedition and the strategic disruption
+  (310–308 BCE).** The most strategically consequential moment of
+  the campaign was Agathocles's response: rather than continuing
+  to defend Syracuse, he embarked an expeditionary force, broke
+  through the Carthaginian naval blockade, and landed in Africa
+  in August 310 BCE — opening a second front by invading
+  Carthaginian territory itself. The expedition forced Carthage
+  to redirect substantial resources from Sicily to defend the
+  African heartland against the
+  [Greek invasion](/narratives/agathocles-invasion-of-africa);
+  Hamilcar's Sicilian campaign continued but with reduced
+  reinforcement and political backing while the home crisis
+  consumed senatorial attention.
+
+  **The 309 BCE counterattack and death.** With Carthaginian
+  Sicilian resources reduced, Hamilcar continued operations
+  against Syracuse but faced strengthening Greek counterattack.
+  In 309 BCE — the campaigning season's principal Sicilian
+  engagement — a Greek-Sicilian force counterattacked near
+  Syracuse. Hamilcar was defeated and killed in the engagement;
+  Diodorus (20.29) preserves the report that his head was sent
+  to Agathocles in Africa as a trophy. The death substantively
+  ended Carthaginian operational momentum in Sicily and
+  contributed to the political conditions for the status-quo
+  settlement of 306 BCE.
+
+  **Assessment.** Hamilcar son of Gisco is the principal
+  Carthaginian commander of the late-4th-c. Sicilian war and the
+  figure whose initial victories (the Himera River, the Syracuse
+  siege) substantively threatened Greek-Sicilian political
+  survival before Agathocles's African expedition reversed the
+  campaign's strategic configuration. His death in 309 BCE closed
+  the period of major Carthaginian Sicilian initiative for nearly
+  fifty years; the next substantive Carthaginian Sicilian
+  operation would be the Pyrrhic-War-period engagements of the
+  280s–270s BCE. The campaign's outcome (the 306 BCE settlement,
+  the political division of Sicily between Syracusan and
+  Carthaginian zones) substantively shaped the political
+  configuration that produced the eventual First Punic War a
+  generation later when Mamertine appeals and Roman intervention
+  destabilized the inherited equilibrium.

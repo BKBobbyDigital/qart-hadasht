@@ -6,9 +6,14 @@ name_greek: Ἀννίβας
 name_latin: Hannibal
 etymology: >
   Ḥannibaʿl ("grace of Baʿal"), the same name borne by the more
-  famous Hannibal Barca two centuries later. Distinguished from
-  him by the patronymic and family designation. Grandson of the
-  Hamilcar Magonid who died at Himera in 480 BCE.
+  famous [Hannibal Barca](/people/hannibal-barca) two centuries
+  later. Distinguished from him by the patronymic and family
+  designation. Grandson of the [Hamilcar Magonid](/people/hamilcar-magonid)
+  who died at the Battle of [Himera](/events/battle-of-himera) in
+  480 BCE. The Magonid family designation indicates his descent from
+  the founder of the dynasty that dominated Carthaginian political-
+  military leadership across the 6th through 4th centuries BCE,
+  before the rise of the Barcids.
 floruit:
   value: -410
   precision: decade
@@ -17,22 +22,121 @@ death:
   value: -406
   precision: year
   circa: true
-  notes: Died of plague during the Carthaginian siege of Akragas in 406 BCE.
+  notes: >
+    Died of plague during the Carthaginian siege of Akragas in 406
+    BCE. The plague itself is preserved in Diodorus (13.86) as a
+    substantive epidemic that swept through the Carthaginian
+    besieging army; Hannibal's death from it is part of the broader
+    epidemiological event.
 roles:
   - general
 polity: Carthage
+referenced_themes:
+  - punic-identity
 summary: >
-  Carthaginian commander of the Magonid family who led the
-  great Sicilian invasion of 410-406 BCE, the campaign
-  understood by the Greek tradition as Carthaginian revenge for
-  the defeat at Himera in 480 BCE that had killed his
-  grandfather. Hannibal's army sacked Selinus and Himera in
-  409 BCE in successive campaigns of unusual brutality (Selinus
-  in particular was effectively destroyed; tens of thousands of
-  Greek inhabitants killed or enslaved). In 406 BCE he returned
-  with a larger force to besiege Akragas, the principal Greek
-  city of central-southern Sicily. He died of plague during the
-  siege; his subordinate Himilco completed the operation. The
-  invasion's scale and brutality reshaped Greek-Sicilian
-  geography for generations and produced the political
-  conditions for the rise of Dionysius I of Syracuse.
+  Hannibal son of Gisco is the principal Carthaginian commander of
+  the great Sicilian invasion of 410–406 BCE, the campaign that
+  reshaped Greek-Sicilian political geography for a century and
+  re-established Carthaginian military dominance in the western
+  Mediterranean after the long quietude that followed the 480
+  Himera defeat. His career is preserved principally through
+  Diodorus (books 13–14, drawing on the Sicilian historian Timaeus
+  of Tauromenium), with substantial Greek-tradition framing. The
+  campaign's brutal character and its scale make him one of the
+  most consequential individual Carthaginian commanders of the
+  pre-Punic-Wars period.
+
+  **The Magonid background and the 480 Himera memory.** Hannibal
+  was the grandson of [Hamilcar Magonid](/people/hamilcar-magonid),
+  the Carthaginian commander killed at the Battle of
+  [Himera](/events/battle-of-himera) in 480 BCE — the engagement
+  that ended the major Carthaginian Sicilian initiative of the
+  early 5th century and produced the seventy-year political
+  retreat that defines Carthaginian-Sicilian history through the
+  later 5th c. BCE. Diodorus and the Greek tradition frame the
+  410-406 campaign substantively as Hannibal's personal-dynastic
+  revenge for his grandfather's death: the campaign's specific
+  targeting of Himera, the ritual character of the city's
+  destruction, the funerary sacrifices Hannibal reportedly
+  conducted at the site of Hamilcar's death (Diodorus 13.62) are
+  preserved as evidence of substantive Magonid family motive
+  operating alongside (or through) Carthaginian state policy.
+  Whether the revenge framing reads as historical motive or as
+  Greek-tradition literary shaping is contested in modern
+  scholarship; the structural fact (the campaign specifically
+  targeted the site of the earlier defeat) is firmly attested.
+
+  **The Selinus campaign (409 BCE).** Hannibal's first major
+  operation was the siege and sack of Selinus, a substantial
+  Greek-Sicilian city on the southwestern coast. The Selinus
+  Greeks had become entangled in a border dispute with the
+  Elymian city of Segesta; Segesta appealed to Carthage; Carthage
+  intervened on the Elymian side. The siege of Selinus in 409 BCE
+  was conducted with what Diodorus (13.57-59) describes as
+  unprecedented brutality — siege engines deployed at scale, the
+  city's walls reduced by mining and battery, the population
+  systematically killed or enslaved when the city fell. Diodorus
+  reports 16,000 Selinuntines killed, 5,000 enslaved; the numbers
+  are substantively shaped by Greek-tradition reporting but
+  reflect the scale of the operation. The destruction of Selinus
+  is one of the most thoroughly attested episodes of ancient-
+  Mediterranean siege warfare and substantively reshaped the
+  Greek-Sicilian political geography of the southwestern part of
+  the island.
+
+  **The Himera campaign (409 BCE).** Immediately following the
+  Selinus operation, Hannibal moved against Himera itself — the
+  site of his grandfather's death. The campaign was deliberately
+  ritualized: Diodorus preserves Hannibal conducting sacrifices
+  at the location of Hamilcar Magonid's 480 BCE death,
+  executing 3,000 captured Greek prisoners as offerings, and
+  destroying the city more thoroughly than had been done at
+  Selinus. The funerary-vengeance framing is explicit in the
+  surviving tradition. Himera was substantively eliminated as a
+  political center; the surviving population was dispersed and
+  the site largely abandoned. The double destruction of Selinus
+  and Himera in a single campaigning season was one of the most
+  consequential single moments of Greek-Sicilian history; the
+  political-cultural balance of the island shifted substantially
+  toward Syracuse (the principal surviving Greek-Sicilian power)
+  and toward the Carthaginian-controlled western and southern
+  zones.
+
+  **The Akragas campaign and plague death (406 BCE).** Hannibal
+  returned to Sicily in 406 BCE with a larger force, this time
+  targeting Akragas — the principal Greek city of central-southern
+  Sicily and substantively the wealthiest Greek-Sicilian city of
+  the period. The Akragas siege was operationally more difficult
+  than Selinus or Himera had been; Akragan defenses were stronger,
+  the city's resources were more substantial, and the campaigning
+  season's epidemiological conditions were worse than the previous
+  year's. A substantive plague swept through the Carthaginian
+  besieging army; Hannibal himself died of it (Diodorus 13.86).
+  His subordinate kinsman Himilco took over command and completed
+  the operation: Akragas fell in late 406 BCE, was sacked, and the
+  surviving population fled to Gela and other Greek-Sicilian
+  centers. The campaign continued under Himilco through 405 BCE
+  with further operations against Gela and Camarina before
+  diplomatic settlement with the rising Syracusan tyrant
+  [Dionysius I](/people/dionysius-i) produced the political
+  outcome of the war.
+
+  **Assessment.** Hannibal son of Gisco is the principal Magonid
+  military figure of the late 5th century BCE and the commander
+  whose 410-406 campaign substantively reshaped Greek-Sicilian
+  political geography for the next century. The campaign's
+  outcome — Carthaginian re-establishment of western Sicilian
+  control, the destruction of Selinus and Himera, the reduction
+  of Akragas and the displacement of its population — produced
+  the political configuration that gave rise to Dionysius I's
+  Syracusan tyranny and the subsequent 4th-c. Sicilian wars.
+  The brutality of the operations is preserved with explicit
+  detail in the Greek tradition (the funerary sacrifices, the
+  scale of slaughter and enslavement) and reads as one of the
+  most psychologically scarring single episodes of Greek-
+  Carthaginian relations across the pre-Punic-Wars period. The
+  campaign's ritual-vengeance dimension — substantively
+  Magonid-dynastic family motive operating through Carthaginian
+  state policy — is one of the clearest documented cases of
+  individual aristocratic-family agency directing Carthaginian
+  military operations in the surviving record.
