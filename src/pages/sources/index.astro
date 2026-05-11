@@ -4,8 +4,45 @@ import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { getCollection } from 'astro:content';
 
 const sources = await getCollection('sources');
-const primary = sources.filter((s) => s.data.is_primary);
-const modern = sources.filter((s) => !s.data.is_primary);
+
+// Academic sort:
+// - Primary literary sources: chronological by composition date, earliest first
+// - Inscriptional corpora (CIS, KAI etc.): grouped at the end of primary
+//   since their dates are publication dates not ancient composition dates
+// - Modern scholarship: alphabetical by author surname, then by year
+function authorSurname(s: any): string {
+  if (!s.data.author) return s.data.title.toLowerCase();
+  // Strip parenthetical roles like "(ed.)"
+  const clean = s.data.author.replace(/\s*\([^)]*\)\s*/g, '').trim();
+  // Take the last whitespace-separated token as the surname
+  const parts = clean.split(/\s+/);
+  return parts[parts.length - 1].toLowerCase();
+}
+
+const primaryLiterary = sources
+  .filter((s) => s.data.is_primary && s.data.type !== 'inscription')
+  .sort((a, b) => {
+    const ay = a.data.date_composed?.value ?? 9999;
+    const by = b.data.date_composed?.value ?? 9999;
+    return ay - by;
+  });
+
+const primaryInscriptional = sources
+  .filter((s) => s.data.is_primary && s.data.type === 'inscription')
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const primary = [...primaryLiterary, ...primaryInscriptional];
+
+const modern = sources
+  .filter((s) => !s.data.is_primary)
+  .sort((a, b) => {
+    const sa = authorSurname(a);
+    const sb = authorSurname(b);
+    if (sa !== sb) return sa.localeCompare(sb);
+    const ay = a.data.date_composed?.value ?? 9999;
+    const by = b.data.date_composed?.value ?? 9999;
+    return ay - by;
+  });
 
 // Reverse-lookup citation count per source
 const allClaims = await getCollection('claims');
@@ -38,19 +75,40 @@ const fmtComposed = (s: any) =>
     </p>
 
     <div data-view-cards>
-      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Primary sources</h2>
-      <ul class="space-y-2 mb-10">
-        {primary.map((s) => (
+      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Primary sources</h2>
+      <p class="text-xs text-sand-700 mb-4 italic">Chronological by composition date.</p>
+      <ul class="space-y-2 mb-8">
+        {primaryLiterary.map((s) => (
           <li class="border border-sand-300 rounded p-3">
             <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
               {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+              {s.data.date_composed && <> ({fmtComposed(s)})</>}
             </a>
             <p class="text-sm text-sand-700 mt-1 capitalize">{s.data.type.replace('_', ' ')} · {s.data.language}</p>
           </li>
         ))}
       </ul>
 
-      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Modern scholarship</h2>
+      {primaryInscriptional.length > 0 && (
+        <>
+          <h3 class="font-serif text-lg text-sand-900 mb-2">Inscriptional corpora</h3>
+          <p class="text-xs text-sand-700 mb-4 italic">Modern scholarly editions of primary epigraphic material.</p>
+          <ul class="space-y-2 mb-10">
+            {primaryInscriptional.map((s) => (
+              <li class="border border-sand-300 rounded p-3">
+                <a href={`/sources/${s.id}`} class="font-medium text-tyrian-700 hover:underline">
+                  {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
+                  {s.data.date_composed && <> ({s.data.date_composed.value})</>}
+                </a>
+                <p class="text-sm text-sand-700 mt-1 capitalize">{s.data.type.replace('_', ' ')} · {s.data.language}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Modern scholarship</h2>
+      <p class="text-xs text-sand-700 mb-4 italic">Alphabetical by author surname.</p>
       <ul class="space-y-2">
         {modern.map((s) => (
           <li class="border border-sand-300 rounded p-3">
@@ -58,6 +116,7 @@ const fmtComposed = (s: any) =>
               {s.data.author ? `${s.data.author}, ` : ''}<em>{s.data.title}</em>
               {s.data.date_composed && <> ({s.data.date_composed.value})</>}
             </a>
+            <p class="text-sm text-sand-700 mt-1 capitalize">{s.data.language}</p>
           </li>
         ))}
       </ul>
