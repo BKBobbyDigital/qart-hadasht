@@ -154,6 +154,11 @@ const navGroups = [
           </div>
         </a>
 
+        <!-- Thin sand rule separating the brand block from the
+             primary nav. Editorial-quiet, doesn't compete with the
+             top/bottom tyrian rules bookending the masthead. -->
+        <div class="border-t border-sand-300"></div>
+
         <!-- Primary nav grouped by epistemic kind. Three groups
              (Reference / Synthesis / Evidence) separated by ‖
              dividers, with eyebrow labels centered over each group.
@@ -304,16 +309,6 @@ const navGroups = [
           }
         });
 
-        // Track outbound clicks to the GitHub revision-history link in
-        // the VersionStamp footer — signals "someone is verifying a
-        // version they cited" or "someone is curious about the edit
-        // history," both useful usage indicators.
-        document.addEventListener('click', (e) => {
-          const a = e.target instanceof Element ? e.target.closest('a[href*="github.com/"][href*="/commits/"]') : null;
-          if (!a) return;
-          if (window.qhTrack) window.qhTrack('github-history-click');
-        });
-
         // Track outbound clicks to external URLs (anything not on this
         // site's domain). Strong signal of academic-quality engagement:
         // people following citation links to verify sources at publishers,
@@ -327,8 +322,6 @@ const navGroups = [
           if (!host) return;
           // Skip same-origin links (some absolute self-references exist).
           if (host === window.location.host) return;
-          // Skip the GitHub history link — already tracked above as its own event.
-          if (host === 'github.com' && /\/commits\//.test(a.href)) return;
           if (window.qhTrack) window.qhTrack('outbound-click', host);
         });
 
