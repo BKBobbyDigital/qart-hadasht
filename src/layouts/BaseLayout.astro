@@ -108,13 +108,16 @@ const primaryNav = [
         </a>
 
         <!-- Primary nav. justify-between on desktop binds Periods to
-             left edge and Sources to right edge of this same parent
-             container. Mobile wraps and centers. -->
-        <nav class="py-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-3 sm:gap-x-4 gap-y-2 text-sm font-medium text-ink-900">
+             left edge and Artifacts to right edge of this same parent
+             container. Tightened gaps (gap-x-2/2.5) so the 10-item
+             nav fits on one row at typical desktop widths; still
+             wraps gracefully on narrower viewports. whitespace-nowrap
+             on the anchors prevents mid-label breaks during wrap. -->
+        <nav class="py-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-2 sm:gap-x-2.5 gap-y-2 text-sm font-medium text-ink-900">
           {primaryNav.map((item, i) => (
             <>
               {i > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
-              <a href={item.href} class="hover:text-tyrian-700 transition-colors">{item.label}</a>
+              <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
             </>
           ))}
         </nav>
