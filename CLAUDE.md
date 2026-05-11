@@ -56,7 +56,11 @@ confidence; the prose itself should not speak with God-voice.
     `src/lib/autolink.ts` for entity-page summary `set:html` prose;
     both share the same accept/reject rules (whole-word match,
     longest-match-wins, ambiguous-name skip, first-mention-per-key,
-    `excludeKey` for self-references).
+    `excludeKey` for self-references). The runtime `autolink.ts` also
+    processes markdown-style `[text](url)` links in YAML summary fields
+    as a first pass, converting them to anchor HTML before the entity-
+    autolink pass — this lets YAML prose embed explicit links to
+    editorial takes, narratives, and open questions inline.
   - `remarkCitations.mjs` — auto-links ancient-source citation patterns
     (Polybius 3.22, Plutarch *Cato Major* 27, etc.) to source pages
 
@@ -276,7 +280,17 @@ Key components in `src/components/`:
 - `ConfidenceBadge.astro` — claim confidence chip
 - `EditorialConfidenceChip.astro` — editorial take confidence chip
 - `SourceDistance.astro` — temporal-distance chip on cited sources
-- `Map.astro` — Leaflet map for places/events
+- `Map.astro` — Leaflet map for places/events (uses OSM tiles; older
+  point-marker maps for individual places and events)
+- `HistoricalMap.astro` — server-side SVG historical-atlas map. Cream
+  paper background, Natural Earth 50m coastline, translucent
+  polygons for territory, route lines for campaigns, city markers
+  with Cormorant labels. No OSM tiles, no client JS. Map configs
+  live in `src/data/maps/*.json`; coastline data in
+  `src/data/coastline-mediterranean.json`. Period and event frontmatter
+  can opt in via `map_id` + `map_caption` fields. Currently used for
+  the three Punic War strategic maps (FPW, SPW, TPW) on the period
+  pages and on the war-level event pages.
 - `Timeline.astro` — currently NOT on homepage (removed for redesign);
   still appears on `/events`
 - `TanitMark.astro` — brand mark SVG
@@ -294,127 +308,206 @@ Cards are default; tables are forced to cards on mobile.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is ~557 pages.
+parked until the day version settles. The site is **~593 pages** as of
+the last build.
 
-Major work shipped (most recent first):
+### Collection counts (current)
 
-**Artifacts collection — 39 entries with deep site integration**
-First-class `artifacts` content collection with detail pages, image-card
-index, Wikimedia-sourced photography (~38 of 39 entries imaged), and
-full bibliographic / material-evidence cross-referencing. Schema covers
-material, dimensions, find_context, dating_method, languages,
-interpretation_status, and an image block with src/alt/credit/license.
-Render at `/artifacts/<slug>`. Wired into masthead nav after Sources.
-Includes a `MaterialEvidence.astro` component on every entity render
-route that derives artifact connections via (a) theme frontmatter
-`referenced_themes` linkage and (b) claim co-occurrence — if a claim
-references both an entity and an artifact, the artifact surfaces as
-material evidence on the entity page. Heavy in-prose interlinking via
-autolink (artifacts registered in both `src/lib/autolink.ts` and
-`src/lib/remarkAutolink.mjs`); 195+ artifact links rendered across
-the dist/ tree as of last update.
+| Collection | Count |
+|---|---|
+| events | 89 |
+| people | 71 |
+| places | 44 |
+| sources | 47 |
+| claims | 171 |
+| editorialTakes | 21 |
+| openQuestions | 13 |
+| artifacts | 41 |
+| narratives | 29 |
+| themes | 14 |
+| periods | 7 |
+| threads | 7 |
+| groups | 18 |
+| institutions | 6 |
+| deities | 10 |
+| causalLinks | 12 |
 
-**Editorial header (every page)**
-Unified masthead with utility row (About + Search), big Qart-Hadasht
-wordmark + Phoenician script left-aligned, Tanit mark + tagline
-center-aligned right, primary nav with pipes between every item.
-`max-w-4xl` content bound throughout for one consistent column.
+### The MacDonald-direction framing pass (most recent major work)
 
-**Page-header standardization**
-Every landing/index page uses one canonical pattern (max-w-4xl,
-`text-4xl sm:text-5xl mb-3` h1, sand-700 description mb-8).
+A multi-session effort to address what an Eve MacDonald-style critique
+would flag — the under-developed substantive dimensions of the site
+that, if filled, would move it from good encyclopedia to important
+encyclopedia. Ten items identified; all ten addressed. The framing
+discipline throughout: **describe what specific people did within
+documented structures; do not project modern frameworks back; treat
+non-Greco-Roman peoples and Carthaginian women as active agents of
+their own history; lead with non-Roman primary evidence where it
+exists.** Each item produced new content with full back-citation:
 
-**Color discipline — epistemic signal only**
-Color reserved for two ordinal scales: claim confidence (filled chip,
-primary) and source distance (hairline chip, secondary). All
-category-color usage (Start Here chips, thread cards, event-type
-badges) neutralized. Editorial-confidence chip on graduated slate.
+1. **Hannibal as integrated Punic-Hellenistic figure** — covered
+   via the cultural-integrator editorial take rather than as
+   "Hellenistic-first" reframing
+2. **Barcid Iberian state as substantive state-building** —
+   `narratives/the-barcid-iberian-state.md`,
+   `editorialTakes/barcid-iberian-state-as-state.yaml`, two
+   load-bearing claims, period 05 rebalanced, coinage artifact
+   expanded, Hasdrubal the Fair reframed
+3. **Hellenistic Carthage as integrated** — formalized as
+   `editorialTakes/carthage-as-cultural-integrator.yaml`: active
+   cultural integrator on Punic terms, with class-stratification
+   observation explicit (elite Hellenization deeper than popular)
+4. **Punic inscriptional record as primary evidence category** —
+   `themes/punic-inscriptional-record.md`, CIS and KAI source
+   entries, Marseille Tariff and Carthage Tariff artifacts
+5. **Italian/French/Spanish scholarship as proper sources** — six
+   new non-Anglophone source entries (Moscati, Ribichini, Xella,
+   Krings, Bonnet *Astarté*, López Castro), all fully back-cited
+6. **Punic continuity in Roman Africa** —
+   `narratives/punic-continuity-in-roman-africa.md` with the
+   "no hard endpoint" framing discipline, open question on
+   duration of Punic identity, Bénabou / Jongeling / Augustine
+   as new sources, period 07 closing rewritten to disown the
+   146-as-endpoint framing
+7. **Women and family** — substantial theme rewrite with the
+   "describe what's attested; don't project modern frameworks"
+   discipline, Sophonisba page expanded with historiographical
+   reframing (parallel to Indibilis-Mandonius), open question on
+   what surviving evidence does and doesn't permit reconstruction
+8. **Numidian-Punic interface** —
+   `narratives/the-numidian-punic-interface.md`, Gala person page,
+   Libyans group page (distinct from Libyo-Phoenicians),
+   `editorialTakes/masinissa-strategic-opportunist.yaml` (not
+   "Roman client" not "architect of destruction" but strategic
+   opportunist with longevity-enabled patience), Masinissa person
+   page substantially expanded, period 07 Masinissa section
+   reframed
+9. **Phoenician colonial network as system** —
+   `themes/phoenician-colonial-network.md` with the network-first
+   framing (Carthage as emergent dominant node larger than the
+   system it produced), Bonnet *Cadmos* source, Melqart-cult-as-
+   network-infrastructure claim, foundation narrative rebalanced
+10. **Mago as the surviving Carthaginian voice** —
+    `narratives/mago-of-carthage.md` tracing the 2,000-year
+    transmission chain through Roman, Greek, Arabic, and medieval
+    Latin agronomic literature, Mago treatise as primary source
+    entry, Pliny / Varro / Columella as new source entries,
+    open question on what the treatise contained
 
-**Source-weaving (three phases complete)**
-1. Inline citations across narrative/theme/period prose via
-   `remarkCitations.mjs`
-2. Enriched source pages with passage-digest "What this source
-   preserves" sections
-3. `/methodology` page explaining confidence vocabulary, source
-   distance, stance vocabulary, editorial-take framework
+### Maps system
 
-**Per-page bibliography**
-`Bibliography.astro` component auto-derives a per-entity reading list
-from the claims that reference it, split into Ancient sources and
-Modern scholarship, sorted by citation count desc.
+`HistoricalMap.astro` component renders server-side SVG historical-
+atlas maps from JSON config + Natural Earth 50m coastline data. Three
+maps shipped:
+- `src/data/maps/fpw.json` — First Punic War strategic geography
+- `src/data/maps/spw.json` — Second Punic War (widest theater, with
+  Hannibal's dashed Pyrenees-Rhône-Alps route)
+- `src/data/maps/tpw.json` — Third Punic War zoomed to Cap Bon
 
-**Contact form**
-Netlify Forms-based contact form at `/about` (Name / Title / Email /
-Message + honeypot), submissions routed to email + Netlify dashboard.
-Thanks page at `/thanks`. `public/__forms.html` stub guarantees Netlify
-form detection on the static-site build.
+Periods 04, 06, 07 and the war-level event pages all surface the
+relevant map via `map_id` + `map_caption` frontmatter fields.
 
-**Security and provenance hardening**
-- robots.txt categorizes crawlers: allow traditional search + AI
-  live-answer (ChatGPT-User, Claude-Web, PerplexityBot, Applebot,
-  OAI-SearchBot, YouBot); block AI training (GPTBot, ClaudeBot,
-  CCBot, Google-Extended, Bytespider, FacebookBot, meta-externalagent,
-  Diffbot, Omgilibot, ImagesiftBot, cohere-ai, Amazonbot)
-- HTTP headers: HSTS (1y, includeSubDomains), Permissions-Policy
-  (camera/mic/geolocation/payment/USB/sensors all off), X-Robots-Tag
-  noai/noimageai
-- HTML provenance markers: `<meta name="robots" content="noai, noimageai">`,
-  Schema.org JSON-LD WebSite block, HTML comment signature on every page
-- 2FA enabled on GitHub / Netlify / domain registrar (user-side, done)
+### Editorial takes — now at 21
 
-**Earlier shipped work (still relevant)**
-- Inline source citations across narrative/theme/period prose
-- The Tophet narrative (`/narratives/the-tophet-controversy`) —
-  historiographical arc rather than position-taking essay
-- Infobox audit — `emptyLabel` distinction between "unknown" (genuine
-  missing fact) and "none" (count = 0)
-- Theme pages reworked as hubs
+Major new takes from the framing pass:
+- `tophet-happened-scale-unrecoverable` — "practice happened, scale
+  unrecoverable"; bioarchaeology + *molk* formula + cross-source
+  consistency carry the "happened" case
+- `hannibal-195-denunciation-as-fabrication` — strong fabrication
+  reading on the 195 Antiochus charge
+- `mercenary-war-atrocity-structural` — Hoyos structural reading
+  over Polybian individual-leadership reading
+- `barcid-iberian-state-as-state` — integrated state-building +
+  Rome-orientation framing
+- `masinissa-strategic-opportunist` — neither Roman client nor
+  architect-of-destruction
+- `carthage-as-cultural-integrator` — active Punic agency in
+  Hellenistic absorption
+
+The pattern that emerges across these: **the site takes positions
+with appropriate confidence-labels, explicitly weighs competing
+readings (often noting "compatible alternative" vs "rejected
+position"), and consistently treats agency rather than passive
+reception as the load-bearing framing for non-Greco-Roman actors.**
+
+### Autolink markdown-link fix
+
+`src/lib/autolink.ts` was extended to process markdown-style
+`[text](url)` links in YAML summary fields as a first pass before
+the entity-autolink pass. Previously these rendered as literal
+markdown syntax. Fix applies retroactively to all YAML summaries —
+the back-citations into editorial takes and narratives from entity
+pages now render as proper anchors.
+
+### Sources index academic sort
+
+The `/sources` index now sorts primary literary chronologically by
+composition date, inscriptional corpora separately at the end of the
+primary section, and modern scholarship alphabetically by author
+surname. Each section has an italic explanatory note about the
+sort order.
+
+### Earlier shipped work (still relevant — recap from before the framing pass)
+
+- Artifacts collection — 41 entries (39 originally + Marseille and
+  Carthage tariffs); deep site integration; image-card index;
+  MaterialEvidence cross-referencing component
+- Editorial masthead, page-header standardization, color discipline
+  (epistemic signal only)
+- Three-phase source-weaving (inline citations, enriched source
+  pages, /methodology page)
+- Per-page bibliography (auto-derived from claims)
+- Contact form (Netlify Forms; thanks page)
+- Security and provenance hardening (cooperative robots.txt; HTTP
+  headers including HSTS, Permissions-Policy, X-Robots-Tag; HTML
+  provenance markers; 2FA on GitHub/Netlify/registrar)
+- Richer deity infobox (sanctuary, iconography, consort, cult_period
+  fields; all 10 deities filled)
+- Threads collection (7 curated reading paths)
+- Period pages (7 era syntheses)
 - Cmd-K search modal global component
-- Threads collection (curated reading paths) — 7 threads
-- Period pages — 7 era synthesis pages
-- Smaller content gaps filled: places (Lepcis Magna, Hadrumetum,
-  Byrsa), Iberian groups (Olcades, Vaccaei, Carpetani, Lacetani),
-  events (Battle of the Insubres, Annual Tyre Delegation), Hanno the
-  Great upgrade, *ius fetiale* claim
 
 ---
 
 ## Outstanding work
 
-### Still pending — the active work list
+### Active work list
 
 **Time-aware territorial maps** — Carthaginian extent at 550 / 264 /
-218 / 202 / 146 BCE. Five polygons across time on a Leaflet map.
-Significant lift, big visual payoff. The largest remaining item from
-the original work list.
+218 / 202 / 146 BCE. Five polygons across time with a date-toggle UI.
+Distinct from the operational/strategic Punic War maps already
+shipped (which show one war each, not territorial extent over time).
+The largest unbuilt visual addition the site could still take. The
+existing `HistoricalMap.astro` component is the right starting point;
+the toggle UI and the five polygon datasets are the new work.
 
-**Editorial takes elevated from existing prose** — read narratives,
-themes, periods; lift strongest implicit positions into formal
-`editorialTakes/<slug>.yaml`. Judgment-heavy work.
+**Thinner entity pages polish pass** — Hanno the Great is a
+one-pager; Mago Barca thin; non-Barcid senate-level actors
+(Hasdrubal Gisco, Bomilcar, others) probably under-developed. A
+diminishing-returns pass that would lift the floor across the
+people collection.
 
-**Richer deity infobox** — schema addition (sanctuary, iconography
-fields) + content sweep across all deity YAMLs.
+**Suffeteship as institutional arc** — `/institutions/suffetes`
+exists, but the office's evolution from 5th-c. BCE forward through
+Hannibal's 196 BCE reforms isn't traced as a narrative arc. A small
+new narrative would do this.
 
-**Further artifact integration** — the heavy wire-up is done (themes,
-periods, key places/events/people, Tophet and destruction narratives
-all reference relevant artifacts). Remaining integration is
-diminishing-returns work: more narratives (young-hannibal,
-hamilcar-life, indibilis-and-mandonius), more deities (Tanit/Baal
-Hammon/Melqart/Eshmun summaries), more event pages (founding,
-Annual Tyre Delegation, Mercenary War), more claim
-passage_summaries. Each individual edit is small and the autolink
-plus MaterialEvidence components do most of the structural work
-automatically.
+**Marcus Atilius Regulus / co-envoys of 218 BCE** — small specific
+gap. Different Atilius from the existing FPW prisoner page; could
+be a quick new people entry.
 
-**Marcus Atilius Regulus / co-envoys of 218 BCE** — different Atilius
-from the existing FPW prisoner page; could be a small new people entry.
+**Per-entity richer infobox passes (events, places, people)** — the
+deity infobox refresh produced a meaningful quality improvement; the
+same kind of audit on other entity types might surface useful
+schema additions.
 
 ### Parked indefinitely
 
 - **Dark mode** (Phase 3 of visual redesign) — once day version settles
 - **Keyboard navigation** (`j`/`k` between siblings) — niche
-- **Reception history** (Roman Carthage, Augustine, modern memory) —
-  explicitly out of scope per original framing
+- **Reception history** (Roman Carthage and onward, modern memory) —
+  explicitly out of scope. The Punic-continuity-in-Roman-Africa
+  narrative covers what's load-bearing for the site's framing without
+  expanding scope into Roman Carthage proper.
 - **Per-entity-page rich imagery** — the artifact collection has
   images because public-domain photos exist for material culture;
   entity pages (people, events, etc.) don't get imagery because
@@ -446,10 +539,8 @@ these but they're informational for this codebase.
 We tried multiple approaches and concluded the horizontal-line format
 doesn't fit data with this shape. Was removed; will revisit later.
 Options floated: tiny period-band sparkline strip, vertical
-chronological format, or none at all. The homepage now has no
-timeline, just the period cards (themselves later removed —
-homepage is now hero → start-here chips → reading threads → personal
-voice → what-this-is).
+chronological format, or none at all. The homepage is now hero →
+start-here chips → reading threads → personal voice → what-this-is.
 
 ---
 
@@ -501,9 +592,9 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of last session it was around **557 pages**. New entity
-additions will increase it; render-page additions for already-existing
-collections will increase it dramatically.
+output. As of the last CLAUDE.md refresh it was around **593 pages**.
+New entity additions will increase it; render-page additions for
+already-existing collections will increase it dramatically.
 
 ---
 
@@ -536,15 +627,93 @@ The user does not want:
 - Check recent git log for recent context
 - Look at a representative entity page in each collection to absorb
   patterns before writing new content
-- The `narratives/the-tophet-controversy.md`, `themes/punic-religion.md`,
-  and `periods/06-second-punic-war.md` are good examples of the
-  long-form synthesis voice
-- The `editorialTakes/cannae-roman-refusal-to-negotiate.yaml` and
-  `editorialTakes/destruction-not-weak-enough.yaml` are good examples of
-  formal position-taking with opposition framing
-- The `claims/cannae-tactical-template-for-italy.yaml` and
-  `claims/iberian-side-switching-as-agency.yaml` are good examples of
-  inferred claims with proper source structure
+
+### Canonical examples to model on
+
+- **Long-form synthesis narratives** (the principal site voice):
+  - `narratives/the-barcid-iberian-state.md` — integrated position
+    with state-building and Rome-orientation as one project
+  - `narratives/mago-of-carthage.md` — substantive transmission-chain
+    treatment; how to walk centuries of cultural continuity from
+    fragmentary evidence
+  - `narratives/punic-continuity-in-roman-africa.md` — non-Roman-
+    evidence-first methodology; "no hard endpoint" discipline
+  - `narratives/the-numidian-punic-interface.md` — agency-of-non-
+    Greco-Roman-actors framing
+  - `narratives/the-tophet-controversy.md` — historiographical arc
+    treatment (different from the position-taking narratives;
+    walks a debate rather than synthesizing a position)
+
+- **Editorial takes** (formal position-taking with opposition framing):
+  - `editorialTakes/tophet-happened-scale-unrecoverable.yaml` —
+    narrow defensible position with explicit evidence-as-load-bearing
+    vs. evidence-as-non-resolving distinction
+  - `editorialTakes/masinissa-strategic-opportunist.yaml` —
+    rejects two conventional readings (Roman client; architect of
+    destruction) in favor of a third more honest framing
+  - `editorialTakes/carthage-as-cultural-integrator.yaml` — active
+    agency framing parallel to Indibilis-Mandonius and Masinissa
+  - `editorialTakes/barcid-iberian-state-as-state.yaml` —
+    integrated framing rather than dual-track; class-stratification
+    observation explicit
+  - `editorialTakes/destruction-not-weak-enough.yaml` — the earliest
+    canonical exemplar of the format
+
+- **Themes as analytical hubs**:
+  - `themes/punic-inscriptional-record.md` — treats a body of
+    evidence as a category in its own right
+  - `themes/phoenician-colonial-network.md` — structural-system
+    framing with tangible-vs-legendary discipline
+  - `themes/women-and-family.md` — honest evidence-base treatment
+    with explicit gap-acknowledgment
+
+- **Claims** (inferred with proper sourcing):
+  - `claims/iberian-side-switching-as-agency.yaml` — the foundational
+    agency reframing
+  - `claims/barcid-dynastic-succession-as-state-form.yaml` —
+    structural-pattern reading with multiple primary-source citations
+  - `claims/melqart-cult-as-network-infrastructure.yaml` — tangible
+    institutional-coordination evidence base
+
+- **Open questions** (no-hard-answer entries with weighed candidates):
+  - `openQuestions/duration-of-punic-cultural-identity.yaml` —
+    framed without presumed endpoint
+  - `openQuestions/punic-womens-lives-evidence-gap.yaml` — what
+    surviving evidence does and doesn't permit
+
+### Framing discipline that runs across recent work
+
+- **Agency framing.** When a non-Greco-Roman actor (Iberian tribal
+  leader, Numidian king, Carthaginian woman) appears in the
+  surviving record through hostile or moralizing Greek/Latin
+  framing, the site reads against that framing to recover the
+  actor's substantive agency rather than reproducing the
+  framing.
+
+- **No hard endpoints, no hard openings.** Punic civilization did
+  not end at 146 BCE (continuity narrative) and did not begin at
+  814 BCE Dido foundation (network theme). Both bookends push
+  past Greco-Roman closure-and-opening framings to reveal longer
+  integrated cultural arcs.
+
+- **Active integration, not passive reception.** When elements
+  flow between civilizations (Hellenistic forms entering
+  Carthaginian practice; Punic forms entering Numidian or Roman-
+  African practice), the framing emphasizes the receiving
+  civilization's selection-and-adaptation agency rather than the
+  donor civilization's projection.
+
+- **Tangible-and-attested leads; legendary material bracketed.**
+  When a topic mixes well-attested evidence (inscriptions,
+  archaeology, multiple-source corroboration) with legendary
+  tradition (Dido, foundation stories, romantic-narrative
+  embellishment), the site leads with the tangible material and
+  explicitly flags legendary content as such.
+
+- **Honest gap-acknowledgment.** Where the surviving evidence
+  does not support reconstruction, say so explicitly. The
+  women-and-family theme and the open-question collection are
+  the principal vehicles for this discipline.
 
 Ask the user where to start if it's not obvious. Small concrete steps
 beat big restructurings.
