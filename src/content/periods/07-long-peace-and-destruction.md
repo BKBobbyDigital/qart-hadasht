@@ -122,18 +122,31 @@ ruled in Masinissa's favor; each Carthaginian attempt to respond
 militarily would have constituted treaty violation; the encroachments
 continued.
 
-The pattern's strategic logic, on the site's reading, was Roman as
-much as Numidian: Masinissa's expansion at Carthaginian expense
-produced exactly the regional configuration Rome preferred: a strong
-Roman ally adjacent to a constrained former adversary, with the
-constrained adversary unable to respond without violating its own
-treaty obligations. Whether Rome's commissioners were consciously
-executing this strategy or whether they were simply reflecting the
-structural incentives the configuration produced is genuinely
-contested in modern scholarship; what the surviving Roman tradition
-itself frames as Carthaginian-Numidian dispute, the modern reading
-treats as Roman-enabled territorial pressure. Either way, the outcome
-was a Carthaginian position that could not stably hold.
+The pattern's strategic logic on the site's reading involves three
+parallel actors, not two. Masinissa was substantively pursuing his
+own Numidian aggrandizement program — not Roman bidding — with full
+understanding of how far Roman patronage would back his pressure;
+Rome was substantively enabling the program because Carthaginian
+containment served Roman strategic interests; and the Carthaginian
+state was substantively unable to respond except through the
+treaty-violating military action that would eventually trigger the
+Roman intervention all three actors' positions made structurally
+likely. Masinissa was not a Roman client doing Roman bidding; he
+was a clear-eyed strategic opportunist who had served as a Roman
+cavalry commander at Zama, understood Roman strategic intent from
+the inside, and calibrated his five-decade encroachment program to
+maximize Numidian gains within the patronage frame. His longevity
+— approximately ninety years, with a continuous reign of fifty-eight
+years from 206 to 148 BCE — gave him a strategic time horizon
+unusual in the ancient Mediterranean and the patience to play the
+incremental game across multiple generations of his Roman and
+Carthaginian counterparts. The site's full reading of his role is
+under the editorial take
+[Masinissa: strategic opportunist, not architect](/editorialTakes/masinissa-strategic-opportunist).
+The configuration's outcome was a Carthaginian position that could
+not stably hold and a Roman strategic option that the Cato faction
+of the late 150s would eventually convert into active preparation
+for elimination.
 
 ## Cato's commission
 

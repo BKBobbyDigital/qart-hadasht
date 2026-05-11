@@ -1,7 +1,16 @@
 slug: masinissa
 name_display: Masinissa
+name_punic: Massanasses (in Punic-language attestations)
 name_greek: Μασσανάσσης
 name_latin: Masinissa
+etymology: >
+  The Numidian name *Masinissa* is preserved in Greek and Latin
+  transliterations from underlying Numidian and possibly
+  Libyo-Punic forms; the etymology is not securely
+  reconstructable. He spoke Punic alongside Numidian and was
+  acculturated at Carthage in his youth, placing him squarely
+  in the Punic-Numidian cultural sphere that defined the
+  Massylii royal house's political world.
 birth:
   value: -238
   precision: year
@@ -9,16 +18,173 @@ birth:
 death:
   value: -148
   precision: year
+  notes: >
+    Died at approximately ninety years old, just as the Third
+    Punic War was beginning. His unified Numidian kingdom passed
+    to his three sons (Micipsa, Gulussa, Mastanabal) under a
+    triumvirate arrangement reportedly devised by Scipio
+    Aemilianus.
 roles:
   - king
   - general
   - cavalry commander
+  - strategist
 polity: Numidia
+referenced_themes:
+  - punic-identity
+  - punic-religion
 summary: >
-  Numidian prince of the Massylii who fought first for Carthage in Spain and
-  then defected to Rome before the Zama campaign. His cavalry, long the
-  decisive arm of Numidian armies, proved critical at Zama, where Masinissa's
-  charge in the late stages of the battle broke the Carthaginian line. Rome
-  rewarded him with a unified Numidian kingdom; his subsequent border
-  provocations against Carthage were a proximate cause of the Third Punic War.
-  Lived to nearly 90, dying as Rome moved to destroy Carthage.
+  Masinissa is one of the most consequential individual actors
+  in the entire arc of Carthaginian history. He ruled the
+  unified Numidian kingdom continuously for approximately
+  fifty-eight years (c. 206-148 BCE), outlived Hannibal by
+  thirty-five years and Scipio Africanus by thirty-five years,
+  and died as the Third Punic War he had done so much to make
+  inevitable was beginning. His Numidian cavalry was the
+  decisive tactical instrument at Zama in 202 BCE; his fifty-
+  year program of incremental Numidian expansion at Carthaginian
+  expense produced the structural conditions that made the
+  Third Punic War possible. Without Masinissa specifically,
+  neither Zama nor the 150 BCE military trigger for the Third
+  Punic War occurs. He is in this sense one of the load-bearing
+  individual figures in the destruction's structural
+  configuration.
+
+  The site treats Masinissa under the editorial take
+  [Masinissa: strategic opportunist, not architect](/editorialTakes/masinissa-strategic-opportunist),
+  which formalizes the position. The take rejects both
+  conventional framings: the "Roman client" reading
+  under-weights his agency (he wasn't doing Roman bidding, he
+  was pursuing his own Numidian objectives within a Roman
+  patronage frame he understood with unusual clarity), and the
+  "architect of destruction" reading overstates his design (he
+  didn't draft the 149 demands or make the destruction decision).
+  The honest reading is between: a clear-eyed Numidian king who
+  understood Roman strategic intent toward Carthage, calibrated
+  his expansion to maximize gains within the configuration Roman
+  patronage enabled, and pushed and pushed for half a century
+  knowing where his pressure would eventually deliver.
+
+  **Origins and the at-bay years (238-206 BCE).** Born into the
+  royal house of the Massylii, the eastern of the two principal
+  Numidian confederations, Masinissa was educated at Carthage in
+  his youth and was acculturated into the Carthaginian
+  aristocratic networks that the Massylii-Carthaginian alliance
+  presupposed. He served as a cavalry commander under
+  Carthaginian command in the Iberian theater of the Second
+  Punic War, where his Numidian cavalry contingents were
+  substantively integrated into the Barcid military apparatus.
+  In his late teens or early twenties he was betrothed to
+  Sophonisba, daughter of Hasdrubal Gisco — a Carthaginian-
+  Massylii dynastic marriage that the Carthaginian senate
+  subsequently reversed in approximately 206 BCE, giving
+  Sophonisba instead to Syphax of the Masaesyli to secure the
+  larger western Numidian kingdom against the emerging Roman
+  alliance. The reversal was the personal-political moment
+  that crystallized Masinissa's frustration with Carthaginian
+  hegemony: he had been a substantive Carthaginian ally for
+  more than a decade, and the senate's calculation that
+  Syphax was a more valuable alliance had cost him his
+  marriage prospect and his political position in the
+  Massylii-Carthaginian system.
+
+  **The defection and Zama (206-202 BCE).** Masinissa's
+  defection to Rome was substantively his own strategic
+  decision: not Roman recruitment of a Numidian client but the
+  recognition by a Massylii prince that the constraint pattern
+  under Carthaginian hegemony would continue indefinitely
+  unless broken under Roman cover. He carried with him to
+  Rome the inside understanding of Carthaginian political-
+  military structures that his Carthaginian education and
+  Iberian service had given him. His Numidian cavalry at Zama
+  (202 BCE) was the decisive tactical instrument of Scipio
+  Africanus's victory: the Carthaginian cavalry advantage that
+  had won Cannae and Trebia was reversed precisely because
+  Masinissa brought superior Numidian cavalry to the Roman
+  side. Scipio's late-battle envelopment of the Carthaginian
+  rear — the move that converted a tactically uncertain
+  engagement into Roman victory — depended entirely on
+  Masinissa's cavalry executing it. Without him, Zama is at
+  best a draw and possibly a Carthaginian win.
+
+  **The unification of Numidia and the release (203-201 BCE).**
+  After Syphax's defeat at the Battle of the Great Plains in
+  203 BCE, Masinissa captured the Masaesylian capital at Cirta
+  and married Sophonisba within a day of Syphax's capture —
+  the politically calculated move that the Livian tradition
+  preserves through the famous Sophonisba episode. After
+  Sophonisba's forced suicide, Masinissa emerged from the war
+  as the unified Numidian king, with Roman blessing and Roman
+  recognition. The constraint pattern of the at-bay years was
+  gone. What he did with the unshackling defined the next
+  half-century of North African history.
+
+  **The fifty-year program (201-150 BCE).** Across the fifty
+  years following the Treaty of 201, Masinissa pursued
+  systematic incremental expansion of Numidian territory at
+  Carthaginian expense. The pattern was calibrated rather than
+  opportunistic: each encroachment was sized to what Roman
+  patronage would back without provoking Carthaginian
+  existential response; each Carthaginian appeal to Rome for
+  arbitration produced a Roman commission that invariably
+  ruled in Masinissa's favor; each Roman commission's pattern
+  taught Masinissa exactly how far his pressure could go. The
+  fifty-year cumulative effect was the substantial reduction
+  of Carthaginian African territory and the substantive
+  consolidation of a Numidian kingdom that by mid-century
+  was the largest North African polity outside Roman direct
+  rule.
+
+  The patience the program required is itself a distinctive
+  feature of Masinissa's strategic style. He could afford to
+  pressure incrementally for decades because he was going to
+  be alive for those decades — his fifty-eight-year reign and
+  ninety-year life span gave him a strategic time horizon
+  that few of his contemporaries shared. The Roman senators
+  he dealt with rotated; the Carthaginian leadership turned
+  over multiple times; Masinissa was the one constant. The
+  wisdom that comes with that kind of continuity — the
+  accumulated knowledge of Roman senatorial politics across
+  half a century, the personal relationships with three
+  generations of Roman commanders, the inside understanding
+  of Carthaginian political dynamics from his own education
+  there — is part of why his program worked. He outplayed
+  most of his contemporaries by outlasting them.
+
+  **The 150 BCE trigger and the Third Punic War.** Masinissa's
+  encroachment in the late 150s BCE became sufficiently
+  aggressive that Carthage's eventual response — the
+  expedition under [Hasdrubal the Boetharch](/people/hasdrubal-boetharch)
+  against him in 150 BCE — became inevitable as the only
+  alternative to indefinite continued territorial loss. The
+  expedition was a treaty violation under the Treaty of 201's
+  allied-protection clause; Rome treated it as such and used
+  it as the formal legal trigger for the Third Punic War. The
+  destruction of Carthage that followed in 146 BCE was a
+  Roman decision (Cato's decade of advocacy; the 149 demand-
+  sequence as deliberate trap; see the editorial take on
+  [why the destruction happened](/editorialTakes/destruction-not-weak-enough));
+  Masinissa's role was to produce the structural conditions
+  in which Rome's destruction-decision became possible.
+  Without his fifty years of patient pressure, the conditions
+  do not develop. With his pressure but without Roman
+  destruction-decision, the conditions produce continued
+  Numidian aggrandizement rather than Carthaginian
+  elimination. The destruction required both — and the
+  configuration was substantively his.
+
+  **Death and succession.** Masinissa died in 148 BCE,
+  approximately ninety years old, just as the Third Punic War
+  was beginning. He did not live to see the destruction of
+  Carthage in 146. His kingdom passed to his three sons —
+  Micipsa, Gulussa, and Mastanabal — under a triumvirate
+  arrangement reportedly devised by Scipio Aemilianus, the
+  Roman commander who would shortly take over the siege of
+  Carthage and complete what Masinissa's pressure had made
+  possible.
+
+  The site's substantive biographical treatment is at the
+  narrative [Masinissa — A Life](/narratives/masinissa-life);
+  the cultural-historical framing of his Numidian-Punic
+  context is at the
+  [Numidian-Punic interface narrative](/narratives/the-numidian-punic-interface).
