@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Timeline from '../../components/Timeline.astro';
 import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { getCollection } from 'astro:content';
 
@@ -129,9 +128,6 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
       (foundings, isolated treaties, individual battles) appear at their
       own dates in the timeline.
     </p>
-
-    <Timeline />
-
 
     <div data-view-cards>
     <ul class="space-y-4">
