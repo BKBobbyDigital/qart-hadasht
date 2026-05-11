@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Not found"
+  description="The page you tried to reach is not part of this encyclopedia. A few starting points are listed."
+>
+  <section class="max-w-4xl mx-auto px-6 py-16 sm:py-24 text-center">
+    <p class="font-phoenician text-tyrian-700 leading-none mb-6" style="font-size: clamp(7rem, 22vw, 14rem);">
+      𐤋𐤀
+    </p>
+    <p class="eyebrow mb-3">Phoenician for "not"</p>
+    <h1 class="font-serif text-5xl sm:text-6xl text-ink-900 tracking-tight mb-6">
+      Page not found
+    </h1>
+    <p class="text-lg text-sand-900 leading-snug max-w-2xl mx-auto mb-12">
+      The path you tried to reach is not part of this encyclopedia. The site
+      reorganizes occasionally; a few links from outside have drifted; some
+      pages never existed. Below are a few starting points that should be
+      stable.
+    </p>
+
+    <div class="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto text-left">
+      <a
+        href="/"
+        class="block p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+      >
+        <p class="eyebrow mb-1">Start here</p>
+        <p class="font-serif text-xl text-tyrian-800 leading-tight">Homepage</p>
+        <p class="text-sm text-sand-700 mt-1.5">The site's framing and curated entry points.</p>
+      </a>
+      <a
+        href="/periods"
+        class="block p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+      >
+        <p class="eyebrow mb-1">Era-by-era</p>
+        <p class="font-serif text-xl text-tyrian-800 leading-tight">Periods</p>
+        <p class="text-sm text-sand-700 mt-1.5">Seven chronological synthesis pages, from foundation to destruction.</p>
+      </a>
+      <a
+        href="/events"
+        class="block p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+      >
+        <p class="eyebrow mb-1">Chronology</p>
+        <p class="font-serif text-xl text-tyrian-800 leading-tight">Events</p>
+        <p class="text-sm text-sand-700 mt-1.5">Every dated event in the encyclopedia, grouped by era.</p>
+      </a>
+      <a
+        href="/narratives"
+        class="block p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+      >
+        <p class="eyebrow mb-1">Long-form</p>
+        <p class="font-serif text-xl text-tyrian-800 leading-tight">Narratives</p>
+        <p class="text-sm text-sand-700 mt-1.5">Substantive interpretive pieces on people, events, and themes.</p>
+      </a>
+    </div>
+
+    <p class="text-sm text-sand-700 mt-10">
+      Or open the search modal with <kbd class="font-mono text-xs border border-sand-300 rounded px-1.5 py-0.5 bg-white">⌘K</kbd>
+      (or <kbd class="font-mono text-xs border border-sand-300 rounded px-1.5 py-0.5 bg-white">Ctrl-K</kbd>)
+      to find what you were looking for.
+    </p>
+  </section>
+
+  <!-- Fire a 404 tracking event on page load with the attempted path so
+       broken-link patterns become visible in analytics. -->
+  <script is:inline>
+    if (window.qhTrack) {
+      window.qhTrack('not-found', window.location.pathname);
+    }
+  </script>
+</BaseLayout>

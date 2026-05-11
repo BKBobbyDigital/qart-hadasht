@@ -373,6 +373,26 @@ const unknownLike = { type: 'literary', is_primary: true };
           typed enough to begin a search. The actual query text is not
           sent.
         </li>
+        <li>
+          <em>outbound-click</em> — a click on an external link
+          (anything not on this site's domain). The destination host
+          is recorded (e.g. <em>jstor.org</em>, <em>archive.org</em>,
+          <em>commons.wikimedia.org</em>); the full URL is not.
+          Strong signal of citation-verification behavior.
+        </li>
+        <li>
+          <em>read-complete</em> — the bottom version-stamp footer of
+          a substantive long-form page scrolled into view, meaning the
+          reader reached the end of the prose. The strongest available
+          signal that long-form content is being read rather than
+          skimmed. Fires at most once per page load.
+        </li>
+        <li>
+          <em>not-found</em> — a 404 page was reached, with the
+          attempted path recorded. Surfaces broken inbound links and
+          content people expected to find but couldn't, so the rot
+          can be fixed.
+        </li>
       </ul>
       <p>
         That is the complete list. The site does not track scroll depth,

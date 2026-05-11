@@ -245,6 +245,48 @@ const primaryNav = [
           if (!a) return;
           if (window.qhTrack) window.qhTrack('github-history-click');
         });
+
+        // Track outbound clicks to external URLs (anything not on this
+        // site's domain). Strong signal of academic-quality engagement:
+        // people following citation links to verify sources at publishers,
+        // archives, JSTOR, Wikipedia, Wikimedia Commons, etc. Records the
+        // destination domain only (not the full URL or query string).
+        document.addEventListener('click', (e) => {
+          const a = e.target instanceof Element ? e.target.closest('a[href^="http"]') : null;
+          if (!a) return;
+          let host;
+          try { host = new URL(a.href).host; } catch { return; }
+          if (!host) return;
+          // Skip same-origin links (some absolute self-references exist).
+          if (host === window.location.host) return;
+          // Skip the GitHub history link — already tracked above as its own event.
+          if (host === 'github.com' && /\/commits\//.test(a.href)) return;
+          if (window.qhTrack) window.qhTrack('outbound-click', host);
+        });
+
+        // Read-completion tracking. When a substantive page's VersionStamp
+        // footer scrolls into view, fire `read-complete`. This means the
+        // reader scrolled to the bottom of the prose; the strongest
+        // available signal that long-form content is being read rather
+        // than skimmed. Uses IntersectionObserver; fires at most once
+        // per page load.
+        if ('IntersectionObserver' in window) {
+          const versionFooter = document.querySelector('[data-version-stamp]');
+          if (versionFooter) {
+            let fired = false;
+            const obs = new IntersectionObserver((entries) => {
+              for (const entry of entries) {
+                if (entry.isIntersecting && !fired) {
+                  fired = true;
+                  obs.disconnect();
+                  if (window.qhTrack) window.qhTrack('read-complete');
+                  break;
+                }
+              }
+            }, { threshold: 0.5 });
+            obs.observe(versionFooter);
+          }
+        }
       })();
     </script>
   </body>
