@@ -213,7 +213,7 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
                             <span class="text-sand-400 shrink-0 text-sm">▸</span>
                             <span class="min-w-0">
                               <a href={`/events/${e.id}`} class="font-serif text-lg font-semibold text-tyrian-800 hover:text-tyrian-700 hover:underline">{e.data.name}</a>
-                              <span class="ml-2 text-[10px] uppercase tracking-wider text-sand-500 font-medium">{e.data.type}</span>
+                              <span class="ml-2 inline-block align-middle text-[10px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-1.5 py-0.5 rounded">{e.data.type}</span>
                               {eventLineSummary(e) && (
                                 <span class="block text-sm text-sand-700 leading-snug mt-0.5">{eventLineSummary(e)}</span>
                               )}
