@@ -91,7 +91,7 @@ with editorial annotation about what to look for at each stop.
 The thread cuts across two periods (the
 [inter-war / Iberian project](/periods/05-interwar-and-iberian-project)
 and the [Second Punic War](/periods/06-second-punic-war)) and ends in
-the [long peace](/periods/07-long-peace-and-destruction). It also
+the [long peace](/periods/07-the-long-peace). It also
 crosses the editorial line where the encyclopedia takes its strongest
 position about the war's outcome — the
 [Cannae editorial take](/editorialTakes/cannae-roman-refusal-to-negotiate)

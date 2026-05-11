@@ -94,7 +94,7 @@ violation, produced the strategic decision the demand sequence of
 
 This thread walks the arc in chronological order. It crosses two
 [period pages](/periods) (the
-[Long peace and destruction](/periods/07-long-peace-and-destruction))
+[Long peace and destruction](/periods/08-third-punic-war-and-destruction))
 plus the late phase of the
 [Second Punic War](/periods/06-second-punic-war), and it surfaces the
 two formal editorial takes the encyclopedia has on the question
