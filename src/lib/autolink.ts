@@ -173,6 +173,26 @@ export function autolink(
   const overlapsClaimed = (s: number, e: number) =>
     claimed.some(([cs, ce]) => !(e <= cs || s >= ce));
 
+  // First pass: process explicit markdown-style links [text](url).
+  // These are pre-authored links in YAML summary fields (e.g. to editorial
+  // takes, narratives, or other entities the autolink registry may not cover).
+  // We convert them to <a> HTML up front and mark their ranges as claimed so
+  // the subsequent entity-autolink pass doesn't try to nest links inside them.
+  const mdLinkRe = /\[([^\]\n]+)\]\(([^)\s]+)\)/g;
+  let mdMatch: RegExpExecArray | null;
+  while ((mdMatch = mdLinkRe.exec(text)) !== null) {
+    const start = mdMatch.index;
+    const end = start + mdMatch[0].length;
+    const linkText = mdMatch[1];
+    const href = mdMatch[2];
+    replacements.push({
+      start,
+      end,
+      html: `<a class="auto-link" href="${href}">${escapeHtml(linkText)}</a>`,
+    });
+    claimed.push([start, end]);
+  }
+
   for (const c of registry.candidates) {
     if (c.key === opts.excludeKey) continue;
     if (usedKeys.has(c.key)) continue;
