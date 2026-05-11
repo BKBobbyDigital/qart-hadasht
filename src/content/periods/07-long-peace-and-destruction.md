@@ -229,9 +229,30 @@ exemplary case of total Mediterranean victory.
 The site lay essentially empty for a century before Roman
 recolonization began under Caesar and Augustus, producing the
 Roman Carthage that would become the second city of the western
-empire. But Roman Carthage was a different polity in the same
-location; the Punic city's institutional, religious, and political
-life ended in 146 BCE.
+empire. Roman Carthage was a different polity in the same
+location; the Carthaginian state — the institutional-political
+form the city had taken since at least the 7th century BCE —
+ended with the 146 destruction.
+
+What did not end in 146 BCE was Punic culture, language, religion,
+intellectual influence, or identity. Each of these persisted, in
+transformed but recognizable form, across the Numidian, Roman,
+and late-antique periods. Neo-Punic inscriptions are attested
+through at least the 3rd century CE; the Tanit and Baal Hammon
+cults continued under Latin names (Iuno Caelestis and Saturnus
+Africanus) through at least the 4th; Punic personal names persist
+in Latin epigraphy across the same period; Augustine attests
+spoken Punic in his early-5th-century North African congregations;
+[Mago of Carthage's agricultural treatise](/people/mago-agronomist)
+was transmitted continuously from 146 BCE through Roman, Greek,
+Arabic, and medieval Latin agronomic literature into the European
+Renaissance. The "Carthage was destroyed and that was the end"
+framing is residual Greco-Roman closure narrative; the surviving
+Punic-side evidence consistently runs against it. The
+[continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+treats the lines of evidence in detail; the open question on
+[the duration of Punic-cultural identity](/openQuestions/duration-of-punic-cultural-identity)
+treats the candidate framings without asserting a hard endpoint.
 
 What Carthage left behind survives in fragments: the Tophet Stelae
 and the Carthage Votive Inscription Slab corpus from the Punic
