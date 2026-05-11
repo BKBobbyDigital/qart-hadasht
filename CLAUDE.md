@@ -308,7 +308,7 @@ Cards are default; tables are forced to cards on mobile.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~593 pages** as of
+parked until the day version settles. The site is **~598 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -316,14 +316,14 @@ the last build.
 | Collection | Count |
 |---|---|
 | events | 89 |
-| people | 71 |
+| people | 74 |
 | places | 44 |
 | sources | 47 |
-| claims | 171 |
+| claims | 172 |
 | editorialTakes | 21 |
 | openQuestions | 13 |
 | artifacts | 41 |
-| narratives | 29 |
+| narratives | 30 |
 | themes | 14 |
 | periods | 7 |
 | threads | 7 |
@@ -406,6 +406,68 @@ maps shipped:
 Periods 04, 06, 07 and the war-level event pages all surface the
 relevant map via `map_id` + `map_caption` frontmatter fields.
 
+### Polish-pass work (commits 7e828f6 → 97ead55)
+
+After the MacDonald-direction framing pass landed, a focused polish
+pass cleaned up the active-outstanding-work list. The shipped items:
+
+**Thinner people pages, two rounds, nine figures expanded from
+one-pager territory to 125–155 line range:** Scipio Africanus (with
+the Carthage-perspective framing the user specified — substantive
+Roman bio explicitly bracketed as Roman POV on a Carthage site);
+Mago Barca; Hasdrubal Gisco; Maharbal; Hasdrubal Barca; Syphax;
+Naravas; Hannibal son of Gisco (the 410–406 Magonid Sicilian
+commander); Hamilcar son of Gisco (the Agathocles-period commander).
+Together with the prior Sophonisba / Masinissa / Gala / Hannibal
+expansions, the principal SPW and Mercenary War command structure
+is now substantively treated across the people collection.
+
+**Suffeteship institutional arc** — `narratives/the-suffeteship-arc.md`
+walks seven moments (origins from the early monarchical period
+through Aristotle's classical-period external recognition, the
+structural separation from military command, Hannibal's 196 BCE
+reforms, the destruction, the Roman-period continuation at Lepcis
+Magna and elsewhere). Framing is Phoenician-first explicitly. The
+load-bearing claim `claims/suffeteship-military-command-separation`
+treats the civil-military separation as a substantive distinctive
+Carthaginian constitutional achievement.
+
+**SPW-outbreak Roman envoys** — three new people pages
+(`baebius-tamphilus`, `licinius-varus`, `valerius-flaccus`) for the
+documented envoys of the 219 and 218 BCE Roman embassies that bracket
+the war's diplomatic opening, plus substantial expansion of
+`livius-salinator`. The CLAUDE.md note "Marcus Atilius Regulus / co-
+envoys" was resolved with the more honest historical-record approach
+— Atilius Regulus is not in the standard envoy lists, so the
+documented Fabius / Livius / Aemilius / Licinius / Baebius (218) and
+Valerius / Baebius (219) co-envoys were added instead.
+
+**Infobox polish pass — events, places, people**:
+
+- **Events:** new optional `outcome` field. 29 principal events
+  filled (every battle and siege event, plus the three Punic Wars
+  and the destruction event). The infobox now shows outcome at a
+  glance — decisive Carthaginian victory at Cannae, decisive Roman
+  victory at Zama, pyrrhic Carthaginian-Etruscan victory at Alalia,
+  etc.
+
+- **Places:** new optional fields — `founded` (object with founder,
+  date, notes), `cultural_sphere` (enum: phoenician/punic/greek/
+  numidian/libyo-phoenician/iberian/roman/mixed), `current_status`
+  (freeform), `patron_deity` (freeform). 23 principal places filled.
+  Connects directly to the colonial-network framing.
+
+- **People:** new optional `family` object (father, father_name,
+  mother, mother_name, spouses[], spouse_names[], children[],
+  children_names[]) with both reference-based and freeform-string
+  fallbacks; and `offices_held` array (office name, year, notes).
+  18 principal figures filled — the Barcid family tree with full
+  bidirectional cross-references, the Massylii royal house, the
+  Sophonisba marriage trajectory, the principal Roman figures with
+  offices including the 218/219 BCE embassy roles. The render route
+  shows Father / Mother / Spouse(s) / Child(ren) / Offices held
+  rows.
+
 ### Editorial takes — now at 21
 
 Major new takes from the framing pass:
@@ -472,33 +534,48 @@ sort order.
 
 ### Active work list
 
-**Time-aware territorial maps** — Carthaginian extent at 550 / 264 /
-218 / 202 / 146 BCE. Five polygons across time with a date-toggle UI.
-Distinct from the operational/strategic Punic War maps already
-shipped (which show one war each, not territorial extent over time).
-The largest unbuilt visual addition the site could still take. The
-existing `HistoricalMap.astro` component is the right starting point;
-the toggle UI and the five polygon datasets are the new work.
+**(All prior active items have shipped as of the polish-pass
+commits 7e828f6 through 97ead55.)** The remaining items below are
+tabled — held until the user calls for them.
 
-**Thinner entity pages polish pass** — Hanno the Great is a
-one-pager; Mago Barca thin; non-Barcid senate-level actors
-(Hasdrubal Gisco, Bomilcar, others) probably under-developed. A
-diminishing-returns pass that would lift the floor across the
-people collection.
+**Time-aware territorial maps (tabled)** — Carthaginian extent at
+550 / 264 / 218 / 202 / 146 BCE. Five polygons across time with a
+date-toggle UI. Distinct from the operational/strategic Punic War
+maps already shipped (which show one war each, not territorial
+extent over time). The largest unbuilt visual addition the site
+could still take. The existing `HistoricalMap.astro` component is
+the right starting point; the toggle UI and the five polygon
+datasets are the new work.
 
-**Suffeteship as institutional arc** — `/institutions/suffetes`
-exists, but the office's evolution from 5th-c. BCE forward through
-Hannibal's 196 BCE reforms isn't traced as a narrative arc. A small
-new narrative would do this.
+**UI/UX polish pass (tabled)** — Dark mode (Phase 3 of the visual
+redesign), keyboard navigation between sibling entities, possibly
+other small interaction improvements. User has explicitly tabled
+until after the content surface is settled.
 
-**Marcus Atilius Regulus / co-envoys of 218 BCE** — small specific
-gap. Different Atilius from the existing FPW prisoner page; could
-be a quick new people entry.
+**Possible future content additions if the user wants them**:
 
-**Per-entity richer infobox passes (events, places, people)** — the
-deity infobox refresh produced a meaningful quality improvement; the
-same kind of audit on other entity types might surface useful
-schema additions.
+- Sicilian-Greek/Punic 4th-c. dialectic — the period and figures
+  between Himera 480 and the Agathocles crisis is thin in the
+  surviving record but the existing treatments could be deepened
+- Mago Barca's specific operational arc in finer detail — the
+  current treatment is substantive but the Iberian-Italian-
+  Ligurian arc could support a dedicated narrative
+- Hamilcar Magonid (480 BCE Himera commander) — currently 49
+  lines, slightly thinner than the comparable major commanders
+- Mercenary War leaders (Spendius, Mathos, Autaritus) — currently
+  at 28–29 lines each. The substantive treatment lives in the
+  Mercenary War narrative; the person pages are appropriately
+  brief for cross-reference but could be lifted if the user
+  wants individual-figure depth
+- Hellenistic-period treatment of Punic Sardinia and Sicily —
+  Punic-cultural sites (Sulci, Tharros, Motya, the Sicilian
+  Punic zone) have place entries but not the kind of regional-
+  cultural synthesis the new Numidian-Punic-interface narrative
+  treats for North Africa
+- Specific battle-tactical narratives for the under-treated
+  engagements (e.g., the Trebia, Trasimene, Ticinus, Drepana)
+  if individual-engagement narrative depth is wanted beyond what
+  the event pages already give
 
 ### Parked indefinitely
 
@@ -592,9 +669,35 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **593 pages**.
+output. As of the last CLAUDE.md refresh it was around **598 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
+
+### Schema features worth knowing about
+
+The schema has grown substantively. Key non-obvious fields by
+collection:
+
+- **events**: `outcome` (freeform short string for battles/sieges;
+  surfaced in infobox); `map_id` + `map_caption` (opt-in
+  HistoricalMap embed)
+- **periods**: `map_id` + `map_caption` (same)
+- **places**: `founded` (founder + date object); `cultural_sphere`
+  (enum); `current_status` (freeform); `patron_deity` (freeform)
+- **people**: `family` (father / mother / spouses / children with
+  reference + freeform-name fallbacks); `offices_held` (array of
+  office + year + notes)
+- **deities**: `sanctuaries[]`, `iconography`, `consort`,
+  `cult_period`
+- **artifacts**: `principal_sources[]`, `referenced_themes[]`,
+  `image` block, `find_context`, `dating_method`,
+  `interpretation_status`, `current_location`
+
+The autolink markdown-link first-pass (added to `lib/autolink.ts`)
+means YAML summary fields can contain `[text](url)` links that get
+rendered as proper anchors. This is heavily used for back-citations
+from people / deity / artifact summary fields into editorial takes
+and narratives.
 
 ---
 
