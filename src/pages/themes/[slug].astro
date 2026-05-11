@@ -80,6 +80,22 @@ const referencingPeriods = allPeriods
   .sort((a: any, b: any) => a.data.start_year - b.data.start_year);
 
 const scopeLabel = d.scope.replace('_', ' ');
+
+// Reading time: rough word count of body + summary at 200 wpm.
+const themeBodyText = (theme.body || '') + ' ' + (d.summary || '');
+const themeWordCount = (themeBodyText.match(/\b[\w'-]+\b/g) ?? []).length;
+const themeReadingMinutes = Math.max(1, Math.round(themeWordCount / 200));
+
+// Editorial takes whose subject is this theme
+const themeRelatedTakes = (await getCollection('editorialTakes')).filter((t: any) => {
+  const se = t.data.subject_entity;
+  return se && se.type === 'theme' && se.slug === themeSlug;
+});
+// Open questions referencing this theme
+const themeRelatedQuestions = (await getCollection('openQuestions')).filter((q: any) =>
+  (q.data.relevant_entities ?? []).some((e: any) => e.type === 'theme' && e.slug === themeSlug)
+);
+
 const themeInfoboxRows: InfoboxRow[] = [
   { label: 'Scope', value: scopeLabel.charAt(0).toUpperCase() + scopeLabel.slice(1) },
   {
@@ -112,6 +128,7 @@ const themeInfoboxRows: InfoboxRow[] = [
     href: referencingNarratives.length > 0 ? '#narratives' : undefined,
     emptyLabel: 'none',
   },
+  { label: 'Reading time', value: `${themeReadingMinutes} min` },
   { label: 'Last revised', value: d.last_revised },
 ];
 
@@ -130,8 +147,15 @@ const jumps: Jump[] = [
 <BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
-      <p class="eyebrow mb-3">Theme · {d.scope.replace('_', ' ')}</p>
+      <p class="eyebrow mb-3">Theme · {d.scope.replace('_', ' ')} · {themeReadingMinutes} min read</p>
       <h1 class="font-serif text-4xl sm:text-5xl">{d.title}</h1>
+      {relatedThemes.length > 0 && (
+        <div class="mt-4 flex flex-wrap gap-2">
+          {relatedThemes.map((t: any) => (
+            <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">{t.data.title}</a>
+          ))}
+        </div>
+      )}
     </header>
     <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
       <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
@@ -289,6 +313,50 @@ const jumps: Jump[] = [
           </ul>
         </section>
       )}
+
+        {(themeRelatedTakes.length > 0 || themeRelatedQuestions.length > 0 || relatedThemes.length > 0) && (
+          <section class="mt-12 pt-6 border-t border-sand-300">
+            <h2 class="font-serif text-xl mb-4" style="border: none; padding: 0; margin-top: 0;">Related</h2>
+            <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6 text-sm">
+              {themeRelatedTakes.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Editorial takes</p>
+                  <ul class="space-y-1.5">
+                    {themeRelatedTakes.map((t: any) => (
+                      <li>
+                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {themeRelatedQuestions.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Open questions</p>
+                  <ul class="space-y-1.5">
+                    {themeRelatedQuestions.map((q: any) => (
+                      <li>
+                        <a href={`/openQuestions/${q.id}`} class="text-tyrian-700 hover:underline leading-snug">{q.data.question}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {relatedThemes.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Related themes</p>
+                  <ul class="space-y-1.5">
+                    {relatedThemes.map((t: any) => (
+                      <li>
+                        <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
 
         <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/themes/${theme.id.replace(/\.md$/, '')}`} />
         <VersionStamp date={d.last_revised} filePath={`src/content/themes/${theme.id}`} />

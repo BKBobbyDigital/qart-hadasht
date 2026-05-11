@@ -42,9 +42,45 @@ if (primary && subjectCollection[primary.type]) {
 
 const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
 
+// Reading time: rough word count of body + thesis at 200 wpm.
+const bodyText = (narrative.body || '') + ' ' + (d.thesis || '');
+const wordCount = (bodyText.match(/\b[\w'-]+\b/g) ?? []).length;
+const readingMinutes = Math.max(1, Math.round(wordCount / 200));
+
+// Tags: themes referenced via primary_entities (type: 'theme').
+type Tag = { title: string; slug: string };
+const tagThemeRefs = (d.primary_entities ?? []).filter((e: any) => e.type === 'theme');
+const tags: Tag[] = (await Promise.all(
+  tagThemeRefs.map(async (e: any) => {
+    const t: any = await getEntry('themes', e.slug);
+    return t ? { title: t.data.title, slug: t.id.replace(/\.md$/, '') } : null;
+  })
+)).filter(Boolean) as Tag[];
+
+// Related entries: gathered from across collections by shared primary
+// entities (editorial takes, open questions) and by shared scope (other
+// narratives). Curates a footer "see also" cluster.
+const primaryKeys = new Set(
+  (d.primary_entities ?? []).map((e: any) => `${e.type}:${e.slug}`)
+);
+const allTakes = await getCollection('editorialTakes');
+const relatedTakes = allTakes.filter((t: any) => {
+  const se = t.data.subject_entity;
+  return se && primaryKeys.has(`${se.type}:${se.slug}`);
+});
+const allQuestions = await getCollection('openQuestions');
+const relatedQuestions = allQuestions.filter((q: any) =>
+  (q.data.relevant_entities ?? []).some((e: any) => primaryKeys.has(`${e.type}:${e.slug}`))
+);
+const allNarratives = await getCollection('narratives');
+const relatedNarratives = allNarratives
+  .filter((n: any) => n.id !== narrative.id && n.data.scope === d.scope)
+  .slice(0, 5);
+
 const narrativeInfoboxRows: InfoboxRow[] = [
   { label: 'Scope', value: scopeLabel },
   { label: 'Subject', value: subjectLinks },
+  { label: 'Reading time', value: `${readingMinutes} min` },
   { label: 'Last revised', value: d.last_revised },
   {
     label: 'Referenced claims',
@@ -59,8 +95,15 @@ const narrativeInfoboxRows: InfoboxRow[] = [
 <BaseLayout title={d.title} description={d.thesis}>
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
-      <p class="eyebrow mb-3">Narrative · {d.scope}</p>
+      <p class="eyebrow mb-3">Narrative · {d.scope} · {readingMinutes} min read</p>
       <h1 class="font-serif text-4xl sm:text-5xl">{d.title}</h1>
+      {tags.length > 0 && (
+        <div class="mt-4 flex flex-wrap gap-2">
+          {tags.map((t) => (
+            <a href={`/themes/${t.slug}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">{t.title}</a>
+          ))}
+        </div>
+      )}
     </header>
     <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
       <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start space-y-6">
@@ -86,6 +129,62 @@ const narrativeInfoboxRows: InfoboxRow[] = [
         <p class="mt-12 text-sm text-sand-700 italic">
           Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.
         </p>
+
+        {(relatedTakes.length > 0 || relatedQuestions.length > 0 || relatedNarratives.length > 0 || tags.length > 0) && (
+          <section class="mt-12 pt-6 border-t border-sand-300">
+            <h2 class="font-serif text-xl mb-4" style="border: none; padding: 0; margin-top: 0;">Related</h2>
+            <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6 text-sm">
+              {relatedTakes.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Editorial takes</p>
+                  <ul class="space-y-1.5">
+                    {relatedTakes.map((t: any) => (
+                      <li>
+                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {relatedQuestions.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Open questions</p>
+                  <ul class="space-y-1.5">
+                    {relatedQuestions.map((q: any) => (
+                      <li>
+                        <a href={`/openQuestions/${q.id}`} class="text-tyrian-700 hover:underline leading-snug">{q.data.question}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {relatedNarratives.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Other {d.scope} narratives</p>
+                  <ul class="space-y-1.5">
+                    {relatedNarratives.map((n: any) => (
+                      <li>
+                        <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline leading-snug">{n.data.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {tags.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Themes</p>
+                  <ul class="space-y-1.5">
+                    {tags.map((t) => (
+                      <li>
+                        <a href={`/themes/${t.slug}`} class="text-tyrian-700 hover:underline leading-snug">{t.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
 
         <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/narratives/${narrative.id.replace(/\.md$/, '')}`} />
         <VersionStamp date={d.last_revised} filePath={`src/content/narratives/${narrative.id}`} />

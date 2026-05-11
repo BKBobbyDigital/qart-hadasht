@@ -52,6 +52,30 @@ const eventsResolved = events.filter(Boolean).sort(
 const fmtYear = (y: number) => `${Math.abs(y)} ${y < 0 ? 'BCE' : 'CE'}`;
 const dateRange = `${fmtYear(d.start_year)} – ${fmtYear(d.end_year)}`;
 
+// Reading time: rough word count of body + summary at 200 wpm.
+const periodBodyText = (period.body || '') + ' ' + (d.summary || '');
+const periodWordCount = (periodBodyText.match(/\b[\w'-]+\b/g) ?? []).length;
+const periodReadingMinutes = Math.max(1, Math.round(periodWordCount / 200));
+
+// Themes resolved for the tag cluster (key_themes references, already
+// loaded above as `themes` — reuse, filter falsy).
+const themeTags = themes.filter(Boolean) as any[];
+
+// Related editorial takes + open questions referencing any key_event
+// or key_theme. (Periods touch many entities; restrict to the curated
+// key_events and key_themes lists for relevance.)
+const periodKeyKeys = new Set<string>([
+  ...(d.key_events ?? []).map((ref: any) => `event:${ref}`),
+  ...(d.key_themes ?? []).map((ref: any) => `theme:${ref.id ?? ref}`),
+]);
+const periodRelatedTakes = (await getCollection('editorialTakes')).filter((t: any) => {
+  const se = t.data.subject_entity;
+  return se && periodKeyKeys.has(`${se.type}:${se.slug}`);
+});
+const periodRelatedQuestions = (await getCollection('openQuestions')).filter((q: any) =>
+  (q.data.relevant_entities ?? []).some((e: any) => periodKeyKeys.has(`${e.type}:${e.slug}`))
+);
+
 // All periods sorted chronologically for prev/next navigation
 const allPeriods = (await getCollection('periods')).sort(
   (a: any, b: any) => a.data.start_year - b.data.start_year
@@ -65,10 +89,17 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
       <p class="eyebrow mb-3">
-        Period · <a href="/periods" class="text-tyrian-700 hover:underline">All periods</a>
+        Period · <a href="/periods" class="text-tyrian-700 hover:underline">All periods</a> · {periodReadingMinutes} min read
       </p>
       <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
       <p class="text-lg text-sand-700">{dateRange}</p>
+      {themeTags.length > 0 && (
+        <div class="mt-4 flex flex-wrap gap-2">
+          {themeTags.map((t: any) => (
+            <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">{t.data.title}</a>
+          ))}
+        </div>
+      )}
     </header>
     <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-10 lg:items-start">
       <aside class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start">
@@ -201,6 +232,50 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       claims with their own confidence assessments and source citations
       are linked throughout.
     </p>
+
+        {(periodRelatedTakes.length > 0 || periodRelatedQuestions.length > 0 || themeTags.length > 0) && (
+          <section class="mt-12 pt-6 border-t border-sand-300">
+            <h2 class="font-serif text-xl mb-4" style="border: none; padding: 0; margin-top: 0;">Related</h2>
+            <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6 text-sm">
+              {periodRelatedTakes.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Editorial takes</p>
+                  <ul class="space-y-1.5">
+                    {periodRelatedTakes.map((t: any) => (
+                      <li>
+                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {periodRelatedQuestions.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Open questions</p>
+                  <ul class="space-y-1.5">
+                    {periodRelatedQuestions.map((q: any) => (
+                      <li>
+                        <a href={`/openQuestions/${q.id}`} class="text-tyrian-700 hover:underline leading-snug">{q.data.question}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {themeTags.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Themes</p>
+                  <ul class="space-y-1.5">
+                    {themeTags.map((t: any) => (
+                      <li>
+                        <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
 
         <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/periods/${period.id.replace(/\.md$/, '')}`} />
         <VersionStamp date={d.last_revised} filePath={`src/content/periods/${period.id}`} />
