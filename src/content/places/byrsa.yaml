@@ -18,6 +18,12 @@ current_status: >
   substantial Punic-period remains accessible alongside the
   Roman-period overlay
 patron_deity: 'Eshmun (the principal Byrsa sanctuary)'
+image:
+  src: /places/byrsa.jpg
+  alt: View of the Byrsa hill at Carthage rising above the surrounding plain, with the modern Cathedral of Saint-Louis de Carthage at the summit overlying the ancient citadel site; cypress trees and Mediterranean vegetation on the slopes.
+  credit: 'Photograph: Shoestring, via Wikimedia Commons'
+  credit_url: https://commons.wikimedia.org/wiki/File:Byrsa_hill_in_Carthage.jpg
+  license: CC BY-SA 4.0
 summary: >
   The fortified hill at the center of Carthage that served as the
   city's acropolis and its sacred and administrative core throughout

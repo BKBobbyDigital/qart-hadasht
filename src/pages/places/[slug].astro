@@ -188,6 +188,23 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
     <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.name_display}</h1>
     {d.modern_location && <p class="text-sand-700">Modern: {d.modern_location}</p>}
 
+    {d.image && (
+      <figure class="mt-8">
+        <img
+          src={d.image.src}
+          alt={d.image.alt}
+          class="w-full rounded-lg border border-sand-300"
+        />
+        <figcaption class="mt-2 text-xs text-sand-700">
+          {d.image.credit_url
+            ? <a href={d.image.credit_url} class="hover:text-tyrian-700" target="_blank" rel="noopener noreferrer">{d.image.credit}</a>
+            : <>{d.image.credit}</>
+          }
+          {' · '}<span class="italic">{d.image.license}</span>
+        </figcaption>
+      </figure>
+    )}
+
     {d.names_alt && (
       <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
         <h2 class="font-serif text-xl mb-3">Names</h2>

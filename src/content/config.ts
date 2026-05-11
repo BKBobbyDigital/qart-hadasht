@@ -205,6 +205,24 @@ const places = defineCollection({
      *  Freeform since not all attested deities are in our collection.
      *  Examples: "Melqart (Tyrian patronage)", "Baal Hammon and Tanit". */
     patron_deity: z.string().optional(),
+    /** Optional public-domain image of the place — typically an
+     *  archaeological-site photograph from Wikimedia Commons or a
+     *  national-archive collection. Mirrors the artifact image
+     *  schema: src is the local /places/<slug>.jpg path; alt is a
+     *  descriptive caption for accessibility; credit is the
+     *  human-readable attribution; credit_url links to the source;
+     *  license names the PD or CC variant. Only public-domain or
+     *  PD-equivalent images are added (no AI-generated, no
+     *  commercial-licensed material). */
+    image: z
+      .object({
+        src: z.string(),
+        alt: z.string(),
+        credit: z.string(),
+        credit_url: z.string().url().optional(),
+        license: z.string(),
+      })
+      .optional(),
     summary: z.string(),
   }),
 });

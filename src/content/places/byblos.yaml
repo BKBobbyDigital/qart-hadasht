@@ -21,6 +21,12 @@ current_status: >
   Age; substantial preserved archaeology from Phoenician,
   Persian, and later periods
 patron_deity: 'Baalat Gebal ("Lady of Byblos"); identified by the Greeks with Aphrodite and at times with Astarte'
+image:
+  src: /places/byblos.jpg
+  alt: Ruins of the Persian-period castle at Byblos (modern Jbeil, Lebanon), with collapsed sandstone-block walls and a stepped foundation visible amid Mediterranean vegetation; one of the principal preserved monumental structures at the multi-period archaeological site.
+  credit: 'Photograph: Heretiq, via Wikimedia Commons'
+  credit_url: https://commons.wikimedia.org/wiki/File:ByblosPersianCastle.jpg
+  license: CC BY-SA 2.5
 summary: >
   The oldest of the principal Phoenician metropolitan cities, on
   the Levantine coast approximately 40 kilometers north of modern

@@ -625,6 +625,20 @@ queue completion**; do not surface unsolicited.
    without a podcast feed. Production lift is non-trivial; reach
    gain is real but specific to a particular audience segment.
 
+### Residual prose work from active queue item #2 (held for later)
+
+The em-dash audit reduced the flagged file count from 249 to 68
+(73% reduction) via scripted paired-parenthetical conversion. The
+**65 remaining em-dash-overuse files** are single em-dashes used
+for sentence pivots, list intros, or appositives — cases that
+genuinely need per-file human judgment per the CLAUDE.md rule's
+"sharp interruption with strong rhetorical weight" allowance. Run
+`node scripts/prose-audit.mjs` to see the current list ranked by
+severity. Top residual hotspots: `people/malchus.yaml` (4.88/250),
+`claims/tagus-tactical-template-for-italy.yaml` (4.17/250),
+`groups/magonids.yaml` (3.73/250). Address organically as content
+gets touched, or run a manual pass when convenient.
+
 ### Possible future content additions (held; diminishing returns)
 
 These were flagged as possible content additions in earlier
