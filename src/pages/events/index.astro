@@ -1,16 +1,14 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { getCollection } from 'astro:content';
 
 const allEvents = (await getCollection('events')).sort(
   (a, b) => a.data.date_start.value - b.data.date_start.value
 );
 
-// ─── Timeline view derivations ────────────────────────────────────────────────
-// Bucket events into the 7 site periods using each period's start/end year,
-// then within each period group by start year. Each timeline row is a single
-// event with its type badge + name + brief outcome (or summary head).
+// Bucket events into the site periods using each period's start/end year,
+// then within each period group by start year. Each timeline row is a
+// single event with its type badge + name + brief outcome (or summary head).
 const allPeriods = (await getCollection('periods')).sort((a, b) =>
   a.data.start_year - b.data.start_year
 );
@@ -23,9 +21,9 @@ type TimelineEra = {
 
 // Half-open intervals: each period covers [start_year, end_year). Adjacent
 // periods share a boundary year (e.g. period 5 ends in 218, period 6 starts
-// in 218); events at the boundary belong to the LATER period (the war
-// rather than the inter-war). The last period gets its boundary year
-// included so the corpus doesn't drop events at the final endpoint.
+// in 218); events at the boundary belong to the LATER period. The last
+// period gets its boundary year included so events at the final endpoint
+// don't drop.
 const lastPeriodIdx = allPeriods.length - 1;
 const timelineEras: TimelineEra[] = allPeriods.map((p, idx) => {
   const isLast = idx === lastPeriodIdx;
@@ -64,123 +62,18 @@ function eventLineSummary(e: TimelineEvent): string {
 function fmtYear(v: number): string {
   return v < 0 ? `${Math.abs(v)} BCE` : `${v} CE`;
 }
-
-// Identify wars and the events they contain (via related_events).
-const warEvents = allEvents.filter((e) => e.data.type === 'war');
-const phaseEventIds = new Set<string>();
-const warToPhases = new Map<string, typeof allEvents>();
-
-for (const war of warEvents) {
-  const warStart = war.data.date_start.value;
-  const warEnd = war.data.date_end?.value ?? warStart;
-  const phases = (war.data.related_events ?? [])
-    .map((r: any) => allEvents.find((e) => e.id === r.event.id))
-    .filter((e): e is (typeof allEvents)[number] => Boolean(e))
-    // Don't nest wars under wars
-    .filter((e) => e.data.type !== 'war')
-    // Only nest phases whose date falls within the war's range, so an event
-    // referenced by two wars (e.g. Treaty of 201 as peace settlement of SPW
-    // and structural cause of TPW) appears under only its containing war.
-    .filter((e) => {
-      const phaseStart = e.data.date_start.value;
-      return phaseStart >= warStart && phaseStart <= warEnd;
-    })
-    .sort((a, b) => a.data.date_start.value - b.data.date_start.value);
-  warToPhases.set(war.id, phases);
-  phases.forEach((p) => phaseEventIds.add(p.id));
-}
-
-// Standalone events: not wars and not nested under any war.
-const standaloneEvents = allEvents.filter(
-  (e) => e.data.type !== 'war' && !phaseEventIds.has(e.id)
-);
-
-// Top-level entries: wars + standalones, interleaved chronologically.
-const topLevelEntries = [...warEvents, ...standaloneEvents].sort(
-  (a, b) => a.data.date_start.value - b.data.date_start.value
-);
-
-// Format helpers
-const fmtRange = (data: any) => {
-  const start = Math.abs(data.date_start.value);
-  if (data.date_end) {
-    const end = Math.abs(data.date_end.value);
-    return start === end ? `${start} BCE` : `${start}–${end} BCE`;
-  }
-  return `${start} BCE`;
-};
-
-// All event-type badges share one neutral style. Category is communicated
-// by the type word itself, not by hue — color on this site is reserved
-// for epistemic signal (confidence, source distance).
-const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
 ---
 
 <BaseLayout title="Events">
-  <div class="max-w-4xl mx-auto px-6 py-12" data-view-container>
-    <div class="flex items-baseline justify-between gap-4 mb-3">
-      <h1 class="font-serif text-4xl sm:text-5xl">Events</h1>
-      <IndexViewToggle views={['cards', 'table', 'timeline']} defaultView="timeline" />
-    </div>
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">Events</h1>
     <p class="text-sand-700 mb-8 max-w-2xl">
-      Listed chronologically. Wars are highlighted with their phase
-      events (battles, treaties, sieges) nested below; standalone events
-      (foundings, isolated treaties, individual battles) appear at their
-      own dates in the timeline.
+      Every dated event in the encyclopedia, grouped by era and year. Wars
+      appear at the year of their outbreak; phase events (battles,
+      treaties, sieges) appear at their own dates within the war's era.
     </p>
 
-    <div data-view-cards>
-    <ul class="space-y-4">
-      {topLevelEntries.map((entry) => {
-        const isWar = entry.data.type === 'war';
-        const phases = isWar ? (warToPhases.get(entry.id) ?? []) : [];
-        return (
-          <li>
-            <a
-              href={`/events/${entry.id}`}
-              class={isWar
-                ? 'block p-4 border-2 border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100'
-                : 'block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors'}
-            >
-              <div class="flex items-baseline justify-between gap-4">
-                <div class="flex items-baseline gap-3">
-                  <span class={`text-[10px] uppercase tracking-widest font-bold px-2 py-0.5 rounded ${typeBadgeStyle(entry.data.type)}`}>
-                    {entry.data.type}
-                  </span>
-                  <h2 class={isWar ? 'font-serif text-xl text-tyrian-900 mt-0 mb-0' : 'font-serif text-xl text-tyrian-700 mt-0 mb-0'} style="border: none; padding: 0;">
-                    {entry.data.name}
-                  </h2>
-                </div>
-                <span class="text-sm text-sand-700 shrink-0">{fmtRange(entry.data)}</span>
-              </div>
-              <p class="text-sm text-ink-900 mt-2">{entry.data.summary.slice(0, 220)}...</p>
-            </a>
-            {phases.length > 0 && (
-              <ul class="ml-6 mt-2 space-y-2 border-l-2 border-sand-300 pl-4">
-                {phases.map((phase) => (
-                  <li>
-                    <a href={`/events/${phase.id}`} class="block p-3 border border-sand-300 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
-                      <div class="flex items-baseline justify-between gap-3">
-                        <div class="flex items-baseline gap-2">
-                          <span class={`text-[10px] uppercase tracking-widest font-semibold px-1.5 py-0.5 rounded ${typeBadgeStyle(phase.data.type)}`}>
-                            {phase.data.type}
-                          </span>
-                          <h3 class="font-serif text-lg text-tyrian-700 mt-0 mb-0" style="border: none; padding: 0;">{phase.data.name}</h3>
-                        </div>
-                        <span class="text-xs text-sand-700 shrink-0">{fmtRange(phase.data)}</span>
-                      </div>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        );
-      })}
-    </ul>
-    </div>
-
-    <div data-view-timeline class="relative lg:grid lg:grid-cols-[minmax(0,1fr)_180px] lg:gap-8">
+    <div class="relative lg:grid lg:grid-cols-[minmax(0,1fr)_180px] lg:gap-8">
       <div class="min-w-0">
         {timelineEras.map((era) => {
           const periodSlug = era.period.id.replace(/\.md$/, '');
@@ -272,40 +165,6 @@ const typeBadgeStyle = (_type: string) => 'bg-sand-200 text-sand-900';
           </ul>
         </nav>
       </aside>
-    </div>
-
-    <div data-view-table class="overflow-x-auto">
-      <table data-sortable class="w-full text-sm border-collapse">
-        <thead>
-          <tr class="border-b border-sand-300 bg-sand-50">
-            <th data-sort-key="year" data-sort-active="asc" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Year</th>
-            <th data-sort-key="name" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Name</th>
-            <th data-sort-key="type" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Type</th>
-            <th data-sort-key="duration" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          {allEvents.map((e) => {
-            const start = e.data.date_start.value;
-            const end = e.data.date_end?.value ?? start;
-            const duration = Math.abs(end - start);
-            return (
-              <tr
-                class="border-b border-sand-200 hover:bg-[#faf6ec] active:bg-purple-100 transition-colors"
-                data-sort-year={start}
-                data-sort-name={e.data.name}
-                data-sort-type={e.data.type}
-                data-sort-duration={duration}
-              >
-                <td class="px-3 py-2 text-sand-700 tabular-nums whitespace-nowrap">{fmtRange(e.data)}</td>
-                <td class="px-3 py-2"><a href={`/events/${e.id}`} class="font-serif text-tyrian-700 hover:underline">{e.data.name}</a></td>
-                <td class="px-3 py-2"><span class={`text-[10px] uppercase tracking-widest font-semibold px-2 py-0.5 rounded ${typeBadgeStyle(e.data.type)}`}>{e.data.type}</span></td>
-                <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{duration > 0 ? `${duration}y` : ''}</td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
     </div>
   </div>
 </BaseLayout>
