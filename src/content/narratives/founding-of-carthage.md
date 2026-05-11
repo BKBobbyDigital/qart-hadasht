@@ -155,6 +155,26 @@ period. The Carthaginian-Tyrian connection was treated by both
 cities as one of religious and ancestral continuity, not mere
 historical origin.
 
+Carthage was also not the only such foundation. The Tyrian
+western expansion of the 9th and 8th centuries BCE was a
+substantively integrated network enterprise — Gadir on the
+Atlantic, Lixus on the Moroccan coast, Motya on Sicily, Sulci
+and Tharros on Sardinia, the broader Tunisian coastal foundations,
+others — operating with shared religious-cultic infrastructure
+(principally the Melqart cult and the annual Tyrian
+delegations), shared commercial conventions, and shared
+linguistic-inscriptional practice. The
+[Phoenician colonial network theme](/themes/phoenician-colonial-network)
+treats this network as the structural context Carthage emerged
+within. Across the early centuries Carthage was one node among
+many; through demographic accumulation, geographic position,
+and the homeland's Assyrian-period constraint of the 8th-7th
+centuries BCE, Carthage grew across the 6th-5th centuries BCE
+into the network's metropolitan center. The foundation was the
+beginning of a long network-and-emergence arc rather than the
+isolated colonial-founding moment the legendary tradition
+foregrounds.
+
 This is the foundation tradition's secure historical core. The
 specific date is debated; the figure of Dido is legendary; the
 narrative details are stylized. The Tyrian colonial event itself

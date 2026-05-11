@@ -1,0 +1,109 @@
+slug: melqart-cult-as-network-infrastructure
+statement: >
+  The Melqart cult functioned as the principal coordinating
+  religious-cultic infrastructure of the Phoenician colonial
+  network across the 9th through 4th centuries BCE — not as
+  shared background culture, but as institutionalized practice
+  with specific cross-network mechanisms: Melqart sanctuaries
+  attested at every major Phoenician colonial foundation
+  (Carthage, Gadir, Lixus, Motya, Tharros, and others); annual
+  delegations sent from western colonies — Carthage most
+  prominently — to the Tyrian Melqart sanctuary across at least
+  six centuries; the *egersis* festival (the annual ritual death
+  and resurrection of Melqart) as a network-wide observance
+  with regional adaptations; and the Melqart cult's role as
+  the principal Phoenician religious-cultic identity marker that
+  distinguished network participants from non-Phoenician
+  Mediterranean populations. The cult was the substantive
+  coordinating institution of the network rather than merely a
+  shared religious feature, and its operation across centuries
+  documents the network's substantive integration rather than
+  its mere geographic dispersion.
+confidence: inferred
+scholarly_consensus: >
+  The annual delegation from Carthage to Tyre is firmly
+  attested (Diodorus 20.14; ps-Aristotle, *On Marvellous Things
+  Heard*; scattered other references) and not contested. The
+  presence of Melqart sanctuaries at major colonial foundations
+  is firmly attested archaeologically (the Heracleion at Gadir,
+  the Carthage Melqart cult, the Tyrian Melqart temple as the
+  network's metropolitan center). The *egersis* festival's
+  practice across the network is attested but more thinly. The
+  network-infrastructure framing — treating the Melqart cult as
+  substantive coordinating institution rather than as merely
+  shared culture — is modern synthesis, explicit in Bonnet 2015
+  and developed across recent specialist work; the ancient
+  sources preserve the practices without explicitly articulating
+  the systemic-coordination framing.
+sources:
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "20.14"
+    passage_summary: >
+      Diodorus preserves the annual delegation from Carthage to
+      Tyre in the context of the Agathocles invasion narrative;
+      the delegation is treated as established Carthaginian
+      practice that the wartime crisis intensified rather than
+      established. The passage is the principal literary witness
+      to the institutionalized cross-network ritual practice.
+  - source: aristotle-politics
+    stance: supports
+    passage_summary: >
+      Aristotle's broader corpus and the pseudo-Aristotelian
+      *On Marvellous Things Heard* preserve fragments on
+      Carthaginian-Tyrian relations and on the Melqart cult's
+      western diffusion, with the annual delegation attested as
+      a notable Mediterranean religious-political institution.
+  - source: bonnet-cadmos-2015
+    stance: supports
+    passage_summary: >
+      Bonnet's *Les enfants de Cadmos* develops the
+      network-infrastructure framing for the Phoenician
+      religious landscape, including the Melqart cult as
+      coordinating mechanism, with detailed treatment of the
+      annual delegations, the *egersis* festival, and the
+      cross-colonial cult coordination.
+  - source: aubet-phoenicians-west-2001
+    stance: supports
+    passage_summary: >
+      Aubet's archaeological synthesis documents the Melqart
+      sanctuaries at the major colonial foundations and reads
+      them as evidence of substantive religious coordination
+      across the colonial network. The
+      archaeological-distribution evidence is the principal
+      non-literary support for the network-infrastructure
+      framing.
+  - source: krings-manuel-1995
+    stance: supports
+    passage_summary: >
+      The Krings-edited handbook's religion chapters
+      (principally Ribichini and Xella) treat the Melqart cult
+      and the Phoenician religious diaspora as substantively
+      coordinated rather than as independent local cults sharing
+      a name.
+entities:
+  - type: deity
+    slug: melqart
+    role: subject
+  - type: place
+    slug: tyre
+    role: subject
+  - type: place
+    slug: carthage
+    role: subject
+  - type: place
+    slug: gadir
+    role: subject
+notes: >
+  Load-bearing for the Phoenician-colonial-network-as-system
+  framing the site develops in the
+  [colonial network theme](/themes/phoenician-colonial-network).
+  The Melqart cult is the single most tangible and well-attested
+  element of the network's coordinating infrastructure — the
+  annual delegations are documented across centuries of
+  Greco-Roman literary record, the sanctuaries are documented
+  archaeologically across all major colonial sites, and the
+  cult's specific institutional features (the *egersis*, the
+  Tyrian metropolitan centrality) are direct evidence for
+  substantive network integration rather than merely shared
+  cultural background.
