@@ -20,16 +20,20 @@
 type ViewName = 'cards' | 'table' | 'timeline';
 interface Props {
   views?: ViewName[];
+  defaultView?: ViewName;
 }
-const { views = ['cards', 'table'] } = Astro.props;
+const { views = ['cards', 'table'], defaultView } = Astro.props;
 const labels: Record<ViewName, string> = {
   cards: 'Cards',
   table: 'Table',
   timeline: 'Timeline',
 };
+// The data-default-view attribute on the toggle gets read by the script
+// below to seed the initial view when no localStorage value exists.
+const initialView = defaultView ?? views[0];
 ---
 
-<div class="hidden sm:flex justify-end mb-4">
+<div class="hidden sm:flex justify-end mb-4" data-default-view={initialView}>
   <div class="inline-flex border border-sand-300 rounded-full p-0.5 bg-sand-50 text-xs">
     {views.map((v) => (
       <button
@@ -133,7 +137,13 @@ const labels: Record<ViewName, string> = {
       const stored = (() => {
         try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
       })();
-      const fallback = supported.has('cards') ? 'cards' : (supported.values().next().value || 'cards');
+      // Default view: read from the toggle's data-default-view attribute
+      // if set, else fall back to cards (or the first supported view).
+      const toggle = container.querySelector('[data-default-view]');
+      const declared = toggle && toggle.getAttribute('data-default-view');
+      const fallback = (declared && supported.has(declared))
+        ? declared
+        : (supported.has('cards') ? 'cards' : (supported.values().next().value || 'cards'));
       const initial = stored && supported.has(stored) ? stored : fallback;
       applyView(container, initial);
 
