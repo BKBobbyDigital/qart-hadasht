@@ -119,7 +119,7 @@ flows below.
 
 ### Prose discipline rules
 
-Two house-style rules that apply to all content the project ships:
+Three house-style rules that apply to all content the project ships:
 
 **No version self-references.** Do not write things like "in V1's
 scope," "the V1 scope of this site," "this version of the
@@ -142,6 +142,48 @@ parens), list expansions (use a colon), sentence breaks where a
 period would do, or "for emphasis" where the content is unremarkable.
 A long-form piece with more than ~10 em dashes is almost certainly
 overusing them; pause and convert.
+
+**AI-tic vocabulary discipline.** LLM-generated prose reaches by
+default for an abstract analytical vocabulary that reads as
+generic-systems-thinking rather than as substantive historical
+writing. Watch these tells in particular:
+
+- **The four-word cluster:** "structural / substantively /
+  operationally / load-bearing." The corpus target is
+  fewer than 10 instances per 1,000 words of these four
+  combined. "Substantively" is almost always droppable;
+  "load-bearing" can usually become "central" or "decisive";
+  "structurally" and "operationally" are often empty
+  adverbs that can be deleted without loss.
+- **Nominalizations:** "The prisoner-release pattern shows
+  X" reads better as "Hannibal released prisoners; that
+  shows X."
+- **Bolded inline mini-headings** (`**The X.**` opening
+  every paragraph of a reasoning section). Strip them;
+  the sentences flow as normal prose.
+- **Formulaic closers:** "What the position is not claiming.
+  This is not X. This is not Y..." and the
+  "Confidence is moderate. The X is firmly attested..."
+  paragraphs that close editorial-take reasoning bodies.
+  Confidence belongs in the YAML metadata; the prose
+  should close on substance.
+- **Hyphenated noun compounds:** "alliance-dismemberment
+  program" or "manpower-and-treaty infrastructure" pack
+  thought-units into noun phrases that real prose would
+  unpack into clauses.
+- **Triadic structure abuse:** "Three converging lines of
+  evidence" or "Three observations support the reading"
+  is fine once but becomes formulaic if it opens every
+  editorial-take reasoning section.
+- **The "X reading" / "Y framing" nominalization:** "the
+  alliance-dismemberment reading", "the Polybian framing",
+  "the institutionally-mixed reading" — useful but
+  overcrowded in default LLM prose.
+
+Run `node scripts/tic-rank.mjs` to spot regression. Run
+`node scripts/delm.mjs` (dry run by default; `--apply` to
+write) for the safe mechanical pass. Anything beyond that
+is per-file judgment work.
 
 ### The confidence vocabulary
 
@@ -351,7 +393,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~623 pages** as of
+parked until the day version settles. The site is **~653 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -359,15 +401,15 @@ the last build.
 | Collection | Count |
 |---|---|
 | events | 92 |
-| people | 74 |
-| places | 46 |
+| people | 82 |
+| places | 56 |
 | sources | 47 |
 | claims | 172 |
-| editorialTakes | 21 |
-| openQuestions | 13 |
+| editorialTakes | 24 |
+| openQuestions | 17 |
 | artifacts | 41 |
-| narratives | 33 |
-| themes | 14 |
+| narratives | 35 |
+| themes | 17 |
 | periods | 8 |
 | threads | 7 |
 | groups | 18 |
@@ -383,10 +425,12 @@ Plus a substantial follow-on: analytics, 404, PWA, period 07 split,
 places imagery expansion, artifact placeholder consistency.
 
 Headline numbers:
-- 623 pages indexed
-- 28 of 46 places imaged (was 0); 38 of 41 artifacts imaged
+- 653 pages indexed
+- 38 of 56 places imaged; 38 of 41 artifacts imaged
 - 0 broken internal links; 0 accessibility findings on user-facing pages
-- Em-dash density 73% reduced from initial audit
+- Em-dash density 73% reduced from initial audit; AI-tic vocabulary
+  (`structural`/`substantive`/`operational`/`load-bearing`) reduced
+  by ~50% corpus-wide via two de-LLM passes
 - Privacy-first analytics live with 9 tracked event types
 - Installable PWA with Tanit-mark icon set
 - Citation rigor: anchored headings, BibTeX/RIS/APA/MLA/Chicago export, version stamps with GitHub-history links
@@ -509,6 +553,8 @@ across places, people, events, etc. Fixed via:
 | emdash-fix.mjs | Targeted paired-parenthetical em-dash conversion |
 | fetch-place-image.mjs | Wikimedia Commons image fetch + YAML block emit |
 | a11y-audit.mjs | Static a11y violation scan + asset-weight signals |
+| tic-rank.mjs | Rank all content files by AI-tic vocabulary density |
+| delm.mjs | Mechanical de-LLM pass (bold mini-headings, boilerplate closers, safe word subs) |
 
 All reusable; each prints results to stdout and (where applicable)
 modifies files only with --apply flag.
@@ -649,7 +695,117 @@ Valerius / Baebius (219) co-envoys were added instead.
   shows Father / Mother / Spouse(s) / Child(ren) / Offices held
   rows.
 
-### Editorial takes — now at 21
+### Content-gap fill pass (May 2026, commits ee88dda → b9d0df9)
+
+Identified content gaps across collections and filled the
+highest-priority ones:
+
+**Ten new place pages with imagery.** Sardinian: Sulci,
+Tharros, Nora, Caralis. Atlantic and Iberian: Lixus, Malaca,
+Carmona, Abdera. Tripolitanian: Sabratha, Oea. All sourced
+through `scripts/fetch-place-image.mjs` from Wikimedia
+Commons, with full CC-license credit blocks. Places
+collection 46 → 56.
+
+**Eight new people pages.** Adherbal (the Drepana victor),
+Hieron II of Syracuse, Ahiram of Byblos, Eshmunazar II of
+Sidon, Hiram I of Tyre, Hannibal son of Bomilcar, Bostar,
+Carthalo. Plus the three SPW-outbreak envoys (Baebius
+Tamphilus, Licinius Varus, Valerius Flaccus) from the prior
+batch. People collection 74 → 82.
+
+**Four new open questions.** `hannibal-italian-objective`,
+`hanno-periplus-authenticity`, `carthaginian-literacy-extent`,
+`carthaginian-women-political-office`. OpenQuestions
+13 → 17.
+
+**Three new themes.** `carthaginian-warfare` (military
+organization), `treaties-and-diplomacy` (the eight Roman
+treaties plus Numidian, Greek, Hellenistic relationships),
+`punic-numidian-relations` (the relationship as topical
+hub, with the existing `the-numidian-punic-interface`
+narrative as the substantive treatment). Themes 14 → 17.
+
+**Three new editorial takes** with user-confirmed
+positions:
+- `hannibal-italian-objective-alliance-dismemberment` —
+  structural-strategic intent reading; incorporates the
+  oath at Hamilcar's altar
+- `carthaginian-army-institutionally-mixed` — citizen
+  command + Libyan subjects + Numidian/Iberian allies +
+  mercenaries; rejects Polybian inferiority claim, with
+  Polybius 6.52 as the load to push against
+- `aristotle-carthaginian-governance-praise-qualified` —
+  genuine but qualified, with the "actually equal/superior
+  to the polis ideal" reading explicitly rejected
+
+Editorial takes 21 → 24.
+
+**Two new narratives.** `mago-barca-operational-arc`
+(integrating the third Barcid brother's distributed
+career into one biographical arc) and
+`mercenary-war-leaders` (collective treatment of Spendius,
+Mathos, Autaritus as a coordinated leadership unit).
+Narratives 33 → 35.
+
+### De-LLM revision passes (May 2026, commits 2213fcd → 1eb4659)
+
+A multi-pass cleanup targeting AI verbal tics across the
+site after the user flagged them in newly-written prose.
+The seven strategies (in order from most-to-least mechanical):
+
+1. Cut "structural / substantive / operational / load-bearing"
+   density by ~70% in revised files
+2. Replace nominalizations with verbs
+3. Strip bolded inline mini-headings (the `**Heading.**`
+   pattern inside reasoning bodies)
+4. Vary formulaic closers ("What the position is not
+   claiming"; "Confidence is moderate/strong" boilerplate)
+5. Unpack hyphenated noun compounds
+6. Cut closing recap paragraphs from narratives
+7. Use specific concrete nouns over abstract ones
+
+Implemented across three passes:
+
+**Pass 1: mechanical script (`scripts/delm.mjs`).** Applied
+across all 14 content collections. Stripped 315 bolded
+mini-headings, removed 5 "what the position is not
+claiming" closers + 5 "confidence is X" boilerplate
+closers, made 124 safe word-level substitutions (delete
+empty "substantively", "load-bearing" → "central", etc.).
+
+**Pass 2: hand-rewrite the 8 newest-written files.** The 3
+new editorial takes, 2 new narratives, 1 open question, 2
+new themes — all by-hand revised with strategies 2, 5, 6,
+7 applied.
+
+**Pass 3: hand-rewrite 23 high + medium priority older
+files.** Five central editorial takes (Masinissa,
+Destruction, Cultural Integrator, Barcid State, Mercenary
+War Atrocity), three long-form pieces (Suffeteship arc,
+Numidian-Punic interface, Phoenician colonial network),
+nine medium editorial takes (Alalia, Family-vs-Institution,
+Cannae-Refusal, Agathocles-Masterstroke, FPW-Causation,
+Punic-Religion-Method, Iberian-Side-Switching, TPW-Why,
+Lutatius), four open questions and two themes (Mercenary
+War Brutality, Women's Lives Gap, Agathocles How Close,
+Women Political Office, Women-and-Family, Punic
+Inscriptional Record).
+
+Corpus-level results across all prose-heavy collections:
+- "load-bearing": 25 → 4 (96% reduction)
+- "substantive(ly)": 354 → ~110 (69% reduction)
+- "operational(ly)": 147 → ~80 (46% reduction)
+- "structural(ly)": 338 → ~200 (41% reduction)
+
+Two new audit/utility scripts:
+- `scripts/tic-rank.mjs` — ranks all 14 collections by
+  AI-tic density per 1,000 words. Reusable; run any time
+  to find regression hotspots.
+- `scripts/delm.mjs` — the mechanical pass script. Idempotent
+  (running it again only catches new instances).
+
+### Editorial takes — now at 24
 
 Major new takes from the framing pass:
 - `tophet-happened-scale-unrecoverable` — "practice happened, scale
@@ -722,11 +878,23 @@ chronological spine, citation rigor, accessibility audit) plus
 the analytics, 404, PWA, period split, and consistency-pass work
 all landed in May 2026.
 
-The next-level pass produced infrastructure (5 audit/utility
+A subsequent content-gap fill pass added ten new place pages,
+eight new people pages, four new open questions, three new
+themes, three new editorial takes, and two new narratives.
+
+A subsequent de-LLM revision pass (three sub-passes) cleaned
+up AI verbal tics across the corpus: a mechanical script across
+all collections, then hand-rewrites of the 8 newest files I had
+written, then hand-rewrites of 23 high + medium priority older
+files (5 central editorial takes, 3 long-form pieces, 9 medium
+editorial takes, 4 open questions, 2 themes).
+
+The next-level pass produced infrastructure (7 audit/utility
 scripts, 3 new components, GoatCounter analytics, PWA manifest)
 that future content work can lean on without rebuilding. The
 audit scripts are reusable; run them periodically to catch
-regression rot.
+regression rot. The two newest scripts (`tic-rank.mjs`,
+`delm.mjs`) target AI-tic density specifically.
 
 ### Tabled — substantial next-level moves, revisit later
 
@@ -906,7 +1074,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **598 pages**.
+output. As of the last CLAUDE.md refresh it was around **653 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
