@@ -66,6 +66,20 @@ const linkRegistry = buildLinkRegistry({
 
 const excludeKey = `openQuestion:${question.id}`;
 const al = (text: string) => autolink(text ?? '', linkRegistry, { excludeKey });
+
+// Render a YAML literal-block-scalar field (`|`) as HTML paragraphs.
+// Splits on blank lines, collapses single newlines within each paragraph
+// to spaces (so the source's hard-wraps don't show as visible line
+// breaks), runs autolink on each paragraph, wraps each in <p>.
+const paragraphize = (text: string) => {
+  if (!text) return '';
+  return text
+    .split(/\n\s*\n/)
+    .map((p) => p.replace(/\s*\n\s*/g, ' ').trim())
+    .filter(Boolean)
+    .map((p) => `<p class="mb-4 last:mb-0">${al(p)}</p>`)
+    .join('');
+};
 ---
 
 <BaseLayout title={d.question.slice(0, 100)} description={d.question.slice(0, 200)}>
@@ -84,7 +98,7 @@ const al = (text: string) => autolink(text ?? '', linkRegistry, { excludeKey });
 
     <section class="mb-8">
       <h2 class="eyebrow mb-2">Evidence summary</h2>
-      <div class="text-ink-900 leading-relaxed whitespace-pre-line" set:html={al(d.evidence_summary)}></div>
+      <div class="text-ink-900 leading-relaxed" set:html={paragraphize(d.evidence_summary)}></div>
     </section>
 
     {(d.candidate_answers ?? []).length > 0 && (

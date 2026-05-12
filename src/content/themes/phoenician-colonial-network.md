@@ -451,6 +451,69 @@ versus what is legendary. This theme's treatment of the
 network as a system is the broader framework within which
 individual foundation traditions sit.
 
+## Cultural network, demographic mixing
+
+The substance the network transmitted was a cultural-religious-
+linguistic package — Melqart and the broader Tyrian pantheon,
+the Phoenician script, the theophoric naming conventions, the
+formulaic religious and funerary vocabulary, the civic
+institutions, the burial conventions. What it did not transmit
+on the same scale was a Levantine population. The founding
+expeditions were small by the standards of the cities they
+produced, and the colonial outposts existed in places already
+inhabited by other Mediterranean peoples: Libyans on the North
+African coast, Iberians in southern Spain, indigenous Nuragic
+communities in Sardinia, Sicilian Sicans and Sicels, and the
+populations of the smaller Tyrrhenian islands. Demographic
+mixing with these populations would have been inherent to the
+colonial process from the first generation, and the literary
+record itself names this mixing as a routine feature of Punic
+society: the [Libyo-Phoenicians](/groups/libyo-phoenicians)
+appear in Polybius and Diodorus as a distinct integrated
+category, elite intermarriages are scattered through the
+historical narrative (Herodotus 7.166 names Hamilcar Magonid's
+mother as Syracusan, Hannibal's marriage to Imilce is
+attested in the Iberian context, the
+[Sophonisba](/people/sophonisba) marriages to Numidian kings
+are well-documented), and the archaeological record of
+material-cultural integration with each region the network
+reached is continuous across the Punic-period centuries.
+
+The 2025
+[Ringbauer aDNA study](/sources/ringbauer-punic-genetics-2025)
+addresses the demographic question directly with the largest
+ancient-DNA sample yet assembled for Punic studies. The
+principal finding is that individuals buried at western Punic
+sites across the seventh through second centuries BCE —
+Carthage, Tharros, Motya, Kerkouane, Cadiz, Ibiza, among others
+— carry predominantly Sicilian, Aegean, and North African
+genetic ancestry, with only minimal Levantine component. The
+Phoenician-homeland comparative samples carry the expected
+Levantine profile, demonstrating that the methodology can
+detect Levantine ancestry where it is present. The implication
+is that the Tyrian-descended demographic component had been
+demographically diluted across the seven centuries that
+followed the foundation by ongoing mixing with the Mediterranean
+populations the network was embedded in. The Phoenician
+identity the network sustained for those centuries was a
+cultural achievement carried by genetically heterogeneous
+populations, not a Tyrian-population transplant maintained in
+isolation.
+
+The two findings — the Tyrian foundation, the Mediterranean
+demographic profile — are compatible rather than competing.
+Founding events transmit culture; demographic continuity does
+not require genetic continuity. Cultural identity is
+transmitted by socialization, language, ritual, and
+institutional membership rather than by genealogy, and the
+network the theme describes was precisely the kind of
+cultural-institutional system that can sustain a coherent
+identity across centuries while the populations carrying that
+identity mix and recombine. The
+[open question on Punic demographic composition](/openQuestions/punic-demographic-composition)
+treats the foundation-vs-demography distinction as a
+first-class methodological point.
+
 ## What the network was, and was not
 
 The Phoenician colonial network was an integrated system
