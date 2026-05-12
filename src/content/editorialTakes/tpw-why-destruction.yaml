@@ -7,67 +7,71 @@ subject_entity:
   slug: third-punic-war
   role: subject
 position: >
-  Because the Roman senate had decided on destruction before the
-  war began, and structured the war's terms to ensure that
-  destruction was the only outcome the Carthaginian response could
-  produce. Cato's persistent advocacy articulated a position the
-  senate increasingly shared: that Carthage's economic recovery,
-  geographic position, and continued existence as a state with
-  any independent capacity were structural threats that could not
-  be addressed by another indemnity-and-demilitarization
-  settlement. The Roman ultimatum to abandon the city and resettle
-  inland was deliberately impossible to accept; the war that
-  followed was the mechanism for converting that decision into
-  fact rather than the genuine working-out of a contested outcome.
-  The structural causes (Roman strategic culture, the legal
-  framework the Lutatius and Treaty of 201 had created, Masinissa's
-  enabling encroachments) were the conditions; the senatorial
-  decision was the act; Cato's advocacy was the articulation.
+  Because the Roman senate had decided on destruction before
+  the war began, and structured the war's terms to ensure
+  that destruction was the only outcome Carthaginian
+  response could produce. Cato's persistent advocacy gave
+  voice to a view the senate was increasingly converging on:
+  that Carthage's economic recovery, geographic position,
+  and continued existence as a state with any independent
+  capacity were threats that another
+  indemnity-and-demilitarization settlement could not
+  address. The Roman ultimatum to abandon the city and
+  resettle inland was deliberately impossible to accept; the
+  war that followed was the mechanism for converting that
+  decision into fact, not the genuine working-out of a
+  contested outcome. The deeper conditions (Roman strategic
+  culture, the legal framework the Lutatius and Treaty of
+  201 had built, Masinissa's enabling encroachments) were
+  the setting; the senatorial decision was the act; Cato's
+  advocacy was the articulation.
 reasoning: |
-  Three observations:
+  Three observations support the reading.
 
-  1. The decision preceded the war. Multiple ancient sources
-     and modern reconstructions agree that the Roman senate's
-     decision to destroy Carthage was effectively settled before
-     the formal declaration of war in 149 BCE. The Carthaginian
-     surrender of weapons was treated as a step toward
-     destruction rather than as a basis for negotiated settlement.
-     The relocation ultimatum was issued precisely because it
-     could not be accepted; if the senate had wanted a negotiated
-     end, it would have offered terms Carthage could have met.
+  The decision preceded the war. Multiple ancient sources
+  and modern reconstructions agree that the Roman senate's
+  decision to destroy Carthage was effectively settled
+  before the formal declaration of war in 149 BCE. The
+  Carthaginian surrender of weapons was treated as a step
+  toward destruction rather than as the basis for a
+  negotiated settlement. The relocation ultimatum was
+  issued precisely because it could not be accepted; if the
+  senate had wanted a negotiated end, it would have offered
+  terms Carthage could have met.
 
-  2. The structural pretext was prepared. The Lutatius
-     treaty's allied-protection clause (later re-articulated in
-     the Treaty of 201) had been designed to limit Carthaginian
-     options. Masinissa's encroachments over fifty years had
-     forced Carthage into the impossible position of either
-     suffering territorial loss indefinitely or violating the
-     treaty by self-defense. When Carthage finally fought back in
-     150 BCE, the Roman legal framework was ready to treat that
-     response as treaty violation. The structural pretext had
-     been incubating for decades.
+  The legal pretext was prepared. The Lutatius treaty's
+  allied-protection clause, later restated in the Treaty of
+  201, had been designed to limit Carthaginian options.
+  Masinissa's encroachments over fifty years had forced
+  Carthage into the impossible position of either accepting
+  territorial loss indefinitely or violating the treaty by
+  self-defense. When Carthage finally fought back in 150
+  BCE, the Roman legal framework was ready to treat that
+  response as treaty violation. The pretext had been
+  building for decades.
 
-  3. Cato's role was articulation, not causation. The
-     "Carthago delenda est" tradition makes Cato into a singular
-     causal agent of the destruction. Modern scholarship is
-     generally skeptical: Cato's persistent advocacy is real, his
-     personal conviction was real, but the underlying senatorial
-     position was not produced by his speeches. He gave voice to
-     a strategic conclusion the senate was reaching independently,
-     and the long delay between Cato's first calls for
-     destruction (probably mid-150s BCE) and the actual decision
-     (149 BCE) is consistent with the senate moving on its own
-     timeline rather than being persuaded by Cato.
+  Cato's role was articulation, not causation. The
+  "Carthago delenda est" tradition makes Cato into a
+  singular causal agent of the destruction. Modern
+  scholarship is generally skeptical. Cato's persistent
+  advocacy is real, his personal conviction was real, but
+  the underlying senatorial position was not produced by
+  his speeches. He gave voice to a strategic conclusion the
+  senate was reaching on its own, and the long delay
+  between his first calls for destruction (probably
+  mid-150s BCE) and the actual decision (149 BCE) is
+  consistent with the senate moving on its own timeline
+  rather than being persuaded by him.
 
-  The site's position is that the destruction is best read as a
-  Roman strategic decision implemented through legal-procedural
-  forms, not as a contingent outcome of debate. The interesting
-  feature of the Roman conduct of the war is not whether
-  destruction was the right policy (it was extraordinary even by
-  ancient standards) but how the decision was institutionally
-  produced and legally framed. That story is structural rather
-  than personal, and the structural reading is what the site
-  adopts.
+  The site's position is that the destruction is best read
+  as a Roman strategic decision implemented through legal
+  and procedural forms, not as the contingent outcome of
+  debate. The interesting feature of how Rome conducted the
+  war is not whether destruction was the right policy (it
+  was extraordinary even by ancient standards), but how the
+  decision was institutionally produced and legally framed.
+  That story is structural rather than personal, and the
+  structural reading is what the site takes.
 confidence: moderate
 weighed_claims:
   - cato-delenda-est
@@ -75,26 +79,30 @@ weighed_claims:
   - tpw-final-assault-destruction
 competing_positions:
   - position: >
-      Cato's persistent advocacy was the decisive cause; without
-      him the Roman decision would not have occurred.
+      Cato's persistent advocacy was the decisive cause;
+      without him the Roman decision would not have
+      happened.
     why_rejected: >
-      Underweights the structural conditions and the long Roman
-      strategic preparation. Cato gave voice to a position; he did
-      not produce it. His personal influence is real but
-      overdetermined by the broader Roman strategic context.
-    held_by: A traditional reading sometimes encountered in
-      popular treatments of the war.
+      Under-weights the deeper conditions and the long
+      Roman strategic preparation. Cato gave voice to a
+      position; he did not produce it. His personal
+      influence is real but overdetermined by the broader
+      Roman strategic context.
+    held_by: >
+      A traditional reading sometimes found in popular
+      treatments of the war.
   - position: >
       The destruction was a contingent outcome of escalating
-      Roman-Carthaginian tensions, not a pre-decided strategic
-      choice.
+      Roman-Carthaginian tensions, not a pre-decided
+      strategic choice.
     why_rejected: >
-      Underweights the deliberate impossibility of the relocation
-      ultimatum. Rome had alternatives in 149 BCE and chose the
-      ones that ensured destruction. The decision-tree the senate
-      followed in 149 was structured to produce the outcome it
-      did.
-    held_by: A reading consistent with some modern scholarship
+      Under-weights the deliberate impossibility of the
+      relocation ultimatum. Rome had alternatives in 149
+      BCE and chose the ones that ensured destruction. The
+      decision tree the senate followed in 149 was
+      structured to produce the outcome it did.
+    held_by: >
+      A reading consistent with some modern scholarship
       cautious about retrospective causation.
 last_reviewed: "2026-05-09"
 open_to_revision: true

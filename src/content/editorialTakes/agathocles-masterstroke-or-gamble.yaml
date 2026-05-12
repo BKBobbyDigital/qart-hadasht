@@ -1,68 +1,73 @@
 slug: agathocles-masterstroke-or-gamble
 subject_question: >
-  Was Agathocles's invasion of Africa a strategic masterstroke or a
-  desperate gamble?
+  Was Agathocles's invasion of Africa a strategic masterstroke
+  or a desperate gamble?
 subject_entity:
   type: event
   slug: agathocles-invasion-of-africa
   role: subject
 position: >
-  Both, in the sense that the standard either/or framing misses what is
-  actually distinctive about the campaign. The invasion was desperate
-  when conceived: Agathocles was losing the war in Sicily and could not
-  have continued the existing strategy without short-term collapse. It
-  was brilliantly executed in its first two seasons. The crossing
-  through the blockade, the burning of the ships, the victory at White
-  Tunis, the alliance with Ophellas, the recall of Hamilcar son of
-  Gisco from Sicily are operational achievements that have no obvious
-  peer in fourth-century Greek warfare. And it ended catastrophically,
-  with the troop revolt, the personal abandonment of the army, and the
-  killing of his sons. Treating the campaign as a unitary strategic act
-  produces an answer that flattens this arc. The honest answer is that
-  Agathocles attempted something whose range of plausible outcomes ran
-  from "permanent reshaping of the western Mediterranean" to
-  "annihilation of the Greek army in Africa." Both outcomes were on the
-  table for most of the campaign. In the end, the second outcome
-  arrived. The strategic vision, the operational brilliance, and the
-  moral character of the agent who executed it are not separable but
-  they are also not reducible.
+  Both, in the sense that the standard either-or framing
+  misses what was actually distinctive about the campaign.
+  The invasion was desperate when conceived: Agathocles was
+  losing the war in Sicily and could not have continued the
+  existing strategy without short-term collapse. It was
+  brilliantly executed in its first two seasons. The crossing
+  through the blockade, the burning of the ships, the victory
+  at White Tunis, the alliance with Ophellas, the recall of
+  Hamilcar son of Gisco from Sicily — these are operational
+  achievements with no obvious peer in fourth-century Greek
+  warfare. And it ended catastrophically, with the troop
+  revolt, Agathocles abandoning the army, and his sons killed
+  in his absence. Treating the campaign as a single strategic
+  act produces an answer that flattens the arc. The honest
+  reading is that Agathocles attempted something whose range
+  of plausible outcomes ran from "permanent reshaping of the
+  western Mediterranean" to "annihilation of the Greek army
+  in Africa." Both outcomes were on the table for most of
+  the campaign. The second arrived. The strategic vision,
+  the operational brilliance, and the moral character of the
+  agent who executed it are not separable, but they are also
+  not reducible to one another.
 reasoning: |
-  Three observations support the both/and reading:
+  Three observations support the both/and reading.
 
-  1. The strategic logic was real. Agathocles's articulated reason
-     for the invasion was to force Carthage to fight on its own ground
-     and so relieve pressure on Syracuse, and the strategy worked as
-     designed. Hamilcar son of Gisco was eventually recalled from
-     Sicily and killed there in 309 BCE; the Sicilian theater shifted
-     in Agathocles's favor as a direct consequence. This is not the
-     pattern of a desperate gamble that happened to almost succeed. It
-     is the pattern of a coherent strategic theory whose execution
-     was exceptional until it wasn't.
+  The strategic logic was real. Agathocles's stated reason
+  for the invasion was to force Carthage to fight on its own
+  ground and so relieve pressure on Syracuse, and the
+  strategy worked as designed. Hamilcar son of Gisco was
+  eventually recalled from Sicily and killed there in 309
+  BCE; the Sicilian theatre shifted in Agathocles's favor
+  as a direct consequence. This is not the pattern of a
+  desperate gamble that happened to almost succeed. It is
+  the pattern of a coherent strategic theory whose execution
+  was exceptional until it wasn't.
 
-  2. The operational achievement was unprecedented. The first
-     foreign army to operate on Carthage's home territory; the first
-     known instance of "burning your boats" as a deliberate commitment
-     device; the alliance-and-betrayal of Ophellas as a means of
-     doubling the Greek force; the indirect contribution to the
-     Carthaginian internal coup of Bomilcar. All of these are
-     operational moves whose audacity is sometimes undersold by modern
-     accounts focused on the eventual collapse.
+  The operational achievement was unprecedented. The first
+  foreign army to operate on Carthage's home territory; the
+  first known case of "burning your boats" as a deliberate
+  commitment device; the alliance with and then murder of
+  Ophellas as a way of doubling the Greek force; the
+  indirect contribution to Bomilcar's failed internal coup
+  at Carthage. These are operational moves whose audacity is
+  sometimes undersold by accounts focused on the eventual
+  collapse.
 
-  3. The moral character of the campaign is genuinely shocking
-     even by ancient standards. The murder of Ophellas, the personal
-     abandonment of the army, the willingness to leave his own sons
-     to be killed: these are not small details. The Diodoran (and
-     behind it, Timaean) framing is hostile but the basic facts are
-     not seriously contested. Any honest assessment of the campaign
-     has to weigh both its achievement and its character, and the two
-     pull in different moral directions.
+  The moral character of the campaign is genuinely shocking
+  even by ancient standards. The murder of Ophellas, the
+  abandonment of the army, the willingness to leave his own
+  sons to be killed: these are not small details. The
+  Diodoran framing (and Timaeus behind it) is hostile, but
+  the basic facts are not seriously contested. An honest
+  assessment has to weigh both the achievement and the
+  character, and the two pull in different moral directions.
 
-  The site's position is that Agathocles is properly read as a
-  precursor to Hannibal in operational imagination and to several of
-  the later Hellenistic kings in moral practice. The invasion of
-  Africa is the kind of campaign whose strategic concept survived
-  longer in the historical imagination than its specific outcome.
-  Scipio's invasion of Africa in 204 BCE was operating in the shadow
+  The site's reading is that Agathocles is properly read as
+  a precursor to Hannibal in operational imagination and to
+  several later Hellenistic kings in moral practice. The
+  invasion's strategic concept survived in the historical
+  imagination longer than its specific outcome did. Scipio's
+  invasion of Africa in 204 BCE was operating in the shadow
   of Agathocles's precedent, however differently it ended.
 confidence: moderate
 weighed_claims:
@@ -75,28 +80,32 @@ weighed_claims:
   - agathocles-diodorus-bias
 competing_positions:
   - position: >
-      The invasion was a strategic masterstroke whose collapse was
-      the result of contingent factors (troop revolt, supply problems)
-      rather than any strategic flaw.
+      The invasion was a strategic masterstroke whose
+      collapse came from contingent factors (troop revolt,
+      supply problems) rather than any strategic flaw.
     why_rejected: >
-      Underweights the moral and personnel pattern that runs through
-      the entire campaign: the Ophellas episode, the Bomilcar coup
-      attempt that Agathocles partly courted, the eventual abandonment
-      of the army. The strategic vision was real but the agent's
-      character contributed structurally to the collapse, not just
-      contingently.
-    held_by: Some military-history readings that emphasize operational
-      art over moral assessment.
+      Under-weights the moral and personnel pattern that
+      runs through the whole campaign: the Ophellas episode,
+      the Bomilcar coup attempt that Agathocles partly
+      courted, the eventual abandonment of the army. The
+      strategic vision was real but the agent's character
+      contributed to the collapse, not just contingently.
+    held_by: >
+      Some military-history readings that emphasize
+      operational art over moral assessment.
   - position: >
-      The invasion was a doomed gamble whose temporary successes were
-      owed to Carthaginian unpreparedness rather than Greek planning.
+      The invasion was a doomed gamble whose temporary
+      successes were owed to Carthaginian unpreparedness
+      rather than to Greek planning.
     why_rejected: >
-      Underweights both the strategic logic (which the Sicilian recall
-      validated) and the operational achievement (which has no obvious
-      peer in the period). The "lucky in initial success" reading
-      depends on dismissing too much of what Agathocles actually
-      accomplished in 310-308 BCE.
-    held_by: Older condemnatory readings drawing more directly on
+      Under-weights both the strategic logic (which the
+      Sicilian recall validated) and the operational
+      achievement (which has no obvious peer in the period).
+      The "lucky early success" reading depends on dismissing
+      too much of what Agathocles actually accomplished in
+      310–308 BCE.
+    held_by: >
+      Older condemnatory readings drawing more directly on
       the Diodoran-Timaean moral framing.
 last_reviewed: "2026-05-09"
 open_to_revision: true

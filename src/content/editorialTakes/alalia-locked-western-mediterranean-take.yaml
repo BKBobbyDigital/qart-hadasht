@@ -1,108 +1,109 @@
 slug: alalia-locked-western-mediterranean-take
 subject_question: >
-  Did the Battle of Alalia (~535 BCE) actually "lock in" Carthaginian-
-  Etruscan western Mediterranean dominance for two and a half
-  centuries, or is the long-term consequence reading a modern
-  retrospective imposition?
+  Did the Battle of Alalia (c. 535 BCE) actually "lock in"
+  Carthaginian-Etruscan dominance of the western Mediterranean
+  for two and a half centuries, or is the long-consequence
+  reading a modern retrospective imposition?
 subject_entity:
   type: event
   slug: battle-of-alalia
   role: subject
 position: >
-  The Battle of Alalia is best read as the structural pivot that
-  produced western Mediterranean Carthaginian-Etruscan dominance
-  through approximately the early 3rd century BCE — a 250-year
-  consequence reading that the surviving evidence supports despite
-  Herodotus not himself articulating it. The engagement's tactical
-  outcome (a Phocaean "Cadmean victory" at strategic-loss cost) is
-  firmly attested; the Phocaean withdrawal from Alalia is firmly
-  attested; the long-term absence of Greek western-Mediterranean
-  expansion north of Massalia is firmly attested. Whether the
-  Carthaginian-Etruscan response was the cause of the long-term
-  configuration, or merely correlated with broader factors that
-  would have produced similar outcomes in any case, is the
-  contested interpretive question. The site takes the
-  causation-by-Alalia reading as the better-supported synthesis,
-  while acknowledging the alternative attribution to broader
-  structural factors as a respectable competing position.
+  Alalia is best read as the pivot that produced western
+  Mediterranean Carthaginian-Etruscan dominance through
+  roughly the early third century BCE — a 250-year
+  consequence reading that the surviving evidence supports
+  even though Herodotus himself does not articulate it. The
+  tactical outcome (a Phocaean "Cadmean victory" at the cost
+  of strategic loss) is firmly attested. The Phocaean
+  withdrawal from Alalia is firmly attested. The long absence
+  of Greek western expansion north of Massalia after the
+  battle is firmly attested. The contested question is
+  whether the Carthaginian-Etruscan response actually caused
+  the long configuration, or whether it merely correlated
+  with broader factors that would have produced similar
+  outcomes anyway. The site takes the causation-by-Alalia
+  reading as the better synthesis, while acknowledging the
+  alternative attribution to broader factors as a respectable
+  competing position.
 reasoning: |
-  Three observations support the causation reading:
+  Three observations support the causation reading.
 
-  1. The pre-Alalia and post-Alalia Greek western-Mediterranean
-     records are visibly different. Phocaean colonial expansion
-     was substantial across the late 7th and early 6th centuries
-     (Massalia, Emporion, the broader Phocaean network); after
-     Alalia, no significant new Greek colonial foundations occur
-     in the western Mediterranean north of the existing
-     Massiliote zone. The structural change is visible in the
-     archaeological record and in the absence of new foundations
-     in the surviving sources.
+  The pre-Alalia and post-Alalia Greek records in the western
+  Mediterranean look visibly different. Phocaean colonial
+  expansion was substantial across the late seventh and
+  early sixth centuries (Massalia, Emporion, the broader
+  Phocaean network). After Alalia, no significant new Greek
+  colonial foundations occur in the western Mediterranean
+  north of the existing Massiliote zone. The change is
+  visible in the archaeological record and in the absence
+  of new foundations in the surviving sources.
 
-  2. The Carthaginian-Etruscan combined naval capacity Alalia
-     demonstrated was structurally novel. No prior naval
-     engagement in the surviving record showed two non-Greek
-     powers operating combined fleets at the 60+60 ship scale;
-     the demonstration that such coordination was possible and
-     effective changed the strategic configuration in a way that
-     subsequent Greek powers had to take seriously.
+  The Carthaginian-Etruscan combined naval capacity Alalia
+  demonstrated was new. No prior naval engagement in the
+  surviving record shows two non-Greek powers operating
+  combined fleets at the 60-plus-60-ship scale. The
+  demonstration that such coordination was possible and
+  effective changed the strategic picture in a way that
+  later Greek powers had to take seriously.
 
-  3. The diplomatic configuration that emerged after Alalia is
-     consistent with the engagement's strategic implications.
-     The 509 BCE first Roman-Carthaginian treaty presupposes a
-     Carthaginian western-Mediterranean sphere that the Phocaean
-     withdrawal had created; the treaty's terms (Roman commercial
-     exclusion from Carthaginian-controlled zones) reflect a
-     configuration the Alalia engagement had locked in.
+  The diplomatic configuration that emerged after Alalia
+  fits what the engagement's strategic implications suggest.
+  The 509 BCE first Roman-Carthaginian treaty presupposes a
+  Carthaginian western Mediterranean sphere that the
+  Phocaean withdrawal had created; the treaty's terms
+  (Roman commercial exclusion from Carthaginian-controlled
+  zones) reflect a configuration Alalia had locked in.
 
-  The position is "moderate" rather than "strong" because the
+  Confidence is moderate rather than strong because the
   causal mechanism is inferential. Herodotus reports the
-  engagement and the Phocaean withdrawal but does not theorize
-  the long-term consequence. The 250-year reading is modern
-  synthesis; the underlying evidence supports it but does not
-  establish it definitively. The alternative reading — that
-  broader Mediterranean structural factors (including the
-  Persian conquest of Phocaea, broader Phocaean maritime
-  decline, and the Carthaginian metropolitan emergence) would
-  have produced similar western-Mediterranean configurations
-  even without Alalia — is consistent with the same evidence.
+  engagement and the Phocaean withdrawal but does not
+  theorize the long-term consequence. The 250-year reading
+  is modern synthesis; the underlying evidence supports it
+  but does not establish it conclusively. The alternative
+  reading — that broader Mediterranean factors (the Persian
+  conquest of Phocaea, broader Phocaean maritime decline,
+  the rise of Carthage as a metropolitan center) would have
+  produced similar configurations even without Alalia — is
+  consistent with the same evidence.
 confidence: moderate
 weighed_claims:
   - alalia-cadmean-victory
   - alalia-locked-western-mediterranean
 competing_positions:
   - position: >
-      Alalia was a significant engagement but the long-term
+      Alalia was a significant engagement but the long
       configuration would have emerged anyway from broader
-      Mediterranean structural factors (Phocaean maritime
-      decline, Persian conquest of Phocaea in 545, Carthaginian
-      metropolitan emergence). The post-Alalia configuration is
-      correlated with rather than caused by the engagement.
+      Mediterranean factors (Phocaean maritime decline, the
+      Persian conquest of Phocaea in 545, Carthaginian
+      ascent). The post-Alalia configuration is correlated
+      with the engagement rather than caused by it.
     why_rejected: >
       The "would have happened anyway" reading depends on
       counterfactual claims about Mediterranean configurations
-      under different naval-engagement outcomes. The
-      counterfactuals are speculative; the actual evidence is
-      that Alalia produced specific Phocaean withdrawal and a
-      specific Carthaginian-Etruscan demonstration of coordinated
+      under different naval outcomes. The counterfactuals
+      are speculative; the actual evidence is that Alalia
+      produced specific Phocaean withdrawal and a specific
+      Carthaginian-Etruscan demonstration of coordinated
       capacity. We treat the actual evidence as more
-      methodologically secure than the counterfactual reading.
-    held_by: Some readings emphasizing structural-historical
-      causation over specific-event causation in Mediterranean
-      political-historical analysis.
+      secure than the counterfactual.
+    held_by: >
+      Some readings that emphasize structural causation over
+      specific-event causation in Mediterranean political
+      history.
   - position: >
-      Alalia's significance is overstated and its long-term
-      consequences are minor compared to the post-509 treaty
-      framework that established Roman-Carthaginian relations
-      formally.
+      Alalia is overstated and its long consequences are
+      minor compared to the post-509 treaty framework that
+      formally established Roman-Carthaginian relations.
     why_rejected: >
-      The 509 treaty presupposes the post-Alalia configuration
-      rather than independently producing it. The two events are
-      complementary causes of the long-term western Mediterranean
-      structure; treating either as primary depends on what
-      analytical lens is being applied. Both are
-      structurally consequential.
-    held_by: Some treatments emphasizing the Roman-Carthaginian
+      The 509 treaty presupposes the post-Alalia
+      configuration rather than producing it
+      independently. The two are complementary causes of
+      the long western Mediterranean structure; treating
+      either as primary depends on the lens. Both matter.
+    held_by: >
+      Some treatments that emphasize the Roman-Carthaginian
       diplomatic relationship as the principal western
-      Mediterranean structural fact.
+      Mediterranean fact.
 last_reviewed: "2026-05-10"
 open_to_revision: true

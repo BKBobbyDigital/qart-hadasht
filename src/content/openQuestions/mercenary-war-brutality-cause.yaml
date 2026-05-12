@@ -1,73 +1,83 @@
 slug: mercenary-war-brutality-cause
 question: >
-  Was the Mercenary War's exceptional brutality the product of its
-  particular leaders (Spendius's escaped-slave status, Mathos's
-  Libyan cause), or did the brutality emerge structurally from the
-  conflict between Carthage and its African subjects?
+  Was the Mercenary War's exceptional brutality the product
+  of its particular leaders (Spendius's escaped-slave
+  status, Mathos's Libyan cause), or did the brutality
+  emerge from the conditions of conflict between Carthage
+  and its African subjects?
 why_unknown: >
-  Polybius's account is the principal source and is morally framed:
-  he attributes the war's character partly to the leaders' personal
-  qualities (Spendius's fear of recapture by Rome, Mathos's
-  particular hatred of Carthaginian rule) and partly to the
-  unparalleled multi-ethnic mercenary composition. Modern scholarship
-  is divided between readings that follow Polybius's
-  individual-character framing and readings that treat the
-  brutality as structurally produced by the long-running
-  Carthage-Libyan colonial relationship that the war made visible.
+  Polybius's account is the principal source and is morally
+  framed: he attributes the war's character partly to the
+  leaders' personal qualities (Spendius's fear of recapture
+  by Rome, Mathos's particular hatred of Carthaginian rule)
+  and partly to the unprecedented multi-ethnic mercenary
+  composition. Modern scholarship is divided between
+  readings that follow Polybius's individual-character
+  framing and readings that treat the brutality as produced
+  by the long-running Carthage-Libyan colonial relationship
+  that the war made visible.
 evidence_summary: >
-  Polybius 1.65-88 is by far the fullest source. The Diodoran and
-  later traditions add some detail but largely follow Polybius's
-  framing. Modern accounts (Hoyos 2007 the most extended) draw on
-  comparative evidence from other ancient civil wars and from the
-  longer history of Carthaginian-Libyan relations to evaluate the
-  structural reading.
+  Polybius 1.65–88 is by far the fullest source. The
+  Diodoran and later traditions add some detail but largely
+  follow Polybius's framing. Modern accounts (Hoyos 2007 is
+  the most extended) draw on comparative evidence from
+  other ancient civil wars and from the longer history of
+  Carthaginian-Libyan relations to evaluate the
+  conditions-driven reading.
 candidate_answers:
-  - answer: The brutality was structurally produced
+  - answer: The brutality came from the conditions.
     arguments_for: >
-      The long Carthaginian exploitation of Libyan tribute, the
-      memory of earlier Libyan revolts, and the expansion of the war
-      from a pay dispute into a broad anti-Carthaginian uprising
-      indicate that the conflict tapped into structural grievances
-      that no individual leadership could have produced or restrained.
-      The atrocities reported on the Libyan side specifically resemble
-      those of other anti-colonial revolts in their pattern.
+      The long Carthaginian extraction of Libyan tribute,
+      the memory of earlier Libyan revolts, and the
+      expansion of the war from a pay dispute into a broad
+      anti-Carthaginian uprising indicate that the conflict
+      tapped into grievances no individual leadership could
+      have produced or restrained. The atrocities reported
+      on the Libyan side resemble those of other
+      anti-colonial revolts in their pattern.
     arguments_against: >
-      The structural reading underweights the specific role of
-      Spendius and the mercenary contingents, whose stake in
-      preventing settlement was distinctive: Spendius could not
-      safely accept any peace that returned him to Roman jurisdiction
-      as an escaped slave.
-    held_by: Approximately Hoyos's reading, with the structural
+      The conditions reading under-weights the specific role
+      of Spendius and the mercenary contingents, whose
+      stake in preventing settlement was distinctive:
+      Spendius could not safely accept any peace that
+      returned him to Roman jurisdiction as an escaped
+      slave.
+    held_by: >
+      Approximately Hoyos's reading, with the conditions
       framing as primary.
-  - answer: The brutality was leadership-driven
+  - answer: The brutality came from the leadership.
     arguments_for: >
-      Polybius's account explicitly assigns escalating-atrocity
+      Polybius's account explicitly assigns escalating
       decisions to specific moments where Spendius and his
-      colleagues encouraged or required them as means of
-      preventing the rebel coalition's defection. The leadership
-      maintained the war's character through specific choices that
-      could have been made differently.
+      colleagues encouraged or required them as ways of
+      preventing the rebel coalition's defection. The
+      leadership maintained the war's character through
+      specific choices that could have been made
+      differently.
     arguments_against: >
-      Treats Polybius's framing as more reliable than it may be.
-      The "wicked leadership" reading is the kind of moral
-      explanation ancient historiography prefers, and modern
-      scholarship is generally cautious about taking it at face
-      value.
-    held_by: A reading consistent with Polybius's text;
-      defended by some traditional military historians.
-  - answer: Both, in interaction
+      Treats Polybius's framing as more reliable than it
+      may be. The wicked-leadership explanation is the kind
+      of moral framing ancient historiography prefers, and
+      modern scholarship is generally cautious about taking
+      it at face value.
+    held_by: >
+      A reading consistent with Polybius's text; defended
+      by some traditional military historians.
+  - answer: Both, in interaction.
     arguments_for: >
-      The structural conditions made an extreme conflict possible;
-      the leadership's choices made it inevitable. This reading
-      preserves the structural account's strengths without
-      dismissing the role of individual decisions in the war's
-      specific character.
+      The conditions made an extreme conflict possible; the
+      leadership's choices made it inevitable. The reading
+      preserves the conditions account's strengths without
+      dismissing the role of individual decisions in the
+      war's specific character.
     arguments_against: >
-      Splits the difference. Defensible but not particularly
-      illuminating without more granular argument about which
-      specific atrocities were structurally produced and which
-      were leadership choices.
-    held_by: A common cautious modern position; not strongly
+      Splits the difference. Defensible but not
+      particularly illuminating without a more granular
+      argument about which atrocities were
+      conditions-produced and which were leadership
+      choices.
+    held_by: >
+      A common cautious modern position; not strongly
       defended as a primary view.
 relevant_entities:
   - type: event
@@ -80,8 +90,9 @@ relevant_entities:
     slug: mathos
     role: subject
 what_would_resolve_this: >
-  Difficult. The question requires comparative evidence about
-  ancient civil wars and indigenous revolts that the surviving
-  sources do not always preserve. Modern comparative work on
-  ancient asymmetric warfare and on the Carthaginian-Libyan
-  relationship is relevant but rarely conclusive.
+  Difficult. The question requires comparative evidence
+  about ancient civil wars and indigenous revolts that the
+  surviving sources do not always preserve. Modern
+  comparative work on ancient asymmetric warfare and on
+  the Carthaginian-Libyan relationship is relevant but
+  rarely conclusive.

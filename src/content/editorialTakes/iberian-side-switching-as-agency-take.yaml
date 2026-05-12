@@ -1,97 +1,101 @@
 slug: iberian-side-switching-as-agency-take
 subject_question: >
-  Should the repeated side-switching of Iberian tribes during the
-  Second Punic War be read as fidelity-failure or as political
-  agency?
+  Should the repeated side-switching of Iberian tribes during
+  the Second Punic War be read as a fidelity failure or as
+  political agency?
 subject_entity:
   type: event
   slug: ilergetes-revolt-205
   role: subject
 position: >
-  The Iberian side-switching pattern across the Second Punic War (most fully documented in the Indibilis-Mandonius career, but
-  paralleled across multiple tribal confederations) should be read
-  as evidence of political agency rather than as the
-  fidelity-and-betrayal pattern the surviving Greco-Latin sources
-  impose. Iberian polities had their own political interests, their
-  own internal rivalries, and their own capacity for collective
-  action; their alignments with Carthage and Rome were tactical and
-  revisable in light of how those metropolitan powers actually
-  treated tribal interests on the ground. The
-  fidelity-betrayal framing is a metropolitan-bias artifact that
-  the modern reading should consciously displace.
+  The Iberian side-switching pattern across the Second Punic
+  War (best documented in the Indibilis-Mandonius career, but
+  paralleled across multiple tribal confederations) should be
+  read as political agency rather than as the fidelity-and-
+  betrayal pattern the surviving Greco-Latin sources impose.
+  Iberian polities had their own political interests, their
+  own internal rivalries, and their own capacity for
+  collective action. Their alignments with Carthage and Rome
+  were tactical and revisable in light of how those powers
+  actually treated tribal interests on the ground. The
+  fidelity-betrayal framing is a metropolitan-bias artifact
+  that the modern reading should consciously displace.
 reasoning: |
-  Three observations support the agency reading:
+  Three observations support the agency reading.
 
-  1. The pattern is consistent across confederations. The
-     Ilergetes under Indibilis and Mandonius are the best-documented
-     case, but the pattern of tactical alignment-and-realignment in
-     response to specific metropolitan-power conduct appears across
-     the Iberian record. The Massylian Numidians under Naravas
-     defected from Carthage to Carthage to Rome across the same
-     period; the Vaccaei and Carpetani realigned at the Tagus; even
-     individual figures like Mottones at Akragas show the same
-     pattern. If the pattern is general, the explanation should also
-     be general — and "structural fidelity-failure across all
-     Iberian peoples" is an implausible explanation that the
-     metropolitan-bias hypothesis better accounts for.
+  The pattern is consistent across confederations. The
+  Ilergetes under Indibilis and Mandonius are the
+  best-documented case, but tactical realignment in
+  response to specific metropolitan-power conduct appears
+  across the Iberian record. The Massylian Numidians under
+  Naravas moved from Carthage to Rome across the same
+  period. The Vaccaei and Carpetani realigned at the Tagus.
+  Even individual figures like Mottones at Akragas show the
+  same pattern. If the pattern is general, the explanation
+  should also be general, and "structural fidelity failure
+  across all Iberian peoples" is implausible in a way the
+  metropolitan-bias hypothesis is not.
 
-  2. The realignments correlate with specific metropolitan-power
-     conduct. Hasdrubal Barca's hostage-taking in 211 BCE
-     produced Iberian disaffection; Scipio's contrasting treatment
-     at New Carthage produced realignment in the opposite
-     direction; Roman post-Scipio mistreatment in 206 BCE produced
-     the Ilergetes revolt. The realignments are not random; they
-     follow specific patron-client conduct.
+  The realignments correlate with specific Carthaginian and
+  Roman conduct. Hasdrubal Barca's hostage-taking in 211 BCE
+  produced Iberian disaffection. Scipio's contrasting
+  treatment at New Carthage produced realignment in the
+  opposite direction. Roman mistreatment after Scipio left
+  in 206 BCE produced the Ilergetes revolt. The realignments
+  are not random; they track patron conduct.
 
-  3. The surviving sources' framing is itself partial. Polybius
-     and Livy frame side-switching through the fidelity-betrayal
-     lens; this is the framing of metropolitan-power historians
-     describing client behavior. The Iberian-perspective reading
-     reads the same evidence differently and is the more economical
-     explanation of the documented behavior.
+  The surviving sources' framing is itself partial.
+  Polybius and Livy frame side-switching through the
+  fidelity-betrayal lens. That is the framing of
+  metropolitan-power historians describing client behavior.
+  The Iberian-perspective reading reads the same evidence
+  differently and is the more economical explanation of the
+  documented behavior.
 
-  The position is not that fidelity considerations were absent or
-  that personal loyalty did not matter — both clearly did, and the
-  surviving sources preserve specific instances. The position is
-  that the dominant explanatory framework for understanding
-  Iberian political behavior in the war should be agency-and-
-  interests rather than fidelity-and-betrayal. The reframing
-  changes which questions look interesting and which evidence
-  looks central.
+  The position is not that fidelity considerations were
+  absent or that personal loyalty did not matter — both
+  clearly did, and the surviving sources preserve specific
+  instances. The position is that the dominant lens for
+  understanding Iberian political behavior in the war
+  should be agency and interests rather than fidelity and
+  betrayal. The reframing changes which questions look
+  interesting and which evidence looks central.
 confidence: moderate
 weighed_claims:
   - iberian-side-switching-as-agency
   - scipio-humanitas-as-personal-policy
 competing_positions:
   - position: >
-      The side-switching pattern reflects genuine moral failure or
-      structural unreliability of Iberian tribal-confederation
-      politics, properly framed by the surviving sources as
-      fidelity-and-betrayal.
+      The side-switching pattern reflects genuine moral
+      failure or structural unreliability in Iberian
+      tribal-confederation politics, properly framed by the
+      surviving sources as fidelity and betrayal.
     why_rejected: >
-      Reproduces the metropolitan-bias framing without addressing
-      it. The pattern's correlation with specific Roman and
-      Carthaginian conduct (hostage-taking producing
-      disaffection; humane treatment producing realignment;
-      mistreatment producing revolt) is more parsimoniously
-      explained by Iberian-interest agency than by Iberian
-      moral-political defect.
-    held_by: The surviving Greco-Latin sources (Polybius, Livy,
-      and the broader literary tradition) and some 19th- and
-      early-20th-century scholarship.
+      Reproduces the metropolitan-bias framing without
+      addressing it. The pattern's correlation with specific
+      Roman and Carthaginian conduct (hostage-taking
+      producing disaffection; humane treatment producing
+      realignment; mistreatment producing revolt) is more
+      economically explained by Iberian-interest agency
+      than by an Iberian moral defect.
+    held_by: >
+      The surviving Greco-Latin sources (Polybius, Livy, and
+      the broader literary tradition) and some nineteenth-
+      and early-twentieth-century scholarship.
   - position: >
-      The fidelity-and-agency readings are not actually
-      incompatible; both kinds of consideration were present and
-      the right framework is mixed.
+      The fidelity reading and the agency reading are not
+      actually incompatible; both considerations were
+      present and the right framework is mixed.
     why_rejected: >
-      We would treat this as compatible with the site's position
-      rather than as competing. The site's position is about which
-      framework is the dominant analytical lens, not about
-      excluding fidelity considerations entirely. A "mixed
-      framework" reading that takes agency seriously is consistent
-      with what we are arguing.
-    held_by: Some recent recent scholarship that aims to integrate
-      the metropolitan-source framing with the modern agency
+      We would treat this as compatible with the site's
+      position rather than as competing. The site's
+      position is about which lens is dominant, not about
+      excluding fidelity entirely. A mixed framework that
+      takes agency seriously is consistent with what we are
+      arguing.
+    held_by: >
+      Some recent scholarship that aims to integrate the
+      metropolitan-source framing with the modern agency
       reading.
 last_reviewed: "2026-05-10"
 open_to_revision: true
