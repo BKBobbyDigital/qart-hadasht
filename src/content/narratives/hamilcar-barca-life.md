@@ -173,8 +173,8 @@ to the Italian campaign that began at Saguntum in 219 BCE.
 
 Three observations.
 
-**Hamilcar built the Carthaginian recovery of the
-post-First-Punic-War period.** The Sicilian rear-guard
+Hamilcar built the Carthaginian recovery of the
+post-First-Punic-War period. The Sicilian rear-guard
 preserved the Carthaginian state through the war's worst
 years; the Mercenary War's suppression preserved the state
 itself; the Iberian project rebuilt the resource base that
@@ -184,8 +184,8 @@ preserved Carthage as a major Mediterranean power into the
 220s BCE, when the post-First-Punic-War settlement might
 otherwise have produced a continuing decline.
 
-**The Barcid political authority that produced the Second
-Punic War was Hamilcar's creation.** The political
+The Barcid political authority that produced the Second
+Punic War was Hamilcar's creation. The political
 configuration that authorized Hannibal's command, his Iberian
 project, and the war that followed depended on the
 political-administrative network Hamilcar had built across the
@@ -196,8 +196,8 @@ unable to override the political authority Hamilcar had
 established. The Second Punic War in this sense is
 substantially Hamilcar's war, prosecuted by his son.
 
-**The personal arc was that of an ambitious aristocrat
-working a structurally constrained position.** Hamilcar
+The personal arc was that of an ambitious aristocrat
+working a structurally constrained position. Hamilcar
 inherited a defeated state, an exhausted treasury, and a
 hostile senatorial faction; he died in 228 BCE having
 substantially restored Carthaginian power within the

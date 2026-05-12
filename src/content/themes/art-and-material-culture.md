@@ -32,14 +32,14 @@ purely secular purposes.
 
 The principal categories of preserved material:
 
-**Votive stelae.** The Tophet has produced several thousand
+Votive stelae. The Tophet has produced several thousand
 stone stelae bearing dedicatory inscriptions and iconographic
 imagery. The stelae range from simple inscribed rectangles to
 elaborate carved monuments with figural and symbolic
 decoration. They are the single largest corpus of Punic visual
 material.
 
-**Funerary cippi and sarcophagi.** Stone funerary monuments
+Funerary cippi and sarcophagi. Stone funerary monuments
 from the Carthaginian necropoleis (Douïmès, Junon,
 Sainte-Monique) include both simple grave markers and
 elaborate carved sarcophagi. The most famous are the so-called
@@ -47,20 +47,20 @@ elaborate carved sarcophagi. The most famous are the so-called
 4th-century BCE works showing strong Greek-Hellenistic
 influence in execution but Carthaginian iconography in detail.
 
-**Terracotta figurines.** Mass-produced devotional figurines
+Terracotta figurines. Mass-produced devotional figurines
 in clay, recovered from temple deposits and tombs. The
 figurines include depictions of goddesses (often Tanit),
 animals, and abstract forms, and provide one of the better
 windows onto everyday Carthaginian religious practice.
 
-**Jewelry and personal ornament.** Gold, silver, and bronze
+Jewelry and personal ornament. Gold, silver, and bronze
 jewelry recovered from tombs across the Punic Mediterranean.
 The Punic jewelry tradition shows continuity with Phoenician
 and Egyptian forms, with local developments (the so-called
 "Carthaginian style" of granulated gold work, particularly
 visible in the 6th-4th centuries BCE).
 
-**Coinage.** Carthage struck coinage from the late 5th century
+Coinage. Carthage struck coinage from the late 5th century
 BCE onward, with iconographic vocabulary (the palm tree, the
 horse and palm, the head of Tanit, the lion) that is one of
 the more direct surviving expressions of Carthaginian visual
@@ -68,12 +68,12 @@ identity. Carthaginian coinage from Iberia under the Barcids
 includes some of the most artistically accomplished pre-Roman
 Mediterranean coinage.
 
-**Mosaics.** Less central to Carthaginian visual culture than
+Mosaics. Less central to Carthaginian visual culture than
 to Roman, but Carthaginian mosaics (particularly from later
 Punic-period contexts) show distinctive use of pebble and cut-
 stone techniques.
 
-**Architectural fragments.** Reconstruction of Carthaginian
+Architectural fragments. Reconstruction of Carthaginian
 architecture has to work primarily from foundations and
 fragments, since the city's destruction and Roman rebuilding
 left few standing structures. What survives indicates a
@@ -85,7 +85,7 @@ both Phoenician and Hellenistic Greek elements.
 A small set of recurring symbols defines Carthaginian visual
 identity:
 
-**The sign of Tanit.** A stylized human figure composed of a
+The sign of Tanit. A stylized human figure composed of a
 triangle (or trapezoid) representing the body, a horizontal
 bar representing the arms, and a circle representing the
 head, often with additional decorative elements. The sign
@@ -97,25 +97,25 @@ scholarship has variously connected it to Egyptian ankh-form
 imagery, to abstract female-divinity representation, and to
 purely Punic local development.
 
-**The disc and crescent.** A pairing of a circle and a
+The disc and crescent. A pairing of a circle and a
 crescent moon, often above the sign of Tanit, representing
 the sun and moon as celestial powers and probably the
 god-couple Baal Hammon and Tanit.
 
-**The palm.** Both a religious symbol and the Phoenician
+The palm. Both a religious symbol and the Phoenician
 coastal marker; the palm appears on Carthaginian coinage as
 a self-identification.
 
-**The caduceus.** Inherited from broader Mediterranean
+The caduceus. Inherited from broader Mediterranean
 practice, used in Carthaginian commercial and religious
 iconography.
 
-**The betyl.** An aniconic stone, often conical or
+The betyl. An aniconic stone, often conical or
 rectangular, representing divine presence without depicting
 the deity's form. A direct Phoenician inheritance, recurring
 across Punic religious art.
 
-**Animal symbols.** The horse and palm pair (Carthaginian
+Animal symbols. The horse and palm pair (Carthaginian
 coinage), the lion, the bull, the elephant (less common but
 attested), each with religious and political associations.
 
@@ -125,29 +125,29 @@ Carthaginian art was substantially permeable to outside
 influence and itself permeated outward. The principal
 relationships:
 
-**Phoenician inheritance.** The basic vocabulary is
+Phoenician inheritance. The basic vocabulary is
 Phoenician colonial: continuous with Tyrian and broader
 Levantine practice in stelae forms, jewelry techniques, and
 religious iconography.
 
-**Egyptian influence.** Particularly visible in earlier
+Egyptian influence. Particularly visible in earlier
 Carthaginian periods (8th-6th centuries BCE), with
 Egyptian-style scarabs, faience figurines, and iconographic
 elements (notably the eye of Horus, the ankh-derived sign of
 Tanit) all attested in Carthaginian contexts.
 
-**Greek influence.** Increasingly important from the 5th
+Greek influence. Increasingly important from the 5th
 century BCE onward as Carthage's commercial and military
 contacts with Greek Sicily and the Aegean intensified.
 Greek-style figural sculpture and ceramic decoration appear
 in Carthaginian elite contexts, with substantial local
 adaptation.
 
-**Etruscan and Italian connections.** Less central but
+Etruscan and Italian connections. Less central but
 preserved in some artistic exchanges across the central
 Mediterranean.
 
-**Numidian and Berber influence.** The Carthaginian-Numidian
+Numidian and Berber influence. The Carthaginian-Numidian
 relationship produced reciprocal artistic exchange,
 particularly visible in coinage and in the Numidian funerary
 monuments of the post-Carthaginian period.

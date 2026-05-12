@@ -52,7 +52,7 @@ festival cycle that survives in fragmentary form across the
 inscriptional and literary record. The principal moments that
 can be reconstructed with reasonable confidence:
 
-**The annual Tyre delegation.** Carthage sent a formal embassy
+The annual Tyre delegation. Carthage sent a formal embassy
 to Tyre every year, carrying a tithe of state revenue (the
 *aparche*) as offering at the Melqart sanctuary in the
 Phoenician homeland. The delegation is attested across
@@ -68,7 +68,7 @@ moment in 310 BCE when the Carthaginian delegation arrived at
 Tyre during the Agathocles invasion of Africa and the city was
 unable to fulfill its dedicatory obligations at scale; the
 moment is treated as religiously consequential in the surviving
-account, which substantively confirms how seriously the
+account, which confirms how seriously the
 delegation was taken.
 
 **The Melqart resurrection festival (*egersis*).** The
@@ -82,7 +82,7 @@ equinox) and its structural pattern (death-mourning followed by
 resurrection-celebration) preserve the cyclical-seasonal logic
 of the underlying agricultural religion.
 
-**The spring-fertility cycle associated with Tanit.** The
+The spring-fertility cycle associated with Tanit. The
 ascendancy of Tanit in the Carthaginian pantheon from the 5th
 century BCE forward is associated with a substantial festival
 cycle whose specifics are reconstructible only in outline. The
@@ -92,7 +92,7 @@ suggested by the inscriptional dating evidence where available),
 which implies that vows were fulfilled at festival moments
 rather than continuously through the year.
 
-**The Adonis lamentation cycle.** The metropolitan Phoenician
+The Adonis lamentation cycle. The metropolitan Phoenician
 Adonis cult (annual lamentation for the death of the
 agricultural-fertility consort of Astarte, followed by
 resurrection celebration) is attested at Phoenician colonies
@@ -104,7 +104,7 @@ the few festivals where surviving evidence gives access to the
 participatory experience of the religion rather than only the
 institutional structure.
 
-**Civic-foundation festivals.** Carthage almost certainly
+Civic-foundation festivals. Carthage almost certainly
 celebrated the founding of the city and the principal
 foundational moments of civic identity through annual
 commemorative rituals; the specifics are not directly attested
@@ -136,7 +136,7 @@ sanctuary at Carthage held a position of city-wide religious
 authority is not directly attested but is structurally plausible
 on the comparative Phoenician evidence.
 
-**Subordinate priestly offices.** The Marseille Tariff (an
+Subordinate priestly offices. The Marseille Tariff (an
 inscription regulating cult fees at a Punic sanctuary of Baal
 Saphon, probably 3rd century BCE, recovered from a secondary
 context at Marseille) lists multiple priestly grades with
@@ -148,7 +148,7 @@ priestly grades and standardized administrative practice. The
 [Marseille Tariff artifact page](/artifacts/marseille-tariff)
 treats the inscription in its own right.
 
-**The Carthage Tariff.** A second cult-fee inscription, from
+The Carthage Tariff. A second cult-fee inscription, from
 Carthage itself, parallels the Marseille document with
 substantially similar fee structures and substantially the same
 priestly grades. The two documents together preserve a working
@@ -158,7 +158,7 @@ on a formal basis. The
 [Carthage Tariff artifact page](/artifacts/carthage-tariff)
 covers the document.
 
-**Sacred-college institutions.** The Carthaginian inscriptional
+Sacred-college institutions. The Carthaginian inscriptional
 record preserves references to formal priestly colleges — bodies
 of priests organized by deity, by sanctuary, or by ritual
 specialization. The specifics are not fully recoverable but the
@@ -217,17 +217,17 @@ The major Carthaginian sanctuaries operated as functioning
 institutional spaces with substantial physical infrastructure,
 priestly administration, and regular ritual activity.
 
-**The Tophet precinct.** The principal religious space for
+The Tophet precinct. The principal religious space for
 *molk*-formula dedications, operating continuously from the
 late 8th century BCE through 146 BCE. The precinct's
 stratigraphy preserves layers of urns, stelae, and offering
 deposits accumulated across centuries. Whatever the
-*molk*-formula offerings substantively were (the question
+*molk*-formula offerings were (the question
 treated under the [tophet-happened editorial take](/editorialTakes/tophet-happened-scale-unrecoverable)),
 the precinct operated as a functioning sacred space at scale
 over six centuries.
 
-**The Eshmun sanctuary on the Byrsa hill.** Eshmun's healing-deity
+The Eshmun sanctuary on the Byrsa hill. Eshmun's healing-deity
 function made his sanctuary a destination for pilgrimage and
 votive dedication associated with health and recovery. The
 sanctuary's location on the Byrsa, the high point of the city,
@@ -236,7 +236,7 @@ evidence (Strabo 17.3) identifies the Eshmun sanctuary as one
 of the religious destinations a visitor to Carthage would
 encounter.
 
-**The Tanit sanctuary.** The principal sanctuary of Tanit at
+The Tanit sanctuary. The principal sanctuary of Tanit at
 Carthage is less archaeologically secure than the Tophet (with
 which it was institutionally connected) and the Eshmun
 sanctuary; the topographic identification is contested. The
@@ -244,7 +244,7 @@ inscriptional evidence is clear that a major Tanit sanctuary
 operated at Carthage and was a principal locus of civic
 religious activity.
 
-**Diasporic Punic sanctuaries.** Beyond Carthage proper, Punic
+Diasporic Punic sanctuaries. Beyond Carthage proper, Punic
 sanctuaries operated across the western Mediterranean network (at Motya, Tharros, Sulci, Caralis, Lixus, Gades) each with
 its own physical installation, priestly administration, and
 ritual practice. The continuity of the Punic sanctuary
@@ -257,14 +257,14 @@ dimension.
 ## Household religion
 
 The Carthaginian religious record beyond the state-civic and
-sanctuary contexts is substantively recoverable from the
+sanctuary contexts is recoverable from the
 domestic archaeological record. The Kerkouane domestic
 excavations preserve household religious installations with
 notable consistency: small altars or niches at the household
 entrance, betyls (sacred stones) deposited in domestic
 contexts, votive figurines in domestic shrines.
 
-**The Phoenician/Punic grinning mask tradition.** The
+The Phoenician/Punic grinning mask tradition. The
 distinctive apotropaic masks, small terracotta faces with
 exaggerated grinning expressions, are attested in tombs and
 in domestic contexts across the Phoenician-Punic world. The
@@ -273,13 +273,13 @@ domestic spaces and graves were intended to ward off harm. The
 [grinning mask artifact page](/artifacts/phoenician-grinning-mask)
 treats the corpus.
 
-**Glass face beads.** Small carved or molded glass faces, often
+Glass face beads. Small carved or molded glass faces, often
 brightly colored, were produced at Punic glassworking centers
 and circulated widely as personal ornaments. The beads served
 apotropaic functions, protection against the evil eye, and
 appear in domestic, mortuary, and personal-ornament contexts.
 
-**Domestic shrines and niches.** Kerkouane preserves the
+Domestic shrines and niches. Kerkouane preserves the
 clearest evidence: small wall niches in house entry vestibules
 and courtyards that almost certainly held domestic religious
 objects (figurines, betyls, offerings). The pattern across
@@ -287,7 +287,7 @@ multiple Kerkouane houses indicates a standardized household
 religious infrastructure that operated independently of the
 civic sanctuaries.
 
-**Mortuary religion.** The Carthaginian mortuary record is
+Mortuary religion. The Carthaginian mortuary record is
 substantial: rock-cut chamber tombs with characteristic Punic
 architectural features (niche burials, stelae markers, grave
 goods including jewelry, ceramics, and ritual objects). The

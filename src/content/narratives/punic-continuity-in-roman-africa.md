@@ -114,7 +114,7 @@ documenting traditional Punic civic forms, across at least four
 centuries after the 146 BCE destruction. The
 [Punic inscriptional record theme](/themes/punic-inscriptional-record)
 treats the corpus as a category of evidence in its own right;
-the neo-Punic late material is the load-bearing piece for the
+the neo-Punic late material is the central piece for the
 post-146 continuation question specifically.
 
 The substantive neo-Punic inscriptional record extends at least
@@ -144,7 +144,7 @@ The [Tanit page](/deities/tanit) treats the continuation in
 detail; the site reads "Iuno Caelestis" as the Latin name for
 the Punic Tanit rather than as a separate Roman cult.
 
-**Baal Hammon became Saturnus Africanus.** The Roman-period
+Baal Hammon became Saturnus Africanus. The Roman-period
 North African Saturn cult is the most-attested non-imperial
 cult in the surviving epigraphic record of Roman Africa,
 attested across the former Carthaginian heartland and into

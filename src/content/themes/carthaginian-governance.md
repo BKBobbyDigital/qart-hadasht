@@ -59,11 +59,11 @@ one another, with safeguards against any single element dominating.
 
 Two specific features Aristotle singled out:
 
-- **Merit-based selection.** Public offices, in his account, were
+- Merit-based selection. Public offices, in his account, were
   "filled on the ground of merit" rather than by lot. The Council of
   104 specifically was selected by self-perpetuating five-man
   committees (the **pentarchies**) on merit grounds.
-- **Substantive popular role.** When the suffetes and the senate
+- Substantive popular role. When the suffetes and the senate
   agreed, a matter was settled. When they disagreed (or when one or
   both referred to the people), the popular assembly's vote was
   authoritative — and the assembly could discuss the matter freely,
@@ -106,7 +106,7 @@ fiscal-political reform rather than military command. The site's
 substantive institutional-arc treatment of the office is the
 narrative
 [The suffeteship — an institutional arc](/narratives/the-suffeteship-arc);
-the civil-military separation is developed as a load-bearing
+the civil-military separation is developed as a central
 distinctive feature under
 [its own claim](/claims/suffeteship-military-command-separation).
 Both treat the office Phoenician-first rather than as proto-Roman
@@ -132,12 +132,12 @@ disagreed. Per Polybius, became increasingly dominant by the late
 3rd century. The franchise, voting procedures, and tribal
 subdivisions are imperfectly preserved.
 
-**Pentarchies.** Five-member self-perpetuating committees that
+Pentarchies. Five-member self-perpetuating committees that
 selected the Council of 104 and held other offices. Aristotle
 mentions them as a distinctive Carthaginian institution; details
 beyond his account are thin.
 
-**The great families.** Outside the formal structure but operating
+The great families. Outside the formal structure but operating
 through it: the Magonid dynasty (~550–~396 BCE), then the Barcid
 faction (~237–~195 BCE), then the late-Republican families that
 opposed and succeeded the Barcids. These dynastic networks were
@@ -170,19 +170,19 @@ century BCE.
 
 Substantial gaps in the surviving record:
 
-- **No native-tradition political treatise survives.** What we have
+- No native-tradition political treatise survives. What we have
   is Greek and Roman external analysis, reconstructed and corrected
   against scattered Punic epigraphy. The Carthaginian self-
   understanding of their own *politeia* is largely lost.
 - **Voting procedures** in the popular assembly. The Roman comitia
   are extensively documented; the Carthaginian assembly's procedural
   practice is reconstructed from fragments.
-- **The relationship between formal institutions and dynastic
-  power.** How did the Magonid pentarchies (or whatever the
+- The relationship between formal institutions and dynastic
+  power. How did the Magonid pentarchies (or whatever the
   Magonid faction's organizational expression was) operate within
   the suffete-Adirim-assembly framework? How did the Barcids?
   Glimpses, but no systematic treatment in the surviving sources.
-- **Punic-language official terminology.** We have *šptm* (suffetes),
+- Punic-language official terminology. We have *šptm* (suffetes),
   *ʿdrm* (Adirim/elders), *ʿm* (people), and a few others, but
   nothing like the dense Latin-Roman political vocabulary that
   preserves Roman institutional thought.

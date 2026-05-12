@@ -129,7 +129,7 @@ The simpler reading of the *delenda est* tradition makes
 Cato the singular cause of Carthage's destruction. Modern
 scholarship is generally cautious. Three observations.
 
-**The structural conditions were independent of Cato.** The
+The structural conditions were independent of Cato. The
 Treaty of 201 BCE's allied-protection clause and Masinissa's
 enabled encroachments had been preparing the legal-
 strategic framework for war for fifty years. The specific
@@ -137,14 +137,14 @@ trigger (Carthage's military operation against Masinissa in
 150 BCE in violation of the treaty) would have produced
 Roman response with or without Cato's advocacy.
 
-**The senatorial decision was not Cato alone.** The senate's
+The senatorial decision was not Cato alone. The senate's
 decision to pursue destruction in 149 BCE was reached after
 extensive deliberation involving the broader senatorial
 faction. Cato's *delenda est* campaign articulated a position
 the senate was independently reaching; it did not produce that
 position.
 
-**Cato's death (149 BCE) preceded the war's outbreak.** The
+Cato's death (149 BCE) preceded the war's outbreak. The
 formal Roman declaration came shortly after Cato's death.
 The decision was Cato-aligned; the execution was not Cato's.
 The destruction of Carthage in 146 BCE was carried out by
@@ -204,7 +204,7 @@ under his persona as exemplary Roman moralist. The
 encountered in modern political rhetoric where the original
 context is largely lost.
 
-**The Carthage advocacy itself has been read variously.**
+The Carthage advocacy itself has been read variously.
 Modern scholarship has been divided between treating Cato's
 position as defensible strategic analysis (Carthaginian
 recovery did represent a long-term strategic question for
@@ -213,7 +213,7 @@ sustained advocacy of destroying a city Rome had defeated
 half a century earlier suggests a pathological feature of
 the late Republican Roman political culture).
 
-**The Cato-Africanus opposition is structurally important.**
+The Cato-Africanus opposition is structurally important.
 Cato's lifelong opposition to the Scipionic faction is one
 of the principal political contests of the Roman second
 century BCE. The opposition produced the Trials of the

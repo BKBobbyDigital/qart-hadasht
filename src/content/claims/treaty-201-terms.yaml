@@ -9,7 +9,7 @@ statement: >
 confidence: attested
 scholarly_consensus: >
   The terms are well-attested; Polybius preserves them in detail and Livy
-  substantively confirms. Modern scholarship is unanimous on the substance.
+  confirms. Modern scholarship is unanimous on the substance.
 sources:
   - source: polybius-histories
     stance: supports
@@ -24,7 +24,7 @@ sources:
     stance: supports
     passage_ref: "30.37"
     passage_summary: >
-      Livy gives substantively the same terms with minor procedural
+      Livy gives the same terms with minor procedural
       additions on the ratification process at Rome.
   - source: appian-punica
     stance: supports

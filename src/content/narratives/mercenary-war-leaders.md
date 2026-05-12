@@ -132,7 +132,7 @@ is what Spendius's leadership most fully embodied.
 rested on a different structural feature: the Libyan-African
 adherence that joined the mercenary mutiny in its early phase
 and substantially expanded the rebellion's scale. The Libyan
-constituency was the load-bearing manpower component of the
+constituency was the central manpower component of the
 rebel coalition; without it, the war would have been a
 mercenary mutiny that Carthaginian forces could have contained
 locally. With it, the war was a substantial existential threat
@@ -190,7 +190,7 @@ pool. The ability to address the whole coalition in Punic,
 the language of Carthaginian military command that all of the
 veterans had operational familiarity with, was a substantive
 political-military asset that the Polybian record treats as
-load-bearing for the coalition's cohesion.
+central for the coalition's cohesion.
 
 Autaritus's role in the war's escalation to "truceless"
 character is preserved at Polybius 1.80. After the killing of
@@ -219,7 +219,7 @@ structurally chaotic mass of marginal populations united only
 by opposition to civilized order. The structural reality the
 three-leader configuration preserves is different: a
 coordinated multi-ethnic coalition whose internal political
-organization was substantively developed, whose leadership
+organization was developed, whose leadership
 mapped onto distinct constituencies with distinct grievances,
 and whose integration across three command languages enabled
 operational coordination across a multi-year campaign against
@@ -238,7 +238,7 @@ of individual-leadership pathology. But the framing of the
 rebel side as politically incoherent is not supported by what
 the three-leader configuration preserves. The three commanders
 operated as a deliberate political-military unit whose
-coordination across the war's length was the load-bearing
+coordination across the war's length was the central
 condition of the rebellion's survival into 238.
 
 ## The end of the configuration

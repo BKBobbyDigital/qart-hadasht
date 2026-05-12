@@ -56,7 +56,7 @@ with his father's deliberate provision of Greek-trained
 tutors. The household's Hellenizing orientation was
 substantial — substantial enough that Scipio Aemilianus was
 fluent in Greek, well-read in Greek historiography and
-philosophy, and substantively engaged with Greek intellectual
+philosophy, and engaged with Greek intellectual
 culture by his early twenties. The pattern was distinctive
 within the broader Roman aristocratic culture, which had
 substantial conservative resistance to Hellenizing
@@ -91,7 +91,7 @@ companion, tutor in Greek historical and political thought,
 and traveling adviser. The two campaigned together (Polybius
 accompanying Scipio on military operations from at least the
 late 150s BCE), spent extended time together at Rome, and
-discussed substantively the questions about Rome's rise to
+discussed the questions about Rome's rise to
 Mediterranean dominance that the *Histories* would
 eventually address. The Polybian framework for understanding
 Rome was developed substantially through these conversations;
@@ -265,9 +265,9 @@ Scipio's death helped create.
 
 Three observations.
 
-**Scipio Aemilianus completed the family arc that ran from
+Scipio Aemilianus completed the family arc that ran from
 his adoptive grandfather Scipio Africanus through the
-destruction at Carthage.** Africanus had defeated Hannibal
+destruction at Carthage. Africanus had defeated Hannibal
 at Zama in 202 BCE on terms that preserved Carthage as a
 state; Aemilianus destroyed Carthage in 146 BCE to terms that
 ended its existence. The two acts cannot be entirely
@@ -278,8 +278,8 @@ produced the war Aemilianus would prosecute. The family arc
 across two generations is one of the substantive structures
 of the Roman second century BCE.
 
-**The Polybius connection is the single most important
-intellectual relationship in the surviving Roman record.**
+The Polybius connection is the single most important
+intellectual relationship in the surviving Roman record.
 The thirty-year friendship produced not only the *Histories*
 in their preserved form but a substantial element of the
 Roman political-cultural development of the period. Modern
@@ -289,9 +289,9 @@ Roman intellectual transition into the late-Republican
 period; the encyclopedia treats it as one of the principal
 phenomena of the surviving record.
 
-**The destructions of Carthage and Numantia produced one of
+The destructions of Carthage and Numantia produced one of
 the substantive moral-political questions of the Roman
-literary tradition.** The Polybian-Aemilianus framing of the
+literary tradition. The Polybian-Aemilianus framing of the
 destructions as historically necessary acts of state-violence,
 performed with intellectual reflection rather than barbaric
 cruelty, became one of the principal Roman literary traditions

@@ -123,13 +123,13 @@ Where Hamilcar had favored military conquest, Hasdrubal
 favored political integration through dynastic marriage.
 The strategy had three principal elements.
 
-**Personal example.** Hasdrubal himself married an Iberian
+Personal example. Hasdrubal himself married an Iberian
 princess (preserved imperfectly in the sources; some
 versions name her, others give general details). The
 marriage to an Iberian aristocrat publicly modeled the
 political integration the strategy advocated.
 
-**Marriage network.** Hasdrubal arranged marriages between
+Marriage network. Hasdrubal arranged marriages between
 members of the Carthaginian elite (including his
 subordinates and the Carthaginian-aligned Iberian
 aristocracy itself) and Iberian royal families across the
@@ -139,7 +139,7 @@ marriage produced a personal-political relationship that
 held up under stress in ways the military-conquest model
 had not.
 
-**Political integration of the Iberian aristocracy.**
+Political integration of the Iberian aristocracy.
 Hasdrubal's court at Carthago Nova included Iberian
 aristocrats in substantive political roles, not merely as
 subordinate clients. The pattern produced an
@@ -217,8 +217,8 @@ Iberian project's third phase under Hannibal had begun.
 
 Three observations.
 
-**The Iberian project's institutional development under
-Hasdrubal made the Second Punic War strategically possible.**
+The Iberian project's institutional development under
+Hasdrubal made the Second Punic War strategically possible.
 Without the Iberian-Carthaginian alliance network, the
 silver-mining fiscal infrastructure, and the consolidated
 political-administrative center at Carthago Nova, the
@@ -226,8 +226,8 @@ Italian campaign Hannibal launched in 218 BCE would not
 have been logistically supportable. The war's structural
 foundation was Hasdrubal's work as much as Hamilcar's.
 
-**The bridge function is the principal historical
-significance.** Hamilcar's Iberian project of 237-228 BCE
+The bridge function is the principal historical
+significance. Hamilcar's Iberian project of 237-228 BCE
 was military conquest without consolidated political
 authority; Hannibal's command from 221 BCE prosecuted an
 inherited political structure into the Italian campaign.
@@ -238,8 +238,8 @@ political order. Without this period, the project that
 ended at Zama would not have been the one that began at
 Saguntum.
 
-**The Ebro Treaty's structural significance is partly
-posthumous.** Hasdrubal negotiated the treaty in 226 BCE
+The Ebro Treaty's structural significance is partly
+posthumous. Hasdrubal negotiated the treaty in 226 BCE
 without knowing the specific use to which it would be put
 in the Saguntum dispute thirteen years later. The treaty's
 preservation in the surviving record, principally through

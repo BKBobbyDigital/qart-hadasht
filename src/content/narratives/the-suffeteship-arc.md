@@ -73,7 +73,7 @@ treats the suffeteship's specific arc.
 The Carthaginian institutional record opens with the early
 monarchical period. The surviving Greek tradition (principally
 Justin and the Justin-derived sources) preserves a list of early
-Carthaginian *basileis*, kings in the substantively monarchic
+Carthaginian *basileis*, kings in the monarchic
 rather than later-suffete sense, that includes [Malchus](/people/malchus)
 of the late 6th century BCE and the founder of the Magonid
 dynasty,
@@ -115,7 +115,7 @@ the suffeteship is one of its substantive components.
 
 By the time of Aristotle's
 *[Politics](/sources/aristotle-politics)* (c. 340 BCE), the
-Carthaginian suffeteship was substantively the office the
+Carthaginian suffeteship was the office the
 surviving record subsequently documents. The principal external
 account is Aristotle's discussion at *Politics* 2.11, which
 treats the Carthaginian constitution as one of the three
@@ -210,7 +210,7 @@ Cornelius Nepos's *Hannibal* 7, with corroborating detail in
 Justin 31.2. Three features of the reforms are substantively
 relevant to the suffeteship's institutional character:
 
-**The suffeteship as constitutional instrument.** Hannibal's
+The suffeteship as constitutional instrument. Hannibal's
 reforms were enacted through the formal suffete-led legislative
 process — suffete sponsorship, popular-assembly ratification,
 against aristocratic resistance. The institutional configuration
@@ -221,16 +221,16 @@ political conditions allowed. The reforms demonstrate that the
 mixed-constitution character of the Carthaginian system was a
 living political mechanism rather than a frozen structure.
 
-**The civilian character of the office.** Hannibal as suffete
-was substantively a civilian executive, not a military
+The civilian character of the office. Hannibal as suffete
+was a civilian executive, not a military
 commander. He had returned to Carthage from his Italian and
 post-Zama military career; the suffeteship was the office he
-held *after* that career, in a substantively distinct civic
+held *after* that career, in a distinct civic
 role. The separation between suffeteship and military command
 the constitutional configuration maintained is visible in his
 case with unusual clarity.
 
-**The political reaction.** The displaced aristocratic faction
+The political reaction. The displaced aristocratic faction
 responded by denouncing Hannibal to Rome, alleging conspiracy
 with Antiochus III against Roman interests, and producing the
 Roman pressure that forced Hannibal's flight from Carthage in
@@ -239,13 +239,13 @@ late 195 BCE. The episode (treated under the editorial take
 demonstrates the constitutional mechanism's vulnerability to
 external political pressure when the entrenched interests it
 challenged could appeal to Roman intervention. The reforms
-themselves substantively held; Hannibal's continued personal
+themselves held; Hannibal's continued personal
 authority did not.
 
 ## The destruction and the end of the metropolitan suffeteship
 
 The metropolitan Carthaginian suffeteship (the office at
-Carthage itself, in its substantively continuous institutional
+Carthage itself, in its continuous institutional
 form across approximately four centuries) ended with the
 destruction of Carthage in 146 BCE. The city's institutional
 life ended with the polity; the office's metropolitan
@@ -275,7 +275,7 @@ sites:
   and early imperial periods, in the broader Phoenician
   institutional tradition the colonial network shared.
 
-The Roman administration substantively preserved the
+The Roman administration preserved the
 suffeteship in Latin colonial-civic forms across the former
 Punic-cultural zone in North Africa. The Roman policy was
 not to abolish the office but to absorb it into the imperial
@@ -286,7 +286,7 @@ office's substantive functions modified but the institutional
 continuity preserved. The
 [Punic continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
 treats this broader pattern; the suffeteship is one of its
-load-bearing institutional examples.
+central institutional examples.
 
 The office's continuation is direct evidence that the
 suffeteship was not specifically Carthaginian but substantively

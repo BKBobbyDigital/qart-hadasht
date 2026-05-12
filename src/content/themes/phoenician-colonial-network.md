@@ -42,7 +42,7 @@ that Carthage was not the first Phoenician foundation in the
 western Mediterranean, was not for centuries the most important,
 and emerged into metropolitan dominance not through founding
 intent but through structural factors operating across a network
-that substantively predated it and that for several centuries
+that predated it and that for several centuries
 treated it as one node among many.
 
 This theme treats the network as the analytic subject and
@@ -64,13 +64,13 @@ That work establishes that Punic culture did not end at 146 BCE;
 this theme establishes that Punic civilization did not begin at
 the 814 BCE Dido foundation either. Both bookends push past the
 conventional closure-and-opening framings to reveal a longer
-and more substantively coherent cultural arc.
+and more coherent cultural arc.
 
 The discipline throughout: tangible and well-attested evidence
 leads, legendary material is explicitly bracketed as such. The
 network's institutional infrastructure (the Melqart cult, the
 annual delegations, the archaeologically attested sanctuary
-distribution) is the load-bearing evidence; the foundation
+distribution) is the central evidence; the foundation
 legends (Dido at Carthage, the Tyrian Hercules at Gadir, the
 specific dates and circumstances of individual foundations) are
 treated as legendary tradition with historicizable kernels
@@ -82,7 +82,7 @@ The network's western expansion built on the existing structure
 of the Phoenician homeland city-state system. [Tyre](/places/tyre)
 and [Sidon](/places/sidon) (alongside [Byblos](/places/byblos),
 Arwad, Berytus, and others) were politically independent city-
-states that operated as a substantively integrated commercial-
+states that operated as a integrated commercial-
 cultural network across the Levant from at least the early Iron
 Age. The homeland was already a network *before* the western
 expansion: shared script (the 22-character Phoenician alphabet
@@ -250,7 +250,7 @@ framing, as substantive coordinating institution.
 Beyond the Melqart cult, several other mechanisms operated as
 network coordination:
 
-**Shared script and language.** The Phoenician alphabet, the
+Shared script and language. The Phoenician alphabet, the
 22-character consonantal script, was used across the network
 with regional dialectal variation but with substantive mutual
 intelligibility. The
@@ -258,7 +258,7 @@ intelligibility. The
 documents this shared linguistic infrastructure across centuries
 of network operation.
 
-**Commercial conventions.** Weight standards (the silver shekel
+Commercial conventions. Weight standards (the silver shekel
 of approximately 7.5 grams as the network's principal currency
 unit, with regional variations), measurement systems, contract
 forms, and commercial vocabularies were shared across the
@@ -266,15 +266,15 @@ network. The fragmentary commercial evidence supports
 substantive standardization rather than independent local
 practice.
 
-**Elite intermarriage and political coordination.** The
+Elite intermarriage and political coordination. The
 homeland-colony marriage patterns are attested in the surviving
 record (most explicitly in the foundation-legend traditions but
 also in scattered prosopographic evidence); inter-colonial elite
 recognition was substantive enough that elite mobility across
 the network is firmly attested.
 
-**Astarte and Eshmun cults as secondary coordinating
-infrastructure.** Where Melqart was the principal network
+Astarte and Eshmun cults as secondary coordinating
+infrastructure. Where Melqart was the principal network
 coordinating cult, the Astarte cult (homeland centered on
 Sidon) and the Eshmun cult (also Sidon-centered) provided
 additional shared religious-cultic infrastructure. The two
@@ -297,7 +297,7 @@ the cumulative effect across the period was substantial
 diminution of Tyrian autonomy in commerce and politics. Sidon
 was destroyed by Esarhaddon in 677 BCE in a particularly
 severe episode; the broader homeland's political-commercial
-position was substantively constrained.
+position was constrained.
 
 What is striking in the surviving record is that the network
 *did not collapse* during this period. The western colonies
@@ -340,7 +340,7 @@ transformed from "important western node" to "metropolitan
 center of the western network." The transformation is
 documented in several lines of evidence:
 
-**Military leadership.** The Carthaginian state's leadership of
+Military leadership. The Carthaginian state's leadership of
 western Phoenician military operations (against the Greek
 expansion into Sicily and the western Mediterranean, against
 the Etruscans at sites like the [Battle of Alalia](/events/battle-of-alalia)
@@ -349,9 +349,9 @@ military-strategic actor. Other western Phoenician
 foundations contributed to these operations but Carthage
 coordinated them.
 
-**Religious-cultic centrality.** The growing prominence of the
+Religious-cultic centrality. The growing prominence of the
 Carthaginian Tophet and the Carthaginian Tanit cult through
-the 6th-5th centuries BCE made Carthage substantively central
+the 6th-5th centuries BCE made Carthage central
 to the network's evolving religious infrastructure, in
 addition to the existing Tyrian Melqart centrality. Tanit
 itself emerges as a substantive western network deity from
@@ -359,14 +359,14 @@ the 5th c. BCE forward, with the Tanit cult diffused to the
 other major western nodes (Motya, Sulci, Tharros) under
 substantively Carthaginian initiative.
 
-**Commercial coordination.** Carthaginian commercial agreements
+Commercial coordination. Carthaginian commercial agreements
 with Rome (the first Carthaginian-Roman treaty of c. 509 BCE)
 and with other Mediterranean powers were substantively
 negotiated on behalf of the broader western Phoenician network
 rather than just Carthage itself. Carthage became the network's
 diplomatic-commercial spokesperson.
 
-**Inscriptional and administrative diffusion.** Carthaginian
+Inscriptional and administrative diffusion. Carthaginian
 administrative practices, magistracy titles (the
 [suffeteship](/institutions/suffetes) attested across the
 western network), and inscriptional conventions diffused from
@@ -374,7 +374,7 @@ Carthage to the other western nodes through the 6th-5th
 centuries BCE — the reverse of the earlier homeland-to-colonies
 diffusion pattern.
 
-By the 4th century BCE the network had substantively become
+By the 4th century BCE the network had become
 "Punic civilization" with Carthage as its metropolitan core
 and the other foundations as its periphery — the same
 network, reorganized around a new center, the original node
@@ -389,7 +389,7 @@ court forms at the Carthaginian aristocratic level, the 396
 BCE [Demeter-Kore adoption](/events/demeter-kore-adoption)
 as state cult, the Hellenistic-pattern Barcid state-building
 in Iberia of the 3rd c. BCE — all are features of the network
-transitioning from substantively Phoenician to substantively
+transitioning from Phoenician to substantively
 Hellenistic-Punic in its institutional and cultural forms
 while maintaining its Phoenician core. This is where the
 network arc connects to the Hellenistic-Carthage question that
@@ -429,7 +429,7 @@ What the legends preserve historically is the *colonial
 framework* of the foundations: that they were undertaken from
 the Phoenician homeland, that they were associated with specific
 political or commercial circumstances, that they were
-understood by the participants as substantively Phoenician
+understood by the participants as Phoenician
 ventures, that the network's religious-cultic infrastructure
 (the Melqart association, the Tyrian metropolitan relationship)
 was constitutive rather than incidental. The kernel framework
@@ -461,7 +461,7 @@ was not a uniform civilization across geographic dispersion;
 regional adaptations of religious, linguistic, and
 commercial practice are documented across the network.
 
-What it was: a substantively integrated maritime-commercial-
+What it was: a integrated maritime-commercial-
 religious-cultural system with multiple coordinating
 mechanisms operating in mutually reinforcing ways, with
 Tyrian metropolitan centrality across the early centuries
@@ -484,5 +484,5 @@ The story did not end in 146 BCE with the destruction — it
 continued, in transformed form, through the persistence of
 the Punic cultural arc into late antiquity. Both bookends
 push past Greco-Roman closure-and-opening framings to reveal
-the longer and more substantively coherent cultural arc
+the longer and more coherent cultural arc
 that Carthage was one phase of.

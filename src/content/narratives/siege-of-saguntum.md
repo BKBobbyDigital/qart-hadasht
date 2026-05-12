@@ -120,15 +120,15 @@ trigger.
 
 Three observations beyond the casus belli framing.
 
-**Hannibal's operational style was already visible.** The
+Hannibal's operational style was already visible. The
 deliberate engagement choice (a high-prestige target whose
 fall would commit Carthage to war), the willingness to accept
 extended siege rather than rapid storm, the management of
 political-diplomatic complications during the operation: all
 of these would recur in the Italian campaign.
 
-**The Carthaginian senatorial position was politically
-permissive.** The senate's refusal to surrender Hannibal in
+The Carthaginian senatorial position was politically
+permissive. The senate's refusal to surrender Hannibal in
 the face of the Roman ultimatum is significant. The Barcid
 family's political authority at Carthage in 218 BCE was
 sufficient to commit the state to a war the senate's
@@ -138,7 +138,7 @@ campaign, with the Hanno-aligned faction's opposition (visible
 in the post-Cannae senatorial debates about reinforcement)
 unable to override the Barcid commitment.
 
-**The Roman strategic position had not adapted.** The Roman
+The Roman strategic position had not adapted. The Roman
 expedition under Sempronius Longus that had been destined for
 North Africa was reassigned to meet Hannibal's anticipated
 Italian arrival; the elder Scipio's expedition was redirected

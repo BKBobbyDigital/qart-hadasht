@@ -19,7 +19,7 @@ sources:
     stance: supports
     passage_ref: "22"
     passage_summary: >
-      Diodorus's surviving fragments preserve substantively the
+      Diodorus's surviving fragments preserve the
       same political analysis.
 entities:
   - type: event

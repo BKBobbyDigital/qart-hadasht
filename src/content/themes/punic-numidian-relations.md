@@ -38,7 +38,7 @@ treats Carthage primarily through the Roman frame, with the
 Numidian dimension as background context. The honest picture
 that emerges from the substantive Numidian-Punic interface is
 of a sustained five-hundred-year political-military-cultural
-relationship that substantively shaped Carthaginian state
+relationship that shaped Carthaginian state
 development from the foundation period through the destruction.
 
 The site's substantive treatment of this relationship is at
@@ -53,7 +53,7 @@ The Carthaginian state operated three principal institutional
 channels for the Numidian relationship across the Punic Wars
 period.
 
-**Tribute relationships.** Numidian polities under Carthaginian
+Tribute relationships. Numidian polities under Carthaginian
 hegemony paid tribute to the Carthaginian state — agricultural
 produce, livestock, manpower (the dependent Libyan peasantry
 that produced much of the Carthaginian state's grain surplus).
@@ -64,7 +64,7 @@ system's operational pressure; the Libyan rebellion was
 substantively a tribute-system collapse rather than a purely
 military mutiny.
 
-**Dynastic-marriage networks.** Carthaginian aristocratic
+Dynastic-marriage networks. Carthaginian aristocratic
 marriages with Numidian royal houses produced the principal
 political-diplomatic infrastructure of the relationship. The
 most documented case is the
@@ -77,7 +77,7 @@ the larger western Numidian kingdom. The marriage realignment
 substantively triggered Masinissa's defection to Rome and the
 subsequent reshaping of the war's African theater.
 
-**Cavalry partnership.** The Numidian cavalry tradition was the
+Cavalry partnership. The Numidian cavalry tradition was the
 substantive backbone of the Carthaginian army's field arm
 across the Punic Wars period. The
 [carthaginian-warfare theme](/themes/carthaginian-warfare)
@@ -116,11 +116,11 @@ structural conditions for the Third Punic War.
 ## Cultural synthesis: Numidian-Punic continuity
 
 The cultural-religious-linguistic synthesis the Numidian-Punic
-interface generated is one of the most substantively continuous
+interface generated is one of the most continuous
 arcs in the post-Carthaginian Mediterranean. The principal
 documented dimensions:
 
-**Religious continuity.** The Numidian-period religious record
+Religious continuity. The Numidian-period religious record
 documents substantive Punic-cultural continuity — the
 [El Hofra stele cache](/artifacts/hofra-stele-cache) from
 Cirta preserves Punic-formula religious dedications in Numidian-
@@ -132,7 +132,7 @@ least the 4th century CE. The
 [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
 treat the religious dimension in detail.
 
-**Monumental tradition.** The
+Monumental tradition. The
 [Dougga Libyco-Punic Mausoleum](/artifacts/dougga-libyco-punic-mausoleum)
 (2nd century BCE) is the principal documented monument of the
 Numidian-Punic synthesis tradition — a substantial dynastic
@@ -142,7 +142,7 @@ Masinissa and his successors. The Dougga mausoleum's
 Libyco-Punic bilingual inscription documents the linguistic-
 cultural continuity at the moment of Numidian state-formation.
 
-**Onomastic and inscriptional persistence.** Punic theophoric
+Onomastic and inscriptional persistence. Punic theophoric
 names persist in Numidian-period and Roman-period North African
 epigraphy through at least the 3rd century CE — documented in
 the broader scholarly synthesis by Jongeling and others. The
@@ -150,7 +150,7 @@ neo-Punic inscriptional tradition continues at Lepcis Magna and
 the broader Tripolitanian zone through the 3rd century CE,
 substantially after the Carthaginian state's destruction.
 
-**Linguistic continuity.** Punic-speaking populations persist
+Linguistic continuity. Punic-speaking populations persist
 in rural North Africa into late antiquity, attested through
 Augustine's testimony to spoken Punic among his early-5th-century
 North African congregations. The

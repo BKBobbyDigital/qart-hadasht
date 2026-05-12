@@ -47,30 +47,30 @@ The principal Carthaginian agricultural products are partly
 attested in surviving sources and partly inferred from the
 broader Mediterranean agricultural pattern of the period:
 
-- **Wheat and barley.** Cereal crops were the foundation of
+- Wheat and barley. Cereal crops were the foundation of
   the agricultural economy and the principal export to the
   Mediterranean grain markets.
 
-- **Olives.** Olive cultivation was a major Carthaginian
+- Olives. Olive cultivation was a major Carthaginian
   specialty, with substantial olive-oil production for both
   domestic consumption and export. Mago's treatise gave
   particular attention to olive cultivation.
 
-- **Grapes and wine.** Substantial Carthaginian wine production
+- Grapes and wine. Substantial Carthaginian wine production
   is attested archaeologically.
 
-- **Pomegranates.** The fruit's Latin name (*Punica granatum*)
+- Pomegranates. The fruit's Latin name (*Punica granatum*)
   preserves its Carthaginian association; the modern genus
   name still derives from Punic origin.
 
-- **Figs.** Famously fresh enough that Cato the Elder produced
+- Figs. Famously fresh enough that Cato the Elder produced
   Carthaginian figs in the Roman senate to dramatize the
   city's proximity to Rome.
 
-- **Vegetables and pulses.** Standard Mediterranean garden
+- Vegetables and pulses. Standard Mediterranean garden
   produce.
 
-- **Livestock.** Cattle, sheep, goats, and (importantly for
+- Livestock. Cattle, sheep, goats, and (importantly for
   the elite) horses for cavalry. The Numidian cavalry that
   played such a role in the Punic Wars was supported by
   similar agricultural-pastoral systems in Numidia, partly
@@ -121,23 +121,23 @@ Carthaginian agricultural science entered the Roman tradition.
 Carthaginian agricultural practice differed from contemporary
 Greek and Roman practice in several documented respects:
 
-- **The estate system.** Carthaginian aristocratic estates
+- The estate system. Carthaginian aristocratic estates
   appear to have been larger and more systematically managed
   than typical contemporary Greek estates, with dependent and
   slave labor at scale.
 
-- **Olive specialization.** While olive cultivation was
+- Olive specialization. While olive cultivation was
   general across the Mediterranean, the Carthaginian olive-oil
   industry was particularly developed and oriented toward
   export.
 
-- **Mago's systematic codification.** The very existence of a
+- Mago's systematic codification. The very existence of a
   twenty-eight-book agricultural treatise in Carthaginian Punic
   indicates a level of agricultural-scientific organization
   not matched by surviving contemporary Greek or Roman work
   until the late Republic.
 
-- **Animal husbandry techniques.** Specific techniques for
+- Animal husbandry techniques. Specific techniques for
   cattle, horse, and sheep management preserved in Magonic
   fragments suggest distinctive Carthaginian practice.
 
@@ -165,7 +165,7 @@ relations.
 
 ## The landscape itself
 
-Mago's treatise is the load-bearing literate-tradition evidence for
+Mago's treatise is the central literate-tradition evidence for
 Carthaginian agricultural science, but the agricultural landscape
 that produced the Carthaginian surplus is treated in its own right
 under the

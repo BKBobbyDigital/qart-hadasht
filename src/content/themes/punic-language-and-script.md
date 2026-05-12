@@ -74,20 +74,20 @@ Approximately 6,000 Phoenician and Punic inscriptions are
 preserved across the Mediterranean basin. The principal
 Carthaginian corpus comes from:
 
-- **The Tophet stelae.** Several thousand votive stelae from the
+- The Tophet stelae. Several thousand votive stelae from the
   precinct in southern Carthage, mostly brief dedicatory
   inscriptions in formulaic language. The single largest
   Punic-language corpus from any site.
 
-- **Tomb inscriptions.** Funerary inscriptions from the Douïmès
+- Tomb inscriptions. Funerary inscriptions from the Douïmès
   and other Carthaginian cemeteries, sometimes brief (just a
   name) and sometimes extended.
 
-- **Civic and architectural inscriptions.** Building dedications,
+- Civic and architectural inscriptions. Building dedications,
   cultic dedications, occasional lists of magistrates and
   priests.
 
-- **Ostraca and graffiti.** Brief everyday inscriptions on
+- Ostraca and graffiti. Brief everyday inscriptions on
   potsherds and walls.
 
 The major reference editions are the *Corpus Inscriptionum

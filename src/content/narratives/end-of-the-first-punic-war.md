@@ -186,8 +186,8 @@ preserved form, a story about the Sardinian aftermath, not the
 
 Three things, none of them quite the story usually told.
 
-1. **The war was decided in a single morning, by a fleet that
-   private citizens had paid for.** This is the structural moment
+1. The war was decided in a single morning, by a fleet that
+   private citizens had paid for. This is the structural moment
    the Aegates represents. Roman fiscal mobilization beyond
    normal public finance, and the willingness of the senatorial
    aristocracy to bear personal financial risk for collective
@@ -195,15 +195,15 @@ Three things, none of them quite the story usually told.
    won. No comparable Carthaginian financial mobilization
    occurred.
 
-2. **The peace itself was workable; the post-peace conduct was
-   not.** The original Lutatius terms, and even the ratification
+2. The peace itself was workable; the post-peace conduct was
+   not. The original Lutatius terms, and even the ratification
    stiffening, were settlements Carthage could live with. The
    1238 BCE seizure of Sardinia was a different thing, and the
    Roman willingness to commit it during Carthaginian distress
    was the act that converted a defeated state into a permanently
    aggrieved one.
 
-3. **The Barcid project began here.** Hamilcar's command in the
+3. The Barcid project began here. Hamilcar's command in the
    Mercenary War, his subsequent move to Iberia, the family's
    dominance of Carthaginian military and political life for the
    next thirty-five years: all of this is properly read as a

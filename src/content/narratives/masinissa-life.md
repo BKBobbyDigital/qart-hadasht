@@ -78,7 +78,7 @@ under Carthaginian hegemony would continue indefinitely
 unless broken under Roman cover. Three converging factors
 crystallized the decision.
 
-**Sophonisba.** During Masinissa's absence in Iberia, his
+Sophonisba. During Masinissa's absence in Iberia, his
 betrothal to Sophonisba was rescinded by her father Hasdrubal
 Gisco, who married her instead to Syphax of the rival western
 Masaesyli — a diplomatic move designed to secure Syphax's
@@ -87,7 +87,7 @@ loss of the betrothal substantially damaged the Massylii-
 Carthaginian relationship Masinissa's career had been built
 on.
 
-**The Massylii succession.** On the death of Masinissa's
+The Massylii succession. On the death of Masinissa's
 father Gala (c. 206 BCE), the Massylii throne passed
 through a contested succession in which Syphax (acting in
 Carthaginian interest) intervened to install a rival
@@ -96,7 +96,7 @@ approximately two years followed, with substantial
 operations to reclaim his throne against Syphax-aligned
 opposition.
 
-**The Roman approach.** Scipio Africanus, planning the
+The Roman approach. Scipio Africanus, planning the
 African expedition that would culminate at Zama, opened
 diplomatic communication with Masinissa during the Iberian
 campaign. The political configuration (Masinissa's loss of
@@ -152,10 +152,10 @@ military response to subsequent Numidian encroachment.
 
 Masinissa ruled the unified Numidian kingdom for approximately
 fifty-four years, from 202 BCE to his death in 148 BCE. The
-reign was substantively transformative for Numidia. Three
+reign was transformative for Numidia. Three
 principal lines of development.
 
-**Territorial expansion.** Masinissa systematically
+Territorial expansion. Masinissa systematically
 encroached on Carthaginian territory across the post-Zama
 period. The encroachments were incremental: a frontier
 village here, a disputed agricultural zone there, occasional
@@ -165,7 +165,7 @@ favored Masinissa or refused to act. By the 150s BCE
 Masinissa had absorbed substantial Carthaginian territory in
 the African hinterland.
 
-**Agricultural-economic transformation.** Masinissa's reign
+Agricultural-economic transformation. Masinissa's reign
 shifted Numidian society from semi-nomadic pastoralism toward
 sedentary agriculture, partly through Carthaginian-style
 estates established on absorbed territory. The Roman tradition
@@ -174,7 +174,7 @@ modern scholarship is more complicated about the social
 costs and the continuity with pre-Masinissan Numidian
 practice.
 
-**Political-cultural development.** Masinissa's court at Cirta
+Political-cultural development. Masinissa's court at Cirta
 (and subsequently at other royal centers) adopted Hellenizing
 forms substantially: Greek-style coinage, Greek diplomatic
 correspondence, Greek architectural and decorative practices.
@@ -214,8 +214,8 @@ built would not survive his death intact.
 
 Three observations, all on the site's reading.
 
-**Masinissa produced the structural conditions for the Third
-Punic War.** The Catonian *delenda est* campaign was the
+Masinissa produced the structural conditions for the Third
+Punic War. The Catonian *delenda est* campaign was the
 political articulation that converted possibility into
 decision; Masinissa's incremental encroachments were the
 operational ground on which the possibility developed.
@@ -228,14 +228,14 @@ senatorial decision (see the editorial take on
 [why the destruction happened](/editorialTakes/destruction-not-weak-enough));
 Masinissa did not draft the 149 demands or make the
 elimination decision. But the configuration the Roman
-faction converted into destruction was substantively his
+faction converted into destruction was his
 production, and reading the Third Punic War without him as
 a principal structural actor, alongside but distinct from
 the Roman destruction-faction, under-represents what the
 surviving evidence shows.
 
-**The Numidian kingdom was a substantial achievement on its
-own terms.** The unified Numidia Masinissa built was a
+The Numidian kingdom was a substantial achievement on its
+own terms. The unified Numidia Masinissa built was a
 substantive political-cultural development whose internal
 character — Hellenistic in court and coinage forms,
 substantively Punic-cultural in religion and architecture
@@ -250,9 +250,9 @@ record, and the cultural arc of post-Masinissan Numidia is
 one of the principal vehicles through which Punic religious
 and intellectual forms continued into the Roman period.
 
-**Strategic opportunism, longevity-enabled patience, and
+Strategic opportunism, longevity-enabled patience, and
 clear-eyed configuration-reading defined his political
-style.** The "opportunist" framing is not dismissive: the
+style. The "opportunist" framing is not dismissive: the
 site's reading is that Masinissa was a strategic actor who
 understood his constraints, saw his configuration with
 unusual clarity, and exploited the patronage frame Rome

@@ -72,7 +72,7 @@ What is not contested is the broader pattern: Hannibal's
 formation under his father in Iberia produced a commander
 whose strategic orientation was anti-Roman by adulthood. The
 oath story may be a literary crystallization of the
-formative pattern; it may be substantively historical;
+formative pattern; it may be historical;
 either way, the formation's outcome is the same.
 
 ## The Iberian formation (237-228 BCE)
@@ -185,8 +185,8 @@ following rather than directing.
 
 Three observations on the formation's outcome.
 
-**The Italian-campaign Hannibal was the cumulative product of
-a twenty-year Iberian formation.** The military doctrine of
+The Italian-campaign Hannibal was the cumulative product of
+a twenty-year Iberian formation. The military doctrine of
 the Italian campaign — combined-arms operations integrating
 heavy infantry, cavalry, and elephants; deliberate engagement
 on terms favoring Carthaginian preparation; political-
@@ -197,8 +197,8 @@ Hannibal arrived in Italy in 218 BCE not as a young commander
 testing himself but as a fully-formed commander applying an
 inherited operational tradition.
 
-**The political-administrative competence the Italian
-campaign required was substantial.** Maintaining a
+The political-administrative competence the Italian
+campaign required was substantial. Maintaining a
 Carthaginian-mercenary-Italian-allied army in Italy for
 fifteen years required extensive supply, recruitment, and
 political management beyond the military command itself. The
@@ -208,8 +208,8 @@ package. The Italian campaign's structural endurance, even
 in the face of the Roman strategy of containment, depends
 substantially on this formation.
 
-**The strategic decision to commit Carthage to war was not
-made by a young man.** The framing of the Second Punic War
+The strategic decision to commit Carthage to war was not
+made by a young man. The framing of the Second Punic War
 as Hannibal's personal project, executed against senatorial
 opposition, partly distorts the actual political
 configuration. By 219 BCE Hannibal's authority within the
@@ -231,5 +231,5 @@ the broader Carthaginian Iberian record and from what we know
 about Barcid family-political dynamics. The standard modern
 biographies (Hoyos's *Hannibal: Rome's Greatest Enemy* (2015)
 and MacDonald's *Hannibal: A Hellenistic Life* (2015)) treat
-the pre-war period substantively but acknowledge the
+the pre-war period but acknowledge the
 limitation of the surviving evidence.

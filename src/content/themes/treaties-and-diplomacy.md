@@ -43,7 +43,7 @@ Polybius (3.22-27) preserves the substantive content of the
 pre-264 BCE treaties; Livy and other sources document the
 later treaties.
 
-**509 BCE — First Treaty.** The
+509 BCE — First Treaty. The
 [first Roman-Carthaginian treaty](/events/first-treaty-with-rome)
 established the basic commercial-jurisdictional framework: a
 zone of Roman commercial activity restricted to coastal Italy
@@ -53,13 +53,13 @@ mutual recognition of certain harbors. The treaty's date is
 contested in some modern readings — covered under
 [the open question on FPW pre-264 treaties](/openQuestions/fpw-pre-264-treaties).
 
-**348 BCE — Second Treaty.** The
+348 BCE — Second Treaty. The
 [second treaty](/events/second-treaty-with-rome) renewed and
-extended the 509 framework, with substantively tightened
+extended the 509 framework, with tightened
 commercial-restriction provisions. Polybius preserves the
 treaty's content; the dating is generally accepted.
 
-**306 BCE — Third Treaty.** The
+306 BCE — Third Treaty. The
 third (Philinus) treaty is referenced by
 Philinus of Akragas (a 3rd-century BCE pro-Carthaginian
 historian whose account of the FPW outbreak is partially
@@ -72,7 +72,7 @@ the [Philinus treaty controversy](/events/philinus-treaty-controversy)
 event and the
 [first-treaty-trust-Polybius editorial take](/editorialTakes/first-treaty-trust-polybius).
 
-**279 BCE — Pyrrhic War Treaty.** The
+279 BCE — Pyrrhic War Treaty. The
 [Pyrrhic War treaty](/events/pyrrhic-war-treaty) established
 specific Roman-Carthaginian cooperation during Pyrrhus of
 Epirus's western Mediterranean campaign. The cooperation was
@@ -82,7 +82,7 @@ Carthaginian operations in Sicily. The treaty represents the
 high-water mark of Roman-Carthaginian cooperative diplomacy
 before the FPW.
 
-**241 BCE — Treaty of Lutatius.** The
+241 BCE — Treaty of Lutatius. The
 [Treaty of Lutatius](/events/treaty-of-lutatius) ended the
 First Punic War, with substantial Carthaginian territorial
 concessions (loss of Sicily and the surrounding islands) and
@@ -92,18 +92,18 @@ Polybius with substantive detail; the post-treaty modifications
 the Carthaginian position beyond what the original treaty
 required.
 
-**226 BCE — Ebro Treaty.** The
+226 BCE — Ebro Treaty. The
 [Ebro Treaty](/events/ebro-treaty) between Rome and the
 Carthaginian Iberian state (under
 [Hasdrubal the Fair](/people/hasdrubal-the-fair)) established
 the Ebro river as the boundary of Carthaginian operations in
 Iberia. The treaty's relationship to the subsequent Saguntum
-crisis is one of the load-bearing questions of the SPW outbreak
+crisis is one of the central questions of the SPW outbreak
 — the Saguntum crisis is interpretable as Carthaginian treaty
 violation, Roman provocation through socii-protection
 extension, or strategic ambivalence between the two readings.
 
-**218 BCE — Declaration of war.** The
+218 BCE — Declaration of war. The
 [218 BCE Roman declaration of war](/events/roman-declaration-of-war-218),
 delivered by the Roman embassy at Carthage with the famous
 "toga episode" (the embassy's spokesman folding his toga to
@@ -114,13 +114,13 @@ sequence — Saguntum crisis, Roman embassies, Carthaginian
 responses — is treated under the
 [Hannibal as integrated Punic-Hellenistic figure framing](/editorialTakes/carthage-as-cultural-integrator).
 
-**201 BCE — Treaty of 201.** The
+201 BCE — Treaty of 201. The
 [Treaty of 201](/events/treaty-of-201-bce) ended the Second
 Punic War. The terms — 10,000-talent indemnity over 50 years,
 naval-fleet reduction to 10 warships, prohibition on
 Carthaginian warfare without Roman authorization,
 recognition of Numidian territorial claims under
-Masinissa — substantively constrained the Carthaginian state
+Masinissa — constrained the Carthaginian state
 for the remainder of its existence. The treaty's structural
 significance is treated under
 [period 07](/periods/07-the-long-peace) and the broader
@@ -152,7 +152,7 @@ arrangements documented through specific moments. The
 [Numidian-Punic interface theme](/themes/punic-numidian-relations)
 covers the broader framing.
 
-**Hellenistic eastern Mediterranean states.** Carthage
+Hellenistic eastern Mediterranean states. Carthage
 maintained substantive diplomatic relationships with the
 Hellenistic kingdoms — Macedon (the
 [treaty with Philip V](/events/treaty-with-philip-v) of 215

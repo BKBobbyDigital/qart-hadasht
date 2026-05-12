@@ -164,7 +164,7 @@ Aegates engagement finally ended it.
 
 Three things, distinct from the strategic outcome of 255 BCE.
 
-**The Roman naval revolution worked.** A state with no traditional
+The Roman naval revolution worked. A state with no traditional
 naval capacity in 264 BCE had built, in twelve years, a fleet
 capable of beating the principal Phoenician naval power of the
 Mediterranean at scale, in fleet engagement, on terms favorable
@@ -181,8 +181,8 @@ itself would abandon it; but in the 260s and 250s BCE, in fleet
 engagements where Roman ships could close to boarding range, the
 *corvus* won.
 
-**Naval combat at this scale was sustainable for both states for
-roughly one generation.** Ecnomus is followed by the Camarina
+Naval combat at this scale was sustainable for both states for
+roughly one generation. Ecnomus is followed by the Camarina
 storm and by a series of Roman naval losses through the 250s and
 240s that drove the state to private-subscription fleet financing
 by 242 BCE. Carthage's capacity to replace fleet losses was

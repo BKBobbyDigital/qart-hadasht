@@ -330,8 +330,8 @@ terms.
 
 Three observations follow from the surviving picture.
 
-**First, Carthaginian intellectual culture was technically
-sophisticated.** Mago's treatise presupposes a substantial prior
+First, Carthaginian intellectual culture was technically
+sophisticated. Mago's treatise presupposes a substantial prior
 Punic technical literature — the *Hamilcar* Varro names, other
 unnamed authors Mago cites, the implicit body of Carthaginian
 agronomic work that Mago's twenty-eight-book synthesis would not
@@ -347,8 +347,8 @@ medical writing, perhaps philosophical or historical work) whose
 prior existence is not even attested by transmission through a
 surviving synthesizer. We do not know what we have lost.
 
-**Second, the surviving Carthaginian voice is a technical-
-empirical voice.** The Mago that survives is not a polemicist,
+Second, the surviving Carthaginian voice is a technical-
+empirical voice. The Mago that survives is not a polemicist,
 not an apologist, not a theologian, not a historian. He is an
 estate-owning Carthaginian aristocrat writing practical guidance
 for other estate-owning Carthaginian aristocrats. The
@@ -362,8 +362,8 @@ genres would have preserved is not what the Roman selection
 filter let through. The "Carthaginian voice" the Western canon
 has is the technical one.
 
-**Third, the survival itself is a metonym for the broader
-loss.** What was kept was kept because the conquering power
+Third, the survival itself is a metonym for the broader
+loss. What was kept was kept because the conquering power
 found it useful. The selectivity of preservation tells us as
 much about Rome — about what a 2nd-century-BCE Roman senate
 considered worth translating, what a 1st-century-CE Roman

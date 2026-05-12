@@ -102,7 +102,7 @@ Several question domains in Punic studies depend principally on the
 inscriptional corpus because the Greco-Roman literary record either
 ignores them, distorts them, or filters them through hostile framing.
 
-**The actual pantheon, in proportion.** Diodorus and Plutarch tell
+The actual pantheon, in proportion. Diodorus and Plutarch tell
 us about Baal Hammon (under the *interpretatio* of Kronos) because
 Greek readers wanted to know about child sacrifice; the inscriptions
 tell us that Baal Hammon was indeed the pre-eminent recipient of
@@ -113,7 +113,7 @@ cults, and that Bes was massively important in personal-household
 practice while almost invisible in civic religion. The inscriptional
 record corrects the distorted weighting of the literary tradition.
 
-**Female religious agency.** Greco-Roman literary sources for
+Female religious agency. Greco-Roman literary sources for
 Carthage almost never mention named Punic women. The inscriptional
 record names hundreds — donors, priestesses, dedicators on behalf
 of family members, makers of votive offerings. The Tophet stelae
@@ -124,7 +124,7 @@ inscriptions as economic actors. Reconstructing Punic women's
 status from the literary record alone produces a near-blank; the
 inscriptional record produces a partial but substantive picture.
 
-**Theophoric naming as a window into popular religion.** The
+Theophoric naming as a window into popular religion. The
 formulaic Punic name is constructed *ʿbd* + deity ("servant of X"),
 *ger* + deity ("client of X"), *bn* + deity ("son of X"), or
 similar. Counting theophoric elements across the inscriptional
@@ -136,7 +136,7 @@ rise of *tnt* (Tanit) elements, the persistence of *mlqrt*
 the regional variation in *bʿl* compounds — all of this is
 inscriptionally derived.
 
-**The suffete office across the colonial network.** *Šft* is
+The suffete office across the colonial network. *Šft* is
 attested epigraphically not just at Carthage but at Lepcis Magna,
 at Punic Sardinian sites, in the colonial diaspora — suggesting
 the office was a shared Phoenician-Punic civic institution rather
@@ -144,7 +144,7 @@ than a uniquely Carthaginian one. The Aristotelian description
 of Carthaginian governance can be checked against the inscriptional
 attestation of the magistracies.
 
-**Punic continuity into Roman North Africa.** Neo-Punic
+Punic continuity into Roman North Africa. Neo-Punic
 inscriptions, the late Punic script that continued in use through
 the Roman imperial period, are attested into the 2nd-3rd c. CE
 in some North African contexts. The inscriptional record is the
@@ -167,7 +167,7 @@ deal about the formula and not much about the dedicator.
 
 The literary tradition's gap, what Carthaginians wrote about
 themselves in extended prose, remains a gap. The inscriptional
-record is the largest, most evidentiary-load-bearing piece of the
+record is the largest, most evidentiary-central piece of the
 surviving record, but it is not the missing literature. The two
 have to be read together, with the literary tradition's distortions
 read through the inscriptional corrective and the inscriptional

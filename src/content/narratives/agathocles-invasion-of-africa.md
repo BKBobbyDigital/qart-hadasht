@@ -39,7 +39,7 @@ the standards of fourth-century Sicilian warfare, the war was
 effectively over. Carthaginian victory required only patience.
 
 What Agathocles did instead is one of the most audacious decisions
-preserved from ancient warfare. **He shifted the theater.**
+preserved from ancient warfare. He shifted the theater.
 
 ## The crossing
 
@@ -54,7 +54,7 @@ peninsula, southeast of Carthage.
 What followed is the moment the campaign is most remembered for.
 Agathocles's army landed on a coastline they did not know, with no
 secure base, no supply line, and the option of retreating to Sicily
-preserved by their ships drawn up on the beach. **He burned the ships.**
+preserved by their ships drawn up on the beach. He burned the ships.
 Diodorus preserves the address to the troops: the sacrifice to the gods
 of the sea, the firing of the fleet, the speech that framed retreat as
 no longer available. Whatever the rhetorical truth of the speech (the
@@ -155,7 +155,7 @@ arrive in adequate numbers. The Carthaginian government, once past the
 Bomilcar crisis, had recovered enough field capacity to contain him.
 
 What Agathocles did next is the moment around which the surviving
-accounts organize their moral judgment of him. **He fled.** With a
+accounts organize their moral judgment of him. He fled. With a
 small group of intimates, Agathocles secretly departed the African
 camp by sea, leaving his army of approximately 30,000 men (many of
 them Cyrenian veterans of Ophellas's column) and his two sons in
@@ -190,28 +190,28 @@ Its long-term significance lies elsewhere. Agathocles had demonstrated
 four things that no previous war between Greeks and Carthaginians had
 established:
 
-1. **Carthage could be attacked at home.** The geographic premise of
+1. Carthage could be attacked at home. The geographic premise of
    Carthaginian security (that the city was protected by the sea, by
    the western Mediterranean naval order, by the impossibility of
    moving a hostile army to its hinterland) was simply false. A
    determined Greek tyrant with sixty ships and 14,000 men had put it
    to the test.
 
-2. **The Carthaginian field force could be defeated on its own
-   ground.** The White Tunis victory was not a fluke. Agathocles
+2. The Carthaginian field force could be defeated on its own
+   ground. The White Tunis victory was not a fluke. Agathocles
    defeated multiple Carthaginian armies over three campaigning
    seasons. The myth of Carthaginian military invincibility on the
    African mainland was a casualty of the campaign even when its
    immediate strategic results were reversed.
 
-3. **Carthaginian internal politics could be destabilized by external
-   pressure.** The Bomilcar coup attempt was the visible symptom of
+3. Carthaginian internal politics could be destabilized by external
+   pressure. The Bomilcar coup attempt was the visible symptom of
    senatorial panic, but the deeper pattern, that an external threat
    could shake the city's political order, would recur in the lead-up
    to 149 BCE.
 
-4. **The strategic concept of an African theater could be articulated
-   in the first place.** Before Agathocles, the strategic geography of
+4. The strategic concept of an African theater could be articulated
+   in the first place. Before Agathocles, the strategic geography of
    Carthage's wars assumed Sicily and southern Italy as the operational
    frontier. After Agathocles, the African theater was a category that
    any later commander could consider. Scipio's invasion of Africa in

@@ -250,7 +250,7 @@ symbolic; it was not agricultural sabotage.
 Three structural consequences shaped Mediterranean history for
 the centuries that followed.
 
-**Carthage as a continuous urban civilization ended.** The city
+Carthage as a continuous urban civilization ended. The city
 that had been founded by Tyrian colonists in the late 9th to
 late 8th century BCE, that had built the Mediterranean's largest
 maritime empire of the 5th to 3rd centuries BCE, that had
@@ -269,7 +269,7 @@ substantively different terms, on the same site but without
 continuous institutional, religious, or cultural connection to
 the destroyed city.
 
-**Roman strategic culture was visibly transformed.** The
+Roman strategic culture was visibly transformed. The
 willingness to destroy a major Mediterranean city, deliberately
 and with extended preparation, marked a step in Roman strategic
 practice that the wars of the 4th and 3rd centuries BCE had not
@@ -278,7 +278,7 @@ BCE, Corinth in 146 BCE in the same year as Carthage, eventually
 Jerusalem in 70 CE) draws on the precedent the Third Punic War
 established.
 
-**The historiographic tradition was given its closing piece.**
+The historiographic tradition was given its closing piece.
 Polybius's *Histories*, which had been conceived as the
 explanation of Rome's rise to Mediterranean dominance, found its
 proper conclusion in the destruction the historian himself

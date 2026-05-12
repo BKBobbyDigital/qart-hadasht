@@ -30,7 +30,7 @@ form modern economic history would prefer). The scale of the
 Carthaginian economy is therefore reconstructed indirectly
 from observable indicators:
 
-**The indemnities.** The Treaty of Lutatius (241 BCE) imposed
+The indemnities. The Treaty of Lutatius (241 BCE) imposed
 3,200 talents of silver paid over ten years; the Treaty of 201
 BCE imposed 10,000 talents over fifty years; the Sardinian
 extortion (238 BCE) added 1,200 talents. Total: approximately
@@ -39,7 +39,7 @@ That Carthage paid these indemnities in full, while continuing
 to fund its own military and economic life, indicates a
 sustained capacity for very large state cash flow.
 
-**Military mobilizations.** The Carthaginian fleet at Cape
+Military mobilizations. The Carthaginian fleet at Cape
 Ecnomus (256 BCE) of approximately 350 quinqueremes, manned
 at standard crew strength, would have required mobilizing
 approximately 150,000 men. Field armies in the Sicilian and
@@ -49,13 +49,13 @@ substantial mercenary contingents that had to be paid, required
 a fiscal capacity matched only by the largest contemporary
 Mediterranean states.
 
-**Urban infrastructure.** Carthage's walls (extending
+Urban infrastructure. Carthage's walls (extending
 approximately 33 km on the principal trace), the dual
 harbor system, the Byrsa quarter, and the broader
 infrastructure represent a level of public investment that
 implies a substantial revenue base.
 
-**Population.** Modern estimates of the pre-destruction
+Population. Modern estimates of the pre-destruction
 Carthaginian population vary widely (200,000-700,000) but
 on any reading the city was among the largest of the
 Mediterranean. Sustaining such a population required a
@@ -66,7 +66,7 @@ substantial agricultural and commercial economic base.
 The Carthaginian state drew revenue from several documented
 sources:
 
-**Tribute from the African hinterland.** Libyan-Berber
+Tribute from the African hinterland. Libyan-Berber
 populations under Carthaginian control paid agricultural
 tribute, the principal source of which was cereals. This
 tribute was a major source of state revenue and the proximate
@@ -74,23 +74,23 @@ cause of much of the structural friction (visible in the
 Mercenary War's Libyan revolt) between Carthage and its
 hinterland populations.
 
-**Customs and harbor dues.** The trade through Carthage's
+Customs and harbor dues. The trade through Carthage's
 commercial harbor produced substantial customs revenue.
 
-**Mining royalties.** The Carthaginian-controlled mines of
+Mining royalties. The Carthaginian-controlled mines of
 southern Iberia, Sardinia, and Sicily (the latter lost in
 241 BCE) produced silver and other metals at scale.
 
-**State commercial enterprises.** Some Carthaginian
+State commercial enterprises. Some Carthaginian
 commercial activity appears to have been state-owned or
 state-licensed; the proportion versus private commerce is
 unknown.
 
-**Public-domain estates.** State-owned agricultural land in
+Public-domain estates. State-owned agricultural land in
 the African hinterland, separate from the privately-owned
 aristocratic estates, contributed agricultural revenue.
 
-**Indirect taxation.** Various indirect taxes on commerce,
+Indirect taxation. Various indirect taxes on commerce,
 manufacturing, and consumption are attested in scattered
 sources for the Phoenician-Punic world; their specific
 Carthaginian operation is imperfectly known.
@@ -101,18 +101,18 @@ Carthage struck coinage from the late 5th century BCE
 onward, with three main currency systems operating in
 different periods and contexts:
 
-**Carthaginian Sicilian coinage.** Late 5th to mid-3rd
+Carthaginian Sicilian coinage. Late 5th to mid-3rd
 century BCE coinage struck for the Sicilian campaigns,
 heavily Greek-influenced in style and iconography but
 distinctively Carthaginian in legend and authority.
 
-**Carthaginian metropolitan coinage.** Silver, electrum, and
+Carthaginian metropolitan coinage. Silver, electrum, and
 gold coinage struck at Carthage itself, with iconographic
 vocabulary (the palm tree, the head of Tanit, the horse,
 the lion) that is one of the more direct surviving
 expressions of Carthaginian visual identity.
 
-**Barcid Iberian coinage.** Late 3rd century BCE silver
+Barcid Iberian coinage. Late 3rd century BCE silver
 shekels struck under Hasdrubal the Fair and Hannibal in
 Iberia, including some of the most artistically accomplished
 pre-Roman Mediterranean coinage. The coinage's iconography

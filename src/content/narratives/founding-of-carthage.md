@@ -117,20 +117,20 @@ BCE foundation date. The gap is the central fact about which the
 modern chronological dispute organizes itself. Three readings
 are defensible.
 
-**The literary date is approximately correct.** Carthage was
+The literary date is approximately correct. Carthage was
 founded around 814 BCE; the archaeological gap reflects the
 limits of what can be recovered from a site continuously occupied
 for 2,800 years and substantially destroyed-and-rebuilt in 146
 BCE. Krahmalkov's reading, if accepted, supports this view.
 
-**The literary date is symbolic.** Timaeus calculated backward
+The literary date is symbolic. Timaeus calculated backward
 from later evidence (perhaps from a known Tyrian regnal
 sequence) to produce a foundation date that gave Carthage
 suitably ancient origins. The actual continuous urban
 foundation occurred in the late 8th century BCE and corresponds
 to the recovered material-culture horizon.
 
-**The tradition compresses an extended foundation process.**
+The tradition compresses an extended foundation process.
 Carthage as a continuous urban settlement dates to the late 8th
 century, but earlier Phoenician seasonal or trading installations
 may have existed at the site for decades or longer before being

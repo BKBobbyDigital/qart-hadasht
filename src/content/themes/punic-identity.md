@@ -60,7 +60,7 @@ people Greeks and Romans called Phoenicians and Carthaginians
 identified with their cities, lineages, and gods rather than with
 a pan-Phoenician nation. The argument has three principal lines.
 
-**Linguistic.** The Phoenician and Punic languages are dialect
+Linguistic. The Phoenician and Punic languages are dialect
 continua, not a single unified language with regional variants.
 The inscriptions from Tyre, Sidon, Byblos, Cyprus, Sardinia,
 Sicily, and Carthage show substantial dialectal divergence and
@@ -69,7 +69,7 @@ understand each other across distance, but they did not write
 the same language in the way that, say, Athenian and Spartan
 Greeks wrote roughly the same Greek.
 
-**Religious.** While the deities are recognizably continuous
+Religious. While the deities are recognizably continuous
 (Baal Hammon, Tanit, Melqart, Eshmun, Astarte appear across the
 Phoenician-Punic world), their relative prominence and
 iconography shift sharply by city. Tyre's Melqart-cult is
@@ -77,7 +77,7 @@ distinct from Carthage's Baal Hammon-and-Tanit-cult is distinct
 from Sidon's Eshmun-cult. There is no pan-Phoenician pantheon
 in the way Greek religion shows pan-Hellenic features.
 
-**Political.** No Phoenician league, confederation, or shared
+Political. No Phoenician league, confederation, or shared
 political institution is attested. Phoenician colonial expansion
 was Tyrian-led but not Tyrian-controlled; western foundations
 became politically independent quickly and developed local

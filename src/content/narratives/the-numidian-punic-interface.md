@@ -52,7 +52,7 @@ mutual exchange across centuries, and that continued through the
 Roman period as the substrate of what would become Berber identity
 in the medieval and modern Maghreb. The cultural synthesis they
 produced with Punic civilization, what this narrative treats as
-the Numidian-Punic interface, is one of the substantively richest
+the Numidian-Punic interface, is one of the richest
 cultural arcs in the post-Carthaginian Mediterranean and the
 principal vehicle through which Punic religious and intellectual
 forms survived into late antiquity.
@@ -72,7 +72,7 @@ The Libyan-Berber populations of North Africa predate Phoenician
 colonial contact by at least a millennium. Archaeological evidence
 across the Maghreb documents substantial Bronze Age and early
 Iron Age Libyan-Berber material culture, with internal
-political-cultural organization that was substantively tribal-
+political-cultural organization that was tribal-
 confederational rather than urban or state-organized. The
 Phoenician colonial network arriving from the late 9th century
 BCE encountered established Libyan populations whose tolerance,
@@ -90,7 +90,7 @@ substantive Carthaginian tribute administration treated in the
 [Libyans group page](/groups/libyans). The Libyan rural
 population provided the tributary agricultural production,
 military recruitment, and labor base on which the Carthaginian
-state substantively depended; the Carthaginian state in return
+state depended; the Carthaginian state in return
 provided the protection-and-order framework within which the
 Libyan rural economy operated. The relationship was
 substantively unequal, the Libyans paid tribute; the
@@ -111,7 +111,7 @@ status. These polities were politically Libyan-Berber in their
 populations and increasingly Punic-cultural in their elite
 religious-architectural-linguistic forms across the 4th and
 3rd centuries BCE. The Numidian-Punic interface as a cultural
-production developed substantively through these polities
+production developed through these polities
 rather than through the directly Carthaginian-administered
 tribute zone.
 
@@ -135,7 +135,7 @@ not merely tolerated under Numidian administration but were
 substantively adopted and continued by the Numidian
 population — including by ethnically Numidian individuals
 named in the stele dedications. The Punic deities Baal Hammon
-and Tanit became substantively Numidian deities through this
+and Tanit became Numidian deities through this
 adoption, with the cult forms maintained essentially intact
 across the political transition from Carthaginian to Numidian
 administration. After the 146 destruction, the Numidian
@@ -169,7 +169,7 @@ witness to the synthesis. The mausoleum's form combines
 Hellenistic-architectural elements (the stepped tower, the
 sculpted ornamentation) with Punic religious-architectural
 elements (the layout, certain decorative conventions) within
-a substantively Libyan-Berber royal-tomb tradition; the
+a Libyan-Berber royal-tomb tradition; the
 bilingual inscription documents the cultural-political bilingual
 identity of the elite producing the monument.
 
@@ -186,7 +186,7 @@ in one direction.
 Other Numidian royal monumental sites (the El Khroub mausoleum
 near Cirta, the Medracen royal tomb (a much earlier Numidian
 royal monument), various royal-cult sanctuary remains) document the broader pattern. The Numidian elite from at least
-the 3rd century BCE invested substantively in monumental
+the 3rd century BCE invested in monumental
 architecture that drew on Punic and Hellenistic conventions
 while maintaining Libyan-Berber royal-tomb traditions; the
 architectural record across Numidian sites is substantively
@@ -225,7 +225,7 @@ to 148 BCE — was the period in which the Numidian-Punic elite
 consolidation reached its substantive form. Masinissa
 unified the eastern and western Numidian confederations into
 a single kingdom under Massylii leadership, established Cirta
-as the principal royal capital, and substantively elaborated
+as the principal royal capital, and elaborated
 the Numidian-Punic elite religious and architectural traditions
 the surviving evidence documents.
 
@@ -233,7 +233,7 @@ Masinissa's own bilingual cultural formation (Punic and
 Numidian languages, Carthaginian and Massylii political-
 cultural networks, the Iberian-service phase that exposed
 him to Hellenistic military-court forms) produced a
-political-cultural style that was substantively synthetic.
+political-cultural style that was synthetic.
 His royal cult presented him through Hellenistic conventions
 (the deified-royal coinage iconography) while maintaining
 substantive Punic religious and architectural sponsorship.
@@ -253,7 +253,7 @@ preceding centuries of interface had developed.
 The cultural production of Masinissa's reign continued under
 his sons Micipsa, Gulussa, and Mastanabal, and through to the
 Jugurthine War of the late 2nd century BCE. The Numidian-Punic
-elite culture remained substantively coherent as a cultural
+elite culture remained coherent as a cultural
 production across the post-Masinissan generations, even as
 the political situation moved increasingly under Roman
 direct control.
@@ -262,7 +262,7 @@ direct control.
 
 After the 146 destruction of Carthage and across the
 subsequent expansion of Roman administration in North Africa,
-the Numidian-Punic cultural synthesis substantively continued
+the Numidian-Punic cultural synthesis continued
 as the principal substrate of what became Roman North African
 identity. The Latin-script Saturnus Africanus and Iuno
 Caelestis cults that developed in the imperial period
@@ -323,7 +323,7 @@ with their own cultural-political trajectories that
 intersected the Carthaginian and Roman trajectories through
 deep mutual exchange rather than as subordinate elements of
 Carthaginian or Roman histories. The Numidian-Punic interface
-was substantively bidirectional cultural production rather
+was bidirectional cultural production rather
 than unidirectional Carthaginian influence; the Libyan-Berber
 population maintained substantive political and cultural
 identity across centuries of Carthaginian administration and

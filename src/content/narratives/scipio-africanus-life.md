@@ -75,7 +75,7 @@ the senatorial reluctance.
 The Iberian campaign Scipio conducted was strategically
 transformative. Three principal phases:
 
-**Carthago Nova (209 BCE).** Scipio's first major operation
+Carthago Nova (209 BCE). Scipio's first major operation
 was the capture of Carthago Nova, the Carthaginian Iberian
 capital, in a single-day combined-arms assault that
 exploited a low-tide period in the lagoon protecting the
@@ -85,7 +85,7 @@ revenue and military stores that had been stockpiled there;
 the political consequences for Carthaginian Iberian authority
 were structural.
 
-**Operations against Hasdrubal Barca (208-207 BCE).** Scipio's
+Operations against Hasdrubal Barca (208-207 BCE). Scipio's
 operations through the central peninsula in 208-207 BCE
 contained Hasdrubal Barca's Carthaginian forces but did not
 prevent the eventual march to Italy that produced the
@@ -94,7 +94,7 @@ the Carthaginian Iberian position was weakened, but the
 Italian relief expedition reached its destination (where it
 was destroyed at the Metaurus).
 
-**Ilipa (206 BCE).** Scipio's tactical masterpiece, treated in
+Ilipa (206 BCE). Scipio's tactical masterpiece, treated in
 detail in the Battle of Ilipa event entry. The reversed
 deployment that engaged the Carthaginian wings before the
 centers met destroyed the Carthaginian field force in
@@ -202,8 +202,8 @@ arcs in Roman history.
 
 Three observations.
 
-**Africanus's tactical and strategic competence was the
-principal Roman achievement of the Second Punic War.** No
+Africanus's tactical and strategic competence was the
+principal Roman achievement of the Second Punic War. No
 other Roman commander of the period combined Africanus's
 range: the operational innovation at Carthago Nova and Ilipa,
 the strategic conception of the African campaign, the
@@ -214,7 +214,7 @@ by him in a way that few ancient wars are won by a single
 figure; the parallel with Hannibal's role on the Carthaginian
 side is structural.
 
-**The post-war political pattern was distinctive.** Africanus's
+The post-war political pattern was distinctive. Africanus's
 political withdrawal under prosecution by domestic enemies is
 the prototype for a pattern that would recur in late
 Republican politics: the successful general's vulnerability to
@@ -224,7 +224,7 @@ republic's failure rather than the commander's. The Gracchan
 crisis of the 130s and 120s BCE drew on the political
 template Africanus's case had established.
 
-**The Polybian connection.** Scipio Aemilianus, Africanus's
+The Polybian connection. Scipio Aemilianus, Africanus's
 adopted grandson and the eventual destroyer of Carthage in
 146 BCE, was the principal patron of Polybius's *Histories*.
 The Polybian framework for understanding Rome's rise to

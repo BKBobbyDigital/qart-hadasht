@@ -63,7 +63,7 @@ Mago's own death in 203, Mago was the only surviving Barcid
 field commander outside Hannibal's own position in southern
 Italy. The five years between Metaurus and his death are the
 operational interval during which Carthaginian extra-peninsular
-field capacity rested substantively on him.
+field capacity rested on him.
 
 ## Cannae and the diplomatic mission (216 BCE)
 
@@ -214,7 +214,7 @@ years and provided the only Barcid field-command continuity
 during the African endgame interval. His death in 203 BCE,
 combined with Hasdrubal Barca's earlier death at the Metaurus,
 left Hannibal without Barcid field-command support during the
-African endgame and substantively shaped the
+African endgame and shaped the
 [Zama](/events/battle-of-zama) outcome. Hannibal at Zama was
 the last surviving Barcid commander in the field, and the
 narrowing of the Barcid command structure to a single point of
@@ -226,7 +226,7 @@ Livian framings because the Italian campaign was the central
 narrative axis; Hasdrubal Barca dominated subsequent treatment
 because the Metaurus produced the most quotable dramatic moment
 of the war (the head thrown into Hannibal's camp). Mago's
-career was operationally significant but did not produce a
+career was significant but did not produce a
 single defining moment that the literary tradition could
 foreground. The structural integration of his arc into the
 larger Barcid project is the kind of pattern the surviving

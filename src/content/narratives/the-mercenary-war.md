@@ -147,14 +147,14 @@ and flags where it is thin.
 Three structural consequences shaped Carthaginian history for the
 rest of the third century BCE.
 
-**Hamilcar's reputation.** The Mercenary War made Hamilcar Barca's
+Hamilcar's reputation. The Mercenary War made Hamilcar Barca's
 military authority. The political capital his suppression of the
 revolt produced was what authorized, and shortly thereafter
 funded, the Iberian project he opened in 237 BCE. The Barcid
 dominance of Carthaginian military and political life from 237 BCE
 to Zama begins here.
 
-**Hanno's eclipse.** The political rivalry between the Barcid
+Hanno's eclipse. The political rivalry between the Barcid
 family and the senatorial faction around Hanno the Great, which
 the Mercenary War inflamed, became one of the defining axes of
 Carthaginian internal politics. Hanno's repeated subsequent
@@ -162,7 +162,7 @@ opposition to the Barcid Iberian project, and to Hannibal's
 campaigns in Italy, was a structural consequence of the political
 realignment the Mercenary War produced.
 
-**The Sardinian seizure.** While Carthage was distracted, the
+The Sardinian seizure. While Carthage was distracted, the
 Sardinian mercenary garrison also revolted, and Rome took
 advantage of the situation to seize Sardinia in 238 BCE on a
 manufactured pretext. The act, technically a violation of the

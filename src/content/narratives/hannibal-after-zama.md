@@ -58,7 +58,7 @@ through the events that followed.
 
 Hannibal's program as suffete had two principal components.
 
-**Financial reform.** Hannibal investigated the Carthaginian
+Financial reform. Hannibal investigated the Carthaginian
 state finances and found that the indemnity to Rome could be
 paid ahead of schedule from current revenues alone. The
 apparent revenue shortfall that had been requiring additional
@@ -72,7 +72,7 @@ payment (on the grounds that accelerated payment would weaken
 the indemnity's indemnification function), but the recovered
 revenues remained in the Carthaginian treasury.
 
-**Constitutional reform.** Hannibal moved against the Council
+Constitutional reform. Hannibal moved against the Council
 of 104, the judicial body whose life-tenure had given the
 senatorial-aristocratic faction its principal mechanism for
 controlling successful generals. The council was reformed to
@@ -200,7 +200,7 @@ archaeological remains have been securely identified.
 
 Three observations.
 
-**Hannibal's competence extended beyond the battlefield.** The
+Hannibal's competence extended beyond the battlefield. The
 financial reforms at Carthage, the political navigation of
 the Seleucid court, the operational adaptations in Bithynia
 all demonstrate a Hannibal whose ability to read complex
@@ -209,7 +209,7 @@ political-administrative situations was substantial. The
 but undersells the broader intelligence the late-career arc
 preserves.
 
-**The Carthaginian senatorial faction's power was structural.**
+The Carthaginian senatorial faction's power was structural.
 Hannibal's eviction from Carthage in 195 BCE through senatorial
 denunciation rather than through formal Roman action shows
 that the Carthaginian internal political configuration was the
@@ -217,7 +217,7 @@ operative cause of his exile. Rome's role was to receive and
 act on senatorial denunciation; Carthage's senatorial faction
 was the engine of his removal.
 
-**The Hannibal-Scipio symmetry is real.** Both Hannibal and
+The Hannibal-Scipio symmetry is real. Both Hannibal and
 Scipio Africanus died in 183 BCE. Both died in forms of
 internal political marginalization rather than at the height
 of their public power: Scipio after political prosecution at

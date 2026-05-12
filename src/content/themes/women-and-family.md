@@ -85,7 +85,7 @@ preserved for its own narrative purposes. The
 [Sophonisba page](/people/sophonisba) treats her career and the
 historiographical reframing in detail.
 
-**Hasdrubal Boetharch's wife.** Unnamed in the surviving record.
+Hasdrubal Boetharch's wife. Unnamed in the surviving record.
 Appian (*Punica* 131) records that during the final Roman
 assault on Carthage in spring 146 BCE, after her husband
 surrendered to Scipio Aemilianus, she appeared on the burning
@@ -99,7 +99,7 @@ many siege-narrative endings). The historicizable kernel is that
 Eshmun temple at the assault's climax; the speech and the framing
 are literary embellishment of varying weight.
 
-**Imilce.** The Iberian noblewoman whom Hannibal married in the
+Imilce. The Iberian noblewoman whom Hannibal married in the
 late 220s BCE, before his Italian campaign. Named in some later
 sources (Silius Italicus prominently) but attested only thinly in
 the surviving historical record. Her exact origins, her movements
@@ -110,7 +110,7 @@ policy and Hannibal's continuation of it; see the
 [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state)
 for the marriage-as-state-building-infrastructure framing.
 
-**Barcid daughters.** Hamilcar Barca's daughters, none named in
+Barcid daughters. Hamilcar Barca's daughters, none named in
 the surviving record, appear in passing as marriage instruments
 of Barcid political integration. One married Hasdrubal the Fair,
 making him Hamilcar's son-in-law and the successor in command;
@@ -121,7 +121,7 @@ aristocratic marriage diplomacy as a substantive political
 instrument; the women themselves are recoverable only as
 political instruments, not as named individuals.
 
-**Dido / Elissa.** The legendary founder of Carthage, treated on
+Dido / Elissa. The legendary founder of Carthage, treated on
 the site as a [foundation tradition](/narratives/founding-of-carthage)
 with a historicizable kernel of Tyrian colonial expansion under
 late-9th-century-BCE conditions but with most narrative content
@@ -147,7 +147,7 @@ practices rather than substantive biographies, but they document
 practices across a substantial number of named individuals
 across multiple centuries.
 
-**Female dedicators at the Tophet.** A meaningful minority of
+Female dedicators at the Tophet. A meaningful minority of
 the surviving Tophet stelae name female dedicators, sometimes
 using the formula *bʿlt ndr*, "mistress of the vow," parallel
 to the masculine *bʿl ndr*. Female dedicators appear sometimes
@@ -169,7 +169,7 @@ members; what the specific cult-organizational context of female
 dedication looked like. The evidence is direct on the practice
 and indirect on the structures around it.
 
-**Priestess offices.** The title *kohenet* (feminine of *kohen*,
+Priestess offices. The title *kohenet* (feminine of *kohen*,
 "priest") is attested in the Punic inscriptional record,
 particularly in connection with the Tanit cult. Female priestess
 titles also appear in other Phoenician-Punic contexts (the
@@ -179,7 +179,7 @@ largely unrecoverable (we have titles, not duties) but the
 existence of formal female religious office is firmly
 documented.
 
-**Matronymics.** A minority of Punic inscriptions include
+Matronymics. A minority of Punic inscriptions include
 maternal as well as paternal patronymics: "X son of Y son of Z,
 born of W." The pattern is less common than purely patrilineal
 chains but is attested across the corpus. The matronymic
@@ -188,7 +188,7 @@ specific religious or social contexts, or with cases where the
 mother's family was higher-status than the father's; the
 surviving evidence doesn't distinguish among these readings.
 
-**Funerary inscriptions.** Carthaginian funerary inscriptions
+Funerary inscriptions. Carthaginian funerary inscriptions
 for women are less common than for men but are attested. Where
 they exist, they typically follow the standard Punic funerary
 formula adapted for female commemorands. Some include reference
@@ -199,7 +199,7 @@ suggests funerary commemoration was not formally standardized
 across all women but reflected the specific circumstances of
 individual deaths and families.
 
-**Naming patterns.** Carthaginian women's names attested in the
+Naming patterns. Carthaginian women's names attested in the
 surviving inscriptions follow standard Punic theophoric and
 descriptive-name patterns. Female theophoric compounds include
 *ʾMTʿŠTRT* ("maidservant of Astarte"), *BTBʿL* ("daughter of
@@ -269,7 +269,7 @@ fragments on estate organization and labor division that
 imply substantial household structures behind the production
 units he describes).
 
-**Multi-generational elite households.** Wealthy Carthaginian
+Multi-generational elite households. Wealthy Carthaginian
 houses, attested archaeologically at sites like
 [Kerkouane](/places/kerkouane) (the Punic city abandoned during
 the First Punic War and never rebuilt, which preserves a
@@ -280,7 +280,7 @@ with private courtyards, dedicated bathing rooms, and ritual
 spaces suggest substantial households with internal
 specialization of function.
 
-**Slave and free women in households.** Slave women were
+Slave and free women in households. Slave women were
 present in elite Carthaginian households both as domestic
 labor and (per the broader Mediterranean pattern) in roles
 involving direct service to family members. The legal and
@@ -292,7 +292,7 @@ organization on the productive side; the domestic-household
 parallel is inferred rather than directly attested in
 surviving Punic material.
 
-**Household religion.** Bes amulets, terracotta female
+Household religion. Bes amulets, terracotta female
 figurines, household-shrine objects across surviving
 Carthaginian domestic contexts attest substantial domestic
 religious activity. Bes specifically (an Egyptian-origin
@@ -319,14 +319,14 @@ The structural fact about Carthaginian women's lives is that
 most of what we would want to know is genuinely not recoverable
 from the surviving evidence. The specific gaps:
 
-**Internal household texture.** How decisions were made, how
+Internal household texture. How decisions were made, how
 labor and authority were distributed inside households, what
 family life actually looked like across class — almost entirely
 unrecoverable. We have archaeological floor plans and
 inscriptional names; we do not have anything resembling actual
 descriptions of household interaction.
 
-**Legal-customary framework.** Whether Punic women could hold
+Legal-customary framework. Whether Punic women could hold
 property in their own names, initiate divorce, make contracts,
 inherit on equal terms with brothers — questions modern readers
 naturally ask are mostly answerable only by inference from
@@ -339,7 +339,7 @@ elite women in the homeland had substantive legal capacity at
 least in religious-funerary matters; whether ordinary
 Carthaginian women's situation paralleled this is conjectural.
 
-**Non-elite women's lives.** The surviving evidence is
+Non-elite women's lives. The surviving evidence is
 overwhelmingly elite-focused. What ordinary Punic women did
 day-to-day (agricultural labor, market activity, domestic
 production, religious practice beyond the formal Tophet
@@ -348,13 +348,13 @@ imply substantial female labor on agricultural estates but do
 not document it. The vast majority of Punic women's lives are
 not directly attested in any genre of surviving evidence.
 
-**Educational and socialization patterns.** How girls were
+Educational and socialization patterns. How girls were
 raised, what they learned, when and how they married, what
 their relationships with mothers and other female relatives
 looked like — entirely unrecoverable from the surviving
 record.
 
-**Religious experience.** Female priestess offices are
+Religious experience. Female priestess offices are
 attested as formal titles; what those priestesses actually
 did, what religious life they participated in beyond the
 documented public dedications, what the gendered structure of

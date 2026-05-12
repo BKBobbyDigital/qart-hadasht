@@ -33,7 +33,7 @@ sources:
     stance: supports
     passage_ref: "24.34"
     passage_summary: >
-      Livy preserves substantively the same tactical account.
+      Livy preserves the same tactical account.
 entities:
   - type: event
     slug: siege-of-syracuse-marcellus

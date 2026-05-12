@@ -46,7 +46,7 @@ covered approximately the area of modern northern Tunisia plus
 parts of eastern Algeria and northwestern Libya. Within this
 territory, four agricultural zones are distinguishable.
 
-**The Cap Bon peninsula.** The peninsula jutting northeast from
+The Cap Bon peninsula. The peninsula jutting northeast from
 the Carthaginian capital was the most intensively cultivated
 zone in the Carthaginian heartland. Its Mediterranean climate,
 its proximity to the city, and its archaeological richness make
@@ -62,7 +62,7 @@ preserves dozens of villa and farm sites with oil-press
 installations, wine-production facilities, and storage
 installations.
 
-**The Medjerda (Bagradas) valley.** The principal river system of
+The Medjerda (Bagradas) valley. The principal river system of
 the Carthaginian hinterland runs from the Algerian highlands
 through northern Tunisia to the sea near Utica. The valley
 floor is the most fertile cereal-producing zone in the region.
@@ -74,7 +74,7 @@ continuities across the 146 BCE break: the Romans did not
 develop a new agricultural system in the Medjerda; they took
 over the existing one and ran it.
 
-**The coastal plain.** Between Cap Bon and the eastern Tunisian
+The coastal plain. Between Cap Bon and the eastern Tunisian
 coast, the coastal plain supported mixed agriculture (cereals,
 orchards, olives, vines) with a long tradition of
 mixed-population cultivation — Punic, Libyo-Phoenician, and
@@ -84,7 +84,7 @@ produced not a single export commodity but the full range of
 agricultural products the Carthaginian internal economy
 required.
 
-**The inland Sahel and the steppe frontier.** South and west of
+The inland Sahel and the steppe frontier. South and west of
 the coastal plain, the cultivation belt thinned into pastoral
 and mixed-pastoral-agricultural territory before transitioning
 to the steppe and ultimately the Sahara. The Carthaginian
@@ -145,7 +145,7 @@ the Greek-Roman literary tradition suggests.
 
 ## Kerkouane as evidence base
 
-The single most substantively informative archaeological site for
+The single most informative archaeological site for
 non-elite Carthaginian-period domestic and agricultural life is
 [Kerkouane](/places/kerkouane), on the eastern Cap Bon coast.
 The town was destroyed in the First Punic War (probably 256 or
@@ -158,7 +158,7 @@ substantial industrial-quarter installations.
 
 What Kerkouane preserves for the agricultural-landscape question:
 
-- **The standardized house plan.** Kerkouane houses are
+- The standardized house plan. Kerkouane houses are
   relatively uniform in their basic plan (entry vestibule with
   characteristic red-and-white plaster floor; central courtyard;
   surrounding rooms; bathroom installations with sit-down
@@ -166,7 +166,7 @@ What Kerkouane preserves for the agricultural-landscape question:
   administered settlement rather than an organic agglomeration,
   and the implication is that Punic-period rural settlements
   were planned to a substantial degree.
-- **The bathroom installations.** Nearly every excavated house
+- The bathroom installations. Nearly every excavated house
   has a recognizable bathing facility with a sit-down hipbath
   and floor drainage. The density of bathing installations is
   the single most surprising feature of the site to modern
@@ -174,9 +174,9 @@ What Kerkouane preserves for the agricultural-landscape question:
   substantially above what comparable Greek or Italian rural
   settlements of the period preserve. The cultural reading
   is consequential: Carthaginian rural life was not a poor
-  imitation of urban life; it was a substantively developed
+  imitation of urban life; it was a developed
   domestic culture in its own right.
-- **The mixed-agricultural-industrial economy.** Kerkouane's
+- The mixed-agricultural-industrial economy. Kerkouane's
   industrial quarter included fish-salting installations,
   purple-dye production (murex-shell middens), and metalworking
   alongside the agricultural infrastructure. The settlement was
@@ -214,7 +214,7 @@ tribute to Carthaginian landlords or to the Carthaginian
 state, with the surplus extraction rates becoming punitive
 during war emergencies (the 4:1 wartime increase that the
 First Punic War's end produced, according to Polybius 1.72,
-is the load-bearing literary attestation; it triggered the
+is the central literary attestation; it triggered the
 Libyan participation in the Mercenary War of 241–238 BCE that
 substantially threatened the Carthaginian state). The
 reconstruction is plausible but the documentation is uneven:
@@ -307,7 +307,7 @@ The narrative
 [Punic continuity in Roman Africa](/narratives/punic-continuity-in-roman-africa)
 treats this continuity in its broader cultural and religious
 dimensions. For the agricultural-economic dimension
-specifically, the continuity is substantively complete: African
+specifically, the continuity is complete: African
 Roman wealth in the 1st and 2nd centuries CE is the
 continuation of Carthaginian wealth, on the same land, by
 substantially the same population, running substantially the

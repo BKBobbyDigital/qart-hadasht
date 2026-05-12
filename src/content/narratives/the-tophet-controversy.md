@@ -225,18 +225,18 @@ Beyond the underlying question of practice, the Tophet controversy
 is one of the cleaner case studies of how ancient-history debates
 function. Three observations:
 
-1. **Hostile-source framing matters but doesn't determine the
-   answer.** The Greek and Roman sources were polemically motivated;
+1. Hostile-source framing matters but doesn't determine the
+   answer. The Greek and Roman sources were polemically motivated;
    that doesn't mean they were wrong. The Moscati reframing
    correctly identified the framing problem; the bioarchaeological
    pushback showed that the underlying practice could still be
-   substantively what the sources described.
-2. **Method-dependence runs both ways.** Mid-century skeletal
+   what the sources described.
+2. Method-dependence runs both ways. Mid-century skeletal
    analysis under-supported the cemetery hypothesis; 2010s dental
    analysis over-supports the sacrifice hypothesis if applied
    without sample-size and method caveats. Neither generation's
    methods were definitive.
-3. **National-scholarly cultures shape interpretation.** The
+3. National-scholarly cultures shape interpretation. The
    Italian-French preference for the cemetery reading and the
    Anglophone-Israeli preference for the sacrifice reading are real
    patterns. Whether they reflect substantive disciplinary

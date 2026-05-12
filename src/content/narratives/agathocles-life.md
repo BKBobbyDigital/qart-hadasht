@@ -183,8 +183,8 @@ broader political pressures would subsequently overwrite.
 
 Three observations.
 
-**Agathocles is the principal precedent for Hannibal's
-strategic imagination.** The African invasion's strategic
+Agathocles is the principal precedent for Hannibal's
+strategic imagination. The African invasion's strategic
 concept, bringing the war to the Carthaginian home territory
 to relieve pressure elsewhere, would be repeated by Scipio
 Africanus 105 years later in the operation that ended the
@@ -195,8 +195,8 @@ parallel is firmly attested. The campaign's failure under
 Agathocles and success under Scipio is one of the more
 striking comparative cases in ancient strategic history.
 
-**The moral character of the career is genuinely shocking by
-ancient standards.** The senatorial massacre of 317 BCE; the
+The moral character of the career is genuinely shocking by
+ancient standards. The senatorial massacre of 317 BCE; the
 murder of Ophellas at the banquet during the African campaign;
 the personal abandonment of his army and sons in 307 BCE; the
 succession-political violence within his own family: these
@@ -207,8 +207,8 @@ notable passage in which he treats Agathocles as a model of
 ruthless effective rule — a framing that is itself
 morally complicated.
 
-**The political-cultural orientation toward the Hellenistic
-world is substantial.** Agathocles's adoption of kingship,
+The political-cultural orientation toward the Hellenistic
+world is substantial. Agathocles's adoption of kingship,
 his marriage diplomacy, his court's Hellenizing
 characteristics, all locate him within the broader
 Hellenistic political-cultural transformation of the eastern

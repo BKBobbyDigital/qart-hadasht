@@ -47,30 +47,30 @@ attested in literary sources and partly inferred from
 archaeology. The export side of the network appears to have
 included:
 
-- **Silver from Iberia.** The single most important commercial
+- Silver from Iberia. The single most important commercial
   commodity, exported from the Carthaginian-controlled mines of
   southern Iberia (especially around modern Cartagena, the
   *Carthago Nova* founded by Hasdrubal the Fair in the late 3rd
   century BCE).
-- **Tin.** Less directly attested but probably traded through
+- Tin. Less directly attested but probably traded through
   Carthaginian intermediaries at Gades and the Atlantic
   Phoenician colonies.
-- **North African agricultural produce.** Grain from the
+- North African agricultural produce. Grain from the
   Carthaginian hinterland; olive oil and wine from Carthaginian
   estates in modern Tunisia and Algeria.
-- **Manufactured goods.** Punic ceramics, metalwork, and dyed
+- Manufactured goods. Punic ceramics, metalwork, and dyed
   textiles, with the Tyrian purple-dye industry continued at
   Carthage.
 
 The import side included:
 
-- **Greek and Etruscan luxury goods.** Painted ceramics, fine
+- Greek and Etruscan luxury goods. Painted ceramics, fine
   metalwork, and other manufactured items found in
   Carthaginian-area tombs and settlements.
-- **Egyptian items.** Faience, scarabs, and other small
+- Egyptian items. Faience, scarabs, and other small
   manufactured goods, sometimes imitated locally in Punic
   workshops.
-- **Slaves.** Imported from various sources for use in
+- Slaves. Imported from various sources for use in
   agriculture, mining, and domestic service.
 
 The aggregate volume of this trade is difficult to estimate
@@ -84,24 +84,24 @@ in literary sources, partly inferred from Punic material
 culture, and partly preserved in unique documents like the
 *Periplus of Hanno*. The principal nodes:
 
-- **The Carthaginian capital and its African hinterland.**
+- The Carthaginian capital and its African hinterland.
   Modern Tunisia and northeastern Algeria.
-- **The western Sicilian network.** Motya, Panormus, Lilybaeum,
+- The western Sicilian network. Motya, Panormus, Lilybaeum,
   Solus, and other Carthaginian-controlled or aligned cities,
   contested with Greek Sicily through the Sicilian Wars and
   ultimately lost in the First Punic War.
-- **Sardinia and Corsica.** Major Carthaginian holdings,
+- Sardinia and Corsica. Major Carthaginian holdings,
   including Tharros, Sulcis, Caralis, and Nora, lost to Rome
   in the 238 BCE seizure.
-- **The Balearic Islands.** Ibiza in particular, a major
+- The Balearic Islands. Ibiza in particular, a major
   Punic settlement.
-- **Southern Iberia.** Gades, Malaga, and especially the
+- Southern Iberia. Gades, Malaga, and especially the
   Cartagena region after the late-3rd-century BCE Barcid
   reorganization.
-- **The Atlantic.** Lixus on the Moroccan coast and the
+- The Atlantic. Lixus on the Moroccan coast and the
   network of installations described in Hanno's Periplus along
   the West African Atlantic.
-- **The eastern Mediterranean.** Less central but attested:
+- The eastern Mediterranean. Less central but attested:
   Carthaginian ceremonial connections with Tyre, commercial
   contacts with the Aegean and Egypt.
 

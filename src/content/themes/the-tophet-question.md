@@ -126,7 +126,7 @@ the comparative reading.
 
 Three considerations seem relevant to any honest assessment.
 
-1. **The literary tradition is real evidence but not neutral.** The
+1. The literary tradition is real evidence but not neutral. The
    Greco-Roman accounts are unanimous, detailed, and consistent with
    one another. They are also without exception hostile and without
    exception derivative from sources that did not have access to
@@ -135,13 +135,13 @@ Three considerations seem relevant to any honest assessment.
    mistake. They preserve something. What they preserve is the
    question.
 
-2. **The inscriptional evidence is direct but ambiguous.** The
+2. The inscriptional evidence is direct but ambiguous. The
    Carthaginians erected the stelae. They used the *mlk* term. They
    addressed Baal Hammon and Tanit. What they meant by these acts is
    what the question turns on, and the surviving inscriptions are
    consistent with several possible practices.
 
-3. **The bioarchaeology is direct but contested.** The remains exist;
+3. The bioarchaeology is direct but contested. The remains exist;
    their age distribution is documentable. What that distribution
    implies about cause of death and the selection process is precisely
    what the modern scholarly disagreement is about.

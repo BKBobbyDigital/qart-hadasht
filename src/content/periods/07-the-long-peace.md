@@ -107,12 +107,12 @@ militarily would have constituted treaty violation; the encroachments
 continued.
 
 The pattern's strategic logic on the site's reading involves three
-parallel actors, not two. Masinissa was substantively pursuing his
+parallel actors, not two. Masinissa was pursuing his
 own Numidian aggrandizement program, not Roman bidding, with full
 understanding of how far Roman patronage would back his pressure;
-Rome was substantively enabling the program because Carthaginian
+Rome was enabling the program because Carthaginian
 containment served Roman strategic interests; and the Carthaginian
-state was substantively unable to respond except through the
+state was unable to respond except through the
 treaty-violating military action that would eventually trigger the
 Roman intervention all three actors' positions made structurally
 likely. Masinissa was not a Roman client doing Roman bidding; he was

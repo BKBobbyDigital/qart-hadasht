@@ -33,7 +33,7 @@ last_revised: "2026-05-11"
 The standard Carthage-narrative pairs commerce and naval power as
 two faces of the same thing: Carthaginians traded by sea, and the
 warships protected the merchants. The pairing is not wrong, but it
-collapses two substantively different institutional structures into
+collapses two different institutional structures into
 one. The Carthaginian commercial fleet was a private apparatus of
 ship-owning aristocratic families, partnerships, and ad-hoc joint
 ventures operating across the western Mediterranean network. The
@@ -93,7 +93,7 @@ incomplete but preserves the construction method: mortise-and-tenon
 joinery securing the hull planks, with the planks shaped to fit
 one another and the frames inserted afterward (the "shell-first"
 construction method standard in Mediterranean shipbuilding of the
-period). What makes the Marsala find substantively informative
+period). What makes the Marsala find informative
 about Carthaginian state shipbuilding is the inscribed Punic
 shipwright's marks on the timbers: individual planks bear
 alphabetic letters indicating their assembly sequence. The
@@ -131,7 +131,7 @@ The Carthaginian state's capacity to mobilize naval power at
 scale is documented at three principal moments where the
 literary tradition gives numerical detail.
 
-**Cape Ecnomus (256 BCE).** Polybius (1.25–28) reports the
+Cape Ecnomus (256 BCE). Polybius (1.25–28) reports the
 Carthaginian fleet at the Battle of Cape Ecnomus as approximately
 350 quinqueremes (he gives the Roman fleet as 330). The figures
 are conventionally treated as somewhat inflated but indicate
@@ -142,7 +142,7 @@ marines, or about 147,000 total naval personnel in a single fleet.
 The mobilization scale rivals or exceeds the Carthaginian field
 army's manpower at any documented moment.
 
-**The First Punic War fleet rebuilds.** Across the war's
+The First Punic War fleet rebuilds. Across the war's
 twenty-three years, Polybius reports multiple catastrophic
 Carthaginian fleet losses (Mylae 260, Cape Ecnomus 256, the
 storm losses of the 250s, the Aegates Islands 241), each
@@ -155,7 +155,7 @@ capacity required is the kind of thing that bankrupted the
 Carthaginian treasury by the end of the war and produced the
 indemnity-arrears that triggered the Mercenary War.
 
-**The Third Punic War mobilization.** After the Treaty of 201
+The Third Punic War mobilization. After the Treaty of 201
 BCE capped the Carthaginian war fleet at 10 warships, the
 state-managed naval shipbuilding apparatus was substantially
 disassembled across the next fifty years. Yet when the Roman
@@ -270,14 +270,14 @@ capacity, and the separated civilian-naval command structure
 together constituted a naval institutional apparatus that
 operated at a scale and a durability that few contemporary
 polities matched. The Roman naval rebuild capacity that won
-the First Punic War was substantively a copy of the
+the First Punic War was a copy of the
 Carthaginian system, learned from a captured Carthaginian ship
 and reverse-engineered into Roman production at scale (Polybius
 1.20). The Carthaginian system was the prototype; the Roman
 system was the imitation. The asymmetry of the surviving
 historical record (Roman naval achievement extensively
 treated, Carthaginian naval achievement mostly subsumed under
-"commercial wealth") substantively understates what the
+"commercial wealth") understates what the
 Carthaginian apparatus was and what it produced.
 
 The site's treatment of Carthaginian seafaring under the

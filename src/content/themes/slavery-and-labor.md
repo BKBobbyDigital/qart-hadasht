@@ -49,26 +49,26 @@ developed to require systematic codification.
 Carthaginian slaves came from several sources documented
 indirectly:
 
-**War captives.** Carthaginian military operations across
+War captives. Carthaginian military operations across
 Sicily, Iberia, and the broader Mediterranean produced
 captives who entered the slave system. The wars with Greek
 Sicily, the campaigns in Iberia, and the various
 Carthaginian-Libyan conflicts each produced significant
 captive populations.
 
-**Trade.** The Carthaginian commercial network purchased
+Trade. The Carthaginian commercial network purchased
 slaves from a variety of Mediterranean and Atlantic sources.
 Hanno's *Periplus* mentions slaves taken or traded along the
 West African coast; the broader Phoenician-Punic network had
 slave-trade as one of its standard commodities.
 
-**Indigenous African populations.** The Carthaginian
+Indigenous African populations. The Carthaginian
 relationship with the Libyan-Berber populations of the
 hinterland included tribute, military service, and
 substantial dependent labor. The boundary between dependent
 peasant and slave was probably not always sharp.
 
-**Internal sources.** Debt-slavery, judicial enslavement,
+Internal sources. Debt-slavery, judicial enslavement,
 and abandonment of children are attested in some form in
 the Punic-Phoenician world; their specific operation in
 Carthage is poorly preserved.
@@ -78,31 +78,31 @@ Carthage is poorly preserved.
 Slave labor appears in essentially every sector of the
 Carthaginian economy:
 
-**Agriculture.** Mago's treatise indicates substantial slave
+Agriculture. Mago's treatise indicates substantial slave
 involvement in cereal cultivation, vineyard work, olive
 cultivation, and animal husbandry. Estate-scale agriculture
 was substantially slave-driven.
 
-**Mining.** The Carthaginian-controlled silver mines of
+Mining. The Carthaginian-controlled silver mines of
 southern Iberia (and earlier the Sicilian mines) used slave
 labor at scale. Mining was probably the most lethal form of
 Carthaginian slave work.
 
-**Crafts.** Pottery, metalwork, textile production, and the
+Crafts. Pottery, metalwork, textile production, and the
 purple-dye industry employed slave labor alongside free
 artisans.
 
-**Domestic service.** Wealthy Carthaginian households
+Domestic service. Wealthy Carthaginian households
 included slave staff for cooking, cleaning, child care, and
 the broader household management.
 
-**Commerce.** Slave clerks, agents, and assistants in the
+Commerce. Slave clerks, agents, and assistants in the
 Carthaginian trading network. The legal status of
 commercially employed slaves and their capacity to act for
 their owners is one of the better-attested features of
 broader Phoenician-Punic commercial practice.
 
-**Military.** Carthaginian armies included slave contingents
+Military. Carthaginian armies included slave contingents
 in some periods, though the principal Carthaginian military
 labor force was free mercenaries rather than slaves. The
 Mercenary War of 241-237 BCE was substantially a war of
@@ -113,22 +113,22 @@ free mercenary contingents rather than slave armies.
 The institutional features of Carthaginian slavery are not
 well-attested:
 
-- **Legal status.** The specific legal categories of
+- Legal status. The specific legal categories of
   Carthaginian slave (and the boundaries between slave,
   dependent, and freedperson statuses) are not preserved with
   the precision that the Roman legal record provides.
-- **Manumission.** Whether and how Carthaginian slaves could
+- Manumission. Whether and how Carthaginian slaves could
   obtain freedom, and what status they had after manumission,
   is imperfectly known.
-- **Slave family life.** The conditions under which
+- Slave family life. The conditions under which
   Carthaginian slaves formed and maintained families, and the
   status of children born to slave parents, are not preserved
   in detail.
-- **Slave revolt.** The Mercenary War included some slave
+- Slave revolt. The Mercenary War included some slave
   participation but was not principally a slave revolt;
   whether other Carthaginian slave uprisings occurred and were
   suppressed is not attested.
-- **Comparative practice.** Whether Carthaginian slavery was
+- Comparative practice. Whether Carthaginian slavery was
   systematically distinct from contemporary Greek and Roman
   practice (which the surviving Greek and Roman sources
   sometimes claim, with their characteristic biases) or

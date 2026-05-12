@@ -143,7 +143,7 @@ opened.
 
 Three observations.
 
-**The operational achievement was real.** Moving an army of
+The operational achievement was real. Moving an army of
 approximately 50,000 across the Pyrenees, the Rhone, and the
 Alps in a single campaigning season was unprecedented in scale
 for the period. The losses were severe but not catastrophic,
@@ -151,7 +151,7 @@ and the army that arrived in Italy was operationally capable.
 The crossing's reputation as one of the great strategic moves
 of antiquity is earned.
 
-**The strategic surprise was decisive.** Roman strategic
+The strategic surprise was decisive. Roman strategic
 preparation had assumed Carthaginian operations in Iberia and
 North Africa, with Italy itself outside the operational space.
 Hannibal's arrival in northern Italy reshaped the war's
@@ -161,7 +161,7 @@ Valley, and the political pressure that produced the
 Trebia engagement were all consequences of Roman strategic
 unpreparedness for what Hannibal had done.
 
-**The longer-term consequence was the campaign that followed.**
+The longer-term consequence was the campaign that followed.
 The crossing produced a Carthaginian field army inside Italy
 with no readily available Roman counter-force in adequate
 strength. The fifteen years of Italian campaign that followed

@@ -91,7 +91,7 @@ contingents.
 
 ## The cavalry tradition
 
-The Carthaginian cavalry was substantively the best in the
+The Carthaginian cavalry was the best in the
 ancient Mediterranean during the Punic Wars period —
 documented through the Carthaginian cavalry victories at
 [Trebia](/events/battle-of-trebia),
@@ -146,7 +146,7 @@ the way the cavalry tradition did.
 
 ## The naval institution
 
-The Carthaginian navy was substantively the most developed
+The Carthaginian navy was the most developed
 naval institutional system in the ancient Mediterranean — the
 [Carthaginian sea power as institutional system narrative](/narratives/carthaginian-sea-power-as-system)
 treats the naval institution in its own right. The principal
@@ -191,7 +191,7 @@ cost than mercenaries; Roman political organization recovered
 from defeat through citizen-replacement faster than Carthaginian
 political organization could recover from contract-network
 breakdown). The structural Roman advantage in the Punic Wars
-was substantively the fiscal-manpower asymmetry the two
+was the fiscal-manpower asymmetry the two
 military models produced; the Carthaginian military was not
 inferior in tactical-operational terms, it was structurally
 more expensive to sustain.

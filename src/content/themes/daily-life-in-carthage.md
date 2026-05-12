@@ -32,26 +32,26 @@ larger than contemporary Athens and comparable to the
 contemporary Alexandria. The urban setting was defined by
 several distinctive features.
 
-**The harbors.** Carthage's two interconnected harbors (a
+The harbors. Carthage's two interconnected harbors (a
 rectangular commercial harbor and a circular military harbor
 at its northern end) were the structural center of the city's
 economic life. The military harbor, with its central island
 admiralty building and its docking slots for approximately 220
 warships, was a major piece of urban infrastructure.
 
-**The Byrsa.** The citadel hill at the city's center, with
+The Byrsa. The citadel hill at the city's center, with
 the temple of Eshmun at its summit and an extensive
 administrative-religious quarter on its slopes. The Byrsa was
 the city's symbolic and political heart.
 
-**Residential quarters.** Modern excavations have recovered
+Residential quarters. Modern excavations have recovered
 extensive Carthaginian residential housing, particularly on
 the slopes leading down from the Byrsa to the harbors. The
 houses were typically multi-story, with internal courtyards,
 plastered walls, and (in wealthier examples) elaborate
 mosaic floors. Density was high; streets were narrow.
 
-**Suburbs and necropoleis.** The Carthaginian living area
+Suburbs and necropoleis. The Carthaginian living area
 extended substantially beyond the original walls; the
 city's necropoleis (Douïmès, Junon, Sainte-Monique) ring
 the urban core and have provided much of the surviving
@@ -65,21 +65,21 @@ for cooking and storage) and partly inferred from the
 agricultural economy of the African hinterland. The principal
 elements:
 
-- **Grain.** Barley and emmer wheat from the African hinterland
+- Grain. Barley and emmer wheat from the African hinterland
   and from Sardinia. Bread the staple form. The Roman period's
   reorganization of North Africa as the Roman empire's grain
   supply built on Carthaginian agricultural foundations.
-- **Olives and olive oil.** Both food and the basis of the
+- Olives and olive oil. Both food and the basis of the
   Punic agricultural economy. Mago of Carthage's lost
   agricultural treatise (preserved in fragments through later
   Roman authors) was substantially about olive cultivation.
-- **Wine.** Carthaginian wine production is attested
+- Wine. Carthaginian wine production is attested
   archaeologically; the quality is harder to assess.
-- **Fish.** The harbors and the broader Mediterranean coast
+- Fish. The harbors and the broader Mediterranean coast
   provided extensive fish resources, with garum-style fish
   sauce production attested in Carthaginian coastal
   installations.
-- **Pomegranates.** The fruit was so associated with Carthage
+- Pomegranates. The fruit was so associated with Carthage
   that the Romans called it *Punica granatum* (the Punic
   apple), the modern Latin name from which the genus
   *Punica* still draws its name.
@@ -118,17 +118,17 @@ inscriptions (which sometimes record professions: priest,
 scribe, smith, miner) and partly inferred from the city's
 economic activities. The principal categories:
 
-- **Agriculture.** The largest occupational sector,
+- Agriculture. The largest occupational sector,
   encompassing both the Carthaginian elite landowners of the
   African hinterland and the agricultural labor (substantially
   dependent and slave) that worked their estates.
-- **Commerce.** The merchant class that operated the trading
+- Commerce. The merchant class that operated the trading
   network described in the seafaring-and-trade theme.
-- **Crafts.** Pottery, metalwork, textile production,
+- Crafts. Pottery, metalwork, textile production,
   shipbuilding, leatherworking, and the dye industry.
-- **Religion and the state.** The priestly establishment, the
+- Religion and the state. The priestly establishment, the
   scribal class, the administrative apparatus.
-- **Military.** Carthaginian citizen-soldiers were a smaller
+- Military. Carthaginian citizen-soldiers were a smaller
   proportion of the army than in many ancient cities (the
   city relied heavily on mercenary contingents); the
   citizen-soldier role nevertheless existed.

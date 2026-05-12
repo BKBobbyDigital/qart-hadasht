@@ -122,7 +122,7 @@ the operational and strategic situation he faced.
 
 The Metaurus's significance is structural. Three observations.
 
-**Hannibal's reinforcement option was eliminated.** The
+Hannibal's reinforcement option was eliminated. The
 fifteen-year project of building Carthaginian Iberian power as
 the resource base for the Italian campaign came to its
 operational end at the Metaurus. No further Carthaginian army
@@ -130,14 +130,14 @@ would reach Italy from Iberia; the Carthaginian Iberian
 position was within months of the broader collapse that
 Scipio's victory at Ilipa in 206 BCE would complete.
 
-**The Italian campaign passed to long containment.** With no
+The Italian campaign passed to long containment. With no
 prospect of reinforcement, Hannibal's army was reduced to a
 political and military presence in southern Italy that Rome
 could afford to contain rather than engage. The pattern would
 continue for five years until the Carthaginian recall of
 Hannibal in 203 BCE for the campaign that culminated at Zama.
 
-**Modern scholarship's reading of the war's strategic decision.**
+Modern scholarship's reading of the war's strategic decision.
 Polybius and Livy treat the Metaurus as the war's structural
 turning point in their narratives; modern military scholarship
 generally agrees. Zama was the closing engagement that
