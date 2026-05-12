@@ -1,0 +1,44 @@
+slug: battle-of-bagradas-255
+name: Battle of the Bagradas (255 BCE)
+type: battle
+outcome: "Decisive Carthaginian victory; destruction of Regulus's African expedition"
+date_start:
+  value: -255
+  precision: year
+  notes: Spring 255 BCE, on the plains south of Tunis along the Bagradas (modern Medjerda) river valley.
+place: carthage
+participants:
+  - person: xanthippus
+    role: Carthaginian field commander (Spartan mercenary captain)
+    side: Carthaginian
+  - person: atilius-regulus
+    role: commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - goldsworthy-fall-carthage-2003
+related_events: []
+summary: >
+  Climactic battle of [Regulus's African expedition](/events/regulus-african-expedition).
+  After successive Carthaginian field disasters in 256 and
+  Regulus's advance to Tunis with harsh peace terms, Carthage
+  hired the Spartan mercenary captain
+  [Xanthippus](/people/xanthippus), who reorganized the
+  Carthaginian field army around combined-arms principles the
+  Carthaginian command had not previously employed effectively:
+  100 war elephants in a single line forward, a deep Carthaginian
+  and Libyan phalanx behind them, and a cavalry arm of
+  approximately 4,000 (Numidians, mercenary horse, and the
+  Carthaginian heavy cavalry) overwhelming the ~500-man Roman
+  mounted force by roughly eight to one. Regulus deployed in
+  deepened ranks to absorb the expected elephant charge; the
+  greater depth gave the elephants more men to crush rather than
+  absorb the impact, and the disordered Roman center was then
+  pressed by the advancing phalanx while the cavalry routed both
+  Roman wings and wheeled inward to close the trap. Roughly
+  12,000 Romans were killed and roughly 500 captured including
+  Regulus himself; approximately 2,000 of the Roman right wing
+  escaped to Aspis and were evacuated by the relief fleet that
+  arrived shortly after the battle. The defeat ended the Roman
+  African expedition and reset the strategic balance of the
+  First Punic War for the next decade.
