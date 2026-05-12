@@ -50,8 +50,9 @@ const config: BattleDiagramConfig = {
         { path: 'M 340 130 Q 360 138 380 130 Q 360 144 340 130 Z', fill: '#6b5638', stroke: '#3d2f1a', opacity: 0.55 },
       ],
       arrows: [
-        // Numidian feigned retreat draws Romans south across the river
-        { from: [200, 50], to: [200, 75], color: '#7f1d1d', dasharray: '3,2', width: 2 },
+        // Numidian feigned retreat draws Romans south across the river; two flanking arrows let the annotation sit between them
+        { from: [120, 50], to: [120, 75], color: '#7f1d1d', dasharray: '3,2', width: 2 },
+        { from: [280, 50], to: [280, 75], color: '#7f1d1d', dasharray: '3,2', width: 2 },
       ],
       annotations: [
         { x: 200, y: 64, text: 'Romans crossed cold, hungry, undeployed', size: 8, color: '#7f1d1d', italic: true },
@@ -106,7 +107,7 @@ const config: BattleDiagramConfig = {
       ],
       units: [
         // Roman center punching south through the Punic line — the breakout
-        { rect: { x: 140, y: 110, w: 120, h: 24 }, fill: '#dc2626', stroke: '#7f1d1d', strokeWidth: 1.5, label: '~10,000 break south to Placentia', labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 125, y: 110, w: 150, h: 24 }, fill: '#dc2626', stroke: '#7f1d1d', strokeWidth: 1.5, label: '~10,000 break south to Placentia', labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },
 
         // Punic line broken at the center where the Romans punched through
         { rect: { x: 80, y: 160, w: 60, h: 18 }, fill: '#fbbf24', stroke: '#92400e', label: 'Iberians', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },

@@ -43,14 +43,14 @@ const config: BattleDiagramConfig = {
         { rect: { x: 110, y: 155, w: 180, h: 18 }, fill: '#9ca3af', stroke: '#374151', label: '80 war elephants', labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },
 
         // Carthaginian (south side, facing north)
-        // Left wing cavalry (weak)
-        { rect: { x: 35, y: 195, w: 55, h: 20 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Punic cav. (weak)', labelPosition: 'below', labelSize: 8, labelColor: '#1a0410' },
+        // Left wing cavalry (weak); label above for symmetry with Tychaeus
+        { rect: { x: 35, y: 195, w: 55, h: 20 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Punic cav. (weak)', labelPosition: 'above', labelSize: 8, labelColor: '#1a0410' },
         // First line — Ligurian / Gallic mercenaries
         { rect: { x: 100, y: 200, w: 200, h: 16 }, fill: '#fbbf24', stroke: '#92400e', label: 'Ligurian / Gallic mercenaries', labelPosition: 'inside', labelSize: 9, labelColor: '#451a03', labelWeight: 600 },
         // Second line — Libyan / Carthaginian levies
         { rect: { x: 100, y: 222, w: 200, h: 16 }, fill: '#d97706', stroke: '#7c2d12', label: 'Libyan / Carthaginian levies', labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },
-        // Right wing cavalry — Tychaeus's Numidians (allied to Carthage)
-        { rect: { x: 310, y: 195, w: 55, h: 20 }, fill: '#92400e', stroke: '#451a03', label: 'Tychaeus (Numidian cav.)', labelPosition: 'below', labelSize: 8, labelColor: '#451a03' },
+        // Right wing cavalry — Tychaeus's Numidians (allied to Carthage); label above to clear the second-line rect below
+        { rect: { x: 310, y: 195, w: 55, h: 20 }, fill: '#92400e', stroke: '#451a03', label: 'Tychaeus (Numidian cav.)', labelPosition: 'above', labelSize: 8, labelColor: '#451a03' },
         // Third line — Hannibal's Italian veterans (set well back)
         { rect: { x: 100, y: 270, w: 200, h: 20 }, fill: '#3d0a21', stroke: '#1a0410', label: "Hannibal's veterans (held back)", labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },
       ],
@@ -129,8 +129,8 @@ const config: BattleDiagramConfig = {
       ],
       annotations: [
         { x: 200, y: 178, text: 'Frontal infantry struggle; even fight until…', size: 8, color: '#1a0410', italic: true },
-        { x: 200, y: 245, text: '…the Roman and Numidian cavalry return from pursuit', size: 8, color: '#5b0f31', italic: true },
-        { x: 200, y: 305, text: 'Hannibal’s veterans encircled and broken; Punic line collapses', size: 8, color: '#5b0f31', italic: true },
+        { x: 200, y: 295, text: '…the Roman and Numidian cavalry return from pursuit', size: 8, color: '#5b0f31', italic: true },
+        { x: 200, y: 312, text: 'Hannibal’s veterans encircled and broken; Punic line collapses', size: 8, color: '#5b0f31', italic: true },
       ],
     },
   ],
