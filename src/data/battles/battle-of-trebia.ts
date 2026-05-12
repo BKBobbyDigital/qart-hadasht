@@ -39,11 +39,11 @@ const config: BattleDiagramConfig = {
         { rect: { x: 120, y: 80, w: 160, h: 28 }, fill: '#dc2626', stroke: '#7f1d1d', label: 'Roman legions (cold, hungry)', labelPosition: 'inside', labelSize: 10, labelColor: '#fff', labelWeight: 600 },
         { rect: { x: 290, y: 80, w: 50, h: 18 }, fill: '#dc2626', stroke: '#7f1d1d', label: 'Roman cav.', labelPosition: 'above', labelSize: 8, labelColor: '#7f1d1d' },
 
-        // Punic main line south, well rested
+        // Punic main line south, well rested; elephants on the wings (decorative; legend explains)
         { rect: { x: 60, y: 180, w: 50, h: 18 }, fill: '#92400e', stroke: '#451a03', label: 'Numidian cav.', labelPosition: 'below', labelSize: 8, labelColor: '#451a03' },
-        { rect: { x: 120, y: 180, w: 30, h: 18 }, fill: '#9ca3af', stroke: '#374151', label: 'Elephants', labelPosition: 'below', labelSize: 7, labelColor: '#374151' },
+        { rect: { x: 120, y: 180, w: 30, h: 18 }, fill: '#9ca3af', stroke: '#374151' },
         { rect: { x: 155, y: 180, w: 90, h: 18 }, fill: '#fbbf24', stroke: '#92400e', label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
-        { rect: { x: 250, y: 180, w: 30, h: 18 }, fill: '#9ca3af', stroke: '#374151', label: 'Elephants', labelPosition: 'below', labelSize: 7, labelColor: '#374151' },
+        { rect: { x: 250, y: 180, w: 30, h: 18 }, fill: '#9ca3af', stroke: '#374151' },
         { rect: { x: 290, y: 180, w: 50, h: 18 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Punic cav.', labelPosition: 'below', labelSize: 8, labelColor: '#1a0410' },
 
         // Mago's ambush hidden in a watercourse between the lines (east flank)
@@ -79,9 +79,9 @@ const config: BattleDiagramConfig = {
         // Punic infantry advancing on Roman center
         { rect: { x: 155, y: 150, w: 90, h: 18 }, fill: '#fbbf24', stroke: '#92400e', label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
 
-        // Punic cavalry having driven off Roman wings (now circling round)
-        { rect: { x: 30, y: 100, w: 30, h: 18 }, fill: '#92400e', stroke: '#451a03', label: 'Numidians', labelPosition: 'above', labelSize: 7, labelColor: '#451a03' },
-        { rect: { x: 340, y: 100, w: 30, h: 18 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Punic cav.', labelPosition: 'above', labelSize: 7, labelColor: '#1a0410' },
+        // Punic cavalry having driven off Roman wings (now circling round); labels inside to avoid overlap with the dashed broken-cav rects
+        { rect: { x: 30, y: 100, w: 30, h: 18 }, fill: '#92400e', stroke: '#451a03', label: 'Numid.', labelPosition: 'inside', labelSize: 7, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 340, y: 100, w: 30, h: 18 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Punic', labelPosition: 'inside', labelSize: 7, labelColor: '#fff', labelWeight: 600 },
 
         // Mago still hidden, watching
         { path: 'M 340 130 Q 360 138 380 130 Q 360 144 340 130 Z', fill: '#6b5638', stroke: '#3d2f1a', opacity: 0.55 },
@@ -112,9 +112,9 @@ const config: BattleDiagramConfig = {
         { rect: { x: 80, y: 160, w: 60, h: 18 }, fill: '#fbbf24', stroke: '#92400e', label: 'Iberians', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
         { rect: { x: 260, y: 160, w: 60, h: 18 }, fill: '#fbbf24', stroke: '#92400e', label: 'Gauls', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
 
-        // Roman wings being destroyed
-        { rect: { x: 30, y: 80, w: 90, h: 22 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '4,3', opacity: 0.35, label: 'Roman left destroyed', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelItalic: true },
-        { rect: { x: 280, y: 80, w: 90, h: 22 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '4,3', opacity: 0.35, label: 'Roman right destroyed', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelItalic: true },
+        // Roman wings being destroyed; dark-red label on faded red for readability
+        { rect: { x: 30, y: 80, w: 90, h: 22 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '4,3', opacity: 0.35, label: 'Roman left destroyed', labelPosition: 'inside', labelSize: 8, labelColor: '#7f1d1d', labelItalic: true, labelWeight: 600 },
+        { rect: { x: 280, y: 80, w: 90, h: 22 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '4,3', opacity: 0.35, label: 'Roman right destroyed', labelPosition: 'inside', labelSize: 8, labelColor: '#7f1d1d', labelItalic: true, labelWeight: 600 },
 
         // Mago emerging behind Roman line
         { rect: { x: 130, y: 50, w: 140, h: 20 }, fill: '#3d0a21', stroke: '#1a0410', label: "Mago strikes Roman rear", labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },

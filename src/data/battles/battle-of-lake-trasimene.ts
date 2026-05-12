@@ -46,19 +46,16 @@ const config: BattleDiagramConfig = {
         { rect: { x: 306, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
         { rect: { x: 338, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
 
-        // Punic forces hidden in hills — at three concealed positions
-        { rect: { x: 60, y: 60, w: 60, h: 22 }, fill: '#5b0f31', stroke: '#1a0410', opacity: 0.75 },
-        { rect: { x: 170, y: 50, w: 60, h: 22 }, fill: '#3d0a21', stroke: '#1a0410', opacity: 0.75 },
-        { rect: { x: 280, y: 60, w: 60, h: 22 }, fill: '#92400e', stroke: '#451a03', opacity: 0.75 },
+        // Punic forces hidden in hills — labels inside the rects for contrast
+        { rect: { x: 40, y: 60, w: 90, h: 22 }, fill: '#5b0f31', stroke: '#1a0410', opacity: 0.85, label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 155, y: 50, w: 90, h: 22 }, fill: '#3d0a21', stroke: '#1a0410', opacity: 0.85, label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 7, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 270, y: 60, w: 90, h: 22 }, fill: '#92400e', stroke: '#451a03', opacity: 0.85, label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
       ],
       annotations: [
         { x: 200, y: 30, text: 'Hannibal hidden along the entire ridge line', size: 9, color: '#1a0410', italic: true, weight: 600 },
-        { x: 200, y: 130, text: 'narrow road in dawn fog', size: 8, color: '#a16207', italic: true },
+        { x: 200, y: 130, text: 'narrow road in dawn fog', size: 8, color: '#7c5b1e', italic: true },
         { x: 200, y: 192, text: 'Roman column (~25,000) strung out along several miles', size: 8, color: '#7f1d1d', italic: true },
         { x: 200, y: 290, text: 'Lake Trasimene', size: 10, color: '#0369a1', italic: true, weight: 600 },
-        { x: 90, y: 92, text: 'Iberian / Gallic', size: 7, color: '#fff', weight: 600 },
-        { x: 200, y: 82, text: 'Africans + Hannibal', size: 7, color: '#fff', weight: 600 },
-        { x: 310, y: 92, text: 'Numidian cav.', size: 7, color: '#fff', weight: 600 },
       ],
     },
     {
@@ -73,9 +70,9 @@ const config: BattleDiagramConfig = {
         { rect: { x: 0, y: 145, w: 400, h: 6 }, fill: '#fef3c7', stroke: '#a16207', strokeWidth: 0.5 },
 
         // Punic forces now sweeping down onto the road
-        { rect: { x: 50, y: 110, w: 80, h: 28 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
-        { rect: { x: 160, y: 110, w: 80, h: 28 }, fill: '#3d0a21', stroke: '#1a0410', label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
-        { rect: { x: 270, y: 110, w: 80, h: 28 }, fill: '#92400e', stroke: '#451a03', label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 40, y: 110, w: 90, h: 28 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 155, y: 110, w: 90, h: 28 }, fill: '#3d0a21', stroke: '#1a0410', label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 270, y: 110, w: 90, h: 28 }, fill: '#92400e', stroke: '#451a03', label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
 
         // Roman column now in chaos — fragmented, pinned against lake
         { rect: { x: 18, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
@@ -91,12 +88,12 @@ const config: BattleDiagramConfig = {
         { rect: { x: 338, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
       ],
       arrows: [
-        // Punic forces striking down at multiple points
-        { from: [80, 140], to: [80, 154], color: '#1a0410', width: 2.5 },
-        { from: [140, 140], to: [140, 154], color: '#1a0410', width: 2.5 },
-        { from: [200, 140], to: [200, 154], color: '#1a0410', width: 2.5 },
-        { from: [260, 140], to: [260, 154], color: '#1a0410', width: 2.5 },
-        { from: [320, 140], to: [320, 154], color: '#1a0410', width: 2.5 },
+        // Punic forces striking down at multiple points; arrowheads land on the road
+        { from: [80, 140], to: [80, 148], color: '#1a0410', width: 2.5 },
+        { from: [140, 140], to: [140, 148], color: '#1a0410', width: 2.5 },
+        { from: [200, 140], to: [200, 148], color: '#1a0410', width: 2.5 },
+        { from: [260, 140], to: [260, 148], color: '#1a0410', width: 2.5 },
+        { from: [320, 140], to: [320, 148], color: '#1a0410', width: 2.5 },
       ],
       annotations: [
         { x: 200, y: 30, text: 'Simultaneous attack along the whole column', size: 9, color: '#1a0410', italic: true, weight: 600 },

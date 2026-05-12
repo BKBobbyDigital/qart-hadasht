@@ -88,18 +88,18 @@ const config: BattleDiagramConfig = {
         { rect: { x: 35, y: 195, w: 55, h: 20 }, fill: '#5b0f31', stroke: '#1a0410', strokeDasharray: '3,2', opacity: 0.35, label: 'Punic cav. routed', labelPosition: 'below', labelSize: 7, labelColor: '#1a0410', labelItalic: true },
         { rect: { x: 310, y: 195, w: 55, h: 20 }, fill: '#92400e', stroke: '#451a03', strokeDasharray: '3,2', opacity: 0.35, label: 'Tychaeus routed', labelPosition: 'below', labelSize: 7, labelColor: '#451a03', labelItalic: true },
 
-        // Punic infantry lines still in position
-        { rect: { x: 100, y: 215, w: 200, h: 16 }, fill: '#fbbf24', stroke: '#92400e', label: 'Mercenaries', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
-        { rect: { x: 100, y: 235, w: 200, h: 16 }, fill: '#d97706', stroke: '#7c2d12', label: 'Libyan / Carthaginian', labelPosition: 'inside', labelSize: 8, labelColor: '#fff' },
-        { rect: { x: 100, y: 275, w: 200, h: 20 }, fill: '#3d0a21', stroke: '#1a0410', label: "Hannibal's veterans (waiting)", labelPosition: 'inside', labelSize: 8, labelColor: '#fff' },
+        // Punic infantry lines — same positions as Phase 1 for visual continuity
+        { rect: { x: 100, y: 200, w: 200, h: 16 }, fill: '#fbbf24', stroke: '#92400e', label: 'Mercenaries', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
+        { rect: { x: 100, y: 222, w: 200, h: 16 }, fill: '#d97706', stroke: '#7c2d12', label: 'Libyan / Carthaginian', labelPosition: 'inside', labelSize: 8, labelColor: '#fff' },
+        { rect: { x: 100, y: 270, w: 200, h: 20 }, fill: '#3d0a21', stroke: '#1a0410', label: "Hannibal's veterans (waiting)", labelPosition: 'inside', labelSize: 8, labelColor: '#fff' },
       ],
       arrows: [
         // Elephants funneling through channels
         { from: [200, 145], to: [170, 132], color: '#374151', width: 2 },
         { from: [200, 145], to: [235, 132], color: '#374151', width: 2 },
-        // Roman cavalry pursuit off-field (dashed projection)
-        { from: [80, 80], to: [20, 60], color: '#7f1d1d', dasharray: '3,2', width: 2 },
-        { from: [320, 80], to: [380, 60], color: '#92400e', dasharray: '3,2', width: 2 },
+        // Roman cavalry pursuit off-field (dashed projection); start outside cav rects
+        { from: [45, 80], to: [15, 60], color: '#7f1d1d', dasharray: '3,2', width: 2 },
+        { from: [355, 80], to: [385, 60], color: '#92400e', dasharray: '3,2', width: 2 },
       ],
       annotations: [
         { x: 200, y: 168, text: 'Elephants funneled through manipular channels', size: 8, color: '#374151', italic: true },
@@ -111,9 +111,9 @@ const config: BattleDiagramConfig = {
       label: 'Phase 3 · Cavalry return and the rear strike',
       title: 'The Roman cavalry returns and strikes Hannibal’s veterans in the rear',
       units: [
-        // First two Punic lines broken — faint dashed at edges
-        { rect: { x: 100, y: 60, w: 200, h: 22 }, fill: '#fbbf24', stroke: '#92400e', strokeDasharray: '4,3', opacity: 0.35, label: 'Mercenaries broken', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03', labelItalic: true },
-        { rect: { x: 100, y: 85, w: 200, h: 22 }, fill: '#d97706', stroke: '#7c2d12', strokeDasharray: '4,3', opacity: 0.35, label: 'Libyan / Carthaginian broken', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelItalic: true },
+        // First two Punic lines broken — faint dashed at edges; dark labels for readability on faded fills
+        { rect: { x: 100, y: 60, w: 200, h: 22 }, fill: '#fbbf24', stroke: '#92400e', strokeDasharray: '4,3', opacity: 0.35, label: 'Mercenaries broken', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03', labelItalic: true, labelWeight: 600 },
+        { rect: { x: 100, y: 85, w: 200, h: 22 }, fill: '#d97706', stroke: '#7c2d12', strokeDasharray: '4,3', opacity: 0.35, label: 'Libyan / Carthaginian broken', labelPosition: 'inside', labelSize: 8, labelColor: '#7c2d12', labelItalic: true, labelWeight: 600 },
         // Roman line re-formed, extended, facing the veterans
         { rect: { x: 80, y: 130, w: 240, h: 28 }, fill: '#dc2626', stroke: '#7f1d1d', strokeWidth: 1.5, label: 'Roman line re-formed and extended', labelPosition: 'inside', labelSize: 10, labelColor: '#fff', labelWeight: 600 },
         // Hannibal's veterans still in front, third line
@@ -123,9 +123,9 @@ const config: BattleDiagramConfig = {
         { rect: { x: 220, y: 255, w: 110, h: 22 }, fill: '#fde68a', stroke: '#92400e', label: 'Masinissa returns', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03' },
       ],
       arrows: [
-        // Cavalry strike upward into rear of veterans
-        { from: [125, 252], to: [125, 226], color: '#7f1d1d' },
-        { from: [275, 252], to: [275, 226], color: '#92400e' },
+        // Cavalry strike upward into the rear of the veterans
+        { from: [125, 252], to: [125, 218], color: '#7f1d1d' },
+        { from: [275, 252], to: [275, 218], color: '#92400e' },
       ],
       annotations: [
         { x: 200, y: 178, text: 'Frontal infantry struggle; even fight until…', size: 8, color: '#1a0410', italic: true },
