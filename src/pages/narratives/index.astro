@@ -3,8 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const narratives = await getCollection('narratives');
+const openQuestions = await getCollection('openQuestions');
+const editorialTakes = await getCollection('editorialTakes');
 
-// Group by scope
+// Group narratives by scope
 const byScope: Record<string, typeof narratives> = {
   biography: [],
   event: [],
@@ -23,43 +25,82 @@ for (const scope of Object.keys(byScope)) {
   byScope[scope].sort((a, b) => a.data.title.localeCompare(b.data.title));
 }
 
-const scopeLabels: Record<string, { title: string; description: string }> = {
+// Sort open questions and editorial takes alphabetically
+const sortedQuestions = [...openQuestions].sort((a: any, b: any) =>
+  (a.data.question || '').localeCompare(b.data.question || '')
+);
+const sortedTakes = [...editorialTakes].sort((a: any, b: any) =>
+  (a.data.subject_question || '').localeCompare(b.data.subject_question || '')
+);
+
+const scopeLabels: Record<string, { title: string; description: string; anchor: string }> = {
   biography: {
     title: 'Biographies',
     description: 'Long-form lives of the major figures.',
+    anchor: 'biographies',
   },
   event: {
     title: 'Event narratives',
     description: 'Continuous-prose treatments of specific events.',
+    anchor: 'events',
   },
   period: {
     title: 'Periods',
     description: 'Cross-event narratives of specific periods.',
+    anchor: 'periods',
   },
   theme: {
     title: 'Thematic',
     description: 'Cross-cutting interpretive essays.',
+    anchor: 'thematic',
   },
   debate: {
     title: 'Debates',
     description: 'Sustained treatments of contested historical questions.',
+    anchor: 'debates',
   },
 };
+
+// Build TOC entries dynamically (only sections with content)
+type TocItem = { label: string; anchor: string; count: number };
+const tocItems: TocItem[] = [];
+for (const [scope, label] of Object.entries(scopeLabels)) {
+  if (byScope[scope] && byScope[scope].length > 0) {
+    tocItems.push({ label: label.title, anchor: label.anchor, count: byScope[scope].length });
+  }
+}
+tocItems.push({ label: 'Editorial takes', anchor: 'editorial-takes', count: sortedTakes.length });
+tocItems.push({ label: 'Open questions', anchor: 'open-questions', count: sortedQuestions.length });
 ---
 
 <BaseLayout title="Narratives">
   <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="font-serif text-4xl sm:text-5xl mb-3">Narratives</h1>
-    <p class="text-sand-700 mb-8">
-      Long-form, continuous-prose treatments that complement the
-      claim-and-summary structure of individual entries. Each narrative
-      makes an argument; the underlying claims and sources are linked
-      throughout.
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">Synthesis</h1>
+    <p class="text-sand-700 mb-6">
+      The site's interpretive layer in three forms: long-form
+      narratives that make sustained arguments, formal editorial
+      takes that name a labeled position with opposition framing,
+      and open questions that treat the gaps as first-class
+      entities. Each piece links the underlying claims and
+      sources.
     </p>
+
+    <nav aria-label="Sections on this page" class="mb-12 border border-sand-300 rounded-lg p-4 bg-sand-50">
+      <p class="eyebrow mb-2">Jump to</p>
+      <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        {tocItems.map((item) => (
+          <li>
+            <a href={`#${item.anchor}`} class="text-tyrian-700 hover:underline">
+              {item.label} <span class="text-sand-700">({item.count})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
 
     {Object.entries(scopeLabels).map(([scope, label]) => (
       byScope[scope] && byScope[scope].length > 0 && (
-        <section class="mb-12">
+        <section id={label.anchor} class="mb-12 scroll-mt-24">
           <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">{label.title}</h2>
           <p class="text-sm text-sand-700 mb-4">{label.description}</p>
           <ul class="space-y-3">
@@ -75,5 +116,51 @@ const scopeLabels: Record<string, { title: string; description: string }> = {
         </section>
       )
     ))}
+
+    {sortedTakes.length > 0 && (
+      <section id="editorial-takes" class="mb-12 scroll-mt-24">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Editorial takes</h2>
+        <p class="text-sm text-sand-700 mb-4">
+          Formal labeled positions on contested or interpretive
+          questions, with competing readings named and weighed.
+        </p>
+        <ul class="space-y-3">
+          {sortedTakes.map((t: any) => (
+            <li>
+              <a href={`/editorialTakes/${t.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
+                <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{t.data.subject_question}</h3>
+                {t.data.position && (
+                  <p class="text-sm text-ink-900 mt-2">{t.data.position.slice(0, 240)}{t.data.position.length > 240 ? '...' : ''}</p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {sortedQuestions.length > 0 && (
+      <section id="open-questions" class="mb-12 scroll-mt-24">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Open questions</h2>
+        <p class="text-sm text-sand-700 mb-4">
+          Gaps in the surviving record treated as first-class
+          entities. Each names the question, summarizes what the
+          evidence does and does not support, and weighs the
+          candidate answers.
+        </p>
+        <ul class="space-y-3">
+          {sortedQuestions.map((q: any) => (
+            <li>
+              <a href={`/openQuestions/${q.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
+                <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{q.data.question}</h3>
+                {q.data.why_unknown && (
+                  <p class="text-sm text-ink-900 mt-2">{q.data.why_unknown.slice(0, 240)}{q.data.why_unknown.length > 240 ? '...' : ''}</p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </div>
 </BaseLayout>
