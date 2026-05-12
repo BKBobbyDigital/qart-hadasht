@@ -4,8 +4,8 @@ scope: biography
 thesis: >
   Mago Barca was the Barcid commander who held Carthaginian
   operational presence in two theatres across the long-attrition
-  phase of the Second Punic War — Iberia through 206 BCE, then
-  northern Italy through 203 — while Hannibal was substantively
+  phase of the Second Punic War (Iberia through 206 BCE, then
+  northern Italy through 203) while Hannibal was substantively
   stuck in southern Italy without operational reinforcement and
   Hasdrubal Barca had been killed at the Metaurus. His career
   is the least-foregrounded of the three Barcid brothers in the
@@ -13,10 +13,10 @@ thesis: >
   moment of the kind that anchored Hannibal at Cannae or
   dramatized Hasdrubal at the Metaurus, but the structural
   significance of his operational continuity is substantial.
-  Read as an integrated arc — Cannae reserve and diplomatic
-  mission, Iberian multi-general command, Balearic winter,
-  Ligurian landing, two-year Po valley campaign, death at sea
-  — Mago's career is the load-bearing thread of Carthaginian
+  Read as an integrated arc (Cannae African-infantry command and
+  diplomatic mission, Iberian multi-general command, Balearic
+  winter, Ligurian landing, two-year Po valley campaign, death
+  at sea), Mago's career is the load-bearing thread of Carthaginian
   field operations outside Hannibal's own position across the
   final decade of the war.
 primary_entities:
@@ -67,20 +67,24 @@ field capacity rested substantively on him.
 
 ## Cannae and the diplomatic mission (216 BCE)
 
-Mago commanded the African heavy infantry reserve at
-[Cannae](/events/battle-of-cannae), the formation Hannibal held
-back from the initial line and committed to the encirclement
-maneuver after the Roman center had pushed forward against the
-deliberately yielding Carthaginian Spanish-Celtic infantry. The
-reserve's flanking advance closed the trap that produced the
-roughly 50,000 Roman dead and the most complete tactical
-envelopment in the surviving record of ancient warfare. Polybius
-names Mago specifically as the reserve commander (3.114); Livy
-gives a parallel account at 22.46. The role is operationally
-significant: the reserve was the formation whose timing
-determined whether the deliberate-yield maneuver in the
+Mago commanded a wing of the African heavy infantry at
+[Cannae](/events/battle-of-cannae), the formation that executed
+the inward-pivot maneuver against the Roman flanks after the
+Roman center had pushed forward against the deliberately
+yielding Carthaginian Spanish-Celtic infantry. The conventional
+modern reading of the African infantry's role is as a held-back
+reserve committed at the decisive moment; current scholarship
+(Lazenby, Daly) reads the formation more as wings deployed
+alongside the center that pivoted inward as the Roman advance
+created the flanking opportunity. Either reading attributes
+operational significance to the African infantry's timing,
+which determined whether the deliberate-yield maneuver in the
 Carthaginian center produced a controlled encirclement or a
-collapse.
+collapse. Polybius (3.114) names Mago specifically among the
+commanders; Livy 22.46 gives a parallel account. The
+encirclement produced the roughly 50,000 Roman dead and the
+most complete tactical envelopment in the surviving record of
+ancient warfare.
 
 After the battle Hannibal sent Mago back to Carthage to deliver
 news of the victory and to argue for reinforcements. The mission
@@ -167,33 +171,32 @@ The decisive engagement of the campaign was the
 [Battle of the Insubres](/events/battle-of-the-insubres-203) in
 the late summer of 203 BCE, in which Roman forces under the
 consul Quinctilius Varus and the praetor Cornelius Cethegus
-defeated Mago's army in a pitched battle. Mago was wounded —
-the surviving sources are not specific about the nature of the
-wound but describe it as serious — and the Carthaginian
+defeated Mago's army in a pitched battle. Mago was wounded
+(the surviving sources are not specific about the nature of
+the wound but describe it as serious), and the Carthaginian
 operation collapsed. The Carthaginian senate had by then
 recalled Mago to defend the African heartland against Scipio's
 expedition; he embarked from the Ligurian coast with the
 surviving forces and died at sea on the voyage south, never
 reaching Carthage.
 
-## The Sardinian-recapture attempt and the wider operational range
+## The wider operational context
 
-Beyond the principal Iberian and Italian theatres, the surviving
-record preserves traces of a Mago-associated attempt at
-Sardinian recapture during the Iberian-command period. Livy
-(23.40–41) attests a 215 BCE Carthaginian expedition to
-Sardinia under Hasdrubal "the Bald" — operationally distinct
-from Hasdrubal Barca — designed to exploit Sardinian
-discontent with Roman rule and recover the island Carthage had
-lost to Roman seizure in the 238 BCE post-Mercenary-War crisis.
-The expedition failed (defeated by the Roman praetor Titus
-Manlius Torquatus), and Mago's direct command role in it is
-not attested; what the episode shows is the wider
-Carthaginian operational range during the years Mago was in
-Iberia and the strategic options the Barcid command structure
-was considering. The Sardinian seizure of 238 is treated under
-the [Mercenary War narrative](/narratives/the-mercenary-war)
-as one of the structural conditions that shaped the Barcid
+Mago operated in Iberia during the same period in which the
+Carthaginian senate authorized other extra-peninsular
+initiatives. Livy 23.40–41 attests a 215 BCE Carthaginian
+expedition to Sardinia under Hasdrubal "the Bald"
+(operationally distinct from Hasdrubal Barca), designed to
+exploit Sardinian discontent with Roman rule and recover the
+island Carthage had lost in the 238 BCE post-Mercenary-War
+crisis. The expedition was defeated by the Roman praetor Titus
+Manlius Torquatus. Mago had no attested role in it. The
+episode is worth noting only because it shows the strategic
+options the Carthaginian senate was considering during the
+years of Mago's Iberian command, and the Sardinian seizure of
+238 is itself treated under the
+[Mercenary War narrative](/narratives/the-mercenary-war) as
+one of the structural conditions that shaped the Barcid
 political orientation toward Rome.
 
 ## What the arc adds up to
@@ -201,7 +204,7 @@ political orientation toward Rome.
 Read as an integrated arc, Mago's career has structural
 features the individual moments do not foreground. He was the
 Barcid commander whose operational range extended widest
-geographically across the war — the African home theatre as a
+geographically across the war: the African home theatre as a
 diplomatic envoy, the southern Italian theatre as a Cannae
 reserve commander, the Iberian theatre for nine years, the
 Balearic Islands as a wintering base, the Ligurian and Po
@@ -212,7 +215,7 @@ during the African endgame interval. His death in 203 BCE,
 combined with Hasdrubal Barca's earlier death at the Metaurus,
 left Hannibal without Barcid field-command support during the
 African endgame and substantively shaped the
-[Zama](/events/battle-of-zama) outcome — Hannibal at Zama was
+[Zama](/events/battle-of-zama) outcome. Hannibal at Zama was
 the last surviving Barcid commander in the field, and the
 narrowing of the Barcid command structure to a single point of
 failure was a structural condition of the African defeat.

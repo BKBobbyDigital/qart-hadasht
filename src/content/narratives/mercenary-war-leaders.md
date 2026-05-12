@@ -1,12 +1,12 @@
 ---
-title: The Mercenary War leaders — Spendius, Mathos, Autaritus
+title: "The Mercenary War leaders: Spendius, Mathos, Autaritus"
 scope: biography
 thesis: >
-  The three principal rebel commanders of the Mercenary War —
-  Spendius the escaped Campanian slave, Mathos the Libyan, and
-  Autaritus the Gallic-contingent leader — operated as a
-  coordinated leadership configuration whose composition was
-  itself the load-bearing structural feature of the revolt. Each
+  The three principal rebel commanders the Polybian record
+  foregrounds (Spendius the escaped Campanian slave, Mathos the
+  Libyan, and Autaritus the Gallic-contingent leader) operated
+  as a coordinated leadership configuration whose composition
+  was itself the load-bearing structural feature of the revolt. Each
   commanded a distinct ethnic-political constituency within the
   rebel coalition; their integration depended on overlapping
   command languages and on the shared survival stake that
@@ -61,10 +61,13 @@ rebel coalition was the structural achievement that made the
 war the most existentially dangerous conflict Carthage faced
 before 149 BCE.
 
-The three principal rebel commanders preserved in the
-Polybian record — [Spendius](/people/spendius),
-[Mathos](/people/mathos), and [Autaritus](/people/autaritus)
-— map onto these three constituencies. Spendius commanded the
+The three principal rebel commanders the Polybian record
+foregrounds, [Spendius](/people/spendius),
+[Mathos](/people/mathos), and [Autaritus](/people/autaritus),
+map onto these three constituencies (other rebel leaders
+appear at lower resolution, Zarzas among them, and Naravas
+served on the rebel side before his defection to Hamilcar in
+238). Spendius commanded the
 mercenary contingents and held the strategic-political position
 of the rebellion's most committed spokesman. Mathos commanded
 the Libyan adherence and held the manpower-weight position
@@ -77,7 +80,7 @@ apart under [Hamilcar Barca's](/people/hamilcar-barca)
 pressure, but its initial integration carried the rebellion
 through its first three years.
 
-## Spendius — the existential stake
+## Spendius: the existential stake
 
 [Spendius's](/people/spendius) position within the leadership
 configuration rested on a structural feature the Polybian
@@ -123,7 +126,7 @@ character as a movement of structurally marginal populations
 united by opposition to the Carthaginian fiscal-military state
 is what Spendius's leadership most fully embodied.
 
-## Mathos — the manpower weight
+## Mathos: the manpower weight
 
 [Mathos's](/people/mathos) position within the configuration
 rested on a different structural feature: the Libyan-African
@@ -158,9 +161,9 @@ Spendius. Spendius is framed as the escaped-slave figure
 whose personal stake explains his rigidity; Mathos is framed
 as the resistance leader whose authority over the Libyan
 revolt makes him the principal target of the post-war
-Carthaginian response. His execution at Tunis — paraded
+Carthaginian response. His execution at Tunis (paraded
 through the streets in a humiliating procession before
-death — is preserved with the ceremonial detail that the
+death) is preserved with the ceremonial detail that the
 Polybian narrative reserves for moments of Carthaginian state
 triumph (1.88). The ritualized public character of the
 execution is one of the few moments where the surviving
@@ -168,23 +171,24 @@ record opens a window onto Carthaginian state ceremony, and
 it is itself evidence of the structural significance the
 Carthaginian state attached to Mathos's leadership.
 
-## Autaritus — the cross-coalition linguistic position
+## Autaritus: the cross-coalition linguistic position
 
 [Autaritus's](/people/autaritus) position within the
 configuration rested on a feature Polybius preserves with
 unusual specificity (1.80): he had served long enough with
-Carthaginian forces to command Punic, and was apparently the
-only rebel leader who could address the combined coalition in
-the language of the state they had revolted against. The
-linguistic position carried real coordination weight. The
-rebel coalition contained at least six identifiable language
-groups (Greek, Latin/Italian, Punic, Libyan, Iberian, Celtic);
-the Gallic contingent under Autaritus had its own Celtic
-languages internally and used Greek as a secondary
-communication language with the Sicilian-veterans pool. The
-ability to address the whole coalition in Punic — the
-language of Carthaginian military command that all of the
-veterans had operational familiarity with — was a substantive
+Carthaginian forces to command Phoenician (Polybius's term is
+Φοινικιστὶ, the Punic of the Carthaginian command system),
+and was the only rebel leader who could address the combined
+coalition in the language of the state they had revolted
+against. The linguistic position carried real coordination
+weight. The rebel coalition contained at least six identifiable
+language groups (Greek, Latin and Italian dialects, Punic,
+Libyan, Iberian, Celtic). The Gallic contingent under Autaritus
+had its own Celtic languages internally and used Greek as a
+secondary communication language with the Sicilian-veterans
+pool. The ability to address the whole coalition in Punic,
+the language of Carthaginian military command that all of the
+veterans had operational familiarity with, was a substantive
 political-military asset that the Polybian record treats as
 load-bearing for the coalition's cohesion.
 
@@ -193,8 +197,8 @@ character is preserved at Polybius 1.80. After the killing of
 Gisco and the Carthaginian envoys, the question whether to
 return any Carthaginian prisoners of war became a coalition-
 level political crisis. Autaritus is preserved as the advocate
-of the rejectionist position — torture and execute the
-prisoners rather than return them — and the Polybian
+of the rejectionist position (torture and execute the
+prisoners rather than return them), and the Polybian
 narrative attributes the coalition's adoption of the
 rejectionist position partly to his cross-language ability to
 make the case to all three constituencies at once. The
@@ -222,10 +226,10 @@ operational coordination across a multi-year campaign against
 the most militarily capable state in the western Mediterranean.
 
 This does not soften what the war actually was. The reciprocal
-atrocities the Polybian narrative documents — the killing of
+atrocities the Polybian narrative documents (the killing of
 Carthaginian envoys, the torture and execution of prisoners,
-the Carthaginian counter-atrocities under Hamilcar and the
-crucifixions of captured rebel commanders at the war's close —
+the Carthaginian counter-atrocities under Hamilcar, the
+crucifixions of captured rebel commanders at the war's close)
 are not literary fabrication. The truceless-war framing
 captures a real feature of the conflict's character, treated
 under the [structural-atrocity editorial take](/editorialTakes/mercenary-war-atrocity-structural)
@@ -241,15 +245,18 @@ condition of the rebellion's survival into 238.
 
 The configuration broke apart in 238 BCE under
 [Hamilcar Barca's](/people/hamilcar-barca) operations. The
-[Battle of the Saw](/events/battle-of-the-saw) — the
-encirclement at the defile in which Spendius and Autaritus
-were captured — was the operational success that removed two
-of the three principal rebel commanders simultaneously. Both
-were crucified outside the walls of Tunis, the reciprocal
-atrocity that punctuated the war's final phase. Mathos
-survived another short interval before the final engagement
-near Tunis, where he was captured and paraded through the
-streets of Carthage before his execution. The end of the
+[Battle of the Saw](/events/battle-of-the-saw) trapped
+Spendius's force at the defile and forced negotiations;
+Polybius 1.85 attests that Spendius and the other rebel
+envoys were seized during the truce-parley itself, the
+Carthaginians treating the parley as a tactical opportunity
+rather than as a settlement. Autaritus appears to have been
+captured in the same operational sequence. Both were
+crucified outside the walls of Tunis, the reciprocal atrocity
+that punctuated the war's final phase. Mathos survived
+another short interval before the final engagement near
+Tunis, where he was captured and paraded through the streets
+of Carthage before his execution. The end of the
 configuration was the end of the war; the three commanders
 who had held the coalition together through three years of
 existential conflict against the Carthaginian state died
@@ -257,7 +264,7 @@ within months of each other in the climactic 238 BCE phase.
 
 The collective biographical treatment is what the surviving
 sources support. Each commander as an individual figure
-appears in the record at limited resolution — Spendius at
+appears in the record at limited resolution: Spendius at
 the most detailed (Polybius gives him substantial narrative
 weight), Mathos at moderate resolution, Autaritus at the
 least. Together as a unit they constitute the leadership
@@ -265,11 +272,11 @@ configuration of one of the most consequential conflicts in
 pre-146 BCE Carthaginian history, and the structural pattern
 of their integration is preserved with enough detail to
 recover. The broader political and structural conditions of
-the war — the pay dispute that originated it, the Libyan
+the war (the pay dispute that originated it, the Libyan
 adherence that scaled it, the truceless character that
 defined its conduct, the Sardinian seizure that Rome
 extracted from its outcome, the Barcid political authority
-that Hamilcar's suppression of it produced — are treated in
+that Hamilcar's suppression of it produced) are treated in
 the [Mercenary War narrative](/narratives/the-mercenary-war).
 This narrative is the parallel treatment of the rebel
 leadership as a coherent biographical unit.
