@@ -5,6 +5,10 @@
  * Reads a BattleDiagramConfig (units, arrows, annotations per phase plus
  * a shared legend and caption) and renders the SVG figure. Each battle's
  * config lives at src/data/battles/<event-slug>.ts.
+ *
+ * Each phase tile is a button that opens a fullscreen <dialog> showing
+ * the enlarged SVG with prev/next navigation, keyboard arrow keys, and
+ * tap-on-backdrop-to-close behavior.
  */
 import type {
   BattleDiagramConfig,
@@ -19,32 +23,23 @@ interface Props {
 }
 const { config, idPrefix } = Astro.props;
 
-function unitCenter(u: BattleUnit): { cx: number; cy: number } | null {
-  if (u.rect) {
-    return { cx: u.rect.x + u.rect.w / 2, cy: u.rect.y + u.rect.h / 2 };
-  }
-  return null;
-}
-
-function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central' | 'auto' } {
+function unitLabelPos(u: BattleUnit): { x: number; y: number } {
   const offset = u.labelOffset ?? 6;
   if (u.rect) {
     const cx = u.rect.x + u.rect.w / 2;
     if (u.labelPosition === 'above') {
-      return { x: cx, y: u.rect.y - offset, baseline: 'auto' };
+      return { x: cx, y: u.rect.y - offset };
     }
     if (u.labelPosition === 'below') {
-      return { x: cx, y: u.rect.y + u.rect.h + offset + 4, baseline: 'auto' };
+      return { x: cx, y: u.rect.y + u.rect.h + offset + 4 };
     }
-    // inside / center
-    return { x: cx, y: u.rect.y + u.rect.h / 2 + 3, baseline: 'auto' };
+    return { x: cx, y: u.rect.y + u.rect.h / 2 + 3 };
   }
-  // Path-based units: caller must put labels via annotations.
-  return { x: 0, y: 0, baseline: 'auto' };
+  return { x: 0, y: 0 };
 }
 ---
 
-<figure class="my-8">
+<figure class="my-8" data-battle-diagram>
   <h2 class="font-serif text-xl mb-3" style="border: none; padding: 0;">
     {config.heading}
   </h2>
@@ -56,21 +51,24 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
       const titleId = `${idPrefix}-phase-${idx + 1}-title`;
       const markerId = `${idPrefix}-arrow-${idx + 1}`;
       return (
-        <div class="border border-sand-300 rounded-lg bg-sand-50 p-4">
-          <div class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-2">{phase.label}</div>
+        <button
+          type="button"
+          class="phase-tile group block w-full text-left border border-sand-300 rounded-lg bg-sand-50 p-4 hover:bg-[#faf6ec] hover:border-tyrian-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-tyrian-700 active:bg-purple-100 transition-colors cursor-zoom-in"
+          data-phase-index={idx}
+          aria-label={`Open enlarged view of ${phase.label}`}
+        >
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] uppercase tracking-widest font-bold text-sand-700" data-phase-label>{phase.label}</span>
+            <span class="text-[10px] text-sand-600 opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity">tap to enlarge ⤢</span>
+          </div>
           <svg viewBox={viewBox} xmlns="http://www.w3.org/2000/svg" class="w-full" role="img" aria-labelledby={titleId}>
             <title id={titleId}>{phase.title}</title>
-
             <defs>
               <marker id={markerId} markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
                 <path d="M0,0 L0,6 L9,3 z" fill="#1a0410"/>
               </marker>
             </defs>
-
-            {/* Background */}
             <rect x="0" y="0" width="400" height="320" fill={bg}/>
-
-            {/* North arrow */}
             {phase.northArrow && (
               <g transform="translate(20, 25)">
                 <line x1="0" y1="10" x2="0" y2="-8" stroke="#6b5638" stroke-width="1.5"/>
@@ -78,8 +76,6 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
                 <text x="6" y="2" font-size="9" fill="#6b5638">N</text>
               </g>
             )}
-
-            {/* Rivers */}
             {(phase.rivers ?? []).map((r) => (
               <>
                 <path d={r.path} stroke={r.color ?? '#7dd3fc'} stroke-width={r.width ?? 2} fill="none" opacity={r.opacity ?? 0.7}/>
@@ -88,8 +84,6 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
                 )}
               </>
             ))}
-
-            {/* Units */}
             {phase.units.map((u) => {
               const labelPos = unitLabelPos(u);
               const labelColor = u.labelColor ?? (u.labelPosition === 'inside' || u.labelPosition === 'center' ? '#fff' : '#1a0410');
@@ -143,8 +137,6 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
                 </>
               );
             })}
-
-            {/* Arrows */}
             {(phase.arrows ?? []).map((a) => (
               <path
                 d={`M ${a.from[0]} ${a.from[1]} L ${a.to[0]} ${a.to[1]}`}
@@ -155,8 +147,6 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
                 marker-end={`url(#${markerId})`}
               />
             ))}
-
-            {/* Annotations */}
             {(phase.annotations ?? []).map((an) => (
               <text
                 x={an.x}
@@ -169,7 +159,7 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
               >{an.text}</text>
             ))}
           </svg>
-        </div>
+        </button>
       );
     })}
   </div>
@@ -184,4 +174,184 @@ function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central
   </div>
 
   <figcaption class="mt-3 text-xs text-sand-700 italic">{config.caption}</figcaption>
+
+  <dialog data-battle-dialog class="battle-dialog">
+    <div class="battle-dialog-inner">
+      <header class="battle-dialog-header">
+        <div>
+          <p class="text-[11px] uppercase tracking-widest font-bold text-sand-700" data-dialog-label></p>
+          <p class="text-xs text-sand-600 mt-0.5">
+            <span data-dialog-current>1</span> / {config.phases.length}
+          </p>
+        </div>
+        <button type="button" class="battle-dialog-close" data-dialog-close aria-label="Close enlarged view">×</button>
+      </header>
+      <div class="battle-dialog-svg" data-dialog-svg></div>
+      <footer class="battle-dialog-footer">
+        <button type="button" class="battle-dialog-nav" data-dialog-prev aria-label="Previous phase">‹ Previous</button>
+        <button type="button" class="battle-dialog-nav" data-dialog-next aria-label="Next phase">Next ›</button>
+      </footer>
+    </div>
+  </dialog>
 </figure>
+
+<style>
+  .battle-dialog {
+    border: none;
+    padding: 0;
+    background: transparent;
+    max-width: min(96vw, 1200px);
+    width: 96vw;
+    max-height: 96vh;
+  }
+  .battle-dialog::backdrop {
+    background: rgba(17, 17, 17, 0.85);
+    backdrop-filter: blur(2px);
+  }
+  .battle-dialog-inner {
+    background: #f4f0e6;
+    border-radius: 0.75rem;
+    border: 1px solid #d6cdb5;
+    padding: 1rem 1.25rem 1.25rem;
+    max-height: 96vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .battle-dialog-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .battle-dialog-close {
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 1.75rem;
+    line-height: 1;
+    padding: 0.125rem 0.625rem;
+    border-radius: 0.375rem;
+    color: #5b0f31;
+    cursor: pointer;
+  }
+  .battle-dialog-close:hover,
+  .battle-dialog-close:focus-visible {
+    background: #faf6ec;
+    border-color: #5b0f31;
+    outline: none;
+  }
+  .battle-dialog-svg {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+  .battle-dialog-svg svg {
+    width: 100%;
+    height: auto;
+    max-height: 78vh;
+    display: block;
+  }
+  .battle-dialog-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #d6cdb5;
+  }
+  .battle-dialog-nav {
+    background: transparent;
+    border: 1px solid #d6cdb5;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.875rem;
+    font-size: 0.875rem;
+    color: #5b0f31;
+    cursor: pointer;
+  }
+  .battle-dialog-nav:hover:not(:disabled),
+  .battle-dialog-nav:focus-visible:not(:disabled) {
+    background: #faf6ec;
+    border-color: #5b0f31;
+    outline: none;
+  }
+  .battle-dialog-nav:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+</style>
+
+<script>
+  function wireBattleDiagram(fig: HTMLElement) {
+    const dialog = fig.querySelector('[data-battle-dialog]') as HTMLDialogElement | null;
+    if (!dialog) return;
+    const svgHost = fig.querySelector('[data-dialog-svg]') as HTMLElement;
+    const labelEl = fig.querySelector('[data-dialog-label]') as HTMLElement;
+    const currentEl = fig.querySelector('[data-dialog-current]') as HTMLElement;
+    const prevBtn = fig.querySelector('[data-dialog-prev]') as HTMLButtonElement;
+    const nextBtn = fig.querySelector('[data-dialog-next]') as HTMLButtonElement;
+    const closeBtn = fig.querySelector('[data-dialog-close]') as HTMLButtonElement;
+    const tiles = Array.from(fig.querySelectorAll('[data-phase-index]')) as HTMLElement[];
+    let current = 0;
+
+    function show(idx: number) {
+      if (idx < 0 || idx >= tiles.length) return;
+      current = idx;
+      const tile = tiles[idx];
+      const sourceSvg = tile.querySelector('svg');
+      if (!sourceSvg) return;
+      const clone = sourceSvg.cloneNode(true) as SVGSVGElement;
+      clone.removeAttribute('class');
+      svgHost.replaceChildren(clone);
+      const labelText = tile.querySelector('[data-phase-label]')?.textContent ?? '';
+      labelEl.textContent = labelText;
+      currentEl.textContent = String(idx + 1);
+      prevBtn.disabled = idx === 0;
+      nextBtn.disabled = idx === tiles.length - 1;
+    }
+
+    tiles.forEach((tile) => {
+      tile.addEventListener('click', () => {
+        show(parseInt(tile.dataset.phaseIndex || '0', 10));
+        if (!dialog.open) dialog.showModal();
+      });
+    });
+
+    prevBtn.addEventListener('click', () => show(current - 1));
+    nextBtn.addEventListener('click', () => show(current + 1));
+    closeBtn.addEventListener('click', () => dialog.close());
+
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+
+    dialog.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        show(current - 1);
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        show(current + 1);
+      }
+    });
+
+    // Touch swipe
+    let touchStartX = 0;
+    let touchStartY = 0;
+    dialog.addEventListener('touchstart', (e) => {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+    dialog.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      const dy = e.changedTouches[0].clientY - touchStartY;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+        if (dx < 0) show(current + 1);
+        else show(current - 1);
+      }
+    }, { passive: true });
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-battle-diagram]').forEach(wireBattleDiagram);
+</script>
