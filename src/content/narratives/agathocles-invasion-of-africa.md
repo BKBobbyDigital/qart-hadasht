@@ -51,6 +51,26 @@ concentrated elsewhere. He made for the North African coast. The voyage
 took about six days. The fleet landed somewhere on the Cap Bon
 peninsula, southeast of Carthage.
 
+On the second day at sea the fleet witnessed a total solar eclipse.
+Diodorus (20.5.5) preserves the moment: the eclipse was so complete
+that stars appeared in many places, the soldiers were terrified, and
+Agathocles had to reassure them that the omen favored the Greeks and
+not the Carthaginians. The event is one of the firmest chronological
+pegs in ancient military history. Modern astronomical back-calculation
+places it on 15 August 310 BCE, with the path of totality crossing
+the central Mediterranean between Sicily and Cap Bon, which fixes
+the African expedition's date with a precision unusual for
+fourth-century BCE events. The British astronomer P. H. Cowell
+([Cowell 1906](/sources/cowell-agathocles-eclipse-1906)) worked the
+puzzle from the other direction, using the eclipse as an astronomical
+constraint on the fleet's actual position at the moment of totality.
+His paper is an early instance of a long tradition of using ancient
+eclipse observations to refine both ancient chronology and modern
+lunar theory; the Agathocles eclipse is one of the canonical anchor
+points of that tradition, alongside the 763 BCE Assyrian eclipse and
+a handful of other narrative-and-eclipse records preserved across
+the ancient Mediterranean and Near East.
+
 What followed is the moment the campaign is most remembered for.
 Agathocles's army landed on a coastline they did not know, with no
 secure base, no supply line, and the option of retreating to Sicily
