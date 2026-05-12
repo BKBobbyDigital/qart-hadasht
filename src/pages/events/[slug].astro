@@ -5,7 +5,8 @@ import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
 import HistoricalMap from '../../components/HistoricalMap.astro';
-import CannaeDiagram from '../../components/CannaeDiagram.astro';
+import BattleDiagram from '../../components/BattleDiagram.astro';
+import type { BattleDiagramConfig } from '../../lib/battleDiagram';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import Bibliography from '../../components/Bibliography.astro';
@@ -21,6 +22,16 @@ const mapConfigs: Record<string, any> = {};
 for (const [path, mod] of Object.entries(mapModules)) {
   const stem = path.split('/').pop()!.replace(/\.json$/, '');
   mapConfigs[stem] = (mod as any).default ?? mod;
+}
+
+// Eagerly import every battle diagram config under src/data/battles/*.ts.
+// The event render route auto-detects a config matching the event slug
+// and embeds the diagram, no per-slug check.
+const battleModules = import.meta.glob('../../data/battles/*.ts', { eager: true });
+const battleConfigs: Record<string, BattleDiagramConfig> = {};
+for (const [path, mod] of Object.entries(battleModules)) {
+  const stem = path.split('/').pop()!.replace(/\.ts$/, '');
+  battleConfigs[stem] = (mod as any).default;
 }
 
 export async function getStaticPaths() {
@@ -348,7 +359,9 @@ const infoboxRows: InfoboxRow[] = [
       />
     )}
 
-    {event.id === 'battle-of-cannae' && <CannaeDiagram />}
+    {battleConfigs[event.id] && (
+      <BattleDiagram config={battleConfigs[event.id]} idPrefix={event.id} />
+    )}
 
     {hasContext && (
       <section class="mt-8">

@@ -1,0 +1,187 @@
+---
+/**
+ * Data-driven battle diagram renderer.
+ *
+ * Reads a BattleDiagramConfig (units, arrows, annotations per phase plus
+ * a shared legend and caption) and renders the SVG figure. Each battle's
+ * config lives at src/data/battles/<event-slug>.ts.
+ */
+import type {
+  BattleDiagramConfig,
+  BattlePhase,
+  BattleUnit,
+} from '../lib/battleDiagram';
+
+interface Props {
+  config: BattleDiagramConfig;
+  /** Stable id prefix for arrow markers and a11y titles. Usually the battle slug. */
+  idPrefix: string;
+}
+const { config, idPrefix } = Astro.props;
+
+function unitCenter(u: BattleUnit): { cx: number; cy: number } | null {
+  if (u.rect) {
+    return { cx: u.rect.x + u.rect.w / 2, cy: u.rect.y + u.rect.h / 2 };
+  }
+  return null;
+}
+
+function unitLabelPos(u: BattleUnit): { x: number; y: number; baseline: 'central' | 'auto' } {
+  const offset = u.labelOffset ?? 6;
+  if (u.rect) {
+    const cx = u.rect.x + u.rect.w / 2;
+    if (u.labelPosition === 'above') {
+      return { x: cx, y: u.rect.y - offset, baseline: 'auto' };
+    }
+    if (u.labelPosition === 'below') {
+      return { x: cx, y: u.rect.y + u.rect.h + offset + 4, baseline: 'auto' };
+    }
+    // inside / center
+    return { x: cx, y: u.rect.y + u.rect.h / 2 + 3, baseline: 'auto' };
+  }
+  // Path-based units: caller must put labels via annotations.
+  return { x: 0, y: 0, baseline: 'auto' };
+}
+---
+
+<figure class="my-8">
+  <h2 class="font-serif text-xl mb-3" style="border: none; padding: 0;">
+    {config.heading}
+  </h2>
+
+  <div class={config.phases.length >= 3 ? 'grid lg:grid-cols-3 gap-4' : 'grid lg:grid-cols-2 gap-4'}>
+    {config.phases.map((phase: BattlePhase, idx: number) => {
+      const viewBox = phase.viewBox ?? '0 0 400 320';
+      const bg = phase.background ?? '#faf7f2';
+      const titleId = `${idPrefix}-phase-${idx + 1}-title`;
+      const markerId = `${idPrefix}-arrow-${idx + 1}`;
+      return (
+        <div class="border border-sand-300 rounded-lg bg-sand-50 p-4">
+          <div class="text-[11px] uppercase tracking-widest font-bold text-sand-700 mb-2">{phase.label}</div>
+          <svg viewBox={viewBox} xmlns="http://www.w3.org/2000/svg" class="w-full" role="img" aria-labelledby={titleId}>
+            <title id={titleId}>{phase.title}</title>
+
+            <defs>
+              <marker id={markerId} markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L9,3 z" fill="#1a0410"/>
+              </marker>
+            </defs>
+
+            {/* Background */}
+            <rect x="0" y="0" width="400" height="320" fill={bg}/>
+
+            {/* North arrow */}
+            {phase.northArrow && (
+              <g transform="translate(20, 25)">
+                <line x1="0" y1="10" x2="0" y2="-8" stroke="#6b5638" stroke-width="1.5"/>
+                <polygon points="0,-12 -4,-4 4,-4" fill="#6b5638"/>
+                <text x="6" y="2" font-size="9" fill="#6b5638">N</text>
+              </g>
+            )}
+
+            {/* Rivers */}
+            {(phase.rivers ?? []).map((r) => (
+              <>
+                <path d={r.path} stroke={r.color ?? '#7dd3fc'} stroke-width={r.width ?? 2} fill="none" opacity={r.opacity ?? 0.7}/>
+                {r.label && (
+                  <text x={r.labelX ?? 200} y={r.labelY ?? 32} text-anchor="middle" font-size="9" fill="#0369a1" font-style="italic">{r.label}</text>
+                )}
+              </>
+            ))}
+
+            {/* Units */}
+            {phase.units.map((u) => {
+              const labelPos = unitLabelPos(u);
+              const labelColor = u.labelColor ?? (u.labelPosition === 'inside' || u.labelPosition === 'center' ? '#fff' : '#1a0410');
+              const labelSize = u.labelSize ?? 9;
+              return (
+                <>
+                  {u.rect && (
+                    <rect
+                      x={u.rect.x}
+                      y={u.rect.y}
+                      width={u.rect.w}
+                      height={u.rect.h}
+                      fill={u.fill}
+                      stroke={u.stroke ?? '#1a0410'}
+                      stroke-width={u.strokeWidth ?? 1}
+                      stroke-dasharray={u.strokeDasharray}
+                      opacity={u.opacity}
+                    />
+                  )}
+                  {u.path && (
+                    <path
+                      d={u.path}
+                      fill={u.fill}
+                      stroke={u.stroke ?? '#1a0410'}
+                      stroke-width={u.strokeWidth ?? 1}
+                      stroke-dasharray={u.strokeDasharray}
+                      opacity={u.opacity}
+                    />
+                  )}
+                  {u.label && u.rect && (
+                    <text
+                      x={labelPos.x}
+                      y={labelPos.y}
+                      text-anchor="middle"
+                      font-size={labelSize}
+                      fill={labelColor}
+                      font-weight={u.labelWeight}
+                      font-style={u.labelItalic ? 'italic' : undefined}
+                    >{u.label}</text>
+                  )}
+                  {u.sublabel && u.rect && (
+                    <text
+                      x={u.rect.x + u.rect.w / 2}
+                      y={u.rect.y + u.rect.h + (u.labelOffset ?? 6) + (u.labelSize ?? 9) + 6}
+                      text-anchor="middle"
+                      font-size={u.sublabelSize ?? 7}
+                      fill={u.sublabelColor ?? u.labelColor ?? '#1a0410'}
+                      font-style={u.sublabelItalic ? 'italic' : undefined}
+                    >{u.sublabel}</text>
+                  )}
+                </>
+              );
+            })}
+
+            {/* Arrows */}
+            {(phase.arrows ?? []).map((a) => (
+              <path
+                d={`M ${a.from[0]} ${a.from[1]} L ${a.to[0]} ${a.to[1]}`}
+                stroke={a.color ?? '#1a0410'}
+                stroke-width={a.width ?? 2.5}
+                stroke-dasharray={a.dasharray}
+                fill="none"
+                marker-end={`url(#${markerId})`}
+              />
+            ))}
+
+            {/* Annotations */}
+            {(phase.annotations ?? []).map((an) => (
+              <text
+                x={an.x}
+                y={an.y}
+                text-anchor={an.anchor ?? 'middle'}
+                font-size={an.size ?? 9}
+                fill={an.color ?? '#1a0410'}
+                font-style={an.italic ? 'italic' : undefined}
+                font-weight={an.weight}
+              >{an.text}</text>
+            ))}
+          </svg>
+        </div>
+      );
+    })}
+  </div>
+
+  <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-sand-700">
+    {config.legend.map((l) => (
+      <span class="flex items-center gap-1.5">
+        <span class="inline-block w-3 h-3" style={`background:${l.fill};border:1px solid ${l.stroke ?? '#1a0410'};`}></span>
+        {l.label}
+      </span>
+    ))}
+  </div>
+
+  <figcaption class="mt-3 text-xs text-sand-700 italic">{config.caption}</figcaption>
+</figure>
