@@ -1,0 +1,177 @@
+slug: hanno-periplus-authenticity
+question: >
+  Is the surviving Periplus of Hanno text a genuine
+  5th-century-BCE Carthaginian document — a Greek translation of
+  a Punic-language original — or is it a later (Hellenistic or
+  Roman-period) Greek fabrication using a Carthaginian colonial
+  framing?
+why_unknown: >
+  The surviving Periplus text exists only in Greek, in a single
+  Byzantine manuscript (the Palatinus Heidelbergensis 398, 9th
+  century CE). No Carthaginian-language original survives, and
+  no Carthaginian-side documentation of the voyage is preserved
+  independently. The text claims to be a translation of an
+  inscription Hanno deposited at the Carthaginian Temple of Baal
+  Hammon (Cronus in the Greek) after returning from his
+  expedition; but the inscription itself is not attested
+  independently, the Greek text's transmission history is murky,
+  and the document's internal characteristics — toponymic
+  reliability, animal descriptions, ethnographic content — all
+  have characteristics that can be read as either authentic
+  Carthaginian-period reportage or as later Greek-Hellenistic
+  literary production. Modern scholarship has substantively
+  debated the authenticity question across the 19th and 20th
+  centuries with no firm resolution.
+evidence_summary: |
+  Several lines of evidence run in opposite directions on the
+  authenticity question.
+
+  **Arguments for authenticity:**
+
+  - The text's content is broadly consistent with what a
+    5th-century BCE Carthaginian Atlantic commercial-exploration
+    voyage would have documented: coastal toponymy substantially
+    matching the modern Atlantic Moroccan and West African coast
+    (Lixus is identifiable, the Cape Verde area appears
+    plausible, the southernmost reach is debated but at least
+    plausible at Senegal or possibly Sierra Leone). Carthaginian
+    Atlantic commercial reach is independently attested through
+    the broader Phoenician-Punic colonial network at
+    [Lixus](/places/lixus) and the Atlantic Moroccan installations.
+  - The text's structure (votive inscription form, dedication to
+    Baal Hammon, the "ten ships, sixty oars each" specification)
+    follows Carthaginian state-religious-administrative
+    conventions documented elsewhere in the inscriptional record.
+  - The specific ethnographic encounters described (the "hairy
+    savages" the Greek calls "gorillas" at the southernmost
+    reach) have plausible identification with Central African
+    primate populations that a 5th-century BCE Carthaginian
+    expedition might have encountered if it reached sufficiently
+    far south.
+
+  **Arguments against authenticity (later fabrication or heavy editing):**
+
+  - The single-manuscript transmission via a 9th-century
+    Byzantine codex provides no independent textual witness.
+    No fragments or pre-Byzantine quotations of the Periplus
+    survive.
+  - The Greek text's literary characteristics include features
+    that read as Hellenistic-period geographic-literature
+    conventions rather than as 5th-century BCE Carthaginian
+    documentary style: dramatic-narrative pacing, ethnographic
+    framing, specific anecdotal moments (the cave-dwelling
+    natives, the burning land) that have parallels in
+    Hellenistic geographic literature.
+  - The text's geographic-toponymic content gets progressively
+    less specific the further south the voyage reportedly went —
+    consistent with either a real voyage whose southernmost
+    portions left less documentary trace, or with a Hellenistic
+    author drawing from progressively-vaguer source material
+    about the Atlantic African coast.
+  - The standard pattern of Hellenistic-period literary
+    forgery — attributing texts to famous ancient figures using
+    a plausible-sounding documentary frame — is well-attested in
+    other contexts.
+
+  **The middle position.** Most modern scholarship operates with
+  a "genuine but heavily edited" framing: a real Carthaginian
+  Atlantic voyage probably underlies the text, but the surviving
+  Greek translation has been substantively reshaped by Hellenistic
+  or later Greek editorial hands. The exact balance between
+  authentic Carthaginian content and later editorial layer is
+  not securely recoverable.
+candidate_answers:
+  - answer: >
+      The Periplus is substantively a genuine Carthaginian
+      5th-century BCE document, translated to Greek and
+      transmitted through later editorial channels with some
+      modification but with the core Carthaginian content
+      preserved. The voyage happened, the inscription was
+      deposited as the text describes, and the surviving Greek
+      version reflects substantially what the Carthaginian
+      original recorded.
+    arguments_for: >
+      The text's broad geographic plausibility, the consistency
+      with independently-attested Carthaginian Atlantic commercial
+      reach, the votive-inscription form that matches Carthaginian
+      state-religious convention. The voyage's reality is
+      attested independently in references to Carthaginian
+      Atlantic exploration in other Greco-Roman sources (Strabo,
+      Pliny).
+    held_by: >
+      The mainstream modern position across the 20th century;
+      the site's working reading.
+  - answer: >
+      The Periplus is a Hellenistic Greek literary fabrication
+      using a Carthaginian colonial framing — produced in the
+      3rd-2nd centuries BCE or later by a Greek geographic-
+      literature author drawing on partial knowledge of
+      Carthaginian Atlantic activity. The "Hanno" attribution and
+      the votive-inscription frame are literary devices, not
+      historical attestation.
+    arguments_for: >
+      The single-manuscript transmission with no
+      pre-Byzantine independent witnesses, the Hellenistic
+      literary characteristics of the surviving text, the
+      progressive geographic vagueness consistent with
+      source-material limitations of a later author.
+    arguments_against: >
+      The text's broad geographic plausibility and the
+      consistency with independently-attested Carthaginian
+      Atlantic reach are difficult to explain as pure invention.
+      A pure Hellenistic forger would more likely produce a
+      text with stronger literary characteristics throughout
+      rather than the mixed-quality text the Periplus is.
+    held_by: >
+      A minority position, present in some 19th and 20th
+      century scholarly readings; less common in current
+      mainstream scholarship.
+  - answer: >
+      The voyage was substantively real but the surviving Greek
+      text reflects significant later editorial modification —
+      what we have is the Carthaginian original heavily reshaped
+      by Hellenistic or Roman-period editors. The exact balance
+      between authentic Carthaginian content and later editorial
+      additions is not recoverable without the lost Punic
+      original.
+    arguments_for: >
+      Combines the strongest points of the previous two
+      positions: the geographic plausibility argues for a real
+      voyage underlying the text, while the literary
+      characteristics and transmission gaps argue for substantial
+      later editorial layer. Modern textual-criticism methods
+      can identify suspicious passages but not securely
+      separate authentic Carthaginian content from later
+      additions.
+    held_by: >
+      The pragmatic middle-ground reading present in most
+      careful 20th and 21st century scholarship; treats the
+      Periplus as a substantively-genuine-but-imperfect window
+      into Carthaginian Atlantic activity rather than as either
+      pure document or pure fabrication.
+relevant_entities:
+  - type: event
+    slug: hannos-periplus-voyage
+    role: subject
+  - type: artifact
+    slug: hannos-periplus-inscription
+    role: subject
+  - type: place
+    slug: lixus
+    role: context
+  - type: theme
+    slug: carthaginian-seafaring-and-trade
+    role: context
+what_would_resolve_this: >
+  Discovery of an independent pre-Byzantine textual witness to
+  the Periplus — a quotation in a 1st-3rd century CE author, a
+  papyrus fragment, an inscriptional reference — would
+  substantively resolve much of the transmission-history
+  question. Discovery of an actual votive inscription at the
+  Carthage Temple of Baal Hammon site documenting the voyage
+  (highly unlikely given Roman destruction) would resolve the
+  authenticity question definitively. Comparative archaeological
+  evidence from the Atlantic Moroccan and West African coasts
+  documenting Carthaginian-period commercial-exploration activity
+  would substantially strengthen the genuine-document reading
+  even without textual-witness discovery.

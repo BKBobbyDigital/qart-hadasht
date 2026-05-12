@@ -1,0 +1,177 @@
+slug: carthaginian-literacy-extent
+question: >
+  How widespread was literacy among the Carthaginian population?
+  The site's evidence base attests substantial elite literacy
+  (the Mago treatise's existence presupposes a literate
+  aristocratic readership; Aristotle's praise of Carthaginian
+  governance presupposes political-administrative literature)
+  but the broader social distribution of literacy — citizen
+  body, dependent populations, slaves — is genuinely open.
+why_unknown: >
+  The Carthaginian inscriptional record, while substantial in
+  total volume (thousands of votive stelae from the Carthage
+  Tophet and the broader Punic diaspora), is concentrated in
+  religious-votive contexts that document a specific kind of
+  literacy — formulaic dedicatory inscription — rather than the
+  broader read-and-write capacity that would establish literacy's
+  social distribution. The Carthaginian state's destruction in
+  146 BCE eliminated the libraries that would have documented the
+  intellectual-literary culture; what survives is the inscriptional
+  record plus the fragmentary Greco-Roman testimony about
+  Carthaginian texts (Mago's treatise, the Hanno Periplus,
+  references to Carthaginian historical and religious literature).
+  The social distribution of literacy can only be inferred from
+  the indirect evidence; the modern scholarly debate runs on
+  which inferential framing the evidence best supports.
+evidence_summary: |
+  Several lines of evidence inform the literacy question, each
+  with significant interpretive ambiguity.
+
+  **The inscriptional record.** Thousands of votive stelae from
+  the Carthage Tophet and the broader Punic diaspora preserve
+  formulaic dedicatory inscriptions across six centuries of
+  continuous use. The corpus implies that substantial numbers
+  of dedicants commissioned inscribed stelae — though the actual
+  inscriptions were produced by specialist craftsmen rather
+  than by the dedicants themselves. The question is whether the
+  dedicants could read what they commissioned, or whether the
+  inscriptional practice was purely commemorative without
+  reading literacy.
+
+  **The literary tradition.** Mago of Carthage's twenty-eight-book
+  agricultural treatise, treated in the
+  [Mago of Carthage narrative](/narratives/mago-of-carthage),
+  presupposes a substantial literate audience capable of reading
+  agronomic-technical Punic prose. The fact that the Roman
+  senate specifically preserved Mago's work after 146 BCE
+  attests both to the work's quality and to the broader
+  Carthaginian literary culture it implies. Aristotle's praise
+  of Carthaginian governance (*Politics* II.11) presupposes
+  political-philosophical literature accessible to him through
+  written-text channels. The Hanno Periplus is a third
+  documented Carthaginian literary product. But: these are all
+  elite-literary products, not evidence of broader literacy
+  distribution.
+
+  **The administrative record.** The Marseille and Carthage
+  Tariff inscriptions document substantial standardized
+  administrative practice — formal fee schedules, priestly
+  hierarchies, sanctuary administration. The fact that this
+  administrative apparatus operated with substantive written
+  documentation presupposes priestly and administrative literacy
+  at minimum; whether the underlying citizen population was
+  literate is a separate question.
+
+  **The negative evidence.** The lack of substantial preserved
+  domestic-literacy documentation (graffiti, household
+  account-keeping inscriptions, personal correspondence) is
+  consistent with either limited everyday literacy or with the
+  loss of perishable-material documentary record. Domestic
+  inscriptions on perishable materials would not survive
+  archaeologically.
+candidate_answers:
+  - answer: >
+      Carthaginian literacy was substantially confined to the
+      aristocratic-priestly elite (perhaps 5-15% of the citizen
+      body), with the broader citizen population having minimal
+      reading-and-writing capacity. The Mago treatise and the
+      political literature Aristotle references reflect this
+      elite literacy; the inscriptional record reflects
+      commissioned-craft work rather than dedicant literacy.
+      This pattern is consistent with broader Mediterranean
+      ancient-literacy estimates for the period.
+    arguments_for: >
+      The lack of preserved everyday-literacy documentation,
+      the concentration of literary evidence in elite contexts,
+      the broader ancient Mediterranean pattern of class-
+      stratified literacy. Harris's *Ancient Literacy* (1989)
+      provides the comparative framework: Greek and Roman
+      literacy rates of 10-30% are well-attested, and there's
+      no specific reason to expect Carthaginian rates to be
+      substantially higher.
+    held_by: >
+      The mainstream modern position; consistent with broader
+      ancient-Mediterranean comparative literacy scholarship.
+  - answer: >
+      Carthaginian literacy was substantially broader than the
+      comparable Greek-Roman elite-stratified pattern — perhaps
+      30-50% of the citizen body could read at functional levels,
+      with the priestly and aristocratic strata at near-universal
+      literacy. The structural reasons would be the commercial-
+      maritime character of the Carthaginian state (functional
+      literacy as commercial advantage), the dispersal of the
+      Punic diaspora across the western Mediterranean (literacy
+      as connective tissue), and the substantial inscriptional
+      record at smaller-scale installations indicating distributed
+      literacy infrastructure.
+    arguments_for: >
+      The thousands of votive stelae across the diaspora attest
+      to a literacy-using population substantively broader than
+      a narrow elite. The commercial-maritime character of the
+      Carthaginian economy plausibly required functional literacy
+      at distributed levels. The Punic-language inscriptional
+      practice continued in Numidian and Roman-period North
+      Africa for centuries after 146, attesting substantive
+      survival of basic literacy infrastructure.
+    arguments_against: >
+      The inscriptional record is consistent with
+      craft-commissioned rather than personally-literate
+      dedicants; commercial functions can be carried out with
+      delegate-literacy (slave or hired scribes); the
+      Numidian-Roman continuity attests survival of professional
+      scribal class rather than broad popular literacy.
+    held_by: >
+      A minority position, present in some recent scholarship
+      that has emphasized Carthaginian-distinctive features
+      relative to the broader ancient-Mediterranean pattern.
+  - answer: >
+      The evidence base is genuinely insufficient to estimate
+      Carthaginian literacy with any meaningful precision.
+      Strong claims in either direction reflect inferential
+      framings rather than documentary evidence. The honest
+      position is that we know elite literacy was substantial
+      (the literary tradition attests this) and that some
+      basic-literacy infrastructure existed (the inscriptional
+      record attests this), but the social distribution of
+      literacy between those two attested points is not
+      recoverable from the surviving record.
+    arguments_for: >
+      The actual evidence does not allow estimation at the
+      precision the other candidate answers imply. Both the
+      "narrow elite" and "broad popular" readings rely on
+      inferential framing rather than direct documentation. The
+      honest scholarly position is acknowledgment of the
+      evidentiary limit.
+    held_by: >
+      The site's working position; consistent with the
+      site's broader epistemic discipline of distinguishing
+      what is attested from what is inferred.
+relevant_entities:
+  - type: person
+    slug: mago-agronomist
+    role: subject
+  - type: theme
+    slug: punic-language-and-script
+    role: subject
+  - type: theme
+    slug: punic-inscriptional-record
+    role: subject
+  - type: artifact
+    slug: marseille-tariff
+    role: context
+what_would_resolve_this: >
+  Discovery of substantial Carthaginian-period domestic-literacy
+  documentation — household account-keeping inscriptions,
+  ostraca with personal-name lists, graffiti from non-elite
+  contexts, perishable-material documentation preserved through
+  exceptional preservation conditions — would substantively
+  shift the picture. The most-likely source of such evidence
+  would be exceptional preservation at a Carthaginian-period
+  site (the Kerkouane domestic-quarter excavations are
+  particularly promising; Kerkouane's First-Punic-War destruction
+  and subsequent non-overbuilding provide preservation conditions
+  analogous to Herculaneum/Pompeii but for Punic material
+  culture). Comparative evidence from Numidian and Roman-period
+  North African contexts also informs the question through the
+  continuity arguments treated under the
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa).
