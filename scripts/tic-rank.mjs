@@ -9,6 +9,16 @@ const ROOTS = [
   'src/content/themes',
   'src/content/openQuestions',
   'src/content/periods',
+  'src/content/threads',
+  'src/content/places',
+  'src/content/people',
+  'src/content/events',
+  'src/content/artifacts',
+  'src/content/groups',
+  'src/content/institutions',
+  'src/content/deities',
+  'src/content/claims',
+  'src/content/sources',
 ];
 
 const TIC_RE = /\b(structural|substantively|substantive|operationally|operational|load-bearing|framing|configuration|calibrat\w*)\b/gi;
