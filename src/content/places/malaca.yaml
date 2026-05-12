@@ -1,0 +1,94 @@
+slug: malaca
+name_display: Malaca
+names_alt:
+  punic: Mlk (uncertain reconstruction)
+  greek: Μαλάκη
+  latin: Malaca
+  modern: Málaga, Andalusia, Spain
+type: city
+primary:
+  label: Malaca (modern Málaga)
+  lat: 36.7213
+  lon: -4.4214
+  confidence: certain
+modern_location: Málaga, Andalusia, Spain
+founded:
+  founder: 'Phoenician colonists, traditionally Tyrian'
+  date:
+    value: -750
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Málaga; the ancient city lies beneath the medieval and
+  modern urban fabric. Substantial Phoenician-period strata
+  excavated at specific points; the principal recovered material
+  is now in the Museo de Málaga
+patron_deity: 'Melqart (Tyrian colonial patronage)'
+image:
+  src: /places/malaca.jpg
+  alt: "The walls of the Alcazaba of Málaga (ancient Malaca), Andalusia, Spain — the medieval-Islamic fortress complex crowning the hilltop site of the ancient city, with the modern port visible below. The Phoenician-Punic Malaca lies beneath the medieval and modern urban fabric."
+  credit: "Photograph: Matti Blume, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Alcazaba,_Malaga_(DSC02867-Pano).jpg
+  license: CC BY-SA 4.0
+summary: >
+  Phoenician colonial foundation on the southern Iberian
+  Mediterranean coast, traditionally established by Tyrian
+  colonists in approximately the mid-8th century BCE alongside
+  the broader Iberian Phoenician network. Malaca served as one
+  of the principal nodes in the Phoenician-Punic Iberian
+  commercial system, with the trade in silver, tin, and other
+  Iberian metals as its principal economic basis.
+
+
+  ## The Iberian Phoenician network
+
+  Malaca operated as one of approximately a dozen substantial
+  Phoenician installations along the southern Iberian coast,
+  alongside [Gades](/places/gades) (the principal western
+  Phoenician colony, traditionally founded earlier), Abdera,
+  Sexi, Toscanos, and the broader scatter of smaller
+  installations. The network's economic logic was the metals
+  trade — the silver mines of southern Iberia (around modern
+  Huelva, the ancient Tartessos region) were the principal
+  Phoenician commercial draw, and the coastal installations
+  provided the maritime infrastructure for moving metal east
+  to the Phoenician metropolitan centers and subsequently to
+  Carthage.
+
+
+  ## Under Carthaginian hegemony
+
+  From the late 6th century BCE forward, the Iberian Phoenician
+  installations operated within the Carthaginian-dominant
+  political-economic system, though substantively as
+  semi-autonomous commercial centers rather than directly
+  administered Carthaginian territory. The Barcid Iberian
+  project from 237 BCE forward, centered on
+  [Carthago Nova](/places/carthago-nova), brought the southern
+  Iberian Phoenician network into substantively closer
+  integration with Carthaginian state structures. Malaca came
+  under Roman control following the Second Punic War and the
+  208–206 BCE Roman Iberian campaign under
+  [Scipio Africanus](/people/scipio-africanus).
+
+
+  ## Roman and modern continuity
+
+  Roman Malaca continued as a substantial provincial center,
+  with Phoenician-Punic personal names persisting in the Latin
+  epigraphic record through the imperial period. The site has
+  been continuously occupied since the Phoenician colonial
+  period, with substantial archaeology preserved beneath the
+  modern Málaga urban fabric at specific excavated points and
+  in the Museo de Málaga collections.
+
+
+  ## Sources
+
+  The principal modern reference is the Spanish archaeological
+  literature on Phoenician Iberia (Aubet's foundational work,
+  the
+  [López Castro *Hispania Phoenicia* synthesis](/sources/lopez-castro-hispania-1995)).
+  The Phoenician colonial network framing is covered under
+  [the colonial network theme](/themes/phoenician-colonial-network).

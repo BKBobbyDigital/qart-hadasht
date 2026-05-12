@@ -1,0 +1,89 @@
+slug: sulci
+name_display: Sulci
+names_alt:
+  punic: Sulky
+  punic_script: 𐤎𐤋𐤊𐤉
+  greek: Σύλκοι
+  latin: Sulci
+  modern: Sant'Antioco, Sardinia, Italy
+type: city
+primary:
+  label: Sulci (modern Sant'Antioco)
+  lat: 39.0589
+  lon: 8.4475
+  confidence: certain
+modern_location: Sant'Antioco, Province of South Sardinia, Italy
+founded:
+  founder: 'Phoenician colonists, traditionally Tyrian'
+  date:
+    value: -750
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Sant'Antioco preserves substantial Punic-period
+  archaeology including the Tophet (one of the largest outside
+  Carthage), the necropolis, and substantial portions of the
+  ancient urban fabric under the modern town
+patron_deity: 'Baal Hammon and Tanit (Tophet attested)'
+image:
+  src: /places/sulci.jpg
+  alt: "View of the island of Sant'Antioco (ancient Sulci) seen from Monte Sirai, southwestern Sardinia — the low coastal island with the modern town in the foreground and the channel separating it from the Sardinian mainland. Sulci was one of the four principal Punic Sardinian cities and home to one of the largest Tophet precincts outside Carthage itself."
+  credit: "Photograph: Alex10, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Sant'Antioco_da_monte_Sirai.jpg
+  license: CC BY-SA 3.0
+summary: >
+  Phoenician colonial foundation on the southwestern Sardinian
+  island now known as Sant'Antioco, established in approximately
+  the mid-8th century BCE as one of the principal Phoenician
+  installations in the western Mediterranean network. Sulci
+  developed as a major Punic commercial and religious center
+  under Carthaginian hegemony from the 6th century BCE through
+  the Roman seizure of Sardinia in 238 BCE.
+
+
+  ## The Tophet
+
+  Sulci's Tophet is one of the largest preserved outside Carthage
+  itself. Thousands of votive stelae have been recovered from the
+  sanctuary precinct, dating from the 7th century BCE through the
+  Roman period. The Sulci Tophet corpus has been load-bearing for
+  the modern reconstruction of Punic religious practice (vow
+  formulae, dedicant networks, the *molk* sacrificial vocabulary)
+  alongside the much larger Carthage Tophet corpus. The site is
+  treated under the broader [tophet question](/themes/the-tophet-question)
+  and the editorial take on [tophet practice happened, scale unrecoverable](/editorialTakes/tophet-happened-scale-unrecoverable).
+
+
+  ## Phoenician colonial role
+
+  Sulci was one of the principal nodes in the Phoenician colonial
+  network that extended from the Levant through the central and
+  western Mediterranean. Its early-Phoenician phase (8th-7th
+  centuries BCE) operated within the Tyrian metropolitan network;
+  from the 6th century BCE the Carthaginian-dominant phase
+  brought Sulci into the broader Punic political-commercial system
+  alongside [Tharros](/places/tharros), [Caralis](/places/caralis),
+  and [Nora](/places/nora). The site's archaeology shows
+  continuous Punic occupation through the Roman seizure of
+  Sardinia in 238 BCE and into the Roman period as a substantial
+  provincial center.
+
+
+  ## After 238 BCE
+
+  Roman Sulci continued as a regional commercial center under
+  the Latin name *Sulci*, with substantial Punic cultural
+  continuity visible in the inscriptional record and the
+  continued use of the Tophet precinct through at least the 2nd
+  century CE. The site is one of the principal examples of the
+  Punic-cultural continuity into Roman provincial life that the
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+  treats for North Africa specifically.
+
+
+  The modern Sant'Antioco archaeological park preserves the
+  Tophet, the necropolis, and significant remains of the urban
+  fabric. The principal modern reference is Bartoloni's work on
+  Sulci and the broader Krings *Manuel de recherche* (1995)
+  chapters on Punic Sardinia.

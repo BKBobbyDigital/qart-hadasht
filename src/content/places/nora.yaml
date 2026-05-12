@@ -1,0 +1,87 @@
+slug: nora
+name_display: Nora
+names_alt:
+  punic: Nora (in the Nora Stone inscription)
+  punic_script: 𐤍𐤓𐤀
+  greek: Νώρα
+  latin: Nora
+  modern: Pula, Province of South Sardinia, Italy
+type: city
+primary:
+  label: Nora (Capo di Pula peninsula)
+  lat: 38.9828
+  lon: 9.0153
+  confidence: certain
+modern_location: Capo di Pula peninsula, near Pula (South Sardinia), Italy
+founded:
+  founder: 'Phoenician colonists'
+  date:
+    value: -800
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Open-air archaeological site on the Capo di Pula peninsula;
+  one of the most thoroughly excavated Phoenician-Punic sites
+  in the western Mediterranean
+patron_deity: 'Tanit and Baal Hammon (Tophet attested)'
+image:
+  src: /places/nora.jpg
+  alt: "Mosaic floors at the Nora archaeological site near Pula, southern Sardinia — preserved geometric floor patterns from a Roman-period building exposed at the open-air coastal site. Nora was one of the earliest Phoenician colonial foundations in the western Mediterranean and home to the 9th-century Nora Stone inscription."
+  credit: "Photograph: Norbert Nagel, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Archaeological_site_Nora_-_Pula_-_Sardinia_-_Italy_-_26.jpg
+  license: CC BY-SA 3.0
+summary: >
+  Phoenician colonial foundation on the Capo di Pula peninsula
+  on the southern Sardinian coast, traditionally one of the
+  earliest Phoenician installations in the western Mediterranean.
+  Nora is the home of the [Nora Stone](/artifacts/nora-stone), a
+  9th-century BCE Phoenician inscription that constitutes one of
+  the earliest preserved Phoenician-script documents from the
+  western Mediterranean and a load-bearing piece of evidence for
+  the dating of Phoenician colonial expansion.
+
+
+  ## The Nora Stone
+
+  The site's archaeological significance is anchored on the
+  [Nora Stone inscription](/artifacts/nora-stone), discovered in
+  1773 and dated to approximately the late 9th or early 8th
+  century BCE on paleographic grounds. The inscription's exact
+  reading is contested across modern scholarship but it
+  substantively documents Phoenician presence at Nora at a date
+  consistent with the early phases of the western Phoenician
+  colonial network. The stone is one of the principal pieces of
+  evidence in the question of when Phoenician expansion to the
+  western Mediterranean actually began — treated under the
+  open question on
+  [when Carthage was actually founded](/openQuestions/founding-when-actually)
+  and the broader
+  [Phoenician colonial network theme](/themes/phoenician-colonial-network).
+
+
+  ## The site
+
+  Nora occupies a peninsula projecting into the Sardinian
+  southern coast, with sheltered anchorages on both sides — the
+  same defensible-peninsula pattern as [Tharros](/places/tharros)
+  and [Carthage](/places/carthage). The Phoenician phase
+  developed into a Punic city under Carthaginian hegemony from
+  the 6th century BCE; the Roman seizure of Sardinia in 238 BCE
+  transferred the city to Roman provincial administration without
+  apparent disruption of the urban fabric. Excavations have
+  exposed the Punic-Roman city, a substantial Roman-period
+  forum and theatre, the Tanit-Astarte sanctuary, the Tophet
+  precinct, and the necropolis.
+
+
+  ## Sources
+
+  The principal modern reference is the Italian archaeological
+  literature on Nora (Bondi's excavation publications); for the
+  Phoenician colonial context, Aubet 2001 and the
+  [Krings handbook](/sources/krings-manuel-1995) Sardinia chapters.
+  The
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+  treats the broader pattern of Punic-cultural continuity that
+  Nora's stratigraphy helps document.

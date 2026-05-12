@@ -1,0 +1,98 @@
+slug: sabratha
+name_display: Sabratha
+names_alt:
+  punic: Ṣbrtn (uncertain reconstruction)
+  greek: Σαβράθα
+  latin: Sabratha / Sabrata
+  modern: Sabratha, Libya
+type: city
+primary:
+  label: Sabratha
+  lat: 32.8050
+  lon: 12.4847
+  confidence: certain
+modern_location: Sabratha, near Zawiya, Libya
+founded:
+  founder: 'Phoenician colonists, traditionally Tyrian; subsequently Carthaginian dependency'
+  date:
+    value: -500
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  UNESCO archaeological site on the Libyan coast; Roman-imperial-
+  period strata are the principal preserved monumental phase,
+  but Punic-period foundations and inscriptional record are
+  documented across the site
+patron_deity: 'Shadrapa (the principal Punic-period Sabratha deity)'
+image:
+  src: /places/sabratha.jpg
+  alt: "The Roman theatre at Sabratha, Libya — the substantial preserved theatre structure with tiered seating and the partially-reconstructed scaenae frons. Sabratha was one of the three Tripolitanian Emporia (with Oea and Lepcis Magna) that operated under Carthaginian hegemony before Roman annexation."
+  credit: "Photograph: SashaCoachman, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Theater_Sabratha_06.JPG
+  license: CC BY-SA 3.0
+summary: >
+  Phoenician colonial foundation on the Libyan coast west of
+  modern Tripoli, one of the three principal Tripolitanian
+  Emporia (alongside [Oea](/places/oea) and
+  [Lepcis Magna](/places/lepcis-magna)) that came under
+  Carthaginian hegemony from the 6th century BCE and operated
+  as substantial Punic-cultural commercial cities through the
+  Roman imperial period. Sabratha's name appears in the Punic
+  inscriptional record and the Greco-Roman geographic tradition
+  as one of the most westerly of the African Emporia.
+
+
+  ## The Tripolitanian Emporia
+
+  The three Tripolitanian Emporia — Sabratha, Oea, and Lepcis
+  Magna — were Phoenician-cultural cities on the African coast
+  east of Carthage, with substantial Punic-Berber cultural
+  synthesis and continuous commercial-political integration
+  with the Carthaginian state through the Punic period. The
+  Carthaginian Senate maintained close oversight of the Emporia
+  as a substantive tributary zone — the only African
+  hinterland-tributary system the Carthaginian state operated
+  at scale outside the immediate Cap Bon hinterland. The
+  framing is treated under the
+  [Numidian-Punic interface narrative](/narratives/the-numidian-punic-interface)
+  and the
+  [Phoenician colonial network theme](/themes/phoenician-colonial-network).
+
+
+  ## Punic-cultural Sabratha
+
+  The Punic phase of Sabratha (roughly 6th century BCE through
+  the Roman provincial annexation in the late 1st century BCE)
+  produced substantial archaeology: the harbor installations,
+  the Tophet precinct (though smaller than the principal Punic
+  Tophets at Carthage, Sulci, and Motya), the urban grid, and
+  the inscriptional record. Punic personal names persist in the
+  Latin epigraphic record at Sabratha through at least the
+  3rd century CE — among the principal pieces of evidence in
+  the case for substantive Punic-cultural continuity into late
+  antiquity, treated under the
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa).
+
+
+  ## Roman-imperial Sabratha
+
+  Roman Sabratha became one of the principal North African
+  coastal cities of the imperial period, with the monumental
+  Roman theatre (one of the largest preserved Roman theatres
+  in Africa), the substantial forum and basilica complexes,
+  and the extensive harbor district. The site has been
+  continuously excavated since the early 20th century and was
+  designated a UNESCO World Heritage Site in 1982. Modern
+  conservation is complicated by the political instability in
+  Libya across the 2010s and 2020s.
+
+
+  ## Sources
+
+  Principal modern reference is the Italian archaeological
+  literature on Tripolitania (the Caputo and Di Vita
+  publications). The
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+  treats the broader Punic-cultural continuity pattern that
+  Sabratha exemplifies.

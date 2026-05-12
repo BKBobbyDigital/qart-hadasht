@@ -1,0 +1,97 @@
+slug: oea
+name_display: Oea
+names_alt:
+  punic: Wʿyt (uncertain reconstruction)
+  greek: Ὀία
+  latin: Oea
+  modern: Tripoli, Libya
+type: city
+primary:
+  label: Oea (modern Tripoli)
+  lat: 32.8872
+  lon: 13.1913
+  confidence: certain
+modern_location: Tripoli (capital of Libya)
+founded:
+  founder: 'Phoenician colonists, traditionally Tyrian; subsequently Carthaginian dependency'
+  date:
+    value: -700
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Tripoli; the ancient city lies beneath the medieval and
+  modern urban fabric. Substantial Punic and Roman-period
+  archaeology preserved at specific locations including the
+  Arch of Marcus Aurelius
+patron_deity: 'Punic-period patronage uncertain; Roman-period continuity of Tyrian-Phoenician religious tradition attested'
+image:
+  src: /places/oea.jpg
+  alt: "The Arch of Marcus Aurelius in Tripoli (ancient Oea), Libya — the Roman triumphal arch built in 163 CE at the heart of the ancient city, the principal preserved monument of Oea above the medieval and modern Tripoli urban fabric. The collective name Tripolis (\"three cities\") refers to Oea + Sabratha + Lepcis Magna."
+  credit: "Photograph: Daniel and Kate Pett, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Arch_Tripoli_Libya.jpg
+  license: CC BY 2.0
+summary: >
+  Phoenician colonial foundation on the Libyan coast, one of the
+  three principal Tripolitanian Emporia (alongside
+  [Sabratha](/places/sabratha) and
+  [Lepcis Magna](/places/lepcis-magna)) that came under
+  Carthaginian hegemony from the 6th century BCE and operated
+  as substantial Punic-cultural commercial cities through the
+  Roman imperial period. The modern city of Tripoli sits
+  directly on the ancient site; the Roman-imperial-period
+  Arch of Marcus Aurelius (built 163 CE) is the principal
+  preserved ancient monument.
+
+
+  ## The Tripolitanian Emporia
+
+  Oea was the central of the three Tripolitanian Emporia — the
+  Phoenician-cultural coastal cities along the Libyan coast east
+  of Carthage that came under Carthaginian hegemony and
+  operated as a tributary zone of the Carthaginian state through
+  the Punic period. The collective name *Tripolis* ("three
+  cities") refers specifically to Sabratha + Oea + Lepcis Magna
+  and is the source of the modern Libyan city's name. The
+  [Numidian-Punic interface narrative](/narratives/the-numidian-punic-interface)
+  treats the broader Punic-cultural continuity in this North
+  African coastal region.
+
+
+  ## Continuous occupation
+
+  Unlike [Sabratha](/places/sabratha) and
+  [Lepcis Magna](/places/lepcis-magna), both of which were
+  substantially abandoned in the late antique period and now
+  preserve their ancient urban fabric, Oea has been
+  continuously occupied from the Phoenician colonial period
+  through medieval Islamic Tripoli into the modern city. As a
+  result, less of the ancient Oea is archaeologically accessible
+  — most of the ancient city lies beneath the medieval and
+  modern Tripoli fabric. The principal preserved monument is
+  the Arch of Marcus Aurelius from the imperial period; the
+  Punic and earlier-Roman strata are documented through
+  rescue excavations.
+
+
+  ## Cultural continuity
+
+  The Punic-cultural continuity at Oea is attested through
+  the Latin epigraphic record of the imperial period (Punic
+  personal names persisting into late antiquity) and through
+  the broader continuity pattern that the
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+  treats. The modern Libyan Arabic toponym *Tarābulus* (whence
+  English "Tripoli") preserves the ancient three-cities
+  framing into the medieval Islamic period and beyond.
+
+
+  ## Sources
+
+  Principal modern reference is the Italian archaeological
+  literature on Tripolitania (Di Vita's work on Roman
+  Tripolitania); for the Phoenician colonial context,
+  [Aubet 2001](/sources/aubet-phoenicians-west-2001). The Punic-period
+  archaeology of Oea is necessarily less developed than for the
+  adjacent Tripolitanian sites because of the continuous urban
+  occupation.

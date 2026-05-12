@@ -1,0 +1,82 @@
+slug: abdera
+name_display: Abdera
+names_alt:
+  punic: ʿbdrt (uncertain reconstruction)
+  greek: Ἄβδηρα
+  latin: Abdera
+  modern: Adra, Almería, Spain
+type: city
+primary:
+  label: Abdera (modern Adra)
+  lat: 36.7517
+  lon: -3.0214
+  confidence: certain
+modern_location: Adra, Province of Almería, Andalusia, Spain
+founded:
+  founder: 'Phoenician colonists'
+  date:
+    value: -750
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Adra; the ancient city lies beneath the modern coastal
+  town. Substantial Phoenician-period material recovered in
+  rescue excavations and now held in regional museum collections
+patron_deity: 'Melqart and Astarte (Phoenician colonial patronage)'
+image:
+  src: /places/abdera.jpg
+  alt: "Aerial view of Adra (ancient Abdera), Almería province, southern Spain — the modern coastal town occupying the site of the Phoenician colonial foundation on the eastern Andalusian Mediterranean coast. The Phoenician-period strata lie beneath the modern town."
+  credit: "Photograph: kallerna, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Adra_aerial.jpg
+  license: CC BY-SA 4.0
+summary: >
+  Phoenician colonial foundation on the southern Iberian
+  Mediterranean coast in eastern Andalusia, established in
+  approximately the mid-8th century BCE as one of the smaller
+  Phoenician installations in the broader southern Iberian
+  network. Abdera operated alongside [Malaca](/places/malaca),
+  Sexi, and the larger [Gades](/places/gades) as part of the
+  Phoenician-Punic Iberian commercial system from the colonial
+  period through the Roman provincial period.
+
+
+  ## Role in the colonial network
+
+  Abdera was a smaller installation than the principal
+  Phoenician colonial centers, but its archaeology documents
+  the substantive Phoenician colonial presence on the eastern
+  Andalusian coast — fish-salting installations (the
+  Mediterranean *garum*-trade infrastructure that Phoenician
+  installations across the coast developed), purple-dye
+  production, ceramics. The site's role in the network was
+  partly the fish-salting industry that Phoenician coastal
+  installations specialized in across the western Mediterranean,
+  and partly its position on the coastal sea-lane between
+  [Carthago Nova](/places/carthago-nova) and the principal
+  Phoenician installations to the west.
+
+
+  ## Numismatic significance
+
+  Abdera is one of the better-attested Phoenician-Punic Iberian
+  cities in the numismatic record: the city produced its own
+  coinage from the late 3rd century BCE through the Roman
+  Republican period, with Punic-script legends ("ʿbdrt") and
+  Phoenician iconographic conventions (tuna fish reverse,
+  characteristic of the western Phoenician fish-salting
+  centers). The coinage attests substantive Punic cultural and
+  administrative continuity at Abdera through the Roman
+  imperial period — Bowdler-Castro and Spanish numismatic
+  studies treat the corpus.
+
+
+  ## Sources
+
+  The principal modern reference is the Spanish archaeological
+  literature on Phoenician Iberia (the
+  [López Castro synthesis](/sources/lopez-castro-hispania-1995)
+  for the Hispanic-Phoenician interface) and the regional
+  numismatic literature. The
+  [Phoenician colonial network theme](/themes/phoenician-colonial-network)
+  covers the broader framing.

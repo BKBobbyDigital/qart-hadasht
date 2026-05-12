@@ -1,0 +1,85 @@
+slug: lixus
+name_display: Lixus
+names_alt:
+  punic: Lks (uncertain reconstruction)
+  greek: Λίξος
+  latin: Lixus
+  modern: near Larache, Morocco
+type: city
+primary:
+  label: Lixus (near Larache)
+  lat: 35.1972
+  lon: -6.1086
+  confidence: certain
+modern_location: Archaeological site near Larache, Tangier-Tétouan-Al Hoceïma region, Morocco
+founded:
+  founder: 'Phoenician colonists, traditionally Tyrian'
+  date:
+    value: -800
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Open-air archaeological site on a low hill above the Loukkos
+  river estuary, near modern Larache; substantial Phoenician,
+  Punic, and Roman-period strata preserved
+patron_deity: 'Melqart (Tyrian colonial patronage); local Mauretanian-Punic deities subsequently'
+image:
+  src: /places/lixus.jpg
+  alt: "Ruins at the Lixus archaeological site near Larache, on the Atlantic coast of Morocco — exposed stone foundations and walls of the ancient city on a low hill above the Loukkos river estuary. Lixus was the southernmost reliable harbor on the Atlantic African coast for Phoenician-Punic Atlantic trade."
+  credit: "Photograph: Ideophagous, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Ruins_at_Lixus_archaeological_site_19.jpg
+  license: CC BY-SA 4.0
+summary: >
+  Phoenician colonial foundation on the Atlantic coast of Morocco
+  near the mouth of the Loukkos river, traditionally one of the
+  earliest western Phoenician installations and the southernmost
+  significant Phoenician site on the Atlantic. Lixus operated as a
+  key node in the Phoenician-Punic Atlantic commercial network,
+  with documented connections to the metals trade running south
+  along the African Atlantic coast and north to the Iberian
+  Phoenician centers.
+
+
+  ## Atlantic colonial reach
+
+  Lixus's significance to the Phoenician colonial network is
+  geographic: it was the southernmost reliable harbor on the
+  Atlantic African coast, providing a base for the Phoenician
+  Atlantic trade that extended southward (the
+  [Hanno Periplus voyage](/events/hannos-periplus-voyage) is the
+  most famous documented expedition) and northward to the
+  Iberian Phoenician installations at
+  [Gades](/places/gades), Malaca, and Abdera. Tyrian tradition
+  treated Lixus as among the oldest Phoenician western colonies,
+  with the conventional foundation date traditionally placed in
+  the 12th century BCE — almost certainly legendary embellishment
+  but consistent with the substantive position of Lixus in the
+  pre-classical Phoenician colonial imagination.
+
+
+  ## Carthaginian and Mauretanian periods
+
+  Under Carthaginian hegemony from the 6th century BCE forward,
+  Lixus operated within the broader Punic commercial-political
+  system. After the 146 BCE Carthaginian destruction, Lixus
+  continued as a substantial Mauretanian and subsequently Roman
+  city, with substantive Punic-cultural continuity visible in
+  the inscriptional record and the persistence of the urban
+  fabric. The
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+  treats the broader pattern of post-Punic continuity that
+  Lixus exemplifies for the Atlantic Maghreb specifically.
+
+
+  ## Sources
+
+  The Lixus archaeological site preserves Phoenician, Punic,
+  Mauretanian, and Roman strata across the long history of the
+  site's occupation. Principal modern reference is the
+  Moroccan-Spanish archaeological literature (López Pardo's work
+  on Atlantic Phoenician colonialism, the broader
+  [Aubet *Phoenicians and the West*](/sources/aubet-phoenicians-west-2001)
+  treatment of the Atlantic network). The Phoenician colonial
+  network framing is covered under
+  [the colonial network theme](/themes/phoenician-colonial-network).

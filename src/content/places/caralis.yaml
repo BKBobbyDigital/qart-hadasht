@@ -1,0 +1,97 @@
+slug: caralis
+name_display: Caralis
+names_alt:
+  punic: Krly (uncertain reconstruction)
+  greek: Κάραλις
+  latin: Caralis / Carales
+  modern: Cagliari, Sardinia, Italy
+type: city
+primary:
+  label: Caralis (modern Cagliari)
+  lat: 39.2238
+  lon: 9.1217
+  confidence: certain
+modern_location: Cagliari (capital of Sardinia), Italy
+founded:
+  founder: 'Phoenician colonists'
+  date:
+    value: -700
+    precision: century
+    circa: true
+cultural_sphere: phoenician
+current_status: >
+  Modern Cagliari; the ancient city lies beneath the medieval and
+  modern urban fabric. Substantial Punic-period strata excavated
+  at specific locations, including the Tuvixeddu necropolis (one
+  of the largest Punic necropoleis in the western Mediterranean)
+patron_deity: 'Tanit and Baal Hammon'
+image:
+  src: /places/caralis.jpg
+  alt: "The Tuvixeddu Punic necropolis at Cagliari (ancient Caralis), southern Sardinia — chamber tombs cut into the limestone hillside, in continuous use from the 6th century BCE through the Roman period. Tuvixeddu is the largest Punic necropolis in the western Mediterranean with approximately 1,100 tombs documented."
+  credit: "Photograph: cristianocani, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File:Necropoli_di_Tuvixeddu.jpg
+  license: CC BY 2.0
+summary: >
+  Phoenician colonial foundation on the Bay of Cagliari on the
+  southern Sardinian coast, the principal harbor of southern
+  Sardinia from the Phoenician colonial period through the Roman
+  imperial period and into modern times. Caralis developed
+  alongside [Sulci](/places/sulci), [Tharros](/places/tharros),
+  and [Nora](/places/nora) as one of the four principal Punic
+  Sardinian cities under Carthaginian hegemony, and continued as
+  the regional Roman provincial capital after the 238 BCE Roman
+  seizure of Sardinia.
+
+
+  ## Geography and foundation
+
+  Caralis occupies a strategic position at the head of the Bay
+  of Cagliari, the largest natural harbor on the Sardinian coast,
+  with hills providing defensible high ground and the surrounding
+  Campidano plain providing agricultural hinterland. The
+  Phoenician foundation is conventionally dated to approximately
+  the 7th century BCE, somewhat later than [Sulci](/places/sulci)
+  and [Tharros](/places/tharros); the position was occupied by
+  Nuragic Sardinian populations in earlier periods.
+
+
+  ## The Tuvixeddu necropolis
+
+  Caralis's most archaeologically substantial preserved feature
+  is the Tuvixeddu necropolis, the largest Punic necropolis in
+  the western Mediterranean — approximately 1,100 chamber tombs
+  cut into the limestone hillside on the western edge of modern
+  Cagliari, in continuous use from the 6th century BCE through
+  the Roman period. The necropolis preserves substantial Punic
+  mortuary practice in iconography (the Sign of Tanit, betyls,
+  apotropaic masks), grave goods (jewelry, ceramics, anthropoid
+  sarcophagi), and the social-structural patterns of the Punic
+  Sardinian elite.
+
+
+  ## Continuity into Roman Sardinia
+
+  Caralis became the Roman provincial capital of Sardinia after
+  the 238 BCE Roman seizure. The Punic-cultural inheritance is
+  substantial and visible in the Roman-period inscriptional
+  record, with Punic personal names persisting in Latin
+  epigraphy through at least the 3rd century CE. The
+  [continuity in Roman Africa narrative](/narratives/punic-continuity-in-roman-africa)
+  treats the broader pattern of Punic-cultural continuity into
+  Roman provincial life; the Sardinian-Punic continuity is the
+  insular counterpart to the African mainland pattern that
+  narrative treats in detail.
+
+
+  ## Sources
+
+  Modern Cagliari preserves substantial Punic-period
+  archaeology at the Tuvixeddu necropolis, the National
+  Archaeological Museum of Cagliari (which holds the principal
+  Punic Sardinian collection including material from
+  [Tharros](/places/tharros) and [Sulci](/places/sulci)), and
+  specific excavated points across the urban fabric. The
+  principal modern reference is the Italian archaeological
+  literature on Punic Sardinia (Bartoloni, Bondi, Tronchetti)
+  and the [Krings handbook](/sources/krings-manuel-1995)
+  Sardinia chapters.
