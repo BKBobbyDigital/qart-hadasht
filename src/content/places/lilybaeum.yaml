@@ -1,0 +1,52 @@
+slug: lilybaeum
+name_display: Lilybaeum
+names_alt:
+  punic: 𐤓𐤔𐤌𐤋𐤒𐤓𐤕
+  punic_transliteration: "*Rʾš Mlqrt* (Head of Melqart)"
+  greek: Λιλύβαιον
+  latin: Lilybaeum
+  modern: Marsala, Sicily, Italy
+type: city
+primary:
+  label: Lilybaeum (modern Marsala)
+  lat: 37.7989
+  lon: 12.4361
+  confidence: certain
+modern_location: Marsala, western Sicily, Italy
+founded:
+  founder: Carthage
+  date:
+    value: -396
+    precision: year
+  notes: >
+    Founded after the destruction of [Motya](/places/motya) by
+    [Dionysius I](/people/dionysius-i) in 397. The surviving
+    Motyan population was relocated to the new site on the
+    western Sicilian tip, where the defensive geography of the
+    peninsula and the deep-water harborage offered a more
+    defensible Carthaginian center than the offshore island
+    Motya had been.
+cultural_sphere: punic
+patron_deity: Melqart
+current_status: Modern Marsala; archaeological park preserves substantial sections of the ancient walls and harbor works.
+summary: >
+  Principal Carthaginian city of western Sicily across the fourth
+  and third centuries BCE, founded in 396 after the destruction
+  of [Motya](/places/motya) and developed across the period into
+  one of the major urban centers of the western Mediterranean.
+  Lilybaeum's monumental walls (substantial sections of which
+  survive) and its deep-water harbor made it the principal
+  Carthaginian Sicilian stronghold; the Roman siege of 250–241
+  during the [First Punic War](/events/first-punic-war) could
+  not reduce the city by storm or sustained operations, and
+  Lilybaeum was surrendered under the
+  [Treaty of Lutatius](/events/treaty-of-lutatius) rather than
+  captured. The Punic name *Rʾš Mlqrt* ("Head of Melqart"),
+  preserved in the inscriptional record, marks the city's
+  dedication to the Tyrian patron deity and its position as the
+  principal Punic Sicilian sanctuary of Melqart. Under Roman
+  administration after 241, Lilybaeum became one of the major
+  cities of Roman Sicily and the seat of one of the two
+  Sicilian *quaestores*; the Punic linguistic and religious
+  signature persisted in inscriptions and cultic continuity
+  across the Roman Republican and early imperial periods.

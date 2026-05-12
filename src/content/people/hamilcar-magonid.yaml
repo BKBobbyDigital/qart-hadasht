@@ -5,14 +5,19 @@ name_punic_script: 𐤏𐤁𐤃𐤌𐤋𐤒𐤓𐤕
 name_greek: Ἀμίλκας
 name_latin: Hamilcar
 etymology: >
-  Hamilcar (Punic ʿAbd-Melqart, "servant of Melqart") was a common
-  Carthaginian theophoric name borne by multiple distinct historical
-  figures. This Hamilcar is distinguished by his patronymic (son of
-  Hanno) and by his Magonid family connection. The Magonids, named
-  after the founding general Mago, dominated Carthaginian military
-  and political life from the late 6th to the mid-5th century BCE
-  and provided the principal commanders of the early Carthaginian
-  Sicilian campaigns.
+  Hamilcar (Punic *ʿAbd-Melqart*, "servant of Melqart") is a common
+  Carthaginian theophoric name borne by several distinct historical
+  figures across four centuries. This Hamilcar is distinguished by
+  his patronymic, son of Hanno, and by his Magonid family
+  connection. The Magonids, named after the founding general Mago,
+  dominated Carthaginian military and political life from the late
+  sixth through the mid-fifth century BCE and supplied the
+  principal commanders of the early Carthaginian Sicilian
+  campaigns. He should not be confused with
+  [Hamilcar Barca](/people/hamilcar-barca) (Hannibal's father, two
+  and a half centuries later) or with
+  [Hamilcar son of Gisco](/people/hamilcar-son-of-gisco) (the
+  Carthaginian commander against Agathocles in the 310s).
 floruit:
   value: -485
   precision: decade
@@ -20,30 +25,150 @@ floruit:
 death:
   value: -480
   precision: year
-  notes: Reportedly killed himself by leaping into a sacrificial fire at Himera when he saw the battle going against him (Herodotus 7.167).
+  notes: Killed at Himera. Herodotus 7.167 reports that he leapt into the sacrificial fire in the Carthaginian camp when he saw the battle lost; Diodorus 11.22 has him dying in the fighting itself.
 roles:
   - general
 polity: Carthage
+family:
+  father_name: Hanno
+  mother_name: Unnamed Syracusan woman of Greek descent (per Herodotus 7.166)
 referenced_themes:
   - punic-religion
+  - punic-identity
 summary: >
-  Carthaginian general of the Magonid family who commanded the
-  Carthaginian invasion of Sicily in 480 BCE that ended in the
-  catastrophic defeat at Himera. Sent in response to appeals from
-  Terillus (the exiled tyrant of Himera) and Anaxilas of Rhegium,
-  Hamilcar landed at Panormus (modern Palermo) with a force the
-  surviving sources estimate at hundreds of thousands of men, almost
-  certainly an inflated figure but pointing to a major expedition by
-  any reasonable reading. The army marched east along the north
-  coast of Sicily and was met at Himera by the combined forces of
+  Hamilcar son of Hanno was the Carthaginian general who commanded
+  the great Sicilian expedition of 480 BCE that ended in the
+  catastrophic defeat at the
+  [Battle of Himera](/events/battle-of-himera). He is the first
+  Carthaginian commander to enter the surviving record by name and
+  the first to leave a coherent biographical trace in the
+  Greco-Roman literary tradition. The Magonid family he belonged
+  to held a dominant share of the Carthaginian military command
+  across roughly a century, and his expedition was the culmination
+  of half a century of Carthaginian Sicilian engagement that began
+  with the [Battle of Alalia](/events/battle-of-alalia) (c. 540
+  BCE) and the consolidation of a Carthaginian-Etruscan western
+  Mediterranean alignment.
+
+
+  ## The Magonid context
+
+
+  By the early fifth century the Magonid family had built a position
+  inside the Carthaginian polity that the surviving sources, all
+  Greek and Latin, treat as approaching something like a hereditary
+  generalship. The founder, Mago, is named in Justin (18.7) as the
+  reorganizer of Carthaginian military institutions in the mid-sixth
+  century; his sons Hasdrubal and Hamilcar, and then his grandsons,
+  held the principal Sicilian, Sardinian, and African commands
+  across the late sixth and early fifth centuries. Hamilcar son of
+  Hanno was one of the figures in this generation. The family's
+  internal organization is not directly attested in any surviving
+  Carthaginian source; the reconstruction depends on Justin's
+  late and compressed account and on the prosopographic patterns
+  Greek writers preserve at second hand.
+
+
+  Herodotus (7.166) reports that Hamilcar's mother was Syracusan,
+  a detail that, if accurate, points to the mixed elite-marriage
+  networks linking Carthaginian and Greek-Sicilian aristocratic
+  families before the political rupture of 480. The detail is
+  preserved by Herodotus only and may be the kind of explanatory
+  flourish Greek historiography reached for when accounting for a
+  Carthaginian commander's familiarity with Sicilian affairs;
+  taken at face value, it suggests something about the porousness
+  of the western-Mediterranean elite world a generation before
+  Himera.
+
+
+  ## The 480 expedition
+
+
+  The political occasion for the 480 expedition was an appeal from
+  Terillus, the deposed tyrant of Himera, and from Anaxilas of
+  Rhegium, whose daughter was married to Terillus and who had his
+  own quarrel with Gelon of Syracuse. Carthage responded with what
+  the surviving sources describe as the largest military
+  mobilization in the city's history to that point. Herodotus
+  (7.165) gives a figure of three hundred thousand troops and
+  Diodorus (11.20) follows him with elaborate detail on the fleet;
+  both figures are almost certainly inflated, in the standard
+  pattern of Greek and Roman reporting on barbarian armies, but
+  point unambiguously to an expedition on a scale Carthage had not
+  previously attempted.
+
+
+  The army was assembled from across the Carthaginian-controlled
+  Mediterranean: Libyan infantry, Iberian and Ligurian contingents,
+  Sardinian and Corsican allies, and the Carthaginian citizen
+  corps that formed the army's command core. The fleet sailed from
+  Carthage to Panormus (modern Palermo) and disembarked there. The
+  army then moved east along the north coast of Sicily toward
+  Himera, the principal target of the campaign and the city whose
+  political reversal would have anchored a Carthaginian-aligned
+  northern Sicily.
+
+
+  ## The battle and the death
+
+
+  At Himera, Hamilcar's army was met by the combined forces of
   Gelon of Syracuse and Theron of Akragas. The engagement that
-  followed was a Greek victory of the first magnitude. Hamilcar,
-  according to Herodotus, killed himself in the Carthaginian camp by
-  leaping into the sacrificial fire when he saw the battle going
-  against him; Diodorus has a slightly different version. Either
-  way, his death and the Carthaginian rout produced a Greek victory
-  the surviving sources treat as comparable in scale to the
-  contemporary Greek victories over the Persians on the mainland.
-  Hamilcar is the first major Carthaginian commander to enter the
-  surviving record by name and the first to suffer a catastrophic
-  defeat at Greek hands.
+  followed is preserved in Herodotus (7.166–167) and Diodorus
+  (11.21–22), with the two accounts agreeing on the broad outcome
+  and disagreeing on the tactical detail. Both sources report a
+  Greek victory of decisive scale, with very heavy Carthaginian
+  losses and the destruction of much of the fleet drawn up on the
+  beach. Hamilcar himself died in the course of the battle.
+  Herodotus reports the celebrated version: that he remained in
+  the Carthaginian camp throughout the engagement, offering
+  sacrifices, and when he saw that the battle was lost he leapt
+  into the sacrificial fire and was consumed. Diodorus has the
+  more prosaic version that he died fighting. The Herodotean
+  account, whatever its historicity, became the canonical Greek
+  story; later Punic-period tradition, preserved by indirect
+  routes, evidently honored Hamilcar as a man who had given
+  himself to the gods at the moment of catastrophe, and Herodotus
+  (7.167) notes that the Carthaginians offered sacrifices to him
+  thereafter in both Carthage and the colonies.
+
+
+  ## Aftermath
+
+
+  The defeat at Himera ended Carthaginian Sicilian operations for
+  roughly seventy years. The next major Carthaginian intervention
+  in Sicily would be the campaigns of Hannibal Mago and Himilco in
+  410–405, traditionally framed as a revenge expedition for the
+  great-grandfather Hamilcar's death (Diodorus 13.43 makes the
+  filial connection explicit). The intervening period saw
+  Carthage consolidate its western Sicilian holdings around
+  Panormus, [Motya](/places/motya), Solus, and the inland Elymian
+  cities, and develop the Sardinian and African positions that
+  would underpin the later fifth-century recovery.
+
+
+  Herodotus situates Himera alongside the Greek victories at
+  Salamis and Plataea (7.166 places the battle on the same day as
+  Salamis, a synchronism that is almost certainly schematic but
+  that captures the Greek view of the western and eastern victories
+  as a single defense of Greek civilization). The framing has
+  shaped the modern reception of Hamilcar's defeat ever since.
+  Read from the Carthaginian side, the catastrophe was severe but
+  not strategically terminal: the city held its existing
+  Sicilian, Sardinian, and African positions, the Magonid family
+  recovered its political standing within a generation, and the
+  long arc of Carthaginian engagement with the central Mediterranean
+  resumed under different commanders by the late fifth century.
+
+
+  Hamilcar is, in this sense, both the first named Carthaginian
+  commander in the surviving record and the principal figure
+  through whom the western-Mediterranean political history of the
+  early fifth century reaches us. The framing is overwhelmingly
+  Greek, the sources are hostile, and what we know of him passes
+  through the lens of a defeat the victors had every reason to
+  emphasize. That this much survives at all is a function of
+  Herodotus's interest in the symmetry between Himera and Salamis;
+  the Carthaginian record of the same expedition is lost beyond
+  the trace of cultic honors Herodotus himself preserves.
