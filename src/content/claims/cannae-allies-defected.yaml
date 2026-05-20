@@ -31,6 +31,26 @@ sources:
       Rome's hegemony in central and southern Italy had been built,
       and as evidence that Hannibal's strategy of detaching allies was
       a coherent alternative to direct attack on Rome.
+  - source: rawlings-celts-spaniards-samnites-1996
+    stance: supports
+    passage_summary: >
+      Treats the Samnite and other Italian allied defections to
+      Hannibal after Cannae as substantive political choices by
+      communities operating within their own military traditions and
+      political interests, not as a passive response to Roman
+      defeat. The framing reads the defections as expressions of
+      agency by peoples whose interests intersected the Punic War
+      without being absorbed by it.
+  - source: rawlings-war-in-italy-2011
+    stance: supports
+    passage_summary: >
+      Standard reference chapter on the Italian theatre. Treats the
+      post-Cannae defection wave as the moment Hannibal's
+      alliance-detachment strategy came closest to working, and
+      analyzes the Roman response (the legal-political mechanisms
+      used to discourage further defections, the punitive treatment
+      of recovered allied cities) as evidence of how seriously
+      Rome took the strategic threat.
 entities:
   - type: event
     slug: battle-of-cannae
