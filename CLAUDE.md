@@ -86,6 +86,7 @@ Located in `src/content/`. The schema is in `src/content/config.ts`.
 | `institutions` | data | Formal civic/political/sacred bodies |
 | `deities` | data | Carthaginian pantheon entities |
 | `causalLinks` | data | Explicit cause→effect relationships between events |
+| `sourceComparisons` | data | Side-by-side parallel readings of contested events through multiple ancient sources, with points-of-difference and the site's working reconstruction |
 
 ### Render routes
 
@@ -358,9 +359,14 @@ Key components in `src/components/`:
 - `CiteThisPage.astro` — collapsible citation panel with
   Chicago / APA / MLA / BibTeX / RIS formatted strings + copy
   buttons. Institutional authorship only.
-- `CannaeDiagram.astro` — two-phase SVG illustration of the
-  double envelopment (deployment + envelopment). Embedded on the
-  Cannae event page.
+- `BattleDiagram.astro` — data-driven tactical battle diagram
+  renderer. Reads a `BattleDiagramConfig` from
+  `src/data/battles/<event-slug>.ts` and renders the parallel
+  phase tiles plus a fullscreen `<dialog>` lightbox with
+  prev/next phase navigation, keyboard arrow keys, touch swipe,
+  and tap-backdrop-to-close. Currently used by seven event pages
+  (Cannae, Trebia, Trasimene, Zama, Bagradas, Ilipa, Metaurus).
+  Replaced the bespoke `CannaeDiagram.astro` from earlier work.
 
 ### Sortable index tables
 
@@ -400,13 +406,13 @@ the last build.
 
 | Collection | Count |
 |---|---|
-| events | 92 |
+| events | 93 |
 | people | 82 |
 | places | 56 |
-| sources | 47 |
+| sources | 55 |
 | claims | 172 |
 | editorialTakes | 24 |
-| openQuestions | 17 |
+| openQuestions | 18 |
 | artifacts | 41 |
 | narratives | 35 |
 | themes | 17 |
@@ -416,6 +422,7 @@ the last build.
 | institutions | 6 |
 | deities | 10 |
 | causalLinks | 12 |
+| sourceComparisons | 9 |
 
 ### Headline state (post next-level pass)
 
@@ -425,7 +432,7 @@ Plus a substantial follow-on: analytics, 404, PWA, period 07 split,
 places imagery expansion, artifact placeholder consistency.
 
 Headline numbers:
-- 653 pages indexed
+- 676 pages indexed
 - 38 of 56 places imaged; 38 of 41 artifacts imaged
 - 0 broken internal links; 0 accessibility findings on user-facing pages
 - Em-dash density 73% reduced from initial audit; AI-tic vocabulary
@@ -434,6 +441,16 @@ Headline numbers:
 - Privacy-first analytics live with 9 tracked event types
 - Installable PWA with Tanit-mark icon set
 - Citation rigor: anchored headings, BibTeX/RIS/APA/MLA/Chicago export, version stamps with GitHub-history links
+- Seven land battles have tactical diagrams (Cannae, Trebia, Trasimene,
+  Zama, Bagradas, Ilipa, Metaurus) with a data-driven SVG component
+  and a tap-to-enlarge dialog with prev/next phase navigation
+- Nine source-comparison entries — a new first-class collection
+  presenting contested events through multiple ancient sources in
+  parallel, with the site's source-rivalry methodology made visible
+  as a reading interface
+- Six Louis Rawlings citations integrated across army-composition,
+  Iberian-side-switching, Italian-allied defection, Hannibal-and-
+  Hercules, and Polybian-atrocity-framing material
 
 ### What shipped in the next-level pass (most recent major work)
 
@@ -865,6 +882,113 @@ sort order.
 - Period pages (7 era syntheses)
 - Cmd-K search modal global component
 
+### Synthesis-and-evidence-layer pass (May 2026, commits fdf6241 → f11be67)
+
+A substantial session focused on the synthesis layer and the
+source-rivalry-as-feature direction. Five threads ran in
+parallel:
+
+**1. The /narratives index as synthesis hub.** The narrative
+listing page was extended to host all four legs of the
+interpretive layer: narratives (existing), editorial takes,
+open questions, and source comparisons. A jump-to nav at the
+top shows each section with its count. The H1 stays
+"Narratives" but the page is conceptually the synthesis hub.
+
+**2. Battle tactical diagrams — seven land battles complete.**
+The original bespoke CannaeDiagram component was refactored
+into a data-driven system: a shared `BattleDiagram.astro`
+that takes a typed config (`src/lib/battleDiagram.ts`), per-
+battle configs at `src/data/battles/<event-slug>.ts`, and a
+tap-to-enlarge dialog with prev/next phase navigation,
+keyboard arrows, touch swipe, tap-backdrop-to-close. Cannae
+migrated; six new battles added: Trebia, Trasimene, Zama,
+Bagradas (with a new event entry for the 255 BCE battle,
+since the existing battle-of-bagradas-238 is the Mercenary
+War battle), Ilipa, Metaurus. Naval battles deferred —
+would require a different visual idiom (fleet wedges, wind
+direction, harbor geography).
+
+**3. aDNA framing extension.** The 2025 Ringbauer/Reich
+Nature paper on Punic-period genetic ancestry (predominantly
+Mediterranean, minimal Levantine component at western sites)
+addressed via three pieces: new source entry
+(`ringbauer-punic-genetics-2025`), new open question
+(`punic-demographic-composition`) that explicitly separates
+the foundation question from the demographic question, and a
+new section in the `phoenician-colonial-network` theme,
+"Cultural network, demographic mixing," that makes the
+foundation-vs-demography distinction explicit. Framing:
+Tyrian foundation is real and well-attested; demographic
+composition across 700 years is a separate question; cultural
+identity transmits through socialization, not genealogy; the
+aDNA empirically confirms the cultural-integrator framing
+the site had already arrived at on other grounds.
+
+**4. Louis Rawlings sources — six new modern-scholarship
+citations.** Cardiff specialist on ancient warfare with
+particular strength on Punic War period. The six:
+`rawlings-hall-unit-cohesion-2023` (the most direct recent
+treatment of how a multi-ethnic Carthaginian army functioned
+as a coherent institution), `rawlings-celts-spaniards-samnites-1996`
+(non-Greco-Roman warrior agency), `rawlings-war-in-italy-2011`
+(standard reference chapter on the Italian theatre),
+`rawlings-hannibal-and-hercules-2005` (Hannibal's deliberate
+self-association with Hercules via Melqart syncretism),
+`rawlings-hannibal-cannibal-2007` (methodology on Polybian
+atrocity framing), `rawlings-ancient-greeks-at-war-2007`
+(survey monograph — added but not yet integrated). The
+five integrated ones cite into: army-composition take,
+Iberian-side-switching take, cannae-allies-defected claim,
+hannibal-italian-objective take, cannae-march-on-rome take,
+Hannibal Barca person page, and mercenary-war-atrocity take.
+
+**5. Source comparisons — new first-class collection
+("outside the box" feature).** The most distinctive direction
+this session opened. New `sourceComparisons` collection: each
+entry presents a contested episode through multiple ancient
+sources in parallel (paraphrased passages with source-distance
+chips), surfaces specific points where the sources differ
+with the site's commentary, and offers a working
+reconstruction. The aim is to make the source-rivalry work
+the rest of the site does implicitly (in claim citations, in
+editorial-take reasoning) visible as a reading interface.
+
+Nine entries shipped across the principal Punic Wars arcs:
+- `cannae` — 4 sources, 6 points of difference
+- `mercenary-war-atrocities` — Polybius/Diodorus/Appian
+- `sophonisbas-death` — Livy/Appian/Diodorus
+- `lutatius-treaty` — the FPW settlement amendment question
+- `saguntum-casus-belli` — Polybius's structural reading vs Livy's moral
+- `alps-crossing` — vinegar-on-rocks as the textbook literary invention
+- `hannibal-antiochus-denunciation` — Justinian skeptical framing
+- `tarentine-betrayal` — political action vs treachery framing
+- `declaration-of-war-218` — toga-gesture authentic, speeches elaboration
+
+Schema in `src/content/config.ts`. Routes at
+`src/pages/sourceComparisons/[slug].astro` and `index.astro`.
+Surfaced on the /narratives synthesis hub, on subject-event
+pages, on related editorial takes and open questions (via
+reverse-lookup interlinking), and as a featured homepage
+callout. The interlinking is generic — adding a new
+comparison automatically surfaces it in the right places
+without further wiring.
+
+**Other small things in this stretch:**
+- Cowell 1906 *Nature* paper on the Agathocles eclipse added
+  as a source and integrated into the Agathocles invasion
+  narrative
+- Evidence-summary rendering fix: open-question `evidence_summary`
+  fields were preserving YAML hard-wraps as visible line
+  breaks via `whitespace-pre-line`; replaced with a
+  `paragraphize()` helper that collapses single newlines to
+  spaces and splits on blank lines. Now flows to full column
+  width. The helper pattern is reusable — also used in the
+  sourceComparisons route.
+- Homepage callout for the Cannae source comparison
+- Stale "All 13 open questions" link on homepage fixed to
+  "All open questions" (count was drifting)
+
 ---
 
 ## Outstanding work
@@ -907,13 +1031,18 @@ not surface unsolicited.
    a deliberate future direction once the content side is
    genuinely settled.
 
-2. **Battle tactical visualizations** — animated/diagrammatic SVG
-   of Cannae, Zama, Trebia, Trasimene, Aegates Islands, Drepana,
-   with step-through deployment-to-resolution views and sourcing
-   notes. The single biggest "wow" addition the site could take;
-   tooling fit is identical to the existing maps system plus the
-   territorial-map toggle pattern. ~10 days for the canonical
-   battle set done well.
+2. **Battle tactical visualizations** — *seven land battles
+   shipped* (Cannae, Trebia, Trasimene, Zama, Bagradas, Ilipa,
+   Metaurus) via the data-driven `BattleDiagram` system + the
+   tap-to-enlarge dialog. Naval battles remain — Aegates Islands
+   (241), Drepana (249), Cape Ecnomus (256) all want a different
+   visual idiom (fleet wedges, wind direction, harbor geography)
+   that the line-of-battle template doesn't accommodate. Building
+   the naval idiom is the natural next step if the user calls for
+   it. Metaurus Phase 3 was flagged for review (the lateral march
+   arrow, flanking strike, and death annotations all in one
+   frame — possibly has overlap issues) but the review pass never
+   happened — pick up there if returning.
 
 3. **Family tree / dynasty explorer** — SVG-rendered interactive
    family trees for the Barcids (Hamilcar → Hannibal/Hasdrubal/
@@ -1074,7 +1203,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **653 pages**.
+output. As of the last CLAUDE.md refresh it was around **676 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
@@ -1100,6 +1229,26 @@ collection:
 - **places**: added `image` block (mirror of artifacts) during the
   place-imagery work. Same `src` / `alt` / `credit` / `credit_url`
   / `license` shape.
+- **sourceComparisons**: `title`, `subject_event` (optional ref),
+  `summary`, `source_passages[]` (each: `source` ref, `passage_ref`,
+  `paraphrase`, optional `source_note`), `points_of_difference[]`
+  (each: `topic`, `positions[]` per-source-slug + `what_it_says`,
+  `commentary`), `working_reconstruction`, optional
+  `related_takes` / `related_claims` / `related_questions` /
+  `related_narratives` (string-arrays of slugs), `last_revised`.
+  The source-comparison infrastructure also wires up reverse-
+  lookup interlinking on event / editorialTake / openQuestion /
+  narrative routes — adding a new entry surfaces automatically
+  in the right places.
+
+The battle-diagram system uses data files at
+`src/data/battles/<event-slug>.ts`. Each file exports a
+`BattleDiagramConfig` (types in `src/lib/battleDiagram.ts`)
+describing the diagram's heading, phases (each with units, arrows,
+annotations, optional rivers, optional north arrow), legend, and
+caption. The events route auto-detects whether a config matches
+the event slug and embeds the diagram via the shared
+`BattleDiagram.astro` component, no per-slug check.
 
 The autolink markdown-link first-pass (added to `lib/autolink.ts`)
 means YAML summary fields can contain `[text](url)` links that get
@@ -1236,6 +1385,32 @@ The user does not want:
     framed without presumed endpoint
   - `openQuestions/punic-womens-lives-evidence-gap.yaml` — what
     surviving evidence does and doesn't permit
+  - `openQuestions/punic-demographic-composition.yaml` —
+    foundation-vs-demography distinction, the aDNA framing
+
+- **Source comparisons** (multi-source parallel readings):
+  - `sourceComparisons/cannae.yaml` — the POC; 4 sources, 6
+    points of difference, the Maharbal anecdote as the
+    headline source-critical case
+  - `sourceComparisons/mercenary-war-atrocities.yaml` —
+    methodologically central; Polybian framing as 6th-book
+    rhetorical engine
+  - `sourceComparisons/sophonisbas-death.yaml` — women's-history
+    framing; Livian noble-tragic vs Diodoran politically
+    substantive Sophonisba
+  - `sourceComparisons/alps-crossing.yaml` — vinegar-on-rocks
+    as the textbook case of Latin literary invention
+
+- **Battle diagrams** (data-driven tactical SVG):
+  - `data/battles/battle-of-cannae.ts` — the POC; two phases,
+    the deepest example of the system
+  - `data/battles/battle-of-zama.ts` — three phases, the
+    elephant-channel and cavalry-return pattern
+  - `data/battles/battle-of-lake-trasimene.ts` — uses a
+    different visual idiom (hills + lake + column on the
+    road) for an ambush rather than a line-of-battle event;
+    shows the system can stretch when the tactical situation
+    isn't a standard field engagement
 
 ### Framing discipline that runs across recent work
 
