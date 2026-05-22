@@ -143,6 +143,43 @@ historiographically interesting; neither is a reliable guide to
 what the people of Carthage themselves understood about their
 identity.
 
+## The aDNA evidence and the cultural-versus-genetic distinction
+
+The 2025
+[Ringbauer ancient-DNA study](/sources/ringbauer-punic-genetics-2025)
+addresses an aspect of the identity question the literary and
+inscriptional record could not address directly: the genetic
+composition of the populations that carried Punic identity
+across the centuries. Genome-wide data from ~210 individuals
+across Phoenician and Punic burial contexts shows that
+individuals buried at western Punic sites — Carthage included —
+carry predominantly Sicilian, Aegean, and North African genetic
+ancestry, with only minimal Levantine component. The
+Phoenician-homeland comparative samples carry the expected
+Levantine profile.
+
+The finding empirically confirms what the cultural-construct
+reading of Punic identity had already arrived at on other
+grounds: Phoenician and Punic were cultural identities sustained
+by socialization, religious practice, language, naming
+conventions, and civic institutions, carried across centuries
+by populations whose demographic composition reflected the full
+Mediterranean integration the literary and inscriptional record
+suggested. The Tyrian foundation of Carthage is well-attested
+and not disturbed by the aDNA; what the aDNA clarifies is that
+the population produced by that founding event was, by the
+time of the Punic-period samples, demographically Mediterranean
+rather than predominantly Levantine.
+
+The methodological point this surfaces is the distinction
+between cultural transmission (which requires shared language,
+ritual, naming, and institutional membership) and demographic
+continuity (which would require genetic isolation across
+centuries of active trade and intermarriage). The first is
+how cultural identity actually works; the second is not. The
+[open question on Punic demographic composition](/openQuestions/punic-demographic-composition)
+treats the foundation-vs-demography distinction methodologically.
+
 ## Material evidence
 
 The principal artifacts that bear on Punic identity span the

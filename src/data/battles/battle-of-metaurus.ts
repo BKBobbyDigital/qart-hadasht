@@ -121,24 +121,22 @@ const config: BattleDiagramConfig = {
         // Nero now smaller (he detached part of his force)
         { rect: { x: 270, y: 60, w: 50, h: 24 }, fill: '#dc2626', stroke: '#7f1d1d', opacity: 0.65, label: 'Nero (remnant)', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelItalic: true },
 
-        // The detached column — drawn behind the Roman line as a long thin rect
-        { rect: { x: 40, y: 50, w: 220, h: 8 }, fill: '#7f1d1d', stroke: '#7f1d1d', opacity: 0.8 },
-
         // Nero falling on Hispanic flank — striking south
         { rect: { x: 30, y: 125, w: 50, h: 24 }, fill: '#dc2626', stroke: '#7f1d1d', strokeWidth: 1.5, label: 'Nero strikes flank', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
 
-        // Hispanic veterans collapsing
-        { rect: { x: 80, y: 195, w: 80, h: 32 }, fill: '#3d0a21', stroke: '#1a0410', strokeDasharray: '4,3', opacity: 0.45, label: 'Hispanics rolling up', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600, labelItalic: true },
+        // Hispanic veterans collapsing — dark label for readability on the faded fill
+        { rect: { x: 80, y: 195, w: 80, h: 32 }, fill: '#3d0a21', stroke: '#1a0410', strokeDasharray: '4,3', opacity: 0.45, label: 'Hispanics rolling up', labelPosition: 'inside', labelSize: 8, labelColor: '#1a0410', labelWeight: 600, labelItalic: true },
         { rect: { x: 165, y: 195, w: 70, h: 32 }, fill: '#fbbf24', stroke: '#92400e', strokeWidth: 1.5, label: 'Ligurians', labelPosition: 'inside', labelSize: 8, labelColor: '#451a03', labelWeight: 600 },
         { rect: { x: 240, y: 207, w: 80, h: 28 }, fill: '#92400e', stroke: '#451a03', label: 'Gauls', labelPosition: 'inside', labelSize: 9, labelColor: '#fff', labelWeight: 600 },
       ],
       arrows: [
         // The long lateral march arrow — east to west, behind the Roman line
-        { from: [275, 54], to: [50, 54], color: '#7f1d1d', width: 3 },
+        { from: [275, 54], to: [50, 54], color: '#7f1d1d', width: 3, dasharray: '6,3' },
         // The flank strike south
         { from: [55, 150], to: [85, 195], color: '#7f1d1d', width: 2.5 },
       ],
       annotations: [
+        { x: 160, y: 44, text: "Nero's detached force marches west behind the Roman line", size: 8, color: '#7f1d1d', italic: true },
         { x: 200, y: 285, text: "Hasdrubal sees the battle lost; charges into the Roman line and is killed", size: 8, color: '#5b0f31', italic: true, weight: 600 },
         { x: 200, y: 302, text: 'His head is carried south and thrown into Hannibal’s camp at Canusium', size: 8, color: '#5b0f31', italic: true },
       ],

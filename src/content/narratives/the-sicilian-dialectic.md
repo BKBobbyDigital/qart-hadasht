@@ -260,3 +260,23 @@ period: a stable two-power partition that the Greek sources
 present as a long series of Greek near-misses and that, read
 against the operational facts, looks rather more like an
 equilibrium neither side managed to break.
+
+Modern reference treatment of the Greek military side of this
+dialectic is Rawlings's
+[*Ancient Greeks at War*](/sources/rawlings-ancient-greeks-at-war-2007),
+a survey of Greek warfare from the Mycenaean period through
+Alexander. The chapters on mercenary recruitment, fourth-century
+professionalization, and siegecraft are particularly relevant
+to the Sicilian theater Carthage operated in: the Greek
+mercenary economy of the late classical period is the
+recruitment context behind both Carthaginian and Sicilian-Greek
+operations across the seven decades, and the fourth-century
+Hellenistic military transformation that Rawlings traces on the
+Greek side is the structural background to the Carthaginian
+army of the same period. Rawlings also pushes back against the
+once-standard reading that distinguished "citizen" Greek
+warfare sharply from "mercenary" Hellenistic warfare — a
+comparative-anachronism that has done equivalent damage on the
+Carthaginian side of the analysis, where Polybius's later
+"mercenary inferiority" framing has obscured the actual
+institutional shape of Carthaginian field armies.
