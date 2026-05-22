@@ -1,0 +1,305 @@
+slug: lutatius-treaty
+title: "The Lutatius Treaty across the ancient sources"
+subject_event: treaty-of-lutatius
+summary: >
+  The treaty that ended the First Punic War in 241 BCE is one
+  of the most consequential documents in Punic studies because
+  its terms set the structural conditions for everything that
+  followed — the FPW indemnity that exhausted Carthaginian
+  finances and triggered the
+  [Mercenary War](/events/mercenary-war), the territorial
+  losses that reshaped the western Mediterranean strategic
+  balance, and the framing that made the SPW a structural
+  near-inevitability. Polybius 1.62–63 is the principal
+  source and preserves the famously consequential passage in
+  which "the Romans afterwards added clauses" to the
+  field-treaty Catulus had signed — the Senate amending the
+  terms after the fact to harsher conditions. Diodorus
+  24.13 and 25.2 preserve overlapping material with different
+  framings. Appian *Sicilica* references the treaty briefly.
+  Whether the Senate-amended version was substantively
+  harsher than the field-treaty, what Catulus actually agreed
+  to, and how the amendment process worked are
+  source-critical questions that bear directly on the modern
+  reading of FPW settlement as fair-enough versus punitive,
+  and through that on the structural-causation reading of
+  the SPW.
+
+source_passages:
+  - source: polybius-histories
+    passage_ref: "1.62–63"
+    paraphrase: >
+      Polybius gives the canonical account. The field
+      negotiations between Lutatius Catulus and the
+      Carthaginian commander (Hamilcar Barca via deputies)
+      produced an initial treaty with terms Polybius
+      describes: Carthaginian withdrawal from Sicily, the
+      restoration of prisoners without ransom, and an
+      indemnity payable over twenty years. The Roman
+      Senate, when the treaty came home for ratification,
+      "did not approve them entirely" and sent a commission
+      that "added clauses" — reducing the payment period
+      to ten years, increasing the total indemnity by
+      1,000 talents (to 3,200), and requiring Carthaginian
+      withdrawal from all islands between Sicily and Italy.
+      Polybius is explicit that the amended terms were
+      harsher than what Catulus had signed in the field,
+      and presents the amendment as legitimate Senate
+      action within the standard Roman ratification
+      procedure. He does not dwell on the question of
+      whether the amendment was fair, treating it as the
+      Senate exercising its constitutional role.
+    source_note: >
+      Polybius is the earliest surviving and the only source
+      with access to participant memory of the negotiation.
+      His specific phrase that the Senate "added clauses"
+      to a treaty Catulus had already signed is the
+      load-bearing piece of evidence for the entire
+      modern source-critical question. He does not
+      problematize the amendment in moral or political
+      terms; modern reading has to ask whether his
+      institutional framing (Senate exercises standard
+      constitutional role) papers over what was, from the
+      Carthaginian side, an unilateral Roman amendment of
+      a signed treaty.
+  - source: diodorus-library
+    passage_ref: "24.13, 25.2"
+    paraphrase: >
+      Diodorus preserves the broad treaty terms in fragments
+      from his twenty-fourth book and a brief return to the
+      subject at the opening of the twenty-fifth (the
+      transition to the Mercenary War). His framing
+      acknowledges the amendment process Polybius describes
+      but treats it with somewhat less institutional
+      smoothness — the Senate amendment is presented more
+      as an unilateral toughening of terms than as routine
+      ratification. The specific numbers differ slightly
+      from Polybius's (the indemnity figure in the
+      fragments is variously preserved). The framing of the
+      treaty's reception at Carthage is also somewhat
+      different: where Polybius presents Carthaginian
+      acceptance as the only available option given the
+      strategic situation, Diodorus preserves more sense
+      of the resentment the amended terms produced and the
+      degree to which the Senate amendment poisoned
+      subsequent Roman-Carthaginian relations.
+    source_note: >
+      Diodorus drew on earlier Greek sources including
+      Philinus, the pro-Carthaginian historian Polybius
+      explicitly dismisses. Where Diodorus's framing of the
+      treaty's reception at Carthage preserves more sense
+      of resentment than Polybius gives it, that may
+      reflect an underlying Philinian source preserving
+      the Carthaginian perspective on what the amendment
+      meant.
+  - source: appian-punica
+    passage_ref: "*Sicilica* 2, *Hannibalica* 7"
+    paraphrase: >
+      Appian's references to the treaty are brief and
+      embedded in his treatments of the war's overall
+      shape. He preserves the broad treaty terms consistent
+      with Polybius and Diodorus and acknowledges the
+      Senate amendment, but his framing of the treaty's
+      structural significance is more directed toward its
+      consequences for the SPW than to the specific
+      amendment-process question. His value for the
+      treaty specifically is principally as confirmation
+      of the broad outline rather than as a source for
+      the amendment-process details.
+    source_note: >
+      Appian wrote in the mid-second century CE working
+      from earlier sources that overlap heavily with
+      Polybius and Diodorus. His treatment of the FPW
+      settlement is generally less detailed than his
+      treatment of the SPW; for the Lutatius treaty
+      specifically he is the briefest of the three
+      principal sources.
+
+points_of_difference:
+  - topic: How harsh the Senate amendment was
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Specific: payment period halved from twenty to
+          ten years, indemnity increased by 1,000 talents
+          to 3,200, requirement added that Carthage
+          withdraw from all islands between Sicily and
+          Italy (which affected Sardinia and Corsica's
+          status). The amendment is presented as
+          substantive but as legitimate Senate
+          ratification action.
+      - source_slug: diodorus-library
+        what_it_says: >
+          The amendment is preserved with similar but
+          slightly different specific figures in the
+          fragments. Framing presents the amendment with
+          more rhetorical weight — as unilateral toughening
+          rather than routine ratification.
+    commentary: >
+      The Polybian specific terms are the principal source
+      for modern reconstruction of what the amendment
+      actually changed. The payment-period halving and the
+      indemnity increase are the load-bearing changes for
+      the subsequent Carthaginian fiscal crisis that
+      produced the Mercenary War — the original
+      twenty-year payment schedule would have been
+      manageable; the ten-year schedule was not. The
+      islands-clause was the load-bearing change for the
+      subsequent Roman seizure of
+      [Sardinia](/places/sardinia) in 238 BCE during the
+      Mercenary War, which Polybius himself
+      [treats elsewhere](/editorialTakes/lutatius-treaty-too-harsh)
+      as the moment that made a second war inevitable.
+
+  - topic: Whether the amendment was procedurally legitimate
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Yes. The Senate's role in ratification of treaties
+          signed in the field by Roman commanders was
+          standard constitutional practice, and the
+          amendment of Catulus's terms is presented as the
+          Senate exercising that role. The treaty as
+          signed was conditional on ratification; the
+          amended treaty was the ratified version.
+      - source_slug: diodorus-library
+        what_it_says: >
+          The amendment is acknowledged but framed with
+          more rhetorical weight as an unilateral Roman
+          toughening of terms that had already been
+          agreed. The legitimacy question is treated less
+          smoothly than Polybius gives it.
+    commentary: >
+      The procedural-legitimacy question is real and modern
+      scholarship has weighed it both ways. Roman
+      constitutional procedure did make field-treaties
+      conditional on Senate ratification, and Lutatius
+      Catulus would have known this; the Carthaginian
+      negotiators presumably knew it as well. But the
+      practical consequence — that the Roman side could
+      offer one set of terms in the field and then amend
+      them at home with the Carthaginian side having no
+      symmetric capacity to do likewise — was substantively
+      asymmetric. The Polybian institutional smoothing of
+      this asymmetry is the principal source-critical move
+      modern reading should be aware of. The
+      [editorial take on the treaty's harshness](/editorialTakes/lutatius-treaty-too-harsh)
+      treats the broader question of how the amendment
+      should be read.
+
+  - topic: The treaty's reception at Carthage
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Acceptance as the only available option given the
+          strategic situation. No substantial dwelling on
+          resentment or political fallout at Carthage.
+      - source_slug: diodorus-library
+        what_it_says: >
+          Acceptance under duress but with substantial
+          preserved sense of the resentment the amended
+          terms produced. The Senate amendment is presented
+          as poisoning subsequent relations.
+    commentary: >
+      The Diodoran framing of the treaty's reception
+      preserves more of what was likely the actual
+      Carthaginian political experience: an agreement
+      negotiated in the field, then unilaterally toughened
+      at Rome, with no symmetric Carthaginian capacity to
+      revise. The Polybian institutional smoothing is
+      consistent with his broader argumentative pattern
+      of presenting Roman institutional behavior as
+      legitimate where the Carthaginian side might
+      experience it as duress. Modern reading should
+      retain the Diodoran sense of the political fallout
+      rather than the Polybian institutional gloss.
+
+  - topic: The connection to subsequent events
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The treaty's harsh financial terms (specifically
+          the ten-year payment schedule) are presented as
+          a contributing factor in the subsequent
+          Mercenary War, but Polybius treats the moral
+          breakdown of the mercenary leadership as the
+          principal cause. Sardinia's loss to Rome in 238
+          BCE is treated as a separate episode rather than
+          as a direct consequence of the islands clause.
+      - source_slug: diodorus-library
+        what_it_says: >
+          The structural connection between the amended
+          treaty terms (specifically the financial squeeze)
+          and the Mercenary War is preserved with more
+          weight. The framing presents the war's outbreak
+          as a structural consequence of the treaty's
+          conditions to a greater degree than Polybius
+          allows.
+    commentary: >
+      Modern scholarship has converged on the structural
+      reading the Diodoran framing supports: the ten-year
+      payment schedule produced the fiscal exhaustion that
+      made the Mercenary War unavoidable; the islands
+      clause gave Rome the legal pretext for the
+      [Sardinia seizure](/events/sardinian-seizure)
+      during the war's chaos. Both consequences flow from
+      the Senate amendment, not from what Catulus signed in
+      the field. The Lutatius treaty as amended is the
+      structural-causal pivot of the entire inter-war
+      period, and the Polybian framing of the war as
+      moral-mercenary-breakdown rather than structural
+      Carthaginian-fiscal-collapse is exactly the framing
+      modern source-critical reading has had to disentangle.
+
+working_reconstruction: >
+  The three sources together support a confident
+  reconstruction of the broad treaty: Catulus signed terms
+  in the field in 241 BCE, the Roman Senate amended those
+  terms before ratification to harsher conditions, and the
+  amended treaty became the FPW settlement. The amendment
+  added an islands clause that affected the later Sardinia
+  question, shortened the payment schedule by half, and
+  increased the total indemnity by roughly 30 percent.
+  These amendments produced the fiscal squeeze that triggered
+  the Mercenary War and gave Rome the legal pretext for the
+  Sardinia seizure during the war's chaos. The treaty as
+  amended is the structural pivot of the entire inter-war
+  period; everything downstream of it — the Mercenary War,
+  the loss of Sardinia, the Barcid Iberian project as
+  fiscal-strategic recovery, the resulting Roman-Carthaginian
+  strategic-political reset — flows from the conditions the
+  Senate amendment created.
+
+  The source-critical points where modern reconstruction has
+  to make choices are: (a) the framing of the amendment
+  process itself, where the Polybian institutional smoothing
+  is procedurally accurate but obscures the substantive
+  asymmetry the Diodoran framing preserves; (b) the framing
+  of the treaty's reception at Carthage, where the Diodoran
+  sense of resentment and political fallout is more honest
+  to the actual political experience than the Polybian
+  duress-acceptance smoothing; (c) the framing of the
+  treaty's connection to the Mercenary War, where the
+  Diodoran structural-causal reading is preferable to the
+  Polybian moral-mercenary-breakdown reading.
+
+  Together these reading choices produce a treaty that was
+  the genuine pivot of the inter-war period — substantively
+  harsher than what Catulus signed, substantively
+  consequential for Carthaginian internal politics and for
+  the Roman-Carthaginian strategic relationship, and
+  substantively load-bearing for the SPW's structural
+  causation. The site's
+  [editorial take on the treaty](/editorialTakes/lutatius-treaty-too-harsh)
+  develops the position that the Senate amendment was the
+  decisive moment in the inter-war period and that its
+  structural consequences made the SPW a near-inevitable
+  rather than contingent outcome.
+
+related_takes:
+  - lutatius-treaty-too-harsh
+related_claims: []
+related_narratives: []
+related_questions: []
+
+last_revised: "2026-05-12"
