@@ -77,6 +77,18 @@ const relatedNarratives = allNarratives
   .filter((n: any) => n.id !== narrative.id && n.data.scope === d.scope)
   .slice(0, 5);
 
+// Find source comparisons that reference this narrative (by slug)
+// or whose subject_event matches a primary entity of this narrative.
+const narrativeSlug = narrative.id.replace(/\.md$/, '');
+const eventPrimaryIds = (d.primary_entities ?? [])
+  .filter((e: any) => e.type === 'event')
+  .map((e: any) => e.slug);
+const allComparisons = await getCollection('sourceComparisons');
+const relatedComparisons = allComparisons.filter((c: any) =>
+  (c.data.related_narratives ?? []).includes(narrativeSlug) ||
+  (c.data.subject_event && eventPrimaryIds.includes(c.data.subject_event.id))
+);
+
 const narrativeInfoboxRows: InfoboxRow[] = [
   { label: 'Scope', value: scopeLabel },
   { label: 'Subject', value: subjectLinks },
@@ -130,7 +142,7 @@ const narrativeInfoboxRows: InfoboxRow[] = [
           Narratives are interpretive synthesis; the underlying claims, with sources, are linked from the relevant entity pages.
         </p>
 
-        {(relatedTakes.length > 0 || relatedQuestions.length > 0 || relatedNarratives.length > 0 || tags.length > 0) && (
+        {(relatedTakes.length > 0 || relatedQuestions.length > 0 || relatedNarratives.length > 0 || relatedComparisons.length > 0 || tags.length > 0) && (
           <section class="mt-12 pt-6 border-t border-sand-300">
             <h2 class="font-serif text-xl mb-4" style="border: none; padding: 0; margin-top: 0;">Related</h2>
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6 text-sm">
@@ -165,6 +177,18 @@ const narrativeInfoboxRows: InfoboxRow[] = [
                     {relatedNarratives.map((n: any) => (
                       <li>
                         <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline leading-snug">{n.data.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {relatedComparisons.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Source comparisons</p>
+                  <ul class="space-y-1.5">
+                    {relatedComparisons.map((c: any) => (
+                      <li>
+                        <a href={`/sourceComparisons/${c.id}`} class="text-tyrian-700 hover:underline leading-snug">{c.data.title}</a>
                       </li>
                     ))}
                   </ul>

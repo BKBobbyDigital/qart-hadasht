@@ -88,6 +88,12 @@ const matchingNarrative = allNarratives.find((n) =>
   n.data.primary_entities?.some((e: any) => e.type === 'event' && e.slug === event.id)
 );
 
+// Find source comparisons whose subject is this event
+const allComparisons = await getCollection('sourceComparisons');
+const relatedComparisons = allComparisons.filter((c: any) =>
+  c.data.subject_event?.id === event.id
+);
+
 // Causal links — what this event caused, and what caused it
 const allCausalLinks = await getCollection('causalLinks');
 const causedByLinks = allCausalLinks.filter((l) => l.data.effect.id === event.id);
@@ -445,6 +451,14 @@ const infoboxRows: InfoboxRow[] = [
         <p class="text-sm text-sand-900 mt-1">{matchingNarrative.data.thesis}</p>
       </a>
     )}
+
+    {relatedComparisons.map((c: any) => (
+      <a href={`/sourceComparisons/${c.id}`} class="block mt-4 p-4 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors">
+        <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Compare the ancient sources →</p>
+        <p class="font-serif text-lg text-tyrian-900 mt-1">{c.data.title}</p>
+        <p class="text-xs text-sand-700 mt-1">{c.data.source_passages.length} sources in parallel</p>
+      </a>
+    ))}
 
     {participants.length > 0 && (
       <section class="mt-10">

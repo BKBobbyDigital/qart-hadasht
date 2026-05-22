@@ -54,6 +54,13 @@ const featuredQuestions = (await Promise.all(
   featuredQuestionSlugs.map(async (slug) => await getEntry('openQuestions', slug))
 )).filter(Boolean) as any[];
 
+// ─── Featured source comparison ──────────────────────────────────────────────
+// Showcase the new source-rivalry reading interface. Cannae is the POC
+// and the strongest example: four ancient sources, six points of
+// difference worked out, with the methodological pay-off (the Maharbal
+// exchange almost certainly not historical) genuinely interesting.
+const featuredComparison = await getEntry('sourceComparisons', 'cannae');
+
 // ─── Featured threads ────────────────────────────────────────────────────────
 const featuredThreadSlugs = [
   'hannibals-life',
@@ -177,9 +184,36 @@ const confidenceLabel: Record<string, string> = {
       ))}
     </ul>
     <p class="mt-4 text-sm text-sand-700">
-      <a href="/openQuestions" class="text-tyrian-700 hover:underline">All 13 open questions →</a>
+      <a href="/openQuestions" class="text-tyrian-700 hover:underline">All open questions →</a>
     </p>
   </section>
+
+  {featuredComparison && (
+    <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
+      <p class="eyebrow mb-3">Reading the sources against each other</p>
+      <h2 class="font-serif text-3xl sm:text-4xl mb-3">Compare the ancient sources</h2>
+      <p class="text-sand-700 mb-6 max-w-2xl">
+        Side-by-side parallel readings of contested events through the
+        multiple ancient sources that preserve them. Where Polybius,
+        Livy, Appian, and Plutarch agree and where they don't,
+        surfaced directly rather than collapsed into a synthetic
+        summary.
+      </p>
+      <a
+        href={`/sourceComparisons/${featuredComparison.id}`}
+        class="block p-6 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors"
+      >
+        <p class="text-[10px] uppercase tracking-widest font-semibold text-tyrian-700">Source comparison</p>
+        <h3 class="font-serif text-2xl text-tyrian-900 mt-2 leading-snug">{featuredComparison.data.title}</h3>
+        <p class="text-sm text-sand-900 mt-3 leading-relaxed">
+          {trimGloss(featuredComparison.data.summary, 320)}
+        </p>
+        <p class="text-xs text-tyrian-700 mt-4 font-medium">
+          {featuredComparison.data.source_passages.length} sources in parallel · {featuredComparison.data.points_of_difference.length} points of difference →
+        </p>
+      </a>
+    </section>
+  )}
 
   <section class="max-w-4xl mx-auto px-6 py-10 border-t border-tyrian-700">
     <p class="eyebrow mb-3">Historical atlas</p>

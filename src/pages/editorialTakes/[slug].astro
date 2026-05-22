@@ -40,6 +40,12 @@ if (d.subject_entity) {
     subjectHref = subjectEntity ? `/${collection}/${subjectEntity.id.replace(/\.md$/, '')}` : null;
   }
 }
+
+// Find source comparisons that reference this take
+const allComparisons = await getCollection('sourceComparisons');
+const relatedComparisons = allComparisons.filter((c: any) =>
+  (c.data.related_takes ?? []).includes(take.id)
+);
 ---
 
 <BaseLayout title={d.subject_question} description={d.position.slice(0, 200)}>
@@ -69,6 +75,22 @@ if (d.subject_entity) {
             <li class="text-sm border-l-2 border-sand-300 pl-3">
               <p class="text-ink-900">{c.data.statement}</p>
               <p class="text-xs text-sand-700 mt-0.5 uppercase tracking-wider">{c.data.confidence}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relatedComparisons.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-3">Compare the ancient sources</h2>
+        <ul class="space-y-2">
+          {relatedComparisons.map((c: any) => (
+            <li>
+              <a href={`/sourceComparisons/${c.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+                <p class="font-serif text-tyrian-700">{c.data.title}</p>
+                <p class="text-xs text-sand-700 mt-1">{c.data.source_passages.length} sources in parallel</p>
+              </a>
             </li>
           ))}
         </ul>

@@ -80,6 +80,12 @@ const paragraphize = (text: string) => {
     .map((p) => `<p class="mb-4 last:mb-0">${al(p)}</p>`)
     .join('');
 };
+
+// Find source comparisons that reference this open question
+const allComparisons = await getCollection('sourceComparisons');
+const relatedComparisons = allComparisons.filter((c: any) =>
+  (c.data.related_questions ?? []).includes(question.id)
+);
 ---
 
 <BaseLayout title={d.question.slice(0, 100)} description={d.question.slice(0, 200)}>
@@ -148,6 +154,22 @@ const paragraphize = (text: string) => {
             <li>
               <a class="text-tyrian-700 hover:underline" href={l.href}>{l.label}</a>
               <span class="text-xs text-sand-700 ml-2">({l.type})</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relatedComparisons.length > 0 && (
+      <section class="mt-8">
+        <h2 class="eyebrow mb-2">Compare the ancient sources</h2>
+        <ul class="space-y-2">
+          {relatedComparisons.map((c: any) => (
+            <li>
+              <a href={`/sourceComparisons/${c.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+                <p class="font-serif text-tyrian-700">{c.data.title}</p>
+                <p class="text-xs text-sand-700 mt-1">{c.data.source_passages.length} sources in parallel</p>
+              </a>
             </li>
           ))}
         </ul>
