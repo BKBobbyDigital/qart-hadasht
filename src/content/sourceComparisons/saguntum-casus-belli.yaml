@@ -1,0 +1,250 @@
+slug: saguntum-casus-belli
+title: "Saguntum and the SPW casus belli across the ancient sources"
+subject_event: siege-of-saguntum
+summary: >
+  The siege of [Saguntum](/places/saguntum) (219 BCE) and the
+  diplomatic exchanges around it are the most contested
+  causation question of the Second Punic War in modern
+  scholarship. Polybius 3.6–8 and 3.13–15 presents an
+  analytical reconstruction that has Hannibal taking deliberate
+  action within an inherited Barcid strategic project; Livy
+  21.1–15 follows the broad sequence but with significantly
+  more rhetorical weight on Hannibal's personal initiative and
+  on Saguntine victim-framing. The substantive source-critical
+  questions are whether Saguntum lay inside the
+  [Ebro Treaty](/events/ebro-treaty) zone (it didn't,
+  geographically — Saguntum is roughly 100 miles south of the
+  Ebro), what the Roman embassies at Carthage and to Hannibal
+  actually demanded, whether Hannibal initiated the siege or
+  was provoked by Saguntine pro-Roman aggression, and whether
+  the Carthaginian senate authorized the siege beforehand.
+
+source_passages:
+  - source: polybius-histories
+    passage_ref: "3.6–8, 3.13–15, 3.20–21"
+    paraphrase: >
+      Polybius presents Saguntum analytically. The city had
+      placed itself under Roman protection some years earlier
+      despite lying well south of the Ebro line — a fact
+      Polybius preserves as a structural ambiguity rather than
+      as anyone's bad faith. Hannibal's campaign against the
+      Olcades and Vaccaei established Barcid strategic
+      dominance in the Iberian interior; Saguntine intrigues
+      against pro-Carthaginian tribes (the Turdetani in
+      particular) gave Hannibal a casus belli the Ebro Treaty
+      did not foreclose. He moves on Saguntum in spring 219;
+      a Roman embassy reaches Carthage to demand his
+      withdrawal; the Carthaginian senate, Polybius says,
+      neither disavows him nor immediately authorizes
+      escalation but treats the embassy with diplomatic
+      stalling. The siege continues for eight months;
+      Saguntum falls in late 219. The 218 Roman embassy then
+      demands Hannibal's surrender or war; the famous
+      "war or peace in the fold of my toga" scene plays out.
+      Polybius is careful that the strategic logic was
+      Barcid-inherited (from Hamilcar through Hasdrubal the
+      Fair) and that Hannibal's specific operational
+      decisions worked within that inheritance.
+    source_note: >
+      Polybius is the principal source and methodologically
+      careful on the Ebro Treaty geography — he is explicit
+      that Saguntum was outside the treaty zone. His
+      analytical framing of the war's causation contrasts
+      with the later Latin moral-narrative tradition; his
+      sixth-book treatment of FPW-causation establishes the
+      structural framing he then applies to the SPW.
+  - source: livy-auc
+    passage_ref: "21.1–15, 21.18–19"
+    paraphrase: >
+      Livy follows Polybius's broad sequence but with
+      substantially more weight on Hannibal's personal
+      initiative and on the Saguntine victim-framing. The
+      pre-existing oath-at-the-altar narrative (which Livy
+      and Polybius both preserve) is given fuller dramatic
+      treatment; Hannibal's character is foregrounded as the
+      explanation for the war's outbreak in a way Polybius's
+      structural reading resists. The Saguntine pro-Roman
+      faction is presented sympathetically; the Turdetanian
+      grievances Polybius treats as providing Hannibal's
+      casus belli are downplayed. The Roman embassies
+      receive substantial dramatic treatment, with set-piece
+      speeches that bear Livian rhetorical features (the
+      formal demands, the Carthaginian responses, the
+      "toga" scene). The Carthaginian senate is presented
+      as endorsing Hannibal's actions more clearly than
+      Polybius's stalling-equivocation framing supports.
+    source_note: >
+      Livy wrote two centuries after the events working from
+      Polybius (named) and lost Latin annalistic sources. His
+      moral-narrative framing of the war's outbreak — Hannibal's
+      personal Barcid-hereditary hatred of Rome as the
+      principal cause — has been very influential in popular
+      reception but is methodologically more vulnerable than
+      Polybius's structural framing.
+
+points_of_difference:
+  - topic: Whether Saguntum was inside the Ebro Treaty zone
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          No. Saguntum lies south of the Ebro and was not
+          covered by the Ebro Treaty. Polybius is explicit
+          on the geography and treats the Saguntine
+          situation as a structural ambiguity (the city
+          placed itself under Roman protection despite the
+          treaty geography) rather than as Roman
+          treaty-violation.
+      - source_slug: livy-auc
+        what_it_says: >
+          Livy's treatment of the geography is less explicit
+          than Polybius's; the Saguntine pro-Roman framing
+          obscures the treaty-geography point. The
+          rhetorical effect is to make Saguntum read as if
+          covered by Roman protection in a way the
+          underlying geography did not actually support.
+    commentary: >
+      The geography is the load-bearing fact and Polybius's
+      analytical handling is preferable. Modern scholarship
+      has converged on the position that Saguntum was outside
+      the Ebro Treaty zone but under a separate Roman
+      protectorate established earlier — which created the
+      genuine diplomatic ambiguity Polybius preserves and
+      Livy obscures. The
+      [editorial take on the FPW-causation framing](/editorialTakes/fpw-causation)
+      and Hoyos's *Unplanned Wars* together establish the
+      modern methodological position.
+
+  - topic: Hannibal's initiative versus Saguntine provocation
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The Saguntine intrigues against pro-Carthaginian
+          tribes (Turdetani in particular) gave Hannibal a
+          casus belli the Ebro Treaty did not foreclose.
+          The sequence is presented as Saguntine provocation
+          producing Hannibal's defensive response, framed
+          within the broader Barcid strategic project.
+      - source_slug: livy-auc
+        what_it_says: >
+          Hannibal's personal initiative is foregrounded.
+          The Saguntine pro-Roman faction is presented
+          sympathetically; their grievances against Carthage
+          are downplayed; Hannibal is the moving party who
+          chose the siege as the deliberate trigger for the
+          larger war.
+    commentary: >
+      The structural Polybian reading (Saguntine provocation
+      gives Hannibal a casus belli within a broader inherited
+      project) and the moral Livian reading (Hannibal's
+      personal initiative as the principal cause) produce
+      different histories. The modern reading should weigh
+      both: Hannibal almost certainly had a long-term
+      strategic intent toward war with Rome (the broader
+      Barcid project + the oath narrative), but the specific
+      219 BCE move on Saguntum was the working-out of
+      defensible operational responses to actual Saguntine
+      conduct, not the manufactured pretext Livy makes of it.
+
+  - topic: The Carthaginian senate's role
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Diplomatic stalling. The senate neither disavowed
+          Hannibal nor immediately authorized escalation;
+          the Roman embassy was treated with non-commital
+          formal responses. The framing treats Carthaginian
+          institutional behavior as institutionally normal
+          for a state preserving strategic options.
+      - source_slug: livy-auc
+        what_it_says: >
+          The senate's endorsement of Hannibal's actions is
+          presented more clearly than Polybius's stalling
+          framing supports. The Livian framing makes the
+          Carthaginian state more directly complicit in
+          Hannibal's casus belli construction.
+    commentary: >
+      Polybius's stalling-equivocation framing is the more
+      honest reading. The Carthaginian senate's actual
+      behavior — diplomatic non-commitment while operations
+      continued — is consistent with a state preserving
+      strategic options, not with a state directly
+      authorizing or repudiating a commander's
+      casus-belli-shaping conduct. The Livian framing
+      collapses the institutional ambiguity into clearer
+      moral lines that fit Roman moral-narrative
+      historiographical conventions.
+
+  - topic: The "war or peace in the fold of my toga" scene (218)
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Preserved. The Roman embassy demands Hannibal's
+          surrender or war; the Carthaginian responses are
+          rendered in formal-diplomatic terms; the
+          embassy's senior member dramatizes the choice with
+          the toga-fold gesture; war is declared.
+      - source_slug: livy-auc
+        what_it_says: >
+          Preserved with substantially more dramatic detail
+          and developed set-piece speeches. The specific
+          formal-diplomatic exchanges are expanded; the
+          rhetorical climax is more developed. The scene
+          carries more narrative weight than in Polybius.
+    commentary: >
+      The toga scene itself is preserved by both and is
+      probably authentic in outline (the gesture is the
+      kind of formal-diplomatic act that survives in
+      participant memory). The Livian dramatic expansion
+      — the formal speeches, the developed rhetoric — is
+      Latin-historiographical elaboration. Modern reading
+      should retain the gesture and discount the specific
+      speeches.
+
+working_reconstruction: >
+  The two sources together support a confident reconstruction
+  of the broad sequence: Saguntum south of the Ebro under a
+  separate Roman protectorate, Saguntine intrigues against
+  pro-Carthaginian Iberian tribes producing genuine
+  grievances on the Carthaginian side, Hannibal's 219 BCE
+  siege as defensible operational response within the broader
+  Barcid strategic project, eight months of siege, Roman
+  embassies failing to achieve diplomatic resolution, the 218
+  declaration of war.
+
+  The methodological choices the comparison surfaces are
+  consistent across both sources but more honestly handled by
+  Polybius: the Ebro Treaty geography (Polybius explicit on
+  Saguntum's location), the Saguntine-provocation framing
+  (Polybius structural, Livy moral), the Carthaginian senate's
+  role (Polybius institutional ambiguity, Livy clearer moral
+  lines), the toga-scene rhetoric (both preserve the gesture,
+  Livy expands the speeches). The modern reading the site
+  develops in its
+  [editorial take on FPW causation](/editorialTakes/fpw-causation)
+  is built on the Polybian structural reading, with Livian
+  rhetorical detail discounted where it elaborates beyond what
+  Polybius preserves.
+
+  The deeper point is that Saguntum is the textbook case of
+  why source-critical work matters for causation questions.
+  Almost the entire modern popular reading of the SPW's
+  outbreak — Hannibal's personal hatred, the deliberate
+  trigger, the Saguntine victims — depends on Livian framing
+  that Polybian analysis does not support. The structural
+  reading produces a different history: a war that became
+  highly likely because of post-FPW developments
+  (Sardinia seizure, indemnity squeeze, Barcid Iberian state
+  formation, Roman strategic discomfort with the latter),
+  with Saguntum as the trigger that worked within the
+  available diplomatic options rather than as the
+  manufactured pretext Livy makes of it.
+
+related_takes:
+  - fpw-causation
+  - hannibal-italian-objective-alliance-dismemberment
+related_claims: []
+related_narratives: []
+related_questions:
+  - hannibal-italian-objective
+
+last_revised: "2026-05-12"

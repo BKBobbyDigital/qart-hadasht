@@ -1,0 +1,283 @@
+slug: tarentine-betrayal
+title: "The Tarentine betrayal across the ancient sources"
+summary: >
+  The defection of Tarentum to Hannibal in 212 BCE — the
+  largest and strategically most important of the Italian
+  Greek cities to break with Rome during the
+  [post-Cannae alliance crisis](/claims/cannae-allies-defected)
+  — is preserved in three substantial sources with
+  substantially different framings. Polybius 8.24–34 gives the
+  fullest analytical account, drawing on what reads like
+  participant or near-participant detail; Livy 25.7–11 follows
+  the broad sequence with Latin moral-narrative expansion;
+  Plutarch *Fabius* 21–22 preserves the episode from the
+  perspective of the Roman recovery of the city in 209 BCE
+  under Fabius Maximus's command. The comparison surfaces how
+  internal betrayals were actually organized in
+  classical-period Greek cities, how the surviving sources
+  frame "treachery" versus political agency, and what the
+  Tarentine case tells us about the broader pattern of
+  Italian-allied defection to Hannibal that the
+  [Hannibal-Italian-objective editorial take](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)
+  reads as the strategic engine of his Italian campaign.
+
+source_passages:
+  - source: polybius-histories
+    passage_ref: "8.24–34"
+    paraphrase: >
+      Polybius gives the fullest surviving analytical account.
+      Two young Tarentine aristocrats, Nikon and Philomenos,
+      had been captured at the
+      [battle of Trasimene](/events/battle-of-lake-trasimene)
+      and held in Hannibal's camp. Hannibal cultivated them
+      politically and released them to return to Tarentum as
+      agents of a planned defection. They built a faction
+      among the Tarentine elite, established communication
+      protocols with Hannibal's camp, arranged signals and
+      meeting points, and coordinated the night-operation
+      timing with Hannibal's approach. The actual seizure of
+      the city was a carefully staged combined operation:
+      Philomenos's known habit of nighttime boar-hunting
+      gave him a routine excuse to be outside the walls;
+      the Roman garrison was diverted by an outbreak in
+      the lower city; a small Carthaginian force was let
+      in through a guarded postern; the Roman garrison
+      withdrew to the citadel (which the Carthaginians did
+      not take); the Tarentine assembly then formally
+      committed the city to alliance with Carthage.
+      Polybius's framing throughout treats Nikon and
+      Philomenos as political actors operating within
+      Tarentine domestic politics, not as moral traitors.
+    source_note: >
+      Polybius's level of detail on the internal organization
+      of the betrayal is unusual for ancient historiography
+      and suggests access to either participant memory or to
+      detailed Greek sources lost to later traditions. The
+      analytical framing — political actors with motives,
+      coordinated operation, formal assembly ratification —
+      is methodologically careful and distinguishes
+      Polybius's treatment from the Latin moral-narrative
+      framing.
+  - source: livy-auc
+    passage_ref: "25.7–11"
+    paraphrase: >
+      Livy follows the broad Polybian sequence but with
+      substantially different framings. The young Tarentine
+      aristocrats are presented in more morally charged terms
+      — youthful folly, ambition, the corruption of being
+      cultivated by Hannibal in captivity — and the
+      organization of the betrayal is given more dramatic
+      narrative shape. The Roman garrison commander's
+      negligence in failing to detect the developing plot is
+      foregrounded; the formal Tarentine assembly's role is
+      downplayed. The Latin framing treats the defection
+      principally as a moral-narrative episode (corruption,
+      treachery, just punishment in the eventual Roman
+      recovery) rather than as the structural political
+      event Polybius preserves.
+    source_note: >
+      Livy worked from Polybius (named) and from earlier
+      Latin annalistic traditions that took the moral-
+      treachery framing largely at face value. The Livian
+      expansion adds dramatic detail at the cost of
+      analytical clarity; modern reading should retain
+      Polybius's structural framing as the more honest
+      reconstruction.
+  - source: plutarch-lives
+    passage_ref: "*Fabius Maximus* 21–22"
+    paraphrase: >
+      Plutarch treats Tarentum from the perspective of
+      Fabius Maximus's 209 BCE recapture rather than from
+      the 212 betrayal itself. The 212 events are preserved
+      briefly as background; the substantive treatment is
+      of the recapture operation, the violence of the
+      Roman treatment of the recaptured city, and the
+      famous anecdote in which Fabius is asked who taught
+      him to take cities and replies "Hannibal" — the
+      indirect acknowledgment that the same combined-
+      arms-with-internal-faction approach Hannibal had
+      used was now being used against him. The framing is
+      biographical-moral, treating the episode as the
+      vindication of Fabian patient strategy.
+    source_note: >
+      Plutarch wrote roughly 300 years after the events,
+      working from earlier biographical-historiographical
+      sources. His value for the 212 betrayal specifically
+      is principally as preserving the framing of Roman
+      reception (the 209 recovery as morally satisfying
+      vindication) rather than as independent source for
+      the 212 events.
+
+points_of_difference:
+  - topic: The framing of the Tarentine conspirators' motives
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Political actors operating within Tarentine
+          domestic politics. Nikon and Philomenos had real
+          factional support; the defection was a coordinated
+          political move with broad-enough elite support to
+          carry the formal assembly. Motives presented as
+          political calculation rather than moral defect.
+      - source_slug: livy-auc
+        what_it_says: >
+          Morally charged framing. Youthful folly, ambition,
+          corruption by Hannibal in captivity. The defection
+          is treachery rather than political action.
+      - source_slug: plutarch-lives
+        what_it_says: >
+          Briefly preserved; the framing is biographical-
+          moral but with less weight on the conspirators'
+          characters than on the broader Fabian strategic
+          context.
+    commentary: >
+      The Polybian political-action framing is preferable
+      methodologically. Italian-allied defection to Hannibal
+      after Cannae was a structural pattern (Rawlings 1996
+      treats this as
+      [substantive political choice by Italian communities](/sources/rawlings-celts-spaniards-samnites-1996)
+      operating within their own military and political
+      traditions, not as passive response or moral failure),
+      and the Tarentine case fits the broader pattern. The
+      Livian moral-treachery framing reproduces Roman
+      political rhetoric about Italian-allied defection
+      rather than the actual political behavior of the
+      defecting communities.
+
+  - topic: The role of the Tarentine assembly
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The formal Tarentine assembly ratified the
+          defection. The event is presented as a
+          constitutionally legitimate political decision
+          by the city's institutions.
+      - source_slug: livy-auc
+        what_it_says: >
+          The assembly's role is downplayed; the defection
+          is framed more as the action of the conspirators
+          and Hannibal than as a city-level political
+          decision.
+    commentary: >
+      The Polybian framing preserves what was probably the
+      actual constitutional shape of the event: Tarentum
+      was a Greek polis with its own democratic
+      institutions, and the formal assembly was the proper
+      authority for an alliance decision. Treating the
+      defection as the conspirators' coup obscures the
+      city's actual political agency. The methodological
+      point connects to the broader site framing of
+      Italian-allied political action as substantive
+      rather than as passive instrument.
+
+  - topic: The Fabian recovery and the "Hannibal taught me"
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The 212 events are the principal focus; the
+          eventual Roman recovery is treated as the
+          natural sequel without the famous anecdote.
+      - source_slug: livy-auc
+        what_it_says: >
+          The recovery is treated; the violence of the
+          Roman recapture is preserved; the broader Latin
+          moral-narrative framing of Roman victory as
+          just punishment is foregrounded.
+      - source_slug: plutarch-lives
+        what_it_says: >
+          The Fabian recovery is the principal focus, with
+          the famous "Hannibal taught me" anecdote
+          preserved as the dramatic-moral climax of the
+          biographical treatment.
+    commentary: >
+      The Fabian anecdote — "who taught you to take cities
+      like this?" "Hannibal" — is preserved only in
+      Plutarch and has the literary marks of a Plutarchan
+      moral construction (the symmetric inversion, the
+      brief epigrammatic structure, the perfect
+      biographical fit). Modern reading should treat it as
+      Plutarchan elaboration rather than as historical
+      record. The substantive point the anecdote captures
+      — that the Roman recovery used similar internal-
+      faction-with-combined-arms methods to those Hannibal
+      had used — is independently supported by what
+      Polybius preserves of the recovery operations.
+
+  - topic: The violence of the Roman recovery
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The recovery operations are preserved but with
+          less moral-rhetorical framing than the Latin
+          tradition gives them.
+      - source_slug: livy-auc
+        what_it_says: >
+          The violence of the Roman recapture is preserved
+          in dramatic detail; the killings, the
+          enslavements, the punitive treatment of the
+          population are foregrounded as the natural
+          consequences of treachery.
+      - source_slug: plutarch-lives
+        what_it_says: >
+          The violence is preserved more briefly, with the
+          moral framing shifted to Fabius's restraint
+          relative to what Roman political pressure
+          demanded.
+    commentary: >
+      The Roman recovery's violence is well-attested across
+      sources. Modern reading should retain the substantive
+      events (the killings, the enslavements, the
+      population's punitive treatment) while reading the
+      moral framings (treachery deserves punishment,
+      Fabian restraint moderating Roman demands) as the
+      surviving sources' rhetorical work rather than as the
+      events' actual moral character. Punitive treatment of
+      defecting populations was a routine Roman
+      political-military practice; the moral-rhetorical
+      framing serves Roman ideological needs.
+
+working_reconstruction: >
+  The Tarentine betrayal is the largest single Italian-allied
+  defection to Hannibal and the most operationally
+  diagrammable in the surviving record. The broad sequence is
+  well established: prisoners-of-war cultivated as agents,
+  faction-building inside the target city, coordinated
+  night-operation with internal cooperation, formal assembly
+  ratification of the defection, three years of Tarentine
+  alliance with Hannibal, Roman recapture in 209 BCE with
+  punitive treatment.
+
+  The methodological points the comparison surfaces: the
+  Polybian political-action framing of the conspirators is
+  preferable to the Livian moral-treachery framing; the
+  Tarentine assembly's constitutionally legitimate role
+  should be retained against Latin framings that downplay
+  it; the Plutarchan "Hannibal taught me" anecdote is
+  literary construction rather than historical record; the
+  violence of the Roman recovery is well-attested and the
+  moral framing of it as "treachery's just punishment" is
+  Roman ideological work rather than the events' actual
+  moral character.
+
+  The deeper structural point connects to the broader
+  Italian-allied defection pattern that the
+  [editorial take on Hannibal's Italian objective](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)
+  reads as the strategic engine of his Italian campaign.
+  Italian Greek cities defecting from Rome to Carthage after
+  Cannae were not exhibiting moral collapse; they were
+  making political-strategic decisions within their own
+  institutional traditions about which great-power
+  alignment served their interests better. The Tarentine
+  case is the most documented instance of how those
+  decisions were actually organized, and the source
+  comparison surfaces the framings that have made the
+  pattern hard to see clearly in popular reception.
+
+related_takes:
+  - hannibal-italian-objective-alliance-dismemberment
+related_claims:
+  - cannae-allies-defected
+related_narratives: []
+related_questions: []
+
+last_revised: "2026-05-12"

@@ -1,0 +1,234 @@
+slug: alps-crossing
+title: "Hannibal's Alps crossing across the ancient sources"
+subject_event: crossing-of-the-alps
+summary: >
+  Hannibal's [crossing of the Alps](/events/crossing-of-the-alps)
+  in late autumn 218 BCE — fifteen days of march through unknown
+  passes, with an army of ~40,000 plus elephants, in the
+  early-winter conditions of the high Alpine passes — is the
+  campaign's most famous operational episode and the one whose
+  specific route modern scholarship still cannot definitively
+  identify. Polybius 3.50–56 is the principal source and
+  preserves the topographical features that constrain
+  identification (the rock cleft, the snow above and below
+  the pass, the panoramic view of the Po valley); Livy 21.30–37
+  follows the broad sequence but adds the famous
+  vinegar-on-rocks episode and developed speeches that bear
+  the marks of literary construction. The Alps crossing
+  comparison is methodologically distinctive because the
+  modern question (which pass?) is genuinely unresolved and
+  the source-critical question is which Polybian topographical
+  features actually constrain identification versus which
+  Livian additions are inventions.
+
+source_passages:
+  - source: polybius-histories
+    passage_ref: "3.50–56"
+    paraphrase: >
+      Polybius's account is the principal source and is
+      methodologically careful. He preserves a sequence of
+      topographical features: the entry from the Allobrogian
+      country with skirmishes against Gallic tribes, the
+      approach to the first ascent, the engagement with the
+      mountain tribes at the rock cleft, the snow above and
+      below the army's position on the high pass, the
+      panoramic view of the Po valley from the summit, the
+      descent in three stages, the famous rock-clearing
+      operation in the descent where the path had been
+      destroyed and rocks had to be removed or shattered for
+      the elephants to pass. He gives the duration as fifteen
+      days; the losses he gives as substantial (the army
+      arrives in Italy with approximately 26,000 of the
+      ~40,000 who began the crossing). Polybius is explicit
+      that he personally traversed the route to verify the
+      topographical details — one of the rare instances in
+      his work where he claims direct field investigation.
+    source_note: >
+      Polybius is the principal source by far and the only
+      one with anything like firsthand methodological care.
+      His claim to have personally traversed the route is
+      load-bearing for modern attempts to identify the pass:
+      the features he preserves are the constraints
+      identification has to satisfy, and modern field
+      surveys of candidate passes (Col du Clapier, Col du
+      Petit-Saint-Bernard, Col de la Traversette, others)
+      test the Polybian features rather than the Livian
+      additions.
+  - source: livy-auc
+    passage_ref: "21.30–37"
+    paraphrase: >
+      Livy follows Polybius's broad sequence but adds
+      substantial dramatic and rhetorical material that
+      Polybius does not preserve. The most famous Livian
+      addition is the vinegar-on-rocks episode: in the
+      descent, soldiers are described heating rocks with
+      fire and then dousing them with vinegar, causing
+      the rocks to fracture so the elephants could pass.
+      Livy also preserves a developed Hannibal speech at
+      the summit (the "show me Italy" panorama becomes a
+      formal address to the troops) and additional
+      detail on tribal engagements with the local
+      mountain peoples. His casualty figures and overall
+      duration are consistent with Polybius's.
+    source_note: >
+      Livy wrote two centuries after the events working
+      from Polybius (named) and lost Latin annalistic
+      sources. The vinegar episode is widely regarded by
+      modern scholarship as Latin literary invention —
+      it does not appear in Polybius's account, the
+      chemistry does not work as described (vinegar does
+      not crack rock effectively), and the dramatic
+      shape fits Latin moral-narrative conventions
+      rather than the spare operational detail Polybius
+      preserves.
+
+points_of_difference:
+  - topic: Which pass Hannibal used
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Not explicitly named, but constrained by a
+          sequence of topographical features: the entry
+          from Allobrogian country, the rock-cleft engagement,
+          the snow conditions, the Po valley panorama from
+          the summit, the rock-clearing operation in the
+          descent.
+      - source_slug: livy-auc
+        what_it_says: >
+          Similarly not explicitly named; the topographical
+          detail is less analytically precise than Polybius's,
+          with the vinegar episode and the formal speeches
+          obscuring rather than constraining identification.
+    commentary: >
+      Modern scholarship has converged on four principal
+      candidate passes — Col du Clapier, Mont Cenis, Col du
+      Petit-Saint-Bernard, Col de la Traversette — with the
+      latter (the highest and the most southerly) gaining
+      increasing support in recent decades, partly on the
+      basis of evidence from animal-dung analysis in
+      sediment cores. The Polybian topographical features
+      remain the principal constraints. The question is
+      genuinely unresolved; the Polybian field-investigation
+      claim is the best evidence available and modern
+      identifications work from his constraints.
+
+  - topic: The vinegar-on-rocks episode
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Not preserved. The descent rock-clearing operation
+          is described but as fire-heating and physical
+          breaking; vinegar is not mentioned.
+      - source_slug: livy-auc
+        what_it_says: >
+          Preserved in dramatic detail: rocks heated with
+          fire and doused with vinegar to fracture them,
+          allowing the elephants to pass. Treated as the
+          campaign's most famous operational ingenuity.
+    commentary: >
+      The vinegar episode is almost certainly Livian or
+      pre-Livian Latin literary invention. The Polybian
+      silence is the strongest evidence: Polybius, who
+      claims field investigation and preserves the
+      rock-clearing operation in operational detail, would
+      have preserved this kind of memorable specific
+      technique if it had occurred. The chemistry also
+      does not work — vinegar does not crack rock
+      effectively at the dilution and quantities a marching
+      army could carry. Modern reading should treat the
+      vinegar episode as one of the clearest cases on the
+      site where Latin elaboration of a Polybian sequence
+      produces a memorable invention.
+
+  - topic: The summit speech and the panoramic view
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The summit panorama is preserved: Hannibal points
+          out the Po valley below to encourage the
+          remaining troops. The "speech" is brief and
+          functional, not developed as a formal address.
+      - source_slug: livy-auc
+        what_it_says: >
+          The panorama is preserved with a developed formal
+          Hannibal speech ("show me Italy"). The address
+          has the formal structure of Latin oratorical
+          historiography.
+    commentary: >
+      The summit moment itself almost certainly happened —
+      the panoramic view from any of the candidate passes
+      does include sight of the Po valley, and the
+      morale-building moment is consistent with Polybian
+      and Livian preservation. The specific formal speech
+      Livy gives is Latin elaboration. Modern reading
+      should retain the moment and discount the speech.
+
+  - topic: Casualty figures
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The army arrived in Italy with approximately
+          26,000 of the ~40,000 who began the crossing —
+          a loss of roughly 14,000 across the fifteen days
+          of march through the high passes.
+      - source_slug: livy-auc
+        what_it_says: >
+          Casualty figures broadly consistent with
+          Polybius, with slight variation in the
+          breakdown by category.
+    commentary: >
+      The two sources are substantively consistent on
+      casualties. Modern scholarship has accepted the broad
+      figure (~14,000 lost in the crossing) as the best
+      available estimate. Whether the losses fell more on
+      infantry or on cavalry, on Africans or on Iberians,
+      cannot be reconstructed from the surviving record
+      with precision.
+
+working_reconstruction: >
+  The Alps crossing is one of the cases where the source
+  comparison's methodological yield is unusually high
+  relative to the historical reconstruction's payoff. The
+  broad facts are well established: a difficult fifteen-day
+  passage through the high Alpine passes in late autumn
+  218 BCE, substantial losses (~14,000), arrival in Italy
+  with an army still capable of sustained operations. The
+  specific pass remains unresolved despite extensive modern
+  field investigation. Where the source comparison is
+  particularly valuable is methodologically: the Polybian
+  account is unusually careful by ancient-historiographical
+  standards (the field-investigation claim, the
+  topographical-feature sequence, the operational detail)
+  while the Livian additions are unusually clear cases of
+  literary elaboration that should not be retained in
+  modern reconstruction.
+
+  The vinegar episode is the textbook example. It is
+  preserved in Livy, not in Polybius, the chemistry does
+  not work, and the dramatic shape fits Latin moral-
+  narrative conventions. Almost every modern popular
+  treatment of the Alps crossing repeats the vinegar
+  story; almost no specialist treatment retains it. The
+  gap between popular reception and specialist
+  source-critical reading is the methodological
+  pedagogical point this comparison is best positioned
+  to make.
+
+  For the pass identification specifically, the Polybian
+  topographical features remain the principal constraints
+  on modern reconstruction. Recent work using animal-dung
+  evidence from sediment cores has strengthened the case
+  for Col de la Traversette, but the question is
+  genuinely unresolved and is unlikely to be definitively
+  settled. The point worth making is that the Polybian
+  field-investigation methodology produced an account
+  detailed enough to make the question askable two
+  millennia later — a remarkable instance of ancient
+  historiographical care.
+
+related_takes: []
+related_claims: []
+related_narratives: []
+related_questions: []
+
+last_revised: "2026-05-12"
