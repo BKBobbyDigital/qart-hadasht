@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, getEntry } from 'astro:content';
+
+const comparisons = await getCollection('sourceComparisons');
+
+// Resolve each comparison's subject event for the listing.
+const enriched = await Promise.all(
+  comparisons.map(async (c) => {
+    let subjectEvent: any = null;
+    if (c.data.subject_event) {
+      subjectEvent = await getEntry('events', c.data.subject_event.id);
+    }
+    return { comparison: c, subjectEvent, sourceCount: c.data.source_passages.length };
+  })
+);
+
+enriched.sort((a, b) => a.comparison.data.title.localeCompare(b.comparison.data.title));
+---
+
+<BaseLayout title="Source comparisons">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-serif text-4xl sm:text-5xl mb-3">Source comparisons</h1>
+    <p class="text-sand-700 mb-3">
+      Side-by-side parallel readings of contested events through
+      the multiple ancient sources that preserve them. Each entry
+      presents the source passages directly, surfaces specific
+      points where the sources differ, and offers the site's
+      working reconstruction.
+    </p>
+    <p class="text-sand-700 mb-8 text-sm italic">
+      The aim is to make the source-rivalry work the rest of the
+      site does implicitly — in claim citations, in editorial-take
+      reasoning — visible as a reading interface. Where the
+      sources contradict, the comparison shows it directly rather
+      than collapsing it into a synthetic summary.
+    </p>
+
+    {enriched.length === 0 && (
+      <p class="text-sand-700 italic">No comparisons yet.</p>
+    )}
+
+    <ul class="space-y-3">
+      {enriched.map(({ comparison, subjectEvent, sourceCount }) => (
+        <li>
+          <a href={`/sourceComparisons/${comparison.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
+            <h2 class="font-serif text-xl text-tyrian-700">{comparison.data.title}</h2>
+            <p class="text-xs text-sand-700 mt-1">
+              {sourceCount} source{sourceCount === 1 ? '' : 's'} compared
+              {subjectEvent && (
+                <>
+                  {' · '}
+                  <span>on {subjectEvent.data.name}</span>
+                </>
+              )}
+            </p>
+            <p class="text-sm text-ink-900 mt-2">{comparison.data.summary.slice(0, 280)}...</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

@@ -1,0 +1,370 @@
+slug: cannae
+title: "Cannae across the ancient sources"
+subject_event: battle-of-cannae
+summary: >
+  The Battle of Cannae (2 August 216 BCE) is preserved in four
+  substantial ancient sources of varying date, framing, and
+  reliability: Polybius, writing roughly seventy years after the
+  event with access to Roman participant families and (through
+  Massinissa's court) to Punic memory; Livy, writing two
+  centuries later in a moralizing-narrative tradition that
+  preserves details Polybius does not but adds rhetorical
+  embellishment throughout; Appian, writing in the second
+  century CE and preserving variant traditions; and Plutarch,
+  whose *Life of Fabius Maximus* preserves the political-strategic
+  framing of Cannae from the Roman senatorial perspective. The
+  sources broadly agree on the shape of the battle — the
+  Carthaginian crescent, the double envelopment, the catastrophic
+  Roman casualties — and disagree on numbers, on the alternating-
+  command system, on the specifics of Aemilius Paullus's death,
+  and on whether the famous Maharbal exchange ever happened. The
+  comparison surfaces where the modern reconstruction has to make
+  source-critical choices and on what grounds.
+
+source_passages:
+  - source: polybius-histories
+    passage_ref: "3.107–117"
+    paraphrase: >
+      Polybius's account, the earliest surviving and the one
+      modern reconstruction principally rests on, presents
+      Cannae as an analytical-military case study. He gives the
+      Roman force as eight legions doubled in strength (roughly
+      80,000 infantry and 6,000 cavalry) against Hannibal's
+      40,000 infantry and 10,000 cavalry. He treats the
+      alternating-command between the consuls Aemilius Paullus
+      and Terentius Varro as institutionally normal but
+      strategically catastrophic on the day Varro held command.
+      The deployment receives careful tactical attention: the
+      Roman infantry deepened (manipular spacing reduced) to
+      maximize frontal pressure; the Carthaginian center
+      deliberately bowed forward in a crescent of Iberian and
+      Gallic infantry, with African heavy infantry held back on
+      both wings; the Carthaginian heavy cavalry under Hasdrubal
+      on the Punic left, the Numidian cavalry on the right. The
+      battle's course is presented as the working-out of the
+      tactical plan: Hasdrubal's cavalry breaks the Roman
+      cavalry on the Roman right, rides around the rear, and
+      assists the Numidians in breaking the Italian cavalry on
+      the Roman left; the crescent flexes back under Roman
+      pressure; the African heavy infantry on the wings wheels
+      inward to attack Roman flanks; Hasdrubal's cavalry returns
+      to strike the Roman rear. Polybius gives Roman dead as
+      roughly 70,000. He records Aemilius Paullus's death as
+      occurring on the field. He records the post-battle
+      decision not to march on Rome but does NOT preserve the
+      Maharbal anecdote.
+    source_note: >
+      Polybius wrote roughly 150 BCE, sixty-six years after the
+      battle. He had Roman participant family access (Aemilius
+      Paullus's grandson was his patron, Scipio Aemilianus), and
+      through Massinissa's court he had Punic memory access for
+      the Barcid side. His military-analytical framing reflects
+      his own background as a Hellenistic field officer.
+  - source: livy-auc
+    passage_ref: "22.44–50, 22.51"
+    paraphrase: >
+      Livy's account, written more than two centuries after the
+      battle, follows the broad tactical outline Polybius
+      preserves but expands extensively in rhetorical, moral, and
+      dramatic detail. He gives the Roman force as 87,200 (a
+      somewhat higher figure than Polybius). The alternating-
+      command system between Paullus and Varro is presented in
+      considerably more political-moral detail than Polybius
+      gives it: Varro as the impetuous popularis pushing for
+      battle, Paullus as the senatorial caution overruled by
+      assigned alternation. The Carthaginian crescent and the
+      African wings appear; the deepening of the Roman line
+      appears but with less analytical weight than Polybius gives
+      it. Aemilius Paullus's death is dramatically expanded: a
+      centurion (Cn. Lentulus in Livy's version) finds him
+      wounded and offers him his horse to escape; Paullus refuses
+      and dies on the field. Livy gives Roman dead as 47,000 plus
+      19,300 captured — substantively different totals from
+      Polybius's 70,000, with the Livian figure breaking down by
+      category. The famous Maharbal exchange — "you know how to
+      win a victory, Hannibal, but not how to use one" — appears
+      at Livy 22.51 immediately after the battle, as Maharbal
+      urges Hannibal to march on Rome at once and is refused.
+      Livy treats Hannibal's delay as the decisive moment of the
+      Second Punic War.
+    source_note: >
+      Livy wrote in the Augustan period, roughly 200 years after
+      the battle, working from earlier Latin annalistic sources
+      (largely lost), Polybius (whom he names and uses), and the
+      Roman moral-political traditions that had grown up around
+      the battle's memory. The Maharbal exchange is widely
+      regarded by modern scholarship as a literary construction
+      rather than historical record.
+  - source: appian-punica
+    passage_ref: "Hannibalic War 17–26"
+    paraphrase: >
+      Appian's account, written in the mid-second century CE
+      roughly 365 years after the battle, follows the
+      Polybian-Livian outline but preserves additional dramatic
+      and variant detail not in either of his principal sources.
+      He gives a higher Carthaginian casualty figure than
+      Polybius (8,000 against Polybius's 5,700). He preserves
+      personal-narrative detail about specific Roman officers,
+      and gives a slightly different reconstruction of the
+      Carthaginian cavalry deployment. His value for the modern
+      reconstruction lies in occasional preservation of variant
+      traditions that the Polybius–Livy mainline does not
+      include; he is not an independent witness to the events
+      themselves.
+    source_note: >
+      Appian wrote roughly 365 years after the battle, working
+      from earlier Greek and Latin sources that overlap heavily
+      with what Polybius and Livy preserve. His independent
+      historical value for Cannae specifically is limited; his
+      value is principally in preserving variant traditions.
+  - source: plutarch-lives
+    passage_ref: "*Fabius Maximus* 14–16"
+    paraphrase: >
+      Plutarch's account, embedded in the *Life of Fabius
+      Maximus*, treats Cannae from the Roman political-strategic
+      perspective rather than the tactical one. He preserves the
+      framing of Fabius's vindication: the cautious "delayer"
+      strategy that the Roman political class had repudiated in
+      Varro's election was decisively vindicated by Cannae's
+      catastrophe, and Fabius returned to political prominence
+      in its aftermath. Plutarch's tactical detail on the battle
+      itself is thin (he refers his readers to other sources for
+      the military narrative) but his preservation of the
+      political reception of Cannae at Rome — the response of
+      the Senate, the religious-expiatory measures including
+      human sacrifice, the prohibition on public mourning — is
+      substantial and not closely paralleled in Polybius or Livy.
+    source_note: >
+      Plutarch wrote roughly 300 years after the battle. His
+      interest is biographical-moral rather than military-
+      analytical; he treats Cannae as the moment that vindicated
+      Fabius and reset Roman strategic doctrine for the rest of
+      the war.
+
+points_of_difference:
+  - topic: Roman force size
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Roughly 80,000 infantry and 6,000 cavalry (eight
+          doubled legions plus allied contingents).
+      - source_slug: livy-auc
+        what_it_says: >
+          87,200 total — modestly higher than Polybius's
+          figure, with the difference falling within the range
+          modern scholarship considers source variation rather
+          than a substantive contradiction.
+    commentary: >
+      The modern consensus follows Polybius's figure or splits
+      the difference. The substantive point both sources agree
+      on is the *unprecedented* size of the Roman force — Rome
+      committed roughly twice its normal field strength to one
+      engagement. Whether the precise total was 80,000 or
+      87,000 does not change the strategic situation
+      Hannibal faced.
+
+  - topic: Roman casualty figures
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Roughly 70,000 Roman dead.
+      - source_slug: livy-auc
+        what_it_says: >
+          47,000 killed plus 19,300 captured (total 66,300).
+      - source_slug: appian-punica
+        what_it_says: >
+          Roughly 50,000 dead, with figures in the range Livy
+          gives but presented less precisely.
+    commentary: >
+      The Polybian 70,000-dead figure and the Livian
+      47,000-plus-19,300-captured breakdown are difficult to
+      reconcile fully. Modern scholarship has generally
+      accepted that Polybius is rounding total non-survivors
+      into a single "killed" category while Livy is
+      distinguishing battlefield dead from prisoners taken in
+      the rout — the two figures may represent the same total
+      loss differently categorized. Either way the order of
+      magnitude is the same: a Roman field army of nearly
+      90,000 ceased to exist in a single afternoon.
+
+  - topic: The alternating-command system between Paullus and Varro
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The consular alternation system is institutionally
+          normal and presented without strong moralizing
+          framing. Varro held command on the day; Paullus had
+          counseled against engagement.
+      - source_slug: livy-auc
+        what_it_says: >
+          The alternation system is presented in considerable
+          political-moral detail, with Varro as the impetuous
+          popularis who pushed for battle against senatorial
+          caution. The framing makes Cannae as much about
+          Roman class politics as about Hannibal's tactics.
+    commentary: >
+      The Livian framing of Varro as a popularis politician
+      pressing against senatorial caution is consistent with
+      what we know of Varro's broader political profile from
+      other sources, but the moralizing weight Livy puts on
+      it is a Late Republican / Augustan retrospective
+      framing rather than a 216 BCE political reality. The
+      institutional alternation system was real; the moral-
+      political reading of it is Livian elaboration.
+
+  - topic: Aemilius Paullus's death
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Paullus dies on the field, briefly and without
+          extended dramatic framing.
+      - source_slug: livy-auc
+        what_it_says: >
+          A centurion named Cn. Lentulus finds Paullus
+          wounded, offers him his own horse to escape,
+          Paullus refuses and dies. The scene is rendered
+          with substantial dramatic detail.
+    commentary: >
+      The Livian Lentulus-and-the-horse scene is the kind of
+      dramatic moral-narrative addition Livy is known for.
+      Paullus's death on the field is well-attested; the
+      specific scene is plausibly invented for dramatic
+      effect. Modern reconstructions generally accept the
+      death but treat the scene as Livian elaboration.
+
+  - topic: The Maharbal exchange
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          No mention. The decision not to march on Rome is
+          recorded, but Maharbal does not appear urging the
+          march and Hannibal does not refuse with the famous
+          phrase.
+      - source_slug: livy-auc
+        what_it_says: >
+          The full exchange at 22.51: Maharbal proposes the
+          immediate march on Rome with the cavalry; Hannibal
+          delays, requesting time to consider; Maharbal
+          responds "vincere scis, Hannibal, victoria uti
+          nescis" — "you know how to win a victory, Hannibal,
+          but not how to use one." Livy treats this as the
+          decisive moment of the Second Punic War.
+    commentary: >
+      The Polybian silence on the Maharbal exchange is one of
+      the strongest source-critical arguments in modern Cannae
+      scholarship. Polybius had access to Roman participant
+      memory and to Massinissa's court (Punic memory); his
+      account of the post-battle decision is detailed enough
+      that an exchange of this dramatic weight would almost
+      certainly have appeared if it had occurred. The neat
+      literary form of the Latin phrase — antithetical
+      parallel structure, the kind of construction that
+      survives in oral memory as a quotation rather than as
+      a paraphrase — also fits the pattern of later literary
+      invention rather than authentic record. The site treats
+      the exchange as Livian or pre-Livian literary
+      tradition rather than historical fact. The decision
+      not to march on Rome is real; the famous quotation is
+      almost certainly not. The site's
+      [editorial take on the march-on-Rome question](/editorialTakes/cannae-march-on-rome)
+      builds on this source-critical reading.
+
+  - topic: The political and religious response at Rome
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Brief; Polybius treats the political response in
+          general terms as Rome reorganizing for continued war.
+      - source_slug: livy-auc
+        what_it_says: >
+          Substantial coverage of the senate's response, the
+          prohibition on public mourning, and the levy of
+          fresh troops including slaves and condemned
+          criminals.
+      - source_slug: plutarch-lives
+        what_it_says: >
+          The fullest treatment of the political-religious
+          response: Fabius's vindication, the religious-
+          expiatory measures including the human sacrifice
+          of two pairs of Greeks and Gauls at the Forum
+          Boarium, the prohibition on public mourning, the
+          institutional measures.
+    commentary: >
+      The religious-expiatory dimension of the Roman response,
+      particularly the human sacrifice, is most fully
+      preserved in Plutarch and is closely paralleled in
+      Livy. The episode is one of the strongest pieces of
+      evidence that the Roman state itself practiced human
+      sacrifice in crisis situations — a point the
+      [Tophet controversy narrative](/narratives/the-tophet-controversy)
+      discusses in the broader context of how the Greco-Roman
+      sources frame Carthaginian sacrificial practice as
+      distinctively "barbaric" while preserving evidence of
+      Roman parallels they treat as ritually different.
+
+working_reconstruction: >
+  The four sources together support a confident reconstruction
+  of Cannae's tactical shape, casualty magnitude, and immediate
+  aftermath, with three substantive source-critical adjustments
+  the site makes to the conventional account.
+
+  First, the Polybian military-analytical framing is the
+  load-bearing source. His access to participant memory, his
+  background as a Hellenistic field officer giving him the
+  tactical vocabulary to describe what happened, and his
+  closeness in time make him the principal authority on the
+  battle's actual conduct. The Livian additions to the
+  tactical picture (specific officer movements, dramatic
+  individual encounters, moralizing color) are rhetorical
+  rather than evidentiary.
+
+  Second, the Maharbal exchange is almost certainly not
+  historical. The Polybian silence on what would be the most
+  dramatic episode of the entire campaign, combined with the
+  Latin phrase's neat antithetical structure, identifies the
+  exchange as Livian or earlier-Latin literary construction.
+  Hannibal's decision not to march on Rome was real and
+  defensible on its own grounds (treated under the site's
+  editorial take on the march-on-Rome question); it does not
+  require the Maharbal scene to be either historically real or
+  morally telling.
+
+  Third, the casualty figures are reconcilable. Polybius's
+  ~70,000 and Livy's 47,000-plus-19,300 are best read as the
+  same catastrophic total expressed in different categorical
+  breakdowns, with Polybius treating "killed" as a category
+  including those killed in the pursuit and Livy distinguishing
+  battlefield dead from prisoners. The modern reconstruction's
+  willingness to accept either figure is methodologically
+  honest — the magnitude is what matters strategically, and
+  the magnitude is unambiguous.
+
+  The political-religious dimension of the Roman response,
+  preserved most fully in Plutarch and Livy, is one of the
+  most historically substantial pieces of the comparison.
+  The human sacrifice at the Forum Boarium is well-attested
+  across multiple Roman sources and was a real ritual
+  response to extreme crisis. Its preservation in the
+  Cannae source tradition is one of the strongest pieces of
+  evidence for the methodological point that the Greco-Roman
+  literary framing of Carthaginian religious practice as
+  distinctively barbaric papers over Roman parallels the same
+  sources treat as ritually unremarkable. Polybius's relative
+  silence on this dimension is itself worth noting: his
+  Roman-constitutional framing of the war's broader meaning
+  does not pause to examine the religious dimension of the
+  Roman response, which fits his general pattern of
+  treating Roman religious practice as background rather
+  than as analytical object.
+
+related_takes:
+  - cannae-march-on-rome
+  - cannae-roman-refusal-to-negotiate
+  - hannibal-italian-objective-alliance-dismemberment
+related_claims:
+  - cannae-allies-defected
+related_narratives: []
+related_questions:
+  - hannibal-italian-objective
+
+last_revised: "2026-05-12"

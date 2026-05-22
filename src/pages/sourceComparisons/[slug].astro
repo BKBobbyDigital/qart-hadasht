@@ -1,0 +1,244 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VersionStamp from '../../components/VersionStamp.astro';
+import CiteThisPage from '../../components/CiteThisPage.astro';
+import SourceDistance from '../../components/SourceDistance.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { autolink, buildLinkRegistry } from '../../lib/autolink';
+
+export async function getStaticPaths() {
+  const comparisons = await getCollection('sourceComparisons');
+  return comparisons.map((c) => ({
+    params: { slug: c.id },
+    props: { comparison: c },
+  }));
+}
+
+const { comparison } = Astro.props;
+const d = comparison.data;
+
+// Resolve subject event
+let subjectEvent: any = null;
+if (d.subject_event) {
+  subjectEvent = await getEntry('events', d.subject_event.id);
+}
+
+// Resolve each source passage's source entry (for header info, distance chips)
+type ResolvedPassage = {
+  passage: typeof d.source_passages[number];
+  source: any;
+  slug: string;
+};
+const resolvedPassages: ResolvedPassage[] = await Promise.all(
+  d.source_passages.map(async (p: any) => {
+    const source = await getEntry('sources', p.source.id);
+    return { passage: p, source, slug: p.source.id };
+  })
+);
+
+// Resolve related entries.
+const relatedTakes = await Promise.all(
+  (d.related_takes ?? []).map(async (slug: string) => await getEntry('editorialTakes', slug))
+);
+const relatedClaims = await Promise.all(
+  (d.related_claims ?? []).map(async (slug: string) => await getEntry('claims', slug))
+);
+const relatedQuestions = await Promise.all(
+  (d.related_questions ?? []).map(async (slug: string) => await getEntry('openQuestions', slug))
+);
+const relatedNarratives = await Promise.all(
+  (d.related_narratives ?? []).map(async (slug: string) => await getEntry('narratives', slug))
+);
+
+// Build link registry for autolink across the prose fields.
+const [events, people, places, institutions, groups, themes, deities, artifacts] = await Promise.all([
+  getCollection('events'),
+  getCollection('people'),
+  getCollection('places'),
+  getCollection('institutions'),
+  getCollection('groups'),
+  getCollection('themes'),
+  getCollection('deities'),
+  getCollection('artifacts'),
+]);
+const linkRegistry = buildLinkRegistry({
+  events, people, places, institutions, groups, themes, deities, artifacts,
+});
+
+const excludeKey = `sourceComparison:${comparison.id}`;
+const al = (text: string) => autolink(text ?? '', linkRegistry, { excludeKey });
+
+// Render a YAML literal/folded field as paragraphs — single newlines within
+// a paragraph collapse to spaces, blank lines separate paragraphs.
+const paragraphize = (text: string) => {
+  if (!text) return '';
+  return text
+    .split(/\n\s*\n/)
+    .map((p) => p.replace(/\s*\n\s*/g, ' ').trim())
+    .filter(Boolean)
+    .map((p) => `<p class="mb-4 last:mb-0">${al(p)}</p>`)
+    .join('');
+};
+
+// Short source label for the column header
+function sourceLabel(source: any, slug: string): string {
+  if (!source) return slug;
+  const d = source.data;
+  if (d.author) {
+    // Modern scholarship: "Author Year"
+    if (d.type === 'modern_scholarship') {
+      const year = d.date_composed?.value ?? '';
+      return `${d.author.split(',')[0]}${year ? ' ' + year : ''}`;
+    }
+    // Ancient literary: just the author
+    return d.author;
+  }
+  return d.title || slug;
+}
+---
+
+<BaseLayout title={d.title} description={d.summary.slice(0, 200)}>
+  <article class="max-w-5xl mx-auto px-6 py-12">
+    <span hidden data-pagefind-filter="type:Source comparisons" data-pagefind-meta="type:Source comparison"></span>
+
+    <p class="eyebrow mb-3">
+      Source comparison · <a href="/sourceComparisons" class="text-tyrian-700 hover:underline">All comparisons</a>
+    </p>
+    <h1 class="font-serif text-3xl sm:text-4xl mb-3 leading-snug">{d.title}</h1>
+    {subjectEvent && (
+      <p class="text-sm text-sand-700 mb-6">
+        On <a href={`/events/${subjectEvent.id}`} class="text-tyrian-700 hover:underline">{subjectEvent.data.name}</a>
+      </p>
+    )}
+
+    <section class="mb-10">
+      <div class="text-ink-900 leading-relaxed" set:html={paragraphize(d.summary)}></div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-6">The sources in parallel</h2>
+      <div class={resolvedPassages.length >= 4 ? 'grid lg:grid-cols-2 gap-6' : 'grid lg:grid-cols-2 gap-6'}>
+        {resolvedPassages.map(({ passage, source, slug }) => (
+          <div class="border border-sand-300 rounded-lg bg-sand-50 p-5">
+            <div class="flex items-start justify-between gap-3 mb-3 pb-3 border-b border-sand-300">
+              <div>
+                <p class="font-serif text-lg leading-tight">
+                  <a href={`/sources/${slug}`} class="text-tyrian-700 hover:underline">
+                    {source ? sourceLabel(source, slug) : slug}
+                  </a>
+                </p>
+                <p class="text-xs text-sand-700 mt-0.5">
+                  <span class="font-medium">{passage.passage_ref}</span>
+                </p>
+              </div>
+              {source && (
+                <SourceDistance source={source.data} />
+              )}
+            </div>
+            <div class="text-sm text-ink-900 leading-relaxed mb-3" set:html={paragraphize(passage.paraphrase)}></div>
+            {passage.source_note && (
+              <div class="mt-3 pt-3 border-t border-sand-200">
+                <p class="text-[11px] uppercase tracking-wider text-sand-700 mb-1 font-medium">Source note</p>
+                <p class="text-xs text-sand-800 leading-relaxed italic" set:html={al(passage.source_note)}></p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {d.points_of_difference.length > 0 && (
+      <section class="mb-10">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-6">Where the sources differ</h2>
+        <ol class="space-y-6 list-none pl-0">
+          {d.points_of_difference.map((p: any, i: number) => (
+            <li class="border border-sand-300 rounded-lg p-5 bg-sand-50">
+              <p class="text-[11px] uppercase tracking-wider text-tyrian-700 mb-2 font-medium">Point {i + 1}</p>
+              <h3 class="font-serif text-xl mb-4">{p.topic}</h3>
+              <div class="space-y-3 mb-4">
+                {p.positions.map((pos: any) => {
+                  const passage = resolvedPassages.find((rp) => rp.slug === pos.source_slug);
+                  const label = passage ? sourceLabel(passage.source, pos.source_slug) : pos.source_slug;
+                  return (
+                    <div class="border-l-2 border-tyrian-300 pl-4">
+                      <p class="text-xs uppercase tracking-wider text-sand-700 mb-1 font-medium">{label}</p>
+                      <p class="text-sm text-ink-900 leading-relaxed" set:html={al(pos.what_it_says)}></p>
+                    </div>
+                  );
+                })}
+              </div>
+              <div class="mt-4 pt-4 border-t border-sand-300">
+                <p class="text-[11px] uppercase tracking-wider text-tyrian-700 mb-1 font-medium">Commentary</p>
+                <div class="text-sm text-ink-900 leading-relaxed" set:html={paragraphize(p.commentary)}></div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-4">Working reconstruction</h2>
+      <div class="text-ink-900 leading-relaxed" set:html={paragraphize(d.working_reconstruction)}></div>
+    </section>
+
+    {(relatedTakes.filter(Boolean).length > 0 || relatedClaims.filter(Boolean).length > 0 || relatedQuestions.filter(Boolean).length > 0 || relatedNarratives.filter(Boolean).length > 0) && (
+      <section class="mt-12 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-xl mb-4">Related</h2>
+        <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6 text-sm">
+          {relatedTakes.filter(Boolean).length > 0 && (
+            <div>
+              <p class="eyebrow mb-2">Editorial takes</p>
+              <ul class="space-y-1.5">
+                {relatedTakes.filter(Boolean).map((t: any) => (
+                  <li>
+                    <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {relatedClaims.filter(Boolean).length > 0 && (
+            <div>
+              <p class="eyebrow mb-2">Claims</p>
+              <ul class="space-y-1.5">
+                {relatedClaims.filter(Boolean).map((c: any) => (
+                  <li>
+                    <a href={`/claims/${c.id}`} class="text-tyrian-700 hover:underline leading-snug">{c.data.statement}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {relatedQuestions.filter(Boolean).length > 0 && (
+            <div>
+              <p class="eyebrow mb-2">Open questions</p>
+              <ul class="space-y-1.5">
+                {relatedQuestions.filter(Boolean).map((q: any) => (
+                  <li>
+                    <a href={`/openQuestions/${q.id}`} class="text-tyrian-700 hover:underline leading-snug">{q.data.question}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {relatedNarratives.filter(Boolean).length > 0 && (
+            <div>
+              <p class="eyebrow mb-2">Narratives</p>
+              <ul class="space-y-1.5">
+                {relatedNarratives.filter(Boolean).map((n: any) => (
+                  <li>
+                    <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline leading-snug">{n.data.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      </section>
+    )}
+
+    <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/sourceComparisons/${comparison.id}`} />
+    <VersionStamp date={d.last_revised} filePath={`src/content/sourceComparisons/${comparison.id}.yaml`} />
+  </article>
+</BaseLayout>

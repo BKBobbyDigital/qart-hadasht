@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 const narratives = await getCollection('narratives');
 const openQuestions = await getCollection('openQuestions');
 const editorialTakes = await getCollection('editorialTakes');
+const sourceComparisons = await getCollection('sourceComparisons');
 
 // Group narratives by scope
 const byScope: Record<string, typeof narratives> = {
@@ -31,6 +32,9 @@ const sortedQuestions = [...openQuestions].sort((a: any, b: any) =>
 );
 const sortedTakes = [...editorialTakes].sort((a: any, b: any) =>
   (a.data.subject_question || '').localeCompare(b.data.subject_question || '')
+);
+const sortedComparisons = [...sourceComparisons].sort((a: any, b: any) =>
+  (a.data.title || '').localeCompare(b.data.title || '')
 );
 
 const scopeLabels: Record<string, { title: string; description: string; anchor: string }> = {
@@ -71,6 +75,9 @@ for (const [scope, label] of Object.entries(scopeLabels)) {
 }
 tocItems.push({ label: 'Editorial takes', anchor: 'editorial-takes', count: sortedTakes.length });
 tocItems.push({ label: 'Open questions', anchor: 'open-questions', count: sortedQuestions.length });
+if (sortedComparisons.length > 0) {
+  tocItems.push({ label: 'Source comparisons', anchor: 'source-comparisons', count: sortedComparisons.length });
+}
 ---
 
 <BaseLayout title="Narratives">
@@ -155,6 +162,31 @@ tocItems.push({ label: 'Open questions', anchor: 'open-questions', count: sorted
                 <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{q.data.question}</h3>
                 {q.data.why_unknown && (
                   <p class="text-sm text-ink-900 mt-2">{q.data.why_unknown.slice(0, 240)}{q.data.why_unknown.length > 240 ? '...' : ''}</p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {sortedComparisons.length > 0 && (
+      <section id="source-comparisons" class="mb-12 scroll-mt-24">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Source comparisons</h2>
+        <p class="text-sm text-sand-700 mb-4">
+          Side-by-side parallel readings of contested events
+          through the multiple ancient sources that preserve them.
+          The source-rivalry the rest of the site does implicitly,
+          made visible as a reading interface.
+        </p>
+        <ul class="space-y-3">
+          {sortedComparisons.map((c: any) => (
+            <li>
+              <a href={`/sourceComparisons/${c.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
+                <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{c.data.title}</h3>
+                <p class="text-xs text-sand-700 mt-1">{c.data.source_passages.length} sources compared</p>
+                {c.data.summary && (
+                  <p class="text-sm text-ink-900 mt-2">{c.data.summary.slice(0, 240)}{c.data.summary.length > 240 ? '...' : ''}</p>
                 )}
               </a>
             </li>

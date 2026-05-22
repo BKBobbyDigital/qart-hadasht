@@ -766,6 +766,58 @@ const periods = defineCollection({
   }),
 });
 
+// ─── Source comparisons — side-by-side parallel readings of contested events ──
+// Each entry presents an episode through the multiple ancient sources that
+// preserve it, surfaces where they agree and disagree, and offers the site's
+// reconstruction. Built to make the source-rivalry work the rest of the site
+// does implicitly visible as a reading interface.
+
+const comparisonPassage = z.object({
+  source: reference('sources'),
+  passage_ref: z.string(),
+  /** Our paraphrase / summary, NOT a copyrighted translation. */
+  paraphrase: z.string(),
+  /** Optional short note on source distance, bias, or transmission context. */
+  source_note: z.string().optional(),
+});
+
+const pointOfDifference = z.object({
+  topic: z.string(),
+  /** Each source's claim on this point (slug must match a source above). */
+  positions: z.array(
+    z.object({
+      source_slug: z.string(),
+      what_it_says: z.string(),
+    })
+  ).min(1),
+  /** The site's commentary on what to make of the disagreement. */
+  commentary: z.string(),
+});
+
+const sourceComparisons = defineCollection({
+  type: 'data',
+  schema: z.object({
+    slug: z.string(),
+    title: z.string(),
+    /** Subject event/episode being compared across sources. */
+    subject_event: reference('events').optional(),
+    /** Short intro: what the comparison is and what it shows. */
+    summary: z.string(),
+    /** The source passages presented in parallel. */
+    source_passages: z.array(comparisonPassage).min(2),
+    /** Specific points where the sources differ, with site commentary. */
+    points_of_difference: z.array(pointOfDifference).default([]),
+    /** The site's working reconstruction synthesizing the sources. */
+    working_reconstruction: z.string(),
+    /** Optional cross-links to the rest of the synthesis layer. */
+    related_takes: z.array(z.string()).default([]),
+    related_claims: z.array(z.string()).default([]),
+    related_questions: z.array(z.string()).default([]),
+    related_narratives: z.array(z.string()).default([]),
+    last_revised: z.string(),
+  }),
+});
+
 // ─── Export ───────────────────────────────────────────────────────────────────
 
 export const collections = {
@@ -785,4 +837,5 @@ export const collections = {
   periods,
   threads,
   artifacts,
+  sourceComparisons,
 };
