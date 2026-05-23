@@ -46,6 +46,12 @@ for (const c of referencingClaims) {
 }
 const materialEvidence = allArtifacts.filter((a) => artifactSlugs.has(a.id));
 
+// Reverse lookup: narratives whose primary_entities include this place
+const allNarratives = await getCollection('narratives');
+const referencingNarratives = allNarratives.filter((n: any) =>
+  (n.data.primary_entities ?? []).some((e: any) => e.type === 'place' && e.slug === place.id)
+);
+
 // Build the points array for the map. Include candidates if present, otherwise primary.
 type MapPoint = { label: string; lat: number; lon: number; confidence?: string; notes?: string; marker_kind?: string };
 let mapPoints: MapPoint[] = [];
@@ -278,6 +284,22 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
     )}
 
     <MaterialEvidence artifacts={materialEvidence} />
+
+    {referencingNarratives.length > 0 && (
+      <section class="mt-12 pt-6 border-t border-sand-300">
+        <h2 class="font-serif text-2xl mb-3">Narratives</h2>
+        <ul class="space-y-3">
+          {referencingNarratives.map((n: any) => (
+            <li>
+              <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+                <p class="font-serif text-lg text-tyrian-700 leading-snug">{n.data.title}</p>
+                <p class="text-sm text-sand-900 mt-1">{n.data.thesis.slice(0, 240)}{n.data.thesis.length > 240 ? '…' : ''}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <Bibliography claims={referencingClaims} />
     </article>
