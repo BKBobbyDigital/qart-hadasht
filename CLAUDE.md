@@ -399,7 +399,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~653 pages** as of
+parked until the day version settles. The site is **~680 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -412,9 +412,9 @@ the last build.
 | sources | 55 |
 | claims | 172 |
 | editorialTakes | 24 |
-| openQuestions | 18 |
+| openQuestions | 19 |
 | artifacts | 41 |
-| narratives | 35 |
+| narratives | 40 |
 | themes | 17 |
 | periods | 8 |
 | threads | 7 |
@@ -432,7 +432,7 @@ Plus a substantial follow-on: analytics, 404, PWA, period 07 split,
 places imagery expansion, artifact placeholder consistency.
 
 Headline numbers:
-- 676 pages indexed
+- 680 pages indexed
 - 38 of 56 places imaged; 38 of 41 artifacts imaged
 - 0 broken internal links; 0 accessibility findings on user-facing pages
 - Em-dash density 73% reduced from initial audit; AI-tic vocabulary
@@ -989,6 +989,81 @@ without further wiring.
 - Stale "All 13 open questions" link on homepage fixed to
   "All open questions" (count was drifting)
 
+### Fifth-century gap-fill + reverse-lookup architecture (May 2026, commits 3c2250c → 2b33eec)
+
+A focused session addressing the 5th-c. content gap (the
+480–410 BCE stretch the site had treated only briefly in
+Period 02's "What else was happening" section). Three new
+period-arc narratives plus an architectural improvement to
+the reverse-lookup infrastructure.
+
+**1. The constitutional arc.** New narrative
+`narratives/the-fifth-century-constitutional-arc` walks the
+political transformation from Magonid quasi-monarchical
+dominance to the oligarchic-republican constitution Aristotle
+praises in the 340s. Pre-Himera Magonid pattern → Himera as
+rupture point → emergent institutional landscape
+(suffeteship, senate, Hundred and Four court, popular
+assembly) → post-Himera Magonids in diminished form → the
+mechanism question. Companion open question
+`openQuestions/fifth-century-constitutional-development`
+weighs three candidate readings (gradual evolution, discrete
+reform via the Justin 19.2 reference, unanswerable).
+
+**2. The religious transformation.** New narrative
+`narratives/the-fifth-century-religious-transformation`
+treats Tanit's emergence in the inscriptional record from
+c. late 5th c. BCE, the votive formula shift to "Tanit Face
+of Baal and Lord Baal Hammon" with Tanit named first, the
+Tophet's intensification across the late 5th and 4th
+centuries, and the broader pantheon stabilization. Four
+candidate explanations for Tanit's emergence weighed
+(differentiation from Astarte, import from elsewhere,
+Libyan-Phoenician syncretic origin, internal Carthaginian
+theological development), with the site landing on a
+mixture of (a) and (c). The aDNA evidence reinforces the
+Libyan-Phoenician syncretic reading.
+
+**3. The Phoenician homeland under Persian rule.** New
+narrative `narratives/phoenician-homeland-under-persian-rule`
+treats the external structural context (539–332 BCE) within
+which Carthage's internal 5th-c. transformations happened.
+The Cambyses episode (Herodotus 3.17–19) as the load-bearing
+direct attestation of Persian-Carthage contact and of the
+metropolis-colony cultic bond surviving Persian rule. The
+480 BCE Himera-Salamis coordination question treated
+carefully (both readings weighed without picking a side).
+Sidon's eclipse of Tyre, the Eshmunazar II and Tabnit
+sarcophagi as Persian-period royal material, the
+continuing Melqart-cult tribute, Aristotle's late-Persian-
+period treatment, Alexander's siege of Tyre as the period's
+close.
+
+**4. Reverse-lookup architecture for narratives.** Discovered
+during the gap-fill work that deity, institution, period,
+and place render routes did not do narrative reverse-lookup
+(only themes did). Extended the pattern: each route now pulls
+narratives whose `primary_entities` references the current
+entity, surfaced as a "Narratives" section. The pattern is
+generic — any future narrative anchored to one of those
+entity types will surface automatically without further
+wiring. Also added `carthaginian-governance` to Period 02's
+`key_themes` (legitimate content fix; the period covers
+political development).
+
+**Other smaller things this stretch:**
+- Three small wins (Metaurus Phase 3 diagram review;
+  Rawlings Greeks-at-War 2007 integrated into Sicilian-
+  dialectic narrative + army-composition take; aDNA framing
+  extensions on founding-tyrian-colonization claim,
+  punic-identity theme, libyo-phoenicians group)
+- AI-tic audit on the recent synthesis-layer prose; the
+  nine source-comparison files brought from 17–23 tics/1k
+  to under 5 tics/1k via mechanical sed batches plus hand
+  rewrites of the two worst (tarentine-betrayal, mercenary-
+  war-atrocities). Em-dash density on the Phoenician-homeland
+  narrative reduced via emdash-fix.mjs.
+
 ---
 
 ## Outstanding work
@@ -1203,7 +1278,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **676 pages**.
+output. As of the last CLAUDE.md refresh it was around **680 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
@@ -1348,6 +1423,10 @@ The user does not want:
   - `narratives/the-tophet-controversy.md` — historiographical arc
     treatment (different from the position-taking narratives;
     walks a debate rather than synthesizing a position)
+  - `narratives/the-fifth-century-constitutional-arc.md` —
+    period-scope narrative that reconstructs an internal
+    political transformation from thin evidence; pairs with the
+    open question on the developmental mechanism
 
 - **Editorial takes** (formal position-taking with opposition framing):
   - `editorialTakes/tophet-happened-scale-unrecoverable.yaml` —
