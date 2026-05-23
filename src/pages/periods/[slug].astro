@@ -76,6 +76,13 @@ const periodRelatedQuestions = (await getCollection('openQuestions')).filter((q:
   (q.data.relevant_entities ?? []).some((e: any) => periodKeyKeys.has(`${e.type}:${e.slug}`))
 );
 
+// Reverse lookup: narratives whose primary_entities include any of this
+// period's key themes or events (typically scope=period narratives, but
+// any narrative anchored to a key entity of this period will surface).
+const periodRelatedNarratives = (await getCollection('narratives')).filter((n: any) =>
+  (n.data.primary_entities ?? []).some((e: any) => periodKeyKeys.has(`${e.type}:${e.slug}`))
+);
+
 // All periods sorted chronologically for prev/next navigation
 const allPeriods = (await getCollection('periods')).sort(
   (a: any, b: any) => a.data.start_year - b.data.start_year
@@ -233,10 +240,22 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       are linked throughout.
     </p>
 
-        {(periodRelatedTakes.length > 0 || periodRelatedQuestions.length > 0 || themeTags.length > 0) && (
+        {(periodRelatedTakes.length > 0 || periodRelatedQuestions.length > 0 || periodRelatedNarratives.length > 0 || themeTags.length > 0) && (
           <section class="mt-12 pt-6 border-t border-sand-300">
             <h2 class="font-serif text-xl mb-4" style="border: none; padding: 0; margin-top: 0;">Related</h2>
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6 text-sm">
+              {periodRelatedNarratives.length > 0 && (
+                <div>
+                  <p class="eyebrow mb-2">Narratives</p>
+                  <ul class="space-y-1.5">
+                    {periodRelatedNarratives.map((n: any) => (
+                      <li>
+                        <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="text-tyrian-700 hover:underline leading-snug">{n.data.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
               {periodRelatedTakes.length > 0 && (
                 <div>
                   <p class="eyebrow mb-2">Editorial takes</p>

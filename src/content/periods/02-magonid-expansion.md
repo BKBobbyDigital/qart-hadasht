@@ -43,6 +43,7 @@ key_themes:
   - punic-religion
   - carthaginian-economy
   - carthaginian-seafaring-and-trade
+  - carthaginian-governance
 principal_sources:
   - herodotus-histories
   - justin-epitome
