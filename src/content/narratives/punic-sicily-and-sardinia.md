@@ -52,7 +52,7 @@ the shape the site gives to the
 [Numidian-Punic interface](/narratives/the-numidian-punic-interface)
 and to the
 [Phoenician colonial network theme](/themes/phoenician-colonial-network):
-the load-bearing cultural reality is the integrated provincial
+the central cultural reality is the integrated provincial
 Punic world rather than the metropolitan center alone, and the
 provincial Punic world had its own internal history that the
 metropolitan-and-wars framing obscures.

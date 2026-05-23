@@ -4,7 +4,7 @@ subject_event: treaty-of-lutatius
 summary: >
   The treaty that ended the First Punic War in 241 BCE is one
   of the most consequential documents in Punic studies because
-  its terms set the structural conditions for everything that
+  its terms set the underlying conditions for everything that
   followed — the FPW indemnity that exhausted Carthaginian
   finances and triggered the
   [Mercenary War](/events/mercenary-war), the territorial
@@ -16,13 +16,13 @@ summary: >
   field-treaty Catulus had signed — the Senate amending the
   terms after the fact to harsher conditions. Diodorus
   24.13 and 25.2 preserve overlapping material with different
-  framings. Appian *Sicilica* references the treaty briefly.
-  Whether the Senate-amended version was substantively
+  readings. Appian *Sicilica* references the treaty briefly.
+  Whether the Senate-amended version was meaningfully
   harsher than the field-treaty, what Catulus actually agreed
   to, and how the amendment process worked are
   source-critical questions that bear directly on the modern
   reading of FPW settlement as fair-enough versus punitive,
-  and through that on the structural-causation reading of
+  and through that on the underlying-causation account of
   the SPW.
 
 source_passages:
@@ -54,10 +54,10 @@ source_passages:
       with access to participant memory of the negotiation.
       His specific phrase that the Senate "added clauses"
       to a treaty Catulus had already signed is the
-      load-bearing piece of evidence for the entire
+      central piece of evidence for the entire
       modern source-critical question. He does not
       problematize the amendment in moral or political
-      terms; modern reading has to ask whether his
+      terms; modern interpretation has to ask whether his
       institutional framing (Senate exercises standard
       constitutional role) papers over what was, from the
       Carthaginian side, an unilateral Roman amendment of
@@ -68,14 +68,14 @@ source_passages:
       Diodorus preserves the broad treaty terms in fragments
       from his twenty-fourth book and a brief return to the
       subject at the opening of the twenty-fifth (the
-      transition to the Mercenary War). His framing
+      transition to the Mercenary War). His account
       acknowledges the amendment process Polybius describes
       but treats it with somewhat less institutional
       smoothness — the Senate amendment is presented more
       as an unilateral toughening of terms than as routine
       ratification. The specific numbers differ slightly
       from Polybius's (the indemnity figure in the
-      fragments is variously preserved). The framing of the
+      fragments is variously preserved). The reading of the
       treaty's reception at Carthage is also somewhat
       different: where Polybius presents Carthaginian
       acceptance as the only available option given the
@@ -86,7 +86,7 @@ source_passages:
     source_note: >
       Diodorus drew on earlier Greek sources including
       Philinus, the pro-Carthaginian historian Polybius
-      explicitly dismisses. Where Diodorus's framing of the
+      explicitly dismisses. Where Diodorus's account of the
       treaty's reception at Carthage preserves more sense
       of resentment than Polybius gives it, that may
       reflect an underlying Philinian source preserving
@@ -99,8 +99,8 @@ source_passages:
       embedded in his treatments of the war's overall
       shape. He preserves the broad treaty terms consistent
       with Polybius and Diodorus and acknowledges the
-      Senate amendment, but his framing of the treaty's
-      structural significance is more directed toward its
+      Senate amendment, but his approach of the treaty's
+      broader significance is more directed toward its
       consequences for the SPW than to the specific
       amendment-process question. His value for the
       treaty specifically is principally as confirmation
@@ -139,12 +139,12 @@ points_of_difference:
       The Polybian specific terms are the principal source
       for modern reconstruction of what the amendment
       actually changed. The payment-period halving and the
-      indemnity increase are the load-bearing changes for
+      indemnity increase are the central changes for
       the subsequent Carthaginian fiscal crisis that
       produced the Mercenary War — the original
       twenty-year payment schedule would have been
       manageable; the ten-year schedule was not. The
-      islands-clause was the load-bearing change for the
+      islands-clause was the central change for the
       subsequent Roman seizure of
       [Sardinia](/places/sardinia) in 238 BCE during the
       Mercenary War, which Polybius himself
@@ -179,10 +179,10 @@ points_of_difference:
       practical consequence — that the Roman side could
       offer one set of terms in the field and then amend
       them at home with the Carthaginian side having no
-      symmetric capacity to do likewise — was substantively
+      symmetric capacity to do likewise — was meaningfully
       asymmetric. The Polybian institutional smoothing of
       this asymmetry is the principal source-critical move
-      modern reading should be aware of. The
+      modern reading must be aware of. The
       [editorial take on the treaty's harshness](/editorialTakes/lutatius-treaty-too-harsh)
       treats the broader question of how the amendment
       should be read.
@@ -201,7 +201,7 @@ points_of_difference:
           terms produced. The Senate amendment is presented
           as poisoning subsequent relations.
     commentary: >
-      The Diodoran framing of the treaty's reception
+      The Diodoran account of the treaty's reception
       preserves more of what was likely the actual
       Carthaginian political experience: an agreement
       negotiated in the field, then unilaterally toughened
@@ -228,16 +228,16 @@ points_of_difference:
           as a direct consequence of the islands clause.
       - source_slug: diodorus-library
         what_it_says: >
-          The structural connection between the amended
+          The direct connection between the amended
           treaty terms (specifically the financial squeeze)
           and the Mercenary War is preserved with more
-          weight. The framing presents the war's outbreak
-          as a structural consequence of the treaty's
+          weight. The account presents the war's outbreak
+          as a downstream consequence of the treaty's
           conditions to a greater degree than Polybius
           allows.
     commentary: >
-      Modern scholarship has converged on the structural
-      reading the Diodoran framing supports: the ten-year
+      Modern scholarship has converged on the underlying
+      reading the Diodoran account supports: the ten-year
       payment schedule produced the fiscal exhaustion that
       made the Mercenary War unavoidable; the islands
       clause gave Rome the legal pretext for the
@@ -245,10 +245,10 @@ points_of_difference:
       during the war's chaos. Both consequences flow from
       the Senate amendment, not from what Catulus signed in
       the field. The Lutatius treaty as amended is the
-      structural-causal pivot of the entire inter-war
-      period, and the Polybian framing of the war as
+      causal pivot of the entire inter-war
+      period, and the Polybian account of the war as
       moral-mercenary-breakdown rather than structural
-      Carthaginian-fiscal-collapse is exactly the framing
+      Carthaginian-fiscal-collapse is exactly the reading
       modern source-critical reading has had to disentangle.
 
 working_reconstruction: >
@@ -263,7 +263,7 @@ working_reconstruction: >
   These amendments produced the fiscal squeeze that triggered
   the Mercenary War and gave Rome the legal pretext for the
   Sardinia seizure during the war's chaos. The treaty as
-  amended is the structural pivot of the entire inter-war
+  amended is the underlying pivot of the entire inter-war
   period; everything downstream of it — the Mercenary War,
   the loss of Sardinia, the Barcid Iberian project as
   fiscal-strategic recovery, the resulting Roman-Carthaginian
@@ -274,26 +274,26 @@ working_reconstruction: >
   to make choices are: (a) the framing of the amendment
   process itself, where the Polybian institutional smoothing
   is procedurally accurate but obscures the substantive
-  asymmetry the Diodoran framing preserves; (b) the framing
+  asymmetry the Diodoran account preserves; (b) the framing
   of the treaty's reception at Carthage, where the Diodoran
   sense of resentment and political fallout is more honest
   to the actual political experience than the Polybian
   duress-acceptance smoothing; (c) the framing of the
   treaty's connection to the Mercenary War, where the
-  Diodoran structural-causal reading is preferable to the
-  Polybian moral-mercenary-breakdown reading.
+  Diodoran causal account is preferable to the
+  Polybian moral-mercenary-breakdown account.
 
-  Together these reading choices produce a treaty that was
-  the genuine pivot of the inter-war period — substantively
-  harsher than what Catulus signed, substantively
+  Together these choices produce a treaty that was
+  the genuine pivot of the inter-war period — meaningfully
+  harsher than what Catulus signed, meaningfully
   consequential for Carthaginian internal politics and for
   the Roman-Carthaginian strategic relationship, and
-  substantively load-bearing for the SPW's structural
+  meaningfully central for the SPW's structural
   causation. The site's
   [editorial take on the treaty](/editorialTakes/lutatius-treaty-too-harsh)
   develops the position that the Senate amendment was the
   decisive moment in the inter-war period and that its
-  structural consequences made the SPW a near-inevitable
+  downstream consequences made the SPW a near-inevitable
   rather than contingent outcome.
 
 related_takes:

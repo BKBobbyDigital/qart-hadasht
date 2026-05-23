@@ -144,7 +144,7 @@ zones. Dionysius died in 367 with the partition essentially as
 it had been left in 405, displaced and recovered repeatedly but
 not fundamentally shifted.
 
-The fact of the partition is the load-bearing thing. Neither
+The fact of the partition is the central thing. Neither
 power could push the other off the island; both retained the
 capacity to inflict severe damage; the boundary moved with
 operational fortunes but recurred to roughly the same line

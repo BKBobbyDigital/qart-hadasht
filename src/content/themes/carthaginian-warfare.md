@@ -105,7 +105,7 @@ of the war shifted on the change of side.
 
 The war elephants are one of the more recognizable features
 of Carthaginian armies in the popular imagination. The
-reality is less load-bearing. Elephants were a tactical
+reality is less central. Elephants were a tactical
 experiment rather than a core institution, and their
 effectiveness in the documented engagements was mixed.
 

@@ -11,7 +11,7 @@ summary: >
   letters to Antiochus's court urging him to wage war on Rome,
   and that proof had reached the Roman senate — is preserved
   in three principal sources with substantially different
-  framings. Polybius's account survives only in fragments
+  readings. Polybius's account survives only in fragments
   (much of Book 18 and the relevant material from earlier
   books is lost); Livy 33.45–49 preserves the fullest surviving
   Latin tradition with full dramatic-narrative shape; Justin's
@@ -37,9 +37,9 @@ source_passages:
       a denunciation in which the alleged correspondence
       with Antiochus served as the pretext rather than as
       the actual cause. The fragmentary preservation
-      prevents reconstruction of Polybius's full framing,
+      prevents reconstruction of Polybius's full reading,
       but the surviving material is consistent with a
-      structural-political reading of the denunciation
+      structural-political account of the denunciation
       rather than a literal-treasonable-correspondence
       reading.
     source_note: >
@@ -74,8 +74,8 @@ source_passages:
       his flight confirms guilt.
     source_note: >
       Livy worked from earlier Latin annalistic sources
-      that took the Roman political-diplomatic framing
-      largely at face value. The face-value framing of the
+      that took the Roman political-diplomatic reading
+      largely at face value. The face-value account of the
       charge — Hannibal was indeed corresponding with
       Antiochus, his flight confirms it — has been
       influential in popular reception but is
@@ -89,7 +89,7 @@ source_passages:
       Justin's epitome of the lost universal history of
       Pompeius Trogus preserves the broad sequence of the
       embassy and the flight but with a substantially more
-      skeptical framing of the Roman case. The denunciation
+      skeptical reading of the Roman case. The denunciation
       is presented as a political move by Hannibal's
       Carthaginian enemies — the corrupt elite class
       whose oligarchic interests the suffeteship reforms
@@ -102,11 +102,11 @@ source_passages:
     source_note: >
       Trogus (transmitted by Justin) wrote in the Augustan
       period working from earlier Greek sources, some of
-      which preserved framings closer to the
+      which preserved readings closer to the
       Carthaginian-perspective tradition that the Latin
       annalistic mainline largely lost. The Trogan-Justinian
-      framing on the 195 episode is methodologically more
-      honest than the Livian face-value framing because it
+      reading on the 195 episode is methodologically more
+      honest than the Livian face-value account because it
       explicitly weighs the political motives of Hannibal's
       domestic enemies and acknowledges the asymmetry of
       the Roman diplomatic apparatus.
@@ -122,14 +122,14 @@ points_of_difference:
           intelligence to that effect.
       - source_slug: justin-epitome
         what_it_says: >
-          Skeptical framing. The charge is presented as the
+          Skeptical reading. The charge is presented as the
           pretext rather than as the actual cause; the
           political motives of Hannibal's Carthaginian
           enemies are foregrounded.
       - source_slug: polybius-histories
         what_it_says: >
           The fragments are consistent with the
-          structural-political reading but cannot be
+          structural-political account but cannot be
           definitively interpreted in either direction
           given the loss.
     commentary: >
@@ -176,7 +176,7 @@ points_of_difference:
           the question of whether they manufactured the
           denunciation or merely supported it.
     commentary: >
-      The Justinian framing is methodologically more honest.
+      The Justinian account is methodologically more honest.
       The political-economic logic — that the reforms
       threatened the income of the existing oligarchic
       class, that the threatened class had every motive to
@@ -186,11 +186,11 @@ points_of_difference:
       rational political move on both sides — is consistent
       with how Carthaginian and Roman political-diplomatic
       operations worked across the period. The Livian
-      face-value framing requires accepting a Roman case
+      face-value account requires accepting a Roman case
       that has none of the documentary specificity Roman
       diplomatic cases ordinarily had.
 
-  - topic: The framing of Hannibal's flight
+  - topic: The reading of Hannibal's flight
     positions:
       - source_slug: livy-auc
         what_it_says: >
@@ -207,7 +207,7 @@ points_of_difference:
           surrendered to Roman custody on a fabricated
           basis.
     commentary: >
-      The flight-as-rational-response reading is
+      The flight-as-rational-response account is
       methodologically more honest. Flight from a
       fabricated charge that one cannot disprove —
       particularly in a political context where the
@@ -239,13 +239,13 @@ working_reconstruction: >
   Methodologically the comparison is one of the clearest
   cases on the site where the Polybian loss is genuinely
   consequential. With Polybius's full treatment available
-  the Latin tradition's face-value framing could be
+  the Latin tradition's face-value account could be
   checked directly; without it, the modern reading has to
   weigh Livy against Justin and infer the structural
-  political logic. The Justinian framing is preferable
+  political logic. The Justinian account is preferable
   because the political-economic logic it preserves is
   consistent with how Carthaginian and Roman politics
-  actually worked across the period; the Livian framing
+  actually worked across the period; the Livian account
   requires accepting a Roman diplomatic claim that has
   none of the specific documentary substance such claims
   ordinarily carried.
@@ -256,11 +256,11 @@ working_reconstruction: >
   and political figure is removed from his city not by
   Roman military pressure but by the cooperation of his
   domestic political enemies with Roman diplomatic
-  interests. The mechanism is fabrication; the framing
+  interests. The mechanism is fabrication; the reading
   the surviving sources impose on the mechanism is
-  largely the Livian face-value framing that has shaped
+  largely the Livian face-value account that has shaped
   popular reception. The site's reading reads against
-  the surviving framing.
+  the surviving reading.
 
 related_takes:
   - hannibal-195-denunciation-as-fabrication

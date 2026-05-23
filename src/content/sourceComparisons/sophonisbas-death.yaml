@@ -9,7 +9,7 @@ summary: >
   Second Punic War's African endgame, are preserved in three
   major surviving sources — Livy 30.12–15, Appian *Punica*
   27–28, and Diodorus 27.7 — that
-  agree on the broad outline but differ substantively on
+  agree on the broad outline but differ meaningfully on
   questions of agency, motive, and framing. Whose decision
   was the marriage to [Masinissa](/people/masinissa) — hers,
   his, both? Did [Scipio](/people/scipio-africanus) demand
@@ -49,7 +49,7 @@ source_passages:
       offer her no other on the day of their marriage. The
       scene is rendered with substantial dramatic detail —
       her composure, the messenger, the cup. Livy's
-      framing makes Sophonisba a tragic-noble figure
+      reading makes Sophonisba a tragic-noble figure
       destroyed by Roman political necessity rather than
       by Masinissa's choice.
     source_note: >
@@ -57,11 +57,11 @@ source_passages:
       Augustan period, drawing on earlier annalistic
       sources (largely lost) and Polybius (whose treatment
       of the episode survives only in fragments). The Livian
-      framing of Sophonisba as a tragic noblewoman destroyed
+      depiction of Sophonisba as a tragic noblewoman destroyed
       by political necessity reflects both the broader
       Roman moral-historiographical tradition and the
       Augustan-era taste for noble-Roman-virtue narrative
-      framings, and it should be read accordingly.
+      readings, and it should be read accordingly.
   - source: appian-punica
     passage_ref: "27–28"
     paraphrase: >
@@ -75,17 +75,17 @@ source_passages:
       moral crisis Livy makes of it); the poison is
       described, but Sophonisba's reply is rendered
       differently — with less of the noble-tragic-mode
-      framing and more as straightforward acceptance of
-      Masinissa's offered alternative. Appian's framing
+      reading and more as straightforward acceptance of
+      Masinissa's offered alternative. Appian's account
       treats the episode more as a political problem
       resolved by the available means than as a tragic
       sequence.
     source_note: >
       Appian wrote in the mid-second century CE, working
       from earlier sources that overlap with what Livy and
-      Polybius preserve. His framing is generally less
+      Polybius preserve. His reading is generally less
       moralizing than Livy's; for episodes where Livy's
-      rhetorical framing is doing heavy work, Appian
+      rhetorical work is heavy, Appian
       provides a useful counter-reading.
   - source: diodorus-library
     passage_ref: "27.7"
@@ -111,7 +111,7 @@ source_passages:
       pro-Carthaginian tradition Polybius dismissed) may
       have preserved framings closer to the Carthaginian
       perspective on the war's events than the surviving
-      Latin tradition preserves. The Diodoran framing of
+      Latin tradition preserves. The Diodoran account of
       Sophonisba with somewhat more explicit political
       agency may reflect such an underlying source.
 points_of_difference:
@@ -128,7 +128,7 @@ points_of_difference:
       - source_slug: appian-punica
         what_it_says: >
           Similarly Masinissa's decision but with less
-          dramatic framing. Sophonisba's role is preserved
+          dramatic coloring. Sophonisba's role is preserved
           as captive-pleading but the political calculation
           on Masinissa's side is given more weight.
       - source_slug: diodorus-library
@@ -139,7 +139,7 @@ points_of_difference:
           Carthaginian-Numidian alignment crisis.
           Sophonisba's political agency is more explicit.
     commentary: >
-      The Diodoran framing — coordinated political
+      The Diodoran account — coordinated political
       decision rather than Masinissa's spontaneous capture-
       response — is methodologically more honest to the
       surviving evidence and to comparative practice in
@@ -151,7 +151,7 @@ points_of_difference:
       supplication in the moment is a Livian rhetorical
       construction that fits Roman noble-tragic-mode
       conventions but not the actual political situation.
-      The site's reading on Sophonisba treats her as a
+      The site's view of Sophonisba treats her as a
       substantive political actor in the dynastic-diplomatic
       mode the Carthaginian state used routinely.
 
@@ -163,7 +163,7 @@ points_of_difference:
           Masinissa with the impossibility of allowing
           Sophonisba to remain at large given her
           diplomatic-political weight, and forces the
-          impossible choice. The framing is dramatic and
+          impossible choice. The treatment is dramatic and
           moral — Scipio as Roman political necessity
           personified.
       - source_slug: appian-punica
@@ -177,12 +177,12 @@ points_of_difference:
         what_it_says: >
           Scipio's role preserved but less dramatized; the
           political negotiation is foregrounded over the
-          moral framing.
+          moral coloring.
     commentary: >
       The Livian dramatization of Scipio's role fits the
       broader Augustan-era taste for noble-Roman-virtue
-      narrative framing and should be read accordingly.
-      The Appian bureaucratic framing is more honest to the
+      narrative cast and should be read accordingly.
+      The Appian bureaucratic account is more honest to the
       actual political situation: Sophonisba's previous
       marriage to Syphax made her a known and significant
       diplomatic instrument, and Scipio's insistence on
@@ -206,7 +206,7 @@ points_of_difference:
       - source_slug: appian-punica
         what_it_says: >
           The poison is preserved; the reply is rendered
-          with less of the noble-tragic-mode framing, more
+          with less of the noble-tragic-mode coloring, more
           as straightforward acceptance of Masinissa's
           offered alternative.
       - source_slug: diodorus-library
@@ -249,7 +249,7 @@ points_of_difference:
           political calculation within the broader
           Carthaginian-Numidian alignment crisis.
     commentary: >
-      The two framings produce different historical figures.
+      The two accounts produce different historical figures.
       The Livian tragic-noble Sophonisba fits Roman
       historiographical convention and has dominated modern
       reception. The Diodoran politically-active Sophonisba
@@ -276,8 +276,8 @@ working_reconstruction: >
   Numidian alignment), Masinissa's choice of poison as
   alternative to surrender, her death. The points where
   modern reconstruction has to make source-critical choices
-  are: (a) the agency framing of the marriage, where the
-  Diodoran coordinated-political-decision reading is
+  are: (a) the agency question on the marriage, where the
+  Diodoran coordinated-political-decision account is
   preferable to the Livian spontaneous-capture-response
   reading; (b) the framing of Scipio's role, where the
   Appian bureaucratic-routine framing is more honest than
@@ -289,18 +289,18 @@ working_reconstruction: >
   The deeper methodological point is that Sophonisba is one
   of the very rare named women the surviving literary
   tradition preserves with substantial agency, and the
-  framings the tradition imposes on her are visible because
+  readings the tradition imposes on her are visible because
   the sources disagree. Livy gives her the noble-tragic
   treatment; Diodorus preserves a more politically substantive
   version; Appian a more bureaucratically rendered one. The
   modern reading should read the politically substantive
   Sophonisba forward, not the noble-tragic one — both
-  because the political situation supports the reading and
-  because the noble-tragic mode is precisely the framing
+  because the political situation supports the account and
+  because the noble-tragic mode is precisely the reading
   Roman historiography routinely imposed on the elite women
   it could not erase from the record. The site's
   [women-and-family theme](/themes/women-and-family) treats
-  the broader question of how the surviving record's framings
+  the broader question of how the surviving record's readings
   shape what we can know about Punic women's lives.
 
 related_takes: []

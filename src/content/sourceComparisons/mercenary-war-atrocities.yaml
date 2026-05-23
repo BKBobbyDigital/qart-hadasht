@@ -12,7 +12,7 @@ summary: >
   the trapped mercenary force at the Saw — are the most
   ideologically charged episodes the surviving sources preserve
   about Carthaginian military violence. Polybius (1.65–88) is
-  the dominant source by an order of magnitude and his framing
+  the dominant source by an order of magnitude and his reading
   is doing extreme rhetorical work: pro-Hamilcar, anti-mercenary-
   leader, and committed to a "Punic faithlessness" trope that
   the Roman-constitutional argument of his sixth book depends
@@ -20,9 +20,9 @@ summary: >
   Appian *Iberica* and *Hannibalica* offer brief overlapping
   material with different emphases. Modern source-critical work,
   particularly Hoyos's *Truceless War* (2007), has demonstrated
-  that the Polybian framing of atrocity as Carthaginian-or-
+  that the Polybian account of atrocity as Carthaginian-or-
   Barcid character defect is the principal methodological
-  problem in reading these episodes, and that the conditions-
+  problem in interpreting these episodes, and that the conditions-
   driven reading the site develops in its
   [editorial take on Mercenary War atrocity](/editorialTakes/mercenary-war-atrocity-structural)
   is more honest to the surviving record.
@@ -32,11 +32,11 @@ source_passages:
     passage_ref: "1.65–88"
     paraphrase: >
       Polybius is the principal — for many episodes the only —
-      source on the war's events and framings. He presents the
+      source on the war's events with different emphases. He presents the
       conflict as a uniquely savage breakdown of all
       conventional rules of warfare, attributable to the moral
       character of the mercenary leadership rather than to the
-      structural conditions of fiscal exhaustion and broken
+      underlying conditions of fiscal exhaustion and broken
       demobilization. The atrocities he describes include:
       Spendius's escaped-slave status, his fear of extradition
       to Rome under the FPW treaty terms, and his consequent
@@ -51,7 +51,7 @@ source_passages:
       of Spendius and a number of his colleagues outside
       Tunis, and his use of the elephants at the engagement
       Polybius calls "the Saw" (the entrapment and destruction
-      of a mercenary force in a defile). The Polybian framing
+      of a mercenary force in a defile). The Polybian account
       throughout treats Hamilcar's violence as institutionally
       controlled response and mercenary violence as breakdown
       of any moral order — a contrast the rhetorical structure
@@ -67,7 +67,7 @@ source_passages:
       argumentative need. He also writes in the long tradition
       that began with Fabius Pictor of presenting Hamilcar
       Barca positively as the founder of the Barcid line that
-      produced Hannibal — a framing that requires the
+      produced Hannibal — a frame that requires the
       mercenary leadership to bear the moral weight of the
       war's violence.
   - source: diodorus-library
@@ -79,8 +79,8 @@ source_passages:
       the major events Polybius preserves (the rebellion's
       outbreak, the field campaigns, the Hamilcar restoration)
       but differs from Polybius in several details and
-      framings. He gives less rhetorical weight to the
-      character-of-the-leadership framing; preserves variant
+      readings. He gives less rhetorical weight to the
+      character-of-the-leadership account; preserves variant
       traditions on the killing of Hannibal son of Gisco that
       shift the attribution of agency; gives a different
       figure for the size of Hamilcar's relief force; and
@@ -95,7 +95,7 @@ source_passages:
       earlier Greek sources, some of which (notably Philinus
       and Sosylus, the Greek historians sympathetic to
       Carthage) Polybius dismisses. The surviving fragments
-      sometimes preserve the more pro-Carthaginian framings
+      sometimes preserve more pro-Carthaginian framings
       that those underlying sources may have offered, and
       they are particularly valuable for that reason despite
       their fragmentary state.
@@ -109,7 +109,7 @@ source_passages:
       additional detail on Hamilcar's subsequent Iberian
       project — treating the recovery from the Mercenary War
       as the founding moment of the Barcid Iberian state.
-      His framing of the war is somewhat more neutral on
+      His account of the war is somewhat more neutral on
       the question of mercenary-leader moral character than
       Polybius's; he treats the conflict more as a structural
       consequence of the FPW indemnity than as a moral
@@ -124,7 +124,7 @@ source_passages:
       witness.
 
 points_of_difference:
-  - topic: The framing of mercenary-leader moral character
+  - topic: The account of mercenary-leader moral character
     positions:
       - source_slug: polybius-histories
         what_it_says: >
@@ -141,9 +141,9 @@ points_of_difference:
       - source_slug: diodorus-library
         what_it_says: >
           The leaders are named and their backgrounds noted,
-          but the moralizing framing is substantially lighter.
+          but the moralizing rhetoric is substantially lighter.
           The escalation toward atrocity is presented more as
-          the structural product of the conditions (broken
+          the direct product of the conditions (broken
           pay, blocked extraction, blocked negotiation) than
           as the moral character of the leaders.
       - source_slug: appian-punica
@@ -153,21 +153,21 @@ points_of_difference:
           indemnity and Carthaginian fiscal exhaustion than
           as a moral-character drama.
     commentary: >
-      The Polybian moral-character framing of the leadership
+      The Polybian moral-character account of the leadership
       is the principal source-critical issue in modern
       reading. Spendius's escaped-slave status is real and
       well-attested (the Polybian narrative requires it for
       his specific motive to foreclose negotiation), but
       treating Mathos's Libyan background as moral character
-      reproduces the metropolitan-Carthaginian framing of
+      reproduces the metropolitan-Carthaginian view of
       subject-population identity. Hoyos's
-      [conditions-driven reading](/sources/hoyos-truceless-war-2007)
+      [conditions-driven account](/sources/hoyos-truceless-war-2007)
       and Rawlings's
       [methodological pushback](/sources/rawlings-hannibal-cannibal-2007)
       against the Polybian over-attribution of structural
       Hellenistic warfare to specifically Carthaginian
       character defect together establish the methodological
-      framework. The Diodoran and Appian framings are
+      framework. The Diodoran and Appian accounts are
       preferable as starting points, with Polybius's specific
       details retained where they are independently
       defensible.
@@ -190,7 +190,7 @@ points_of_difference:
           a different tradition. The specific circumstances
           of the prisoner's capture and the period of his
           captivity are described slightly differently. The
-          ritual framing of the killing is less developed.
+          ritual presentation of the killing is less developed.
     commentary: >
       The killing of the Carthaginian prisoner is well
       attested; the Polybian dramatic framing of the manner
@@ -201,7 +201,7 @@ points_of_difference:
       methodologically: the killing of prisoners during the
       destruction of a defeated army was a routine feature
       of ancient warfare on both sides of the Mediterranean,
-      and the Polybian framing of it as uniquely Punic-
+      and the Polybian account of it as uniquely Punic-
       mercenary atrocity is the rhetorical move the modern
       reader should be alert to.
 
@@ -225,7 +225,7 @@ points_of_difference:
           mercenary atrocities than Polybius's contrast
           structure allows.
     commentary: >
-      The asymmetry of Polybian framing — mercenary violence
+      The asymmetry of the Polybian account — mercenary violence
       as moral breakdown, Hamilcar violence as institutional
       justice — is the principal Polybian rhetorical move
       modern source-critical work has had to disentangle.
@@ -234,7 +234,7 @@ points_of_difference:
       morally different from the mercenary violence being
       condemned. The Diodoran framing of the violence as
       symmetric is more honest to the surviving evidence.
-      Hoyos's reading explicitly makes this point.
+      Hoyos's analysis explicitly makes this point.
 
   - topic: The "Saw" and the final destruction of the mercenary force
     positions:
@@ -254,8 +254,8 @@ points_of_difference:
         what_it_says: >
           The episode is preserved but the cannibalism
           element is treated more briefly and with less
-          rhetorical weight. Diodorus's framing emphasizes
-          the structural consequences (the inevitability of
+          rhetorical weight. Diodorus's reading emphasizes
+          the underlying consequences (the inevitability of
           such breakdown in protracted siege/blockade
           conditions) rather than the moral one.
     commentary: >
@@ -269,7 +269,7 @@ points_of_difference:
       have produced cannibalism repeatedly across recorded
       history; the surviving sources are consistent that
       conditions in the defile were extreme) but the
-      Polybian framing of it as moral climax — Punic-
+      Polybian account of it as moral climax — Punic-
       mercenary degradation reaching its terminal point —
       is the rhetorical move that needs disentangling. The
       site treats the conditions-driven reading as honest
@@ -278,7 +278,7 @@ points_of_difference:
 
 working_reconstruction: >
   The Mercenary War atrocities are the canonical case study in
-  modern source-critical work on the Greco-Roman framing of
+  modern source-critical work on the Greco-Roman reading of
   Carthaginian military violence. The substantive shape of the
   war's events is well attested: the demobilization breakdown
   in the immediate post-FPW months, the escalation as both
@@ -286,31 +286,31 @@ working_reconstruction: >
   both sides, the institutional violence Hamilcar deployed in
   the war's closing stages. The methodological question is not
   whether atrocities occurred — they clearly did — but how the
-  Polybian framing of those atrocities reflects the
+  Polybian account of those atrocities reflects the
   argumentative needs of his sixth-book Roman-constitutional
   argument rather than the historical situation.
 
   The site's working reading: the war's violence was a
-  structural product of fiscal exhaustion, blocked
+  direct product of fiscal exhaustion, blocked
   demobilization, and the consequent escalation pattern that
   any prolonged ancient Mediterranean siege-and-blockade
   conflict would produce. The leadership of both sides made
   specific choices within that structural pressure (Spendius's
   motivated escalation, Mathos's particular hostility,
   Hamilcar's institutionally-framed reprisal), but the
-  structural conditions were the principal driver. The Polybian
+  underlying conditions were the principal driver. The Polybian
   contrast between "mercenary moral breakdown" and "Carthaginian
   institutional response" is a rhetorical construction; the
-  Diodoran and Appian framings, with their lighter moralizing
+  Diodoran and Appian readings, with their lighter moralizing
   weight, are the better starting points for modern
   reconstruction. Where Polybius preserves specific event
   detail not in the other sources, modern reading should
-  retain the detail while discounting the framing.
+  retain the detail while discounting the reading.
 
   The Mercenary War atrocity question is also one of the
   places the site's broader methodological discipline — read
   the Polybian-and-Latin moralizing against the grain;
-  reconstruct what happened from the structural conditions
+  reconstruct what happened from the underlying conditions
   and the cross-source agreements; treat the rhetorical
   excess as evidence of the source's argumentative needs
   rather than of what happened — has the clearest payoff. The
@@ -318,7 +318,7 @@ working_reconstruction: >
   on the Antiochus episode, on the destruction of 146.
   Mercenary War atrocities are where the disciplines were
   first developed by modern specialists and where they are
-  most clearly load-bearing.
+  most clearly central.
 
 related_takes:
   - mercenary-war-atrocity-structural

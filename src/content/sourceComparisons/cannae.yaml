@@ -3,7 +3,7 @@ title: "Cannae across the ancient sources"
 subject_event: battle-of-cannae
 summary: >
   The Battle of Cannae (2 August 216 BCE) is preserved in four
-  substantial ancient sources of varying date, framing, and
+  substantial ancient sources of varying date, perspective, and
   reliability: Polybius, writing roughly seventy years after the
   event with access to Roman participant families and (through
   Massinissa's court) to Punic memory; Livy, writing two
@@ -12,7 +12,7 @@ summary: >
   embellishment throughout; Appian, writing in the second
   century CE and preserving variant traditions; and Plutarch,
   whose *Life of Fabius Maximus* preserves the political-strategic
-  framing of Cannae from the Roman senatorial perspective. The
+  reading of Cannae from the Roman senatorial perspective. The
   sources broadly agree on the shape of the battle — the
   Carthaginian crescent, the double envelopment, the catastrophic
   Roman casualties — and disagree on numbers, on the alternating-
@@ -58,7 +58,7 @@ source_passages:
       battle. He had Roman participant family access (Aemilius
       Paullus's grandson was his patron, Scipio Aemilianus), and
       through Massinissa's court he had Punic memory access for
-      the Barcid side. His military-analytical framing reflects
+      the Barcid side. His military-analytical reading reflects
       his own background as a Hellenistic field officer.
   - source: livy-auc
     passage_ref: "22.44–50, 22.51"
@@ -79,7 +79,7 @@ source_passages:
       centurion (Cn. Lentulus in Livy's version) finds him
       wounded and offers him his horse to escape; Paullus refuses
       and dies on the field. Livy gives Roman dead as 47,000 plus
-      19,300 captured — substantively different totals from
+      19,300 captured — meaningfully different totals from
       Polybius's 70,000, with the Livian figure breaking down by
       category. The famous Maharbal exchange — "you know how to
       win a victory, Hannibal, but not how to use one" — appears
@@ -123,7 +123,7 @@ source_passages:
       Plutarch's account, embedded in the *Life of Fabius
       Maximus*, treats Cannae from the Roman political-strategic
       perspective rather than the tactical one. He preserves the
-      framing of Fabius's vindication: the cautious "delayer"
+      reading of Fabius's vindication: the cautious "delayer"
       strategy that the Roman political class had repudiated in
       Varro's election was decisively vindicated by Cannae's
       catastrophe, and Fabius returned to political prominence
@@ -193,22 +193,22 @@ points_of_difference:
         what_it_says: >
           The consular alternation system is institutionally
           normal and presented without strong moralizing
-          framing. Varro held command on the day; Paullus had
+          reading. Varro held command on the day; Paullus had
           counseled against engagement.
       - source_slug: livy-auc
         what_it_says: >
           The alternation system is presented in considerable
           political-moral detail, with Varro as the impetuous
           popularis who pushed for battle against senatorial
-          caution. The framing makes Cannae as much about
+          caution. The reading makes Cannae as much about
           Roman class politics as about Hannibal's tactics.
     commentary: >
-      The Livian framing of Varro as a popularis politician
+      The Livian reading of Varro as a popularis politician
       pressing against senatorial caution is consistent with
       what we know of Varro's broader political profile from
       other sources, but the moralizing weight Livy puts on
       it is a Late Republican / Augustan retrospective
-      framing rather than a 216 BCE political reality. The
+      reading rather than a 216 BCE political reality. The
       institutional alternation system was real; the moral-
       political reading of it is Livian elaboration.
 
@@ -217,7 +217,7 @@ points_of_difference:
       - source_slug: polybius-histories
         what_it_says: >
           Paullus dies on the field, briefly and without
-          extended dramatic framing.
+          extended dramatic reading.
       - source_slug: livy-auc
         what_it_says: >
           A centurion named Cn. Lentulus finds Paullus
@@ -308,8 +308,8 @@ working_reconstruction: >
   aftermath, with three substantive source-critical adjustments
   the site makes to the conventional account.
 
-  First, the Polybian military-analytical framing is the
-  load-bearing source. His access to participant memory, his
+  First, the Polybian military-analytical reading is the
+  central source. His access to participant memory, his
   background as a Hellenistic field officer giving him the
   tactical vocabulary to describe what happened, and his
   closeness in time make him the principal authority on the
@@ -347,11 +347,11 @@ working_reconstruction: >
   response to extreme crisis. Its preservation in the
   Cannae source tradition is one of the strongest pieces of
   evidence for the methodological point that the Greco-Roman
-  literary framing of Carthaginian religious practice as
+  literary reading of Carthaginian religious practice as
   distinctively barbaric papers over Roman parallels the same
   sources treat as ritually unremarkable. Polybius's relative
   silence on this dimension is itself worth noting: his
-  Roman-constitutional framing of the war's broader meaning
+  Roman-constitutional reading of the war's broader meaning
   does not pause to examine the religious dimension of the
   Roman response, which fits his general pattern of
   treating Roman religious practice as background rather
