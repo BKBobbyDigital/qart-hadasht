@@ -2,8 +2,8 @@
 title: Treaties and diplomacy
 scope: diplomacy
 summary: >
-  Carthage's treaty history with Rome — eight agreements from
-  509 BCE through 201 BCE — is the principal documented arc
+  Carthage's treaty history with Rome, eight agreements from
+  509 BCE through 201 BCE, is the principal documented arc
   of formal interstate relations in the western Mediterranean
   before the Roman imperial period. The sequence runs from
   the early cooperative-commercial framework, through the
@@ -100,8 +100,8 @@ was delivered by the Roman embassy at Carthage in the famous
 "toga episode": the spokesman folded his toga and offered
 war or peace, and the Carthaginian senate replied, "shake
 out whichever pleases you." That ended the diplomatic phase
-of the SPW outbreak. The pre-war sequence — Saguntum, the
-Roman embassies, the Carthaginian responses — is treated
+of the SPW outbreak. The pre-war sequence (Saguntum, the
+Roman embassies, the Carthaginian responses) is treated
 under the
 [Hannibal-as-integrated-Punic-Hellenistic-figure framing](/editorialTakes/carthage-as-cultural-integrator).
 
@@ -149,8 +149,8 @@ treaty texts.
 Etruscan powers. The Carthaginian-Etruscan alliance produced
 the victory over the Phocaean Greeks at
 [Alalia](/events/battle-of-alalia) around 535 BCE. The
-[Pyrgi Tablets](/artifacts/pyrgi-tablets) — bilingual
-Etruscan-Punic inscriptions — survive as direct material
+[Pyrgi Tablets](/artifacts/pyrgi-tablets), bilingual
+Etruscan-Punic inscriptions, survive as direct material
 evidence of the relationship, even though the broader
 treaty framework does not.
 

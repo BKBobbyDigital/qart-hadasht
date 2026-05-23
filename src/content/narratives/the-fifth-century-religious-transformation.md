@@ -6,8 +6,8 @@ thesis: >
   from Magonid dominance to oligarchic republic, Carthage went
   through a parallel religious transformation that produced
   the developed Punic pantheon of the Punic-Wars period. The
-  goddess [Tanit](/deities/tanit) — rare to absent in the
-  pre-5th-century inscriptional record — emerges in the
+  goddess [Tanit](/deities/tanit), rare to absent in the
+  pre-5th-century inscriptional record, emerges in the
   inscriptional formula by the late 5th century, becomes
   co-equal with [Baal Hammon](/deities/baal-hammon) in the
   votive opening, and by c. 400 BCE has come to dominate the
@@ -39,8 +39,8 @@ last_revised: "2026-05-12"
 
 The fifth century BCE is the period across which the
 Carthaginian religious world took its mature shape. The
-goddess [Tanit](/deities/tanit) — virtually invisible in the
-inscriptional record of the earlier centuries — emerges across
+goddess [Tanit](/deities/tanit), virtually invisible in the
+inscriptional record of the earlier centuries, emerges across
 this period as the principal female deity of the Punic-cultural
 sphere, paired with [Baal Hammon](/deities/baal-hammon) in the
 votive formula and by the close of the period preceding him in
@@ -104,8 +104,8 @@ Baal at Carthage are dated to roughly the late fifth century
 BCE. The exact terminus is contested; some scholars place the
 first attestations in the early fourth century, others as
 early as c. 450 BCE. What is not contested is that by c. 400
-BCE the formula *l rbt l Tnt Pn Bʿl wlʾdn l Bʿl Ḥmn* — "to
-Lady Tanit Face of Baal and to Lord Baal Hammon" — has become
+BCE the formula *l rbt l Tnt Pn Bʿl wlʾdn l Bʿl Ḥmn*, "to
+Lady Tanit Face of Baal and to Lord Baal Hammon", has become
 the standard opening of Tophet stelae at Carthage. Tanit
 appears in the formula in the first position, named before
 the male god, with the epithet *Pene Baal* ("Face of Baal")
@@ -310,8 +310,8 @@ with Tanit named first. The Tophet operating at sustained
 high intensity across the Carthaginian sphere and the broader
 colonial network. The broader pantheon stabilized into the
 proportions the inscriptional record will continue to
-document. The popular religious landscape — household Bes
-amulets, terracotta figurines, domestic shrines — continuing
+document. The popular religious landscape (household Bes
+amulets, terracotta figurines, domestic shrines) continuing
 without disruption.
 
 What had changed was the principal divine pairing the city
@@ -330,9 +330,9 @@ the city's political end.
 
 The political-constitutional arc and the religious arc together
 constitute the two principal developments of the fifth century
-at Carthage. The third — the commercial and territorial
+at Carthage. The third, the commercial and territorial
 consolidation that produced the Punic agricultural and
-mercantile empire — runs across the same period and gets its
+mercantile empire, runs across the same period and gets its
 own treatment in the relationship with the Phoenician
 homeland under Persian rule. The three arcs together are
 what the modern reader needs to recover the period the

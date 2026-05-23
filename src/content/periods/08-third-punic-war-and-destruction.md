@@ -4,8 +4,8 @@ start_year: -150
 end_year: -146
 summary: >
   The four-year crisis from the 150 BCE Carthaginian expedition
-  against Masinissa — the treaty violation Rome would convert into
-  legal pretext for war — through the 149 declaration with its
+  against Masinissa, the treaty violation Rome would convert into
+  legal pretext for war, through the 149 declaration with its
   designed-impossible demand sequence, the three-year siege under
   initially-failing Roman commanders, the eventual transfer of
   command to Scipio Aemilianus, and the spring 146 BCE assault that
@@ -103,8 +103,8 @@ the site's
 reading: Roman strategic objectives in 149 BCE were settled before
 the war began, and the demands were the diplomatic-procedural
 instrument that converted decision into action. The reading is
-inferred — the surviving sources preserve the demands without
-explicitly framing them as a designed trap — but the structural
+inferred, the surviving sources preserve the demands without
+explicitly framing them as a designed trap, but the structural
 pattern is the principal evidence.
 
 ## The siege and the destruction

@@ -2,17 +2,16 @@
 title: "The Mercenary War leaders: Spendius, Mathos, Autaritus"
 scope: biography
 thesis: >
-  The three rebel commanders Polybius foregrounds — Spendius
+  The three rebel commanders Polybius foregrounds (Spendius
   the escaped Campanian slave, Mathos the Libyan, and
-  Autaritus the Gallic-contingent leader — led the Mercenary
+  Autaritus the Gallic-contingent leader) led the Mercenary
   War (241–237 BCE) together, and reading them as a unit
   rather than as separate biographical fragments brings the
   shape of the rebellion into focus. Each man led a different
   part of the coalition: Spendius the multi-ethnic mercenary
   contingents, Mathos the Libyan adherence, Autaritus the
   Gauls. The three worked because they could coordinate in
-  shared languages and because Spendius's particular position
-  — an escaped Roman slave with no safe surrender — kept the
+  shared languages and because Spendius's particular position, an escaped Roman slave with no safe surrender, kept the
   coalition's leadership locked into the war past the points
   where the others might have taken terms. Polybius frames
   the rebellion as a barbaric mass; the leadership pattern
@@ -45,9 +44,9 @@ The [Mercenary War](/events/mercenary-war) of 241–237 BCE
 was not a single uprising. It was a coalition of separate
 movements with overlapping but not identical grievances.
 The mercenary contingents Carthage had brought back from
-Sicily — under Gisco, the demobilization officer (a
+Sicily (under Gisco, the demobilization officer (a
 different figure from the later
-[Hasdrubal Gisco](/people/hasdrubal-gisco)) — carried a
+[Hasdrubal Gisco](/people/hasdrubal-gisco))) carried a
 pay dispute that the Carthaginian treasury, exhausted by
 the war indemnity to Rome, could not settle promptly. The
 Libyan African populations who lived under Carthaginian
@@ -62,9 +61,9 @@ Each group had its own leadership. Pulling all three
 together into a coordinated rebellion is what made the
 Mercenary War the most dangerous threat Carthage faced
 before 149 BCE. The three commanders Polybius
-foregrounds — [Spendius](/people/spendius),
+foregrounds ([Spendius](/people/spendius),
 [Mathos](/people/mathos), and
-[Autaritus](/people/autaritus) — match those three groups.
+[Autaritus](/people/autaritus)) match those three groups.
 Other names appear at lower resolution; Zarzas is one, and
 Naravas fought on the rebel side before defecting to
 Hamilcar in 238. But Spendius, Mathos, and Autaritus are

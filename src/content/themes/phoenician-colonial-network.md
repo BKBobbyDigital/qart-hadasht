@@ -199,9 +199,9 @@ trading posts running deep into the Iberian interior to
 access the silver sources directly. The Carthaginian
 African *chora* would become the network's largest inland
 extension under Carthaginian administration. Other
-extensions — the Lixus river-valley inland reach, the
+extensions (the Lixus river-valley inland reach, the
 Sicilian western interior under Punic control, the
-Sardinian agricultural zones — were more limited.
+Sardinian agricultural zones) were more limited.
 
 The network was not territorial in the way later Greek and
 Roman colonial systems would become. It was a system of
@@ -484,9 +484,7 @@ The 2025
 addresses the demographic question directly with the largest
 ancient-DNA sample yet assembled for Punic studies. The
 principal finding is that individuals buried at western Punic
-sites across the seventh through second centuries BCE —
-Carthage, Tharros, Motya, Kerkouane, Cadiz, Ibiza, among others
-— carry predominantly Sicilian, Aegean, and North African
+sites across the seventh through second centuries BCE (Carthage, Tharros, Motya, Kerkouane, Cadiz, Ibiza, among others) carry predominantly Sicilian, Aegean, and North African
 genetic ancestry, with only minimal Levantine component. The
 Phoenician-homeland comparative samples carry the expected
 Levantine profile, demonstrating that the methodology can
@@ -500,8 +498,8 @@ cultural achievement carried by genetically heterogeneous
 populations, not a Tyrian-population transplant maintained in
 isolation.
 
-The two findings — the Tyrian foundation, the Mediterranean
-demographic profile — are compatible rather than competing.
+The two findings (the Tyrian foundation, the Mediterranean
+demographic profile) are compatible rather than competing.
 Founding events transmit culture; demographic continuity does
 not require genetic continuity. Cultural identity is
 transmitted by socialization, language, ritual, and

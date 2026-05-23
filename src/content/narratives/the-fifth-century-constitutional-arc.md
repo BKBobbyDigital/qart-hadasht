@@ -14,9 +14,9 @@ thesis: >
   the senate, and the popular assembly emerged or consolidated
   across the period as the institutional checks on aristocratic
   command that the city would carry through the entire Punic-Wars
-  era. The mechanism of the shift — gradual evolution through
+  era. The mechanism of the shift (gradual evolution through
   repeated political contest, or a discrete reform moment we
-  cannot recover — is the principal open methodological question
+  cannot recover) is the principal open methodological question
   the period leaves us.
 primary_entities:
   - type: institution
@@ -51,9 +51,9 @@ through the catastrophe at
 from the political record. But it ceased to dominate. By the
 time Aristotle is writing roughly a century and a half later,
 the Carthaginian polity he describes is a developed mixed
-constitution — kings (his term for the suffetes), an aristocratic
+constitution (kings (his term for the suffetes), an aristocratic
 senate, a popular assembly, the elders and the Hundred and Four
-court — with institutional checks on commanders' authority that
+court) with institutional checks on commanders' authority that
 the Magonid period did not have. The shift happened across the
 seventy years between Himera and the Sicilian revival of 410
 BCE, but the specific mechanism is among the least directly
@@ -88,8 +88,8 @@ senior command.
 Family-dominance of command in this pattern carried with it
 family-dominance of senior civic office. The
 [suffeteship](/institutions/suffetes) existed as a civic-political
-office from a much earlier point — possibly from the earliest
-period of independent Carthaginian government — but in the
+office from a much earlier point, possibly from the earliest
+period of independent Carthaginian government, but in the
 Magonid century the senior suffetes were drawn from the family
 along with the senior commanders. Major religious offices, the
 priesthoods of the principal deities, and the diplomatic
@@ -114,10 +114,10 @@ treat the Magonid pattern as a stable institutional reality.
 
 The [catastrophic defeat at Himera](/events/battle-of-himera)
 in 480 BCE removed the dynasty's military legitimacy in a single
-afternoon. The army Hamilcar son of Hanno commanded — substantial
+afternoon. The army Hamilcar son of Hanno commanded (substantial
 by any ancient Mediterranean standard, drawn from Libyan
 conscripts and Iberian, Sardinian, Ligurian, and Italian
-contingents — was destroyed. Herodotus's account (7.165–167)
+contingents) was destroyed. Herodotus's account (7.165–167)
 preserves the famous moment of Hamilcar's suicide on the funeral
 pyre, framed as an act of religious obligation. Diodorus's
 account (11.20–24) gives a more military-tactical version of the
@@ -129,8 +129,8 @@ self-legitimating military authority was gone.
 
 What the immediate political response at Carthage looked like is
 not preserved in any surviving source. The dynasty did not
-collapse outright — Magonid commanders reappear in the surviving
-record across subsequent decades — but the unbroken pattern of
+collapse outright, Magonid commanders reappear in the surviving
+record across subsequent decades, but the unbroken pattern of
 family-monopolized command did. By the time Hannibal son of
 Gisco leads the Carthaginian return to Sicily in 410 BCE,
 Carthaginian military command is being drawn from a wider
@@ -174,9 +174,9 @@ commanders' post-campaign accountability. Justin (19.2)
 preserves a tradition that the court was established "after
 Mago's sons" and that it functioned specifically as a check on
 the family-monopolization pattern. The dating is contested in
-modern scholarship — some readings place the foundation
+modern scholarship (some readings place the foundation
 immediately after Himera, others spread it across the fifth
-century — but the institutional point is consistent: a
+century) but the institutional point is consistent: a
 specifically anti-Magonid institutional innovation, designed to
 prevent any single family from dominating military command
 indefinitely.
@@ -288,8 +288,8 @@ authority has shifted from dynasty to constitution, from family-
 monopolization of office to institutional dispersion, from
 quasi-monarchical command to constitutional checks. The
 constitutional Carthage Polybius describes a century and a half
-later — the polity capable of conducting three Punic Wars
-against Rome with substantial institutional resilience — was
+later, the polity capable of conducting three Punic Wars
+against Rome with substantial institutional resilience, was
 built in this period.
 
 The fifth century also produced the religious transformation

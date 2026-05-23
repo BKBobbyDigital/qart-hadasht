@@ -15,8 +15,8 @@ thesis: >
   *Politics* 2.11 is real and significant, but the
   conventional Greco-Roman comparative treatment collapses the
   suffeteship into a lineage it does not belong to. The
-  office's most distinctive feature — separation from military
-  command across the fourth and third centuries BCE — is a
+  office's most distinctive feature, separation from military
+  command across the fourth and third centuries BCE, is a
   Phoenician constitutional achievement in its own right, not
   a stage on the way to other models. The arc that runs from
   the late sixth-century transition out of the early
@@ -72,8 +72,8 @@ treats the suffeteship's particular arc.
 The Carthaginian institutional record opens with the early
 monarchical period. The surviving Greek tradition (chiefly
 Justin and the sources derived from him) preserves a list of
-early Carthaginian *basileis* — kings in the monarchic rather
-than later-suffete sense — including
+early Carthaginian *basileis*, kings in the monarchic rather
+than later-suffete sense, including
 [Malchus](/people/malchus) of the late sixth century BCE and
 the founder of the Magonid dynasty,
 [Mago I](/people/mago-i), of roughly the same period. The
@@ -164,9 +164,8 @@ royal offices combined both. The Carthaginian system did not.
 A man could hold the suffeteship without ever commanding
 troops, and could command troops without holding the
 suffeteship. The major Carthaginian commanders of the third
-century — [Hamilcar Barca](/people/hamilcar-barca), the
-Barcid brothers, [Hasdrubal Gisco](/people/hasdrubal-gisco) —
-held military command as a distinct office from the civil
+century ([Hamilcar Barca](/people/hamilcar-barca), the
+Barcid brothers, [Hasdrubal Gisco](/people/hasdrubal-gisco)) held military command as a distinct office from the civil
 suffeteship. [Hannibal](/people/hannibal-barca) returned to
 Carthage in 196 BCE and was elected to the suffeteship as a
 civil office, distinct from his prior military career; the
@@ -237,9 +236,9 @@ held; Hannibal's personal position in Carthage did not.
 
 ## The destruction and the end of the metropolitan office
 
-The metropolitan Carthaginian suffeteship — the office at
+The metropolitan Carthaginian suffeteship (the office at
 Carthage itself, in its continuous institutional form across
-roughly four centuries — ended with the destruction of
+roughly four centuries) ended with the destruction of
 Carthage in 146 BCE. The city's institutional life ended
 with the polity; the metropolitan attestation closes with
 the destruction. The site does not read this as the end of

@@ -102,7 +102,7 @@ and threw herself into the flames. The episode is dramatic
 and shaped by the Greco-Roman tradition's interest in
 noble-suicide *exempla* (parallel patterns appear in many
 siege-narrative endings). The historicizable kernel is that
-*someone* — the commander's wife and children — died at the
+*someone*, the commander's wife and children, died at the
 Eshmun temple at the climax of the assault; the speech and
 the framing are literary embellishment of varying weight.
 
@@ -144,8 +144,7 @@ The pattern in the literary record is consistent. Women are
 named when their marriages, suicides, or political acts
 intersect directly with major events the Greek and Roman
 tradition cared about. Women whose lives did not intersect
-with those events — that is, almost all Carthaginian women —
-are unnamed in the surviving literary tradition.
+with those events (that is, almost all Carthaginian women) are unnamed in the surviving literary tradition.
 
 ## The inscriptional record
 
@@ -186,8 +185,8 @@ particularly in connection with the Tanit cult. Female
 priestess titles also appear in other Phoenician-Punic
 contexts (the Astarte priesthood at Sidon, parallel offices
 in the colonial network). What the priestess actually did in
-cult practice is largely unrecoverable — we have titles, not
-duties — but the existence of formal female religious office
+cult practice is largely unrecoverable (we have titles, not
+duties) but the existence of formal female religious office
 is firmly documented.
 
 Matronymics. A minority of Punic inscriptions include
@@ -263,9 +262,9 @@ frames their actions through male-political narrative.
 
 The non-elite marriage and family picture is essentially not
 recoverable from the surviving evidence. Ordinary Punic
-marriage practice — whom people married, at what age, with
+marriage practice (whom people married, at what age, with
 what social and economic implications, what the legal and
-customary framework was — survives only in fragmentary
+customary framework was) survives only in fragmentary
 inferences from the inscriptional record (theophoric naming
 patterns, funerary commemoration patterns) and from
 comparative Phoenician homeland evidence (the Marseille and
@@ -309,8 +308,8 @@ than directly attested in surviving Punic material.
 Household religion. Bes amulets, terracotta female figurines,
 and household-shrine objects across surviving Carthaginian
 domestic contexts attest substantial domestic religious
-activity. Bes specifically — an Egyptian-origin deity
-adopted into Phoenician-Punic household religion — was
+activity. Bes specifically, an Egyptian-origin deity
+adopted into Phoenician-Punic household religion, was
 particularly associated with protection of women during
 childbirth and of children generally, and Bes amulets are
 one of the most-recovered single artifact classes from
@@ -319,9 +318,8 @@ Carthaginian women's lives is where the archaeological
 record is densest, even though individual women remain
 unnamed within it.
 
-The internal power relations of Carthaginian households —
-who made decisions, how labor was divided, what the customary
-framework of authority looked like — are not directly
+The internal power relations of Carthaginian households (who made decisions, how labor was divided, what the customary
+framework of authority looked like) are not directly
 recoverable. Comparative Phoenician-Mediterranean material
 suggests broad patterns typical of the wider region, but
 specifically Carthaginian practice is largely inferred
@@ -392,8 +390,8 @@ or for patriarchal-oppression projection but as the honest
 reality of working with a source-survival pattern that does
 not preserve what we would want to know.
 
-This is not unique to Carthage — it is the standard ancient
-Mediterranean source-survival situation — but the
+This is not unique to Carthage, it is the standard ancient
+Mediterranean source-survival situation, but the
 Carthaginian case is particularly severe because so much of
 the broader Punic literary tradition is lost. The
 [open question on the evidence gap](/openQuestions/punic-womens-lives-evidence-gap)
@@ -418,8 +416,8 @@ post-146 period. The inscriptional corpus
 primary-evidence base, with the Tophet stelae being the
 single largest body of direct evidence.
 
-Recent specialist work — the broader research direction on
+Recent specialist work (the broader research direction on
 gender and Phoenician studies, the Spanish-school
 prosopographical-archaeological work, Bonnet's continuing
-contributions — has expanded what is recoverable but has
+contributions) has expanded what is recoverable but has
 not fundamentally altered the evidence-base limits.

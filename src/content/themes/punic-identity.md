@@ -152,8 +152,7 @@ inscriptional record could not address directly: the genetic
 composition of the populations that carried Punic identity
 across the centuries. Genome-wide data from ~210 individuals
 across Phoenician and Punic burial contexts shows that
-individuals buried at western Punic sites — Carthage included —
-carry predominantly Sicilian, Aegean, and North African genetic
+individuals buried at western Punic sites, Carthage included, carry predominantly Sicilian, Aegean, and North African genetic
 ancestry, with only minimal Levantine component. The
 Phoenician-homeland comparative samples carry the expected
 Levantine profile.

@@ -53,9 +53,7 @@ as appendages to it, intersected the Punic cultural sphere
 through deep mutual exchange across centuries, and continued
 through the Roman period as the substrate of what would
 become Berber identity in the medieval and modern Maghreb.
-The cultural synthesis they produced with Punic civilization
-— what this narrative treats as the Numidian-Punic interface
-— is one of the richest cultural arcs in the post-
+The cultural synthesis they produced with Punic civilization, what this narrative treats as the Numidian-Punic interface, is one of the richest cultural arcs in the post-
 Carthaginian Mediterranean and the principal vehicle through
 which Punic religious and intellectual forms survived into
 late antiquity.
@@ -96,8 +94,8 @@ population supplied the agricultural production, military
 recruitment, and labor base the Carthaginian state depended
 on; Carthage in return provided the protection-and-order
 framework within which the Libyan rural economy operated.
-The relationship was unequal — the Libyans paid tribute and
-Carthage extracted it — but it was not pure subjugation.
+The relationship was unequal, the Libyans paid tribute and
+Carthage extracted it, but it was not pure subjugation.
 The Libyan population kept its internal political and
 cultural identity across centuries of Carthaginian
 administration, and the cultural exchange the relationship
@@ -105,9 +103,9 @@ produced is the principal source of the Numidian-Punic
 interface that subsequently developed.
 
 The principal organized Libyan-Berber polities of the Punic
-period — the [Massylii](/groups/massylii), the
+period (the [Massylii](/groups/massylii), the
 [Masaesyli](/groups/masaesyli), the further-western
-Mauretanian groups — were the parts of the Libyan substrate
+Mauretanian groups) were the parts of the Libyan substrate
 that organized into royal-confederation polities rather
 than remaining in directly-administered tribute status.
 These polities were Libyan-Berber in their populations and
@@ -186,8 +184,8 @@ evidence that the interface produced something genuinely
 new rather than residual influence flowing in one direction.
 
 Other Numidian royal monumental sites (the El Khroub
-mausoleum near Cirta, the Medracen royal tomb — a much
-earlier Numidian royal monument — various royal-cult
+mausoleum near Cirta, the Medracen royal tomb, a much
+earlier Numidian royal monument, various royal-cult
 sanctuary remains) document the broader pattern. The
 Numidian elite from at least the third century BCE invested
 in monumental architecture that drew on Punic and
@@ -235,10 +233,10 @@ capital, and elaborated the Numidian-Punic elite religious
 and architectural traditions the surviving evidence
 documents.
 
-Masinissa's own bilingual cultural formation — Punic and
+Masinissa's own bilingual cultural formation (Punic and
 Numidian languages, Carthaginian and Massylii political
 networks, the Iberian-service phase that exposed him to
-Hellenistic military and court forms — produced a political
+Hellenistic military and court forms) produced a political
 style that was synthetic. His royal cult presented him
 through Hellenistic conventions (the deified-royal coinage
 iconography) while maintaining Punic religious and

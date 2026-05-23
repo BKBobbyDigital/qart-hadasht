@@ -9,9 +9,8 @@ summary: >
   naval system, and the war elephant as a tactical experiment
   Carthage adapted to its own conditions. The system was the
   most flexible military apparatus of its scale in the ancient
-  Mediterranean — capable of fielding armies in Iberia, Italy,
-  Sicily, and Africa simultaneously across the Punic Wars —
-  but it depended on external recruitment in ways the Roman
+  Mediterranean (capable of fielding armies in Iberia, Italy,
+  Sicily, and Africa simultaneously across the Punic Wars) but it depended on external recruitment in ways the Roman
   citizen-army model did not, and that dependence was its
   long-run weakness.
 primary_entities: []
@@ -22,8 +21,8 @@ referenced_claims: []
 last_revised: "2026-05-12"
 ---
 
-The standard Greco-Roman picture of Carthage's military — most
-influentially in Polybius 6.52 — is of a mercenary apparatus
+The standard Greco-Roman picture of Carthage's military, most
+influentially in Polybius 6.52, is of a mercenary apparatus
 inferior to Rome's citizen army. The picture is partly correct
 (Carthage's army did rely heavily on hired and allied troops)
 and partly misleading. It tells us as much about Polybius's
@@ -43,9 +42,9 @@ field armies in the Punic Wars period.
 Citizens. The citizen body in arms was small: perhaps four to
 six thousand men at full mobilization during the Second Punic
 War, drawn from the Carthaginian aristocratic and military
-classes. The [Sacred Band](/groups/sacred-band) — the elite
+classes. The [Sacred Band](/groups/sacred-band), the elite
 Carthaginian citizen infantry attested through the Sicilian
-Wars and the Mercenary War — was the most visible expression
+Wars and the Mercenary War, was the most visible expression
 of the tradition. Officers across the broader army came
 substantially from the citizen body. The aristocratic command
 tradition that runs through Hamilcar, Hannibal, Hasdrubal,

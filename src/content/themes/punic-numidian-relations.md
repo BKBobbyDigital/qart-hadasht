@@ -2,17 +2,16 @@
 title: Punic-Numidian relations
 scope: identity
 summary: >
-  The Numidian peoples of the African interior — the Massylii
+  The Numidian peoples of the African interior (the Massylii
   and Masaesyli confederations, with the smaller Libyan groups
-  around them — were Carthage's most continuous external
+  around them) were Carthage's most continuous external
   relationship across six centuries. The interface ran from
   the early tributary and military arrangements through the
   Punic Wars cavalry partnership to the post-201 BCE Masinissa
   expansion that produced the conditions for the Third Punic
-  War. The cultural synthesis the relationship generated —
-  Numidian-Punic religious practice, the Libyco-Punic
+  War. The cultural synthesis the relationship generated (Numidian-Punic religious practice, the Libyco-Punic
   monumental tradition, the persistence of Punic onomastic and
-  inscriptional habits well into the Roman period — is one of
+  inscriptional habits well into the Roman period) is one of
   the richest cultural arcs in the post-Carthaginian
   Mediterranean.
 primary_entities:
