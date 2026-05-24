@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FamilyTree from '../../components/FamilyTree.astro';
+import VersionStamp from '../../components/VersionStamp.astro';
+import type { FamilyTreeConfig } from '../../lib/familyTree';
+
+// Eagerly import every dynasty config under src/data/dynasties/*.ts.
+const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
+const dynastyConfigs: Record<string, FamilyTreeConfig> = {};
+for (const [path, mod] of Object.entries(dynastyModules)) {
+  const stem = path.split('/').pop()!.replace(/\.ts$/, '');
+  dynastyConfigs[stem] = (mod as any).default;
+}
+
+export async function getStaticPaths() {
+  const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
+  return Object.entries(dynastyModules).map(([path, mod]) => {
+    const stem = path.split('/').pop()!.replace(/\.ts$/, '');
+    return {
+      params: { slug: stem },
+      props: { config: (mod as any).default as FamilyTreeConfig, slug: stem },
+    };
+  });
+}
+
+const { config, slug } = Astro.props;
+---
+
+<BaseLayout title={config.title} description={config.subtitle}>
+  <article class="max-w-5xl mx-auto px-6 py-12">
+    <span hidden data-pagefind-filter="type:Dynasties" data-pagefind-meta="type:Dynasty"></span>
+
+    <p class="eyebrow mb-3">
+      Dynasty · <a href="/dynasties" class="text-tyrian-700 hover:underline">All dynasties</a>
+    </p>
+
+    <FamilyTree config={config} idPrefix={slug} />
+
+    <VersionStamp date="2026-05-12" filePath={`src/data/dynasties/${slug}.ts`} />
+  </article>
+</BaseLayout>

@@ -1,0 +1,202 @@
+---
+/**
+ * Dynasty / family-tree SVG renderer.
+ *
+ * Reads a FamilyTreeConfig (typed nodes + edges, with hand-placed
+ * coordinates) and renders the tree as a single SVG. Nodes render as
+ * boxes with label + optional role + optional dates, with color
+ * coding by category. Edges render as lines:
+ * solid for parent-child, dashed for marriage, dotted for sibling.
+ *
+ * Nodes with a `personSlug` render as clickable links to the
+ * corresponding person page; nodes without are plain rendered
+ * (useful for unnamed children, spouses without their own page).
+ */
+import type { FamilyTreeConfig, FamilyNode } from '../lib/familyTree';
+import { CATEGORY_COLORS } from '../lib/familyTree';
+
+interface Props {
+  config: FamilyTreeConfig;
+  idPrefix: string;
+}
+const { config, idPrefix } = Astro.props;
+const viewBox = config.viewBox ?? '0 0 800 500';
+
+const NODE_W = 130;
+const NODE_H = 50;
+
+function nodeBox(n: FamilyNode) {
+  return { x: n.x - NODE_W / 2, y: n.y - NODE_H / 2, w: NODE_W, h: NODE_H };
+}
+
+function colorFor(n: FamilyNode) {
+  return CATEGORY_COLORS[n.category ?? 'other'] ?? CATEGORY_COLORS.other;
+}
+
+// Compute edge path from one node to another with optional right-angle waypoint.
+function edgePath(fromN: FamilyNode, toN: FamilyNode, waypoint?: { x: number; y: number }): string {
+  const fb = nodeBox(fromN);
+  const tb = nodeBox(toN);
+  // Determine connection points based on relative position.
+  let sx = fromN.x, sy = fromN.y, ex = toN.x, ey = toN.y;
+  // Vertical: prefer bottom of `from` to top of `to`.
+  if (toN.y > fromN.y + NODE_H) {
+    sy = fb.y + fb.h;
+    ey = tb.y;
+  } else if (toN.y < fromN.y - NODE_H) {
+    sy = fb.y;
+    ey = tb.y + tb.h;
+  }
+  // Horizontal: prefer side of `from` toward `to`.
+  if (toN.x > fromN.x + NODE_W) {
+    sx = fb.x + fb.w;
+    ex = tb.x;
+  } else if (toN.x < fromN.x - NODE_W) {
+    sx = fb.x;
+    ex = tb.x + tb.w;
+  }
+  if (waypoint) {
+    return `M ${sx} ${sy} L ${waypoint.x} ${sy} L ${waypoint.x} ${ey} L ${ex} ${ey}`;
+  }
+  // Default: orthogonal route via midpoint
+  const midY = (sy + ey) / 2;
+  return `M ${sx} ${sy} L ${sx} ${midY} L ${ex} ${midY} L ${ex} ${ey}`;
+}
+---
+
+<figure class="my-8">
+  <header class="mb-4">
+    <h2 class="font-serif text-2xl" style="border: none; padding: 0;">{config.title}</h2>
+    {config.subtitle && <p class="text-sm text-sand-700 mt-1">{config.subtitle}</p>}
+    {config.period && <p class="text-xs uppercase tracking-wider text-tyrian-700 font-medium mt-2">{config.period}</p>}
+  </header>
+
+  <div class="border border-sand-300 rounded-lg bg-sand-50 p-4 overflow-x-auto">
+    <svg viewBox={viewBox} xmlns="http://www.w3.org/2000/svg" class="w-full h-auto" role="img" aria-label={`Family tree of the ${config.title}`}>
+      <defs>
+        <marker id={`${idPrefix}-arrow`} markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L6,3 z" fill="#5b0f31"/>
+        </marker>
+      </defs>
+
+      {/* Edges first so they sit behind the nodes */}
+      {config.edges.map((e) => {
+        const fromN = config.nodes[e.from];
+        const toN = config.nodes[e.to];
+        if (!fromN || !toN) return null;
+        const stroke = e.kind === 'marriage' ? '#5b0f31' : e.kind === 'sibling' ? '#57534e' : '#1a0410';
+        const dasharray = e.kind === 'marriage' ? '4,3' : e.kind === 'sibling' ? '2,3' : undefined;
+        return (
+          <path
+            d={edgePath(fromN, toN, e.waypoint)}
+            fill="none"
+            stroke={stroke}
+            stroke-width={e.kind === 'parent' ? 1.5 : 1.2}
+            stroke-dasharray={dasharray}
+          />
+        );
+      })}
+
+      {/* Nodes */}
+      {Object.entries(config.nodes).map(([id, n]) => {
+        const box = nodeBox(n);
+        const c = colorFor(n);
+        const opacity = n.context ? 0.55 : 1;
+        const labelHref = n.personSlug ? `/people/${n.personSlug}` : null;
+        return (
+          <g opacity={opacity}>
+            {labelHref ? (
+              <a href={labelHref}>
+                <rect
+                  x={box.x}
+                  y={box.y}
+                  width={box.w}
+                  height={box.h}
+                  rx="4"
+                  fill={c.fill}
+                  stroke={c.stroke}
+                  stroke-width={n.uncertain ? 1.5 : 1.5}
+                  stroke-dasharray={n.uncertain ? '3,2' : undefined}
+                  class="cursor-pointer hover:fill-[#faf6ec] transition-colors"
+                />
+                <text
+                  x={n.x}
+                  y={n.y - (n.role || n.dates ? 6 : 0)}
+                  text-anchor="middle"
+                  font-size="13"
+                  fill={c.text}
+                  font-weight="600"
+                  font-family="'Cormorant Garamond', serif"
+                  class="pointer-events-none"
+                >{n.label}</text>
+                {n.role && (
+                  <text x={n.x} y={n.y + 9} text-anchor="middle" font-size="9" fill={c.text} font-style="italic" class="pointer-events-none">{n.role}</text>
+                )}
+                {n.dates && (
+                  <text x={n.x} y={n.y + (n.role ? 21 : 12)} text-anchor="middle" font-size="9" fill={c.text} class="pointer-events-none">{n.dates}</text>
+                )}
+              </a>
+            ) : (
+              <>
+                <rect
+                  x={box.x}
+                  y={box.y}
+                  width={box.w}
+                  height={box.h}
+                  rx="4"
+                  fill={c.fill}
+                  stroke={c.stroke}
+                  stroke-width="1.5"
+                  stroke-dasharray={n.uncertain ? '3,2' : undefined}
+                />
+                <text
+                  x={n.x}
+                  y={n.y - (n.role || n.dates ? 6 : 0)}
+                  text-anchor="middle"
+                  font-size="13"
+                  fill={c.text}
+                  font-weight="600"
+                  font-family="'Cormorant Garamond', serif"
+                  font-style={n.uncertain ? 'italic' : undefined}
+                >{n.label}</text>
+                {n.role && (
+                  <text x={n.x} y={n.y + 9} text-anchor="middle" font-size="9" fill={c.text} font-style="italic">{n.role}</text>
+                )}
+                {n.dates && (
+                  <text x={n.x} y={n.y + (n.role ? 21 : 12)} text-anchor="middle" font-size="9" fill={c.text}>{n.dates}</text>
+                )}
+              </>
+            )}
+          </g>
+        );
+      })}
+    </svg>
+  </div>
+
+  {/* Legend + line-style key */}
+  <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-[11px] text-sand-700">
+    {(config.legend ?? []).map((l) => {
+      const c = CATEGORY_COLORS[l.category] ?? CATEGORY_COLORS.other;
+      return (
+        <span class="flex items-center gap-1.5">
+          <span class="inline-block w-3 h-3 rounded-sm" style={`background:${c.fill};border:1.5px solid ${c.stroke};`}></span>
+          {l.label}
+        </span>
+      );
+    })}
+    <span class="flex items-center gap-1.5">
+      <svg width="22" height="6"><line x1="0" y1="3" x2="22" y2="3" stroke="#1a0410" stroke-width="1.5"/></svg>
+      Parent–child
+    </span>
+    <span class="flex items-center gap-1.5">
+      <svg width="22" height="6"><line x1="0" y1="3" x2="22" y2="3" stroke="#5b0f31" stroke-width="1.5" stroke-dasharray="4,3"/></svg>
+      Marriage
+    </span>
+    <span class="flex items-center gap-1.5">
+      <svg width="22" height="6"><line x1="0" y1="3" x2="22" y2="3" stroke="#57534e" stroke-width="1.2" stroke-dasharray="2,3"/></svg>
+      Sibling
+    </span>
+  </div>
+
+  <figcaption class="mt-3 text-xs text-sand-700 italic">{config.caption}</figcaption>
+</figure>
