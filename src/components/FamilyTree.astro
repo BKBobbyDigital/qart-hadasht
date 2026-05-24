@@ -22,8 +22,10 @@ interface Props {
 const { config, idPrefix } = Astro.props;
 const viewBox = config.viewBox ?? '0 0 800 500';
 
-const NODE_W = 130;
-const NODE_H = 50;
+const NODE_W = 150;
+const NODE_H = 70;
+/** Approx max characters per role/date line at font-size 9 inside NODE_W. */
+const ROLE_MAX_CHARS = 26;
 
 function nodeBox(n: FamilyNode) {
   return { x: n.x - NODE_W / 2, y: n.y - NODE_H / 2, w: NODE_W, h: NODE_H };
@@ -31,6 +33,31 @@ function nodeBox(n: FamilyNode) {
 
 function colorFor(n: FamilyNode) {
   return CATEGORY_COLORS[n.category ?? 'other'] ?? CATEGORY_COLORS.other;
+}
+
+/** Word-wrap a string into at most 2 lines, respecting a max chars per line. */
+function wrap(text: string, maxChars: number = ROLE_MAX_CHARS): string[] {
+  const words = text.split(/\s+/);
+  const lines: string[] = [];
+  let current = '';
+  for (const w of words) {
+    const candidate = current ? `${current} ${w}` : w;
+    if (candidate.length <= maxChars) {
+      current = candidate;
+    } else {
+      if (current) lines.push(current);
+      current = w;
+    }
+  }
+  if (current) lines.push(current);
+  // Cap at 2 lines; merge any overflow into the second line with an ellipsis.
+  if (lines.length > 2) {
+    const overflow = lines.slice(1).join(' ');
+    lines.length = 1;
+    const second = overflow.length > maxChars ? overflow.slice(0, maxChars - 1) + '…' : overflow;
+    lines.push(second);
+  }
+  return lines;
 }
 
 // Compute edge path from one node to another with optional right-angle waypoint.
@@ -103,68 +130,85 @@ function edgePath(fromN: FamilyNode, toN: FamilyNode, waypoint?: { x: number; y:
         const c = colorFor(n);
         const opacity = n.context ? 0.55 : 1;
         const labelHref = n.personSlug ? `/people/${n.personSlug}` : null;
+
+        // Compute text-line layout. Name on top, role on up to two lines,
+        // dates at bottom. Lines centered vertically within the box.
+        const roleLines = n.role ? wrap(n.role) : [];
+        const hasDates = !!n.dates;
+        const NAME_H = 13;
+        const LINE_H = 11;
+        const lineCount = 1 + roleLines.length + (hasDates ? 1 : 0);
+        const totalH = NAME_H + (lineCount - 1) * LINE_H;
+        const topY = n.y - totalH / 2 + NAME_H * 0.85;
+        const positions = {
+          name: topY,
+          role: roleLines.map((_, i) => topY + NAME_H * 0.35 + (i + 1) * LINE_H),
+          dates: hasDates ? topY + NAME_H * 0.35 + (roleLines.length + 1) * LINE_H : null,
+        };
+
+        const rectEl = (
+          <rect
+            x={box.x}
+            y={box.y}
+            width={box.w}
+            height={box.h}
+            rx="4"
+            fill={c.fill}
+            stroke={c.stroke}
+            stroke-width="1.5"
+            stroke-dasharray={n.uncertain ? '3,2' : undefined}
+            class={labelHref ? 'cursor-pointer hover:fill-[#faf6ec] transition-colors' : ''}
+          />
+        );
+
+        const textEls = (
+          <>
+            <text
+              x={n.x}
+              y={positions.name}
+              text-anchor="middle"
+              font-size={NAME_H}
+              fill={c.text}
+              font-weight="600"
+              font-family="'Cormorant Garamond', serif"
+              font-style={!labelHref && n.uncertain ? 'italic' : undefined}
+              class={labelHref ? 'pointer-events-none' : ''}
+            >{n.label}</text>
+            {roleLines.map((line, i) => (
+              <text
+                x={n.x}
+                y={positions.role[i]}
+                text-anchor="middle"
+                font-size="9"
+                fill={c.text}
+                font-style="italic"
+                class={labelHref ? 'pointer-events-none' : ''}
+              >{line}</text>
+            ))}
+            {positions.dates !== null && (
+              <text
+                x={n.x}
+                y={positions.dates}
+                text-anchor="middle"
+                font-size="9"
+                fill={c.text}
+                class={labelHref ? 'pointer-events-none' : ''}
+              >{n.dates}</text>
+            )}
+          </>
+        );
+
         return (
           <g opacity={opacity}>
             {labelHref ? (
               <a href={labelHref}>
-                <rect
-                  x={box.x}
-                  y={box.y}
-                  width={box.w}
-                  height={box.h}
-                  rx="4"
-                  fill={c.fill}
-                  stroke={c.stroke}
-                  stroke-width={n.uncertain ? 1.5 : 1.5}
-                  stroke-dasharray={n.uncertain ? '3,2' : undefined}
-                  class="cursor-pointer hover:fill-[#faf6ec] transition-colors"
-                />
-                <text
-                  x={n.x}
-                  y={n.y - (n.role || n.dates ? 6 : 0)}
-                  text-anchor="middle"
-                  font-size="13"
-                  fill={c.text}
-                  font-weight="600"
-                  font-family="'Cormorant Garamond', serif"
-                  class="pointer-events-none"
-                >{n.label}</text>
-                {n.role && (
-                  <text x={n.x} y={n.y + 9} text-anchor="middle" font-size="9" fill={c.text} font-style="italic" class="pointer-events-none">{n.role}</text>
-                )}
-                {n.dates && (
-                  <text x={n.x} y={n.y + (n.role ? 21 : 12)} text-anchor="middle" font-size="9" fill={c.text} class="pointer-events-none">{n.dates}</text>
-                )}
+                {rectEl}
+                {textEls}
               </a>
             ) : (
               <>
-                <rect
-                  x={box.x}
-                  y={box.y}
-                  width={box.w}
-                  height={box.h}
-                  rx="4"
-                  fill={c.fill}
-                  stroke={c.stroke}
-                  stroke-width="1.5"
-                  stroke-dasharray={n.uncertain ? '3,2' : undefined}
-                />
-                <text
-                  x={n.x}
-                  y={n.y - (n.role || n.dates ? 6 : 0)}
-                  text-anchor="middle"
-                  font-size="13"
-                  fill={c.text}
-                  font-weight="600"
-                  font-family="'Cormorant Garamond', serif"
-                  font-style={n.uncertain ? 'italic' : undefined}
-                >{n.label}</text>
-                {n.role && (
-                  <text x={n.x} y={n.y + 9} text-anchor="middle" font-size="9" fill={c.text} font-style="italic">{n.role}</text>
-                )}
-                {n.dates && (
-                  <text x={n.x} y={n.y + (n.role ? 21 : 12)} text-anchor="middle" font-size="9" fill={c.text}>{n.dates}</text>
-                )}
+                {rectEl}
+                {textEls}
               </>
             )}
           </g>
