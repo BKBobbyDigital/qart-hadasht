@@ -88,6 +88,19 @@ const sourcesCited = (
 
 // Auto-link registry
 const allPlaces = await getCollection('places');
+
+// Reverse lookup: which dynasty trees include this person?
+// Scan all configs under src/data/dynasties for a node with this person slug.
+import type { FamilyTreeConfig } from '../../lib/familyTree';
+const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
+type DynastyHit = { slug: string; title: string };
+const memberOfDynasties: DynastyHit[] = [];
+for (const [path, mod] of Object.entries(dynastyModules)) {
+  const stem = path.split('/').pop()!.replace(/\.ts$/, '');
+  const cfg = (mod as any).default as FamilyTreeConfig;
+  const found = Object.values(cfg.nodes ?? {}).some((n: any) => n.personSlug === person.id);
+  if (found) memberOfDynasties.push({ slug: stem, title: cfg.title });
+}
 const allInstitutions = await getCollection('institutions');
 const allGroups = await getCollection('groups');
 const allThemes = await getCollection('themes');
@@ -179,6 +192,12 @@ const personInfoboxRows: InfoboxRow[] = [
   ...(spouseValue ? [{ label: spouseLinks.length === 1 ? 'Spouse' : 'Spouses', value: spouseValue } as InfoboxRow] : []),
   ...(childrenValue ? [{ label: childLinks.length === 1 ? 'Child' : 'Children', value: childrenValue } as InfoboxRow] : []),
   ...(officesValue ? [{ label: 'Offices held', value: officesValue } as InfoboxRow] : []),
+  ...(memberOfDynasties.length > 0
+    ? [{
+        label: memberOfDynasties.length === 1 ? 'Dynasty' : 'Dynasties',
+        value: memberOfDynasties.map((d) => ({ text: d.title, href: `/dynasties/${d.slug}` } as InfoboxLink)),
+      } as InfoboxRow]
+    : []),
   {
     label: 'Appears in',
     value: referencingEvents.length > 0 ? `${referencingEvents.length} event${referencingEvents.length === 1 ? '' : 's'}` : null,

@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import FamilyTree from '../../components/FamilyTree.astro';
 import VersionStamp from '../../components/VersionStamp.astro';
 import type { FamilyTreeConfig } from '../../lib/familyTree';
+import { getCollection } from 'astro:content';
 
 // Eagerly import every dynasty config under src/data/dynasties/*.ts.
 const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
@@ -23,7 +24,11 @@ export async function getStaticPaths() {
   });
 }
 
-const { config, slug } = Astro.props;
+const { config, slug } = Astro.props as { config: FamilyTreeConfig; slug: string };
+
+// If a matching group page exists with the same slug, link to it.
+const allGroups = await getCollection('groups');
+const matchingGroup: any = allGroups.find((g) => g.id === slug) ?? null;
 ---
 
 <BaseLayout title={config.title} description={config.subtitle}>
@@ -35,6 +40,17 @@ const { config, slug } = Astro.props;
     </p>
 
     <FamilyTree config={config} idPrefix={slug} />
+
+    {matchingGroup && (
+      <section class="mt-10 pt-6 border-t border-sand-300">
+        <p class="text-sm text-sand-700">
+          Read more about this family as a collective entity:{' '}
+          <a href={`/groups/${matchingGroup.id}`} class="text-tyrian-700 hover:underline font-serif">
+            {matchingGroup.data.name_display}
+          </a>
+        </p>
+      </section>
+    )}
 
     <VersionStamp date="2026-05-12" filePath={`src/data/dynasties/${slug}.ts`} />
   </article>

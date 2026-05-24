@@ -63,10 +63,24 @@ const typeLabelCap = typeLabel.charAt(0).toUpperCase() + typeLabel.slice(1);
 const activeText = formatDateRange(d.active_from, d.active_to);
 const activeQual = dateQualifier(d.active_from);
 
+// Does a dynasty config exist with this group's slug? If so, link it.
+import type { FamilyTreeConfig as _FTC } from '../../lib/familyTree';
+const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
+const matchingDynasty = (() => {
+  for (const [path, mod] of Object.entries(dynastyModules)) {
+    const stem = path.split('/').pop()!.replace(/\.ts$/, '');
+    if (stem === group.id) return { slug: stem, title: (mod as any).default.title as string };
+  }
+  return null;
+})();
+
 const groupInfoboxRows: InfoboxRow[] = [
   { label: 'Type', value: typeLabelCap },
   { label: 'Affiliation', value: d.polity_affiliation ?? null },
   { label: 'Active', value: activeText, qualifier: activeQual },
+  ...(matchingDynasty
+    ? [{ label: 'Family tree', value: [{ text: matchingDynasty.title, href: `/dynasties/${matchingDynasty.slug}` }] } as InfoboxRow]
+    : []),
 ];
 ---
 
