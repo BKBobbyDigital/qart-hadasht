@@ -195,7 +195,7 @@ const personInfoboxRows: InfoboxRow[] = [
   ...(memberOfDynasties.length > 0
     ? [{
         label: memberOfDynasties.length === 1 ? 'Dynasty' : 'Dynasties',
-        value: memberOfDynasties.map((d) => ({ text: d.title, href: `/dynasties/${d.slug}` } as InfoboxLink)),
+        value: memberOfDynasties.map((d) => ({ text: d.title, href: `/dynasties/${d.slug}`, icon: 'family-tree' as const } as InfoboxLink)),
       } as InfoboxRow]
     : []),
   {

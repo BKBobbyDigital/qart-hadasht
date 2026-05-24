@@ -1,11 +1,22 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import type { FamilyTreeConfig } from '../../lib/familyTree';
 
 const narratives = await getCollection('narratives');
 const openQuestions = await getCollection('openQuestions');
 const editorialTakes = await getCollection('editorialTakes');
 const sourceComparisons = await getCollection('sourceComparisons');
+
+// Dynasty trees live as static configs under src/data/dynasties/*.ts
+const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
+type DynastyEntry = { slug: string; config: FamilyTreeConfig };
+const sortedDynasties: DynastyEntry[] = Object.entries(dynastyModules)
+  .map(([path, mod]) => {
+    const stem = path.split('/').pop()!.replace(/\.ts$/, '');
+    return { slug: stem, config: (mod as any).default as FamilyTreeConfig };
+  })
+  .sort((a, b) => a.config.title.localeCompare(b.config.title));
 
 // Group narratives by scope
 const byScope: Record<string, typeof narratives> = {
@@ -77,6 +88,9 @@ tocItems.push({ label: 'Editorial takes', anchor: 'editorial-takes', count: sort
 tocItems.push({ label: 'Open questions', anchor: 'open-questions', count: sortedQuestions.length });
 if (sortedComparisons.length > 0) {
   tocItems.push({ label: 'Source comparisons', anchor: 'source-comparisons', count: sortedComparisons.length });
+}
+if (sortedDynasties.length > 0) {
+  tocItems.push({ label: 'Dynasties', anchor: 'dynasties', count: sortedDynasties.length });
 }
 ---
 
@@ -188,6 +202,39 @@ if (sortedComparisons.length > 0) {
                 {c.data.summary && (
                   <p class="text-sm text-ink-900 mt-2">{c.data.summary.slice(0, 240)}{c.data.summary.length > 240 ? '...' : ''}</p>
                 )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {sortedDynasties.length > 0 && (
+      <section id="dynasties" class="mb-12 scroll-mt-24">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Dynasties</h2>
+        <p class="text-sm text-sand-700 mb-4">
+          Family-tree readings of the aristocratic and royal
+          houses that shaped Carthaginian history. Each tree
+          shows the generations as a connected diagram with
+          clickable nodes leading to the individual person pages.
+        </p>
+        <ul class="space-y-3">
+          {sortedDynasties.map(({ slug, config }) => (
+            <li>
+              <a href={`/dynasties/${slug}`} class="flex items-start gap-3 p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
+                <svg width="22" height="22" viewBox="0 0 22 22" class="flex-shrink-0 mt-1 text-tyrian-700" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <circle cx="11" cy="3.5" r="2"/>
+                  <circle cx="4" cy="14" r="2"/>
+                  <circle cx="11" cy="14" r="2"/>
+                  <circle cx="18" cy="14" r="2"/>
+                  <path d="M 11 5.5 L 11 9 M 4 12 L 4 9 L 18 9 L 18 12 M 11 9 L 11 12"/>
+                </svg>
+                <div class="min-w-0">
+                  <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{config.title}</h3>
+                  {config.period && <p class="text-xs uppercase tracking-wider text-sand-700 mt-1 font-medium">{config.period}</p>}
+                  <p class="text-sm text-ink-900 mt-2">{config.subtitle}</p>
+                  <p class="text-xs text-sand-700 mt-2">{Object.keys(config.nodes).length} individuals</p>
+                </div>
               </a>
             </li>
           ))}

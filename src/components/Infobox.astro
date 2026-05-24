@@ -33,6 +33,8 @@ export type InfoboxRow = {
 export type InfoboxLink = {
   text: string;
   href?: string;
+  /** Optional small inline icon, rendered before the link text. */
+  icon?: 'family-tree';
 };
 
 interface Props {
@@ -94,6 +96,15 @@ const isEmpty = (v: InfoboxRow['value']) =>
                 {(row.value as InfoboxLink[]).map((link, i) => (
                   <>
                     {i > 0 && <span class="text-sand-700">, </span>}
+                    {link.icon === 'family-tree' && (
+                      <svg width="13" height="13" viewBox="0 0 22 22" class="inline-block align-text-bottom mr-1 text-tyrian-700" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <circle cx="11" cy="3.5" r="2"/>
+                        <circle cx="4" cy="14" r="2"/>
+                        <circle cx="11" cy="14" r="2"/>
+                        <circle cx="18" cy="14" r="2"/>
+                        <path d="M 11 5.5 L 11 9 M 4 12 L 4 9 L 18 9 L 18 12 M 11 9 L 11 12"/>
+                      </svg>
+                    )}
                     {link.href ? (
                       <a href={link.href} class="text-tyrian-700 hover:underline">{link.text}</a>
                     ) : (

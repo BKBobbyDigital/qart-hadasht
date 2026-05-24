@@ -79,7 +79,7 @@ const groupInfoboxRows: InfoboxRow[] = [
   { label: 'Affiliation', value: d.polity_affiliation ?? null },
   { label: 'Active', value: activeText, qualifier: activeQual },
   ...(matchingDynasty
-    ? [{ label: 'Family tree', value: [{ text: matchingDynasty.title, href: `/dynasties/${matchingDynasty.slug}` }] } as InfoboxRow]
+    ? [{ label: 'Family tree', value: [{ text: matchingDynasty.title, href: `/dynasties/${matchingDynasty.slug}`, icon: 'family-tree' as const }] } as InfoboxRow]
     : []),
 ];
 ---
