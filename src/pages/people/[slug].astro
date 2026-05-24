@@ -8,6 +8,7 @@ import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
+import type { FamilyTreeConfig } from '../../lib/familyTree';
 
 export async function getStaticPaths() {
   const people = await getCollection('people');
@@ -91,7 +92,6 @@ const allPlaces = await getCollection('places');
 
 // Reverse lookup: which dynasty trees include this person?
 // Scan all configs under src/data/dynasties for a node with this person slug.
-import type { FamilyTreeConfig } from '../../lib/familyTree';
 const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
 type DynastyHit = { slug: string; title: string };
 const memberOfDynasties: DynastyHit[] = [];

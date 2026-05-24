@@ -7,6 +7,7 @@ import MaterialEvidence from '../../components/MaterialEvidence.astro';
 import { formatDateRange, dateQualifier } from '../../lib/historicalDate';
 import { autolink, buildLinkRegistry, renderSummaryHtml } from '../../lib/autolink';
 import { getCollection } from 'astro:content';
+import type { FamilyTreeConfig as _FTC } from '../../lib/familyTree';
 
 export async function getStaticPaths() {
   const groups = await getCollection('groups');
@@ -64,7 +65,6 @@ const activeText = formatDateRange(d.active_from, d.active_to);
 const activeQual = dateQualifier(d.active_from);
 
 // Does a dynasty config exist with this group's slug? If so, link it.
-import type { FamilyTreeConfig as _FTC } from '../../lib/familyTree';
 const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
 const matchingDynasty = (() => {
   for (const [path, mod] of Object.entries(dynastyModules)) {
