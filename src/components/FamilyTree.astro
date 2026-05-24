@@ -60,11 +60,26 @@ function wrap(text: string, maxChars: number = ROLE_MAX_CHARS): string[] {
   return lines;
 }
 
-// Compute edge path from one node to another with optional right-angle waypoint.
+// Compute edge path from one node to another, with optional waypoint
+// that routes the line around obstacles.
 function edgePath(fromN: FamilyNode, toN: FamilyNode, waypoint?: { x: number; y: number }): string {
   const fb = nodeBox(fromN);
   const tb = nodeBox(toN);
-  // Determine connection points based on relative position.
+
+  if (waypoint) {
+    // Explicit routing: enter at bottom-center of `from` (if to is below)
+    // or top-center (if to is above), exit at the corresponding side of `to`,
+    // bend via waypoint.x. Used for long-distance parent edges that must
+    // route around other rows.
+    const goingDown = toN.y > fromN.y;
+    const sx = fromN.x;
+    const sy = goingDown ? fb.y + fb.h : fb.y;
+    const ex = toN.x;
+    const ey = goingDown ? tb.y : tb.y + tb.h;
+    return `M ${sx} ${sy} L ${waypoint.x} ${sy} L ${waypoint.x} ${ey} L ${ex} ${ey}`;
+  }
+
+  // Auto routing: choose connection points based on relative position.
   let sx = fromN.x, sy = fromN.y, ex = toN.x, ey = toN.y;
   // Vertical: prefer bottom of `from` to top of `to`.
   if (toN.y > fromN.y + NODE_H) {
@@ -81,9 +96,6 @@ function edgePath(fromN: FamilyNode, toN: FamilyNode, waypoint?: { x: number; y:
   } else if (toN.x < fromN.x - NODE_W) {
     sx = fb.x;
     ex = tb.x + tb.w;
-  }
-  if (waypoint) {
-    return `M ${sx} ${sy} L ${waypoint.x} ${sy} L ${waypoint.x} ${ey} L ${ex} ${ey}`;
   }
   // Default: orthogonal route via midpoint
   const midY = (sy + ey) / 2;

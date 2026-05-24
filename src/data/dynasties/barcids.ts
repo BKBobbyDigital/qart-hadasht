@@ -90,23 +90,26 @@ const config: FamilyTreeConfig = {
     son_imilce: {
       label: "Son by Imilce",
       role: 'name not preserved',
-      x: 600, y: 500,
+      x: 480, y: 500,
       category: 'carthaginian',
       uncertain: true,
     },
   },
   edges: [
-    // Hamilcar → his children
+    // Hamilcar → his sons (auto-routing; sons sit in row 2)
     { from: 'hamilcar', to: 'mago', kind: 'parent' },
     { from: 'hamilcar', to: 'hasdrubal_barca', kind: 'parent' },
     { from: 'hamilcar', to: 'hannibal', kind: 'parent' },
-    { from: 'hamilcar', to: 'daughter_a', kind: 'parent' },
-    { from: 'hamilcar', to: 'daughter_b', kind: 'parent' },
+    // Hamilcar → his daughters: explicit waypoints route the lines around
+    // the sons' row by going far left / right of all row-2 boxes.
+    { from: 'hamilcar', to: 'daughter_a', kind: 'parent', waypoint: { x: 40, y: 0 } },
+    { from: 'hamilcar', to: 'daughter_b', kind: 'parent', waypoint: { x: 960, y: 0 } },
     // Marriages
     { from: 'hannibal', to: 'imilce', kind: 'marriage' },
     { from: 'daughter_a', to: 'hasdrubal_fair', kind: 'marriage' },
     { from: 'daughter_b', to: 'naravas', kind: 'marriage' },
-    // Hannibal → his son
+    // Hannibal → his son (placed at x=480, in the gap between hasdrubal_fair
+    // and daughter_b in row 3, so the line routes through empty space)
     { from: 'hannibal', to: 'son_imilce', kind: 'parent' },
   ],
   legend: [
