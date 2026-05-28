@@ -367,6 +367,15 @@ Key components in `src/components/`:
   and tap-backdrop-to-close. Currently used by seven event pages
   (Cannae, Trebia, Trasimene, Zama, Bagradas, Ilipa, Metaurus).
   Replaced the bespoke `CannaeDiagram.astro` from earlier work.
+- `FamilyTree.astro` — data-driven dynasty / family-tree renderer.
+  Reads a `FamilyTreeConfig` from `src/data/dynasties/<slug>.ts`
+  (types in `src/lib/familyTree.ts`) and renders the tree as a
+  single SVG. Nodes with a `personSlug` become clickable links to
+  the person page; uncertain nodes get dashed borders and italic
+  labels; context nodes get reduced opacity. Edges route
+  orthogonally with optional hand-placed waypoints. Solid =
+  parent, dashed = marriage, dotted = sibling. Currently
+  rendering three dynasties (Barcids, Massylii, Magonids).
 
 ### Sortable index tables
 
@@ -399,7 +408,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~680 pages** as of
+parked until the day version settles. The site is **~684 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -432,7 +441,7 @@ Plus a substantial follow-on: analytics, 404, PWA, period 07 split,
 places imagery expansion, artifact placeholder consistency.
 
 Headline numbers:
-- 680 pages indexed
+- 684 pages indexed
 - 38 of 56 places imaged; 38 of 41 artifacts imaged
 - 0 broken internal links; 0 accessibility findings on user-facing pages
 - Em-dash density 73% reduced from initial audit; AI-tic vocabulary
@@ -1064,6 +1073,95 @@ political development).
   war-atrocities). Em-dash density on the Phoenician-homeland
   narrative reduced via emdash-fix.mjs.
 
+### Dynasty / family-tree explorer (May 2026, commits 22b5b81 → 2d70e45)
+
+A new first-class section: family-tree readings of the
+aristocratic and royal houses that shaped Carthaginian history.
+Three dynasties ship in this stretch with the architecture
+generalized for future expansion.
+
+**Architecture.** Same patterns as HistoricalMap and
+BattleDiagram:
+
+- `src/lib/familyTree.ts` — type definitions
+  (`FamilyNode` with x/y position, category, optional
+  personSlug, uncertain/context flags; `FamilyEdge` with
+  parent/marriage/sibling kinds and optional waypoint;
+  `FamilyTreeConfig` wrapping nodes + edges + caption +
+  legend). `CATEGORY_COLORS` palette covers Carthaginian /
+  Numidian / Iberian / Roman / other (Greek added via
+  'other').
+- `src/components/FamilyTree.astro` — pure-SVG renderer.
+  Nodes: rounded rects with name + optional role + optional
+  dates; nodes with a `personSlug` become clickable links to
+  the person page. Wraps role text into up to two lines at
+  word boundaries (26-char target). Uncertain nodes get
+  dashed borders + italic labels; context nodes get reduced
+  opacity. Edges: orthogonal routing with optional
+  hand-placed waypoints. Solid = parent, dashed = marriage,
+  dotted = sibling.
+- `src/data/dynasties/<slug>.ts` — one config per dynasty.
+- `src/pages/dynasties/[slug].astro` + `index.astro` —
+  routes; the detail page auto-detects any matching group
+  page (slug-match) and adds a back-link.
+
+**Three dynasties shipped:**
+
+- `barcids` (c. 290–200 BCE) — Hamilcar, his three sons
+  (Hannibal, Hasdrubal, Mago), two unnamed daughters
+  (italicized as partially attested) with their husbands
+  (Hasdrubal the Fair, Naravas), Imilce, and Hannibal's
+  unnamed son. Long-distance Hamilcar→daughter edges use
+  explicit waypoints to route around the sons' row.
+- `massylii` (c. 230–148 BCE) — Gala, Masinissa, Sophonisba
+  (center), Syphax, Hasdrubal Gisco (Carthaginian context
+  node), and Masinissa's three sons (Micipsa, Gulussa,
+  Mastanabal). Sophonisba's two marriages render as
+  horizontal dashed lines from both sides.
+- `magonids` (c. 550–396 BCE) — five generations from Mago
+  I through Hamilcar Magonid (Himera commander), his
+  Syracusan wife (Herodotus 7.166), his daughter and her
+  marriage to Gisco, and the late-5th-century Sicilian
+  commanders. Uses a collapsed "intermediate generations"
+  node for the two reconstructed generations between Mago I
+  and Hamilcar Magonid; Himilco as context node off to the
+  side.
+
+**Discoverability wiring.** Bidirectional slug-match
+convention between `/dynasties/<slug>` and `/groups/<slug>`:
+
+- Person pages: reverse-lookup adds a "Dynasty" infobox row
+  (with the family-tree SVG icon) when the person appears as
+  a node in any dynasty config.
+- Group pages: when a dynasty config exists with the same
+  slug, the infobox gets a "Family tree" row.
+- Dynasty pages: when a matching group page exists, the
+  dynasty page closes with a "Read more about this family
+  as a collective entity" link.
+- `/people` index: new "Dynasties" section at the top
+  (above Peoples) with cards, plus jump-to nav pill.
+- Family-tree icon: small SVG (four nodes + connecting
+  lines) defined inline in three sizes (13px in infoboxes,
+  22px on synthesis-hub-style cards, 28px on the dynasties
+  index).
+
+**Smaller fixes in this stretch:**
+- Initial deploy failure (commits 22b5b81 → 50e0006) from
+  mid-frontmatter `import type` declarations; fixed by
+  moving all imports to the top of the frontmatter blocks.
+  Note for future: `astro check` passes mid-body imports
+  silently while esbuild rejects them. Pipe the full build
+  output rather than grepping just for "error".
+- FamilyTree text overflow (commit 3d0d0c5): NODE_W
+  130→150, NODE_H 50→70, added `wrap()` helper for two-line
+  role rendering, vertical text layout computed dynamically
+  from line count.
+- FamilyTree edge routing for long-distance parents
+  (commit 0a529d9): `edgePath()` refactored so when a
+  waypoint is provided the route uses explicit
+  bottom-center / top-center connection points rather than
+  the auto-adjusted side-edges.
+
 ---
 
 ## Outstanding work
@@ -1119,12 +1217,14 @@ not surface unsolicited.
    frame — possibly has overlap issues) but the review pass never
    happened — pick up there if returning.
 
-3. **Family tree / dynasty explorer** — SVG-rendered interactive
-   family trees for the Barcids (Hamilcar → Hannibal/Hasdrubal/
-   Mago + their generation and successors), the Magonid clan, the
-   Massylii royal house (Gala → Masinissa → his three sons), the
-   Cornelii Scipiones. Ancient prosopography is hard to follow in
-   prose; visual trees genuinely useful.
+3. **Family tree / dynasty explorer** — *three dynasties shipped*
+   (Barcids, Massylii, Magonids) via the data-driven `FamilyTree`
+   system. The Cornelii Scipiones (Roman side, for Punic-Wars
+   context) would be the natural fourth if returning to this
+   thread. The architecture handles arbitrary additions: one
+   typed config file per dynasty under `src/data/dynasties/`,
+   slug-match convention for bidirectional group ↔ dynasty
+   wiring, person infobox reverse-lookup automatic.
 
 4. **Punic inscriptional corpus interface** — searchable interface
    for the CIS/KAI corpus excerpts the site references — Punic
@@ -1278,7 +1378,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **680 pages**.
+output. As of the last CLAUDE.md refresh it was around **684 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
