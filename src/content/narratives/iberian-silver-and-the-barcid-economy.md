@@ -2,23 +2,19 @@
 title: Iberian silver and the Barcid economy
 scope: theme
 thesis: >
-  The Iberian silver mines that the
-  [Barcid family](/groups/barcids) developed across the
-  three decades between Hamilcar's arrival in 237 BCE and
-  Scipio's capture of [New Carthage](/places/carthago-nova)
-  in 209 BCE were the principal financial-strategic
-  achievement of the
-  [Barcid Iberian state](/narratives/the-barcid-iberian-state)
-  and the economic engine that produced the army that fought
-  the Second Punic War. The silver was extracted at industrial
-  scale from the Sierra Morena range and the mining district
-  around Cartagena, struck into the
-  [Barcid Iberian silver coinage](/artifacts/barcid-iberian-coinage)
-  at the New Carthage mint, and distributed as pay across the
-  multi-ethnic Carthaginian field force. The mining-and-mint
-  apparatus the Barcids built was the structural basis of
-  their military capacity; when Scipio took New Carthage in
-  209, he captured not just a city but the financial
+  The Iberian silver mines that the Barcid family developed
+  across the three decades between Hamilcar's arrival in 237
+  BCE and Scipio's capture of New Carthage in 209 BCE were
+  the principal financial achievement of the Barcid Iberian
+  state and the economic engine that produced the army that
+  fought the Second Punic War. The silver was extracted at
+  industrial scale from the Sierra Morena range and the
+  mining district around Cartagena, struck into Barcid Iberian
+  silver coinage at the New Carthage mint, and distributed as
+  pay across the multi-ethnic Carthaginian field force. The
+  mining-and-mint apparatus the Barcids built was the basis
+  of their military capacity; when Scipio took New Carthage
+  in 209, he captured not just a city but the financial
   infrastructure that had sustained Hannibal in Italy.
 primary_entities:
   - type: place
