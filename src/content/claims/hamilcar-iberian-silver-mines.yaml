@@ -3,11 +3,18 @@ statement: >
   The Carthaginian-controlled silver mines of southern Iberia
   (the Sierra Morena range and the area around modern
   Cartagena) produced substantial revenue during Hamilcar's
-  conquest. The Treaty of 201 indemnity paid down ahead of
-  schedule across the 190s BCE was substantially financed from
-  Iberian silver reserves accumulated during the Barcid
-  Iberian project.
+  conquest, restoring the Carthaginian fiscal position after
+  the losses of the First Punic War, the Mercenary War
+  indemnity, and the seizure of Sardinia.
 confidence: attested
+notes: >
+  What the Iberian silver did for Carthage's post-Zama
+  finances is a separate and weaker inference. Carthage lost
+  Iberia in 206 BCE; the indemnity payments of the 190s rested
+  on African revenues, which is what Hannibal's 196 BCE fiscal
+  investigation found could cover the schedule on their own.
+  Accumulated Barcid-era reserves may have contributed to the
+  early-payment offers, but no source states it.
 sources:
   - source: polybius-histories
     stance: supports

@@ -307,20 +307,22 @@ detail; what is reconstructible is that the system worked
 for fifteen years and stopped working when the New Carthage
 operation transferred to Roman administration.
 
-Third, it shaped the post-Zama settlement. The
+Third, its loss reframes the post-Zama recovery. The
 [treaty of 201 BCE](/events/treaty-of-201-bce) imposed a
 ten-thousand-talent indemnity on Carthage payable over
-fifty years; the indemnity was paid down on schedule and
-sometimes ahead of schedule, principally from silver
-reserves Carthage had accumulated during the Barcid period
-and from continuing commercial revenue in the
-[long peace](/periods/07-the-long-peace) that followed. The
-1932 Cato-style narrative that Carthage was economically
-exhausted by Zama and recovered only slowly is at variance
-with the actual fiscal record; the recovery was rapid and
-its rapidity depended on the silver-extractive infrastructure
-the Barcid project had built before the Roman seizure of
-its Iberian core.
+fifty years, and Carthage met the schedule and offered early
+payment, despite having lost the Iberian mines to Rome in
+206. Hannibal's fiscal investigation as suffete in 196 BCE
+found the indemnity payable from current revenues alone,
+which by then meant African agriculture and commerce.
+Whatever silver reserves survived from the Barcid period may
+have helped bridge the first years; no source says so. The
+familiar narrative that Carthage was economically exhausted
+by Zama is at variance with the actual fiscal record. The
+recovery was rapid, and its speed is a measure of how much
+productive capacity Carthage retained in Africa even after
+the silver-extractive arm of the Barcid economy had passed
+to Roman administration.
 
 ## What the surviving evidence cannot resolve
 
