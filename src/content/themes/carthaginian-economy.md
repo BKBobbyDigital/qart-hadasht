@@ -15,6 +15,7 @@ summary: >
   is imperfectly preserved.
 primary_entities: []
 related_themes:
+  - carthaginian-coinage
   - carthaginian-seafaring-and-trade
   - carthaginian-agriculture
   - slavery-and-labor
@@ -97,8 +98,10 @@ Carthaginian operation is imperfectly known.
 
 ## Coinage
 
-Carthage struck coinage from the late 5th century BCE
-onward, with three main currency systems operating in
+The coinage is treated in depth in the
+[Carthaginian coinage theme](/themes/carthaginian-coinage);
+in outline, Carthage struck coinage from the late 5th century
+BCE onward, with three main currency systems operating in
 different periods and contexts:
 
 Carthaginian Sicilian coinage. Late 5th to mid-3rd

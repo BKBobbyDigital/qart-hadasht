@@ -15,6 +15,7 @@ summary: >
   long-run weakness.
 primary_entities: []
 related_themes:
+  - carthaginian-coinage
   - carthaginian-governance
   - carthaginian-seafaring-and-trade
 referenced_claims: []

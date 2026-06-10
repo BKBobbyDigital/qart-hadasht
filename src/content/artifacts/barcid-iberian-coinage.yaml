@@ -34,6 +34,7 @@ principal_sources:
   - hoyos-hannibal-2003
   - macdonald-carthage-2015
 referenced_themes:
+  - carthaginian-coinage
   - carthaginian-economy
 image:
   src: /artifacts/barcid-iberian-shekel.jpg

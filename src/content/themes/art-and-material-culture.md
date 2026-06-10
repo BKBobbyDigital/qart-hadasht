@@ -14,6 +14,7 @@ summary: >
   and domestic decoration are less well-preserved.
 primary_entities: []
 related_themes:
+  - carthaginian-coinage
   - punic-religion
 referenced_claims: []
 last_revised: "2026-05-09"
