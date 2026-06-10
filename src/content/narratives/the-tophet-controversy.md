@@ -162,25 +162,45 @@ position in continental European scholarship; the systematic-
 sacrifice reading remained more entrenched in Anglophone and
 Israeli scholarship.
 
-## The bioarchaeological pushback
+## The bioarchaeological turn
 
-The most recent turn in the controversy came from **2010s
-bioarchaeological work**, principally by **Patricia Smith, Lawrence
-Stager, Joseph Greene, Gal Avishai**, and others. The argument: the
-new generation of dental-development analysis (cementum increments,
-tooth-formation timing) was more precise than the techniques
-available to the Moscati school, and the new analysis showed that a
-substantial portion of Tophet remains were from children too old
-to fit the natural-infant-mortality reading. Specifically, the
-analysis found significant numbers of children in the 1-3 year age
-range — not neonatal, not consistent with cemetery-as-natural-
-mortality, but consistent with the classical sources' description
-of children old enough to volunteer or be specifically selected.
+The most recent phase of the controversy moved into the laboratory,
+and it opened with a point *for* the cemetery hypothesis. In 2010,
+a team led by **[Jeffrey Schwartz](/sources/schwartz-tophet-2010)**
+(with Houghton, Macchiarelli, and Bondioli) published an
+osteological analysis of the cremated remains from 348 Tophet urns,
+arguing that a large fraction of the individuals had died
+prenatally or within weeks of birth. On that age profile the
+deposits looked like ordinary perinatal mortality in an ancient
+city, not selective ritual killing. The Moscati school's reading
+now had laboratory evidence behind it.
 
-**Smith, Stager, and Holladay (2011, 2013)** published the principal
-articles. Their conclusion was that the systematic-sacrifice reading
-was substantially correct, and the Moscati cemetery hypothesis was
-wrong — at least for a meaningful fraction of the Tophet deposits.
+The response came from **[Patricia Smith, Gal Avishai, Joseph
+Greene, and Lawrence Stager](/sources/smith-tophet-2011)** (2011,
+with a follow-up in 2013), working from the ASOR excavation
+material. Their counter-argument was methodological: cremation
+shrinks and warps infant bone, so skeletal measurements on burned
+remains systematically underestimate age at death. Re-weighting
+toward dental evidence, which survives cremation better, they
+found an age distribution concentrated between roughly one and two
+months old, with prenatal individuals far rarer than Schwartz had
+reported. The interpretive force of that distribution: natural
+mortality in ancient conditions peaks at and immediately after
+birth, so a population of remains that peaks weeks later looks
+selected rather than natural — which is what the sacrifice reading
+predicts.
+
+A third intervention,
+**["Phoenician bones of contention"](/sources/xella-bones-of-contention-2013)**
+(Xella, Quinn, Melchiorri, and van Dommelen, 2013), widened the
+rebuttal beyond osteology. The stelae carry votive formulas, not
+funerary ones; the Tophet precincts are spatially and ritually
+separate from the ordinary child burials known from Punic
+cemeteries; the same precinct type recurs at Motya, Sulci, and
+Tharros. Its summary judgment, that the cemetery hypothesis must
+explain away several independent categories of evidence at once,
+is the most-cited single statement of the current majority
+position.
 
 The Italian school responded skeptically. Ribichini's
 [2013 contributions](/sources/ribichini-tophet-2013) to the
@@ -248,8 +268,12 @@ function. Three observations:
 For readers wanting to engage seriously with the question, this
 narrative recommends: read Diodorus 20.14 in translation; read at
 least one of the modern syntheses (Lancel, Hoyos, Miles); read
-Smith et al. 2011 for the bioarchaeological argument and Ribichini
-2013 for the response; and recognize that competent scholars
+[Schwartz et al. 2010](/sources/schwartz-tophet-2010) and
+[Smith et al. 2011](/sources/smith-tophet-2011) as the two sides
+of the bioarchaeological argument,
+[Xella et al. 2013](/sources/xella-bones-of-contention-2013) for
+the wider rebuttal, and Ribichini 2013 for the cemetery
+tradition's response; and recognize that competent scholars
 currently disagree about a substantive historical question, in
 ways that the available evidence may not be sufficient to settle.
 

@@ -104,6 +104,34 @@ sources:
       Baal Hammon work is the standard reference for the
       deity who is named in the bulk of Tophet stele
       dedications.
+  - source: schwartz-tophet-2010
+    stance: contradicts
+    passage_summary: >
+      The osteological analysis of cremated remains from 348
+      urns that gave the cemetery hypothesis its laboratory
+      footing: a large fraction of the individuals died
+      prenatally or within weeks of birth, an age profile the
+      authors read as natural perinatal mortality rather than
+      sacrificial selection.
+  - source: smith-tophet-2011
+    stance: supports
+    passage_summary: >
+      The bioarchaeological counter-analysis: cremation shrinks
+      infant bone and biases skeletal age estimates downward;
+      dental evidence shows an age distribution peaking at one
+      to two months old, later than natural perinatal mortality
+      would produce, which is consistent with selection for
+      sacrifice.
+  - source: xella-bones-of-contention-2013
+    stance: supports
+    passage_summary: >
+      The multi-evidence rebuttal to the cemetery hypothesis:
+      votive rather than funerary epigraphy on the stelae,
+      spatial separation of Tophets from ordinary child
+      burials, and the recurrence of the precinct type across
+      the Punic Mediterranean together require the cemetery
+      reading to explain away several independent categories
+      of evidence at once.
 entities:
   - type: theme
     slug: the-tophet-question

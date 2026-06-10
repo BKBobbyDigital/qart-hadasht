@@ -179,7 +179,11 @@ the field.
 The principal modern reference is
 [Hoyos's *The Carthaginians* (2010)](/sources/hoyos-carthaginians-2010),
 plus Hoyos's *Hannibal's Dynasty* (2003) for the Barcid
-command tradition. On the elephants, Charles's
+command tradition. The Hoyos-edited
+[*Companion to the Punic Wars* (2011)](/sources/hoyos-companion-punic-wars-2011)
+is the standard single-volume survey of where current
+specialist debate stands on the wars and the military
+institutions that fought them. On the elephants, Charles's
 *Hannibal's Elephant Army* (2008) is the standard treatment.
 On the navy, the
 [Carthaginian sea power narrative](/narratives/carthaginian-sea-power-as-system)

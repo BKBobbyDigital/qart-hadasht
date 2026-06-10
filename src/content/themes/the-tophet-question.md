@@ -92,8 +92,9 @@ scholarship:
   textual formulae are taken together as evidence for ritual killing
   of infants, with animal substitutes available in some cases.
 
-- **The "infant cemetery" revision**, advanced by Schwartz and his
-  collaborators in a series of studies beginning in the 2010s,
+- **The "infant cemetery" revision**, advanced by
+  [Schwartz and his collaborators](/sources/schwartz-tophet-2010)
+  in a series of studies beginning in 2010,
   treats the precinct as the burial ground for children who died of
   natural causes (stillbirth, perinatal mortality, infectious disease)
   and were given ritual burial because of their special religious
@@ -194,9 +195,12 @@ treated separately in the
 ## Sources
 
 The principal modern works are: Stager and Wolff's foundational
-treatments of the Tophet stratigraphy from the 1980s; Schwartz et al.
-on the bioarchaeology (papers in *PLOS One* and other venues from the
-2010s onward); Lancel 1995 for the archaeological synthesis;
-MacDonald 2015 for a balanced modern overview; Quinn 2018 for the
-broader question of how Punic religious identity has been
-constructed and contested.
+treatments of the Tophet stratigraphy from the 1980s;
+[Schwartz et al. 2010](/sources/schwartz-tophet-2010) and
+[Smith et al. 2011](/sources/smith-tophet-2011) as the two sides
+of the bioarchaeological exchange, with
+[Xella, Quinn, Melchiorri, and van Dommelen 2013](/sources/xella-bones-of-contention-2013)
+as the multi-evidence rebuttal to the cemetery reading; Lancel
+1995 for the archaeological synthesis; MacDonald 2015 for a
+balanced modern overview; Quinn 2018 for the broader question of
+how Punic religious identity has been constructed and contested.
