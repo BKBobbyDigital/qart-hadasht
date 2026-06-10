@@ -452,9 +452,12 @@ Headline numbers:
 - Citation rigor: anchored headings, BibTeX/RIS/APA/MLA/Chicago export, version stamps with GitHub-history links
 - Ten battles have tactical diagrams: seven land (Cannae, Trebia,
   Trasimene, Zama, Bagradas, Ilipa, Metaurus) and three naval
-  (Ecnomus, Drepana, Aegates Islands), with a data-driven SVG
-  component and a tap-to-enlarge dialog with prev/next phase
-  navigation
+  (Ecnomus, Drepana, Aegates Islands), all in the June 2026
+  atlas-plate idiom (numbered six-step Cannae as the model:
+  phase descriptions, navy-Rome/tyrian-Carthage, hatch/dot
+  cavalry patterns, curved sweep arrows), with a data-driven
+  SVG component and a tap-to-enlarge dialog with prev/next
+  phase navigation
 - Nine source-comparison entries — a new first-class collection
   presenting contested events through multiple ancient sources in
   parallel, with the site's source-rivalry methodology made visible
@@ -1296,23 +1299,28 @@ not surface unsolicited.
    a deliberate future direction once the content side is
    genuinely settled.
 
-2. **Battle tactical visualizations** — *complete: seven land
-   battles plus three naval battles shipped* via the data-driven
-   `BattleDiagram` system + the tap-to-enlarge dialog. Land:
-   Cannae, Trebia, Trasimene, Zama, Bagradas, Ilipa, Metaurus.
-   Naval (June 2026): Cape Ecnomus (wedge vs envelopment, three
-   phases), Drepana (Adherbal's harbor exit and the
-   pinned-against-the-shore destruction), Aegates Islands (the
-   wind-driven interception that ended the FPW). The naval idiom
-   reuses the same primitives: sea-blue `background`, coastline
-   path units, small ship-block rects in formation, dashed
-   sky-colored wind arrows. Note: path units don't render
-   `label` (rect-only in the component); naval configs label
-   path shapes via annotations. Metaurus Phase 3 was flagged for
-   review (the lateral march arrow, flanking strike, and death
-   annotations all in one frame — possibly has overlap issues)
-   but the review pass never happened — pick up there if
-   returning.
+2. **Battle tactical visualizations** — *complete: ten battles
+   shipped* via the data-driven `BattleDiagram` system + the
+   tap-to-enlarge dialog. Land: Cannae, Trebia, Trasimene, Zama,
+   Bagradas, Ilipa, Metaurus. Naval: Cape Ecnomus, Drepana,
+   Aegates Islands. All ten use the atlas-plate idiom adopted in
+   June 2026 (modeled on a print reference the user supplied):
+   per-phase `description` prose with numbered circle badges,
+   navy Rome / tyrian Carthage color convention (tyrian is the
+   site's Carthage brand color; the original red-Rome scheme
+   read backwards), `patternFill` 'hatch' for cavalry and 'dots'
+   for Numidians, outlined blocks for Italian allies, rounded
+   unit rects (`rx`), and curved sweep arrows (`via` quadratic
+   control point). Cannae is the deepest example: six phases.
+   The naval idiom reuses the same primitives: sea-blue
+   `background`, coastline path units, ship-block rects in
+   formation, dashed sky-colored wind arrows. Note: path units
+   don't render `label` (rect-only in the component); label
+   path shapes via annotations. Labels on hatched/dotted units
+   must be dark (#1a0410), not white. The long-flagged Metaurus
+   Phase 3 crowding was reviewed and fixed in the restyle pass
+   (the congestion was the top-left march annotation + arrow +
+   cavalry block, not the death annotations).
 
 3. **Family tree / dynasty explorer** — *three dynasties shipped*
    (Barcids, Massylii, Magonids) via the data-driven `FamilyTree`

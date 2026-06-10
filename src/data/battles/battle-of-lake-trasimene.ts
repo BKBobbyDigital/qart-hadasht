@@ -16,12 +16,24 @@ import type { BattleDiagramConfig } from '../../lib/battleDiagram';
  * through and surrendered the next day. It is the largest ambush
  * in surviving ancient military history.
  */
+
+// Palette: navy Rome, tyrian Carthage, brown Numidia.
+const ROME = '#1e3a8a';
+const ROME_DK = '#172554';
+const PUNIC = '#5b0f31';
+const PUNIC_DK = '#1a0410';
+const MAGO = '#3d0a21';
+const NUMID = '#92400e';
+const NUMID_DK = '#451a03';
+
 const config: BattleDiagramConfig = {
   heading: 'Battlefield diagram: the column ambush',
   phases: [
     {
-      label: 'Phase 1 · The Roman column marches into the defile',
+      label: 'The column enters the defile',
       title: 'Flaminius marches along the lake road in dawn fog while Hannibal waits in the hills',
+      description:
+        'Flaminius’s army of roughly 25,000 marches in column along the narrow lakeside road in early-morning fog, the water on its left and the hills on its right. Hannibal’s entire force waits concealed along the ridge above, strung out to match the length of the column.',
       northArrow: true,
       units: [
         // The hills — a long northern band with gaps where Punic forces lurk
@@ -34,33 +46,35 @@ const config: BattleDiagramConfig = {
         { rect: { x: 0, y: 145, w: 400, h: 6 }, fill: '#fef3c7', stroke: '#a16207', strokeWidth: 0.5 },
 
         // Roman column strung out along the road (multiple small blocks)
-        { rect: { x: 18, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 50, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 82, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 114, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 146, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 178, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 210, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 242, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 274, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 306, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
-        { rect: { x: 338, y: 152, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d' },
+        { rect: { x: 18, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 50, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 82, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 114, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 146, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 178, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 210, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 242, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 274, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 306, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
+        { rect: { x: 338, y: 152, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK },
 
         // Punic forces hidden in hills — labels inside the rects for contrast
-        { rect: { x: 40, y: 60, w: 90, h: 22 }, fill: '#5b0f31', stroke: '#1a0410', opacity: 0.85, label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
-        { rect: { x: 155, y: 50, w: 90, h: 22 }, fill: '#3d0a21', stroke: '#1a0410', opacity: 0.85, label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 7, labelColor: '#fff', labelWeight: 600 },
-        { rect: { x: 270, y: 60, w: 90, h: 22 }, fill: '#92400e', stroke: '#451a03', opacity: 0.85, label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 40, y: 60, w: 90, h: 22, rx: 2 }, fill: PUNIC, stroke: PUNIC_DK, opacity: 0.85, label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 155, y: 50, w: 90, h: 22, rx: 2 }, fill: MAGO, stroke: PUNIC_DK, opacity: 0.85, label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 7, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 270, y: 60, w: 90, h: 22, rx: 2 }, fill: NUMID, stroke: NUMID_DK, patternFill: 'dots', opacity: 0.85, label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: PUNIC_DK, labelWeight: 600 },
       ],
       annotations: [
-        { x: 200, y: 30, text: 'Hannibal hidden along the entire ridge line', size: 9, color: '#1a0410', italic: true, weight: 600 },
+        { x: 200, y: 30, text: 'Hannibal hidden along the entire ridge line', size: 9, color: PUNIC_DK, italic: true, weight: 600 },
         { x: 200, y: 130, text: 'narrow road in dawn fog', size: 8, color: '#7c5b1e', italic: true },
-        { x: 200, y: 192, text: 'Roman column (~25,000) strung out along several miles', size: 8, color: '#7f1d1d', italic: true },
+        { x: 200, y: 192, text: 'Roman column (~25,000) strung out along several miles', size: 8, color: ROME_DK, italic: true },
         { x: 200, y: 290, text: 'Lake Trasimene', size: 10, color: '#0369a1', italic: true, weight: 600 },
       ],
     },
     {
-      label: 'Phase 2 · The simultaneous strike',
+      label: 'The simultaneous strike',
       title: 'Hannibal’s forces strike down from the hills along the whole length of the column',
+      description:
+        'When the head of the column reaches the far end of the defile, Hannibal’s forces strike down simultaneously along its whole length, leaving the Romans no time to deploy into battle order. Pinned between the hills and the water, the army is broken in detail: Flaminius is killed, some 15,000 die, and about 6,000 of the lead element cut through, only to surrender the next day.',
       units: [
         // Hills (still)
         { path: 'M 0 0 L 400 0 L 400 110 Q 300 90 200 105 Q 100 90 0 110 Z', fill: '#a8a29e', stroke: '#57534e' },
@@ -70,44 +84,44 @@ const config: BattleDiagramConfig = {
         { rect: { x: 0, y: 145, w: 400, h: 6 }, fill: '#fef3c7', stroke: '#a16207', strokeWidth: 0.5 },
 
         // Punic forces now sweeping down onto the road
-        { rect: { x: 40, y: 110, w: 90, h: 28 }, fill: '#5b0f31', stroke: '#1a0410', label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
-        { rect: { x: 155, y: 110, w: 90, h: 28 }, fill: '#3d0a21', stroke: '#1a0410', label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
-        { rect: { x: 270, y: 110, w: 90, h: 28 }, fill: '#92400e', stroke: '#451a03', label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 40, y: 110, w: 90, h: 28, rx: 2 }, fill: PUNIC, stroke: PUNIC_DK, label: 'Iberian / Gallic', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 155, y: 110, w: 90, h: 28, rx: 2 }, fill: MAGO, stroke: PUNIC_DK, label: 'Africans + Hannibal', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelWeight: 600 },
+        { rect: { x: 270, y: 110, w: 90, h: 28, rx: 2 }, fill: NUMID, stroke: NUMID_DK, patternFill: 'dots', label: 'Numidian cav.', labelPosition: 'inside', labelSize: 8, labelColor: PUNIC_DK, labelWeight: 600 },
 
         // Roman column now in chaos — fragmented, pinned against lake
-        { rect: { x: 18, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 50, y: 158, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 82, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 114, y: 158, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 146, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 178, y: 158, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 210, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 242, y: 158, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 274, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 306, y: 158, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
-        { rect: { x: 338, y: 156, w: 24, h: 11 }, fill: '#dc2626', stroke: '#7f1d1d', strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 18, y: 156, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 50, y: 158, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 82, y: 156, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 114, y: 158, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 146, y: 156, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 178, y: 158, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 210, y: 156, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 242, y: 158, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 274, y: 156, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 306, y: 158, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
+        { rect: { x: 338, y: 156, w: 24, h: 11, rx: 2 }, fill: ROME, stroke: ROME_DK, strokeDasharray: '3,2', opacity: 0.6 },
       ],
       arrows: [
         // Punic forces striking down at multiple points; arrowheads land on the road
-        { from: [80, 140], to: [80, 148], color: '#1a0410', width: 2.5 },
-        { from: [140, 140], to: [140, 148], color: '#1a0410', width: 2.5 },
-        { from: [200, 140], to: [200, 148], color: '#1a0410', width: 2.5 },
-        { from: [260, 140], to: [260, 148], color: '#1a0410', width: 2.5 },
-        { from: [320, 140], to: [320, 148], color: '#1a0410', width: 2.5 },
+        { from: [80, 140], to: [80, 148], color: PUNIC_DK, width: 2.5 },
+        { from: [140, 140], to: [140, 148], color: PUNIC_DK, width: 2.5 },
+        { from: [200, 140], to: [200, 148], color: PUNIC_DK, width: 2.5 },
+        { from: [260, 140], to: [260, 148], color: PUNIC_DK, width: 2.5 },
+        { from: [320, 140], to: [320, 148], color: PUNIC_DK, width: 2.5 },
       ],
       annotations: [
-        { x: 200, y: 30, text: 'Simultaneous attack along the whole column', size: 9, color: '#1a0410', italic: true, weight: 600 },
-        { x: 200, y: 196, text: 'Romans pinned between hills and lake; no room to deploy', size: 8, color: '#7f1d1d', italic: true },
-        { x: 200, y: 215, text: 'Flaminius killed; ~15,000 dead, ~6,000 captured', size: 8, color: '#5b0f31', italic: true },
+        { x: 200, y: 30, text: 'Simultaneous attack along the whole column', size: 9, color: PUNIC_DK, italic: true, weight: 600 },
+        { x: 200, y: 196, text: 'Romans pinned between hills and lake; no room to deploy', size: 8, color: ROME_DK, italic: true },
+        { x: 200, y: 215, text: 'Flaminius killed; ~15,000 dead, ~6,000 captured', size: 8, color: PUNIC, italic: true },
         { x: 200, y: 290, text: 'Lake Trasimene', size: 10, color: '#0369a1', italic: true, weight: 600 },
       ],
     },
   ],
   legend: [
-    { label: 'Roman legions (column)', fill: '#dc2626', stroke: '#7f1d1d' },
-    { label: 'Iberian / Gallic infantry', fill: '#5b0f31', stroke: '#000' },
-    { label: 'African heavy infantry (Hannibal)', fill: '#3d0a21', stroke: '#000' },
-    { label: 'Numidian cavalry', fill: '#92400e', stroke: '#451a03' },
+    { label: 'Roman legions (column)', fill: ROME, stroke: ROME_DK },
+    { label: 'Iberian / Gallic infantry', fill: PUNIC, stroke: '#000' },
+    { label: 'African heavy infantry (Hannibal)', fill: MAGO, stroke: '#000' },
+    { label: 'Numidian cavalry', fill: NUMID, stroke: NUMID_DK, pattern: 'dots' },
     { label: 'Hills', fill: '#a8a29e', stroke: '#57534e' },
     { label: 'Lake', fill: '#7dd3fc', stroke: '#0369a1' },
   ],
