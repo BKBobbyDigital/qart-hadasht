@@ -450,9 +450,11 @@ Headline numbers:
 - Privacy-first analytics live with 9 tracked event types
 - Installable PWA with Tanit-mark icon set
 - Citation rigor: anchored headings, BibTeX/RIS/APA/MLA/Chicago export, version stamps with GitHub-history links
-- Seven land battles have tactical diagrams (Cannae, Trebia, Trasimene,
-  Zama, Bagradas, Ilipa, Metaurus) with a data-driven SVG component
-  and a tap-to-enlarge dialog with prev/next phase navigation
+- Ten battles have tactical diagrams: seven land (Cannae, Trebia,
+  Trasimene, Zama, Bagradas, Ilipa, Metaurus) and three naval
+  (Ecnomus, Drepana, Aegates Islands), with a data-driven SVG
+  component and a tap-to-enlarge dialog with prev/next phase
+  navigation
 - Nine source-comparison entries — a new first-class collection
   presenting contested events through multiple ancient sources in
   parallel, with the site's source-rivalry methodology made visible
@@ -1294,18 +1296,23 @@ not surface unsolicited.
    a deliberate future direction once the content side is
    genuinely settled.
 
-2. **Battle tactical visualizations** — *seven land battles
-   shipped* (Cannae, Trebia, Trasimene, Zama, Bagradas, Ilipa,
-   Metaurus) via the data-driven `BattleDiagram` system + the
-   tap-to-enlarge dialog. Naval battles remain — Aegates Islands
-   (241), Drepana (249), Cape Ecnomus (256) all want a different
-   visual idiom (fleet wedges, wind direction, harbor geography)
-   that the line-of-battle template doesn't accommodate. Building
-   the naval idiom is the natural next step if the user calls for
-   it. Metaurus Phase 3 was flagged for review (the lateral march
-   arrow, flanking strike, and death annotations all in one
-   frame — possibly has overlap issues) but the review pass never
-   happened — pick up there if returning.
+2. **Battle tactical visualizations** — *complete: seven land
+   battles plus three naval battles shipped* via the data-driven
+   `BattleDiagram` system + the tap-to-enlarge dialog. Land:
+   Cannae, Trebia, Trasimene, Zama, Bagradas, Ilipa, Metaurus.
+   Naval (June 2026): Cape Ecnomus (wedge vs envelopment, three
+   phases), Drepana (Adherbal's harbor exit and the
+   pinned-against-the-shore destruction), Aegates Islands (the
+   wind-driven interception that ended the FPW). The naval idiom
+   reuses the same primitives: sea-blue `background`, coastline
+   path units, small ship-block rects in formation, dashed
+   sky-colored wind arrows. Note: path units don't render
+   `label` (rect-only in the component); naval configs label
+   path shapes via annotations. Metaurus Phase 3 was flagged for
+   review (the lateral march arrow, flanking strike, and death
+   annotations all in one frame — possibly has overlap issues)
+   but the review pass never happened — pick up there if
+   returning.
 
 3. **Family tree / dynasty explorer** — *three dynasties shipped*
    (Barcids, Massylii, Magonids) via the data-driven `FamilyTree`
