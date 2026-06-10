@@ -4,40 +4,55 @@ question: >
 why_unknown: >
   The principal evidence (literary tradition, Punic epigraphy,
   archaeology) points to overlapping but non-identical dates.
-  The literary tradition fixes 814 BCE; the archaeological
-  horizon is the late 8th century BCE; Krahmalkov's reading of
-  the Douïmès Pendant inscription supports the early date but is
+  The literary tradition fixes 814 BCE; the conventional
+  ceramic-based archaeological horizon is the late 8th century
+  BCE; radiocarbon dates from the earliest levels at Bir
+  Massouda fall in the second half of the 9th century, within
+  reach of the literary date; Krahmalkov's reading of the
+  Douïmès Pendant inscription supports the early date but is
   contested. None of the available evidence forecloses the
   others, and the question is whether the actual foundation
-  occurred in approximately 814 BCE (with archaeology yet to
-  recover the earliest strata), in the late 8th century (with the
-  literary date being a symbolic calculation), or as an extended
-  process of consolidation across the intervening period.
+  occurred in approximately 814 BCE (with the radiocarbon
+  evidence now lending that date archaeological support), in the
+  late 8th century (with the literary date being a symbolic
+  calculation), or as an extended process of consolidation
+  across the intervening period.
 evidence_summary: >
   Literary: Timaeus's 814 BCE date preserved through Justin and
   Velleius Paterculus. Phoenician epigraphy: Krahmalkov's 1981
   reading of the Douïmès Pendant. Archaeology: ceramic and
   structural horizons indicating continuous Phoenician occupation
-  from approximately 750-720 BCE. Comparative: the broader
-  chronology of Phoenician western expansion in the 9th and 8th
-  centuries BCE provides the framework within which a Carthaginian
-  foundation in this window is intelligible.
+  from approximately 750-720 BCE, against
+  [radiocarbon dates from the Bir Massouda excavations](/sources/docter-bir-massouda-2005)
+  (published 2005) placing the earliest occupation levels at
+  approximately 835-800 BCE. The two archaeological dating
+  frameworks have not been reconciled, and the disagreement
+  feeds the wider controversy over Iron Age Mediterranean
+  absolute chronology. Comparative: the broader chronology of
+  Phoenician western expansion in the 9th and 8th centuries BCE
+  provides the framework within which a Carthaginian foundation
+  in this window is intelligible.
 candidate_answers:
   - answer: Approximately 814 BCE (the traditional date)
     arguments_for: >
       Multiple independent attestations in the literary tradition.
       The chronology is consistent with Tyrian regnal sequence and
       the broader Phoenician colonial timeline. Krahmalkov's
-      reading (if accepted) provides Punic-script support.
-      Earliest archaeological material may simply not have been
-      recovered from a continuously occupied site.
+      reading (if accepted) provides Punic-script support. The
+      Bir Massouda radiocarbon dates (c. 835-800 BCE) bring the
+      earliest scientifically dated occupation within reach of
+      the traditional date for the first time. Earlier material
+      may still lie unrecovered beneath later strata at a
+      continuously occupied site.
     arguments_against: >
       No contemporary attestation. The literary date may be a
       Greek calculation backward from later evidence. The Krahmalkov
       reading is contested and not generally accepted. The
-      archaeological gap is substantial.
+      radiocarbon dates have their critics, and calibration in
+      this period is genuinely difficult.
     held_by: Traditional view; defended on inscriptional grounds
-      by Krahmalkov 1981.
+      by Krahmalkov 1981 and given archaeological support by the
+      Bir Massouda radiocarbon results (Docter et al. 2005).
   - answer: Late 8th century BCE (the archaeological horizon)
     arguments_for: >
       Direct material evidence from the site itself. Consistent
@@ -48,9 +63,16 @@ candidate_answers:
       Requires explaining the literary tradition as either
       symbolic or as based on calculation. Difficult to reconcile
       with the apparent stability of the Tyrian colonial connection
-      across the period.
-    held_by: The dominant archaeological view; standard in modern
-      syntheses.
+      across the period. The Bir Massouda radiocarbon dates run
+      up to two generations earlier than the ceramic horizon this
+      position rests on, and the broader Iron Age chronology
+      debate has weakened confidence that the conventional
+      ceramic framework is absolutely dated rather than merely
+      internally consistent.
+    held_by: The long-dominant archaeological view, standard in
+      modern syntheses written before the radiocarbon results;
+      still defended where the ceramic chronology is preferred
+      over radiocarbon.
   - answer: Extended foundation process (c. 814 to late 8th century)
     arguments_for: >
       Reconciles both bodies of evidence: the literary tradition
@@ -77,6 +99,9 @@ what_would_resolve_this: >
   New excavation evidence reaching pre-late-8th-century strata at
   the site, particularly in areas not yet systematically excavated.
   Independent epigraphic attestation of either the foundation
-  event or the early Phoenician presence. Refinement of the
-  Phoenician colonial chronology across the western Mediterranean
-  that would bracket the Carthage foundation more precisely.
+  event or the early Phoenician presence. Additional radiocarbon
+  series from the earliest levels, ideally on short-lived samples,
+  that would either confirm or undercut the Bir Massouda dates.
+  Resolution of the wider Iron Age Mediterranean absolute-
+  chronology debate, which would settle whether the ceramic and
+  radiocarbon frameworks can be reconciled.

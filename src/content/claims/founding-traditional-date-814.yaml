@@ -3,9 +3,13 @@ statement: >
   The traditional foundation date of 814 BCE comes from Timaeus of
   Tauromenium (early 3rd century BCE) and is preserved through
   Justin and Velleius Paterculus. It is the focal date of the
-  literary tradition but is not independently confirmed by
-  archaeology, which generally indicates the late 8th century BCE
-  as the earliest material-culture horizon at the site.
+  literary tradition and is not independently confirmed by
+  archaeology. The conventional ceramic-based chronology
+  indicates the late 8th century BCE as the earliest
+  material-culture horizon at the site; radiocarbon dates from
+  the earliest levels at Bir Massouda (published 2005) reach the
+  second half of the 9th century, within range of the
+  traditional date.
 confidence: contested
 scholarly_consensus: >
   The 814 BCE date is universally cited as the traditional date.
@@ -15,11 +19,12 @@ dispute_summary: |
   Three positions in modern scholarship:
 
   1. The traditional date is approximately correct. Carthage
-     was founded around 814 BCE; the gap with archaeology reflects
-     the limits of what early Phoenician colonial material can be
-     recovered from a site continuously occupied for 2,800 years.
-     This view gains some support from Krahmalkov's 1981 reading
-     of the Douïmès Pendant inscription.
+     was founded around 814 BCE; the gap with the ceramic-based
+     archaeology reflects the limits of what early Phoenician
+     colonial material can be recovered from a site continuously
+     occupied for 2,800 years. This view gains some support from
+     Krahmalkov's 1981 reading of the Douïmès Pendant inscription
+     and, since 2005, from the Bir Massouda radiocarbon dates.
 
   2. The traditional date is symbolic, not historical. Timaeus
      calculated backwards from later evidence (perhaps from a
@@ -65,6 +70,14 @@ sources:
       MacDonald surveys the chronological dispute and treats the
       late 8th-century horizon as the most secure date for the
       city's continuous existence as a Phoenician colony.
+  - source: docter-bir-massouda-2005
+    stance: supports
+    passage_summary: >
+      Radiocarbon dates of animal bones from the earliest
+      occupation levels at Bir Massouda, calibrated to
+      approximately 835-800 BCE: the first scientific dating
+      evidence to bring the earliest occupation within range of
+      the traditional 814 BCE date.
 entities:
   - type: event
     slug: founding-of-carthage

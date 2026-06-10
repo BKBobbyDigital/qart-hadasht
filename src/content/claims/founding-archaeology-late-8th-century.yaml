@@ -1,16 +1,29 @@
 slug: founding-archaeology-late-8th-century
 statement: >
-  The earliest material-culture horizon recovered at Carthage dates
-  to the late 8th century BCE, approximately a century after the
-  traditional foundation date of 814 BCE.
-confidence: attested
+  The absolute date of the earliest Phoenician occupation at
+  Carthage is contested between two dating frameworks: the
+  conventional ceramic-based chronology places the earliest
+  recovered horizon in the late 8th century BCE, roughly a
+  century after the traditional foundation date of 814 BCE,
+  while radiocarbon dates from the earliest levels at Bir
+  Massouda (published 2005) fall in the second half of the 9th
+  century BCE, within reach of the traditional date.
+confidence: contested
 scholarly_consensus: >
-  Firmly attested in the modern archaeological literature. The
-  recovered ceramic and structural evidence indicates continuous
-  Phoenician urban occupation from approximately the 750-720 BCE
-  range. Whether this horizon represents the actual foundation or
-  the consolidation of an earlier seasonal-trading presence is
-  the genuinely open question.
+  The recovered ceramic and structural evidence indicating
+  continuous Phoenician urban occupation from approximately the
+  750-720 BCE range is firmly attested and was for decades the
+  standard archaeological floor. The 2005 radiocarbon results
+  from the Ghent-Hamburg excavations at Bir Massouda
+  (calibrated to approximately 835-800 BCE) challenged that
+  floor and reopened the question, feeding the wider controversy
+  over Iron Age Mediterranean absolute chronology, since
+  Phoenician-colonial radiocarbon dates running earlier than
+  Greek ceramic chronologies put pressure on the conventional
+  framework itself. Neither dating framework has displaced the
+  other; whether the earliest horizon represents the actual
+  foundation or the consolidation of an earlier presence
+  remains open in either case.
 sources:
   - source: aubet-phoenicians-west-2001
     stance: supports
@@ -24,8 +37,17 @@ sources:
     stance: supports
     passage_summary: >
       Lancel's archaeological synthesis confirms the late
-      8th-century horizon and discusses the relationship between
-      the literary chronology and the recovered material culture.
+      8th-century ceramic horizon and discusses the relationship
+      between the literary chronology and the recovered material
+      culture.
+  - source: docter-bir-massouda-2005
+    stance: qualifies
+    passage_summary: >
+      The radiocarbon study of animal bones from the earliest
+      occupation levels at Bir Massouda: calibrated dates of
+      approximately 835-800 BCE, up to two generations earlier
+      than the ceramic-based horizon and compatible with the
+      literary tradition's 814 BCE.
   - source: macdonald-carthage-2015
     stance: supports
     passage_summary: >
@@ -37,7 +59,11 @@ notes: >
   continuous occupation through 146 BCE and the substantial
   destruction and Roman rebuilding that followed. Earlier
   Phoenician material may exist at the site but be inaccessible
-  beneath later strata.
+  beneath later strata. Radiocarbon calibration in this period
+  is genuinely difficult (the Hallstatt calibration plateau,
+  which flattens radiocarbon resolution for roughly four
+  centuries, begins around 800 BCE), which is part of why the
+  Bir Massouda dates moved the debate without closing it.
 entities:
   - type: event
     slug: founding-of-carthage

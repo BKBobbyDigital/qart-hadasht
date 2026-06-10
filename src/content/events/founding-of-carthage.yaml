@@ -7,11 +7,13 @@ date_start:
   notes: >
     The traditional date 814 BCE comes from Timaeus of Tauromenium
     (early 3rd century BCE), preserved through Justin and
-    Velleius Paterculus. The actual foundation may have occurred
-    several decades to a century later on the available
-    archaeological evidence. Treated here as legendary precisely
-    because it is the focal date of a tradition rather than an
-    independently verified event.
+    Velleius Paterculus. The conventional ceramic-based
+    archaeology placed the earliest occupation up to a century
+    later; radiocarbon dates from Bir Massouda (2005) reach the
+    second half of the 9th century, within range of the
+    tradition. Treated here as legendary precisely because it is
+    the focal date of a tradition rather than an independently
+    verified event.
 place: carthage
 places:
   - carthage
@@ -29,6 +31,7 @@ principal_sources:
   - virgil-aeneid
   - krahmalkov-foundation-1981
   - aubet-phoenicians-west-2001
+  - docter-bir-massouda-2005
 related_events: []
 referenced_themes:
   - punic-religion
@@ -36,10 +39,15 @@ referenced_themes:
   - punic-language-and-script
 summary: >
   The foundation of Carthage by Phoenician colonists from Tyre,
-  conventionally dated 814 BCE in the surviving literary tradition
-  and treated by archaeology as having occurred somewhat later, in
-  the late 8th century BCE on the basis of the earliest
-  recoverable material culture from the site. The foundation is
+  conventionally dated 814 BCE in the surviving literary
+  tradition. The conventional ceramic-based archaeology long
+  placed the earliest recoverable material culture somewhat
+  later, in the late 8th century BCE; radiocarbon dates from the
+  earliest levels at Bir Massouda (published 2005) reach the
+  second half of the 9th century, bringing the scientific dating
+  within range of the literary tradition for the first time. The
+  dating question is treated in full as an
+  [open question](/openQuestions/founding-when-actually). The foundation is
   associated in the literary tradition with Dido (Elissa), a
   Phoenician princess whose flight from her brother Pygmalion is
   preserved most fully in Justin's epitome of Pompeius Trogus
@@ -52,9 +60,10 @@ summary: >
   the citadel hill of Carthage its name in Punic).
 
   The historicity of the foundation tradition is genuinely
-  contested at three levels. The chronology (814 BCE vs. late
-  8th century BCE) is debated between literary and
-  archaeological evidence; Krahmalkov's 1981 reading of the
+  contested at three levels. The chronology (814 BCE vs. the
+  late 8th century BCE) is debated between the literary
+  tradition, the ceramic-based archaeology, and the more recent
+  radiocarbon evidence; Krahmalkov's 1981 reading of the
   Douïmès Pendant inscription has been cited as supporting the
   earlier date but is contested. The figure of Dido is preserved
   exclusively in Greek and Latin authors writing centuries after
