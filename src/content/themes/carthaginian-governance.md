@@ -35,7 +35,7 @@ Carthage had no Magna Carta, no Twelve Tables, no written founding charter
 that we know of. Neither did Rome (the *res publica* was unwritten custom
 plus institutions); neither did Athens, in the strong sense (Solon's laws
 were codified but the polity ran on layered practice). The Greek word
-ancient observers used is **πολιτεία (*politeia*)** — meaning roughly
+ancient observers used is **πολιτεία (*politeia*)**, meaning roughly
 "the arrangement of the polity," the structure of offices, councils, and
 political relationships.
 
@@ -53,7 +53,7 @@ The most striking single fact about Carthaginian governance is that
 **Aristotle ranked it among the three best-arranged states he knew**,
 alongside Sparta and Crete (*Politics* II.11, written ~330 BCE). For
 someone usually skeptical of "barbarian" polities, this is high praise.
-He treated Carthage as a "mixed" constitution — kings (the suffetes),
+He treated Carthage as a "mixed" constitution: kings (the suffetes),
 elders (the Adirim), and people (the popular assembly) balanced against
 one another, with safeguards against any single element dominating.
 
@@ -66,7 +66,7 @@ Two specific features Aristotle singled out:
 - Substantive popular role. When the suffetes and the senate
   agreed, a matter was settled. When they disagreed (or when one or
   both referred to the people), the popular assembly's vote was
-  authoritative — and the assembly could discuss the matter freely,
+  authoritative, and the assembly could discuss the matter freely,
   not merely vote yes or no.
 
 Aristotle does criticize the system for what he treats as oligarchic
@@ -79,7 +79,7 @@ A century and a half later, **Polybius (6.51-56)** does a comparative
 analysis of the Roman, Carthaginian, and Spartan systems. Where
 Aristotle's Carthage is the well-balanced *politeia*, Polybius's
 Carthage has decayed: by the time of the Punic Wars, Polybius reads
-the system as having tilted toward "rule of the many" — which he
+the system as having tilted toward "rule of the many", which he
 treats, predictably, as a structural reason for Carthaginian failure
 against Rome.
 
@@ -101,7 +101,7 @@ elements Greek and Roman analysts mapped onto consular and archontic
 categories: presidency over senate and assembly, judicial authority,
 ceremonial leadership. By the third century BCE the military command
 function had detached: generals were elected separately and might or
-might not be suffetes. Hannibal's 196 BCE suffeteship was civilian —
+might not be suffetes. Hannibal's 196 BCE suffeteship was civilian:
 fiscal-political reform rather than military command. The site's
 substantive institutional-arc treatment of the office is the
 narrative
@@ -116,7 +116,7 @@ or proto-republican developmental form.
 of elders, drawn from the senatorial aristocracy. A core body of
 about 30 with broader meetings extending to 300+. The principal
 deliberative organ on matters of state, foreign policy, and finance.
-Selection criteria are imperfectly preserved — wealth and lineage
+Selection criteria are imperfectly preserved: wealth and lineage
 mattered; whether merit ever overrode them is contested.
 
 **Council of 104** (Aristotle calls it "the Hundred"). Judicial body

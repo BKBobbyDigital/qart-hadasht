@@ -4,11 +4,11 @@ statement: >
   decayed from Aristotle's mixed-constitution ideal toward
   "rule of the many" by the time of the Punic Wars
   (Histories 6.51-56) is genuinely contested. The
-  declension framing serves Polybius's broader pro-Roman
+  declension narrative serves Polybius's broader pro-Roman
   argument that Carthage lost because its system had
   decayed; whether the historical record actually supports
-  the framing, versus reflecting Polybius's polemical
-  needs, divides modern scholarship.
+  it, or merely reflects Polybius's polemical needs,
+  divides modern scholarship.
 confidence: contested
 dispute_summary: |
   Two readings of Polybius 6.51-56:
@@ -19,23 +19,22 @@ dispute_summary: |
      assembly's role expanded; the Barcid faction's
      cultivation of popular support shifted the balance
      toward democratic-mass-political character. Polybius
-     is reporting an actual structural change.
+     is reporting a real change in how the system worked.
 
-  2. Polemical reading. Polybius's "decline-toward-
-     democracy" framing serves his broader argument about
+  2. Polemical reading. Polybius's decline-toward-
+     democracy narrative serves his broader argument about
      why Rome won and reflects pro-Roman analytical
-     categories. The actual structural changes between 330
-     and 150 BCE are less dramatic than Polybius's
-     framing implies; the narrative of constitutional
-     decay is overlaid on what was really a political-
-     factional shift.
+     categories. The actual constitutional changes between
+     330 and 150 BCE are less dramatic than Polybius
+     implies; the narrative of constitutional decay is
+     overlaid on what was really a political-factional
+     shift.
 
-  3. **Modern scholarship divides** between these readings.
+  3. Modern scholarship divides between these readings.
      Hoyos and others lean toward the polemical reading;
      older 19th- and early-20th-century scholarship
-     generally followed Polybius's framing more
-     uncritically. The contestation is genuine and
-     unresolved.
+     generally followed Polybius more uncritically. The
+     contestation is genuine and unresolved.
 sources:
   - source: polybius-histories
     stance: supports
@@ -55,9 +54,8 @@ sources:
   - source: hoyos-carthaginians-2010
     stance: qualifies
     passage_summary: >
-      Hoyos analyzes Polybius's framing critically and
-      treats the decline narrative as substantially
-      polemical.
+      Hoyos reads the passage critically and treats the
+      decline narrative as largely polemical.
 entities:
   - type: theme
     slug: carthaginian-governance

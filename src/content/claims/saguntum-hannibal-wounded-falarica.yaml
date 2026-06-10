@@ -5,7 +5,7 @@ statement: >
   weapon Livy treats as distinctively Saguntine). The wound
   forced him to suspend personal direction of operations for
   some weeks. The detail is preserved in Livy and is generally
-  treated by modern scholarship as a credible operational
+  treated by modern scholarship as a credible battlefield
   episode rather than dramatic fiction.
 confidence: attested
 scholarly_consensus: >
@@ -21,19 +21,17 @@ sources:
     passage_ref: "21.7-8"
     passage_summary: >
       Livy gives the wounding episode in the context of his
-      extended siege narrative, treating it as one operational
-      detail among many.
+      extended siege narrative, treating it as one episode
+      of the siege among many.
   - source: hoyos-hannibal-2003
     stance: supports
     passage_summary: >
       Hoyos accepts the wounding as historical and treats it
-      as part of the operational record of Hannibal's
-      pre-Italy command.
+      as part of the record of Hannibal's pre-Italy command.
   - source: macdonald-hannibal-2015
     stance: supports
     passage_summary: >
-      MacDonald's biography treats the episode as a plausible
-      operational detail.
+      MacDonald's biography treats the episode as plausible.
 entities:
   - type: event
     slug: siege-of-saguntum

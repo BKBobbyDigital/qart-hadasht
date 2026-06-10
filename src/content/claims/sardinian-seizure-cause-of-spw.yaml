@@ -1,8 +1,8 @@
 slug: sardinian-seizure-cause-of-spw
 statement: >
   Polybius identifies the Sardinian seizure (not the Lutatius
-  treaty itself) as the deepest structural cause of the Second
-  Punic War. The Barcid Iberian project, the eventual return to
+  treaty itself) as the deepest cause of the Second Punic
+  War. The Barcid Iberian project, the eventual return to
   open warfare, and Hannibal's specific anti-Roman direction are
   all responses to the seizure rather than to the original peace
   settlement.
@@ -11,7 +11,7 @@ scholarly_consensus: >
   Polybius's reading is preserved consistently and is followed
   by the dominant strain of modern scholarship. Whether this
   causation is the deepest available reading or whether broader
-  structural conditions also contributed is debated, but the
+  conditions also contributed is debated, but the
   centrality of the 238 BCE seizure to the chain of causation
   leading to 218 BCE is firmly established.
 sources:
@@ -19,17 +19,17 @@ sources:
     stance: supports
     passage_ref: "3.10, 3.27-28, 3.30"
     passage_summary: >
-      Polybius makes the structural argument explicitly across
+      Polybius makes the argument explicitly across
       several passages of Book 3, treating the Sardinian episode
       as the moment Roman good faith ended in Barcid eyes and as
       the immediate background to Hamilcar's Iberian project.
   - source: hoyos-hannibal-2003
     stance: supports
     passage_summary: >
-      Hoyos's biography of Hannibal develops the structural
-      argument: the Barcid family's Iberian strategy was a
-      response to the post-Sardinian configuration, not to the
-      241 treaty.
+      Hoyos's biography of Hannibal develops the argument:
+      the Barcid family's Iberian strategy was a response to
+      the situation the seizure created, not to the 241
+      treaty.
 entities:
   - type: event
     slug: sardinian-seizure

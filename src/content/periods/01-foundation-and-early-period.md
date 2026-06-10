@@ -5,7 +5,7 @@ end_year: -550
 summary: >
   From the legendary foundation in 814 BCE to the rise of the Magonid
   dynasty in the mid-6th century. Most of what we know about this period is
-  inferential — the Phoenician colonial framework, the gradual emergence of
+  inferential: the Phoenician colonial framework, the gradual emergence of
   Carthage from Tyrian dependent into independent metropole, and the
   archaeological record of expanding western Mediterranean trade.
 key_events:
@@ -38,7 +38,7 @@ literary accounts contemporary with the events; the Greek and Latin
 historians who would later treat Carthage in detail are writing from the
 fourth century BCE forward, with everything earlier reaching them through
 the filter of intervening tradition. What the modern reconstruction can
-draw on is the inscriptional and archaeological record — the foundation
+draw on is the inscriptional and archaeological record: the foundation
 deposits at Carthage's Tophet from the late eighth century BCE forward,
 the western Mediterranean Phoenician colonial network as the survey-and-
 excavation evidence reveals it, and the few episodes the later Greek
@@ -71,8 +71,8 @@ Hellenistic literary tradition rather than the historical record.
 
 Carthage was not the first Phoenician colony in the western
 Mediterranean. [Gades](/places/gades) (modern Cádiz) had been founded
-several centuries earlier — traditionally c. 1100 BCE, archaeologically
-secure from at least the 8th century — as the Tyrian terminus of
+several centuries earlier (traditionally c. 1100 BCE, archaeologically
+secure from at least the 8th century) as the Tyrian terminus of
 Atlantic trade. Utica, on the African coast about thirty
 kilometers north of Carthage, was older still. Tyrian shipping had been
 moving silver, tin, and other commodities through a network of coastal
@@ -103,7 +103,7 @@ and commercial coordination.
 
 The most attested early Carthaginian colonial foundation in this
 emerging-metropole pattern is [Ebusus](/places/ebusus) (modern Ibiza),
-established c. 654 BCE on Diodorus's chronology — making it the earliest
+established c. 654 BCE on Diodorus's chronology, making it the earliest
 securely attested Carthaginian colonial foundation outside the
 immediate African zone. The Ebusan archaeological record is one of the
 richest surviving sources for early Carthaginian material culture: the
@@ -111,7 +111,7 @@ necropolis at Puig des Molins has yielded thousands of Punic-style
 burials, terracotta figurines, and inscribed amulets that constitute a
 substantial part of the surviving Carthaginian artifact record.
 
-The foundation period is anchored physically by the Nora Stone — a
+The foundation period is anchored physically by the Nora Stone, a
 late-9th or early-8th century BCE Phoenician inscription from
 southern Sardinia, the earliest Phoenician text anywhere outside
 the Levantine homeland and direct evidence of Tyrian Phoenician
@@ -138,11 +138,11 @@ cannot answer. We have, in broad outline:
 
 We do not have, and largely cannot recover:
 
-- The internal political history of pre-Magonid Carthage — institutions,
+- The internal political history of pre-Magonid Carthage: institutions,
   succession patterns, the early relationship between aristocratic
   families that would later produce the Magonid dynasty
 - The specific external relationships beyond what the broad colonial
-  network preserves — early Carthaginian-Greek diplomatic contact,
+  network preserves: early Carthaginian-Greek diplomatic contact,
   early Carthaginian-Etruscan negotiations, early Carthaginian relations
   with the Libyan hinterland populations
 - The texture of religious life in the period before the Tophet

@@ -417,14 +417,14 @@ the last build.
 |---|---|
 | events | 93 |
 | people | 82 |
-| places | 56 |
-| sources | 55 |
+| places | 57 |
+| sources | 63 |
 | claims | 172 |
 | editorialTakes | 24 |
 | openQuestions | 19 |
 | artifacts | 41 |
-| narratives | 40 |
-| themes | 17 |
+| narratives | 41 |
+| themes | 18 |
 | periods | 8 |
 | threads | 7 |
 | groups | 18 |
@@ -1162,6 +1162,96 @@ convention between `/dynasties/<slug>` and `/groups/<slug>`:
   bottom-center / top-center connection points rather than
   the auto-adjusted side-edges.
 
+### Academic review pass (June 2026, commits e5796c5 → 904723f)
+
+The user asked for a review of the site "from an academic
+perspective." The review's verdict: the epistemic apparatus
+(claims, stances, source-distance, source comparisons) is the
+site's real contribution and is ahead of most digital-humanities
+projects; the vulnerabilities were almost all in the source
+layer's completeness. Seven priority items were identified; the
+user worked the list in order. Items shipped:
+
+**1. Modern-apparatus source batch (e5796c5).** Eight new
+source entries closing the gap between scholarship the prose
+already discussed and what the source layer catalogued:
+`walbank-commentary-polybius` (the standard Polybius apparatus,
+previously absent entirely; linked from the Polybius entry),
+the three dueling tophet papers (`schwartz-tophet-2010`,
+`smith-tophet-2011`, `xella-bones-of-contention-2013`, all
+cited with stances into the tophet-child-sacrifice-contested
+claim), `hoyos-companion-punic-wars-2011`, and
+`docter-bir-massouda-2005`. Also corrected two errors in the
+tophet controversy narrative: the Smith papers were
+misattributed to "Smith, Stager, and Holladay" (Holladay was
+not an author; Greene and Avishai were), and the Schwartz 2010
+paper that triggered the exchange was never mentioned. The
+bioarchaeology section now walks Schwartz 2010 → Smith
+2011/2013 → Xella et al. 2013 → Ribichini in actual order.
+
+**2. Bir Massouda radiocarbon integration (67d7bcc).** The
+foundation-date material now presents three bodies of evidence
+(literary 814, ceramic late-8th-century horizon, radiocarbon
+c. 835–800 BCE). The `founding-archaeology-late-8th-century`
+claim was retagged attested → contested because the
+radiocarbon dates contradict its old statement outright.
+Updated: the open question, both founding claims, the founding
+event, the founding-how-to-read take.
+
+**3. Methodology page additions (b4c914f).** Three new
+sections: "Texts, editions, and translations" (standard
+internal divisions, public-domain translations named per
+source, Walbank as the model apparatus case, CIS/KAI corpus
+numbers); "How this site is produced" (discloses AI assistance
+with scope/positions/review as editorial decisions — wording
+reviewed by the user); "Corrections" (contact-form route,
+in-place corrections with revision stamps). The old "this
+methodology page is itself revisable" closer was later removed
+at user direction.
+
+**4. Confidence re-audit (2484a1d).** All 118 attested claims
+reviewed. Ten retagged attested → inferred — all modern
+comparative judgments or interpretive syntheses ("largest
+ambush in history," "most distinctive installation," etc.).
+Also caught a factual overclaim repeated in four places: that
+the 190s BCE indemnity payments were financed from Iberian
+silver reserves (Carthage lost Iberia in 206; the 196
+investigation found the indemnity payable from current African
+revenues). Corrected in two claims, the iberia place page, the
+hamilcars-iberian-conquest event, and the Iberian-silver
+narrative.
+
+**5. Inscriptional corpus interface — tabled again** by the
+user ("let's table item 5 for now").
+
+**6. Numismatics (904723f).** New `themes/carthaginian-coinage.md`:
+late adoption (c. 410 BCE, coinage as military-fiscal
+instrument; the *mḥnt* "camp" legends), Siculo-Punic beginnings
+as a cultural-integrator case, the Tanit/horse metropolitan
+series with type-readings explicitly labeled modern inference,
+metal-debasement trajectory as the state's only surviving
+fiscal record (including the rebel ΛΙΒΥΩΝ coinage of the
+Mercenary War), Barcid shekels. Two new sources:
+`jenkins-lewis-carthaginian-gold-1963`,
+`visona-carthaginian-coinage-1998`. Wired into four related
+themes and both coin artifacts.
+
+**7. DOI minting — stays parked** per the review's own logic
+(premature until the apparatus holes are closed).
+
+**Also in this stretch (bf76666):** the `disputed` confidence
+category (rose chip, zero uses across 172 claims) was folded
+into `contested` at user direction — removed from the schema
+enum, ConfidenceBadge, EditorialConfidenceChip, claims index,
+about page, and methodology (now four chips). And the thesis
+field of the new Iberian-silver narrative had markdown link
+syntax stripped (a9166e7) — narrative `thesis` renders as
+plain text via `{d.thesis}`, NOT through renderSummaryHtml, so
+thesis fields must be plain prose.
+
+Confidence distribution after the pass: 107 attested / 35
+contested / 29 inferred / 1 legendary.
+
 ---
 
 ## Outstanding work
@@ -1253,19 +1343,24 @@ not surface unsolicited.
    stale-while-revalidate logic). Foundation already in place via
    the manifest. Revisit if user wants offline access.
 
-### Residual prose work from active queue item #2 (held for later)
+### Residual prose work — COMPLETE (June 2026)
 
-The em-dash audit reduced the flagged file count from 249 to 68
-(73% reduction) via scripted paired-parenthetical conversion. The
-**65 remaining em-dash-overuse files** are single em-dashes used
-for sentence pivots, list intros, or appositives — cases that
-genuinely need per-file human judgment per the CLAUDE.md rule's
-"sharp interruption with strong rhetorical weight" allowance. Run
-`node scripts/prose-audit.mjs` to see the current list ranked by
-severity. Top residual hotspots: `people/malchus.yaml` (4.88/250),
-`claims/tagus-tactical-template-for-italy.yaml` (4.17/250),
-`groups/magonids.yaml` (3.73/250). Address organically as content
-gets touched, or run a manual pass when convenient.
+The long-held residual em-dash backlog was cleared in a manual
+pass: all 75 files then flagged by `prose-audit.mjs` were
+hand-edited per the house rule (paired dashes to parens/commas,
+expansions to colons, pivots to periods/semicolons), with only
+a handful of genuinely earned dashes or link-text titles kept.
+The repeated-phrase flag on `places/sicily.yaml` ("Treated
+separately on the site" used six times as a list refrain) and
+the doubled-word flag on `people/hiram-i.yaml` were also fixed.
+**`prose-audit.mjs` now reports 0 flagged files.** The
+tic-rank ceiling was simultaneously brought down from ~31/1k to
+~17/1k by hand-rewriting the eleven worst files (claims on the
+Magonid army reform, Polybius decline narrative, suffeteship
+separation, Melqart network, treaty sequence, Sardinia-as-cause,
+falarica wound, truceless character; the three Rawlings source
+entries; the why-Cannae thread). Run both audits periodically to
+catch regression: new prose should keep prose-audit at zero.
 
 ### Possible future content additions (held; diminishing returns)
 

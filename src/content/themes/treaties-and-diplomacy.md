@@ -39,7 +39,7 @@ treaties across the fifth through second centuries BCE.
 Polybius (3.22–27) preserves the pre-264 BCE treaties; Livy
 and others document the later ones.
 
-509 BCE — First Treaty. The
+509 BCE: First Treaty. The
 [first Roman-Carthaginian treaty](/events/first-treaty-with-rome)
 set up the basic commercial-jurisdictional framework: Rome's
 commercial activity restricted to coastal Italy, Carthage's
@@ -48,13 +48,13 @@ provisions on which harbors each side could use. The date is
 contested in some modern readings, covered under
 [the open question on pre-264 treaties](/openQuestions/fpw-pre-264-treaties).
 
-348 BCE — Second Treaty. The
+348 BCE: Second Treaty. The
 [second treaty](/events/second-treaty-with-rome) renewed and
 extended the 509 framework with tighter commercial
 restrictions. Polybius preserves the content; the dating is
 generally accepted.
 
-306 BCE — Third Treaty (Philinus). Philinus of Akragas, a
+306 BCE: Third Treaty (Philinus). Philinus of Akragas, a
 third-century BCE pro-Carthaginian historian whose work
 survives only through Polybius's polemical engagement with
 it, refers to a third treaty that supposedly restricted Roman
@@ -65,7 +65,7 @@ the treaty's existence. The question is treated under the
 and the
 [first-treaty-trust-Polybius editorial take](/editorialTakes/first-treaty-trust-polybius).
 
-279 BCE — Pyrrhic War Treaty. The
+279 BCE: Pyrrhic War Treaty. The
 [Pyrrhic War treaty](/events/pyrrhic-war-treaty) set up
 Roman-Carthaginian cooperation during Pyrrhus's western
 campaign. The cooperation was naval: Carthaginian fleet
@@ -74,7 +74,7 @@ fleet support for Carthaginian operations in Sicily. The
 treaty was the high point of pre-FPW Roman-Carthaginian
 cooperative diplomacy.
 
-241 BCE — Treaty of Lutatius. The
+241 BCE: Treaty of Lutatius. The
 [Treaty of Lutatius](/events/treaty-of-lutatius) ended the
 First Punic War. Carthage gave up Sicily and the surrounding
 islands and accepted an indemnity. Polybius preserves the
@@ -83,7 +83,7 @@ in 238 BCE went well beyond what the original agreement had
 required, and the violation is one of the long-running
 grievances behind Barcid orientation toward Rome.
 
-226 BCE — Ebro Treaty. The
+226 BCE: Ebro Treaty. The
 [Ebro Treaty](/events/ebro-treaty) between Rome and the
 Carthaginian Iberian state, under
 [Hasdrubal the Fair](/people/hasdrubal-the-fair), set the
@@ -94,7 +94,7 @@ Saguntum can be read as a Carthaginian violation, as a Roman
 provocation through extension of *socii* protection, or as
 some combination of the two.
 
-218 BCE — Declaration of war. The
+218 BCE: Declaration of war. The
 [218 BCE Roman declaration of war](/events/roman-declaration-of-war-218)
 was delivered by the Roman embassy at Carthage in the famous
 "toga episode": the spokesman folded his toga and offered
@@ -105,7 +105,7 @@ Roman embassies, the Carthaginian responses) is treated
 under the
 [Hannibal-as-integrated-Punic-Hellenistic-figure framing](/editorialTakes/carthage-as-cultural-integrator).
 
-201 BCE — Treaty of 201. The
+201 BCE: Treaty of 201. The
 [Treaty of 201](/events/treaty-of-201-bce) ended the Second
 Punic War. The terms (a 10,000-talent indemnity over fifty
 years, the navy reduced to ten ships, no warfare without
