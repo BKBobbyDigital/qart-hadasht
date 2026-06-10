@@ -15,7 +15,7 @@ const byConfidence = claims.reduce((acc: any, c: any) => {
   return acc;
 }, {});
 
-const order = ['attested', 'inferred', 'contested', 'disputed', 'legendary'];
+const order = ['attested', 'inferred', 'contested', 'legendary'];
 ---
 
 <BaseLayout title="Claims">
@@ -24,7 +24,7 @@ const order = ['attested', 'inferred', 'contested', 'disputed', 'legendary'];
     <p class="text-sand-700 mb-8 max-w-2xl">
       The atomic factual statements the encyclopedia is built from.
       Each claim has explicit confidence (<em>attested</em>, <em>inferred</em>,
-      <em>contested</em>, <em>disputed</em>, or <em>legendary</em>) and
+      <em>contested</em>, or <em>legendary</em>) and
       cites the ancient and modern sources that support, qualify, or
       contradict it. Grouped here by confidence; on each entity page
       claims appear filtered to that entity.

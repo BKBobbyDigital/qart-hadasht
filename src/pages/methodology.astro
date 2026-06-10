@@ -52,7 +52,7 @@ const unknownLike = { type: 'literary', is_primary: true };
 
       <h2>The confidence vocabulary</h2>
       <p>
-        Every claim wears one of five confidence chips. They are the most
+        Every claim wears one of four confidence chips. They are the most
         important glyphs on the site:
       </p>
       <ul class="not-prose space-y-3 my-6">
@@ -82,15 +82,6 @@ const unknownLike = { type: 'literary', is_primary: true };
           </span>
         </li>
         <li class="flex items-baseline gap-3 flex-wrap">
-          <ConfidenceBadge confidence="disputed" />
-          <span class="flex-1">
-            Active modern scholarly disagreement over a question the ancient
-            sources don't directly settle. Used where the dispute is
-            specifically a recent-scholarship one rather than an
-            ancient-source one.
-          </span>
-        </li>
-        <li class="flex items-baseline gap-3 flex-wrap">
           <ConfidenceBadge confidence="legendary" />
           <span class="flex-1">
             Drawn from legendary or mythologized tradition — Dido's flight from
@@ -101,7 +92,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       </ul>
       <p>
         The colors are part of the design language. After a few pages they
-        read faster than the words: emerald for what's solid, amber and rose
+        read faster than the words: emerald for what's solid, amber
         for what's contested, sky for synthesis, stone for the legendary
         layer.
       </p>
@@ -367,13 +358,6 @@ const unknownLike = { type: 'literary', is_primary: true };
         wrongness fixable: each claim is a single file, each source is a
         single page, each take has a date and an open-to-revision flag.
         Corrections are welcome.
-      </p>
-
-      <hr class="my-10 border-tyrian-500" />
-      <p class="text-sm text-sand-700">
-        This methodology page is itself revisable. If a convention here
-        does not match what you see across the site, the convention is
-        wrong (or out of date) and worth flagging.
       </p>
     </div>
   </article>

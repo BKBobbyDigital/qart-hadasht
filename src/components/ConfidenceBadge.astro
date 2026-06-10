@@ -3,7 +3,7 @@
  * Site-wide confidence chip — one of the recurring epistemic glyphs.
  *
  * Used wherever a claim, date, or place identification is labeled with the
- * site's confidence vocabulary (attested / inferred / contested / disputed /
+ * site's confidence vocabulary (attested / inferred / contested /
  * legendary). The colored dot is part of the design language: once a reader
  * has seen each color a few times, the glyph reads faster than the word.
  *
@@ -13,7 +13,7 @@
  */
 
 interface Props {
-  confidence: 'attested' | 'inferred' | 'contested' | 'legendary' | 'disputed';
+  confidence: 'attested' | 'inferred' | 'contested' | 'legendary';
   /** Visual size. Default 'sm'. */
   size?: 'sm' | 'xs';
 }
@@ -46,14 +46,6 @@ const styles: Record<
     text: 'text-amber-900',
     label: 'contested',
     title: 'Genuinely disputed in the sources or among modern scholars.',
-  },
-  disputed: {
-    dot: 'bg-rose-600',
-    border: 'border-rose-300',
-    bg: 'bg-rose-50',
-    text: 'text-rose-900',
-    label: 'disputed',
-    title: 'Active disagreement among modern scholars.',
   },
   legendary: {
     dot: 'bg-stone-500',

@@ -25,7 +25,7 @@ const historicalDate = z
   })
   .strict();
 
-const confidence = z.enum(['attested', 'inferred', 'contested', 'legendary', 'disputed']);
+const confidence = z.enum(['attested', 'inferred', 'contested', 'legendary']);
 
 const citationStance = z.enum(['supports', 'contradicts', 'qualifies']);
 

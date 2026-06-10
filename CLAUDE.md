@@ -194,10 +194,10 @@ Every claim on the site is tagged with one of:
   disputed (emerald chip)
 - **`inferred`** — reasoned from primary evidence; not directly stated
   but well-supported (sky chip)
-- **`contested`** — genuinely disputed in the sources or among modern
-  scholars (amber chip)
-- **`disputed`** — active disagreement among modern scholars
-  (rose chip)
+- **`contested`** — genuinely disputed in the ancient sources, among
+  modern scholars, or both (amber chip). A former separate `disputed`
+  category (rose chip, modern-scholarship-only disagreement) was
+  folded into `contested` in June 2026; it had zero uses.
 - **`legendary`** — drawn from legendary or mythologized tradition;
   historicity uncertain (stone chip)
 
