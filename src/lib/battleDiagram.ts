@@ -9,10 +9,17 @@
 
 export type BattleUnit = {
   /** Box-style unit (most infantry, cavalry blocks). */
-  rect?: { x: number; y: number; w: number; h: number };
+  rect?: { x: number; y: number; w: number; h: number; rx?: number };
   /** Free-form SVG path d (crescents, irregular formations). */
   path?: string;
   fill: string;
+  /**
+   * Optional pattern fill: 'hatch' renders diagonal stripes in the
+   * unit's fill color on a paper-white ground (cavalry convention);
+   * 'dots' renders a dot grid (light-cavalry convention). The fill
+   * color becomes the pattern ink; set stroke for the border.
+   */
+  patternFill?: 'hatch' | 'dots';
   stroke?: string;
   strokeWidth?: number;
   strokeDasharray?: string;
@@ -37,6 +44,8 @@ export type BattleUnit = {
 export type BattleArrow = {
   from: [number, number];
   to: [number, number];
+  /** Optional quadratic-bezier control point for curved sweep arrows. */
+  via?: [number, number];
   color?: string;
   width?: number;
   /** Optional dasharray for movement-projection arrows. */
@@ -70,6 +79,12 @@ export type BattlePhase = {
   label: string;
   /** Accessibility title for the SVG. */
   title: string;
+  /**
+   * Optional one-to-three-sentence narrative for the phase, rendered
+   * under the label above the SVG. Phases with a description also get
+   * a numbered circle badge in the header.
+   */
+  description?: string;
   viewBox?: string;
   background?: string;
   northArrow?: boolean;
@@ -83,6 +98,8 @@ export type BattleLegendItem = {
   label: string;
   fill: string;
   stroke?: string;
+  /** Render the swatch with the hatch/dots pattern instead of solid fill. */
+  pattern?: 'hatch' | 'dots';
 };
 
 export type BattleDiagramConfig = {
