@@ -18,7 +18,9 @@ const enriched = await Promise.all(
 enriched.sort((a, b) => a.comparison.data.title.localeCompare(b.comparison.data.title));
 ---
 
-<BaseLayout title="Source comparisons">
+<BaseLayout title="Source comparisons"
+  description="Contested episodes of Carthaginian history read through multiple ancient sources in parallel, with the points where they differ and the site's working reconstruction."
+>
   <div class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="font-serif text-4xl sm:text-5xl mb-3">Source comparisons</h1>
     <p class="text-sand-700 mb-3">

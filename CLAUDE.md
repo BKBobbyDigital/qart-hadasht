@@ -890,6 +890,21 @@ sort order.
 - Security and provenance hardening (cooperative robots.txt; HTTP
   headers including HSTS, Permissions-Policy, X-Robots-Tag; HTML
   provenance markers; 2FA on GitHub/Netlify/registrar)
+- SEO / AI-discoverability lean pass (July 2026): `@astrojs/sitemap`
+  (emits `/sitemap-index.xml`, ~692 URLs; search/thanks excluded;
+  `Sitemap:` line in robots.txt); per-page `<link rel="canonical">`;
+  Open Graph + Twitter card meta in BaseLayout (optional `ogType`
+  and `image` props; branded 1200x630 `/og-default.png` generated
+  from an SVG via sharp — regenerate with the SVG in the commit if
+  the wordmark changes); `/llms.txt` endpoint (`src/pages/llms.txt.ts`,
+  llmstxt.org convention, curated index auto-built from collections);
+  real meta descriptions on all ~20 index/static pages (entity
+  `[slug]` pages already had them from summaries). robots.txt also
+  extended to disallow aggressive commercial SEO crawlers (Ahrefs,
+  Semrush, MJ12, DotBot, DataForSeo, BLEX, Petal, etc.). NOTE: the
+  `noai, noimageai` robots meta + X-Robots-Tag header are a
+  deliberate AI-*training* opt-out; they do not block the AI
+  answer/live-fetch bots, which robots.txt explicitly allows.
 - Richer deity infobox (sanctuary, iconography, consort, cult_period
   fields; all 10 deities filled)
 - Threads collection (7 curated reading paths)

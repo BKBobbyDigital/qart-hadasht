@@ -6,13 +6,27 @@ import TanitMark from '../components/TanitMark.astro';
 interface Props {
   title: string;
   description?: string;
+  /**
+   * Open Graph / Twitter card type. 'website' for the homepage and
+   * listing pages; 'article' for entity and long-form pages.
+   */
+  ogType?: 'website' | 'article';
+  /** Absolute or root-relative share image; defaults to the branded card. */
+  image?: string;
 }
 
 const {
   title,
   description = 'Qart-Hadasht — The Carthage Encyclopedia. A reference for ancient Carthage from founding to destruction.',
+  ogType = 'website',
+  image = '/og-default.png',
 } = Astro.props;
 const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
+
+// Canonical + absolute URLs. Astro.site is set in astro.config.mjs, so
+// these resolve to https://qart-hadasht.org/... at build time.
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const imageURL = new URL(image, Astro.site);
 
 // Primary nav, grouped by epistemic kind:
 //   - REFERENCE: atomic encyclopedia entries (what/who/where lookups)
@@ -66,6 +80,25 @@ const navGroups = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph — link previews in social, chat apps, and some
+         search/AI preview cards. -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Qart-Hadasht" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={imageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X card. -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageURL} />
     <!-- AI-training opt-out at the HTML level. The robots.txt
          block is the primary signal; this is a per-page reinforcement
          that some crawlers consult separately. Cooperative
