@@ -16,6 +16,7 @@
  * See src/data/maps/fpw.json for an example.
  */
 import coastline from '../data/coastline-mediterranean.json';
+import coastlineAtlantic from '../data/coastline-atlantic.json';
 
 interface Viewport {
   lonMin: number;
@@ -63,6 +64,15 @@ interface RegionLabel {
 
 interface MapConfig {
   viewport: Viewport;
+  /**
+   * Which coastline base to draw. 'mediterranean' (default) uses only the
+   * Mediterranean Natural Earth clip. 'atlantic' additionally renders the
+   * West African Atlantic coast, for maps that reach down the African
+   * seaboard (e.g. Hanno's Periplus). The Mediterranean data already
+   * covers Iberia, Gibraltar, northern Morocco, and Carthage, so the
+   * Atlantic set only supplies the missing southern coast.
+   */
+  coastline?: 'mediterranean' | 'atlantic';
   polygons?: Polygon[];
   routes?: Route[];
   cities?: City[];
@@ -103,8 +113,12 @@ function projectClosedPath(coords: [number, number][]): string {
 // Build coastline path data — concatenate all LineString features. Each
 // feature becomes one M..L..L.. subpath. SVG handles bbox-clipping via
 // viewBox; lines extending outside are silently truncated.
+const coastlineFeatures = [
+  ...((coastline as any).features as any[]),
+  ...(config.coastline === 'atlantic' ? ((coastlineAtlantic as any).features as any[]) : []),
+];
 const coastlinePaths: string[] = [];
-for (const f of (coastline as any).features as any[]) {
+for (const f of coastlineFeatures) {
   if (f.geometry?.type === 'LineString') {
     coastlinePaths.push(projectPath(f.geometry.coordinates as [number, number][]));
   }

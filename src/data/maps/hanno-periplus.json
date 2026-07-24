@@ -1,0 +1,302 @@
+{
+  "coastline": "atlantic",
+  "viewport": {
+    "lonMin": -20.5,
+    "lonMax": 12.5,
+    "latMin": 1.5,
+    "latMax": 38.5
+  },
+  "routes": [
+    {
+      "name": "Outward colonizing leg (Carthage to Cerne)",
+      "color": "#5b0f31",
+      "points": [
+        [
+          10.32,
+          36.86
+        ],
+        [
+          6.5,
+          36.4
+        ],
+        [
+          1.5,
+          36.1
+        ],
+        [
+          -2.5,
+          35.9
+        ],
+        [
+          -5.6,
+          35.9
+        ],
+        [
+          -6.7,
+          34.25
+        ],
+        [
+          -8.2,
+          33.2
+        ],
+        [
+          -9.27,
+          32.55
+        ],
+        [
+          -9.85,
+          31.3
+        ],
+        [
+          -10.6,
+          29.8
+        ],
+        [
+          -11.6,
+          28.4
+        ],
+        [
+          -13.0,
+          27.0
+        ],
+        [
+          -14.5,
+          25.4
+        ],
+        [
+          -15.9,
+          23.7
+        ]
+      ]
+    },
+    {
+      "name": "Exploration leg, reasonably argued extent",
+      "color": "#5b0f31",
+      "dashed": true,
+      "points": [
+        [
+          -15.9,
+          23.7
+        ],
+        [
+          -16.3,
+          21.0
+        ],
+        [
+          -16.0,
+          18.1
+        ],
+        [
+          -16.5,
+          16.05
+        ],
+        [
+          -17.4,
+          14.9
+        ],
+        [
+          -17.5,
+          14.72
+        ],
+        [
+          -16.6,
+          13.4
+        ],
+        [
+          -15.6,
+          11.7
+        ],
+        [
+          -14.4,
+          10.1
+        ],
+        [
+          -13.3,
+          8.5
+        ]
+      ]
+    },
+    {
+      "name": "Exploration leg, maximal contested extent",
+      "color": "#a06a3a",
+      "dashed": true,
+      "arrow": true,
+      "points": [
+        [
+          -13.3,
+          8.5
+        ],
+        [
+          -11.0,
+          6.2
+        ],
+        [
+          -7.7,
+          4.5
+        ],
+        [
+          -4.0,
+          5.2
+        ],
+        [
+          -0.2,
+          5.7
+        ],
+        [
+          3.4,
+          6.3
+        ],
+        [
+          5.4,
+          4.5
+        ],
+        [
+          7.6,
+          4.6
+        ],
+        [
+          9.2,
+          4.3
+        ]
+      ]
+    },
+    {
+      "name": "Senegal River",
+      "color": "#5a7a99",
+      "points": [
+        [
+          -16.5,
+          16.05
+        ],
+        [
+          -14.5,
+          16.2
+        ],
+        [
+          -12.5,
+          15.6
+        ],
+        [
+          -10.5,
+          15.1
+        ]
+      ]
+    }
+  ],
+  "region_labels": [
+    {
+      "text": "S A H A R A",
+      "lon": -3.5,
+      "lat": 24.5,
+      "size": "large",
+      "italic": true
+    },
+    {
+      "text": "IBERIA",
+      "lon": -9.0,
+      "lat": 38.1,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Pillars of Heracles",
+      "lon": -1.0,
+      "lat": 35.5,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Canary Is.",
+      "lon": -15.2,
+      "lat": 26.6,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Senegal",
+      "lon": -13.6,
+      "lat": 15.8,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Atlantic Ocean",
+      "lon": -13.5,
+      "lat": 5.5,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Gulf of Guinea",
+      "lon": 1.8,
+      "lat": 2.4,
+      "size": "small",
+      "italic": true
+    }
+  ],
+  "cities": [
+    {
+      "name": "Qart-ḥadasht",
+      "lon": 10.32,
+      "lat": 36.86,
+      "role": "major",
+      "label_anchor": "left"
+    },
+    {
+      "name": "Gadir",
+      "lon": -6.28,
+      "lat": 36.53,
+      "role": "major",
+      "label_anchor": "top"
+    },
+    {
+      "name": "1 · Thymiaterion",
+      "lon": -6.7,
+      "lat": 34.25,
+      "role": "minor",
+      "label_anchor": "left"
+    },
+    {
+      "name": "2 · Soloeis",
+      "lon": -9.27,
+      "lat": 32.55,
+      "role": "minor",
+      "label_anchor": "left"
+    },
+    {
+      "name": "3 · Karikon Teichos",
+      "lon": -9.85,
+      "lat": 31.3,
+      "role": "minor",
+      "label_anchor": "left"
+    },
+    {
+      "name": "4 · Melitta",
+      "lon": -10.6,
+      "lat": 29.8,
+      "role": "minor",
+      "label_anchor": "left"
+    },
+    {
+      "name": "5 · Cerne",
+      "lon": -15.9,
+      "lat": 23.7,
+      "role": "major",
+      "label_anchor": "left"
+    },
+    {
+      "name": "6 · Chariot of the Gods",
+      "lon": 9.2,
+      "lat": 4.3,
+      "role": "battle",
+      "label_anchor": "left"
+    },
+    {
+      "name": "gorillai island",
+      "lon": 7.6,
+      "lat": 2.6,
+      "role": "minor",
+      "label_anchor": "bottom"
+    }
+  ]
+}
