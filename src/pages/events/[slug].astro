@@ -351,11 +351,10 @@ const infoboxRows: InfoboxRow[] = [
       <HistoricalMap
         config={mapConfigs[data.map_id]}
         caption={data.map_caption}
-        height="500px"
       />
     )}
 
-    {eventMapPoints.length > 0 && (
+    {!data.map_id && eventMapPoints.length > 0 && (
       <Map
         points={eventMapPoints}
         height="320px"
