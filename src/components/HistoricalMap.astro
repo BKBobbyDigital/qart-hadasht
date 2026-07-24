@@ -17,6 +17,7 @@
  */
 import coastline from '../data/coastline-mediterranean.json';
 import coastlineAtlantic from '../data/coastline-atlantic.json';
+import coastlineAtlanticNorth from '../data/coastline-atlantic-north.json';
 
 interface Viewport {
   lonMin: number;
@@ -67,12 +68,15 @@ interface MapConfig {
   /**
    * Which coastline base to draw. 'mediterranean' (default) uses only the
    * Mediterranean Natural Earth clip. 'atlantic' additionally renders the
-   * West African Atlantic coast, for maps that reach down the African
-   * seaboard (e.g. Hanno's Periplus). The Mediterranean data already
-   * covers Iberia, Gibraltar, northern Morocco, and Carthage, so the
-   * Atlantic set only supplies the missing southern coast.
+   * West African Atlantic coast (for maps reaching down the African
+   * seaboard, e.g. Hanno's Periplus); 'atlantic-north' additionally
+   * renders Brittany, the Channel coast, Britain, and Ireland (for maps
+   * reaching up the European Atlantic, e.g. Himilco's voyage). The
+   * Mediterranean data already covers Iberia, Gibraltar, the Biscay and
+   * Brittany coast to ~48N, northern Morocco, and Carthage, so each
+   * extension only supplies the missing coast beyond that.
    */
-  coastline?: 'mediterranean' | 'atlantic';
+  coastline?: 'mediterranean' | 'atlantic' | 'atlantic-north';
   polygons?: Polygon[];
   routes?: Route[];
   cities?: City[];
@@ -117,9 +121,15 @@ function projectClosedPath(coords: [number, number][]): string {
 // Build coastline path data — concatenate all LineString features. Each
 // feature becomes one M..L..L.. subpath. SVG handles bbox-clipping via
 // viewBox; lines extending outside are silently truncated.
+const coastlineExtension =
+  config.coastline === 'atlantic'
+    ? (coastlineAtlantic as any).features
+    : config.coastline === 'atlantic-north'
+      ? (coastlineAtlanticNorth as any).features
+      : [];
 const coastlineFeatures = [
   ...((coastline as any).features as any[]),
-  ...(config.coastline === 'atlantic' ? ((coastlineAtlantic as any).features as any[]) : []),
+  ...(coastlineExtension as any[]),
 ];
 const coastlinePaths: string[] = [];
 for (const f of coastlineFeatures) {

@@ -1,0 +1,227 @@
+{
+  "coastline": "atlantic-north",
+  "viewport": {
+    "lonMin": -12.0,
+    "lonMax": 13.0,
+    "latMin": 34.0,
+    "latMax": 58.0
+  },
+  "routes": [
+    {
+      "name": "Attested leg (Carthage to the Brittany tin coast)",
+      "color": "#5b0f31",
+      "points": [
+        [
+          10.32,
+          36.86
+        ],
+        [
+          8.0,
+          37.0
+        ],
+        [
+          4.0,
+          36.7
+        ],
+        [
+          0.0,
+          36.4
+        ],
+        [
+          -3.0,
+          36.0
+        ],
+        [
+          -5.7,
+          35.9
+        ],
+        [
+          -6.5,
+          36.7
+        ],
+        [
+          -8.2,
+          37.0
+        ],
+        [
+          -9.6,
+          38.0
+        ],
+        [
+          -9.9,
+          40.0
+        ],
+        [
+          -9.9,
+          41.8
+        ],
+        [
+          -9.6,
+          43.2
+        ],
+        [
+          -7.6,
+          44.2
+        ],
+        [
+          -4.0,
+          45.6
+        ],
+        [
+          -3.2,
+          46.8
+        ],
+        [
+          -4.2,
+          47.7
+        ],
+        [
+          -5.2,
+          48.1
+        ]
+      ]
+    },
+    {
+      "name": "Contested reach to the Cassiterides",
+      "color": "#a06a3a",
+      "dashed": true,
+      "arrow": true,
+      "points": [
+        [
+          -5.2,
+          48.1
+        ],
+        [
+          -6.0,
+          49.2
+        ],
+        [
+          -6.4,
+          50.1
+        ]
+      ]
+    },
+    {
+      "name": "Contested reach to Ierne",
+      "color": "#a06a3a",
+      "dashed": true,
+      "arrow": true,
+      "points": [
+        [
+          -5.4,
+          48.3
+        ],
+        [
+          -7.6,
+          50.0
+        ],
+        [
+          -8.6,
+          51.5
+        ]
+      ]
+    }
+  ],
+  "region_labels": [
+    {
+      "text": "Mare Internum",
+      "lon": 4.0,
+      "lat": 38.2,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "IBERIA",
+      "lon": -4.5,
+      "lat": 40.8,
+      "size": "large",
+      "italic": true
+    },
+    {
+      "text": "Ophiussa",
+      "lon": -8.7,
+      "lat": 40.3,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Tartessus",
+      "lon": -6.4,
+      "lat": 37.6,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Gallia",
+      "lon": 2.2,
+      "lat": 46.6,
+      "size": "large",
+      "italic": true
+    },
+    {
+      "text": "Oestrymnides",
+      "lon": -4.6,
+      "lat": 47.2,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Cassiterides",
+      "lon": -8.4,
+      "lat": 49.9,
+      "size": "small",
+      "italic": true
+    },
+    {
+      "text": "Albion",
+      "lon": -1.8,
+      "lat": 52.6,
+      "size": "large",
+      "italic": true
+    },
+    {
+      "text": "Ierne",
+      "lon": -8.0,
+      "lat": 53.3,
+      "size": "large",
+      "italic": true
+    },
+    {
+      "text": "Oceanus",
+      "lon": -10.6,
+      "lat": 45.5,
+      "size": "small",
+      "italic": true
+    }
+  ],
+  "cities": [
+    {
+      "name": "Qart-ḥadasht",
+      "lon": 10.32,
+      "lat": 36.86,
+      "role": "major",
+      "label_anchor": "left"
+    },
+    {
+      "name": "Gadir",
+      "lon": -6.28,
+      "lat": 36.53,
+      "role": "major",
+      "label_anchor": "left"
+    },
+    {
+      "name": "Massalia",
+      "lon": 5.37,
+      "lat": 43.3,
+      "role": "minor",
+      "label_anchor": "right"
+    },
+    {
+      "name": "Lixus",
+      "lon": -6.1,
+      "lat": 35.2,
+      "role": "minor",
+      "label_anchor": "left"
+    }
+  ]
+}
