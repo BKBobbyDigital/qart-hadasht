@@ -1490,6 +1490,12 @@ not surface unsolicited.
    Phase 3 crowding was reviewed and fixed in the restyle pass
    (the congestion was the top-left march annotation + arrow +
    cavalry block, not the death annotations).
+   - **Review note (Aug 2026):** user finds the diagrams "a bit
+     rudimentary but they do the job for now." They read as
+     functional-schematic rather than polished. A future visual
+     upgrade (richer unit glyphs, terrain, typographic polish) is
+     an open possibility — not urgent; fits the tabled "revamp all
+     UI" direction. Revisit if the user calls for it.
 
 3. **Family tree / dynasty explorer** — *three dynasties shipped*
    (Barcids, Massylii, Magonids) via the data-driven `FamilyTree`
