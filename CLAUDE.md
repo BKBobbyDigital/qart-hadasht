@@ -426,9 +426,8 @@ favicon. Phoenician script lockup is preserved alongside.
 ### Card system (normalized Aug 2026)
 
 Cards grew page-by-page without a shared component and drifted. They
-were normalized to one vocabulary (the **homepage cards are excluded** —
-they're pending the homepage redesign, so `pages/index.astro` still
-carries the old tokens by design):
+were normalized to one vocabulary (the homepage was later rebuilt in
+this system too — see "Homepage redesign" below):
 
 - **Radius**: `rounded-lg` everywhere.
 - **Background**: solid white `bg-sand-50`. The translucent `bg-white/60`
@@ -1653,13 +1652,43 @@ Revisit dependencies in 3-6 months or sooner if a CVE applies to a
 feature the site actually uses. `npm audit` will continue to flag
 these but they're informational for this codebase.
 
-### The timeline on the homepage was removed
+### Homepage redesign — magazine front (Aug 2026)
 
-We tried multiple approaches and concluded the horizontal-line format
-doesn't fit data with this shape. Was removed; will revisit later.
-Options floated: tiny period-band sparkline strip, vertical
-chronological format, or none at all. The homepage is now hero →
-start-here chips → reading threads → personal voice → what-this-is.
+The homepage was rebuilt into a **typographic magazine front page**
+("Direction A", chosen over a "come for / stay for" dual-band
+alternative). No imagery — the magazine feel is carried by type, the
+tyrian graphic system, and varied card weights. Structure of
+`pages/index.astro`, top to bottom:
+
+- **Lead story** — a two-column marquee (`lg:grid-cols-[1.55fr_1fr]`)
+  closed by a 3px ink rule. Left: a big Bricolage headline
+  (`text-[clamp(2.2rem,4.4vw,3.5rem)]`) + standfirst + byline, linking
+  to a flagship piece. Right: a "Where this site differs" note in
+  Fraunces italic. **The lead is a single hand-curated slot** (the
+  `lead` object in frontmatter) — swap its copy/href to feature a
+  different take/narrative/comparison. Currently the
+  destruction-not-weak-enough take.
+- **Famous entry points** — "Start with the famous stories": four
+  broadsheet items (top-ruled, hand-curated `famous` array with custom
+  framings, not entity summaries) — Hannibal, Dido, the Tophet, and the
+  "salt the earth" myth-correction. Swap freely.
+- **Read deeper** — one card each of the novel formats (narrative,
+  source comparison, thread), pulled live; feature cards
+  (`border-tyrian-300`). Followed by a links row to the full
+  collections with **live counts** (were hard-coded + stale).
+- **Personal voice** — the "From the encyclopedia" band on faint-gray,
+  Fraunces pull-quote.
+- **What this is** — the three value-prop columns.
+
+The cards use the normalized card system (this replaced the old
+excluded-from-normalization homepage tokens). A `trimGloss()` helper
+(first-sentence-preferring truncation) feeds the pulled card previews.
+
+(Earlier homepage — hero → start-here chips → reading threads → personal
+voice → what-this-is — is superseded. The horizontal-line **timeline**
+experiment was removed before this and did not return; if a chrono
+element is ever wanted, a period-band sparkline strip was the floated
+option.)
 
 ---
 

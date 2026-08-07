@@ -1,14 +1,12 @@
 ---
 import { renderInline } from '../lib/autolink';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getEntry } from 'astro:content';
+import { getEntry, getCollection } from 'astro:content';
 
 // Trim a long summary down to a single editorial gloss. Prefers the
 // first complete sentence; falls back to a word-boundary truncation.
 function trimGloss(s: string | undefined, max = 200): string {
   if (!s) return '';
-  // Strip inline markdown (*italic*, **bold**, [text](url)) so glosses
-  // never show literal markers in plain-text card previews.
   const clean = s
     .replace(/\[([^\]\n]+)\]\([^)\s]+\)/g, '$1')
     .replace(/\*\*([^\n]+?)\*\*/g, '$1')
@@ -23,289 +21,182 @@ function trimGloss(s: string | undefined, max = 200): string {
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
 
-// ─── Headline editorial takes ────────────────────────────────────────────────
-// Three positions the site argues that nobody else does in this form.
-// These are the sharpest possible front door — a first-time visitor
-// sees immediately what makes this encyclopedia distinct.
-const featuredTakeSlugs = [
-  'destruction-not-weak-enough',
-  'masinissa-strategic-opportunist',
-  'tophet-happened-scale-unrecoverable',
-];
-const featuredTakes = (await Promise.all(
-  featuredTakeSlugs.map(async (slug) => await getEntry('editorialTakes', slug))
-)).filter(Boolean) as any[];
-
-// ─── Long-form narratives ────────────────────────────────────────────────────
-// Three substantive interpretive arcs — the "long arc and structural
-// questions" the pull-quote promises, vs the dramatic-highlights
-// framing that dominates the open-web Carthage record.
-const featuredNarrativeSlugs = [
-  'mago-of-carthage',
-  'punic-continuity-in-roman-africa',
-  'the-barcid-iberian-state',
-];
-const featuredNarratives = (await Promise.all(
-  featuredNarrativeSlugs.map(async (slug) => await getEntry('narratives', slug))
-)).filter(Boolean) as any[];
-
-// ─── Open questions ──────────────────────────────────────────────────────────
-// Gaps as first-class entities. Two featured: one the long-arc duration
-// question (load-bearing for the no-hard-endpoint discipline), and one
-// a famous claim the site reframes (salt-the-earth — almost everyone
-// gets this wrong).
-const featuredQuestionSlugs = [
-  'duration-of-punic-cultural-identity',
-  'tpw-salt-the-earth',
-];
-const featuredQuestions = (await Promise.all(
-  featuredQuestionSlugs.map(async (slug) => await getEntry('openQuestions', slug))
-)).filter(Boolean) as any[];
-
-// ─── Featured source comparison ──────────────────────────────────────────────
-// Showcase the new source-rivalry reading interface. Cannae is the POC
-// and the strongest example: four ancient sources, six points of
-// difference worked out, with the methodological pay-off (the Maharbal
-// exchange almost certainly not historical) genuinely interesting.
-const featuredComparison = await getEntry('sourceComparisons', 'cannae');
-
-// ─── Featured threads ────────────────────────────────────────────────────────
-const featuredThreadSlugs = [
-  'hannibals-life',
-  'road-to-146',
-  'why-cannae-didnt-end-the-war',
-  'the-tophet-question',
-];
-const featuredThreads = (await Promise.all(
-  featuredThreadSlugs.map(async (slug) => await getEntry('threads', slug))
-)).filter(Boolean) as any[];
-
-const confidenceLabel: Record<string, string> = {
-  tentative: 'tentative',
-  moderate: 'moderate',
-  strong: 'strong',
+// ─── Lead story ──────────────────────────────────────────────────────────────
+// The marquee slot. Hand-curated (a single editable spot) — swap the copy
+// and href to feature a different flagship piece (take, narrative, or
+// comparison) whenever. Currently the destruction editorial take: a famous
+// topic that also showcases the labeled-position format.
+const lead = {
+  kicker: 'Editorial take · The destruction',
+  headline: 'Carthage was destroyed because it had not become weak enough',
+  standfirst:
+    "The Treaty of 201 was meant to reduce Carthage to a permanently constrained power. Fifty years later Rome erased the city anyway. The site's reading of why, and what the sources actually support.",
+  meta: 'Read the take · confidence: strong · 9 min',
+  href: '/editorialTakes/destruction-not-weak-enough',
 };
+
+// ─── Famous entry points ─────────────────────────────────────────────────────
+// The familiar front door. Hand-curated framings (not entity summaries) so
+// the copy can do the pulling. Swap freely.
+const famous = [
+  {
+    kicker: 'Person',
+    title: 'Hannibal Barca',
+    gloss: 'The war he carried into Italy — and what he was really trying to do.',
+    href: '/people/hannibal-barca',
+  },
+  {
+    kicker: 'The founding',
+    title: 'Dido, the queen',
+    gloss: 'Where the legend of the founding ends and the evidence begins.',
+    href: '/people/dido',
+  },
+  {
+    kicker: 'The Tophet',
+    title: 'Child sacrifice?',
+    gloss: 'The practice happened; the scale is unrecoverable. What the evidence shows.',
+    href: '/narratives/the-tophet-controversy',
+  },
+  {
+    kicker: 'The myth',
+    title: '“They salted the earth”',
+    gloss: "Everyone knows Rome salted Carthage's fields. It didn't — here's the record.",
+    href: '/openQuestions/tpw-salt-the-earth',
+  },
+];
+
+// ─── Read deeper: the novel formats ──────────────────────────────────────────
+// One of each distinctive format, teased. These are what the open-web
+// Carthage record doesn't do.
+const leadNarrative = await getEntry('narratives', 'the-barcid-iberian-state');
+const featuredComparison = await getEntry('sourceComparisons', 'cannae');
+const leadThread = await getEntry('threads', 'hannibals-life');
+
+// Live counts for the "all X" links (were hard-coded and had gone stale).
+const takeCount = (await getCollection('editorialTakes')).length;
+const narrativeCount = (await getCollection('narratives')).length;
+const comparisonCount = (await getCollection('sourceComparisons')).length;
+const questionCount = (await getCollection('openQuestions')).length;
 ---
 
 <BaseLayout title="Qart-Hadasht"
   description="An evolving encyclopedia of ancient Carthage from its legendary founding (~814 BCE) to its destruction in 146 BCE. Every claim is sourced, every confidence level made explicit, and every gap in the surviving record named."
 >
-  <section class="max-w-6xl mx-auto px-6 py-12">
-    <!-- Accessibility-only page heading. The masthead wordmark is now a
-         <p> (so entity pages have a single <h1> for their topic); the
-         homepage needs its own <h1> for screen readers and SEO. -->
-    <h1 class="sr-only">Qart-Hadasht — An Encyclopedia of Ancient Carthage</h1>
-    <!-- Editorial pull-quote: the project's pitch sentence sets the
-         encyclopedia's stance before the Start Here cards offer entry
-         points. -->
-    <blockquote class="border-l-2 border-tyrian-700 pl-6 mb-12 max-w-3xl">
-      <p class="font-serif text-xl sm:text-2xl leading-snug text-ink-900">
-        An evolving encyclopedia of ancient Carthage from its founding to its
-        destruction in 146 BCE. Every claim is sourced, every confidence
-        level made explicit, every gap in the record named.
-      </p>
-      <footer class="mt-3 text-sm text-sand-700 italic">
-        <em>Qart-Hadasht</em> — <em>kart-ha-DASHT</em>, "New City."
-        What the Carthaginians called Carthage.
-      </footer>
-    </blockquote>
+  <!-- Screen-reader/SEO document heading. The masthead wordmark is a <p>
+       (so entity pages own the single visible <h1>); the homepage's visible
+       lead is the marquee below. -->
+  <h1 class="sr-only">Qart-Hadasht — An Encyclopedia of Ancient Carthage</h1>
 
-    <p class="eyebrow mb-3">Where this site differs</p>
-    <h2 class="font-serif text-3xl sm:text-4xl mb-3">Headline positions</h2>
-    <p class="text-sand-700 mb-6 max-w-2xl">
-      Three positions the site argues with full reasoning and
-      explicitly named competing readings. Each take is labeled
-      with confidence (<em>tentative</em>, <em>moderate</em>,
-      <em>strong</em>) and links to the underlying claims.
-    </p>
-    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {featuredTakes.map((t: any) => (
-        <li>
-          <a
-            href={`/editorialTakes/${t.id}`}
-            class="flex flex-col h-full p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors"
-          >
-            <p class="text-[10px] uppercase tracking-widest font-semibold text-tyrian-700">
-              Editorial take · {confidenceLabel[t.data.confidence] ?? t.data.confidence}
-            </p>
-            <h3 class="font-serif text-lg text-tyrian-900 mt-2 leading-snug" set:html={renderInline(t.data.subject_question)}></h3>
-            <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-4 flex-1">{trimGloss(t.data.position, 220)}</p>
-            <p class="mt-4 text-xs text-tyrian-700 font-medium">Read the take →</p>
-          </a>
-        </li>
-      ))}
-    </ul>
-    <p class="mt-4 text-sm text-sand-700">
-      <a href="/editorialTakes" class="text-tyrian-700 hover:underline">All 21 editorial takes →</a>
-    </p>
-  </section>
-
-  <section class="max-w-6xl mx-auto px-6 py-10 border-t border-tyrian-700">
-    <p class="eyebrow mb-3">The long arc and structural questions</p>
-    <h2 class="font-serif text-3xl sm:text-4xl mb-3">Long-form readings</h2>
-    <p class="text-sand-700 mb-6 max-w-2xl">
-      Long-form interpretive arcs the open-web Carthage record
-      under-treats. Substantive synthesis with full source apparatus.
-    </p>
-    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {featuredNarratives.map((n: any) => (
-        <li>
-          <a
-            href={`/narratives/${n.id.replace(/\.md$/, '')}`}
-            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors"
-          >
-            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
-              Narrative · {n.data.scope}
-            </p>
-            <h3 class="font-serif text-xl text-ink-900 mt-2 leading-tight">{n.data.title}</h3>
-            <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-5 flex-1">{trimGloss(n.data.thesis, 240)}</p>
-            <p class="mt-4 text-xs text-tyrian-700 font-medium">Read →</p>
-          </a>
-        </li>
-      ))}
-    </ul>
-    <p class="mt-4 text-sm text-sand-700">
-      <a href="/narratives" class="text-tyrian-700 hover:underline">All 33 narratives →</a>
-    </p>
-  </section>
-
-  <section class="max-w-6xl mx-auto px-6 py-10 border-t border-tyrian-700">
-    <p class="eyebrow mb-3">Gaps as first-class entities</p>
-    <h2 class="font-serif text-3xl sm:text-4xl mb-3">What we don't know</h2>
-    <p class="text-sand-700 mb-6 max-w-2xl">
-      Questions the surviving evidence doesn't resolve. Each gets its
-      own page with the evidence summary, candidate answers, and what
-      would resolve it.
-    </p>
-    <ul class="grid sm:grid-cols-2 gap-4">
-      {featuredQuestions.map((q: any) => (
-        <li>
-          <a
-            href={`/openQuestions/${q.id}`}
-            class="flex flex-col h-full p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors"
-          >
-            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">Open question</p>
-            <h3 class="font-serif text-lg text-ink-900 mt-2 leading-snug">{q.data.question}</h3>
-            <p class="text-xs text-sand-700 mt-3">
-              {(q.data.candidate_answers ?? []).length} candidate answer{(q.data.candidate_answers ?? []).length === 1 ? '' : 's'} weighed
-            </p>
-          </a>
-        </li>
-      ))}
-    </ul>
-    <p class="mt-4 text-sm text-sand-700">
-      <a href="/openQuestions" class="text-tyrian-700 hover:underline">All open questions →</a>
-    </p>
-  </section>
-
-  {featuredComparison && (
-    <section class="max-w-6xl mx-auto px-6 py-10 border-t border-tyrian-700">
-      <p class="eyebrow mb-3">Reading the sources against each other</p>
-      <h2 class="font-serif text-3xl sm:text-4xl mb-3">Compare the ancient sources</h2>
-      <p class="text-sand-700 mb-6 max-w-2xl">
-        Side-by-side parallel readings of contested events through the
-        multiple ancient sources that preserve them. Where Polybius,
-        Livy, Appian, and Plutarch agree and where they don't,
-        surfaced directly rather than collapsed into a synthetic
-        summary.
-      </p>
-      <a
-        href={`/sourceComparisons/${featuredComparison.id}`}
-        class="block p-6 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors"
-      >
-        <p class="text-[10px] uppercase tracking-widest font-semibold text-tyrian-700">Source comparison</p>
-        <h3 class="font-serif text-2xl text-tyrian-900 mt-2 leading-snug">{featuredComparison.data.title}</h3>
-        <p class="text-sm text-sand-900 mt-3 leading-relaxed">
-          {trimGloss(featuredComparison.data.summary, 320)}
-        </p>
-        <p class="text-xs text-tyrian-700 mt-4 font-medium">
-          {featuredComparison.data.source_passages.length} sources in parallel · {featuredComparison.data.points_of_difference.length} points of difference →
-        </p>
-      </a>
-    </section>
-  )}
-
-  <section class="max-w-6xl mx-auto px-6 py-10 border-t border-tyrian-700">
-    <p class="eyebrow mb-3">Historical atlas</p>
-    <a
-      href="/maps/extent-over-time"
-      class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start p-6 border border-sand-400 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors"
-    >
-      <div class="flex-shrink-0 flex items-center justify-center w-full sm:w-48 aspect-[4/3] bg-sand-50 border border-tyrian-300 rounded-md">
-        <p class="font-phoenician text-tyrian-700 text-3xl sm:text-4xl tracking-wider">𐤒𐤓𐤕</p>
+  <!-- ── Lead story ─────────────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 pt-10 pb-8">
+    <div class="grid lg:grid-cols-[1.55fr_1fr] gap-10 lg:gap-14 pb-9 border-b-[3px] border-ink-900">
+      <div class="min-w-0">
+        <p class="eyebrow mb-3">{lead.kicker}</p>
+        <a href={lead.href} class="group block">
+          <h2 class="font-serif font-extrabold text-[clamp(2.2rem,4.4vw,3.5rem)] leading-[1.0] tracking-[-0.035em] text-ink-900 text-balance group-hover:text-tyrian-900 transition-colors">
+            {lead.headline}
+          </h2>
+        </a>
+        <p class="mt-5 text-xl leading-snug font-medium text-ink-900 max-w-[42ch]">{lead.standfirst}</p>
+        <a href={lead.href} class="mt-5 inline-block text-[13px] font-semibold uppercase tracking-wider text-tyrian-700 hover:underline">{lead.meta} →</a>
       </div>
-      <div class="flex-1">
-        <h2 class="font-serif text-2xl sm:text-3xl mb-2 tracking-tight">Carthaginian territory, 550–146 BCE</h2>
-        <p class="text-sand-900 leading-relaxed">
-          Six centuries of Mediterranean shape in five toggleable
-          states — from the network hegemony of the mid-6th century
-          through the African heartland on the eve of destruction.
-          Visual encoding distinguishes directly-administered hinterland,
-          tributary zones, and territory lost since the prior state.
+      <aside class="lg:border-l lg:border-sand-300 lg:pl-8 self-start">
+        <p class="eyebrow no-bar mb-3">Where this site differs</p>
+        <p class="font-heritage text-xl leading-snug italic text-ink-900">“Most of what survives about Carthage was written by its enemies. This site reads against that.”</p>
+        <p class="mt-4 text-sm text-sand-700 leading-relaxed">
+          Every claim is sourced and confidence-tagged. Where the site takes a
+          position it labels it as its own, and names the opposing readings.
+          <a href="/methodology" class="text-tyrian-700 hover:underline">How the method works →</a>
         </p>
-        <p class="mt-3 text-sm text-tyrian-700 font-medium">Explore the map →</p>
-      </div>
-    </a>
+      </aside>
+    </div>
   </section>
 
-  <section class="max-w-6xl mx-auto px-6 py-10 border-t border-tyrian-700">
-    <h2 class="font-serif text-3xl sm:text-4xl mb-3">Reading threads</h2>
-    <p class="text-sand-700 mb-6 text-base max-w-2xl">
-      Curated multi-page journeys through the encyclopedia. Each is an ordered
-      path of stops with editorial annotation. A way in if you want shape
-      rather than search.
-    </p>
-    <ul class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      {featuredThreads.map((t: any) => (
-        <li>
-          <a
-            href={`/threads/${t.id.replace(/\.md$/, '')}`}
-            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors"
-          >
-            <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
-              Thread · {t.data.scope}
-            </p>
-            <h3 class="font-serif text-lg text-ink-900 mt-1.5 leading-snug">{t.data.title}</h3>
-            <p class="text-sm text-sand-900 mt-3 leading-relaxed line-clamp-6 flex-1" set:html={renderInline(t.data.summary)}></p>
-            <div class="mt-4 pt-3 border-t border-sand-200 flex items-baseline justify-between text-xs">
-              <span class="text-sand-700">{t.data.stops.length} stops</span>
-              <span class="text-tyrian-700 font-medium">Begin →</span>
-            </div>
-          </a>
-        </li>
+  <!-- ── Famous entry points ────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 py-9">
+    <p class="eyebrow mb-5">Start with the famous stories</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-7">
+      {famous.map((f) => (
+        <a href={f.href} class="group block border-t-2 border-ink-900 pt-3 pb-4 px-2 -mx-2 rounded-lg hover:bg-tyrian-50 transition-colors">
+          <p class="text-[10px] uppercase tracking-widest font-extrabold text-tyrian-700">{f.kicker}</p>
+          <h3 class="font-serif font-extrabold text-[1.3rem] leading-[1.08] tracking-tight text-ink-900 mt-1.5 group-hover:text-tyrian-900" set:html={renderInline(f.title)}></h3>
+          <p class="text-sm text-sand-700 mt-2 leading-snug">{f.gloss}</p>
+        </a>
       ))}
-    </ul>
-    <p class="mt-4 text-sm text-sand-700">
-      <a href="/threads" class="text-tyrian-700 hover:underline">All reading threads →</a>
+    </div>
+  </section>
+
+  <!-- ── Read deeper: the novel formats ─────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 py-9 border-t border-sand-300">
+    <p class="eyebrow mb-2">Read deeper</p>
+    <h2 class="font-serif text-3xl sm:text-4xl mb-2">What this site does that others don't</h2>
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      The open-web Carthage record is mostly the highlights. These formats put
+      the synthesis — and the evidence behind it — in front.
+    </p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {leadNarrative && (
+        <a href={`/narratives/${leadNarrative.id.replace(/\.md$/, '')}`} class="flex flex-col h-full p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
+          <p class="text-[10px] uppercase tracking-widest font-extrabold text-tyrian-700">Narrative · {leadNarrative.data.scope}</p>
+          <h3 class="font-serif text-xl text-ink-900 mt-2 leading-tight">{leadNarrative.data.title}</h3>
+          <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-5 flex-1">{trimGloss(leadNarrative.data.thesis, 230)}</p>
+          <p class="mt-4 text-xs text-tyrian-700 font-medium">Read the essay →</p>
+        </a>
+      )}
+      {featuredComparison && (
+        <a href={`/sourceComparisons/${featuredComparison.id}`} class="flex flex-col h-full p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
+          <p class="text-[10px] uppercase tracking-widest font-extrabold text-tyrian-700">Source comparison · {featuredComparison.data.source_passages.length} sources</p>
+          <h3 class="font-serif text-xl text-ink-900 mt-2 leading-tight">{featuredComparison.data.title}</h3>
+          <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-5 flex-1">{trimGloss(featuredComparison.data.summary, 230)}</p>
+          <p class="mt-4 text-xs text-tyrian-700 font-medium">{featuredComparison.data.points_of_difference.length} points of difference →</p>
+        </a>
+      )}
+      {leadThread && (
+        <a href={`/threads/${leadThread.id.replace(/\.md$/, '')}`} class="flex flex-col h-full p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
+          <p class="text-[10px] uppercase tracking-widest font-extrabold text-tyrian-700">Reading thread · {leadThread.data.stops.length} stops</p>
+          <h3 class="font-serif text-xl text-ink-900 mt-2 leading-tight">{leadThread.data.title}</h3>
+          <p class="text-sm text-ink-900 mt-3 leading-relaxed line-clamp-5 flex-1" set:html={renderInline(trimGloss(leadThread.data.summary, 230))}></p>
+          <p class="mt-4 text-xs text-tyrian-700 font-medium">Begin the thread →</p>
+        </a>
+      )}
+    </div>
+    <p class="mt-6 text-sm text-sand-700 flex flex-wrap gap-x-5 gap-y-1">
+      <a href="/narratives" class="text-tyrian-700 hover:underline">All {narrativeCount} narratives →</a>
+      <a href="/editorialTakes" class="text-tyrian-700 hover:underline">{takeCount} editorial takes →</a>
+      <a href="/sourceComparisons" class="text-tyrian-700 hover:underline">{comparisonCount} source comparisons →</a>
+      <a href="/openQuestions" class="text-tyrian-700 hover:underline">{questionCount} open questions →</a>
+      <a href="/maps" class="text-tyrian-700 hover:underline">Maps →</a>
     </p>
   </section>
 
-  <section class="max-w-6xl mx-auto px-6 py-12 border-t border-tyrian-700">
-    <h2 class="font-serif text-3xl sm:text-4xl mb-8">From the encyclopedia</h2>
-    <div class="grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 items-start">
-      <p class="font-phoenician text-5xl text-tyrian-700 leading-none md:mt-1">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
-      <div class="prose-encyclopedia text-ink-900 max-w-2xl">
-        <p class="text-base">
-          I'm not a historian. I'm just someone who loves ancient Carthage and
-          thinks the city deserves a better place on the open web than it
-          currently has. Most of what survives about Carthage was written by
-          its enemies; what little is now widely read is mostly the dramatic
-          highlights — Hannibal crossing the Alps, the destruction in 146 BCE
-          — with the long arc and the structural questions left out. I wanted
-          a reference I could actually use, and decided to build one.
-        </p>
-        <p class="text-sm text-sand-700">
-          The synthesis is mine; the underlying scholarship is everyone else's,
-          and is named at the bottom of each claim and source page. Where I
-          take a position (the labeled <a href="/editorialTakes" class="text-tyrian-700">editorial takes</a>),
-          I show my reasoning. Where I'm wrong, please tell me. <a href="/about" class="text-tyrian-700">More about the project →</a>
-        </p>
+  <!-- ── Personal voice ─────────────────────────────────────────────────── -->
+  <section class="border-t-4 border-tyrian-700 bg-[#f6f6f7]">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <p class="eyebrow no-bar mb-5">From the encyclopedia</p>
+      <div class="grid md:grid-cols-[auto_1fr] gap-6 md:gap-10 items-start">
+        <p class="font-phoenician text-5xl text-tyrian-700 leading-none md:mt-1">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
+        <div class="max-w-2xl">
+          <p class="font-heritage text-xl sm:text-2xl leading-snug text-ink-900">
+            I'm not a historian. I'm just someone who loves ancient Carthage and
+            thinks the city deserves a better place on the open web than it
+            currently has. The synthesis is mine; the underlying scholarship is
+            everyone else's.
+          </p>
+          <p class="text-sm text-sand-700 mt-4 leading-relaxed">
+            Most of what survives about Carthage was written by its enemies; what
+            little is now widely read is mostly the dramatic highlights, with the
+            long arc and the structural questions left out. Where I take a
+            position, I show my reasoning. Where I'm wrong, please tell me.
+            <a href="/about" class="text-tyrian-700 hover:underline">More about the project →</a>
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="max-w-6xl mx-auto px-6 py-12 border-t border-tyrian-700">
-    <h2 class="font-serif text-3xl sm:text-4xl mb-8">What this is</h2>
+  <!-- ── What this is ───────────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 py-12">
+    <p class="eyebrow mb-6">What this is</p>
     <div class="grid md:grid-cols-3 gap-8 text-ink-900">
       <div>
         <h3 class="font-serif text-xl mb-2">Sourced, not summarized</h3>
