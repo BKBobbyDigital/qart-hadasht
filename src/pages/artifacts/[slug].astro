@@ -131,7 +131,7 @@ const referencedThemeEntries = (
       <span hidden data-pagefind-filter="type:Artifacts" data-pagefind-meta="type:Artifact"></span>
 
       <p class="eyebrow mb-3">Artifact · {typeLabel[d.type] ?? d.type}</p>
-      <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.name_display}</h1>
+      <h1 class="font-serif mb-3">{d.name_display}</h1>
       {d.summary_short && <p class="text-lg text-sand-700">{d.summary_short}</p>}
 
       {(d.name_alt && (d.name_alt.punic || d.name_alt.greek || d.name_alt.latin || d.name_alt.other)) && (

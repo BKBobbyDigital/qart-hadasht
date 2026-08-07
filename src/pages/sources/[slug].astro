@@ -188,7 +188,7 @@ const sourceInfoboxRows: InfoboxRow[] = [
     <p class="eyebrow mb-3">
       {d.is_primary ? 'Primary source' : 'Modern scholarship'} · {d.type.replace('_', ' ')}
     </p>
-    <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
+    <h1 class="font-serif mb-3">{d.title}</h1>
     {d.author && <p class="text-xl text-sand-700 italic">{d.author}</p>}
 
     <div class="prose-encyclopedia mt-8 text-sand-900" set:html={summaryHtml} />

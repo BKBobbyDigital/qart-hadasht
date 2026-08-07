@@ -106,7 +106,7 @@ const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
     <p class="eyebrow mb-3">
       Reading thread · <a href="/threads" class="text-tyrian-700 hover:underline">All threads</a>
     </p>
-    <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.title}</h1>
+    <h1 class="font-serif mb-3">{d.title}</h1>
     <p class="text-base text-sand-700 italic" set:html={renderInline(d.summary)}></p>
     <p class="mt-3 text-sm text-sand-700">
       {scopeLabel} · {stops.length} stops · last revised {d.last_revised}

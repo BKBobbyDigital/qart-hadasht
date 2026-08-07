@@ -67,14 +67,16 @@ const isEmpty = (v: InfoboxRow['value']) =>
   class={wrapperClass}
   aria-label={`Quick facts about ${title}`}
 >
-  <details class="border-2 border-tyrian-700 rounded-lg bg-sand-100" open>
-    <summary class="cursor-pointer lg:cursor-default list-none px-3 py-2 lg:p-4 lg:pb-3 lg:border-b lg:border-tyrian-700 flex items-center justify-between gap-2">
-      <div class="min-w-0">
-        <div class="eyebrow">Quick facts</div>
-        <div class="font-serif text-base lg:text-lg text-ink-900 leading-tight mt-1" set:html={renderInline(String(title))}></div>
+  <details class="border border-sand-300 rounded-lg overflow-hidden bg-white" open>
+    <summary class="cursor-pointer lg:cursor-default list-none">
+      <div class="flex items-center justify-between gap-2 bg-tyrian-700 px-3 lg:px-4 py-2">
+        <span class="font-display text-[11px] font-extrabold uppercase tracking-[0.14em] text-white">Quick facts</span>
+        <span class="qh-infobox-arrow lg:hidden text-white/80 text-xs shrink-0">▾</span>
+      </div>
+      <div class="min-w-0 px-3 lg:px-4 py-2 lg:py-3 border-b border-sand-300">
+        <div class="font-serif text-base lg:text-lg text-ink-900 leading-tight" set:html={renderInline(String(title))}></div>
         {subtitle && <div class="text-[11px] lg:text-xs text-sand-700 italic mt-1" set:html={renderInline(String(subtitle))}></div>}
       </div>
-      <span class="qh-infobox-arrow lg:hidden text-sand-700 text-xs shrink-0">▾</span>
     </summary>
     <dl class="space-y-3 px-3 pb-3 lg:px-4 lg:pb-4 lg:pt-3 text-sm">
       {rows.map((row) => {
@@ -132,7 +134,7 @@ const isEmpty = (v: InfoboxRow['value']) =>
 
 <style is:global>
   /* Rotate the disclosure caret when expanded. */
-  aside[aria-label^='Quick facts'] details[open] > summary > .qh-infobox-arrow {
+  aside[aria-label^='Quick facts'] details[open] > summary .qh-infobox-arrow {
     display: inline-block;
     transform: rotate(180deg);
   }

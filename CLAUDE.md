@@ -281,9 +281,9 @@ heritage element kept.
   class name to avoid churning 200+ `font-serif` usages — it now
   resolves to Bricolage, NOT Cormorant). Also aliased as `display`.
 - **Inter** — body / UI (`sans`), 18px base, prose 19px.
-- **Cormorant Garamond** — kept ONLY for the masthead wordmark +
-  footer wordmark, via the new `heritage` Tailwind family. This is
-  the single nod to the old identity.
+- **Fraunces** — the masthead + footer wordmark only, via the
+  `heritage` Tailwind family. A modern editorial serif (replaced
+  Cormorant, which read too delicate/old). The one serif on the site.
 - **Noto Sans Phoenician** — the wordmark glyph row.
 
 **Colors** (`:root` in global.css):
@@ -306,8 +306,12 @@ heritage element kept.
   `01 / 02` tyrian section heads** (CSS counters) on its `h2`s.
   Scoped so short entity summaries (also `.prose-encyclopedia`) stay
   plain.
-- Headings: Bricolage 700/800, tight tracking, `text-wrap: balance`;
-  `h1` fluid `clamp()`.
+- Headings: Bricolage 700/800, tight tracking, `text-wrap: balance`.
+  `h1` uses one big fluid `clamp(2.7rem, 6.4vw, 5rem)` in global.css;
+  the per-page Tailwind size utilities (`text-4xl` etc.) were stripped
+  off every `<h1>` (38 files) so that global scale actually governs.
+- Infobox: white card with a **filled tyrian header bar** ("QUICK
+  FACTS" in white Bricolage), not the small kicker-bar.
 - Prose h2: strong 2px near-black top rule.
 - Oldstyle figures were DROPPED (they read "old"); prose uses normal
   lining figures now.

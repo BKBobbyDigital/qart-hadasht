@@ -90,7 +90,7 @@ const deityInfoboxRows: InfoboxRow[] = [
         <p class="font-phoenician text-3xl text-tyrian-700 mb-2">{d.name_punic_script}</p>
       )}
       <p class="eyebrow mb-3">Deity</p>
-      <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.name_display}</h1>
+      <h1 class="font-serif mb-3">{d.name_display}</h1>
       {d.epithet && <p class="text-lg text-sand-700 italic" set:html={renderInline(d.epithet)}></p>}
 
       {(d.name_punic || d.name_greek || d.name_latin) && (

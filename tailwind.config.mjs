@@ -11,7 +11,7 @@ export default {
         // ancient identity.
         serif: ['Bricolage Grotesque', 'system-ui', 'sans-serif'],
         display: ['Bricolage Grotesque', 'system-ui', 'sans-serif'],
-        heritage: ['Cormorant Garamond', 'Georgia', 'serif'],
+        heritage: ['Fraunces', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
         phoenician: ['Noto Sans Phoenician', 'serif'],
       },
