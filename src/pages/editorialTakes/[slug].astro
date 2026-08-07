@@ -1,6 +1,7 @@
 ---
 import { renderInline, stripMarkdownForMeta } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import EditorialTake from '../../components/EditorialTake.astro';
 import VersionStamp from '../../components/VersionStamp.astro';
 import CiteThisPage from '../../components/CiteThisPage.astro';
@@ -49,7 +50,7 @@ const relatedComparisons = allComparisons.filter((c: any) =>
 );
 ---
 
-<BaseLayout title={stripMarkdownForMeta(d.subject_question)} description={stripMarkdownForMeta(d.position, 200)}>
+<BaseLayout title={stripMarkdownForMeta(d.subject_question)} description={stripMarkdownForMeta(d.position, 200)} jsonld={articleSchema(stripMarkdownForMeta(d.subject_question), d, { description: stripMarkdownForMeta(d.position, 200) })}>
   <article class="max-w-3xl mx-auto px-6 py-12">
     <span hidden data-pagefind-filter="type:Editorial takes" data-pagefind-meta="type:Editorial take"></span>
 

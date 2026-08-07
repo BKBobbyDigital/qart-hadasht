@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import HistoricalMap from '../../components/HistoricalMap.astro';
 import ContentToc from '../../components/ContentToc.astro';
@@ -92,7 +93,7 @@ const prev = idx > 0 ? allPeriods[idx - 1] : null;
 const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
 ---
 
-<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)} jsonld={articleSchema(d.title, d, { description: stripMarkdownForMeta(d.summary) })}>
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
       <p class="eyebrow mb-3">

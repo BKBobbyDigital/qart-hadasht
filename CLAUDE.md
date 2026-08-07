@@ -914,6 +914,19 @@ sort order.
 - Security and provenance hardening (cooperative robots.txt; HTTP
   headers including HSTS, Permissions-Policy, X-Robots-Tag; HTML
   provenance markers; 2FA on GitHub/Netlify/registrar)
+- Per-page structured data (JSON-LD) pass (July 2026): every entity
+  page emits a page-specific schema.org object alongside the site-wide
+  `WebSite` one, plus an auto-generated `BreadcrumbList`. Builders in
+  `src/lib/structuredData.ts` (Person / Place / Book / CreativeWork /
+  Thing / ScholarlyArticle); `BaseLayout` takes an optional `jsonld`
+  prop, injects the canonical `url`/`mainEntityOfPage`, and derives the
+  breadcrumb from the path. Article types carry institutional
+  author/publisher, CC-BY `license`, and `dateModified` from
+  `last_revised`/`last_reviewed`; places carry `geo` from `primary`
+  lat/lon. Date policy: ancient BCE dates are kept out of strict schema
+  date fields (only modern publication years and revision stamps are
+  emitted). Headlines capped at 110 chars per Google guidance. Strictly
+  structural — no visible change. All ~2,050 JSON-LD blocks validate.
 - SEO / AI-discoverability lean pass (July 2026): `@astrojs/sitemap`
   (emits `/sitemap-index.xml`, ~692 URLs; search/thanks excluded;
   `Sitemap:` line in robots.txt); per-page `<link rel="canonical">`;

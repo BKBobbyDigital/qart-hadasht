@@ -13,6 +13,13 @@ interface Props {
   ogType?: 'website' | 'article';
   /** Absolute or root-relative share image; defaults to the branded card. */
   image?: string;
+  /**
+   * Optional page-specific schema.org JSON-LD (object or array), built by
+   * src/lib/structuredData.ts. The canonical `url`/`mainEntityOfPage` are
+   * injected here so routes don't need the absolute URL. Invisible <head>
+   * metadata only.
+   */
+  jsonld?: Record<string, any> | Record<string, any>[];
 }
 
 const {
@@ -20,6 +27,7 @@ const {
   description = 'Qart-Hadasht — The Carthage Encyclopedia. A reference for ancient Carthage from founding to destruction.',
   ogType = 'website',
   image = '/og-default.png',
+  jsonld,
 } = Astro.props;
 const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`;
 
@@ -27,6 +35,42 @@ const fullTitle = title === 'Qart-Hadasht' ? title : `${title} — Qart-Hadasht`
 // these resolve to https://qart-hadasht.org/... at build time.
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const imageURL = new URL(image, Astro.site);
+
+// Page-specific JSON-LD: inject the canonical URL onto each entity object.
+const jsonldList = (jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : []).map(
+  (obj) => ({ ...obj, url: canonicalURL.href, mainEntityOfPage: canonicalURL.href })
+);
+
+// Auto-generated BreadcrumbList from the path (Home › Section › Title).
+// Google renders these directly in results; no visible page change.
+const segs = Astro.url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean);
+const prettySeg = (s: string) =>
+  s.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/^./, (c) => c.toUpperCase());
+let breadcrumbLd: Record<string, any> | null = null;
+if (segs.length > 0) {
+  const crumbs: { name: string; item: string }[] = [
+    { name: 'Home', item: new URL('/', Astro.site).href },
+  ];
+  let acc = '';
+  segs.forEach((seg, i) => {
+    acc += '/' + seg;
+    const isLast = i === segs.length - 1;
+    crumbs.push({
+      name: isLast ? title : prettySeg(seg),
+      item: new URL(acc, Astro.site).href,
+    });
+  });
+  breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      name: c.name,
+      item: c.item,
+    })),
+  };
+}
 
 // Primary nav, grouped by epistemic kind:
 //   - REFERENCE: atomic encyclopedia entries (what/who/where lookups)
@@ -143,6 +187,16 @@ const navGroups = [
       'isAccessibleForFree': true,
       'keywords': 'Carthage, Punic, Phoenician, Hannibal, ancient history, Mediterranean history, Tophet, Tanit, Punic Wars',
     })} />
+
+    {/* Page-specific entity schema (Person / Place / Article / …). */}
+    {jsonldList.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
+
+    {/* Breadcrumb trail for search results. */}
+    {breadcrumbLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} />
+    )}
   </head>
   <body class="min-h-screen flex flex-col bg-[color:var(--color-canvas)]">
 

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import ContentToc from '../../components/ContentToc.astro';
@@ -144,7 +145,7 @@ const jumps: Jump[] = [
 ].filter((j) => j.count > 0);
 ---
 
-<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)} jsonld={articleSchema(d.title, d, { description: stripMarkdownForMeta(d.summary) })}>
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
       <p class="eyebrow mb-3">Theme · {d.scope.replace('_', ' ')} · {themeReadingMinutes} min read</p>

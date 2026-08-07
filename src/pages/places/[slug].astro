@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { placeSchema } from '../../lib/structuredData';
 import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Map from '../../components/Map.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
@@ -182,7 +183,7 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
 }
 ---
 
-<BaseLayout title={d.name_display} description={stripMarkdownForMeta(d.summary)}>
+<BaseLayout title={d.name_display} description={stripMarkdownForMeta(d.summary)} jsonld={placeSchema(d, { description: stripMarkdownForMeta(d.summary) })}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.name_display}

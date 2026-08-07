@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
@@ -325,7 +326,7 @@ const infoboxRows: InfoboxRow[] = [
 ];
 ---
 
-<BaseLayout title={data.name} description={stripMarkdownForMeta(data.summary)}>
+<BaseLayout title={data.name} description={stripMarkdownForMeta(data.summary)} jsonld={articleSchema(data.name, data, { description: stripMarkdownForMeta(data.summary) })}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={data.name}

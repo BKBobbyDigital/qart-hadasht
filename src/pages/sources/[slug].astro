@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sourceSchema } from '../../lib/structuredData';
 import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
@@ -175,7 +176,7 @@ const sourceInfoboxRows: InfoboxRow[] = [
 ];
 ---
 
-<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary ?? '')}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary ?? '')} jsonld={sourceSchema(d, { description: stripMarkdownForMeta(d.summary ?? '') })}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.title}

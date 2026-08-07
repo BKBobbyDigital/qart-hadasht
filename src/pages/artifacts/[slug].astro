@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { artifactSchema } from '../../lib/structuredData';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import { formatHistoricalDate, dateQualifier } from '../../lib/historicalDate';
@@ -119,7 +120,7 @@ const referencedThemeEntries = (
 ).filter(Boolean);
 ---
 
-<BaseLayout title={d.name_display} description={stripMarkdownForMeta(d.summary_short ?? "")}>
+<BaseLayout title={d.name_display} description={stripMarkdownForMeta(d.summary_short ?? "")} jsonld={artifactSchema(d, { description: stripMarkdownForMeta(d.summary_short ?? "") })}>
   <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.name_display}

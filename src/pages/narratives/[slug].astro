@@ -1,6 +1,7 @@
 ---
 import { renderInline, stripMarkdownForMeta } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ContentToc from '../../components/ContentToc.astro';
 import VersionStamp from '../../components/VersionStamp.astro';
@@ -105,7 +106,7 @@ const narrativeInfoboxRows: InfoboxRow[] = [
 ];
 ---
 
-<BaseLayout title={d.title} description={stripMarkdownForMeta(d.thesis, 200)}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.thesis, 200)} jsonld={articleSchema(d.title, d, { description: stripMarkdownForMeta(d.thesis, 200) })}>
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
       <p class="eyebrow mb-3">Narrative · {d.scope} · {readingMinutes} min read</p>

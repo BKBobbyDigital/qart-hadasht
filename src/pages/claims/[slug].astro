@@ -1,6 +1,7 @@
 ---
 import { stripMarkdownForMeta } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import ClaimCard from '../../components/ClaimCard.astro';
 import { getCollection, getEntry } from 'astro:content';
 
@@ -43,7 +44,7 @@ const resolvedEntities = await Promise.all(
 ).then((arr) => arr.filter(Boolean) as Array<any>);
 ---
 
-<BaseLayout title={`Claim: ${stripMarkdownForMeta(d.statement, 80)}`} description={stripMarkdownForMeta(d.statement, 200)}>
+<BaseLayout title={`Claim: ${stripMarkdownForMeta(d.statement, 80)}`} description={stripMarkdownForMeta(d.statement, 200)} jsonld={articleSchema(`Claim: ${stripMarkdownForMeta(d.statement, 80)}`, d, { description: stripMarkdownForMeta(d.statement, 200) })}>
   <article class="max-w-3xl mx-auto px-6 py-12">
     <span hidden data-pagefind-filter="type:Claims" data-pagefind-meta="type:Claim"></span>
 

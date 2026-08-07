@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { articleSchema } from '../../lib/structuredData';
 import { getCollection, getEntry } from 'astro:content';
 import { autolink, buildLinkRegistry, stripMarkdownForMeta } from '../../lib/autolink';
 
@@ -88,7 +89,7 @@ const relatedComparisons = allComparisons.filter((c: any) =>
 );
 ---
 
-<BaseLayout title={stripMarkdownForMeta(d.question, 100)} description={stripMarkdownForMeta(d.question, 200)}>
+<BaseLayout title={stripMarkdownForMeta(d.question, 100)} description={stripMarkdownForMeta(d.question, 200)} jsonld={articleSchema(stripMarkdownForMeta(d.question, 100), d, { description: stripMarkdownForMeta(d.question, 200) })}>
   <article class="max-w-3xl mx-auto px-6 py-12">
     <span hidden data-pagefind-filter="type:Open questions" data-pagefind-meta="type:Open question"></span>
 
