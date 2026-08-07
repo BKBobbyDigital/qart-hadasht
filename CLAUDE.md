@@ -1570,7 +1570,18 @@ calls for them; not part of the active queue:
   images because public-domain photos exist for material culture;
   entity pages (people, events, etc.) don't get imagery because
   AI-generated would feel cheap and consistent public-domain coverage
-  doesn't exist
+  doesn't exist.
+  - **Tabled idea (Aug 2026): JSTOR imagery for big pages like
+    Carthage.** User idea to source real scholarly imagery — via
+    JSTOR / Artstor / academic image collections — for the major
+    entity pages (Carthage first) that currently have no imagery,
+    rather than the AI-generated route ruled out above. Not scoped
+    yet: needs a look at what JSTOR/Artstor licensing actually
+    permits for republication (much is rights-restricted / for
+    research use only, which may not allow site display), which
+    pages would qualify, and how it fits the existing
+    place-imagery pipeline (`scripts/fetch-place-image.mjs` +
+    the `image` block). Revisit when the user calls for it.
 
 ### Known issues — flagged, not urgent
 
