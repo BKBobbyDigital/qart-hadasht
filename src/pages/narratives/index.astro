@@ -1,4 +1,5 @@
 ---
+import { renderInline, stripMarkdownForMeta } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
@@ -137,9 +138,9 @@ if (sortedComparisons.length > 0) {
           {sortedTakes.map((t: any) => (
             <li>
               <a href={`/editorialTakes/${t.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
-                <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{t.data.subject_question}</h3>
+                <h3 class="font-serif text-lg text-tyrian-700 leading-snug" set:html={renderInline(t.data.subject_question)}></h3>
                 {t.data.position && (
-                  <p class="text-sm text-ink-900 mt-2">{t.data.position.slice(0, 240)}{t.data.position.length > 240 ? '...' : ''}</p>
+                  <p class="text-sm text-ink-900 mt-2">{stripMarkdownForMeta(t.data.position, 240)}</p>
                 )}
               </a>
             </li>

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
@@ -447,7 +447,7 @@ const infoboxRows: InfoboxRow[] = [
       <a href={`/narratives/${matchingNarrative.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">
         <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Read the full narrative →</p>
         <p class="font-serif text-lg text-tyrian-900 mt-1">{matchingNarrative.data.title}</p>
-        <p class="text-sm text-sand-900 mt-1">{matchingNarrative.data.thesis}</p>
+        <p class="text-sm text-sand-900 mt-1" set:html={renderInline(matchingNarrative.data.thesis)}></p>
       </a>
     )}
 
@@ -500,7 +500,7 @@ const infoboxRows: InfoboxRow[] = [
           {relatedQuestions.map((q) => (
             <li class="border border-amber-200 bg-amber-50 rounded p-4">
               <h3 class="font-serif text-lg text-amber-900">{q.data.question}</h3>
-              <p class="text-sm text-ink-900 mt-2">{q.data.why_unknown}</p>
+              <p class="text-sm text-ink-900 mt-2" set:html={renderInline(q.data.why_unknown)}></p>
             </li>
           ))}
         </ul>

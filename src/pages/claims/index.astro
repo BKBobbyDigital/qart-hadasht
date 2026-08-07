@@ -1,4 +1,5 @@
 ---
+import { renderInline } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import { getCollection } from 'astro:content';
@@ -44,7 +45,7 @@ const order = ['attested', 'inferred', 'contested', 'legendary'];
           {byConfidence[conf].map((c: any) => (
             <li class="border-l-2 border-sand-300 pl-3 py-1">
               <a href={`/claims/${c.id}`} class="text-tyrian-700 hover:underline">
-                <p class="text-sm text-sand-900">{c.data.statement}</p>
+                <p class="text-sm text-sand-900" set:html={renderInline(c.data.statement)}></p>
               </a>
             </li>
           ))}

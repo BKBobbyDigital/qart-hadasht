@@ -1,4 +1,5 @@
 ---
+import { renderInline, stripMarkdownForMeta } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ContentToc from '../../components/ContentToc.astro';
@@ -104,7 +105,7 @@ const narrativeInfoboxRows: InfoboxRow[] = [
 ];
 ---
 
-<BaseLayout title={d.title} description={d.thesis}>
+<BaseLayout title={d.title} description={stripMarkdownForMeta(d.thesis, 200)}>
   <div class="max-w-5xl mx-auto px-6 py-12">
     <header class="mb-8">
       <p class="eyebrow mb-3">Narrative · {d.scope} · {readingMinutes} min read</p>
@@ -131,7 +132,7 @@ const narrativeInfoboxRows: InfoboxRow[] = [
         <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
         <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
           <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-xl leading-snug text-ink-900">{d.thesis}</p>
+          <p class="font-serif text-xl leading-snug text-ink-900" set:html={renderInline(d.thesis)}></p>
         </aside>
 
         <div class="prose-encyclopedia narrative-content text-sand-900 mt-8">
@@ -152,7 +153,7 @@ const narrativeInfoboxRows: InfoboxRow[] = [
                   <ul class="space-y-1.5">
                     {relatedTakes.map((t: any) => (
                       <li>
-                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug" set:html={renderInline(t.data.subject_question)}></a>
                       </li>
                     ))}
                   </ul>

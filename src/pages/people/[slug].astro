@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
 import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import Bibliography from '../../components/Bibliography.astro';
@@ -241,7 +241,7 @@ const personInfoboxRows: InfoboxRow[] = [
           {d.name_greek && (<><dt class="font-semibold text-sand-700">Greek</dt><dd>{d.name_greek}</dd></>)}
           {d.name_latin && (<><dt class="font-semibold text-sand-700">Latin</dt><dd>{d.name_latin}</dd></>)}
         </dl>
-        {d.etymology && <p class="text-sm mt-3 text-sand-900">{d.etymology}</p>}
+        {d.etymology && <p class="text-sm mt-3 text-sand-900" set:html={renderInline(d.etymology)}></p>}
       </section>
     )}
 
@@ -251,7 +251,7 @@ const personInfoboxRows: InfoboxRow[] = [
       <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">
         <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Read the full narrative →</p>
         <p class="font-serif text-lg text-tyrian-900 mt-1">{n.data.title}</p>
-        <p class="text-sm text-sand-900 mt-1">{n.data.thesis}</p>
+        <p class="text-sm text-sand-900 mt-1" set:html={renderInline(n.data.thesis)}></p>
       </a>
     ))}
 
@@ -320,7 +320,7 @@ const personInfoboxRows: InfoboxRow[] = [
         <ul class="space-y-2">
           {referencingClaims.map((c) => (
             <li class="text-sm">
-              <p class="text-ink-900">{c.data.statement}</p>
+              <p class="text-ink-900" set:html={renderInline(c.data.statement)}></p>
               <div class="mt-1"><ConfidenceBadge confidence={c.data.confidence} size="xs" /></div>
             </li>
           ))}

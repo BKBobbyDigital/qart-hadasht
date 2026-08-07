@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import ContentToc from '../../components/ContentToc.astro';
 import Bibliography from '../../components/Bibliography.astro';
@@ -172,7 +172,7 @@ const jumps: Jump[] = [
 
         <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
           <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.summary}</p>
+          <p class="font-serif text-lg leading-snug text-ink-900 italic" set:html={renderInline(d.summary)}></p>
         </aside>
 
       {jumps.length > 0 && (
@@ -288,7 +288,7 @@ const jumps: Jump[] = [
           <ul class="space-y-3">
             {referencingClaims.map((c) => (
               <li class="text-sm border-l-2 border-sand-300 pl-3">
-                <p class="text-ink-900">{c.data.statement}</p>
+                <p class="text-ink-900" set:html={renderInline(c.data.statement)}></p>
                 <p class="text-xs text-sand-700 mt-1 uppercase tracking-wider">{c.data.confidence}</p>
               </li>
             ))}
@@ -324,7 +324,7 @@ const jumps: Jump[] = [
                   <ul class="space-y-1.5">
                     {themeRelatedTakes.map((t: any) => (
                       <li>
-                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug" set:html={renderInline(t.data.subject_question)}></a>
                       </li>
                     ))}
                   </ul>

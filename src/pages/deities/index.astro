@@ -1,4 +1,5 @@
 ---
+import { renderInline } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
@@ -34,7 +35,7 @@ const deities = (await getCollection('deities')).sort((a, b) =>
               )}
               <h2 class="font-serif text-lg text-tyrian-700">{d.data.name_display}</h2>
             </div>
-            {d.data.epithet && <p class="text-sm text-sand-700 mt-1 italic">{d.data.epithet}</p>}
+            {d.data.epithet && <p class="text-sm text-sand-700 mt-1 italic" set:html={renderInline(d.data.epithet)}></p>}
             {d.data.domain && <p class="text-xs text-sand-700 mt-1">{d.data.domain.split(';')[0].trim()}</p>}
           </a>
         </li>

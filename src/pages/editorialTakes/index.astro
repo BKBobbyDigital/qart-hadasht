@@ -1,4 +1,5 @@
 ---
+import { renderInline, stripMarkdownForMeta } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
@@ -31,10 +32,10 @@ const confidenceLabel: Record<string, string> = {
         <li>
           <a href={`/editorialTakes/${t.id}`} class="block p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">
             <div class="flex items-baseline justify-between gap-4 flex-wrap">
-              <h2 class="font-serif text-xl text-tyrian-900">{t.data.subject_question}</h2>
+              <h2 class="font-serif text-xl text-tyrian-900" set:html={renderInline(t.data.subject_question)}></h2>
               <span class="text-xs uppercase tracking-wider text-tyrian-700">{confidenceLabel[t.data.confidence]} confidence</span>
             </div>
-            <p class="text-sm text-sand-900 mt-3 line-clamp-3">{t.data.position}</p>
+            <p class="text-sm text-sand-900 mt-3 line-clamp-3">{stripMarkdownForMeta(t.data.position, 300)}</p>
           </a>
         </li>
       ))}

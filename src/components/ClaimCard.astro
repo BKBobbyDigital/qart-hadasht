@@ -2,7 +2,7 @@
 import { getEntry } from 'astro:content';
 import ConfidenceBadge from './ConfidenceBadge.astro';
 import SourceDistance from './SourceDistance.astro';
-import { renderSummaryHtml, type LinkRegistry } from '../lib/autolink';
+import { renderSummaryHtml, type LinkRegistry, renderInline } from '../lib/autolink';
 
 interface Props {
   claim: any;
@@ -31,12 +31,12 @@ const sourceEntries = await Promise.all(
 <article class="border border-sand-300 rounded-lg bg-white/60 p-5 my-4">
   <div class="flex items-start gap-3">
     <ConfidenceBadge confidence={data.confidence} />
-    <p class="font-serif text-lg leading-snug flex-1 m-0">{data.statement}</p>
+    <p class="font-serif text-lg leading-snug flex-1 m-0" set:html={renderInline(data.statement)}></p>
   </div>
 
   {data.scholarly_consensus && (
     <p class="text-sm text-sand-700 mt-3 italic">
-      Scholarly consensus: {data.scholarly_consensus}
+      Scholarly consensus: <span set:html={renderInline(data.scholarly_consensus)} />
     </p>
   )}
 
@@ -61,7 +61,7 @@ const sourceEntries = await Promise.all(
               <SourceDistance source={s.sourceData} />
             </span>
             {s.passage_ref && <span class="text-sand-700"> {s.passage_ref}</span>}
-            <span class="text-sand-700"> — {s.passage_summary}</span>
+            <span class="text-sand-700"> — <span set:html={renderInline(s.passage_summary)} /></span>
           </span>
         </li>
       ))}

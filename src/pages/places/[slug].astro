@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Map from '../../components/Map.astro';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
@@ -216,7 +216,7 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
       <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
         <h2 class="font-serif text-xl mb-3">Names</h2>
         <dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
-          {d.names_alt.punic && (<><dt class="font-semibold text-sand-700">Punic</dt><dd>{d.names_alt.punic} {d.names_alt.punic_script && <span class="font-phoenician text-tyrian-700 ml-2">{d.names_alt.punic_script}</span>}</dd></>)}
+          {d.names_alt.punic && (<><dt class="font-semibold text-sand-700">Punic</dt><dd><span set:html={renderInline(d.names_alt.punic)} /> {d.names_alt.punic_script && <span class="font-phoenician text-tyrian-700 ml-2">{d.names_alt.punic_script}</span>}</dd></>)}
           {d.names_alt.greek && (<><dt class="font-semibold text-sand-700">Greek</dt><dd>{d.names_alt.greek}</dd></>)}
           {d.names_alt.latin && (<><dt class="font-semibold text-sand-700">Latin</dt><dd>{d.names_alt.latin}</dd></>)}
           {d.names_alt.modern && (<><dt class="font-semibold text-sand-700">Modern</dt><dd>{d.names_alt.modern}</dd></>)}

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import HistoricalMap from '../../components/HistoricalMap.astro';
 import ContentToc from '../../components/ContentToc.astro';
 import VersionStamp from '../../components/VersionStamp.astro';
@@ -117,7 +117,7 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
 
         <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
           <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-xl leading-snug text-ink-900">{d.summary}</p>
+          <p class="font-serif text-xl leading-snug text-ink-900" set:html={renderInline(d.summary)}></p>
         </aside>
 
     {d.map_id && mapConfigs[d.map_id] && (
@@ -261,7 +261,7 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
                   <ul class="space-y-1.5">
                     {periodRelatedTakes.map((t: any) => (
                       <li>
-                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug">{t.data.subject_question}</a>
+                        <a href={`/editorialTakes/${t.id}`} class="text-tyrian-700 hover:underline leading-snug" set:html={renderInline(t.data.subject_question)}></a>
                       </li>
                     ))}
                   </ul>

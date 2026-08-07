@@ -1,4 +1,5 @@
 ---
+import { renderInline } from '../lib/autolink';
 /**
  * Reusable infobox panel for entity detail pages.
  *
@@ -70,8 +71,8 @@ const isEmpty = (v: InfoboxRow['value']) =>
     <summary class="cursor-pointer lg:cursor-default list-none px-3 py-2 lg:p-4 lg:pb-3 lg:border-b lg:border-tyrian-700 flex items-center justify-between gap-2">
       <div class="min-w-0">
         <div class="eyebrow">Quick facts</div>
-        <div class="font-serif text-base lg:text-lg text-ink-900 leading-tight mt-1">{title}</div>
-        {subtitle && <div class="text-[11px] lg:text-xs text-sand-700 italic mt-1">{subtitle}</div>}
+        <div class="font-serif text-base lg:text-lg text-ink-900 leading-tight mt-1" set:html={renderInline(String(title))}></div>
+        {subtitle && <div class="text-[11px] lg:text-xs text-sand-700 italic mt-1" set:html={renderInline(String(subtitle))}></div>}
       </div>
       <span class="qh-infobox-arrow lg:hidden text-sand-700 text-xs shrink-0">▾</span>
     </summary>
@@ -114,9 +115,9 @@ const isEmpty = (v: InfoboxRow['value']) =>
                 ))}
               </span>
             ) : row.href ? (
-              <a href={row.href} class="text-tyrian-700 hover:underline">{row.value}</a>
+              <a href={row.href} class="text-tyrian-700 hover:underline" set:html={renderInline(String(row.value))}></a>
             ) : (
-              <span>{row.value}</span>
+              <span set:html={renderInline(String(row.value))}></span>
             )}
             {row.qualifier && !isEmpty(row.value) && (
               <span class="text-sand-700 italic"> ({row.qualifier})</span>

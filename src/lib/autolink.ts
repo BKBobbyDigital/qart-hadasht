@@ -284,7 +284,25 @@ export function autolink(
     cursor = r.end;
   }
   result += escapeHtml(text.slice(cursor));
-  return result;
+  return italicizeAnchorText(result);
+}
+
+/**
+ * Convert residual inline markdown (*italic*, _italic_, **bold**) that
+ * survives INSIDE anchor text — e.g. an autolinked source name whose
+ * display text contains `*Manuel de recherche*`. Operates only on the
+ * text between `<a …>` and `</a>`, so hrefs and other markup are never
+ * touched.
+ */
+export function italicizeAnchorText(html: string): string {
+  if (!html || html.indexOf('*') === -1 && html.indexOf('_') === -1) return html;
+  return html.replace(/(<a\b[^>]*>)([^<]*)(<\/a>)/g, (_m, open, txt, close) => {
+    const t = txt
+      .replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/(?<![*\w])\*([^*]+?)\*(?![*\w])/g, '<em>$1</em>')
+      .replace(/(?<![_\w])_([^_]+?)_(?![_\w])/g, '<em>$1</em>');
+    return open + t + close;
+  });
 }
 
 /**
@@ -401,6 +419,29 @@ export function renderSummaryHtml(
  * unfurl cards. Returns plain text truncated to ~250 characters at a
  * word boundary.
  */
+/**
+ * Render inline markdown (**bold**, *italic* / _italic_, [text](url)) to
+ * safe HTML for short single-line fields like titles and editorial-take
+ * subject questions. Source HTML is escaped first; there is no block
+ * structure and no entity autolinking (headings shouldn't sprout links).
+ * Use with `set:html`; for plain-text contexts (<title>, citation
+ * strings) use stripMarkdownForMeta instead.
+ */
+export function renderInline(text: string): string {
+  if (!text) return '';
+  let out = text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+  // Links [text](url) — url already escaped above; only http(s) or root-relative.
+  out = out.replace(/\[([^\]\n]+)\]\((\/[^)\s]*|https?:\/\/[^)\s]+)\)/g,
+    '<a href="$2">$1</a>');
+  out = out.replace(/\*\*([^\n]+?)\*\*/g, '<strong>$1</strong>');
+  out = out.replace(/(?<![*\w])\*([^*\n]+?)\*(?![*\w])/g, '<em>$1</em>');
+  out = out.replace(/(?<![_\w])_([^_\n]+?)_(?![_\w])/g, '<em>$1</em>');
+  return out;
+}
+
 export function stripMarkdownForMeta(text: string, maxLen = 250): string {
   if (!text) return '';
   let out = text;

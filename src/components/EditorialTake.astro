@@ -1,6 +1,6 @@
 ---
 import EditorialConfidenceChip from './EditorialConfidenceChip.astro';
-import { autolink, renderSummaryHtml, type LinkRegistry } from '../lib/autolink';
+import { autolink, renderSummaryHtml, type LinkRegistry, renderInline } from '../lib/autolink';
 
 interface Props {
   take: any;
@@ -24,7 +24,7 @@ const reasoningHtml = renderSummaryHtml(data.reasoning, emptyRegistry);
     <span class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Editorial take</span>
     <EditorialConfidenceChip confidence={data.confidence} />
   </div>
-  <p class="font-serif text-xl mt-1 mb-2">{data.subject_question}</p>
+  <p class="font-serif text-xl mt-1 mb-2" set:html={renderInline(data.subject_question)}></p>
   <p class="font-serif text-lg leading-snug text-sand-900" set:html={positionHtml} />
   <details class="mt-4 text-sm">
     <summary class="cursor-pointer font-medium text-tyrian-700">Reasoning →</summary>

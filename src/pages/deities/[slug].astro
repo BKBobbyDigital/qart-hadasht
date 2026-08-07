@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import Infobox, { type InfoboxRow } from '../../components/Infobox.astro';
 import Bibliography from '../../components/Bibliography.astro';
 import MaterialEvidence from '../../components/MaterialEvidence.astro';
@@ -90,7 +90,7 @@ const deityInfoboxRows: InfoboxRow[] = [
       )}
       <p class="eyebrow mb-3">Deity</p>
       <h1 class="font-serif text-4xl sm:text-5xl mb-3">{d.name_display}</h1>
-      {d.epithet && <p class="text-lg text-sand-700 italic">{d.epithet}</p>}
+      {d.epithet && <p class="text-lg text-sand-700 italic" set:html={renderInline(d.epithet)}></p>}
 
       {(d.name_punic || d.name_greek || d.name_latin) && (
         <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
@@ -100,7 +100,7 @@ const deityInfoboxRows: InfoboxRow[] = [
             {d.name_greek && (<><dt class="font-semibold text-sand-700">Greek</dt><dd>{d.name_greek}</dd></>)}
             {d.name_latin && (<><dt class="font-semibold text-sand-700">Latin</dt><dd>{d.name_latin}</dd></>)}
           </dl>
-          {d.etymology && <p class="text-sm mt-3 text-sand-900">{d.etymology}</p>}
+          {d.etymology && <p class="text-sm mt-3 text-sand-900" set:html={renderInline(d.etymology)}></p>}
         </section>
       )}
 
@@ -132,7 +132,7 @@ const deityInfoboxRows: InfoboxRow[] = [
           <ul class="space-y-2">
             {referencingClaims.map((c) => (
               <li class="text-sm">
-                <p class="text-ink-900">{c.data.statement}</p>
+                <p class="text-ink-900" set:html={renderInline(c.data.statement)}></p>
               </li>
             ))}
           </ul>
