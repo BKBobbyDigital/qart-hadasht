@@ -1745,6 +1745,17 @@ It normalizes YAML `>` folded scalar continuation lines (more-
 indented `\n  ` runs collapse to spaces) before splitting on
 single newlines for paragraph boundaries.
 
+**Scalar-style convention (important):** because `renderSummaryHtml`
+treats *every* newline as a paragraph break, any field it renders MUST
+be a **folded `>`** scalar (or a single line), NOT a literal `|`
+scalar. In a `>` scalar YAML folds hard-wraps to spaces, so only blank
+lines survive as paragraph breaks — which is what the splitter wants.
+A literal `|` scalar preserves every hard-wrap newline, so each ~50-char
+line becomes its own `<p>` and the block renders double-spaced. This
+bit the editorial-take `reasoning` fields (all 24 were `|`; converted
+to `>` in Aug 2026). Entity `summary` fields are already `>`. If you
+add a field rendered by `renderSummaryHtml`, use `>`.
+
 ### Heading anchor permalinks
 
 Every `<h2>` and `<h3>` on substantive pages (narratives, themes,

@@ -28,7 +28,7 @@ const reasoningHtml = renderSummaryHtml(data.reasoning, emptyRegistry);
   <p class="font-serif text-lg leading-snug text-sand-900" set:html={positionHtml} />
   <details class="mt-4 text-sm">
     <summary class="cursor-pointer font-medium text-tyrian-700">Reasoning →</summary>
-    <div class="mt-2 prose-encyclopedia" set:html={reasoningHtml} />
+    <div class="mt-2 prose-encyclopedia reasoning-body" set:html={reasoningHtml} />
     {data.competing_positions && data.competing_positions.length > 0 && (
       <div class="mt-4">
         <p class="text-xs uppercase tracking-widest font-semibold text-sand-700">Positions considered and rejected</p>
@@ -48,3 +48,10 @@ const reasoningHtml = renderSummaryHtml(data.reasoning, emptyRegistry);
     Site position · last reviewed {data.last_reviewed} · {data.open_to_revision ? 'open to revision' : 'considered settled'}
   </p>
 </aside>
+
+<style is:global>
+  /* The reasoning body sits inside the (already narrow) editorial-take
+     callout; the standard .prose-encyclopedia 68ch measure cap would
+     leave it filling only ~3/4 of the box. Let it fill the callout. */
+  .reasoning-body p, .reasoning-body ul, .reasoning-body ol { max-width: none; }
+</style>
