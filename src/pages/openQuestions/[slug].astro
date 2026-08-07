@@ -90,7 +90,8 @@ const relatedComparisons = allComparisons.filter((c: any) =>
 ---
 
 <BaseLayout title={stripMarkdownForMeta(d.question, 100)} description={stripMarkdownForMeta(d.question, 200)} jsonld={articleSchema(stripMarkdownForMeta(d.question, 100), d, { description: stripMarkdownForMeta(d.question, 200) })}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+   <article class="max-w-3xl">
     <span hidden data-pagefind-filter="type:Open questions" data-pagefind-meta="type:Open question"></span>
 
     <p class="eyebrow mb-3">
@@ -176,5 +177,6 @@ const relatedComparisons = allComparisons.filter((c: any) =>
         </ul>
       </section>
     )}
-  </article>
+   </article>
+  </div>
 </BaseLayout>

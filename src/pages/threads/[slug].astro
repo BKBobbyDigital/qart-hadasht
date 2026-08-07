@@ -100,7 +100,8 @@ const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
 ---
 
 <BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary)}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+   <article class="max-w-3xl">
     <span hidden data-pagefind-filter="type:Threads" data-pagefind-meta="type:Thread"></span>
 
     <p class="eyebrow mb-3">
@@ -151,5 +152,6 @@ const scopeLabel = d.scope.charAt(0).toUpperCase() + d.scope.slice(1);
 
     <CiteThisPage title={d.title} lastRevised={d.last_revised} path={`/threads/${thread.id.replace(/\.md$/, '')}`} />
     <VersionStamp date={d.last_revised} filePath={`src/content/threads/${thread.id}`} />
-  </article>
+   </article>
+  </div>
 </BaseLayout>

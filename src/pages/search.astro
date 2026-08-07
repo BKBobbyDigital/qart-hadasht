@@ -5,7 +5,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="Search"
   description="Search the Qart-Hadasht encyclopedia of ancient Carthage across events, people, places, sources, claims, and long-form narratives."
 >
-  <section class="max-w-3xl mx-auto px-6 py-12" data-pagefind-ignore="all">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+   <section class="max-w-3xl" data-pagefind-ignore="all">
     <h1 class="font-serif mb-3">Search</h1>
     <p class="text-sand-700 mb-6 text-sm">
       Search across all events, people, places, sources, narratives, and themes.
@@ -17,7 +18,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <noscript>
       <p class="text-sm text-sand-700 mt-4">Search requires JavaScript. Browse the indexes from the top nav instead.</p>
     </noscript>
-  </section>
+   </section>
+  </div>
 
   <!--
     Pagefind UI ships as a classic script that exposes window.PagefindUI.

@@ -223,10 +223,11 @@ const personInfoboxRows: InfoboxRow[] = [
     />
     <article class="lg:col-start-1 lg:row-start-1 min-w-0">
       <span hidden data-pagefind-filter="type:People" data-pagefind-meta="type:Person"></span>
-    {d.name_punic_script && (
-      <p class="font-phoenician text-3xl text-tyrian-700 mb-2">{d.name_punic_script}</p>
-    )}
+    <p class="eyebrow mb-3">{primaryRole ? `Person · ${primaryRole}` : 'Person'}</p>
     <h1 class="font-serif mb-3">{d.name_display}</h1>
+    {d.name_punic_script && (
+      <p class="font-phoenician text-3xl text-tyrian-700 mb-3">{d.name_punic_script}</p>
+    )}
     <p class="text-sand-700">
       {d.birth && <>b. {fmtDate(d.birth)}</>}
       {d.birth && d.death && <> · </>}

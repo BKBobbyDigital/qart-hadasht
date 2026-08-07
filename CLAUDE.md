@@ -333,6 +333,23 @@ so widening the shell adds whitespace/rail room, not longer lines. To
 re-widen or narrow the whole site, change the `max-w-6xl` shells (43
 of them; a `find src -name '*.astro' | xargs perl -pi` sweep).
 
+**Single-column reading pages** (about, methodology, thread /
+editorial-take / open-question / claim detail pages, search) use a
+**left-aligned** `max-w-3xl` reading column nested inside the
+`max-w-6xl mx-auto px-6` shell — NOT `max-w-3xl mx-auto` (which centered
+the column and left it indented from the masthead's left edge). The
+column packs to the left like the article column on the two-column
+entity pages; the extra width is right-side whitespace. Only
+`thanks.astro` stays deliberately `mx-auto text-center` (a confirmation
+screen).
+
+**Entity kicker consistency:** every entity detail page leads with an
+`.eyebrow` kicker (`{type}`, `Person · {role}`, `Deity`, `Group · …`,
+etc.) directly above the `<h1>`. People and deities previously led with
+the Punic-script name glyph instead; the glyph now sits **below** the
+`<h1>` (native-script name under the romanized name), so the kicker is
+the first element on all of them.
+
 **Header / footer chrome** (`BaseLayout.astro`):
 - Masthead sits on **white** (was the cream `sand-100` band); header
   and page share one surface, separated only by rules.

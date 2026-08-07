@@ -51,7 +51,8 @@ const relatedComparisons = allComparisons.filter((c: any) =>
 ---
 
 <BaseLayout title={stripMarkdownForMeta(d.subject_question)} description={stripMarkdownForMeta(d.position, 200)} jsonld={articleSchema(stripMarkdownForMeta(d.subject_question), d, { description: stripMarkdownForMeta(d.position, 200) })}>
-  <article class="max-w-3xl mx-auto px-6 py-12">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+   <article class="max-w-3xl">
     <span hidden data-pagefind-filter="type:Editorial takes" data-pagefind-meta="type:Editorial take"></span>
 
     <p class="eyebrow mb-3">
@@ -101,5 +102,6 @@ const relatedComparisons = allComparisons.filter((c: any) =>
 
     <CiteThisPage title={stripMarkdownForMeta(d.subject_question)} lastRevised={d.last_reviewed} path={`/editorialTakes/${take.id}`} />
     <VersionStamp date={d.last_reviewed} filePath={`src/content/editorialTakes/${take.id}.yaml`} />
-  </article>
+   </article>
+  </div>
 </BaseLayout>
