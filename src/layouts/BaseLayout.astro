@@ -213,10 +213,10 @@ const navGroups = [
          at the right edge. Left alignment holds on mobile; the tagline
          text hides below sm while the Tanit mark stays. -->
     <header class="bg-white">
-      <!-- Top tyrian rule -->
-      <div class="h-[5px] bg-tyrian-700"></div>
-
       <div class="max-w-4xl mx-auto px-6">
+        <!-- Top tyrian rule — held to the content column, not full-bleed. -->
+        <div class="h-[5px] bg-tyrian-700"></div>
+
         <!-- Utility row -->
         <div class="py-2 flex items-center justify-end gap-5 text-sm">
           <a href="/about" class="text-ink-900 hover:text-tyrian-700 transition-colors">About</a>
@@ -272,10 +272,11 @@ const navGroups = [
             </span>
           ))}
         </nav>
-      </div>
 
-      <!-- Strong ink rule closing the nav (Direction C / mock-c: 3px). -->
-      <div class="border-t-[3px] border-ink-900"></div>
+        <!-- Strong ink rule closing the nav — held to the content column,
+             not full-bleed (Direction C: 3px). -->
+        <div class="border-t-[3px] border-ink-900"></div>
+      </div>
     </header>
 
     <main id="main-content" class="flex-1" data-pagefind-body tabindex="-1">
