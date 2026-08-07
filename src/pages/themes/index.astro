@@ -16,6 +16,17 @@ const deities = (await getCollection('deities')).sort(
   (a, b) => a.data.name_display.localeCompare(b.data.name_display)
 );
 const carthage = await getEntry('places', 'carthage');
+
+// Jump-to sections (only those with content), glossed like the
+// narratives synthesis hub so the category labels are self-explanatory.
+type TocItem = { label: string; anchor: string; count?: number; gloss: string };
+const tocItems: TocItem[] = [
+  { label: 'Themes', anchor: 'themes-essays', count: themes.length, gloss: 'cross-cutting essays — religion, trade, daily life, identity' },
+];
+if (carthage) tocItems.push({ label: 'The city', anchor: 'the-city', gloss: 'Carthage itself' });
+tocItems.push({ label: 'Institutions', anchor: 'institutions', count: institutions.length, gloss: 'formal civic, political, and judicial bodies' });
+if (deities.length > 0) tocItems.push({ label: 'Deities', anchor: 'deities', count: deities.length, gloss: 'the Carthaginian pantheon' });
+if (groups.length > 0) tocItems.push({ label: 'Groups and peoples', anchor: 'groups', count: groups.length, gloss: 'collective entities and mercenary specialists' });
 ---
 
 <BaseLayout title="Themes" description="The cultural side of Carthage: themes, institutions, groups, deities, the city itself.">
@@ -28,7 +39,20 @@ const carthage = await getEntry('places', 'carthage');
       groups, deities, and the city itself.
     </p>
 
-  <section class="mb-12">
+    <nav aria-label="Sections on this page" class="mb-12 border border-sand-300 rounded-lg p-4 bg-sand-50">
+      <p class="eyebrow mb-3">Jump to</p>
+      <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
+        {tocItems.map((item) => (
+          <li class="flex items-baseline gap-2">
+            <a href={`#${item.anchor}`} class="text-tyrian-700 hover:underline font-semibold shrink-0">{item.label}</a>
+            {item.count !== undefined && <span class="text-sand-700">({item.count})</span>}
+            <span class="text-sand-700 min-w-0">— {item.gloss}</span>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+  <section id="themes-essays" class="mb-12 scroll-mt-24">
     <h2 class="font-serif text-2xl mb-4">Themes <span class="text-sm text-sand-700 font-normal">({themes.length})</span></h2>
     <ul class="grid sm:grid-cols-2 gap-3">
       {themes.map((t) => (
@@ -46,7 +70,7 @@ const carthage = await getEntry('places', 'carthage');
   </section>
 
   {carthage && (
-    <section class="mb-12">
+    <section id="the-city" class="mb-12 scroll-mt-24">
       <h2 class="font-serif text-2xl mb-4">The city</h2>
       <a href={`/places/${carthage.id}`} class="block p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50">
         <div class="flex items-baseline gap-3 flex-wrap">
@@ -60,7 +84,7 @@ const carthage = await getEntry('places', 'carthage');
     </section>
   )}
 
-  <section class="mb-12">
+  <section id="institutions" class="mb-12 scroll-mt-24">
     <h2 class="font-serif text-2xl mb-4">Institutions <span class="text-sm text-sand-700 font-normal">({institutions.length})</span></h2>
     <p class="text-sand-700 text-sm mb-4">
       Formal civic, political, and judicial bodies of Carthage.
@@ -78,7 +102,7 @@ const carthage = await getEntry('places', 'carthage');
   </section>
 
   {deities.length > 0 && (
-    <section class="mb-12">
+    <section id="deities" class="mb-12 scroll-mt-24">
       <h2 class="font-serif text-2xl mb-4">Deities <span class="text-sm text-sand-700 font-normal">({deities.length})</span></h2>
       <p class="text-sand-700 text-sm mb-4">
         The principal gods of the Carthaginian pantheon. See <a href="/themes/punic-religion" class="text-tyrian-700 hover:underline">Punic religion</a> for the framing prose.
@@ -99,7 +123,7 @@ const carthage = await getEntry('places', 'carthage');
   )}
 
   {groups.length > 0 && (
-    <section class="mb-12">
+    <section id="groups" class="mb-12 scroll-mt-24">
       <h2 class="font-serif text-2xl mb-4">Groups and peoples <span class="text-sm text-sand-700 font-normal">({groups.length})</span></h2>
       <p class="text-sand-700 text-sm mb-4">
         Collective entities — peoples, mercenary specialists, military units, dynasties — distinct from individual people and from formal institutions.
