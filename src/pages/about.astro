@@ -1,13 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ConfidenceBadge from '../components/ConfidenceBadge.astro';
+import ContentToc from '../components/ContentToc.astro';
 ---
 
 <BaseLayout title="About"
   description="Who makes Qart-Hadasht and why: a sourced, positions-taking encyclopedia of ancient Carthage that gives the city a better place on the open web, with disclosed methods and an open invitation to corrections."
 >
-  <div class="max-w-6xl mx-auto px-6 py-12">
-   <article class="max-w-3xl prose-encyclopedia">
+  <div class="max-w-6xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_220px] lg:gap-12 lg:items-start">
+   <article class="lg:col-start-1 lg:row-start-1 min-w-0 max-w-3xl prose-encyclopedia">
     <h1 class="font-serif mb-3">About this project</h1>
     <p class="text-sand-700 mb-8 max-w-2xl">
       Qart-Hadasht is an evolving encyclopedia of ancient Carthage, from
@@ -15,7 +16,7 @@ import ConfidenceBadge from '../components/ConfidenceBadge.astro';
       cited reference where every claim, source, and gap is named.
     </p>
 
-    <h2>Who's behind it</h2>
+    <h2 id="whos-behind-it">Who's behind it</h2>
     <p>
       I'm not a historian. I'm just someone who loves ancient Carthage and
       thinks the city deserves a better place on the open web than it
@@ -128,7 +129,7 @@ import ConfidenceBadge from '../components/ConfidenceBadge.astro';
       </form>
     </aside>
 
-    <h2>The name</h2>
+    <h2 id="the-name">The name</h2>
     <p>
       <span class="font-phoenician text-tyrian-700">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span> —
       <em>Qart-Hadasht</em>, "New City" — is what the Carthaginians called
@@ -138,7 +139,7 @@ import ConfidenceBadge from '../components/ConfidenceBadge.astro';
       this project tries to push past that.
     </p>
 
-    <h2>How this site works</h2>
+    <h2 id="how-this-site-works">How this site works</h2>
     <p>
       Every factual statement is modeled as a <strong>claim</strong>: atomic,
       individually citable, and tagged with a confidence label
@@ -170,7 +171,7 @@ import ConfidenceBadge from '../components/ConfidenceBadge.astro';
       <p class="mt-3"><a href="/methodology" class="text-tyrian-700 font-medium hover:underline">Read the methodology →</a></p>
     </aside>
 
-    <h2>Scope</h2>
+    <h2 id="scope">Scope</h2>
     <p>
       The principal focus runs from the legendary founding (traditionally
       814 BCE) to the destruction of Carthage in 146 BCE. Roman Carthage as
@@ -194,11 +195,14 @@ import ConfidenceBadge from '../components/ConfidenceBadge.astro';
       <a href="/openQuestions/duration-of-punic-cultural-identity">duration of Punic cultural identity</a>.
     </p>
 
-    <h2>Licensing</h2>
+    <h2 id="licensing">Licensing</h2>
     <p>
       Content is licensed CC&nbsp;BY&nbsp;4.0: quote it, cite it, build on it
       freely with attribution. Code is MIT.
     </p>
    </article>
+   <div class="lg:col-start-2 lg:row-start-1 lg:sticky lg:top-6 self-start">
+     <ContentToc contentSelector=".prose-encyclopedia" nonSticky />
+   </div>
   </div>
 </BaseLayout>

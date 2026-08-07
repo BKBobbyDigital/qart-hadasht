@@ -340,15 +340,25 @@ so widening the shell adds whitespace/rail room, not longer lines. To
 re-widen or narrow the whole site, change the `max-w-6xl` shells (43
 of them; a `find src -name '*.astro' | xargs perl -pi` sweep).
 
-**Single-column reading pages** (about, methodology, thread /
-editorial-take / open-question / claim detail pages, search) use a
-**left-aligned** `max-w-3xl` reading column nested inside the
-`max-w-6xl mx-auto px-6` shell — NOT `max-w-3xl mx-auto` (which centered
-the column and left it indented from the masthead's left edge). The
-column packs to the left like the article column on the two-column
-entity pages; the extra width is right-side whitespace. Only
-`thanks.astro` stays deliberately `mx-auto text-center` (a confirmation
-screen).
+**Single-column reading pages** (thread / editorial-take /
+open-question / claim detail pages, search) use a **left-aligned**
+`max-w-3xl` reading column nested inside the `max-w-6xl mx-auto px-6`
+shell — NOT `max-w-3xl mx-auto` (which centered the column and left it
+indented from the masthead's left edge). The column packs to the left
+like the article column on the two-column entity pages; the extra width
+is right-side whitespace. Only `thanks.astro` stays deliberately
+`mx-auto text-center` (a confirmation screen).
+
+**About + Methodology** go a step further: they're long enough to earn
+a **sticky `ContentToc` rail** (the "On this page" section list), so
+they use the two-column `lg:grid-cols-[minmax(0,1fr)_220px]` layout —
+`max-w-3xl` prose column on the left, TOC rail on the right (`hidden
+lg:block`, so mobile stays single-column). This needed `id`s on their
+hard-coded `<h2>`s (the `.astro` pages don't get rehype-slug ids that
+`.md` content does); a build-time slug was added to each, which also
+gave these pages working ¶ heading-anchor permalinks. `ContentToc`
+walks `h2[id]/h3[id]` inside its `contentSelector` and hides itself
+under 2 headings.
 
 **Entity kicker consistency:** every entity detail page leads with an
 `.eyebrow` kicker (`{type}`, `Person · {role}`, `Deity`, `Group · …`,
