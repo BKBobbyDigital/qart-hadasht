@@ -184,7 +184,7 @@ if (d.candidates && d.candidates.length > 0 && place.id !== 'carthage') {
 ---
 
 <BaseLayout title={d.name_display} description={stripMarkdownForMeta(d.summary)} jsonld={placeSchema(d, { description: stripMarkdownForMeta(d.summary) })}>
-  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+  <div class="max-w-6xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.name_display}
       subtitle={d.modern_location ? `${typeLabel} · ${d.modern_location}` : typeLabel}

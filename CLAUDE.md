@@ -316,13 +316,39 @@ heritage element kept.
 - Oldstyle figures were DROPPED (they read "old"); prose uses normal
   lining figures now.
 
+**Site width** (Aug 2026): the outer shell is **`max-w-6xl` (1152px)**
+everywhere — header, footer, homepage, index pages, and entity
+`[slug]` pages. Previously split (index/homepage `max-w-4xl` 896px,
+detail pages `max-w-5xl` 1024px), which left the masthead narrower
+than the content beneath it and felt cramped on a 13". Unified so the
+masthead and content align and the primary nav fits on one line at
+≥~1100px. Inner reading caps are untouched: `.prose-encyclopedia p`
+holds `max-width: 68ch`, and intro blocks keep `max-w-3xl`/`max-w-2xl`,
+so widening the shell adds whitespace/rail room, not longer lines. To
+re-widen or narrow the whole site, change the `max-w-6xl` shells (43
+of them; a `find src -name '*.astro' | xargs perl -pi` sweep).
+
 **Header / footer chrome** (`BaseLayout.astro`):
 - Masthead sits on **white** (was the cream `sand-100` band); header
   and page share one surface, separated only by rules.
-- A **5px tyrian top bar** opens the page; a hairline divides brand
-  from nav; a **2px near-black rule** closes the nav (the heavy C
-  underline). Nav group labels use `.eyebrow.no-bar` (Bricolage,
-  tyrian, no leading rule).
+- The masthead is **left-aligned** (mock-c): Phoenician glyph row +
+  Fraunces wordmark pack to the left; the Tanit mark + tagline cluster
+  sit inline at the right (mark then right-aligned tagline). Below
+  `sm` the tagline text hides (Tanit mark stays) and the wordmark is
+  `whitespace-nowrap` at a slightly smaller size so it never breaks at
+  the hyphen. The tagline's responsive toggle lives on a **wrapper
+  div**, because `.eyebrow` hard-sets `display:inline-flex` in
+  global.css and would override a `hidden` placed directly on it.
+- Primary nav is one **left-packed flex-wrap row** (not the old
+  centered grid): each group is a tyrian `.eyebrow.no-bar` label
+  followed by its links separated by `·` middots. On `sm+` each group
+  stays whole and wraps as a unit; on mobile a long group may wrap
+  internally, all still left-aligned.
+- A **5px tyrian top bar** opens the page — this one is **full-bleed**
+  across the viewport (per user preference; the only full-width rule).
+  A hairline divides brand from nav; a **3px near-black rule** closes
+  the nav, and that rule is **held to the content column** (inside the
+  `max-w-6xl` container), not full-bleed.
 - Footer bookends it: a **4px tyrian top bar** on a faint-gray
   (`#f6f6f7`) surface. Fraunces wordmark in both.
 

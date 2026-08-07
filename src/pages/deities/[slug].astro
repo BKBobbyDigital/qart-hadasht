@@ -78,7 +78,7 @@ const deityInfoboxRows: InfoboxRow[] = [
 ---
 
 <BaseLayout title={d.name_display} description={stripMarkdownForMeta(d.summary)} jsonld={thingSchema(d, { description: stripMarkdownForMeta(d.summary) })}>
-  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+  <div class="max-w-6xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.name_display}
       subtitle={`Deity${d.domain ? ` · ${d.domain.split(';')[0].trim()}` : ''}`}

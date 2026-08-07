@@ -206,17 +206,17 @@ const navGroups = [
 
     <!-- Editorial masthead (mock-c). Opened by a 5px tyrian rule,
          closed by a 3px ink rule under the nav. All three bands
-         (utility row, masthead, primary nav) share one max-w-4xl px-6
+         (utility row, masthead, primary nav) share one max-w-6xl px-6
          container so their left/right bounds are identical and
          everything is left-aligned: wordmark and nav pack to the left,
          the About/Search utilities and the Tanit tagline cluster sit
          at the right edge. Left alignment holds on mobile; the tagline
          text hides below sm while the Tanit mark stays. -->
     <header class="bg-white">
-      <div class="max-w-4xl mx-auto px-6">
-        <!-- Top tyrian rule — held to the content column, not full-bleed. -->
-        <div class="h-[5px] bg-tyrian-700"></div>
+      <!-- Top tyrian ribbon — full-bleed across the viewport. -->
+      <div class="h-[5px] bg-tyrian-700"></div>
 
+      <div class="max-w-6xl mx-auto px-6">
         <!-- Utility row -->
         <div class="py-2 flex items-center justify-end gap-5 text-sm">
           <a href="/about" class="text-ink-900 hover:text-tyrian-700 transition-colors">About</a>
@@ -284,7 +284,7 @@ const navGroups = [
     </main>
 
     <footer class="mt-16 border-t-4 border-tyrian-700 bg-[#f6f6f7]">
-      <div class="max-w-4xl mx-auto px-6 py-10 text-sm text-sand-700">
+      <div class="max-w-6xl mx-auto px-6 py-10 text-sm text-sand-700">
         <div class="flex items-start gap-4">
           <span class="text-tyrian-700 shrink-0">
             <TanitMark size={28} />

@@ -177,7 +177,7 @@ const sourceInfoboxRows: InfoboxRow[] = [
 ---
 
 <BaseLayout title={d.title} description={stripMarkdownForMeta(d.summary ?? '')} jsonld={sourceSchema(d, { description: stripMarkdownForMeta(d.summary ?? '') })}>
-  <div class="max-w-5xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
+  <div class="max-w-6xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:items-start">
     <Infobox
       title={d.title}
       subtitle={d.is_primary ? `Primary source · ${typeLabel}` : `Modern scholarship · ${typeLabel}`}
