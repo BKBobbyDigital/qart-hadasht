@@ -131,12 +131,9 @@ const narrativeInfoboxRows: InfoboxRow[] = [
       </div>
       <article class="lg:col-start-1 lg:row-start-1 min-w-0">
         <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
-        <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
-          <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-xl leading-snug text-ink-900" set:html={renderInline(d.thesis)}></p>
-        </aside>
+        <p class="lead mt-2 mb-8" set:html={renderInline(d.thesis)}></p>
 
-        <div class="prose-encyclopedia narrative-content text-sand-900 mt-8">
+        <div class="prose-encyclopedia longform narrative-content text-sand-900 mt-8">
           <Content />
         </div>
 

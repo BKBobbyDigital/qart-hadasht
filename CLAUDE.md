@@ -267,54 +267,55 @@ is known."*
 
 ## Visual design language
 
-### Palette (reworked July 2026 — white / modern)
+### Palette + type (Direction C redesign, Aug 2026)
 
-The all-cream palette was replaced with a near-white surface system.
-Warmth now lives almost entirely in the tyrian accent; surfaces are
-white, the canvas is a whisper-warm near-white, text is warm gray
-(not brown), borders are hairline gray. The change is centralized in
-the Tailwind `sand` scale + a few `--color-*` vars, so it cascaded
-across the whole site without per-page edits.
+A full editorial redesign toward a **modern magazine** feel (the
+"Direction C" mockup): away from the ancient/Cormorant look, toward
+big crisp grotesque headlines, high contrast, and tyrian promoted
+from accent to a small graphic system. The masthead is the one
+heritage element kept.
 
-- **Canvas: `#f8f8f6`** (`--color-canvas`, set on `<body>`) — near-white
-  page background, faint warmth.
-- **Surface: `#ffffff`** (`sand-50`) — cards, infoboxes, reading
-  surfaces. `sand-50` is now WHITE (was cream `#f4f0e6`); this is why
-  the change was one-line-per-token.
-- **Section band / secondary surface: `#f4f3ef`** (`sand-100`).
-- **Hairline border: `#e4e0d8`** (`sand-300`) — was tan `#c9b794`
-  (the muddy-border culprit; 153 uses, all fixed centrally).
-- **Secondary text: `#5c574f`** (`sand-700`) — warm gray, was brown
-  `#6b5638` (289 uses, all fixed centrally).
-- **Tyrian (700: `#5b0f31`)** — the Phoenician brand color and the
-  single accent: rules, eyebrow labels, brand mark, citation links,
-  card borders/left-rules.
-- **Ink (`#16130f` / `#111`)** — primary text, near-black.
-- Editorial-voice callouts are now **white cards with a tyrian
-  border/left-rule** (was pink `bg-tyrian-50`/`tyrian-100` fill).
-  The lavender `purple-100` active state was replaced site-wide with
-  an on-brand `tyrian-50` press tint. The cream hover `#faf6ec` was
-  replaced with neutral `sand-100`.
+**Fonts** (loaded in `global.css` `@import`):
+- **Bricolage Grotesque** — the display face for ALL headings and
+  leads. Wired via the Tailwind `serif` family (kept that legacy
+  class name to avoid churning 200+ `font-serif` usages — it now
+  resolves to Bricolage, NOT Cormorant). Also aliased as `display`.
+- **Inter** — body / UI (`sans`), 18px base, prose 19px.
+- **Cormorant Garamond** — kept ONLY for the masthead wordmark +
+  footer wordmark, via the new `heritage` Tailwind family. This is
+  the single nod to the old identity.
+- **Noto Sans Phoenician** — the wordmark glyph row.
 
-### Typography
+**Colors** (`:root` in global.css):
+- Canvas + surface: white `#ffffff`. Secondary surface `--color-rail`
+  `#f5f5f6`. Hairline `--color-rule` `#e8e8ea`.
+- Text `#0f0f11` (near-black), muted `#6a6a72` (neutral gray).
+- Tyrian `#5b0f31` — now a graphic system, not just link color:
+  the kicker leading-rule, drop-caps, section numbers, rail bars,
+  lead standfirst rule.
 
-- **Headings**: Cormorant Garamond, semibold (h1/h2) / **bold 700
-  (h3/h4)** — the July 2026 pass bumped small-heading weight because
-  Cormorant is a display face and went spindly at subhead sizes.
-  Tight letter-spacing (`-0.015em` body / `-0.02em` display).
-  `text-wrap: balance` on all headings. Hero h1 = `text-5xl sm:text-7xl`.
-  Section h2 = `text-3xl sm:text-4xl`.
-- **Body**: Inter, 17px, line-height 1.62, with `-webkit-font-smoothing`
-  antialiased and `text-rendering: optimizeLegibility`. Running prose
-  (`.prose-encyclopedia`) uses **oldstyle (old-style) figures** and
-  `text-wrap: pretty` — the date-heavy text now reads like a printed
-  book; UI chrome and tables keep lining/tabular figures.
-- **Leads / abstracts**: upright serif (`text-xl`), NOT italic — the
-  old full-italic abstract blocks were a readability/amateur tell.
-- **Phoenician**: Noto Sans Phoenician, used as decorative cultural
-  signature throughout.
-- **Eyebrow labels** (`.eyebrow`): 11px, 0.18em tracking, semibold,
-  uppercase, tyrian-colored. Used above section headings.
+**Signature elements:**
+- `.eyebrow` — Bricolage, tyrian, uppercase, with a short tyrian
+  **leading rule** (`::before` bar). Add `.no-bar` for tight/label
+  contexts (masthead tagline, nav group labels).
+- `.lead` — large Inter-medium standfirst behind a 4px tyrian
+  left-rule. Replaced the old boxed serif-italic abstracts (the
+  narrative/period abstract boxes were unboxed into `.lead`).
+- `.longform` (added to narrative/theme/period content divs) — adds
+  a **tyrian drop-cap** on the first paragraph and **auto-numbered
+  `01 / 02` tyrian section heads** (CSS counters) on its `h2`s.
+  Scoped so short entity summaries (also `.prose-encyclopedia`) stay
+  plain.
+- Headings: Bricolage 700/800, tight tracking, `text-wrap: balance`;
+  `h1` fluid `clamp()`.
+- Prose h2: strong 2px near-black top rule.
+- Oldstyle figures were DROPPED (they read "old"); prose uses normal
+  lining figures now.
+
+The earlier all-cream and white/modern palettes are superseded by
+this. Verified live on homepage + narrative; other page types
+inherit the system centrally (via global.css + the `serif`→Bricolage
+remap) and are being tuned on review.
 
 ### The Tanit mark
 

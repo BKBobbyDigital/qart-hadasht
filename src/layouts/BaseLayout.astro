@@ -230,13 +230,13 @@ const navGroups = [
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-8">
             <div class="text-center sm:text-left">
               <p class="font-phoenician text-xl sm:text-2xl text-tyrian-700 leading-none mb-1.5">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</p>
-              <p aria-label="Qart-Hadasht — homepage link" class="font-serif text-4xl sm:text-5xl lg:text-6xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</p>
+              <p aria-label="Qart-Hadasht — homepage link" class="font-heritage text-4xl sm:text-5xl lg:text-6xl text-ink-900 leading-none tracking-tight group-hover:text-tyrian-900 transition-colors">Qart-Hadasht</p>
             </div>
             <div class="flex flex-col items-center text-center shrink-0">
               <span class="text-tyrian-700 group-hover:text-tyrian-900 transition-colors">
                 <TanitMark size={32} />
               </span>
-              <p class="eyebrow leading-tight mt-1.5">An encyclopedia<br />of ancient Carthage</p>
+              <p class="eyebrow no-bar leading-tight mt-1.5">An encyclopedia<br />of ancient Carthage</p>
             </div>
           </div>
         </a>
@@ -260,7 +260,7 @@ const navGroups = [
             {navGroups.map((group, gi) => (
               <>
                 {gi > 0 && <span aria-hidden="true" class="opacity-0 select-none">‖</span>}
-                <p class="eyebrow text-[10px] text-center mb-1 self-end">{group.label}</p>
+                <p class="eyebrow no-bar text-[10px] text-center mb-1 self-end">{group.label}</p>
               </>
             ))}
             <!-- Links row -->
@@ -282,7 +282,7 @@ const navGroups = [
           <div class="sm:hidden space-y-3 text-center">
             {navGroups.map((group) => (
               <div>
-                <p class="eyebrow text-[10px] mb-1">{group.label}</p>
+                <p class="eyebrow no-bar text-[10px] mb-1">{group.label}</p>
                 <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
                   {group.items.map((item, ii) => (
                     <>
@@ -313,7 +313,7 @@ const navGroups = [
           </span>
           <div>
             <p class="text-ink-900">
-              <span class="font-serif text-base">Qart-Hadasht</span> ·
+              <span class="font-heritage text-base">Qart-Hadasht</span> ·
               <span class="font-phoenician text-tyrian-700">𐤒𐤓𐤕𐤇𐤃𐤔𐤕</span>
               <span class="text-sand-700"> · The Carthage Encyclopedia</span>
             </p>

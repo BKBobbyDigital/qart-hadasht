@@ -116,10 +116,7 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       <article class="lg:col-start-1 lg:row-start-1 min-w-0">
         <span hidden data-pagefind-filter="type:Periods" data-pagefind-meta="type:Period"></span>
 
-        <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
-          <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-xl leading-snug text-ink-900" set:html={renderInline(d.summary)}></p>
-        </aside>
+        <p class="lead mt-2 mb-8" set:html={renderInline(d.summary)}></p>
 
     {d.map_id && mapConfigs[d.map_id] && (
       <HistoricalMap
@@ -135,7 +132,7 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       with confidence assessments and citations are linked throughout.
     </p>
 
-    <div class="prose-encyclopedia period-content text-sand-900 mt-4">
+    <div class="prose-encyclopedia longform period-content text-sand-900 mt-4">
       <Content />
     </div>
 

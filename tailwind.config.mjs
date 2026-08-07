@@ -4,7 +4,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        // `serif` is a legacy class name kept to avoid churning 200+
+        // usages — it now maps to the modern display grotesque
+        // (Bricolage) that carries all headings/leads. The masthead
+        // wordmark uses `heritage` (Cormorant) as the one nod to the
+        // ancient identity.
+        serif: ['Bricolage Grotesque', 'system-ui', 'sans-serif'],
+        display: ['Bricolage Grotesque', 'system-ui', 'sans-serif'],
+        heritage: ['Cormorant Garamond', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
         phoenician: ['Noto Sans Phoenician', 'serif'],
       },

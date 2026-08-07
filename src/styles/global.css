@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Phoenician&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Cormorant+Garamond:wght@600&family=Inter:wght@400;500;600;700&family=Noto+Sans+Phoenician&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-text: #16130f;          /* near-black, faint warmth */
-  --color-text-muted: #5c574f;    /* warm gray (was brown #6b5638) */
-  --color-canvas: #f8f8f6;        /* page background — near-white, whisper of warmth */
-  --color-bg: #f8f8f6;
+  --color-text: #0f0f11;          /* near-black, crisp */
+  --color-text-muted: #6a6a72;    /* neutral gray */
+  --color-canvas: #ffffff;        /* white page */
+  --color-bg: #ffffff;
   --color-bg-elevated: #ffffff;   /* white reading surface */
-  --color-rule: #e4e0d8;          /* hairline (was tan #c9b794) */
+  --color-rail: #f5f5f6;          /* faint gray secondary surface */
+  --color-rule: #e8e8ea;          /* hairline */
   --color-tyrian: #5b0f31;
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
 }
 
 html {
@@ -20,9 +23,9 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
-  font-size: 17px;
-  line-height: 1.62;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.6;
   /* Kerning + ligatures for cleaner text; contextual alternates on. */
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
@@ -30,44 +33,70 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Modern display headlines — Bricolage Grotesque, heavy and tight,
+   with a fluid scale so mobile and desktop both read at the right size. */
 h1, h2, h3, h4 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  color: var(--color-text);
-  text-wrap: balance;   /* avoid lone-word last lines in headings */
-}
-
-/* Display heading — bigger and tighter tracking. */
-h1 {
-  letter-spacing: -0.02em;
-  line-height: 1.05;
-}
-
-/* Cormorant is a display face and goes thin at subhead sizes; give
-   the smaller headings more weight so they read solid, not spindly. */
-h3, h4 {
+  font-family: var(--font-display);
   font-weight: 700;
+  letter-spacing: -0.022em;
+  line-height: 1.08;
+  color: var(--color-text);
+  text-wrap: balance;
 }
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.0;
+  font-size: clamp(2.4rem, 5.6vw, 4rem);
+}
+h2 { font-weight: 800; letter-spacing: -0.028em; }
+h3, h4 { font-weight: 700; letter-spacing: -0.02em; }
 
 .font-phoenician {
   font-family: 'Noto Sans Phoenician', serif;
 }
 
-/* Editorial label — small caps, tracked, used as section eyebrows. */
+/* Section kicker / eyebrow — Bricolage, tyrian, led by a short tyrian
+   rule (the signature "Direction C" label). Renders inline-flex so the
+   rule sits to its left. */
 .eyebrow {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.18em;
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
   color: var(--color-tyrian);
 }
+.eyebrow::before {
+  content: "";
+  width: 32px;
+  height: 4px;
+  background: var(--color-tyrian);
+  flex: none;
+}
 .eyebrow-muted {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.18em;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-text-muted);
+}
+/* A bar-less variant for tight/inline label contexts. */
+.eyebrow.no-bar::before { display: none; }
+
+/* Editorial lead / standfirst — large sans behind a tyrian bar. */
+.lead {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+  line-height: 1.36;
+  color: var(--color-text);
+  border-left: 4px solid var(--color-tyrian);
+  padding-left: 22px;
 }
 
 /* Tyrian rule — thin horizontal divider in the brand color, used to
@@ -82,15 +111,52 @@ h3, h4 {
    printed book; UI chrome and tables keep lining/tabular figures. And
    text-wrap: pretty cleans up paragraph rag / widows. */
 .prose-encyclopedia {
-  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-size: 1.055rem;   /* ~19px reading body */
+  line-height: 1.66;
   text-wrap: pretty;
 }
-.prose-encyclopedia p { @apply my-4; }
-.prose-encyclopedia h2 { @apply mt-12 mb-4 text-3xl pt-6; border-top: 1px solid theme('colors.tyrian.700'); }
-.prose-encyclopedia h3 { @apply mt-8 mb-2 text-xl; }
-.prose-encyclopedia ul { @apply list-disc pl-6 my-4; }
-.prose-encyclopedia ol { @apply list-decimal pl-6 my-4; }
-.prose-encyclopedia a { @apply text-tyrian-700 underline decoration-tyrian-500/40 underline-offset-2 hover:decoration-tyrian-700; }
+.prose-encyclopedia p { @apply my-4; max-width: 68ch; }
+.prose-encyclopedia h2 {
+  font-size: clamp(1.55rem, 2.9vw, 2.15rem);
+  margin: 2.6rem 0 1rem;
+  padding-top: 1.1rem;
+  border-top: 2px solid var(--color-text);
+}
+.prose-encyclopedia h3 { @apply mt-8 mb-2; font-size: 1.3rem; }
+.prose-encyclopedia ul { @apply list-disc pl-6 my-4; max-width: 68ch; }
+.prose-encyclopedia ol { @apply list-decimal pl-6 my-4; max-width: 68ch; }
+.prose-encyclopedia a {
+  @apply text-tyrian-700 no-underline;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(91, 15, 49, 0.32);
+}
+.prose-encyclopedia a:hover { text-decoration-color: var(--color-tyrian); }
+
+/* ── Long-form article treatment (narratives, themes, periods, takes) ──
+   Adds the Direction-C editorial devices: a tyrian drop-cap opening the
+   piece and auto-numbered "01 / 02" section heads. Scoped to .longform
+   so short entity summaries (which also use .prose-encyclopedia) stay
+   plain. */
+.longform { counter-reset: qh-sec; }
+.longform > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--color-tyrian);
+  float: left;
+  font-size: 3.5em;
+  line-height: 0.7;
+  margin: 0.06em 0.09em 0 0;
+}
+.longform h2 { counter-increment: qh-sec; }
+.longform h2::before {
+  content: counter(qh-sec, decimal-leading-zero);
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--color-tyrian);
+  margin-right: 0.55rem;
+}
 
 /* Auto-linked cross-references: quieter dotted underline. */
 .auto-link { @apply text-tyrian-700 no-underline; border-bottom: 1px dotted theme('colors.tyrian.500'); opacity: 0.95; }
