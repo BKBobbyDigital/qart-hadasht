@@ -28,7 +28,7 @@ const sourceEntries = await Promise.all(
 );
 ---
 
-<article class="border border-sand-300 rounded-lg bg-white/60 p-5 my-4">
+<article class="border border-sand-300 rounded-lg bg-sand-50 p-5 my-4">
   <div class="flex items-start gap-3">
     <ConfidenceBadge confidence={data.confidence} />
     <p class="font-serif text-lg leading-snug flex-1 m-0" set:html={renderInline(data.statement)}></p>

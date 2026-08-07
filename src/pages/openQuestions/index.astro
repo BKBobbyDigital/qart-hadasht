@@ -27,7 +27,7 @@ const questions = (await getCollection('openQuestions')).sort((a, b) =>
         <li>
           <a
             href={`/openQuestions/${q.id}`}
-            class="block p-5 border border-sand-400 bg-sand-50 rounded-lg transition-colors hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100"
+            class="block p-5 border border-sand-300 bg-sand-50 rounded-lg transition-colors hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100"
           >
             <h2 class="font-serif text-xl text-ink-900 leading-snug">{q.data.question}</h2>
             <p class="text-xs uppercase tracking-wider text-sand-700 mt-3">

@@ -235,7 +235,7 @@ const personInfoboxRows: InfoboxRow[] = [
     </p>
 
     {(d.name_punic || d.name_greek || d.name_latin) && (
-      <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-white/60">
+      <section class="mt-8 border border-sand-300 rounded-lg p-5 bg-sand-50">
         <h2 class="font-serif text-xl mb-3">Name</h2>
         <dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
           {d.name_punic && (<><dt class="font-semibold text-sand-700">Punic</dt><dd>{d.name_punic} {d.name_punic_script && <span class="font-phoenician text-tyrian-700 ml-2">{d.name_punic_script}</span>}</dd></>)}

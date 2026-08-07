@@ -384,6 +384,41 @@ favicon. Phoenician script lockup is preserved alongside.
   don't reintroduce them. Two intentional one-offs remain and are NOT
   cards: `hover:bg-tyrian-900` and `hover:bg-tyrian-200`.)
 
+### Card system (normalized Aug 2026)
+
+Cards grew page-by-page without a shared component and drifted. They
+were normalized to one vocabulary (the **homepage cards are excluded** —
+they're pending the homepage redesign, so `pages/index.astro` still
+carries the old tokens by design):
+
+- **Radius**: `rounded-lg` everywhere.
+- **Background**: solid white `bg-sand-50`. The translucent `bg-white/60`
+  and `bg-sand-50/60` variants were swept out — they read muddy on the
+  faint-gray (`sand-100`) band sections; solid white is crisp on both
+  white and gray.
+- **Border**: standard cards `border-sand-300` (the stray `sand-400`
+  hairlines were reconciled to `sand-300`). **Feature cards** — the
+  deliberately emphasized ones (featured editorial take, the Carthage
+  callout on /themes, the "matching narrative" boxes on people/events,
+  the About aside) — use **`border-tyrian-300`**. The tyrian-tinted
+  border IS the feature signal; keep it, don't flatten it to sand-300.
+- **Padding**: two tiers only — **`p-4` compact** (sidebar cross-link
+  rows, dense list rows) and **`p-5` standard** (main index / grid /
+  feature cards). The old `p-3` and `p-6` outliers were collapsed into
+  these. (`components/Timeline.astro` keeps a responsive `p-3 sm:p-4`
+  container padding — not a card, excluded.)
+- **Hover/active**: the unified purple progression documented above
+  (`hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100`).
+- **Meaningful type differences that STAY distinct**: list-row (`block`,
+  dense) vs grid (`flex flex-col h-full`, equal height) vs media (carries
+  an image, e.g. places/artifacts) vs feature (`border-tyrian-300`).
+  Panels (`Infobox`, `CiteThisPage`) are not cards and are styled
+  separately by design.
+- There is still **no shared `<Card>` component** (only `ClaimCard`
+  exists). A future refactor could extract one with these variants so
+  pages can't drift again; until then, match an existing card's class
+  string rather than inventing new token combinations.
+
 ### Components
 
 Key components in `src/components/`:
