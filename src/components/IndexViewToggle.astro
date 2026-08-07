@@ -188,6 +188,17 @@ const initialView = defaultView ?? views[0];
       });
     }
 
-    document.querySelectorAll('[data-view-container]').forEach(setupContainer);
+    // This script is inline (is:inline), so it executes at its position in
+    // the page — above the table/view markup further down. Defer setup to
+    // DOMContentLoaded so the sortable table and view subtrees exist when
+    // we query for them (otherwise the sort click-handlers never attach).
+    function init() {
+      document.querySelectorAll('[data-view-container]').forEach(setupContainer);
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
   })();
 </script>
