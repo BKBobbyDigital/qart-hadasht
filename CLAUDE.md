@@ -1463,6 +1463,18 @@ These are real "next level" directions the user has explicitly
 tabled. **Revisit each only when the user calls for them**; do
 not surface unsolicited.
 
+0. **Holistic visual-assets review (tabled Aug 2026, during the UI
+   review pass).** The user wants **all images and diagrams reviewed
+   together at a later point, once they have a clearer sense of what
+   they want** — rather than piecemeal. Scope: the battle diagrams
+   (read as functional-schematic / "rudimentary but they do the job";
+   item 2), the family-tree/dynasty SVGs (item 3), the whole maps
+   surface (item 8), and site imagery incl. the JSTOR-imagery idea
+   (Parked-indefinitely list). Treat items 2, 3, 8 and the imagery
+   notes as sub-parts of this one pass. Don't tweak any of them
+   individually in the meantime; wait for the user to open the
+   visual-assets pass with a defined direction.
+
 1. **Revamp all UI** — full visual / interaction redesign. Distinct
    from the small UI/UX polish previously parked. User-scoped as
    a deliberate future direction once the content side is
