@@ -267,26 +267,50 @@ is known."*
 
 ## Visual design language
 
-### Palette
+### Palette (reworked July 2026 — white / modern)
 
-- **Canvas (sand-50): `#f4f0e6`** — warm cream, the page background.
-  Anthropic-inspired. NOT the previous gray-cream.
-- **Tyrian (700: `#5b0f31`)** — the Phoenician brand color. Used as
-  primary accent: rules, eyebrow labels, brand mark, citation links.
-- **Ink (`#111111`)** — primary text color. Sharper than the previous
-  brown-black.
-- **Sand (100-700)** — borders, secondary surfaces, muted text.
-- **Tyrian-100 (`#f5dee8`)** — used as decorative pink-rose for tyrian-
-  themed featured cards.
-- **Purple-100 (`#f3e8ff`)** — Tailwind's lavender, used for the
-  card/table click/active state. Distinct from tyrian's pink.
+The all-cream palette was replaced with a near-white surface system.
+Warmth now lives almost entirely in the tyrian accent; surfaces are
+white, the canvas is a whisper-warm near-white, text is warm gray
+(not brown), borders are hairline gray. The change is centralized in
+the Tailwind `sand` scale + a few `--color-*` vars, so it cascaded
+across the whole site without per-page edits.
+
+- **Canvas: `#f8f8f6`** (`--color-canvas`, set on `<body>`) — near-white
+  page background, faint warmth.
+- **Surface: `#ffffff`** (`sand-50`) — cards, infoboxes, reading
+  surfaces. `sand-50` is now WHITE (was cream `#f4f0e6`); this is why
+  the change was one-line-per-token.
+- **Section band / secondary surface: `#f4f3ef`** (`sand-100`).
+- **Hairline border: `#e4e0d8`** (`sand-300`) — was tan `#c9b794`
+  (the muddy-border culprit; 153 uses, all fixed centrally).
+- **Secondary text: `#5c574f`** (`sand-700`) — warm gray, was brown
+  `#6b5638` (289 uses, all fixed centrally).
+- **Tyrian (700: `#5b0f31`)** — the Phoenician brand color and the
+  single accent: rules, eyebrow labels, brand mark, citation links,
+  card borders/left-rules.
+- **Ink (`#16130f` / `#111`)** — primary text, near-black.
+- Editorial-voice callouts are now **white cards with a tyrian
+  border/left-rule** (was pink `bg-tyrian-50`/`tyrian-100` fill).
+  The lavender `purple-100` active state was replaced site-wide with
+  an on-brand `tyrian-50` press tint. The cream hover `#faf6ec` was
+  replaced with neutral `sand-100`.
 
 ### Typography
 
-- **Headings**: Cormorant Garamond, semibold, tight letter-spacing
-  (`-0.015em` body / `-0.02em` display), sharper near-black.
-  Hero h1 = `text-5xl sm:text-7xl`. Section h2 = `text-3xl sm:text-4xl`.
-- **Body**: Inter, 17px, line-height 1.6.
+- **Headings**: Cormorant Garamond, semibold (h1/h2) / **bold 700
+  (h3/h4)** — the July 2026 pass bumped small-heading weight because
+  Cormorant is a display face and went spindly at subhead sizes.
+  Tight letter-spacing (`-0.015em` body / `-0.02em` display).
+  `text-wrap: balance` on all headings. Hero h1 = `text-5xl sm:text-7xl`.
+  Section h2 = `text-3xl sm:text-4xl`.
+- **Body**: Inter, 17px, line-height 1.62, with `-webkit-font-smoothing`
+  antialiased and `text-rendering: optimizeLegibility`. Running prose
+  (`.prose-encyclopedia`) uses **oldstyle (old-style) figures** and
+  `text-wrap: pretty` — the date-heavy text now reads like a printed
+  book; UI chrome and tables keep lining/tabular figures.
+- **Leads / abstracts**: upright serif (`text-xl`), NOT italic — the
+  old full-italic abstract blocks were a readability/amateur tell.
 - **Phoenician**: Noto Sans Phoenician, used as decorative cultural
   signature throughout.
 - **Eyebrow labels** (`.eyebrow`): 11px, 0.18em tracking, semibold,

@@ -21,16 +21,21 @@ export default {
           800: '#440b25',
           900: '#3d0a21',
         },
-        // Sand-cream — the canvas color (sand-50 is now warmer / Anthropic-style)
-        // and the secondary surface palette
+        // Neutral surface + text scale. Reworked July 2026 from the
+        // all-cream palette to a clean near-white system: white reading
+        // surfaces on a barely-warm canvas, hairline borders, and a
+        // warm-gray (not brown) text scale. Warmth now lives almost
+        // entirely in the tyrian accent. sand-50 is the white surface;
+        // the page canvas is a distinct near-white set on <body>.
         sand: {
-          50: '#f4f0e6',  // warm cream — page background
-          100: '#ece5d3', // slightly deeper cream — section variation
-          200: '#dfd4ba', // border-friendly tan
-          300: '#c9b794', // mid tan — borders, dividers
-          500: '#a08660', // tan
-          700: '#6b5638', // deep tan — secondary text
-          900: '#3d3020', // very dark tan
+          50: '#ffffff',  // white — cards, infoboxes, reading surfaces
+          100: '#f4f3ef', // faint warm gray — section bands, secondary surface
+          200: '#eae7e1', // light hairline / stronger border
+          300: '#e4e0d8', // hairline border, dividers (was tan #c9b794)
+          500: '#b0aaa0', // muted rules / icon strokes
+          600: '#6f6a61', // secondary text (slightly lighter)
+          700: '#5c574f', // secondary text (was brown #6b5638)
+          900: '#2b2823', // near-black warm
         },
         // Near-black ink for text — sharper than the previous brown-black
         ink: {

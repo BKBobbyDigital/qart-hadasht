@@ -5,24 +5,29 @@
 @tailwind utilities;
 
 :root {
-  --color-text: #111111;
-  --color-text-muted: #6b5638;
-  --color-bg: #f4f0e6;
-  --color-bg-elevated: #faf7ed;
-  --color-rule: #c9b794;
+  --color-text: #16130f;          /* near-black, faint warmth */
+  --color-text-muted: #5c574f;    /* warm gray (was brown #6b5638) */
+  --color-canvas: #f8f8f6;        /* page background — near-white, whisper of warmth */
+  --color-bg: #f8f8f6;
+  --color-bg-elevated: #ffffff;   /* white reading surface */
+  --color-rule: #e4e0d8;          /* hairline (was tan #c9b794) */
   --color-tyrian: #5b0f31;
 }
 
 html {
-  background: var(--color-bg);
+  background: var(--color-canvas);
   color: var(--color-text);
 }
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 17px;
-  line-height: 1.6;
-  font-feature-settings: 'kern' 1;
+  line-height: 1.62;
+  /* Kerning + ligatures for cleaner text; contextual alternates on. */
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4 {
@@ -30,12 +35,19 @@ h1, h2, h3, h4 {
   font-weight: 600;
   letter-spacing: -0.015em;
   color: var(--color-text);
+  text-wrap: balance;   /* avoid lone-word last lines in headings */
 }
 
 /* Display heading — bigger and tighter tracking. */
 h1 {
   letter-spacing: -0.02em;
   line-height: 1.05;
+}
+
+/* Cormorant is a display face and goes thin at subhead sizes; give
+   the smaller headings more weight so they read solid, not spindly. */
+h3, h4 {
+  font-weight: 700;
 }
 
 .font-phoenician {
@@ -66,6 +78,13 @@ h1 {
 
 /* Editorial prose styling. Section h2s now sit under a thin tyrian rule
    instead of the previous sand border. */
+/* Oldstyle figures in running prose make the date-heavy text read like a
+   printed book; UI chrome and tables keep lining/tabular figures. And
+   text-wrap: pretty cleans up paragraph rag / widows. */
+.prose-encyclopedia {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  text-wrap: pretty;
+}
 .prose-encyclopedia p { @apply my-4; }
 .prose-encyclopedia h2 { @apply mt-12 mb-4 text-3xl pt-6; border-top: 1px solid theme('colors.tyrian.700'); }
 .prose-encyclopedia h3 { @apply mt-8 mb-2 text-xl; }

@@ -87,7 +87,7 @@ const relatedComparisons = allComparisons.filter((c: any) =>
         <ul class="space-y-2">
           {relatedComparisons.map((c: any) => (
             <li>
-              <a href={`/sourceComparisons/${c.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+              <a href={`/sourceComparisons/${c.id}`} class="block p-3 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 transition-colors">
                 <p class="font-serif text-tyrian-700">{c.data.title}</p>
                 <p class="text-xs text-sand-700 mt-1">{c.data.source_passages.length} sources in parallel</p>
               </a>

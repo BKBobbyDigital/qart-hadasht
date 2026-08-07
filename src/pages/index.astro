@@ -115,7 +115,7 @@ const confidenceLabel: Record<string, string> = {
         <li>
           <a
             href={`/editorialTakes/${t.id}`}
-            class="flex flex-col h-full p-5 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+            class="flex flex-col h-full p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
           >
             <p class="text-[10px] uppercase tracking-widest font-semibold text-tyrian-700">
               Editorial take · {confidenceLabel[t.data.confidence] ?? t.data.confidence}
@@ -144,7 +144,7 @@ const confidenceLabel: Record<string, string> = {
         <li>
           <a
             href={`/narratives/${n.id.replace(/\.md$/, '')}`}
-            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
           >
             <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
               Narrative · {n.data.scope}
@@ -174,7 +174,7 @@ const confidenceLabel: Record<string, string> = {
         <li>
           <a
             href={`/openQuestions/${q.id}`}
-            class="flex flex-col h-full p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+            class="flex flex-col h-full p-5 border border-sand-400 bg-sand-50 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
           >
             <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">Open question</p>
             <h3 class="font-serif text-lg text-ink-900 mt-2 leading-snug">{q.data.question}</h3>
@@ -203,7 +203,7 @@ const confidenceLabel: Record<string, string> = {
       </p>
       <a
         href={`/sourceComparisons/${featuredComparison.id}`}
-        class="block p-6 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors"
+        class="block p-6 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors"
       >
         <p class="text-[10px] uppercase tracking-widest font-semibold text-tyrian-700">Source comparison</p>
         <h3 class="font-serif text-2xl text-tyrian-900 mt-2 leading-snug">{featuredComparison.data.title}</h3>
@@ -221,9 +221,9 @@ const confidenceLabel: Record<string, string> = {
     <p class="eyebrow mb-3">Historical atlas</p>
     <a
       href="/maps/extent-over-time"
-      class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start p-6 border border-sand-400 bg-sand-50 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+      class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start p-6 border border-sand-400 bg-sand-50 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
     >
-      <div class="flex-shrink-0 flex items-center justify-center w-full sm:w-48 aspect-[4/3] bg-tyrian-50 border border-tyrian-300 rounded-md">
+      <div class="flex-shrink-0 flex items-center justify-center w-full sm:w-48 aspect-[4/3] bg-sand-50 border border-tyrian-300 rounded-md">
         <p class="font-phoenician text-tyrian-700 text-3xl sm:text-4xl tracking-wider">𐤒𐤓𐤕</p>
       </div>
       <div class="flex-1">
@@ -252,7 +252,7 @@ const confidenceLabel: Record<string, string> = {
         <li>
           <a
             href={`/threads/${t.id.replace(/\.md$/, '')}`}
-            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+            class="flex flex-col h-full p-5 border border-sand-300 bg-white/60 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
           >
             <p class="text-[10px] uppercase tracking-widest font-semibold text-sand-700">
               Thread · {t.data.scope}

@@ -103,7 +103,7 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       {themeTags.length > 0 && (
         <div class="mt-4 flex flex-wrap gap-2">
           {themeTags.map((t: any) => (
-            <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">{t.data.title}</a>
+            <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-sand-100 hover:border-tyrian-500 transition-colors">{t.data.title}</a>
           ))}
         </div>
       )}
@@ -115,9 +115,9 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       <article class="lg:col-start-1 lg:row-start-1 min-w-0">
         <span hidden data-pagefind-filter="type:Periods" data-pagefind-meta="type:Period"></span>
 
-        <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 mb-6 rounded-lg">
+        <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
           <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.summary}</p>
+          <p class="font-serif text-xl leading-snug text-ink-900">{d.summary}</p>
         </aside>
 
     {d.map_id && mapConfigs[d.map_id] && (

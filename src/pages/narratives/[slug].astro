@@ -112,7 +112,7 @@ const narrativeInfoboxRows: InfoboxRow[] = [
       {tags.length > 0 && (
         <div class="mt-4 flex flex-wrap gap-2">
           {tags.map((t) => (
-            <a href={`/themes/${t.slug}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">{t.title}</a>
+            <a href={`/themes/${t.slug}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-sand-100 hover:border-tyrian-500 transition-colors">{t.title}</a>
           ))}
         </div>
       )}
@@ -129,9 +129,9 @@ const narrativeInfoboxRows: InfoboxRow[] = [
       </div>
       <article class="lg:col-start-1 lg:row-start-1 min-w-0">
         <span hidden data-pagefind-filter="type:Narratives" data-pagefind-meta="type:Narrative"></span>
-        <aside class="border border-tyrian-300 bg-tyrian-50/60 p-6 mb-6 rounded-lg">
+        <aside class="border border-tyrian-300 bg-sand-50/60 p-6 mb-6 rounded-lg">
           <p class="eyebrow mb-2 text-tyrian-700">Abstract</p>
-          <p class="font-serif text-lg leading-snug text-ink-900 italic">{d.thesis}</p>
+          <p class="font-serif text-xl leading-snug text-ink-900">{d.thesis}</p>
         </aside>
 
         <div class="prose-encyclopedia narrative-content text-sand-900 mt-8">

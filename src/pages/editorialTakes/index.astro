@@ -29,7 +29,7 @@ const confidenceLabel: Record<string, string> = {
     <ul class="space-y-3">
       {takes.map((t: any) => (
         <li>
-          <a href={`/editorialTakes/${t.id}`} class="block p-5 border border-tyrian-300 bg-tyrian-50 rounded-lg hover:bg-tyrian-100 transition-colors">
+          <a href={`/editorialTakes/${t.id}`} class="block p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">
             <div class="flex items-baseline justify-between gap-4 flex-wrap">
               <h2 class="font-serif text-xl text-tyrian-900">{t.data.subject_question}</h2>
               <span class="text-xs uppercase tracking-wider text-tyrian-700">{confidenceLabel[t.data.confidence]} confidence</span>

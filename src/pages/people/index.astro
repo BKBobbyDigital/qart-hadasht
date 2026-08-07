@@ -98,13 +98,13 @@ const personRows = people.map(personRow);
     <nav aria-label="Sections on this page" class="mb-10 flex flex-wrap items-baseline gap-x-2 gap-y-2 text-sm">
       <span class="eyebrow text-[10px] mr-1">Jump to</span>
       {sortedDynasties.length > 0 && (
-        <a href="#dynasties" class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+        <a href="#dynasties" class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-sand-100 hover:border-tyrian-500 transition-colors">
           <span class="text-sand-900">Dynasties</span>
           <span class="text-xs text-sand-700 tabular-nums">{sortedDynasties.length}</span>
         </a>
       )}
       {groups.length > 0 && (
-        <a href="#peoples" class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors">
+        <a href="#peoples" class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-sand-100 hover:border-tyrian-500 transition-colors">
           <span class="text-sand-900">Peoples</span>
           <span class="text-xs text-sand-700 tabular-nums">{groups.length}</span>
         </a>
@@ -112,7 +112,7 @@ const personRows = people.map(personRow);
       {displayBuckets.map((b) => (
         <a
           href={`#${b.slug}`}
-          class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-[#faf6ec] hover:border-tyrian-500 transition-colors"
+          class="inline-flex items-baseline gap-1.5 px-2.5 py-1 border border-sand-300 bg-sand-50 rounded-full hover:bg-sand-100 hover:border-tyrian-500 transition-colors"
         >
           <span class="text-sand-900">{b.label}</span>
           <span class="text-xs text-sand-700 tabular-nums">{b.items.length}</span>
@@ -132,7 +132,7 @@ const personRows = people.map(personRow);
         <ul class="grid sm:grid-cols-2 gap-3">
           {sortedDynasties.map(({ slug, config }) => (
             <li>
-              <a href={`/dynasties/${slug}`} class="flex h-full items-start gap-3 p-4 border border-sand-300 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors">
+              <a href={`/dynasties/${slug}`} class="flex h-full items-start gap-3 p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
                 <svg width="22" height="22" viewBox="0 0 22 22" class="flex-shrink-0 mt-1 text-tyrian-700" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
                   <circle cx="11" cy="3.5" r="2"/>
                   <circle cx="4" cy="14" r="2"/>
@@ -161,7 +161,7 @@ const personRows = people.map(personRow);
             <li class="h-full">
               <a
                 href={`/groups/${g.id}`}
-                class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+                class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
               >
                 <h3 class="font-serif text-lg text-tyrian-800 leading-tight line-clamp-1">{g.data.name_display}</h3>
                 <p class="mt-1.5">
@@ -198,7 +198,7 @@ const personRows = people.map(personRow);
                   <li class="h-full">
                     <a
                       href={`/people/${p.id}`}
-                      class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+                      class="card-uniform flex flex-col h-full p-4 border border-sand-300 bg-white/60 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
                     >
                       <h3 class="font-serif text-lg text-tyrian-800 leading-tight line-clamp-1">{p.data.name_display}</h3>
                       <p class="mt-1.5">
@@ -230,7 +230,7 @@ const personRows = people.map(personRow);
           <tbody>
             {personRows.map((r) => (
               <tr
-                class="border-b border-sand-200 hover:bg-[#faf6ec] active:bg-purple-100 transition-colors"
+                class="border-b border-sand-200 hover:bg-sand-100 active:bg-tyrian-50 transition-colors"
                 data-sort-name={r.name}
                 data-sort-role={r.role}
                 data-sort-polity={r.polity}

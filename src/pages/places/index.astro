@@ -39,7 +39,7 @@ for (const e of allEvents) {
           <li>
             <a
               href={`/places/${p.id}`}
-              class="flex flex-col h-full border border-sand-300 bg-white/60 rounded-lg overflow-hidden hover:bg-[#faf6ec] hover:border-tyrian-500 active:bg-purple-100 transition-colors"
+              class="flex flex-col h-full border border-sand-300 bg-white/60 rounded-lg overflow-hidden hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors"
             >
               {p.data.image ? (
                 <div class="aspect-[4/3] bg-sand-100 overflow-hidden">
@@ -81,7 +81,7 @@ for (const e of allEvents) {
         <tbody>
           {places.map((p) => (
             <tr
-              class="border-b border-sand-200 hover:bg-[#faf6ec] active:bg-purple-100 transition-colors"
+              class="border-b border-sand-200 hover:bg-sand-100 active:bg-tyrian-50 transition-colors"
               data-sort-name={p.data.name_display}
               data-sort-type={p.data.type}
               data-sort-modern={p.data.modern_location ?? ''}
