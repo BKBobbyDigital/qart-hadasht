@@ -210,9 +210,9 @@ const navGroups = [
          bounds are guaranteed identical: Periods/wordmark/About-side
          line up on the left, Sources/Tanit-cluster/Search line up on
          the right. Mobile (below sm) collapses to centered stacks. -->
-    <header class="bg-sand-100">
+    <header class="bg-white">
       <!-- Top tyrian rule -->
-      <div class="h-[2px] bg-tyrian-700"></div>
+      <div class="h-[4px] bg-tyrian-700"></div>
 
       <div class="max-w-4xl mx-auto px-6">
         <!-- Utility row -->
@@ -266,11 +266,11 @@ const navGroups = [
             <!-- Links row -->
             {navGroups.map((group, gi) => (
               <>
-                {gi > 0 && <span aria-hidden="true" class="text-sand-400 text-base leading-none">‖</span>}
+                {gi > 0 && <span aria-hidden="true" class="text-sand-300 text-base leading-none">‖</span>}
                 <div class="flex items-baseline justify-center gap-x-2.5">
                   {group.items.map((item, ii) => (
                     <>
-                      {ii > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+                      {ii > 0 && <span class="text-sand-300" aria-hidden="true">|</span>}
                       <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
                     </>
                   ))}
@@ -286,7 +286,7 @@ const navGroups = [
                 <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
                   {group.items.map((item, ii) => (
                     <>
-                      {ii > 0 && <span class="text-sand-400" aria-hidden="true">|</span>}
+                      {ii > 0 && <span class="text-sand-300" aria-hidden="true">|</span>}
                       <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
                     </>
                   ))}
@@ -297,15 +297,15 @@ const navGroups = [
         </nav>
       </div>
 
-      <!-- Bottom tyrian rule -->
-      <div class="border-t border-tyrian-700"></div>
+      <!-- Strong ink rule closing the nav (Direction C). -->
+      <div class="border-t-2 border-ink-900"></div>
     </header>
 
     <main id="main-content" class="flex-1" data-pagefind-body tabindex="-1">
       <slot />
     </main>
 
-    <footer class="mt-16 border-t border-tyrian-700 bg-sand-50">
+    <footer class="mt-16 border-t-4 border-tyrian-700 bg-[#f6f6f7]">
       <div class="max-w-4xl mx-auto px-6 py-10 text-sm text-sand-700">
         <div class="flex items-start gap-4">
           <span class="text-tyrian-700 shrink-0">
