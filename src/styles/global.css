@@ -185,8 +185,17 @@ h1:hover > .anchor-link, h2:hover > .anchor-link, h3:hover > .anchor-link,
 h4:hover > .anchor-link, h5:hover > .anchor-link, h6:hover > .anchor-link,
 .anchor-link:focus { opacity: 0.8; }
 .anchor-link:hover { opacity: 1 !important; color: theme('colors.tyrian.700'); }
-/* Brief background flash when arriving via an anchor (e.g. from a cited URL) */
-:target { background-color: theme('colors.tyrian.100'); transition: background-color 1.6s ease; }
+/* Brief background flash when arriving via an anchor (e.g. from a cited
+   URL) or clicking an in-page "jump to" link. Fades OUT to transparent
+   so it never leaves a persistent purple wash on the targeted section —
+   :target stays active while the hash matches, so a plain background
+   (no keyframe) would linger indefinitely. */
+@keyframes qh-target-flash {
+  from { background-color: theme('colors.tyrian.100'); }
+  to   { background-color: transparent; }
+}
+:target { animation: qh-target-flash 1.4s ease-out; }
+@media (prefers-reduced-motion: reduce) { :target { animation: none; } }
 .anchor-copied { color: theme('colors.tyrian.700') !important; opacity: 1 !important; }
 .anchor-copied::after { content: ' link copied'; font-size: 0.7em; font-style: italic; margin-left: 0.3em; }
 
