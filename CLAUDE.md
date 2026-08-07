@@ -316,10 +316,20 @@ heritage element kept.
 - Oldstyle figures were DROPPED (they read "old"); prose uses normal
   lining figures now.
 
-The earlier all-cream and white/modern palettes are superseded by
-this. Verified live on homepage + narrative; other page types
-inherit the system centrally (via global.css + the `serif`→Bricolage
-remap) and are being tuned on review.
+**Header / footer chrome** (`BaseLayout.astro`):
+- Masthead sits on **white** (was the cream `sand-100` band); header
+  and page share one surface, separated only by rules.
+- A **5px tyrian top bar** opens the page; a hairline divides brand
+  from nav; a **2px near-black rule** closes the nav (the heavy C
+  underline). Nav group labels use `.eyebrow.no-bar` (Bricolage,
+  tyrian, no leading rule).
+- Footer bookends it: a **4px tyrian top bar** on a faint-gray
+  (`#f6f6f7`) surface. Fraunces wordmark in both.
+
+The earlier all-cream and white/modern palettes are fully superseded.
+The redesign was aligned faithfully to the chosen `mock-c.html`
+(scratchpad) after a first pass under-shot it — see the "faithful to
+mock-c" commit. Verified on homepage, narrative, and entity pages.
 
 ### The Tanit mark
 
@@ -328,13 +338,15 @@ circle head) is the brand mark. SVG component at
 `src/components/TanitMark.astro`. Used in masthead, footer, and
 favicon. Phoenician script lockup is preserved alongside.
 
-### Hover / click states
+### Hover / click states (current, post-Direction-C)
 
-- **Hover**: bg shifts from cream to slightly brighter cream
-  (`hover:bg-[#faf6ec]`); border darkens to `tyrian-500`. Subtle lift.
-- **Active/click**: bg goes to `purple-100` (clearly lavender, not
-  pink). Distinct visual feedback for press state.
-- Applied uniformly to all standard cards and sortable table rows.
+- **Hover**: bg shifts to a neutral faint gray (`hover:bg-sand-100`,
+  where `sand-100` is now `#f4f3ef`); border darkens to `tyrian-500`.
+- **Active/click**: bg goes to an on-brand `tyrian-50` tint (the old
+  lavender `purple-100` was replaced site-wide).
+- Applied uniformly to standard cards and sortable table rows.
+- (Historical note: the old cream `#faf6ec` hover and `purple-100`
+  active are gone — don't reintroduce them.)
 
 ### Components
 
