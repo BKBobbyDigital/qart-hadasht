@@ -303,9 +303,16 @@ heritage element kept.
 - `.eyebrow` — Bricolage, tyrian, uppercase, with a short tyrian
   **leading rule** (`::before` bar). Add `.no-bar` for tight/label
   contexts (masthead tagline, nav group labels).
-- `.lead` — large Inter-medium standfirst behind a 4px tyrian
-  left-rule. Replaced the old boxed serif-italic abstracts (the
-  narrative/period abstract boxes were unboxed into `.lead`).
+- `.lead` — Inter-medium standfirst behind a 4px tyrian left-rule.
+  Replaced the old boxed serif-italic abstracts (the narrative/period
+  abstract boxes were unboxed into `.lead`). Used in exactly two
+  places: narrative theses and period summaries. **Sized moderately**
+  (`clamp(1.18rem, 1.7vw, 1.36rem)`, line-height 1.5), NOT at a big
+  one-line-dek size — those fields hold 150–200-word abstracts, and the
+  earlier ~1.72rem size turned them into a wall of oversized text.
+  Distinct from body (larger + medium weight + rule) but calm enough to
+  read as an intro paragraph. If a thesis still feels heavy, the lever
+  is content (tighten the thesis), not type size.
 - `.longform` (added to narrative/theme/period content divs) — adds
   a **tyrian drop-cap** on the first paragraph and **auto-numbered
   `01 / 02` tyrian section heads** (CSS counters) on its `h2`s.
