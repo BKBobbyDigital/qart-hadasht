@@ -104,7 +104,7 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
       {themeTags.length > 0 && (
         <div class="mt-4 flex flex-wrap gap-2">
           {themeTags.map((t: any) => (
-            <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-sand-100 hover:border-tyrian-500 transition-colors">{t.data.title}</a>
+            <a href={`/themes/${t.id.replace(/\.md$/, '')}`} class="inline-block text-[11px] uppercase tracking-wider text-sand-700 font-medium bg-sand-100 border border-sand-300 px-2 py-0.5 rounded hover:bg-tyrian-50 hover:border-tyrian-500 transition-colors">{t.data.title}</a>
           ))}
         </div>
       )}

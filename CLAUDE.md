@@ -339,11 +339,14 @@ of them; a `find src -name '*.astro' | xargs perl -pi` sweep).
   the hyphen. The tagline's responsive toggle lives on a **wrapper
   div**, because `.eyebrow` hard-sets `display:inline-flex` in
   global.css and would override a `hidden` placed directly on it.
-- Primary nav is one **left-packed flex-wrap row** (not the old
-  centered grid): each group is a tyrian `.eyebrow.no-bar` label
-  followed by its links separated by `·` middots. On `sm+` each group
-  stays whole and wraps as a unit; on mobile a long group may wrap
-  internally, all still left-aligned.
+- Primary nav is **stacked columns** ("Option B", chosen Aug 2026 over
+  an inline single-row layout that read as one jumbled string): each
+  group is a left-aligned column with a tyrian `.eyebrow.no-bar` label
+  sitting **above** its links (links separated by `·` middots). The
+  three columns sit side by side (`flex flex-wrap gap-x-12`) and wrap
+  as whole units; on mobile they stack label-over-links, still
+  left-aligned. Stacking the label above the links is what separates
+  the group heads from the link text.
 - A **5px tyrian top bar** opens the page — this one is **full-bleed**
   across the viewport (per user preference; the only full-width rule).
   A hairline divides brand from nav; a **3px near-black rule** closes
@@ -366,13 +369,20 @@ favicon. Phoenician script lockup is preserved alongside.
 
 ### Hover / click states (current, post-Direction-C)
 
-- **Hover**: bg shifts to a neutral faint gray (`hover:bg-sand-100`,
-  where `sand-100` is now `#f4f3ef`); border darkens to `tyrian-500`.
-- **Active/click**: bg goes to an on-brand `tyrian-50` tint (the old
-  lavender `purple-100` was replaced site-wide).
-- Applied uniformly to standard cards and sortable table rows.
-- (Historical note: the old cream `#faf6ec` hover and `purple-100`
-  active are gone — don't reintroduce them.)
+- **Hover**: bg shifts to an on-brand purple tint (`hover:bg-tyrian-50`,
+  `#faf0f4`); border darkens to `tyrian-500`.
+- **Active/click**: bg deepens one step to `tyrian-100` (`#f5dee8`),
+  so the click still registers a change on top of the purple hover.
+- Applied **uniformly** to every card, sortable table row, list tile,
+  and the search-modal / battle-diagram / cite-panel hover surfaces.
+  Unified Aug 2026 (`hover:bg-sand-100`→`tyrian-50`, 52 sites;
+  `active:bg-tyrian-50`→`tyrian-100`, 35 sites) after the hover color
+  was found to be inconsistent — some cards hovered warm-gray
+  (`sand-100`, read "brownish"), some hovered purple. Now all purple.
+- (Historical note: the earlier neutral `sand-100` hover, the cream
+  `#faf6ec` hover, and the lavender `purple-100` active are all gone —
+  don't reintroduce them. Two intentional one-offs remain and are NOT
+  cards: `hover:bg-tyrian-900` and `hover:bg-tyrian-200`.)
 
 ### Components
 

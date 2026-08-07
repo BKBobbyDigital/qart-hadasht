@@ -36,7 +36,7 @@ entries.sort((a, b) => a.config.title.localeCompare(b.config.title));
     <ul class="space-y-4">
       {entries.map(({ slug, config }) => (
         <li>
-          <a href={`/dynasties/${slug}`} class="flex items-start gap-4 p-5 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
+          <a href={`/dynasties/${slug}`} class="flex items-start gap-4 p-5 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
             <svg width="28" height="28" viewBox="0 0 22 22" class="flex-shrink-0 mt-1 text-tyrian-700" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
               <circle cx="11" cy="3.5" r="2"/>
               <circle cx="4" cy="14" r="2"/>

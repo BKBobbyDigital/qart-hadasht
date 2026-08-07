@@ -177,7 +177,7 @@ const states = config.states;
           'flex-1 min-w-[120px] px-3 py-2 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-tyrian-500',
           s.id === defaultId
             ? 'bg-tyrian-700 text-sand-50'
-            : 'bg-sand-50 text-ink hover:bg-sand-100',
+            : 'bg-sand-50 text-ink hover:bg-tyrian-50',
         ]}
       >
         <span class="block leading-tight">{s.label}</span>
@@ -485,10 +485,10 @@ const states = config.states;
         btn.setAttribute('aria-selected', active ? 'true' : 'false');
         if (active) {
           btn.classList.add('bg-tyrian-700', 'text-sand-50');
-          btn.classList.remove('bg-sand-50', 'text-ink', 'hover:bg-sand-100');
+          btn.classList.remove('bg-sand-50', 'text-ink', 'hover:bg-tyrian-50');
         } else {
           btn.classList.remove('bg-tyrian-700', 'text-sand-50');
-          btn.classList.add('bg-sand-50', 'text-ink', 'hover:bg-sand-100');
+          btn.classList.add('bg-sand-50', 'text-ink', 'hover:bg-tyrian-50');
         }
       });
 

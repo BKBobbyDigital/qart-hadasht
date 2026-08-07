@@ -116,7 +116,7 @@ if (sortedComparisons.length > 0) {
           <ul class="space-y-3">
             {byScope[scope].map((n) => (
               <li>
-                <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
+                <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
                   <h3 class="font-serif text-xl text-tyrian-700">{n.data.title}</h3>
                   <p class="text-sm text-ink-900 mt-2">{n.data.thesis.slice(0, 280)}...</p>
                 </a>
@@ -137,7 +137,7 @@ if (sortedComparisons.length > 0) {
         <ul class="space-y-3">
           {sortedTakes.map((t: any) => (
             <li>
-              <a href={`/editorialTakes/${t.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
+              <a href={`/editorialTakes/${t.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
                 <h3 class="font-serif text-lg text-tyrian-700 leading-snug" set:html={renderInline(t.data.subject_question)}></h3>
                 {t.data.position && (
                   <p class="text-sm text-ink-900 mt-2">{stripMarkdownForMeta(t.data.position, 240)}</p>
@@ -161,7 +161,7 @@ if (sortedComparisons.length > 0) {
         <ul class="space-y-3">
           {sortedQuestions.map((q: any) => (
             <li>
-              <a href={`/openQuestions/${q.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
+              <a href={`/openQuestions/${q.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
                 <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{q.data.question}</h3>
                 {q.data.why_unknown && (
                   <p class="text-sm text-ink-900 mt-2">{q.data.why_unknown.slice(0, 240)}{q.data.why_unknown.length > 240 ? '...' : ''}</p>
@@ -185,7 +185,7 @@ if (sortedComparisons.length > 0) {
         <ul class="space-y-3">
           {sortedComparisons.map((c: any) => (
             <li>
-              <a href={`/sourceComparisons/${c.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
+              <a href={`/sourceComparisons/${c.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
                 <h3 class="font-serif text-lg text-tyrian-700 leading-snug">{c.data.title}</h3>
                 <p class="text-xs text-sand-700 mt-1">{c.data.source_passages.length} sources compared</p>
                 {c.data.summary && (

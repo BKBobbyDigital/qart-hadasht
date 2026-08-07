@@ -251,25 +251,29 @@ const navGroups = [
              top/bottom tyrian rules bookending the masthead. -->
         <div class="border-t border-sand-300"></div>
 
-        <!-- Primary nav grouped by epistemic kind. Three groups
-             (Reference / Synthesis / Evidence), each rendered as one
-             left-aligned inline unit: a tyrian eyebrow label followed
-             by its links separated by · middots. A single flex-wrap
-             row keeps everything left-packed (magazine masthead, not
-             centered). On sm+ each group stays whole and wraps as a
-             unit; on mobile a long group may wrap internally. -->
+        <!-- Primary nav grouped by epistemic kind (Reference /
+             Synthesis / Evidence). Option B "stacked" layout: each
+             group is a left-aligned column — a tyrian eyebrow label
+             sitting above its links (separated by · middots). The
+             three columns sit side by side and wrap as whole units;
+             on mobile they stack, label-over-links, still left-aligned.
+             Stacking the label above its links is what separates the
+             group heads from the link text (the inline version read
+             as one jumbled string). -->
 
-        <nav class="py-3 flex flex-wrap gap-x-7 gap-y-2 text-[15px] font-semibold text-ink-900" aria-label="Primary navigation">
+        <nav class="py-3 flex flex-wrap gap-x-12 gap-y-3 text-[15px] font-semibold text-ink-900" aria-label="Primary navigation">
           {navGroups.map((group) => (
-            <span class="flex flex-wrap sm:flex-nowrap items-baseline gap-x-2 gap-y-1">
+            <div class="flex flex-col gap-y-1.5">
               <span class="eyebrow no-bar text-[10px]">{group.label}</span>
-              {group.items.map((item, ii) => (
-                <>
-                  {ii > 0 && <span class="text-sand-500" aria-hidden="true">·</span>}
-                  <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
-                </>
-              ))}
-            </span>
+              <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                {group.items.map((item, ii) => (
+                  <>
+                    {ii > 0 && <span class="text-sand-500" aria-hidden="true">·</span>}
+                    <a href={item.href} class="whitespace-nowrap hover:text-tyrian-700 transition-colors">{item.label}</a>
+                  </>
+                ))}
+              </div>
+            </div>
           ))}
         </nav>
 

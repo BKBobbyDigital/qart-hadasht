@@ -45,7 +45,7 @@ enriched.sort((a, b) => a.comparison.data.title.localeCompare(b.comparison.data.
     <ul class="space-y-3">
       {enriched.map(({ comparison, subjectEvent, sourceCount }) => (
         <li>
-          <a href={`/sourceComparisons/${comparison.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-sand-100 hover:border-tyrian-500 active:bg-tyrian-50 transition-colors">
+          <a href={`/sourceComparisons/${comparison.id}`} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
             <h2 class="font-serif text-xl text-tyrian-700">{comparison.data.title}</h2>
             <p class="text-xs text-sand-700 mt-1">
               {sourceCount} source{sourceCount === 1 ? '' : 's'} compared
