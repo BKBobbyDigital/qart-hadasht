@@ -111,8 +111,13 @@ Most entity detail pages follow this structure on `lg:` screens:
   └── footer
 ```
 
-On mobile: infobox renders at top (collapsible via `<details>`), article
-flows below.
+On mobile: infobox renders at top but **collapsed by default** (a compact
+"QUICK FACTS ▾" bar), so it doesn't bury the entry's name/prose; the
+article headline and body flow directly below it. It's rendered `open` in
+SSR (desktop + no-JS both show it expanded) and an inline script in
+`Infobox.astro` collapses it below `lg` before paint — `d.open =
+matchMedia('(min-width:1024px)').matches`, re-applied on breakpoint change.
+On `lg+` it's the always-open sticky right-rail panel.
 
 ---
 

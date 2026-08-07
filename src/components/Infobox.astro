@@ -130,6 +130,21 @@ const isEmpty = (v: InfoboxRow['value']) =>
       })}
     </dl>
   </details>
+  <script is:inline>
+    // Collapse "Quick facts" by default on mobile so it doesn't bury the
+    // entry's name and prose; keep it open on lg+ (where it lives in the
+    // sticky right rail and its summary is non-interactive). Rendered
+    // `open` in SSR so no-JS and desktop both show it expanded; this runs
+    // inline right after the element (before paint) to avoid a flash.
+    (function () {
+      var d = document.currentScript.previousElementSibling;
+      if (!d || d.tagName !== 'DETAILS') return;
+      var mq = window.matchMedia('(min-width: 1024px)');
+      function apply() { d.open = mq.matches; }
+      apply();
+      mq.addEventListener('change', apply);
+    })();
+  </script>
 </aside>
 
 <style is:global>
