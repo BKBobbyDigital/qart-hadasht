@@ -1527,6 +1527,21 @@ not surface unsolicited.
    stale-while-revalidate logic). Foundation already in place via
    the manifest. Revisit if user wants offline access.
 
+8. **Maps — holistic review (tabled Aug 2026).** During the UI
+   review pass the user liked the period pages but wanted to
+   revisit *maps in general* as their own topic rather than
+   piecemeal. Scope when picked up: the whole maps surface — the
+   three `HistoricalMap` strategic atlases (FPW/SPW/TPW), the two
+   Atlantic-voyage maps (Hanno, Himilco), the Leaflet point maps on
+   places/events, the `TerritorialExtentMap` (/maps/extent-over-time),
+   and the /maps index — reviewed together for consistency, quality,
+   and whether each earns its place. **Fold in the one known
+   nit:** `HistoricalMap` SVG labels still name Cormorant inline in
+   the component, which now falls back to Georgia (Cormorant was
+   dropped from the font load in the Direction-C redesign); switch
+   them to Fraunces (loaded) or a sans. Revisit when the user calls
+   for the maps pass.
+
 ### Residual prose work — COMPLETE (June 2026)
 
 The long-held residual em-dash backlog was cleared in a manual
