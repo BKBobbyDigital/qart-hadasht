@@ -67,17 +67,17 @@ const scopeLabels: Record<string, { title: string; description: string; anchor: 
 };
 
 // Build TOC entries dynamically (only sections with content)
-type TocItem = { label: string; anchor: string; count: number };
+type TocItem = { label: string; anchor: string; count: number; gloss: string };
 const tocItems: TocItem[] = [];
 for (const [scope, label] of Object.entries(scopeLabels)) {
   if (byScope[scope] && byScope[scope].length > 0) {
-    tocItems.push({ label: label.title, anchor: label.anchor, count: byScope[scope].length });
+    tocItems.push({ label: label.title, anchor: label.anchor, count: byScope[scope].length, gloss: label.description.replace(/\.$/, '') });
   }
 }
-tocItems.push({ label: 'Editorial takes', anchor: 'editorial-takes', count: sortedTakes.length });
-tocItems.push({ label: 'Open questions', anchor: 'open-questions', count: sortedQuestions.length });
+tocItems.push({ label: 'Editorial takes', anchor: 'editorial-takes', count: sortedTakes.length, gloss: 'the site’s own labeled positions, with the opposing readings named' });
+tocItems.push({ label: 'Open questions', anchor: 'open-questions', count: sortedQuestions.length, gloss: 'what the surviving record doesn’t let us settle' });
 if (sortedComparisons.length > 0) {
-  tocItems.push({ label: 'Source comparisons', anchor: 'source-comparisons', count: sortedComparisons.length });
+  tocItems.push({ label: 'Source comparisons', anchor: 'source-comparisons', count: sortedComparisons.length, gloss: 'one contested event read through several ancient sources side by side' });
 }
 ---
 
@@ -86,23 +86,26 @@ if (sortedComparisons.length > 0) {
 >
   <div class="max-w-6xl mx-auto px-6 py-12">
     <h1 class="font-serif mb-3">Narratives</h1>
-    <p class="text-sand-700 mb-6">
-      The site's interpretive layer in three forms: long-form
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      The site's interpretive layer in four forms: long-form
       narratives that make sustained arguments, formal editorial
       takes that name a labeled position with opposition framing,
-      and open questions that treat the gaps as first-class
-      entities. Each piece links the underlying claims and
-      sources.
+      open questions that treat the gaps as first-class entities,
+      and source comparisons that read a contested event through
+      the several ancient sources side by side. Each piece links
+      the underlying claims and sources.
     </p>
 
     <nav aria-label="Sections on this page" class="mb-12 border border-sand-300 rounded-lg p-4 bg-sand-50">
-      <p class="eyebrow mb-2">Jump to</p>
-      <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+      <p class="eyebrow mb-3">Jump to</p>
+      <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
         {tocItems.map((item) => (
-          <li>
-            <a href={`#${item.anchor}`} class="text-tyrian-700 hover:underline">
-              {item.label} <span class="text-sand-700">({item.count})</span>
+          <li class="flex items-baseline gap-2">
+            <a href={`#${item.anchor}`} class="text-tyrian-700 hover:underline font-semibold shrink-0">
+              {item.label}
             </a>
+            <span class="text-sand-700">({item.count})</span>
+            <span class="text-sand-700 min-w-0">— {item.gloss}</span>
           </li>
         ))}
       </ul>
