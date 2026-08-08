@@ -319,9 +319,12 @@ heritage element kept.
   Scoped so short entity summaries (also `.prose-encyclopedia`) stay
   plain.
 - Headings: Bricolage 700/800, tight tracking, `text-wrap: balance`.
-  `h1` uses one big fluid `clamp(2.7rem, 6.4vw, 5rem)` in global.css;
-  the per-page Tailwind size utilities (`text-4xl` etc.) were stripped
-  off every `<h1>` (38 files) so that global scale actually governs.
+  `h1` uses one fluid `clamp(2.35rem, 4.8vw, 3.85rem)` in global.css
+  (dialed down Aug 2026 from an earlier `5rem`-cap that read oversized
+  once the shell widened to `max-w-6xl` — single-word index titles like
+  "Periods" hit the cap); the per-page Tailwind size utilities
+  (`text-4xl` etc.) were stripped off every `<h1>` (38 files) so the
+  global scale actually governs.
 - Infobox: white card with a **filled tyrian header bar** ("QUICK
   FACTS" in white Bricolage), not the small kicker-bar.
 - Prose h2: strong 2px near-black top rule.
@@ -566,7 +569,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~684 pages** as of
+parked until the day version settles. The site is **~694 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -599,7 +602,7 @@ Plus a substantial follow-on: analytics, 404, PWA, period 07 split,
 places imagery expansion, artifact placeholder consistency.
 
 Headline numbers:
-- 684 pages indexed
+- 694 pages indexed
 - 38 of 56 places imaged; 38 of 41 artifacts imaged
 - 0 broken internal links; 0 accessibility findings on user-facing pages
 - Em-dash density 73% reduced from initial audit; AI-tic vocabulary
@@ -1698,6 +1701,51 @@ experiment was removed before this and did not return; if a chrono
 element is ever wanted, a period-band sparkline strip was the floated
 option.)
 
+### UI/UX review pass (Aug 2026) — summary
+
+A page-by-page review of the whole site after the Direction-C redesign
+settled. Everything below shipped and is deployed; each has a detailed
+note in the relevant section above. The arc, for a future session:
+
+- **Header** — left-aligned masthead; nav switched from a centered grid
+  to **stacked left-aligned columns** (Option B) to fix a "jumbled"
+  read; **5px tyrian top bar made full-bleed**, 3px ink nav-rule held
+  to the content column. (See "Header / footer chrome".)
+- **Width** — unified the whole site to **`max-w-6xl` (1152px)** (was a
+  4xl/5xl split that left the masthead narrower than content on a 13").
+  (See "Site width".)
+- **Cards** — normalized to one vocabulary (solid-white bg, `sand-300`
+  borders, `tyrian-300` feature borders, `p-4`/`p-5`); **hover unified
+  to purple** (`tyrian-50` → `tyrian-100` active). (See "Card system",
+  "Hover / click states".)
+- **Type** — `h1` clamp dialed down; **`.lead` moderated** for the
+  150–200-word abstracts it holds. (See "Palette + type".)
+- **Real bug fixes** — dead **table sorting** site-wide (`IndexViewToggle`
+  inline script ran before the table parsed → deferred to
+  DOMContentLoaded); **`:target` purple wash** on jumped-to sections
+  (persistent bg → one-shot keyframe flash); **editorial-take Reasoning
+  double-spacing + 3/4 width** (literal `|` scalars → folded `>`; lifted
+  the 68ch cap inside the callout); a false **confidence byline** on the
+  homepage lead (strong → moderate).
+- **Mobile** — Quick Facts infobox now **collapsed by default** below
+  `lg` so it doesn't bury the entry name. (See "Page structure pattern".)
+- **Consistency** — every entity page leads with an **eyebrow kicker**
+  (people/deities: glyph moved below the h1); the centered-narrow reading
+  pages (thread/take/question/claim/about/methodology/search) were
+  **left-aligned** into the shell; **About + Methodology gained a sticky
+  `ContentToc` rail**; both synthesis hubs (`/narratives`, `/themes`)
+  got a **glossed jump-to nav** (label · count · one-line gloss) and the
+  narratives-hub intro was corrected from "three forms" to four.
+- **Homepage** — rebuilt as the **magazine front** (see above), then a
+  copy-tightening pass (de-duped the "written by its enemies" triple,
+  cut em-dashes to zero in visible copy, fixed the confidence byline).
+- **Footer** — rebuilt as a **brand sign-off** (see "Header / footer
+  chrome").
+- **Deferred (do not touch piecemeal)** — a **holistic visual-assets
+  review** (battle diagrams, family-tree SVGs, maps, imagery incl. the
+  JSTOR idea) is tabled as item 0 of the tabled list, to be done
+  together once the user has a defined direction.
+
 ---
 
 ## How to work on the project
@@ -1748,7 +1796,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **684 pages**.
+output. As of the last CLAUDE.md refresh it was around **694 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
