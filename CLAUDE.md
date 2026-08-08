@@ -392,7 +392,15 @@ the first element on all of them.
   the nav, and that rule is **held to the content column** (inside the
   `max-w-6xl` container), not full-bleed.
 - Footer bookends it: a **4px tyrian top bar** on a faint-gray
-  (`#f6f6f7`) surface. Fraunces wordmark in both.
+  (`#f6f6f7`) surface. Redesigned Aug 2026 as a **brand sign-off**
+  ("Direction C", chosen over an editorial-sitemap-columns option and a
+  balanced-two-end option): the Phoenician wordmark glyph row + a large
+  Fraunces `Qart-Hadasht` (`text-[2rem] sm:text-[2.6rem]`) as a closing
+  moment, then a one-line tagline, a hairline, a flat link row (About ·
+  Methodology · Sources · Reading threads · Maps — ink links, tyrian
+  hover), and the CC-BY/MIT license line. Replaced the old thin
+  left-huddled Tanit-mark + 4-link cluster, which read sparse in the
+  wide `max-w-6xl` shell.
 
 The earlier all-cream and white/modern palettes are fully superseded.
 The redesign was aligned faithfully to the chosen `mock-c.html`
