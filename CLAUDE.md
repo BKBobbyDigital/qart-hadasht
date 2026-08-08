@@ -1643,25 +1643,49 @@ calls for them; not part of the active queue:
     place-imagery pipeline (`scripts/fetch-place-image.mjs` +
     the `image` block). Revisit when the user calls for it.
 
-### Known issues — flagged, not urgent
+### Security audit (Aug 2026)
 
-**`npm audit` reports two moderate-severity CVEs:**
+A full audit was run. The site is a **static Astro build on Netlify** —
+no server, DB, auth, sessions, cookies, or user accounts, and **no
+runtime user input reaches any template** — so SQLi / auth / CSRF /
+SSRF / server-RCE classes don't apply. Findings and what shipped:
 
-1. **Astro <6.1.6** — XSS in `define:vars` directive. The codebase
-   doesn't use `define:vars`, so the vulnerability has no real-world
-   exploitability here. Fix requires upgrading to Astro 6 (major
-   version, breaking changes — content collections API has shifted,
-   some directives deprecated). Defer until a deliberate maintenance
-   window.
+**Shipped:**
+- **Content-Security-Policy** — added to `netlify.toml` as
+  **`Content-Security-Policy-Report-Only`** first (reports, doesn't
+  block) so the allowlist can be confirmed on the live console before
+  flipping the header name to enforcing. Allowlist covers: self,
+  inline scripts/styles (Astro `is:inline` + scoped styles),
+  `'wasm-unsafe-eval'` (Pagefind), `gc.zgo.at` + `carthage.goatcounter.com`
+  (GoatCounter), Google Fonts (`fonts.googleapis.com`/`gstatic.com`),
+  `*.tile.openstreetmap.org` (Leaflet tiles); `frame-ancestors`/`object`/
+  `base`/`form-action` locked down. `'unsafe-inline'` for scripts is a
+  deliberate trade-off (many is:inline scripts, no per-request nonce on
+  static hosting, no user-input XSS vector) — tightening to hashes is a
+  possible later step. **Next step: watch the live console for
+  CSP-Report-Only violations, then rename to `Content-Security-Policy`.**
+- **Autolink URL-scheme guard** — `sanitizeHref()` in `autolink.ts`
+  now rejects any non-http/https/mailto scheme (kills `javascript:`,
+  `data:`, `vbscript:`) and escapes the href attribute in the
+  markdown-link pass (`autolink()` line ~191). `renderInline` was
+  already scheme-safe (regex only accepts `/…` or `https?://…`); added
+  `"`-escaping there too. Defense-in-depth — all link URLs are
+  author-authored today, but this future-proofs any outside-content path.
 
-2. **`yaml` package** — stack overflow on deeply nested YAML.
-   Transitive dependency of `yaml-language-server` via
-   `@astrojs/check`. Build-time / dev-time only; no production
-   runtime exposure. Defer.
+**Confirmed already-good:** live header baseline (HSTS, `X-Frame-Options:
+DENY`, `nosniff`, `Referrer-Policy`, `Permissions-Policy`, no
+`Set-Cookie`, no `X-Powered-By`); no secrets in the repo (`.env*`
+gitignored); contact form has a Netlify honeypot and submissions aren't
+reflected on-site; images are self-hosted (not hotlinked).
 
-Revisit dependencies in 3-6 months or sooner if a CVE applies to a
-feature the site actually uses. `npm audit` will continue to flag
-these but they're informational for this codebase.
+**Deferred — dependency CVEs (build-time only):** `npm audit` reports
+~15 findings (incl. 9 high: astro, vite, sharp, postcss, svgo, yaml,
+etc.). **All are build/dev-time deps — none ship to the browser or run
+on a server**, so there is no live-visitor exposure; the only real risk
+is build-time supply chain. `npm audit fix` clears the easy ones; the
+Astro 6 major (define:vars XSS advisory, which the site doesn't use) is
+a deliberate maintenance-window job. Revisit in 3–6 months or sooner if
+a CVE ever applies to a runtime feature.
 
 ### Homepage redesign — magazine front (Aug 2026)
 

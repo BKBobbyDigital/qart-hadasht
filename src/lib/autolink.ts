@@ -150,6 +150,26 @@ function escapeHtml(s: string): string {
     .replace(/>/g, '&gt;');
 }
 
+// Sanitize a URL for use inside a double-quoted href="" attribute.
+// Rejects any scheme other than http/https/mailto (so javascript:, data:,
+// vbscript:, etc. can't produce a live link) — schemeless URLs (/path, #hash,
+// ?query, relative) are allowed. Then escapes the attribute delimiters,
+// including the double-quote that escapeHtml leaves alone. All link URLs are
+// author-authored today; this is defense-in-depth against any future path
+// that ingests outside content.
+function sanitizeHref(url: string): string {
+  const trimmed = url.trim();
+  const scheme = /^([a-z][a-z0-9+.-]*):/i.exec(trimmed);
+  if (scheme && !['http', 'https', 'mailto'].includes(scheme[1].toLowerCase())) {
+    return '#';
+  }
+  return trimmed
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 /**
  * Auto-link a single paragraph of plain text. Returns HTML.
  *
@@ -188,7 +208,7 @@ export function autolink(
     replacements.push({
       start,
       end,
-      html: `<a class="auto-link" href="${href}">${escapeHtml(linkText)}</a>`,
+      html: `<a class="auto-link" href="${sanitizeHref(href)}">${escapeHtml(linkText)}</a>`,
     });
     claimed.push([start, end]);
   }
@@ -433,9 +453,12 @@ export function renderInline(text: string): string {
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
-  // Links [text](url) — url already escaped above; only http(s) or root-relative.
+  // Links [text](url). The URL group only matches root-relative (/…) or
+  // http(s):// URLs, so dangerous schemes (javascript:, data:) never form a
+  // link. &<> were escaped above; escape any " in the URL too so it can't
+  // break out of the double-quoted href attribute.
   out = out.replace(/\[([^\]\n]+)\]\((\/[^)\s]*|https?:\/\/[^)\s]+)\)/g,
-    '<a href="$2">$1</a>');
+    (_m, txt, url) => `<a href="${url.replace(/"/g, '&quot;')}">${txt}</a>`);
   out = out.replace(/\*\*([^\n]+?)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/(?<![*\w])\*([^*\n]+?)\*(?![*\w])/g, '<em>$1</em>');
   out = out.replace(/(?<![_\w])_([^_\n]+?)_(?![_\w])/g, '<em>$1</em>');

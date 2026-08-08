@@ -30,3 +30,21 @@
     # robots.txt is the primary signal; this header backs it up for
     # bots that consult headers as well as robots.txt.
     X-Robots-Tag = "noai, noimageai"
+    # Content-Security-Policy — shipped REPORT-ONLY first: it does not
+    # block anything, it only reports violations to the browser console,
+    # so we can confirm the allowlist covers every real resource before
+    # switching the header name to `Content-Security-Policy` (enforcing).
+    # Allowlist, by source:
+    #   script  self + inline (Astro is:inline scripts) + wasm-unsafe-eval
+    #           (Pagefind WASM) + gc.zgo.at (GoatCounter count.js)
+    #   style   self + inline (Astro scoped styles / Leaflet) + Google Fonts CSS
+    #   font    self + Google Fonts files (gstatic)
+    #   img     self + data: (Leaflet markers) + OSM map tiles + GoatCounter beacon
+    #   connect self + GoatCounter endpoints (beacon) ; Pagefind fetches self
+    #   frame/object/base/form locked down; no iframes or plugins on the site.
+    # 'unsafe-inline' for scripts is a deliberate trade-off: the site has many
+    # is:inline scripts and Netlify static hosting can't mint per-request
+    # nonces; there is no user-input XSS vector, so the CSP's value here is
+    # constraining resource ORIGINS (exfil / remote-payload). Tightening to
+    # hashes is a possible later step.
+    Content-Security-Policy-Report-Only = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.tile.openstreetmap.org https://carthage.goatcounter.com; connect-src 'self' https://gc.zgo.at https://carthage.goatcounter.com; worker-src 'self' blob:; manifest-src 'self'"
