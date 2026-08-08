@@ -30,10 +30,13 @@
     # robots.txt is the primary signal; this header backs it up for
     # bots that consult headers as well as robots.txt.
     X-Robots-Tag = "noai, noimageai"
-    # Content-Security-Policy — shipped REPORT-ONLY first: it does not
-    # block anything, it only reports violations to the browser console,
-    # so we can confirm the allowlist covers every real resource before
-    # switching the header name to `Content-Security-Policy` (enforcing).
+    # Content-Security-Policy (ENFORCING). Shipped report-only first and
+    # verified clean on the live site (homepage fonts + GoatCounter, the
+    # Leaflet/OSM map, and Pagefind WASM search all loaded with zero
+    # console violations), then switched to enforcing. If a future change
+    # ever breaks a resource, temporarily rename this back to
+    # `Content-Security-Policy-Report-Only` to log violations instead of
+    # blocking them, fix the allowlist, then switch back.
     # Allowlist, by source:
     #   script  self + inline (Astro is:inline scripts) + wasm-unsafe-eval
     #           (Pagefind WASM) + gc.zgo.at (GoatCounter count.js)
@@ -47,4 +50,4 @@
     # nonces; there is no user-input XSS vector, so the CSP's value here is
     # constraining resource ORIGINS (exfil / remote-payload). Tightening to
     # hashes is a possible later step.
-    Content-Security-Policy-Report-Only = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.tile.openstreetmap.org https://carthage.goatcounter.com; connect-src 'self' https://gc.zgo.at https://carthage.goatcounter.com; worker-src 'self' blob:; manifest-src 'self'"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.tile.openstreetmap.org https://carthage.goatcounter.com; connect-src 'self' https://gc.zgo.at https://carthage.goatcounter.com; worker-src 'self' blob:; manifest-src 'self'"
