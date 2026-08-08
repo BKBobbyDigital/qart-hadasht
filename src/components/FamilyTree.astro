@@ -105,7 +105,10 @@ function edgePath(fromN: FamilyNode, toN: FamilyNode, waypoint?: { x: number; y:
 
 <figure class="my-8">
   <header class="mb-4">
-    <h2 class="font-serif text-2xl" style="border: none; padding: 0;">{config.title}</h2>
+    {/* This is the dynasty page's main title, so it's the document <h1>
+        (the component renders as the page's primary content on
+        /dynasties/[slug]; it fixed those pages having no h1). */}
+    <h1 class="font-serif text-2xl" style="border: none; padding: 0;">{config.title}</h1>
     {config.subtitle && <p class="text-sm text-sand-700 mt-1">{config.subtitle}</p>}
     {config.period && <p class="text-xs uppercase tracking-wider text-tyrian-700 font-medium mt-2">{config.period}</p>}
   </header>
