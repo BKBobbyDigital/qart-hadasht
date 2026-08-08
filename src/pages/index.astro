@@ -30,8 +30,8 @@ const lead = {
   kicker: 'Editorial take · The destruction',
   headline: 'Carthage was destroyed because it had not become weak enough',
   standfirst:
-    "The Treaty of 201 was meant to reduce Carthage to a permanently constrained power. Fifty years later Rome erased the city anyway. The site's reading of why, and what the sources actually support.",
-  meta: 'Read the take · confidence: strong · 9 min',
+    "The Treaty of 201 was meant to leave Carthage permanently constrained. Fifty years later Rome erased the city anyway. The site's reading of why, and what the sources actually support.",
+  meta: 'Read the take · confidence: moderate',
   href: '/editorialTakes/destruction-not-weak-enough',
 };
 
@@ -42,25 +42,25 @@ const famous = [
   {
     kicker: 'Person',
     title: 'Hannibal Barca',
-    gloss: 'The war he carried into Italy — and what he was really trying to do.',
+    gloss: 'The war he carried into Italy, and what he was actually after.',
     href: '/people/hannibal-barca',
   },
   {
     kicker: 'The founding',
     title: 'Dido, the queen',
-    gloss: 'Where the legend of the founding ends and the evidence begins.',
+    gloss: 'Where the founding legend ends and the evidence begins.',
     href: '/people/dido',
   },
   {
     kicker: 'The Tophet',
     title: 'Child sacrifice?',
-    gloss: 'The practice happened; the scale is unrecoverable. What the evidence shows.',
+    gloss: 'The practice happened. The scale is unrecoverable.',
     href: '/narratives/the-tophet-controversy',
   },
   {
     kicker: 'The myth',
     title: '“They salted the earth”',
-    gloss: "Everyone knows Rome salted Carthage's fields. It didn't — here's the record.",
+    gloss: "Everyone knows Rome salted the fields so nothing would grow. It didn't happen.",
     href: '/openQuestions/tpw-salt-the-earth',
   },
 ];
@@ -105,7 +105,7 @@ const questionCount = (await getCollection('openQuestions')).length;
         <p class="font-heritage text-xl leading-snug italic text-ink-900">“Most of what survives about Carthage was written by its enemies. This site reads against that.”</p>
         <p class="mt-4 text-sm text-sand-700 leading-relaxed">
           Every claim is sourced and confidence-tagged. Where the site takes a
-          position it labels it as its own, and names the opposing readings.
+          position, it says so and names the readings it rejects.
           <a href="/methodology" class="text-tyrian-700 hover:underline">How the method works →</a>
         </p>
       </aside>
@@ -131,8 +131,8 @@ const questionCount = (await getCollection('openQuestions')).length;
     <p class="eyebrow mb-2">Read deeper</p>
     <h2 class="font-serif text-3xl sm:text-4xl mb-2">What this site does that others don't</h2>
     <p class="text-sand-700 mb-6 max-w-2xl">
-      The open-web Carthage record is mostly the highlights. These formats put
-      the synthesis — and the evidence behind it — in front.
+      The open-web record of Carthage is mostly the highlights. These formats
+      put the synthesis, and the evidence for it, in front.
     </p>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {leadNarrative && (
@@ -183,10 +183,10 @@ const questionCount = (await getCollection('openQuestions')).length;
             everyone else's.
           </p>
           <p class="text-sm text-sand-700 mt-4 leading-relaxed">
-            Most of what survives about Carthage was written by its enemies; what
-            little is now widely read is mostly the dramatic highlights, with the
-            long arc and the structural questions left out. Where I take a
-            position, I show my reasoning. Where I'm wrong, please tell me.
+            What little of Carthage is now widely read is mostly the dramatic
+            highlights, with the long arc and the structural questions left out.
+            I wanted a reference I could actually use, so I built one. Where I
+            take a position, I show my reasoning. Where I'm wrong, please tell me.
             <a href="/about" class="text-tyrian-700 hover:underline">More about the project →</a>
           </p>
         </div>
@@ -216,8 +216,8 @@ const questionCount = (await getCollection('openQuestions')).length;
       <div>
         <h3 class="font-serif text-xl mb-2">Beyond the Roman frame</h3>
         <p class="text-sm leading-relaxed">
-          Most of what survives about Carthage was written by its enemies.
-          This encyclopedia foregrounds Carthaginian self-understanding
+          The surviving record is overwhelmingly Greek and Roman, written from
+          outside. This encyclopedia foregrounds Carthaginian self-understanding
           where the evidence allows.
         </p>
       </div>
