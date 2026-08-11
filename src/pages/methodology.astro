@@ -16,7 +16,7 @@ const unknownLike = { type: 'literary', is_primary: true };
 ---
 
 <BaseLayout
-  title="Methodology — How we know what we know"
+  title="Methodology: How we know what we know"
   description="The epistemic conventions behind Qart-Hadasht: claims, confidence levels, source distance, stance, editorial takes, and open questions."
 >
   <div class="max-w-6xl mx-auto px-6 py-12 lg:grid lg:grid-cols-[minmax(0,1fr)_220px] lg:gap-12 lg:items-start">
@@ -28,7 +28,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       argument about what the surviving evidence actually supports. The
       sources are partial, polemical, and mostly written by the city's
       enemies. Anything readers should trust on this site has to be
-      visibly tied to its evidence — and visibly distinguished from
+      visibly tied to its evidence, and visibly distinguished from
       what's inferred, contested, or unknown. This page describes how
       that machinery works.
     </p>
@@ -45,7 +45,7 @@ const unknownLike = { type: 'literary', is_primary: true };
         lives in its own file and shows up wherever it's relevant.
       </p>
       <p>
-        Most encyclopedia prose blurs claims together — three or four
+        Most encyclopedia prose blurs claims together: three or four
         assertions per sentence, one citation at the end of the paragraph,
         no way to tell which sentence rests on which source. The atomic-claim
         structure is the site's protest against that. If the reader wants to
@@ -69,7 +69,7 @@ const unknownLike = { type: 'literary', is_primary: true };
         <li class="flex items-baseline gap-3 flex-wrap">
           <ConfidenceBadge confidence="inferred" />
           <span class="flex-1">
-            Reasoned from the primary evidence — not directly stated, but
+            Reasoned from the primary evidence, not directly stated, but
             well-supported. That Cannae's double-envelopment became Hannibal's
             tactical template for Italy is not a sentence Polybius writes; it
             is a synthesis defensible from his narrative.
@@ -79,14 +79,14 @@ const unknownLike = { type: 'literary', is_primary: true };
           <ConfidenceBadge confidence="contested" />
           <span class="flex-1">
             Genuinely disputed in the ancient sources, between modern scholars,
-            or both — with serious evidence on more than one side. The Tophet
+            or both, with serious evidence on more than one side. The Tophet
             question lives here. So does the existence of the Philinus Treaty.
           </span>
         </li>
         <li class="flex items-baseline gap-3 flex-wrap">
           <ConfidenceBadge confidence="legendary" />
           <span class="flex-1">
-            Drawn from legendary or mythologized tradition — Dido's flight from
+            Drawn from legendary or mythologized tradition: Dido's flight from
             Tyre, the bull-hide founding of Carthage. Tagged this way because
             the historicity is not the point; the tradition is.
           </span>
@@ -121,7 +121,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       <h2 id="source-distance-how-close-is-the-witness">Source distance: how close is the witness?</h2>
       <p>
         On every claim card, the cited source appears beside a
-        <strong>distance chip</strong> — a small visual signal of how far the
+        <strong>distance chip</strong>: a small visual signal of how far the
         source sits from the events it describes. The buckets:
       </p>
       <ul class="not-prose space-y-3 my-6">
@@ -136,7 +136,7 @@ const unknownLike = { type: 'literary', is_primary: true };
         <li class="flex items-baseline gap-3 flex-wrap">
           <SourceDistance source={livyLike} />
           <span class="flex-1">
-            ~50–150 years removed. One tradition further out — oral memory
+            ~50–150 years removed. One tradition further out, oral memory
             still alive in some form, but the writer is depending on
             predecessors. Livy on the Hannibalic War sits here.
           </span>
@@ -163,20 +163,20 @@ const unknownLike = { type: 'literary', is_primary: true };
           <span class="flex-1">
             Modern scholarship: secondary, synthetic, where the distance
             number stops being the epistemic story. Treated as a different
-            kind of citation — argument and synthesis rather than testimony.
+            kind of citation: argument and synthesis rather than testimony.
           </span>
         </li>
         <li class="flex items-baseline gap-3 flex-wrap">
           <SourceDistance source={unknownLike} />
           <span class="flex-1">
-            Distance not recorded — typically a literary source we haven't
+            Distance not recorded: typically a literary source we haven't
             yet pinned a composition date to. Worth flagging because we
             can't evaluate the witness without it.
           </span>
         </li>
       </ul>
       <p>
-        Distance does not equal reliability — Polybius's pro-Scipionic bias
+        Distance does not equal reliability. Polybius's pro-Scipionic bias
         is a real reading problem; a thousand-year-distant inscription that
         names a magistrate is closer to the truth than a contemporary's
         rumor. But the chip is the fastest way to remind a reader,
@@ -191,21 +191,21 @@ const unknownLike = { type: 'literary', is_primary: true };
       </p>
       <ul>
         <li>
-          <strong>contemporary</strong> — direct testimony or access to
+          <strong>contemporary</strong>: direct testimony or access to
           living witnesses. Polybius on the Third Punic War (which he
           watched).
         </li>
         <li>
-          <strong>one_step</strong> — drew on contemporaries' written
+          <strong>one_step</strong>: drew on contemporaries' written
           accounts, often now lost. Diodorus on Agathocles.
         </li>
         <li>
-          <strong>literary_tradition</strong> — working from a chain of
+          <strong>literary_tradition</strong>: working from a chain of
           earlier historians; the distance to the events runs through
           intermediate texts.
         </li>
         <li>
-          <strong>late</strong> — substantially after the literary
+          <strong>late</strong>: substantially after the literary
           tradition coalesced. Justin abridging Trogus; Tertullian on
           Carthaginian religion four centuries later.
         </li>
@@ -241,7 +241,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       <p>
         Some questions the surviving sources don't directly settle, and a
         synthesis is unavoidable. For those, the site occasionally posts an
-        <strong>editorial take</strong> — a labeled, signed position with
+        <strong>editorial take</strong>: a labeled, signed position with
         explicit reasoning, the competing positions named and engaged, and
         a confidence chip in a different vocabulary:
       </p>
@@ -252,7 +252,7 @@ const unknownLike = { type: 'literary', is_primary: true };
         </li>
         <li class="flex items-baseline gap-3 flex-wrap">
           <EditorialConfidenceChip confidence="moderate" />
-          <span class="flex-1">A position held with some confidence — revisable, but not lightly.</span>
+          <span class="flex-1">A position held with some confidence, revisable but not lightly.</span>
         </li>
         <li class="flex items-baseline gap-3 flex-wrap">
           <EditorialConfidenceChip confidence="strong" />
@@ -271,7 +271,7 @@ const unknownLike = { type: 'literary', is_primary: true };
         direction, the gap itself gets a page. Open-question pages name
         the question, explain why it's unknown, summarize the candidate
         answers and the arguments for each, and describe what would
-        actually resolve the question if it were ever to come — a new
+        actually resolve the question if it were ever to come: a new
         inscription, a securely dated stratum, a recovered text.
       </p>
       <p>
@@ -288,7 +288,7 @@ const unknownLike = { type: 'literary', is_primary: true };
         shape for arcs. The Tophet controversy is a two-century debate
         across multiple disciplines; reducing it to a list of claim cards
         loses the shape of the disagreement. So the site also has
-        long-form prose — <strong>narratives</strong> for biographical or
+        long-form prose: <strong>narratives</strong> for biographical or
         debate arcs, <strong>themes</strong> for cross-cutting topics like
         Punic religion or Carthaginian governance, <strong>periods</strong>
         for era-level synthesis.
@@ -296,7 +296,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       <p>
         The convention there is the same as everywhere else: positions are
         attributed, citations are inline (Polybius 3.22, Plutarch <em>Cato
-        Major</em> 27 — auto-linked to the source page), and where the
+        Major</em> 27, auto-linked to the source page), and where the
         prose takes a strong reading, the competing reading is named.
       </p>
 
@@ -313,7 +313,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       </p>
       <p>
         Where a standard scholarly apparatus exists for a text, the source
-        page says so — Walbank's <em>Historical Commentary</em> for
+        page says so: Walbank's <em>Historical Commentary</em> for
         Polybius is the model case. Punic and Phoenician inscriptions are
         cited by corpus number (CIS, KAI), the convention the epigraphic
         literature uses.
@@ -347,7 +347,7 @@ const unknownLike = { type: 'literary', is_primary: true };
       <h2 id="what-this-site-does-not-do">What this site does not do</h2>
       <p>
         It does not paraphrase translations as if they were the original
-        text — passage summaries are the site's own paraphrase, with
+        text. Passage summaries are the site's own paraphrase, with
         public-domain quotes reserved for places where the exact wording
         matters. It does not flatten contested questions into smooth
         summaries. It does not pretend the source base is denser than it

@@ -156,9 +156,9 @@ and ore-sorting stages operated under less extreme
 conditions but within the same coercive administrative
 structure.
 
-The production scale Diodorus reports — translated through
+The production scale Diodorus reports, translated through
 the layers of source transmission and rounded for rhetorical
-effect — is in the range of substantial Mediterranean
+effect, is in the range of substantial Mediterranean
 state-monopoly extraction. The figures the surviving sources
 preserve cluster around 25,000 drachmas per day of silver
 production at the peak of the Roman-period operation
@@ -340,8 +340,8 @@ source; what we know about the mint's institutional structure
 is reconstructed from coinage analysis and from the broader
 comparative evidence of Hellenistic-period royal mints. The
 specific commercial routes by which Iberian silver moved
-eastward — to Carthage proper, to the Italian theatre, to
-the broader Mediterranean — are reconstructible in outline
+eastward (to Carthage proper, to the Italian theatre, to
+the broader Mediterranean) are reconstructible in outline
 through coin-find distributions but not in operational
 detail.
 
