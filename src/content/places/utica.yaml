@@ -1,0 +1,81 @@
+slug: utica
+name_display: Utica
+names_alt:
+  punic: ʿTQ (ʿatiq, "old")
+  punic_script: 𐤏𐤕𐤒
+  greek: Ἰτύκη (Ityke) / Οὐτίκη
+  latin: Utica
+  modern: Near Utique, Tunisia
+type: city
+primary:
+  label: Utica, on the lower Bagradas (Medjerda) plain
+  lat: 37.0578
+  lon: 10.0625
+  confidence: certain
+modern_location: >
+  Near the village of Utique, Bizerte Governorate, Tunisia, about
+  35 km northwest of Tunis. The ancient port now sits roughly 10 km
+  inland: the Bagradas (Medjerda) delta silted the harbor over the
+  Roman and later periods.
+founded:
+  founder: 'Tyrian Phoenicians'
+  date:
+    value: -1101
+    precision: year
+    circa: true
+  notes: >
+    Traditional date from Pliny (Natural History 16.216), who placed
+    Utica's foundation 287 years before Carthage. Like other very
+    early Phoenician-foundation dates in the west it outruns the
+    archaeology, whose earliest secure strata at the site are
+    8th-century BCE; the tradition of great antiquity is nonetheless
+    embedded in the name itself.
+cultural_sphere: phoenician
+current_status: >
+  Archaeological site near Utique; Punic necropolis and substantial
+  Roman-period remains (the House of the Cascade among them)
+  excavated. The Punic-phase evidence is partial, in keeping with the
+  silting and the long Roman overbuild.
+patron_deity: 'Baal Hammon and Tanit; Tyrian cultic ties'
+summary: >
+  The oldest Phoenician foundation on the African mainland, and after
+  Carthage the second city of the Punic world. Its name says as much:
+  Punic ʿatiq means "old," the Old Town to Carthage's Qart-Hadasht,
+  the New City. The foundation tradition preserved by Pliny put Utica
+  in the 12th century BCE, generations before Carthage; the earliest
+  archaeology recovered so far reaches the 8th century, so the deep
+  date is best read as a claim of seniority rather than a firm
+  chronology. What is not in doubt is that Utica was the senior
+  Phoenician settlement in the Gulf of Tunis when Carthage was
+  founded, and that it kept a distinct identity and a measure of
+  autonomy long after Carthage outgrew it.
+
+  That seniority shaped the relationship. Utica was Carthage's
+  partner more than its subject: allied in the common Punic interest,
+  but never simply absorbed. The tension surfaced in the Mercenary
+  War, when Utica and Hippacra went over to the rebels against
+  Carthage in 240 BCE and had to be recovered by force. It surfaced
+  again, decisively, at the very end.
+
+  Utica sat where any invader of the Carthaginian heartland wanted to
+  land. In 256 BCE it lay in the path of Regulus's African
+  expedition; in 204, Scipio landed his army on the African coast
+  near Utica and made the city his siege objective and intended base
+  for the campaign that ended at Zama. The plain outside its walls
+  was the setting for the burning of the Numidian and Carthaginian
+  camps in 203. In each case the logic was the same: a secure harbor
+  within striking distance of Carthage was the key to the whole
+  theater.
+
+  In 149 BCE Utica supplied exactly that. Before Rome had formally
+  declared the Third Punic War, Utica defected and offered itself as
+  a base, handing the consular armies a fortified port a day's march
+  from Carthage. The defection is one of the enabling conditions of
+  the destruction of 146: it gave Rome the logistical footing the
+  earlier African campaigns had always struggled to secure. After
+  Carthage fell, Utica was rewarded with the status of a free city
+  and became the first capital of the Roman province of Africa,
+  holding that role until a refounded Roman Carthage eclipsed it. Its
+  later fame is Roman rather than Punic: it was here, in 46 BCE, that
+  Cato the Younger killed himself rather than submit to Caesar,
+  earning the name by which posterity knows him, Cato Uticensis.

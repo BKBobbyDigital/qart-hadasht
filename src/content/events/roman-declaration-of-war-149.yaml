@@ -9,6 +9,8 @@ date_start:
     over several months as Roman commanders advanced the
     expedition to Africa.
 place: carthage
+places:
+  - utica
 participants: []
 principal_sources:
   - polybius-histories

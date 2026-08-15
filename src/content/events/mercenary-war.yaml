@@ -9,6 +9,8 @@ date_end:
   value: -237
   precision: year
 place: carthage
+places:
+  - utica
 participants:
   - person: hamilcar-barca
     role: commander (from 240 BCE)

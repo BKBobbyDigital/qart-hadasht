@@ -10,6 +10,8 @@ date_end:
   precision: year
   notes: Final assault and destruction in spring 146 BCE.
 place: carthage
+places:
+  - utica
 participants:
   - person: scipio-aemilianus
     role: commander (from 147 BCE)

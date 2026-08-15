@@ -9,6 +9,8 @@ date_end:
   value: -146
   precision: year
 place: carthage
+places:
+  - utica
 participants:
   - person: cato-the-elder
     role: senatorial advocate (died 149 BCE before war's outbreak)
