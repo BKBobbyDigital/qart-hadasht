@@ -489,7 +489,7 @@ Key components in `src/components/`:
 - `HistoricalMap.astro` — server-side SVG historical-atlas map. Cream
   paper background, Natural Earth 50m coastline, translucent
   polygons for territory, route lines for campaigns, city markers
-  with Cormorant labels. No OSM tiles, no client JS. Map configs
+  with Fraunces labels. No OSM tiles, no client JS. Map configs
   live in `src/data/maps/*.json`; coastline data in
   `src/data/coastline-mediterranean.json`. Period and event frontmatter
   can opt in via `map_id` + `map_caption` fields. Currently used for
@@ -1573,12 +1573,12 @@ not surface unsolicited.
    Atlantic-voyage maps (Hanno, Himilco), the Leaflet point maps on
    places/events, the `TerritorialExtentMap` (/maps/extent-over-time),
    and the /maps index — reviewed together for consistency, quality,
-   and whether each earns its place. **Fold in the one known
-   nit:** `HistoricalMap` SVG labels still name Cormorant inline in
-   the component, which now falls back to Georgia (Cormorant was
-   dropped from the font load in the Direction-C redesign); switch
-   them to Fraunces (loaded) or a sans. Revisit when the user calls
-   for the maps pass.
+   and whether each earns its place. (The old Cormorant-ghost nit is
+   **already fixed** — commit 53646cc, Aug 2026: all SVG labels across
+   `HistoricalMap`, `TerritorialExtentMap`, `Map`, and `FamilyTree`
+   were switched from the dropped Cormorant to Fraunces, the loaded
+   heritage serif. No font work remains for the maps pass.) Revisit
+   when the user calls for the maps pass.
 
 ### Residual prose work — COMPLETE (June 2026)
 
