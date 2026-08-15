@@ -94,6 +94,16 @@ for (const coll of collections) {
   }
 }
 
+// Table view is the analytical lens: default it to most-referenced first
+// (the cards view keeps the academic reading order above). Tie-break by
+// author surname so the low-count band stays scannable. The Cited <th>
+// carries data-sort-active="desc" to match, and every column stays
+// click-sortable via IndexViewToggle.
+const tableSources = [...sources].sort((a, b) => {
+  const diff = (citationsBySource.get(b.id) ?? 0) - (citationsBySource.get(a.id) ?? 0);
+  return diff !== 0 ? diff : authorSurname(a).localeCompare(authorSurname(b));
+});
+
 const fmtComposed = (s: any) =>
   s.data.date_composed
     ? `${s.data.date_composed.circa ? 'c. ' : ''}${Math.abs(s.data.date_composed.value)} ${s.data.date_composed.value < 0 ? 'BCE' : 'CE'}`
@@ -166,16 +176,16 @@ const fmtComposed = (s: any) =>
       <table data-sortable class="w-full text-sm border-collapse">
         <thead>
           <tr class="border-b border-sand-300 bg-sand-50">
-            <th data-sort-key="title" data-sort-active="asc" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Title</th>
+            <th data-sort-key="title" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Title</th>
             <th data-sort-key="author" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Author</th>
             <th data-sort-key="year" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Composed</th>
             <th data-sort-key="language" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Language</th>
             <th data-sort-key="type" class="text-left font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Type</th>
-            <th data-sort-key="cited" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Cited</th>
+            <th data-sort-key="cited" data-sort-active="desc" class="text-right font-semibold text-sand-700 px-3 py-2 text-xs uppercase tracking-wider">Cited</th>
           </tr>
         </thead>
         <tbody>
-          {sources.map((s) => (
+          {tableSources.map((s) => (
             <tr
               class="border-b border-sand-200 hover:bg-tyrian-50 active:bg-tyrian-100 transition-colors"
               data-sort-title={s.data.title}
