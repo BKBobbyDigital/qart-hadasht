@@ -190,7 +190,7 @@ western Mediterranean.
 ## Sources
 
 The principal modern treatments of Carthaginian daily life are
-the Picards' *Daily Life in Carthage at the Time of Hannibal*
+the Picards' [*Daily Life in Carthage at the Time of Hannibal*](/sources/picard-daily-life-1961)
 (1961, English translation of the 1958 French original; now
 substantially superseded but still cited), Lancel's *Carthage:
 A History* (1995, particularly strong on archaeological

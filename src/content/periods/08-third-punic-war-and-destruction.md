@@ -37,6 +37,7 @@ principal_sources:
   - lancel-carthage-1995
   - miles-carthage-2010
   - goldsworthy-fall-carthage-2003
+  - picard-life-death-1968
 map_id: tpw
 map_caption: >
   Strategic geography of the Third Punic War. The Carthaginian

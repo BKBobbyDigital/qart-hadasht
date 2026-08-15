@@ -24,6 +24,8 @@ key_themes:
 principal_sources:
   - aubet-phoenicians-west-2001
   - lancel-carthage-1995
+  - huss-karthager-2004
+  - picard-life-death-1968
   - hoyos-carthaginians-2010
   - miles-carthage-2010
   - quinn-phoenicians-2018

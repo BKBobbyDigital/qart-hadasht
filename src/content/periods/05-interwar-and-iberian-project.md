@@ -62,6 +62,7 @@ principal_sources:
   - macdonald-hannibal-2015
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
+  - huss-karthager-2004
 last_revised: "2026-05-10"
 ---
 

@@ -218,4 +218,7 @@ in Nicolet's *Rome et la conquête du monde méditerranéen* (1978)
 on Punic civilization specifically. Gruen's *Rethinking the
 Other in Antiquity* (2011) provides the broader comparative
 framework on how ancient categorizations of foreign peoples
-operated.
+operated. On the Greek image of Carthage specifically, Barceló's
+[*The Perception of Carthage in Classical Greek Historiography*](/sources/barcelo-perception-1994)
+(1994) traces how the hostile picture took shape in the sources
+the category descends from.
