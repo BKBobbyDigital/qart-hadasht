@@ -1,5 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Map from '../components/Map.astro';
+
+// ─── Orientation map ─────────────────────────────────────────────────────────
+// Carthage as the subject, Rome as a reference point, so the frame carries
+// the relationship the whole story turns on: the rival across the water.
+const orientation = [
+  {
+    label: 'Carthage',
+    lat: 36.8528,
+    lon: 10.3233,
+    notes: 'Modern Tunis, Tunisia. The city itself.',
+    marker_kind: 'subject',
+  },
+  {
+    label: 'Rome',
+    lat: 41.9028,
+    lon: 12.4964,
+    notes: 'The rival, across the sea.',
+    marker_kind: 'reference',
+  },
+];
 
 // ─── Timeline strip ──────────────────────────────────────────────────────────
 // Six moments, hand-curated. Each links to the page that tells that part.
@@ -36,27 +57,30 @@ const timeline = [
   },
 ];
 
-// ─── Three things you probably have wrong ────────────────────────────────────
+// ─── Popular myths ───────────────────────────────────────────────────────────
+// Framed as widely-repeated stories rather than as reader errors: a newcomer
+// may never have met these, so the pitch is "here's what gets said" rather
+// than "here's what you have wrong."
 const myths = [
   {
-    kicker: 'The myth',
+    kicker: 'The salted fields',
     title: '“Rome salted the earth so nothing would grow”',
     gloss:
-      'The most famous fact about Carthage appears in no ancient source. It was invented in the modern era.',
+      'Probably the most repeated fact about Carthage, and it appears in no ancient source at all. The detail was added many centuries later.',
     href: '/openQuestions/tpw-salt-the-earth',
   },
   {
-    kicker: 'The controversy',
-    title: '“They sacrificed their children. Case closed.”',
+    kicker: 'The Tophet',
+    title: '“They sacrificed children, and that settles it”',
     gloss:
-      'The reality is harder and more interesting: the practice looks real, but its scale and meaning have kept archaeologists arguing for a century.',
+      'Stated as closed fact in both directions. The practice does look real; its scale and meaning have kept archaeologists arguing for a century.',
     href: '/narratives/the-tophet-controversy',
   },
   {
-    kicker: 'The frame',
-    title: '“Carthage was Hannibal’s city”',
+    kicker: 'The one-man story',
+    title: '“Carthage means Hannibal”',
     gloss:
-      'The story runs nearly seven centuries. Hannibal belongs to its last one. Before him: explorers, agronomists, a constitution Aristotle admired.',
+      'He belongs to the last of nearly seven centuries. Before him: Atlantic voyagers, famous agronomists, and a constitution Aristotle admired.',
     href: '/periods',
   },
 ];
@@ -150,9 +174,9 @@ const doors = [
     </div>
   </section>
 
-  <!-- ── The story in brief ─────────────────────────────────────────────── -->
-  <section class="max-w-6xl mx-auto px-6 pb-10">
-    <div class="max-w-3xl prose-encyclopedia">
+  <!-- ── The story in brief + orientation map ───────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 pb-10 grid lg:grid-cols-[minmax(0,1fr)_360px] gap-8 lg:gap-12 items-start">
+    <div class="min-w-0 prose-encyclopedia">
       <p>
         Around 814 BCE, by tradition, settlers from the Phoenician city of
         Tyre founded a colony on the coast of what is now Tunisia. They
@@ -182,6 +206,20 @@ const doors = [
         Carthage the civilization took much longer to fade.
       </p>
     </div>
+
+    <!-- Orientation map. Modern geography on purpose: the point is to place
+         Carthage for a reader who doesn't know where Tunisia is, so the view
+         is set wide enough to hold Rome, Sicily, and the North African coast
+         in one frame rather than fitting tight to the markers. -->
+    <aside class="lg:sticky lg:top-6">
+      <p class="eyebrow no-bar mb-2">Where it was</p>
+      <Map
+        points={orientation}
+        height="330px"
+        view={[38.6, 11.5, 4]}
+        caption="Carthage stood on the Gulf of Tunis, on the coast of modern Tunisia, roughly 600 km across open water from Sicily and Rome. Its ruins sit inside a suburb of the modern city of Tunis."
+      />
+    </aside>
   </section>
 
   <!-- ── Timeline strip ─────────────────────────────────────────────────── -->
@@ -223,9 +261,14 @@ const doors = [
     </div>
   </section>
 
-  <!-- ── Three things you probably have wrong ───────────────────────────── -->
+  <!-- ── Popular myths ──────────────────────────────────────────────────── -->
   <section class="max-w-6xl mx-auto px-6 py-10">
-    <p class="eyebrow mb-5">Three things you probably have wrong</p>
+    <p class="eyebrow mb-2">Three popular myths</p>
+    <p class="text-sand-700 mb-6 max-w-2xl">
+      Carthage attracts more than its share of stories that get repeated
+      until they sound like facts. These three are among the most common,
+      and none of them holds up as stated.
+    </p>
     <div class="grid sm:grid-cols-3 gap-x-6 gap-y-7">
       {myths.map((m) => (
         <a href={m.href} class="group block border-t-2 border-ink-900 pt-3 pb-4 px-2 -mx-2 rounded-lg hover:bg-tyrian-50 transition-colors">

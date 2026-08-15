@@ -23,9 +23,16 @@ interface Props {
   points: MapPoint[];
   height?: string;
   caption?: string;
+  /**
+   * Explicit view, as [lat, lon, zoom]. Overrides the default fit-to-bounds.
+   * Use when the map is for orientation rather than for locating the points
+   * themselves: a single point fits to the tightest allowed zoom, which is
+   * too close to read regional context.
+   */
+  view?: [number, number, number];
 }
 
-const { points, height = '420px', caption } = Astro.props;
+const { points, height = '420px', caption, view } = Astro.props;
 const mapId = `map-${Math.random().toString(36).slice(2, 11)}`;
 ---
 
@@ -34,6 +41,7 @@ const mapId = `map-${Math.random().toString(36).slice(2, 11)}`;
     id={mapId}
     data-leaflet-map
     data-points={JSON.stringify(points)}
+    data-view={view ? JSON.stringify(view) : undefined}
     class="rounded-lg border border-sand-300 overflow-hidden bg-sand-100"
     style={`height: ${height};`}
   ></div>
@@ -97,9 +105,14 @@ const mapId = `map-${Math.random().toString(36).slice(2, 11)}`;
         return m;
       });
 
-      // Fit bounds with padding
-      const group = L.featureGroup(markers);
-      map.fitBounds(group.getBounds(), { padding: [40, 40], maxZoom: 9 });
+      // Explicit view wins; otherwise fit to the markers' bounds.
+      const view = el.dataset.view ? JSON.parse(el.dataset.view) : null;
+      if (view) {
+        map.setView([view[0], view[1]], view[2]);
+      } else {
+        const group = L.featureGroup(markers);
+        map.fitBounds(group.getBounds(), { padding: [40, 40], maxZoom: 9 });
+      }
     });
   }
 
