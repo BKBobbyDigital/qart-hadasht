@@ -586,7 +586,7 @@ the last build.
 | editorialTakes | 25 |
 | openQuestions | 19 |
 | artifacts | 41 |
-| narratives | 41 |
+| narratives | 42 |
 | themes | 18 |
 | periods | 8 |
 | threads | 7 |
