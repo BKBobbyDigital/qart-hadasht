@@ -13,6 +13,13 @@ scholarly_consensus: >
   is a standard finding; the question is which specific details are
   Timaean coloring versus historical fact.
 sources:
+  - source: timaeus
+    stance: supports
+    passage_summary: >
+      Timaeus is the source of the hostile Agathocles tradition. His
+      personal quarrel with the tyrant who exiled him shaped the
+      emphasis on treachery and cruelty that Diodorus then transmits;
+      the bias originates here rather than with Diodorus.
   - source: diodorus-library
     stance: supports
     passage_summary: >

@@ -44,6 +44,15 @@ dispute_summary: |
   The site treats the chronology question as genuinely open. See
   the open question on the foundation date for more.
 sources:
+  - source: timaeus
+    stance: supports
+    passage_summary: >
+      Timaeus of Tauromenium is the origin of the 814/813 BCE date,
+      reached by the chronographic calculation that put Carthage's
+      founding 38 years before the first Olympiad. The date survives
+      only through later writers who transmit his reckoning; whether
+      it records an event or a back-calculation is the crux of the
+      dispute.
   - source: justin-epitome
     stance: supports
     passage_ref: "18.6"
