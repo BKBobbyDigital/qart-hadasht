@@ -54,5 +54,5 @@ See [`docs/reading-list.md`](docs/reading-list.md) for the curated bibliography 
 
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use freely with attribution
-- **Code**: MIT
+- **Content** (the prose, claims, and source digests under `src/content/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use freely with attribution
+- **Code** (the Astro site machinery, components, build scripts, and schema): [MIT](LICENSE)
