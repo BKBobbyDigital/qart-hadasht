@@ -1,0 +1,81 @@
+slug: capture-of-new-carthage
+name: Capture of New Carthage
+type: siege
+outcome: "Decisive Roman victory; Scipio took the Barcid capital of Iberia in a single day, seizing the treasury, the arsenal, and the Spanish hostages"
+date_start:
+  value: -209
+  precision: year
+place: carthago-nova
+participants:
+  - person: scipio-africanus
+    role: commander
+    side: Roman
+  - person: laelius
+    role: fleet commander
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+related_events:
+  - event: founding-of-carthago-nova
+    relation: subject-place origin
+    notes: >
+      The city Scipio took was the Barcid capital that
+      Hasdrubal the Fair had founded around 227 BCE as the seat
+      of Carthaginian power in Iberia. Its capture in 209
+      transferred that seat, and everything stored in it, to Rome.
+  - event: battle-of-baecula
+    relation: precursor
+    notes: >
+      New Carthage gave Scipio the base, the war materiel, and
+      the diplomatic leverage with which he opened the 208
+      offensive that met Hasdrubal Barca at Baecula.
+referenced_themes:
+  - carthaginian-warfare
+summary: >
+  Scipio's seizure of [Carthago Nova](/places/carthago-nova),
+  the Barcid capital of Iberia, in a single day in 209 BCE, and
+  the turning point of the Iberian war. The city that
+  [Hasdrubal the Fair](/people/hasdrubal-the-fair) had founded
+  around 227 as the seat of Carthaginian power in Spain held the
+  treasury, the arsenal and dockyards, the administration of the
+  silver mines, and the hostages taken from the Iberian tribes to
+  guarantee their loyalty. It was, in one place, the material and
+  political base of the whole Carthaginian position in the
+  peninsula.
+
+  [Scipio Africanus](/people/scipio-africanus) recognized that
+  the three Carthaginian field armies, under
+  [Hasdrubal Barca](/people/hasdrubal-barca),
+  [Mago Barca](/people/mago-barca), and
+  [Hasdrubal Gisco](/people/hasdrubal-gisco), were dispersed many
+  days' march away, leaving the capital lightly garrisoned. He
+  marched fast on the city while [Laelius](/people/laelius)
+  brought the fleet down the coast to close the seaward side. The
+  assault turned on the lagoon along the northern wall: the water
+  fell, whether by tide, by wind, or by the local knowledge
+  Polybius credits, and Scipio's men waded across and scaled the
+  under-defended landward defenses while the frontal attack held
+  the garrison's attention. Scipio presented the ebb as the gift
+  of Neptune; Polybius (10.2, 10.11) is pointedly skeptical of the
+  divine framing and reads it as calculated exploitation of the
+  ground, a rare early instance of the source correcting the
+  Scipionic legend at its origin.
+
+  The haul decided the campaign. Rome took the Carthaginian war
+  chest, large stores of arms and artillery, the ship-sheds, and
+  the tribal hostages. Scipio's decision to release the hostages
+  to their peoples turned the capture into a diplomatic
+  instrument: it removed the coercion that had held the Iberian
+  tribes to Carthage and let their leaders recalculate, part of
+  the wider pattern of Iberian side-switching the site reads as
+  [tribal agency rather than fickleness](/editorialTakes/iberian-side-switching-as-agency-take).
+  With its capital, treasury, and hostage leverage gone, the
+  Carthaginian hold on Iberia unravelled over the next three
+  years, through [Baecula](/events/battle-of-baecula) in 208 and
+  [Ilipa](/events/battle-of-ilipa) in 206. The fuller treatment
+  is at the
+  [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state).
+  Polybius (10.2–15) and Livy (26.42–51) preserve the assault in
+  detail; the reconstruction is secure on the outcome and debated
+  on the mechanics of the lagoon crossing.
