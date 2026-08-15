@@ -1,0 +1,272 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// ─── Timeline strip ──────────────────────────────────────────────────────────
+// Six moments, hand-curated. Each links to the page that tells that part.
+const timeline = [
+  {
+    year: 'c. 814 BCE',
+    label: 'A queen flees Tyre and founds a new city on the African coast',
+    href: '/periods/01-foundation-and-early-period',
+  },
+  {
+    year: '500s–300s',
+    label: 'Carthage becomes the great sea power of the western Mediterranean',
+    href: '/periods/02-magonid-expansion',
+  },
+  {
+    year: '264–241',
+    label: 'The first war with Rome: twenty-three years, mostly at sea',
+    href: '/periods/04-first-punic-war',
+  },
+  {
+    year: '218–201',
+    label: 'Hannibal crosses the Alps and nearly breaks Rome in Italy',
+    href: '/periods/06-second-punic-war',
+  },
+  {
+    year: '146',
+    label: 'Rome besieges, burns, and erases the city',
+    href: '/periods/08-third-punic-war-and-destruction',
+  },
+  {
+    year: 'After 146',
+    label: 'The language and the gods carry on for centuries anyway',
+    href: '/narratives/punic-continuity-in-roman-africa',
+  },
+];
+
+// ─── Three things you probably have wrong ────────────────────────────────────
+const myths = [
+  {
+    kicker: 'The myth',
+    title: '“Rome salted the earth so nothing would grow”',
+    gloss:
+      'The most famous fact about Carthage appears in no ancient source. It was invented in the modern era.',
+    href: '/openQuestions/tpw-salt-the-earth',
+  },
+  {
+    kicker: 'The controversy',
+    title: '“They sacrificed their children. Case closed.”',
+    gloss:
+      'The reality is harder and more interesting: the practice looks real, but its scale and meaning have kept archaeologists arguing for a century.',
+    href: '/narratives/the-tophet-controversy',
+  },
+  {
+    kicker: 'The frame',
+    title: '“Carthage was Hannibal’s city”',
+    gloss:
+      'The story runs nearly seven centuries. Hannibal belongs to its last one. Before him: explorers, agronomists, a constitution Aristotle admired.',
+    href: '/periods',
+  },
+];
+
+// ─── The cast ────────────────────────────────────────────────────────────────
+const cast = [
+  {
+    name: 'Dido',
+    hook: 'The legendary founder-queen, whose story Virgil rewrote into Rome’s favorite tragedy.',
+    href: '/people/dido',
+  },
+  {
+    name: 'Hannibal Barca',
+    hook: 'Took the war over the Alps and into Italy. Won every great battle, and lost the war.',
+    href: '/people/hannibal-barca',
+  },
+  {
+    name: 'Hamilcar Barca',
+    hook: 'The father: undefeated in Sicily, builder of a new power in Spain, keeper of a grudge.',
+    href: '/people/hamilcar-barca',
+  },
+  {
+    name: 'Sophonisba',
+    hook: 'The noblewoman whose marriage nearly turned a war, and who chose poison over a Roman triumph.',
+    href: '/people/sophonisba',
+  },
+  {
+    name: 'Masinissa',
+    hook: 'The Numidian king who outmaneuvered everyone and lived long enough to help end Carthage.',
+    href: '/people/masinissa',
+  },
+  {
+    name: 'Cato the Elder',
+    hook: '“Carthage must be destroyed.” He said it in the Senate until Rome finally did.',
+    href: '/people/cato-the-elder',
+  },
+];
+
+// ─── Doors in ────────────────────────────────────────────────────────────────
+const doors = [
+  {
+    kicker: 'Got ten minutes',
+    title: 'The founding legend',
+    gloss:
+      'Dido, the ox-hide trick, and where the legend ends and the archaeology begins.',
+    cta: 'Read the story →',
+    href: '/narratives/founding-of-carthage',
+  },
+  {
+    kicker: 'Want the famous war',
+    title: 'Hannibal, start to finish',
+    gloss:
+      'His whole life as a guided reading path: the oath, the Alps, Cannae, exile.',
+    cta: 'Begin the thread →',
+    href: '/threads/hannibals-life',
+  },
+  {
+    kicker: 'Want one great read',
+    title: 'The Carthaginian who survived',
+    gloss:
+      'Only one Carthaginian author still speaks: Mago, whose farming manual traveled two thousand years through enemy hands.',
+    cta: 'Read the essay →',
+    href: '/narratives/mago-of-carthage',
+  },
+  {
+    kicker: 'Want the whole arc',
+    title: 'Eight chapters, seven centuries',
+    gloss:
+      'The full run in order, from the founding to the destruction and what came after.',
+    cta: 'Start at the beginning →',
+    href: '/periods',
+  },
+];
+---
+
+<BaseLayout
+  title="Start here"
+  description="New to ancient Carthage? The short version of a seven-century story: a Phoenician colony that became the great power of the western Mediterranean, fought Rome three times, and was erased by the people who wrote its history."
+>
+  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 pt-10 pb-8">
+    <div class="max-w-3xl">
+      <p class="eyebrow mb-3">Start here</p>
+      <h1 class="font-serif font-extrabold text-ink-900 text-balance">
+        New to ancient Carthage?
+      </h1>
+      <p class="mt-5 text-xl leading-snug font-medium text-ink-900 max-w-[46ch]">
+        Everyone knows the elephants. Almost nobody knows the city behind
+        them. Here is the short version, and where to go next.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── The story in brief ─────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 pb-10">
+    <div class="max-w-3xl prose-encyclopedia">
+      <p>
+        Around 814 BCE, by tradition, settlers from the Phoenician city of
+        Tyre founded a colony on the coast of what is now Tunisia. They
+        called it <em>Qart-Hadasht</em>: “New City.” The legend says it was
+        founded by a queen, Dido, fleeing her murderous brother. Within a
+        few centuries the colony had outgrown its founders, and for roughly
+        three hundred years Carthage was the wealthiest and most powerful
+        state in the western Mediterranean: a merchant republic with elected
+        magistrates and a senate, a trade network running from Sicily to
+        Atlantic Morocco, sailors who ventured past Gibraltar, and farmland
+        so productive its agricultural manuals became famous.
+      </p>
+      <p>
+        Then it met Rome. Three wars over a hundred and twenty years: the
+        first a twenty-three-year slugging match over Sicily with the
+        largest naval battles of antiquity; the second the one you know,
+        Hannibal crossing the Alps, crushing Roman army after Roman army,
+        holding Italy for fifteen years, and still losing. After the third,
+        in 146 BCE, Rome besieged the city, burned it, and sold the
+        survivors into slavery.
+      </p>
+      <p>
+        That is the version with an ending. The real story runs past it: the
+        fields were never salted, the land became Rome’s breadbasket, and
+        centuries later Saint Augustine could still hear Punic spoken in the
+        North African countryside. Carthage the state was destroyed.
+        Carthage the civilization took much longer to fade.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Timeline strip ─────────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 pb-12">
+    <p class="eyebrow mb-5">Seven centuries in one line</p>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-5 gap-y-7">
+      {timeline.map((t) => (
+        <a href={t.href} class="group relative block border-t-2 border-sand-300 pt-4 pb-2 px-2 -mx-2 rounded-lg hover:bg-tyrian-50 transition-colors">
+          <span class="absolute left-0 -top-[5px] h-2 w-2 rounded-full bg-tyrian-700" aria-hidden="true"></span>
+          <p class="font-serif font-extrabold text-lg leading-none tracking-tight text-tyrian-700">{t.year}</p>
+          <p class="text-[13px] text-sand-700 mt-2 leading-snug group-hover:text-ink-900">{t.label}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- ── The catch ──────────────────────────────────────────────────────── -->
+  <section class="border-t-4 border-tyrian-700 bg-[#f6f6f7]">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+      <div class="max-w-3xl">
+        <p class="eyebrow no-bar mb-4">The catch</p>
+        <p class="font-heritage text-xl sm:text-2xl leading-snug text-ink-900">
+          Almost everything written about Carthage was written by its
+          enemies.
+        </p>
+        <p class="text-[15px] text-sand-900 mt-4 leading-relaxed">
+          Carthage kept libraries, but Rome did not preserve them. Its own
+          books are gone; a single farming manual survives, in quotation.
+          Nearly every account we have was written in Greek or Latin, much
+          of it by people at war with the city, and the most famous version
+          of all was written after Rome had burned it. So reading about
+          Carthage is detective work: weighing hostile witnesses, checking
+          them against coins, inscriptions, and excavation, and being honest
+          when the answer is “we can’t know.” That is what this site does on
+          every page, and it is what makes this history more interesting
+          than the textbook version, not less.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Three things you probably have wrong ───────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 py-10">
+    <p class="eyebrow mb-5">Three things you probably have wrong</p>
+    <div class="grid sm:grid-cols-3 gap-x-6 gap-y-7">
+      {myths.map((m) => (
+        <a href={m.href} class="group block border-t-2 border-ink-900 pt-3 pb-4 px-2 -mx-2 rounded-lg hover:bg-tyrian-50 transition-colors">
+          <p class="text-[10px] uppercase tracking-widest font-extrabold text-tyrian-700">{m.kicker}</p>
+          <h2 class="font-serif font-extrabold text-[1.25rem] leading-[1.12] tracking-tight text-ink-900 mt-1.5 group-hover:text-tyrian-900">{m.title}</h2>
+          <p class="text-sm text-sand-700 mt-2 leading-snug">{m.gloss}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- ── The cast ───────────────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 py-10 border-t border-sand-300">
+    <p class="eyebrow mb-5">Six people worth meeting</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {cast.map((c) => (
+        <a href={c.href} class="block p-5 border border-sand-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
+          <h2 class="font-serif text-xl text-ink-900 leading-tight">{c.name}</h2>
+          <p class="text-sm text-sand-700 mt-2 leading-snug">{c.hook}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- ── Doors in ───────────────────────────────────────────────────────── -->
+  <section class="max-w-6xl mx-auto px-6 py-10 border-t border-sand-300">
+    <p class="eyebrow mb-2">Pick a door</p>
+    <h2 class="font-serif text-3xl sm:text-4xl mb-6">Where to go from here</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {doors.map((d) => (
+        <a href={d.href} class="flex flex-col h-full p-5 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 active:bg-tyrian-100 transition-colors">
+          <p class="text-[10px] uppercase tracking-widest font-extrabold text-tyrian-700">{d.kicker}</p>
+          <h3 class="font-serif text-xl text-ink-900 mt-2 leading-tight">{d.title}</h3>
+          <p class="text-sm text-ink-900 mt-3 leading-relaxed flex-1">{d.gloss}</p>
+          <p class="mt-4 text-xs text-tyrian-700 font-medium">{d.cta}</p>
+        </a>
+      ))}
+    </div>
+    <p class="mt-8 text-sm text-sand-700">
+      Or just wander: <a href="/" class="text-tyrian-700 hover:underline">the front page</a> changes as the site grows,
+      and every page links onward to its sources, people, and places.
+    </p>
+  </section>
+</BaseLayout>
