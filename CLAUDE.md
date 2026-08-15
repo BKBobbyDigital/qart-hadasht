@@ -1452,16 +1452,23 @@ contested / 29 inferred / 1 legendary.
 
 ## Outstanding work
 
-### Gap-fill pass (Aug 2026) — IN PROGRESS, resume here
+### Gap-fill pass (Aug 2026) — COMPLETE
 
 A "what's blatantly missing" audit found the site deep but with a few
 conspicuous gaps: entities the prose already referenced many times but
-that had no page. Five Tier-1 items were identified; **all 5 shipped**.
-Also completed: two new dynasty trees, a chronological sort for
-dynasties, the Cormorant→Fraunces font fix, and a rework of the
-sources-index "Cited" column. **Tier 1 is complete** — if resuming, the
-next work is either Tier-2 items (below) or a fresh direction from the
-user.
+that had no page. **Both tiers are now fully shipped** (Tier 1 and Tier 2
+detailed below). The audit is closed; there is no outstanding gap-fill
+work. If resuming, the next moves are the bigger tabled directions (the
+holistic visual-assets review, the inscriptional-corpus interface) or a
+fresh direction from the user — not more gap-fill.
+
+Also completed alongside the audit: two new dynasty trees (Cornelii
+Scipiones, House of Tyre) + chronological dynasty sort, the
+Cormorant→Fraunces SVG-label font fix, a rework of the sources-index
+"Cited" column (count-all-references + default-sort-by-cites) plus
+wiring the last orphan sources, and backing the "Code MIT" site claim
+with a real MIT LICENSE file (institutional copyright line) +
+package.json field + README scope note.
 
 **Shipped this session:**
 - **Cornelii Scipiones dynasty tree** (`data/dynasties/cornelii-scipiones.ts`)
