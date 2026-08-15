@@ -536,7 +536,8 @@ Key components in `src/components/`:
   labels; context nodes get reduced opacity. Edges route
   orthogonally with optional hand-placed waypoints. Solid =
   parent, dashed = marriage, dotted = sibling. Currently
-  rendering three dynasties (Barcids, Massylii, Magonids).
+  rendering four dynasties (Barcids, Massylii, Magonids, and the
+  Roman Cornelii Scipiones).
 
 ### Sortable index tables
 
@@ -1529,14 +1530,23 @@ not surface unsolicited.
      an open possibility — not urgent; fits the tabled "revamp all
      UI" direction. Revisit if the user calls for it.
 
-3. **Family tree / dynasty explorer** — *three dynasties shipped*
-   (Barcids, Massylii, Magonids) via the data-driven `FamilyTree`
-   system. The Cornelii Scipiones (Roman side, for Punic-Wars
-   context) would be the natural fourth if returning to this
-   thread. The architecture handles arbitrary additions: one
-   typed config file per dynasty under `src/data/dynasties/`,
-   slug-match convention for bidirectional group ↔ dynasty
-   wiring, person infobox reverse-lookup automatic.
+3. **Family tree / dynasty explorer** — *four dynasties shipped*
+   (Barcids, Massylii, Magonids, and — added Aug 2026 — the
+   **Cornelii Scipiones**, the Roman side, framed explicitly as the
+   enemy side of the Carthage story: the house that bracketed the war,
+   Africanus at Zama 202 through his adoptive grandson Aemilianus at
+   the destruction 146, with Nasica Corculum as the internal
+   spare-Carthage voice against Cato). The config
+   (`src/data/dynasties/cornelii-scipiones.ts`) uses the `other` grey
+   category for Aemilius Paullus to encode the adoption visually — born
+   an Aemilius, adopted a Scipio — since the component has no dedicated
+   adoption edge kind (adding one is off-limits until the tabled
+   visual-assets review, item 0). The architecture still handles
+   arbitrary additions: one typed config file per dynasty under
+   `src/data/dynasties/`, slug-match convention for bidirectional
+   group ↔ dynasty wiring, person infobox reverse-lookup automatic.
+   The Cornelii Scipiones have no matching `groups/` page, so the
+   dynasty page omits the collective-entity backlink (graceful).
 
 4. **Punic inscriptional corpus interface** — searchable interface
    for the CIS/KAI corpus excerpts the site references — Punic
