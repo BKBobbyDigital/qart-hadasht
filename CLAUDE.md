@@ -1456,10 +1456,12 @@ contested / 29 inferred / 1 legendary.
 
 A "what's blatantly missing" audit found the site deep but with a few
 conspicuous gaps: entities the prose already referenced many times but
-that had no page. Five Tier-1 items were identified; **4½ of 5 shipped**,
-one remains. Also completed in this session: two new dynasty trees, a
-chronological sort for dynasties, the Cormorant→Fraunces font fix, and a
-rework of the sources-index "Cited" column.
+that had no page. Five Tier-1 items were identified; **all 5 shipped**.
+Also completed: two new dynasty trees, a chronological sort for
+dynasties, the Cormorant→Fraunces font fix, and a rework of the
+sources-index "Cited" column. **Tier 1 is complete** — if resuming, the
+next work is either Tier-2 items (below) or a fresh direction from the
+user.
 
 **Shipped this session:**
 - **Cornelii Scipiones dynasty tree** (`data/dynasties/cornelii-scipiones.ts`)
@@ -1501,20 +1503,28 @@ rework of the sources-index "Cited" column.
   `himilco`=396 Syracuse, `atilius-regulus`=Africa Regulus, so neither was
   mislinked to the 250 siege.)
 
-**REMAINING — the one open Tier-1 item (start here tomorrow):**
-- **Editorial take on the nature of Carthaginian "empire"** — territorial
-  *epikrateia* vs. a hegemonic trading-network with a narrow African
-  tributary core (the Whittaker / Ameling debate). The site has the
-  `phoenician-colonial-network` theme but no *editorial take* planting a
-  flag on what kind of imperial structure Carthage was. This is the one
-  genuine *theory* gap (vs. a missing fact). Needs the competing-positions
-  structure of an editorialTake; **confirm the site's stance with the user
-  before writing** (offered: draft a recommended position + competing
-  readings for reaction). Model on `editorialTakes/barcid-iberian-state-as-state.yaml`.
+**Tier-1 item 5 — DONE (Aug 2026):** the editorial take on the nature of
+Carthaginian "empire" (`editorialTakes/carthaginian-empire-layered-hegemony.yaml`).
+User-confirmed stance: **not a territorial empire on the Roman model but a
+layered hegemony of different intensities that changed over time** — a
+directly-ruled/taxed African core, a belt of allied-tributary towns that
+kept their institutions (Utica could defect in 149), an outer
+treaty-and-commerce sphere, and Barcid Iberia as a genuine late departure
+toward a territorial state. Threads between Whittaker (retrojection
+correction) and the strong Quinn network-dissolution reading; moderate
+confidence; 3 competing positions. Added the two sources the debate turns
+on: **Whittaker "Carthaginian Imperialism" (1978)** and **Ameling
+Karthago (1993)**, both linked in-text. Auto-surfaces on the
+`phoenician-colonial-network` theme via `subject_entity`.
 
-Counts after this session: **events 95, places 58, sources 67, dynasties 5**
-(dynasties are data configs under `src/data/dynasties/`, not a content
-collection). Build ~704 pages.
+Counts after this session: **events 95, places 58, sources 69,
+editorialTakes 25, dynasties 5** (dynasties are data configs under
+`src/data/dynasties/`, not a content collection). Build ~707 pages.
+
+**Possible Tier-2 follow-ups if the user wants more gap-fill** (from the
+same audit, lower priority): Cirta (Numidian royal capital, ~18 mentions,
+no page); Panormus + its 250 BCE FPW battle; a Regulus-expedition
+narrative. None are urgent.
 
 ### Active work queue (complete)
 
