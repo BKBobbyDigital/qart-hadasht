@@ -44,15 +44,53 @@ const modern = sources
     return ay - by;
   });
 
-// Reverse-lookup citation count per source
-const allClaims = await getCollection('claims');
+// Reference count per source, across the whole site. An entry counts
+// once per source it draws on (deduped within the entry), so the number
+// reads as "how many entries reference this source." Two reference paths
+// are collected: (1) structured fields — claims (sources[].source), the
+// principal_sources arrays on events / institutions / deities / artifacts
+// / periods, and sourceComparisons (source_passages[].source); and (2)
+// `/sources/<slug>` links embedded in prose (editorial-take reasoning,
+// narrative/theme bodies, summaries), which is how the synthesis layer
+// cites modern scholarship. Bare inline citations rendered by
+// remarkCitations (e.g. "Polybius 3.22" with no link) are not counted.
+const collections = await Promise.all([
+  getCollection('claims'),
+  getCollection('events'),
+  getCollection('institutions'),
+  getCollection('deities'),
+  getCollection('artifacts'),
+  getCollection('periods'),
+  getCollection('sourceComparisons'),
+  getCollection('narratives'),
+  getCollection('themes'),
+  getCollection('threads'),
+  getCollection('editorialTakes'),
+  getCollection('openQuestions'),
+  getCollection('sources'),
+  getCollection('people'),
+  getCollection('places'),
+  getCollection('groups'),
+]);
+
+const sourceIdsIn = (entry: any): Set<string> => {
+  const ids = new Set<string>();
+  const d = entry.data ?? {};
+  for (const s of d.sources ?? []) if (s?.source?.id) ids.add(s.source.id);
+  for (const s of d.principal_sources ?? []) if (s?.id) ids.add(s.id);
+  for (const p of d.source_passages ?? []) if (p?.source?.id) ids.add(p.source.id);
+  const prose = JSON.stringify(d) + (entry.body ?? '');
+  for (const m of prose.matchAll(/\/sources\/([a-z0-9-]+)/g)) ids.add(m[1]);
+  ids.delete(entry.id); // never count a source's link to itself
+  return ids;
+};
+
 const citationsBySource = new Map<string, number>();
-for (const c of allClaims) {
-  const seen = new Set<string>();
-  for (const s of c.data.sources ?? []) {
-    if (seen.has(s.source.id)) continue;
-    seen.add(s.source.id);
-    citationsBySource.set(s.source.id, (citationsBySource.get(s.source.id) ?? 0) + 1);
+for (const coll of collections) {
+  for (const entry of coll) {
+    for (const id of sourceIdsIn(entry)) {
+      citationsBySource.set(id, (citationsBySource.get(id) ?? 0) + 1);
+    }
   }
 }
 
@@ -152,7 +190,7 @@ const fmtComposed = (s: any) =>
               <td class="px-3 py-2 text-sand-700 tabular-nums whitespace-nowrap">{fmtComposed(s)}</td>
               <td class="px-3 py-2 text-sand-900 capitalize">{s.data.language}</td>
               <td class="px-3 py-2 text-sand-900 capitalize">{s.data.type.replace('_', ' ')}</td>
-              <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{citationsBySource.get(s.id) || ''}</td>
+              <td class="px-3 py-2 text-right text-sand-700 tabular-nums">{citationsBySource.get(s.id) ?? 0}</td>
             </tr>
           ))}
         </tbody>
