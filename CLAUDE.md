@@ -578,7 +578,7 @@ the last build.
 
 | Collection | Count |
 |---|---|
-| events | 94 |
+| events | 95 |
 | people | 82 |
 | places | 57 |
 | sources | 67 |

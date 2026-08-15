@@ -1,0 +1,93 @@
+slug: siege-of-lilybaeum
+name: Siege of Lilybaeum
+type: siege
+outcome: "Stalemate; the fortress was never breached and was surrendered only under the Treaty of Lutatius after the Carthaginian defeat at the Aegates Islands in 241"
+date_start:
+  value: -250
+  precision: year
+date_end:
+  value: -241
+  precision: year
+place: lilybaeum
+participants:
+  - person: manlius-vulso
+    role: commander
+    side: Roman
+  - person: claudius-pulcher
+    role: commander
+    side: Roman
+  - person: hamilcar-barca
+    role: commander
+    side: Carthaginian
+  - person: adherbal
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+related_events:
+  - event: battle-of-drepana
+    relation: concurrent
+    notes: >
+      Drepana (249) was fought a short distance up the same coast
+      while Lilybaeum was under siege; Adherbal's destruction of
+      Claudius Pulcher's fleet there ended Rome's hope of taking
+      the western fortresses by naval assault.
+  - event: battle-of-aegates-islands
+    relation: decided the outcome
+    notes: >
+      Lilybaeum held to the end. What forced its surrender was the
+      Carthaginian naval defeat at the Aegates Islands in 241,
+      which cut the sea supply the fortress depended on.
+  - event: treaty-of-lutatius
+    relation: settlement
+    notes: >
+      The treaty that ended the war required Carthage to evacuate
+      Sicily, handing over the unbreached Lilybaeum by agreement
+      rather than by conquest.
+referenced_themes:
+  - carthaginian-warfare
+summary: >
+  The longest siege of the First Punic War, and the clearest
+  demonstration that the war could not be won on land. Rome laid
+  siege to [Lilybaeum](/places/lilybaeum), the great Carthaginian
+  fortress-port of western Sicily, in 250 BCE, and never took it.
+  The city, built around 396 after Dionysius I destroyed nearby
+  [Motya](/places/motya), was the strongest Carthaginian
+  stronghold on the island, walled and moated and open to the sea.
+  It held for nine years, until the war itself ended.
+
+  The Roman consuls of 250 opened the siege after the victory at
+  Panormus, throwing up siege lines, moles, and rams against the
+  landward wall. The garrison answered with countermines, sorties,
+  and a night sally that burned the Roman engines; a plot by some
+  of the mercenary officers to betray the city was exposed in time
+  by the Achaean Alexon. But the decisive factor was the sea. Rome
+  could never fully close the harbor, and Carthaginian
+  blockade-runners, the fast ship of the captain the sources call
+  Hannibal the Rhodian above all, ran in and out almost at will,
+  carrying supplies and word until he was finally taken. A fortress
+  that could be reached by sea could not be starved.
+
+  The siege anchored the whole western-Sicily endgame. Up the
+  coast in 249, [Adherbal](/people/adherbal) destroyed the fleet of
+  [Publius Claudius Pulcher](/people/claudius-pulcher) at
+  [Drepana](/events/battle-of-drepana), the worst Roman naval
+  defeat of the war, ending any hope of taking the west by assault.
+  From 247 [Hamilcar Barca](/people/hamilcar-barca) operated from
+  Heircte and Eryx, harassing the Roman lines and keeping the
+  theater alive while Lilybaeum stood. The stalemate broke only
+  elsewhere, and at sea: at the
+  [Aegates Islands](/events/battle-of-aegates-islands) in 241 a
+  rebuilt Roman fleet destroyed the Carthaginian relief squadron,
+  and with the sea lost Carthage could no longer hold Sicily. The
+  [Treaty of Lutatius](/events/treaty-of-lutatius) required the
+  evacuation of the island, and Lilybaeum passed to Rome unbreached,
+  by agreement rather than by storm.
+
+  Polybius (1.42–48) makes the siege his set-piece on the limits of
+  land power against a first-rate fortress with sea access, and on
+  why the First Punic War was ultimately a contest to be decided on
+  the water. Diodorus (Book 24) preserves further detail in
+  fragments. The reconstruction is secure on the shape and outcome
+  of the siege and thinner on its year-by-year particulars.
