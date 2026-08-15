@@ -1521,10 +1521,18 @@ Counts after this session: **events 95, places 58, sources 69,
 editorialTakes 25, dynasties 5** (dynasties are data configs under
 `src/data/dynasties/`, not a content collection). Build ~707 pages.
 
-**Possible Tier-2 follow-ups if the user wants more gap-fill** (from the
-same audit, lower priority): Cirta (Numidian royal capital, ~18 mentions,
-no page); Panormus + its 250 BCE FPW battle; a Regulus-expedition
-narrative. None are urgent.
+**Tier-2 — all shipped (Aug 2026).** From the same audit, one-by-one:
+**Cirta** (`places/cirta.yaml`, Numidian royal capital; name from Punic
+qrt; El Hofra neo-Punic tie; gorge-plateau photo), **Eryx**
+(`places/eryx.yaml`, Astarte's great western sanctuary + Hamilcar's FPW
+last stand; added Eryx to Astarte's `sanctuaries`; Castello di Venere
+photo), **Panormus** (`places/panormus.yaml`, Punic Ziz) **+ Battle of
+Panormus 250** (`events/battle-of-panormus.yaml`, Metellus's elephant
+victory; Ziz-tetradrachm image), and the **Regulus narrative**
+(`narratives/the-african-expedition-and-regulus.md`, Xanthippus-recovery
++ the tortured-death legend as Roman fiction). The whole "blatantly
+missing" audit (Tier 1 + Tier 2) is now complete; build ~712 pages,
+places 61, events 96, narratives 42, sources 69, editorialTakes 25.
 
 ### Active work queue (complete)
 
