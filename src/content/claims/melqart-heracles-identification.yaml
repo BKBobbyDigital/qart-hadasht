@@ -50,6 +50,13 @@ sources:
       Quinn analyzes the identification as a feature of
       Greek religious thought as much as of Phoenician
       religious history.
+  - source: silenus-caleacte
+    stance: supports
+    passage_summary: >
+      Silenus, an eyewitness in Hannibal's entourage, is among the
+      sources for Hannibal's deliberate cultivation of a bond with
+      Hercules, the Greek face of Melqart, part of the general's
+      self-fashioning on campaign.
 entities:
   - type: deity
     slug: melqart
