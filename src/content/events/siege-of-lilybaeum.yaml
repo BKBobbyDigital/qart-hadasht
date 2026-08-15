@@ -9,6 +9,8 @@ date_end:
   value: -241
   precision: year
 place: lilybaeum
+places:
+  - eryx
 participants:
   - person: manlius-vulso
     role: commander

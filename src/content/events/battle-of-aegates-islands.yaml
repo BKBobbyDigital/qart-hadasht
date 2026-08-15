@@ -11,6 +11,8 @@ date_start:
     engagements of the Punic Wars for which a specific calendar
     date is preserved.
 place: aegates-islands
+places:
+  - eryx
 participants:
   - person: lutatius-catulus
     role: commander
