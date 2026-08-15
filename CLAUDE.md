@@ -580,7 +580,7 @@ the last build.
 |---|---|
 | events | 95 |
 | people | 82 |
-| places | 57 |
+| places | 58 |
 | sources | 67 |
 | claims | 172 |
 | editorialTakes | 24 |
@@ -1451,6 +1451,70 @@ contested / 29 inferred / 1 legendary.
 ---
 
 ## Outstanding work
+
+### Gap-fill pass (Aug 2026) — IN PROGRESS, resume here
+
+A "what's blatantly missing" audit found the site deep but with a few
+conspicuous gaps: entities the prose already referenced many times but
+that had no page. Five Tier-1 items were identified; **4½ of 5 shipped**,
+one remains. Also completed in this session: two new dynasty trees, a
+chronological sort for dynasties, the Cormorant→Fraunces font fix, and a
+rework of the sources-index "Cited" column.
+
+**Shipped this session:**
+- **Cornelii Scipiones dynasty tree** (`data/dynasties/cornelii-scipiones.ts`)
+  — the Roman side, framed as the enemy of the Carthage story; Africanus
+  (Zama) → adoptive grandson Aemilianus (destruction 146); grey `other`
+  category encodes the adoption. **House of Tyre dynasty tree**
+  (`data/dynasties/house-of-tyre.ts`) — the legendary founding line
+  (Hiram I → Mattan → Pygmalion/Elissa/Sychaeus), node borders encode an
+  attestation gradient (solid=firm, dashed=legendary). Five dynasties now,
+  sorted **chronologically** via `byDynastyChronology` in `lib/familyTree.ts`
+  (both /dynasties and the /people dynasties section).
+- **Cormorant→Fraunces** in all SVG labels (FamilyTree, HistoricalMap,
+  TerritorialExtentMap, Map) — the last orphaned nit from the Direction-C
+  font swap. Maps-review item #8 note updated to mark it fixed.
+- **Utica** (`places/utica.yaml`) — the biggest place gap (referenced in 23
+  files, no page): oldest Phoenician African foundation, its 149 defection
+  enabled the Third Punic War. Wired into 4 events' `places` arrays; CC
+  BY-SA site photo added via `fetch-place-image.mjs`.
+- **Four "lost historian" sources**, each wired into claims/events so none
+  is orphaned, cross-linked: **Timaeus** (`sources/timaeus.yaml`, origin of
+  the 814 date; Polybius Bk 12 polemic), **Sosylus** + **Silenus** (Hannibal's
+  eyewitness Greek companions; kept separate but note the companion pairing),
+  **Fabius Pictor** (first Roman historian, pro-Roman pole opposite Philinus).
+  The site now holds **both poles of the Punic-War source rivalry**.
+- **Sources index "Cited" column** reworked: was claims-only (21 blanks),
+  now counts **all references** (claims + `principal_sources` on
+  events/institutions/deities/artifacts/periods + sourceComparisons +
+  `/sources/<slug>` prose links across every collection), displays 0 not
+  blank. **Table view now default-sorts by Cited desc** (analytical lens;
+  cards keep the academic reading order). Source-infobox distance row uses
+  `emptyLabel: 'varies'` for null (Timaeus). The 4 remaining orphan sources
+  (Huss, Barceló, both Picards) were **wired in** (theme Sources sections +
+  period `principal_sources`) so **every source now shows a nonzero count**.
+- **Capture of New Carthage (209 BCE)** (`events/capture-of-new-carthage.yaml`)
+  — Scipio's Iberian masterstroke; hostage-release → side-switching take;
+  Polybius-skeptical-of-Neptune source note. **Siege of Lilybaeum (250–241)**
+  (`events/siege-of-lilybaeum.yaml`) — the FPW's longest siege; decided at
+  sea (Aegates 241 → Lutatius), not by storm. (Identity care: the site's
+  `himilco`=396 Syracuse, `atilius-regulus`=Africa Regulus, so neither was
+  mislinked to the 250 siege.)
+
+**REMAINING — the one open Tier-1 item (start here tomorrow):**
+- **Editorial take on the nature of Carthaginian "empire"** — territorial
+  *epikrateia* vs. a hegemonic trading-network with a narrow African
+  tributary core (the Whittaker / Ameling debate). The site has the
+  `phoenician-colonial-network` theme but no *editorial take* planting a
+  flag on what kind of imperial structure Carthage was. This is the one
+  genuine *theory* gap (vs. a missing fact). Needs the competing-positions
+  structure of an editorialTake; **confirm the site's stance with the user
+  before writing** (offered: draft a recommended position + competing
+  readings for reaction). Model on `editorialTakes/barcid-iberian-state-as-state.yaml`.
+
+Counts after this session: **events 95, places 58, sources 67, dynasties 5**
+(dynasties are data configs under `src/data/dynasties/`, not a content
+collection). Build ~704 pages.
 
 ### Active work queue (complete)
 
