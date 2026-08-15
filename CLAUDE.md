@@ -581,9 +581,9 @@ the last build.
 | events | 95 |
 | people | 82 |
 | places | 58 |
-| sources | 67 |
+| sources | 69 |
 | claims | 172 |
-| editorialTakes | 24 |
+| editorialTakes | 25 |
 | openQuestions | 19 |
 | artifacts | 41 |
 | narratives | 41 |
