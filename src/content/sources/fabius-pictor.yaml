@@ -1,0 +1,53 @@
+slug: fabius-pictor
+title: History of Rome
+author: Quintus Fabius Pictor
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: -210
+  precision: decade
+  circa: true
+  range_end: -200
+temporal_distance_years: 30
+access_to_witnesses: one_step
+bias_notes: >
+  The first Roman historian, a senator of the gens Fabia, and
+  unmistakably a Roman partisan. Polybius uses him but warns the
+  reader explicitly (1.14): Fabius inclines toward Rome exactly as
+  Philinus inclines toward Carthage, and neither can be taken on
+  trust where his own city's conduct is at stake. Fabius supplies the
+  pro-Roman version of the events that opened the First Punic War, the
+  Mamertine intervention above all, and his framing of Carthaginian
+  bad faith and Roman justification became the spine of the Roman
+  annalistic tradition that Livy later inherited. That he wrote in
+  Greek matters to the bias as much as to the reach: the history was
+  in part a case made to the Hellenistic world for Rome's conduct,
+  composed while the outcome of the war with Carthage still hung open.
+summary: >
+  The first Roman historian, and the pro-Roman pole of the source
+  tradition on the Punic Wars. Quintus Fabius Pictor was a senator of
+  the old gens Fabia and a contemporary participant in the Second
+  Punic War; after the disaster at Cannae in 216 BCE the Senate sent
+  him to consult the oracle at Delphi, a mission that marks his
+  standing. His history ran from the origins of Rome, Aeneas and the
+  foundation, down to his own day, and it was written in Greek, the
+  first work of Roman history and one addressed as much to the
+  Hellenistic world as to Rome itself.
+
+  For this site he matters as the counterweight to
+  [Philinus of Akragas](/sources/philinus-akragas). Polybius built his
+  own account of the First Punic War on the two of them and told his
+  readers plainly that each had to be corrected for his loyalties:
+  Fabius tilted the record toward Rome, Philinus toward Carthage. The
+  clearest instance is the opening of the war, where Fabius supplies
+  the version in which Rome's intervention on behalf of the Mamertines
+  was a measured response to Carthaginian ambition rather than the
+  opportunistic seizure a Carthaginian-aligned source would describe.
+  Because Fabius stands at the head of the Roman annalistic line, his
+  framing of Punic faithlessness and Roman good faith did not stay one
+  historian's opinion; it hardened into the default Roman memory of
+  the wars, the frame this site reads against wherever it can recover
+  the other side. Nothing survives whole. The work is known through
+  Polybius, Livy, Dionysius of Halicarnassus, and Cicero, and is
+  collected as FGrHist 809.

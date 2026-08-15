@@ -34,6 +34,13 @@ dispute_summary: |
   The basic fact of the Carthaginian garrison's existence is not in
   dispute. The political framing of its establishment is.
 sources:
+  - source: fabius-pictor
+    stance: supports
+    passage_summary: >
+      Fabius is the origin of the pro-Roman version of the Mamertine
+      intervention, in which Rome acts against Carthaginian ambition
+      rather than opportunistically. His framing is the one Hoyos
+      corrects and the site reads against.
   - source: polybius-histories
     stance: supports
     passage_ref: "1.10-11, 3.26"
