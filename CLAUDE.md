@@ -580,7 +580,7 @@ the last build.
 |---|---|
 | events | 95 |
 | people | 82 |
-| places | 58 |
+| places | 59 |
 | sources | 69 |
 | claims | 172 |
 | editorialTakes | 25 |

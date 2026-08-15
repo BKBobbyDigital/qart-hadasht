@@ -1,0 +1,73 @@
+slug: cirta
+name_display: Cirta
+names_alt:
+  punic: KRT (qrt, "city")
+  punic_script: 𐤒𐤓𐤕
+  greek: Κίρτα (Kirta)
+  latin: Cirta
+  modern: Constantine, Algeria
+type: city
+primary:
+  label: Cirta, on the plateau above the Rhummel gorge
+  lat: 36.365
+  lon: 6.6147
+  confidence: certain
+modern_location: >
+  Constantine (Qacentina), northeastern Algeria: a naturally
+  fortified plateau all but encircled by the deep gorge of the
+  Rhummel river.
+founded:
+  founder: 'Numidian (Massylii)'
+  notes: >
+    An old Numidian center rather than a datable single foundation.
+    Its name is generally derived from the Punic word qrt, "city",
+    the same word that stands at the head of Qart-Hadasht itself,
+    a small sign of how far Carthaginian language had reached into
+    the Numidian interior.
+cultural_sphere: numidian
+current_status: >
+  Modern Constantine sits directly on the ancient site. The Musée
+  National Cirta holds the neo-Punic material from the El Hofra
+  sanctuary.
+patron_deity: 'Baal Hammon and Tanit (worshipped in Punic form at El Hofra)'
+image:
+  src: /places/cirta.jpg
+  alt: "The gorge of the Rhummel at Constantine (ancient Cirta), Algeria: sheer rock walls and a natural stone arch drop away below the city, which sits on the fortified plateau at the top of the cliffs. The topography that made Cirta near-impregnable is visible, with the El Kantara bridge spanning the ravine."
+  credit: "Photograph: Abdelmadjid Louadfel, via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File%3AConstantine%2C_les_gorges_du_Rhummel%2C_l'arche_naturelle_et_le_pont_El_Kantara.jpg
+  license: CC BY-SA 4.0
+summary: >
+  The royal capital of Numidia, and the clearest single measure of how
+  deeply Carthaginian culture had penetrated its African neighbors.
+  Cirta stood on a near-impregnable plateau above the gorge of the
+  Rhummel, and it was the seat of the Massylii kingdom that
+  [Masinissa](/people/masinissa) built into the dominant power of North
+  Africa. Even its name is Punic: it comes from qrt, "city", the same
+  word behind Qart-Hadasht.
+
+  Cirta was a prize the two Numidian houses fought over. It passed
+  between the Massylii and the Masaesyli of [Syphax](/people/syphax),
+  and Masinissa's seizure of it in 203 BCE, in the aftermath of the
+  [Battle of the Great Plains](/events/battle-of-great-plains), was the
+  moment the Numidian war turned his way. It was here, on taking the
+  city, that Masinissa found [Sophonisba](/people/sophonisba), Syphax's
+  wife and the daughter of [Hasdrubal Gisco](/people/hasdrubal-gisco),
+  married her to keep her out of Roman hands, and then, when Scipio
+  demanded her as a captive, sent her the poison she drank rather than
+  be led in a triumph. The site treats the competing ancient accounts
+  of that episode in a
+  [source comparison](/sourceComparisons/sophonisbas-death).
+
+  For this encyclopedia Cirta matters most as a center of Punic
+  cultural survival beyond Carthage. On the city's edge the sanctuary
+  of El Hofra produced one of the great deposits of votive stelae in
+  the Punic world, the
+  [El Hofra stele cache](/artifacts/hofra-stele-cache): hundreds of
+  dedications to Baal Hammon and Tanit, in Punic and neo-Punic script,
+  offered by a Numidian population that had taken up Carthaginian gods
+  and the Carthaginian habit of writing to them. Cirta is one of the
+  reasons the site treats 146 BCE as no hard endpoint for Punic
+  identity: under Masinissa and his son Micipsa the city became a large
+  royal capital where Punic served as a language of religion and
+  administration, and where the forms of Carthage outlived Carthage
+  itself.

@@ -6,6 +6,8 @@ date_start:
   precision: year
   notes: The Carthaginian expedition was dispatched in late summer 150 BCE; the engagement and capitulation followed within months.
 place: carthage
+places:
+  - cirta
 participants:
   - person: hasdrubal-boetharch
     role: Carthaginian commander

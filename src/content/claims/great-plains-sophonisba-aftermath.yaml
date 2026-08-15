@@ -33,6 +33,9 @@ entities:
   - type: event
     slug: battle-of-great-plains
     role: context
+  - type: place
+    slug: cirta
+    role: location
   - type: person
     slug: sophonisba
     role: subject

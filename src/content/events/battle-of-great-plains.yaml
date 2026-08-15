@@ -7,6 +7,8 @@ date_start:
   precision: year
   notes: Spring 203 BCE; the engagement was followed within days by the capture of Syphax at Cirta.
 place: great-plains
+places:
+  - cirta
 participants:
   - person: scipio-africanus
     role: commander
