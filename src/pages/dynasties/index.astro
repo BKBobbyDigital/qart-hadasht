@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import type { FamilyTreeConfig } from '../../lib/familyTree';
+import { byDynastyChronology } from '../../lib/familyTree';
 
 const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
 type Entry = { slug: string; config: FamilyTreeConfig };
@@ -8,7 +9,8 @@ const entries: Entry[] = Object.entries(dynastyModules).map(([path, mod]) => {
   const stem = path.split('/').pop()!.replace(/\.ts$/, '');
   return { slug: stem, config: (mod as any).default as FamilyTreeConfig };
 });
-entries.sort((a, b) => a.config.title.localeCompare(b.config.title));
+// Chronological (oldest first) so the list reads as a timeline.
+entries.sort((a, b) => byDynastyChronology(a.config, b.config));
 ---
 
 <BaseLayout title="Dynasties"

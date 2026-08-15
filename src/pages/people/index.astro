@@ -4,6 +4,7 @@ import IndexViewToggle from '../../components/IndexViewToggle.astro';
 import { formatHistoricalDate } from '../../lib/historicalDate';
 import { getCollection } from 'astro:content';
 import type { FamilyTreeConfig } from '../../lib/familyTree';
+import { byDynastyChronology } from '../../lib/familyTree';
 
 // Dynasty trees live as static configs under src/data/dynasties/*.ts
 const dynastyModules = import.meta.glob('../../data/dynasties/*.ts', { eager: true });
@@ -13,7 +14,7 @@ const sortedDynasties: DynastyEntry[] = Object.entries(dynastyModules)
     const stem = path.split('/').pop()!.replace(/\.ts$/, '');
     return { slug: stem, config: (mod as any).default as FamilyTreeConfig };
   })
-  .sort((a, b) => a.config.title.localeCompare(b.config.title));
+  .sort((a, b) => byDynastyChronology(a.config, b.config));
 
 const people = (await getCollection('people')).sort(
   (a, b) => a.data.name_display.localeCompare(b.data.name_display)

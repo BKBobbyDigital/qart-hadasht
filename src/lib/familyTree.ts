@@ -72,3 +72,20 @@ export const CATEGORY_COLORS: Record<string, { fill: string; stroke: string; tex
   roman: { fill: '#fee2e2', stroke: '#7f1d1d', text: '#7f1d1d' },
   other: { fill: '#f5f5f4', stroke: '#57534e', text: '#1a0410' },
 };
+
+/**
+ * Start year (as a positive BCE magnitude) parsed from a dynasty's
+ * `period` display string, which always leads with the earliest year
+ * — e.g. "c. 550 – 396 BCE" → 550. Every dynasty on the site falls in
+ * the BCE range, so a larger magnitude is chronologically earlier.
+ * Configs without a parseable period sort last (return 0).
+ */
+export function dynastyStartYearBCE(config: FamilyTreeConfig): number {
+  const m = config.period?.match(/\d+/);
+  return m ? parseInt(m[0], 10) : 0;
+}
+
+/** Sort comparator: dynasties oldest-first (largest BCE magnitude first). */
+export function byDynastyChronology(a: FamilyTreeConfig, b: FamilyTreeConfig): number {
+  return dynastyStartYearBCE(b) - dynastyStartYearBCE(a);
+}
