@@ -73,7 +73,7 @@ const mapId = `map-${Math.random().toString(36).slice(2, 11)}`;
       ? `<div style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#6b5638;margin-top:2px">${p.confidence}</div>`
       : '';
     const notes = p.notes ? `<div style="margin-top:6px;font-size:13px;color:#3d3020">${p.notes}</div>` : '';
-    return `<div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:16px;font-weight:600;color:#3d0a21">${p.label}</div>${conf}${notes}`;
+    return `<div style="font-family:'Fraunces',Georgia,serif;font-size:16px;font-weight:600;color:#3d0a21">${p.label}</div>${conf}${notes}`;
   }
 
   function initMaps() {

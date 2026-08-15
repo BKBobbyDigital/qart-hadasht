@@ -5,7 +5,7 @@
  * Renders a historical-atlas-style map: cream paper background, muted
  * coastline-only base (no OSM tiles, no modern roads), translucent
  * polygons for territory, route lines for campaigns, city dots and
- * Cormorant labels for places. Pure SVG, no client JS.
+ * Fraunces labels for places. Pure SVG, no client JS.
  *
  * Coastline data is Natural Earth 50m clipped to the Mediterranean
  * basin (lon -12 to 36, lat 28 to 47) and lives in
@@ -227,7 +227,7 @@ function labelOffsetFor(anchor: string | undefined, radius: number) {
         <text
           x={projX(l.lon)}
           y={projY(l.lat)}
-          font-family="Cormorant Garamond, Georgia, serif"
+          font-family="Fraunces, Georgia, serif"
           font-size={l.size === 'small' ? regionLabelSmall : regionLabelLarge}
           font-style={l.italic ? 'italic' : 'normal'}
           font-weight="600"
@@ -270,7 +270,7 @@ function labelOffsetFor(anchor: string | undefined, radius: number) {
               <text
                 x={cx + labelOffset.dx}
                 y={cy + labelOffset.dy}
-                font-family="Cormorant Garamond, Georgia, serif"
+                font-family="Fraunces, Georgia, serif"
                 font-size={labelBattle}
                 font-style="italic"
                 fill="#5b0f31"
@@ -297,7 +297,7 @@ function labelOffsetFor(anchor: string | undefined, radius: number) {
             <text
               x={cx + labelOffset.dx}
               y={cy + labelOffset.dy}
-              font-family="Cormorant Garamond, Georgia, serif"
+              font-family="Fraunces, Georgia, serif"
               font-size={isMajor ? labelMajor : labelMinor}
               font-weight={isMajor ? 600 : 500}
               fill="#3d3020"
