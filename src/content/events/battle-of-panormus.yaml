@@ -1,0 +1,56 @@
+slug: battle-of-panormus
+name: Battle of Panormus
+type: battle
+outcome: "Decisive Roman victory; the Carthaginian elephant force was destroyed and the captured elephants paraded at Rome"
+date_start:
+  value: -250
+  precision: year
+place: panormus
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+related_events:
+  - event: siege-of-lilybaeum
+    relation: precursor
+    notes: >
+      The victory at Panormus restored Roman confidence and freed the
+      consuls of 250 to open the siege of Lilybaeum, the campaign that
+      carried the war to its end.
+  - event: regulus-african-expedition
+    relation: sequel
+    notes: >
+      Panormus came two years after the destruction of Regulus's army
+      in Africa in 255; it was the victory that reversed the run of
+      Roman disasters and made the elephant, the weapon that had
+      wrecked Regulus, into a Roman trophy.
+referenced_themes:
+  - carthaginian-warfare
+summary: >
+  A Roman victory in 250 BCE at [Panormus](/places/panormus) that
+  became one of the signature engagements of the First Punic War, and
+  the battle that turned the war elephant from a Carthaginian terror
+  into a Roman trophy. Two years after Xanthippus and the Carthaginian
+  elephants had annihilated Regulus's army in Africa, a large
+  Carthaginian force under Hasdrubal, son of Hanno, advanced on
+  Panormus to recover the city Rome had taken in 254, its front
+  screened by a mass of elephants.
+
+  The proconsul Lucius Caecilius Metellus fought the battle from the
+  city's defenses rather than in the open. He posted light troops in a
+  ditch dug before the walls and had them pelt the elephants with
+  javelins while archers and slingers on the ramparts did the same. The
+  maddened animals, wounded and hemmed in, turned on their own side and
+  trampled the Carthaginian ranks into confusion; Metellus then sortied
+  and completed the rout. The elephants were captured, shipped across to
+  Italy, and paraded at Rome, and the Caecilii Metelli took the elephant
+  onto their family coinage for generations after.
+
+  The victory's importance was as much moral as military. It reversed
+  the run of defeats that had followed the African expedition, it broke
+  the psychological hold the elephant had gained over Roman armies, and
+  it cleared the way for the consuls to open the
+  [siege of Lilybaeum](/events/siege-of-lilybaeum) and press the war to
+  its decision. Polybius (1.40) gives the fullest account; the elephant
+  numbers in the sources are inflated in the usual way and the
+  reconstruction is secure on the shape of the battle rather than its
+  exact figures.

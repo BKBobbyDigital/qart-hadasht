@@ -578,9 +578,9 @@ the last build.
 
 | Collection | Count |
 |---|---|
-| events | 95 |
+| events | 96 |
 | people | 82 |
-| places | 60 |
+| places | 61 |
 | sources | 69 |
 | claims | 172 |
 | editorialTakes | 25 |

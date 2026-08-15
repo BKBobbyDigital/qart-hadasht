@@ -1,0 +1,62 @@
+slug: panormus
+name_display: Panormus
+names_alt:
+  punic: ṢYṢ (Ziz, "flower")
+  punic_script: 𐤑𐤉𐤑
+  greek: Πάνορμος (Panormos, "all-harbor")
+  latin: Panormus
+  modern: Palermo, Sicily, Italy
+type: city
+primary:
+  label: Panormus, on the Conca d'Oro plain of northwestern Sicily
+  lat: 38.1157
+  lon: 13.3615
+  confidence: certain
+modern_location: Palermo, on the northwestern coast of Sicily, Italy.
+founded:
+  founder: 'Phoenician'
+  date:
+    value: -700
+    precision: century
+    circa: true
+cultural_sphere: punic
+current_status: >
+  Modern Palermo sits on the ancient city; Punic-phase remains
+  (necropolis, fortification traces) survive in pockets beneath the
+  later city, and the site's Punic coinage is a principal source for
+  its name and status.
+patron_deity: 'Baal Hammon and Tanit; the harbor cults of a Punic port'
+image:
+  src: /places/panormus.jpg
+  alt: "A Siculo-Punic silver tetradrachm of Panormus, c. 405–380 BCE, bearing the city's Punic name Ziz. The obverse shows a fast quadriga crowned by a flying Nike, in the Greek Syracusan style; the reverse a nymph's head surrounded by dolphins. The coin is the surviving face of a Punic city minting in Greek idiom under its own Punic name."
+  credit: "Photograph: Classical Numismatic Group (CNG), via Wikimedia Commons"
+  credit_url: https://commons.wikimedia.org/wiki/File%3APanormos_Tetradrachm_83000049.jpg
+  license: CC BY-SA 2.5
+summary: >
+  The principal Carthaginian city of northwestern Sicily, built around
+  one of the finest natural harbors on the island. The Greek name
+  Panormos means "all-harbor", a fair description of the deep bay that
+  made the place; the Carthaginians called it Ziz, "flower", after the
+  fertile plain, the Conca d'Oro, behind it. The name survives on the
+  Siculo-Punic coinage minted here, some of the most abundant Punic
+  coinage from Sicily.
+
+  Panormus was one of the anchor-strongholds of Punic Sicily, ranking
+  with [Lilybaeum](/places/lilybaeum) and Drepana as a base of
+  Carthaginian naval and military power in the west of the island. Its
+  Phoenician occupation reached back to roughly the 7th century BCE,
+  and through the long Sicilian wars with the Greeks it stayed firmly
+  in the Carthaginian sphere while cities to its east changed hands.
+
+  Its fortunes turned in the First Punic War. Rome stormed and took
+  Panormus in 254 BCE, converting Carthage's chief northwestern base
+  into the Roman staging point for the region. In 250 the Carthaginians
+  moved to retake it, and the attempt ended in the
+  [Battle of Panormus](/events/battle-of-panormus), where the proconsul
+  Caecilius Metellus broke a large Carthaginian force by destroying its
+  war elephants outside the walls. The victory restored Roman morale
+  after the disaster in Africa and cleared the way for the long
+  [siege of Lilybaeum](/events/siege-of-lilybaeum) that would decide the
+  war's Sicilian endgame. Under Rome, Panormus remained the leading city
+  of the northwest, and the Punic layers of Palermo are among the
+  fuller records of a western Sicilian Punic town.
