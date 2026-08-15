@@ -1599,6 +1599,21 @@ falarica wound, truceless character; the three Rawlings source
 entries; the why-Cannae thread). Run both audits periodically to
 catch regression: new prose should keep prose-audit at zero.
 
+**Em-dash pass on the `.astro` pages (Aug 2026).** Important caveat
+surfaced during a later em-dash pass: **`prose-audit.mjs` only scans the
+content collections (`.md` + `.yaml`) — it does NOT scan `.astro`
+pages**, so em dashes in *hardcoded page prose* (methodology, about,
+index, etc.) go unaudited and can drift over budget. `methodology.astro`
+had accumulated 34; hand-cleaned to 12 (converted routine
+parentheticals/glossary defs to commas/colons/periods, **kept** the
+earned list-in-apposition dashes whose items contain commas + the
+"where the site is wrong" rhetorical aside — the house-rule exceptions).
+`about.astro` 4 → 1. The homepage was already 0 from its copy pass. The
+content collections themselves remain within budget (audit clean); a
+blind mass-conversion of the ~600 in-budget dashes there was
+deliberately NOT done (many are earned). When adding prose to an
+`.astro` page, apply the em-dash rule by hand — the audit won't catch it.
+
 ### Possible future content additions (held; diminishing returns)
 
 These were flagged as possible content additions in earlier
@@ -1765,6 +1780,18 @@ note in the relevant section above. The arc, for a future session:
   cut em-dashes to zero in visible copy, fixed the confidence byline).
 - **Footer** — rebuilt as a **brand sign-off** (see "Header / footer
   chrome").
+- **Security** — full audit, then shipped a **live enforcing CSP**
+  (report-only first, verified clean on maps/search/fonts/analytics,
+  then flipped) + an autolink URL-scheme guard. (See "Security audit".)
+- **Accessibility** — re-audited after the redesign (695 pages,
+  `scripts/a11y-audit.mjs`): one finding, the 3 dynasty pages had no
+  `<h1>` (FamilyTree rendered the title as `<h2>`) — promoted it to the
+  document `<h1>`. Re-audit: **0 findings**. Contrast on the new grays
+  (`#6a6a72` muted) checked ≈5:1 on white and the gray bands (passes AA);
+  focus-visible + skip-link intact.
+- **Prose** — em-dash pass on the un-audited `.astro` pages
+  (methodology 34→12, about 4→1); content collections already within
+  budget. (See "Em-dash pass on the `.astro` pages".)
 - **Deferred (do not touch piecemeal)** — a **holistic visual-assets
   review** (battle diagrams, family-tree SVGs, maps, imagery incl. the
   JSTOR idea) is tabled as item 0 of the tabled list, to be done
