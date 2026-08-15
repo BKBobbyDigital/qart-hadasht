@@ -536,8 +536,9 @@ Key components in `src/components/`:
   labels; context nodes get reduced opacity. Edges route
   orthogonally with optional hand-placed waypoints. Solid =
   parent, dashed = marriage, dotted = sibling. Currently
-  rendering four dynasties (Barcids, Massylii, Magonids, and the
-  Roman Cornelii Scipiones).
+  rendering five dynasties (Barcids, Massylii, Magonids, the Roman
+  Cornelii Scipiones, and the House of Tyre — the legendary Tyrian
+  founding line).
 
 ### Sortable index tables
 
@@ -1530,8 +1531,17 @@ not surface unsolicited.
      an open possibility — not urgent; fits the tabled "revamp all
      UI" direction. Revisit if the user calls for it.
 
-3. **Family tree / dynasty explorer** — *four dynasties shipped*
-   (Barcids, Massylii, Magonids, and — added Aug 2026 — the
+3. **Family tree / dynasty explorer** — *five dynasties shipped*
+   (Barcids, Massylii, Magonids; and, added Aug 2026, the
+   **House of Tyre** — the legendary Tyrian founding line, Hiram I
+   through Mattan to Pygmalion / Elissa-Dido / Sychaeus, the one tree
+   anchored in the foundation legend rather than the historical record;
+   its node borders encode an attestation gradient, solid = firm
+   (Hiram, Pygmalion) vs dashed = legendary (Mattan, Dido, Sychaeus),
+   with a dimmed collapsed-generations bridge for the ~150-year gap,
+   and the caption carries the source name-variance, Justin's
+   Mattan/Acerbas vs Virgil's Belus/Sychaeus — config
+   `src/data/dynasties/house-of-tyre.ts`); and the
    **Cornelii Scipiones**, the Roman side, framed explicitly as the
    enemy side of the Carthage story: the house that bracketed the war,
    Africanus at Zama 202 through his adoptive grandson Aemilianus at
