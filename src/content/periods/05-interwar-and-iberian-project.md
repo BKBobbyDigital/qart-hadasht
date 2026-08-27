@@ -113,7 +113,7 @@ atrocity by both sides.
 
 The recovery began with [Hamilcar Barca](/people/hamilcar-barca)'s
 transfer to overall command in 240 BCE. His
-[manoeuvre across the Bagradas](/events/battle-of-bagradas-238) broke
+[maneuver across the Bagradas](/events/battle-of-bagradas-238) broke
 the rebel siege of Utica; the [defection of Naravas](/people/naravas)
 of the Massylian Numidians in 239 with 2,000 cavalry consolidated the
 turn; and the climactic envelopment at the
@@ -233,7 +233,7 @@ established his independent command authority; the
 operations far beyond previous Barcid expeditions; and the
 [Battle of the Tagus](/events/battle-of-the-tagus) in 220 (the
 defeat of a Carpetani-Vaccaei-Olcadian coalition Polybius reports at
-100,000 through a textbook river-line manoeuvre with elephant screen
+100,000 through a textbook river-line maneuver with elephant screen
 and Numidian cavalry envelopment) eliminated the principal organized
 Iberian opposition to Carthaginian expansion.
 

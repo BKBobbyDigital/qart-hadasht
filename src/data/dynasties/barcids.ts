@@ -30,7 +30,7 @@ const config: FamilyTreeConfig = {
     mago: {
       label: 'Mago Barca',
       personSlug: 'mago-barca',
-      role: 'Cannae officer; Italian theatre',
+      role: 'Cannae officer; Italian theater',
       dates: 'd. c. 203 BCE',
       x: 160, y: 240,
       category: 'carthaginian',
@@ -118,7 +118,7 @@ const config: FamilyTreeConfig = {
     { category: 'numidian', label: 'Numidian (Naravas)' },
   ],
   caption:
-    "Three generations of the house Hamilcar founded. The three sons commanded the principal Second Punic War theatres (Hannibal in Italy, Hasdrubal Barca in Iberia and the Alps crossing of 207, Mago in Iberia and later Liguria). The two daughters' marriages bound the family to its principal political-military alliances: Hasdrubal the Fair was Hamilcar's son-in-law and the political successor who consolidated the Iberian state from 229 to 221 BCE; Naravas was the Numidian ally whose defection from the rebel side during the Mercenary War of 240 – 238 BCE saved the Carthaginian position. The daughters' names are not preserved in the surviving record. Hannibal's marriage to the Iberian noblewoman Imilce produced a son whose name is also not preserved.",
+    "Three generations of the house Hamilcar founded. The three sons commanded the principal Second Punic War theaters (Hannibal in Italy, Hasdrubal Barca in Iberia and the Alps crossing of 207, Mago in Iberia and later Liguria). The two daughters' marriages bound the family to its principal political-military alliances: Hasdrubal the Fair was Hamilcar's son-in-law and the political successor who consolidated the Iberian state from 229 to 221 BCE; Naravas was the Numidian ally whose defection from the rebel side during the Mercenary War of 240 – 238 BCE saved the Carthaginian position. The daughters' names are not preserved in the surviving record. Hannibal's marriage to the Iberian noblewoman Imilce produced a son whose name is also not preserved.",
 };
 
 export default config;

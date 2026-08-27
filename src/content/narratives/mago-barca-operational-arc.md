@@ -3,7 +3,7 @@ title: Mago Barca's operational arc
 scope: biography
 thesis: >
   Mago Barca held Carthaginian military presence in two
-  theatres across the long attrition phase of the Second
+  theaters across the long attrition phase of the Second
   Punic War: Iberia through 206 BCE, then northern Italy
   through 203, while Hannibal sat in southern Italy without
   reinforcement and Hasdrubal Barca had already been killed
@@ -54,7 +54,7 @@ remember. He died at sea in 203, but Zama the following year
 swallowed the memory.
 
 What the literary tradition does not foreground is that Mago
-was the Barcid commander who held two theatres for Carthage
+was the Barcid commander who held two theaters for Carthage
 across the long stretch when no other Barcid field authority
 was available. From Hasdrubal Barca's death at the
 [Metaurus](/events/battle-of-metaurus) in 207 through to his
@@ -101,7 +101,7 @@ operated.
 After the mission, Mago joined
 [Hasdrubal Barca](/people/hasdrubal-barca) and
 [Hasdrubal Gisco](/people/hasdrubal-gisco) in Iberia. The
-three commanders divided the theatre by region: Hasdrubal
+three commanders divided the theater by region: Hasdrubal
 Barca held the northeast against Roman operations along the
 Ebro, Hasdrubal Gisco the south, Mago the center and the
 southern interior. The arrangement worked for several years.
@@ -116,7 +116,7 @@ The defeats at [Baecula](/events/battle-of-baecula) in 208
 and [Ilipa](/events/battle-of-ilipa) in 206 mark the
 deterioration. Baecula loosed Hasdrubal Barca for the
 Italian crossing that ended at the Metaurus. Ilipa was the
-end of the Iberian theatre as a viable Carthaginian
+end of the Iberian theater as a viable Carthaginian
 position. Mago was at both. After Ilipa, with what was left
 of his force, he withdrew to the Balearic Islands and
 wintered there through 205, preparing the next move. The

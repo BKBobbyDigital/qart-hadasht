@@ -78,7 +78,7 @@ pre-modern record.
 ## The land
 
 The other cost is one the Roman sources mention constantly without ever
-totalling, because it was too ordinary to itemise. Hannibal spent fifteen
+totaling, because it was too ordinary to itemize. Hannibal spent fifteen
 years in Italy. He did not spend them besieging Rome; he spent them
 moving through the Italian countryside, living off it, and fighting for
 the allegiance of the communities in it. Bruttium, Lucania, Apulia and
@@ -100,7 +100,7 @@ central political quarrel of the following century.
 
 Rome ran out of money. The war tax was doubled in 215. By 210 the
 treasury was borrowing from private citizens, and the repayment, when it
-finally came, was made in instalments, the last of which was settled
+finally came, was made in installments, the last of which was settled
 partly in public land rather than cash. The bronze coinage was reduced in
 weight repeatedly as the emergency wore on, and the currency system was
 rebuilt around a new silver coin, the denarius, introduced during the war
@@ -130,7 +130,7 @@ The aristocracy that came out of the war had also learned that foreign
 command was the fastest route to standing at home, and that conquest paid.
 The anxiety this produced is visible in the decades after: the Senate's
 suppression of the Bacchanalia in 186, Cato's censorship in 184 and the
-moralising campaign that went with it, the recurring complaint that
+moralizing campaign that went with it, the recurring complaint that
 wealth from abroad was corrupting Roman life. It is easy to read that
 literature as conventional grumbling. It is at least as plausible to read
 it as a governing class noticing that its own society had changed
@@ -173,6 +173,6 @@ This site argues elsewhere that Carthage was destroyed
 and that reading stands. But it describes one side of a relationship. The
 other side is a state that had been hurt badly enough, half a century
 earlier, to have lost its appetite for arrangements that depended on a
-rival's continued good behaviour. The virtue narrative in Polybius and
+rival's continued good behavior. The virtue narrative in Polybius and
 Livy explains why Rome survived. It does not explain what surviving did
 to Rome, and the answer to that is part of why Carthage did not.

@@ -1,11 +1,11 @@
 ---
-title: The Iberian theatre — Carthage's strategic transformation
+title: The Iberian theater — Carthage's strategic transformation
 summary: >
   Twenty years of Carthaginian Iberian operations from Hamilcar's
   236 BCE landing through the Roman closure at Ilipa in 206. The
-  theatre that produced the Second Punic War's resource base — and
+  theater that produced the Second Punic War's resource base — and
   the field where it ended.
-scope: theatre
+scope: theater
 stops:
   - type: event
     slug: hamilcars-iberian-conquest
@@ -82,7 +82,7 @@ stops:
     slug: battle-of-ilipa
     note: >
       Scipio's 206 BCE victory that closed the Carthaginian Iberian
-      theatre.
+      theater.
   - type: event
     slug: ilergetes-revolt-205
     note: >
@@ -97,15 +97,15 @@ stops:
 last_revised: "2026-05-10"
 ---
 
-The Iberian theatre is structurally distinct among the
+The Iberian theater is structurally distinct among the
 Carthaginian-Roman wars: it began before the Second Punic War, ran
 for thirty years across two generations of Barcid family operations,
 and produced the resource base that funded the entire Italian
-campaign. The Greco-Latin sources foreground the Italian theatre and
-the African endgame; the Iberian theatre is what made both possible
+campaign. The Greco-Latin sources foreground the Italian theater and
+the African endgame; the Iberian theater is what made both possible
 and what eventually denied the war's sustainment.
 
-This thread walks the theatre's full arc, from Hamilcar's 237 BCE
+This thread walks the theater's full arc, from Hamilcar's 237 BCE
 landing through the Ilergetes revolt of 205, with attention both to
 the metropolitan Carthaginian-Roman story and to the Iberian agency
 the surviving sources structurally underweight. The brothers
@@ -119,7 +119,7 @@ elder Scipios, Scipio Africanus); and the place pages
 geography that made the operations possible.
 
 The thread's specific claim, on the site's reading, is that the
-Iberian theatre is best understood as a *three-power* contest among
+Iberian theater is best understood as a *three-power* contest among
 Carthage, Rome, and the Iberian polities — not a binary contest with
 Iberian peoples as auxiliary. The Indibilis-Mandonius narrative is
 the principal evidence; the

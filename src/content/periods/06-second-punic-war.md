@@ -5,8 +5,8 @@ end_year: -201
 summary: >
   The seventeen-year war that brought Rome closer to defeat than any
   other in the surviving record. Hannibal's Italian campaign, the
-  Italian-allied defections after Cannae, the Sicilian theatre at
-  Syracuse, the Iberian theatre under Scipio, and the African endgame
+  Italian-allied defections after Cannae, the Sicilian theater at
+  Syracuse, the Iberian theater under Scipio, and the African endgame
   at Zama. The most thoroughly documented war of antiquity outside
   Thucydides's Peloponnesian War, and the structural pivot of
   Carthaginian-Roman relations.
@@ -183,7 +183,7 @@ Latin League and the Roman citizen base held. The strategic
 configuration Hannibal had assumed could be produced by sufficient
 tactical victory did not materialize.
 
-## The Sicilian theatre
+## The Sicilian theater
 
 The most striking single Greek defection of the post-Cannae phase was
 [Syracuse's reorientation](/events/syracusan-defection-215) in 215 BCE,
@@ -204,12 +204,12 @@ of 213-211 (Himilco's land expedition, Bomilcar's withdrawing naval
 relief, the plague-destroyed combined effort) failed to break the
 siege. The [fall of Akragas in 210 BCE](/events/fall-of-akragas-210)
 through the Numidian commander Mottones's defection closed the
-Sicilian theatre and freed substantial Roman resources for Iberian
+Sicilian theater and freed substantial Roman resources for Iberian
 and Italian operations.
 
-## The Iberian theatre and Scipio's reform
+## The Iberian theater and Scipio's reform
 
-The Iberian theatre opened with Roman expeditionary operations in 218
+The Iberian theater opened with Roman expeditionary operations in 218
 BCE under the elder Scipio brothers (Publius and Gnaeus), continued
 through their deaths in coordinated Carthaginian counter-offensive in
 211 BCE, and was reset by the appointment of the younger
@@ -218,7 +218,7 @@ command in 210 at age twenty-five.
 
 Scipio's [capture of New Carthage](/places/carthago-nova) in 209 BCE
 through a surprise attack at the lagoon's low-tide phase was the
-operational masterstroke that transformed the theatre. The capture
+operational masterstroke that transformed the theater. The capture
 produced the Carthaginian Iberian command center, the principal
 treasury, hostage families that included [Indibilis](/people/indibilis)
 and [Mandonius](/people/mandonius), and the strategic initiative that
@@ -227,7 +227,7 @@ Scipio would not lose for the rest of the war. The
 defeat of the combined Carthaginian armies under
 [Hasdrubal Gisco](/people/hasdrubal-gisco), [Mago Barca](/people/mago-barca),
 and [Masinissa](/people/masinissa)) closed the Carthaginian Iberian
-theatre.
+theater.
 
 Earlier, in 207 BCE, the [Battle of the Metaurus](/events/battle-of-metaurus)
 in Italy had killed [Hasdrubal Barca](/people/hasdrubal-barca) and

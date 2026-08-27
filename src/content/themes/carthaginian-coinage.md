@@ -108,7 +108,7 @@ inference, and the site labels it as such.
 
 Because coins can be assayed, the precious-metal series
 doubles as the only year-by-year financial record of the
-Carthaginian state that survives. The standard catalogue of
+Carthaginian state that survives. The standard catalog of
 the gold and electrum, [Jenkins and
 Lewis](/sources/jenkins-lewis-carthaginian-gold-1963),
 established the sequence: high-purity gold staters in the
@@ -178,7 +178,7 @@ his fuller French treatment in the
 [Krings *Manuel de recherche*](/sources/krings-manuel-1995).
 [Jenkins and Lewis
 1963](/sources/jenkins-lewis-carthaginian-gold-1963) remains
-the reference catalogue for the gold and electrum series. The
+the reference catalog for the gold and electrum series. The
 general syntheses
 ([Lancel](/sources/lancel-carthage-1995),
 [Hoyos](/sources/hoyos-carthaginians-2010),

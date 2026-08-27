@@ -134,7 +134,7 @@ abandoned in Africa, where they were absorbed or destroyed) ended the
 threat without resolving the structural questions the invasion had
 raised. The Carthaginian state had survived but the configuration was
 clearly visible: a militarily resourceful aggressor could threaten the
-metropolis itself if it bypassed the Sicilian theatre to strike at
+metropolis itself if it bypassed the Sicilian theater to strike at
 Africa directly.
 
 ## Pyrrhus and the cooperation framework

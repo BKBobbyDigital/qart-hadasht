@@ -66,7 +66,7 @@ early 210s, then redirected by the senate to
 [Syphax](/people/syphax) of the Masaesyli in 206 BCE to
 secure the larger western Numidian kingdom against Rome. The
 realignment is part of what pushed Masinissa over to Rome
-and reshaped the African theatre of the war.
+and reshaped the African theater of the war.
 
 Cavalry partnership. Numidian cavalry was the spine of
 Carthage's field army across the Punic Wars; the

@@ -166,7 +166,7 @@ production at the peak of the Roman-period operation
 the implication that Barcid-period production was at
 comparable or only somewhat lower scale. The translation
 into modern weight estimates produces production figures of
-roughly 100–150 tonnes of silver per year at peak — a
+roughly 100–150 metric tons of silver per year at peak — a
 substantial fraction of total Mediterranean silver supply for
 the period.
 
@@ -225,21 +225,21 @@ particular has produced extensive archaeological evidence of
 Punic and Roman extraction). Slag analysis at the surface
 processing sites has produced estimates of total silver
 production for the Punic-and-early-Roman period in the
-range of several thousand tonnes — sufficient to confirm the
+range of several thousand metric tons — sufficient to confirm the
 broad order of magnitude the Polybian-Diodoran tradition
 preserves while allowing skepticism about specific year-by-
 year figures.
 
 The Polybian/Strabonian figure of 25,000 drachmas per day
 production (at the post-209 Roman peak) translates to roughly
-100–110 kg of silver per day, or about 36–40 tonnes per
+100–110 kg of silver per day, or about 36–40 metric tons per
 year. Aggregated across the seventy years of Roman extraction
 that followed the Punic period (209 BCE – c. 140 BCE), the
-implied total exceeds 2,500 tonnes of silver. The Barcid-
+implied total exceeds 2,500 metric tons of silver. The Barcid-
 period extraction (237 – 209 BCE) was probably at lower
 volume but compressed into a shorter window; modern
 estimates suggest Barcid-period total extraction in the
-range of 700–1,000 tonnes across the three decades. This is
+range of 700–1,000 metric tons across the three decades. This is
 the silver that financed the Iberian and Italian operations
 of the Second Punic War.
 
@@ -340,7 +340,7 @@ source; what we know about the mint's institutional structure
 is reconstructed from coinage analysis and from the broader
 comparative evidence of Hellenistic-period royal mints. The
 specific commercial routes by which Iberian silver moved
-eastward (to Carthage proper, to the Italian theatre, to
+eastward (to Carthage proper, to the Italian theater, to
 the broader Mediterranean) are reconstructible in outline
 through coin-find distributions but not in operational
 detail.

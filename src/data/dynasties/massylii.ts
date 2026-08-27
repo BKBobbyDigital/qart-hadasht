@@ -35,7 +35,7 @@ const config: FamilyTreeConfig = {
     hasdrubal_gisco: {
       label: 'Hasdrubal Gisco',
       personSlug: 'hasdrubal-gisco',
-      role: 'Carthaginian commander; SPW African theatre',
+      role: 'Carthaginian commander; SPW African theater',
       x: 900, y: 80,
       category: 'carthaginian',
       context: true,
@@ -105,7 +105,7 @@ const config: FamilyTreeConfig = {
     { category: 'carthaginian', label: 'Carthaginian' },
   ],
   caption:
-    "Three generations of the Massylii royal house, with the Carthaginian Hasdrubal Gisco and the rival Masaesylii king Syphax shown for the dynastic connections that bind the tree to the broader Second Punic War African theatre. Masinissa's marriage to Sophonisba in 203 BCE was the brief sequel to her earlier marriage to Syphax; she took poison rather than be surrendered to Roman custody, and produced no children with either husband. Masinissa's three sons by other unions — Micipsa, Gulussa, and Mastanabal — jointly inherited the unified Numidian kingdom on his death in 148 BCE, with Scipio Aemilianus dividing administrative responsibilities among them. Micipsa's nephew Jugurtha would later contest the inheritance in the war that bears his name (112–105 BCE), but that arc falls outside the Punic-period scope this tree covers.",
+    "Three generations of the Massylii royal house, with the Carthaginian Hasdrubal Gisco and the rival Masaesylii king Syphax shown for the dynastic connections that bind the tree to the broader Second Punic War African theater. Masinissa's marriage to Sophonisba in 203 BCE was the brief sequel to her earlier marriage to Syphax; she took poison rather than be surrendered to Roman custody, and produced no children with either husband. Masinissa's three sons by other unions — Micipsa, Gulussa, and Mastanabal — jointly inherited the unified Numidian kingdom on his death in 148 BCE, with Scipio Aemilianus dividing administrative responsibilities among them. Micipsa's nephew Jugurtha would later contest the inheritance in the war that bears his name (112–105 BCE), but that arc falls outside the Punic-period scope this tree covers.",
 };
 
 export default config;

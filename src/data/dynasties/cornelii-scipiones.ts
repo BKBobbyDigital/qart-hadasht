@@ -12,7 +12,7 @@ import type { FamilyTreeConfig } from '../../lib/familyTree';
  * the standing voice against Cato's "Carthago delenda est."
  *
  * The adoption is the load-bearing relationship and is encoded by
- * color: Aemilianus was born an Aemilius (grey, another gens) and
+ * color: Aemilianus was born an Aemilius (gray, another gens) and
  * married into the Cornelii Scipiones (red) by adoption — the two
  * solid parent lines into his node are his biological father
  * (Aemilius Paullus) and his adoptive father (Africanus's son).
@@ -111,7 +111,7 @@ const config: FamilyTreeConfig = {
     { category: 'other', label: 'Aemilii (Aemilianus by birth)' },
   ],
   caption:
-    "The Roman house that bookends the war with Carthage, shown here for that context — the tree is the enemy side of the story this site tells. The elder Publius Cornelius Scipio and his brother Gnaeus Scipio Calvus opened the Iberian front against the Barcids and were both killed there in 211 BCE; Publius's son became Scipio Africanus, the victor of Zama in 202. Three generations down, the man who destroyed Carthage in 146, Scipio Aemilianus, was not a Scipio by blood at all: born a son of Lucius Aemilius Paullus (the victor of Pydna), he was adopted by Africanus's own son and so carried the family that had beaten Hannibal to the city's final ruin. The cousin branch supplies the dissenting Roman voice: Scipio Nasica Corculum argued repeatedly in the Senate against Cato's demand that Carthage be destroyed, on the reasoning that a rival kept Rome disciplined. Grey marks the Aemilii, the gens Aemilianus was born into before adoption brought him among the Scipiones. Unlinked nodes have no page of their own yet.",
+    "The Roman house that bookends the war with Carthage, shown here for that context — the tree is the enemy side of the story this site tells. The elder Publius Cornelius Scipio and his brother Gnaeus Scipio Calvus opened the Iberian front against the Barcids and were both killed there in 211 BCE; Publius's son became Scipio Africanus, the victor of Zama in 202. Three generations down, the man who destroyed Carthage in 146, Scipio Aemilianus, was not a Scipio by blood at all: born a son of Lucius Aemilius Paullus (the victor of Pydna), he was adopted by Africanus's own son and so carried the family that had beaten Hannibal to the city's final ruin. The cousin branch supplies the dissenting Roman voice: Scipio Nasica Corculum argued repeatedly in the Senate against Cato's demand that Carthage be destroyed, on the reasoning that a rival kept Rome disciplined. Gray marks the Aemilii, the gens Aemilianus was born into before adoption brought him among the Scipiones. Unlinked nodes have no page of their own yet.",
 };
 
 export default config;

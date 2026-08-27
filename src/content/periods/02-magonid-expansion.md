@@ -142,7 +142,7 @@ to the diplomatic configuration the Battle of Alalia produced.
 
 ## Sicily as the structural problem
 
-The Sicilian theatre is the through-line of the Magonid period and the
+The Sicilian theater is the through-line of the Magonid period and the
 limit of Magonid achievement. Carthaginian-Sicilian engagement begins
 with the **Battle of Himera in 480 BCE**, where a Carthaginian
 expeditionary force under [Hamilcar the Magonid](/people/hamilcar-magonid),
@@ -211,12 +211,12 @@ By 396 BCE, Carthaginian power had reached its early-period peak and
 encountered its first serious limit. The Magonid dynasty's command
 authority was about to be constrained by the post-396 reaction — the
 Council of 104 explicitly designed to prevent another Magonid family
-overreach. The Sicilian theatre, despite the catastrophe, would remain
+overreach. The Sicilian theater, despite the catastrophe, would remain
 the principal Carthaginian external concern for the next century and a
 half. The Carthaginian-Sicilian wars of the fourth century (the
 Crimisus campaign, the Agathoclean crisis, the Pyrrhic intervention) would be conducted within structural conditions the Magonid period had
 established.
 
 What the Magonids had built, a Mediterranean power capable of
-sustained external operations across multiple theatres simultaneously, survived their dynasty's constraint. What they had reached the limit of, the conquest of Greek Sicily, would remain the limit until Roman
+sustained external operations across multiple theaters simultaneously, survived their dynasty's constraint. What they had reached the limit of, the conquest of Greek Sicily, would remain the limit until Roman
 intervention transformed the strategic geography entirely.

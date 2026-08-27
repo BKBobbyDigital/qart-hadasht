@@ -226,7 +226,7 @@ was burned for seventeen days; the surviving population
 (approximately 50,000 by Appian's figure) was enslaved and
 distributed across the Roman world. The territory was reorganized
 as the Roman province of Africa, with the city's harbor
-deliberately silted and the urban site itself ploughed over to
+deliberately silted and the urban site itself plowed over to
 ensure no immediate reoccupation.
 
 The "salting of the earth" tradition, popular in modern accounts,

@@ -152,7 +152,7 @@ treats the reasoning in full.
 
 The observers were themselves changed. The Rome of the 150s had come
 through the Hannibalic war at a cost its own historians recorded
-piecemeal and never totalled: heavy citizen losses, fifteen years of
+piecemeal and never totaled: heavy citizen losses, fifteen years of
 fighting across Italian farmland, a currency rebuilt mid-emergency,
 and a political class that had learned to hand individuals
 extraordinary commands. What that did to the state that later voted

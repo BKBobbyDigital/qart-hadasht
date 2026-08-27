@@ -36,7 +36,7 @@ to do with the city's libraries, the answer they gave is among
 the most revealing single pieces of surviving evidence about how
 the conquerors of Carthage understood Carthaginian intellectual
 culture. They gave the libraries to the Numidian allies — the
-contents not catalogued, not preserved, not even kept in Roman
+contents not cataloged, not preserved, not even kept in Roman
 hands. From the entire Carthaginian written tradition, they held
 back exactly one work: the twenty-eight-book agricultural
 treatise of [Mago of Carthage](/people/mago-agronomist), which

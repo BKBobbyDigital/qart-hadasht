@@ -617,8 +617,8 @@ const threads = defineCollection({
     title: z.string(),
     /** Short tagline shown on the index card and as page subtitle. */
     summary: z.string(),
-    /** What kind of journey: biography / question / period / theatre / debate. */
-    scope: z.enum(['biography', 'question', 'period', 'theatre', 'debate']),
+    /** What kind of journey: biography / question / period / theater / debate. */
+    scope: z.enum(['biography', 'question', 'period', 'theater', 'debate']),
     stops: z.array(threadStop).min(2),
     last_revised: z.string(),
   }),

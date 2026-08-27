@@ -6,7 +6,7 @@ thesis: >
   Iberian historical figures of the Second Punic War with substantial
   surviving documentation, and their three-phase career (Carthaginian
   ally, Roman ally, anti-Roman rebel) is the single clearest
-  surviving evidence that the war's Iberian theatre was a war among
+  surviving evidence that the war's Iberian theater was a war among
   three powers rather than a binary contest between two metropolitan
   ones. The Greco-Latin sources frame their side-switching through
   the lens of fidelity and betrayal; the modern reading, on the
@@ -30,7 +30,7 @@ last_revised: "2026-05-10"
 ---
 
 The Greco-Latin tradition's framing of the Second Punic War's Iberian
-theatre is structurally Roman-Carthaginian: the war is a contest
+theater is structurally Roman-Carthaginian: the war is a contest
 between two metropolitan powers, with Iberian peoples appearing as
 auxiliaries, mercenaries, or terrain. The Indibilis-Mandonius career
 is the surviving record's clearest counterweight. The brothers'
@@ -55,7 +55,7 @@ this arrangement.
 
 Indibilis and Mandonius took up senior roles in the confederation
 during Hannibal's pre-Italy campaigns and in the early phase of the
-Second Punic War's Iberian theatre. Their forces participated in
+Second Punic War's Iberian theater. Their forces participated in
 Carthaginian operations against the Roman expeditionary armies under
 the elder Scipios (Publius and Gnaeus, Scipio Africanus's father and
 uncle) across the period from 218 to 211 BCE. The surviving sources
@@ -109,19 +109,19 @@ made routinely in the period. See the claim
 [iberian-side-switching-as-agency](/claims/iberian-side-switching-as-agency)
 for the position's reasoning.
 
-## Ilipa and the closing of the Iberian theatre
+## Ilipa and the closing of the Iberian theater
 
 The brothers' Roman-alliance career culminated at the
 [Battle of Ilipa](/events/battle-of-ilipa) in 206 BCE — Scipio's
 defeat of the combined Carthaginian forces under Hasdrubal Gisco and
-Mago Barca that closed the Iberian theatre. The Ilergetes contingent
+Mago Barca that closed the Iberian theater. The Ilergetes contingent
 fought under Roman command at Ilipa as part of Scipio's allied wings;
 the engagement's structural success depended on the kind of integrated
 Roman-Iberian deployment that Scipionic policy had cultivated across
 the previous three years.
 
 Ilipa is the high point of the brothers' Roman alliance. They had
-contributed substantially to the Carthaginian Iberian theatre's
+contributed substantially to the Carthaginian Iberian theater's
 closure; Scipio's reciprocal commitments to Ilergetes interests had
 been honored throughout his command; the post-victory configuration
 appeared to promise sustained Roman-Ilergetes alliance on terms the
@@ -176,7 +176,7 @@ career. The pattern even at death.
 ## What the career preserves
 
 The Indibilis-Mandonius narrative is the surviving record's clearest
-preservation of how the Second Punic War's Iberian theatre appeared to
+preservation of how the Second Punic War's Iberian theater appeared to
 Iberians. The brothers' three-phase career — Carthaginian ally because
 the Barcid project offered something the post-211 hostage-taking
 withdrew, Roman ally because Scipio's *humanitas* offered something

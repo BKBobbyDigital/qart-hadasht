@@ -30,7 +30,7 @@ and partly misleading. It tells us as much about Polybius's
 argument for Rome as it does about how Carthage's military
 actually worked. The picture that emerges from the surviving
 evidence is of a flexible, multi-component force that operated
-effectively at scale across simultaneous theatres and that
+effectively at scale across simultaneous theaters and that
 produced the most successful single commander of the ancient
 Mediterranean (Hannibal) before the war's fiscal and manpower
 limits caught up with the system.
@@ -89,7 +89,7 @@ during the Punic Wars: it carried the field at
 Hannibal's Italian campaign. The system rested on Numidian
 recruitment networks. Numidian cavalry was the principal
 Carthaginian field arm, attested across the whole Punic Wars
-period in multiple theatres, and its effectiveness rested on
+period in multiple theaters, and its effectiveness rested on
 long-running political relationships rather than tactical
 recruitment.
 

@@ -38,7 +38,7 @@ sources:
     passage_summary: >
       MacDonald's biographical treatment integrates the
       pre-Italy campaigns with the Italian campaign as
-      successive phases of the same operational programme.
+      successive phases of the same operational program.
 entities:
   - type: event
     slug: hannibals-olcades-campaign

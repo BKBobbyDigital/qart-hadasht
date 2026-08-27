@@ -35,7 +35,7 @@ export const GET: APIRoute = async () => {
   lines.push(
     '> A sourced, confidence-tagged reference for ancient Carthage from its ' +
       'legendary founding (~814 BCE) to its destruction in 146 BCE. Every ' +
-      'factual claim is tied to its ancient and modern sources, labelled by ' +
+      'factual claim is tied to its ancient and modern sources, labeled by ' +
       'confidence (attested / inferred / contested / legendary), and gaps in ' +
       'the surviving record are named rather than smoothed over. Content is ' +
       'licensed CC BY 4.0: reuse is welcome with attribution to qart-hadasht.org.'
@@ -51,7 +51,7 @@ export const GET: APIRoute = async () => {
   lines.push('');
   lines.push(
     `Current scope: ${events.length} events, ${people.length} people, ` +
-      `${places.length} places, ${sources.length} catalogued sources, ` +
+      `${places.length} places, ${sources.length} cataloged sources, ` +
       `${narratives.length} long-form narratives, ${themes.length} themes.`
   );
   lines.push('');

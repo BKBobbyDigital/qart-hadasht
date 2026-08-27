@@ -89,7 +89,7 @@ negotiate was the fact Hannibal's strategy could not
 overcome. The thread walks the underlying evidence: Cannae itself,
 the post-Cannae allied defections (which occurred but were
 insufficient), the broader strategic context including the Sicilian
-theatre's expansion and contraction, and the tactical template
+theater's expansion and contraction, and the tactical template
 Hannibal brought from Iberia.
 
 The thread *does* take a position. It argues that Cannae's tactical
