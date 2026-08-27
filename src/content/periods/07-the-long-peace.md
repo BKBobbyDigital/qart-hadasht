@@ -150,6 +150,15 @@ of the destruction the next period would carry out; the editorial
 take [Why was Carthage destroyed in 146 BCE?](/editorialTakes/destruction-not-weak-enough)
 treats the reasoning in full.
 
+The observers were themselves changed. The Rome of the 150s had come
+through the Hannibalic war at a cost its own historians recorded
+piecemeal and never totalled: heavy citizen losses, fifteen years of
+fighting across Italian farmland, a currency rebuilt mid-emergency,
+and a political class that had learned to hand individuals
+extraordinary commands. What that did to the state that later voted
+for destruction is treated separately in
+[What the war cost the winner](/narratives/what-the-war-cost-the-winner).
+
 ## Cato's commission and the political shift
 
 The political shift that converted the Roman approach from arbitration
