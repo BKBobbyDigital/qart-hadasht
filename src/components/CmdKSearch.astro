@@ -93,11 +93,11 @@
     const mountTarget = document.getElementById('cmdk-search');
     if (!dialog || !mountTarget) return;
 
-    let initialised = false;
+    let initialized = false;
 
     function ensureUi() {
-      if (initialised) return;
-      initialised = true;
+      if (initialized) return;
+      initialized = true;
       if (window.__cmdkPagefindMissing || typeof window.PagefindUI === 'undefined') {
         mountTarget.innerHTML =
           '<p class="text-sm text-sand-700">Search index is built only on production deploys. Try the live site, or run <code class="font-mono">npm run build &amp;&amp; npm run preview</code> locally.</p>';

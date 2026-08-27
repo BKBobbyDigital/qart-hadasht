@@ -779,9 +779,23 @@ across places, people, events, etc. Fixed via:
 | a11y-audit.mjs | Static a11y violation scan + asset-weight signals |
 | tic-rank.mjs | Rank all content files by AI-tic vocabulary density |
 | delm.mjs | Mechanical de-LLM pass (bold mini-headings, boilerplate closers, safe word subs) |
+| spelling-audit.mjs | American-English enforcement; British spellings + `-ise`/`-yse` drift |
 
 All reusable; each prints results to stdout and (where applicable)
 modifies files only with --apply flag.
+
+`spelling-audit.mjs` runs two passes. The first is a curated
+British→American map (theatre, manoeuvre, catalogue, -our, -re, -ce,
+doubled-l, etc.) that is safe to auto-apply with `--apply`. The second
+is a generic `-ise`/`-isation`/`-yse` detector filtered through an
+allowlist of words that legitimately keep an "s" in American English
+(improvise, surprise, comprise, and so on, with prefixes like *un-* and
+*up-* stripped before the check), so genuinely new drift gets caught
+rather than only the words already known about. That pass is
+report-only, since the right fix depends on whether the word sits in
+prose, a foreign title, or a quotation. It should print
+**CLEAN — corpus is American English**; run it after any substantial
+prose work.
 
 ### The MacDonald-direction framing pass (most recent major work)
 
