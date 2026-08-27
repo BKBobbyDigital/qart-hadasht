@@ -191,6 +191,36 @@ Run `node scripts/tic-rank.mjs` to spot regression. Run
 write) for the safe mechanical pass. Anything beyond that
 is per-file judgment work.
 
+**American English.** The site uses American spelling
+throughout: *theater* not theatre, *maneuver* not manoeuvre,
+*catalog* not catalogue, *gray* not grey, *-ize/-ization* not
+*-ise/-isation*, single-l past tenses (*traveled*, *labeled*,
+*modeled*, *totaled*). A corpus-wide conversion ran in Aug 2026
+(188 edits, 90 files); new prose should not reintroduce British
+forms. Four categories are **deliberately exempt** and must stay
+as they are:
+
+- **Foreign-language source titles.** Every `civilisation` in
+  the corpus is a French title (Krings, Sznycer, Xella,
+  *La civilisation phénicienne et punique*), and `romanisation`
+  is Bénabou's. `sznycer-civilisation-1978` is also a live
+  reference key used across many entity files.
+- **Quoted translations.** `groups/sacred-band` carries "fame
+  for valour" inside a direct quotation of Diodorus.
+  Respelling another author's translation misquotes it.
+- **Conventional titles of cited works**, e.g.
+  *On Marvellous Things Heard* (ps-Aristotle), 4 places.
+- **Words that only look British:** *improvisation*,
+  *improvised*, *dialogue*, *analyses* are all standard
+  American forms. Don't "fix" them.
+
+Note also that *tonne* is a unit, not a spelling: it is metric
+and a US ton is not, so the Iberian-silver figures read
+**metric tons**, not tons. Known cosmetic exception: the thread
+at `/threads/iberian-theatre` keeps its British slug (renaming
+would change a live URL); its title and prose are American. The
+user decided to leave it.
+
 ### The confidence vocabulary
 
 Every claim on the site is tagged with one of:
@@ -571,7 +601,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~694 pages** as of
+parked until the day version settles. The site is **~718 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -581,12 +611,12 @@ the last build.
 | events | 96 |
 | people | 82 |
 | places | 61 |
-| sources | 69 |
+| sources | 72 |
 | claims | 172 |
 | editorialTakes | 25 |
-| openQuestions | 19 |
+| openQuestions | 20 |
 | artifacts | 41 |
-| narratives | 42 |
+| narratives | 43 |
 | themes | 18 |
 | periods | 8 |
 | threads | 7 |
@@ -1541,6 +1571,116 @@ victory; Ziz-tetradrachm image), and the **Regulus narrative**
 missing" audit (Tier 1 + Tier 2) is now complete; build ~712 pages,
 places 61, events 96, narratives 42, sources 69, editorialTakes 25.
 
+### Public launch + the newcomer layer (Aug 2026)
+
+The session where the site went public for the first time. Three
+threads: a front door for newcomers, the Reddit launch, and the first
+reader email turning into content.
+
+**1. `/start` — the newcomer guide** (`src/pages/start.astro`). A
+layman's front door, written in the homepage's magazine idiom rather
+than the about-page prose column. Deliberately **high-level**: the user
+was explicit that it should get someone completely new interested enough
+to go deeper, and should **not** explain the site's own machinery (no
+apparatus tour, no confidence-chip taxonomy). Structure: header →
+three-paragraph story-in-brief with an **orientation map** in a right
+rail (`Map.astro`, Carthage as subject + Rome as reference point, so a
+reader who doesn't know where Tunisia is gets the relationship the story
+turns on) → a **six-moment timeline strip** ("Seven centuries in one
+line", tyrian dots on top-rules, each linking to its period page;
+"After 146" goes to the Punic-continuity narrative) → **"The catch"**
+gray band carrying the enemies-wrote-the-history hook → three popular
+myths → six-person cast → four appetite-matched doors in.
+
+Framing note on the myths section: it was first written as "Three things
+you probably have wrong" and the user corrected it — a newcomer may
+never have *heard* these, so the pitch is now "here's what gets said"
+(salted fields / tophet certainty / Carthage-means-Hannibal) rather than
+"here's your error."
+
+**2. Discoverability wiring.** Three entry points, chosen from mocked
+options:
+- **Homepage strip** — a tinted band with a 4px tyrian left rule above
+  the famous-stories row. Picked over (a) a line in the lead story's
+  right aside, too quiet to find, and (b) a fifth card in the famous
+  grid, which bought visibility by narrowing all four existing cards
+  from a 4-col to a 5-col row.
+- **Footer** — "Start here" leads the sign-off link row, so the guide is
+  reachable from every page (the gap: someone landing deep from a search
+  result had no route to it).
+- **404** — the Homepage card was **replaced** by a Start here card in
+  first position with the tyrian feature border. The homepage was the
+  most redundant of the four (the masthead wordmark links there from
+  every page) and that card's eyebrow already read "Start here."
+
+**3. Methodology AI-disclosure softened.** The "How this site is
+produced" paragraph dropped the vendor name, changed "for drafting" to
+"for early drafting", and cut the ", not the tool's" clause (the
+contrast read as pre-emptive defensiveness). The paired em dashes around
+the apparatus list were **kept**: the items are comma-separated, which
+is the list-in-apposition case the house rule holds dashes for.
+
+**4. Reddit launch** (r/PhoeniciaHistoryFacts, flair Punic). Text post,
+not link post. Led with the Phoenician-network material rather than the
+Punic Wars, since that sub is about Phoenicia and not Rome's enemies.
+Disclosed both the amateur status and the AI assistance up front, on the
+reasoning that it's already on the methodology page and the site's whole
+pitch is epistemic honesty. Result: 1.3K impressions, 25 upvotes, ~33
+homepage clicks, two appreciative comments and no critique. **The
+read:** the depth ratio was the good signal (roughly half went deeper;
+6 `read-complete` events fired), and the **Tophet controversy was the
+top content page**, beating Hannibal and the homepage-featured take.
+Lesson for next time: asking people to review a 700-page site is an
+expensive ask that invites politeness; **posting the content itself**
+(the salt myth, a source comparison) gets argument, and argument is the
+feedback. r/ancientrome is the next venue, with a different opening.
+
+**5. First reader email → new content.** A reader asked three questions;
+the first exposed a real hole and produced pages. See the next section.
+
+### What the war cost Rome (Aug 2026)
+
+Prompted by that reader: *does Rome get away with the victory at no
+cost, or has the Livian virtue narrative crowded out the accounting?*
+The site had essentially nothing — no Toynbee, no Rosenstein, nothing on
+manpower losses, the mid-war currency rebuild, or the confiscations;
+"Gracchan crisis" appeared once as a passing clause.
+
+**The scope case** (worth preserving, since this is Roman material on a
+Carthage site): the flagship take argues Carthage was destroyed because
+it had not become weak enough, which describes one side of a
+relationship. The other side is a Rome changed by the Hannibalic war.
+And reading against a source's moral framing is the method the site uses
+everywhere else — Polybius Book 6 and Livy on Cannae are the same kind
+of evidence as Polybius on the mercenaries. It is **bounded**: one
+narrative and one open question, not a Roman social-history expansion.
+
+- `narratives/what-the-war-cost-the-winner.md` — opens by naming why
+  Roman material is here. Then the count (Polybius's 70,000 at Cannae
+  vs Livy's 48,000; census falling ~270k → ~214k adult male citizens),
+  the land (fifteen years in the south; Capua dismantled 211, Tarentum
+  sold 209; confiscations into the public domain), the money (tributum
+  doubled 215, borrowing from citizens repaid partly in land, the
+  denarius introduced mid-war), and the institutional legacy
+  (prorogation normalized; Scipio given Iberia at ~25 holding no
+  qualifying office). Closes on **Capua as the rehearsal** for what Rome
+  does to a community that has proved it can't be trusted.
+- `openQuestions/hannibalic-war-cost-to-rome.yaml` — three weighed
+  readings: Toynbee's war-as-rupture, Rosenstein's demographic rebuttal,
+  and a third holding the durable legacy was territorial and
+  institutional rather than demographic. **The site leans to the third**,
+  flagged explicitly with the caution that Roman republican social
+  history is not its home ground.
+- Three sources, each cited in text so none is orphaned:
+  `toynbee-hannibals-legacy-1965`, `rosenstein-rome-at-war-2004`,
+  `brunt-italian-manpower-1971`.
+- A paragraph wired into period 07 pointing at the narrative, since the
+  commission Rome sent in 153 was sent by the changed state.
+
+Both new pages surface automatically on the Second Punic War event page
+via existing reverse-lookups; the narrative is the only one claiming
+that event, so nothing was displaced.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -1956,7 +2096,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **694 pages**.
+output. As of the last CLAUDE.md refresh it was around **718 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
