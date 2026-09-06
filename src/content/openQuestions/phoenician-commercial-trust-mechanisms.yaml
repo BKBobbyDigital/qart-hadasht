@@ -1,0 +1,183 @@
+slug: phoenician-commercial-trust-mechanisms
+question: >
+  The Phoenician and Punic network moved goods across the length of the
+  Mediterranean for centuries, between parties who in many cases had no
+  shared state, no shared court, and no common language. What made those
+  exchanges reliable enough to repeat? In particular, did the network
+  operate without a unified system of weights and measures, or did it
+  have one that the surviving evidence has simply failed to preserve?
+why_unknown: >
+  The commercial records are gone. Mesopotamia has cuneiform archives and
+  Egypt has papyri; the Phoenician-Punic world has neither, because its
+  documents were written on perishable materials and because Carthage's
+  own archives did not survive 146 BCE. What remains is inscriptions cut
+  in stone, which are overwhelmingly religious and funerary, and the
+  incidental remarks of Greek and Roman authors who were not interested
+  in how a Phoenician merchant verified a transaction.
+
+  The metrological evidence is unusually difficult even by the standards
+  of this field. Balance weights are small, portable, easily reused, and
+  easily redeposited, so their find contexts are frequently unhelpful.
+  Attribution is contested: a weight is called Phoenician on typological
+  grounds that have themselves been challenged, and the cuboid bronze
+  weights long treated as a Phoenician type have been questioned both as
+  to their ethnic attribution and as to whether they conform to any
+  single system. Where inscribed weights do name a standard, they name
+  local ones rather than a shared one.
+
+  There is also a problem of inference. If a network-wide standard
+  existed, we would expect the surviving weights to cluster around it,
+  and they do not obviously do so. But the surviving sample is small,
+  geographically uneven, and drawn disproportionately from excavated
+  settlement and burial contexts rather than from the commercial
+  settings where standards would have mattered most. Absence of a
+  demonstrated system is weaker evidence than it looks.
+evidence_summary: >
+  What is securely attested is the monetary standard, and it is late.
+  Carthage began striking coinage around 410 BCE, initially as a
+  military-fiscal instrument for the Sicilian campaigns, and Punic silver
+  was struck on the Phoenician shekel standard of roughly 7.2 grams, with
+  gold near 7.5. That standard held with real consistency across mints
+  and across centuries. It cannot, however, explain the network's
+  operation during the three or four centuries of trade that preceded it.
+
+  What is attested for the pre-coinage period is a set of non-metrological
+  mechanisms. The cult of Melqart provided an institutional framework
+  spanning the network, including tribute obligations between Carthage
+  and Tyre honored into the Hellenistic period. Treaties fixed commercial
+  terms between states, and the Romano-Carthaginian series preserved by
+  Polybius shows those treaties specifying where merchants could trade
+  and under what protections. Commercial practice itself appears to have
+  run through partnerships, family firms, and repeat relationships rather
+  than through a state trading apparatus.
+
+  The tariff inscriptions demonstrate that standardization was a
+  technique the culture possessed and used. The Marseille and Carthage
+  tariffs post fixed schedules of what a given offering costs and what
+  portion the officiating priest receives. These are sacrificial rather
+  than commercial documents, so they cannot be read directly as evidence
+  of trade regulation, but they establish that publicly fixing terms in
+  advance was a familiar Punic instrument.
+
+  What is not attested is any network-wide system of trade weights,
+  capacity measures, or length standards. Several weight standards
+  circulated in the Phoenician orbit simultaneously, and the evidence as
+  it stands does not resolve into one.
+candidate_answers:
+  - answer: >
+      The network genuinely operated without unified metrology, and
+      cohered instead through relationships and shared institutions:
+      cult, treaty, kinship, and the reputational discipline of repeat
+      dealing among a relatively small merchant community. Standards were
+      local and negotiated per transaction rather than imposed across the
+      network.
+    arguments_for: >
+      It fits what the evidence actually shows rather than what a
+      comparative model predicts, and it is consistent with the other
+      things known about how Carthage organized its world. The site's
+      reading of Carthaginian hegemony describes layered relationships of
+      differing intensity rather than uniform administration, and the
+      colonial network is best understood as a system of nodes rather
+      than a governed territory. A commercial practice built on
+      partnerships and family firms substitutes reputation for external
+      verification, and reputation does not require a shared unit. The
+      late arrival of coinage points the same way: a network that had
+      functioned for centuries without state-issued money was evidently
+      not depending on state-issued standards either.
+    arguments_against: >
+      It risks converting a gap in the evidence into a positive claim
+      about how the system worked. Repeat dealing and reputation explain
+      exchange within a merchant community that knows itself, but they
+      explain the network's dealings with outsiders less well, and much
+      Phoenician trade was with non-Phoenician partners. The reading also
+      sits awkwardly beside the consistency of the later coin standard,
+      which shows the culture could sustain a shared unit when it wanted
+      one.
+    held_by: >
+      Broadly where this site leans, and consistent with the framing in
+      the [layered-hegemony take](/editorialTakes/carthaginian-empire-layered-hegemony)
+      and the [colonial-network theme](/themes/phoenician-colonial-network).
+      Held with low confidence: it is a reading of a negative result.
+  - answer: >
+      A shared standard, or a small family of convertible standards, did
+      exist in commercial practice, and the surviving weights simply do
+      not preserve it. Merchants working the same routes for generations
+      would have converged on working equivalences whether or not any
+      authority imposed them.
+    arguments_for: >
+      The surviving weight sample is small and drawn from contexts that
+      are poor proxies for commercial practice. Convergence on shared
+      units is what trading communities elsewhere generally do, and it
+      does not require a state to enforce it. Conversion between known
+      standards is an ordinary merchant skill and would leave little
+      archaeological trace. The consistency of the later Punic coin
+      standard suggests an existing metrological culture rather than one
+      invented at the moment of minting.
+    arguments_against: >
+      It is difficult to falsify, which makes it weak as history however
+      plausible it sounds. The inscribed weights that do survive name
+      local standards, which is evidence against convergence rather than
+      for it. And the argument leans on comparative expectation, which is
+      precisely the move that produced the older picture of a uniform
+      Phoenician metrology that later work has undermined.
+    held_by: >
+      Not a position with a single named advocate so much as the default
+      assumption that older treatments of Phoenician trade tended to
+      carry.
+  - answer: >
+      The question is malformed because it treats the network as one
+      thing. Phoenician commerce spanned seven centuries and several
+      political orders, and the mechanisms very likely differed between
+      the Tyrian-led early network, the Carthaginian-dominated western
+      system, and the Barcid Iberian state with its own coinage and
+      administration.
+    arguments_for: >
+      The periods are genuinely different. The site already argues that
+      Barcid Iberia was a departure toward something more like a
+      territorial state, and it minted its own coinage on its own terms.
+      Treating the ninth-century Tyrian network and the third-century
+      Barcid economy as a single object obscures more than it explains.
+      The evidence is also distributed unevenly across those periods,
+      which means a single answer would be resting on different bodies of
+      material at different dates.
+    arguments_against: >
+      Periodizing the question does not dissolve it; it multiplies it,
+      and the evidence is thinner for each sub-period than for the whole.
+      There is also real continuity to account for, including cult
+      obligations and commercial routes that persisted across the whole
+      span, which suggests some mechanisms were durable.
+    held_by: >
+      A methodological caution rather than a rival answer; worth stating
+      because the other two readings both risk flattening the chronology.
+relevant_entities:
+  - type: theme
+    slug: carthaginian-seafaring-and-trade
+    role: subject
+  - type: theme
+    slug: phoenician-colonial-network
+    role: subject
+  - type: theme
+    slug: carthaginian-economy
+    role: context
+  - type: artifact
+    slug: marseille-tariff
+    role: context
+  - type: deity
+    slug: melqart
+    role: context
+what_would_resolve_this: >
+  Systematic metrological study of the excavated Punic weight corpus
+  would help most, and is the kind of work that has transformed the
+  picture for Iron Age Levantine weights: enough measured examples from
+  secure contexts, analyzed together, would show whether the values
+  cluster or scatter. The western sites are the ones to look at, since
+  the question is about the Carthaginian network rather than the
+  homeland, and Punic Iberia and Sardinia are both under-published in
+  this respect.
+
+  A commercial document would settle a great deal on its own, but the
+  prospect is remote. The one realistic route is a waterlogged or sealed
+  deposit preserving perishable material, of the kind that has
+  occasionally produced writing elsewhere in the Mediterranean. Failing
+  that, the question will continue to be argued from weights, from
+  coinage, and from comparison, which is to say it will remain open.

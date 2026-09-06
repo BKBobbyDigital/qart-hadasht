@@ -15,7 +15,7 @@ primary_entities: []
 related_themes:
   - punic-identity
 referenced_claims: []
-last_revised: "2026-05-09"
+last_revised: "2026-09-06"
 ---
 
 ## The Phoenician inheritance
@@ -104,6 +104,65 @@ culture, and partly preserved in unique documents like the
 - The eastern Mediterranean. Less central but attested:
   Carthaginian ceremonial connections with Tyre, commercial
   contacts with the Aegean and Egypt.
+
+## What made exchange work
+
+A network of this size raises a question the sources do not
+directly answer: how did people who had never met, operating
+across a thousand miles of coastline and several languages,
+transact with enough confidence to keep doing it for centuries?
+
+One familiar answer does not appear to fit. In the Near Eastern
+and Egyptian cases where the evidence is good, standardized
+weights and measures are a large part of the story: a
+centrally-defined unit, physically embodied in issued reference
+objects, makes an exchange checkable without trusting the person
+on the other side of it. The Phoenician and Punic evidence does
+not support that picture. Several weight standards circulated in
+the Phoenician world at once, and inscribed weights sometimes
+specify whose standard they follow, which is not what a unified
+system looks like. The cuboid bronze weights often labeled
+Phoenician in older literature are disputed both in their
+attribution and in whether they conform to a single system at
+all. No network-wide Phoenician or Carthaginian metrology has
+been demonstrated.
+
+The exception is money. Punic silver coinage was struck on the
+Phoenician shekel standard of roughly 7.2 grams, with gold near
+7.5, and that standard held across mints and across centuries
+with real consistency, as the theme on
+[Carthaginian coinage](/themes/carthaginian-coinage) sets out.
+But coinage arrived late, around 410 BCE and initially as a
+military-fiscal instrument, which means it cannot explain how the
+network functioned during the three or four centuries before it.
+
+What the evidence does show is a different kind of connective
+tissue, and it is the kind this site keeps finding elsewhere. The
+shared cult of Melqart supplied
+[an institutional framework that spanned the network](/claims/melqart-cult-as-network-infrastructure),
+including obligations that were still being honored between
+Carthage and Tyre centuries after the foundation. Treaties fixed
+terms between states and are
+[well attested as a Carthaginian instrument](/themes/treaties-and-diplomacy).
+Commerce itself ran through partnerships, family firms, and
+repeat relationships rather than a state trading apparatus, which
+substitutes reputation and kinship for external verification. And
+the [tariff inscriptions](/artifacts/marseille-tariff) show that
+standardization was available as a technique when it was wanted:
+these are publicly posted schedules fixing what an offering costs
+and what the priest may take, which is a document designed to
+settle in advance what would otherwise be argued about.
+
+The reading this suggests is that the network cohered through
+relationships and shared institutions rather than through
+administrative uniformity, which is consistent with what the site
+argues about
+[Carthaginian hegemony generally](/editorialTakes/carthaginian-empire-layered-hegemony).
+It should be held loosely. Weights survive patchily, they are
+easy to misattribute, and absence of a demonstrated system is not
+the same as demonstrated absence of one. That distinction is
+treated as an
+[open question](/openQuestions/phoenician-commercial-trust-mechanisms).
 
 ## What the trade enabled
 
