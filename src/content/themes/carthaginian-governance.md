@@ -26,7 +26,7 @@ primary_entities:
     role: subject
 related_themes: []
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-09-09"
 ---
 
 ## What we mean by "constitution"
@@ -112,7 +112,7 @@ distinctive feature under
 Both treat the office Phoenician-first rather than as proto-Roman
 or proto-republican developmental form.
 
-**Adirim / Carthaginian Senate** (*ʿdrm*, "the mighty ones"). Council
+**Adirim / Carthaginian Senate** (*ʾdrm*, "the mighty ones"). Council
 of elders, drawn from the senatorial aristocracy. A core body of
 about 30 with broader meetings extending to 300+. The principal
 deliberative organ on matters of state, foreign policy, and finance.
@@ -131,6 +131,22 @@ formal session. Per Aristotle, decided when suffetes and senate
 disagreed. Per Polybius, became increasingly dominant by the late
 3rd century. The franchise, voting procedures, and tribal
 subdivisions are imperfectly preserved.
+
+**The ṣʿrnm** (*ṣʿrnm*, "the little ones"). Not an institution but the
+social counterpart to the Adirim, and the reason that term is worth
+noticing: where the aristocracy were "the mighty ones," the ordinary
+citizenry were "the little ones." The pairing is Carthaginians
+describing their own society rather than a Greek or Roman analyst
+mapping it onto categories from elsewhere.
+[Miles](/sources/miles-carthage-2010), following Huss, reads the
+pressure for constitutional change after 241 as coming from the ṣʿrnm
+together with ambitious men who had acquired wealth but no aristocratic
+standing, a coalition that helps explain how the Barcids assembled
+popular support against the senate in the years after the
+[Mercenary War](/events/mercenary-war). How formal the category was is
+unclear, and the site does not treat it as a constitutional class:
+*ʿm* names a body that met and voted, while ṣʿrnm appears to describe a
+station in society rather than an order with defined rights.
 
 Pentarchies. Five-member self-perpetuating committees that
 selected the Council of 104 and held other offices. Aristotle
@@ -183,7 +199,7 @@ Substantial gaps in the surviving record:
   the suffete-Adirim-assembly framework? How did the Barcids?
   Glimpses, but no systematic treatment in the surviving sources.
 - Punic-language official terminology. We have *šptm* (suffetes),
-  *ʿdrm* (Adirim/elders), *ʿm* (people), and a few others, but
+  *ʾdrm* (Adirim/elders), *ʿm* (people), and a few others, but
   nothing like the dense Latin-Roman political vocabulary that
   preserves Roman institutional thought.
 
