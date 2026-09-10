@@ -25,7 +25,7 @@ referenced_claims:
   - hasdrubal-fair-carthago-nova
   - ebro-treaty
   - hasdrubal-fair-dynastic-strategy
-last_revised: "2026-05-09"
+last_revised: "2026-09-10"
 ---
 
 ## Background and family connections
@@ -84,6 +84,19 @@ independent command of the Iberian theater. Hasdrubal's
 succession provided the bridge: continuity of the Iberian
 project under a commander who could exercise independent
 authority while preparing Hannibal for eventual command.
+
+There is a hostile version of what Hasdrubal did with that
+authority, and it is worth knowing about even though the site does
+not accept it. Fabius Pictor, the first Roman historian, held that
+Hasdrubal came to Africa intending to abolish the Carthaginian
+constitution and rule as a monarch, was blocked by the leading men,
+and thereafter governed Iberia with no reference to the senate at
+all. Polybius preserves the account at 3.8 in order to reject it.
+The claim is uncorroborated and survives only inside its own
+refutation, but it is the sharpest ancient statement of a question
+that was genuinely live at the time, and the site sets out both
+sides in a
+[source comparison](/sourceComparisons/barcid-autonomy-in-iberia).
 
 ## Carthago Nova and the new Iberian capital
 
@@ -159,6 +172,50 @@ network that had absorbed Carthaginian authority as its
 own. Modern scholarship treats Hasdrubal's marriage strategy
 as the structural reason that the Iberian project endured as
 long as it did against Roman pressure.
+
+## The appearance of kingship
+
+Two details in the surviving record describe what the marriage
+strategy made Hasdrubal look like, and both point past the office
+of a Carthaginian general.
+
+Diodorus reports that the Iberian leaders, after the marriage,
+recognized Hasdrubal as *strategos autokrator*, general with full
+powers. The significant thing is not the extent of the authority
+but its source. A Carthaginian command came from Carthage; this
+came from the peoples he governed, and it is the vocabulary Greek
+writers used for Hellenistic rulers acclaimed by those they ruled.
+Whatever Carthage thought it had appointed, the Iberians were
+describing something else.
+
+Polybius supplies the second detail almost in passing. In his
+description of [Carthago Nova](/places/carthago-nova) at 10.10, the
+account of the city that the site draws on elsewhere for its harbor,
+citadel, and sanctuary, he notes a magnificent palace built by
+Hasdrubal when he was aiming at royal power. That is a considerable
+thing to say without argument, and
+[Miles](/sources/miles-carthage-2010) reads the two details together
+as the site does: not a man imitating kings but a man being one, in
+a province where the distinction had stopped mattering.
+
+The awkwardness is that Polybius is also the authority who, at 3.8,
+dismisses [Fabius Pictor's account](/sourceComparisons/barcid-autonomy-in-iberia)
+of Hasdrubal's monarchical ambitions as unreasonable and
+self-contradictory. He rejects the coup and then attributes a palace
+to a would-be king seven books later. The two passages are doing
+different jobs, the first polemical and the second descriptive, and
+the descriptive one is the harder to explain away.
+
+Two cautions belong with this. Both witnesses are Greek, and
+*strategos autokrator* is a Greek category applied to a non-Greek
+arrangement, which may describe the Iberian relationship accurately
+or may be the only vocabulary the writer had. And "aiming at royal
+power" may be Polybius inferring intention from architecture rather
+than reporting a claim anyone made. What is not attested from the
+Punic side at all is a royal title. No inscription, coin legend, or
+Carthaginian source calls Hasdrubal a king, and the site treats the
+kingship as a description of how he operated and how others saw him
+rather than as a status he formally held.
 
 ## The Ebro Treaty (226 BCE)
 

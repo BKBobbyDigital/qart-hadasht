@@ -60,7 +60,21 @@ source_passages:
       Polybius has a competing explanation to protect. His own account of
       the war's causes runs through Hamilcar's anger, the Roman seizure
       of Sardinia, and Barcid success in Iberia, and Fabius's
-      individual-lawlessness version displaces all three.
+      individual-lawlessness version displaces all three. He is also not
+      consistent on the point at issue: see the fourth difference below.
+  - source: diodorus-library
+    passage_ref: "25.12"
+    paraphrase: >
+      Following his marriage into an Iberian royal family, the Iberian
+      leaders recognized Hasdrubal as *strategos autokrator*, general
+      with full powers. The authority described is conferred by the
+      peoples he governed rather than granted by Carthage.
+    source_note: >
+      Diodorus is not participating in the Fabius and Polybius argument
+      and shows no sign of knowing about it, which makes the detail
+      useful: it is evidence about how Hasdrubal's position looked from
+      Iberia, supplied by a writer with nothing at stake in the question
+      of whether he answered to the Carthaginian senate.
 points_of_difference:
   - topic: Whether Hasdrubal attempted a coup at Carthage
     positions:
@@ -123,6 +137,55 @@ points_of_difference:
       entirely, which is a good reason to notice what it is doing. The
       site treats the Saguntum question separately in its own
       [comparison](/sourceComparisons/saguntum-casus-belli).
+  - topic: Whether Polybius's own account holds together
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          At 3.8 the story of Hasdrubal's monarchical ambition is
+          unreasonable and self-contradictory, a Roman annalist's
+          construction. At 10.10, describing Carthago Nova, Polybius
+          notes without argument that the magnificent palace there was
+          built by Hasdrubal when he was aiming at royal power.
+      - source_slug: fabius-pictor
+        what_it_says: >
+          Hasdrubal aimed at monarchy, which is the claim Polybius
+          rejects at 3.8 and appears to concede at 10.10.
+    commentary: >
+      This is the most awkward evidence in the comparison, and it works
+      against the witness the site otherwise relies on. The two passages
+      are doing different jobs: 3.8 is polemic against a rival historian
+      and 10.10 is topographical description, and it is the descriptive
+      one that is harder to explain away, since nothing in the New
+      Carthage passage requires the remark. Diodorus supplies a
+      compatible detail from the other direction, reporting that the
+      Iberian leaders recognized Hasdrubal as *strategos autokrator*
+      after his marriage into an Iberian royal family: authority
+      conferred by the governed rather than granted by Carthage. None of
+      this vindicates Fabius's coup at Carthage, which remains
+      uncorroborated. What it does is separate two things Fabius had
+      fused. That Hasdrubal governed Iberia in a manner contemporaries
+      found royal is decently attested. That he tried to seize Carthage
+      itself is not.
+  - topic: Who Rome thought it was dealing with
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          The Roman embassy of 226 negotiated the Ebro agreement with
+          Hasdrubal in Iberia rather than with the Carthaginian
+          government (2.13).
+    commentary: >
+      Neither ancient author raises this as evidence in the dispute, but
+      it bears on it more directly than most of what they do raise. A
+      Roman embassy travels to the party it believes can deliver, and in
+      226 Rome judged that to be the commander in Iberia rather than the
+      senate at Carthage. That is a contemporary practical assessment of
+      where authority lay, made by a third party with an interest in
+      getting it right, and it sits closer to Fabius's picture than to
+      the one Polybius argues for at 3.8. It is not decisive: a state may
+      perfectly well authorize its general to conclude an agreement, and
+      dealing with the man on the ground is ordinary diplomacy rather
+      than recognition of a separate sovereignty. The site treats the
+      treaty itself under its own [event](/events/ebro-treaty).
   - topic: What Hannibal inherited from Hasdrubal
     positions:
       - source_slug: fabius-pictor
@@ -164,13 +227,24 @@ working_reconstruction: >
   obedience from one end and independence from the other, and both
   witnesses were standing at an end.
 
-  Fabius's coup attempt should be held at arm's length. It is
-  unverifiable, it survives only inside a refutation, and it is the
-  component of his account that most conveniently converts a war between
-  states into the work of a faction. The rest of what he describes,
-  a command in Iberia that consulted Carthage when it suited and
-  otherwise did not, is consistent with the material record and with
-  what the site argues elsewhere about how the province was run.
+  The useful move is to separate two things Fabius had fused. That
+  Hasdrubal governed Iberia in a manner his contemporaries found royal
+  is decently attested, and from witnesses who were not arguing the
+  question: Diodorus has the Iberians conferring *strategos autokrator*
+  on him, and Polybius, of all people, attributes a palace at Carthago
+  Nova to a man aiming at royal power. That he attempted to seize
+  Carthage itself is a different claim, uncorroborated, surviving only
+  inside a refutation, and the component of Fabius's account that most
+  conveniently converts a war between states into the work of a faction.
+  The first should be accepted with the caveat that both witnesses are
+  Greek and may be reaching for Greek categories; the second should be
+  held at arm's length.
+
+  What remains of Fabius once the coup is set aside is a command in
+  Iberia that consulted Carthage when it suited and otherwise did not,
+  and that is consistent with the material record, with Rome's decision
+  to negotiate with the commander rather than the state, and with what
+  the site argues elsewhere about how the province was run.
 related_takes:
   - barcid-iberian-state-as-state
   - carthaginian-empire-layered-hegemony
