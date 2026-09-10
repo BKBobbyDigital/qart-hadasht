@@ -14,7 +14,7 @@ thesis: >
   tradition through Ibn al-Awwam in al-Andalus. Pliny calls him
   *parens rusticationis*, "the father of country science." Mago's
   survival makes him the only sustained Carthaginian voice in the
-  Western intellectual tradition — and his survival is also a
+  Western intellectual tradition, and his survival is also a
   metonym for what was lost. He is what Rome kept; the rest of
   Carthaginian intellectual culture is what Rome did not consider
   useful enough to translate.
@@ -27,7 +27,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - mago-treatise-roman-preservation
-last_revised: "2026-05-10"
+last_revised: "2026-09-10"
 ---
 
 When the Roman commission appointed to administer the conquered
@@ -35,7 +35,7 @@ Carthaginian territory in 146 BCE turned to the question of what
 to do with the city's libraries, the answer they gave is among
 the most revealing single pieces of surviving evidence about how
 the conquerors of Carthage understood Carthaginian intellectual
-culture. They gave the libraries to the Numidian allies — the
+culture. They gave the libraries to the Numidian allies: the
 contents not cataloged, not preserved, not even kept in Roman
 hands. From the entire Carthaginian written tradition, they held
 back exactly one work: the twenty-eight-book agricultural
@@ -74,7 +74,7 @@ surviving piece.
 Almost nothing about Mago's life is recoverable. The surviving
 sources name him only as Mago of Carthage or "the Carthaginian
 Mago," and "Mago" was one of the most common aristocratic
-Carthaginian names — held by the founder of the Magonid dynasty,
+Carthaginian names, held by the founder of the Magonid dynasty,
 by [Hannibal's younger brother Mago Barca](/people/mago-barca),
 and by uncounted other Carthaginians across six centuries.
 Distinguishing the agronomist from the other Magos is a modern
@@ -138,7 +138,7 @@ several techniques the Roman tradition adopted as standard.
 **Livestock** is a third major area. Mago on cattle breeding,
 sheep and goat husbandry, horse training, mule breeding, pig
 farming. The veterinary fragments include treatment guidance for
-specific animal diseases — practical, empirical material that
+specific animal diseases: practical, empirical material that
 the Roman tradition preserved across multiple authors.
 
 **Bees and honey** are a smaller but distinctive area, with
@@ -149,7 +149,7 @@ tradition treated as foundational. The Mago-derived bee
 material in Columella IX is the most extensively preserved
 single topic area from the treatise.
 
-**Estate management** runs across multiple books — overseer
+**Estate management** runs across multiple books: overseer
 responsibilities, slave-and-tenant labor organization, accounting
 practices, the seasonal labor calendar, the division between
 permanent and seasonal workforce, the relationship between the
@@ -204,7 +204,7 @@ chose what to keep, and they kept Mago.
 Why? The most economical reading is the technical one. Late
 Republican Roman agriculture was undergoing rapid transformation
 toward larger estates, more specialized production, more
-sophisticated labor organization — the configuration Mago's
+sophisticated labor organization, the configuration Mago's
 treatise documented for Carthage a century earlier. The Roman
 landowning class was the senate's primary political
 constituency. Mago's technical material was directly useful to
@@ -237,7 +237,7 @@ treats him as one of the foundational authorities the Roman
 agricultural literature builds on. Varro's access was primarily
 through the Greek abridgment by Cassius Dionysius of Utica
 (c. 88 BCE), who had translated Mago into Greek in twenty
-books — itself a substantial work, also lost in its full form.
+books, itself a substantial work, also lost in its full form.
 Diophanes of Bithynia further abridged Cassius Dionysius into
 six books c. 50 BCE, producing a more accessible compendium.
 Varro names all three transmitters; the chain is unusually well
@@ -258,7 +258,7 @@ provides the most extensively preserved single piece of
 contextual information about Mago's reception: the
 *parens rusticationis* characterization at *NH* 18.22-23. This
 is among the most striking acknowledgments by a Roman writer of
-a Carthaginian intellectual — written more than two centuries
+a Carthaginian intellectual, written more than two centuries
 after the destruction of Carthage, by an author writing for the
 Roman imperial elite, treating Mago as foundational without
 qualification.
@@ -315,7 +315,7 @@ agronomic literature, medieval Latin agronomic literature, early
 modern fragment-collection scholarship), each of which preserved
 a partly different selection from the original. The cumulative
 result is that we have more of Mago than we have of essentially
-any other Carthaginian author — in absolute terms a small body
+any other Carthaginian author: in absolute terms a small body
 of recovered text, but in relative terms enormously more than
 the zero that almost everyone else preserves.
 
@@ -323,7 +323,7 @@ the zero that almost everyone else preserves.
 
 The Mago story has been treated in modern Punic studies as a
 window onto Carthaginian agricultural practice. It is also a
-window onto Carthaginian intellectual culture more broadly —
+window onto Carthaginian intellectual culture more broadly:
 specifically, onto what *kind* of intellectual culture survives
 when the conquering power selects what to preserve on its own
 terms.
@@ -332,7 +332,7 @@ Three observations follow from the surviving picture.
 
 First, Carthaginian intellectual culture was technically
 sophisticated. Mago's treatise presupposes a substantial prior
-Punic technical literature — the *Hamilcar* Varro names, other
+Punic technical literature: the *Hamilcar* Varro names, other
 unnamed authors Mago cites, the implicit body of Carthaginian
 agronomic work that Mago's twenty-eight-book synthesis would not
 have been possible without. The Carthaginian aristocratic class
