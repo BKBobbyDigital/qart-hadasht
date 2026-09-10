@@ -206,10 +206,23 @@ to a would-be king seven books later. The two passages are doing
 different jobs, the first polemical and the second descriptive, and
 the descriptive one is the harder to explain away.
 
-Two cautions belong with this. Both witnesses are Greek, and
-*strategos autokrator* is a Greek category applied to a non-Greek
-arrangement, which may describe the Iberian relationship accurately
-or may be the only vocabulary the writer had. And "aiming at royal
+A third witness points the same way from inside Carthage, or at
+least from a Roman reconstruction of it. In the speech Livy gives
+[Hanno the Great](/people/hanno-the-great) against sending the young
+Hannibal out to Iberia (21.3), Hanno calls Hamilcar *the king* and
+speaks of the armies as a legacy left to a son-in-law. If anything
+like that language was used in the Carthaginian senate, then the
+royal framing was not only how Greeks described the Barcids from
+outside but how their domestic opponents attacked them. The
+qualification is heavy: it is a hostile speech reconstructed by a
+Roman historian a century and a half after the fact, and Livy had
+his own reasons for making the Barcids look like kings.
+
+Two further cautions belong with this. Diodorus and Polybius are
+both writing in Greek, and *strategos autokrator* is a Greek
+category applied to a non-Greek arrangement, which may describe the
+Iberian relationship accurately or may be the only vocabulary the
+writer had. And "aiming at royal
 power" may be Polybius inferring intention from architecture rather
 than reporting a claim anyone made. What is not attested from the
 Punic side at all is a royal title. No inscription, coin legend, or
