@@ -1,0 +1,184 @@
+slug: barcid-autonomy-in-iberia
+title: Did the Barcids govern Iberia independently of Carthage?
+subject_event: hamilcars-iberian-conquest
+summary: >
+  One of the few places where the ancient dispute survives with both
+  sides named. Fabius Pictor argued that Hasdrubal the Fair, having
+  built a great dominion in Iberia, tried to overthrow the Carthaginian
+  constitution, failed, withdrew, and thereafter governed the province
+  entirely at his own will with no reference to the senate, and that
+  Hannibal inherited both the position and the habit. Polybius preserves
+  the argument in order to demolish it, and his rebuttal is a piece of
+  reasoning rather than an assertion: if the Carthaginian government had
+  genuinely opposed Hannibal, handing him to Rome would have destroyed
+  its enemy at someone else's expense and secured its own territory,
+  and instead it backed him for seventeen years at ruinous cost.
+
+  Neither witness is disinterested. The comparison is worth setting out
+  because the question is load-bearing for how the whole Iberian period
+  is read: an autonomous Barcid regime and a stretched but legitimate
+  Carthaginian command are different objects, and much of what the site
+  says elsewhere about the
+  [Iberian state](/narratives/the-barcid-iberian-state) depends on which
+  one it was.
+source_passages:
+  - source: fabius-pictor
+    passage_ref: "via Polybius 3.8"
+    paraphrase: >
+      Hasdrubal acquired a great dominion in Iberia, then came to Africa
+      intending to abolish the Carthaginian constitution and convert the
+      state into a monarchy. The leading men at Carthage saw what he
+      intended and combined against him. Hasdrubal, understanding his
+      position, withdrew to Iberia and from that point governed it
+      exactly as he pleased, taking no account of the Carthaginian
+      senate. Hannibal had admired and shared Hasdrubal's principles
+      since boyhood, and on succeeding to the Iberian command carried on
+      the same practice, acting on his own authority against the wishes
+      of the Carthaginians. No man of standing at Carthage approved the
+      attack on Saguntum.
+    source_note: >
+      Survives only inside Polybius's refutation of it, which means the
+      argument reaches us shaped by a hostile summarizer. Fabius was a
+      Roman senator writing on the Roman side, and the site treats him as
+      the pro-Roman pole of the Punic-War tradition opposite
+      [Philinus](/sources/philinus-akragas).
+  - source: polybius-histories
+    passage_ref: "3.8-3.9"
+    paraphrase: >
+      Polybius reports Fabius's account and rejects it as unreasonable
+      and self-contradictory. His argument is counterfactual: if Carthage
+      had really disapproved of Hannibal's conduct from the start, the
+      sensible course was to surrender him to Rome, destroying its most
+      dangerous man through others and keeping its territory intact
+      without fighting. Carthage did not do this. It supported Hannibal
+      through seventeen years of war and exhausted itself doing so, which
+      is not the behavior of a state whose general was acting against its
+      will. Polybius closes with a general warning against believing an
+      account merely because its author was contemporary with the events
+      or held high office.
+    source_note: >
+      Polybius has a competing explanation to protect. His own account of
+      the war's causes runs through Hamilcar's anger, the Roman seizure
+      of Sardinia, and Barcid success in Iberia, and Fabius's
+      individual-lawlessness version displaces all three.
+points_of_difference:
+  - topic: Whether Hasdrubal attempted a coup at Carthage
+    positions:
+      - source_slug: fabius-pictor
+        what_it_says: >
+          He came to Africa specifically to abolish the constitution and
+          establish a monarchy, and was stopped by the leading men.
+      - source_slug: polybius-histories
+        what_it_says: >
+          Reports the claim without endorsing it, and treats the whole
+          construction as unreasonable.
+    commentary: >
+      Nothing independent corroborates the coup attempt, and it is the
+      element of Fabius's account that does most work for a Roman reader:
+      a Carthage whose politics produce would-be tyrants is a Carthage
+      whose wars are the wars of tyrants. That does not make it invented.
+      A commander with an army, a mint, and a private revenue arriving at
+      home is a recognizable danger, and Carthaginian politics had
+      produced a comparable anxiety about the Magonids before. The honest
+      position is that the episode is unverifiable and its rhetorical
+      convenience is a reason for caution rather than a disproof.
+  - topic: Whether the Iberian command answered to the senate
+    positions:
+      - source_slug: fabius-pictor
+        what_it_says: >
+          After the failed coup Hasdrubal governed Iberia entirely at his
+          own will, with no reference to the senate at all, and Hannibal
+          continued the practice.
+      - source_slug: polybius-histories
+        what_it_says: >
+          Carthage's conduct shows the opposite: a state that had lost
+          control of its general would have disowned him rather than
+          finance his war for seventeen years.
+    commentary: >
+      Polybius's rebuttal is strong on the war years and weaker on the
+      decades before them. That Carthage backed Hannibal from 218 is good
+      evidence that the state owned that war; it says much less about how
+      Iberia was actually run between 237 and 219, when no comparable
+      test arose. The two claims are not straightforwardly opposed: a
+      command could operate with very wide latitude in practice and still
+      be ratified, funded, and ultimately claimed by the metropole. That
+      is roughly what the site's reading of the arrangement as a
+      franchise amounts to.
+  - topic: Whether Carthage approved the attack on Saguntum
+    positions:
+      - source_slug: fabius-pictor
+        what_it_says: >
+          No man of standing at Carthage approved it; the initiative was
+          Hannibal's alone.
+      - source_slug: polybius-histories
+        what_it_says: >
+          Implicitly rejected: Carthage's refusal to surrender Hannibal
+          afterward is treated as adoption of his war.
+    commentary: >
+      This is where the disagreement stops being antiquarian. If Saguntum
+      was a private act, the war begins with a rogue commander and Rome's
+      response is policing. If Carthage authorized it, the war begins
+      between states with a history of grievance, including the Sardinian
+      seizure. Fabius's version removes that history from the account
+      entirely, which is a good reason to notice what it is doing. The
+      site treats the Saguntum question separately in its own
+      [comparison](/sourceComparisons/saguntum-casus-belli).
+  - topic: What Hannibal inherited from Hasdrubal
+    positions:
+      - source_slug: fabius-pictor
+        what_it_says: >
+          A disposition. Hannibal had shared and admired Hasdrubal's
+          principles since boyhood and imitated his methods.
+      - source_slug: polybius-histories
+        what_it_says: >
+          Elsewhere in Book 3 Polybius grounds Hannibal's hostility in
+          Hamilcar's oath and in the Carthaginian grievance over
+          Sardinia, that is, in inheritance and policy rather than in
+          the imitation of a would-be tyrant.
+    commentary: >
+      Both explanations are characterological, and neither is the kind
+      of thing a historian can verify. What separates them is what each
+      makes the war mean. Fabius produces a dynasty of ambitious men
+      acting outside their constitution; Polybius produces a state
+      carrying a grievance across a generation. The site's treatment of
+      the [oath tradition](/openQuestions/hamilcar-oath-tradition) keeps
+      that question open rather than settling it here.
+working_reconstruction: >
+  The likeliest picture is neither party's. Fabius is not simply
+  fabricating: the Barcid command in Iberia held a personal army, struck
+  its own coinage, founded cities, integrated local aristocracies by
+  marriage, and passed itself between kinsmen by field-army acclamation,
+  and a Roman senator looking at that in the 210s would reasonably
+  describe it as a regime that did as it liked. Polybius is also right
+  that the Carthaginian state ratified the successions, accepted the
+  revenues, and eventually financed and owned the war, which is not what
+  repudiation looks like.
+
+  What the two accounts are actually disagreeing about is the difference
+  between formal authority and practical control, and that distinction
+  does not need to be resolved in either direction. Carthage retained
+  the first and had progressively less of the second. The senate could
+  ratify or withhold ratification, and it ratified; it could not
+  meaningfully instruct a commander a month's travel away who paid his
+  own troops from his own mines. An arrangement of that kind looks like
+  obedience from one end and independence from the other, and both
+  witnesses were standing at an end.
+
+  Fabius's coup attempt should be held at arm's length. It is
+  unverifiable, it survives only inside a refutation, and it is the
+  component of his account that most conveniently converts a war between
+  states into the work of a faction. The rest of what he describes,
+  a command in Iberia that consulted Carthage when it suited and
+  otherwise did not, is consistent with the material record and with
+  what the site argues elsewhere about how the province was run.
+related_takes:
+  - barcid-iberian-state-as-state
+  - carthaginian-empire-layered-hegemony
+related_claims:
+  - barcid-dynastic-succession-as-state-form
+  - mercenary-war-army-chose-hamilcar
+related_questions:
+  - hamilcar-oath-tradition
+related_narratives:
+  - the-barcid-iberian-state
+last_revised: "2026-09-10"
