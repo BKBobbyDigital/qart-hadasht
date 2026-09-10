@@ -132,21 +132,27 @@ disagreed. Per Polybius, became increasingly dominant by the late
 3rd century. The franchise, voting procedures, and tribal
 subdivisions are imperfectly preserved.
 
-**The ṣʿrnm** (*ṣʿrnm*, "the little ones"). Not an institution but the
-social counterpart to the Adirim, and the reason that term is worth
-noticing: where the aristocracy were "the mighty ones," the ordinary
-citizenry were "the little ones." The pairing is Carthaginians
-describing their own society rather than a Greek or Roman analyst
-mapping it onto categories from elsewhere.
-[Miles](/sources/miles-carthage-2010), following Huss, reads the
-pressure for constitutional change after 241 as coming from the ṣʿrnm
-together with ambitious men who had acquired wealth but no aristocratic
-standing, a coalition that helps explain how the Barcids assembled
-popular support against the senate in the years after the
-[Mercenary War](/events/mercenary-war). How formal the category was is
-unclear, and the site does not treat it as a constitutional class:
-*ʿm* names a body that met and voted, while ṣʿrnm appears to describe a
-station in society rather than an order with defined rights.
+**The s'rnm** (*s'rnm*, "the little ones"). Not an institution but the
+social counterpart to the Adirim: where the aristocracy were "the
+mighty ones," the ordinary citizenry were "the little ones." The
+pairing is Carthaginians describing their own society rather than a
+Greek or Roman analyst mapping it onto categories from elsewhere.
+[Miles](/sources/miles-carthage-2010), following Huss, locates the
+pressure for constitutional change after the
+[Mercenary War](/events/mercenary-war) in ambitious groups within the
+s'rnm, above all the tradesmen and artisans, who were organized in
+guilds and corporations wealthy enough to fund public building. Their
+vehicle was the popular assembly, and what grew in these decades was
+the assembly's leverage rather than the composition of the aristocracy:
+Miles finds no evidence of anyone from the s'rnm entering the elite
+itself. That distinction is worth holding onto, because the same
+development read from the other side is the drift toward demagogy that
+Polybius describes as decline, treated above.
+
+How formal the category was is unclear, and the site does not treat it
+as a constitutional class: *ʿm* names a body that met and voted, while
+s'rnm describes a station in society rather than an order with defined
+rights. The transcription here follows Miles.
 
 Pentarchies. Five-member self-perpetuating committees that
 selected the Council of 104 and held other offices. Aristotle
