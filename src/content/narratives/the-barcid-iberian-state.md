@@ -239,13 +239,41 @@ This is not the pattern of a senate-appointed expeditionary
 commander. A senate-appointed commander dies and is replaced by
 the next senate-appointed commander, with the senate choosing.
 The Barcid pattern (the army acclaiming a successor from within
-the family, the senate ratifying) is the pattern of a Hellenistic
-royal house in formation, with the army's role in dynastic
-legitimacy analogous to the army's role in Macedonian and later
-Hellenistic succession. The Barcids were Carthaginian commanders
-under (sometimes thinly stretched) senatorial authorization; they
-were also a royal house in the political form their succession
-practice attests.
+the family, the senate ratifying) resembles the pattern of a
+Hellenistic royal house in formation, with the army's role in
+dynastic legitimacy analogous to the army's role in Macedonian and
+later Hellenistic succession. The Barcids were Carthaginian
+commanders under (sometimes thinly stretched) senatorial
+authorization; they were also a royal house in the political form
+their succession practice attests.
+
+The Hellenistic comparison should not be allowed to do more work
+than it has earned, because the practice has a Carthaginian
+precedent that does not require it. In 239, during the
+[Mercenary War](/events/mercenary-war), Hamilcar and Hanno the
+Great were joint commanders who could not cooperate, and Carthage
+broke the deadlock by
+[referring the choice of supreme commander to the soldiers](/claims/mercenary-war-army-chose-hamilcar),
+who chose Hamilcar. That is a decade before Hasdrubal's succession
+and it happened in Africa, not in Iberia, under the senate's own
+eye. The mechanism the Barcid house used was not imported from the
+Macedonian world; it had been demonstrated at home, in the war that
+made Hamilcar, and the family had every reason to remember it
+worked.
+
+One distinction is worth keeping visible, because collapsing it
+makes the case tidier than the evidence does. In 239 an army chose
+between rival aristocrats of different families, which is a
+genuine election and a genuine transfer of a decision away from
+the senate. In 228 and 221 an army acclaimed the dead commander's
+kinsman, in a command that family already controlled, which is
+closer to ratifying an heir. Both were reported as the army
+choosing; they are not the same act. The honest statement is that
+a procedure invented to settle a quarrel between rivals was later
+used to confer legitimacy on a succession that was not really in
+doubt, which is a common enough fate for procedures and does not
+require the Barcids to have been consciously building a monarchy
+to explain it.
 
 ## Hellenistic court forms
 

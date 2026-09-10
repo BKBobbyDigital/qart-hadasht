@@ -26,7 +26,7 @@ referenced_claims:
   - mercenary-war-truceless
   - mercenary-war-hamilcar-command
   - mercenary-war-sardinia-pretext
-last_revised: "2026-05-09"
+last_revised: "2026-09-10"
 ---
 
 ## How it began
@@ -87,6 +87,27 @@ cavalry in 239 BCE (sealed by the marriage of one of Hamilcar's
 daughters to Naravas), gave him the cavalry capability the rebels
 could not match. Through 239 and 238 BCE he gradually contained,
 then encircled, the principal rebel concentrations.
+
+One episode from the middle of that recovery deserves more attention
+than its length in Polybius suggests. In 239 Carthage put Hanno back
+in the field alongside Hamilcar as joint commander, and the two proved
+incapable of agreeing on anything. The resulting paralysis was resolved
+in a way that has no earlier Carthaginian parallel: the choice of
+supreme commander was
+[referred to the soldiers, who chose Hamilcar](/claims/mercenary-war-army-chose-hamilcar).
+Hanno went home.
+
+Read narrowly it is a battlefield anecdote about two men who could not
+work together. Read against what followed it is something else. A
+Carthaginian army had adjudicated between two aristocrats of the
+governing class, and the state had let it. The same procedure, an army
+naming its commander and Carthage endorsing the result afterward,
+carried Hasdrubal the Fair to the Iberian command in 228 and Hannibal
+to it in 221. Whether that makes 239 the origin of a standing practice
+or simply the first time a deadlocked senate found this way out is
+argued in the claim; either way the [Barcid
+succession](/narratives/the-barcid-iberian-state) was operating a
+mechanism the Mercenary War had already shown to work.
 
 The war's climax came at the engagement Polybius calls "the Saw"
 or the Defile, an encirclement-and-starvation operation in which

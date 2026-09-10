@@ -154,6 +154,19 @@ as a constitutional class: *ʿm* names a body that met and voted, while
 s'rnm describes a station in society rather than an order with defined
 rights. The transcription here follows Miles.
 
+**The army as an electorate.** Not an organ of the constitution and
+never described as one, but from 239 BCE a recurring participant in
+decisions the constitution assigned elsewhere. When Hamilcar and Hanno
+the Great deadlocked as joint commanders in the
+[Mercenary War](/events/mercenary-war), Carthage
+[put the choice of supreme commander to the soldiers](/claims/mercenary-war-army-chose-hamilcar);
+the Iberian field army then named Hasdrubal the Fair in 228 and
+Hannibal in 221, with the senate ratifying afterward in both cases.
+Whether this amounts to an institutional development or to a senate
+repeatedly conceding what it could not control is genuinely unclear,
+and the two readings have different implications for Polybius's
+account of decline above.
+
 Pentarchies. Five-member self-perpetuating committees that
 selected the Council of 104 and held other offices. Aristotle
 mentions them as a distinctive Carthaginian institution; details

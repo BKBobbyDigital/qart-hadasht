@@ -1,0 +1,84 @@
+slug: mercenary-war-army-chose-hamilcar
+statement: >
+  When Hamilcar Barca and Hanno the Great were made joint commanders
+  against the rebels in 239 BCE and proved unable to cooperate, Carthage
+  resolved the deadlock by referring the choice of supreme commander to
+  the soldiers, who chose Hamilcar. Hanno was withdrawn. It is the
+  earliest attested instance of a Carthaginian field army selecting
+  between rival commanders, and it precedes by a decade the field-army
+  acclamations that carried the Barcid succession in Iberia.
+confidence: attested
+scholarly_consensus: >
+  The episode is reported by Polybius and is not disputed as an event.
+  What it signified is less settled. Modern treatments divide between
+  reading it as a crisis expedient that hardened into a standing claim
+  by Carthaginian armies to a voice in who commanded them, and reading
+  it as a single delegation by a deadlocked senate with no institutional
+  afterlife of its own. The distinction matters for how the later Barcid
+  successions are understood.
+dispute_summary: |
+  Three questions sit behind the bare fact.
+
+  Whether the army took a right or was handed a decision. Referring the
+  choice to the soldiers can be read as military encroachment on
+  senatorial prerogative, or as evidence that the senate could not
+  resolve a quarrel between two of its own and offloaded it. The second
+  reading makes the episode a symptom of aristocratic deadlock rather
+  than of army power, and the surviving account does not settle which.
+
+  Whether it is continuous with the Barcid successions. Miles reads the
+  officers' involvement in commander selection during the revolt as
+  becoming a jealously guarded privilege rather than a one-off piece of
+  crisis management, which would make 239 the origin of the practice
+  visible at Hasdrubal's succession in 228 and Hannibal's in 221. The
+  three episodes are not identical acts, however: in 239 an army chose
+  between rival aristocrats from different families, while in 228 and
+  221 an army acclaimed the dead commander's kinsman in a command his
+  family already held. Choosing between rivals and ratifying an heir are
+  different things wearing the same description.
+
+  Whether Polybius is a neutral witness to it. He is explicitly hostile
+  to what he treats as Carthage's drift toward rule of the many, and
+  army influence over command is exactly the development his framing
+  would incline him to foreground. The event is unlikely to be invented;
+  its weight in his account may still be doing argumentative work.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.82"
+    passage_summary: >
+      Polybius reports that the two commanders, once joined, could not
+      agree, and that the resulting paralysis was resolved by putting
+      the choice to the soldiers, who selected Hamilcar as supreme
+      commander; Hanno returned to Carthage.
+  - source: miles-carthage-2010
+    stance: qualifies
+    passage_ref: "215"
+    passage_summary: >
+      Miles reads the revolt as having strengthened the Carthaginian
+      officers, who had been heavily involved in the selection of their
+      commander-in-chief during the conflict, and argues that this became
+      a guarded privilege rather than a one-off crisis measure.
+  - source: hoyos-truceless-war-2007
+    stance: supports
+    passage_summary: >
+      Hoyos treats the joint command and its failure within his extended
+      military and political analysis of the revolt, and takes the
+      Hamilcar and Hanno rivalry as a durable feature of Carthaginian
+      politics thereafter.
+entities:
+  - type: event
+    slug: mercenary-war
+    role: context
+  - type: person
+    slug: hamilcar-barca
+    role: subject
+  - type: person
+    slug: hanno-the-great
+    role: subject
+notes: >
+  The site does not treat the episode as establishing a formal
+  constitutional right. It treats it as the first attested instance of a
+  practice that recurs, and holds open whether the recurrence reflects an
+  institution or a family that had learned how useful an army's voice
+  could be.
