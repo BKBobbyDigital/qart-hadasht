@@ -40,7 +40,7 @@ primary_entities:
     slug: hannibal-barca
     role: subject
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-09-10"
 ---
 
 The conventional historiographical treatment of the Carthaginian
@@ -268,6 +268,57 @@ The court-form projection is not the heaviest piece of evidence, much of it is i
 directly attested for the Iberian period, but it is consistent
 with the broader pattern of state-building rather than war-camp
 operation.
+
+## What Carthage got out of it
+
+The institutions described above raise a question this narrative has
+so far left alone. A family ran a distant territory for nineteen years
+with its own army, its own mint, its own city foundations, and a
+succession it settled among itself. Carthage had built a constitution
+substantially designed to stop exactly that, having lived through the
+Magonids once already, and it had a court that crucified generals who
+overreached. Why did it tolerate this one?
+
+The intuitive answer is that the money came home, and the numismatic
+evidence complicates it. Across the Barcid decades the Iberian mints
+were striking abundant fine silver on the shekel standard while the
+metropolitan coinage stayed where the First Punic War had left it,
+debased and largely base-metal. If Iberian silver had been flowing
+back to Carthage at anything like the scale the mines produced, the
+recovery should be visible in what Carthage itself struck, and it is
+not. [Miles](/sources/miles-carthage-2010) reads the contrast the
+obvious way: the Barcids were becoming very rich, and comparatively
+little of it reached the city.
+
+The inference deserves a caution the argument does not always get.
+Base-metal issues are ordinary small change and their presence is not
+by itself evidence of an empty treasury; minting reflects decisions
+about what coin was needed, not a full account of what a state held;
+and bullion moves perfectly well without being struck into coin. What
+the coinage supports is that Carthage was not converting Iberian
+silver into its own currency at scale. That is narrower than the claim
+that nothing came home.
+
+What Carthage did get was real without being cash in hand. The
+indemnity obligations from 241 and the Sardinian extortion of 238 ran
+into the early 230s, and the Iberian project opened in 237; how much
+Iberian revenue went to Roman payments is not recoverable, but the
+overlap is genuine. Beyond that, the city recovered a resource base to
+replace the Sicilian and Sardinian holdings it had lost, and it
+maintained a substantial standing army on the frontier without drawing
+on African revenues to do it. For a state that had just discovered
+what it cost to be unable to pay its soldiers, that last item was not
+a small consideration.
+
+The arrangement therefore reads less like a province remitting revenue
+to a capital than like a franchise. The Barcids discharged the
+obligations the state could not otherwise meet, kept the surplus, and
+in return were left alone. Carthage had neither an instrument to
+compel more nor an alternative it preferred, which is roughly what
+[Hanno's opposition](/people/hanno-the-great) amounts to as a
+political position: not that the Iberian project was failing, but that
+its success was accruing to a family rather than to the city. He was
+not wrong about the mechanism. He was outvoted on whether it mattered.
 
 ## Rome was always in view
 

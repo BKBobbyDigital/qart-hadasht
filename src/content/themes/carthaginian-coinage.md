@@ -31,7 +31,7 @@ related_themes:
 referenced_claims:
   - barcid-iberia-silver-funded-spw
   - mw-cause-indemnity-cash-flow
-last_revised: "2026-06-09"
+last_revised: "2026-09-10"
 ---
 
 ## The late adoption
@@ -155,6 +155,23 @@ expression of the [Barcid Iberian
 state's](/editorialTakes/barcid-iberian-state-as-state)
 character: Punic in standard and authority, Hellenistic in
 idiom, military in purpose.
+
+The comparison with the metropolitan series is the part worth
+dwelling on. While Iberia was striking abundant fine silver,
+Carthage itself went on issuing the debased and base-metal
+coinage the First Punic War had left it with. Had Iberian
+silver been returning to the city at the scale the mines
+produced, a recovery ought to be visible in what Carthage
+struck, and it is not. The contrast is one of the better
+pieces of evidence for where the Barcid wealth actually
+stayed, and the narrative on the
+[Iberian state](/narratives/the-barcid-iberian-state) uses it
+that way. It should be pressed only so far: base metal is
+ordinary small change, minting records decisions about what
+coin was wanted rather than everything a treasury held, and
+bullion travels without being struck. What the coins support
+is that Carthage was not turning Iberian silver into its own
+currency, which is narrower than saying none of it came home.
 
 ## What coins are evidence for
 
