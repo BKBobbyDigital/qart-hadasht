@@ -19,6 +19,15 @@ summary: >
   was provoked by Saguntine pro-Roman aggression, and whether
   the Carthaginian senate authorized the siege beforehand.
 
+  It also sets out the legal exchange itself, which is preserved
+  and is sharper than the modern argument about it. Carthage did
+  not defend the siege on the merits. Its envoys argued that
+  Hasdrubal's Ebro agreement had been made without the state's
+  authorization and so never bound it, citing Rome's own
+  repudiation of the terms Lutatius negotiated in 241; Rome
+  answered that the Lutatius treaty had carried an explicit
+  ratification clause and Hasdrubal's had not.
+
 source_passages:
   - source: polybius-histories
     passage_ref: "3.6–8, 3.13–15, 3.20–21"
@@ -174,6 +183,75 @@ points_of_difference:
       moral lines that fit Roman moral-narrative
       historiographical conventions.
 
+  - topic: Whether Hasdrubal's Ebro agreement bound Carthage at all
+    positions:
+      - source_slug: livy-auc
+        what_it_says: >
+          Livy (21.18–19) gives the Carthaginian envoys a legal
+          argument rather than a defense on the merits. Hasdrubal's
+          agreement, they say, was concluded without Carthage's
+          knowledge and cannot bind the state. They then turn Rome's
+          own conduct against it: if treaties are valid only when the
+          sovereign body ratifies them, which is exactly what Rome had
+          maintained when its assembly rejected and stiffened the
+          terms [Lutatius](/sourceComparisons/lutatius-treaty) had
+          negotiated in 241, then by Rome's own doctrine Hasdrubal's
+          unratified agreement is void.
+      - source_slug: polybius-histories
+        what_it_says: >
+          Polybius (3.21) preserves the Roman rebuttal, and it is a
+          technical one. The Lutatius treaty carried an explicit
+          conditioning clause, that it would hold if the Roman people
+          also approved it, and was therefore provisional on its face.
+          Hasdrubal concluded his agreement unconditionally, with no
+          such reservation. The two instruments are not comparable, so
+          the precedent Carthage invokes does not apply.
+    commentary: >
+      This is the sharpest surviving Carthaginian legal argument and
+      the site had not been carrying it. Two things are worth saying
+      about it. The tu quoque has real force as rhetoric, because
+      Rome had in fact repudiated a commander's treaty within living
+      memory and the envoys were addressing men who remembered it.
+      And the Roman answer is nonetheless good on the law: a clause
+      reserving ratification is precisely what distinguishes a
+      provisional agreement from a binding one, and Hasdrubal's had
+      none.
+
+      What the exchange reveals is more interesting than who won it.
+      Carthage did not argue that Saguntum lay in the Carthaginian
+      zone, or that the city had provoked the attack, though both
+      arguments were available and Livy has Hannibal make versions of
+      them elsewhere. The envoys went instead for the jurisdictional
+      objection, which suggests the Ebro agreement was the Roman card
+      they most needed to remove.
+  - topic: What the Carthaginian argument concedes
+    positions:
+      - source_slug: livy-auc
+        what_it_says: >
+          To void the Ebro agreement, the envoys had to assert that
+          Hasdrubal had concluded a treaty with a foreign power
+          without the knowledge or authorization of his own
+          government.
+    commentary: >
+      Carthage's defense required conceding in public, to Rome, the
+      substance of what Fabius Pictor alleged as an accusation: that
+      the Barcid command in Iberia acted without reference to the
+      senate. The site sets out that dispute in its
+      [comparison on Barcid autonomy](/sourceComparisons/barcid-autonomy-in-iberia),
+      where Polybius rejects Fabius's version on the grounds that a
+      state which had lost control of its general would have disowned
+      him. Here is Carthage doing something close to that, in the one
+      setting where it was worth something.
+
+      The concession should not be pressed too hard. An envoy's
+      argument is chosen for what it accomplishes in the room, not as
+      a description of constitutional reality, and asserting that a
+      dead commander exceeded his authority costs a government very
+      little. But it is evidence of a kind the dispute otherwise
+      lacks: not a Greek or Roman historian characterizing the Barcid
+      position from outside, but the Carthaginian government
+      describing the Iberian command's latitude when it had a motive
+      to describe it accurately.
   - topic: The "war or peace in the fold of my toga" scene (218)
     positions:
       - source_slug: polybius-histories
@@ -246,4 +324,4 @@ related_narratives: []
 related_questions:
   - hannibal-italian-objective
 
-last_revised: "2026-05-12"
+last_revised: "2026-09-11"
