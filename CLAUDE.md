@@ -221,6 +221,41 @@ at `/threads/iberian-theatre` keeps its British slug (renaming
 would change a live URL); its title and prose are American. The
 user decided to leave it.
 
+### Revision stamps
+
+Six collections carry a revision date, and **only** these six:
+`narratives`, `themes`, `periods`, `threads` and `sourceComparisons`
+use `last_revised`; `editorialTakes` uses `last_reviewed`. Entity
+collections (people, places, events, claims, artifacts, sources,
+openQuestions, and the rest) have no stamp, so there is nothing to
+update on them.
+
+The stamp is not a git timestamp. It feeds the **CiteThisPage** panel's
+revision line and the JSON-LD `dateModified`, so it is a claim to the
+reader about when the *content* last changed. The convention:
+
+- **Substantive edits move it.** New prose, a new section, a corrected
+  fact, a reframed argument, a newly wired citation.
+- **Mechanical edits do not.** Spelling sweeps, typo fixes,
+  transcription corrections. The Aug 2026 British-to-American
+  conversion touched 90 files; none of their stamps moved, and that was
+  deliberate.
+- **Set it to when the change happened**, not to today, when you are
+  correcting a stamp after the fact.
+
+`prose-audit.mjs` enforces this. It flags `stamp-stale` when a stamped
+file has gained more than two *substantive* added lines since its date,
+where an added line is discounted if some removed line in the same diff
+is a near-twin of it at 80% character similarity. That discount is what
+keeps a spelling sweep from flagging the corpus forever; new prose has
+no twin. It also flags `stamp-missing` for a stamped collection with no
+date at all.
+
+A backlog of **79 stale stamps** was corrected in Sep 2026, nearly all
+of them traceable to the May 2026 de-LLM passes and the June prose
+backlog clearance, which rewrote prose widely without moving any dates.
+The audit reports **0** now; keep it there.
+
 ### The confidence vocabulary
 
 Every claim on the site is tagged with one of:
@@ -601,7 +636,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~718 pages** as of
+parked until the day version settles. The site is **~722 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -612,9 +647,9 @@ the last build.
 | people | 82 |
 | places | 61 |
 | sources | 72 |
-| claims | 172 |
-| editorialTakes | 25 |
-| openQuestions | 20 |
+| claims | 173 |
+| editorialTakes | 26 |
+| openQuestions | 21 |
 | artifacts | 41 |
 | narratives | 43 |
 | themes | 18 |
@@ -624,7 +659,7 @@ the last build.
 | institutions | 6 |
 | deities | 10 |
 | causalLinks | 12 |
-| sourceComparisons | 9 |
+| sourceComparisons | 10 |
 
 ### Headline state (post next-level pass)
 
@@ -773,7 +808,7 @@ across places, people, events, etc. Fixed via:
 | Script | Purpose |
 |---|---|
 | link-audit.mjs | Crawl dist/ for broken internal links |
-| prose-audit.mjs | Em-dash density + version self-refs + repeated phrases |
+| prose-audit.mjs | Em-dash density + version self-refs + repeated phrases + revision-stamp staleness |
 | emdash-fix.mjs | Targeted paired-parenthetical em-dash conversion |
 | fetch-place-image.mjs | Wikimedia Commons image fetch + YAML block emit |
 | a11y-audit.mjs | Static a11y violation scan + asset-weight signals |
@@ -1695,6 +1730,103 @@ Both new pages surface automatically on the Second Punic War event page
 via existing reverse-lookups; the narrative is the only one claiming
 that event, so nothing was displaced.
 
+### The Barcid pass (Sep 2026)
+
+Driven by the user reading Miles's *Carthage Must Be Destroyed* and
+bringing questions back. The pattern worth repeating: each thread began
+by auditing what the site already held, which repeatedly found that the
+site had half of something, or had it framed by the wrong analogy, or
+stated it without a source. That is a more productive mode than adding
+new pages.
+
+**What Carthage got from Barcid Iberia** (section in
+`narratives/the-barcid-iberian-state.md`, plus the same comparison in
+`themes/carthaginian-coinage.md`). The narrative described the Iberian
+polity and its Rome orientation but never its relationship with the
+metropole that nominally owned it. The user supplied the key evidence
+from Miles: Iberia struck abundant fine silver while Carthage went on
+issuing the debased base-metal coinage the First Punic War left it
+with, so comparatively little came home. **That inverts the intuitive
+answer** to why a family was tolerated running a province for nineteen
+years. The section bounds the inference (base metal is small change,
+minting is not a full account of a treasury, bullion moves unstruck)
+and lands on **franchise rather than province**: the Barcids discharged
+what the state could not otherwise meet, kept the surplus, and were
+left alone. That also gives Hanno's opposition its strongest form.
+
+**Army selection of commanders traced back to 239**
+(`claims/mercenary-war-army-chose-hamilcar.yaml`, plus the Mercenary
+War narrative, Hanno's page, and a governance-theme entry). The site
+documented the Barcid succession pattern (field army acclaims, senate
+ratifies) and explained it by **Macedonian analogy**. But the practice
+starts in Africa in 239, when Hamilcar and Hanno deadlocked as joint
+commanders and Carthage put the choice to the soldiers (Polybius 1.82).
+A Carthaginian practice was being derived from a foreign model when a
+homegrown precedent sat in the previous war. Keeps a distinction the
+sources blur: in 239 an army chose between **rival aristocrats of
+different families**, a real election; in 228 and 221 it acclaimed the
+dead commander's kinsman in a command his family already held, closer
+to ratifying an heir.
+
+**Barcid autonomy** (`sourceComparisons/barcid-autonomy-in-iberia.yaml`).
+Polybius 3.8–3.9 preserves Fabius Pictor's argument in order to destroy
+it, so the ancient dispute survives with both sides named. Six points
+of difference. The sharpest is that **Polybius contradicts himself**:
+he calls Hasdrubal's monarchical ambition unreasonable at 3.8, then at
+10.10 attributes a palace at Carthago Nova to a man "aiming at royal
+power" — inside a topographical description that required no such
+remark. Working reconstruction takes neither side: they are arguing
+about **formal authority versus practical control**, and Carthage kept
+the first while losing the second.
+
+**Hasdrubal's kingship** (section in `narratives/hasdrubal-the-fair-life.md`).
+Diodorus 25.12 has the Iberians recognize him as *strategos autokrator*
+— authority conferred by the governed, not granted by Carthage — and
+Livy's Hanno speech calls Hamilcar *the king* and the armies a legacy
+left to a son-in-law. Three witnesses, each with a problem: two Greeks
+reaching for Greek categories, one Roman reconstructing a Carthaginian.
+Nothing Punic attests a royal title, so the site treats kingship as how
+he operated and how others saw him, never a status he held.
+
+**The Saguntum legal exchange** (added to
+`sourceComparisons/saguntum-casus-belli.yaml`). The comparison asked
+the modern question and not the ancient one. **Carthage never argued
+the merits**: the envoys said Hasdrubal's Ebro agreement was made
+without the state's knowledge and never bound it, citing Rome's own
+repudiation of the Lutatius terms in 241. Rome's rebuttal (Polybius
+3.21) is technically good: Lutatius carried an explicit ratification
+clause and Hasdrubal's did not. The second point draws out the cost —
+to void the agreement Carthage had to concede, to Rome, the substance
+of what Fabius alleged as an accusation.
+
+**SPW causation take** (`editorialTakes/spw-causation.yaml`). The site
+had `fpw-causation` and nothing for the war it is built around.
+User-confirmed position: Rome's 238 seizure of Sardinia was **a real
+grievance and also a useful one**, and accounts taking only one half
+distort the war. The formulation: *Sardinia made the war possible and
+gave it its justification; the Barcid project made it practicable and
+gave it its instrument; Hannibal's choice at Saguntum made it happen
+when it did.* Saguntum is treated as a decision rather than an
+incident, reconciled with the existing comparison rather than
+contradicting it: the provocations were real **and** the answer was
+selected for its consequences. Per user direction the take **states the
+asymmetry with the FPW position openly** (that take argues contingency;
+this one does not) and explains why it is not a double standard.
+
+**Two corrections found by reading rather than assuming.** The
+`s'rnm` entry was first written from a summary and corrected against
+the page itself: the ambitious groups are *within* the s'rnm, not
+alongside them, and they are specifically tradesmen and artisans in
+guilds. And Hanno's Livy 21.3–4 speech was dated 221/220 "after the
+assassination of Hasdrubal", but it answers Hasdrubal's request to have
+Hannibal sent out, so it belongs to his lifetime, conventionally ~224.
+Livy narrates the death first and then flashes back, which is how the
+error crept in.
+
+Also: `ʾdrm` corrected from `ʿdrm` (the root is ʾDR, aleph not ayin);
+`mago-of-carthage.md` cut from 15 em dashes to 4, keeping only the two
+paired list-in-apposition cases the house rule protects.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2110,7 +2242,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **718 pages**.
+output. As of the last CLAUDE.md refresh it was around **722 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
