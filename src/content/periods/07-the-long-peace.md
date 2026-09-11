@@ -37,7 +37,7 @@ principal_sources:
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
   - miles-carthage-2010
-last_revised: "2026-05-12"
+last_revised: "2026-08-27"
 ---
 
 The fifty years between Zama and the Carthaginian expedition against

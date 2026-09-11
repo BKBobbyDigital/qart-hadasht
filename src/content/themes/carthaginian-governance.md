@@ -26,7 +26,7 @@ primary_entities:
     role: subject
 related_themes: []
 referenced_claims: []
-last_revised: "2026-09-09"
+last_revised: "2026-09-10"
 ---
 
 ## What we mean by "constitution"
