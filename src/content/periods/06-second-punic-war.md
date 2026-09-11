@@ -83,7 +83,7 @@ map_caption: >
   the dashed line. Battle markers at Trebia (218), Trasimene (217),
   Cannae (216), and Zama (202). Polygons and route adapted from
   Hoyos 2010 and Goldsworthy 2003.
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The Second Punic War is the most thoroughly documented war of antiquity

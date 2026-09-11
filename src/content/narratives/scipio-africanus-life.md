@@ -19,7 +19,7 @@ primary_entities:
     slug: scipio-africanus
     role: subject
 referenced_claims: []
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## Background and the Ticinus rescue (236-218 BCE)

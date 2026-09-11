@@ -24,7 +24,7 @@ primary_entities:
     slug: carthage
     role: subject
 referenced_claims: []
-last_revised: "2026-05-12"
+last_revised: "2026-05-22"
 ---
 
 The history of Carthaginian Sicily between Himera and Agathocles

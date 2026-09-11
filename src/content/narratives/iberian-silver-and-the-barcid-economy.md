@@ -31,7 +31,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - hamilcar-iberian-silver-mines
-last_revised: "2026-05-12"
+last_revised: "2026-08-27"
 ---
 
 The Iberian silver mines that the

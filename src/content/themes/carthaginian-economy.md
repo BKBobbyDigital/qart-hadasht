@@ -20,7 +20,7 @@ related_themes:
   - carthaginian-agriculture
   - slavery-and-labor
 referenced_claims: []
-last_revised: "2026-05-09"
+last_revised: "2026-06-09"
 ---
 
 ## Scale

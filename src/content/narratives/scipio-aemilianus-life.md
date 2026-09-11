@@ -24,7 +24,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - tpw-polybius-eyewitness
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## Birth and the two families (185-168 BCE)

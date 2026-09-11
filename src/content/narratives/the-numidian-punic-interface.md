@@ -31,7 +31,7 @@ primary_entities:
     slug: punic-religion
     role: subject
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-05-22"
 ---
 
 The conventional Anglophone treatment of the Carthaginian-

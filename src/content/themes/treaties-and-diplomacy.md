@@ -19,7 +19,7 @@ related_themes:
   - carthaginian-governance
   - carthaginian-seafaring-and-trade
 referenced_claims: []
-last_revised: "2026-05-12"
+last_revised: "2026-06-10"
 ---
 
 Carthage ran a working diplomatic apparatus that produced

@@ -35,7 +35,7 @@ referenced_claims:
   - mercenary-war-libyan-revolt
   - mercenary-war-truceless
   - mercenary-war-hamilcar-command
-last_revised: "2026-05-11"
+last_revised: "2026-05-22"
 ---
 
 ## Three groups, one coalition

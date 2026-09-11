@@ -32,7 +32,7 @@ primary_entities:
     slug: masinissa
     role: subject
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 ## Origins (c. 238 BCE) and early Carthaginian alignment

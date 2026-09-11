@@ -20,7 +20,7 @@ related_themes:
   - carthaginian-agriculture
   - carthaginian-seafaring-and-trade
 referenced_claims: []
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## What we know about scale

@@ -35,7 +35,7 @@ primary_entities:
     slug: punic-language-and-script
     role: subject
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 A reader new to Carthage often arrives believing, because the

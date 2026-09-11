@@ -54,7 +54,7 @@ stops:
       The post-Zama settlement. Treaty terms more severe than
       Lutatius; the prohibition on Carthaginian warfare without
       Roman authorization will produce the conditions for 146.
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The Roman-Carthaginian relationship is the single best-preserved

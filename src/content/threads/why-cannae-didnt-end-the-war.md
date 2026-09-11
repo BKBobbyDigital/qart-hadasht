@@ -71,7 +71,7 @@ stops:
     note: >
       The full period synthesis for additional context on each
       stop's place in the war's arc.
-last_revised: "2026-05-10"
+last_revised: "2026-06-10"
 ---
 
 The Battle of Cannae in August 216 BCE produced approximately 50,000

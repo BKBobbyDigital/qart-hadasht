@@ -20,7 +20,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - hamilcar-iberia-young-hannibal
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## Birth and early education (247-237 BCE)

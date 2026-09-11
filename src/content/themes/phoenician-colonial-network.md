@@ -28,7 +28,7 @@ related_themes:
   - punic-inscriptional-record
 referenced_claims:
   - melqart-cult-as-network-infrastructure
-last_revised: "2026-05-10"
+last_revised: "2026-05-22"
 ---
 
 The conventional treatment of Carthage opens with the

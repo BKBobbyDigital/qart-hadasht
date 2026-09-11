@@ -23,7 +23,7 @@ referenced_claims:
   - hannibal-suffete-council-104-reform
   - hannibal-death-libyssa
   - hannibal-scipio-same-year-deaths
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## The political-administrative phase (201-195 BCE)

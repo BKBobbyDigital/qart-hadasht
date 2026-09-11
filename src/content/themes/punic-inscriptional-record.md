@@ -21,7 +21,7 @@ related_themes:
   - punic-identity
   - the-tophet-question
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-05-22"
 ---
 
 The literary record of Carthage is overwhelmingly

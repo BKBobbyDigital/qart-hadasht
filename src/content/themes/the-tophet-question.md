@@ -14,7 +14,7 @@ primary_entities: []
 related_themes:
   - punic-religion
 referenced_claims: []
-last_revised: "2026-05-09"
+last_revised: "2026-06-09"
 ---
 
 ## What the Tophet is

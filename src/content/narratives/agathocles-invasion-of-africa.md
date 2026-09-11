@@ -22,7 +22,7 @@ referenced_claims:
   - agathocles-hamilcar-recalled
   - agathocles-collapse-307
   - agathocles-diodorus-bias
-last_revised: "2026-05-09"
+last_revised: "2026-05-12"
 ---
 
 ## The situation in 311 BCE

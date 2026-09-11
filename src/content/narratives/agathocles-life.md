@@ -21,7 +21,7 @@ primary_entities:
     slug: agathocles
     role: subject
 referenced_claims: []
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## Origins (361-317 BCE)

@@ -35,7 +35,7 @@ primary_entities:
     slug: carthaginian-governance
     role: context
 referenced_claims: []
-last_revised: "2026-05-12"
+last_revised: "2026-05-22"
 ---
 
 The fifth century BCE is the period for which the surviving

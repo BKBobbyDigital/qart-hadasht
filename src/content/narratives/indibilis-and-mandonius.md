@@ -26,7 +26,7 @@ primary_entities:
 referenced_claims:
   - iberian-side-switching-as-agency
   - scipio-humanitas-as-personal-policy
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The Greco-Latin tradition's framing of the Second Punic War's Iberian

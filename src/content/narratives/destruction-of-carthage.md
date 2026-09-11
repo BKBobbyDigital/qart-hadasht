@@ -31,7 +31,7 @@ referenced_claims:
   - tpw-scipio-aemilianus-command
   - tpw-final-assault-destruction
   - tpw-hasdrubals-wife-immolation
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## The half-century before

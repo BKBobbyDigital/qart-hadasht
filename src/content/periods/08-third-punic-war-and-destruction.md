@@ -49,7 +49,7 @@ map_caption: >
   tightened the siege through systematic demolition of the city's
   outer defenses before the final spring 146 assault. Polygons
   adapted from Goldsworthy 2003 and Hoyos 2010.
-last_revised: "2026-05-12"
+last_revised: "2026-05-22"
 ---
 
 The four-year crisis from the 150 BCE Carthaginian expedition against

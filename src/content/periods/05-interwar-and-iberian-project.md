@@ -63,7 +63,7 @@ principal_sources:
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
   - huss-karthager-2004
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The twenty-three years between the [Treaty of Lutatius](/events/treaty-of-lutatius)

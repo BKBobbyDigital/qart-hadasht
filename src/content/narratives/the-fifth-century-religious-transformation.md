@@ -34,7 +34,7 @@ primary_entities:
     slug: punic-religion
     role: context
 referenced_claims: []
-last_revised: "2026-05-12"
+last_revised: "2026-05-22"
 ---
 
 The fifth century BCE is the period across which the

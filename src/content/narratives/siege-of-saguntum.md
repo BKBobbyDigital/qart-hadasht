@@ -19,7 +19,7 @@ primary_entities:
 referenced_claims:
   - saguntum-eight-month-siege
   - saguntum-ebro-treaty-question
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## The strategic background

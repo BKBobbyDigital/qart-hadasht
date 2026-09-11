@@ -32,7 +32,7 @@ primary_entities:
     slug: carthaginian-governance
     role: subject
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-05-22"
 ---
 
 The Carthaginian suffeteship (*šofeṭ* in Punic, plural

@@ -23,7 +23,7 @@ primary_entities:
 referenced_claims:
   - tophet-child-sacrifice-contested
   - tophet-stratigraphic-continuity
-last_revised: "2026-05-10"
+last_revised: "2026-06-09"
 ---
 
 Ask a casual reader what they know about Carthage, and there's a good

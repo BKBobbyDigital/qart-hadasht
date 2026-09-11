@@ -41,7 +41,7 @@ principal_sources:
   - hoyos-unplanned-wars-1998
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The 130 years from the Magonid catastrophe at Syracuse to the Mamertine

@@ -22,7 +22,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - cato-delenda-est
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## Background and early career

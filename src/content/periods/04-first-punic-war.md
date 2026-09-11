@@ -57,7 +57,7 @@ map_caption: >
   (260), Ecnomus (256), Aegates (241), and the Tunis–Bagradas
   engagements around Regulus's 255 defeat. Territorial polygons
   adapted from Hoyos 2010; battle locations from Goldsworthy 2003.
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The First Punic War was the longest continuous war of the entire

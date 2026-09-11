@@ -27,7 +27,7 @@ referenced_claims:
   - founding-archaeology-late-8th-century
   - founding-douimes-pendant
   - founding-virgilian-dido
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## The literary tradition

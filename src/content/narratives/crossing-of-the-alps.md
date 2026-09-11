@@ -19,7 +19,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - alps-troop-losses
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## The strategic decision

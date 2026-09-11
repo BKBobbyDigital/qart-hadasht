@@ -52,7 +52,7 @@ principal_sources:
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
   - miles-carthage-2010
-last_revised: "2026-05-10"
+last_revised: "2026-05-11"
 ---
 
 The century and a half from Mago I's emergence around 550 BCE through

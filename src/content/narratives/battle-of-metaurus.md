@@ -20,7 +20,7 @@ referenced_claims:
   - metaurus-nero-forced-march
   - metaurus-hasdrubal-head
   - metaurus-strategic-decision
-last_revised: "2026-05-09"
+last_revised: "2026-05-11"
 ---
 
 ## The strategic situation in 208-207 BCE

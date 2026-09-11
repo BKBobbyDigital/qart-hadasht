@@ -31,7 +31,7 @@ principal_sources:
   - quinn-phoenicians-2018
   - krahmalkov-foundation-1981
   - justin-epitome
-last_revised: "2026-05-10"
+last_revised: "2026-06-10"
 ---
 
 The first two and a half centuries of Carthaginian history are the period

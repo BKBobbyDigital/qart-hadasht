@@ -22,7 +22,7 @@ related_themes:
   - punic-identity
   - carthaginian-warfare
 referenced_claims: []
-last_revised: "2026-05-12"
+last_revised: "2026-05-22"
 ---
 
 The Numidian and Libyan peoples of the African interior were

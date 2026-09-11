@@ -30,7 +30,7 @@ related_themes:
   - punic-religion
   - punic-inscriptional-record
 referenced_claims: []
-last_revised: "2026-05-10"
+last_revised: "2026-05-22"
 ---
 
 A note on framing before the evidence. The surviving record's
