@@ -8,7 +8,10 @@
 //   2. Version self-references — "V1", "this version of the
 //      encyclopedia", "first version", "out of scope for the first
 //      version", etc.
-//   3. Common quality red flags — repeated adjacent words, common
+//   3. Revision-stamp staleness — a stamped page whose content has
+//      moved substantively since its last_revised / last_reviewed date.
+//      Mechanical edits (spelling sweeps) are discounted.
+//   4. Common quality red flags — repeated adjacent words, common
 //      typos, doubled spaces.
 //
 // Output is grouped by file, sorted by total flags. The principal use:
@@ -16,6 +19,7 @@
 
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { execSync } from 'node:child_process';
 
 const ROOT = '/Users/bet/Claude/carthage/src/content';
 
@@ -126,6 +130,78 @@ function findRepeatedPhrases(text) {
   return hits;
 }
 
+// ── Revision-stamp freshness ────────────────────────────────────────────
+//
+// Six collections carry a revision stamp: narratives, themes, periods,
+// threads and sourceComparisons use `last_revised`, editorialTakes uses
+// `last_reviewed`. The stamp drives the CiteThisPage panel and the
+// JSON-LD dateModified, so it should move when the content is revised
+// and stay put when it is not.
+//
+// The hard part is that mechanical sweeps (the Aug 2026 British-to-
+// American spelling conversion touched 90 files) must not light this up
+// forever. So we do not flag on "git date is newer than the stamp". We
+// count SUBSTANTIVE added lines since the stamp: an added line is
+// discounted when a removed line in the same diff is a near-twin of it,
+// which is what a word swap looks like. New prose has no twin.
+
+const STAMPED = ['narratives', 'themes', 'periods', 'threads', 'sourceComparisons', 'editorialTakes'];
+
+function readStamp(filePath) {
+  const head = readFileSync(filePath, 'utf8'); // stamp may sit at the end (sourceComparisons)
+  const m = head.match(/^last_(?:revised|reviewed):\s*["']?(\d{4}-\d{2}-\d{2})/m);
+  return m ? m[1] : null;
+}
+
+/** Character-level similarity, cheap and good enough for word swaps. */
+function similar(a, b) {
+  const s = a.trim(), t = b.trim();
+  if (!s || !t) return 0;
+  if (s === t) return 1;
+  const shorter = s.length < t.length ? s : t;
+  const longer = s.length < t.length ? t : s;
+  if (longer.length - shorter.length > 25) return 0;
+  let same = 0;
+  for (let i = 0; i < shorter.length; i++) if (shorter[i] === longer[i]) same++;
+  // Also compare from the end, so a swap early in the line still scores.
+  let tail = 0;
+  for (let i = 1; i <= shorter.length; i++) {
+    if (shorter[shorter.length - i] === longer[longer.length - i]) tail++;
+  }
+  return Math.max(same, tail) / longer.length;
+}
+
+function substantiveChangesSince(filePath, stamp) {
+  let diff;
+  try {
+    diff = execSync(
+      // --after excludes the stamp day itself, so the commit that created the
+      // file (dated to its own stamp) is not counted as a wholesale addition.
+      `git log --after="${stamp} 23:59:59" --format="" -p -- "${filePath}"`,
+      { cwd: '/Users/bet/Claude/carthage', encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }
+    );
+  } catch { return 0; }
+  if (!diff.trim()) return 0;
+
+  const added = [], removed = [];
+  for (const line of diff.split('\n')) {
+    if (line.startsWith('+++') || line.startsWith('---')) continue;
+    const body = line.slice(1);
+    if (/^last_(revised|reviewed):/.test(body.trim())) continue; // the stamp itself
+    if (line.startsWith('+') && body.trim()) added.push(body);
+    else if (line.startsWith('-') && body.trim()) removed.push(body);
+  }
+
+  const pool = [...removed];
+  let substantive = 0;
+  for (const a of added) {
+    const i = pool.findIndex((r) => similar(a, r) >= 0.8);
+    if (i >= 0) pool.splice(i, 1); // matched a near-twin: mechanical edit
+    else substantive++;
+  }
+  return substantive;
+}
+
 // Collect files
 const mdFiles = [
   ...walk(join(ROOT, 'narratives'), (n) => n.endsWith('.md')),
@@ -157,6 +233,22 @@ for (const f of allFiles) {
   if (doubled.length) flags.push({ kind: 'doubled-words', detail: doubled.map((r) => r.match).join('; ') });
   if (repeated.length) flags.push({ kind: 'repeated-phrase', detail: repeated.map((r) => r.match).slice(0, 3).join(' | ') });
 
+  // Stamp freshness, for the six collections that carry one. Flagged only
+  // when the content genuinely moved: a handful of substantive added
+  // lines, so a stray typo fix does not trip it either.
+  const rel = relative(ROOT, f);
+  if (STAMPED.includes(rel.split('/')[0])) {
+    const stamp = readStamp(f);
+    if (!stamp) {
+      flags.push({ kind: 'stamp-missing', detail: 'no last_revised / last_reviewed' });
+    } else {
+      const n = substantiveChangesSince(f, stamp);
+      if (n > 2) {
+        flags.push({ kind: 'stamp-stale', detail: `${n} substantive lines added since ${stamp}` });
+      }
+    }
+  }
+
   if (flags.length) {
     reports.push({
       file: relative(ROOT, f),
@@ -177,6 +269,8 @@ function severity(r) {
     if (f.kind === 'version-self-ref') s += 50;
     if (f.kind === 'doubled-words') s += 5;
     if (f.kind === 'repeated-phrase') s += 8;
+    if (f.kind === 'stamp-stale') s += 12;
+    if (f.kind === 'stamp-missing') s += 20;
   }
   return s;
 }
