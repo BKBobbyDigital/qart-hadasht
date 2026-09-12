@@ -85,7 +85,10 @@ const relatedQuestions = allQuestions.filter((q) =>
 
 // Find a narrative whose primary subject is this event
 const allNarratives = await getCollection('narratives');
-const matchingNarrative = allNarratives.find((n) =>
+// filter, not find: an event can legitimately anchor more than one
+// narrative (the SPW carries both the Roman-cost piece and Hannibal's
+// historians), and a `find` here silently hid the later ones.
+const matchingNarratives = allNarratives.filter((n) =>
   n.data.primary_entities?.some((e: any) => e.type === 'event' && e.slug === event.id)
 );
 
@@ -444,13 +447,13 @@ const infoboxRows: InfoboxRow[] = [
       </section>
     )}
 
-    {matchingNarrative && (
-      <a href={`/narratives/${matchingNarrative.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">
+    {matchingNarratives.map((n) => (
+      <a href={`/narratives/${n.id.replace(/\.md$/, '')}`} class="block mt-6 p-4 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">
         <p class="text-[11px] uppercase tracking-widest font-bold text-tyrian-700">Read the full narrative →</p>
-        <p class="font-serif text-lg text-tyrian-900 mt-1">{matchingNarrative.data.title}</p>
-        <p class="text-sm text-sand-900 mt-1" set:html={renderInline(matchingNarrative.data.thesis)}></p>
+        <p class="font-serif text-lg text-tyrian-900 mt-1">{n.data.title}</p>
+        <p class="text-sm text-sand-900 mt-1" set:html={renderInline(n.data.thesis)}></p>
       </a>
-    )}
+    ))}
 
     {relatedComparisons.map((c: any) => (
       <a href={`/sourceComparisons/${c.id}`} class="block mt-4 p-4 border border-tyrian-300 bg-sand-50 rounded-lg hover:bg-tyrian-50 transition-colors">

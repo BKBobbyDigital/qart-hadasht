@@ -1,0 +1,65 @@
+slug: lacinian-inscription
+title: The Lacinian inscription
+author: Commissioned by Hannibal Barca
+type: inscription
+is_primary: true
+language: punic
+date_composed:
+  value: -205
+  precision: year
+  circa: true
+  range_end: -203
+  notes: >
+    Set up during Hannibal's years in Bruttium, conventionally placed
+    around 205. The date matters: the inscription records the army of
+    218, but it was cut more than a decade after that army crossed the
+    Alps.
+temporal_distance_years: 13
+access_to_witnesses: contemporary
+bias_notes: >
+  This is the interested party's own account of his own numbers, and
+  the circumstances of its making are part of the evidence. It was cut
+  more than a decade after the crossing it describes, in the theater
+  where Hannibal was by then confined, at a Greek sanctuary, in Greek
+  as well as Punic. That is not a quartermaster's return. It is a
+  commander publishing a version of his campaign to an audience whose
+  allegiance was in play.
+
+  Polybius treats it as decisive precisely because it is an
+  inscription, which is a reasonable instinct in general and an
+  incomplete one here. Stone and bronze do not lie in the way that
+  literary transmission does, but they can be cut by a man with every
+  reason to round in one direction, and an inscription is only as
+  disinterested as the person who commissioned it. What the tablet
+  reliably attests is what Hannibal wanted recorded about his own
+  army. Whether that matches what crossed the Alps is a further
+  question the evidence does not independently settle.
+summary: >
+  A bronze tablet set up at the sanctuary of Hera Lacinia at Croton, on
+  the Bruttian coast, recording Hannibal's achievements and the forces
+  with which he had come into Italy. It was inscribed in Punic and in
+  Greek. Nothing of it survives; it is known because
+  [Polybius](/sources/polybius-histories) says he consulted it, and
+  rests his account of Hannibal's army on it (3.33.17-18, 3.56.4).
+
+  It is the only Carthaginian document of the Second Punic War that a
+  surviving historian claims to have read. Everything else the site
+  treats as a Carthaginian-side source, the histories by
+  [Sosylus](/sources/sosylus-sparta) and
+  [Silenus](/sources/silenus-caleacte), was written in Greek by Greeks
+  in Hannibal's entourage and survives only in fragments and citation.
+  The Lacinian tablet is different in kind: a text commissioned by the
+  Carthaginian commander, in the Punic language, that an ancient
+  historian handled.
+
+  Its evidentiary weight is genuinely contested, and the site's
+  reservations are set out above. One further detail is worth noticing.
+  [Livy](/sources/livy-auc) knows the monument exists and discusses the
+  dispute over Hannibal's troop numbers, and does not appeal to the
+  inscription to settle it. Whether that reflects doubt about the
+  tablet, indifference to epigraphic evidence, or simply that he was
+  following sources who had not used it, the silence is part of the
+  record. The narrative on
+  [Hannibal's historians](/narratives/hannibals-historians) treats the
+  tablet alongside the lost companion histories as the surviving trace
+  of a Carthaginian account of the war.

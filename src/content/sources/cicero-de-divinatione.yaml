@@ -1,0 +1,49 @@
+slug: cicero-de-divinatione
+title: De divinatione
+author: Marcus Tullius Cicero
+type: literary
+is_primary: false
+language: latin
+date_composed:
+  value: -44
+  precision: year
+  circa: true
+  notes: >
+    Written in 44 BCE, in the last year of Cicero's life.
+temporal_distance_years: 174
+access_to_witnesses: literary_tradition
+bias_notes: >
+  A philosophical dialogue on divination rather than a work of history,
+  which shapes what it preserves and how. Cicero collects portents,
+  dreams and prophecies as material for an argument about whether such
+  things can be believed, so a story reaches him because it is a good
+  specimen of its type, not because it is well attested. The Hannibal
+  dream is in the book as an example of a significant dream, and its
+  presence there is not evidence that it happened.
+
+  What the passage does attest reliably is at one remove and is
+  valuable for that reason: that a story of this kind circulated, that
+  it was credited to [Silenus](/sources/silenus-caleacte), and that
+  Cicero regarded Silenus as the writer who had followed Hannibal's
+  affairs most carefully. A Roman consular naming a Hannibal-aligned
+  Greek historian as the diligent authority is a useful piece of
+  testimony about how that tradition was rated.
+summary: >
+  Cicero's dialogue on divination, written in 44 BCE, and the vehicle
+  through which one of the few surviving pieces of
+  [Silenus](/sources/silenus-caleacte) reaches us. At 1.49 Cicero
+  reports, on Silenus's authority, the dream Hannibal is said to have
+  had at the outset of the invasion: a youth of divine aspect leads him
+  toward Italy, a vast serpent follows behind laying the country waste,
+  and Hannibal is told not to look back.
+
+  The passage carries two things worth separating. The dream itself is
+  campaign self-presentation, the kind of portent a commander's circle
+  generates and circulates, and the site treats it as evidence of how
+  the invasion was being narrated rather than of what Hannibal
+  experienced. Cicero's judgment of Silenus is the other, and it is the
+  more solid: he calls him the writer who pursued Hannibal's doings
+  with the greatest care, which is a Roman verdict on a
+  Carthaginian-aligned source and tells us the tradition was taken
+  seriously in Rome. Both are treated in the narrative on
+  [Hannibal's historians](/narratives/hannibals-historians).

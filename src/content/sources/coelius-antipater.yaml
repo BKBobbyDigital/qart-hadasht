@@ -1,0 +1,46 @@
+slug: coelius-antipater
+title: Bellum Punicum
+author: Lucius Coelius Antipater
+type: literary
+is_primary: false
+language: latin
+date_composed:
+  value: -120
+  precision: decade
+  circa: true
+  notes: >
+    Written in the later second century BCE, roughly eighty years after
+    the war it treats.
+temporal_distance_years: 90
+access_to_witnesses: literary_tradition
+bias_notes: >
+  Coelius matters to this site less for his own judgments than for what
+  he carried. He took [Silenus](/sources/silenus-caleacte), an
+  eyewitness from inside Hannibal's entourage, as a principal
+  authority, and [Livy](/sources/livy-auc) in turn drew on Coelius.
+  That chain is how a Hannibal-aligned account reached the Roman
+  tradition at all.
+
+  It also means the material arrives twice mediated, and by a writer
+  with his own manner. Cicero judged Coelius a considerable advance on
+  the bald annalists who preceded him but faulted his style, and later
+  readers found him given to rhetorical heightening and to dramatic
+  set-pieces. Where Livy carries a vivid Hannibalic scene that Polybius
+  lacks, Coelius is the likeliest conduit, and the question of how much
+  is Silenus and how much is Coelius cannot usually be settled.
+summary: >
+  The first Latin historical monograph, a treatment of the Second Punic
+  War alone rather than a history of Rome from the founding. Lucius
+  Coelius Antipater wrote in the later second century BCE, and his work
+  does not survive; it is known from citation, principally in
+  [Livy](/sources/livy-auc) and [Cicero](/sources/cicero-de-divinatione).
+
+  Its importance here is as a transmission link. Coelius took
+  [Silenus of Caleacte](/sources/silenus-caleacte) as a principal
+  source, and Livy used Coelius, so an eyewitness account written from
+  inside Hannibal's camp passed through a Latin monograph into the
+  standard Roman narrative of the war. The Carthaginian side of the
+  Second Punic War survives, to the extent that it survives at all,
+  largely by that route. The narrative on
+  [Hannibal's historians](/narratives/hannibals-historians) follows the
+  chain.
