@@ -636,7 +636,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~722 pages** as of
+parked until the day version settles. The site is **~726 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -646,12 +646,12 @@ the last build.
 | events | 96 |
 | people | 82 |
 | places | 61 |
-| sources | 72 |
+| sources | 75 |
 | claims | 173 |
 | editorialTakes | 26 |
 | openQuestions | 21 |
 | artifacts | 41 |
-| narratives | 43 |
+| narratives | 44 |
 | themes | 18 |
 | periods | 8 |
 | threads | 7 |
@@ -1827,6 +1827,48 @@ Also: `ʾdrm` corrected from `ʿdrm` (the root is ʾDR, aleph not ayin);
 `mago-of-carthage.md` cut from 15 em dashes to 4, keeping only the two
 paired list-in-apposition cases the house rule protects.
 
+### Hannibal's historians (Sep 2026)
+
+`narratives/hannibals-historians.md`, built as the deliberate
+counterpart to `mago-of-carthage.md`: what survived of a Carthaginian
+account and through whose hands. Covers Sosylus, Silenus and Chaereas,
+the Würzburg papyrus as the only place a modern reader sees
+Hannibal-aligned narrative directly rather than someone's report of it,
+the Silenus → Coelius Antipater → Livy transmission chain, Polybius's
+barber-shop dismissal at 3.20 weighed against his habit of clearing
+rivals out of his path (he does the same to Timaeus, Philinus and
+Fabius), and Cicero carrying both the dream and the judgment that
+Silenus was the diligent authority.
+
+**The closing argument is the reason the piece exists**, and it
+complicates the site's own standing framing rather than restating it:
+the Carthaginian account of the Carthaginian war was written in Greek,
+by Greeks, for a Greek-reading public, commissioned by a general who
+had learned Greek from one of them and who published his own numbers
+bilingually at a Greek shrine. The losing side does not reach us in its
+own language partly because it did not entirely choose to speak in its
+own language. That is evidence of elite cultural fluency, not only of
+suppression.
+
+Three new sources, all previously named in site prose with nowhere to
+point: **`lacinian-inscription`** (the one Carthaginian document of the
+war a surviving historian claims to have read; the critical note states
+that Polybius trusts it *because* it is an inscription while it is in
+fact the interested party publishing his own numbers a decade late at a
+Greek sanctuary, and that Livy knows of it and declines to use it to
+settle the troop-figure dispute); **`coelius-antipater`** (the
+transmission link); **`cicero-de-divinatione`** (carries the dream as a
+specimen of dreaming, not as history).
+
+**Route fix the narrative exposed.** `src/pages/events/[slug].astro`
+used `.find()` for a matching narrative, so an event could surface only
+one. The Second Punic War now anchors two and the second was silently
+hidden. Changed to `.filter()` with a map, matching the
+source-comparison pattern directly below it. Regression-checked on
+single-narrative events. Worth remembering as a class of bug: several
+reverse-lookups elsewhere may still use `find` where `filter` is
+correct.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2242,7 +2284,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **722 pages**.
+output. As of the last CLAUDE.md refresh it was around **726 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
