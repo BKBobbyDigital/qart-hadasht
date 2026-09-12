@@ -1,0 +1,106 @@
+slug: hannibal-circle-polybian-exculpation
+statement: >
+  Polybius's digression on Hannibal's character (9.22-26) explains the
+  general's reputation by reference to his associates: the charges of
+  cruelty are attributed to Hannibal Monomachus, whose proposal that the
+  troops be taught to eat human flesh Hannibal is said to have rejected,
+  and the charges of avarice are shared with Mago the Samnite, who
+  commanded in Bruttium. Polybius also records that the two hostile
+  traditions accused Hannibal of different vices: the Carthaginians
+  called him grasping, the Romans called him cruel. The passage is the
+  fullest surviving treatment of Hannibal's circle, and it is also an
+  argument rather than a report.
+confidence: contested
+scholarly_consensus: >
+  That Polybius wrote the passage, and that it names these associates,
+  is not in dispute. What it is worth as evidence about Hannibal's
+  entourage, and whether its attributions can be separated from its
+  purpose, are both genuinely argued. Recent work on Polybian
+  presentations of Punic violence, Rawlings in particular, treats this
+  material as ideologically shaped rather than as neutral reportage.
+dispute_summary: |
+  The difficulty is that the passage's structure is the structure of a
+  defense.
+
+  Polybius begins from the proposition that men in Hannibal's position
+  are driven, by the promptings of friends and by the pressure of
+  circumstances, to act against their real natures. He then supplies a
+  named associate for each of the two charges against his subject.
+  Cruelty belongs to Monomachus, of whom he says outright that the acts
+  of cruelty in Italy attributed to Hannibal were this man's work.
+  Avarice is shared with Mago the Samnite. The commander himself is left
+  as a figure acted upon.
+
+  There are reasons to think the passage is doing work for its author.
+  Polybius admired Hannibal's generalship, and the atrocity charges
+  sat awkwardly with that admiration; loading a commander's worst
+  conduct onto a bad counselor is among the oldest devices in ancient
+  characterization; and the cannibalism proposal in particular is the
+  kind of story that circulates because it is memorable rather than
+  because it is documented. Rawlings reads the wider Polybian treatment
+  of Barcid atrocity as attributing the ordinary practices of
+  Hellenistic warfare to a specifically Punic defect of character.
+
+  Against that, the passage is not simple apologetics. Polybius does not
+  deny that the cruelty and the greed were real, and he leaves Hannibal
+  responsible for the circumstances that surrounded him. The detail that
+  the Carthaginians blamed him for avarice while the Romans blamed him
+  for cruelty is not the sort of thing an exculpatory account needs, and
+  it cuts against reading the whole digression as constructed.
+
+  The site's handling is to separate the two things the passage carries.
+  As evidence that Hannibal had a named circle whose advice was recorded
+  and could be discussed as an explanation for his conduct, it is
+  valuable and close to unique. As an apportionment of blame between
+  Hannibal and his advisers, it is an argument by an interested witness
+  and is treated as such.
+
+  One transmission fact belongs with this. The digression does not
+  survive in the main manuscript tradition of Polybius. It reaches us
+  through the tenth-century Byzantine excerpts compiled under
+  Constantine Porphyrogenitus, in a collection organized by virtues and
+  vices, which means it was selected and preserved precisely because it
+  was a character study. What survived of Polybius on Hannibal's circle
+  survived because a Byzantine anthologist was interested in moral
+  examples.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "9.22-26"
+    passage_summary: >
+      Polybius argues that a man's character is altered by the
+      suggestions of friends and the force of circumstances, and applies
+      this to Hannibal. Hannibal Monomachus, called the gladiator,
+      proposes teaching the army to eat human flesh on the march to
+      Italy; Hannibal rejects the proposal but Polybius assigns him the
+      cruelties later charged against his commander. Mago, who commanded
+      in Bruttium and was known as the Samnite, shares the reputation
+      for avarice, the two men avoiding joint operations to prevent
+      quarrels over plunder. Polybius notes that Hannibal was notorious
+      among the Carthaginians for love of money and among the Romans for
+      cruelty.
+  - source: rawlings-hannibal-cannibal-2007
+    stance: qualifies
+    passage_summary: >
+      Rawlings treats the Polybian charges of Barcid atrocity, the
+      cannibalism material included, as ideology rather than analysis,
+      arguing that the surviving presentation attributes the ordinary
+      violence of Hellenistic warfare to a specifically Carthaginian or
+      Barcid defect of character. The reading qualifies what the
+      digression can be used to establish about the men it names.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: person
+    slug: hannibal-monomachus
+    role: subject
+  - type: event
+    slug: second-punic-war
+    role: context
+notes: >
+  Mago the Samnite is a distinct person from
+  [Mago Barca](/people/mago-barca), Hannibal's brother. Polybius
+  identifies him by the epithet, and the site keeps them separate. He
+  has no page of his own, since nothing about him survives beyond this
+  passage.
