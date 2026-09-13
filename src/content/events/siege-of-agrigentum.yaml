@@ -1,0 +1,103 @@
+slug: siege-of-agrigentum
+name: Siege of Agrigentum
+type: siege
+outcome: "Roman victory; the Carthaginian garrison broke out by night and the city was sacked and its population sold"
+date_start:
+  value: -262
+  precision: year
+  notes: >
+    Polybius places the siege in the consulship of Lucius Postumius
+    Megellus and Quintus Mamilius Vitulus (262). It ran for some seven
+    months and ended in the winter of 262/261, so the fall of the city
+    is often dated to 261.
+date_end:
+  value: -261
+  precision: year
+place: akragas
+participants:
+  - person: hiero-ii
+    role: supplied the besieging Roman army
+    side: Syracuse (Roman ally)
+principal_sources:
+  - polybius-histories
+  - diodorus-library
+  - philinus-akragas
+related_events:
+  - event: first-punic-war
+    relation: part of
+    notes: >
+      The first large land campaign of the war, and the last in which
+      the war was still confined to the question of who held eastern
+      and southern Sicily.
+  - event: appius-claudius-crossing
+    relation: sequel to
+    notes: >
+      Three years separate the crossing of the strait from the fall of
+      Agrigentum. In between, both consuls of 263 came to Sicily with
+      the full four legions and Hiero of Syracuse changed sides.
+  - event: battle-of-mylae
+    relation: precursor
+    notes: >
+      Polybius makes the fall of Agrigentum the moment Rome resolved to
+      drive Carthage from Sicily altogether, and the decision to build a
+      fleet follows directly in his account. Mylae was that fleet's
+      first battle.
+referenced_themes:
+  - carthaginian-warfare
+summary: >
+  The siege that turned the First Punic War from a dispute over Messana
+  into a war for Sicily. In 262 BCE Carthage made
+  [Akragas](/places/akragas), the great Greek city of the south coast
+  (Latin Agrigentum), its principal base on the island and filled it
+  with a mercenary garrison under a commander Polybius calls Hannibal
+  son of Gisco. He is probably the same Hannibal who commanded the fleet
+  at Mylae two years later, and he is a different man from the Magonid
+  [Hannibal son of Gisco](/people/hannibal-son-of-gisco) who had taken
+  the city in 406.
+
+  ## The siege
+
+  The consuls of 262 brought both Roman armies against the city and
+  shut the garrison in behind a double line of siege works. After some
+  five months, with the defenders short of food, Carthage sent a relief
+  army under a commander named Hanno, landed at Heraclea Minoa along the
+  coast. Hanno seized Herbessus, the town that held the Roman supply
+  depot, and turned the siege around: the besiegers now went hungry and
+  sickened, and Polybius says they would have abandoned the siege had
+  [Hiero](/people/hiero-ii) of Syracuse, their ally since the previous
+  year, not kept supplies coming. That detail is the clearest evidence
+  of what the Syracusan switch of 263 was worth to Rome.
+
+  Hanno held off for two more months and then, pressed by signals from
+  the starving garrison, offered battle. The Romans broke his army, and
+  the elephants he had brought, some fifty by Polybius's count, were
+  driven back through his own lines. That night Hannibal led the
+  mercenaries out across the Roman works, filling the ditches with
+  baskets of chaff, and escaped. The Romans entered the next day and
+  sacked the city. Diodorus gives the number sold into slavery as
+  25,000; figures of this kind in the sources are round and usually
+  high, and the fact of a mass enslavement is more secure than its
+  size.
+
+  ## Why it matters
+
+  The fall of Agrigentum is where Polybius (1.20) locates a change in
+  Roman purpose. The senate, he says, was no longer content with having
+  saved the Mamertines and now hoped to expel Carthage from Sicily
+  entirely, and it understood that this could not be done while
+  Carthage held the sea. The shipbuilding program that produced the
+  fleet of 260 follows from that reasoning in his narrative. The site
+  treats this as a real enlargement of Roman aims, with the caution that
+  Polybius is writing the war's logic backward from its outcome; the
+  question is set out under the
+  [claim on Rome's enlarged war aims](/claims/agrigentum-roman-war-aims-enlarged).
+
+  The victory also showed the limit of what an army could do. Polybius
+  notes that after Agrigentum many inland towns came over to Rome for
+  fear of its legions, while more of the coastal towns went over to
+  Carthage for fear of its fleet. Sicily split along the line of what
+  each power could reach, which is the problem the Roman fleet was built
+  to solve. And the city produced the war's principal pro-Carthaginian
+  historian: [Philinus](/sources/philinus-akragas) was an Akragantine,
+  and the fate of his home city is a plausible explanation for the
+  hostility to Rome that Polybius spends so much effort correcting.

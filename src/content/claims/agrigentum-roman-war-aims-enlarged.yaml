@@ -1,0 +1,61 @@
+slug: agrigentum-roman-war-aims-enlarged
+statement: >
+  The fall of Agrigentum in 261 BCE marks the point at which Rome's aim
+  in the First Punic War enlarged from protecting Messana to expelling
+  Carthage from Sicily, and the decision to build a battle fleet
+  followed from that enlargement.
+confidence: inferred
+scholarly_consensus: >
+  That Polybius dates the change of aim to the fall of Agrigentum, and
+  ties the fleet to it, is not in dispute. How far his sequence reflects
+  a real senatorial decision taken in 261, rather than a retrospective
+  ordering of a war whose outcome he knew, is a matter of judgment.
+dispute_summary: >
+  Polybius presents a clean sequence: Agrigentum falls, the senate's
+  hopes grow, the senate sees that a war for all of Sicily needs command
+  of the sea, and the fleet is built. The sequence is plausible and the
+  site accepts its outline, since the fleet of 260 does follow the fall
+  of the city and makes little sense as an instrument for holding
+  Messana.
+
+  Two cautions apply. The first is that Polybius's opening books are
+  organized to show a Rome whose ambition grows with each success, which
+  is the thesis of his whole work, and a neat turning point serves that
+  thesis. The second is that the escalation arguably began earlier. In
+  263 both consuls crossed with the full four legions, a commitment far
+  beyond what a garrison at Messana required, and Hiero was brought over
+  as a result. On that view Agrigentum confirmed and named an aim that
+  Roman conduct already implied, rather than creating it.
+
+  The claim is therefore tagged inferred: the dating and the link to the
+  fleet rest on one author's explicit statement, read with the
+  knowledge that the statement also does work for his argument.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "1.20"
+    passage_summary: >
+      After the capture of Agrigentum the Roman senate, encouraged by
+      the result, was no longer satisfied with having saved the
+      Mamertines and began to hope that the Carthaginians could be
+      driven out of Sicily entirely. Seeing that the Carthaginians held
+      the sea unchallenged while the Roman land forces could not reach
+      the coastal cities, the Romans resolved to build a fleet.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "1.16"
+    passage_summary: >
+      In 263 both consuls were sent to Sicily with all four legions;
+      many Sicilian towns went over to Rome and Hiero of Syracuse came
+      to terms. The scale of this commitment is the basis for reading
+      the escalation as already under way before Agrigentum.
+entities:
+  - type: event
+    slug: siege-of-agrigentum
+    role: subject
+  - type: event
+    slug: battle-of-mylae
+    role: context
+  - type: event
+    slug: first-punic-war
+    role: context

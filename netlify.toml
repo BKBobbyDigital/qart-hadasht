@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Duplicate Hiero page merged into /people/hiero-ii.
+[[redirects]]
+  from = "/people/hieron-ii"
+  to = "/people/hiero-ii"
+  status = 301
+
 # Civilization hub was folded into Themes; preserve any external links.
 [[redirects]]
   from = "/civilization"

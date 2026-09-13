@@ -126,7 +126,7 @@ the Sicilian Wars (fifth through third centuries BCE). The
 treaty-and-warfare cycle with Syracuse under
 [Dionysius I](/people/dionysius-i),
 [Agathocles](/people/agathocles), and
-[Hieron II](/people/hieron-ii) produced multiple agreements,
+[Hiero II](/people/hiero-ii) produced multiple agreements,
 though the specific texts do not survive.
 
 Numidian kingdoms. The relationships with the

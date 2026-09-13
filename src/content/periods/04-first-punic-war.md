@@ -15,6 +15,7 @@ key_events:
   - first-punic-war-outbreak
   - mamertine-appeal-265
   - appius-claudius-crossing
+  - siege-of-agrigentum
   - battle-of-mylae
   - battle-of-cape-ecnomus
   - regulus-african-expedition
@@ -32,6 +33,7 @@ key_people:
 key_places:
   - sicily
   - messana
+  - akragas
   - mylae
   - cape-ecnomus
   - drepana
@@ -57,7 +59,7 @@ map_caption: >
   (260), Ecnomus (256), Aegates (241), and the Tunis–Bagradas
   engagements around Regulus's 255 defeat. Territorial polygons
   adapted from Hoyos 2010; battle locations from Goldsworthy 2003.
-last_revised: "2026-05-11"
+last_revised: "2026-09-13"
 ---
 
 The First Punic War was the longest continuous war of the entire
@@ -112,10 +114,33 @@ Roman engagement (Polybius's). The senatorial execution of the
 withdrawing commander Hanno suggests the Carthaginian senate regarded
 the loss of Messana as an avoidable disaster. Open war followed.
 
+For its first year the war had three sides, not two. Carthage and
+[Hiero II](/people/hiero-ii) of Syracuse, old enemies, besieged Messana
+together until Appius beat them separately. In 263 both consuls crossed
+with four legions, Sicilian towns began to go over, and Hiero made
+peace with Rome and became its ally for the rest of his reign. That
+switch gave Rome a Greek base, Greek supplies, and Greek knowledge of
+how Carthage fought, and it is worth remembering when the war is
+described as a contest between equals: Carthage in 264 was a rich naval
+power with a modest land army in Sicily, and the war did as much to
+make it Rome's match as to reveal it.
+
+The first great land campaign followed. In 262 the Romans besieged
+Carthage's main base on the south coast, the
+[siege of Agrigentum](/events/siege-of-agrigentum), and held on through
+a Carthaginian counter-blockade largely because Hiero's convoys kept
+them fed. The city fell in the winter of 262/261 and was sacked.
+Polybius makes this the moment Rome's aim grew from protecting Messana
+to driving Carthage out of Sicily, and the fleet follows from that
+decision in his account, though his neat turning point also serves his
+larger story of a Rome whose ambition grew with each success (the
+question is set out in the
+[claim on Rome's enlarged war aims](/claims/agrigentum-roman-war-aims-enlarged)).
+
 ## The naval transformation
 
-Rome's recognition that the war could not be won without naval capacity
-produced the most striking single Roman institutional response of the
+Rome's recognition after Agrigentum that the war could not be won
+without naval capacity produced the most striking single Roman institutional response of the
 republican period: the construction of a substantial fleet from scratch.
 Polybius (1.20) preserves the detail — Roman shipwrights using a
 captured Carthaginian quinquereme as the design template, training

@@ -42,6 +42,12 @@ related_events:
     notes: >
       The Mamertine appeal and the Roman crossing of the Strait
       of Messina that began the war.
+  - event: siege-of-agrigentum
+    relation: first major land campaign (262-261 BCE)
+    notes: >
+      The Roman capture of Carthage's main base on the south coast,
+      after which Polybius has Rome resolve to expel Carthage from
+      Sicily and build a fleet.
   - event: battle-of-mylae
     relation: first major Roman naval victory (260 BCE)
     notes: >

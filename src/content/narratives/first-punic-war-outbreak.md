@@ -21,7 +21,7 @@ referenced_claims:
   - fpw-comitia-vote
   - fpw-philinus-treaty
   - fpw-first-overseas
-last_revised: "2026-05-09"
+last_revised: "2026-09-13"
 ---
 
 ## The relationship before 264
@@ -111,11 +111,19 @@ prepared to be.
 Once Roman legions were in Sicily, the political calculation changed
 for everyone. The Mamertines, with the Roman force arriving, expelled
 the Carthaginian garrison (in some accounts through a stratagem
-involving Hanno's removal). Hiero of Syracuse, calculating that the
-Roman force was now committed, withdrew to Syracuse. The Carthaginians,
-presented with a Roman army in Sicily and the Mamertines now under
-Roman protection, mobilized. The war that followed lasted twenty-three
-years.
+involving Hanno's removal). Carthage and Hiero of Syracuse, enemies of
+long standing, now besieged Messana together from opposite sides.
+Appius attacked the Syracusans first, and Hiero, beaten, withdrew to
+Syracuse.
+
+It is easy to tell what follows as a war between two powers, but it
+began as a war among three. The turn came in 263, when both consuls
+crossed with the full four legions and a string of Sicilian towns went
+over to them. [Hiero](/people/hiero-ii) came to terms with Rome, paid an
+indemnity, and became its ally for the rest of his long life. From that
+point Rome fought in Sicily with a Greek base behind it, Greek supplies,
+and a partner who knew from decades of experience how Carthage made
+war. The war that followed lasted twenty-three years.
 
 ## What was contingent
 
