@@ -37,10 +37,26 @@ Epirus during his Italian and Sicilian adventure (280–275 BCE). Their
 interests were not identical, but they were not, before 265,
 incompatible.
 
+What had changed by the 260s was the map. For most of those two and a
+half centuries something stood between the two powers: the Greek
+cities of southern Italy, the Samnites, and in the 270s Pyrrhus. Then
+the buffers went in quick succession. Pyrrhus left Italy in 275,
+Tarentum fell to Rome in 272, and in 270 Rome retook Rhegium, on the
+Italian shore of the strait. Carthage held the west of Sicily and a
+naval base in the Lipari Islands just to the north. For the first time
+the two stood directly across a few miles of water from each other,
+and Polybius (1.10) records the Roman fear that followed: a Carthage
+holding Messana would have a bridge into Italy.
+
 This is the context any account of the war's outbreak has to start
 with. The story is not "two empires on a collision course finally
-collided." It is "a working diplomatic relationship broke down,
-suddenly, over a specific crisis."
+collided." Nor is it simply "a working diplomatic relationship broke
+down over a specific crisis." It is closer to both: a relationship
+that had worked while the two were apart broke down once they were
+not, over a crisis at the one point where they touched. The site's
+reading of how precondition, occasion and decision fit together is set
+out in the
+[editorial take on what caused the war](/editorialTakes/fpw-causation).
 
 ## The Mamertines
 
