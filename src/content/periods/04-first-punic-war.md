@@ -233,11 +233,15 @@ The closing engagement is unusually well documented archaeologically.
 The Marsala Punic Warship, recovered off Lilybaeum in 1971, is the
 only surviving Punic-period warship hull anywhere, and is probably a
 casualty of the Aegates battle or the surrounding First Punic War
-operations. The Egadi Islands Bronze Warship Rams, twenty-seven
-recovered since 2010 from the seabed at the battle site, extend
+operations. The Egadi Islands Bronze Warship Rams, more than two
+dozen recovered from the seabed at the battle site, extend
 the documentation dramatically, with rams identified to both
 Roman-built and Carthaginian vessels, V-shaped impact scratches
 preserving direct evidence of ram-against-ram engagement, and Punic
-inscriptions on the Carthaginian examples invoking Baal. The Aegates
+inscriptions on the Carthaginian examples invoking Baal. The same
+survey recovered amphoras and around thirty Montefortino helmets, a
+type worn by Roman infantry and by Carthage's Italian and Celtic
+soldiers alike, so that unlike the inscribed rams they cannot be
+assigned to either fleet. The Aegates
 seabed is the most thoroughly archaeologically documented ancient
 naval engagement anywhere.

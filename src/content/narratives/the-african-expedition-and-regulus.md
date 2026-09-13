@@ -31,7 +31,7 @@ primary_entities:
 referenced_claims:
   - regulus-initial-successes
   - regulus-xanthippus-reform
-last_revised: "2026-08-16"
+last_revised: "2026-09-13"
 ---
 
 After the naval victory at Cape Ecnomus in 256 BCE, Rome did what it had
@@ -44,6 +44,30 @@ within sight of Carthage itself. The city, pressed at the same time by
 Numidian raiding out of the interior, fell into something close to
 panic. For a winter it looked as though the war might be decided in
 Africa in a single campaign.
+
+## An old plan
+
+The invasion was new for Rome but not for Carthage. Half a century
+earlier [Agathocles of Syracuse](/narratives/agathocles-invasion-of-africa),
+besieged in his own city, had broken out by sea in 310, landed on the
+same Cape Bon peninsula, beaten a Carthaginian army outside Tunis, and
+spent four years stripping Carthage of its African towns and allies.
+The logic was the same in 256: Carthage's armies were in Sicily, its
+countryside was open and largely unwalled, and its subject and allied
+communities in Africa were likelier to defect than to fight. Pyrrhus,
+by Plutarch's account, had planned the same crossing before his
+Sicilian venture collapsed. Rome, with Syracuse now its ally, was in
+effect running the standard Sicilian Greek answer to Carthage, and it
+may well have learned it from Syracusan informants who knew exactly
+how the last attempt had gone.
+
+The precedent also cut the other way. Agathocles's invasion had
+failed in the end, and it failed for reasons that a Carthaginian
+senator in 256 could have named: the invader could win battles and
+take towns but could not take the city itself, and time favored the
+defender who held the sea. Whether Regulus's peace terms were pitched
+too high because he did not know that history, or because he did, is
+not something the sources let us settle.
 
 ## The peace that was refused
 
