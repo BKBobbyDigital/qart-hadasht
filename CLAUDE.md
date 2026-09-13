@@ -636,18 +636,18 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~726 pages** as of
+parked until the day version settles. The site is **~733 pages** as of
 the last build.
 
 ### Collection counts (current)
 
 | Collection | Count |
 |---|---|
-| events | 96 |
+| events | 97 |
 | people | 82 |
 | places | 61 |
-| sources | 75 |
-| claims | 173 |
+| sources | 78 |
+| claims | 175 |
 | editorialTakes | 26 |
 | openQuestions | 21 |
 | artifacts | 41 |
@@ -1869,6 +1869,110 @@ single-narrative events. Worth remembering as a class of bug: several
 reverse-lookups elsewhere may still use `find` where `filter` is
 correct.
 
+### Hannibal's circle (Sep 2026)
+
+The user wanted to know what is actually known about the people around
+Hannibal, framed against the Alexander's-Companions comparison.
+**Verdict the site now states:** the circle is better attested than
+usually noticed and far thinner than the comparison implies. There is
+no recorded institution like the Macedonian *hetairoi*; the named
+officers (Maharbal, Mago Barca, Carthalo, Bomilcar) are attested as
+commanders in particular actions, not as a standing body; and much of
+the difference in visibility is survival (Alexander's companions wrote
+books that were read) rather than structure.
+
+- `people/hannibal-monomachus.yaml` — known from one passage (Polybius
+  9.24). **The cannibalism proposal was rejected**; the popular story
+  inverts the only evidence. Polybius uses him to carry the cruelty
+  charges: exculpation with a named scapegoat, read with Rawlings's
+  caution. Identification section separates him from the other
+  Hannibals.
+- `claims/hannibal-circle-polybian-exculpation.yaml` (contested) —
+  the 9.22–26 character digression: cruelty to Monomachus, avarice
+  shared with Mago the Samnite, the two hostile traditions charging
+  different vices. Valuable as evidence a named circle existed, weak
+  as an apportionment of blame. Notes that the digression survives
+  only through the Constantinian excerpts (an anthology of virtues and
+  vices). **Mago the Samnite is not Mago Barca**; he has no page.
+- `people/hannibal-barca.yaml` gained the circle section and the
+  Lacinian-inscription link.
+
+### The First Punic War against MacDonald's podcast (Sep 2026)
+
+The user brought in Eve MacDonald's First Punic War episode of *The
+Ancients* (History Hit, Sep 2026) as a screenshot transcript. **Working
+rule, same as for her verified Reddit AMA:** podcast and AMA material
+is used for *shape*, to find what the site is missing or has framed
+wrongly. It is **never cited**, and MacDonald is **not named** as the
+holder of a position unless the argument is found in her published
+work. The user is reading her books and will bring back anything that
+checks out. Auto-transcripts garble names (Elymians, Motya, Hiero,
+Oscan came through mangled); correct them silently and don't treat
+them as her errors.
+
+Three commits:
+
+1. **Agrigentum and Hiero** (`0767376`). The siege of Agrigentum
+   (262–261) had no page and no mention in period 04 or on the war
+   event, though Polybius 1.20 makes its fall the point where Rome's
+   aim grew to expelling Carthage from Sicily. New
+   `events/siege-of-agrigentum.yaml` and
+   `claims/agrigentum-roman-war-aims-enlarged.yaml` (inferred: rests on
+   Polybius's explicit statement, but the neat turning point serves his
+   thesis, and 263 arguably escalated first). Enslavement figure
+   attributed to Diodorus (25,000); her 50,000 was not used. **Hiero had
+   two pages** (`hiero-ii` stub with six inbound refs, `hieron-ii` full
+   page with one); merged into `hiero-ii`, `hieron-ii` deleted, 301
+   redirect in `netlify.toml`. Rewritten with the joint 264 siege of
+   Messana alongside Carthage, the 263 switch (100 talents, Polybius
+   1.16), his convoys saving the Agrigentum siege, and his aid to
+   Carthage in the Mercenary War (Polybius 1.83, balance-of-power
+   logic). An unsourced "annual tribute" line was dropped. The outbreak
+   narrative and period 04 now describe **a three-sided first year**.
+2. **Follow-ups** (`eedb84e`). Egadi battle site: the survey also
+   recovered amphoras and ~30 **Montefortino helmets**, which cannot be
+   assigned to a fleet (Roman standard issue, but worn by Carthage's
+   Italian and Celtic soldiers too), unlike inscribed rams. New source
+   `tusa-royal-egadi-2012` (JRA 25, verified), cited on the rams
+   artifact, the Aegates event and period 04; the ram count now reads
+   "more than two dozen" because a fixed number dates while recovery
+   continues. The Regulus narrative gained **"An old plan"**: Rome's 256
+   landing reran Agathocles's 310 invasion (Pyrrhus planned the same,
+   per Plutarch), and the precedent also showed why it failed. The war
+   event summary now says the war did not begin between equals
+   (Carthage in 264 was a naval power with a modest land army in
+   Sicily). **Hanno fix:** `hanno-the-great` was listed as an "early
+   phases" FPW commander; his attested role is Africa in the 240s
+   (Hecatompylus), and the Hannos of Messana (264) and the Agrigentum
+   relief (262) are other men.
+3. **FPW causation take revised** (`7dc93aa`), user-confirmed.
+   `editorialTakes/fpw-causation.yaml` was "contingent", scoped to 264.
+   Now **precondition, occasion, decision**: *proximity* after c. 270
+   (Rome at Rhegium, Carthage in western Sicily and the Lipari base,
+   buffers gone; Polybius 1.10 on the Roman fear of a Carthaginian
+   bridge into Italy; the user's emphasis was Rome's discomfort); the
+   *contingent* Messana crisis; and the war for Sicily **chosen by both
+   sides in 263–261** (both consuls and four legions; Carthage's
+   Agrigentum build-up; Polybius 1.20). The hesitant-senate evidence
+   now carries the caution that it likely comes from Fabius Pictor.
+   **Historiography corrected:** the old take credited "inevitable
+   expansion" to mid-century consensus; that consensus was defensive
+   imperialism (Mommsen, Frank, Holleaux), which Harris overturned.
+   Competing positions now named: Harris 1979 (partly adopted for
+   263–261), Polybian/defensive (rejected), Hoyos's strong contingency
+   (kept for 264 only), Eckstein 2006 (largely compatible). Sources
+   added: `harris-war-and-imperialism-1979`,
+   `eckstein-mediterranean-anarchy-2006`. The outbreak narrative got a
+   "map after 270" paragraph; the SPW take's asymmetry section was
+   updated to match.
+
+**Held back from the podcast, pending a verifiable source:** walls of
+Carthage draped in black after naval defeats (attributed to Diodorus;
+passage not located); Hamilcar as descended from 4th-century immigrant
+soldiers, and a unit transcribed as "Nix Helenes"; Suetonius on
+Claudius Pulcher's recruiting problems. Do not add these unless the
+user brings a citation.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2255,7 +2359,7 @@ Short summary line
 
 Detailed body explaining what and why.
 
-Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
 EOF
 )"
 ```
@@ -2284,7 +2388,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **726 pages**.
+output. As of the last CLAUDE.md refresh it was around **733 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
