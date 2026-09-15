@@ -1,0 +1,102 @@
+slug: hannibal-wife-imilce-evidence
+statement: >
+  Hannibal married a woman from Castulo in Iberia, which is attested by
+  Livy. Her name, Imilce, her family's descent from the town's legendary
+  founders, her farewell to Hannibal before the march on Italy, and the
+  son she bore him are known only from the epic poet Silius Italicus and
+  belong to literary tradition rather than to the historical record.
+confidence: contested
+scholarly_consensus: >
+  The marriage itself is accepted on Livy's testimony, and its political
+  logic in the Barcid Iberian system is widely recognized. How much of
+  Silius's detail to credit is a matter of judgment. The name is
+  commonly used in modern accounts as though it were historical; the
+  genealogy is recognized as myth; the farewell scene is recognized as
+  an epic set piece; the son is sometimes repeated as fact and sometimes
+  treated as the poet's invention.
+dispute_summary: >
+  Only two ancient texts speak to Hannibal's wife, and they are
+  different kinds of evidence.
+
+  Livy mentions her once, without a name, to explain why Castulo was
+  tied so closely to Carthage. The remark is incidental to his purpose,
+  which is the best kind of testimony this record offers: he has no
+  reason to invent a Barcid marriage in order to account for a town's
+  loyalty. The marriage fits what is otherwise known about Barcid rule
+  in Iberia, where Hasdrubal the Fair had married an Iberian king's
+  daughter, and Castulo commanded one of the mining districts the
+  project depended on.
+
+  Everything else comes from the *Punica*, a Flavian epic written about
+  three centuries after the war. Silius gives her a name, a genealogy
+  running back through the mythic founders of Castulo, a farewell
+  speech in which she asks to follow Hannibal across the Alps and is
+  sent away, and an infant son. The scene is modeled on the parting of
+  Hector and Andromache, and a poet who needed it had every reason to
+  supply a wife with a name and a child. Nothing independent confirms
+  any of it. Even the name is odd for an Iberian: Imilce looks like a
+  Punic formation, related to names such as Himilco, which could mean
+  she came from a Punicized family or that the poet gave her a plausible
+  Carthaginian-sounding name. The evidence does not decide between them.
+
+  After 218 she vanishes from every source, and so does any son. No text
+  records her fate, a second marriage, or a wife during Hannibal's
+  fifteen years in Italy, his return to Carthage, or his exile. The only
+  surviving remarks about his private life are character material
+  pointing in opposite directions: Pliny the Elder notes that Salapia in
+  Apulia was known for Hannibal's affair with a courtesan, and Justin's
+  portrait praises his restraint among captive women. Neither is
+  biography.
+
+  The site therefore treats the marriage as attested, the name as the
+  conventional label supplied by an epic poet, and the son as literary
+  tradition. The contested tag reflects that mixture: the claim bundles
+  one historical fact with a set of details that do not reach the same
+  standard, and says which is which.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "24.41"
+    passage_summary: >
+      Describing Castulo's defection to Rome, Livy calls it a strong and
+      famous Spanish city so closely joined to the Carthaginians that
+      Hannibal's wife came from there. He gives no name and says nothing
+      more about her.
+  - source: silius-italicus-punica
+    stance: supports
+    passage_ref: "Book 3"
+    passage_summary: >
+      The epic names Hannibal's wife Imilce, traces her line to the
+      legendary founders of Castulo, and gives her a farewell speech in
+      which she asks to share the Alpine march and reminds Hannibal of
+      the wife and infant son he leaves behind. Supports the name and the
+      son only as epic narrative; no historian corroborates either.
+  - source: pliny-natural-history
+    stance: qualifies
+    passage_ref: "3.103"
+    passage_summary: >
+      In his description of Apulia, Pliny notes that the town of Salapia
+      was famous for Hannibal's love affair with a courtesan. A passing
+      piece of gossip, relevant here only as one of the two surviving
+      remarks on Hannibal's private life after 218, neither of which
+      mentions a wife.
+  - source: justin-epitome
+    stance: qualifies
+    passage_ref: "32.4"
+    passage_summary: >
+      In his closing portrait of Hannibal, Justin praises his self-
+      control, remarking that he behaved with such restraint among so
+      many captive women that one would doubt he was born in Africa. An
+      admiring character sketch built on an ethnic stereotype, not a
+      record of his household.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: place
+    slug: castulo
+    role: location
+notes: >
+  The later name "Aspar" or "Haspar" sometimes given for the son in
+  modern popular accounts has no ancient source that the site has been
+  able to identify, and is not used here.

@@ -30,7 +30,7 @@ related_themes:
   - punic-religion
   - punic-inscriptional-record
 referenced_claims: []
-last_revised: "2026-05-22"
+last_revised: "2026-09-14"
 ---
 
 A note on framing before the evidence. The surviving record's
@@ -106,17 +106,23 @@ siege-narrative endings). The historicizable kernel is that
 Eshmun temple at the climax of the assault; the speech and
 the framing are literary embellishment of varying weight.
 
-Imilce. The Iberian noblewoman whom Hannibal married in the
-late 220s BCE, before his Italian campaign. Named in some
-later sources (Silius Italicus most prominently) but attested
-only thinly in the historical record. Her exact origins, her
-movements during the Italian campaign, her later fate — all
-unknown. The marriage is treated by some modern scholarship
-as part of Hasdrubal the Fair's broader policy of Iberian
-aristocratic integration and Hannibal's continuation of it;
-see the
+Hannibal's wife. An Iberian, not a Carthaginian, but she
+belongs in this list because she is one of the very few women
+the record attaches to a Carthaginian commander. The historical
+evidence is a single incidental remark: Livy (24.41) says
+[Castulo](/places/castulo) was tied so closely to Carthage that
+Hannibal had married a woman from there. He gives no name. The
+name by which she is usually known, Imilce, comes only from the
+epic poet Silius Italicus, who also gives her a mythic
+genealogy, a farewell scene modeled on Hector and Andromache,
+and an infant son, none of it confirmed by any historian. After
+218 she disappears from every source, as does any child. The
+marriage fits Hasdrubal the Fair's policy of binding Barcid
+command to Iberian aristocratic families; see the
 [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state)
-for the marriage-as-state-building framing.
+for that reading, and the
+[claim on Hannibal's wife](/claims/hannibal-wife-imilce-evidence)
+for what is attested and what is epic.
 
 Barcid daughters. Hamilcar Barca's daughters, none named in
 the surviving record, appear in passing as marriage
@@ -238,8 +244,9 @@ Aristocratic marriage in the Carthaginian elite worked as a
 political instrument across the surviving record. Hamilcar
 Barca's daughters married Hasdrubal the Fair, Naravas the
 Numidian, and others, securing alliances at each step.
-Hannibal married Imilce in Iberia, contributing to the
-Barcid Iberian state's aristocratic integration policy (see
+Hannibal married a woman of Castulo, the Imilce of later epic,
+contributing to the Barcid Iberian state's aristocratic
+integration policy (see
 the
 [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state)
 for the marriage-as-state-building reading of this specific

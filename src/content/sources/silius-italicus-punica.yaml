@@ -1,0 +1,41 @@
+slug: silius-italicus-punica
+title: Punica
+author: Silius Italicus
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: 90
+  precision: decade
+  circa: true
+temporal_distance_years: 300
+access_to_witnesses: literary_tradition
+bias_notes: >
+  An epic poem, not a history, and the site reads it accordingly.
+  Silius wrote under the Flavian emperors, almost three centuries after
+  the war, in deliberate imitation of Virgil, and he draws his narrative
+  largely from Livy while adding gods, omens, speeches and invented
+  scenes wherever the poem needs them. Where he preserves a detail no
+  historian gives, the default assumption is invention or elaboration
+  unless something independent supports it. His Hannibal is a Roman
+  epic villain of heroic stature, not a portrait built from
+  Carthaginian evidence.
+summary: >
+  The longest surviving Latin poem, seventeen books on the Second Punic
+  War from the oath of the boy Hannibal to Scipio's triumph after Zama,
+  composed by the former consul Tiberius Catius Silius Italicus in the
+  later first century CE. It follows Livy's outline closely enough that
+  much of it is Livy set to epic meter, with divine machinery on the
+  model of the *Aeneid*: Juno drives Carthage, Jupiter protects Rome,
+  and the war becomes a replay of the quarrel Virgil's Dido began.
+
+  For the site its value is narrow. It is the only ancient text that
+  names Hannibal's wife, calling her Imilce and giving her a mythic
+  genealogy tied to [Castulo](/places/castulo), a farewell scene with
+  her husband before the march on Italy, and an infant son. None of
+  this is in Livy, Polybius or any other historian, and the scene is
+  built on the epic model of Hector's parting from Andromache. The site
+  treats the name, the family and the son as literary tradition and
+  keeps them separate from the one historical fact, which comes from
+  Livy, in the
+  [claim on the evidence for Hannibal's wife](/claims/hannibal-wife-imilce-evidence).

@@ -20,7 +20,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - hamilcar-iberia-young-hannibal
-last_revised: "2026-05-11"
+last_revised: "2026-09-14"
 ---
 
 ## Birth and early education (247-237 BCE)
@@ -119,11 +119,21 @@ Hannibal served under Hasdrubal through the period with
 substantial responsibilities. By 224 BCE he was apparently
 commanding cavalry contingents in Hasdrubal's operations; by
 221 BCE he was widely understood within the Iberian army as
-Hasdrubal's natural successor. His marriage to an Iberian
-noblewoman (preserved imperfectly in the sources; some
-versions name her Imilce, others give different details)
-followed the dynastic-political pattern Hasdrubal had
-established.
+Hasdrubal's natural successor. He also married into the
+Iberian aristocracy, following the pattern Hasdrubal had set
+when he took an Iberian king's daughter as his wife. The one
+historical notice of the marriage is incidental: Livy (24.41)
+explains Castulo's close ties to Carthage by saying that
+Hannibal's wife came from there. He does not name her. The
+name Imilce, her family's descent from the town's legendary
+founders, and the son she bore Hannibal all come from the
+epic poet Silius Italicus three centuries later; the site
+separates the attested marriage from the literary detail in
+its [claim on Hannibal's wife](/claims/hannibal-wife-imilce-evidence).
+The choice of [Castulo](/places/castulo) is the telling part.
+It commanded one of the silver-mining districts of the Sierra
+Morena, and marrying into it tied the Barcid command to the
+families who controlled the resource the whole project ran on.
 
 Hasdrubal the Fair's assassination in 221 BCE by a
 Celtiberian (or Iberian) attendant, in revenge for an
