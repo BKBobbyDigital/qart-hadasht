@@ -163,6 +163,38 @@ points_of_difference:
       Livy gives is Latin elaboration. Modern reading
       should retain the moment and discount the speech.
 
+  - topic: Divine guidance over the mountains
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Rejects it outright (3.47–48). Polybius ridicules historians
+          who exaggerate the Alps into an impassable wilderness and then
+          need a god or hero to show Hannibal the way, like tragedians
+          who end a play with a god from the machine. He notes that
+          Gallic armies had crossed the mountains many times, and credits
+          the crossing to Hannibal's planning and intelligence.
+      - source_slug: livy-auc
+        what_it_says: >
+          Keeps a version of it. Livy (21.22) reports the dream near the
+          Ebro in which a godlike youth sent by Jupiter guides Hannibal
+          toward Italy, followed by a vast serpent and a storm. He frames
+          it as a report, not as the reason the crossing succeeded.
+    commentary: >
+      This is the point where the comparison touches the war's
+      propaganda. The writers Polybius attacks are almost certainly
+      Hannibal's own Greek historians, Silenus above all, whose account
+      of the dream survives more fully in Cicero (*On Divination* 1.49)
+      as a commission from a council of the gods. Nepos (*Hannibal* 3.4)
+      still repeats in Rome, nearly two centuries later, that no army
+      but Hercules's had crossed before Hannibal's. Polybius's scorn is
+      therefore evidence twice over: that the divinely guided crossing
+      was a story in wide circulation, and that the best-informed
+      surviving historian treated it as literature. The site follows
+      Polybius on what happened in the mountains and treats the divine
+      narrative as evidence of how Hannibal's circle presented the
+      march, set out in
+      [The march as a labor](/narratives/hannibal-and-heracles).
+
   - topic: Casualty figures
     positions:
       - source_slug: polybius-histories
@@ -227,8 +259,10 @@ working_reconstruction: >
   historiographical care.
 
 related_takes: []
-related_claims: []
-related_narratives: []
+related_claims:
+  - hannibal-campaign-heraclean-presentation
+related_narratives:
+  - hannibal-and-heracles
 related_questions: []
 
-last_revised: "2026-05-22"
+last_revised: "2026-09-14"

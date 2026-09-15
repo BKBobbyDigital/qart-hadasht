@@ -23,7 +23,7 @@ primary_entities:
   - type: event
     slug: second-punic-war
     role: subject
-last_revised: "2026-09-11"
+last_revised: "2026-09-14"
 ---
 
 A general on campaign does not usually bring historians. Hannibal
@@ -127,11 +127,18 @@ evidence goes.
 
 The best-preserved single piece comes through a different channel
 again. [Cicero](/sources/cicero-de-divinatione), collecting examples of
-significant dreams, reports on Silenus's authority that Hannibal
-dreamed at the outset of the invasion of a youth of divine aspect who
-led him toward Italy, with a vast serpent laying the country waste
-behind, and was told not to look back. The site does not read this as
-something Hannibal experienced. It reads it as something Hannibal's
+significant dreams, reports on Silenus's authority (1.49) that after
+taking Saguntum Hannibal dreamed he was summoned to a council of the
+gods, ordered by Jupiter to invade Italy, and given one of the gods as
+a guide. Told not to look back, he did, and saw a vast beast wrapped in
+serpents laying the country waste: the devastation of Italy. Livy
+(21.22) tells a softer version, with a godlike youth for a guide and a
+huge serpent behind, and the two should not be run together; Cicero's,
+with its council of the gods, is generally taken as closer to what
+Silenus wrote. The dream's place in Hannibal's wider self-presentation
+is treated under
+[The march as a labor](/narratives/hannibal-and-heracles). The site
+does not read it as something Hannibal experienced. It reads it as something Hannibal's
 circle circulated, which is a different and more useful kind of
 evidence: it shows the invasion being narrated, while it was happening,
 as a thing with divine sanction. The same impulse is visible in

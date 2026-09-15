@@ -1,0 +1,45 @@
+slug: dionysius-roman-antiquities
+title: Roman Antiquities
+author: Dionysius of Halicarnassus
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: -7
+  precision: year
+  circa: true
+temporal_distance_years: null
+access_to_witnesses: literary_tradition
+bias_notes: >
+  A Greek rhetorician writing at Rome under Augustus, whose declared aim
+  was to show Greek readers that the Romans were Greeks by origin and
+  worthy of their empire. For Carthaginian history his value is
+  indirect. His early books preserve a large body of older Greek
+  mythography about Italy, often in two versions, the fabulous one and a
+  "truer" rationalized one, and he rarely names where the rationalized
+  version came from.
+public_domain_translation:
+  translator: Earnest Cary
+  year: 1937
+  url: http://penelope.uchicago.edu/Thayer/e/roman/texts/dionysius_of_halicarnassus/home.html
+summary: >
+  A twenty-book history of Rome from its legendary origins to the
+  outbreak of the First Punic War, of which the first eleven books
+  survive substantially. The site cites it for a single passage that
+  bears on Hannibal. In Book 1 Dionysius tells the story of Heracles and
+  Cacus twice (1.39–42). The first telling is the familiar myth of the
+  hero resting his cattle and the robber who steals them. The second,
+  which he calls the truer account, turns Heracles into a general: at
+  the head of a great army, having already conquered Spain, he forces
+  the passes of the Ligurian mountains, overthrows grievous despotisms
+  and sets up lawful governments, defeats Cacus as a barbarian chieftain
+  who raided his sleeping camp, and carries his prisoners with him
+  before settling them on conquered land with a share of the spoils.
+
+  Richard Miles argues that the correspondences with Hannibal's march
+  from Spain over the Alps to "liberate" Italy from Rome are too close
+  to be accidental, and that the rationalized Heracles was shaped by, or
+  for, the Hannibalic campaign. Dionysius does not say where he found
+  the version, so the direction of influence cannot be proved. The
+  argument is set out in
+  [The march as a labor](/narratives/hannibal-and-heracles).

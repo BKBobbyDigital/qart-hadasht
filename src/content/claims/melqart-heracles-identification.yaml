@@ -53,10 +53,13 @@ sources:
   - source: silenus-caleacte
     stance: supports
     passage_summary: >
-      Silenus, an eyewitness in Hannibal's entourage, is among the
-      sources for Hannibal's deliberate cultivation of a bond with
-      Hercules, the Greek face of Melqart, part of the general's
-      self-fashioning on campaign.
+      Silenus, the Greek historian in Hannibal's camp, wrote about the
+      spring in Melqart's sanctuary at Gades, where Hannibal made his
+      vows (Strabo 3.5.7 names him among its describers), and narrated
+      Hannibal's dream of a divine commission (Cicero, On Divination
+      1.49). His fragments show the identification in active use: a
+      Greek writer presenting a Carthaginian general's devotion to
+      Melqart in the language of Heracles.
 entities:
   - type: deity
     slug: melqart

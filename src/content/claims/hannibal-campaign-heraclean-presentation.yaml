@@ -1,0 +1,129 @@
+slug: hannibal-campaign-heraclean-presentation
+statement: >
+  Hannibal's march from Spain to Italy was presented, by Hannibal and
+  the Greek writers in his camp, as a journey in the footsteps of
+  Heracles-Melqart: it began with vows at the god's sanctuary at Gades,
+  followed the route tradition assigned to the hero's return from the
+  far west over the Alps, and was narrated as divinely guided.
+confidence: contested
+scholarly_consensus: >
+  That Hannibal made vows at the Heracleion of Gades before the march,
+  that Silenus wrote about that sanctuary, and that Silenus narrated a
+  divinely sent dream at the campaign's outset are all attested. That
+  these add up to a deliberate program of self-presentation is argued
+  by Rawlings and Miles and widely accepted in outline. How far the
+  wider set of Heraclean parallels, especially the rationalized Heracles
+  in Dionysius, was produced by that program rather than read into it
+  afterward is open.
+dispute_summary: >
+  The core is secure. Livy records Hannibal's vows at Gades; Strabo
+  names Silenus among those who described the sanctuary's famous
+  spring; Cicero preserves Silenus's account of Hannibal's dream of a
+  divine guide sent by Jupiter; Nepos repeats the claim that no army but
+  Hercules's had crossed the Alps before Hannibal's. Hannibal also set
+  up a bilingual record of his achievements at a Greek sanctuary in
+  Italy, and the Barcid silver coinage carries a head that can be read
+  as Melqart-Heracles.
+
+  Three questions remain. The first is direction. The Heraclean road
+  over the western mountains appears in a pseudo-Aristotelian entry
+  that probably predates the war, so the route was not invented for
+  Hannibal; the question is whether he exploited it. The rationalized
+  Heracles of Dionysius, a general who conquers Spain, forces the Alpine
+  passes, liberates peoples from tyrants and resettles his prisoners,
+  matches Hannibal closely, but Dionysius names no source, and the
+  resemblance could have been created by Greek writers after the war as
+  easily as by Hannibal's historians during it.
+
+  The second is category. Calling the program "propaganda," as Miles
+  does, assumes a manipulation of belief that may not describe a
+  Carthaginian aristocrat whose family devotion to Melqart was, by
+  every sign, real. Devotion and presentation are not exclusive, and a
+  general who believed he had divine sanction had every reason to say so.
+
+  The third is Polybius. He explicitly mocks historians who needed a
+  god or hero to guide Hannibal over the Alps, and points out that Gauls
+  had crossed them repeatedly. His objection shows the divine-guidance
+  narrative circulated widely enough to need refuting, which supports
+  the claim's core; it also shows that the best-informed surviving
+  historian thought it worthless as history.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.21"
+    passage_summary: >
+      Before setting out, Hannibal went to Gades, discharged his vows to
+      Hercules, and bound himself with new vows should his undertaking
+      succeed.
+  - source: cicero-de-divinatione
+    stance: supports
+    passage_ref: "1.49"
+    passage_summary: >
+      Citing Silenus through Coelius, Cicero reports that after taking
+      Saguntum Hannibal dreamed he was summoned to a council of the gods,
+      ordered by Jupiter to invade Italy, and given a divine guide; told
+      not to look back, he did, and saw a vast beast wrapped in serpents
+      laying waste to everything, which the guide called the devastation
+      of Italy.
+  - source: strabo-geography
+    stance: supports
+    passage_ref: "3.5.7"
+    passage_summary: >
+      On the spring in the Heracleion at Gades, Strabo lists Silenus among
+      the writers who described it, showing that Hannibal's historian
+      wrote about the sanctuary where the campaign was consecrated.
+  - source: nepos-hannibal
+    stance: supports
+    passage_ref: "3.4"
+    passage_summary: >
+      Nepos says that no one had crossed the Alps with an army before
+      Hannibal except the Greek Hercules, after whom the pass was named.
+  - source: pseudo-aristotle-mirabilia
+    stance: qualifies
+    passage_ref: "85"
+    passage_summary: >
+      Describes a Heracleian road from Italy through Celtic and Ligurian
+      lands to Iberia. If, as often thought, the entry predates the war,
+      the Heraclean route was an existing tradition Hannibal could draw
+      on rather than an invention of his campaign.
+  - source: dionysius-roman-antiquities
+    stance: qualifies
+    passage_ref: "1.41–42"
+    passage_summary: >
+      A rationalized Heracles who, having conquered Spain, leads an army
+      through the Ligurian passes, overthrows despotisms, defeats the
+      raiding chieftain Cacus, and settles his captives on conquered
+      land. The parallels with Hannibal are close, but the source and
+      date of the version are unknown.
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.47–48"
+    passage_summary: >
+      Polybius ridicules historians who, having exaggerated the
+      difficulty of the Alps, need a god or hero to show Hannibal the way,
+      like tragedians resorting to a god from the machine, and notes that
+      Gauls had crossed the mountains many times with large forces.
+  - source: miles-carthage-2010
+    stance: supports
+    passage_ref: "pp. 250–252"
+    passage_summary: >
+      Miles reads the Gades vows, Silenus's narrative and the Dionysian
+      Heracles as parts of one deliberate Barcid program, aimed at
+      Greeks, Italians and Celts alike, and uses divine sanction as a
+      source of cohesion in a culturally mixed army.
+  - source: rawlings-hannibal-and-hercules-2005
+    stance: supports
+    passage_summary: >
+      Rawlings treats Hannibal's association with Hercules as a real
+      strategic and religious project, framing the campaign in terms
+      Greek and Italian audiences could read as familiar.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: crossing-of-the-alps
+    role: subject
+  - type: deity
+    slug: melqart
+    role: context

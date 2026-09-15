@@ -1,0 +1,42 @@
+slug: strabo-geography
+title: Geography
+author: Strabo
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: 20
+  precision: decade
+  circa: true
+temporal_distance_years: 240
+access_to_witnesses: literary_tradition
+bias_notes: >
+  A Greek geographer from Amaseia in Pontus, writing under Augustus and
+  Tiberius, who drew heavily on earlier writers (Polybius, Artemidorus,
+  Posidonius among them) and often reports their disagreements. His
+  judgments on those earlier writers are his own and tend to favor
+  Polybius. For the Punic world he is a compiler at a distance, but a
+  careful one who names his authorities, which is how several lost
+  writers survive in him at all.
+public_domain_translation:
+  translator: H. L. Jones
+  year: 1917
+  url: http://penelope.uchicago.edu/Thayer/e/roman/texts/strabo/home.html
+summary: >
+  Seventeen books describing the inhabited world as known in the early
+  Roman empire, region by region, with history, ethnography and
+  natural wonders folded into the geography. Book 3 covers Iberia and
+  is the richest single ancient account of the peninsula the Barcids
+  ruled, including the silver country and the Phoenician foundation at
+  Gades.
+
+  The passage that matters most for Hannibal is 3.5.7, on the spring
+  in the sanctuary of Heracles (Melqart) at Gades whose flow was said
+  to rise and fall against the tides. Strabo names Silenus among the
+  writers who described it, alongside Polybius and Posidonius, and
+  prefers Polybius's account. That makes this one of the few places
+  where a fragment of
+  [Silenus of Caleacte](/sources/silenus-caleacte), Hannibal's
+  historian, can be tied to a subject: the sanctuary where Hannibal made
+  his vows before the march on Italy. See
+  [The march as a labor](/narratives/hannibal-and-heracles).
