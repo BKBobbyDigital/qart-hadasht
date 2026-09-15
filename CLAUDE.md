@@ -2242,6 +2242,17 @@ not surface unsolicited.
    were switched from the dropped Cormorant to Fraunces, the loaded
    heritage serif. No font work remains for the maps pass.) Revisit
    when the user calls for the maps pass.
+   - **Stopgap shipped (Sep 2026):** the SPW period and event pages
+     now also show Harrias's CC BY-SA 4.0 Commons map of Hannibal's
+     full route 218–203 (`public/maps/hannibal-route-harrias.jpg`),
+     via a new optional `route_figure` field (events + periods) and
+     `MapFigure.astro`, with credit, license link and a caption naming
+     its simplifications. The user rejected an AI-generated map (too
+     many errors, unlicensable) but liked its *approach*: numbered
+     stops keyed to an event list, separate routes for Hannibal /
+     his return / Scipio from Lilybaeum / Hasdrubal to the Metaurus,
+     dashed uncertain legs, legend and scale. That is the design
+     brief for an in-house zoomed Italy map when the maps pass opens.
 
 ### Residual prose work — COMPLETE (June 2026)
 

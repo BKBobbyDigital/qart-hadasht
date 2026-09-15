@@ -229,6 +229,20 @@ const places = defineCollection({
 
 // ─── Events ───────────────────────────────────────────────────────────────────
 
+/** An openly licensed raster map (Wikimedia Commons CC or PD) rendered by
+ *  MapFigure alongside the in-house HistoricalMap on events and periods.
+ *  Credit and license are required; caption should state what the map
+ *  simplifies. No AI-generated maps. */
+const routeFigure = z.object({
+  src: z.string(),
+  alt: z.string(),
+  caption: z.string().optional(),
+  credit: z.string(),
+  credit_url: z.string().url().optional(),
+  license: z.string(),
+  license_url: z.string().url().optional(),
+});
+
 const eventParticipant = z.object({
   person: reference('people'),
   role: z.string(), // "commander", "envoy", "combatant", "witness"
@@ -294,6 +308,8 @@ const events = defineCollection({
     map_id: z.string().optional(),
     /** Optional caption for the historical map. */
     map_caption: z.string().optional(),
+    /** Optional openly licensed raster map shown after the in-house map. */
+    route_figure: routeFigure.optional(),
     /** Short freeform outcome statement for battles, sieges, political
      *  events, treaties — surfaced in the infobox for at-a-glance
      *  reference. Examples: "Decisive Carthaginian tactical victory",
@@ -762,6 +778,8 @@ const periods = defineCollection({
     map_id: z.string().optional(),
     /** Optional caption for the historical map. */
     map_caption: z.string().optional(),
+    /** Optional openly licensed raster map shown after the in-house map. */
+    route_figure: routeFigure.optional(),
     last_revised: z.string(),
   }),
 });

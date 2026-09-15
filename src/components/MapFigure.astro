@@ -1,0 +1,45 @@
+---
+/**
+ * MapFigure — renders a third-party raster map (Wikimedia Commons, CC or
+ * public domain) with a caption and a full credit line. Used alongside the
+ * in-house HistoricalMap where an existing openly licensed map shows
+ * something ours does not yet (e.g. Hannibal's full route, 218–203 BCE).
+ * Clicking the image opens the full-size file.
+ */
+interface Props {
+  figure: {
+    src: string;
+    alt: string;
+    caption?: string;
+    credit: string;
+    credit_url?: string;
+    license: string;
+    license_url?: string;
+  };
+}
+import { renderInline } from '../lib/autolink';
+const { figure } = Astro.props;
+---
+<figure class="mt-8">
+  <a href={figure.src} target="_blank" rel="noopener" class="block">
+    <img
+      src={figure.src}
+      alt={figure.alt}
+      loading="lazy"
+      class="w-full rounded-lg border border-sand-300"
+    />
+  </a>
+  <figcaption class="mt-2 text-sm text-sand-700 leading-relaxed">
+    {figure.caption && <><span set:html={renderInline(figure.caption)} />{" "}</>}
+    <span class="text-xs">
+      Map:
+      {figure.credit_url
+        ? <a href={figure.credit_url} class="hover:text-tyrian-700 underline" target="_blank" rel="noopener noreferrer">{figure.credit}</a>
+        : <>{figure.credit}</>}
+      {' · '}
+      {figure.license_url
+        ? <a href={figure.license_url} class="italic hover:text-tyrian-700" target="_blank" rel="noopener noreferrer">{figure.license}</a>
+        : <span class="italic">{figure.license}</span>}
+    </span>
+  </figcaption>
+</figure>

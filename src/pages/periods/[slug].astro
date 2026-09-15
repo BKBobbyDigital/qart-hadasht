@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { articleSchema } from '../../lib/structuredData';
 import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import HistoricalMap from '../../components/HistoricalMap.astro';
+import MapFigure from '../../components/MapFigure.astro';
 import ContentToc from '../../components/ContentToc.astro';
 import VersionStamp from '../../components/VersionStamp.astro';
 import CiteThisPage from '../../components/CiteThisPage.astro';
@@ -124,6 +125,8 @@ const next = idx < allPeriods.length - 1 ? allPeriods[idx + 1] : null;
         caption={d.map_caption}
       />
     )}
+
+    {d.route_figure && <MapFigure figure={d.route_figure} />}
 
     <p class="mt-8 mb-2 text-xs text-sand-700 italic">
       This page is the encyclopedia's own narrative reading of the period —

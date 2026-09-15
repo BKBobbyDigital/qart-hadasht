@@ -6,6 +6,7 @@ import ClaimCard from '../../components/ClaimCard.astro';
 import EditorialTake from '../../components/EditorialTake.astro';
 import Map from '../../components/Map.astro';
 import HistoricalMap from '../../components/HistoricalMap.astro';
+import MapFigure from '../../components/MapFigure.astro';
 import BattleDiagram from '../../components/BattleDiagram.astro';
 import type { BattleDiagramConfig } from '../../lib/battleDiagram';
 import Infobox, { type InfoboxRow, type InfoboxLink } from '../../components/Infobox.astro';
@@ -357,6 +358,8 @@ const infoboxRows: InfoboxRow[] = [
         caption={data.map_caption}
       />
     )}
+
+    {data.route_figure && <MapFigure figure={data.route_figure} />}
 
     {!data.map_id && eventMapPoints.length > 0 && (
       <Map

@@ -170,6 +170,25 @@ summary: >
   framework for understanding Rome's rise to Mediterranean
   dominance is largely a framework for understanding this war.
 
+route_figure:
+  src: /maps/hannibal-route-harrias.jpg
+  alt: >
+    Map of the western Mediterranean tracing Hannibal's route with a dashed
+    green line from Carthago Nova along the Spanish coast, over the
+    Pyrenees and Alps into northern Italy, south through Italy past
+    Trasimene, Cannae, Capua and Tarentum to Bruttium, and by sea back to
+    Africa and Zama, with battle markers and dates.
+  caption: >
+    Hannibal's route from Carthago Nova to Italy and back to Africa,
+    218–203 BCE, with movements based on Richard Miles, *Carthage Must Be
+    Destroyed*. The line is a simplification: after Cannae Hannibal
+    campaigned back and forth across southern Italy for years, and only
+    the principal moves are drawn. The Alpine pass is unknown, so the
+    crossing is schematic.
+  credit: Harrias, via Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Hannibal%27s_Travels_during_the_Second_Punic_War.png
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
 map_id: spw
 map_caption: >
   Strategic geography of the war. Barcid Iberian state and Carthaginian African heartland in tyrian; Roman Italy in slate; Numidia in olive. Hannibal's 218 BCE march from Carthago Nova through the Pyrenees, across the Rhône, and over the Alps as the dashed line. Battle markers at Trebia (218), Trasimene (217), Cannae (216), and Zama (202). Polygons and route adapted from Hoyos 2010 and Goldsworthy 2003.
