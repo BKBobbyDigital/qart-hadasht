@@ -636,7 +636,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~733 pages** as of
+parked until the day version settles. The site is **~744 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -645,13 +645,13 @@ the last build.
 |---|---|
 | events | 97 |
 | people | 82 |
-| places | 61 |
-| sources | 78 |
-| claims | 175 |
+| places | 62 |
+| sources | 84 |
+| claims | 178 |
 | editorialTakes | 26 |
 | openQuestions | 21 |
 | artifacts | 41 |
-| narratives | 44 |
+| narratives | 45 |
 | themes | 18 |
 | periods | 8 |
 | threads | 7 |
@@ -1973,6 +1973,128 @@ soldiers, and a unit transcribed as "Nix Helenes"; Suetonius on
 Claudius Pulcher's recruiting problems. Do not add these unless the
 user brings a citation.
 
+### Hannibal's wife: attested fact vs epic (Sep 2026)
+
+The user asked what is known about Hannibal's wife. The site had
+presented "Imilce, Iberian noblewoman" and a son as plain fact on
+Hannibal's page, in the Barcid family tree and its caption, and in two
+prose pages. **Only the marriage is historical.** Livy 24.41 mentions
+her once, unnamed, to explain why Castulo was so closely tied to
+Carthage. The name Imilce, her mythic descent from Castulo's founders,
+the farewell before the Alps (modeled on Hector and Andromache) and the
+infant son come **only from Silius Italicus's *Punica*** (Book 3), a
+Flavian epic about three centuries later. After 218 she vanishes from
+every source. The only other remarks on Hannibal's private life are
+character material pointing opposite ways: Pliny *NH* 3.103 (Salapia,
+a courtesan) and Justin 32.4 (restraint among captive women).
+
+Commit `d569c6e`:
+- `claims/hannibal-wife-imilce-evidence.yaml` (contested: one attested
+  fact bundled with epic detail, saying which is which). Notes the name
+  looks Punic rather than Iberian without deciding why, and declines the
+  popular "Aspar" name for the son (no ancient source found).
+- `sources/silius-italicus-punica.yaml`, with a bias note that it is
+  epic, not history.
+- `places/castulo.yaml`, previously unmentioned anywhere: principal
+  Oretanian town on the upper Guadalquivir in the Sierra Morena mining
+  country, so the marriage tied the Barcids to the resource the Iberian
+  project ran on; went over to Rome, surrendered 206 (Livy 28.19–20).
+- Fixed `young-hannibal.md`, `themes/women-and-family.md`, Hannibal's
+  `family` fields and a short private-life paragraph, and
+  `data/dynasties/barcids.ts` (Imilce node "of Castulo; name only in
+  epic", son node "known only from Silius Italicus", caption rewritten).
+
+**General lesson:** an epic poet's detail had become a family-tree node
+stated as fact. When a genealogical or biographical detail comes from
+poetry (Silius, Virgil), mark it as literary tradition in every place it
+appears, including data configs and captions, not just in prose.
+
+### Hannibal and Heracles: the march as a labor (Sep 2026)
+
+Driven by Miles, *Carthage Must Be Destroyed* pp. 250–252 (user photos),
+on Hannibal's campaign as Barcid propaganda built around Heracles, then
+extended by a 2025 article the user supplied as a PDF. Two commits.
+
+**Working decisions (user-confirmed):**
+- **Word choice:** the site's own voice says **"self-presentation"**;
+  **"propaganda" is attributed to Miles**. The narrative leaves open
+  whether piety and presentation can be separated.
+- **The Alexander parallel is not coincidence** (user's view). The site
+  states that reading with its cautions attached, via a claim.
+- **No editorial take yet.** The user wants a take on what the
+  Heracles/Alexander image was (messaging, piety, or later literary
+  construction) **later**, after more reading. It is a pending item;
+  don't write it unprompted.
+
+**Commit `8709d34`, the Heracles layer.** New
+`narratives/hannibal-and-heracles.md` ("The March as a Labor"):
+- the Gades vows at Melqart's sanctuary (Livy 21.21), where the Geryon
+  labor began
+- Silenus's surviving fragment on the Heracleion spring (Strabo 3.5.7–9)
+- the Heraclean road over the Alps as an **older** tradition (Diodorus
+  4.19, ps-Aristotle *Mirabilia* 85, Nepos *Hannibal* 3.4), so Hannibal
+  exploited a route legend rather than inventing one
+- Dionysius of Halicarnassus's rationalized Heracles (1.41–42: conquers
+  Spain, forces the Ligurian passes, overthrows despotisms, defeats
+  Cacus, resettles prisoners), whose parallels Miles thinks deliberate,
+  with the direction of influence flagged as unproven
+- the dream in its two versions; the audiences (Punic troops hearing
+  Melqart, Greeks Heracles, Italians/Samnites Hercules, Celts, and
+  divine sanction as cohesion for a mixed army, via Miles on Onasander
+  and Daly); and Polybius's scorn at 3.47–48.
+
+New contested claim `hannibal-campaign-heraclean-presentation`
+(Polybius as the contradicting source). New sources:
+`dionysius-roman-antiquities`, `strabo-geography`,
+`pseudo-aristotle-mirabilia` (slugged by the Latin title to keep the
+British "Marvellous" out of a URL; the English title keeps its
+conventional spelling per the exemption).
+
+**Correction the pass exposed:** `hannibals-historians.md` had
+attributed **Livy's** dream (godlike youth, serpent; Livy 21.22, set at
+the Ebro) to **Cicero via Silenus**. Cicero *Div.* 1.49 has a council of
+the gods, a divine guide from Jupiter, and a beast wrapped in serpents.
+The two are now kept apart everywhere. The Alps source comparison gained
+a "Divine guidance over the mountains" point (Polybius 3.47–48 vs Livy
+21.22). Hannibal's page's unsourced "framed as a Heraclean labor" line
+now cites Nepos 3.4. The Silenus entry on
+`claims/melqart-heracles-identification` now cites what his fragments
+actually show.
+
+**Commit `3fc406f`, the Alexander layer.** Source:
+**Pamina Fernández Camacho, "Silencing Silenus: The paradoxon of the
+Fountain of Gades (Str. 3.7–9) in the Context of Barcid Propaganda,"
+*Philologus* 169.1 (2025) 24–46**, open access, read in full (text
+extracted from the user's PDF with a PDFKit Swift script, since no
+poppler is installed). Her argument:
+- Silenus was the **earliest** source for the reverse-tidal spring at
+  Gades; Strabo demotes him and **Polybius probably used him while
+  suppressing his name**
+- no extant source mentions the Gades temple before Silenus; Posidonius
+  spent a month there and found only wells
+- conclusion, framed by her as "increasingly plausible": **Silenus
+  invented the spring on the model of the Spring of the Sun at Siwah**,
+  writing Hannibal's Gades detour on the template of **Alexander's
+  visit to Ammon**, with Heracles as the model both generals followed
+- subsidiary: Cicero's "after Saguntum" suggests Silenus set the dream
+  at the Gades temple (Livy moved it to the Ebro), paralleled by
+  Caesar's dream in the same temple; Polybius wavers three times between
+  "god" and "hero" as the Alpine guide (Briquel: Heracles-Melqart)
+
+New "The Alexander template" section in the narrative sets Siwah (Arrian
+3.3: to emulate Perseus and Heracles, guided by snakes or ravens;
+Herodotus 4.181 on the spring) point by point beside Gades. **The
+Carthaginian end of the link is attested:** Alexander's siege of Tyre
+began with his demand to sacrifice to Melqart (Arrian 2.16), and
+Carthaginian envoys at the god's festival were spared in the temple
+(Arrian 2.24). Livy 35.14 (Hannibal ranks Alexander first) is used as a
+doubtful anecdote only. Cautions kept: Greek historians wrote generals
+in the Alexander mode by convention, and several parallels are
+reconstructed from lost text. New contested claim
+`hannibal-alexander-model`; new sources `arrian-anabasis` and
+`fernandez-camacho-silencing-silenus-2025`. Strabo and Silenus source
+pages now describe the silencing and the invention argument.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2388,7 +2510,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **733 pages**.
+output. As of the last CLAUDE.md refresh it was around **744 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
