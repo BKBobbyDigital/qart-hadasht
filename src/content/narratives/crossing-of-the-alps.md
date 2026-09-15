@@ -19,7 +19,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - alps-troop-losses
-last_revised: "2026-05-11"
+last_revised: "2026-09-15"
 ---
 
 ## The strategic decision
@@ -51,13 +51,15 @@ opposition that left visible traces.
 
 ## The departure and the march
 
-Hannibal departed Carthago Nova in late spring 218 BCE with
-approximately 50,000 infantry, 9,000 cavalry, and 37 war
-elephants. Polybius (3.56) gives the figures explicitly,
-drawing on what he describes as a Carthaginian inscription in
-Hannibal's hand at Lacinium that recorded the troop totals.
-The figures are among the better-attested numerical data
-surviving from the Punic Wars.
+Hannibal departed Carthago Nova in late spring 218 BCE. Polybius
+gives about 90,000 infantry and 12,000 cavalry at the start
+(3.35), and about 50,000 infantry and 9,000 cavalry after the
+Pyrenees, once garrisons had been left and some Iberian troops
+sent home; 37 elephants crossed the Rhone (3.42). For the army's
+arrival in Italy he drew on the bronze tablet Hannibal set up at
+the Lacinian promontory, which makes those figures among the
+better-attested numbers of the Punic Wars, though they are
+Hannibal's own.
 
 The march through northeastern Iberia and southern Gaul
 consumed the early summer. The Carthaginian army crossed the
@@ -108,19 +110,26 @@ the passes, hostile Allobroges and other Alpine peoples
 attacking the column from defensive positions on slopes above
 the path, narrow trails that required laborious individual
 movement of pack animals and elephants, water sources frozen
-or contaminated. The famous episode of breaking obstructing
-rock with fire and vinegar (Polybius 3.55, Livy 21.37) preserves
-the kind of improvisation the conditions required.
+or contaminated. In the descent a landslide had carried away
+the path, and Polybius (3.55) describes the army cutting a new
+one along the cliff: a day's work for the horses and pack
+animals, three days for the elephants, with Numidians working
+in relays. The better-known version, in which the rock is split
+with fire and vinegar, is Livy's (21.37) and does not appear in
+Polybius; the two accounts, and the ancient quarrel over whether
+the Alps were impassable or ordinary, are set side by side in
+the [source comparison](/sourceComparisons/alps-crossing).
 
 Casualties through the crossing were substantial. Hannibal
-descended into the Po Valley with approximately 20,000
-infantry and 6,000 cavalry: a loss of approximately 30,000
-infantry and 3,000 cavalry across the Pyrenees-Rhone-Alpine
-arc, with the Alpine portion producing the largest single
-phase of casualties. Most of the elephants survived the
-crossing itself but died of cold and disease in the following
-weeks; only a handful would survive to participate in the
-Italian engagements of 218-217 BCE.
+descended into the Po Valley with 12,000 African and 8,000
+Iberian infantry and no more than 6,000 cavalry (Polybius
+3.56), against about 50,000 infantry and 9,000 cavalry after
+the Pyrenees. How that loss divides between the march through
+Gaul and the mountains cannot be recovered, and Livy (21.38)
+shows that the Roman tradition had no agreed figures at all.
+The elephants came through the crossing and fought at the
+Trebia; nearly all of them died in the cold that followed
+(Polybius 3.74).
 
 ## The arrival
 
@@ -176,7 +185,7 @@ the crossing.
 The route through the Alps, despite recent archaeological
 work, is not securely identified. Several details of the
 crossing (the exact moment of the elephants' crossing of the
-Rhone, the specific location of the rock-and-vinegar episode,
+Rhone, the specific location of the broken path in the descent,
 the names of the Alpine peoples Hannibal fought) are
 preserved imperfectly. The Carthaginian inscription at
 Lacinium that Polybius cites for the troop figures has not

@@ -1,31 +1,41 @@
 slug: alps-troop-losses
 statement: >
-  Hannibal began the march from Iberia with approximately 50,000
-  infantry, 9,000 cavalry, and 37 elephants; arrived in the Po
-  Valley with approximately 20,000 infantry and 6,000 cavalry.
-  Most of the elephants survived the Alpine crossing itself but
-  died of cold and disease in the following weeks.
+  According to Polybius, Hannibal crossed the Pyrenees with about 50,000
+  infantry and 9,000 cavalry and reached the Po Valley after the Alps
+  with 12,000 African and 8,000 Iberian infantry and no more than 6,000
+  cavalry. The 37 elephants that crossed the Rhône came through the
+  mountains; nearly all died in the winter after the Trebia.
 confidence: attested
 scholarly_consensus: >
-  Polybian figures, broadly accepted by modern scholarship as
-  reasonable estimates. The specific numbers are upper bounds and
-  may overstate slightly, but the order of magnitude (substantial
-  losses through Gaul and the Alpine crossing, arrival with a
-  reduced but still operational army) is firmly attested.
+  Polybius's arrival figures are generally preferred because he took them
+  from the bronze tablet Hannibal set up at the Lacinian promontory. They
+  are still Hannibal's own numbers, published years later, and the Roman
+  tradition Livy reports had no agreed count. The order of magnitude,
+  heavy losses between the Pyrenees and the Po and an army of roughly
+  26,000 still able to fight, is secure; the division of losses between
+  the march through Gaul and the Alps is not recoverable.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "3.56"
+    passage_ref: "3.35, 3.42, 3.56, 3.74"
     passage_summary: >
-      Polybius gives the figures explicitly, drawing on what he
-      describes as a Carthaginian inscription in Hannibal's hand
-      at Lacinium that recorded the troop totals.
+      Gives about 50,000 foot and 9,000 horse after the Pyrenees (3.35),
+      37 elephants at the Rhône (3.42), and 12,000 African and 8,000
+      Iberian foot with no more than 6,000 horse on arrival in Italy
+      (3.56), citing the Lacinian tablet for the arrival figures. The
+      elephants mostly perished in the cold after the Trebia (3.74).
   - source: livy-auc
     stance: qualifies
     passage_ref: "21.38"
     passage_summary: >
-      Livy gives slightly different figures but is broadly
-      consistent on the scale of the losses.
+      Reports that estimates of the army reaching Italy ranged from 20,000
+      foot and 6,000 horse to 100,000 foot and 20,000 horse, and that
+      Cincius Alimentus put the losses after the Rhône at 36,000 men.
+  - source: lacinian-inscription
+    stance: supports
+    passage_summary: >
+      The document behind Polybius's figures: Hannibal's own record of his
+      forces, set up in Punic and Greek at the sanctuary of Hera Lacinia.
 entities:
   - type: event
     slug: crossing-of-the-alps

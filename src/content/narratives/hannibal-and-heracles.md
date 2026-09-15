@@ -34,7 +34,7 @@ referenced_claims:
   - hannibal-campaign-heraclean-presentation
   - hannibal-alexander-model
   - melqart-heracles-identification
-last_revised: "2026-09-14"
+last_revised: "2026-09-15"
 ---
 
 Every general in the Hellenistic world claimed the gods were with him.
@@ -284,6 +284,19 @@ his own. That is a characteristic Polybian move, and it is the same man
 who dismissed Silenus's colleague Sosylus as barber-shop gossip, a
 rivalry traced under
 [Hannibal's historians](/narratives/hannibals-historians).
+
+The deflation has a second edge, which Miles draws out. If Gallic armies
+crossed the Alps routinely, Hannibal was no new Heracles but one more
+invader coming over the mountains into Italy, and Polybius elsewhere
+presents the Gauls in exactly those terms, as the recurring barbarian
+danger he wrote up so that Greeks would not panic at the next one
+(2.35). Miles adds that Polybius walked the route through country Rome
+had since colonized, which made a crossing look easier than it had been
+in 218. That point needs narrowing, since Polybius is also the main
+witness to how dangerous Gallic northern Italy had been, but the two
+versions of the Alps, impassable or ordinary, were both verdicts on
+Hannibal. They are compared in the
+[Alps source comparison](/sourceComparisons/alps-crossing).
 
 ## What can and cannot be said
 

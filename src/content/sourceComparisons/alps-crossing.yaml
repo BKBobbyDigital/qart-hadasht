@@ -3,176 +3,139 @@ title: "Hannibal's Alps crossing across the ancient sources"
 subject_event: crossing-of-the-alps
 summary: >
   Hannibal's [crossing of the Alps](/events/crossing-of-the-alps)
-  in late autumn 218 BCE (fifteen days of march through unknown
-  passes, with an army of ~40,000 plus elephants, in the
-  early-winter conditions of the high Alpine passes) is the
-  campaign's most famous operational episode and the one whose
-  specific route modern scholarship still cannot definitively
-  identify. Polybius 3.50–56 is the principal source and
-  preserves the topographical features that constrain
-  identification (the rock cleft, the snow above and below
-  the pass, the panoramic view of the Po valley); Livy 21.30–37
-  follows the broad sequence but adds the famous
-  vinegar-on-rocks episode and developed speeches that bear
-  the marks of literary construction. The Alps crossing
-  comparison is methodologically distinctive because the
-  modern question (which pass?) is genuinely unresolved and
-  the source-critical question is which Polybian topographical
-  features actually constrain identification versus which
-  Livian additions are inventions.
+  in late autumn 218 BCE took fifteen days and cost him a large part
+  of his army, and the pass he used has never been securely identified.
+  Polybius (3.47–56) is the principal account, written by a historian
+  who says he questioned men who had been there and walked the route
+  himself. Livy (21.30–38) follows the same broad sequence but adds
+  speeches, the famous fire-and-vinegar episode, and a frank admission
+  that his own sources disagreed wildly about the army's size.
+
+  Behind both lies an older quarrel about what kind of feat the crossing
+  was. Hannibal's own Greek historians wrote it as a march through
+  country no army could pass without a divine guide. Polybius answered
+  that Gallic armies crossed the Alps all the time. Each version carried
+  a judgment on Hannibal, and the comparison sets them side by side along
+  with the questions of route, method and losses.
 
 source_passages:
   - source: polybius-histories
-    passage_ref: "3.50–56"
+    passage_ref: "3.47–56"
     paraphrase: >
-      Polybius's account is the principal source and is
-      methodologically careful. He preserves a sequence of
-      topographical features: the entry from the Allobrogian
-      country with skirmishes against Gallic tribes, the
-      approach to the first ascent, the engagement with the
-      mountain tribes at the rock cleft, the snow above and
-      below the army's position on the high pass, the
-      panoramic view of the Po valley from the summit, the
-      descent in three stages, the famous rock-clearing
-      operation in the descent where the path had been
-      destroyed and rocks had to be removed or shattered for
-      the elephants to pass. He gives the duration as fifteen
-      days; the losses he gives as substantial (the army
-      arrives in Italy with approximately 26,000 of the
-      ~40,000 who began the crossing). Polybius is explicit
-      that he personally traversed the route to verify the
-      topographical details — one of the rare instances in
-      his work where he claims direct field investigation.
+      Polybius opens with a polemic (3.47–48) against historians who make
+      the Alps an impassable wilderness and then need a god or hero to
+      bring Hannibal through. The Celts of the Rhône, he says, had crossed
+      them often and recently with large armies, and Hannibal planned the
+      march with care, learning in advance about the country beyond and
+      hiring native guides. He then narrates the ascent through Allobrogian
+      country, the ambushes by mountain peoples, the view of the Po plain
+      shown to the exhausted army, and a descent blocked by a landslide on
+      old ice and fresh snow. Hannibal's men cut a new path along the cliff,
+      wide enough for pack animals after a day and, with Numidians working
+      in relays, for the elephants after three (3.55). The crossing took
+      fifteen days, and the army reached the plain with 12,000 African and
+      8,000 Iberian foot and no more than 6,000 horse (3.56).
     source_note: >
-      Polybius is the principal source by far and the only
-      one with anything like firsthand methodological care.
-      His claim to have personally traversed the route is
-      load-bearing for modern attempts to identify the pass:
-      the features he preserves are the constraints
-      identification has to satisfy, and modern field
-      surveys of candidate passes (Col du Clapier, Col du
-      Petit-Saint-Bernard, Col de la Traversette, others)
-      test the Polybian features rather than the Livian
-      additions.
+      Polybius wrote with more first-hand investigation than any other
+      ancient writer on the crossing, and he says so (3.48.12): he
+      inquired of men present at the time and made the passage himself.
+      His topographical sequence is what modern attempts to identify the
+      pass have to satisfy. He also wrote more than half a century after
+      the event, through a northern Italy Rome had since conquered and
+      colonized, and his polemic has targets, chiefly the Hannibal
+      historians Silenus and Sosylus. His arrival figures come from the
+      bronze tablet Hannibal set up at the Lacinian promontory.
   - source: livy-auc
-    passage_ref: "21.30–37"
+    passage_ref: "21.30–38"
     paraphrase: >
-      Livy follows Polybius's broad sequence but adds
-      substantial dramatic and rhetorical material that
-      Polybius does not preserve. The most famous Livian
-      addition is the vinegar-on-rocks episode: in the
-      descent, soldiers are described heating rocks with
-      fire and then dousing them with vinegar, causing
-      the rocks to fracture so the elephants could pass.
-      Livy also preserves a developed Hannibal speech at
-      the summit (the "show me Italy" panorama becomes a
-      formal address to the troops) and additional
-      detail on tribal engagements with the local
-      mountain peoples. His casualty figures and overall
-      duration are consistent with Polybius's.
+      Livy follows Polybius's sequence and adds material Polybius lacks.
+      At the summit Hannibal points out Italy and tells his men they are
+      climbing the walls of Rome itself. In the descent the blocked path
+      is cleared by felling trees, burning them against the rock and
+      pouring vinegar on the heated stone to split it (21.37). On numbers
+      Livy is candid about disagreement (21.38): estimates of the army
+      that reached Italy ranged from 20,000 foot and 6,000 horse up to
+      100,000 foot and 20,000 horse, and Cincius Alimentus, a Roman taken
+      prisoner by Hannibal, reported losses of 36,000 men after the Rhône.
+      Livy also notes the dispute over which pass was used.
     source_note: >
-      Livy wrote two centuries after the events working
-      from Polybius (named) and lost Latin annalistic
-      sources. The vinegar episode is widely regarded by
-      modern scholarship as Latin literary invention —
-      it does not appear in Polybius's account, the
-      chemistry does not work as described (vinegar does
-      not crack rock effectively), and the dramatic
-      shape fits Latin moral-narrative conventions
-      rather than the spare operational detail Polybius
-      preserves.
+      Livy wrote about two centuries after the crossing, using Polybius
+      and Latin annalists, and his Alpine narrative is shaped for drama
+      and moral effect. His value here is partly as a witness to how much
+      his sources disagreed, which Polybius's confident figures conceal.
+  - source: nepos-hannibal
+    passage_ref: "3.4"
+    paraphrase: >
+      Nepos says that no one before Hannibal had crossed the Alps with an
+      army except the Greek Hercules, after whom the pass was named, and
+      that Hannibal opened roads through the mountains where there had been
+      only tracks.
+    source_note: >
+      A short Latin biography of the late Republic, useful here because it
+      preserves, nearly two centuries on, the tradition Polybius was
+      attacking: the crossing as a feat matched only by Heracles.
 
 points_of_difference:
-  - topic: Which pass Hannibal used
+  - topic: How hard was the crossing?
     positions:
+      - source_slug: nepos-hannibal
+        what_it_says: >
+          A feat without precedent among mortals. Only Hercules had led an
+          army over the Alps before Hannibal. This is the tradition of
+          Hannibal's own historians, still current in Rome in Nepos's day.
       - source_slug: polybius-histories
         what_it_says: >
-          Not explicitly named, but constrained by a
-          sequence of topographical features: the entry
-          from Allobrogian country, the rock-cleft engagement,
-          the snow conditions, the Po valley panorama from
-          the summit, the rock-clearing operation in the
-          descent.
-      - source_slug: livy-auc
-        what_it_says: >
-          Similarly not explicitly named; the topographical
-          detail is less analytically precise than Polybius's,
-          with the vinegar episode and the formal speeches
-          obscuring rather than constraining identification.
+          Hard but ordinary. Gallic armies from the Rhône had crossed many
+          times, and not long before. Hannibal's achievement lay in
+          intelligence and preparation: he knew what lay beyond and he took
+          native guides.
     commentary: >
-      Modern scholarship has converged on four principal
-      candidate passes (Col du Clapier, Mont Cenis, Col du
-      Petit-Saint-Bernard, Col de la Traversette) with the
-      latter (the highest and the most southerly) gaining
-      increasing support in recent decades, partly on the
-      basis of evidence from animal-dung analysis in
-      sediment cores. The Polybian topographical features
-      remain the principal constraints. The question is
-      genuinely unresolved; the Polybian field-investigation
-      claim is the best evidence available and modern
-      identifications work from his constraints.
+      The question sounds technical, but both answers are verdicts on
+      Hannibal. The impassable Alps belong to the
+      [Heraclean presentation](/claims/hannibal-campaign-heraclean-presentation)
+      of the campaign: if only a hero could cross, Hannibal had joined
+      the hero. Polybius's reply takes the gods out and gives the credit to
+      planning, which is a compliment of a kind.
 
-  - topic: The vinegar-on-rocks episode
-    positions:
-      - source_slug: polybius-histories
-        what_it_says: >
-          Not preserved. The descent rock-clearing operation
-          is described but as fire-heating and physical
-          breaking; vinegar is not mentioned.
-      - source_slug: livy-auc
-        what_it_says: >
-          Preserved in dramatic detail: rocks heated with
-          fire and doused with vinegar to fracture them,
-          allowing the elephants to pass. Treated as the
-          campaign's most famous operational ingenuity.
-    commentary: >
-      The vinegar episode is almost certainly Livian or
-      pre-Livian Latin literary invention. The Polybian
-      silence is the strongest evidence: Polybius, who
-      claims field investigation and preserves the
-      rock-clearing operation in operational detail, would
-      have preserved this kind of memorable specific
-      technique if it had occurred. The chemistry also
-      does not work — vinegar does not crack rock
-      effectively at the dilution and quantities a marching
-      army could carry. Modern reading should treat the
-      vinegar episode as one of the clearest cases on the
-      site where Latin elaboration of a Polybian sequence
-      produces a memorable invention.
+      Richard [Miles](/sources/miles-carthage-2010) (pp. 258–259) draws
+      out two further edges. First, "the Gauls do it all the time" puts
+      Hannibal in a line of barbarian invaders breaking into Italy, rather
+      than a new Heracles. Polybius's own habits support this. He says he
+      wrote up Rome's Gallic wars so that Greeks would not panic at
+      sudden barbarian invasions, setting them beside the Persian
+      invasion and the Gallic attack on Delphi (2.35). Gauls crossing
+      mountains were, for him, a recurring type, and Hannibal came over
+      with them.
 
-  - topic: The summit speech and the panoramic view
-    positions:
-      - source_slug: polybius-histories
-        what_it_says: >
-          The summit panorama is preserved: Hannibal points
-          out the Po valley below to encourage the
-          remaining troops. The "speech" is brief and
-          functional, not developed as a formal address.
-      - source_slug: livy-auc
-        what_it_says: >
-          The panorama is preserved with a developed formal
-          Hannibal speech ("show me Italy"). The address
-          has the formal structure of Latin oratorical
-          historiography.
-    commentary: >
-      The summit moment itself almost certainly happened —
-      the panoramic view from any of the candidate passes
-      does include sight of the Po valley, and the
-      morale-building moment is consistent with Polybian
-      and Livian preservation. The specific formal speech
-      Livy gives is Latin elaboration. Modern reading
-      should retain the moment and discount the speech.
+      Second, Miles argues that Polybius's research trip shows his distance
+      rather than his authority. By the time he walked the route, Rome had
+      planted colonies across the Po country and moved whole peoples,
+      among them more than 40,000 Apuan Ligurians sent to Samnium in 180
+      (Livy 40.38); the people he met were settlers, not the Celts of 218,
+      and a crossing through pacified country could look routine. The site
+      accepts this in a narrower form. Polybius did not forget that
+      northern Italy had been dangerous: he is the main surviving source
+      for that danger, writing that with the Celts on its frontier Rome
+      could never master Italy or be safe in Rome itself (2.13), and
+      putting 50,000 foot and 20,000 horse and chariots into the Gallic
+      army of 225 (2.23). He also claims informants who had been present
+      in 218 (3.48.12). What the changed landscape could distort was his
+      sense of the mountains themselves, and of what hostile Alpine
+      peoples meant to an army on the march, since he saw the route after
+      Rome had removed that threat. Hannibal came down into a Gallic war
+      already under way, with the Boii and Insubres in revolt and the new
+      colonies at Placentia and Cremona under attack (3.40); that political
+      setting is treated on the
+      [Cisalpine Gauls](/groups/cisalpine-gauls) page.
 
   - topic: Divine guidance over the mountains
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          Rejects it outright (3.47–48). Polybius ridicules historians
-          who exaggerate the Alps into an impassable wilderness and then
-          need a god or hero to show Hannibal the way, like tragedians
-          who end a play with a god from the machine. He notes that
-          Gallic armies had crossed the mountains many times, and credits
-          the crossing to Hannibal's planning and intelligence.
+          Rejects it outright (3.47–48). Polybius ridicules historians who
+          exaggerate the Alps into an impassable wilderness and then need a
+          god or hero to show Hannibal the way, like tragedians who end a
+          play with a god from the machine.
       - source_slug: livy-auc
         what_it_says: >
           Keeps a version of it. Livy (21.22) reports the dream near the
@@ -180,98 +143,127 @@ points_of_difference:
           toward Italy, followed by a vast serpent and a storm. He frames
           it as a report, not as the reason the crossing succeeded.
     commentary: >
-      This is the point where the comparison touches the war's
-      propaganda. The writers Polybius attacks are almost certainly
-      Hannibal's own Greek historians, Silenus above all, whose account
-      of the dream survives more fully in Cicero (*On Divination* 1.49)
-      as a commission from a council of the gods. Polybius's own
-      wording betrays the target: three times in the passage he
-      wavers between "a god" and "a hero" as the guide, which Briquel
-      read as the trace of Heracles-Melqart, who was both. The motif
-      of a divine guide through impassable country also follows the
-      model of Alexander's march to Siwah, led by snakes or ravens, a
-      template the site treats in its
+      The writers Polybius attacks are almost certainly Hannibal's own Greek
+      historians, Silenus above all, whose account of the dream survives
+      more fully in Cicero (*On Divination* 1.49) as a commission from a
+      council of the gods. Polybius's wording betrays the target: three
+      times in the passage he wavers between "a god" and "a hero" as the
+      guide, which Briquel read as the trace of Heracles-Melqart, who was
+      both. The motif of a divine guide through impassable country also
+      follows the model of Alexander's march to Siwah, led by snakes or
+      ravens, a template the site treats in its
       [claim on the Alexander model](/claims/hannibal-alexander-model).
-      Nepos (*Hannibal* 3.4)
-      still repeats in Rome, nearly two centuries later, that no army
-      but Hercules's had crossed before Hannibal's. Polybius's scorn is
-      therefore evidence twice over: that the divinely guided crossing
-      was a story in wide circulation, and that the best-informed
+      Polybius's scorn is evidence twice over: that the divinely guided
+      crossing was a story in wide circulation, and that the best-informed
       surviving historian treated it as literature. The site follows
       Polybius on what happened in the mountains and treats the divine
-      narrative as evidence of how Hannibal's circle presented the
-      march, set out in
-      [The march as a labor](/narratives/hannibal-and-heracles).
+      narrative as evidence of how Hannibal's circle presented the march,
+      set out in [The march as a labor](/narratives/hannibal-and-heracles).
 
-  - topic: Casualty figures
+  - topic: Which pass Hannibal used
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          The army arrived in Italy with approximately
-          26,000 of the ~40,000 who began the crossing —
-          a loss of roughly 14,000 across the fifteen days
-          of march through the high passes.
+          Does not name it, but supplies a sequence of features: the
+          approach through Allobrogian country, the ambushes in a narrow
+          defile, the summit view of the Po plain, the snow lying on the old
+          ice at the top, and the broken path in the descent.
       - source_slug: livy-auc
         what_it_says: >
-          Casualty figures broadly consistent with
-          Polybius, with slight variation in the
-          breakdown by category.
+          Does not name it either, and says the question was already
+          disputed in his day. His geography is looser than Polybius's and
+          sometimes hard to reconcile with it.
     commentary: >
-      The two sources are substantively consistent on
-      casualties. Modern scholarship has accepted the broad
-      figure (~14,000 lost in the crossing) as the best
-      available estimate. Whether the losses fell more on
-      infantry or on cavalry, on Africans or on Iberians,
-      cannot be reconstructed from the surviving record
-      with precision.
+      Modern candidates include the Col du Clapier, Mont Cenis, the Little
+      St Bernard, Montgenèvre and the Col de la Traversette. A 2016 study
+      reported a layer of disturbed, dung-rich soil below the Traversette
+      dated to around the right time, which has drawn attention to that
+      pass, though the dating and its interpretation have been challenged.
+      Polybius's sequence remains the test any identification has to pass.
+      The question is open and treated as such under
+      [which pass](/openQuestions/alps-which-pass).
+
+  - topic: Breaking the rock
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          No fire and no vinegar. The broken stretch is rebuilt by cutting a
+          path along the cliff face, one day's work for horses and pack
+          animals and three for the elephants, with Numidians in relays
+          (3.55).
+      - source_slug: livy-auc
+        what_it_says: >
+          Trees are felled and burned against the rock, and vinegar is
+          poured on the heated stone to split it (21.37).
+    commentary: >
+      The vinegar story is the most retold detail of the crossing and it is
+      not in Polybius, who was interested in exactly this kind of practical
+      detail and describes the road-building at length. That silence is the
+      strongest reason to doubt it. The technique itself is not absurd.
+      Fire-setting was a real way of breaking rock, and Pliny (*Natural
+      History* 33.71) describes miners splitting hard stone with fire and
+      vinegar, though whether the vinegar did any work is debated. So the
+      episode may be a Latin elaboration built on a known mining practice,
+      or a garbled memory of fire used somewhere on the route. What the
+      evidence does not support is telling it, as popular accounts
+      usually do, as the way Hannibal got down the mountain.
+
+  - topic: How many men came through
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          Precise and confident. About 50,000 foot and 9,000 horse after the
+          Pyrenees (3.35); 12,000 African and 8,000 Iberian foot and no more
+          than 6,000 horse on reaching the Po plain (3.56), figures he took
+          from Hannibal's own inscription.
+      - source_slug: livy-auc
+        what_it_says: >
+          No settled figure. His sources ranged from 26,000 to 120,000 men
+          reaching Italy, and Cincius Alimentus put the losses after the
+          Rhône at 36,000 (21.38).
+    commentary: >
+      Polybius's arrival figures are the best evidence, because they come
+      from a document Hannibal published. They are also Hannibal's numbers,
+      set up years later at a Greek sanctuary, and a general has reasons
+      both to shrink the army he brought and to magnify the obstacles he
+      beat. Livy's range shows that the Roman tradition had no agreed
+      count at all, and that the higher figures served a story of a vast
+      invading horde. How the losses divide between the march through Gaul
+      and the mountains, or between Africans and Iberians, cannot be
+      recovered.
 
 working_reconstruction: >
-  The Alps crossing is one of the cases where the source
-  comparison's methodological yield is unusually high
-  relative to the historical reconstruction's payoff. The
-  broad facts are well established: a difficult fifteen-day
-  passage through the high Alpine passes in late autumn
-  218 BCE, substantial losses (~14,000), arrival in Italy
-  with an army still capable of sustained operations. The
-  specific pass remains unresolved despite extensive modern
-  field investigation. Where the source comparison is
-  particularly valuable is methodologically: the Polybian
-  account is unusually careful by ancient-historiographical
-  standards (the field-investigation claim, the
-  topographical-feature sequence, the operational detail)
-  while the Livian additions are unusually clear cases of
-  literary elaboration that should not be retained in
-  modern reconstruction.
+  The broad facts are secure: a crossing of about fifteen days in late
+  autumn 218 BCE, heavy losses, and an army of roughly 26,000 that came
+  down into the Po plain still able to fight. The pass is not known.
+  Polybius's account is the base for everything else, and his detailed
+  topography is what makes the route question answerable at all.
 
-  The vinegar episode is the textbook example. It is
-  preserved in Livy, not in Polybius, the chemistry does
-  not work, and the dramatic shape fits Latin moral-
-  narrative conventions. Almost every modern popular
-  treatment of the Alps crossing repeats the vinegar
-  story; almost no specialist treatment retains it. The
-  gap between popular reception and specialist
-  source-critical reading is the methodological
-  pedagogical point this comparison is best positioned
-  to make.
+  It is not a neutral base. Polybius was arguing with Hannibal's
+  historians, and his deflation of the Alps served two purposes at once:
+  it removed the gods and credited Hannibal's planning, and it placed
+  Hannibal among the Gallic invaders Polybius had already written up as a
+  recurring danger to civilized peoples. He also saw the route after Rome
+  had conquered the country on both sides of it. Livy adds drama and the
+  vinegar, but he preserves something Polybius hides, which is how little
+  agreement there was about the army that came over.
 
-  For the pass identification specifically, the Polybian
-  topographical features remain the principal constraints
-  on modern reconstruction. Recent work using animal-dung
-  evidence from sediment cores has strengthened the case
-  for Col de la Traversette, but the question is
-  genuinely unresolved and is unlikely to be definitively
-  settled. The point worth making is that the Polybian
-  field-investigation methodology produced an account
-  detailed enough to make the question askable two
-  millennia later — a remarkable instance of ancient
-  historiographical care.
+  The site's reading takes Polybius on what happened, Livy on the extent
+  of disagreement, and neither on what the crossing meant. For Hannibal's
+  circle it was a labor worthy of Heracles; for Polybius a well-run march
+  of the kind barbarians made regularly. For the Romans of 218 it was an
+  enemy army arriving in the middle of a Gallic revolt, which is where its
+  danger lay.
 
 related_takes: []
 related_claims:
   - hannibal-campaign-heraclean-presentation
   - hannibal-alexander-model
+  - alps-troop-losses
 related_narratives:
   - hannibal-and-heracles
-related_questions: []
+  - crossing-of-the-alps
+related_questions:
+  - alps-which-pass
 
-last_revised: "2026-09-14"
+last_revised: "2026-09-15"
