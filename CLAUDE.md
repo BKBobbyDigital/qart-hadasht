@@ -558,8 +558,12 @@ Key components in `src/components/`:
   live in `src/data/maps/*.json`; coastline data in
   `src/data/coastline-mediterranean.json`. Period and event frontmatter
   can opt in via `map_id` + `map_caption` fields. Currently used for
-  the three Punic War strategic maps (FPW, SPW, TPW) on the period
-  pages and on the war-level event pages.
+  the FPW and SPW strategic maps on the period pages and war-level
+  event pages (the TPW map was replaced by a Commons city plan).
+- `MapFigure.astro` — credited third-party map (Wikimedia Commons CC
+  or PD) from an event's or period's `route_figure` field: image links
+  to the full file, caption with inline markdown, credit and license
+  links. Used on all three Punic War period and event pages.
 - `Timeline.astro` — keystone-events horizontal strip; no longer
   rendered anywhere (removed from /events when the Timeline view
   became the default). Preserved for potential future reuse.
@@ -2107,6 +2111,68 @@ reconstructed from lost text. New contested claim
 `fernandez-camacho-silencing-silenus-2025`. Strabo and Silenus source
 pages now describe the silencing and the invention argument.
 
+### The Alps: hard or ordinary (Sep 2026)
+
+From Miles pp. 258–259 (user photos). Commit `d517de4`. Hannibal's
+historians wrote the Alps as impassable without a divine guide;
+Polybius (3.47–48) answered that Gallic armies crossed them routinely.
+Miles adds two points: the deflation makes Hannibal one more barbarian
+invader, and Polybius's walk of the route through colonized country
+shows distance rather than authority. **Site position:** the first
+point is supported by Polybius's own framing of the Gauls (2.35); the
+second is accepted only narrowed to the mountains, because Polybius is
+himself the main witness to the Gallic danger (2.13, 2.23) and claims
+informants present in 218 (3.48.12). This became a new first point of
+difference in `sourceComparisons/alps-crossing.yaml` (with Nepos 3.4
+added as a source passage), and a paragraph in the Heracles narrative.
+
+**Errors the pass exposed, all checked against the text, and fixed on
+the comparison, the Alps event and narrative, the which-pass open
+question and `claims/alps-troop-losses`:**
+- Polybius has **no fire or vinegar**; he has a path cut along the
+  cliff (3.55). The vinegar is Livy 21.37 only. Don't call the
+  chemistry impossible: fire-setting was real and Pliny *NH* 33.71
+  mentions vinegar in mining.
+- Livy's troop numbers are **not** consistent with Polybius: 21.38
+  gives 26,000 to 120,000 and Cincius's 36,000 lost.
+- **Figures:** 90,000 foot / 12,000 horse leaving Carthago Nova (3.35);
+  50,000 / 9,000 after the Pyrenees (3.35); 37 elephants at the Rhône
+  (3.42); 12,000 African + 8,000 Iberian foot, ≤6,000 horse on arrival
+  (3.56); elephants fought at the Trebia and nearly all died after
+  (3.74). The Rhône army figure (3.60.5) was never read in the text,
+  so the site does not use it.
+
+The comparison was also rewritten for style (it predated the prose
+passes).
+
+### War maps from Wikimedia Commons (Sep 2026)
+
+The in-house SPW map stopped at the Po in 218, and the user wanted
+Hannibal's whole route (prompted by the map in Miles). Commits
+`8dc5c71`, `6467f80`, `14018a2`.
+
+- **The user tried an AI-generated map and it was rejected:** Trasimene
+  east of the Apennines, Trebia and Cannae misplaced, Scipio sailing
+  from New Carthage, Hasdrubal's route leaving Italy, an apocryphal
+  Hannibal quote, unclear license. Its *approach* is the design brief
+  for a future in-house Italy map (see tabled item 8).
+- **Mechanism:** optional `route_figure` on events and periods (src,
+  alt, caption, credit, credit_url, license, license_url) rendered by
+  `MapFigure.astro` below any in-house map; caption renders inline
+  markdown. Images live in `public/maps/`, resized only. CC/PD only.
+- **Placed:** SPW pages, Harrias's full Hannibal route (CC BY-SA 4.0,
+  movements after Miles). FPW pages, Harrias's Sicily battles map
+  (CC BY-SA 3.0, "a.C." dates explained in caption), below the
+  in-house map, which stays for Regulus's African campaign. TPW pages,
+  Harrias's *City of Carthage c. 149 BC* (CC BY-SA 4.0) **replacing**
+  the in-house map; `tpw.json` deleted.
+- **Events route rule:** the fallback Leaflet point map no longer
+  renders when an event has a `route_figure` (it appeared on the TPW
+  event once `map_id` was removed).
+- **Rejected and held candidates** are listed under "Maps system"
+  below. Captions must name what the map simplifies (principal moves
+  only, unknown Alps pass, reconstructed walls).
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2546,6 +2612,10 @@ collection:
   surfaced in infobox); `map_id` + `map_caption` (opt-in
   HistoricalMap embed)
 - **periods**: `map_id` + `map_caption` (same)
+- **events + periods**: `route_figure` (optional credited Commons map:
+  src, alt, caption, credit, credit_url, license, license_url; one per
+  page for now). On events it also suppresses the fallback Leaflet
+  point map.
 - **places**: `founded` (founder + date object); `cultural_sphere`
   (enum); `current_status` (freeform); `patron_deity` (freeform)
 - **people**: `family` (father / mother / spouses / children with
