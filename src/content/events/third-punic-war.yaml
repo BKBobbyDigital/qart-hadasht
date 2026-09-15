@@ -89,6 +89,21 @@ summary: >
   (Scipio's tears, Hasdrubal's wife's self-immolation, the burning
   of the city). Both should be read together.
 
-map_id: tpw
-map_caption: >
-  Strategic geography of the siege. The Carthaginian territorial remnant by 149 BCE, substantially reduced by Masinissa's encroachment over the preceding half-century, in tyrian; the Numidian kingdom in olive. The 149–146 siege marked at the city itself. Polygons adapted from Goldsworthy 2003 and Hoyos 2010.
+route_figure:
+  src: /maps/carthage-149-harrias.png
+  alt: >
+    Plan of the city of Carthage in 149 BCE between the Gulf of Tunis
+    and the Lake of Tunis, showing the city walls, a triple line of
+    defenses across the isthmus on the west, the Byrsa, the Temple of
+    Apollo, the military and civil harbors, and the mole.
+  caption: >
+    Carthage at the start of the Roman siege in 149 BCE, following
+    Goldsworthy and Miles: the city walls, the triple defenses across
+    the isthmus, the Byrsa, the military and commercial harbors, and the
+    mole Scipio Aemilianus built to close the harbor mouth. The course
+    of the walls is a modern reconstruction, and the map's labels keep
+    their British spelling.
+  credit: Harrias, via Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:City_of_Carthage_circa_149_BC.png
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/

@@ -49,6 +49,22 @@ principal_sources:
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
+route_figure:
+  src: /maps/fpw-sicily-harrias.jpg
+  alt: >
+    Relief map of Sicily marking the battles and sieges of the First
+    Punic War with dates: Messana, Agrigentum, the Lipari islands,
+    Mylae, Tyndaris, Ecnomus, Panormus, Lilybaeum, Drepana, Eryx and
+    the Aegates Islands.
+  caption: >
+    Sicily in the First Punic War, 264–241 BCE, with the principal
+    battles and sieges, following Goldsworthy. Dates are written in the
+    Italian form "a.C.", meaning BCE. The war's African campaign of
+    256–255 is shown on the map above.
+  credit: Harrias, via Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Sicilia_-_prima_guerra_punica_key_en.svg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
 map_id: fpw
 map_caption: >
   Strategic geography of the First Punic War. Carthaginian territory
@@ -59,7 +75,7 @@ map_caption: >
   (260), Ecnomus (256), Aegates (241), and the Tunis–Bagradas
   engagements around Regulus's 255 defeat. Territorial polygons
   adapted from Hoyos 2010; battle locations from Goldsworthy 2003.
-last_revised: "2026-09-13"
+last_revised: "2026-09-15"
 ---
 
 The First Punic War was the longest continuous war of the entire

@@ -38,18 +38,25 @@ principal_sources:
   - miles-carthage-2010
   - goldsworthy-fall-carthage-2003
   - picard-life-death-1968
-map_id: tpw
-map_caption: >
-  Strategic geography of the Third Punic War. The Carthaginian
-  territorial remnant by 149 BCE, substantially smaller than the
-  pre-201 African heartland after fifty years of Masinissa's
-  encroachment under Roman cover, is shown in tyrian; the Numidian
-  kingdom in olive. The siege of Carthage 149–146 BCE is marked at
-  the city itself; Scipio Aemilianus took over command in 147 and
-  tightened the siege through systematic demolition of the city's
-  outer defenses before the final spring 146 assault. Polygons
-  adapted from Goldsworthy 2003 and Hoyos 2010.
-last_revised: "2026-05-22"
+route_figure:
+  src: /maps/carthage-149-harrias.png
+  alt: >
+    Plan of the city of Carthage in 149 BCE between the Gulf of Tunis
+    and the Lake of Tunis, showing the city walls, a triple line of
+    defenses across the isthmus on the west, the Byrsa, the Temple of
+    Apollo, the military and civil harbors, and the mole.
+  caption: >
+    Carthage at the start of the Roman siege in 149 BCE, following
+    Goldsworthy and Miles: the city walls, the triple defenses across
+    the isthmus, the Byrsa, the military and commercial harbors, and the
+    mole Scipio Aemilianus built to close the harbor mouth. The course
+    of the walls is a modern reconstruction, and the map's labels keep
+    their British spelling.
+  credit: Harrias, via Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:City_of_Carthage_circa_149_BC.png
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+last_revised: "2026-09-15"
 ---
 
 The four-year crisis from the 150 BCE Carthaginian expedition against

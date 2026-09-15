@@ -114,6 +114,22 @@ summary: >
   Sardinian seizure) produced the Barcid response that became
   the Second Punic War a generation later.
 
+route_figure:
+  src: /maps/fpw-sicily-harrias.jpg
+  alt: >
+    Relief map of Sicily marking the battles and sieges of the First
+    Punic War with dates: Messana, Agrigentum, the Lipari islands,
+    Mylae, Tyndaris, Ecnomus, Panormus, Lilybaeum, Drepana, Eryx and
+    the Aegates Islands.
+  caption: >
+    Sicily in the First Punic War, 264–241 BCE, with the principal
+    battles and sieges, following Goldsworthy. Dates are written in the
+    Italian form "a.C.", meaning BCE. The war's African campaign of
+    256–255 is shown on the map above.
+  credit: Harrias, via Wikimedia Commons
+  credit_url: https://commons.wikimedia.org/wiki/File:Sicilia_-_prima_guerra_punica_key_en.svg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
 map_id: fpw
 map_caption: >
   Strategic geography of the war. Carthaginian territory in tyrian; Roman Italy and Hiero II's Syracusan kingdom in slate. Regulus's 256 BCE African invasion as a dashed line. Battle markers at Mylae (260), Ecnomus (256), Aegates (241), and Tunis (255). Polygons adapted from Hoyos 2010 and Goldsworthy 2003.

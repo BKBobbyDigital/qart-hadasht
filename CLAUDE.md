@@ -896,15 +896,27 @@ exists.** Each item produced new content with full back-citation:
 ### Maps system
 
 `HistoricalMap.astro` component renders server-side SVG historical-
-atlas maps from JSON config + Natural Earth 50m coastline data. Three
-maps shipped:
+atlas maps from JSON config + Natural Earth 50m coastline data. Two
+war maps remain:
 - `src/data/maps/fpw.json` — First Punic War strategic geography
+  (kept because it carries Regulus's African expedition)
 - `src/data/maps/spw.json` — Second Punic War (widest theater, with
   Hannibal's dashed Pyrenees-Rhône-Alps route)
-- `src/data/maps/tpw.json` — Third Punic War zoomed to Cap Bon
 
-Periods 04, 06, 07 and the war-level event pages all surface the
-relevant map via `map_id` + `map_caption` frontmatter fields.
+Periods 04 and 06 and the FPW/SPW event pages surface these via
+`map_id` + `map_caption`. **Commons maps (Sep 2026):** the optional
+`route_figure` field renders a credited CC map through `MapFigure.astro`.
+FPW pages add Harrias's Sicily battles map (CC BY-SA 3.0) under the
+in-house map; SPW pages add Harrias's full Hannibal route (CC BY-SA
+4.0); the TPW period and event pages **replaced** the old `tpw.json`
+map (deleted) with Harrias's *City of Carthage c. 149 BC* (CC BY-SA
+4.0). Candidates rejected for errors: Harrias/GalaxMaps "264 BC" and
+"237 BC" (solid "Carthaginian Empire" coast; the 237 legend has
+Sardinia and Corsica ceded under Lutatius), Goran tek-en "150 BC"
+(Macedonia as Roman). **Held:** T8612's *Roman Province of Africa in
+146 BC* (CC BY-SA 4.0, after Harris in CAH) because its terrain base
+layer is unattributed; add it if that checks out (pages take one
+figure today, so this needs `route_figure` to accept a list).
 
 ### Polish-pass work (commits 7e828f6 → 97ead55)
 
