@@ -1,0 +1,49 @@
+slug: arrian-anabasis
+title: Anabasis of Alexander
+author: Arrian
+type: literary
+is_primary: true
+language: greek
+date_composed:
+  value: 130
+  precision: decade
+  circa: true
+temporal_distance_years: 460
+access_to_witnesses: one_step
+bias_notes: >
+  A Greek senator and governor under Hadrian, writing more than four
+  centuries after Alexander but working from the memoirs of men who had
+  served with him, chiefly Ptolemy and Aristobulus, whom he names and
+  often compares. That practice makes him the most careful surviving
+  historian of Alexander, and also the one who shows most clearly how
+  much of the Alexander story was already shaped by his companions'
+  interest in presenting him as favored by the gods.
+public_domain_translation:
+  translator: E. J. Chinnock
+  year: 1884
+  url: https://www.gutenberg.org/files/46976/46976-h/46976-h.htm
+summary: >
+  Seven books on the campaigns of Alexander the Great, the fullest
+  surviving narrative history of his reign. The site cites it not for
+  Alexander's own sake but for two passages that bear on Carthage and
+  on how Hannibal was presented.
+
+  The first is the siege of Tyre in 332. Alexander demanded to sacrifice
+  to the Tyrian Heracles, that is Melqart, in his own temple, and the
+  Tyrians' refusal led to the siege (2.16). When the city fell he spared
+  those who had taken refuge in the temple, among them envoys from
+  Carthage who had come to their mother city for the god's festival,
+  according to ancient custom (2.24). Carthage's leading families
+  therefore knew at first hand the story of a Macedonian king who
+  claimed Melqart-Heracles as his own.
+
+  The second is Alexander's journey to the oracle of Ammon at Siwah
+  (3.3–4). Arrian says Alexander went partly to emulate Perseus and
+  Heracles, his claimed ancestors, who had consulted the oracle, and
+  reports that the army was guided through the desert by two talking
+  snakes according to Ptolemy, or by two ravens according to
+  Aristobulus. He also describes the oasis's miraculous spring. This
+  template of a detour to a sanctuary at the world's edge, divine guides
+  and a marvel is the one scholars see behind Silenus's account of
+  Hannibal at Gades, treated under
+  [The march as a labor](/narratives/hannibal-and-heracles).

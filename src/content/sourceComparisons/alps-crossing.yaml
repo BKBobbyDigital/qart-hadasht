@@ -184,7 +184,15 @@ points_of_difference:
       propaganda. The writers Polybius attacks are almost certainly
       Hannibal's own Greek historians, Silenus above all, whose account
       of the dream survives more fully in Cicero (*On Divination* 1.49)
-      as a commission from a council of the gods. Nepos (*Hannibal* 3.4)
+      as a commission from a council of the gods. Polybius's own
+      wording betrays the target: three times in the passage he
+      wavers between "a god" and "a hero" as the guide, which Briquel
+      read as the trace of Heracles-Melqart, who was both. The motif
+      of a divine guide through impassable country also follows the
+      model of Alexander's march to Siwah, led by snakes or ravens, a
+      template the site treats in its
+      [claim on the Alexander model](/claims/hannibal-alexander-model).
+      Nepos (*Hannibal* 3.4)
       still repeats in Rome, nearly two centuries later, that no army
       but Hercules's had crossed before Hannibal's. Polybius's scorn is
       therefore evidence twice over: that the divinely guided crossing
@@ -261,6 +269,7 @@ working_reconstruction: >
 related_takes: []
 related_claims:
   - hannibal-campaign-heraclean-presentation
+  - hannibal-alexander-model
 related_narratives:
   - hannibal-and-heracles
 related_questions: []

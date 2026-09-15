@@ -1,0 +1,126 @@
+slug: hannibal-alexander-model
+statement: >
+  The presentation of Hannibal's campaign by the Greek historians in his
+  camp followed the model of Alexander the Great's journey to the oracle
+  of Ammon at Siwah: an unnecessary detour to a sanctuary at the edge of
+  the world (Gades), a marvelous spring there, a divine oracle (the
+  dream), and a divine guide on the march that followed. Heracles was the
+  model both generals claimed to follow, and Hannibal's imitation of
+  Heracles ran through the example of Alexander.
+confidence: contested
+scholarly_consensus: >
+  That Hellenistic generals modeled themselves on Alexander, and that
+  Alexander modeled himself on Heracles, is standard. That Hannibal's
+  circle presented him in this mold is widely accepted in outline and is
+  the premise of treatments of him as a Hellenistic figure. The
+  specific parallel with Siwah, and the argument that Silenus invented
+  the Gades spring on the Siwah model, are recent and argued rather than
+  settled.
+dispute_summary: >
+  The parallels are specific. Alexander, by Arrian's account, went to
+  Siwah partly to emulate Perseus and Heracles, was led through the
+  desert by snakes or ravens, found a sanctuary famous for a spring
+  whose temperature ran against the sun, and received an oracle there.
+  Hannibal, before the Italian war, made a symbolic detour to Gades,
+  where Heracles's western labor began; Silenus described a spring there
+  whose flow ran against the tides; Silenus's version of the dream, which
+  Cicero dates to just after Saguntum, may have been set in the same
+  temple; and Polybius complains of historians who gave Hannibal a god or
+  hero as a guide over the Alps. The Siwah spring was a known marvel
+  since Herodotus, while no source describes the Gades spring, or even
+  the Gades temple, before Silenus, and Posidonius could not find it.
+
+  The Carthaginian side of the connection is not speculative. When
+  Alexander besieged Tyre in 332 over his demand to sacrifice to its
+  Heracles, Carthaginian envoys were in the city for Melqart's festival
+  and were spared with the temple's suppliants. The Carthaginian elite
+  knew the Alexander-Melqart story from the inside. Later tradition also
+  found it natural to have Hannibal rank Alexander first among generals,
+  in the conversation with Scipio at Ephesus that Livy reports, though
+  that exchange is very likely invented.
+
+  The site's reading is that the correspondence is not coincidence. The
+  pattern is too specific, the Carthaginian connection to the Alexander
+  story too direct, and the Hellenistic idiom of Hannibal's circle too
+  well attested elsewhere, from a Spartan tutor to a bilingual dedication
+  at a Greek sanctuary.
+
+  Two alternatives deserve weight. One is genre: Greek historians of the
+  period wrote about generals in the Alexander mode as a matter of
+  convention, so the pattern may be Silenus's habit of writing rather
+  than Hannibal's design, though a general who hired and kept such a
+  historian chose the result. The other is reconstruction: Silenus's
+  text is lost, and several of the parallels (the dream's setting at
+  Gades, the spring as invention) are modern inferences from fragments,
+  so the full template may be tidier in the scholarship than it was on
+  the page.
+sources:
+  - source: arrian-anabasis
+    stance: supports
+    passage_ref: "3.3–4"
+    passage_summary: >
+      Alexander visits the oracle of Ammon partly to emulate Perseus and
+      Heracles; the army is guided through the desert by snakes
+      (Ptolemy) or ravens (Aristobulus); the oasis has a miraculous
+      spring.
+  - source: arrian-anabasis
+    stance: supports
+    passage_ref: "2.24"
+    passage_summary: >
+      At the fall of Tyre, Alexander spares those who fled to the temple
+      of Heracles, including Carthaginian envoys who had come to the
+      mother city for the god's festival by ancient custom.
+  - source: herodotus-histories
+    stance: supports
+    passage_ref: "4.181"
+    passage_summary: >
+      Describes the Spring of the Sun among the Ammonians, warm at dawn,
+      cold at noon, boiling at midnight, establishing the Siwah marvel
+      long before Alexander's visit.
+  - source: strabo-geography
+    stance: supports
+    passage_ref: "3.5.7–9"
+    passage_summary: >
+      Discusses the Gades spring said to fail at high tide and fill at low
+      tide, naming Silenus among its earlier describers and reporting
+      Posidonius's failure to find it as described.
+  - source: cicero-de-divinatione
+    stance: supports
+    passage_ref: "1.49"
+    passage_summary: >
+      Silenus's account of Hannibal's dream, dated after the capture of
+      Saguntum, in which Jupiter commissions the invasion and assigns a
+      divine guide.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.47–48"
+    passage_summary: >
+      Polybius attacks historians who gave Hannibal a god or a hero as a
+      guide over the Alps, confirming that the divine-guide motif was
+      part of the Hannibalic narrative he was refuting.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "35.14"
+    passage_summary: >
+      Livy reports a conversation at Ephesus in which Hannibal names
+      Alexander the greatest general, Pyrrhus second and himself third.
+      The anecdote is widely doubted as history, but shows the tradition
+      took Hannibal's regard for Alexander for granted.
+  - source: fernandez-camacho-silencing-silenus-2025
+    stance: supports
+    passage_ref: "pp. 36–44"
+    passage_summary: >
+      Argues that Silenus wrote Hannibal's visit to Gades on the template
+      of Alexander at Siwah, inventing the reverse-tidal spring as the
+      counterpart of the Spring of the Sun, and that Hannibal's imitation
+      of Heracles was mediated by imitation of Alexander.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: place
+    slug: gades
+    role: location
+  - type: deity
+    slug: melqart
+    role: context

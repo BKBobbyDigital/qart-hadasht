@@ -8,7 +8,10 @@ thesis: >
   sanctuary at Gades, at the western edge of the world, and it ran along
   the road tradition said the hero had opened over the Alps. Silenus,
   the Greek historian in Hannibal's camp, narrated it as sanctioned by
-  Jupiter in a dream. Richard Miles calls this propaganda, and much of it
+  Jupiter in a dream, and wrote the whole episode on the pattern of
+  Alexander the Great's journey to the oracle of Ammon, the model every
+  Hellenistic general measured himself against. Richard Miles calls this
+  propaganda, and much of it
   plainly was meant for audiences: Greek cities, Italian peoples who
   honored Hercules, Celtic allies, and a mixed army that needed a reason
   to follow one man across the mountains. What remains uncertain is how
@@ -29,6 +32,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - hannibal-campaign-heraclean-presentation
+  - hannibal-alexander-model
   - melqart-heracles-identification
 last_revised: "2026-09-14"
 ---
@@ -57,13 +61,87 @@ that set out from Gades toward Italy was, for anyone who knew the story,
 setting out where the hero's return journey began.
 
 The one surviving trace of what Silenus wrote about this is small but
-telling. Strabo (3.5.7), discussing the famous spring in the Heracleion
-whose flow was said to rise and fall against the tides, names
+telling. Strabo (3.5.7–9), discussing a famous spring in the Heracleion
+said to fail at high tide and fill at low tide, names
 [Silenus](/sources/silenus-caleacte) among the writers who described
 it. Miles takes the vows to be Silenus's episode and the spring to be a
-fragment of his description of the sanctuary. Whatever else his history
-contained, it spent time at the altar where Hannibal's war was
-consecrated.
+fragment of his description of the sanctuary.
+
+A recent study pushes this much further.
+[Pamina Fernández Camacho](/sources/fernandez-camacho-silencing-silenus-2025)
+points out that Silenus is the earliest writer on the spring, yet
+Strabo's account demotes him to a name quoted by someone else and leads
+with Polybius, who presents the description as his own and very likely
+took it from Silenus while suppressing his name, exactly as he treats
+the Hannibal historians over the Alps. She notes too that no surviving
+source mentions the Gades sanctuary at all before Silenus, and that when
+Posidonius spent a month at Gades looking for the spring he found only
+ordinary wells, none of which behaved as described. Her conclusion is
+that the spring was never there: Silenus invented it. A marvel that ran
+against the tides at the edge of the Ocean was a wonder made to order
+for a general's visit, and, as the next section shows, it had a model.
+
+## The Alexander template
+
+Heracles was not the only figure Hannibal was following to Gades. Every
+general of the Hellenistic world measured himself against Alexander,
+and Alexander had measured himself against Heracles. The route to
+Heracles ran through Alexander.
+
+In 331, in the middle of his conquest of the Persian empire, Alexander
+turned aside from any military purpose and marched deep into the
+Egyptian desert to the oracle of Ammon at Siwah. Arrian (3.3) gives the
+reason his historians offered: Perseus and Heracles, from whom he
+claimed descent, had consulted the oracle, and he wished to emulate
+them. His companions wrote the journey up as a sequence of divine
+favors. The army, lost in the sand, was led to the oasis by two talking
+snakes in Ptolemy's version, by two ravens in Aristobulus's. The oasis
+held a famous marvel, the Spring of the Sun, which Herodotus (4.181) had
+already described: warm at dawn, cold at noon when the sun was
+strongest, boiling at midnight. And at the sanctuary the god spoke.
+
+Set Hannibal's Gades beside it. An unnecessary detour, made on the eve
+of a war of conquest, to a sanctuary at the edge of the known world. A
+marvelous spring there that ran against the heavenly power ruling the
+place: at Siwah the sun, at Gades, on the shore of the Ocean, the moon
+and her tides. A divine communication, the dream in which Jupiter
+commissioned the invasion. And on the march that followed, a guide
+supplied by heaven, the god or hero whom Polybius mocked. Fernández
+Camacho argues that Silenus built his account of Gades on exactly this
+template, and that the Gades spring was his counterpart to the Spring
+of the Sun. The difference between the two springs makes her point: the
+one at Siwah was famous before Alexander ever arrived, while the one at
+Gades appears in no source before the man who wrote up Hannibal's
+visit.
+
+The Carthaginian end of the connection is firmer than it might seem.
+When Alexander besieged Tyre in 332, the quarrel began with his demand
+to sacrifice to the city's Heracles, that is, to Melqart in his own
+temple (Arrian 2.16). When the city fell, he spared those who had taken
+refuge in the temple, and among them, Arrian says (2.24), were envoys
+from Carthage who had come to the mother city for the god's festival
+according to ancient custom. Carthage's leading families did not learn
+the story of the Macedonian king who claimed their god from Greek
+books. They were in the temple when it happened. A century later the
+Barcids ran a state in Iberia on Hellenistic lines, struck silver with
+a portrait in the Hellenistic royal manner, and kept Greek historians
+in their camp; and a later tradition found it natural to have Hannibal,
+asked by Scipio to name the greatest general, put Alexander first
+(Livy 35.14), even if that conversation is almost certainly invented.
+
+The site's reading is that the correspondence is not coincidence, and
+the reasons are set out in the
+[claim on the Alexander model](/claims/hannibal-alexander-model). There
+are two honest cautions. Greek historians of the age wrote about their
+generals in the Alexander mode almost by reflex, so the pattern may be
+as much Silenus's professional habit as Hannibal's design, though a
+general who chose such a historian and kept him for fifteen years chose
+the result. And Silenus's text is lost, so parts of the template, the
+spring as an invention and the dream as set at Gades, are
+reconstructions from fragments that may be neater than the original.
+Neither caution touches the central point. Hannibal marched on Rome in
+the idiom of Alexander, and it was an idiom the Carthaginian elite had
+known since the day their envoys sheltered in Melqart's temple at Tyre.
 
 ## The road Heracles built
 
@@ -128,8 +206,17 @@ serpents destroying everything in its path. The guide told him it was
 the devastation of Italy, and that he should go on and not concern
 himself with what lay behind.
 
-Livy's version (21.22) is set on the march near the Ebro, and it is
-softer: a youth of godlike appearance sent by Jupiter, and behind
+Where the dream happened is itself a clue. Cicero's source places it
+just after the capture of Saguntum, which is when Hannibal made his
+journey to Gades, and the Gades temple was a known place for dream
+oracles; Fernández Camacho argues that Silenus set the dream there, in
+the sanctuary, as Alexander's oracle came to him in the sanctuary at
+Siwah. The pattern had a long life. Suetonius and Cassius Dio set a
+dream of future world rule for the young Julius Caesar in the same
+temple, after he had wept before a statue of Alexander.
+
+Livy's version (21.22) moves the dream onto the march near the Ebro, and
+it is softer: a youth of godlike appearance sent by Jupiter, and behind
 Hannibal a huge serpent with a storm in its wake. Miles regards
 Cicero's as the closer rendering of Silenus, and the difference is
 instructive. The council of the gods and the divine guide are the
@@ -179,8 +266,12 @@ it. In a passage aimed squarely at writers like Silenus, Polybius
 (3.47–48) mocks historians who first exaggerate the Alps into a
 wilderness no army could cross and then, having trapped themselves,
 bring in a god or hero to show Hannibal the way, like tragedians who
-cannot end a play without a god lowered onto the stage. The Alps, he
-points out, had been crossed many times by Gallic armies. Hannibal did
+cannot end a play without a god lowered onto the stage. Tellingly, Polybius
+cannot decide what kind of being the guide was, and three times in the
+passage he wavers between a god and a hero. The French scholar
+Dominique Briquel read that hesitation as the trace of the figure the
+Hannibal historians actually named, Heracles-Melqart, who was both. The
+Alps, Polybius points out, had been crossed many times by Gallic armies. Hannibal did
 not need a divine guide. He needed good intelligence and careful
 planning, and he had both.
 
@@ -200,6 +291,8 @@ Some of this is secure. Hannibal made vows at Melqart's sanctuary at
 Gades before the war; his historian wrote about that sanctuary; his
 historian narrated a dream in which the gods commissioned the invasion;
 the route he took was one Greek tradition already assigned to Heracles;
+the whole episode matches, point for point, the way Alexander's
+historians wrote his visit to Siwah;
 and the claim that only Hercules had crossed before him was still being
 repeated in Rome nearly two centuries later. Taken together, that is a
 deliberate framing of the campaign, and the
