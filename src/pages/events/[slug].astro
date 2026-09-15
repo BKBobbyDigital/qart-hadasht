@@ -361,7 +361,7 @@ const infoboxRows: InfoboxRow[] = [
 
     {data.route_figure && <MapFigure figure={data.route_figure} />}
 
-    {!data.map_id && eventMapPoints.length > 0 && (
+    {!data.map_id && !data.route_figure && eventMapPoints.length > 0 && (
       <Map
         points={eventMapPoints}
         height="320px"
