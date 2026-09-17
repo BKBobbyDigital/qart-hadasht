@@ -2615,13 +2615,16 @@ religion, script and commerce are not evidence of central command; the
 rest of that theme still leans integrationist and deserves its own pass.
 
 **Open items from the audits, in rough priority order:**
-- **Prose attributions.** `evidence-audit.mjs --list prose-attribution`
-  shows **21 claims** that name a modern historian inside
-  `scholarly_consensus`, `dispute_summary` or `notes`. Moving a citation
-  to `further_reading` does not touch the prose, so this is the residue
-  of the Sep 2026 separation pass. Mostly Hoyos. Each needs judgment:
-  either the characterization gets checked, or the name comes out and
-  the reading is described without a holder.
+- **Page references that would restore a name.** `prose-attribution` is
+  at **0**: the 21 flagged claims were rewritten to describe the reading
+  without the holder. Two attributions are worth restoring if the works
+  can be checked. The **Hoyos 2018** reference-work entry on Third Punic
+  War diplomacy carries the argument that Rome rebuffed Masinissa's
+  annexations until after 167, which both
+  `claims/masinissa-territorial-seizures-pattern` and
+  `destruction-not-weak-enough` use unattributed; a page reference would
+  let his name go back. The same holds for **Hoyos's monograph** on the
+  Mercenary War indemnity.
 - **Three claims that need a checked source**, flagged in their own
   `notes`: `kerkouane-preserved-punic-urban-fabric`,
   `tanit-late-emergence`, `tophet-stratigraphic-continuity`. Each rests
@@ -2743,8 +2746,28 @@ matter for any future sweep:**
 `evidence-audit.mjs` changed with it: `unpaged-modern` is now a rule
 rather than a count (149 → 6, and the 6 are the three flagged claims plus
 the tophet exclusion), and a new **`prose-attribution`** term catches the
-layer this exposed, since moving a citation does not clean prose that
-names the scholar. That is the top open item now.
+layer it exposed, since moving a citation does not clean prose that names
+the scholar.
+
+**That second layer was then cleared (21 → 0).** Twenty-one claims had
+credited positions to modern historians nobody had checked, almost all to
+Hoyos, usually alongside an unsourced claim that the position was the
+consensus. Each keeps its substance and loses the name, per the charter's
+rule that an unheld position is described rather than attributed. In four
+places the site's own synthesis had been handed to a scholar and now says
+so: the proximate-versus-structural distinction on the Mercenary War
+indemnity, the dual-purpose reading of Saguntum, the Tagus-to-Cannae
+continuity of method, and the institutional-separation reading of the
+suffeteship. Seven "consensus modern interpretation" assertions went with
+them (consensus 50 → 43). The `destruction-not-weak-enough` take was
+edited alongside `claims/masinissa-territorial-seizures-pattern` so the
+two would not diverge, which is the failure the overcorrection pass had
+just found on `hannibal-after-zama`.
+
+The rule itself was refined at the same time: a name is not flagged when
+the same claim cites that scholar with a `passage_ref`, because then the
+characterization has been checked. That is why Bailey keeps his name and
+Hoyos does not.
 
 ### Active work queue (complete)
 
