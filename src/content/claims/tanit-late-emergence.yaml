@@ -41,23 +41,20 @@ sources:
   - source: sznycer-civilisation-1978
     stance: supports
     passage_summary: >
-      Sznycer treats the late emergence as one of the
-      principal features of Carthaginian inscriptional history.
+      Sznycer's survey of Punic civilization covers the inscriptional record
+      in which the shift appears. The site has not checked the discussion
+      against the work, so this entry records only that the work covers the
+      subject.
+further_reading:
   - source: lancel-carthage-1995
-    stance: supports
-    passage_summary: >
-      Lancel's overview discusses the chronological shift and
-      surveys the competing explanations.
   - source: quinn-phoenicians-2018
-    stance: supports
-    passage_summary: >
-      Quinn's analysis emphasizes the Carthaginian-local
-      character of the development.
   - source: aubet-phoenicians-west-2001
-    stance: qualifies
-    passage_summary: >
-      Aubet treats the question as genuinely unresolved and
-      surveys the evidence on both sides.
+notes: >
+  This claim currently rests on modern overviews whose arguments the site
+  has not checked in the works themselves, and on no ancient or excavation-
+  report source. The underlying archaeology is not in doubt, but the
+  citation here is weak and the claim needs a checked source; it is listed
+  as an open item in the project notes.
 entities:
   - type: deity
     slug: tanit

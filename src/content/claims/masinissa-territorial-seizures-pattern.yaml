@@ -88,11 +88,6 @@ sources:
     passage_summary: >
       A senatorial delegation is sent to settle a border dispute between
       Masinissa and Carthage; no outcome is recorded.
-  - source: hoyos-third-punic-war-diplomacy-2018
-    stance: contradicts
-    passage_summary: >
-      Contrary to the general view, Rome rebuffed Masinissa's attempts
-      to annex Carthaginian territory until after 167 BCE.
   - source: bailey-rome-carthage-numidia-2018
     stance: contradicts
     passage_ref: "pp. 43–71"
@@ -102,6 +97,8 @@ sources:
       several of its decisions favored Carthage; the Third Punic War
       should not be read as the product of fifty years of Roman
       favoritism toward Masinissa.
+further_reading:
+  - source: hoyos-third-punic-war-diplomacy-2018
 entities:
   - type: person
     slug: masinissa

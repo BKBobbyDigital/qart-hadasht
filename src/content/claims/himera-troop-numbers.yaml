@@ -60,13 +60,8 @@ sources:
       that follow the same pattern of inflation; modern
       scholarship reads the breakdown as Timaean rather than
       historical.
+further_reading:
   - source: aubet-phoenicians-west-2001
-    stance: qualifies
-    passage_summary: >
-      Aubet treats the ancient figures as illustrative of
-      Greek-historiographic convention rather than historically
-      reliable, while affirming the underlying scale of the
-      expedition as substantial.
 entities:
   - type: event
     slug: battle-of-himera

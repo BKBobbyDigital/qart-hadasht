@@ -22,14 +22,8 @@ sources:
       coin) to rebel finances, and the resulting expansion of the
       war into a conflict between the Carthaginian state and large
       portions of its African hinterland.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the Libyan revolt as the structurally more
-      dangerous component of the war: mercenary contingents could
-      eventually be defeated militarily, but the disaffection of
-      the African subjects threatened the Carthaginian state's
-      basic fiscal and demographic foundation.
 entities:
   - type: event
     slug: mercenary-war

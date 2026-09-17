@@ -48,13 +48,6 @@ sources:
       Polybius reports the Carthaginian garrison and gives a sequence
       that places it before Roman action, while elsewhere acknowledging
       and rejecting Philinus's alternative tradition.
-  - source: hoyos-unplanned-wars-1998
-    stance: qualifies
-    passage_summary: >
-      Hoyos's central argument is that Polybius's narrative is shaped
-      by Fabius Pictor's pro-Roman framing and that the actual sequence
-      and framing of events was substantially more contingent than
-      Polybius preserves.
   - source: diodorus-library
     stance: qualifies
     passage_ref: "23.1"
@@ -62,6 +55,8 @@ sources:
       Diodorus's fragments are too brief to settle the question but
       preserve elements suggesting the Carthaginian and Roman responses
       were closer to simultaneous than Polybius's account implies.
+further_reading:
+  - source: hoyos-unplanned-wars-1998
 entities:
   - type: event
     slug: first-punic-war-outbreak

@@ -54,13 +54,8 @@ sources:
     passage_ref: "23.1"
     passage_summary: >
       Diodorus gives the Mamertine-expulsion variant.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: qualifies
-    passage_summary: >
-      Hoyos's reconstruction treats the question as
-      genuinely uncertain and emphasizes the multiple-
-      actors-with-incomplete-information character of the
-      situation.
 entities:
   - type: event
     slug: appius-claudius-crossing

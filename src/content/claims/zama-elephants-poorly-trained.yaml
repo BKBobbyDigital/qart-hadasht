@@ -22,11 +22,8 @@ sources:
       Hoyos argues the elephants were recently acquired and lacked the
       conditioning of Hannibal's earlier campaigns, where elephants performed
       more reliably under his direction.
+further_reading:
   - source: macdonald-carthage-2015
-    stance: supports
-    passage_summary: >
-      MacDonald notes the broader context of Carthage's rushed and improvised
-      preparations for Zama, of which the elephant force was one expression.
 entities:
   - type: person
     slug: hannibal-barca

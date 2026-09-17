@@ -39,16 +39,9 @@ sources:
     passage_summary: >
       Justin gives the reform-attribution narrative explicitly
       and treats it as Mago's principal achievement.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: qualifies
-    passage_summary: >
-      Hoyos discusses the transformation while treating
-      Justin's reform narrative with appropriate caution.
   - source: miles-carthage-2010
-    stance: qualifies
-    passage_summary: >
-      Miles integrates the Magonid period with the broader
-      6th-century Carthaginian transformation.
 entities:
   - type: event
     slug: magonid-rise

@@ -33,13 +33,8 @@ sources:
       Plutarch's Fabius traces the return to Fabian strategy after
       Cannae and the gradual restoration of Roman strategic position
       through avoidance of decisive engagement.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos identifies the post-Cannae Roman response as the structural
-      reason Hannibal's strategy could not succeed: a victory of this
-      scale should have ended the war and, in any other state of the
-      ancient Mediterranean, would have.
 entities:
   - type: event
     slug: battle-of-cannae

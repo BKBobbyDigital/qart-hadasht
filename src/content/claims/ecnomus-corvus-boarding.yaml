@@ -25,14 +25,8 @@ sources:
       first major Roman naval victory at Mylae (260 BCE) and
       treats its continued use through Ecnomus as the
       operative cause of Roman naval success in this period.
+further_reading:
   - source: goldsworthy-fall-carthage-2003
-    stance: supports
-    passage_summary: >
-      Goldsworthy provides extended modern analysis of the
-      *corvus*: the mechanical design, the tactical doctrine
-      built around it, the trade-offs (sea-keeping ability for
-      close-combat capability), and the eventual abandonment of
-      the device.
 entities:
   - type: event
     slug: battle-of-cape-ecnomus

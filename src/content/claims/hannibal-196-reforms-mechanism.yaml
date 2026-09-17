@@ -31,12 +31,8 @@ sources:
     passage_summary: >
       Nepos's brief biography of Hannibal preserves the
       reform episode with consistent operational detail.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's biographical treatment integrates the reform
-      with broader analysis of Hannibal's post-Zama
-      political program.
 entities:
   - type: event
     slug: hannibal-196-reforms

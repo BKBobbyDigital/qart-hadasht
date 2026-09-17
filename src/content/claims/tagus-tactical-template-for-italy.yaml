@@ -26,19 +26,9 @@ sources:
       Polybius narrates the Tagus engagement and the Italian
       engagements separately; the continuity-of-method reading
       is a synthesis from comparison of his accounts.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos integrates the Tagus engagement into the broader
-      tactical pattern of Hannibal's command and treats the
-      Italian engagements as iterative refinements of the
-      same approach.
   - source: macdonald-hannibal-2015
-    stance: supports
-    passage_summary: >
-      MacDonald's biographical treatment of Hannibal makes the
-      continuity-of-method argument explicit and treats the
-      Tagus engagement as the foundational template.
 entities:
   - type: event
     slug: battle-of-the-tagus

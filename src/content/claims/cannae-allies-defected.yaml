@@ -32,23 +32,9 @@ sources:
       Lucanians, the Uzentini, most of the Greek coast (Tarentum, Croton,
       Locri) and Cisalpine Gaul. Gives a full account of Capua's
       defection and its terms.
+further_reading:
   - source: macdonald-hannibal-2015
-    stance: supports
-    passage_summary: >
-      MacDonald reads the defection pattern as evidence of how thinly
-      Rome's hegemony in central and southern Italy had been built,
-      and as evidence that Hannibal's strategy of detaching allies was
-      a coherent alternative to direct attack on Rome.
   - source: rawlings-celts-spaniards-samnites-1996
-    stance: supports
-    passage_summary: >
-      Treats the Samnite and other Italian allied defections to
-      Hannibal after Cannae as substantive political choices by
-      communities operating within their own military traditions and
-      political interests, not as a passive response to Roman
-      defeat. The framing reads the defections as expressions of
-      agency by peoples whose interests intersected the Punic War
-      without being absorbed by it.
 entities:
   - type: event
     slug: battle-of-cannae

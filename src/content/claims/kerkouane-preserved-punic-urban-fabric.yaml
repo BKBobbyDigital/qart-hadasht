@@ -26,19 +26,18 @@ sources:
   - source: lancel-carthage-1995
     stance: supports
     passage_summary: >
-      Lancel's treatment of Kerkouane integrates the site
-      with broader Punic urban patterns and discusses
-      the preservation context.
+      Lancel's history of Carthage treats Kerkouane and its preservation
+      context. The site has not checked the discussion against the book, so
+      this entry records only that the work covers the subject.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos's overview discusses Kerkouane's significance
-      for understanding Punic domestic life.
   - source: quinn-phoenicians-2018
-    stance: supports
-    passage_summary: >
-      Quinn integrates Kerkouane evidence with broader
-      Phoenician-Punic urban-archaeological analysis.
+notes: >
+  This claim currently rests on modern overviews whose arguments the site
+  has not checked in the works themselves, and on no ancient or excavation-
+  report source. The underlying archaeology is not in doubt, but the
+  citation here is weak and the claim needs a checked source; it is listed
+  as an open item in the project notes.
 entities:
   - type: place
     slug: kerkouane

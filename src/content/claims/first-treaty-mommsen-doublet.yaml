@@ -57,12 +57,8 @@ sources:
       Polybius's explicit chronology and his identification of the
       consuls who made the treaty are the principal contradiction
       of the doublet reading.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: qualifies
-    passage_summary: >
-      Hoyos surveys the dating debate and treats Polybius's
-      chronology as the working assumption while acknowledging
-      that the alternative is not refuted.
 entities:
   - type: event
     slug: first-treaty-with-rome

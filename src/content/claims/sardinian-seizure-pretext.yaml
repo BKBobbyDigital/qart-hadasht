@@ -15,13 +15,8 @@ sources:
       and treats the seizure as the deepest cause of the Second
       Punic War. The framing is unusual in Polybius for its open
       criticism of Roman conduct.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos's specialist study analyzes the Sardinian episode as
-      part of the broader Roman opportunism of the late 230s BCE
-      and treats Polybius's reading of structural causation as
-      essentially correct.
 entities:
   - type: event
     slug: sardinian-seizure

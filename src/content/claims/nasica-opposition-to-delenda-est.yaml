@@ -64,12 +64,8 @@ sources:
       Plutarch's preserved account of the senatorial
       debate, including Nasica's counter-formula and
       the structural-moral argument.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos discusses Nasica's position explicitly and
-      treats it as authentic senatorial opposition
-      rather than later moralizing reconstruction.
 entities:
   - type: person
     slug: scipio-nasica-corculum

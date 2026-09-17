@@ -26,18 +26,9 @@ sources:
       Saguntum's plunder for the funding of subsequent
       operations, treating the act as deliberate Carthaginian
       preparation rather than incidental looting.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos treats the resource-consolidation function as
-      central to Hannibal's strategic logic in the
-      Saguntum decision.
   - source: macdonald-hannibal-2015
-    stance: supports
-    passage_summary: >
-      MacDonald integrates the resource function with the
-      broader Iberian preparation that culminated in the
-      Alpine crossing.
 entities:
   - type: event
     slug: siege-of-saguntum

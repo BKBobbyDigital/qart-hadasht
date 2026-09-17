@@ -58,14 +58,8 @@ sources:
       Livy's account treats the Roman case more strongly than
       Polybius does, with explicit framing of Saguntum as a
       protected Roman ally.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: qualifies
-    passage_summary: >
-      Hoyos analyzes the legal question in detail and treats it
-      as genuinely ambiguous, arguing that both states had
-      defensible legal positions and that the war's
-      causation lies in the broader strategic configuration
-      rather than in the specific Saguntum question.
 entities:
   - type: event
     slug: siege-of-saguntum

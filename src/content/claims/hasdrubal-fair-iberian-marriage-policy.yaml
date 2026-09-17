@@ -29,13 +29,8 @@ sources:
     passage_summary: >
       Livy's account of Hasdrubal preserves the marriage
       narrative with additional detail.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos integrates the marriage policy with the broader
-      Iberian alliance network and treats it as the
-      structural foundation of Carthaginian authority during
-      the SPW.
 entities:
   - type: person
     slug: hasdrubal-the-fair

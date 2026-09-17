@@ -77,6 +77,9 @@ const sourceIdsIn = (entry: any): Set<string> => {
   const ids = new Set<string>();
   const d = entry.data ?? {};
   for (const s of d.sources ?? []) if (s?.source?.id) ids.add(s.source.id);
+  // A claim's further_reading still counts as a reference to the work; the
+  // difference is that the site does not say what the work argues.
+  for (const r of d.further_reading ?? []) if (r?.source?.id) ids.add(r.source.id);
   for (const s of d.principal_sources ?? []) if (s?.id) ids.add(s.id);
   for (const p of d.source_passages ?? []) if (p?.source?.id) ids.add(p.source.id);
   const prose = JSON.stringify(d) + (entry.body ?? '');

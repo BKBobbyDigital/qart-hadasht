@@ -50,18 +50,9 @@ sources:
       The original 1981 *Journal of Semitic Studies* article
       makes the case for the early reading and the 814 BCE
       foundation date.
+further_reading:
   - source: aubet-phoenicians-west-2001
-    stance: qualifies
-    passage_summary: >
-      Aubet treats the Douïmès reading as a noteworthy minority
-      position but does not adopt it as the basis for the
-      chronological discussion.
   - source: macdonald-carthage-2015
-    stance: qualifies
-    passage_summary: >
-      MacDonald surveys the dispute and treats the inscription as
-      an example of the difficulties of using fragmentary
-      Punic-script evidence to address chronological questions.
 entities:
   - type: event
     slug: founding-of-carthage

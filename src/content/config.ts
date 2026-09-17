@@ -336,6 +336,19 @@ const events = defineCollection({
 
 // ─── Claims — the epistemic atoms ─────────────────────────────────────────────
 
+/**
+ * A modern work listed on a claim whose argument the site has NOT checked
+ * in the work itself. It carries no stance and no characterization of what
+ * the author argues, because either would be a claim nobody has verified.
+ * Promote an entry into `sources` once it has actually been read, with a
+ * page reference. See the "Unchecked modern citations" note in CLAUDE.md.
+ */
+const claimFurtherReading = z.object({
+  source: reference('sources'),
+  /** Neutral scope note: what the work covers, never what it argues. */
+  note: z.string().optional(),
+});
+
 const claimSource = z.object({
   source: reference('sources'),
   stance: citationStance,
@@ -361,6 +374,7 @@ const claims = defineCollection({
     scholarly_consensus: z.string().optional(),
     dispute_summary: z.string().optional(),
     sources: z.array(claimSource).min(1),
+    further_reading: z.array(claimFurtherReading).default([]),
     entities: z.array(claimEntity).default([]),
     notes: z.string().optional(),
   }),

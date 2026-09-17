@@ -59,13 +59,8 @@ sources:
       officers, who had been heavily involved in the selection of their
       commander-in-chief during the conflict, and argues that this became
       a guarded privilege rather than a one-off crisis measure.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos treats the joint command and its failure within his extended
-      military and political analysis of the revolt, and takes the
-      Hamilcar and Hanno rivalry as a durable feature of Carthaginian
-      politics thereafter.
 entities:
   - type: event
     slug: mercenary-war

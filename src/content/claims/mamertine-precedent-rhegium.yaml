@@ -27,12 +27,8 @@ sources:
       Polybius narrates the Rhegium episode and explicitly
       notes the parallel and contradiction with the
       Mamertine case in the senate's debate.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos treats the Rhegium contradiction as central to
-      understanding the senatorial debate's character and
-      the comitia's eventual override.
 entities:
   - type: event
     slug: first-punic-war-outbreak

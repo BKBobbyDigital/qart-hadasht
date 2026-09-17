@@ -54,12 +54,8 @@ sources:
       Philinus's claim is preserved only in Polybius's
       paraphrase and denial; no Philinian text on the
       treaty survives independently.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: contradicts
-    passage_summary: >
-      Hoyos defends Polybius's denial and treats the
-      Philinus claim as pro-Carthaginian advocacy without
-      independent evidentiary basis.
 entities:
   - type: event
     slug: philinus-treaty-controversy

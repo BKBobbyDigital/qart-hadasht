@@ -25,6 +25,13 @@ const claimsCiting = allClaims.filter((c) =>
   c.data.sources.some((s: any) => s.source.id === source.id)
 );
 
+// Claims that list this work as further reading rather than as evidence:
+// the site points a reader at it without saying what it argues, because
+// nobody has checked the argument in the work itself.
+const claimsListingAsFurtherReading = allClaims.filter((c) =>
+  (c.data.further_reading ?? []).some((r: any) => r.source.id === source.id)
+);
+
 // ─── Build the citation digest ────────────────────────────────────────────────
 // One entry per (claim, source-row) — surfaces passage_ref, passage_summary,
 // passage_quote, and stance so the source page reads as a digest of what
@@ -252,6 +259,27 @@ const sourceInfoboxRows: InfoboxRow[] = [
               <a href={`/events/${e.id}`} class="text-tyrian-700 hover:underline font-serif">
                 {e.data.name}
               </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {claimsListingAsFurtherReading.length > 0 && (
+      <section class="mt-12" id="further-reading">
+        <h2 class="font-serif text-2xl border-b border-sand-300 pb-2 mb-2">Listed as further reading</h2>
+        <p class="text-sm text-sand-700 mb-5">
+          {claimsListingAsFurtherReading.length} claim{claimsListingAsFurtherReading.length === 1 ? '' : 's'}
+          point{claimsListingAsFurtherReading.length === 1 ? 's' : ''} a reader at this work without
+          citing it as evidence. The site has not checked its arguments against
+          the work itself, so it does not say here what the work concludes.
+          Entries move into the cited sources above as they are read, with a
+          page reference.
+        </p>
+        <ul class="space-y-2">
+          {claimsListingAsFurtherReading.map((c) => (
+            <li class="text-sm border-l-2 border-sand-300 pl-3">
+              <a href={`/claims/${c.id}`} class="text-tyrian-700 hover:underline" set:html={renderInline(c.data.statement)}></a>
             </li>
           ))}
         </ul>

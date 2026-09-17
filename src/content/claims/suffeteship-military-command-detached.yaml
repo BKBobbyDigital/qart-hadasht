@@ -60,13 +60,8 @@ sources:
       Livy's account of Hannibal's 196 BCE suffeteship
       describes a civilian-political reform office, not
       a military command.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: qualifies
-    passage_summary: >
-      Hoyos discusses the question across the longer
-      institutional history and treats the gradual-
-      detachment reading as the most defensible modern
-      reconstruction.
 entities:
   - type: institution
     slug: suffetes

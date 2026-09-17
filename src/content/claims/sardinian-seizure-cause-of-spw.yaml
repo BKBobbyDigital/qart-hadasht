@@ -23,13 +23,8 @@ sources:
       several passages of Book 3, treating the Sardinian episode
       as the moment Roman good faith ended in Barcid eyes and as
       the immediate background to Hamilcar's Iberian project.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's biography of Hannibal develops the argument:
-      the Barcid family's Iberian strategy was a response to
-      the situation the seizure created, not to the 241
-      treaty.
 entities:
   - type: event
     slug: sardinian-seizure

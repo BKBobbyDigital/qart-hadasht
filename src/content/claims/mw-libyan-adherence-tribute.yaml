@@ -28,12 +28,8 @@ sources:
       structural development from the original mercenary
       mutiny, and treats the tribute and conscription regime
       as the mechanism by which it became general.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the Libyan rural economy, the tribute
-      mechanism, and the structural conditions that made
-      the rebellion's adherence pattern possible.
 entities:
   - type: event
     slug: mercenary-war

@@ -37,12 +37,8 @@ sources:
     passage_summary: >
       Livy's account is similar to Polybius's: rich
       operational detail, fidelity-framed narrative.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's biographical treatment of Hannibal develops
-      the Iberian-agency reading explicitly and treats
-      the Ilergetes pattern as a model case.
 entities:
   - type: person
     slug: indibilis

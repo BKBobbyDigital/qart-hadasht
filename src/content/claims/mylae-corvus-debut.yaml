@@ -15,11 +15,8 @@ sources:
       as the engagement that vindicated the device. His account
       is the principal source for the Roman naval revolution of
       the 260s BCE.
+further_reading:
   - source: goldsworthy-fall-carthage-2003
-    stance: supports
-    passage_summary: >
-      Goldsworthy provides extended modern military analysis of
-      the corvus at Mylae and the broader Roman naval doctrine.
 entities:
   - type: event
     slug: battle-of-mylae

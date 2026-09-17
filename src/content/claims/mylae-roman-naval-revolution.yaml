@@ -18,11 +18,8 @@ sources:
       Polybius's broader narrative of the Roman naval revolution
       treats Mylae as the engagement that confirmed the new
       Roman naval program could deliver fleet-scale victory.
+further_reading:
   - source: goldsworthy-fall-carthage-2003
-    stance: supports
-    passage_summary: >
-      Goldsworthy treats Mylae as the structural pivot in the
-      First Punic War's naval phase.
 entities:
   - type: event
     slug: battle-of-mylae

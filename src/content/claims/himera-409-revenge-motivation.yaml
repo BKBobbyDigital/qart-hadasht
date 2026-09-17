@@ -26,11 +26,8 @@ sources:
     passage_summary: >
       Diodorus narrates the ritualized executions and the
       explicit revenge framing in detail.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos's overview integrates the Himera revenge
-      narrative with broader Magonid dynastic politics.
 entities:
   - type: event
     slug: sack-of-himera-409

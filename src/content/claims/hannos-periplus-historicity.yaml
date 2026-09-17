@@ -40,17 +40,9 @@ sources:
     passage_summary: >
       The Periplus itself is the principal surviving source
       and the text whose historicity is at issue.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: qualifies
-    passage_summary: >
-      Hoyos treats the voyage as historical
-      while remaining appropriately agnostic about specific
-      details and the text's transmission.
   - source: miles-carthage-2010
-    stance: qualifies
-    passage_summary: >
-      Miles's overview integrates the Periplus with broader
-      Carthaginian Atlantic activity attested independently.
 entities:
   - type: event
     slug: hannos-periplus-voyage

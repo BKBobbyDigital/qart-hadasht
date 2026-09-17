@@ -56,22 +56,9 @@ sources:
       embezzlement exposure) rather than military. The
       separation is visible in what he actually did with the
       office.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos's treatment of Carthaginian governance develops
-      the suffeteship-military-command separation as a
-      distinctive feature, read as a deliberate Carthaginian
-      constitutional achievement rather than as accidental
-      administrative practice.
   - source: krings-manuel-1995
-    stance: supports
-    passage_summary: >
-      The Krings handbook's chapters on Carthaginian governance
-      (principally Bondì on institutional structure) treat the
-      separation as one of the Carthaginian constitution's
-      distinctive features in comparative ancient-Mediterranean
-      context.
 entities:
   - type: institution
     slug: suffetes

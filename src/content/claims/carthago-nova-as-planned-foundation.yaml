@@ -36,12 +36,8 @@ sources:
       Hasdrubal, proclaimed general with unlimited power by the Iberians
       after his marriage to an Iberian prince's daughter, founds a city
       on the coast, the foundation later called New Carthage.
+further_reading:
   - source: lopez-castro-hispania-1995
-    stance: qualifies
-    passage_summary: >
-      López Castro's synthesis of Phoenician and Punic Iberia sets the
-      Barcid foundations within the longer history of Punic presence in
-      the peninsula, the context for judging what was new about them.
 entities:
   - type: place
     slug: carthago-nova

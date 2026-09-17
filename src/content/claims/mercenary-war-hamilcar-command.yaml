@@ -22,13 +22,8 @@ sources:
       Hamilcar's daughter's marriage), and the climactic siege at
       the Defile in which approximately 40,000 rebels were starved
       out and either killed or enslaved.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos provides extended military analysis of Hamilcar's
-      campaigns and treats the Mercenary War as the formative
-      episode of his command, demonstrating the operational style
-      that would shape his subsequent Iberian project.
 entities:
   - type: event
     slug: mercenary-war

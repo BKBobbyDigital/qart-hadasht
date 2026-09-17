@@ -29,13 +29,8 @@ sources:
       constitution. He treats the institutions in detail
       and ranks Carthage's arrangement comparatively
       favorable.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos's overview integrates Aristotle's analysis with
-      what the Punic epigraphic record adds and treats the
-      Politics II.11 framework as the foundation of modern
-      reconstruction.
 entities:
   - type: theme
     slug: carthaginian-governance

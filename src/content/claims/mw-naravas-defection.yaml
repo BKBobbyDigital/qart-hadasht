@@ -23,12 +23,8 @@ sources:
       arrival in person at the Carthaginian camp, the
       negotiation with Hamilcar, the marriage offer, and the
       transfer of the 2,000 cavalry contingent.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the defection's strategic and political
-      significance, including its place in the long-term
-      pattern of Carthaginian-Numidian alliance politics.
 entities:
   - type: event
     slug: mercenary-war

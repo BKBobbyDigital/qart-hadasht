@@ -25,12 +25,8 @@ sources:
       Polybius preserves the 348 treaty's text. The
       tightening of commercial provisions is explicit in
       the comparison with the 509 text he also preserves.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the 348 treaty's commercial provisions
-      as defensive Carthaginian response to Roman territorial
-      consolidation in central Italy.
 entities:
   - type: event
     slug: second-treaty-with-rome

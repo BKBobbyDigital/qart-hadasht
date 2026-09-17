@@ -19,13 +19,8 @@ sources:
       Polybius lists the original terms negotiated between Lutatius
       and Hamilcar before the treaty's transmission to Rome for
       ratification.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the original terms as the product of two
-      commanders both wishing to end the war on terms each could
-      defend at home, and treats the subsequent Roman stiffening as
-      a separate political event.
 entities:
   - type: event
     slug: treaty-of-lutatius

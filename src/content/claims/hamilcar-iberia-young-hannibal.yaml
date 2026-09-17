@@ -17,11 +17,8 @@ sources:
       Iberian departure (treated separately on the site as a
       contested-claim open question), and references the
       decade of subsequent service.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's biography treats the Iberian decade as the formative
-      period of Hannibal's military development.
 entities:
   - type: event
     slug: hamilcars-iberian-conquest

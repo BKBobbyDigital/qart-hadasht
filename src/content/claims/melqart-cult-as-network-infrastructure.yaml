@@ -54,32 +54,10 @@ sources:
       Carthaginian-Tyrian relations and on the Melqart cult's
       western diffusion, with the annual delegation attested as
       a notable Mediterranean religious-political institution.
+further_reading:
   - source: bonnet-cadmos-2015
-    stance: supports
-    passage_summary: >
-      Bonnet's *Les enfants de Cadmos* develops the
-      network-infrastructure reading for the Phoenician
-      religious landscape, including the Melqart cult as
-      coordinating mechanism, with detailed treatment of the
-      annual delegations, the *egersis* festival, and the
-      cross-colonial cult coordination.
   - source: aubet-phoenicians-west-2001
-    stance: supports
-    passage_summary: >
-      Aubet's archaeological synthesis documents the Melqart
-      sanctuaries at the major colonial foundations and reads
-      them as evidence of real religious coordination across
-      the colonial network. The archaeological distribution is
-      the principal non-literary support for the
-      network-infrastructure reading.
   - source: krings-manuel-1995
-    stance: supports
-    passage_summary: >
-      The Krings-edited handbook's religion chapters
-      (principally Ribichini and Xella) treat the Melqart cult
-      and the Phoenician religious diaspora as genuinely
-      coordinated rather than as independent local cults
-      sharing a name.
 entities:
   - type: deity
     slug: melqart

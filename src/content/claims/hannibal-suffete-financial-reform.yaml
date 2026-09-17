@@ -24,15 +24,8 @@ sources:
     passage_summary: >
       Cornelius Nepos's biography preserves the substance of
       the financial reform in compressed form.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's analysis treats the reform as a substantive
-      administrative achievement: Hannibal's competence in
-      financial management is consistent with what the
-      surviving record preserves about his Italian-campaign
-      logistics, and the political reaction it produced was
-      severe enough to drive him into exile.
 entities:
   - type: event
     slug: hannibal-as-suffete

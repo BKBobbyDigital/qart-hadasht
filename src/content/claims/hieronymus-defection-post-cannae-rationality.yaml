@@ -51,13 +51,8 @@ sources:
     passage_summary: >
       Livy gives the standard negative characterization,
       with additional dramatic-political detail.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's biographical treatment of Hannibal includes
-      analysis of the Syracusan defection's strategic
-      logic on the post-Cannae information available, and
-      argues for the rationality reading.
 entities:
   - type: event
     slug: syracusan-defection-215

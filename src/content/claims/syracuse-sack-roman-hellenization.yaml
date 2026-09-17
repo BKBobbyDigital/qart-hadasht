@@ -34,11 +34,8 @@ sources:
     passage_summary: >
       Livy's account of the sack preserves the artistic-
       transfer detail and the broader cultural significance.
+further_reading:
   - source: miles-carthage-2010
-    stance: supports
-    passage_summary: >
-      Miles's overview integrates the Syracuse sack with
-      the long arc of Roman cultural Hellenization.
 entities:
   - type: event
     slug: siege-of-syracuse-marcellus

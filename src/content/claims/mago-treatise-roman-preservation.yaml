@@ -55,24 +55,10 @@ sources:
       Rustica* are the principal surviving evidence that the
       Latin translation circulated and was consulted as a
       standard authority through the early Imperial period.
+further_reading:
   - source: lancel-carthage-1995
-    stance: supports
-    passage_summary: >
-      Lancel's treatment of the preservation order
-      integrates the Pliny passage with the broader
-      Roman agronomic tradition's transmission of
-      Mago's framework.
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos discusses the preservation order in the
-      context of the broader 146 BCE Roman handling of
-      Carthaginian intellectual property.
   - source: warmington-carthage-1969
-    stance: supports
-    passage_summary: >
-      Warmington's overview discusses the Mago-fragment
-      tradition and its preservation pattern in detail.
 entities:
   - type: person
     slug: mago-agronomist

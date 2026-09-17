@@ -43,19 +43,9 @@ sources:
     passage_summary: >
       Polybius records the navigational restriction at the Fair
       Promontory but does not specify the location.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: qualifies
-    passage_summary: >
-      Hoyos surveys the candidate identifications and adopts Cape
-      Bon as the most defensible reading on geographic and
-      strategic grounds.
   - source: aubet-phoenicians-west-2001
-    stance: qualifies
-    passage_summary: >
-      Aubet treats the Fair Promontory question in the broader
-      context of Phoenician and Carthaginian navigational practice
-      in the 6th century BCE, with the Cape Bon identification as
-      the working assumption.
 entities:
   - type: event
     slug: first-treaty-with-rome

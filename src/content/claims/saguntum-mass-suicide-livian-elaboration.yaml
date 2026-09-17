@@ -50,12 +50,8 @@ sources:
       Polybius does not include the collective-suicide
       episode, instead describing the city's fall and
       plunder distribution.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: qualifies
-    passage_summary: >
-      Hoyos treats the collective-suicide tableau as Livian
-      elaboration while accepting the structural fact of
-      destruction.
 entities:
   - type: event
     slug: siege-of-saguntum

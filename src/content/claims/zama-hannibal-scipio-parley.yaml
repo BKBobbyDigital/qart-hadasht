@@ -40,11 +40,8 @@ sources:
     passage_summary: >
       Livy reproduces the meeting with elaborated speeches in the Latin
       historiographic tradition.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: qualifies
-    passage_summary: >
-      Hoyos accepts the meeting as historical while treating the speeches
-      as literary composition.
 entities:
   - type: event
     slug: battle-of-zama

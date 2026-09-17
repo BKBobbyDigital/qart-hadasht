@@ -46,11 +46,8 @@ sources:
       Livy gives explicit troop figures that conflict with both Polybius
       and with one another across passages; treated cautiously by modern
       scholarship.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos treats the armies as roughly comparable in infantry strength
-      and emphasizes the cavalry imbalance as the operative factor.
 entities:
   - type: event
     slug: battle-of-zama

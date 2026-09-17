@@ -111,12 +111,6 @@ sources:
       Heracles as parts of one deliberate Barcid program, aimed at
       Greeks, Italians and Celts alike, and uses divine sanction as a
       source of cohesion in a culturally mixed army.
-  - source: rawlings-hannibal-and-hercules-2005
-    stance: supports
-    passage_summary: >
-      Rawlings treats Hannibal's association with Hercules as a real
-      strategic and religious project, framing the campaign in terms
-      Greek and Italian audiences could read as familiar.
   - source: fernandez-camacho-silencing-silenus-2025
     stance: supports
     passage_ref: "pp. 25–28, 36–44"
@@ -126,6 +120,8 @@ sources:
       Silenus was the original source for the Gades spring and probably
       invented it, and reads Polybius's wavering between "god" and
       "hero" as a trace of Heracles-Melqart.
+further_reading:
+  - source: rawlings-hannibal-and-hercules-2005
 entities:
   - type: person
     slug: hannibal-barca

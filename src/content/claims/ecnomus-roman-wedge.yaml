@@ -24,14 +24,8 @@ sources:
       towing horse-transports, the third line as a rearguard, the
       inverted-triangle configuration that protected the
       transports from outflanking attacks.
+further_reading:
   - source: goldsworthy-fall-carthage-2003
-    stance: supports
-    passage_summary: >
-      Goldsworthy provides modern military analysis of the
-      formation and its tactical purposes, treating it as the most
-      ambitious Roman naval disposition of the war and as
-      evidence of Roman willingness to innovate within the
-      constraints of unfamiliar operational requirements.
 entities:
   - type: event
     slug: battle-of-cape-ecnomus

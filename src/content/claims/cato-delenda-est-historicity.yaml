@@ -1,11 +1,10 @@
 slug: cato-delenda-est-historicity
 statement: >
-  The famous formula *Carthago delenda est* — "Carthage
-  must be destroyed," with which Cato the Elder reportedly
-  ended every senatorial speech regardless of topic across
-  the years from his return from the 153 BCE commission
-  through his death in 149 BCE — does not survive in any
-  contemporary source in this exact wording. Plutarch
+  The famous formula *Carthago delenda est* ("Carthage must be
+  destroyed"), with which Cato the Elder reportedly ended every
+  senatorial speech regardless of topic from his return from the
+  153 BCE commission through his death in 149 BCE, does not
+  survive in any contemporary source in this exact wording. Plutarch
   (*Cato Major* 27) preserves the rhetorical pattern but
   gives the phrase as *Δοκεῖ δέ μοι καὶ Καρχηδόνα μὴ εἶναι*
   ("It seems to me that Carthage must not exist"). The
@@ -61,12 +60,8 @@ sources:
       lost books preserve traces of Cato's advocacy
       without giving the exact formula in the modern
       cited form.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: qualifies
-    passage_summary: >
-      Hoyos discusses the textual transmission of the
-      delenda-est formula in the context of the broader
-      Catonian-rhetorical tradition.
 entities:
   - type: person
     slug: cato-the-elder

@@ -28,12 +28,8 @@ sources:
       Livy preserves Hannibal's reported reaction speech, in
       which Hannibal explicitly recognizes the engagement as the
       war's structural turning point.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the Metaurus as the moment Hannibal's
-      strategic position became unrecoverable and treats Zama
-      as the closing act rather than the decisive battle.
 entities:
   - type: event
     slug: battle-of-metaurus

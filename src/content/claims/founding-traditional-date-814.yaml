@@ -66,19 +66,6 @@ sources:
       Krahmalkov argues the Douïmès Pendant inscription provides
       Punic-script support for an early 9th-century foundation,
       consistent with the traditional date.
-  - source: aubet-phoenicians-west-2001
-    stance: qualifies
-    passage_summary: >
-      Aubet treats the archaeological evidence as pointing to the
-      late 8th century BCE and the literary date as either symbolic
-      or representing earlier Phoenician trading presence not yet
-      a permanent foundation.
-  - source: macdonald-carthage-2015
-    stance: qualifies
-    passage_summary: >
-      MacDonald surveys the chronological dispute and treats the
-      late 8th-century horizon as the most secure date for the
-      city's continuous existence as a Phoenician colony.
   - source: docter-bir-massouda-2005
     stance: supports
     passage_summary: >
@@ -87,6 +74,9 @@ sources:
       approximately 835-800 BCE: the first scientific dating
       evidence to bring the earliest occupation within range of
       the traditional 814 BCE date.
+further_reading:
+  - source: aubet-phoenicians-west-2001
+  - source: macdonald-carthage-2015
 entities:
   - type: event
     slug: founding-of-carthage

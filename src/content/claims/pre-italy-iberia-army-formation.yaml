@@ -11,13 +11,13 @@ statement: >
   determine the Italian theater.
 confidence: inferred
 scholarly_consensus: >
-  The army-formation reading is the consensus modern
-  interpretation. It is "inferred" rather than "attested"
-  because Polybius does not himself frame the pre-Italy
-  campaigns as army formation — he treats them as
-  consolidating Iberian operations. The army-formation
-  framing is Hoyos's and MacDonald's synthesis from
-  comparison of the troop configurations.
+  The reading is tagged inferred rather than attested because
+  Polybius does not himself frame the pre-Italy campaigns as
+  army formation. He treats them as consolidating Iberian
+  operations. The framing here is the site's own, drawn from
+  comparing the troop configurations before and after. Modern
+  treatments of the Barcid period make a similar move, but the
+  site has not checked that argument in any of them.
 sources:
   - source: polybius-histories
     stance: supports
@@ -28,17 +28,9 @@ sources:
       across the Pyrenees, Rhone, and Alps in 218 BCE. The
       army-formation continuity is implicit in the parallel
       accounts.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the pre-Italy campaigns as preparation, both political and operational, for the Italian
-      strategy.
   - source: macdonald-hannibal-2015
-    stance: supports
-    passage_summary: >
-      MacDonald's biographical treatment integrates the
-      pre-Italy campaigns with the Italian campaign as
-      successive phases of the same operational program.
 entities:
   - type: event
     slug: hannibals-olcades-campaign

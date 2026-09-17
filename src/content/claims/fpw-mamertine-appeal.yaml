@@ -24,13 +24,8 @@ sources:
     passage_summary: >
       Diodorus's surviving fragments preserve the Mamertine appeal
       with details consistent with Polybius's narrative.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: qualifies
-    passage_summary: >
-      Hoyos analyzes the appeal as the contingent trigger that drew
-      both powers into a confrontation neither had clearly intended,
-      treating the Mamertine factional split as decisive for what
-      followed.
 entities:
   - type: event
     slug: first-punic-war-outbreak

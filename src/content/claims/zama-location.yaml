@@ -29,16 +29,9 @@ sources:
     passage_ref: "30.29.1-2"
     passage_summary: >
       Livy places the engagement at Zama, five days' march from Carthage.
+further_reading:
   - source: lancel-carthage-1995
-    stance: qualifies
-    passage_summary: >
-      Lancel surveys the candidate sites and inclines toward Naraggara on
-      topographic grounds.
   - source: macdonald-carthage-2015
-    stance: qualifies
-    passage_summary: >
-      MacDonald summarizes the disagreement and notes that no candidate site
-      has produced direct archaeological confirmation of the battle.
 entities:
   - type: event
     slug: battle-of-zama

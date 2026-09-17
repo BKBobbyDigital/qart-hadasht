@@ -23,12 +23,8 @@ sources:
     passage_summary: >
       Livy reproduces the same disposition, with the maniples arranged so as
       to leave passages for the elephants.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos treats the deployment as a deliberate tactical answer to the
-      elephant threat and credits it with neutralizing what Hannibal had
-      hoped would disorder the Roman line.
 entities:
   - type: person
     slug: scipio-africanus

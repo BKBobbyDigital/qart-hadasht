@@ -22,12 +22,8 @@ sources:
       decision to transfer the army to Sicca, and the Libyan
       adherence to the revolt as the structural cause of its
       escalation from mutiny to existential war.
+further_reading:
   - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos's full-length treatment integrates the fiscal
-      mechanism with the structural Libyan grievances and the
-      political failures of Hanno the Great's command.
 entities:
   - type: event
     slug: mercenary-war

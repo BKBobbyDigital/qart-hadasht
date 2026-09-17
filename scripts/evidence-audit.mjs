@@ -342,15 +342,45 @@ for (const f of readdirSync(join(REPO, 'src/content/sources'))) {
   const d = YAML.parse(readFileSync(join(REPO, 'src/content/sources', f), 'utf8'));
   if (d?.type === 'modern_scholarship') modern.add(d.slug);
 }
+// Modern works that are themselves evidence rather than another historian's
+// argument: excavation reports, radiocarbon and aDNA studies, the tophet
+// bioarchaeology exchange, object studies, coin corpora, the Polybius
+// commentary. These may sit in `sources` without a page reference.
+const EVIDENCE_WORKS = new Set([
+  'docter-bir-massouda-2005', 'ringbauer-punic-genetics-2025',
+  'schwartz-tophet-2010', 'schwartz-two-tales-2017', 'smith-tophet-2011',
+  'smith-age-estimations-2013', 'xella-bones-of-contention-2013',
+  'moscati-adoratori-1991', 'ribichini-tophet-2013', 'xella-baal-hammon-1991',
+  'krahmalkov-foundation-1981', 'tusa-royal-egadi-2012',
+  'cowell-agathocles-eclipse-1906', 'fernandez-camacho-silencing-silenus-2025',
+  'jenkins-lewis-carthaginian-gold-1963', 'visona-carthaginian-coinage-1998',
+  'walbank-commentary-polybius',
+]);
+
+// A synthetic modern history cited as evidence must carry a page reference,
+// because citing it asserts what its author argues. Unchecked works belong in
+// `further_reading`, which carries no stance and no characterization.
 const unpaged = [];
+const proseNamed = [];
+const SCHOLARS = /\b(Hoyos|Goldsworthy|Lancel|Aubet|Warmington|Huss|Whittaker|Ameling|Toynbee|Rosenstein|Brunt|Eckstein|Gruen)\b/;
 for (const f of readdirSync(join(REPO, 'src/content/claims'))) {
   const d = YAML.parse(readFileSync(join(REPO, 'src/content/claims', f), 'utf8'));
   for (const s of d?.sources ?? []) {
-    if (modern.has(s.source) && !s.passage_ref) unpaged.push(`${d.slug} → ${s.source}`);
+    if (modern.has(s.source) && !s.passage_ref && !EVIDENCE_WORKS.has(s.source)) {
+      unpaged.push(`${d.slug} → ${s.source}`);
+    }
   }
+  // The prose fields attribute too, and moving a citation does not clean them.
+  const prose = [d?.scholarly_consensus, d?.dispute_summary, d?.notes]
+    .filter(Boolean).join(' ').replace(/\s+/g, ' ');
+  const m = prose.match(new RegExp(SCHOLARS, 'g'));
+  if (m) proseNamed.push(`${d.slug} [${[...new Set(m)].join(', ')}]`);
 }
-console.log(`  unpaged-modern: ${unpaged.length} modern citations on claims with no passage_ref. Has the argument been checked in the work itself?`);
+console.log(`  unpaged-modern: ${unpaged.length} synthetic modern histories cited as evidence with no passage_ref. Move to further_reading, or read the work and add a page.`);
 if (listAll || listTerm === 'unpaged-modern') unpaged.forEach((u) => console.log(`    ${u}`));
+
+console.log(`  prose-attribution: ${proseNamed.length} claims name a modern historian in scholarly_consensus / dispute_summary / notes. Has that characterization been checked?`);
+if (listAll || listTerm === 'prose-attribution') proseNamed.forEach((p) => console.log(`    ${p}`));
 
 // held_by fields that name scholars: each name should be verified.
 const named = [];

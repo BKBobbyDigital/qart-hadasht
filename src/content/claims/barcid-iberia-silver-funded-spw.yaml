@@ -24,17 +24,9 @@ sources:
       Polybius treats the Iberian project as the financial
       basis of subsequent Carthaginian operations, though
       without specific production figures.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos integrates the financial mechanism with the
-      strategic logic of the Barcid Iberian project.
   - source: macdonald-hannibal-2015
-    stance: supports
-    passage_summary: >
-      MacDonald's biography treats the silver economy as
-      the structural precondition of Hannibal's Italian
-      campaign.
 entities:
   - type: event
     slug: hamilcars-iberian-conquest

@@ -22,13 +22,8 @@ sources:
     passage_summary: >
       Livy gives the same account of the cavalry maneuver and
       its decisive return.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos identifies the cavalry envelopment as the operative cause of
-      defeat, contrasting Zama with Cannae as a structural inversion: at
-      Cannae Hannibal won through cavalry superiority, at Zama he lost
-      through cavalry inferiority.
 entities:
   - type: person
     slug: laelius

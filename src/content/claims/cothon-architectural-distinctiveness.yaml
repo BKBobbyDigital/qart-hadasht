@@ -30,19 +30,9 @@ sources:
       Appian's literary description of the harbor's
       configuration: 220 ship-sheds, central admiralty
       island, defensive double-harbor arrangement.
+further_reading:
   - source: lancel-carthage-1995
-    stance: supports
-    passage_summary: >
-      Lancel's overview integrates the literary and
-      archaeological evidence on the Cothon and treats
-      its design as a coherent architectural-military
-      achievement.
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos discusses the Cothon's strategic significance
-      and its place in Carthaginian naval-political
-      history.
 entities:
   - type: place
     slug: cothon

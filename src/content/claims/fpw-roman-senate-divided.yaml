@@ -19,17 +19,9 @@ sources:
       that the senate, unable to reach a decision, referred the matter
       to the people. He frames this as evidence of the unusual character
       of the proposed action.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos treats the senatorial division as central evidence for the
-      "unplanned wars" thesis: a coherent imperial program would not
-      have produced this kind of constitutional hesitation.
   - source: macdonald-carthage-2015
-    stance: supports
-    passage_summary: >
-      MacDonald reads the senatorial division as a useful corrective
-      to retrospective narratives of inevitable Roman expansion.
 entities:
   - type: event
     slug: first-punic-war-outbreak

@@ -16,19 +16,9 @@ sources:
     passage_summary: >
       Polybius narrates the crossing and notes its unprecedented
       character.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos identifies the crossing as the threshold act that turned
-      a contained Sicilian crisis into an open war between Rome and
-      Carthage. Once Roman legions were operating overseas and
-      Carthaginian forces were directly engaged, the structural
-      consequences ran ahead of any of the political actors' intentions.
   - source: macdonald-carthage-2015
-    stance: supports
-    passage_summary: >
-      MacDonald frames the crossing as the moment Carthage's western
-      Mediterranean dominance ceased to be unchallenged.
 entities:
   - type: event
     slug: first-punic-war-outbreak

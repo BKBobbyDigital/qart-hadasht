@@ -48,12 +48,8 @@ sources:
       Aristotle treats the Council of 104 and the senate as
       distinct in his discussion, with different functions
       and selection mechanisms.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: qualifies
-    passage_summary: >
-      Hoyos discusses the question as genuinely contested
-      and treats the overlapping-committee reading as the
-      most defensible modern reconstruction.
 entities:
   - type: institution
     slug: council-of-104

@@ -30,19 +30,9 @@ sources:
       Polybius preserves the treaty texts and discusses
       their relationship in the context of his analysis of
       the First Punic War's legality.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the treaty sequence as preserving the
-      shift in Roman-Carthaginian relations and
-      treats the trajectory as the diplomatic preconditioning
-      of the First Punic War.
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos's overview integrates the treaty sequence with
-      the broader 6th-3rd century Carthaginian Mediterranean
-      position.
 entities:
   - type: event
     slug: first-treaty-with-rome

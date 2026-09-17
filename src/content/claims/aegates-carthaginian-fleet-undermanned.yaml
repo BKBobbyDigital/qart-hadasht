@@ -20,14 +20,8 @@ sources:
       Polybius describes the Carthaginian plan, the inadequacy of
       the fleet's preparation, and the strategic reasoning behind
       Hanno's attempt to reach Hamilcar before engaging.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the Carthaginian preparation as a function of the
-      city's exhausted naval capacity by 242-241 BCE; the Roman
-      buildup had not been matched in Carthage, where the financial
-      and demographic resources for new fleet construction had been
-      consumed earlier in the war.
 entities:
   - type: event
     slug: battle-of-aegates-islands

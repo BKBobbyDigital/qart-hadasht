@@ -23,15 +23,9 @@ sources:
       Livy gives the wounding episode in the context of his
       extended siege narrative, treating it as one episode
       of the siege among many.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos accepts the wounding as historical and treats it
-      as part of the record of Hannibal's pre-Italy command.
   - source: macdonald-hannibal-2015
-    stance: supports
-    passage_summary: >
-      MacDonald's biography treats the episode as plausible.
 entities:
   - type: event
     slug: siege-of-saguntum

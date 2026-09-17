@@ -23,14 +23,8 @@ sources:
       Polybius preserves the Iberian silver as the principal
       economic engine of the Carthaginian recovery and the
       foundation of the Barcid project's fiscal capacity.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the Iberian silver-mining operation as the
-      structural connector between the Sardinian seizure (which
-      lost Carthage its previous principal silver source) and
-      the post-Zama recovery (which depended on Iberian
-      silver reserves accumulated during the Barcid period).
 entities:
   - type: event
     slug: hamilcars-iberian-conquest

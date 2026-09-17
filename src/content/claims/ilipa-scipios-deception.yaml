@@ -31,12 +31,8 @@ sources:
     passage_summary: >
       Livy reproduces the tactical account with characteristic
       narrative framing.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos's analysis treats Ilipa as Scipio's principal
-      tactical innovation, comparable to Cannae in
-      sophistication while structurally different.
 entities:
   - type: person
     slug: scipio-africanus

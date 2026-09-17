@@ -30,13 +30,8 @@ sources:
       explicitly: the senatorial debate, the failure to
       reach agreement, the referral to the comitia, the
       popular vote.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos analyzes the episode in the context of his
-      broader argument that the FPW outbreak was
-      genuinely contingent rather than the product of
-      systematic Roman aggression.
 entities:
   - type: event
     slug: first-punic-war-outbreak

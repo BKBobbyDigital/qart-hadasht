@@ -20,20 +20,19 @@ sources:
   - source: lancel-carthage-1995
     stance: supports
     passage_summary: >
-      Lancel's overview integrates the stratigraphic record from
-      the 1976-79 excavation campaign with the broader
-      archaeological reconstruction of Punic Carthage.
+      Lancel's history of Carthage treats the 1976–79 excavation campaign and
+      the precinct's stratigraphy. The site has not checked the discussion
+      against the book, so this entry records only that the work covers the
+      subject.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos discusses the stratigraphic continuity as a feature
-      of Carthaginian religious-cultural persistence.
   - source: quinn-phoenicians-2018
-    stance: supports
-    passage_summary: >
-      Quinn's broader Phoenician-Punic treatment integrates the
-      Carthage Tophet stratigraphy with comparable precincts at
-      Motya, Sulci, and other Punic-cultural sites.
+notes: >
+  This claim currently rests on modern overviews whose arguments the site
+  has not checked in the works themselves, and on no ancient or excavation-
+  report source. The underlying archaeology is not in doubt, but the
+  citation here is weak and the claim needs a checked source; it is listed
+  as an open item in the project notes.
 entities:
   - type: theme
     slug: the-tophet-question

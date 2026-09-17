@@ -38,18 +38,6 @@ sources:
       Melqart's altar, using the Greek-Phoenician
       religious vocabulary that the Heracles identification
       had made standard.
-  - source: aubet-phoenicians-west-2001
-    stance: qualifies
-    passage_summary: >
-      Aubet discusses the identification's theological
-      significance and the limits of *interpretatio* as
-      historical evidence.
-  - source: quinn-phoenicians-2018
-    stance: qualifies
-    passage_summary: >
-      Quinn analyzes the identification as a feature of
-      Greek religious thought as much as of Phoenician
-      religious history.
   - source: silenus-caleacte
     stance: supports
     passage_summary: >
@@ -60,6 +48,9 @@ sources:
       1.49). His fragments show the identification in active use: a
       Greek writer presenting a Carthaginian general's devotion to
       Melqart in the language of Heracles.
+further_reading:
+  - source: aubet-phoenicians-west-2001
+  - source: quinn-phoenicians-2018
 entities:
   - type: deity
     slug: melqart

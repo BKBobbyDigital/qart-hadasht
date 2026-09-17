@@ -18,13 +18,8 @@ sources:
       bear the cost and that the fleet was equipped through private
       contributions from individual citizens, with the understanding
       that they would be repaid if the state could afford it.
+further_reading:
   - source: hoyos-unplanned-wars-1998
-    stance: supports
-    passage_summary: >
-      Hoyos treats the private financing as evidence of how close to
-      its limits the Roman war effort had been pushed by 243-242 BCE,
-      and as a structural precedent for the kinds of senatorial
-      capital mobilization that would recur in later Roman wars.
 entities:
   - type: event
     slug: battle-of-aegates-islands

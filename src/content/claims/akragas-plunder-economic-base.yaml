@@ -27,19 +27,9 @@ sources:
       Diodorus's detailed account of the sack catalogs
       specific objects taken and treats the plunder's
       systematic distribution at Carthage.
+further_reading:
   - source: hoyos-carthaginians-2010
-    stance: supports
-    passage_summary: >
-      Hoyos integrates the Akragantine plunder with the
-      broader 5th-century Carthaginian economic
-      consolidation.
   - source: miles-carthage-2010
-    stance: supports
-    passage_summary: >
-      Miles's overview discusses the Roman 146 BCE recovery
-      of Sicilian Greek artworks at Carthage and uses it
-      as evidence for the persistence of 5th-century
-      Sicilian plunder in the Carthaginian artifact record.
 entities:
   - type: event
     slug: siege-of-akragas-406

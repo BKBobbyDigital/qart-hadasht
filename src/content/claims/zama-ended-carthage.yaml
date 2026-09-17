@@ -39,12 +39,8 @@ sources:
       Miles emphasizes Carthaginian economic recovery in the decades after
       Zama and argues that the city's renewed prosperity, not its weakness,
       was what provoked Roman anxiety in the lead-up to 149 BCE.
+further_reading:
   - source: macdonald-carthage-2015
-    stance: qualifies
-    passage_summary: >
-      MacDonald details the post-Zama recovery and Hannibal's domestic reforms
-      as suffete, framing 202–149 BCE as a distinct and substantive period
-      rather than a long aftermath.
 entities:
   - type: event
     slug: battle-of-zama

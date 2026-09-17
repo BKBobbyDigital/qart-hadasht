@@ -38,12 +38,8 @@ sources:
     passage_summary: >
       Livy preserves the same evidence with similar
       framing.
+further_reading:
   - source: hoyos-hannibal-2003
-    stance: supports
-    passage_summary: >
-      Hoyos develops the personal-policy reading
-      explicitly and uses the Ilergetes revolt as the
-      principal evidentiary case.
 entities:
   - type: person
     slug: scipio-africanus

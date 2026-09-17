@@ -51,12 +51,8 @@ sources:
     passage_summary: >
       Polybius gives the ship counts and crew breakdowns explicitly
       and notes the engagement's exceptional scale.
+further_reading:
   - source: goldsworthy-fall-carthage-2003
-    stance: qualifies
-    passage_summary: >
-      Goldsworthy treats the Polybian figures as approximately
-      correct in order of magnitude while noting the standard
-      methodological caveats.
 entities:
   - type: event
     slug: battle-of-cape-ecnomus

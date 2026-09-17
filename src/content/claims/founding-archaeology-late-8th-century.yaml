@@ -25,21 +25,6 @@ scholarly_consensus: >
   foundation or the consolidation of an earlier presence
   remains open in either case.
 sources:
-  - source: aubet-phoenicians-west-2001
-    stance: supports
-    passage_summary: >
-      Aubet's standard synthesis treats the late 8th-century
-      horizon as the secure archaeological floor for Carthage's
-      continuous existence as a Phoenician colony, situating it
-      within the broader chronology of Phoenician western
-      expansion in the 9th and 8th centuries BCE.
-  - source: lancel-carthage-1995
-    stance: supports
-    passage_summary: >
-      Lancel's archaeological synthesis confirms the late
-      8th-century ceramic horizon and discusses the relationship
-      between the literary chronology and the recovered material
-      culture.
   - source: docter-bir-massouda-2005
     stance: qualifies
     passage_summary: >
@@ -48,12 +33,10 @@ sources:
       approximately 835-800 BCE, up to two generations earlier
       than the ceramic-based horizon and compatible with the
       literary tradition's 814 BCE.
+further_reading:
+  - source: aubet-phoenicians-west-2001
+  - source: lancel-carthage-1995
   - source: macdonald-carthage-2015
-    stance: supports
-    passage_summary: >
-      MacDonald summarizes the archaeological consensus while
-      noting the unresolved relationship to the literary
-      chronology.
 notes: >
   The archaeological situation is complicated by the city's
   continuous occupation through 146 BCE and the substantial
