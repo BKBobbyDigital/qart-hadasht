@@ -747,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~747 pages** as of
+parked until the day version settles. The site is **~746 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -2330,6 +2330,18 @@ refusal take credited Maharbal's reproach to Polybius (it is Livy
 
 ### Second-read audits of the editorial takes (Sep 2026)
 
+> **Where this stands, for a fresh session.** Eleven page audits, then a
+> whole-project second read, then a run of evidence-hygiene passes that
+> came out of it. The site now has an **[evidentiary charter](/charter)**
+> stating how it reasons, a `critical_read` box on the principal ancient
+> authors, unchecked modern citations separated into
+> `claims.further_reading`, and every `evidence-audit` review term worked
+> through to a reviewed baseline. **The editorial backlog is empty.**
+> What remains needs books the site cannot reach; see the open items at
+> the end of this section. If you are picking up cold, read the charter
+> and the "Evidence discipline" rules before writing content, and do not
+> reopen the settled numbers.
+
 The user is running the site's most important editorial takes past
 another model (ChatGPT) for a second read and bringing each audit back
 as a markdown file. **Working rule (user's framing):** the other
@@ -2614,53 +2626,51 @@ opened by calling the expansion "an integrated network," now says shared
 religion, script and commerce are not evidence of central command; the
 rest of that theme still leans integrationist and deserves its own pass.
 
-**Open items from the audits, in rough priority order:**
-- **Page references that would restore a name.** `prose-attribution` is
-  at **0**: the 21 flagged claims were rewritten to describe the reading
-  without the holder. Two attributions are worth restoring if the works
-  can be checked. The **Hoyos 2018** reference-work entry on Third Punic
-  War diplomacy carries the argument that Rome rebuffed Masinissa's
-  annexations until after 167, which both
+**Open items. Everything left needs a book, not a pass.** The editorial
+and evidence-hygiene work is done; what remains is verification the site
+cannot do from the open web.
+
+- **Page references from the user's reading.** Miles on the Third Punic
+  War (Cato, the 149 ultimatum) and on the Demeter-Kore incense burners;
+  MacDonald's *Hannibal* for the Barcid readings and for the post-Cannae
+  defections claim; Hoyos's *Truceless War* if his name is to go back on
+  the Mercenary War material. Two attributions would be restored
+  immediately by a page: **Hoyos 2018** on Third Punic War diplomacy,
+  whose argument that Rome rebuffed Masinissa's annexations until after
+  167 is used unattributed on both
   `claims/masinissa-territorial-seizures-pattern` and
-  `destruction-not-weak-enough` use unattributed; a page reference would
-  let his name go back. The same holds for **Hoyos's monograph** on the
-  Mercenary War indemnity.
-- **Three claims that need a checked source**, flagged in their own
+  `destruction-not-weak-enough`, and **Hoyos's Mercenary War monograph**
+  on the indemnity. Rawlings 2007 remains unread; the Cardiff repository
+  will not serve its PDF to an automated fetch.
+- **Three claims that need a checked source**, each flagged in its own
   `notes`: `kerkouane-preserved-punic-urban-fabric`,
   `tanit-late-emergence`, `tophet-stratigraphic-continuity`. Each rests
   on modern overviews nobody has read and on no ancient or
-  excavation-report source. The archaeology is not in doubt; the
-  citation is. An excavation report for each would fix them.
-- **Nothing outstanding in the review half.** Every term has been worked
-  through (Sep 2026) and the residue was read and judged legitimate:
-  `consensus` 9, `universal` 0, `inevitable` 11, `design-from-outcome`
-  11, `prose-attribution` 0, `unpaged-modern` 6, `named-holders` 3.
-  **Treat those numbers as the reviewed baseline, not as a backlog.** If
-  one rises, something new was written; if you are tempted to drive one
-  to zero, read the hits first, because the remainder are cases where
-  the site is arguing correctly and tripping a blunt pattern.
-- ~~`themes/phoenician-colonial-network`~~ **done (Sep 2026).** Revised
-  against the empire take: connection is not direction, and Carthage's
-  rise was the accumulation of power over parts of the network rather
-  than promotion within it. The consolidation section had Carthage
-  "coordinating" where the sources show garrisons (Polybius 1.79) and
-  treaties treating Sardinia and Libya as Carthaginian property (3.23).
-  Also removed: Tanit's cult spreading "under Carthaginian initiative"
-  (no source), the fourth century as "the same network reorganized
-  around a new center", an unchecked attribution to Bonnet's *Cadmos*,
-  and a "Phoenician core" the cultural-integrator take had already
-  retired.
-- **Page references wanted from the user's books:** Miles on the Third
-  Punic War (Cato, the 149 ultimatum) and the Demeter-Kore incense
-  burners; MacDonald's *Hannibal* for the Barcid readings and for the
-  post-Cannae defections claim, which still cites her with an unchecked
-  summary; Hoyos's *Truceless War* if his name is to be restored to the
-  Mercenary War material; Rawlings 2007, whose PDF the Cardiff
-  repository will not serve to an automated fetch.
+  excavation-report source. The archaeology is not in doubt; the citation
+  is. An excavation report for each would fix them.
+- **A possible new audit rule.** Three pages this month stated a position
+  more firmly than the editorial take they linked to
+  (`hannibal-after-zama`, `claims/masinissa-territorial-seizures-pattern`,
+  `sourceComparisons/lutatius-treaty`). That is a real class of error and
+  the best candidate for the next check in `evidence-audit.mjs`.
 
-**Next pages for review, if the batch continues:** the remaining
-source comparisons (the same format that failed twice), and the
-editorial takes last reviewed in May 2026 (`himera-greek-pairing`,
+**The review half has a reviewed baseline, not a backlog:** `consensus`
+9, `universal` 0, `inevitable` 11, `design-from-outcome` 11,
+`prose-attribution` 0, `unpaged-modern` 6, `named-holders` 3. If a number
+rises, something new was written. **Do not drive one to zero without
+reading the hits**; what remains in each is the site arguing correctly
+and tripping a blunt pattern (the `spw-causation` take weighing degrees
+of inevitability, the tophet narrative recounting how a consensus
+shifted, the Barcid take quoting a "planned outputs" position so it can
+reject it).
+
+**Next pages for review, if the batch continues.** Nothing here is
+flagged as wrong; these are simply the pages the eleven audits did not
+reach. The remaining source comparisons come first, because that format
+failed twice out of the three reviewed. Then the **ten editorial takes
+still stamped May 2026**, which predate every audit and every rule in
+"Evidence discipline" above, and which the hygiene passes touched only
+where a pattern caught them (`himera-greek-pairing`,
 `agathocles-masterstroke-or-gamble`, `alalia-locked-western-mediterranean-take`,
 `aristotle-carthaginian-governance-praise-qualified`,
 `first-treaty-trust-polybius`, `lutatius-treaty-too-harsh`,
@@ -3297,7 +3307,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **747 pages**.
+output. As of the last CLAUDE.md refresh it was around **746 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
