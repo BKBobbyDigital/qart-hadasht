@@ -20,10 +20,10 @@ dispute_summary: |
   Reasons modern scholarship is skeptical:
 
   1. Polybius does not preserve it. Polybius wrote earlier (~150 BCE
-     vs. Livy's ~25 BCE), interviewed participants and their families,
-     and gives the post-Cannae council without this exchange. An anecdote
-     this dramatic would not have escaped Polybius's notice if it had
-     been current in the historical tradition he worked from.
+     vs. Livy's ~25 BCE) and interviewed participants and their families,
+     and his account of the aftermath of Cannae has no such scene. An
+     anecdote this dramatic would probably not have escaped him if it had
+     been current in the tradition he worked from.
 
   2. It serves a Roman literary purpose. The exchange dramatizes the
      thesis, central to Livy's narrative, that Rome was saved by
@@ -34,14 +34,17 @@ dispute_summary: |
   3. The military assessment behind the anecdote is questionable.
      Hannibal lacked siege equipment for an assault on Rome, his army
      had just fought a major battle, and the march from Cannae to Rome
-     would have taken weeks. The "if only Hannibal had marched on Rome"
-     scenario is a counterfactual the ancient sources favor more than
-     modern military analysis does.
+     would have taken weeks. Livy himself says Hannibal's other officers
+     urged rest. The "if only Hannibal had marched on Rome" scenario is a
+     counterfactual the ancient sources favor more than modern military
+     analysis does.
 
   The site treats the anecdote as Roman literary tradition rather than
-  historical reportage. The underlying strategic question, what
-  Hannibal could realistically have achieved by marching on Rome, is
-  treated separately as an open question.
+  historical reportage. The underlying strategic question is treated in
+  the editorial take
+  [Could Hannibal have marched on Rome?](/editorialTakes/cannae-march-on-rome)
+  and the open question on
+  [Hannibal's objective in Italy](/openQuestions/hannibal-italian-objective).
 sources:
   - source: livy-auc
     stance: supports
@@ -57,11 +60,11 @@ sources:
       the Latin tradition.
   - source: polybius-histories
     stance: contradicts
-    passage_ref: "3.118"
+    passage_ref: "3.117–118"
     passage_summary: >
-      Polybius's account of Hannibal's post-Cannae deliberations does
-      not include the exchange with Maharbal. The silence is generally
-      treated as significant.
+      Polybius's account of the aftermath of Cannae has no exchange with
+      Maharbal and no council about marching on Rome. The silence is
+      generally treated as significant.
   - source: goldsworthy-fall-carthage-2003
     stance: qualifies
     passage_summary: >

@@ -22,7 +22,8 @@ referenced_claims:
   - cannae-allies-defected
   - cannae-maharbal-anecdote
   - cannae-tactical-legacy
-last_revised: "2026-05-09"
+  - hannibal-limited-war-aims
+last_revised: "2026-09-16"
 ---
 
 ## The road to Cannae
@@ -100,10 +101,21 @@ scholarship overwhelmingly treats the anecdote as later literary
 tradition rather than historical record: a Latin epigram constructed to
 dramatize the thesis that Rome was saved by Hannibal's failure of nerve.
 The harder question, whether marching on Rome was a real strategic
-option, has its own answer: probably not. Hannibal lacked siege
-equipment, his army needed time to recover, and Rome's walls and
-remaining manpower made the prospect of taking the city by storm
-extremely doubtful.
+option, has its own answer: probably not. Livy himself says the other
+officers urged rest for an exhausted army. Rome was some 400
+kilometers away behind a stone circuit wall, the state was already
+raising new legions and sending troops to hold the city, and Hannibal
+had no siege train; Saguntum had cost him eight months. When he did
+march on Rome, in 211, it was to draw the Romans away from Capua, and
+he withdrew from the walls. The case is set out in the editorial take
+[Could Hannibal have marched on Rome?](/editorialTakes/cannae-march-on-rome).
+
+Taking Rome was also not what he wanted. He sent Roman captives to
+negotiate a ransom, with an envoy ready to offer terms, and his treaty
+with Philip V the next year plans for a peace with a Rome that still
+exists. Richard Miles reads his aim as a Rome cut down to a central
+Italian power, not a Rome destroyed (see the
+[claim on Hannibal's limited war aims](/claims/hannibal-limited-war-aims)).
 
 What Hannibal did instead was characteristic. He sent his brother Mago
 back to Carthage to deliver the news (and, in the famous and probably

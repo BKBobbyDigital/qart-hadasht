@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Duplicate open question merged into hannibal-italian-objective.
+[[redirects]]
+  from = "/openQuestions/cannae-strategic-objective"
+  to = "/openQuestions/hannibal-italian-objective"
+  status = 301
+
 # Duplicate Hiero page merged into /people/hiero-ii.
 [[redirects]]
   from = "/people/hieron-ii"

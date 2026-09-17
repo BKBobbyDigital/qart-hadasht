@@ -57,6 +57,21 @@ evidence_summary: |
   to negotiate (treated under the
   [editorial take on Cannae's Roman refusal to negotiate](/editorialTakes/cannae-roman-refusal-to-negotiate))
   closed off the option his campaign had been built around.
+
+  What the settlement would have been. No source states
+  Hannibal's terms, but the evidence points to a Rome that
+  survives. In the speech Livy gives him after Cannae he says
+  he is contending for honor and dominion, not waging a war of
+  extermination (22.58), and his treaty with Philip V plans
+  for a peace with a Rome stripped of its Adriatic
+  possessions (Polybius 7.9). Richard Miles reconstructs the
+  intended outcome as Rome relegated to a central Italian
+  power, the Italian cities freed from its hegemony, and
+  Sardinia and Punic Sicily recovered for Carthage. That is
+  more than a return to the position before the First Punic
+  War, since Rome already led its Italian alliance in 264.
+  The evidence is weighed in the
+  [claim on Hannibal's limited war aims](/claims/hannibal-limited-war-aims).
 candidate_answers:
   - answer: >
       Hannibal was trying to break Rome's Italian alliance
@@ -81,7 +96,7 @@ candidate_answers:
       fiscal and manpower pressure, not with drift.
     held_by: >
       The dominant modern position (Hoyos, Goldsworthy,
-      Lazenby), and the site's working reading.
+      Lazenby, Miles), and the site's working reading.
   - answer: >
       Hannibal was less coherent than the modern
       reconstruction allows. He exploited tactical
@@ -139,6 +154,23 @@ candidate_answers:
       The popular tradition from the nineteenth century
       onward; now largely rejected in academic Punic-war
       scholarship.
+  - answer: >
+      Hannibal meant to destroy Rome's capacity to fight by
+      annihilating its field armies, and then to dictate terms
+      by force rather than by detaching its allies.
+    arguments_for: >
+      Trebia, Trasimene and Cannae were each fought to destroy
+      a Roman army, not to maneuver it out of position, and
+      Hannibal consistently sought battle on his own ground.
+    arguments_against: >
+      It fits the battles but not the diplomacy: the release of
+      allied prisoners, the outreach to Italian communities, the
+      ransom embassy after Cannae and the treaty with Philip V.
+      It also has no account of what destroying Roman capacity
+      would have meant against the manpower Rome raised after
+      Cannae.
+    held_by: >
+      A minority view, defended in some military analyses.
 relevant_entities:
   - type: person
     slug: hannibal-barca

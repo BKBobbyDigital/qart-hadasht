@@ -6,105 +6,118 @@ subject_entity:
   slug: battle-of-cannae
   role: subject
 position: >
-  Rome's refusal to negotiate after Cannae is the single fact
-  Hannibal's strategy could not overcome. By any reasonable
-  Hellenistic comparative standard, a state that lost a field
-  army of roughly 50,000 in a single afternoon would have
-  opened negotiations. The Roman senate's decision instead to
-  refuse envoys, refuse ransom for prisoners, and keep
-  mobilizing is what distinguishes the war from contemporary
-  Mediterranean conflicts. Hannibal's strategy assumed a
-  settlement pattern the Roman state had stopped following.
-  The tactical brilliance is genuine, and the strategic
-  concept, allied defection under direct pressure, is
-  coherent. What failed was the Hellenistic-precedent
-  assumption about how cities concede defeat. The reading is
-  not unique to this site (it tracks broadly with modern
-  strategic-historical scholarship, particularly Hoyos's
-  treatment), but it is a synthesis position rather than a
-  directly attested ancient framing. Polybius observes the
-  Roman refusal but does not theorize it as the central fact
-  of the war's outcome.
+  Rome's refusal to negotiate after Cannae is the single fact Hannibal's
+  strategy could not overcome, and Hannibal misjudged it. By Hellenistic
+  standards a state that lost a field army of roughly 50,000 in an
+  afternoon came to terms, and Hannibal acted on that expectation at
+  once, sending captives to Rome to arrange a ransom with an envoy ready
+  to offer peace. The senate would not receive the envoy, would not pay
+  the ransom, and kept mobilizing. The expectation was reasonable by the
+  standards of the Greek world Hannibal was educated in, but Rome's own
+  record pointed the other way: some sixty years earlier the senate had
+  refused to treat with Pyrrhus while his victorious army stood in Italy.
+  Richard Miles calls the expectation Hannibal's first serious
+  miscalculation, and the site agrees. The tactical brilliance and the
+  strategy of detaching Rome's allies were both real; what failed was a
+  reading of the enemy. This is a synthesis position, not an ancient
+  framing: Polybius records the refusal and admires it but does not
+  present it as a Carthaginian error.
 reasoning: >
-  Three observations support the reading.
+  Within days of Cannae Hannibal did what a Hellenistic victor did. He
+  released the allied captives, held the Romans, and sent ten of them to
+  Rome under oath to arrange the ransom of the roughly 8,000 prisoners
+  taken in the Roman camp, with the Carthaginian noble
+  [Carthalo](/people/carthalo) instructed to offer terms if the senate
+  was inclined to peace (Livy 22.58; Polybius 6.58). Ransom was the
+  normal first step toward a settlement. The dictator's lictor ordered
+  Carthalo out of Roman territory, the senate refused the ransom, and
+  it sent back under guard the one envoy who tried to evade his oath
+  (Livy 22.58–61). Polybius, telling the story to illustrate Roman
+  character, says Hannibal was less elated by his victory than dismayed
+  by the Romans' resolve.
 
-  The post-Cannae allied defections did happen but were not
-  enough. Hannibal's strategic premise, that a sufficiently
-  decisive tactical victory would pull Italian allies away
-  from Rome and deny Rome its manpower base, was partly
-  vindicated by the shifts that followed Cannae: Capua, much
-  of southern Italy, eventually Syracuse. But the core Latin
-  League and the Roman citizen body held. Allied defection
-  was not enough; the strategy needed defection on a scale
-  the Latin League's integration prevented.
+  The refusal held because Rome could afford it. The defections after
+  Cannae were real, Capua and much of the south, and later Syracuse, but
+  the Latin colonies and the Roman citizen body did not move. Polybius's
+  manpower figures (2.24) suggest Rome could replace the Cannae losses
+  from its own citizens, and the post-Cannae levy of youths and the
+  purchase of 8,000 slaves to fight (Livy 22.57) show a willingness to
+  go beyond normal limits. The senate kept the policy across years of
+  further disasters and changing consuls, which made it a settled
+  position rather than a moment of defiance.
 
-  The Roman manpower base was unusually deep. Polybius's
-  manpower census (2.24) suggests Rome could replace the
-  Cannae losses from its citizen body alone. The post-Cannae
-  mobilization of slaves and debtors (the *volones*) shows a
-  willingness to expand the manpower pool beyond
-  conventional limits. Together these produced sustained
-  military capacity that no Hellenistic adversary had
-  previously faced.
+  Why call it a misjudgment rather than bad luck? Hannibal's model of how
+  wars ended came from the Greek world, where kings who lost a great
+  battle made terms, and on that evidence his expectation was
+  reasonable. But Rome was not a Hellenistic kingdom, and its own recent
+  history said so. After Pyrrhus defeated the Romans at Heraclea in 280,
+  his envoy Cineas found the senate leaning toward peace until the old
+  and blind Appius Claudius Caecus was carried into the house and turned
+  it; the answer sent back was that Rome would not negotiate while
+  Pyrrhus remained in Italy (Plutarch *Pyrrhus* 18–19). Stories like
+  that one were part of how the senators Hannibal faced understood
+  themselves. [Miles](/sources/miles-carthage-2010) adds two reasons
+  Hannibal missed it: an education in Hellenistic statecraft under Greek
+  tutors, and twenty years of war in Iberia that made him a superb
+  general against Iberians and Celts but gave Carthaginian commanders
+  almost no experience of Rome.
 
-  Rome's political coherence under stress was institutional,
-  not accidental. The senate's refusal to negotiate was not
-  a single dramatic moment but a continuous policy across
-  years of subsequent disasters (Capua's defection,
-  Syracuse's defection, Hasdrubal's Iberian reinforcement,
-  Mago's southern Italian operations). The pattern (senate
-  coordination across consular turnover, strategic
-  discipline despite political pressure) is what Polybius's
-  larger project would later try to explain.
-
-  The site's reading is that Cannae's tactical achievement
-  was limited by an assumption about Roman political
-  behavior that turned out to be wrong. This is not a
-  criticism of Hannibal, the assumption was reasonable on
-  the available comparative evidence, but it is the reason
-  a war that Cannae should have ended on Carthaginian terms
-  continued for fourteen more years and ended on Roman
-  terms at Zama.
+  The charge has limits. The Caecus story reaches us through Roman
+  writers who knew how the Hannibalic war ended, and no one before
+  Hannibal had inflicted a defeat on Rome at the scale of Cannae, so
+  Rome's behavior after one was not strictly predictable. Nor is it clear
+  what else Hannibal could have done: he could not take Rome, and he
+  could not make it negotiate. The misjudgment lies in the expectation
+  that shaped the campaign, not in any single decision after the battle.
 confidence: moderate
-weighed_claims: []
+weighed_claims:
+  - cannae-rome-resilience
+  - hannibal-limited-war-aims
+  - cannae-allies-defected
 competing_positions:
   - position: >
-      Cannae did not end the war because Hannibal failed to
-      march on Rome immediately afterward. Had he done so,
-      the city would have fallen and the war would have
-      ended.
+      The expectation of negotiation was reasonable and Rome's refusal
+      was unforeseeable, so it reflects no failure of judgment on
+      Hannibal's part.
     why_rejected: >
-      The march-on-Rome counterfactual is genuinely contested
-      and treated under the editorial take
-      [cannae-march-on-rome](/editorialTakes/cannae-march-on-rome).
-      The dominant modern reading, and the site's position
-      there, is that Rome's walls and the Roman manpower
-      reserves still in central Italy in late 216 BCE made
-      a direct assault very unlikely to succeed even with
-      the post-Cannae momentum. The reading here does not
-      depend on the march-on-Rome counterfactual either way.
+      The Hellenistic norm was real, and the site keeps it as the reason
+      the expectation made sense. But a Roman precedent pointing the
+      other way was available, in the refusal to treat with Pyrrhus, and
+      a commander staking a war on the enemy's willingness to negotiate
+      had reason to weigh it. The site holds a softer version of this
+      reading in the limits it sets on the charge.
     held_by: >
-      A long-standing minority position drawing on Polybius's
-      reported response of Maharbal to Hannibal: "you know
-      how to win a victory but not how to use one."
+      Readings that judge Hannibal against Hellenistic practice rather
+      than against Roman precedent.
   - position: >
-      The war's outcome was determined less by Roman
-      political refusal than by attritional capacity. Roman
-      manpower, fiscal capacity, and shipbuilding rate
-      produced the resource asymmetry that eventually
-      defeated Hannibal regardless of any specific
-      political-strategic choice.
+      Cannae did not end the war because Hannibal failed to march on
+      Rome immediately afterward. Had he done so, the city would have
+      fallen and the war would have ended.
     why_rejected: >
-      The attritional-capacity reading is not wrong, Roman
-      manpower and fiscal capacity were larger than
-      Carthaginian, but it under-weights the contingent
-      role of political choice. A senate that had negotiated
-      after Cannae would have ended the war regardless of
-      underlying resource capacity. The capacity advantage
-      only became operative because the political choice to
-      keep fighting was made and sustained.
+      Treated under the editorial take
+      [cannae-march-on-rome](/editorialTakes/cannae-march-on-rome).
+      Rome's walls, the troops raised in and around it after the
+      battle, the distance, and Hannibal's lack of a siege train made
+      an assault very unlikely to succeed, and when he did reach the
+      walls in 211 he withdrew. The reading here does not depend on the
+      counterfactual either way.
     held_by: >
-      Some economic-historical treatments of the SPW that
-      emphasize structural rather than contingent factors.
-last_reviewed: "2026-05-22"
+      A long-standing position drawing on the reproach Livy (22.51) puts
+      in Maharbal's mouth: "you know how to win a victory but not how to
+      use one."
+  - position: >
+      The war's outcome was determined less by Roman political refusal
+      than by attritional capacity. Roman manpower, fiscal capacity and
+      shipbuilding produced a resource advantage that eventually defeated
+      Hannibal regardless of any specific political choice.
+    why_rejected: >
+      Roman manpower and fiscal capacity were larger than Carthaginian,
+      but the reading under-weights political choice. A senate that had
+      negotiated after Cannae would have ended the war regardless of
+      underlying resources. The capacity advantage only mattered because
+      the choice to keep fighting was made and sustained.
+    held_by: >
+      Some economic-historical treatments of the war that emphasize
+      structural rather than contingent factors.
+last_reviewed: "2026-09-16"
 open_to_revision: true

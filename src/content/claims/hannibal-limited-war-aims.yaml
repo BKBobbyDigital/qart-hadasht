@@ -1,0 +1,98 @@
+slug: hannibal-limited-war-aims
+statement: >
+  Hannibal did not aim to destroy Rome. After Cannae he sought a
+  negotiated peace that would leave Rome in existence but reduced, and
+  the treaty he made with Philip V of Macedon in 215 BCE plans for
+  exactly such a peace.
+confidence: inferred
+scholarly_consensus: >
+  That Hannibal fought for a settlement rather than the destruction of
+  the city is the dominant modern reading, and the evidence for it is
+  better than for most statements about his intentions. How far he
+  meant to shrink Rome is inference. Richard Miles reconstructs the
+  intended outcome as Rome relegated to a central Italian power, the
+  Italian cities freed from its hegemony, and Sardinia and Punic Sicily
+  recovered for Carthage. That goes further than restoring the position
+  before the First Punic War, since Rome already led its Italian
+  alliance before 264.
+dispute_summary: >
+  Three kinds of evidence point the same way, each with a weakness.
+
+  The first is what Hannibal did. Within days of Cannae he sent ten Roman
+  captives to Rome, bound by oath to return, to arrange the ransom of the
+  prisoners he held, and sent with them a Carthaginian noble, Carthalo,
+  with instructions to offer terms if he found the Romans inclined to
+  peace. Ransom was the usual first step toward a settlement. He had
+  also released captured Italian allies without ransom, as he had after
+  Trasimene. The actions are well attested; the purpose is inferred from
+  them.
+
+  The second is what he is reported to have said. In Livy he tells the
+  Roman captives that he is not waging a war of extermination against
+  Rome but contending for honor and dominion, and that as his ancestors
+  had yielded to Roman courage, the Romans should now yield to his
+  fortune and courage. The words are Livy's composition, written two
+  centuries later, and cannot be treated as a transcript.
+
+  The third is the strongest because it is a document. The treaty
+  between Hannibal and Philip V, whose text Polybius preserves in Greek,
+  provides that if the Romans ask for peace after a Carthaginian
+  victory, the peace will include Philip, that Rome will never make war
+  on him, and that the Romans will no longer be masters of Corcyra,
+  Apollonia, Epidamnus, Pharos, Dimale, the Parthini or Atintania. A
+  treaty that assigns obligations to Rome after the war assumes a Rome
+  that survives it.
+
+  Against the reading stands only its limit: none of the evidence says
+  what Hannibal would have demanded in Italy itself, which is where the
+  reconstructions differ.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.58"
+    passage_summary: >
+      Hannibal dismisses the allied captives without ransom, tells the
+      Roman captives that he is not waging a war of extermination but
+      contending for honor and dominion, and sends ten of them to Rome
+      under oath, with Carthalo instructed to offer terms if the Romans
+      are inclined to peace. The dictator's lictor orders Carthalo out
+      of Roman territory.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "7.9"
+    passage_summary: >
+      The oath of the treaty between Hannibal and Philip V: any peace
+      the Romans ask for after a Carthaginian victory will include
+      Philip; Rome is never to make war on him and is to give up its
+      Adriatic possessions and return the friends of Demetrius of
+      Pharos. The treaty presupposes a Rome that survives the war.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "6.58"
+    passage_summary: >
+      Hannibal sends ten of the roughly 8,000 prisoners from the Roman
+      camp to Rome under oath to negotiate their ransom; the senate
+      refuses, and Polybius says Hannibal was less elated by his victory
+      than dismayed by the Romans' resolve.
+  - source: miles-carthage-2010
+    stance: supports
+    passage_ref: "pp. 280–281"
+    passage_summary: >
+      Miles argues that taking Rome was not one of Hannibal's key
+      objectives, that he sought a peace in which Carthage dictated
+      terms as Rome had done after the First Punic War, and that his
+      limited aim was to reduce Rome to a central Italian power with the
+      Italian cities liberated and Sardinia and Punic Sicily reclaimed.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: battle-of-cannae
+    role: context
+  - type: event
+    slug: treaty-with-philip-v
+    role: context
+  - type: person
+    slug: carthalo
+    role: context
