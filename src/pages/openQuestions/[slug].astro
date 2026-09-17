@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { articleSchema } from '../../lib/structuredData';
 import { getCollection, getEntry } from 'astro:content';
-import { autolink, buildLinkRegistry, stripMarkdownForMeta } from '../../lib/autolink';
+import { autolink, buildLinkRegistry, stripMarkdownForMeta, renderInline } from '../../lib/autolink';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 
 export async function getStaticPaths() {
   const questions = await getCollection('openQuestions');
@@ -41,6 +42,8 @@ const relatedLinks = await Promise.all(
         ref.slug;
       return {
         type: ref.type,
+        role: ref.role,
+        slug: ref.slug,
         href: `/${collection}/${entry.id.replace(/\.md$/, '')}`,
         label,
       };
@@ -48,7 +51,16 @@ const relatedLinks = await Promise.all(
       return null;
     }
   })
-).then((arr) => arr.filter(Boolean) as { type: string; href: string; label: string }[]);
+).then(
+  (arr) =>
+    arr.filter(Boolean) as {
+      type: string;
+      role: string;
+      slug: string;
+      href: string;
+      label: string;
+    }[]
+);
 
 // Build link registry for autolink across summary prose.
 const [events, people, places, institutions, groups, themes, deities, artifacts] = await Promise.all([
@@ -87,6 +99,51 @@ const allComparisons = await getCollection('sourceComparisons');
 const relatedComparisons = allComparisons.filter((c: any) =>
   (c.data.related_questions ?? []).includes(question.id)
 );
+
+// The topic this question belongs to. `relevant_entities` uses four roles
+// (subject, object, context, location), so prefer an explicit subject and
+// fall back to the first that resolved.
+const subject =
+  relatedLinks.find((l: any) => l.role === 'subject') ?? relatedLinks[0] ?? null;
+
+// Subject slugs, used to find the rest of the site's work on this topic.
+const subjectSlugs = new Set(
+  (d.relevant_entities ?? [])
+    .filter((e: any) => e.role === 'subject' || e.role === 'object')
+    .map((e: any) => e.slug)
+);
+if (subjectSlugs.size === 0 && subject) subjectSlugs.add(subject.slug);
+
+// Where the site does commit. A question says the evidence will not decide;
+// a take on the same subject says what the site argues anyway. Putting them
+// next to each other is the honest pairing, and 15 of the 20 questions have
+// one.
+const allTakes = await getCollection('editorialTakes');
+const relatedTakes = allTakes.filter(
+  (t: any) => t.data.subject_entity && subjectSlugs.has(t.data.subject_entity.slug)
+);
+
+// The claims underneath: what has been pinned to sources on this subject.
+// Matched against the named subject only, not the wider subject/object set,
+// so the "all N claims on X" link below says something true.
+const allClaims = await getCollection('claims');
+const relatedClaims = subject
+  ? allClaims.filter((c: any) =>
+      (c.data.entities ?? []).some(
+        (e: any) => e.role === 'subject' && e.slug === subject.slug
+      )
+    )
+  : [];
+
+// Other questions on the same subject.
+const allQuestions = await getCollection('openQuestions');
+const siblings = allQuestions.filter(
+  (q: any) =>
+    q.id !== question.id &&
+    (q.data.relevant_entities ?? []).some(
+      (e: any) => (e.role === 'subject' || e.role === 'object') && subjectSlugs.has(e.slug)
+    )
+);
 ---
 
 <BaseLayout title={stripMarkdownForMeta(d.question, 100)} description={stripMarkdownForMeta(d.question, 200)} jsonld={articleSchema(stripMarkdownForMeta(d.question, 100), d, { description: stripMarkdownForMeta(d.question, 200) })}>
@@ -95,9 +152,13 @@ const relatedComparisons = allComparisons.filter((c: any) =>
     <span hidden data-pagefind-filter="type:Open questions" data-pagefind-meta="type:Open question"></span>
 
     <p class="eyebrow mb-3">
-      Open question · <a href="/openQuestions" class="text-tyrian-700 hover:underline">All questions</a>
+      Open question{subject && <> · on <a href={subject.href} class="text-tyrian-700 hover:underline">{subject.label}</a></>}
     </p>
-    <h1 class="font-serif text-2xl mb-6 leading-snug">{d.question}</h1>
+    <h1 class="font-serif text-2xl mb-2 leading-snug">{d.question}</h1>
+    <p class="text-sm text-sand-700 mb-6">
+      A question the surviving evidence does not settle, with the candidate
+      answers weighed. <a href="/openQuestions" class="text-tyrian-700 hover:underline">All open questions</a>.
+    </p>
 
     <section class="mb-8">
       <h2 class="eyebrow mb-2">Why this is unknown</h2>
@@ -145,6 +206,66 @@ const relatedComparisons = allComparisons.filter((c: any) =>
       <section class="mb-8">
         <h2 class="eyebrow mb-2">What would resolve this</h2>
         <div class="text-ink-900 leading-relaxed" set:html={al(d.what_would_resolve_this)}></div>
+      </section>
+    )}
+
+    {relatedTakes.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-1">Where the site does take a position</h2>
+        <p class="text-sm text-sand-700 mb-3">
+          This page says the evidence will not decide. These say what the site
+          argues on the same subject anyway, and why.
+        </p>
+        <ul class="space-y-2">
+          {relatedTakes.map((t: any) => (
+            <li>
+              <a href={`/editorialTakes/${t.id}`} class="block p-4 border border-tyrian-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 transition-colors">
+                <p class="text-[11px] uppercase tracking-widest text-sand-700 font-semibold mb-1">
+                  Editorial take · {t.data.confidence} confidence
+                </p>
+                <p class="font-serif text-tyrian-700 leading-snug">
+                  {stripMarkdownForMeta(t.data.subject_question, 120)}
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relatedClaims.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-3">The evidence underneath</h2>
+        <ul class="space-y-2">
+          {relatedClaims.slice(0, 6).map((c: any) => (
+            <li class="flex items-start gap-3 text-sm border-l-2 border-sand-300 pl-3">
+              <ConfidenceBadge confidence={c.data.confidence} />
+              <a href={`/claims/${c.id}`} class="text-tyrian-700 hover:underline flex-1" set:html={renderInline(c.data.statement)}></a>
+            </li>
+          ))}
+        </ul>
+        {relatedClaims.length > 6 && subject && (
+          <p class="text-sm text-sand-700 mt-3">
+            <a href={subject.href} class="text-tyrian-700 hover:underline">
+              All {relatedClaims.length} claims on {subject.label} →
+            </a>
+          </p>
+        )}
+      </section>
+    )}
+
+    {siblings.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-3">Other open questions on this subject</h2>
+        <ul class="space-y-2">
+          {siblings.map((q: any) => (
+            <li class="text-sm border-l-2 border-sand-300 pl-3">
+              <a href={`/openQuestions/${q.id}`} class="text-tyrian-700 hover:underline">
+                {stripMarkdownForMeta(q.data.question, 140)}
+              </a>
+            </li>
+          ))}
+        </ul>
       </section>
     )}
 
