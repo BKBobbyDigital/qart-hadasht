@@ -283,7 +283,16 @@ const REVIEW = [
     re: /(?<!scholarly_)(?<!no )(?<!not a )(?<!not the )(?<!without )(?<!established )\bconsensus\b/i,
     ask: 'Is there a source for the consensus, or is it our impression?',
   },
-  { id: 'universal', re: /\b(universally|overwhelmingly|invariably)\b|\b(all|most) (modern )?(scholars|historians)\b|\b(scholars|historians) agree\b/i, ask: 'Who, exactly? Name a holder or describe the reading.' },
+  // "Overwhelmingly" is usually a statement of proportion about the evidence
+  // ("the literary record is overwhelmingly Greco-Roman"), which is a fact
+  // about the corpus rather than a claim about who agrees. It is a finding
+  // only when attached to acceptance, so it is matched that way; the bare
+  // adverb is not.
+  {
+    id: 'universal',
+    re: /(?<!not )(?<!nor )\b(universally|invariably)\b|\boverwhelmingly (accepted|agreed|rejected|held)\b|\b(all|most) (modern )?(scholars|historians)\b|(?<!do not )(?<!don't )\b(scholars|historians) agree\b/i,
+    ask: 'Who, exactly? Name a holder or describe the reading.',
+  },
   { id: 'inevitable', re: /\binevitabl[ey]\b/i, ask: 'Does a source say this, or does the outcome?' },
   { id: 'design-from-outcome', re: /\bcalibrated\b(?! (to approximately|dates|radiocarbon))|\bplanned outputs?\b|\bfrom the (outset|start)\b|\bdeliberately impossible\b|\bby design\b/i, ask: 'Is intent attested, or read back from what happened?' },
 ];
@@ -312,7 +321,18 @@ function hits(text, re) {
   );
 }
 
-const texts = files.map((f) => [relative(REPO, f), readFileSync(f, 'utf8')]);
+// Code comments are notes to the next developer, not claims made to a
+// reader, so they are stripped before scanning: a JSDoc line in the schema
+// explaining that a field records "whether scholars agree" is not the site
+// asserting that scholars agree.
+const stripCodeComments = (path, text) =>
+  /\.(ts|astro|mjs|js)$/.test(path)
+    ? text.replace(/\/\*[\s\S]*?\*\//g, ' ').replace(/(^|\s)\/\/[^\n]*/g, '$1')
+    : text;
+const texts = files.map((f) => [
+  relative(REPO, f),
+  stripCodeComments(f, readFileSync(f, 'utf8')),
+]);
 
 // 1. Regressions
 const regressionHits = [];

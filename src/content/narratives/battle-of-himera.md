@@ -48,9 +48,7 @@ was the largest Carthaginian military undertaking of the 5th
 century BCE.
 
 The surviving figures (Herodotus 7.165 reports 300,000 men;
-Diodorus 11.20 reports 300,000 troops plus 200,000 in support) are
-universally treated by modern scholarship as inflated. The actual
-expeditionary force was probably 20,000 to 50,000 men, large by
+Diodorus 11.20 reports 300,000 troops plus 200,000 in support) cannot be literal: no 5th-century state could move or feed a force of that size. The actual expeditionary force was probably 20,000 to 50,000 men, large by
 the standards of the period but not the world-historical scale the
 Greek sources imply. The inflation is characteristic of Greek
 casualty and force-strength reporting for non-Greek invasions and

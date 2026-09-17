@@ -8,9 +8,7 @@ statement: >
 confidence: attested
 scholarly_consensus: >
   Firmly attested. Polybius's preservation of the treaty text is
-  the principal source for its content and is universally
-  accepted as authentic Polybian transmission of an actual
-  archival document, whatever the disputes about the date.
+  the principal source for its content and the site treats it as authentic Polybian transmission of an archival document. The disputes concern the date, not the text.
 sources:
   - source: polybius-histories
     stance: supports
