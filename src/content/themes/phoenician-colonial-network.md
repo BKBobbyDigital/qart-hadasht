@@ -28,7 +28,7 @@ related_themes:
   - punic-inscriptional-record
 referenced_claims:
   - melqart-cult-as-network-infrastructure
-last_revised: "2026-05-22"
+last_revised: "2026-09-17"
 ---
 
 The conventional treatment of Carthage opens with the
@@ -404,8 +404,8 @@ the Hellenistic-Carthage question the site treats
 separately.
 
 The transition was absorption rather than displacement.
-The Melqart cult continued. The annual Tyrian delegation
-continued. The Punic language and script continued. The
+The Melqart cult continued, and Carthaginian envoys still
+went to Tyre for the god's annual festival. The Punic language and script continued. The
 [inscriptional formulae](/themes/punic-inscriptional-record)
 continued. What changed was the supplementary cultural
 vocabulary the network operated alongside its Phoenician
