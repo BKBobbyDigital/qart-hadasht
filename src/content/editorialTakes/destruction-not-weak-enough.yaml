@@ -110,6 +110,21 @@ reasoning: >
   pressure with force, made the war of 150 increasingly likely, though
   not inevitable.
 
+  Cato is the hardest figure to weigh. The *delenda est* tradition makes
+  him the cause: a man who ended every speech with the same demand until
+  he got his war. The site treats his advocacy as real and his causal
+  weight as unrecoverable, because the evidence pulls two ways. Against
+  the singular reading, the embassy he served on issued no ruling
+  (Appian *Punica* 69), several years passed between it and the decision
+  for war, Nasica argued the other side and was answered rather than
+  ignored (*Periochae* 48; Plutarch *Cato Major* 27), and both Polybius
+  and Appian describe a senate deliberating about timing and appearances
+  rather than one being swept along. For it, the sources that survive
+  put his name on the argument that carried, and Appian has him say
+  Rome's liberty would never be secure while Carthage stood. What cannot
+  be recovered is whether he moved the senate or articulated where it
+  was already going, and the site declines to decide it.
+
   Modern historians broadly separate the treaty breach, as the occasion
   of the war, from its deeper causes, but they do not agree on how to
   weigh those causes. The position here is the site's synthesis of the
@@ -118,6 +133,7 @@ confidence: moderate
 weighed_claims:
   - 149-demands-as-deliberate-trap
   - masinissa-territorial-seizures-pattern
+  - cato-delenda-est
 competing_positions:
   - position: >
       The destruction was Rome's response to a genuine Carthaginian
@@ -149,6 +165,23 @@ competing_positions:
     held_by: >
       Older accounts that take Polybius 31.21 and Appian *Punica* 68 as
       a description of the whole inter-war period.
+  - position: >
+      Cato's persistent advocacy was the decisive cause. Without him the
+      senate would not have moved, and the war is best explained by one
+      man's campaign rather than by Roman strategic calculation.
+    why_rejected: >
+      Not rejected so much as unprovable. The surviving sources put
+      Cato's name on the winning argument, which is exactly what a
+      tradition built around a memorable phrase would do, and they also
+      show a senate weighing how the war would look, an opposing case
+      argued by Nasica, and years passing between his embassy and the
+      decision. The site cannot separate the man who persuaded from the
+      man who spoke for what was coming, and says so rather than
+      choosing.
+    held_by: >
+      The *delenda est* tradition as it reaches popular treatments; the
+      ancient sources give it more support than the structural reading
+      usually admits.
   - position: >
       The destruction was overdetermined. Specific mechanisms (Cato's
       advocacy, Masinissa's encroachment, the 149 demands) matter less

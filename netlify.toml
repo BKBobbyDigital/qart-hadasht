@@ -17,6 +17,13 @@
   to = "/people/hiero-ii"
   status = 301
 
+# Duplicate take on why Rome destroyed Carthage, merged into
+# destruction-not-weak-enough.
+[[redirects]]
+  from = "/editorialTakes/tpw-why-destruction"
+  to = "/editorialTakes/destruction-not-weak-enough"
+  status = 301
+
 # Civilization hub was folded into Themes; preserve any external links.
 [[redirects]]
   from = "/civilization"
