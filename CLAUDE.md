@@ -2631,9 +2631,10 @@ rest of that theme still leans integrationist and deserves its own pass.
   on modern overviews nobody has read and on no ancient or
   excavation-report source. The archaeology is not in doubt; the
   citation is. An excavation report for each would fix them.
-- **The `universal` review term, 34 hits in 32 files.** Same family as
-  the consensus pass (Sep 2026), which took `consensus` from 43 to 9 and
-  cleared `prose-attribution` to 0. Not yet reviewed.
+- **`inevitable` (19 hits in 12 files) and `design-from-outcome` (15 in
+  10).** The last two unreviewed review terms, and the two closest to
+  charter principle 1. `consensus`, `universal` and `prose-attribution`
+  have all been worked through (Sep 2026).
 - **`themes/phoenician-colonial-network`** still leans integrationist
   after its opening was qualified in audit 11; it deserves its own pass,
   read against the empire take.
@@ -2789,6 +2790,31 @@ historiographical and name Mommsen and Tenney Frank, one refers to the
 Greco-Roman sources). Historiographical narration still trips the rule
 and must be judged by eye, which the script's comment records. Do not
 "fix" these.
+
+**`universal` went to 0 the same way.** Seventeen places asserted a
+reading was "universally accepted" or held by "most modern scholars".
+Most were true in substance and false only in form, so they now say the
+thing is undisputed, or give what the sources give. Where the site was
+making the judgment itself it now owns it (Ilipa as Scipio's
+masterpiece). The Himera troop figures were the instructive case: saying
+modern scholarship universally treats 300,000 as inflated substitutes a
+head-count for an argument, so the pages now give the reason, that no
+fifth-century state could move or feed a force that size.
+
+**Three refinements to the scanner came out of these two passes**, all
+serving the same end, that a count should mean something:
+- negated forms are skipped (`no consensus`, `not universally accepted`);
+- `overwhelmingly` matches only when attached to acceptance, since on its
+  own it states a proportion of the evidence ("the literary record is
+  overwhelmingly Greco-Roman"), which is a fact about the corpus;
+- **code comments are stripped from `.ts`/`.astro`/`.mjs` before
+  scanning**, because a JSDoc line saying a field records "whether
+  scholars agree" is a note to a developer, not an assertion to a reader.
+
+Each regex change was unit-tested against its edge cases before
+committing. Do that; an over-broad pattern here silently rewrites prose,
+and two earlier rules had to be narrowed or deleted after flagging
+correct sentences.
 
 ### Active work queue (complete)
 
