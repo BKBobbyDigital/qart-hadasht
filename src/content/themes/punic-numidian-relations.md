@@ -22,7 +22,7 @@ related_themes:
   - punic-identity
   - carthaginian-warfare
 referenced_claims: []
-last_revised: "2026-05-22"
+last_revised: "2026-09-17"
 ---
 
 The Numidian and Libyan peoples of the African interior were
@@ -60,13 +60,13 @@ Dynastic marriage. Carthaginian aristocratic marriages with
 the Numidian royal houses were the diplomatic backbone of the
 relationship. The best-documented case is the
 [Sophonisba](/people/sophonisba) episode. Daughter of
-[Hasdrubal Gisco](/people/hasdrubal-gisco), she was betrothed
-to [Masinissa](/people/masinissa) of the Massylii in the
-early 210s, then redirected by the senate to
-[Syphax](/people/syphax) of the Masaesyli in 206 BCE to
-secure the larger western Numidian kingdom against Rome. The
-realignment is part of what pushed Masinissa over to Rome
-and reshaped the African theater of the war.
+[Hasdrubal Gisco](/people/hasdrubal-gisco), she was married to
+[Syphax](/people/syphax) of the Masaesyli around 206–205 BCE to
+secure the larger western Numidian kingdom against Rome. Appian
+says she had been betrothed to [Masinissa](/people/masinissa) and
+makes the broken match his reason for going over to Rome
+(*Punica* 10); Livy knows no betrothal (29.23). Either way the
+marriage reshaped the African theater of the war.
 
 Cavalry partnership. Numidian cavalry was the spine of
 Carthage's field army across the Punic Wars; the
@@ -85,19 +85,20 @@ won [Zama](/events/battle-of-zama) for Rome.
 
 The single most consequential figure in the whole Numidian-
 Punic relationship is [Masinissa](/people/masinissa), the
-Massylii prince whose 206 BCE defection from Carthage to
-Rome, his unification of the two Numidian kingdoms under
-Roman patronage, and his fifty-eight years on the throne
-(206–148) reshaped North African political geography.
+Massylii prince whose defection from Carthage to Rome around
+206 BCE, his rule over most of Numidia after Syphax's defeat,
+and his more than half a century on the throne (203–148)
+reshaped North African political geography.
 
 Masinissa's role is treated under the
 [Masinissa-as-strategic-opportunist editorial take](/editorialTakes/masinissa-strategic-opportunist):
-not a Roman client and not the architect of Carthage's
-destruction, but a clear-eyed Numidian operator who
-calibrated his post-Zama expansion to take as much as
-Roman patronage would allow without forcing the issue. The
-fifty years of patient, incremental encroachment that
-followed produced the conditions for the Third Punic War.
+not a Roman instrument and not the architect of Carthage's
+destruction, but a Numidian king pursuing Numidian aims inside
+the opportunity Rome's victory had created. His claims, pressed
+for five decades and adjusted to what Rome would allow, helped
+produce the crisis of 150; the decision to destroy the city was
+Rome's, and Appian reports him resentful at being shut out of it
+(*Punica* 94).
 
 ## Cultural continuity
 
@@ -143,7 +144,7 @@ treats the broader continuity question.
 The Numidian-Punic relationship produced the conditions for
 146 BCE in three respects.
 
-First, Masinissa's fifty-year program reduced Carthage's
+First, Masinissa's half century of pressure reduced Carthage's
 territorial and economic base and left the senate facing
 perpetual incremental loss as the only alternative to a
 treaty-breaking military response.

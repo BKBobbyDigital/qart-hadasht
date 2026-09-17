@@ -125,6 +125,36 @@ const REGRESSIONS = [
     fixed: 'f400aa0',
   },
   {
+    id: 'masinissa-continuous-reign',
+    re: /fifty-eight[- ]years?|continuous(ly)? (reign|rule|ruled)[^.]{0,40}(Masinissa|Numidia|206)|Masinissa[^.]{0,80}continuous(ly)? (reign|rule|ruled)/i,
+    right: 'Syphax drove Masinissa out; he recovered the kingdom in 203 (Appian 106). Polybius 36.16: over sixty years.',
+    fixed: 'Masinissa audit',
+  },
+  {
+    id: 'masinissa-roman-cavalry-commander',
+    re: /Roman cavalry commander at Zama|served as a Roman cavalry/i,
+    right: 'At Zama he commanded his own Numidian cavalry on the Roman right (Polybius 15.9).',
+    fixed: 'Masinissa audit',
+  },
+  {
+    id: 'polybius-always-lost-cases',
+    re: /always lost its cases/i,
+    right: 'Polybius 31.21 "always came off second best" refers to the Emporia embassies, not every dispute.',
+    fixed: 'Masinissa audit',
+  },
+  {
+    id: 'sophonisba-betrothal-senate-or-gala',
+    re: /(senate|Gala)[^.]{0,40}(reversed|rescinded|arranged)[^.]{0,40}betrothal|betrothal[^.]{0,40}(rescinded|reversed) by (the senate|her father)/i,
+    right: 'Only Appian (Pun. 10) has the betrothal: the Carthaginians gave her to Syphax without Hasdrubal\'s knowledge. Livy 29.23 has no betrothal.',
+    fixed: 'Masinissa audit',
+  },
+  {
+    id: 'polybius-sophonisba',
+    re: /Polybius[^.]{0,30}14\.[7-9][^.]{0,80}(Sophonisba|poison)|(Sophonisba|poison)[^.]{0,80}Polybius[^.]{0,20}14\.[7-9]/i,
+    right: 'Polybius Book 14 breaks off after the Great Plains; the Sophonisba episode is Livy 30.12–15 and Appian 27–28.',
+    fixed: 'Masinissa audit',
+  },
+  {
     id: 'methodologically-more-honest',
     re: /methodologically more honest/i,
     right: 'Self-congratulation; say what the reading does instead.',

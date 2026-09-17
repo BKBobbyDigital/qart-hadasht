@@ -31,7 +31,7 @@ primary_entities:
     slug: punic-religion
     role: subject
 referenced_claims: []
-last_revised: "2026-05-22"
+last_revised: "2026-09-17"
 ---
 
 The conventional Anglophone treatment of the Carthaginian-
@@ -223,8 +223,9 @@ transitions.
 
 ## Masinissa and the consolidation of the elite culture
 
-The fifty-eight-year reign of
-[Masinissa](/people/masinissa), c. 206 to 148 BCE, was when
+The long reign of
+[Masinissa](/people/masinissa), from his recovery of the kingdom in
+203 to his death in 148 BCE, was when
 the Numidian-Punic elite consolidation reached its mature
 form. Masinissa unified the eastern and western Numidian
 confederations into a single kingdom under Massylii

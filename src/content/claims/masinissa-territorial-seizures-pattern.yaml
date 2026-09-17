@@ -33,9 +33,9 @@ dispute_summary: >
   In the 160s Masinissa took the open country of the Emporia again and
   then pressed for the towns. Polybius, a contemporary living in Rome,
   says Carthage lost not only the land and towns but five hundred talents
-  of revenue, and that Carthage always came off worse at Rome, not
-  because it lacked right on its side but because the judges thought a
-  ruling against it served Rome (31.21). This is the strongest ancient
+  of revenue, and that in this dispute Carthage always came off worse at
+  Rome, not because it lacked right on its side but because the judges
+  thought a ruling against it served Rome (31.21). This is the strongest ancient
   testimony for favoritism, and the revisionist case has to account for
   it.
 
@@ -72,8 +72,9 @@ sources:
     passage_summary: >
       Masinissa seizes the Emporia country and presses for its towns;
       Carthage loses the land, the towns and five hundred talents, and
-      Polybius says the Carthaginians always lost at Rome because the
-      judges thought it in Rome's interest.
+      Polybius says that across the many embassies on this dispute the
+      Carthaginians always lost at Rome because the judges thought it
+      in Rome's interest.
   - source: appian-punica
     stance: qualifies
     passage_ref: "69"

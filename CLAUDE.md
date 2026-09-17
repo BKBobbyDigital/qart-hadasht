@@ -2406,6 +2406,31 @@ building its pattern list found the Mercenary War dated four ways in 12
 files (normalized to 241–237) and the Scipio tree calling Aemilianus
 three generations after Africanus (two).
 
+**7. `masinissa-strategic-opportunist`** (second batch of five). User-
+confirmed: rebuilt on three parts (Numidian aims; opportunity Rome
+created; a consequence he did not design); arbitration chronology kept
+**disputed** (Appian 67, Polybius 31.21, Hoyos, Bailey), not "widened
+over time"; Appian 94 (vexed in 149, Romans suspicious) given a full
+paragraph but not read as wanting Carthage to survive, balanced by
+105–107 (Scipio settles the succession; Gulussa aids Rome). Closes on
+Appian 106, "a cause of the destruction." A third competing position
+names the old long-range-planner reading. Errors: "ruled continuously
+for fifty-eight years" (Syphax drove him out; recovered 203; Polybius
+36.16 has over sixty years); "Roman cavalry commander at Zama";
+Polybius's "always came off second best" belongs to the Emporia
+embassies, not every dispute; "Cato's decade of advocacy" dropped; the
+Sophonisba betrothal is **Appian only** (*Pun.* 10, made without
+Hasdrubal's knowledge; Livy 29.23 has Hasdrubal arrange the Syphax
+match, no betrothal), and `people/gala` had invented Gala arranging it
+in the early 210s; `claims/great-plains-sophonisba-aftermath` cited
+Polybius 14.7–9 for an episode his surviving text never reaches (now
+Appian 27–28). Aligned: Masinissa's page (summary rewritten), his life
+narrative, period 07, the Punic-Numidian theme, the interface
+narrative, Hasdrubal Gisco, Sophonisba, Syphax, Gala, Great Plains, the
+seizures claim, the destruction take, commission-157, the extent map
+page. **Not yet checked:** the life narrative's "Hellenistic monarchy"
+paragraph (Greek correspondence, architecture) is unsourced.
+
 **Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
 answers the same question as `destruction-not-weak-enough` and still
 says the relocation demand was "deliberately impossible to accept";

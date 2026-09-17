@@ -103,36 +103,32 @@ Greek-eastern preoccupation back to Mediterranean western — Masinissa
 encroached steadily on Carthaginian territory. Carthage took the
 disputes to Rome, and any attempt to respond militarily would have
 broken the treaty. How Rome judged them is disputed. Polybius, who
-lived in Rome through these years, says Carthage always lost its cases
-because the judges thought that served Rome (31.21), and Appian
-describes envoys favoring Masinissa by delay. Hoyos and Bailey argue
-that Rome mostly upheld the settlement of 201 until after 167 and
+lived in Rome through these years, says that in the long dispute over
+the Emporia Carthage always came off worse because the judges thought
+that served Rome (31.21), and Appian says the first Roman arbitrators
+were told to favor Masinissa and later envoys helped him by delay
+(*Punica* 67–68). Hoyos argues that Rome rebuffed his annexations until
+after 167, and Bailey that Rome mostly upheld the settlement of 201 and
 sometimes ruled for Carthage. The surviving rulings are few, and the
-site reads them as Roman restraint of Masinissa weakening over time,
-most sharply in the last decades of the peace (see the
+site leaves the question open (see the
 [claim on Masinissa's seizures](/claims/masinissa-territorial-seizures-pattern)).
 The encroachments continued.
 
-The pattern's strategic logic on the site's reading involves three
-parallel actors, not two. Masinissa was pursuing his
-own Numidian aggrandizement program, not Roman bidding, with full
-understanding of how far Roman patronage would back his pressure;
-Rome, at least in the later decades, tolerated the program because
-Carthaginian containment served Roman interests; and the Carthaginian
-state was unable to respond except through the
-treaty-violating military action that would eventually trigger the
-Roman intervention all three actors' positions made structurally
-likely. Masinissa was not a Roman client doing Roman bidding; he was
-a clear-eyed strategic opportunist who had served as a Roman cavalry
-commander at Zama, understood Roman strategic intent from the inside,
-and calibrated his five-decade encroachment program to maximize
-Numidian gains within the patronage frame. His longevity
-(approximately ninety years, with a continuous reign of fifty-eight
-years from 206 to 148 BCE) gave him a strategic time horizon unusual
-in the ancient Mediterranean and the patience to play the incremental
-game across multiple generations of his Roman and Carthaginian
-counterparts. The site's full reading of his role is under the
-editorial take
+On the site's reading three actors were involved, not two.
+Masinissa pursued Numidian aims (land, revenue, a stronger kingdom),
+not Roman instructions, though his power rested on Roman victory and
+recognition; Rome, at least in some disputes, let him keep gains
+because a weak Carthage suited it; and Carthage could not answer him
+except by the war that would break the treaty. He was not a Roman
+client doing Roman bidding, nor the author of the destruction: he
+commanded the Numidian cavalry allied with Scipio at Zama, pressed his
+claims for decades, and adjusted to what Rome allowed. His long life
+(about ninety years, and more than half a century on the throne after
+recovering it from Syphax in 203) gave Numidian policy unusual
+continuity, which the site does not read as a fifty-year plan. When
+Rome went to war in 149, Appian says he resented being left out of an
+endgame he had helped prepare (*Punica* 94). The site's full reading
+is under the editorial take
 [Masinissa: strategic opportunist, not architect](/editorialTakes/masinissa-strategic-opportunist).
 The configuration's outcome was a Carthaginian position that could
 not stably hold and a Roman strategic option that the Cato faction of
