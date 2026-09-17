@@ -759,7 +759,7 @@ the last build.
 | places | 62 |
 | sources | 88 |
 | claims | 179 |
-| editorialTakes | 26 |
+| editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
 | narratives | 45 |
@@ -926,7 +926,7 @@ across places, people, events, etc. Fixed via:
 | tic-rank.mjs | Rank all content files by AI-tic vocabulary density |
 | delm.mjs | Mechanical de-LLM pass (bold mini-headings, boilerplate closers, safe word subs) |
 | spelling-audit.mjs | American-English enforcement; British spellings + `-ise`/`-yse` drift |
-| evidence-audit.mjs | Corrected-error regressions (gate, must be CLEAN) + overconfident-language review counts; see "Evidence discipline" |
+| evidence-audit.mjs | Corrected-error regressions (gate, must be CLEAN) + overconfident-language review counts, incl. `unpaged-modern` and `prose-attribution`; see "Evidence discipline" |
 
 **Before every content commit** run the set: `npm run build`, then
 `node scripts/link-audit.mjs`, `prose-audit.mjs`, `spelling-audit.mjs`
@@ -2615,14 +2615,19 @@ religion, script and commerce are not evidence of central command; the
 rest of that theme still leans integrationist and deserves its own pass.
 
 **Open items from the audits, in rough priority order:**
-- **`editorialTakes/tpw-why-destruction`** answers the same question as
-  `destruction-not-weak-enough` and still says the relocation demand was
-  "deliberately impossible to accept". Merge or align it; this has been
-  outstanding since audit 1.
-- **Unchecked modern citations.** `evidence-audit.mjs` counts about 150
-  modern-scholarship citations on claims with no page reference.
-  Goldsworthy alone carries characterized summaries on ~14 claims. A
-  dedicated pass could either verify or neutralize them.
+- **Prose attributions.** `evidence-audit.mjs --list prose-attribution`
+  shows **21 claims** that name a modern historian inside
+  `scholarly_consensus`, `dispute_summary` or `notes`. Moving a citation
+  to `further_reading` does not touch the prose, so this is the residue
+  of the Sep 2026 separation pass. Mostly Hoyos. Each needs judgment:
+  either the characterization gets checked, or the name comes out and
+  the reading is described without a holder.
+- **Three claims that need a checked source**, flagged in their own
+  `notes`: `kerkouane-preserved-punic-urban-fabric`,
+  `tanit-late-emergence`, `tophet-stratigraphic-continuity`. Each rests
+  on modern overviews nobody has read and on no ancient or
+  excavation-report source. The archaeology is not in doubt; the
+  citation is. An excavation report for each would fix them.
 - **The ~20 claims that call their reading "the consensus modern" one**,
   plus the remaining `consensus` / `universal` hits in the review half.
 - **`themes/phoenician-colonial-network`** still leans integrationist
@@ -2709,6 +2714,37 @@ Three real findings were fixed (commit `fa0bd9e`):
 The survey script lives in the scratchpad and was **not** promoted to
 `scripts/`: its patterns are too noisy for a gate (423 hits on
 "mercenary" alone).
+
+### The citation separation (Sep 2026)
+
+The largest single honesty fix the site has had. **125 modern citations
+across 96 of 179 claims** asserted what a book argues without anyone
+having read it, in summaries specific enough to look checked, with a
+`stance` making a second unverified claim on top. Hoyos alone carried 68
+across three books. They were moved into the new `claims.further_reading`
+(see the schema note above), which carries no stance and no
+characterization, and both the claim card and the source page say plainly
+that the arguments have not been checked. **Entries are promoted back
+into `sources` with a `passage_ref` as the user reads the books**, which
+is the agreed path: separate now, verify over time.
+
+**Two distinctions a purely mechanical rule got wrong, and why they
+matter for any future sweep:**
+1. **Modern work can be evidence rather than borrowed argument.**
+   Excavation reports, the Bir Massouda radiocarbon dates, the aDNA
+   paper, the tophet bioarchaeology exchange, object studies, coin
+   corpora and Walbank's commentary stay in `sources` without a page
+   reference. The allowlist lives in `EVIDENCE_WORKS` in
+   `evidence-audit.mjs`; add to it rather than working around it.
+2. **Never let a script undo a verified pass.**
+   `tophet-child-sacrifice-contested` was excluded by hand because audit
+   2 had reworked it against those very papers.
+
+`evidence-audit.mjs` changed with it: `unpaged-modern` is now a rule
+rather than a count (149 → 6, and the 6 are the three flagged claims plus
+the tophet exclusion), and a new **`prose-attribution`** term catches the
+layer this exposed, since moving a citation does not clean prose that
+names the scholar. That is the top open item now.
 
 ### Active work queue (complete)
 
@@ -3173,6 +3209,11 @@ collection:
   office + year + notes)
 - **deities**: `sanctuaries[]`, `iconography`, `consort`,
   `cult_period`
+- **claims**: `further_reading[]` (optional: `source` ref, optional neutral
+  `note`). Modern works the site points a reader at without having checked
+  their arguments. No stance, no characterization. Rendered apart from the
+  cited sources on the claim card and on the source page. Promote an entry
+  into `sources` with a `passage_ref` once the work has been read.
 - **sources**: `critical_read` (optional object: `what_it_gives`,
   `what_it_argues`, `dependence`), rendered as the "Reading this author"
   box. A source with one has had its `bias_notes` folded in and removed;
