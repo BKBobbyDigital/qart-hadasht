@@ -104,11 +104,7 @@ escalated stepwise:
 - Third, the abandonment of the city itself. The population was
   ordered to relocate at least ten miles inland and refound
   itself as an agricultural community without harbor or
-  fortification. The order was deliberately impossible: Carthage
-  was a maritime commercial city; the Carthaginian economy
-  depended on the harbor; no inland refoundation could preserve
-  the conditions that made the city a Carthaginian civilization
-  in any meaningful sense.
+  fortification. Whether the order was framed in the expectation that it would be refused is not attested, and does not need to be. Carthage was a maritime commercial city, its economy depended on the harbor, and no inland refoundation could have preserved the conditions that made it what it was. Acceptance and refusal alike ended the city.
 
 The third demand was the Roman mechanism for ensuring that the
 destruction the senate had decided on would be the war's outcome.

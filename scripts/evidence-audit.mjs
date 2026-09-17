@@ -155,6 +155,12 @@ const REGRESSIONS = [
     fixed: 'Masinissa audit',
   },
   {
+    id: 'ultimatum-deliberately-impossible',
+    re: /deliberately impossible/i,
+    right: 'The 149 relocation demand: say what it would have done (acceptance and refusal alike ended the city). Rome\'s expectation of refusal is not attested. Removed from the merged take, then found alive on the claim and the destruction narrative.',
+    fixed: 'inevitable/design pass',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',
@@ -293,8 +299,15 @@ const REVIEW = [
     re: /(?<!not )(?<!nor )\b(universally|invariably)\b|\boverwhelmingly (accepted|agreed|rejected|held)\b|\b(all|most) (modern )?(scholars|historians)\b|(?<!do not )(?<!don't )\b(scholars|historians) agree\b/i,
     ask: 'Who, exactly? Name a holder or describe the reading.',
   },
-  { id: 'inevitable', re: /\binevitabl[ey]\b/i, ask: 'Does a source say this, or does the outcome?' },
-  { id: 'design-from-outcome', re: /\bcalibrated\b(?! (to approximately|dates|radiocarbon))|\bplanned outputs?\b|\bfrom the (outset|start)\b|\bdeliberately impossible\b|\bby design\b/i, ask: 'Is intent attested, or read back from what happened?' },
+  // Denying inevitability, or naming "the inevitable collision" reading in
+  // order to argue with it, is the site doing the right thing, so the
+  // negated and named-reading forms are skipped.
+  {
+    id: 'inevitable',
+    re: /(?<!not )(?<!not the )(?<!never )(?<!hardly )\binevitabl[ey]\b/i,
+    ask: 'Does a source say this, or does the outcome?',
+  },
+  { id: 'design-from-outcome', re: /\bcalibrated\b(?! (to approximately|dates|radiocarbon|against))|\bplanned outputs?\b|\bfrom the (outset|start)\b|\bdeliberately impossible\b|\bby design\b/i, ask: 'Is intent attested, or read back from what happened?' },
 ];
 
 const args = process.argv.slice(2);

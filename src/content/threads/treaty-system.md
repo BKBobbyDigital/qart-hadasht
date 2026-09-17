@@ -73,9 +73,7 @@ tradition often frames it, a confrontation that was always going to
 become war. It is a relationship that was structurally cooperative
 through the early third century, fractured at the Mamertine crisis
 in 264, partially reconstructed through Lutatius and the inter-war
-treaties, and finally broken by the Second Punic War's settlement
-producing the conditions for the Third Punic War's inevitable
-outcome.
+treaties, and finally broken by the Second Punic War's settlement, which produced the conditions the Third Punic War grew out of.
 
 The treaty texts themselves are remarkable surviving documents. They
 preserve specific provisions, Roman ships restricted from sailing

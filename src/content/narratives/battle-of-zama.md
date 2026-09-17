@@ -104,8 +104,7 @@ ended the second war, not the city.
 The battle's place in the historical imagination, as the climax of the
 Punic Wars, the meeting of two great commanders, the redemption of Cannae,
 is partly a function of how the ancient sources, especially Polybius, chose
-to shape it. A more dispassionate reading sees Zama as the inevitable
-liquidation of a war Hannibal had no remaining means to win. The interest of
+to shape it. A more dispassionate reading sees Zama as the liquidation of a war Hannibal no longer had the means to win. The interest of
 the battle lies less in its outcome, which the cavalry numbers had largely
 determined in advance, than in the tactical adjustments by which Scipio
 prevented his elephants-and-veterans opponent from extracting any further
