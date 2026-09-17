@@ -2872,7 +2872,9 @@ Guided paths exist as `threads`; a newcomer door exists at `/start`;
 entity pages already aggregate claims, narratives, comparisons and takes
 by reverse-lookup, which is most of what a "topic hub" would do. What the
 document got right is the vocabulary problem, that Narratives / Themes /
-Threads / Periods are four nav words a reader cannot tell apart.
+Threads / Periods are four nav words a reader cannot tell apart, and the
+analytics later confirmed that this is where it hurts: index pages are
+among the most-visited pages on the site.
 
 **What was actually broken: the three synthesis page types were
 orphans.** A reader arriving from a search result on a claim, an open
@@ -2918,19 +2920,91 @@ rendered nowhere. Fixed in three commits (`2d96231`, `69e263c`,
    resolver already stripped it and the new lookups did not: 107 broken
    links on the first build. The link audit caught it immediately.
 
-**Still open from the navigation document, pending analytics.** The user
-is pulling GoatCounter data before anything else is built. The number
-that decides most of it: **do sessions have more than one pageview?** If
-the median visit is one deep page from search, then subject navigation
-and guided paths move very little and everything belongs in on-page
-orientation, which is what the three commits above already did. Also
-worth reading: landing pages versus all pages, referrers, the contents of
-`search-query` (the best evidence for whether the nav vocabulary is the
-problem), `not-found` paths, and the `read-complete` rate.
+**The analytics came back and answered it. See the next section.**
 
 **Small content job this surfaced:** 25 claims mark no subject entity, so
 their pages fall back to the first entity that resolves. Setting proper
 subject roles on those 25 would improve them.
+
+### What the analytics actually say (Sep 2026)
+
+GoatCounter data pulled 17 Sep 2026, covering 4 May to 17 Sep: the
+dashboard PDF, per-page drill-downs, a two-day window, and finally the
+full aggregated export (`hit_stats` / `browser_stats` / `system_stats`
+joined to `paths` and `refs`). **Read this before quoting any traffic
+number**, because the headline figure is badly misleading.
+
+**The dashboard says 8,385 visits. Real readership is about a quarter of
+that.** A single automated campaign ran 5–26 July, peaking at 887 hits on
+14 July: **6,083 hits, 98% Linux, 98% carrying a Google referrer, hitting
+exactly eight pages.** It is a scraper following Google results. Our
+commit history for July is four commits on the 24th, so it is unrelated
+to the site's deploys; a two-day window on 15–17 September, the heaviest
+commit days in four months, showed 64 visits and no spike at all, which
+disproves the deploy-crawl theory directly.
+
+**The real picture, July campaign excluded: 2,159 pageviews over 98 days,
+about 23 visits a day.**
+
+| Channel | Pageviews | Share |
+|---|---|---|
+| Internal navigation | 1,103 | **51%** |
+| Direct / unknown | 536 | 25% |
+| Google | 230 | 11% |
+| ChatGPT | 106 | 5% |
+| Reddit | 91 | 4% |
+| Other search and AI | 56 | 3% |
+
+Real page ranking: **homepage 403**, far ahead of everything; Tophet
+controversy 95, the only deep page with genuine pull; then the **index
+pages** (`/people` 46, `/narratives` 36, `/themes` 30, `/maps` 25,
+`/periods` 18, `/places` 18) and a scatter of entity pages.
+`read-complete` fired 79 times, roughly 4% of real pageviews, which is a
+normal rate; against the inflated 8,385 it looked like 1% and alarming.
+
+**A correction worth recording, because the wrong version was stated
+confidently twice.** Working from the dashboard and the per-page
+drill-downs, I concluded that internal navigation ran 0.2–2%, that nobody
+browsed, and that the navigation initiatives should be closed. That was
+measured on the six pages the scraper hammered, and a scraper does not
+navigate. **It was a generalization from the single most contaminated
+sample on the site**, which is the exact failure the overcorrection pass
+had already caught once this month. On real traffic, half of all
+pageviews come from another page on the site.
+
+**What follows from it.** A 51% internal share implies roughly **two
+pages per visit**, so readers browse, but shallowly. That supports making
+the second click good; it does not support a seven-door taxonomy with
+topic hubs and guided paths layered on it. Index pages are among the
+most-visited pages on the site, which is exactly where the
+Narratives / Themes / Threads / Periods vocabulary problem bites, and it
+bites readers who are already engaged enough to click. The navigation
+discussion is **reopened but scoped down**.
+
+**Three caveats that qualify all of the above.**
+1. **The user's own visits cannot be separated.** An editor browsing
+   their own site produces precisely the observed pattern: homepage
+   first, heavy internal movement through index pages. At 23 visits a day
+   this could be a real share of both the direct and the internal
+   figures, and it is the weakest link in the correction above.
+   **Mitigation, worth doing:** `count.js` skips any client where
+   `localStorage.skipgc === 't'`, so visiting
+   `qart-hadasht.org/#toggle-goatcounter` once per browser excludes the
+   editor from then on.
+2. Excluding all of July also drops ~131 hits that do not look automated,
+   so the real numbers are slightly understated.
+3. This is the aggregated export, not raw hits: there are no session ids
+   and no bot column, so pages-per-visit is derived from the referrer
+   split rather than measured.
+
+**Other findings worth keeping.** ChatGPT sends about half as much real
+traffic as Google, which for a site built as structured sourced claims is
+a channel to watch rather than a curiosity. Reddit's launch delivered 91
+visits, comparable to a month of Google. And two visits landed on
+`/sourceComparisons/cannae` and were served the 404 body on a day with
+about a dozen deploys; all URL variants return 200 now, so it was a
+deploy window, and it is a mild argument for batching pushes during long
+editing sessions.
 
 ### Active work queue (complete)
 
