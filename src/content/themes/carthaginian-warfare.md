@@ -3,8 +3,8 @@ title: Carthaginian warfare and military organization
 scope: warfare
 summary: >
   Carthage's military combined a small citizen-officer command
-  class with a much larger base of mercenary and allied
-  infantry, a cavalry tradition drawn from Numidian and Iberian
+  class with a much larger base of levied subject, allied and
+  hired infantry, a cavalry tradition drawn from Numidian and Iberian
   recruitment networks, the Mediterranean's most developed
   naval system, and the war elephant as a tactical experiment
   Carthage adapted to its own conditions. The system was the
@@ -25,8 +25,8 @@ last_revised: "2026-09-17"
 The standard Greco-Roman picture of Carthage's military, most
 influentially in Polybius 6.52, is of a mercenary apparatus
 inferior to Rome's citizen army. The picture is partly correct
-(Carthage's army did rely heavily on hired and allied troops)
-and partly misleading. It tells us as much about Polybius's
+(Carthage's infantry did come overwhelmingly from outside the
+citizen body) and partly misleading. It tells us as much about Polybius's
 argument for Rome as it does about how Carthage's military
 actually worked. The picture that emerges from the surviving
 evidence is of a flexible, multi-component force that operated
@@ -35,10 +35,30 @@ produced the most successful single commander of the ancient
 Mediterranean (Hannibal) before the war's fiscal and manpower
 limits caught up with the system.
 
-## Citizen, mercenary, and allied components
+## Who actually served
 
-Three recruitment categories together produced Carthage's
-field armies in the Punic Wars period.
+Greek and Roman writers sort Carthage's infantry into citizens
+and mercenaries, and the second category does most of the work
+in their accounts. It is too coarse. A Libyan farmer levied by
+a state that taxed his harvest, a Numidian squadron sent by a
+king in treaty with Carthage, and a Balearic slinger who
+contracted for a campaign were in three different relationships
+with the army they served in, and only the last was hired in
+the sense the word implies. Polybius lists the Sicilian army
+that mutinied in 241 as Iberians, Celts, Ligurians, Balearic
+islanders, Greek half-breeds "mostly deserters and slaves," and
+the largest portion Libyans (1.67), which is a list of
+recruitment relationships, not of employees.
+
+The dependence Polybius diagnoses at 6.52 is nonetheless real,
+and this site's
+[take on the army](/editorialTakes/carthaginian-army-institutionally-mixed)
+concedes it: a state whose infantry came mostly from outside
+its citizen body was exposed in a long war in a way Rome was
+not, and the Mercenary War is what that exposure looks like
+when the money runs out. What the Polybian category gets wrong
+is treating recruitment status as a measure of quality, and
+treating one label as a description of four arrangements.
 
 Citizens. Citizens were normally few in overseas field armies
 but could be mobilized in large numbers when Carthage itself
@@ -50,24 +70,34 @@ visible expression of the tradition. Officers across the broader army came
 substantially from the citizen body. The aristocratic command
 tradition that runs through Hamilcar, Hannibal, Hasdrubal,
 Mago, and the wider Barcid command circle is a citizen-officer
-class operating over a mercenary-and-allied troop base.
+class operating over a troop base recruited almost entirely
+from outside the citizen body.
 
-Mercenaries. The mercenary component was the main source of
-infantry across Carthage's military history. The recruitment
-pools included [Libya](/groups/libyans), the largest single
-source and the supplier of the army's heavy infantry;
-[Iberia](/places/iberia), supplying Celtiberian and Iberian
-infantry plus the
+Subjects. [Libya](/groups/libyans) supplied the largest single
+body of infantry and the army's heavy foot. These were not
+hired men. They came from the African hinterland Carthage
+taxed directly, and the same authority that took half the
+harvest in the emergency of 241 and doubled the towns' taxes
+(Polybius 1.72) is the authority that levied them. The
+distinction is not academic: when the Sicilian army mutinied
+over pay, the Libyan towns joined a war that was already theirs
+and needed no incitement to do it. A hired contingent walks
+away; a subject population rises.
+
+Hired contingents. [Iberia](/places/iberia) supplied
+Celtiberian and Iberian infantry plus the
 [*gladius hispaniensis*](/groups/celtiberians); the
-[Balearic Islands](/places/ebusus), supplying the famous
+[Balearic Islands](/places/ebusus) the famous
 [slingers](/groups/balearic-slingers); and Gaul, especially
 the [Cisalpine Gauls](/groups/cisalpine-gauls) Hannibal picked
 up during the Italian campaign. Recruitment worked through
-long-running contractual relationships with specific networks,
-not through ad-hoc hiring. The
-[Mercenary War of 241–237 BCE](/events/mercenary-war) is the
-documented case of those contractual relationships breaking
-down.
+long-running relationships with specific networks rather than
+ad-hoc hiring, which is why the
+[Mercenary War of 241–237 BCE](/events/mercenary-war) was a
+breakdown rather than a dismissal. The category is not stable
+across time: as Barcid conquest advanced after 237, Iberian
+communities that had supplied contracted troops became subject
+communities that owed them.
 
 Allies. Allied contingents came from polities under
 Carthaginian hegemony or in treaty with Carthage.

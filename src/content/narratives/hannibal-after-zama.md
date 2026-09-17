@@ -95,18 +95,19 @@ The senatorial reaction was severe. Hannibal's opponents
 denounced him to Rome on charges of conspiring with Antiochus
 III of the Seleucid kingdom against Roman interests. Whether
 Hannibal had actually been in such communication before the
-denunciation is contested; the site's position, formalized
-as the editorial take
+denunciation cannot be recovered. What the charge was for is
+clearer than whether it was true: the accusers were the
+aristocratic faction his reforms had displaced, and the
+accusation reached Rome at the moment it was most useful to
+them. The site's reading, set out in the editorial take
 [Was the 195 denunciation real or fabricated?](/editorialTakes/hannibal-195-denunciation-as-fabrication),
-is that the denunciation was a political fabrication by the
-aristocratic faction Hannibal's reforms had displaced, and
-that any communication with Antiochus came after rather than
-before. The structural argument (motive, Hannibal's
-refugee-rather-than-pre-arranged-ally arrival pattern at
-Ephesus, and Nepos's parallel surviving tradition framing
-the denunciation as factional) supports the reading; Livy's
-surviving narrative, which presents the charge as
-substantively true, is the principal competing source.
+is that the denunciation was certainly a political weapon and
+was probably fabricated or heavily exaggerated. It does not
+settle whether some contact preceded the flight, because the
+surviving evidence cannot. Nepos preserves a tradition framing
+the denunciation as factional and declines to judge the charge;
+Livy's narrative presents it as substantively true; Polybius's
+account, which might have decided the question, is lost.
 
 A Roman embassy arrived at Carthage in late 195 BCE. Hannibal,
 recognizing the political configuration (the Carthaginian

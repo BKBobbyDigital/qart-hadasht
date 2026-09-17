@@ -24,7 +24,7 @@ primary_entities:
     slug: carthage
     role: subject
 referenced_claims: []
-last_revised: "2026-05-22"
+last_revised: "2026-09-17"
 ---
 
 The history of Carthaginian Sicily between Himera and Agathocles
@@ -248,11 +248,14 @@ Carthaginian commanders enter as antagonists; their internal
 political and military logic is reconstructed at second hand.
 What the Carthaginian record of the same events would have
 looked like is irrecoverable. The shape this site gives to the
-seven decades attempts to read against the Greek framing where
-the framing's distortions are visible (the systematic
-exaggeration of Carthaginian numbers, the moralizing of
-Carthaginian generals, the treatment of stalemate as Greek
-near-victory). It does not pretend to recover the Carthaginian
+seven decades attempts to read against the Greek framing at the
+points where that framing is checkable: army figures that cannot
+be right, as when Diodorus puts 300,000 Carthaginians in the
+field at Himera (11.20); the moralizing of Carthaginian
+generals; the treatment of stalemate as Greek near-victory.
+Where it is not checkable, reading against it would be
+guesswork, and the framing has to be reported rather than
+corrected. It does not pretend to recover the Carthaginian
 side of the record. That side is lost.
 
 What it does try to recover is the structural shape of the
