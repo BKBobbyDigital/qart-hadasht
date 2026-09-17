@@ -388,6 +388,58 @@ page reference (`unpaged-modern`), and `held_by` fields naming scholars
 54 / 36 / 22 / 25 / 157 / 4. Those numbers should fall, not rise; many
 hits are legitimate, so judge each rather than mass-editing.
 
+### The evidentiary charter (Sep 2026)
+
+`/charter` (`src/pages/charter.astro`) states eight principles governing
+how the site reasons, as against how it is built. It came out of a
+second read of the whole project by the other model, whose best
+observation was that the recurring problem is not the substance of the
+positions but the strength with which they are stated. The principles,
+each illustrated from a real case: later outcomes do not prove earlier
+intentions; what happened, how it worked and what was intended are three
+questions; agreement between ancient authors is only as strong as the
+independence of their traditions; a hostile source is not a false one
+and a motive is not a refutation; correcting the Roman picture is not
+evidence for its opposite; define the term before using it as a
+conclusion; date and locate the system; where the evidence cannot
+decide, stop.
+
+Two things about it are load-bearing for future work. **Principle 5 is
+the site's own failure mode**, and it commits us: a revisionist reading
+gets no presumption here, and a pass that only ever corrects in one
+direction is doing something wrong. **The closing note says the charter
+is audited**, so the audit record has to stay real; do not let the page
+become a claim the site makes about itself and never checks.
+
+Keep it distinct from `/methodology`, which describes the apparatus
+(claims, confidence, source distance, stance). Charter is judgment;
+methodology is machinery. The two cross-link, and methodology's "What
+this site does not do" was trimmed where the charter now says it better.
+Linked from every editorial take, every source comparison and the
+footer.
+
+The charter's user-facing wording was written by the user and should be
+treated as theirs; change it only on request.
+
+### Source `critical_read` boxes (Sep 2026)
+
+Optional `critical_read` object on the sources schema, rendered as a
+"Reading this author" box on the source page: `what_it_gives`,
+`what_it_argues`, `dependence`. The third field is principle 3 applied
+per author and links to it. Where a source has a `critical_read`, its
+freeform `bias_notes` were folded in and deleted; the route renders the
+old amber bias-notes panel only when there is no `critical_read`, so
+they never both appear.
+
+Filled for the eight surviving authors the site argues from: Polybius,
+Livy, Appian, Diodorus, Plutarch, Justin, Nepos, Silius Italicus. The
+dependence lines are specific, not generic (Diodorus Book 25 tracks
+Polybius Book 1; Plutarch's Cannae aftermath overlaps Livy; Silius takes
+his frame from Livy and confirms nothing Livy says). **Deliberately not
+filled for the lost historians** (Fabius Pictor, Philinus, Silenus,
+Sosylus, Timaeus, Coelius Antipater): their `bias_notes` already are
+dependence notes, because transmission is all we know about them.
+
 ---
 
 ## Visual design language
@@ -695,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~746 pages** as of
+parked until the day version settles. The site is **~747 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -2593,6 +2645,71 @@ editorial takes last reviewed in May 2026 (`himera-greek-pairing`,
 `punic-religion-archaeological-vs-literary`, `zama-decisive`,
 `iberian-side-switching-as-agency-take`, `family-vs-institution-tension`).
 
+### The whole-project second read (Sep 2026)
+
+After the eleven page audits the user asked the other model for advice
+on the project as a whole. Its diagnosis was the useful part: the
+substance of most positions is sound, and the discipline that needs work
+is how strongly they are stated. Three of its recommendations were
+adopted and shipped: the charter, an overcorrection pass, and the source
+`critical_read` boxes (all three documented above under Editorial
+conventions).
+
+**Declined, with reasons that still apply if it comes up again:**
+- **A four-level confidence retag** (attested / strongly inferred /
+  plausible / speculative). The diagnosis is right, in that the site's
+  four labels mix degree-of-inference with degree-of-dispute, so
+  `contested` and `inferred` are not points on one scale. But retagging
+  179 claims churns a vocabulary readers may know, and the real
+  complaint is about takes carrying a single page-wide confidence.
+- **A fixed template on every take** (Position / securely attested /
+  inferred / unresolved / counterargument / confidence). It would put
+  bolded mini-headings back on all 26 takes, which the de-LLM passes
+  removed. The better form is optional schema *fields* rendered beside
+  the prose, retrofitted when a take is next touched rather than swept.
+  Not built yet; this is the main unbuilt idea from the second read.
+- **Timeline strips on interpretive pages.** Belongs to the tabled
+  visual-assets review (item 0). The prose version is free and is now
+  charter principle 7.
+
+**The overcorrection pass and what it found.** A survey of the whole
+corpus for places where the site argues the ancient tradition is wrong.
+**The main finding was negative: all three examples the second read gave
+were wrong.** The Polybius entry was already balanced, the warfare theme
+already conceded that dependence on non-citizen troops was real, and the
+Sardinia problem had been fixed in audit 11. Of ~90 hits in the
+dismissal and discount patterns, most were careful, and the house
+formula ("the information is real; the moral coloring is the writer's")
+is principle 4 already in use. **Lesson worth keeping: a ten-page sample
+does not generalize to 747 pages, and advice about the site as a whole
+should be checked against the corpus before being acted on.**
+
+Three real findings were fixed (commit `fa0bd9e`):
+- `narratives/hannibal-after-zama` stated as the site's position that the
+  195 denunciation *was* fabricated and that contact came after the
+  flight; the take says probably fabricated or exaggerated and that the
+  timing cannot be recovered. A narrative had converted its own take's
+  lean into a verdict. **Worth checking for elsewhere**: this is a class
+  of error, and the targeted rule (a page's statement of a position
+  should not outrun the take it links to) would be a good future
+  addition to `evidence-audit.mjs`.
+- `themes/carthaginian-warfare` had the opposite fault, an
+  *under*correction: it sorted recruitment under "Mercenaries" with
+  Libya as the largest source, reproducing the Polybian category that
+  audit 6 rewrote the army take to reject. Now four arrangements
+  (citizens, subjects, hired contingents, allies), citing Polybius 1.67,
+  keeping the 6.52 concession explicit, and noting the categories were
+  not stable over time.
+- `narratives/the-sicilian-dialectic` asserted "the systematic
+  exaggeration of Carthaginian numbers" unsourced; narrowed to the
+  checkable case (Diodorus 11.20.2, Hamilcar sails with not less than
+  300,000 men) and stating that where the framing cannot be checked it
+  has to be reported rather than corrected.
+
+The survey script lives in the scratchpad and was **not** promoted to
+`scripts/`: its patterns are too noisy for a gate (423 hits on
+"mercenary" alone).
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -3032,7 +3149,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **746 pages**.
+output. As of the last CLAUDE.md refresh it was around **747 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
@@ -3056,6 +3173,11 @@ collection:
   office + year + notes)
 - **deities**: `sanctuaries[]`, `iconography`, `consort`,
   `cult_period`
+- **sources**: `critical_read` (optional object: `what_it_gives`,
+  `what_it_argues`, `dependence`), rendered as the "Reading this author"
+  box. A source with one has had its `bias_notes` folded in and removed;
+  the route renders the old bias-notes panel only in its absence, so the
+  two never both appear.
 - **artifacts**: `principal_sources[]`, `referenced_themes[]`,
   `image` block, `find_context`, `dating_method`,
   `interpretation_status`, `current_location`
