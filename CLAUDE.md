@@ -695,7 +695,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~747 pages** as of
+parked until the day version settles. The site is **~746 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -2290,17 +2290,33 @@ missed, put the real decisions to the user, then fix the take **and
 grep the whole site for the same error** (the errors recur across
 pages, and the audits only see one page).
 
-**Lessons that held across all six passes** (now codified as "Evidence discipline" above):
-- The audits were accurate about their citations (no fabrications
-  found) but each overreached somewhere and each missed errors we then
-  found by checking texts, usually more serious ones.
+**Eleven passes so far, in two batches:** 1–6 (Sep 2026) and 7–11, the
+second batch chosen by asking which unreviewed pages carried the most
+weight and the most warning signs. **Lessons across all of them** (now
+codified as "Evidence discipline" above):
+- The audits are accurate about the citations they give (no
+  fabrications found) but each overreaches somewhere and each misses
+  errors found by checking the texts, usually more serious ones.
 - The recurring faults in our own older prose: unsupported "modern
-  consensus" statements; named scholars attributed positions without
-  page references (removed when unverifiable); inferences stated as
-  facts; claims that read later outcomes back into earlier intentions.
+  consensus" statements; named scholars credited with positions nobody
+  had checked (removed when unverifiable); inferences stated as facts;
+  later outcomes read back into earlier intentions.
 - Checking the ancient text directly keeps turning up errors the
   summaries had introduced (misattributed passages, wrong section
   numbers, details no source contains).
+- **The second batch shifted in character.** Fewer invented facts, more
+  of two other kinds: evidence already sitting in a cited passage that
+  the page had not used (Polybius 3.23 on Sardinia, 1.79 on Hamilcar's
+  leniency, 3.77 on the prisoner policy's purpose), and modern scholars
+  credited with whole framings (Hoyos on the Mercenary War, Rawlings on
+  Italy, Quinn on empire) that turned out to be ours.
+- **Source comparisons are the most error-prone format on the site.**
+  Two of the three reviewed had to be rebuilt from the texts: one
+  reversed what Diodorus says, the other invented Diodoran variants and
+  misidentified the general the rebels crucified.
+- **Every pass so far has found at least one error the audit missed**,
+  and two passes found errors introduced by the previous pass. Re-read
+  your own corrections.
 
 **1. `destruction-not-weak-enough`** (commit `9f2ab97`). Headline kept;
 thesis sharpened to: the Treaty of 201 *succeeded* (ended Carthage as a
@@ -2546,14 +2562,36 @@ opened by calling the expansion "an integrated network," now says shared
 religion, script and commerce are not evidence of central command; the
 rest of that theme still leans integrationist and deserves its own pass.
 
-**Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
-answers the same question as `destruction-not-weak-enough` and still
-says the relocation demand was "deliberately impossible to accept";
-merge or align it. About 20 claims still call their reading "the
-consensus modern" one; worth a dedicated pass. Page references wanted
-from the user's copy of Miles for the Third Punic War (Cato, the 149
-ultimatum), and MacDonald's *Hannibal* for the Barcid readings, if
-those authors are to be named again.
+**Open items from the audits, in rough priority order:**
+- **`editorialTakes/tpw-why-destruction`** answers the same question as
+  `destruction-not-weak-enough` and still says the relocation demand was
+  "deliberately impossible to accept". Merge or align it; this has been
+  outstanding since audit 1.
+- **Unchecked modern citations.** `evidence-audit.mjs` counts about 150
+  modern-scholarship citations on claims with no page reference.
+  Goldsworthy alone carries characterized summaries on ~14 claims. A
+  dedicated pass could either verify or neutralize them.
+- **The ~20 claims that call their reading "the consensus modern" one**,
+  plus the remaining `consensus` / `universal` hits in the review half.
+- **`themes/phoenician-colonial-network`** still leans integrationist
+  after its opening was qualified in audit 11; it deserves its own pass,
+  read against the empire take.
+- **Page references wanted from the user's books:** Miles on the Third
+  Punic War (Cato, the 149 ultimatum) and the Demeter-Kore incense
+  burners; MacDonald's *Hannibal* for the Barcid readings and for the
+  post-Cannae defections claim, which still cites her with an unchecked
+  summary; Hoyos's *Truceless War* if his name is to be restored to the
+  Mercenary War material; Rawlings 2007, whose PDF the Cardiff
+  repository will not serve to an automated fetch.
+
+**Next pages for review, if the batch continues:** the remaining
+source comparisons (the same format that failed twice), and the
+editorial takes last reviewed in May 2026 (`himera-greek-pairing`,
+`agathocles-masterstroke-or-gamble`, `alalia-locked-western-mediterranean-take`,
+`aristotle-carthaginian-governance-praise-qualified`,
+`first-treaty-trust-polybius`, `lutatius-treaty-too-harsh`,
+`punic-religion-archaeological-vs-literary`, `zama-decisive`,
+`iberian-side-switching-as-agency-take`, `family-vs-institution-tension`).
 
 ### Active work queue (complete)
 
@@ -2994,7 +3032,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **747 pages**.
+output. As of the last CLAUDE.md refresh it was around **746 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
