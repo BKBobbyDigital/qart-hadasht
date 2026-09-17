@@ -3,9 +3,11 @@ title: The Phoenician colonial network
 scope: identity
 summary: >
   The Phoenician expansion across the Mediterranean from the
-  ninth century BCE forward operated as an integrated network,
-  not as a series of independent foundations that later
-  coordinated. The system shared religious infrastructure
+  ninth century BCE forward operated as a network rather than as
+  a set of unconnected foundations. What the evidence shows is
+  shared institutions and sustained contact; it does not show a
+  politically directed enterprise, and shared religion, script
+  and commerce should not be read as central command. The system shared religious infrastructure
   (the Melqart cult and the annual delegations to Tyre),
   commercial conventions (weight standards, script, ritual
   vocabularies), elite culture, and working cross-network

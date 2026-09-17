@@ -245,6 +245,24 @@ const REGRESSIONS = [
     fixed: 'Cannae audit',
   },
   {
+    id: 'province-cannot-defect',
+    re: /a province cannot defect/i,
+    right: 'Subject territories do revolt. Utica\'s 149 defection shows its institutions still worked, not that it stood outside the empire.',
+    fixed: 'Empire audit',
+  },
+  {
+    id: 'sardinia-outer-commercial',
+    re: /Sardinia[^.]{0,60}(outer|commercial) (ring|sphere)|(outer|commercial) (ring|sphere)[^.]{0,40}Sardinia/i,
+    right: 'Polybius 3.23.5, 3.24.14: the treaties treat Sardinia and Libya as Carthage\'s own, closed to Roman trade and settlement.',
+    fixed: 'Empire audit',
+  },
+  {
+    id: 'barcid-sovereign-coinage',
+    re: /sovereign coinage/i,
+    right: 'Coinage shows fiscal capacity and imagery, not constitutional sovereignty; say sustained Barcid coinage.',
+    fixed: 'Empire audit',
+  },
+  {
     id: 'methodologically-more-honest',
     re: /methodologically more honest/i,
     right: 'Self-congratulation; say what the reading does instead.',

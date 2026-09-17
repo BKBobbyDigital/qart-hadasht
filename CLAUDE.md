@@ -2519,6 +2519,33 @@ fixed; and the `aemilianus-grandson-of-paullus` rule was deleted, since
 Scipio Aemilianus was indeed the grandson of the Paullus who died at
 Cannae, through Paullus Macedonicus.
 
+**11. `carthaginian-empire-layered-hegemony`** (checked against Polybius
+3.22–26, 1.72, 1.79, 15.18). The four concentric rings are replaced by
+**four overlapping modes**: African fiscal extraction, subordinate cities
+with their own institutions, overseas territorial spheres (Sardinia and
+western Sicily), and maritime-commercial influence, with Barcid Iberia as
+an **intensification** rather than the first territorial formation, and
+chronology made explicit (no inherited Tyrian empire; the 201 treaty
+leaves an African territorial state with its own laws, Polybius 15.18).
+Empire is defined as durable unequal power, so the absence of Roman-style
+provinces no longer implies the absence of territorial rule. **The
+biggest correction: Sardinia was not an "outer commercial sphere."**
+Polybius says the treaties show the Carthaginians treat Sardinia and
+Libya "as their own," closed to Roman trade and settlement, while naming
+only the Carthaginian part of Sicily (3.23.5, 3.24.11–15), and
+Carthaginian commanders were stationed there (Bostar and Hanno, 1.79).
+Also removed: "a province cannot defect" (subject territories do revolt;
+Utica's 149 defection shows its institutions worked), "sovereign
+coinage", "trading monopolies", and the claim that the treaties reveal
+internal administration. **Scholarship:** Quinn was cited as pressing
+toward "no Carthaginian empire" (her 2018 book argues about Phoenician
+identity) and misgendered; that attribution is gone and the position is
+now stated as a limiting case with no holder. The Whittaker and Ameling
+entries are bibliographic. The `phoenician-colonial-network` theme, which
+opened by calling the expansion "an integrated network," now says shared
+religion, script and commerce are not evidence of central command; the
+rest of that theme still leans integrationist and deserves its own pass.
+
 **Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
 answers the same question as `destruction-not-weak-enough` and still
 says the relocation demand was "deliberately impossible to accept";
