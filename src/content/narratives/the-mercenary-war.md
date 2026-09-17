@@ -26,7 +26,7 @@ referenced_claims:
   - mercenary-war-truceless
   - mercenary-war-hamilcar-command
   - mercenary-war-sardinia-pretext
-last_revised: "2026-09-10"
+last_revised: "2026-09-17"
 ---
 
 ## How it began
@@ -138,30 +138,27 @@ matched by further atrocities on the rebel side. By the end of
 sense Polybius's term suggests: no negotiated end was available
 because the accumulated atrocities had foreclosed it.
 
-Why this happened is contested. Polybius's account emphasizes the
-leadership: Spendius's escaped-slave status (which gave him personal
-reason to oppose any settlement that might return him to Roman
-jurisdiction) and Mathos's particular hatred of Carthaginian rule.
-Modern scholarship, particularly Hoyos (2007), is more willing to
-read the brutality structurally: a multi-ethnic mercenary force
-with no shared political identity plus an indigenous Libyan revolt
-drawing on long-running colonial grievance plus a Carthaginian state
-whose existence was at stake produced the conditions in which
-atrocity escalated faster than political restraint could rebuild.
+Why it became so savage is the question the war is remembered for.
+The conditions explain the revolt: an unpaid army of many nations, and a
+Libyan countryside that Carthage had taxed so hard that, Polybius says,
+it needed no incitement to rise (1.72). They do not by themselves
+explain the atrocities. Hamilcar at first let captured rebels join him
+or go home (1.78), and it was the rebel leaders' fear of that leniency
+that led them to mutilate and kill Gisco and some seven hundred
+prisoners and to vow death to every Carthaginian captive (1.79–81).
+Hamilcar then began throwing his prisoners to the elephants (1.82).
+Diodorus states the connection outright: the rebels' cruelty "forced"
+Hamilcar "to abandon his kindness to prisoners" (25.3). From then on each
+side's violence justified the other's, which is close to Polybius's own
+analysis of how cruelty escalates (1.81).
 
 The site's position, formalized as the editorial take
-[Was the Mercenary War's atrocity escalation structural or
-leadership-driven?](/editorialTakes/mercenary-war-atrocity-structural),
-takes the Hoyos structural reading as the better-supported account —
-principally because the Carthaginian-side atrocity under Hamilcar's
-command matched the rebel-side atrocity in scale, which is hard to
-explain through rebel-leadership psychology alone. The confidence is
-explicitly tentative: the structural reading partly depends on
-importing modern conflict-studies frameworks onto ancient evidence,
-the Polybian individual-leadership reading has its own explanatory
-weight, and the "both-causes" middle reading is probably the most
-cautious available position. The site takes the structural reading
-and flags where it is thin.
+[Why did the Mercenary War become truceless?](/editorialTakes/mercenary-war-atrocity-structural),
+is that the war was structural in its causes and chosen in its
+savagery: conditions produced the revolt, and decisions by leaders on
+both sides made it a war without quarter. The ancient accounts are
+compared in the
+[source comparison on the atrocities](/sourceComparisons/mercenary-war-atrocities).
 
 ## What it meant
 

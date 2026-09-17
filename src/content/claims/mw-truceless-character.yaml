@@ -2,37 +2,30 @@ slug: mw-truceless-character
 statement: >
   Polybius's term *aspondos polemos*, "truceless war", is the
   basis for the war's modern English name and reflects his
-  view that the conflict's brutality was unusual even by the
-  ancient standard. The systematic use of mutilation, ritualized
-  execution, and reciprocal atrocity by both sides distinguished
-  this war from the contemporary First Punic War or any of
-  Polybius's other narrative subjects. The torture-execution of
-  the Carthaginian envoy Gisco by Spendius and Autaritus, and
-  the crucifixion of Spendius and Autaritus by Hamilcar, are
-  the paired episodes Polybius treats as exemplary.
+  view that it "far excelled all wars we know of in cruelty and
+  defiance of principle" (1.88). Both sides used mutilation,
+  execution of prisoners and crucifixion. The pairing Polybius
+  himself draws attention to is Spendius crucified before Tunis
+  and the Carthaginian general Hannibal crucified by Mathos on
+  the same cross, as if Fortune were giving each side in turn
+  the chance to inflict the cruelest punishments (1.86).
 confidence: attested
 scholarly_consensus: >
-  Polybius's account is the foundational source and is broadly
-  accepted in modern scholarship. The reading that the war's
-  brutality reflected the dehumanized status of mercenaries
-  and Libyan rural subjects in the Carthaginian political
-  imagination, and the corresponding Carthaginian status in
-  the rebels', is Hoyos's principal contribution.
+  The character of the war rests on Polybius's account, which
+  Diodorus's fragments (25.2–6) confirm in outline. How far the
+  savagery came from the war's conditions and how far from its
+  leaders' decisions is argued in the
+  [editorial take](/editorialTakes/mercenary-war-atrocity-structural).
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "1.65, 1.81-85"
+    passage_ref: "1.65, 1.80–88"
     passage_summary: >
       Polybius opens his account by presenting the war as
       exceptional in its character, and narrates
-      the Gisco execution and the Spendius-Autaritus crucifixion
-      as the paired set-piece episodes that demonstrate this.
-  - source: hoyos-truceless-war-2007
-    stance: supports
-    passage_summary: >
-      Hoyos ties the brutality to the war's underlying
-      conditions and treats Polybius as the definitive ancient
-      account.
+      the killing of Gisco's party, Hamilcar's reprisals and the
+      paired crucifixions at Tunis as the episodes that
+      demonstrate this.
 entities:
   - type: event
     slug: mercenary-war

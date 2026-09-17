@@ -79,15 +79,6 @@ sources:
       quarrels over plunder. Polybius notes that Hannibal was notorious
       among the Carthaginians for love of money and among the Romans for
       cruelty.
-  - source: rawlings-hannibal-cannibal-2007
-    stance: qualifies
-    passage_summary: >
-      Rawlings treats the Polybian charges of Barcid atrocity, the
-      cannibalism material included, as ideology rather than analysis,
-      arguing that the surviving presentation attributes the ordinary
-      violence of Hellenistic warfare to a specifically Carthaginian or
-      Barcid defect of character. The reading qualifies what the
-      digression can be used to establish about the men it names.
 entities:
   - type: person
     slug: hannibal-barca

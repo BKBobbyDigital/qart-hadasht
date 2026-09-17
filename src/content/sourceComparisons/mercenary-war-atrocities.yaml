@@ -2,329 +2,213 @@ slug: mercenary-war-atrocities
 title: "The Mercenary War atrocities across the ancient sources"
 subject_event: mercenary-war
 summary: >
-  The atrocities committed by both sides during the
-  241–237 BCE [Mercenary War](/events/mercenary-war) — the
-  mutilation and crucifixion of Carthaginian prisoners by
-  Mathos and Autaritus, the killing of
-  [Hannibal son of Gisco](/people/hannibal-son-of-gisco) whose
-  head was sent to Mathos, Hamilcar's crucifixion of Spendius
-  and his colleagues outside Tunis, the saw used to destroy
-  the trapped mercenary force at the Saw — are the most
-  ideologically charged episodes the surviving sources preserve
-  about Carthaginian military violence. Polybius (1.65–88) is
-  the dominant source by an order of magnitude and his reading
-  is doing extreme rhetorical work: pro-Hamilcar, anti-mercenary-
-  leader, and committed to a "Punic faithlessness" trope that
-  the Roman-constitutional argument of his sixth book depends
-  on. Diodorus 25.2–6 preserves fragmentary variant traditions.
-  Appian *Iberica* and *Hannibalica* offer brief overlapping
-  material with different emphases. Modern source-critical work,
-  particularly Hoyos's *Truceless War* (2007), has demonstrated
-  that the Polybian account of atrocity as Carthaginian-or-
-  Barcid character defect is the principal methodological
-  problem in interpreting these episodes, and that the conditions-
-  driven reading the site develops in its
-  [editorial take on Mercenary War atrocity](/editorialTakes/mercenary-war-atrocity-structural)
-  is more honest to the surviving record.
+  The [Mercenary War](/events/mercenary-war) of 241–237 BCE is the war
+  Polybius called "truceless": the rebels mutilated and killed the
+  Carthaginian commander Gisco and some seven hundred prisoners, Hamilcar
+  Barca threw captives to the elephants, the rebels trapped at the Saw ate
+  their prisoners, Spendius was crucified before Tunis and the Carthaginian
+  general Hannibal crucified on the same cross in reply. Polybius
+  (1.65–88) is by far the fullest account. Diodorus's fragments (25.2–6)
+  tell the same story in shorter and more moralizing form, and Appian
+  mentions the war only in passing. The sources agree on the sequence of
+  the atrocities to a striking degree; they differ on who is to blame for
+  the war and on how much weight to give the rebels' grievances.
 
 source_passages:
   - source: polybius-histories
     passage_ref: "1.65–88"
     paraphrase: >
-      Polybius is the principal, for many episodes the only, source on the war's events with different emphases. He presents the
-      conflict as a uniquely savage breakdown of all
-      conventional rules of warfare, attributable to the moral
-      character of the mercenary leadership rather than to the
-      underlying conditions of fiscal exhaustion and broken
-      demobilization. The atrocities he describes include:
-      Spendius's escaped-slave status, his fear of extradition
-      to Rome under the FPW treaty terms, and his consequent
-      strategic interest in foreclosing any negotiated
-      settlement; Mathos's particular hostility to Carthaginian
-      rule grounded in his Libyan background; the killing of
-      Carthaginian prisoners taken at successive engagements,
-      with mutilations explicitly designed to make negotiation
-      impossible; the killing of Hannibal son of Gisco (whom
-      Polybius treats sympathetically) whose head was sent to
-      Mathos; Hamilcar's recovery of the field, his crucifixion
-      of Spendius and a number of his colleagues outside
-      Tunis, and his use of the elephants at the engagement
-      Polybius calls "the Saw" (the entrapment and destruction
-      of a mercenary force in a defile). The Polybian account
-      throughout treats Hamilcar's violence as institutionally
-      controlled response and mercenary violence as breakdown
-      of any moral order — a contrast the rhetorical structure
-      of the narrative depends on.
+      Polybius opens by offering the war as the best example of a
+      "truceless war" and a lesson for anyone who employs mercenaries. He
+      blames Carthage for the causes: it gathered the unpaid army together,
+      sent it to Sicca, and asked it to give up part of its pay (1.66–67),
+      and it had ruled the Libyans so harshly, taking half their crops and
+      doubling the towns' taxes, that they "required no incitement to
+      revolt" (1.72). He blames the soldiers too, for inventing new claims
+      (1.68). Spendius, a runaway Roman slave afraid of being handed back,
+      and Mathos, a Libyan afraid of punishment, wreck Gisco's
+      negotiations (1.69–70). Hamilcar releases prisoners after his victory
+      (1.78); the rebel leaders, afraid of that leniency, have Gisco and
+      about seven hundred prisoners mutilated and thrown alive into a
+      trench and resolve to torture every Carthaginian captive (1.79–81).
+      Hamilcar then throws prisoners to the elephants (1.82, 1.84). At the
+      Saw the starving rebels eat their prisoners and slaves; Hamilcar
+      seizes their leaders when they come to negotiate and destroys the
+      army of more than forty thousand (1.85). Spendius is crucified at
+      Tunis, and Mathos crucifies the captured general Hannibal on the same
+      cross with thirty nobles killed around it (1.86). The war ends with
+      Mathos tortured through Carthage, having lasted three years and four
+      months and "far excelled all wars we know of in cruelty" (1.88).
     source_note: >
-      Polybius wrote roughly seventy years after the events
-      with access to Scipionic-circle memory (Aemilius Paullus's
-      grandson Scipio Aemilianus was his patron). His
-      sixth-book argument for Roman constitutional superiority
-      depends on the contrast between Roman institutional
-      cohesion and the breakdown the Mercenary War represents,
-      and his treatment of the war's atrocities reflects that
-      argumentative need. He also writes in the long tradition
-      that began with Fabius Pictor of presenting Hamilcar
-      Barca positively as the founder of the Barcid line that
-      produced Hannibal — a frame that requires the
-      mercenary leadership to bear the moral weight of the
-      war's violence.
+      Polybius wrote about a century after the war, and his narrative is
+      the source of nearly all the detail. He is not simply a moralist
+      about the rebel leaders. At 1.81 he gives a theory of escalation:
+      men in such a state take kindness for a trick and meet retaliation
+      by outdoing it, a condition whose causes include bad upbringing and
+      "habitual violence and unscrupulousness on the part of those in
+      authority over them." His contempt for an army of many nations and
+      languages (1.65–67) colors the account, but the practical difficulty
+      he describes, an army no general could address as a body, is real.
   - source: diodorus-library
-    passage_ref: "25.2–6 (fragmentary)"
+    passage_ref: "25.2–6"
     paraphrase: >
-      Diodorus preserves portions of the war's narrative in the
-      twenty-fifth book of his Library, surviving in
-      fragmentary Byzantine excerpts. His material confirms
-      the major events Polybius preserves (the rebellion's
-      outbreak, the field campaigns, the Hamilcar restoration)
-      but differs from Polybius in several details and
-      readings. He gives less rhetorical weight to the
-      character-of-the-leadership account; preserves variant
-      traditions on the killing of Hannibal son of Gisco that
-      shift the attribution of agency; gives a different
-      figure for the size of Hamilcar's relief force; and
-      treats some episodes Polybius covers in different order.
-      The fragmentary preservation makes systematic comparison
-      difficult, but the surviving fragments are enough to
-      establish that Polybius was not the only literary
-      tradition on the war and that variant traditions
-      existed in antiquity itself.
+      The surviving fragments state that Carthage suffered more from this
+      war than from twenty-four years against Rome, and that it came about
+      because Carthage defrauded its foreign troops of their arrears (25.2).
+      They list the army's peoples, including "mongrel Greek slaves." They
+      record the rebels' refusal to return the bodies of Gisco's party,
+      their threat against future heralds, and their decree to kill
+      Carthaginian captives and send back allies with their hands cut off,
+      and say that by this "impiety and cruelty" Spendius undermined
+      Hamilcar's "strategy of leniency," so that Hamilcar "was in this way
+      forced to abandon his kindness to prisoners" and threw captives to
+      the elephants (25.3). Hippo and Utica threw their garrisons from the
+      walls. Hamilcar crucified Spendius and Mathos nailed Hannibal to the
+      same cross, which Diodorus reads as Fortune punishing offenders
+      against humanity (25.5). Another fragment says the soldiers demanded
+      excessive compensation for horses and men lost in Sicily and that the
+      war lasted four years and four months (25.6).
     source_note: >
-      Diodorus wrote in the mid-first century BCE working from
-      earlier Greek sources, some of which (notably Philinus
-      and Sosylus, the Greek historians sympathetic to
-      Carthage) Polybius dismisses. The surviving fragments
-      sometimes preserve more pro-Carthaginian framings
-      that those underlying sources may have offered, and
-      they are particularly valuable for that reason despite
-      their fragmentary state.
+      Diodorus wrote in the first century BCE, and the Book 25 fragments
+      survive in Byzantine excerpts. They follow the same sequence as
+      Polybius and are, if anything, more moralizing, framed by an opening
+      reflection that injustice brings misfortune on nations as well as
+      individuals (25.1). They also preserve both sides of the pay dispute:
+      Carthage defrauding its troops, and the troops demanding too much.
   - source: appian-punica
-    passage_ref: "*Iberica* 4–5, *Hannibalica* 2 (overlapping material)"
+    passage_ref: "*Iberica* 4–5"
     paraphrase: >
-      Appian's references to the Mercenary War are brief and
-      embedded in his treatments of subsequent Punic
-      operations. He preserves the broad outline of the war's
-      shape consistent with Polybius and Diodorus but with
-      additional detail on Hamilcar's subsequent Iberian
-      project — treating the recovery from the Mercenary War
-      as the founding moment of the Barcid Iberian state.
-      His account of the war is somewhat more neutral on
-      the question of mercenary-leader moral character than
-      Polybius's; he treats the conflict more as a structural
-      consequence of the FPW indemnity than as a moral
-      breakdown.
+      In introducing Hamilcar's Iberian command, Appian says Hamilcar had
+      promised large rewards to his Celtic mercenaries and African allies in
+      Sicily, which they demanded after he returned to Africa, and that this
+      kindled the African war. Hamilcar's enemies later prosecuted him as
+      responsible for the disaster, and he escaped punishment through his
+      political connections.
     source_note: >
-      Appian wrote in the mid-second century CE, very far from
-      the events, working from earlier sources that overlap
-      with what Polybius and Diodorus preserve. His value for
-      the Mercenary War is principally as a check on
-      Polybius's specific framings and as confirmation of
-      variant traditions rather than as an independent
-      witness.
+      Appian wrote in the second century CE. His passing reference places
+      responsibility on Hamilcar's promises, a version hostile to the
+      Barcids and at odds with Polybius, who has the soldiers blaming
+      Hamilcar for not coming to them (1.68) but credits him with winning
+      the war. The passage is cited here from Appian's *Spanish Wars*.
 
 points_of_difference:
-  - topic: The account of mercenary-leader moral character
+  - topic: Who caused the war
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          Spendius, Mathos, and Autaritus are presented as
-          morally distinct from ordinary mercenary recruitment.
-          Spendius's escaped-slave status and his consequent
-          fear of extradition give him a structural reason to
-          escalate; Mathos's Libyan-subject background gives
-          him a particular hatred of Carthaginian rule;
-          Autaritus's Gallic origin is treated as making him
-          temperamentally inclined to atrocity. The moral
-          contrast with Hamilcar is the rhetorical engine of
-          the narrative.
+          Carthage, principally: its handling of the army and its harsh rule
+          of Libya ("they had chiefly themselves to thank"), with the
+          soldiers' mounting claims and two leaders' personal fears turning a
+          dispute into a war.
       - source_slug: diodorus-library
         what_it_says: >
-          The leaders are named and their backgrounds noted,
-          but the moralizing rhetoric is substantially lighter.
-          The escalation toward atrocity is presented more as
-          the direct product of the conditions (broken
-          pay, blocked extraction, blocked negotiation) than
-          as the moral character of the leaders.
+          Carthage defrauded its troops of their pay; in another fragment the
+          troops demanded excessive compensation.
       - source_slug: appian-punica
         what_it_says: >
-          The leaders barely appear; the war is treated more
-          as a structural breakdown produced by the FPW
-          indemnity and Carthaginian fiscal exhaustion than
-          as a moral-character drama.
+          Hamilcar's promises of large rewards in Sicily, which the soldiers
+          then demanded.
     commentary: >
-      The Polybian moral-character account of the leadership
-      is the principal source-critical issue in modern
-      reading. Spendius's escaped-slave status is real and
-      well-attested (the Polybian narrative requires it for
-      his specific motive to foreclose negotiation), but
-      treating Mathos's Libyan background as moral character
-      reproduces the metropolitan-Carthaginian view of
-      subject-population identity. Hoyos's
-      [conditions-driven account](/sources/hoyos-truceless-war-2007)
-      and Rawlings's
-      [methodological pushback](/sources/rawlings-hannibal-cannibal-2007)
-      against the Polybian over-attribution of structural
-      Hellenistic warfare to specifically Carthaginian
-      character defect together establish the methodological
-      framework. The Diodoran and Appian accounts are
-      preferable as starting points, with Polybius's specific
-      details retained where they are independently
-      defensible.
+      None of the three presents the war as the work of wicked leaders
+      alone. Polybius and Diodorus both blame Carthage for the unpaid army,
+      and Polybius adds the Libyan grievances that made a mutiny into a war
+      of survival. Appian's version shifts the blame onto Hamilcar and fits
+      the political attack on him after the war; it is the least
+      informative of the three, but it shows that responsibility was
+      argued over in antiquity.
 
-  - topic: The killing of Hannibal son of Gisco
+  - topic: How the atrocities began
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          Polybius presents the killing as Mathos's decision,
-          executed after the prisoner had been held for
-          some time. The Carthaginian prisoner is treated
-          sympathetically; the manner of his killing is
-          described in detail to emphasize Mathos's moral
-          breakdown. The head was carried to Mathos as a
-          trophy and the body was crucified.
+          Hamilcar's release of prisoners threatened to dissolve the rebel
+          army; the leaders killed Gisco and his fellow prisoners to make
+          reconciliation impossible, and only then did Hamilcar begin killing
+          captives.
       - source_slug: diodorus-library
         what_it_says: >
-          The killing is preserved but with attribution and
-          detail variants that suggest Diodorus is following
-          a different tradition. The specific circumstances
-          of the prisoner's capture and the period of his
-          captivity are described slightly differently. The
-          ritual presentation of the killing is less developed.
+          The same sequence, stated as cause and effect: the rebels' cruelty
+          undermined Hamilcar's leniency and forced him to abandon it.
     commentary: >
-      The killing of the Carthaginian prisoner is well
-      attested; the Polybian dramatic framing of the manner
-      and ritual is the kind of literary construction modern
-      source-critical work treats with caution. The
-      historical fact is the killing; the dramatic detail is
-      Polybian elaboration. The episode is also instructive
-      methodologically: the killing of prisoners during the
-      destruction of a defeated army was a routine feature
-      of ancient warfare on both sides of the Mediterranean,
-      and the Polybian account of it as uniquely Punic-
-      mercenary atrocity is the rhetorical move the modern
-      reader should be alert to.
+      This is the most important agreement in the record, and it cuts
+      against both simple readings of the war. The violence did not start
+      from the conditions alone, since within the same conditions Hamilcar
+      had been releasing prisoners; nor was the Carthaginian side merely a
+      victim, since Hamilcar's answer was a deliberate policy of
+      extermination. Both sources may reflect the same tradition, possibly
+      Polybius's own account, so their agreement is not independent proof,
+      but nothing in the record contradicts it.
 
-  - topic: Hamilcar's crucifixion of Spendius and the post-Tunis killings
+  - topic: How to judge the violence
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          Hamilcar's crucifixion of Spendius and his
-          colleagues outside Tunis is presented as
-          institutionally controlled response: Carthaginian
-          legal punishment of rebel commanders following
-          their capture in battle, executed as state policy.
-          The dramatic effect of the crucifixion on the
-          besieged mercenary force is described as the
-          intended consequence and morally appropriate.
+          The rebels became like wild beasts, but the cause lies partly in
+          their treatment by those in authority; Hamilcar's reprisals are
+          narrated without condemnation, and Fortune is said to have given
+          both sides in turn the chance to inflict the cruelest punishments
+          (1.86).
       - source_slug: diodorus-library
         what_it_says: >
-          The Hamilcar killings are preserved but with less
-          rhetorical framing as "controlled response." The
-          violence is described more equivalently with the
-          mercenary atrocities than Polybius's contrast
-          structure allows.
+          The rebels are impious offenders against humanity punished by a
+          higher power; Hamilcar is praised for his services in Sicily and
+          Libya, though the same fragment goes on to accuse him of
+          demagoguery afterward (25.8).
     commentary: >
-      The asymmetry of the Polybian account (mercenary violence
-      as moral breakdown, Hamilcar violence as institutional
-      justice) is the principal Polybian rhetorical move
-      modern source-critical work has had to disentangle.
-      Crucifixion of rebel leaders was a standard ancient
-      Mediterranean state-violence response; it was not
-      morally different from the mercenary violence being
-      condemned. The Diodoran framing of the violence as
-      symmetric is more honest to the surviving evidence.
-      Hoyos's analysis explicitly makes this point.
+      Both writers condemn the rebel leaders in stronger terms than they
+      use for Hamilcar, and a modern reader should not adopt that
+      asymmetry: Hamilcar's elephants and his seizure of the rebel leaders
+      under cover of negotiation belong to the same war. But the record
+      does not support the opposite view either, that the sources invented
+      rebel cruelty to excuse Carthage. The massacre of Gisco's party is
+      reported in detail by both, and Polybius's own analysis spreads the
+      blame more widely than his moral language suggests. The site's
+      treatment is in the
+      [editorial take on the war's savagery](/editorialTakes/mercenary-war-atrocity-structural).
 
-  - topic: The "Saw" and the final destruction of the mercenary force
+  - topic: How long the war lasted
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          The engagement at the place Polybius calls "the
-          Saw", a defile where Hamilcar entrapped a
-          mercenary force and destroyed it, is described in
-          dramatic detail. The mercenary force in extremity
-          resorts to cannibalism (the famous "they ate
-          their prisoners and then each other" passage),
-          which Polybius treats as the moral climax of the
-          war's degradation. Hamilcar's destruction of the
-          force, including by elephants, is presented as the
-          appropriate end.
+          Three years and four months (1.88).
       - source_slug: diodorus-library
         what_it_says: >
-          The episode is preserved but the cannibalism
-          element is treated more briefly and with less
-          rhetorical weight. Diodorus's reading emphasizes
-          the underlying consequences (the inevitability of
-          such breakdown in protracted siege/blockade
-          conditions) rather than the moral one.
+          Four years and four months (25.6).
     commentary: >
-      The cannibalism episode is the most rhetorically
-      charged moment in Polybius's entire Mercenary War
-      narrative and the one Rawlings's 2007 paper
-      ([Rawlings 2007](/sources/rawlings-hannibal-cannibal-2007))
-      treats most extensively as Polybian rhetorical
-      construction. Whether the cannibalism occurred is
-      historically defensible (extreme siege conditions
-      have produced cannibalism repeatedly across recorded
-      history; the surviving sources are consistent that
-      conditions in the defile were extreme) but the
-      Polybian account of it as moral climax, Punic-
-      mercenary degradation reaching its terminal point, is the rhetorical move that needs disentangling. The
-      site treats the conditions-driven reading as honest
-      to the evidence; the moral-climax reading is
-      Polybian rhetoric.
+      The difference probably reflects different starting points, for
+      example the first unrest at Carthage and Sicca in 241 or the open
+      break with the seizure of Gisco. The site follows the conventional
+      dates of 241–237.
 
 working_reconstruction: >
-  The Mercenary War atrocities are the canonical case study in
-  modern source-critical work on the Greco-Roman reading of
-  Carthaginian military violence. The substantive shape of the
-  war's events is well attested: the demobilization breakdown
-  in the immediate post-FPW months, the escalation as both
-  sides foreclosed negotiation, the killing of prisoners on
-  both sides, the institutional violence Hamilcar deployed in
-  the war's closing stages. The methodological question is not
-  whether atrocities occurred, they clearly did, but how the
-  Polybian account of those atrocities reflects the
-  argumentative needs of his sixth-book Roman-constitutional
-  argument rather than the historical situation.
+  The sequence is well attested and the sources largely agree on it.
+  Carthage, unable to pay the army it had brought back from Sicily,
+  gathered the soldiers at Sicca and asked them to accept less. The
+  dispute escalated while Carthage conceded claim after claim, and when
+  Gisco came to pay the troops, Spendius and Mathos, each with personal
+  reasons to fear a settlement, broke the negotiations and the Libyans
+  seized Gisco. The Libyan countryside, taxed to exhaustion in the war,
+  rose at once, and a mutiny became a war for Carthage's survival.
 
-  The site's working reading: the war's violence was a
-  direct product of fiscal exhaustion, blocked
-  demobilization, and the consequent escalation pattern that
-  any prolonged ancient Mediterranean siege-and-blockade
-  conflict would produce. The leadership of both sides made
-  specific choices within that structural pressure (Spendius's
-  motivated escalation, Mathos's particular hostility,
-  Hamilcar's institutionally-framed reprisal), but the
-  underlying conditions were the principal driver. The Polybian
-  contrast between "mercenary moral breakdown" and "Carthaginian
-  institutional response" is a rhetorical construction; the
-  Diodoran and Appian readings, with their lighter moralizing
-  weight, are the better starting points for modern
-  reconstruction. Where Polybius preserves specific event
-  detail not in the other sources, modern reading should
-  retain the detail while discounting the reading.
-
-  The Mercenary War atrocity question is also one of the
-  places the site's broader methodological discipline — read
-  the Polybian-and-Latin moralizing against the grain;
-  reconstruct what happened from the underlying conditions
-  and the cross-source agreements; treat the rhetorical
-  excess as evidence of the source's argumentative needs
-  rather than of what happened — has the clearest payoff. The
-  same disciplines apply on Cannae, on Sophonisba's death,
-  on the Antiochus episode, on the destruction of 146.
-  Mercenary War atrocities are where the disciplines were
-  first developed by modern specialists and where they are
-  most clearly central.
+  The truceless character came later and was chosen. Hamilcar's early
+  release of prisoners worked well enough that the rebel leaders feared
+  their army would dissolve, and they killed Gisco and some seven hundred
+  prisoners to make surrender unthinkable. Hamilcar answered by killing
+  every captive, and from then on each side's violence justified the
+  other's, down to the Saw, the crosses at Tunis and the torture of
+  Mathos. Polybius's own theory at 1.81, that neither kindness nor
+  retaliation can cure men once brutalized, is an ancient version of that
+  dynamic. What the site discounts is the moral language both ancient
+  writers attach to the rebels, not the sequence of events they report.
 
 related_takes:
   - mercenary-war-atrocity-structural
-related_claims: []
+related_claims:
+  - mercenary-war-truceless
 related_narratives:
   - the-mercenary-war
   - mercenary-war-leaders
 related_questions:
   - mercenary-war-brutality-cause
 
-last_revised: "2026-05-22"
+last_revised: "2026-09-17"

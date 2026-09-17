@@ -173,6 +173,30 @@ const REGRESSIONS = [
     fixed: 'Italian-objective audit',
   },
   {
+    id: 'mercenary-war-hamilcar-crucified-hundreds',
+    re: /crucified captured rebels by the hundreds/i,
+    right: 'Polybius 1.86: Spendius was crucified at Tunis; Hamilcar\'s reprisal was killing captives and throwing them to elephants (1.82, 1.84).',
+    fixed: 'Mercenary War audit',
+  },
+  {
+    id: 'polybius-blind-spot',
+    re: /Polybius had a blind spot/i,
+    right: 'Polybius 1.72 blames Carthage\'s rule of Libya and 1.81 gives a theory of escalation including abuse by those in authority.',
+    fixed: 'Mercenary War audit',
+  },
+  {
+    id: 'diodorus-lighter-moralizing',
+    re: /Diodor[a-z]*[^.]{0,80}(lighter|less) (moraliz|rhetorical)/i,
+    right: 'Diodorus 25.2-6 is if anything more moralizing (impiety, offenders against humanity).',
+    fixed: 'Mercenary War audit',
+  },
+  {
+    id: 'aemilianus-grandson-of-paullus',
+    re: /Paullus'?s grandson,? Scipio Aemilianus/i,
+    right: 'Scipio Aemilianus was the son of Aemilius Paullus, adopted into the Scipios.',
+    fixed: 'Mercenary War audit',
+  },
+  {
     id: 'methodologically-more-honest',
     re: /methodologically more honest/i,
     right: 'Self-congratulation; say what the reading does instead.',

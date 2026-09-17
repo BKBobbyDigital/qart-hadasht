@@ -2456,6 +2456,36 @@ Miles only, and its "largely rejected by modern scholarship" lines are
 gone. **Open:** the defections claim still cites MacDonald 2015 and
 Rawlings 1996 with unverified summaries; the user is reading MacDonald.
 
+**9. `mercenary-war-atrocity-structural`.** User-confirmed: **two-stage**
+position (conditions produced the revolt and made it existential;
+decisions by the rebel leaders and then Hamilcar made it truceless;
+then the violence fed itself), confidence tentative → moderate. The
+evidence is in the texts: Polybius 1.72 (Carthage "had chiefly
+themselves to thank", half the crops, doubled taxes), 1.78 (Hamilcar
+releases prisoners), 1.79 (rebel leaders "apprehensive of the effect
+of Hamilcar's leniency"), 1.80–81 (Gisco and ~700 mutilated; Polybius's
+own escalation theory, including "habitual violence … on the part of
+those in authority"), 1.82 (elephants), and Diodorus 25.3 (the rebels'
+cruelty "forced" Hamilcar to abandon leniency). Errors in the old take:
+"Hamilcar's troops crucified captured rebels by the hundreds" (not in
+Polybius; its symmetry argument ignored that Hamilcar's reprisals
+followed the massacre); "Polybius had a blind spot" for structural
+causes; framing as "Hoyos's reading" (unverified). **The source
+comparison `mercenary-war-atrocities` was largely invented and was
+rewritten from Polybius 1.65–88, Diodorus 25.1–8 and Appian *Iberica*
+4–5**: it had Diodorus less moralizing (he is more), a Diodoran variant
+on the general's death and a different relief-force figure (neither
+exists), the crucified general as "Hannibal son of Gisco" with his head
+sent to Mathos, Aemilianus as Paullus's "grandson", Fabius Pictor
+favorable to Hamilcar, and a "Punic faithlessness" thesis for Polybius
+Book 6. Also rewritten: the brutality open question, the narrative's
+atrocity section, `claims/mw-truceless-character`. The Hoyos *Truceless
+War* and Rawlings 2007 source entries are now bibliographic (Rawlings's
+said Polybius reports cannibalism "about Hannibal"; it is Monomachus's
+proposal); their unverified characterizations were removed from two
+claims and the Monomachus page. The Cardiff repository blocks automated
+download of the Rawlings paper.
+
 **Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
 answers the same question as `destruction-not-weak-enough` and still
 says the relocation demand was "deliberately impossible to accept";

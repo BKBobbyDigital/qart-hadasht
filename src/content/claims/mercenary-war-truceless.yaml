@@ -16,15 +16,6 @@ sources:
       Carthaginian and rebel forces, and uses *aspondos polemos*
       explicitly. The framing is one of his strongest moral
       judgments anywhere in the Histories.
-  - source: hoyos-truceless-war-2007
-    stance: qualifies
-    passage_summary: >
-      Hoyos accepts the brutality as historical while contextualizing
-      Polybius's framing: the *aspondos polemos* characterization
-      partly serves Polybius's narrative purposes (positioning the
-      Mercenary War as the moral baseline against which Hannibal's
-      later war was less savage than Roman tradition claimed). The
-      brutality was real; the framing is also rhetorical.
 entities:
   - type: event
     slug: mercenary-war
