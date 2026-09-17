@@ -7,14 +7,15 @@ summary: >
   the Greco-Roman polemic invented? This is the most contested question in
   Carthaginian religious archaeology, and the disagreement is genuine: the
   literary tradition, the inscriptional evidence, and the bioarchaeology of
-  the recovered remains can be read to support either reading. The site
-  presents the evidence and the principal positions; the question is
-  treated here as open.
+  the recovered remains have each been read to support either answer.
+  The site presents the evidence and the principal positions, and takes
+  a narrow position of its own: sacrifice very probably happened, but
+  how often cannot be recovered.
 primary_entities: []
 related_themes:
   - punic-religion
 referenced_claims: []
-last_revised: "2026-06-09"
+last_revised: "2026-09-17"
 ---
 
 ## What the Tophet is
@@ -36,16 +37,20 @@ What those facts mean is the contested question.
 
 ## What the literary tradition says
 
-Greco-Roman writers from Diodorus onward describe the Carthaginians as
+Greek and Roman writers from Cleitarchus in the fourth century BCE onward
+describe the Carthaginians as
 practicing the ritual sacrifice of children to Baal Hammon, especially
 in moments of civic crisis. The most detailed account is Diodorus
 20.14, which describes a Carthaginian panic during the 310 BCE
 Agathocles invasion: aristocratic families that had previously
 substituted purchased children for their own in the sacrificial
 ritual were said to have repented and offered their actual sons.
-Plutarch (*De Superstitione*) describes children being placed alive on
-the lap of a heated bronze statue of Kronos (the Greek interpretation
-of Baal Hammon). Tertullian, writing as a North African Christian
+Diodorus, like Cleitarchus before him, describes the children placed on
+the outstretched hands of a bronze statue of Kronos (the Greek
+interpretation of Baal Hammon), from which they fell into fire.
+Plutarch (*On Superstition* 13) describes children bought from the poor
+and killed while pipes and drums drowned their cries, with their
+mothers forbidden to weep. Tertullian, writing as a North African Christian
 centuries later, repeats and elaborates the tradition.
 
 The literary tradition is consistent in describing the practice and
@@ -63,25 +68,31 @@ word *mlk* designates the offering itself; whether it specifies a
 particular kind of offering (a child sacrifice) or a generic dedicatory
 category is one of the central philological questions.
 
-Several variant formulae appear: *mlk bʿl* ("dedication to the lord"),
-*mlk ʾdm* ("dedication of a person/of one's own"), *mlk ʾmr* (often
-read "dedication of a lamb"). The variation between *mlk ʾdm* and
-*mlk ʾmr* in particular has been read by some scholars as evidence
-for a substitution practice (lambs in place of children) and by others
-as evidence that the *mlk* term does not specify a single ritual type
-at all.
+Several variant formulae appear. *mlk ʾmr* is usually read as an
+offering of a lamb. *mlk bʿl* and *mlk ʾdm* never occur together and
+seem interchangeable; they are usually read as an offering of a
+citizen and of a person, though both readings, and the exact sense of
+*mlk* itself (from "gift" to "sacrifice"), are debated. The contrast
+between a lamb and a person has been read by some scholars as evidence
+for substitution (a lamb offered in place of a child) and by others as
+a sign that *mlk* named a category of offering rather than a single
+rite. Either way, this is the language of vow and offering, not of
+commemorating the dead, and it is distinctive to the tophets.
 
 ## What the bioarchaeology says
 
 The cremated remains in the urns have been studied bioarchaeologically
-in two principal modern campaigns. The findings are mutually
-contradictory in interpretation, though the underlying physical
-evidence is largely agreed.
+in two principal modern campaigns. The two teams disagree both about
+the ages of the children and about what those ages mean.
 
-The remains are predominantly those of very young children, with the
-age distribution skewing strongly toward newborns and infants under
-two years. A smaller proportion of urns contain animal remains,
-typically lambs. Some urns combine human and animal remains.
+The remains are predominantly those of very young infants. How young
+is the disputed point: [Schwartz and colleagues](/sources/schwartz-tophet-2010)
+found many who died before or within weeks of birth, while
+[Smith and colleagues](/sources/smith-tophet-2011), arguing that
+cremation makes bone look younger than it was, placed the peak at about
+one to one and a half months. A smaller proportion of urns contain
+animal remains, typically lambs. Some urns combine human and animal
+remains.
 
 Two readings of this distribution have emerged in the modern
 scholarship:
@@ -98,16 +109,19 @@ scholarship:
   treats the precinct as the burial ground for children who died of
   natural causes (stillbirth, perinatal mortality, infectious disease)
   and were given ritual burial because of their special religious
-  status. On this reading the literary tradition is essentially Greek
-  polemic, with the bioarchaeology showing perinatal demographic
-  patterns rather than sacrificial selection.
+  status. On this reading the literary tradition distorts an
+  unfamiliar practice, and the bioarchaeology shows perinatal deaths
+  rather than selection. Schwartz and colleagues do not claim that no
+  child was ever sacrificed; their claim is that the remains do not
+  show sacrifice as the usual cause of death.
 
-The disagreement turns on technical readings: how to interpret the
-age-at-death distribution, whether cremation patterns indicate
-pre- or post-mortem fire exposure, whether the inscriptional formulae
-support either reading specifically. As of 2020s scholarship, the
-question is genuinely unresolved, with substantial publications on
-both sides and no clear convergence.
+The two teams answered each other in 2012, 2013 and
+[2017](/sources/schwartz-two-tales-2017), and the disagreement over
+how to age cremated infants remains unresolved. Underneath it lies a
+more basic limit: age at death is not manner of death. A baby of six
+weeks could have died of disease, and a newborn could have been
+killed, so even an agreed age profile could not show which children
+were offered alive.
 
 A useful comparative anchor sits in the Phoenician homeland. The
 Eshmun Sanctuary Votive Statue from the precinct at Bustan
@@ -149,10 +163,11 @@ Three considerations seem relevant to any honest assessment.
 
 A reader honest with the evidence would conclude that some form of
 ritualized response to infant death occurred at the Tophet, that the
-specific question of whether (or how often, or in what circumstances)
-that response involved the deliberate killing of children remains
-unresolved, and that any answer that takes one side of the modern
-disagreement as settled is ahead of the evidence.
+specific question of how often, and in what circumstances, that
+response involved the deliberate killing of children remains
+unresolved, and that any answer claiming to know the proportion is
+ahead of the evidence. Whether it ever did is a closer call, and on the
+site's reading the inscriptions tip it: very probably yes.
 
 ## The tariffs and the question of "ordinary" Punic sacrifice
 
@@ -175,15 +190,16 @@ inscriptional evidence as a category lives at the
 
 ## Editorial position
 
-The site takes a narrow position rather than declining to take one. The
-practice happened: the 2010s dental-development bioarchaeology showing a
-substantial 1–3 year age cohort defeats the pure-cemetery reading, and
-the inscriptional *mlk* formula's restriction to Tophet contexts argues
-against reading the precinct's deposits as generic funerary. But scale
-is unrecoverable. No surviving evidence supports a confident statement
-about how systematic the practice was, what fraction of deposits
-represent killed-versus-natural-death children, or how the proportions
-varied across the precinct's six centuries.
+The site takes a narrow position rather than declining to take one.
+Sacrifice very probably happened. The case is cumulative and does not
+rest on the bones: the Tophet's inscriptions use a vocabulary of vow
+and offering that distinguishes a lamb from a person, and the Greek and
+Roman tradition, hostile and not independent as it is, points the same
+way. But scale is unrecoverable. The cremated remains cannot show how
+the children died, many urns have no inscription, and no surviving
+evidence supports a confident statement about what fraction of
+deposits represent killed rather than naturally dead children, or how
+the proportions changed across the precinct's six centuries.
 
 The full reasoning, the weighed evidence, and the competing readings (universal-systematic, pure-cemetery, and specific-proportion mixed
 readings) are treated under the editorial take

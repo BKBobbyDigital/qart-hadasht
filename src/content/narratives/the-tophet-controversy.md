@@ -23,7 +23,7 @@ primary_entities:
 referenced_claims:
   - tophet-child-sacrifice-contested
   - tophet-stratigraphic-continuity
-last_revised: "2026-06-09"
+last_revised: "2026-09-17"
 ---
 
 Ask a casual reader what they know about Carthage, and there's a good
@@ -182,7 +182,7 @@ material. Their counter-argument was methodological: cremation
 shrinks and warps infant bone, so skeletal measurements on burned
 remains systematically underestimate age at death. Re-weighting
 toward dental evidence, which survives cremation better, they
-found an age distribution concentrated between roughly one and two
+found an age distribution peaking at about one to one and a half
 months old, with prenatal individuals far rarer than Schwartz had
 reported. The interpretive force of that distribution: natural
 mortality in ancient conditions peaks at and immediately after
@@ -197,43 +197,45 @@ rebuttal beyond osteology. The stelae carry votive formulas, not
 funerary ones; the Tophet precincts are spatially and ritually
 separate from the ordinary child burials known from Punic
 cemeteries; the same precinct type recurs at Motya, Sulci, and
-Tharros. Its summary judgment, that the cemetery hypothesis must
-explain away several independent categories of evidence at once,
-is the most-cited single statement of the current majority
-position.
+Tharros. Its summary judgment was that the cemetery hypothesis must
+explain away several categories of evidence at once. The author list
+also complicates any tidy map of national schools: Xella, an Italian
+and the leading specialist on Baal Hammon, was arguing for the
+sacrificial reading.
 
-The Italian school responded skeptically. Ribichini's
-[2013 contributions](/sources/ribichini-tophet-2013) to the
-Xella-edited *Tophet in the Phoenician Mediterranean* supplement
-argued that the bioarchaeological methods were themselves
-contested, that the sample sizes were too small to support the
-conclusions drawn, and that the underlying ancient-source
-skepticism remained intact even if some of the deposits were of
-older children than the strict cemetery reading required.
+The osteological argument did not end there. The Schwartz team
+defended its methods in 2012, the Smith team answered in
+[2013](/sources/smith-age-estimations-2013), and the Schwartz team
+replied again in
+["Two Tales of One City"](/sources/schwartz-two-tales-2017) (2017),
+maintaining that not all of the Tophet's interments were sacrifices.
+The Italian skeptical tradition, represented by
+[Ribichini](/sources/ribichini-tophet-2013), continued to warn against
+letting one laboratory method settle a question that also turns on
+philology and the history of religion. And the exchange exposed a
+limit neither side could get past: however the ages were estimated,
+age at death does not show manner of death.
 
 ## The current standoff
 
-As of the 2020s, the question is genuinely unresolved. What seems
-to have emerged is something like a **mixed-practice consensus**:
-the Tophet contains both deposits consistent with natural-mortality
-cremation AND deposits consistent with deliberate sacrifice, in
-proportions that varied across the precinct's six centuries of use
-and across the Punic-cultural diaspora (the comparable precincts at
-Motya, Sulci, Tharros, and other sites). The scale of sacrifice in
-specific periods is uncertain; the existence of *some* sacrificial
-practice at *some* scale across at least part of the precinct's
-history is broadly accepted; the universal-systematic reading of
-the classical sources is no longer defensible.
+As of the 2020s, the question is unresolved, and there is no
+consensus to report. Many specialists now accept that some
+sacrificial practice occurred at some point in the precinct's history,
+while others, Schwartz and colleagues among them, hold that the
+deposits are mainly children who died naturally. Few defend the
+older reading of every urn as a sacrificed child. The comparable
+precincts at Motya, Sulci and Tharros differ from Carthage and from
+one another, which shows the rite was not identical across the Punic
+world without settling what it was.
 
 Modern overviews (**Hoyos** (2010), **Lancel** (1995), **Quinn**
 (2018)) generally report the controversy in roughly these terms,
 with individual emphasis varying by author. The encyclopedia's
 position, formalized as the editorial take
 [Did Tophet sacrifice happen, and at what scale?](/editorialTakes/tophet-happened-scale-unrecoverable),
-is narrower than the loose "mixed-practice consensus" framing
-suggests: the practice happened (the bioarchaeology and the
-inscriptional *molk* formula together defeat the pure-cemetery
-reading), but the scale is unrecoverable. Confident statements in
+is narrow: sacrifice very probably happened, a conclusion that rests on
+the inscriptions' vocabulary of vow and offering and on the literary
+tradition rather than on the bones, but the scale is unrecoverable. Confident statements in
 either direction (systematic mass sacrifice on the one hand, no
 sacrifice at all on the other) require ignoring evidence the
 other side preserves. So do confident statements about specific
@@ -248,18 +250,19 @@ function. Three observations:
 1. Hostile-source framing matters but doesn't determine the
    answer. The Greek and Roman sources were polemically motivated;
    that doesn't mean they were wrong. The Moscati reframing
-   correctly identified the framing problem; the bioarchaeological
-   pushback showed that the underlying practice could still be
-   what the sources described.
+   correctly identified the framing problem; the inscriptions, and
+   the pushback it provoked, showed that the underlying practice
+   could still be what the sources described.
 2. Method-dependence runs both ways. Mid-century skeletal
    analysis under-supported the cemetery hypothesis; 2010s dental
    analysis over-supports the sacrifice hypothesis if applied
    without sample-size and method caveats. Neither generation's
    methods were definitive.
 3. National-scholarly cultures shape interpretation. The
-   Italian-French preference for the cemetery reading and the
-   Anglophone-Israeli preference for the sacrifice reading are real
-   patterns. Whether they reflect substantive disciplinary
+   Italian-French leaning toward the cemetery reading and the
+   Anglophone-Israeli leaning toward the sacrifice reading are real
+   tendencies, though not rules: Xella, the leading Italian
+   specialist on Baal Hammon, defends the sacrificial reading. Whether they reflect substantive disciplinary
    differences (philological-vs-archaeological orientation;
    different relationships to the classical-source tradition) or
    path-dependence within national academic networks is itself
@@ -272,8 +275,9 @@ least one of the modern syntheses (Lancel, Hoyos, Miles); read
 [Smith et al. 2011](/sources/smith-tophet-2011) as the two sides
 of the bioarchaeological argument,
 [Xella et al. 2013](/sources/xella-bones-of-contention-2013) for
-the wider rebuttal, and Ribichini 2013 for the cemetery
-tradition's response; and recognize that competent scholars
+the wider rebuttal, and
+[Schwartz et al. 2017](/sources/schwartz-two-tales-2017) for the
+reply; and recognize that competent scholars
 currently disagree about a substantive historical question, in
 ways that the available evidence may not be sufficient to settle.
 
