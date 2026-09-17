@@ -2486,6 +2486,39 @@ proposal); their unverified characterizations were removed from two
 claims and the Monomachus page. The Cardiff repository blocks automated
 download of the Rawlings paper.
 
+**10. `sourceComparisons/cannae`** (checked against Polybius 3.107–118,
+Livy 22.36–57, Plutarch *Fab.* 15–18, Appian *Hann.* 17–26). Rewritten
+with a source-dependence note (four authors, not four witnesses),
+casualty traditions left unreconciled, and **Appian treated as a
+separate tradition**: 70,000 foot, three lines, Paullus in command
+because Varro yielded the title, Mago and Hanno on the wings, 500
+Celtiberian false deserters, an east wind and a ravine ambush, "four
+stratagems in one day" (26). Errors fixed: "Polybius records the
+decision not to march on Rome" (3.117–118 has no council); Livy's dead
+as 47,000 (45,500 foot + 2,700 horse = 48,200) and "19,300 captured" as
+if a Livian total; the 8,000 Carthaginian dead credited to Appian (Livy
+22.52); the Forum Boarium burial credited to Plutarch (Livy 22.57, which
+calls it "most repulsive to Roman feelings", so "ritually unremarkable"
+was backwards); Plutarch's aftermath at *Fab.* 14–16 (it is 17–18, and
+overlaps Livy heavily); Polybius as neutral on Varro (3.110 "inexperience",
+3.116 "disgraced himself"); Lentulus as a centurion (military tribune in
+Livy, young patrician in Plutarch). **New:** Plutarch gives the "win a
+victory / use one" reproach to **"Barca, the Carthaginian"** (*Fab.* 17),
+not Maharbal, so the saying circulated without a fixed speaker; Livy puts
+Maharbal on the Carthaginian right where Polybius has Hanno (22.46); the
+500 false deserters are Numidians in Livy and Celtiberians in Appian;
+Polybius's own figures exceed his army total. Aligned: the three Cannae
+claims (casualties, troop numbers, Maharbal), the battle narrative,
+Maharbal's page, `cannae-march-on-rome`. Unverified Goldsworthy and
+Brunt characterizations removed from the claims (Goldsworthy is still
+cited with unchecked summaries on ~14 other claims; part of the
+unpaged-modern backlog). **Two corrections to the previous pass:**
+Plutarch does rank Capua ("the most considerable city after Rome"), so
+the Capua pages now say so with attribution and the regression note was
+fixed; and the `aemilianus-grandson-of-paullus` rule was deleted, since
+Scipio Aemilianus was indeed the grandson of the Paullus who died at
+Cannae, through Paullus Macedonicus.
+
 **Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
 answers the same question as `destruction-not-weak-enough` and still
 says the relocation demand was "deliberately impossible to accept";

@@ -62,8 +62,9 @@ crescent in the center, with the line sloped back from the front. His
 veteran African heavy infantry, the troops who had crossed the Alps and
 survived three years in Italy, were held back on the wings of his line.
 His Carthaginian cavalry, under Hasdrubal, faced the Roman cavalry on
-the right wing of the Roman line; his Numidian cavalry, under Maharbal,
-faced the Italian allied cavalry on the left.
+the right wing of the Roman line; his Numidian cavalry faced the Italian
+allied cavalry on the left, under Hanno in Polybius's account and
+Maharbal in Livy's.
 
 The engagement proceeded in three phases. First, the cavalry. Hasdrubal's
 heavy horse broke the Roman cavalry on the Roman right and, instead of
@@ -80,9 +81,11 @@ destruction of the Roman horse, struck the Roman rear. The Roman army
 was encircled.
 
 What followed lasted into the late afternoon. The Roman army inside the
-encirclement could not maneuver. Polybius reports approximately 70,000
-Roman dead; Livy, working from a different count, reports roughly 50,000.
-The lower number is probably closer to the truth; either way, the
+encirclement could not maneuver. Polybius reports about 70,000
+Roman dead and 10,000 taken at the camps; Livy counts 45,500 infantry
+and 2,700 cavalry killed, and Plutarch and Appian give 50,000. The
+figures cannot be reconciled and are set out in the
+[source comparison](/sourceComparisons/cannae). Either way, the
 proportion of Roman forces destroyed in a single afternoon at Cannae is
 among the highest in the history of warfare. The consul Aemilius Paullus
 fell. The proconsul Servilius Geminus, consul of the previous year,
@@ -96,10 +99,10 @@ Gallic infantry that had absorbed the Roman charge.
 The accounts of what followed in Hannibal's camp are unreliable. Livy
 preserves the famous exchange in which Maharbal urges Hannibal to march
 directly on Rome and, when refused, replies that he knows how to win a
-victory but not how to use one. Polybius does not preserve it. Modern
-scholarship overwhelmingly treats the anecdote as later literary
-tradition rather than historical record: a Latin epigram constructed to
-dramatize the thesis that Rome was saved by Hannibal's failure of nerve.
+victory but not how to use one. Polybius has neither the exchange nor any
+council about marching. Plutarch tells the same story but gives the
+reproach to "Barca, the Carthaginian" rather than Maharbal, which marks
+it as an anecdote in circulation rather than a record.
 The harder question, whether marching on Rome was a real strategic
 option, has its own answer: probably not. Livy himself says the other
 officers urged rest for an exhausted army. Rome was some 400

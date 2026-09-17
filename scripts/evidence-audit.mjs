@@ -157,7 +157,7 @@ const REGRESSIONS = [
   {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
-    right: 'No source ranks Capua second; Polybius 3.91 calls it "once the wealthiest of cities".',
+    right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',
     fixed: 'Italian-objective audit',
   },
   {
@@ -191,10 +191,58 @@ const REGRESSIONS = [
     fixed: 'Mercenary War audit',
   },
   {
+    id: 'mercenary-war-hamilcar-crucified-hundreds',
+    re: /crucified captured rebels by the hundreds/i,
+    right: 'Polybius 1.86: Spendius was crucified at Tunis; Hamilcar\'s reprisal was killing captives and throwing them to elephants (1.82, 1.84).',
+    fixed: 'Mercenary War audit',
+  },
+  {
+    id: 'polybius-blind-spot',
+    re: /Polybius had a blind spot/i,
+    right: 'Polybius 1.72 blames Carthage\'s rule of Libya and 1.81 gives a theory of escalation including abuse by those in authority.',
+    fixed: 'Mercenary War audit',
+  },
+  {
+    id: 'diodorus-lighter-moralizing',
+    re: /Diodor[a-z]*[^.]{0,80}(lighter|less) (moraliz|rhetorical)/i,
+    right: 'Diodorus 25.2-6 is if anything more moralizing (impiety, offenders against humanity).',
+    fixed: 'Mercenary War audit',
+  },
+  {
     id: 'aemilianus-grandson-of-paullus',
     re: /Paullus'?s grandson,? Scipio Aemilianus/i,
     right: 'Scipio Aemilianus was the son of Aemilius Paullus, adopted into the Scipios.',
     fixed: 'Mercenary War audit',
+  },
+  {
+    id: 'livy-cannae-dead',
+    re: /47,?000 (Roman )?(dead|killed)|47,500 infantry/i,
+    right: 'Livy 22.49: 45,500 infantry and 2,700 cavalry killed (48,200).',
+    fixed: 'Cannae audit',
+  },
+  {
+    id: 'polybius-cannae-march-decision',
+    re: /Polybius[^.]{0,60}(records|preserves)[^.]{0,40}decision not to march on Rome|decision not to march on Rome is\s+recorded/i,
+    right: 'Polybius 3.117-118 has no council and no decision about marching on Rome.',
+    fixed: 'Cannae audit',
+  },
+  {
+    id: 'appian-carthaginian-dead-8000',
+    re: /Appian[^.]{0,80}8,?000/i,
+    right: 'The ~8,000 Carthaginian dead are Livy 22.52, not Appian.',
+    fixed: 'Cannae audit',
+  },
+  {
+    id: 'plutarch-forum-boarium',
+    re: /Plutarch[^.]{0,120}Forum Boarium|Forum Boarium[^.]{0,120}Plutarch/i,
+    right: 'The Forum Boarium burial is Livy 22.57; Plutarch (Fab. 18) does not have it.',
+    fixed: 'Cannae audit',
+  },
+  {
+    id: 'plutarch-maharbal',
+    re: /(exchange|anecdote|line|reproach)[^.]{0,40}(appears in|preserved (by|in))[^.]{0,30}(Livy and )?Plutarch|Plutarch preserves a version of the same exchange|Plutarch[^.]{0,40}(preserves|repeats)[^.]{0,40}Maharbal/i,
+    right: 'Plutarch (Fab. 17) gives the reproach to "Barca, the Carthaginian", not Maharbal.',
+    fixed: 'Cannae audit',
   },
   {
     id: 'methodologically-more-honest',

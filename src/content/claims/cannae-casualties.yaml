@@ -1,68 +1,67 @@
 slug: cannae-casualties
 statement: >
-  Roman losses at Cannae were among the highest of any single day in
-  the history of warfare, perhaps 50,000–70,000 dead and 10,000 captured.
-  Carthaginian losses were under 10,000.
+  Roman losses at Cannae were among the heaviest of any single day of
+  battle in the ancient record: the surviving accounts give between
+  48,000 and 70,000 dead, with thousands more captured, against
+  Carthaginian losses of roughly 6,000 to 8,000.
 confidence: contested
 scholarly_consensus: >
-  The catastrophic asymmetry is firmly attested. The specific totals
-  vary across the principal sources and are treated by modern scholars
-  as approximate. The order of magnitude, tens of thousands of Roman
-  dead, is not seriously contested.
+  That a Roman field army was destroyed in a day, with a consul, a
+  proconsul and a large part of the senatorial class killed, is not
+  disputed. The totals are, and the ancient figures cannot be
+  reconciled with one another.
 dispute_summary: |
-  The two principal sources give different figures:
+  The four surviving accounts count differently:
 
-  - **Polybius (3.117)** reports approximately 70,000 Roman dead, 10,000
-    captured, and roughly 5,700 Carthaginian losses.
-  - **Livy (22.49)** gives approximately 47,500 Roman infantry and
-    2,700 cavalry killed, with similar figures for captives, and
-    approximately 8,000 Carthaginian dead.
+  - **Polybius (3.117)** gives about 70,000 infantry dead, about 10,000
+    captured (the force left to attack the Carthaginian camp, taken
+    outside the main battle), and some 3,000 escaped, with 70 cavalry
+    getting away with Varro. Carthaginian losses are about 5,700.
+  - **Livy (22.49–52)** enumerates 45,500 infantry and 2,700 cavalry
+    killed, so 48,200, with 3,000 infantry and 1,500 cavalry taken in
+    the battle and further thousands captured afterward in the two camps
+    and at Cannae village. He gives about 8,000 Carthaginian dead.
+  - **Plutarch (*Fabius* 16)** gives 50,000 killed, 4,000 taken alive and
+    10,000 captured in the camps.
+  - **Appian (*Hannibalic War* 24–26)** gives 50,000 killed, with about
+    15,000 reaching the camps, of whom 5,000 were captured and 10,000
+    broke out to Canusium.
 
-  Modern scholarship typically treats Polybius's figure as the upper
-  bound and Livy's as the lower; the difference partly reflects whether
-  troops who escaped to nearby Roman strongholds and were captured later
-  are counted as battle casualties or separately. The proportion of
-  Roman forces lost is the more telling figure: on Polybius's totals
-  ~75% of the Roman field army was killed or captured in a single day.
+  These are not the same total counted differently. Polybius separates
+  the dead from the camp prisoners, so his 70,000 cannot absorb Livy's
+  prisoners, and his own figures add up to more than the 80,000 infantry
+  he gives for the Roman army. The other three traditions cluster near
+  50,000 dead with substantially more survivors. The figures are
+  compared in the
+  [source comparison](/sourceComparisons/cannae).
 
-  The asymmetry between Roman and Carthaginian losses, roughly 10:1,
-  is striking and may itself be partly inflated. Even at Livy's figure
-  of 8,000 Carthaginian dead, a tactical victory of this magnitude with
-  losses under 20% is extraordinary and unparalleled in the period.
-
-  The senior Roman casualties are well-attested and not in dispute:
-  the consul Aemilius Paullus, the proconsul Servilius Geminus (consul
-  in 217), the former magister equitum Minucius Rufus, and a large
-  proportion of the Roman senatorial class who served as military
-  tribunes all fell at Cannae.
+  The senior Roman casualties are attested across the sources and are
+  not in dispute: the consul Aemilius Paullus, the proconsul Servilius
+  Geminus (consul in 217), the former magister equitum Minucius Rufus,
+  and a large number of senators and magistrates serving with the
+  legions.
 sources:
   - source: polybius-histories
     stance: supports
     passage_ref: "3.117"
     passage_summary: >
-      Polybius reports approximately 70,000 Roman dead, 10,000 captured,
-      and ~5,700 Carthaginian losses; treats the Carthaginian losses as
-      heaviest among the Iberian and Gallic infantry of the forward
-      crescent.
+      About 70,000 Roman infantry dead, about 10,000 captured at the
+      camp, some 3,000 escaped, and Carthaginian losses of 4,000 Celts,
+      1,500 Spaniards and Africans and 200 cavalry.
   - source: livy-auc
     stance: qualifies
-    passage_ref: "22.49"
+    passage_ref: "22.49–52"
     passage_summary: >
-      Livy gives lower Roman totals (~47,500 infantry plus ~2,700
-      cavalry killed) and a higher Carthaginian total (~8,000),
-      partially reflecting different counting conventions.
+      45,500 infantry and 2,700 cavalry killed; 3,000 infantry and 1,500
+      cavalry taken prisoner in the battle, with more captured later in
+      the camps; about 8,000 Carthaginian dead, "his best troops".
   - source: plutarch-lives
     stance: qualifies
-    passage_ref: "Aem. Paullus 14, Fabius 16"
+    passage_ref: "*Fabius* 16"
     passage_summary: >
-      Plutarch preserves figures broadly consistent with Polybius and
-      adds detail on the senatorial casualties.
-  - source: goldsworthy-fall-carthage-2003
-    stance: qualifies
-    passage_summary: >
-      Goldsworthy surveys the figures and treats the proportion of
-      forces lost, rather than any specific total, as the measure
-      that matters militarily.
+      50,000 Romans killed, 4,000 taken alive, and 10,000 more captured
+      in the two camps: closer to Livy's order of magnitude than to
+      Polybius's.
 entities:
   - type: event
     slug: battle-of-cannae
