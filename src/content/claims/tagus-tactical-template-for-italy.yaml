@@ -11,13 +11,13 @@ statement: >
   envelopment (216 BCE).
 confidence: inferred
 scholarly_consensus: >
-  The continuity-of-method argument is broadly accepted in
-  modern scholarship. It is "inferred" rather than "attested"
-  because Polybius does not himself draw the explicit
-  connection; he treats the Tagus engagement and the
-  Italian engagements separately. The continuity is a
-  reading-back from the comparative analysis of the
-  engagements, foundational to MacDonald and Hoyos.
+  The argument is tagged inferred rather than attested because
+  Polybius does not himself draw the connection. He treats the
+  Tagus engagement and the Italian engagements separately. The
+  continuity is a reading back from comparing them, and it is
+  the site's own; modern narrative treatments of the campaign
+  make a similar comparison, but the site has not checked the
+  argument in any of them.
 sources:
   - source: polybius-histories
     stance: supports

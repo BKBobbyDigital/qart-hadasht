@@ -370,11 +370,21 @@ for (const f of readdirSync(join(REPO, 'src/content/claims'))) {
       unpaged.push(`${d.slug} → ${s.source}`);
     }
   }
-  // The prose fields attribute too, and moving a citation does not clean them.
+  // The prose fields attribute too, and moving a citation does not clean
+  // them. A name is fine when the same claim cites that scholar's work with
+  // a passage_ref, because then the characterization has been checked; it is
+  // a finding only when the prose names someone the evidence does not back.
+  const backed = new Set();
+  for (const s of d?.sources ?? []) {
+    if (!s.passage_ref) continue;
+    const surname = String(s.source).split('-')[0];
+    backed.add(surname.toLowerCase());
+  }
   const prose = [d?.scholarly_consensus, d?.dispute_summary, d?.notes]
     .filter(Boolean).join(' ').replace(/\s+/g, ' ');
-  const m = prose.match(new RegExp(SCHOLARS, 'g'));
-  if (m) proseNamed.push(`${d.slug} [${[...new Set(m)].join(', ')}]`);
+  const m = (prose.match(new RegExp(SCHOLARS, 'g')) ?? [])
+    .filter((name) => !backed.has(name.toLowerCase()));
+  if (m.length) proseNamed.push(`${d.slug} [${[...new Set(m)].join(', ')}]`);
 }
 console.log(`  unpaged-modern: ${unpaged.length} synthetic modern histories cited as evidence with no passage_ref. Move to further_reading, or read the work and add a page.`);
 if (listAll || listTerm === 'unpaged-modern') unpaged.forEach((u) => console.log(`    ${u}`));
