@@ -2639,9 +2639,17 @@ rest of that theme still leans integrationist and deserves its own pass.
   one rises, something new was written; if you are tempted to drive one
   to zero, read the hits first, because the remainder are cases where
   the site is arguing correctly and tripping a blunt pattern.
-- **`themes/phoenician-colonial-network`** still leans integrationist
-  after its opening was qualified in audit 11; it deserves its own pass,
-  read against the empire take.
+- ~~`themes/phoenician-colonial-network`~~ **done (Sep 2026).** Revised
+  against the empire take: connection is not direction, and Carthage's
+  rise was the accumulation of power over parts of the network rather
+  than promotion within it. The consolidation section had Carthage
+  "coordinating" where the sources show garrisons (Polybius 1.79) and
+  treaties treating Sardinia and Libya as Carthaginian property (3.23).
+  Also removed: Tanit's cult spreading "under Carthaginian initiative"
+  (no source), the fourth century as "the same network reorganized
+  around a new center", an unchecked attribution to Bonnet's *Cadmos*,
+  and a "Phoenician core" the cultural-integrator take had already
+  retired.
 - **Page references wanted from the user's books:** Miles on the Third
   Punic War (Cato, the 149 ultimatum) and the Demeter-Kore incense
   burners; MacDonald's *Hannibal* for the Barcid readings and for the
