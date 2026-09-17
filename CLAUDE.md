@@ -2245,6 +2245,19 @@ not surface unsolicited.
    Phase 3 crowding was reviewed and fixed in the restyle pass
    (the congestion was the top-left march annotation + arrow +
    cavalry block, not the death annotations).
+   - **Pending for the visual review (user-chosen, Sep 2026):** a
+     "the ground" first panel for the Cannae diagram, modeled on the
+     site plate in Miles: Aufidus meanders, Cannae town, the Roman
+     greater/lesser camps and Hannibal's camp, commander labels per
+     Polybius 3.113–114 (Paullus right, Varro left, Servilius center;
+     Hasdrubal left, Hannibal and Mago center, Hanno right, with Livy's
+     Maharbal noted), and the which-bank dispute stated in the caption
+     rather than settled. Verify camps and bank against Polybius and
+     Livy before drawing. Meanwhile the Cannae event carries How &
+     Leigh's 1896 "Plan of Cannae" (PD) as a `route_figure`. Other
+     Commons Cannae maps looked at: the West Point SVG (PD, but labels
+     the Carthaginian center as cavalry and its filename says 215 BC),
+     Rothert 1906 (PD, German), Horstmann (PD, German, Maharbal right).
    - **Review note (Aug 2026):** user finds the diagrams "a bit
      rudimentary but they do the job for now." They read as
      functional-schematic rather than polished. A future visual
