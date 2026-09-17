@@ -31,7 +31,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - hamilcar-iberian-silver-mines
-last_revised: "2026-08-27"
+last_revised: "2026-09-17"
 ---
 
 The Iberian silver mines that the
@@ -43,7 +43,7 @@ The mines produced the silver that became the
 [Barcid coinage](/artifacts/barcid-iberian-coinage); the
 coinage paid the army that fought the
 [Second Punic War](/events/second-punic-war); the army
-sustained Hannibal's seventeen-year Italian campaign and
+sustained Hannibal's fifteen-year Italian campaign and
 the parallel Iberian and African operations of his brothers
 and successors. When Polybius and Livy describe the Barcid
 project as a strategic-political achievement, they are
@@ -293,7 +293,7 @@ that funded the
 and the army that crossed the Alps in 218.
 
 Second, it sustained the Italian campaign. Hannibal's
-seventeen-year Italian campaign was financed partly through
+fifteen-year Italian campaign was financed partly through
 captures and tribute extracted from defeated Roman
 operations, partly through Italian allied contributions
 (the

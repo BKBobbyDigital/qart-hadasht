@@ -41,7 +41,7 @@ principal_sources:
   - hoyos-unplanned-wars-1998
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
-last_revised: "2026-05-11"
+last_revised: "2026-09-17"
 ---
 
 The 130 years from the Magonid catastrophe at Syracuse to the Mamertine
@@ -75,20 +75,18 @@ Sicilian-Greek tyrants against the reforming Corinthian general
 river by Timoleon's smaller force and destroyed. The
 [Sacred Band](/groups/sacred-band) (Carthage's elite citizen heavy
 infantry, the formation that distinguished Carthaginian armies from
-their predominantly mercenary character) was effectively annihilated.
-Diodorus reports three thousand Carthaginian citizens of senatorial
-families killed in the engagement.
+their predominantly mercenary character) was cut down: Diodorus gives it 2,500 men (16.80), and Plutarch says
+3,000 of the dead were Carthaginians of birth and wealth, more native
+Carthaginians than had ever fallen in one battle (*Timoleon* 28).
 
-Crimisus is the structural moment when Carthaginian armies shifted
-decisively away from citizen-heavy-infantry composition toward the
-mercenary-and-Libyan-Phoenician model that would characterize
-Carthaginian forces through the entire Punic Wars period. The political
-consequences at Carthage were substantial (a fraction of the
-senatorial class's adult males died in a single afternoon), and the
-military consequences were structural: the army that fought the First
-Punic War, the Mercenary War, and the Hannibalic War was the army that
-emerged from the post-Crimisus reorganization, not the citizen-elite
-formation Crimisus had destroyed.
+Crimisus has often been read as the moment Carthage abandoned citizen
+infantry for mercenaries, but that is too neat. A generation later, in
+310, the Carthaginian generals met Agathocles in Africa with at least
+40,000 citizen infantry and the Sacred Band again in the line (Diodorus
+20.10–12). The losses at the Crimisus were a heavy political blow to
+the families that governed Carthage; the citizen military tradition
+survived them, even if overseas armies continued to rely mainly on
+subject levies, allies and paid troops.
 
 The engagement also coincides with the
 [Second Treaty with Rome](/events/second-treaty-with-rome) of 348 BCE,

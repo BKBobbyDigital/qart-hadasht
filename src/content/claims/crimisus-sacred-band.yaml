@@ -1,35 +1,43 @@
 slug: crimisus-sacred-band
 statement: >
-  The elite Carthaginian Sacred Band, the principal
-  Carthaginian heavy-infantry formation of the period, was
-  destroyed at the Battle of the Crimisus in 341 BCE. The
-  loss of this formation was the principal Carthaginian
-  military consequence of the engagement and contributed to
-  the generational pattern of Greek-Sicilian-Carthaginian
-  coexistence that followed.
+  At the Battle of the Crimisus (conventionally 341 BCE), the
+  Carthaginian Sacred Band, a citizen formation of about 2,500 men from
+  distinguished and wealthy families, was cut down, and Carthaginian
+  citizen losses were heavier than in any earlier battle. The formation
+  was not ended by the defeat: it fought again under Hanno against
+  Agathocles in 310 BCE.
 confidence: attested
 sources:
-  - source: plutarch-lives
-    stance: supports
-    passage_ref: "Timoleon 27-28"
-    passage_summary: >
-      Plutarch identifies the Sacred Band specifically and
-      describes its destruction as the principal military
-      consequence of the engagement.
   - source: diodorus-library
     stance: supports
-    passage_ref: "16.78-81"
+    passage_ref: "16.80.4"
     passage_summary: >
-      Diodorus preserves the engagement with the
-      same military analysis.
+      The Carthaginians of the Sacred Band, 2,500 in number and drawn
+      from citizens distinguished for courage, reputation and wealth,
+      fight bravely and are all cut down.
+  - source: plutarch-lives
+    stance: supports
+    passage_ref: "Timoleon 28"
+    passage_summary: >
+      Of the dead, 3,000 are Carthaginians, unsurpassed in birth, wealth
+      and reputation; never before had so many native Carthaginians
+      fallen in one battle.
+  - source: diodorus-library
+    stance: qualifies
+    passage_ref: "20.10–12"
+    passage_summary: >
+      In 310 the Carthaginian generals lead out the citizens, at least
+      40,000 infantry, against Agathocles, and the Sacred Band fights on
+      the right wing under Hanno. The unit outlived the Crimisus.
 notes: >
-  The Sacred Band was a distinctive Carthaginian formation of
-  approximately 2,500 elite citizen heavy infantry. Its
-  destruction at Crimisus is the only attested moment when the
-  formation was lost in combat at scale, and the formation's
-  reconstitution in subsequent Carthaginian armies is not
-  clearly documented.
+  The Crimisus has often been treated as the moment Carthage abandoned
+  citizen infantry for mercenaries. The 310 campaign shows the Sacred
+  Band and a large citizen levy in action a generation later, so that
+  reading is too neat.
 entities:
   - type: event
     slug: battle-of-crimisus
+    role: subject
+  - type: group
+    slug: sacred-band
     role: subject

@@ -19,7 +19,7 @@ related_themes:
   - carthaginian-governance
   - carthaginian-seafaring-and-trade
 referenced_claims: []
-last_revised: "2026-06-09"
+last_revised: "2026-09-17"
 ---
 
 The standard Greco-Roman picture of Carthage's military, most
@@ -40,13 +40,13 @@ limits caught up with the system.
 Three recruitment categories together produced Carthage's
 field armies in the Punic Wars period.
 
-Citizens. The citizen body in arms was small: perhaps four to
-six thousand men at full mobilization during the Second Punic
-War, drawn from the Carthaginian aristocratic and military
-classes. The [Sacred Band](/groups/sacred-band), the elite
-Carthaginian citizen infantry attested through the Sicilian
-Wars and the Mercenary War, was the most visible expression
-of the tradition. Officers across the broader army came
+Citizens. Citizens were normally few in overseas field armies
+but could be mobilized in large numbers when Carthage itself
+was threatened: against Agathocles in 310 the generals led out
+at least 40,000 citizen infantry (Diodorus 20.10). The
+[Sacred Band](/groups/sacred-band), an elite citizen formation
+attested at the Crimisus (341) and again in 310, was the most
+visible expression of the tradition. Officers across the broader army came
 substantially from the citizen body. The aristocratic command
 tradition that runs through Hamilcar, Hannibal, Hasdrubal,
 Mago, and the wider Barcid command circle is a citizen-officer

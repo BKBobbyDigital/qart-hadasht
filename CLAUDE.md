@@ -205,9 +205,11 @@ as they are:
   *La civilisation phénicienne et punique*), and `romanisation`
   is Bénabou's. `sznycer-civilisation-1978` is also a live
   reference key used across many entity files.
-- **Quoted translations.** `groups/sacred-band` carries "fame
-  for valour" inside a direct quotation of Diodorus.
-  Respelling another author's translation misquotes it.
+- **Quoted translations.** A direct quotation from a
+  British-spelling translation keeps its spelling; respelling
+  another author's translation misquotes it. (The old example,
+  a "quotation" of Diodorus on `groups/sacred-band`, turned out
+  to be a misquote and was replaced with a paraphrase in Sep 2026.)
 - **Conventional titles of cited works**, e.g.
   *On Marvellous Things Heard* (ps-Aristotle), 4 places.
 - **Words that only look British:** *improvisation*,
