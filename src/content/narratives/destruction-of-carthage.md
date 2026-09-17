@@ -31,7 +31,7 @@ referenced_claims:
   - tpw-scipio-aemilianus-command
   - tpw-final-assault-destruction
   - tpw-hasdrubals-wife-immolation
-last_revised: "2026-05-11"
+last_revised: "2026-09-17"
 ---
 
 ## The half-century before
@@ -41,10 +41,10 @@ faster than the Roman post-war settlement had anticipated. The
 Treaty of 201 BCE had stripped the city of its overseas territories
 and military capacity but had left intact its African hinterland,
 its commercial networks, and its capacity to pay the indemnity
-Rome had imposed. By the 190s BCE Hannibal Barca, serving as
-suffete, had reformed Carthaginian finances; by the 170s the
-indemnity was being paid ahead of schedule; by the 160s the city
-was sufficiently wealthy that visiting Roman senators (Cato among
+Rome had imposed. In 196 BCE Hannibal Barca, serving as
+suffete, reformed Carthaginian finances; in 191 Carthage offered to
+pay off the rest of the indemnity at once, which Rome refused; by
+the 150s the city was sufficiently wealthy that visiting Roman senators (Cato among
 them) returned shocked at its prosperity.
 
 The visible recovery had a less visible companion. Masinissa,

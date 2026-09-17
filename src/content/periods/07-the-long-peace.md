@@ -8,8 +8,8 @@ summary: >
   reforms, his exile under Roman pressure and his eventual suicide at
   Bithynia, the Numidian encroachment and disputed Roman arbitration
   across three reigns of Carthaginian senatorial coalitions, the
-  substantive economic recovery that allowed Carthage to pay down the
-  201 indemnity ahead of schedule, and the late-period strategic shift
+  economic recovery that let Carthage offer in 191 to pay off the
+  rest of the 201 indemnity at once, and the late-period strategic shift
   in Roman policy from arbitration to active preparation for Carthage's
   elimination. The period closes with Cato's 153 BCE commission and
   the structural conditions that the next period's war-and-destruction
@@ -71,7 +71,7 @@ special taxation the post-war oligarchic faction had been imposing.
 Second, constitutional: Hannibal pushed legislation through the
 [popular assembly](/institutions/popular-assembly) limiting
 [Council of 104](/institutions/council-of-104) members' tenure to one
-year and requiring re-election to consecutive terms. The reform broke
+year and barring anyone from serving two consecutive years (Livy 33.46.6). The reform broke
 the Council's oligarchic-hereditary character at a structural level.
 For all the Aristotelian praise of Carthaginian governance as a
 mixed-constitution achievement, the actual political mechanism through
@@ -142,9 +142,9 @@ elimination.
 ## The recovery's visibility
 
 Across the same fifty years, the Carthaginian commercial-economic
-recovery was substantial and visible. The 10,000-talent indemnity of
-201 BCE was paid down ahead of the fifty-year schedule the treaty had
-set; Cato's iconic demonstration of a fresh Carthaginian fig in the
+recovery was substantial and visible. By 191 Carthage could offer to
+pay the rest of the 10,000-talent indemnity of 201 in a single sum, an
+offer Rome refused (Livy 36.4); Cato's iconic demonstration of a fresh Carthaginian fig in the
 Roman senate, plucked from a tree three days before his appearance,
 was the rhetorical instrument that translated the recovery's
 visibility into a strategic case for elimination. The agricultural

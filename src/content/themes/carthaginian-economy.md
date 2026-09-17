@@ -20,7 +20,7 @@ related_themes:
   - carthaginian-agriculture
   - slavery-and-labor
 referenced_claims: []
-last_revised: "2026-06-09"
+last_revised: "2026-09-17"
 ---
 
 ## Scale
@@ -135,19 +135,18 @@ broader Phoenician network is known to have practiced.
 The single most informative episode about Carthaginian
 economic capacity is the post-Zama recovery. The Treaty of
 201 BCE imposed an indemnity of 10,000 talents over 50 years;
-Hannibal Barca, serving as suffete in 196 BCE, reformed
-Carthaginian finances and reportedly proposed to pay the
-indemnity ahead of schedule from current revenues alone,
-without further taxation. The Roman senate is reported by
-Livy to have refused the early payment, on the grounds that
-accelerated payment would weaken the indemnity's
-indemnification function.
+Hannibal Barca, serving as suffete in 196 BCE, found that public
+revenues were being wasted or embezzled by leading men and showed
+that, properly collected, they could meet the annual installments to
+Rome without a special tax on citizens (Livy 33.46–47). In 191
+Carthaginian envoys went further and offered to pay all the remaining
+installments at once; the Roman senate refused to accept any payment
+before it fell due (Livy 36.4).
 
 That a city stripped of its overseas territories, its fleet,
-and its broader commercial infrastructure could nevertheless
-generate enough revenue from its African hinterland alone to
-contemplate paying a 10,000-talent indemnity ahead of
-schedule indicates the underlying productivity of the
+and its broader commercial infrastructure could meet its installments
+from ordinary revenue within a few years of Zama, and offer to clear
+the whole debt a decade later, indicates the underlying productivity of the
 Carthaginian agricultural economy. The post-Zama Carthage
 that Cato visited in the 150s BCE was substantially recovered
 from the war specifically because the agricultural base of

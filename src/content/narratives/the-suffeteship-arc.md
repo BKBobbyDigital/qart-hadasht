@@ -32,7 +32,7 @@ primary_entities:
     slug: carthaginian-governance
     role: subject
 referenced_claims: []
-last_revised: "2026-05-22"
+last_revised: "2026-09-17"
 ---
 
 The Carthaginian suffeteship (*šofeṭ* in Punic, plural
@@ -197,8 +197,8 @@ revenues by the aristocratic officials of the
 [Council of 104](/institutions/council-of-104), and pushed
 legislation through the
 [popular assembly](/institutions/popular-assembly) limiting
-the Council of 104's tenure and requiring re-election to
-consecutive terms.
+the Council of 104's tenure and barring anyone from serving
+two consecutive years (Livy 33.46.6).
 
 The reforms are documented principally in Livy 33.46–47 and
 Cornelius Nepos's *Hannibal* 7, with corroborating detail in

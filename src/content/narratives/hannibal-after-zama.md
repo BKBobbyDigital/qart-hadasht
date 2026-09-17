@@ -23,7 +23,7 @@ referenced_claims:
   - hannibal-suffete-council-104-reform
   - hannibal-death-libyssa
   - hannibal-scipio-same-year-deaths
-last_revised: "2026-05-11"
+last_revised: "2026-09-17"
 ---
 
 ## The political-administrative phase (201-195 BCE)
@@ -59,18 +59,18 @@ through the events that followed.
 Hannibal's program as suffete had two principal components.
 
 Financial reform. Hannibal investigated the Carthaginian
-state finances and found that the indemnity to Rome could be
-paid ahead of schedule from current revenues alone. The
+state finances and found that the annual installments of the
+indemnity could be met from current revenues without taxing
+citizens (Livy 33.46). The
 apparent revenue shortfall that had been requiring additional
 tax measures was explained by senatorial-aristocratic
 peculation: state funds had been systematically diverted into
-elite hands. Hannibal's response was to recover the misappropriated
-funds through legal action against specific elite families,
-re-establish the revenue base, and propose to Rome that the
-indemnity be paid early. The Roman senate refused the early
-payment (on the grounds that accelerated payment would weaken
-the indemnity's indemnification function), but the recovered
-revenues remained in the Carthaginian treasury.
+elite hands. Hannibal exposed the misappropriation before the
+assembly and pressed for the revenues to be collected, which
+made the state solvent without new taxes and made enemies of
+the men who had been profiting. (The offer to pay off the whole
+indemnity at once came later, in 191, from Carthaginian envoys
+after Hannibal had fled, and Rome refused it; Livy 36.4.)
 
 Constitutional reform. Hannibal moved against the Council
 of 104, the judicial body whose life-tenure had given the

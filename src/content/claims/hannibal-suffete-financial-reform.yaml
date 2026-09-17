@@ -1,10 +1,11 @@
 slug: hannibal-suffete-financial-reform
 statement: >
   Hannibal's investigation of Carthaginian state finances as
-  suffete in 196 BCE found that the indemnity to Rome could be
-  paid ahead of schedule from current revenues alone, the
-  apparent deficit being explained by senatorial-elite
-  peculation rather than by any actual revenue shortfall.
+  suffete in 196 BCE found that public revenues, properly
+  collected, could meet the annual installments of the indemnity
+  to Rome without a special tax on citizens, the apparent
+  shortfall being explained by waste and embezzlement by leading
+  men rather than by a real lack of revenue.
 confidence: attested
 sources:
   - source: livy-auc
@@ -12,9 +13,11 @@ sources:
     passage_ref: "33.46-47"
     passage_summary: >
       Livy preserves the financial investigation in detail,
-      including Hannibal's address to the popular assembly
-      explaining the recovery of misappropriated funds and
-      proposing the early-payment scheme.
+      including Hannibal's address to the assembly exposing the
+      misappropriated revenues and showing that the installments
+      could be paid without taxing citizens. The offer to pay off
+      the whole indemnity early is a separate episode, made by
+      Carthaginian envoys in 191 (36.4).
   - source: nepos-hannibal
     stance: supports
     passage_ref: "Han. 7"

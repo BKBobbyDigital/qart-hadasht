@@ -26,7 +26,7 @@ primary_entities:
     role: subject
 related_themes: []
 referenced_claims: []
-last_revised: "2026-09-10"
+last_revised: "2026-09-17"
 ---
 
 ## What we mean by "constitution"
@@ -188,8 +188,8 @@ about a generation after Zama. The Council of 104 had become, per
 Livy 33.46-47, a self-perpetuating oligarchy whose members held
 office for life and whose judgments operated essentially without
 external check. Hannibal pushed legislation through the popular
-assembly limiting members' tenure to one year and requiring
-re-election to consecutive terms. The reform broke the Council's
+assembly limiting members' tenure to one year and barring
+anyone from serving two consecutive years (Livy 33.46.6). The reform broke the Council's
 oligarchic character and produced the political backlash that drove
 Hannibal into exile within months.
 

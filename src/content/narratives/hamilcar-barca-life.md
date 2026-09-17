@@ -20,7 +20,7 @@ primary_entities:
     slug: hamilcar-barca
     role: subject
 referenced_claims: []
-last_revised: "2026-05-11"
+last_revised: "2026-09-17"
 ---
 
 ## Origins
@@ -144,10 +144,9 @@ combined military conquest with the strategic exploitation of
 the Carthaginian-controlled silver mines of southern Iberia
 (the Sierra Morena range and the area around modern
 Cartagena), which produced substantial revenue that funded
-both the continued campaign and Carthaginian state finances
-more broadly. The Treaty of 201 indemnity, paid down ahead of
-schedule across the 190s BCE, was substantially financed from
-Iberian silver reserves accumulated during this period.
+the continued campaign. How much of it reached Carthage itself
+is uncertain; the coinage suggests comparatively little (see
+[the Barcid Iberian state](/narratives/the-barcid-iberian-state)).
 
 Hamilcar's death in 228 BCE during a withdrawal from a
 Vettonian ambush ended the campaign's first phase. According

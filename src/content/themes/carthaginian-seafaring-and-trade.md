@@ -15,7 +15,7 @@ primary_entities: []
 related_themes:
   - punic-identity
 referenced_claims: []
-last_revised: "2026-09-06"
+last_revised: "2026-09-17"
 ---
 
 ## The Phoenician inheritance
@@ -169,7 +169,8 @@ treated as an
 Carthaginian wealth from this network funded the city's
 military mobilizations in the Sicilian Wars, the Punic Wars,
 and the Iberian project. The 10,000-talent indemnity imposed by
-the Treaty of 201 BCE, paid down ahead of schedule, is the kind
+the Treaty of 201 BCE, which Carthage offered in 191 to pay off in a
+single sum (Livy 36.4), is the kind
 of fiscal capacity only a major commercial power could sustain.
 The Roman concern that produced Cato's advocacy for Carthage's
 destruction in the 150s BCE was concern about Carthaginian
