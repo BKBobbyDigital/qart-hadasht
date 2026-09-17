@@ -392,11 +392,11 @@ the system that produced it.
 
 From the fifth century forward, the Carthaginian-led
 network engaged with the broader Hellenistic Mediterranean
-cultural system. Greek-style coinage, Hellenistic court
-forms at the Carthaginian aristocratic level, the 396 BCE
+cultural system. Greek-style coinage, elite participation
+in Greek-language diplomatic and literary culture, the 396 BCE
 [Demeter-Kore adoption](/events/demeter-kore-adoption) as
-state cult, the Hellenistic-pattern Barcid state-building
-in Iberia of the third century — all are features of a
+state cult, the Barcid territorial state in Iberia
+of the third century — all are features of a
 network in transition from Phoenician to Hellenistic-Punic
 in its institutional and cultural forms while keeping its
 Phoenician core. This is where the network arc connects to

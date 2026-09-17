@@ -1,51 +1,54 @@
 slug: barcid-dynastic-succession-as-state-form
 statement: >
-  The three successive Barcid Iberian command transmissions
-  (Hamilcar → Hasdrubal the Fair, 228 BCE; Hasdrubal the Fair →
-  Hannibal, 221 BCE), each by acclamation of the Iberian field
-  army with the Carthaginian senate ratifying after the fact, follow the legitimation pattern of a Hellenistic-pattern royal
-  house in formation rather than the appointment pattern of a
-  senate-appointed expeditionary command. The succession pattern
-  is itself evidence that the Barcid apparatus in Iberia had the
-  political form of a state rather than of an extended military
-  expedition.
+  Command of the Carthaginian forces in Iberia passed within one family
+  three times: Hamilcar Barca held it from 237, his son-in-law Hasdrubal
+  the Fair succeeded him in 229/228, and Hamilcar's son Hannibal
+  succeeded Hasdrubal in 221, chosen by the army and confirmed at
+  Carthage. Three commanders from one family across two generations
+  gave the Iberian command a quasi-dynastic character that no ordinary
+  Carthaginian expeditionary appointment had, and it is one of the
+  marks of a durable, state-like polity rather than a temporary
+  command.
 confidence: inferred
 scholarly_consensus: >
-  The succession pattern is firmly attested in Polybius and not
-  contested. The reading of the pattern as a state-form marker
-  rather than as an irregular command-rotation is modern
-  synthesis: explicit in MacDonald 2015 and adjacent reframings;
-  implicit in earlier Italian and Spanish scholarship on the
-  Barcid Iberian apparatus. The reading is "inferred" because the
-  ancient sources preserve the events without articulating the
-  state-form framing.
+  The successions themselves are attested. Their meaning is inferred.
+  The pattern is often compared to the army's role in Macedonian and
+  Hellenistic royal succession, and some readings treat the Barcids as
+  a royal house in formation. That goes beyond the evidence: the
+  practice had a Carthaginian precedent in the army's choice of
+  Hamilcar during the Mercenary War in 239, and it can be explained by
+  army loyalty, the family's political strength at Carthage and the
+  city's interest in keeping effective commanders, without a monarchy.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "2.36, 3.13"
+    passage_ref: "2.1.9, 3.13"
     passage_summary: >
-      Polybius preserves both transmissions. Hasdrubal the Fair's
-      accession is described as election by the Iberian field
-      army and ratification by the Carthaginian senate;
-      Hannibal's is described as field-army acclamation following
-      Hasdrubal's assassination, again with senate ratification
-      after the fact. The Polybian framing presents this as the
-      observed practice without analytical commentary on its
-      constitutional significance.
+      After Hamilcar's death the Carthaginians hand the command to his
+      son-in-law Hasdrubal (2.1.9). After Hasdrubal's assassination the
+      army chooses Hannibal and the Carthaginians confirm the choice
+      (3.13).
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "25.12"
+    passage_summary: >
+      Hasdrubal is acclaimed general by the army and by the Carthaginians
+      alike, and after his marriage to an Iberian prince's daughter is
+      proclaimed general with unlimited power by the Iberians.
   - source: livy-auc
     stance: supports
-    passage_ref: "21.2-3"
+    passage_ref: "21.2–3"
     passage_summary: >
-      Livy's account of Hannibal's accession parallels Polybius's,
-      with the field army constituting the legitimating body and
-      the senate ratifying.
-  - source: macdonald-hannibal-2015
-    stance: supports
+      Livy's account of the successions, with Hannibal acclaimed by the
+      army and the choice then approved at Carthage.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "1.82"
     passage_summary: >
-      MacDonald reads the succession pattern explicitly as a
-      Hellenistic-pattern royal-house marker, with the army's
-      role in legitimation analogous to the Macedonian and later
-      Hellenistic dynastic-succession practice.
+      In 239, with Hamilcar and Hanno deadlocked as joint commanders,
+      Carthage left the choice to the army, which chose Hamilcar: a
+      Carthaginian precedent for army selection that does not depend on
+      a Hellenistic model.
 entities:
   - type: person
     slug: hamilcar-barca
@@ -60,13 +63,8 @@ entities:
     slug: iberia
     role: subject
 notes: >
-  This claim is one of the central pieces of evidence for
-  the editorial take on the Barcid Iberian state as state. The
-  succession pattern is the cleanest single piece of evidence
-  for the state-form reading because the appointment vs.
-  acclamation distinction is procedurally bright-line: a
-  senate-appointed commander dies and the senate appoints a
-  successor; a Hellenistic-royal house's commander dies and the
-  army acclaims the dynastic successor. The Barcid practice is
-  the latter, repeated three times across the project's
-  nineteen-year span.
+  Cited in the editorial take on the Barcid Iberian state as state. The
+  distinction worth keeping: in 239 an army chose between rival
+  aristocrats of different families; in 228 and 221 command passed to
+  the dead commander's kinsman in a command the family already held,
+  which is closer to ratifying an heir.

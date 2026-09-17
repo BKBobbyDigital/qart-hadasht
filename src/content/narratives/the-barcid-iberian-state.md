@@ -2,27 +2,21 @@
 title: The Barcid Iberian state
 scope: period
 thesis: >
-  The 19-year Barcid presence in Iberia (237–218 BCE) was substantive
-  state-building undertaken with renewed war against Rome as a
-  constant strategic orientation from its 237 BCE founding. The Barcids
-  went to Iberia for Carthage's recovery and they built what they
-  built knowing, and intending, that the polity's eventual strategic
-  application would include confrontation with Rome. The state-
-  building and the Rome-orientation were not parallel purposes that
-  the project served in turn; they were intertwined from the start.
-  Six pieces of evidence carry the state-building substance — the
-  project's nineteen-year duration; the foundation of Akra Leuke and
-  the planned colonial capital at Carthago Nova; the silver-shekel
-  coinage program as state coinage; the marriage-and-alliance
-  integration of Iberian aristocracies; the quasi-monarchical
-  dynastic succession from Hamilcar to Hasdrubal the Fair to
-  Hannibal; and the projection of Hellenistic-royal forms in the
-  coinage and court culture. The Rome-orientation is preserved as a
-  constant dimension of the project rather than as a separable second
-  purpose. The principal description of the period is therefore: a
-  Hellenistic-pattern client polity inside the Carthaginian framework,
-  oriented toward eventual confrontation with Rome, that produced the
-  Italian campaign as one of its planned outputs.
+  The nineteen-year Barcid presence in Iberia (237–218 BCE) became a
+  durable, state-like polity rather than remaining a temporary
+  expeditionary command. Hamilcar, Hasdrubal the Fair and Hannibal held
+  territory, drew revenue from the silver mines, struck a sustained
+  coinage, founded a capital at Carthago Nova, bound Iberian elites to
+  them by conquest, treaty and marriage, and kept the command within
+  one family. The polity stayed inside the Carthaginian framework, with
+  Carthage keeping formal authority while the Barcids exercised
+  practical control, and financially it looked more like a franchise
+  than a province. Hostility to Rome was part of its horizon from the
+  start, but the evidence does not show its institutions were designed
+  for an invasion of Italy. They were built for conquest, government
+  and Carthaginian recovery, and those same institutions later gave
+  Hannibal the means to make war on Rome. The project served nested
+  purposes that converged over time.
 primary_entities:
   - type: place
     slug: iberia
@@ -39,263 +33,201 @@ primary_entities:
   - type: person
     slug: hannibal-barca
     role: subject
-referenced_claims: []
-last_revised: "2026-09-10"
+referenced_claims:
+  - barcid-dynastic-succession-as-state-form
+  - carthago-nova-as-planned-foundation
+last_revised: "2026-09-17"
 ---
 
-The conventional historiographical treatment of the Carthaginian
-project in Iberia from 237 BCE to 218 BCE reads it as preparation —
-the silver-and-manpower base that the Italian campaign would consume,
-the strategic recovery of resource capacity lost when Rome seized
-Sardinia in 238, the long approach to the renewed war with Rome that
-Hamilcar's anti-Roman politics had been seeking. The treatment is not
-wrong about the war-preparation dimension. Hamilcar's faction *was*
-oriented toward renewed conflict with Rome from at least the late
-240s; the Iberian project *did* produce the conditions that made the
-Second Punic War operationally possible; Hannibal *did* launch the
-Italian campaign from the apparatus Hamilcar and Hasdrubal had built.
+The usual treatment of the Carthaginian project in Iberia from 237 to
+218 BCE reads it as preparation: the silver and manpower base that the
+Italian campaign would consume, the recovery of the resources lost when
+Rome seized Sardinia in 238, the long approach to the renewed war
+Hamilcar's hostility to Rome was supposedly seeking. That treatment is
+not wrong about the result. The Iberian project did produce the
+conditions that made the Second Punic War possible, and Hannibal did
+launch his invasion from the apparatus his father and brother-in-law
+had built.
 
-What the conventional treatment under-weights is everything the
-project did that was not preparation. Across nineteen years, the
-Barcid commanders in Iberia operated a polity. They founded cities
-on Hellenistic colonial patterns. They issued a state coinage with
-sovereign iconographic projection. They integrated Iberian aristocratic
-elites through marriage and treaty. They passed command dynastically
-through three generations of one family. They projected the visual
-and institutional forms of a Hellenistic-royal regime. The Italian
-campaign was an output of that polity (an important output, the
-output its founders had probably envisioned from the start) but it
-was one output of several, and the polity that produced it was a
-polity in its own right rather than a nineteen-year preparatory
-operation.
+What it underweights is everything the project did along the way.
+Across nineteen years the Barcid commanders ran a polity. They founded
+a capital, struck a coinage for two decades, bound Iberian elites to
+them by force and by treaty and marriage, and kept command within one
+family. The Italian campaign came out of that polity, but reading the
+nineteen years as a countdown to it reads the ending back into the
+beginning.
 
-This narrative argues for the both-and reading. State-building and
-strategic preparation were not alternatives but compatible purposes
-of the same enterprise. The site's position takes the state-building
-reading as substantive and under-weighted in prior treatments; the
-preparation reading is preserved as one dimension among several
-rather than as the defining frame. The formal position is treated
-under the editorial take
+This narrative argues for a reading of nested purposes. Conquest,
+revenue, Carthaginian recovery and Barcid political strength were
+purposes from the start; the capacity for renewed war with Rome was
+built into that recovery; and under Hannibal it became the dominant
+use of the whole system. The formal position is set out in the
+editorial take
 [Was the Barcid Iberian project state-building or war preparation?](/editorialTakes/barcid-iberian-state-as-state).
 
-## The duration argument
+## What "state" means here
 
-The Barcid Iberian project lasted nineteen years before the Italian
-campaign launched. Hamilcar Barca held command from his landing in
-Gadir in 237 BCE to his death at Helike in 228 BCE — nine years.
-[Hasdrubal the Fair](/people/hasdrubal-the-fair), his son-in-law and
-designated successor, held command from 228 BCE to his assassination
-in 221 BCE — seven years. Hannibal Barca held command for three
-years (221–218 BCE) before the Italian campaign launched, of which
-the first two years were occupied by the pre-Italian campaigns
-against the Olcades, the Vaccaei, and the Carpetani.
+The word is used in a working sense: a polity durable enough to hold
+territory, extract revenue, maintain armies, found and govern cities,
+conduct diplomacy, and reproduce its authority over time. It does not
+mean that Barcid Iberia was legally independent of Carthage, that its
+control was uniform across the peninsula, or that the Barcids were
+kings. Their control was layered, from cities and mining districts
+held directly, through tributary and allied peoples, to regions only
+recently subdued or never subdued at all.
 
-Reading nineteen years as a single arc of preparation reads
-backward from the outcome. The Italian campaign happened; therefore
-the preceding nineteen years are described as build-up to it. But
-the framing requires a counterfactual that cannot be assumed.
-Had the Saguntum siege and the Ebro Treaty dispute not triggered
-Roman intervention in 219–218, the Barcid Iberian state would have
-continued operating. Hannibal might have launched the Italian
-campaign anyway (Polybius 3.6–7 attributes the campaign's
-inevitability to the structural Roman-Carthaginian rivalry, not to
-any specific contingent trigger) but the *date* of the launch
-depended on contingent factors that the Barcids did not fully
-control. The nineteen-year duration is duration of a polity
-operating, not duration of a build-up timed to a fixed launch.
+## The duration
 
-Polybius 3.13–17 gives the chronology and is not contested. The
-specific framing, "nineteen years of state-operation that
-produced the conditions for the Italian campaign" rather than
-"nineteen years of build-up to the Italian campaign", is the
-site's reading rather than Polybius's.
+Hamilcar Barca held command from his landing at Gadir in 237 BCE to his
+death in 229/228, some nine years. [Hasdrubal the
+Fair](/people/hasdrubal-the-fair), his son-in-law, held it until his
+assassination in 221. Hannibal held it for three years before the
+invasion of Italy, the first two taken up with campaigns against the
+Olcades, the Vaccaei and the Carpetani (Polybius 3.13–14).
 
-## The colonial foundations
+Nineteen years is long enough that the apparatus cannot plausibly be
+treated as a temporary campaign establishment, and the date the war
+finally came was not the Barcids' to set alone. It turned on the crisis
+over Saguntum and on Rome's response to it. Polybius puts the deeper
+causes of the war earlier, in Hamilcar's anger at the outcome of the
+First Punic War, the seizure of Sardinia, and Barcid success in Iberia
+(3.9–10), but naming underlying causes is not the same as fixing a
+timetable.
 
-The Barcid project's first principal urban foundation was
-**Akra Leuke**, "White Citadel," founded by Hamilcar in
-southeastern Iberia (probably modern Alicante, though the
-identification is contested) in the late 230s BCE. The site is
-attested by Diodorus 25.10 in the context of Hamilcar's
-campaigning. It functioned as an administrative and military
-center for the southeastern Iberian operations.
+## The capital
 
-The project's defining foundation was
-[Carthago Nova](/places/carthago-nova), the New Carthage, founded
-by Hasdrubal the Fair on the southeastern Iberian coast in 228 BCE.
-Polybius 10.10–11, preserved in the context of Scipio Africanus's
-209 BCE siege of the city, describes Carthago Nova at length: a
-planned colonial city with a designed natural harbor, fortified
-landward and seaward approaches, residential quarters, a citadel
-on the hill above the harbor, administrative buildings, a sanctuary
-to Eshmun on the highest point, a mint. The Polybian description is
-a description of a polis, not of a war camp.
+The first Barcid foundation was **Akra Leuke**, "White Citadel," which
+Diodorus says Hamilcar founded as a very large city after bringing many
+Iberian communities under his rule (25.10). Its site is uncertain
+(Alicante has often been proposed), and so is much about its scale and
+function, so it shows an early fixed base more than it shows a
+developed state.
 
-The archaeological reconstruction confirms the literary record.
-The Spanish excavation program at Cartagena across the late
-twentieth and early twenty-first centuries, synthesized in
-[López Castro's *Hispania Poena* (1995)](/sources/lopez-castro-hispania-1995)
-and the subsequent specialist literature on Carthago Nova, has
-documented the Barcid-period strata at the harbor, the residential
-quarters, and the administrative complex; the foundation pattern
-reads as a single planned project rather than as accreted
-expansion. A
-foundation on this pattern (designed in advance, built across
-several years, integrating ritual and civic and economic functions
-in a single urban program) is the foundation pattern of a
-Hellenistic royal regime declaring permanence. Antioch under
-Seleucus I, Alexandria under Ptolemy I, Demetrias under Demetrius
-Poliorcetes are the comparable patterns. Carthago Nova was built
-to last.
+The defining foundation was [Carthago Nova](/places/carthago-nova),
+New Carthage, founded by Hasdrubal around 228 BCE on a peninsula with
+one of the finest harbors on the coast, near silver-bearing hills.
+Polybius, who knew the city, describes it in his account of Scipio's
+capture of 209 (10.10): a gulf made calm by an island across its mouth,
+a circuit of walls of no more than twenty stades, a temple of Asclepius
+(the Punic Eshmun) on the largest hill, and on another hill a
+magnificent palace "said to have been built by Hasdrubal when he aspired
+to royal power." The Carthaginians, he says, kept the bulk of their
+money and war material there. Excavation at modern Cartagena has
+exposed Barcid-period remains, including a stretch of the Punic
+defensive wall.
 
-It did last. The site has been continuously occupied across the
-regime changes of 209 BCE (Roman conquest) and 218 BCE (Punic
-loss); the Roman provincial administration of Hispania Citerior
-retained Carthago Nova as a principal capital; the medieval and
-modern city of Cartagena occupies the same site. The continuity
-is consistent with the institutional substance of the original
-foundation rather than derived from it. The Barcid Carthago Nova
-did not need the successor regimes to make it a city.
+This was an administrative and strategic capital, not a camp, and in
+function it resembles the capitals Hellenistic kings founded. The
+comparison is useful as long as it stays one; the city's plan cannot be
+reconstructed well enough to show deliberate imitation of a royal
+model. The city lasted. It became a principal city of Roman Hispania
+and survives as Cartagena.
 
-## The coinage as state coinage
+## The coinage
 
-The [Barcid Iberian Coinage](/artifacts/barcid-iberian-coinage), the silver shekel series minted principally at Carthago Nova from
-228 BCE forward and at additional Iberian mints, is the project's
-single most directly attested administrative output. The coinage
-has the formal characteristics of state coinage rather than
-campaign treasury: consistent denominations (full shekel,
-half-shekel, quarter-shekel, smaller fractions for circulation),
-consistent silver weight standard across mints, sustained
-production across multiple Barcid commanders, and iconographic
-programs that project sovereignty rather than just authenticate
-mint authority.
+The [Barcid Iberian Coinage](/artifacts/barcid-iberian-coinage), silver
+struck in Iberia on the shekel standard across the tenure of all three
+commanders, is the project's most directly attested institution. A
+coinage sustained for two decades shows stable access to bullion,
+organized minting and durable military finance: the machinery of a
+government rather than an improvised campaign chest. Ancient military
+commands could strike coin too, so the coinage is strong evidence of
+durable fiscal institutions rather than proof of statehood on its own.
 
-The obverse iconography is the contested-but-suggestive piece.
-The male portrait that appears on the Barcid silver shekels has
-been read variously as Melqart, as a Hellenistic-style deified
-portrait of one of the Barcid commanders, or as deliberately
-ambiguous between the two — a god-portrait that doubles as a
-ruler-portrait in the Hellenistic-royal manner. Each of these
-readings would be consistent with state coinage; none is consistent
-with mere campaign authentication. The reverse iconography (war
-elephants in some series, war-galleys in others, the palm tree)
-projects the Barcid military and naval program.
+The obverse imagery is suggestive rather than decisive. The male head
+has been read as Melqart, as a Barcid commander in divine guise, or as
+a deliberate blend of god and ruler in the Hellenistic manner. The
+reverses show elephants, ship prows and the palm tree. None of the
+readings of the head can carry the argument for a Barcid monarchy by
+itself, but the ambiguity, a god who might also be a general, fits a
+family whose authority was real and whose title was not.
 
-The coinage funded armies — that is not denied. But the coinage
-also projected sovereignty, and the projection is the marker of
-state activity. A campaign treasury authenticates payments; a
-state coinage announces who rules.
+## Conquest, alliance and marriage
 
-## Iberian aristocratic integration
+The Barcids brought Iberian elites into their system by a mixture of
+coercion and agreement. **Hasdrubal married the daughter of an Iberian
+prince**, and Diodorus says he was then proclaimed general with
+unlimited power by the Iberians (25.12), authority conferred by the
+governed rather than by Carthage. Hannibal married a woman of
+[Castulo](/places/castulo), a town at the heart of the mining country.
+Iberian contingents later made up a large part of the army that crossed
+the Alps.
 
-The Barcid project's most distinctively political instrument was
-the integration of Iberian aristocratic elites into the apparatus
-through marriage and treaty. **Hasdrubal the Fair's marriage to
-an Iberian princess**, preserved in Diodorus 25.12, was the
-defining single act of the integration policy. The princess's
-name and the specific Iberian polity are not preserved; the
-marriage's *political* significance is preserved. It anchored a
-network of Iberian-elite intermediaries whose continued
-participation in the Barcid administration enabled the management
-of southern and eastern Iberia far beyond what direct Punic
-administration could have achieved.
+Force was never far away. Hannibal's first campaigns as commander were
+conquests of the [Olcades](/groups/olcades), the
+[Vaccaei](/groups/vaccaei) and the [Carpetani](/groups/carpetani), and
+Saguntum was taken by an eight-month siege. Iberian loyalties stayed
+negotiable, as the shifting alignments of the Ilergetes under
+[Indibilis and Mandonius](/narratives/indibilis-and-mandonius) show.
+The pattern is state-building through conquest, tribute, alliance,
+marriage and recruitment together, not through garrisoned occupation
+alone and not through incorporation alone.
 
-The named Iberian polities (the [Olcades](/groups/olcades), the
-[Vaccaei](/groups/vaccaei), the [Carpetani](/groups/carpetani),
-the [Lacetani](/groups/lacetani), and others) were not simply
-conquered. The surviving literary record (principally Polybius and
-Livy) attests treaty arrangements, alliance structures, tribute
-obligations, and contingent-troop provision. Iberian troops formed
-substantial components of the Hannibalic army that crossed the
-Alps and fought at Cannae; they were there as allies and
-contingent-soldiers of a polity that had integrated their elites,
-not as conscripts of an occupying power.
+## Succession within one family
 
-The integration was uneven and partial — the Vaccaei campaign in
-220 BCE shows that some Iberian polities resisted to the end, and
-the late-war Iberian alignments (the Ilergetes-Roman-Punic
-oscillation under [Indibilis and Mandonius](/narratives/indibilis-and-mandonius))
-show that the integration was always negotiable rather than
-permanent. But the pattern is the pattern of state-building
-through aristocratic incorporation, not of military occupation.
+Command passed within one family three times. Hamilcar died in 229/228
+and was succeeded by his son-in-law Hasdrubal; Diodorus says Hasdrubal
+was acclaimed by the army and by the Carthaginians (25.12), while
+Polybius says simply that the Carthaginians gave him the command
+(2.1.9). When Hasdrubal was assassinated in 221, the army chose
+Hamilcar's son Hannibal and Carthage confirmed him (Polybius 3.13). That
+is three commanders from one family across two generations, with the
+field army prominent and the city confirming.
 
-## Quasi-monarchical succession
-
-The succession of command in the Barcid Iberian project followed
-a pattern that no senate-appointed Carthaginian expeditionary
-command would have produced. **Hamilcar Barca** held command from
-237 to his death in 228 BCE. **Hasdrubal the Fair**, his son-in-
-law, succeeded by what Polybius (2.36) describes as election by
-the Iberian field army, ratified by the Carthaginian senate after
-the fact. **Hannibal Barca**, Hamilcar's son and Hasdrubal's
-brother-in-law, succeeded Hasdrubal in 221 BCE by acclamation of
-the field army at the moment of Hasdrubal's assassination, again
-with senate ratification after the fact (Polybius 3.13). The
-succession pattern is dynastic and field-army-driven; the
-Carthaginian senate's role is ratificatory rather than
-constitutive.
-
-This is not the pattern of a senate-appointed expeditionary
-commander. A senate-appointed commander dies and is replaced by
-the next senate-appointed commander, with the senate choosing.
-The Barcid pattern (the army acclaiming a successor from within
-the family, the senate ratifying) resembles the pattern of a
-Hellenistic royal house in formation, with the army's role in
-dynastic legitimacy analogous to the army's role in Macedonian and
-later Hellenistic succession. The Barcids were Carthaginian
-commanders under (sometimes thinly stretched) senatorial
-authorization; they were also a royal house in the political form
-their succession practice attests.
-
-The Hellenistic comparison should not be allowed to do more work
-than it has earned, because the practice has a Carthaginian
-precedent that does not require it. In 239, during the
-[Mercenary War](/events/mercenary-war), Hamilcar and Hanno the
-Great were joint commanders who could not cooperate, and Carthage
-broke the deadlock by
+No ordinary Carthaginian expeditionary command worked like this, and
+comparisons with the army's role in Macedonian royal succession come
+naturally. They should not be pressed too far, because the practice had
+a Carthaginian precedent that does not need them. In 239, during the
+[Mercenary War](/events/mercenary-war), Hamilcar and Hanno the Great
+were joint commanders who could not cooperate, and Carthage broke the
+deadlock by
 [referring the choice of supreme commander to the soldiers](/claims/mercenary-war-army-chose-hamilcar),
-who chose Hamilcar. That is a decade before Hasdrubal's succession
-and it happened in Africa, not in Iberia, under the senate's own
-eye. The mechanism the Barcid house used was not imported from the
-Macedonian world; it had been demonstrated at home, in the war that
-made Hamilcar, and the family had every reason to remember it
-worked.
+who chose Hamilcar. That was a decade before Hasdrubal's succession,
+in Africa, under the senate's own eye. The mechanism had been
+demonstrated at home, in the war that made Hamilcar, and the family had
+every reason to remember that it worked.
 
-One distinction is worth keeping visible, because collapsing it
-makes the case tidier than the evidence does. In 239 an army chose
-between rival aristocrats of different families, which is a
-genuine election and a genuine transfer of a decision away from
-the senate. In 228 and 221 an army acclaimed the dead commander's
-kinsman, in a command that family already controlled, which is
-closer to ratifying an heir. Both were reported as the army
-choosing; they are not the same act. The honest statement is that
-a procedure invented to settle a quarrel between rivals was later
-used to confer legitimacy on a succession that was not really in
-doubt, which is a common enough fate for procedures and does not
-require the Barcids to have been consciously building a monarchy
-to explain it.
+One distinction is worth keeping visible, because collapsing it makes
+the case tidier than the evidence does. In 239 an army chose between
+rival aristocrats of different families, which is a genuine election
+and a genuine transfer of a decision away from the senate. In 228 and
+221 an army acclaimed the dead commander's kinsman, in a command that
+family already controlled, which is closer to ratifying an heir. Both
+were reported as the army choosing; they are not the same act. A
+procedure invented to settle a quarrel between rivals was later used to
+confer legitimacy on a succession that was not really in doubt, which is
+a common enough fate for procedures and does not require the Barcids to
+have been consciously building a monarchy. Army loyalty, the family's
+strength in Carthaginian politics, and Carthage's interest in keeping
+commanders who delivered explain it as well.
 
-## Hellenistic court forms
+## Greek-language culture
 
-The Barcid commanders projected Hellenistic court forms beyond
-the coinage and succession evidence. Hannibal had Greek-language
-court rhetoricians attached to him from at least the late Iberian
-period — Sosylus of Sparta and Silenus of Caleacte are attested
-as Hannibalic court historians from the Italian-campaign years,
-and the practice of maintaining Greek-language court intellectuals
-is consistent with the surrounding Hellenistic-royal precedent
-(Antiochid, Attalid, Antigonid courts all maintained similar).
-The use of Greek as a Barcid court and diplomatic language is
-attested in the campaign records. The Ebro Treaty negotiation
-with Rome in 226 BCE was conducted by Hasdrubal the Fair in
-Greek; Hannibal's later eastern Mediterranean career deployed
-the same Hellenistic-court fluency that Iberian-period training
-had produced.
+The Barcids moved comfortably in the Greek-speaking world. Hannibal
+learned Greek from Sosylus of Sparta and took Sosylus and Silenus of
+Caleacte on campaign as his historians (Nepos, *Hannibal* 13.3), and his
+treaty with Philip V of Macedon was drafted in Greek diplomatic form
+(Polybius 7.9). This evidence belongs mostly to Hannibal's command and
+the Italian war. It shows how far Barcid elite culture reached into the
+Hellenistic world, and Hannibal's entourage resembled the intellectual
+circles of Hellenistic kings, but it is weak evidence for the Iberian
+polity under Hamilcar and Hasdrubal, and nothing in the sources shows
+that Greek was the working language of Barcid government or of the
+agreement Hasdrubal made with Rome over the Ebro.
 
-The court-form projection is not the heaviest piece of evidence, much of it is inferred from later-attested practice rather than
-directly attested for the Iberian period, but it is consistent
-with the broader pattern of state-building rather than war-camp
-operation.
+## Whose Iberia?
+
+Whether the Iberian command was still Carthage's was disputed in
+antiquity. Fabius Pictor, as Polybius reports him, portrayed Hasdrubal
+as having failed in an attempt to make himself master at Carthage and
+then governing Iberia as he pleased; Polybius rejected that picture,
+pointing to the backing Carthage gave Hannibal's war (3.8–9). Yet
+Polybius keeps the story of Hasdrubal's royal ambition in his own
+description of New Carthage. The site reads the dispute as one over
+formal authority, which Carthage kept, and practical control, which the
+Barcids held; the evidence is set out in the
+[source comparison on Barcid autonomy](/sourceComparisons/barcid-autonomy-in-iberia).
+"Semi-autonomous" is the fairest single word.
 
 ## What Carthage got out of it
 
@@ -348,72 +280,40 @@ political position: not that the Iberian project was failing, but that
 its success was accruing to a family rather than to the city. He was
 not wrong about the mechanism. He was outvoted on whether it mattered.
 
-## Rome was always in view
+## Rome in view
 
-The state-building reading does not displace the Rome-orientation;
-it integrates with it. Hamilcar Barca's anti-Roman political
-orientation is firmly attested from before the Iberian project
-even launched: Polybius 3.10 preserves the famous narrative of
-Hamilcar making the nine-year-old Hannibal swear "never to be a
-friend of Rome" at the altar before the 237 BCE Iberian departure
-— a narrative whose specific historicity is contested but whose
-preservation reflects the broadly accepted view that the Barcid
-program had a renewed-war-with-Rome dimension from its founding
-act. The Sardinian seizure of 238 BCE had given the post-Mercenary-
-War Carthaginian state concrete grievance against Rome; the
-post-Lutatius indemnity-payment burden gave structural motive for
-resource recovery; the Barcid faction's political position was
-substantively oriented toward eventual confrontation with Rome
-across the entire nineteen-year period.
+Hostility to Rome was part of the project from the start. Polybius
+makes Hamilcar's anger the first cause of the Second Punic War and
+tells how, before leaving for Iberia in 237, Hamilcar had the
+nine-year-old Hannibal swear at the altar never to be a friend of Rome
+(3.10–11). The oath story's details may be embellished, but the
+grievance was real: Rome had seized Sardinia in 238 and extorted a
+further indemnity just as Carthage emerged, exhausted, from the war with
+its mercenaries.
+And Rome noticed what was being built. Polybius says the Romans, seeing
+Hasdrubal on the way to a larger empire than Carthage had held before,
+turned their attention to Iberia and made the Ebro agreement with him
+(2.13).
 
-The Barcids never lost sight of Rome. They went to Iberia for
-Carthage's recovery, that is the Carthaginian-political mandate
-that justified the project to the senate, and they built what
-they built knowing, and intending, that the polity's eventual
-strategic application would include renewed confrontation with
-Rome. The Rome orientation was not a secondary or later-emerging
-dimension. It was constant from Hamilcar's landing at Gadir in
-237 BCE to Hannibal's Ebro crossing in 218.
+What the evidence does not show is that any Barcid institution was
+designed for an Italian war. The harbor at Carthago Nova served trade,
+the mines and a fleet. The alliances and recruitment served the
+conquest and holding of Iberia, which took years of fighting. The
+silver paid for armies, for Carthage's recovery and perhaps for its
+indemnities. Hannibal's invasion used all three, and that later use is
+the strongest link between the polity and the war. An anti-Roman
+horizon and a polity built for its own purposes are compatible, and
+under Hannibal they converged.
 
-The state-building and the Rome-orientation were the same activity,
-not parallel activities. Carthago Nova's harbor was designed at
-the scale the Italian campaign would require; the Iberian
-contingent integration was calibrated against the manpower pool
-the Italian campaign would draw on; the silver-mine revenue
-capacity was calibrated against the war-fund the campaign would
-consume. The polity's specific characteristics are not generic
-Hellenistic-client-polity characteristics; they are the
-characteristics of a polity built with Rome in view. At each
-stage (Hamilcar's foundation phase, Hasdrubal's apparatus-
-building phase, Hannibal's pre-Italian campaigns) the state-
-building outputs and the Rome-orientation strategic outputs were
-produced by the same acts.
+## The polity and the war
 
-## Closing — the polity and the strategy were one project
-
-The Barcid Iberian project was substantive state-building
-undertaken with renewed war against Rome as a constant strategic
-orientation from its founding. The conventional war-preparation
-framing has tended to read the period backward from the Italian
-campaign's actual occurrence and has under-weighted the
-state-building dimension that the surviving evidence directly
-attests. A pure state-building reading would over-correct by
-treating the Rome orientation as incidental rather than as
-constitutive. The honest description is integrated: the polity
-and the strategy were one project, undertaken with both purposes
-in view at each step.
-
-Hamilcar, Hasdrubal the Fair, and Hannibal built a Hellenistic-
-pattern client polity in Iberia that lasted nineteen years,
-projected Hellenistic-royal forms, integrated Iberian aristocratic
-elites, issued a state coinage, founded planned colonial capitals,
-and passed command dynastically through one family — and they
-built it knowing, throughout, that the polity's eventual strategic
-application would include renewed war with Rome. The principal
-description of the project is therefore not "state-building" or
-"war preparation" but the integrated reading the site formalizes
-under the editorial take
-[Was the Barcid Iberian project state-building or war preparation?](/editorialTakes/barcid-iberian-state-as-state):
-a Hellenistic-pattern client polity inside the Carthaginian
-framework, oriented toward eventual confrontation with Rome, that
-produced the Italian campaign as one of its planned outputs.
+The Barcid Iberian project was state-building of a real kind, inside a
+Carthaginian framework that kept formal authority while losing much of
+its practical grip. Its purposes were nested: conquest, revenue,
+recovery and family power from the start, the capacity for renewed war
+with Rome built into that recovery, and war with Rome the dominant use
+of the whole system once Hannibal decided on it over Saguntum. The war
+did not need every institution to have been built for it. It needed the
+institutions to exist, and nineteen years of Barcid government had made
+sure they did. The causes of that decision are treated in the
+[editorial take on the Second Punic War's causes](/editorialTakes/spw-causation).

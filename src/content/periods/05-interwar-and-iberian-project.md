@@ -63,7 +63,7 @@ principal_sources:
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
   - huss-karthager-2004
-last_revised: "2026-05-11"
+last_revised: "2026-09-17"
 ---
 
 The twenty-three years between the [Treaty of Lutatius](/events/treaty-of-lutatius)
@@ -194,24 +194,25 @@ Hasdrubal's [assassination](/events/assassination-of-hasdrubal-the-fair)
 in 221 BCE produced the irregular succession to
 [Hannibal Barca](/people/hannibal-barca): command in Iberia passed
 by acclamation of the Iberian field army, with the Carthaginian
-senate ratifying after the fact. The pattern (third successive
-dynastic transmission within one family, the field army
-constituting the legitimating body rather than the senate) is the
-pattern of a Hellenistic-pattern royal house in formation rather
-than of a senate-appointed expeditionary command. It is one of the
-clearest single pieces of evidence for the state-building reading
-of the project.
+senate ratifying after the fact. Three commanders from one family
+across two generations gave the Iberian command a quasi-dynastic
+character no ordinary expeditionary appointment had. Comparisons with
+Hellenistic royal succession are natural, but the army had already
+chosen Hamilcar as commander in 239, during the Mercenary War, so the
+practice had a Carthaginian precedent and does not require a royal
+house in formation. It is one of the clearest pieces of evidence that
+the project had become a durable, state-like polity, semi-autonomous
+within the Carthaginian framework.
 
 The Barcid Iberian apparatus's fiscal and administrative reach is
 attested most directly by the [Barcid Iberian Coinage](/artifacts/barcid-iberian-coinage)
-— the silver shekel series minted at Carthago Nova and other
-Iberian mints from approximately 237 BCE forward, with consistent
-denominations and weight standards across mints and the contested
-male-portrait obverse iconography (Melqart, a Hellenistic-style
-deified Barcid portrait, or deliberately ambiguous between the
-two) that projects sovereignty in the Hellenistic-royal manner.
-The coinage funded armies and projected the apparatus as a state
-in the same act; both functions are substantive.
+— the silver shekel series struck in Iberia across the tenure of all
+three Barcid commanders. A coinage sustained for two decades shows
+stable access to bullion, organized minting and durable military
+finance. Its male-portrait obverse is contested (Melqart, a Barcid
+commander in divine guise, or a deliberate blend of the two), and it
+suggests Hellenistic political imagery without proving a Barcid
+monarchy.
 
 For the pre-Punic-political Iberian elite milieu the Barcid project
 built on, the Lady of Galera (a 7th-century BCE Phoenician
