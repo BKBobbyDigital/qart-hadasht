@@ -3,25 +3,22 @@ title: The Phoenician colonial network
 scope: identity
 summary: >
   The Phoenician expansion across the Mediterranean from the
-  ninth century BCE forward operated as a network rather than as
-  a set of unconnected foundations. What the evidence shows is
-  shared institutions and sustained contact; it does not show a
-  politically directed enterprise, and shared religion, script
-  and commerce should not be read as central command. The system shared religious infrastructure
-  (the Melqart cult and the annual delegations to Tyre),
-  commercial conventions (weight standards, script, ritual
-  vocabularies), elite culture, and working cross-network
-  institutions. Carthage emerged as one node among many in
-  the network's early centuries. Through demographic
-  accumulation, geographic position, and the homeland's
-  Assyrian-period constraint, Carthage grew across the sixth
-  and fifth centuries BCE into the network's metropolitan
-  center, taking over the coordinating role that Tyre had
-  previously played. By the fourth century BCE the network
-  had become "Punic civilization" with Carthage at its core
-  and the other foundations as its periphery — the same
-  network, reorganized around a new center, the original
-  node grown larger than the system that produced it.
+  ninth century BCE forward produced a connected world rather
+  than a set of unrelated foundations: a shared script, shared
+  cults, shared weight standards, and sustained traffic between
+  the nodes. What the evidence does not show is a politically
+  directed enterprise. Shared religion, script and commerce are
+  evidence of contact, not of command, and the word network
+  describes the connections rather than an organization running
+  them. Carthage was one node among many for its first
+  centuries. What changed it was not promotion within the system
+  but the accumulation of power over parts of it: by the fourth
+  century Carthage taxed an African hinterland, garrisoned
+  Sardinia and spoke for the western Phoenician cities in
+  treaties with Rome. That is a different kind of relationship
+  from the one the ninth-century network had, and the site treats
+  it as such in the
+  [take on Carthaginian empire](/editorialTakes/carthaginian-empire-layered-hegemony).
 primary_entities: []
 related_themes:
   - punic-identity
@@ -41,24 +38,32 @@ framing makes Carthage the subject of a colonial-foundation
 story whose principal arc is the city's own development.
 What it under-represents is that Carthage was not the first
 Phoenician foundation in the western Mediterranean, was not
-for centuries the most important, and emerged into
-metropolitan dominance not through founding intent but
-through the workings of a network that predated it and that
-treated it for several centuries as one node among many.
+for centuries the most important, and became dominant
+centuries after its founding, inside a world of connections
+that predated it and that gave it no special standing for
+several hundred years.
 
 This theme treats the network as the subject and Carthage
 as the node within it that eventually grew larger than the
-system. The framing is network-first: the ninth-century BCE
-Tyrian western expansion was a coherent enterprise with its
-own internal logic, coordinating infrastructure, and
-resilience patterns; individual foundations operated as
-nodes within this enterprise rather than as autonomous
-colonial acts; Carthage was one foundation among many until
-the structural factors of the late seventh and sixth
-centuries BCE shifted the network's center of gravity
-westward. The story is the transformation: network to
-emergent dominant node to metropolitan center with
-periphery.
+system. The framing is network-first: the ninth-century
+western expansion was continuous and connected rather than a
+series of isolated ventures, and individual foundations sat
+inside a web of traffic, kinship and cult rather than
+standing alone. Carthage was one foundation among many until
+the late seventh and sixth centuries shifted the weight of
+the western Mediterranean toward it.
+
+Two cautions run through what follows, because this framing
+can be pushed too far. Connection is not direction: nothing
+in the record shows Tyre planning the expansion or governing
+what came of it, and the shared script and cults that make
+the network visible to us are what contact produces, not what
+command requires. And the later Carthaginian position was not
+the same thing scaled up. Carthage did not inherit a
+coordinating role; it built a structure of unequal power over
+parts of the network by conquest, garrison and taxation. The
+story is a transformation from one kind of relationship into
+another, not the growth of a single one.
 
 The site treats this as the opposite bookend of the
 [continuity-into-Roman-Africa narrative](/narratives/punic-continuity-in-roman-africa).
@@ -212,17 +217,16 @@ limited hinterland and the network as a whole controlling
 the route between them. That is the network logic of its
 first several centuries.
 
-## The Melqart cult as coordinating infrastructure
+## The Melqart cult
 
 The single most directly attested element of the network's
-coordination is the [Melqart cult](/deities/melqart). The
+shared life is the [Melqart cult](/deities/melqart). The
 site treats this in detail under the claim
 [Melqart cult as network infrastructure](/claims/melqart-cult-as-network-infrastructure).
 
 The Melqart sanctuary at [Tyre](/places/tyre) was the
-network's metropolitan religious center — the *peripatos*
-(sacred precinct) that the western colonies sent annual
-delegations to across at least six centuries. The
+network's metropolitan religious center, and Carthage sent
+delegations to it across at least six centuries. The
 delegation is firmly attested in
 [Diodorus 20.14](/sources/diodorus-library), in the
 pseudo-Aristotelian *On Marvellous Things Heard*, and in
@@ -244,20 +248,31 @@ Motya cult; the Tharros cult; and at Carthage itself. The
 cult's geographic distribution matches the colonial
 network's: every major node has a Melqart sanctuary.
 
-The cult's institutional features document real coordination
-rather than merely shared culture. The *egersis* (annual
-ritual death and resurrection of Melqart by fire) was a
-network-wide observance with regional adaptations. The
+The cult is more than a shared name. The *egersis*, the
+annual ritual death and resurrection of Melqart by fire, was
+observed across the network with regional adaptations; the
 *peripatos* of the Tyrian sanctuary was the principal
-metropolitan religious destination. The cult had specific
-priestly offices (the *rab kohanim* attested in multiple
-contexts) and specific practices that the surviving
-inscriptional record documents across the network. The
-cult functioned, in Bonnet's
-[*Les enfants de Cadmos*](/sources/bonnet-cadmos-2015)
-framing, as a working coordinating institution.
+metropolitan religious destination; and the cult carried
+specific priestly offices, the *rab kohanim* among them,
+attested in the inscriptional record at widely separated
+sites. A common liturgy and a common priesthood are a real
+institution, and the obligation Carthage discharged at Tyre
+was a real obligation.
 
-## Other coordinating mechanisms
+What that institution was for is the harder question. It
+tied the western foundations to the homeland and to each
+other in a way that shared pottery does not, and a state
+that sends a tithe across the sea for six centuries is
+acknowledging something. But acknowledgement is not
+administration. The cult is the strongest evidence the site
+has for the network holding together as a network, and it is
+still evidence of a bond rather than of a chain of command.
+[Bonnet's study of Phoenician religious geography](/sources/bonnet-cadmos-2015)
+is the standard treatment of the material; the site has not
+checked its argument and does not attribute this reading to
+it.
+
+## What else was shared
 
 Beyond Melqart, several other mechanisms operated as
 network coordination.
@@ -292,9 +307,16 @@ shared religious infrastructure. Both cults' diffusion
 across the network is documented in the inscriptional and
 archaeological evidence.
 
-The picture is of a network with multiple coordinating
-mechanisms (religious, commercial, linguistic, social)
-operating in mutually reinforcing ways across centuries.
+What these amount to is worth stating carefully. A shared
+script, a shared shekel, common cults and elites who married
+across long distances show that the nodes were in constant
+contact and that practice converged. They do not show anyone
+administering the convergence. Traders who meet repeatedly
+end up weighing silver the same way without a bureau
+requiring it, and a cult spreads along the routes its
+worshippers sail. The mechanisms are real and the inference
+from them to coordination is the step the evidence does not
+license.
 
 ## The Assyrian crisis and the network's resilience
 
@@ -347,48 +369,69 @@ centrality declined.
 
 ## Carthaginian consolidation (sixth through fourth centuries BCE)
 
-From the sixth century forward, Carthage's position in the
-network shifted from "important western node" to
-"metropolitan center of the western network." The shift is
-visible in several lines of evidence.
+From the sixth century forward, Carthage's position changed
+from one important western node to the power the others had
+to reckon with. The evidence below is usually presented as
+coordination, and some of it genuinely is. But the same
+evidence also documents subordination, and the theme names
+that where it applies rather than leaving the reader with a
+picture of willing partners.
 
-Military leadership. The Carthaginian state led western
-Phoenician military operations against the Greek expansion
-into Sicily and the western Mediterranean, and against the
-Etruscans at sites like the
+Military leadership. Carthaginian forces led western
+Phoenician operations against Greek expansion in Sicily and
+against the Etruscans and Phocaeans at the
 [Battle of Alalia](/events/battle-of-alalia) in 537 BCE.
-Other western Phoenician foundations contributed; Carthage
-coordinated.
+Leadership in a common cause is one thing, and Alalia looks
+like that. What followed elsewhere does not: by the time of
+the first treaties with Rome, Polybius reads their wording as
+showing that the Carthaginians treated Sardinia and Libya as
+their own (3.23), and when the mercenaries in Sardinia
+mutinied in 240 they killed Bostar, the Carthaginian
+commander of the garrison, and crucified the general Hanno
+sent to replace him (1.79). Garrison commanders are not
+coordination.
 
 Religious centrality. The growing prominence of the
 Carthaginian Tophet and the Carthaginian Tanit cult through
 the sixth and fifth centuries made Carthage central to the
 network's evolving religious infrastructure, alongside the
-existing Tyrian Melqart centrality. Tanit emerged as a
-western network deity from the fifth century forward, with
-the cult diffused to the other major western nodes (Motya,
-Sulci, Tharros) under Carthaginian initiative.
+existing Tyrian Melqart centrality. Tanit appears as a
+western deity from the fifth century forward, and her cult is
+found at the other major western sites (Motya, Sulci,
+Tharros). Whether Carthage spread it deliberately is not
+recorded, and the site does not assume it: a cult can follow
+the traffic and the prestige of a growing city without anyone
+directing it.
 
-Commercial coordination. Carthaginian commercial agreements
-with Rome (the first Carthaginian-Roman treaty of c. 509
-BCE) and with other Mediterranean powers were negotiated on
-behalf of the broader western Phoenician network rather
-than just on Carthage's own account. Carthage became the
-network's diplomatic and commercial spokesperson.
+Commercial agreements. The first Carthaginian-Roman treaty
+of c. 509 is made by Carthage "and her allies", and names
+Utica alongside her (Polybius 3.22, 3.24). That is Carthage
+speaking for other cities, which can describe a spokesman or
+a hegemon, and the treaties themselves do not say which. What
+they do show is Carthage defining where Roman ships could
+sail and where Romans could not settle or trade at all, which
+is a claim to control access on other cities' coasts as well
+as its own.
 
-Administrative diffusion. Carthaginian administrative
-practices, magistracy titles (the
-[suffeteship](/institutions/suffetes) attested across the
-western network), and inscriptional conventions diffused
-from Carthage to the other western nodes through the sixth
-and fifth centuries — the reverse of the earlier
-homeland-to-colonies pattern.
+Shared institutions. The [suffeteship](/institutions/suffetes)
+is attested across the western Phoenician world, along with
+shared inscriptional conventions. The usual reading has these
+spreading outward from Carthage, reversing the earlier
+homeland-to-colonies direction. The attestation is real; the
+direction of travel is an inference from Carthage's
+prominence rather than something the inscriptions date
+precisely enough to demonstrate.
 
-By the fourth century the network had become "Punic
-civilization" with Carthage at its core and the other
-foundations as its periphery: the same network, reorganized
-around a new center, the original node grown larger than
-the system that produced it.
+By the fourth century the western Phoenician world is
+recognizably Punic and recognizably centered on Carthage. The
+older formulation on this site called that the same network
+reorganized around a new center. That undersells the change.
+Tyre never taxed a hinterland at Carthage or stationed
+commanders in Sardinia. What emerged was not the network with
+a different hub but a structure of durable unequal power
+sitting on top of connections that had existed before it,
+treated separately in the
+[take on Carthaginian empire](/editorialTakes/carthaginian-empire-layered-hegemony).
 
 ## The Hellenistic-Punic phase
 
@@ -399,19 +442,23 @@ in Greek-language diplomatic and literary culture, the 396 BCE
 [Demeter-Kore adoption](/events/demeter-kore-adoption) as
 state cult, the Barcid territorial state in Iberia
 of the third century — all are features of a
-network in transition from Phoenician to Hellenistic-Punic
-in its institutional and cultural forms while keeping its
-Phoenician core. This is where the network arc connects to
-the Hellenistic-Carthage question the site treats
-separately.
+world in transition from Phoenician to Hellenistic-Punic in
+its institutional and cultural forms. This is where the
+network arc connects to the Hellenistic-Carthage question the
+site treats separately.
 
-The transition was absorption rather than displacement.
-The Melqart cult continued, and Carthaginian envoys still
-went to Tyre for the god's annual festival. The Punic language and script continued. The
-[inscriptional formulae](/themes/punic-inscriptional-record)
-continued. What changed was the supplementary cultural
-vocabulary the network operated alongside its Phoenician
-core.
+The transition was absorption rather than displacement. The
+Melqart cult continued, and Carthaginian envoys still went to
+Tyre for the god's annual festival. The Punic language and
+script continued, as did the
+[inscriptional formulae](/themes/punic-inscriptional-record).
+What is tempting here, and wrong, is to describe this as
+Greek forms laid over a Phoenician core. The
+[take on Carthage as cultural integrator](/editorialTakes/carthage-as-cultural-integrator)
+sets out why: what looks like the core was itself assembled
+from borrowings, Egyptian among them, centuries earlier. The
+continuity is in the practice of adapting, not in an
+untouched center underneath.
 
 ## What the legends preserve
 
@@ -516,32 +563,37 @@ first-class methodological point.
 
 ## What the network was, and was not
 
-The Phoenician colonial network was an integrated system
-across the ninth through fourth centuries BCE: religious,
-commercial, linguistic, and to a meaningful degree
-political. It was not a centralized empire under Tyrian
-rule; the homeland's authority over the colonies was real
-in religious terms (the Melqart cult's metropolitan
-centrality) but loose in administrative terms (the colonies
-operated with substantial autonomy). It was not a free
-trade zone with no shared institutions; the coordinating
-mechanisms documented in the record argue against that
-minimalist reading. It was not a uniform civilization
-across geographic dispersion; regional adaptations of
-religious, linguistic, and commercial practice are
-documented throughout.
+The Phoenician colonial network was a connected world across
+the ninth through fourth centuries BCE, held together by
+cult, script, commerce and traffic. It was not a centralized
+empire under Tyrian rule: nothing shows Tyre governing the
+western foundations, and the one obligation that is attested,
+Carthage's tithe and delegations to Melqart, is religious and
+was still being sent centuries after any plausible political
+tie had lapsed. It was also not a scatter of unrelated
+harbors; the shared shekel, the shared script and the shared
+cults are real and need explaining. And it was not uniform.
+Regional variation in religious, linguistic and commercial
+practice runs through the whole record.
 
-What it was: an integrated maritime-commercial-religious
-system with multiple coordinating mechanisms operating in
-mutually reinforcing ways, with Tyrian metropolitan
-centrality across the early centuries and Carthaginian
-metropolitan centrality across the later centuries, with
-substantial regional variation in the periphery but real
-coherence in the core institutional practices. The
-network's transformation into "Punic civilization with
-Carthage at the center" is one phase of a longer integrated
-arc that began with the ninth-century Tyrian expansion and
-continued through the Roman period and beyond.
+What it was is a set of connections without a controller,
+which is an unfamiliar shape and gets assimilated to familiar
+ones in both directions. Calling it an empire imports a chain
+of command nobody has found. Calling it a free trade zone
+loses the cult, the kinship and the conventions that made the
+traffic possible. The site's position is that connection is
+the thing attested, and that organization is the inference to
+resist.
+
+The transformation matters more than the continuity. From the
+sixth century Carthage built something over the network that
+the network had not contained: an African hinterland taxed
+directly, garrisons and commanders overseas, treaties closing
+whole coasts to foreign shipping. The connections persisted,
+and Punic culture went on long after 146. But the site no
+longer describes the Carthaginian period as the same system
+with a new center, because the power in it was of a different
+kind.
 
 The theme takes both bookends of the conventional Carthage
 story. The story did not begin in 814 BCE with Dido's
