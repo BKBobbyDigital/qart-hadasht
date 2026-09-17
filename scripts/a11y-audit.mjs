@@ -31,6 +31,27 @@ function add(category, file, detail) {
   findings[category].push({ file: relative(DIST, file), detail });
 }
 
+/**
+ * Does this link/button content give the control an accessible name?
+ *
+ * Text content is the obvious case, but a control whose only child is an
+ * image with a non-empty alt is named by that alt, and one wrapping an
+ * inline SVG is named by the SVG's <title> or aria-label. Stripping tags
+ * and testing for leftover text misses all three and reports a control
+ * that screen readers announce perfectly well. An explicit alt="" is the
+ * decorative marker and supplies no name, so it is not accepted here.
+ */
+function hasAccessibleName(inner) {
+  if (inner.replace(/<[^>]+>/g, '').trim().length > 0) return true;
+  for (const img of inner.matchAll(/<img\b([^>]*)>/gi)) {
+    const alt = /\balt\s*=\s*["']([^"']*)["']/i.exec(img[1]);
+    if (alt && alt[1].trim().length > 0) return true;
+  }
+  if (/<svg\b[\s\S]*?<title\b[^>]*>\s*\S[\s\S]*?<\/title>/i.test(inner)) return true;
+  if (/<[a-z][^>]*\baria-label\s*=\s*["'][^"']+["']/i.test(inner)) return true;
+  return false;
+}
+
 // --- Per-page sizes ---
 const sizes = [];
 
@@ -64,8 +85,7 @@ for (const f of files) {
     const attrs = m[1];
     const inner = m[2];
     const hasAriaLabel = /\baria-label\s*=\s*["'][^"']+["']/i.test(attrs);
-    const hasText = inner.replace(/<[^>]+>/g, '').trim().length > 0;
-    if (!hasText && !hasAriaLabel) {
+    if (!hasAccessibleName(inner) && !hasAriaLabel) {
       add('a-no-accessible-text', f, m[0].slice(0, 120));
     }
   }
@@ -76,8 +96,7 @@ for (const f of files) {
     const attrs = m[1];
     const inner = m[2];
     const hasAriaLabel = /\baria-label\s*=\s*["'][^"']+["']/i.test(attrs);
-    const hasText = inner.replace(/<[^>]+>/g, '').trim().length > 0;
-    if (!hasText && !hasAriaLabel) {
+    if (!hasAccessibleName(inner) && !hasAriaLabel) {
       add('button-no-accessible-text', f, m[0].slice(0, 120));
     }
   }

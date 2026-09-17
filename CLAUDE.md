@@ -3124,7 +3124,13 @@ note in the relevant section above. The arc, for a future session:
 - **Accessibility** — re-audited after the redesign (695 pages,
   `scripts/a11y-audit.mjs`): one finding, the 3 dynasty pages had no
   `<h1>` (FamilyTree rendered the title as `<h2>`) — promoted it to the
-  document `<h1>`. Re-audit: **0 findings**. Contrast on the new grays
+  document `<h1>`. Re-audit: **0 findings**. (Sep 2026: the audit itself
+  had a false-positive class. Its link and button checks stripped tags and
+  looked for leftover text, so a control named by an image `alt`, an SVG
+  `<title>` or a nested `aria-label` was reported as unnamed; the seven
+  `MapFigure` credited-map links tripped it. Fixed with a
+  `hasAccessibleName()` helper that reads those three, still flagging
+  `alt=""` since that is the decorative marker and supplies no name.) Contrast on the new grays
   (`#6a6a72` muted) checked ≈5:1 on white and the gray bands (passes AA);
   focus-visible + skip-link intact.
 - **Prose** — em-dash pass on the un-audited `.astro` pages
