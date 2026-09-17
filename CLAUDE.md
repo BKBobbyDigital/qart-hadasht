@@ -2631,10 +2631,14 @@ rest of that theme still leans integrationist and deserves its own pass.
   on modern overviews nobody has read and on no ancient or
   excavation-report source. The archaeology is not in doubt; the
   citation is. An excavation report for each would fix them.
-- **`inevitable` (19 hits in 12 files) and `design-from-outcome` (15 in
-  10).** The last two unreviewed review terms, and the two closest to
-  charter principle 1. `consensus`, `universal` and `prose-attribution`
-  have all been worked through (Sep 2026).
+- **Nothing outstanding in the review half.** Every term has been worked
+  through (Sep 2026) and the residue was read and judged legitimate:
+  `consensus` 9, `universal` 0, `inevitable` 11, `design-from-outcome`
+  11, `prose-attribution` 0, `unpaged-modern` 6, `named-holders` 3.
+  **Treat those numbers as the reviewed baseline, not as a backlog.** If
+  one rises, something new was written; if you are tempted to drive one
+  to zero, read the hits first, because the remainder are cases where
+  the site is arguing correctly and tripping a blunt pattern.
 - **`themes/phoenician-colonial-network`** still leans integrationist
   after its opening was qualified in audit 11; it deserves its own pass,
   read against the empire take.
@@ -2815,6 +2819,30 @@ Each regex change was unit-tested against its edge cases before
 committing. Do that; an over-broad pattern here silently rewrites prose,
 and two earlier rules had to be narrowed or deleted after flagging
 correct sentences.
+
+**`inevitable` and `design-from-outcome` closed the set.** Six real
+faults out of 34 hits. The one worth remembering: **"deliberately
+impossible"** for the 149 relocation demand was still on
+`claims/tpw-roman-ultimatum` and in `narratives/destruction-of-carthage`
+after being removed from the editorial take merged away days earlier,
+the third location for one phrase. It is now a REGRESSION rule. Also
+fixed: the 201 treaty trapping Carthage "by design"; the treaty-system
+thread calling the Third Punic War's outcome inevitable in the site's own
+voice; and the Lutatius source comparison overstating both Polybius and
+the take it links to. That was the **third page this month found stating
+a position more firmly than the take it cites** (after
+`hannibal-after-zama` and `masinissa-territorial-seizures-pattern`),
+which makes it a real class of error and the best candidate for the next
+automated rule.
+
+Both patterns were narrowed (negated "inevitable", "calibrated against").
+The remaining 22 hits are legitimate and should be left alone: the
+`spw-causation` take argues explicitly about degrees of inevitability,
+`first-punic-war-outbreak` names the "inevitable collision" reading in
+order to reject it, Hanno's page uses the word in its ordinary sense, and
+the Barcid material is audit 4's nested-purposes framing with the
+"planned outputs" position quoted so it can be rejected. That last case
+is the rule working, not failing.
 
 ### Active work queue (complete)
 
