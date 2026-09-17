@@ -640,7 +640,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~744 pages** as of
+parked until the day version settles. The site is **~747 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -650,7 +650,7 @@ the last build.
 | events | 97 |
 | people | 82 |
 | places | 62 |
-| sources | 84 |
+| sources | 88 |
 | claims | 179 |
 | editorialTakes | 26 |
 | openQuestions | 20 |
@@ -2216,6 +2216,115 @@ refusal take credited Maharbal's reproach to Polybius (it is Livy
   candidate, Miles added as a holder); 301 in `netlify.toml`.
 - `narratives/battle-of-cannae.md` aftermath section updated to match.
 
+### Second-read audits of the editorial takes (Sep 2026)
+
+The user is running the site's most important editorial takes past
+another model (ChatGPT) for a second read and bringing each audit back
+as a markdown file. **Working rule (user's framing):** the other
+model's output is *suggestions to make our work better*, not a source.
+Every finding is verified against the ancient text or the cited
+scholarship before anything changes; the drafted prose is never
+pasted in; the site's voice and house style apply. Each pass: read the
+audit, verify, report what's right / what overreaches / what it
+missed, put the real decisions to the user, then fix the take **and
+grep the whole site for the same error** (the errors recur across
+pages, and the audits only see one page).
+
+**Lessons that held across all four passes so far:**
+- The audits were accurate about their citations (no fabrications
+  found) but each overreached somewhere and each missed errors we then
+  found by checking texts, usually more serious ones.
+- The recurring faults in our own older prose: unsupported "modern
+  consensus" statements; named scholars attributed positions without
+  page references (removed when unverifiable); inferences stated as
+  facts; claims that read later outcomes back into earlier intentions.
+- Checking the ancient text directly keeps turning up errors the
+  summaries had introduced (misattributed passages, wrong section
+  numbers, details no source contains).
+
+**1. `destruction-not-weak-enough`** (commit `9f2ab97`). Headline kept;
+thesis sharpened to: the Treaty of 201 *succeeded* (ended Carthage as a
+military power without making it poor) and a later Roman generation
+stopped tolerating a recoverable Carthage. The sources frame recovery
+as **rearmament** (Plutarch *Cato* 26–27 arms and fighting men; Livy
+*Per.* 47–48 ship timber and an army; Appian 69), so "no specific
+threat" was removed. Cause vs pretext (Livy *Per.* 49; Polybius
+36.2–3; Appian 69) with honest weighting: Polybius shows war decided
+before the 149 surrender; the earlier decision rests on Appian. The 149
+demands recast as "either answer ended Carthage as it existed."
+"Busy harbor / full markets" had no source. **The Masinissa
+arbitration record was wrong in eight files** ("every ruling favored
+Masinissa"): now contested in `claims/masinissa-territorial-seizures-pattern`
+(Livy 34.62; Appian 68–69; Polybius 31.21; Livy *Per.* 47) against
+Hoyos (rebuffed until after 167) and Bailey 2018. The commission event
+pages had invented rulings: 162 is Polybius 31.21 (Emporia, 500
+talents); 157's outcome is unrecorded; 153 (Cato) issued **no ruling**
+because Carthage refused arbitration (Appian 69). New sources
+`bailey-rome-carthage-numidia-2018`, `hoyos-third-punic-war-diplomacy-2018`.
+
+**2. `tophet-happened-scale-unrecoverable`** (commit `8dc7d38`).
+User-confirmed: **"very probably happened"** (not a flat "happened"),
+and **Schwartz et al.'s predominantly funerary reading** is the serious
+competing position. Errors: Smith et al. 2011 found ages peaking at
+**1–1.5 months**, not a "1–3 year" cohort (take and theme); Holladay
+still in the take's author list; **Xella** had been put in the cemetery
+camp (he co-authored the 2013 case *for* sacrifice); the "2013 reply"
+misattributed to Ribichini (real replies: Schwartz 2012/2017, Smith
+2013); the theme gave Plutarch the bronze-statue description (it is
+Diodorus 20.14 / Cleitarchus). Reasoning now leads with the *mlk*
+vocabulary and sanctuary context (*mlk ʾmr* lamb; *mlk bʿl* / *mlk ʾdm*
+interchangeable, citizen/person, debated), then the non-independent
+literary tradition, then the bones as an unresolved dispute (**age at
+death is not manner of death**). "Mixed-practice consensus" removed.
+New sources `schwartz-two-tales-2017`, `smith-age-estimations-2013`.
+
+**3. `carthage-as-cultural-integrator`** (commit `8ec7af6`).
+User-confirmed: keep the elite/popular distinction **as a stated
+probability** with the evidence gap named; replace "Punic core" with
+**continuity through adaptation** (Bes amulets, an Egyptian borrowing,
+show the "core" was itself integrated); one paragraph on non-Greek
+integration. Errors: Diodorus 14.77 has **leading Carthaginian citizens
+as priests** with Greeks resident in Carthage assisting, not imported
+Sicilian-Greek priestesses, and "they voted," not "the senate" (fixed
+on the take, the Demeter-Kore deity page and the 396 claim); war
+elephants were already at Agrigentum in 262 (Polybius 1.19), not
+"later third century"; Carthaginian envoys went **to** Tyre for
+Melqart's festival (Arrian 2.24; Curtius 4.2.10). Malta bilinguals
+(KAI 47) added for the Phoenician side of Melqart-Heracles. **Open:**
+the Demeter-Kore incense-burner point came only from an unattributed
+web article that reads like Miles; the user may find the page in *Carthage
+Must Be Destroyed*, otherwise soften it.
+
+**4. `barcid-iberian-state-as-state`** (commit `f400aa0`).
+User-confirmed: **nested purposes** replace the "integrated" reading;
+the take is organized around three questions (state-like? yes;
+independent of Carthage? no, semi-autonomous, formal authority vs
+practical control; built for the Italian war? much less certain).
+"Calibrated to the Italian campaign" and "planned output" had no
+source and read later use backward. Errors: "three generations" (two;
+Hasdrubal was a son-in-law); the Olcades, Vaccaei and Carpetani cited
+as treaty incorporation when Hannibal conquered them (Polybius
+3.13–14); "Ebro Treaty negotiated in Greek" (no source); Hasdrubal's
+accession (Polybius 2.1.9 has the Carthaginians give him command;
+Diodorus 25.12 the army and Carthaginians); Polybius's Carthago Nova
+(10.10) has no mint or administrative quarter; oath is 3.11 not 3.10;
+Polybius does not call the war inevitable (causes at 3.9–10). The
+narrative was rewritten to match (its "franchise" section kept), plus
+period 05, both Barcid claims (unverified MacDonald attributions
+removed), the network theme and Hannibal's page ("Hellenistic court
+forms").
+
+**Still to review:** `hannibal-195-denunciation-as-fabrication` and
+`carthaginian-army-institutionally-mixed` (the user's list of five).
+**Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
+answers the same question as `destruction-not-weak-enough` and still
+says the relocation demand was "deliberately impossible to accept";
+merge or align it. About 20 claims still call their reading "the
+consensus modern" one; worth a dedicated pass. Page references wanted
+from the user's copy of Miles for the Third Punic War (Cato, the 149
+ultimatum), and MacDonald's *Hannibal* for the Barcid readings, if
+those authors are to be named again.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2655,7 +2764,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **744 pages**.
+output. As of the last CLAUDE.md refresh it was around **747 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
