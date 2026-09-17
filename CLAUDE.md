@@ -335,6 +335,59 @@ The user's stated preference: *"strong takes are fine, but always call
 out opposition and always denote the reality of how clear/true something
 is known."*
 
+### Evidence discipline (from the second-read audits, Sep 2026)
+
+Six second-read audits of the editorial takes kept finding the same
+faults, mostly in older prose written from summaries. These rules exist
+to stop them at the drafting stage.
+
+1. **Read the passage before writing a number, a direction or an
+   attribution.** The errors were almost never in the argument; they
+   were in the details: 1–3 years for 1–1.5 months, 3,000 for 2,500,
+   seventeen years for fifteen, "required" consecutive terms for
+   "barred", a detail credited to the wrong author, a fact no source
+   contains (a mint at Carthago Nova, Sacred Band oaths, an Ebro treaty
+   "negotiated in Greek"). If the text can't be reached, say less or
+   leave the detail out. Quote only from a translation actually checked.
+2. **Source entries describe only what is verifiable.** A source's
+   `summary` is where invented details hide, because nobody rereads it.
+3. **No "consensus" without a source for it**, and no "universally",
+   "all scholars", "invariably". Describe the reading, or name who holds
+   it.
+4. **Name a scholar only when the argument has been checked in their
+   work** (a page reference, or an abstract/article read). Otherwise
+   describe the position without a name. This applies to `held_by`
+   fields too.
+5. **Keep four layers apart:** what happened; what an ancient author
+   says; what modern historians reconstruct; what this site argues. Most
+   overclaims came from sliding one into the next.
+6. **Don't read design back from outcome.** Later use is not original
+   purpose ("calibrated to the Italian campaign", "planned output",
+   "deliberately impossible"). State intent only where a source attests
+   it, and label the rest as inference.
+7. **No argument from silence presented as evidence.** Missing letters
+   or a missing command show the record is thin, not that something did
+   not happen.
+8. **Competing positions in their strongest form**, held by someone
+   real or described without a holder. A position built to lose teaches
+   the reader nothing.
+9. **Check the arithmetic:** durations, generations (a son-in-law is
+   not a generation), date conventions (Mercenary War 241–237), counts.
+10. **When you correct a fact, fix it everywhere.** Grep the whole site
+    (content, `src/data` configs, captions, `.astro` pages) for the old
+    wording before committing: every audit's error was on 5–9 pages.
+    Then **add the wrong wording to `REGRESSIONS` in
+    `scripts/evidence-audit.mjs`** so it can't return.
+
+`node scripts/evidence-audit.mjs` runs both halves. The regression list
+must print CLEAN (it exits 1 otherwise). The review half is report-only
+and counts the language to look at first: `consensus`, `universal`,
+`inevitable`, `design-from-outcome`, modern citations on claims with no
+page reference (`unpaged-modern`), and `held_by` fields naming scholars
+(`named-holders`); `--list <term>` shows the hits. Baseline at creation:
+54 / 36 / 22 / 25 / 157 / 4. Those numbers should fall, not rise; many
+hits are legitimate, so judge each rather than mass-editing.
+
 ---
 
 ## Visual design language
@@ -821,6 +874,11 @@ across places, people, events, etc. Fixed via:
 | tic-rank.mjs | Rank all content files by AI-tic vocabulary density |
 | delm.mjs | Mechanical de-LLM pass (bold mini-headings, boilerplate closers, safe word subs) |
 | spelling-audit.mjs | American-English enforcement; British spellings + `-ise`/`-yse` drift |
+| evidence-audit.mjs | Corrected-error regressions (gate, must be CLEAN) + overconfident-language review counts; see "Evidence discipline" |
+
+**Before every content commit** run the set: `npm run build`, then
+`node scripts/link-audit.mjs`, `prose-audit.mjs`, `spelling-audit.mjs`
+and `evidence-audit.mjs`.
 
 All reusable; each prints results to stdout and (where applicable)
 modifies files only with --apply flag.
@@ -2232,7 +2290,7 @@ missed, put the real decisions to the user, then fix the take **and
 grep the whole site for the same error** (the errors recur across
 pages, and the audits only see one page).
 
-**Lessons that held across all four passes so far:**
+**Lessons that held across all six passes** (now codified as "Evidence discipline" above):
 - The audits were accurate about their citations (no fabrications
   found) but each overreached somewhere and each missed errors we then
   found by checking texts, usually more serious ones.
@@ -2316,8 +2374,38 @@ period 05, both Barcid claims (unverified MacDonald attributions
 removed), the network theme and Hannibal's page ("Hellenistic court
 forms").
 
-**Still to review:** `hannibal-195-denunciation-as-fabrication` and
-`carthaginian-army-institutionally-mixed` (the user's list of five).
+**5. `hannibal-195-denunciation-as-fabrication`** (commit `cc2d26f`).
+Take and `sourceComparisons/hannibal-antiochus-denunciation` rewritten;
+Nepos added as a source passage, Justin's Servilius mission included,
+"methodologically more honest" removed from the Sophonisba comparison.
+Two errors ran site-wide. **The judges' law:** Livy 33.46.6 *bars*
+serving two consecutive years; six pages said it required or allowed
+consecutive terms. **Early payment:** Livy 36.4 (191) has envoys
+*offering* to pay the balance early and Rome refusing; nine pages said
+Carthage paid it off early. The Hamilcar narrative also lost a
+repeat of the Iberian-silver-financed-indemnity overclaim.
+
+**6. `carthaginian-army-institutionally-mixed`** (commit `f319694`).
+Polybius's 6.52 contrast now partly accepted (real dependence, real
+long-war fragility) while rejecting "mercenary" as one category and
+recruitment status as a measure of quality. **`groups/sacred-band` was
+largely invented:** oaths, a necropolis, inscriptions and Latin names
+had no source, and the Diodorus quotation was wrong. Now: 2,500 at the
+Crimisus (Diodorus 16.80.4), Plutarch's 3,000 Carthaginian dead
+(*Timoleon* 28), and the unit fighting again under Hanno in 310 with
+40,000 citizens (Diodorus 20.10–12), active -341 to -310. "Seventeen
+years" in Italy corrected to fifteen in 13 places. The Rawlings–Hall
+2023 source summary was rewritten to what the chapter argues (vertical
+cohesion).
+
+**Process changes that came out of the six** (commit after `f319694`):
+the "Evidence discipline" rules under Editorial conventions and
+`scripts/evidence-audit.mjs`. Its first run found a surviving "every
+Roman commission ruling for Masinissa" in the road-to-146 thread, and
+building its pattern list found the Mercenary War dated four ways in 12
+files (normalized to 241–237) and the Scipio tree calling Aemilianus
+three generations after Africanus (two).
+
 **Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
 answers the same question as `destruction-not-weak-enough` and still
 says the relocation demand was "deliberately impossible to accept";

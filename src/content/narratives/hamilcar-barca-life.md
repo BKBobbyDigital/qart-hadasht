@@ -4,7 +4,7 @@ scope: biography
 thesis: >
   Hamilcar Barca's career has three principal phases:
   the Sicilian rear-guard at Mount Eryx (247-241 BCE), the
-  suppression of the Mercenary War (240-237 BCE), and the
+  suppression of the Mercenary War (241–237 BCE), and the
   Iberian conquest (237-228 BCE) that built the resource base
   for the Second Punic War. Each phase is substantial in its
   own right; the cumulative arc is one of the most
@@ -86,7 +86,7 @@ agreed), suggest a commander who recognized the strategic
 necessity of settlement and did not regard the war's
 outcome as personal failure.
 
-## The Mercenary War, 240-237 BCE
+## The Mercenary War, 241–237 BCE
 
 Hamilcar returned from Sicily to a Carthage on the brink of
 existential crisis. The Mercenary War that erupted in late

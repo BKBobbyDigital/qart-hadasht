@@ -65,7 +65,7 @@ the [Cisalpine Gauls](/groups/cisalpine-gauls) Hannibal picked
 up during the Italian campaign. Recruitment worked through
 long-running contractual relationships with specific networks,
 not through ad-hoc hiring. The
-[Mercenary War of 241–238 BCE](/events/mercenary-war) is the
+[Mercenary War of 241–237 BCE](/events/mercenary-war) is the
 documented case of those contractual relationships breaking
 down.
 

@@ -5,8 +5,8 @@ import type { FamilyTreeConfig } from '../../lib/familyTree';
  *
  * Included on a Carthage-focused site because this one house brackets
  * the whole war with Carthage: Publius Cornelius Scipio Africanus beat
- * Hannibal at Zama in 202 BCE, and three generations later — reaching
- * the name by adoption, not birth — Scipio Aemilianus destroyed the
+ * Hannibal at Zama in 202 BCE, and two generations later, reaching
+ * the name by adoption, not birth, Scipio Aemilianus destroyed the
  * city in 146. The tree also carries the internal Roman argument over
  * Carthage's fate: Scipio Nasica Corculum, of the cousin branch, was
  * the standing voice against Cato's "Carthago delenda est."
@@ -23,7 +23,7 @@ import type { FamilyTreeConfig } from '../../lib/familyTree';
 const config: FamilyTreeConfig = {
   title: 'The Cornelii Scipiones',
   subtitle:
-    'The Roman house that bracketed the war with Carthage: Scipio Africanus won at Zama in 202 BCE and, three generations later by adoption, Scipio Aemilianus destroyed the city in 146.',
+    'The Roman house that bracketed the war with Carthage: Scipio Africanus won at Zama in 202 BCE and his adoptive grandson Scipio Aemilianus destroyed the city in 146.',
   period: 'c. 250 – 129 BCE',
   viewBox: '0 0 1040 620',
   nodes: {

@@ -21,8 +21,9 @@ stops:
   - type: claim
     slug: masinissa-territorial-seizures-pattern
     note: >
-      The fifty-year mechanism: Numidian encroachment under Roman
-      cover, with every Roman commission ruling for Masinissa.
+      The fifty-year mechanism: Numidian encroachment, and Carthage
+      taking the disputes to Rome. How consistently Rome sided with
+      Masinissa is contested.
   - type: event
     slug: roman-commission-162
     note: >

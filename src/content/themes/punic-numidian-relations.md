@@ -53,7 +53,7 @@ peasantry that supplied much of Carthage's grain. Polybius
 1.72 records that Carthage doubled the tribute extraction
 during the First Punic War, and the rate is the documented
 trigger for the [Mercenary War](/events/mercenary-war) of
-241–238 BCE. The Libyan rebellion was a tribute crisis as
+241–237 BCE. The Libyan rebellion was a tribute crisis as
 much as a military one.
 
 Dynastic marriage. Carthaginian aristocratic marriages with

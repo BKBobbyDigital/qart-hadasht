@@ -215,7 +215,7 @@ state, with the surplus extraction rates becoming punitive
 during war emergencies (the 4:1 wartime increase that the
 First Punic War's end produced, according to Polybius 1.72,
 is the central literary attestation; it triggered the
-Libyan participation in the Mercenary War of 241–238 BCE that
+Libyan participation in the Mercenary War of 241–237 BCE that
 substantially threatened the Carthaginian state). The
 reconstruction is plausible but the documentation is uneven:
 the Libyan peasantry's voice does not survive in the
