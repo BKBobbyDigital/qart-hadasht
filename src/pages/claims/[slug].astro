@@ -1,8 +1,9 @@
 ---
-import { stripMarkdownForMeta } from '../../lib/autolink';
+import { stripMarkdownForMeta, renderInline } from '../../lib/autolink';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { articleSchema } from '../../lib/structuredData';
 import ClaimCard from '../../components/ClaimCard.astro';
+import ConfidenceBadge from '../../components/ConfidenceBadge.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -16,7 +17,6 @@ export async function getStaticPaths() {
 const { claim } = Astro.props;
 const d = claim.data;
 
-// Resolve referenced entities
 const entityMap: Record<string, string> = {
   event: 'events',
   person: 'people',
@@ -27,43 +27,219 @@ const entityMap: Record<string, string> = {
   theme: 'themes',
 };
 
-const resolvedEntities = await Promise.all(
-  (d.entities ?? []).map(async (e: any) => {
-    const collection = entityMap[e.type];
-    if (!collection) return null;
-    try {
-      const entry: any = await getEntry(collection as any, e.slug);
-      if (!entry) return null;
-      const slug = entry.id.replace(/\.md$/, '');
-      const title = entry.data.name || entry.data.name_display || entry.data.title;
-      return { type: e.type, role: e.role, href: `/${collection}/${slug}`, title };
-    } catch {
-      return null;
+const resolveEntity = async (e: any) => {
+  const collection = entityMap[e.type];
+  if (!collection) return null;
+  try {
+    const entry: any = await getEntry(collection as any, e.slug);
+    if (!entry) return null;
+    return {
+      type: e.type,
+      role: e.role,
+      slug: e.slug,
+      href: `/${collection}/${entry.id.replace(/\.md$/, '')}`,
+      title: entry.data.name || entry.data.name_display || entry.data.title,
+    };
+  } catch {
+    return null;
+  }
+};
+
+const resolvedEntities = (
+  await Promise.all((d.entities ?? []).map(resolveEntity))
+).filter(Boolean) as Array<any>;
+
+// The topic this claim belongs to. Prefer the entity marked `subject`; 25 of
+// the 179 claims mark no subject, so fall back to the first entity that
+// resolves rather than leaving those pages with no orientation at all.
+const subject =
+  resolvedEntities.find((e) => e.role === 'subject') ?? resolvedEntities[0] ?? null;
+const otherEntities = resolvedEntities.filter((e) => e !== subject);
+
+// Sibling claims: other claims whose subject is the same entity. This is what
+// turns a claim page from a loose fact into one of several things the site
+// says about a topic.
+const allClaims = await getCollection('claims');
+const siblings = subject
+  ? allClaims.filter(
+      (c) =>
+        c.id !== claim.id &&
+        (c.data.entities ?? []).some(
+          (e: any) => e.slug === subject.slug && e.role === 'subject'
+        )
+    )
+  : [];
+
+// Where the claim is used. A claim cited by a take or a narrative is load
+// bearing somewhere, and the reader should be able to follow it there.
+const [takes, narratives, themes, comparisons, questions] = await Promise.all([
+  getCollection('editorialTakes'),
+  getCollection('narratives'),
+  getCollection('themes'),
+  getCollection('sourceComparisons'),
+  getCollection('openQuestions'),
+]);
+
+const usedIn: Array<{ href: string; title: string; kind: string }> = [];
+for (const t of takes) {
+  if ((t.data.weighed_claims ?? []).some((r: any) => r.id === claim.id)) {
+    usedIn.push({
+      href: `/editorialTakes/${t.id}`,
+      title: stripMarkdownForMeta(t.data.subject_question, 110),
+      kind: 'Editorial take',
+    });
+  }
+}
+for (const n of narratives) {
+  if ((n.data.referenced_claims ?? []).some((r: any) => r.id === claim.id)) {
+    usedIn.push({
+      href: `/narratives/${n.id.replace(/\.md$/, '')}`,
+      title: n.data.title,
+      kind: 'Narrative',
+    });
+  }
+}
+for (const t of themes) {
+  if ((t.data.referenced_claims ?? []).some((r: any) => r.id === claim.id)) {
+    usedIn.push({
+      href: `/themes/${t.id.replace(/\.md$/, '')}`,
+      title: t.data.title,
+      kind: 'Theme',
+    });
+  }
+}
+for (const c of comparisons) {
+  if ((c.data.related_claims ?? []).includes(claim.id)) {
+    usedIn.push({
+      href: `/sourceComparisons/${c.id}`,
+      title: c.data.title,
+      kind: 'Source comparison',
+    });
+  }
+}
+
+// Debates on the same topic that do not cite this claim directly. Kept
+// separate so the reader can tell "this claim is used here" from "here is
+// where the argument about this topic happens".
+const usedHrefs = new Set(usedIn.map((u) => u.href));
+const debates: Array<{ href: string; title: string; kind: string }> = [];
+if (subject) {
+  for (const t of takes) {
+    const se = t.data.subject_entity;
+    if (se?.slug === subject.slug && !usedHrefs.has(`/editorialTakes/${t.id}`)) {
+      debates.push({
+        href: `/editorialTakes/${t.id}`,
+        title: stripMarkdownForMeta(t.data.subject_question, 110),
+        kind: 'Editorial take',
+      });
     }
-  })
-).then((arr) => arr.filter(Boolean) as Array<any>);
+  }
+  for (const q of questions) {
+    if ((q.data.relevant_entities ?? []).some((e: any) => e.slug === subject.slug)) {
+      debates.push({
+        href: `/openQuestions/${q.id}`,
+        title: stripMarkdownForMeta(q.data.question, 110),
+        kind: 'Open question',
+      });
+    }
+  }
+  for (const c of comparisons) {
+    const ev = c.data.subject_event;
+    if (ev?.id === subject.slug && !usedHrefs.has(`/sourceComparisons/${c.id}`)) {
+      debates.push({
+        href: `/sourceComparisons/${c.id}`,
+        title: c.data.title,
+        kind: 'Source comparison',
+      });
+    }
+  }
+}
+
+const title = stripMarkdownForMeta(d.statement, 80);
 ---
 
-<BaseLayout title={`Claim: ${stripMarkdownForMeta(d.statement, 80)}`} description={stripMarkdownForMeta(d.statement, 200)} jsonld={articleSchema(`Claim: ${stripMarkdownForMeta(d.statement, 80)}`, d, { description: stripMarkdownForMeta(d.statement, 200) })}>
+<BaseLayout
+  title={`Claim: ${title}`}
+  description={stripMarkdownForMeta(d.statement, 200)}
+  jsonld={articleSchema(`Claim: ${title}`, d, { description: stripMarkdownForMeta(d.statement, 200) })}
+>
   <div class="max-w-6xl mx-auto px-6 py-12">
    <article class="max-w-3xl">
     <span hidden data-pagefind-filter="type:Claims" data-pagefind-meta="type:Claim"></span>
 
     <p class="eyebrow mb-3">
-      Claim · <a href="/claims" class="text-tyrian-700 hover:underline">All claims</a>
+      Claim{subject && <> · on <a href={subject.href} class="text-tyrian-700 hover:underline">{subject.title}</a></>}
     </p>
-    <h1 class="font-serif text-2xl mb-6">Claim</h1>
+    <h1 class="font-serif text-[clamp(1.5rem,2.6vw,2.1rem)] leading-tight mb-2" set:html={renderInline(d.statement)}></h1>
+    <p class="text-sm text-sand-700 mb-6">
+      One atomic statement, with its sources and confidence. The site's readings
+      are argued in <a href="/narratives" class="text-tyrian-700 hover:underline">takes, comparisons and open questions</a>.
+    </p>
 
-    <ClaimCard claim={claim} />
+    <ClaimCard claim={claim} hideStatement />
 
-    {resolvedEntities.length > 0 && (
+    {usedIn.length > 0 && (
       <section class="mt-10">
-        <h2 class="font-serif text-xl mb-3">Referenced entities</h2>
+        <h2 class="font-serif text-xl mb-3">Where this claim is used</h2>
         <ul class="space-y-2">
-          {resolvedEntities.map((e: any) => (
+          {usedIn.map((u) => (
             <li>
-              <a href={e.href} class="text-tyrian-700 hover:underline font-serif">{e.title}</a>
-              <span class="text-xs text-sand-700 ml-2">{e.type} · {e.role}</span>
+              <a href={u.href} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 transition-colors">
+                <p class="text-[11px] uppercase tracking-widest text-sand-700 font-semibold mb-1">{u.kind}</p>
+                <p class="font-serif text-tyrian-700 leading-snug">{u.title}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {siblings.length > 0 && subject && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-1">
+          Other claims on {subject.title}
+        </h2>
+        <p class="text-sm text-sand-700 mb-3">
+          What the site records about this subject, one statement at a time. It
+          is what has been written up, not everything that is known.
+        </p>
+        <ul class="space-y-2">
+          {siblings.map((c: any) => (
+            <li class="flex items-start gap-3 text-sm border-l-2 border-sand-300 pl-3">
+              <ConfidenceBadge confidence={c.data.confidence} />
+              <a href={`/claims/${c.id}`} class="text-tyrian-700 hover:underline flex-1" set:html={renderInline(c.data.statement)}></a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {debates.length > 0 && subject && (
+      <section class="mt-10">
+        <h2 class="font-serif text-xl mb-3">Where the argument is</h2>
+        <ul class="space-y-2">
+          {debates.map((u) => (
+            <li>
+              <a href={u.href} class="block p-4 border border-sand-300 rounded-lg hover:bg-tyrian-50 hover:border-tyrian-500 transition-colors">
+                <p class="text-[11px] uppercase tracking-widest text-sand-700 font-semibold mb-1">{u.kind}</p>
+                <p class="font-serif text-tyrian-700 leading-snug">{u.title}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {(subject || otherEntities.length > 0) && (
+      <section class="mt-10 pt-5 border-t border-sand-300">
+        <h2 class="font-serif text-xl mb-3">Part of</h2>
+        <ul class="flex flex-wrap gap-2">
+          {[subject, ...otherEntities].filter(Boolean).map((e: any) => (
+            <li>
+              <a href={e.href} class="inline-block text-sm px-3 py-1.5 border border-sand-300 rounded-full text-sand-900 hover:border-tyrian-500 hover:text-tyrian-700 transition-colors">
+                {e.title}
+                <span class="text-xs text-sand-700 ml-1.5">{e.type}</span>
+              </a>
             </li>
           ))}
         </ul>

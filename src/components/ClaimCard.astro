@@ -6,8 +6,14 @@ import { renderSummaryHtml, type LinkRegistry, renderInline } from '../lib/autol
 
 interface Props {
   claim: any;
+  /**
+   * The claim's own detail page puts the statement in its <h1>, so the card
+   * there renders the apparatus only. Everywhere else the statement is the
+   * point of the card and stays.
+   */
+  hideStatement?: boolean;
 }
-const { claim } = Astro.props;
+const { claim, hideStatement = false } = Astro.props;
 const data = claim.data;
 
 // Empty registry — claim cards are reused widely (claim index, embedded on
@@ -42,7 +48,9 @@ const furtherReading = await Promise.all(
 <article class="border border-sand-300 rounded-lg bg-sand-50 p-5 my-4">
   <div class="flex items-start gap-3">
     <ConfidenceBadge confidence={data.confidence} />
-    <p class="font-serif text-lg leading-snug flex-1 m-0" set:html={renderInline(data.statement)}></p>
+    {!hideStatement && (
+      <p class="font-serif text-lg leading-snug flex-1 m-0" set:html={renderInline(data.statement)}></p>
+    )}
   </div>
 
   {data.scholarly_consensus && (
