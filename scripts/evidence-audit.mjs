@@ -155,6 +155,24 @@ const REGRESSIONS = [
     fixed: 'Masinissa audit',
   },
   {
+    id: 'capua-second-city',
+    re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
+    right: 'No source ranks Capua second; Polybius 3.91 calls it "once the wealthiest of cities".',
+    fixed: 'Italian-objective audit',
+  },
+  {
+    id: 'fifteen-post-cannae',
+    re: /fifteen post-Cannae|fifteen years (after|past) Cannae/i,
+    right: 'Cannae (216) to Hannibal\'s recall (203) is thirteen years.',
+    fixed: 'Italian-objective audit',
+  },
+  {
+    id: 'polybius-3117-prisoner-release',
+    re: /3\.117 for Cannae/i,
+    right: 'The allied release after Cannae is Livy 22.58; Polybius 3.117 has none. Trebia 3.77, Trasimene 3.85.',
+    fixed: 'Italian-objective audit',
+  },
+  {
     id: 'methodologically-more-honest',
     re: /methodologically more honest/i,
     right: 'Self-congratulation; say what the reading does instead.',

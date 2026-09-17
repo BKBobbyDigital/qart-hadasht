@@ -2431,6 +2431,31 @@ seizures claim, the destruction take, commission-157, the extent map
 page. **Not yet checked:** the life narrative's "Hellenistic monarchy"
 paragraph (Greek correspondence, architecture) is unsourced.
 
+**8. `hannibal-italian-objective-alliance-dismemberment`.** User-
+confirmed: alliance detachment is the **method**, a reduced Rome forced
+to negotiate the **likely end** (Polybius 7.9's Philip treaty now
+central, preferred to Livy 23.33's "all Italy including Rome"); strategy
+**adapted** by phase; the oath kept to one sentence (hostility, not a
+plan) with the Iberian "launching ground" dropped; unverified scholar
+characterizations stripped. Polybius 3.77.7 states the prisoner policy's
+purpose outright, and 3.90.13 shows defection sought before Cannae.
+Errors: "Polybius 3.117 for Cannae" (the release is Livy 22.58); Livy
+22.7 is Trasimene; "the Trasimene record is thinner" (3.85 is explicit);
+"fifteen post-Cannae years" (thirteen); Capua as "second(-largest) city
+of Italy" on six pages (Polybius 3.91: "once the wealthiest of cities");
+`claims/cannae-allies-defected` gave Polybius 3.118 a defector list it
+does not contain (that is Livy 22.61) and had "most of the Greek south"
+defecting within months (Tarentum 212). Added: twelve of thirty Latin
+colonies refusing men and money in 209 (Livy 27.9). The
+`rawlings-war-in-italy-2011` source entry had unverified claims ("the
+standard reference", "coherent arc", "aligns with the site") and is now
+bibliographic only; its characterization was removed from the take, the
+defections claim and `cannae-march-on-rome` (also its Goldsworthy line).
+The open question's "Hoyos, Goldsworthy, Lazenby, Miles" holders are now
+Miles only, and its "largely rejected by modern scholarship" lines are
+gone. **Open:** the defections claim still cites MacDonald 2015 and
+Rawlings 1996 with unverified summaries; the user is reading MacDonald.
+
 **Housekeeping found, not yet done:** `editorialTakes/tpw-why-destruction`
 answers the same question as `destruction-not-weak-enough` and still
 says the relocation demand was "deliberately impossible to accept";

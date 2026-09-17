@@ -23,7 +23,7 @@ referenced_claims:
   - cannae-maharbal-anecdote
   - cannae-tactical-legacy
   - hannibal-limited-war-aims
-last_revised: "2026-09-16"
+last_revised: "2026-09-17"
 ---
 
 ## The road to Cannae
@@ -121,10 +121,11 @@ What Hannibal did instead was characteristic. He sent his brother Mago
 back to Carthage to deliver the news (and, in the famous and probably
 exaggerated tradition, a bushel of equestrian gold rings taken from
 Roman dead). He opened negotiations with Italian communities. Capua,
-the second city of Italy, defected within weeks. Most of the Italian
-south followed. By the end of 216 BCE, much of Magna Graecia and a
-substantial part of central Italy was either in revolt or actively
-allied with Hannibal. The strategic logic of Hannibal's whole Italian
+which Polybius calls once the wealthiest of cities, defected within
+weeks, and much of Samnium, Bruttium, Lucania and part of Apulia went
+over. The Greek cities of the south followed over the next few years,
+Tarentum only in 212. Latium, the Latin colonies, Etruria and Umbria
+did not. The strategic logic of Hannibal's whole Italian
 campaign, to break Rome's confederation and force negotiation, was
 working.
 

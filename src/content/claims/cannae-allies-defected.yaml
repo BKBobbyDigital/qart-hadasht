@@ -1,29 +1,37 @@
 slug: cannae-allies-defected
 statement: >
-  Major Italian allies of Rome, including Capua, the second-largest city
-  of Italy, and most of the Greek south, defected to Hannibal in the
-  weeks and months after Cannae.
+  Major Italian allies of Rome defected to Hannibal after Cannae: Capua
+  in 216 with its Campanian neighbors, much of Samnium, Bruttium,
+  Lucania and part of Apulia, and over the following years Greek cities
+  of the south, Tarentum among them in 212. The defections were
+  concentrated in southern Italy; Latium, the Latin colonies, Etruria
+  and Umbria did not go over.
 confidence: attested
 scholarly_consensus: >
-  Universally accepted. The pattern of Italian defections in the year
-  after Cannae is well-documented and is generally read as evidence that
-  Hannibal's broader strategy, to break Rome's confederation rather than
-  to take Rome itself, was at least partly working.
+  The defections are attested in Polybius and Livy, though Livy's list
+  (22.61) gathers into one sentence defections that took several years,
+  and Polybius has Tarentum surrender at once when it fell only in 212.
+  The site reads them as evidence that Hannibal's strategy of detaching
+  Rome's allies partly worked (see the
+  [editorial take](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)).
 sources:
   - source: polybius-histories
     stance: supports
     passage_ref: "3.118"
     passage_summary: >
-      Polybius lists the principal defections, Capua, Atella, Calatia,
-      most of Bruttium and Lucania, the Hirpini, and parts of Apulia,
-      and treats this as the immediate consequence of Cannae.
+      After Cannae the Carthaginians became masters of almost all the
+      rest of the coast: Tarentum surrenders (in fact in 212), and
+      Argyrippa and some Campanian towns invite Hannibal in.
+      Polybius's own list of defectors does not survive.
   - source: livy-auc
     stance: supports
     passage_ref: "22.61, 23.1-7"
     passage_summary: >
-      Livy gives a fuller and more dramatic account of Capua's defection
-      in particular, including the negotiations and the city's
-      conditions.
+      Lists those who revolted: the Atellani, Calatini and Hirpini, part
+      of Apulia, the Samnites except the Pentri, the Bruttii and
+      Lucanians, the Uzentini, most of the Greek coast (Tarentum, Croton,
+      Locri) and Cisalpine Gaul. Gives a full account of Capua's
+      defection and its terms.
   - source: macdonald-hannibal-2015
     stance: supports
     passage_summary: >
@@ -41,16 +49,6 @@ sources:
       defeat. The framing reads the defections as expressions of
       agency by peoples whose interests intersected the Punic War
       without being absorbed by it.
-  - source: rawlings-war-in-italy-2011
-    stance: supports
-    passage_summary: >
-      Standard reference chapter on the Italian theater. Treats the
-      post-Cannae defection wave as the moment Hannibal's
-      alliance-detachment strategy came closest to working, and
-      analyzes the Roman response (the legal-political mechanisms
-      used to discourage further defections, the punitive treatment
-      of recovered allied cities) as evidence of how seriously
-      Rome took the strategic threat.
 entities:
   - type: event
     slug: battle-of-cannae

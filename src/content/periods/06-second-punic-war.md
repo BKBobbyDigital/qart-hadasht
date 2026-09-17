@@ -102,7 +102,7 @@ map_caption: >
   the dashed line. Battle markers at Trebia (218), Trasimene (217),
   Cannae (216), and Zama (202). Polygons and route adapted from
   Hoyos 2010 and Goldsworthy 2003.
-last_revised: "2026-09-15"
+last_revised: "2026-09-17"
 ---
 
 The Second Punic War is the most thoroughly documented war of antiquity
@@ -195,8 +195,8 @@ settlement.
 
 The post-Cannae phase produced what the strategic logic had assumed:
 Italian-allied defections. [Capua's defection](/events/capua-defection)
-in late 216 BCE was the most significant, the second city of Italy
-shifting alignment to Hannibal's coalition, and was followed by
+in late 216 BCE was the most significant, Polybius's "once the
+wealthiest of cities" shifting alignment to Hannibal's coalition, and was followed by
 substantial Greek-Italian defections in southern Italy. But the core
 Latin League and the Roman citizen base held. The strategic
 configuration Hannibal had assumed could be produced by sufficient
