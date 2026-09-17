@@ -10,14 +10,26 @@ date_composed:
   circa: true
 temporal_distance_years: 165
 access_to_witnesses: literary_tradition
-bias_notes: >
-  Roman biographer of the late Republic, contemporary with Cicero and Atticus
-  (to whom he dedicated his works). Nepos's biographies are short, Hellenizing
-  in form, and openly admiring of his non-Roman subjects in a way that
-  contrasts notably with the standard Roman annalistic treatment. For
-  Hannibal he draws on now-lost biographical sources, possibly including
-  Sosylus and Silenus, the Greek historians who accompanied Hannibal, giving
-  occasional access to traditions independent of Polybius and Livy.
+critical_read:
+  what_it_gives: >
+    A short life of Hannibal written from outside the annalistic tradition,
+    and admiring of him in a way no other Latin source is. Two passages
+    carry weight on this site: the Alpine route described as the one
+    Hercules took (3.4), and an account of the 195 denunciation that names
+    no accusers and declines to judge the charge (7), which is the principal
+    tradition standing against Livy's.
+  what_it_argues: >
+    That foreign commanders can be measured against Roman ones and come off
+    well, which is the point of a collection of lives of famous foreign
+    generals written for a Roman readership in the late Republic. The
+    brevity is a genre constraint rather than a sign of caution: he
+    compresses hard, and errs in detail.
+  dependence: >
+    He drew on lost biographical sources, possibly including Sosylus and
+    Silenus, the Greek historians who traveled with Hannibal, which is what
+    makes him occasionally independent of Polybius and Livy. Since those
+    sources are lost, the independence cannot be demonstrated, only argued
+    from where he differs.
 public_domain_translation:
   translator: John Selby Watson
   year: 1886

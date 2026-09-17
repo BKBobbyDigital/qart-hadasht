@@ -11,14 +11,32 @@ date_composed:
   range_end: -118
 temporal_distance_years: 50
 access_to_witnesses: contemporary
-bias_notes: >
-  Greek historian held as a political hostage in Rome (167–150 BCE), where he became
-  a close associate of the Scipionic family, including Scipio Aemilianus, who would
-  destroy Carthage in 146 BCE. This gave him direct access to Roman commanders'
-  testimony and family archives, but also a strongly pro-Scipionic perspective.
-  Generally considered the most reliable surviving source for the Punic Wars, with
-  a stated commitment to factual accuracy and a critical eye for predecessors like
-  Fabius Pictor.
+critical_read:
+  what_it_gives: >
+    The closest surviving narrative to the events, and for the First Punic
+    War and the Mercenary War the only continuous one. He was a Greek
+    political hostage in Rome from 167, a close associate of the Scipionic
+    family, and so had access to Roman commanders' testimony and family
+    archives. He reports reading the Romano-Carthaginian treaty texts
+    himself (3.22–26), walked part of Hannibal's route and claims informants
+    who had been present in 218 (3.48), and gives in Book 6 the fullest
+    analysis of the Carthaginian constitution that survives.
+  what_it_argues: >
+    That Rome's rise to Mediterranean dominance in fifty-three years is
+    explicable, and that its constitution and military system explain it
+    (1.1, 6.11ff). The argument shapes the judgments: commanders are sorted
+    into those who reasoned correctly and those who did not, non-citizen
+    armies illustrate a structural weakness (6.52), and rival historians are
+    attacked at length. His closeness to the family that destroyed Carthage
+    is a standing caution on the Scipios in particular.
+  dependence: >
+    For the First Punic War he worked from Philinus and Fabius Pictor while
+    criticizing both for partiality (1.14–15), so his narrative is a
+    corrected version of theirs rather than an independent one. Where he
+    reports Carthaginian deliberations in detail, that is reconstruction and
+    not testimony. Later writers used him heavily, so agreement between
+    Polybius and Livy or Diodorus frequently records one tradition rather
+    than two.
 public_domain_translation:
   translator: Evelyn Shuckburgh
   year: 1889

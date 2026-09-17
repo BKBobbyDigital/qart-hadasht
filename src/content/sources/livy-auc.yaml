@@ -11,13 +11,30 @@ date_composed:
   range_end: 17
 temporal_distance_years: 200
 access_to_witnesses: literary_tradition
-bias_notes: >
-  Roman historian writing under Augustus, ~175 years after the Second Punic War.
-  Worked from earlier sources (Polybius, Fabius Pictor, Coelius Antipater) rather
-  than direct testimony. Strong pro-Roman, moralizing voice; speeches and dramatic
-  set-pieces are often rhetorical compositions rather than reportage. Most valuable
-  where he draws on Polybius (often verifiable), least reliable in tactical detail
-  and troop figures.
+critical_read:
+  what_it_gives: >
+    The fullest continuous account of the Second Punic War, books 21–30, and
+    a great deal that survives nowhere else: Italian local detail, Roman
+    domestic politics and religion during the war, the ransom embassy after
+    Cannae (22.58), the judges' law and Hannibal's suffeteship (33.46). He
+    also names his own sources on occasion, as when he reports Cincius
+    Alimentus on Hannibal's losses in the Alps (21.38), which lets a reader
+    see a tradition being weighed.
+  what_it_argues: >
+    A moral history of Rome, written under Augustus about 175 years after
+    the war, in which the reader is meant to find examples to imitate and to
+    avoid. Carthaginian figures carry the vices the frame requires:
+    Hannibal's character sketch gives him "perfidy worse than Punic" (21.4).
+    Speeches and dramatic set-pieces are compositions, and the site treats
+    them as Livy's arguments rather than as reportage.
+  dependence: >
+    He used Polybius for portions of the Hannibalic narrative, so agreement
+    between the two is often not independent testimony. Elsewhere he follows
+    Roman annalists whose figures he sometimes reports while doubting them,
+    and Coelius Antipater, who had used Hannibal's own Greek historian
+    Silenus. The result is that a Livian detail may sit one step from a
+    Carthaginian source or four steps from a late Roman one, and the text
+    does not always say which.
 public_domain_translation:
   translator: Canon Roberts
   year: 1912

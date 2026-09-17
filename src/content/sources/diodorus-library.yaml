@@ -11,15 +11,29 @@ date_composed:
   range_end: -30
 temporal_distance_years: 500
 access_to_witnesses: literary_tradition
-bias_notes: >
-  Greek historian writing in the late Hellenistic period under Caesar and
-  Augustus. Compiled from earlier sources rather than original investigation;
-  for Carthage and Sicily, his principal source was Timaeus of Tauromenium
-  (early 3rd c. BCE), giving us indirect but valuable access to a tradition
-  hostile to Carthage from the Sicilian-Greek perspective. Reliability varies
-  sharply by passage depending on which source he was excerpting; generally
-  most reliable when paraphrasing Polybius or contemporaries of events, less
-  so for early periods.
+critical_read:
+  what_it_gives: >
+    The principal narrative for Carthaginian Sicily, and for long stretches
+    the only one: Himera, the campaigns of 409–405, the wars with Dionysius,
+    the Crimisus, and the Agathocles crisis. Books 25–26 survive as
+    fragments that carry the Mercenary War and the Barcid conquest of
+    Iberia, including the Iberian recognition of Hasdrubal as *strategos
+    autokrator* (25.12) and the judgment that the rebels' cruelty forced
+    Hamilcar to abandon leniency (25.3).
+  what_it_argues: >
+    A universal history on a moralizing frame, compiled from earlier writers
+    rather than from investigation, in which events demonstrate the
+    consequences of impiety and excess. For Sicily he depends on Timaeus,
+    whose Sicilian-Greek and anti-Carthaginian outlook comes through, and
+    his numbers are frequently impossible: he has Hamilcar sail for Himera
+    with not less than three hundred thousand men (11.20).
+  dependence: >
+    Because he excerpts, his reliability changes with whichever source he is
+    following, and a reader is really assessing that lost author. Timaeus
+    stands behind the Sicilian books; for the First Punic War the underlying
+    source may be Philinus or Polybius. The Book 25 fragments follow the
+    same sequence as Polybius Book 1 closely enough that they should not be
+    treated as independent confirmation of it.
 public_domain_translation:
   translator: C. H. Oldfather
   year: 1933

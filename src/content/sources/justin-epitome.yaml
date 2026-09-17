@@ -10,15 +10,27 @@ date_composed:
   circa: true
 temporal_distance_years: 1000
 access_to_witnesses: literary_tradition
-bias_notes: >
-  A late epitome (selective abridgement) of a now-lost universal history
-  written by Pompeius Trogus in the Augustan period. Justin's date is itself
-  uncertain, anywhere from the 2nd to 4th century CE. The text is therefore
-  a digest of a source we cannot check, written centuries after the events
-  and shaped by the epitomator's interests as well as Trogus's. Useful but
-  to be handled carefully: where Justin agrees with better-attested sources
-  he confirms; where he disagrees, the disagreement may be due to Trogus,
-  to Justin's selection, or to genuine alternative tradition.
+critical_read:
+  what_it_gives: >
+    Carthaginian material that survives nowhere else, chiefly in books 18–19:
+    the foundation story, the Malchus episode, the Magonid ascendancy, the
+    early treaties. It also carries a tradition on the 195 denunciation that
+    runs against Livy's, and the anecdote of Hannibal's restraint among
+    captive women (32.4). Where the site cannot check him, it usually cannot
+    check anyone.
+  what_it_argues: >
+    Less an argument than a selection. Justin abridged Pompeius Trogus's
+    Augustan universal history at some point between the second and fourth
+    centuries, keeping what struck him as memorable, so the text is shaped
+    twice: by Trogus's Gallo-Roman, notably un-Romanocentric frame, and by
+    an epitomator with an eye for the striking episode.
+  dependence: >
+    Everything rests on Trogus, who cannot be checked, and Trogus rests on
+    Hellenistic writers who cannot be identified. Agreement with another
+    source may mean a shared Hellenistic origin rather than confirmation.
+    Disagreement is the harder case: it may preserve a genuine alternative
+    tradition, or come from Trogus, or be an artifact of compression, and
+    the site does not usually treat a Justin variant as decisive either way.
 public_domain_translation:
   translator: John Selby Watson
   year: 1853

@@ -10,16 +10,24 @@ date_composed:
   circa: true
 temporal_distance_years: 300
 access_to_witnesses: literary_tradition
-bias_notes: >
-  An epic poem, not a history, and the site reads it accordingly.
-  Silius wrote under the Flavian emperors, almost three centuries after
-  the war, in deliberate imitation of Virgil, and he draws his narrative
-  largely from Livy while adding gods, omens, speeches and invented
-  scenes wherever the poem needs them. Where he preserves a detail no
-  historian gives, the default assumption is invention or elaboration
-  unless something independent supports it. His Hannibal is a Roman
-  epic villain of heroic stature, not a portrait built from
-  Carthaginian evidence.
+critical_read:
+  what_it_gives: >
+    As history, very little, and the site says so wherever it cites him. He
+    matters because a few details that circulate widely as fact come from
+    him alone: the name Imilce for Hannibal's wife, her mythic descent from
+    the founders of Castulo, the farewell before the Alps, and the infant
+    son (Book 3). Livy knows only that Hannibal had a wife from Castulo, and
+    does not name her (24.41).
+  what_it_argues: >
+    An epic in deliberate imitation of Virgil, written under the Flavians
+    almost three centuries after the war, in which Rome's endurance is the
+    subject and Hannibal is a villain of heroic scale. Gods, omens and
+    speeches enter wherever the poem wants them.
+  dependence: >
+    The narrative frame comes largely from Livy, so he confirms nothing that
+    Livy says. Where he supplies what no historian has, the default reading
+    is invention or elaboration, and the site marks such details as literary
+    tradition in every place they appear, including its family trees.
 summary: >
   The longest surviving Latin poem, seventeen books on the Second Punic
   War from the oath of the boy Hannibal to Scipio's triumph after Zama,

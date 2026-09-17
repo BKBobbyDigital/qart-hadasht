@@ -53,6 +53,21 @@ const sources = defineCollection({
       .enum(['contemporary', 'one_step', 'literary_tradition', 'late'])
       .optional(),
     bias_notes: z.string().optional(),
+    /**
+     * The three-part critical read on an author, shown as a box on the
+     * source page. Kept separate from `bias_notes`, which is freeform: a
+     * source that has a `critical_read` should have its bias_notes folded
+     * into these fields rather than carrying both. `dependence` is the
+     * charter's third principle applied per author — agreement between two
+     * accounts is only as strong as the independence of their traditions.
+     */
+    critical_read: z
+      .object({
+        what_it_gives: z.string(),
+        what_it_argues: z.string(),
+        dependence: z.string(),
+      })
+      .optional(),
     public_domain_translation: z
       .object({
         translator: z.string(),

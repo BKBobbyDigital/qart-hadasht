@@ -10,16 +10,28 @@ date_composed:
   circa: true
 temporal_distance_years: 300
 access_to_witnesses: literary_tradition
-bias_notes: >
-  Greek biographer writing under Trajan, drawing extensively on Polybius and
-  on now-lost Hellenistic sources. The Lives are biographies, not histories:
-  shaped by moral and characterological aims, with anecdotes selected for
-  illustrative power rather than strict reportage. Plutarch's distance from
-  his Roman subjects is real, and where he and Polybius overlap, Polybius
-  is generally to be preferred. Where Plutarch preserves material absent
-  from elsewhere, sayings, domestic details, anecdotes about Roman public
-  life, the material may be authentic transmission from lost intermediaries
-  or may be Plutarchean elaboration; usually impossible to tell.
+critical_read:
+  what_it_gives: >
+    Detail that survives nowhere else, mostly because a biographer keeps
+    what a historian discards. Cato's figs and his account of a rearming
+    Carthage (*Cato Major* 26–27) carry much of the evidence for the Third
+    Punic War's origins; *Timoleon* 28 gives the Carthaginian dead at the
+    Crimisus; *Fabius* 17 ranks Capua as the most considerable city after
+    Rome, and assigns the reproach about winning a victory and using one to
+    "Barca, the Carthaginian" rather than to Maharbal.
+  what_it_argues: >
+    That character is legible in small actions, which is why he says he
+    writes lives and not histories. Anecdotes are chosen for what they
+    reveal about a man, so a story can be well transmitted and still be
+    placed where it serves the portrait. His pairing of Greek and Roman
+    subjects also asks each life to carry a comparison.
+  dependence: >
+    He worked from a wide range of earlier writers, Polybius among them, and
+    his Cannae aftermath at *Fabius* 17–18 overlaps Livy so heavily that the
+    two should not be counted separately. Where he preserves something
+    absent elsewhere it may be genuine transmission through a lost
+    intermediary or his own elaboration, and the site says which cases it
+    can tell apart and which it cannot.
 public_domain_translation:
   translator: Bernadotte Perrin
   year: 1916

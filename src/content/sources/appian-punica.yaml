@@ -10,13 +10,30 @@ date_composed:
   circa: true
 temporal_distance_years: 350
 access_to_witnesses: literary_tradition
-bias_notes: >
-  Greek historian writing under the Antonines, ~3.5 centuries after the events.
-  Used now-lost sources (likely including Polybius and possibly Carthaginian
-  traditions transmitted via Greek intermediaries). Less reliable than Polybius
-  for the Second Punic War, but indispensable for the Third Punic War, Appian's
-  Punica is our single best continuous account of the destruction of Carthage in
-  149–146 BCE.
+critical_read:
+  what_it_gives: >
+    The only continuous narrative of the Third Punic War and the destruction
+    of Carthage, which makes him indispensable whatever his distance from
+    the events. He also preserves traditions absent from the other
+    survivors: the Sophonisba betrothal made without Hasdrubal's knowledge
+    (*Pun.* 10), Masinissa's last years and Scipio's settlement of the
+    succession (105–107), and a Cannae with Celtiberian false deserters and
+    a ravine ambush that no one else reports.
+  what_it_argues: >
+    Writing in Greek under the Antonines, about three and a half centuries
+    after the Second Punic War, he organizes his history by theater rather
+    than by year, which suits a reader who wants one war's arc and costs the
+    chronological cross-checks annalistic writing provides. The Punica reads
+    the long conflict as an enmity working itself out, and he compresses
+    heavily.
+  dependence: >
+    His sources cannot be securely identified, which is the central problem
+    in using him. Where he agrees with Polybius he may be drawing on
+    Polybius or on a tradition they share; where he differs, the difference
+    may preserve something lost or may be his own compression, and usually
+    the text gives no way to tell. The site treats his divergences as a
+    separate tradition to be reported rather than as a correction to be
+    preferred or a confusion to be discarded.
 public_domain_translation:
   translator: Horace White
   year: 1899
