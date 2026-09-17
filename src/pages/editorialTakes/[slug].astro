@@ -100,6 +100,12 @@ const relatedComparisons = allComparisons.filter((c: any) =>
       </section>
     )}
 
+    <p class="mt-10 pt-5 border-t border-sand-300 text-sm text-sand-700">
+      This is a position the site takes, not a fact it reports. The rules it
+      is held to, and the reasoning failures it tries to avoid, are set out in
+      the <a href="/charter" class="text-tyrian-700 hover:underline">evidentiary charter</a>.
+    </p>
+
     <CiteThisPage title={stripMarkdownForMeta(d.subject_question)} lastRevised={d.last_reviewed} path={`/editorialTakes/${take.id}`} />
     <VersionStamp date={d.last_reviewed} filePath={`src/content/editorialTakes/${take.id}.yaml`} />
    </article>

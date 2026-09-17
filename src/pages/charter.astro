@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// The eight principles. Held as data so the numbering, the anchor ids and
+// the TOC-less page structure stay in one place; the prose is the point,
+// so each body is a single paragraph of plain text.
+const principles = [
+  {
+    id: 'later-outcomes-do-not-prove-earlier-intentions',
+    heading: 'Later outcomes do not prove earlier intentions.',
+    body: `Because Hannibal invaded Italy in 218, it is tempting to read the
+      nineteen years of Barcid Iberia as a countdown to it. Because Carthage
+      fell in 146, Masinissa's earlier seizures look like steps toward its
+      destruction. Both readings run history backward. Intent is treated as
+      attested only where a source actually attests it; reconstructed
+      intentions are labeled as inference and given only the confidence the
+      evidence warrants.`,
+  },
+  {
+    id: 'what-happened-how-it-worked-what-was-intended',
+    heading: 'What happened, how it worked, and what was intended are three questions.',
+    body: `Evidence for one is not evidence for the next. That Hannibal
+      released Italian prisoners is attested. That he did it to detach Rome's
+      allies is what Polybius says it was for. What settlement he ultimately
+      wanted is much less recoverable, and the site says so rather than
+      letting the secure fact carry the speculative one.`,
+  },
+  {
+    id: 'agreement-is-only-as-strong-as-independence',
+    heading: 'Agreement between ancient authors is only as strong as the independence of their traditions.',
+    body: `Four surviving accounts of Cannae are not four witnesses. Livy used
+      Polybius for portions of his Hannibalic narrative; Plutarch and Appian
+      drew on traditions that overlap with surviving and lost earlier
+      histories. The source comparisons are laid out in parallel columns, and
+      that layout can imply an independence the texts do not have.`,
+  },
+  {
+    id: 'a-hostile-source-is-not-a-false-one',
+    heading: 'A hostile source is not a false one, and a motive is not a refutation.',
+    body: `Polybius moralizes about the rebel leaders of the Mercenary War,
+      and his analysis of how that war escalated is still the best thing
+      anyone wrote about it, which is why this site's own reading leans on
+      him. Showing why an ancient author wanted a story to be true is not the
+      same as showing it was not.`,
+  },
+  {
+    id: 'correcting-the-roman-picture',
+    heading: 'Correcting the Roman picture is not evidence for its opposite.',
+    body: `This is the failure mode a site like this one invites. Carthage's
+      dependence on non-citizen troops was real; so was its imperial coercion
+      in Africa. Where the traditional account is substantially right, the
+      site says so, and says where the generalization built on it goes wrong.
+      A revisionist reading gets no presumption in its favor here.`,
+  },
+  {
+    id: 'define-the-term',
+    heading: 'Define the term before using it as a conclusion.',
+    body: `Empire, state, client, mercenary, province: these words arrive with
+      conceptual baggage that can predetermine the answer if they are not
+      defined first. The site's position on Barcid Iberia only became arguable
+      once "state" meant a durable territorial and fiscal polity rather than a
+      sovereign kingdom, and its position on empire only once "empire" meant
+      durable unequal power rather than provinces and governors.`,
+  },
+  {
+    id: 'date-and-locate-the-system',
+    heading: 'Date and locate the system.',
+    body: `Carthaginian power in the sixth century, the fourth, under the
+      Barcids and after 201 were different arrangements. So were Carthage's
+      relationships with Libya, Utica, Sardinia, Sicily and Iberia; so was the
+      army; so was Rome's treatment of Masinissa. A description of how
+      Carthage governed that does not say when and where is wrong somewhere.`,
+  },
+  {
+    id: 'where-the-evidence-cannot-decide-stop',
+    heading: 'Where the evidence cannot decide, stop.',
+    body: `The exact peace Hannibal wanted, the proportion of children at the
+      Tophet who were sacrificed, how much contact he had with Antiochus
+      before 195: these are not gaps to be closed by picking the most coherent
+      story. Open questions are a collection on this site because unresolved
+      is an answer.`,
+  },
+];
+---
+
+<BaseLayout
+  title="The evidentiary charter"
+  description="Eight principles governing how Qart-Hadasht reasons from the surviving evidence for ancient Carthage: on intention, independence of sources, hostile testimony, revisionist correction, definitions, chronology, and where to stop."
+>
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <article class="max-w-3xl min-w-0">
+      <p class="eyebrow mb-3">Methodology</p>
+      <h1 class="font-serif mb-4">The evidentiary charter</h1>
+
+      <p class="text-lg text-sand-900 leading-snug">
+        Most of the literary evidence that survives about Carthage comes
+        through Greek and Roman traditions, often from societies that fought
+        it, and much of that survives only because later writers found it
+        worth preserving. Reconstructing anything under those conditions means
+        making judgments, and judgments can go wrong in patterned ways. These
+        eight principles are the patterns this site tries to avoid. They are
+        also the standard it asks to be held to.
+      </p>
+
+      <div class="charter mt-12">
+        {principles.map((p, i) => (
+          <section class="charter-item">
+            <h2 id={p.id}>
+              <span class="charter-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              {p.heading}
+            </h2>
+            <p>{p.body}</p>
+          </section>
+        ))}
+      </div>
+
+      <aside class="mt-14 pl-5 border-l-4 border-tyrian-700">
+        <p class="text-sand-900">
+          None of this makes the site pro-Carthage. It is not trying to
+          rehabilitate a city; it is trying to reconstruct one under
+          evidentiary conditions that are unusually bad and unusually
+          one-sided. Where the two aims pull apart, reconstruction wins.
+        </p>
+        <p class="text-sand-900 mt-4">
+          A charter is a claim a site makes about itself, and claims about
+          oneself are the hardest ones to check. This one is audited: the
+          site's editorial positions are reviewed against the ancient texts in
+          passes recorded in its revision history. Every pass so far has found
+          something the site stated too strongly, attributed incorrectly, or
+          failed to qualify, and therefore something these principles should
+          have caught.
+        </p>
+      </aside>
+
+      <p class="mt-12 pt-6 border-t border-sand-300 text-sm text-sand-700">
+        The machinery these principles run on is described on the
+        <a href="/methodology" class="text-tyrian-700 underline">methodology page</a>:
+        claims and their confidence labels, source distance, stance, and how
+        editorial takes and open questions differ. The site's labeled
+        positions are collected under
+        <a href="/narratives" class="text-tyrian-700 underline">narratives and synthesis</a>.
+      </p>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  /* The principles are full sentences rather than short section labels, so
+     they take a smaller, lighter heading than the standard prose h2 (which
+     carries a 2px ink rule at clamp 1.55–2.15rem and would read as eight
+     chapter openings). Hairline rule, Bricolage 700, tyrian number in the
+     site's graphic system. */
+  .charter-item + .charter-item { margin-top: 2.2rem; }
+  .charter-item h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.32rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 0.6rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--color-rule);
+  }
+  .charter-item:first-child h2 { padding-top: 0; border-top: none; }
+  .charter-num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--color-tyrian);
+    margin-right: 0.5rem;
+  }
+  .charter-item p {
+    max-width: 68ch;
+    line-height: 1.65;
+  }
+</style>
