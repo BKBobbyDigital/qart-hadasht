@@ -651,9 +651,9 @@ the last build.
 | people | 82 |
 | places | 62 |
 | sources | 84 |
-| claims | 178 |
+| claims | 179 |
 | editorialTakes | 26 |
-| openQuestions | 21 |
+| openQuestions | 20 |
 | artifacts | 41 |
 | narratives | 45 |
 | themes | 18 |
@@ -2173,6 +2173,49 @@ Hannibal's whole route (prompted by the map in Miles). Commits
   below. Captions must name what the map simplifies (principal moves
   only, unknown Alps pass, reconstructed walls).
 
+### After Cannae: the march on Rome and Hannibal's aims (Sep 2026)
+
+From Miles pp. 280–282 (user photos). Commit `49df531`. The site already
+held Miles's position (no march on Rome; Hannibal wanted a settlement),
+so the pass fixed errors and sourced it properly. **User-confirmed
+decisions:** cite Miles wherever the argument is his; and on blame, the
+site now says **Hannibal misjudged Rome** (Miles: "first serious
+miscalculation"). The expectation of negotiation was reasonable by
+Hellenistic practice, but Rome's refusal to treat with Pyrrhus while he
+was in Italy (Plutarch *Pyrrhus* 18–19, Appius Claudius Caecus) was a
+precedent pointing the other way. The old "no fault" reading is now a
+competing position, and the take states the charge's limits.
+
+**Errors fixed:** the march-on-Rome take said Hannibal never took a city
+by storm (Saguntum fell by storm after eight months, Polybius 3.17); the
+refusal take credited Maharbal's reproach to Polybius (it is Livy
+22.51); the Maharbal claim invented a post-Cannae council in Polybius
+(3.117–118 has none); Carthalo's page cited Polybius 6.58 for Carthalo
+(only Livy 22.58 names him; Polybius has the ten captive envoys).
+
+**Content:**
+- New `claims/hannibal-limited-war-aims.yaml` (inferred): ransom embassy
+  and Carthalo's instructions (Livy 22.58, Polybius 6.58), the "not a war
+  of extermination" speech (flagged as Livy's composition), and the
+  Philip V treaty, which plans a peace with a surviving Rome (Polybius
+  7.9). Miles's reconstruction (Rome cut to a central Italian power,
+  Italian cities freed, Sardinia and Punic Sicily recovered) is his, and
+  the claim notes it goes beyond restoring the pre-264 position, since
+  Rome already led its Italian alliance then. The user's first framing
+  ("restore the pre-war order") was corrected on that point.
+- `editorialTakes/cannae-march-on-rome.yaml` rewritten as prose: officers
+  urging rest (Livy 22.51), ~400 km, the squared-stone wall (Livy 6.32),
+  post-Cannae garrison, levies and 8,000 slaves (Livy 22.57), the 211
+  march to the walls and withdrawal (Polybius 9.5–7).
+- `editorialTakes/cannae-roman-refusal-to-negotiate.yaml` rewritten with
+  the misjudgment position and Miles's two reasons (Greek education; no
+  Iberian-era experience of Rome).
+- **Open-question merge:** `cannae-strategic-objective` deleted and
+  folded into `openQuestions/hannibal-italian-objective.yaml` (new
+  "what the settlement would have been" paragraph, annihilation-battle
+  candidate, Miles added as a holder); 301 in `netlify.toml`.
+- `narratives/battle-of-cannae.md` aftermath section updated to match.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -2826,8 +2869,9 @@ The user does not want:
   - `sourceComparisons/sophonisbas-death.yaml` — women's-history
     framing; Livian noble-tragic vs Diodoran politically
     substantive Sophonisba
-  - `sourceComparisons/alps-crossing.yaml` — vinegar-on-rocks
-    as the textbook case of Latin literary invention
+  - `sourceComparisons/alps-crossing.yaml` — the hard-or-ordinary
+    quarrel (Silenus vs Polybius, with Miles) and the vinegar
+    episode as a Livian addition absent from Polybius
 
 - **Battle diagrams** (data-driven tactical SVG):
   - `data/battles/battle-of-cannae.ts` — the POC; two phases,
