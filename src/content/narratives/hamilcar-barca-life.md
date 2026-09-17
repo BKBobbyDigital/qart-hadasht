@@ -205,8 +205,7 @@ imagination required for this work is substantial. The
 operational competence is equally substantial. Polybius,
 who is generally cautious about praising Carthaginian
 commanders, treats Hamilcar with consistent respect across
-his references; the modern scholarly consensus has followed
-suit.
+his references; modern treatments have generally followed him.
 
 ## A note on sources
 

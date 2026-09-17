@@ -89,8 +89,7 @@ The Philinus controversy stop is included deliberately. Whether a
 fourth treaty existed at all is one of the most-discussed
 historiographical questions of the surviving Greco-Roman record;
 Polybius's denial is itself one of his most explicit
-methodological-historical statements. The site's position follows
-the modern consensus (Polybius's denial holds), but the question is
+methodological-historical statements. The site's position follows Polybius's denial, but the question is
 preserved as a contested-existence event because the controversy
 itself is significant for understanding how disputed the diplomatic
 record was even in the generation that lived through the events.

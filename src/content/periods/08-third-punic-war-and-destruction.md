@@ -67,9 +67,7 @@ waiting for; it ends with the systematic razing of one of the largest
 cities of the ancient Mediterranean and the formal end of the
 Carthaginian state.
 
-The site takes the position (broadly the modern scholarly consensus
-across Hoyos, Goldsworthy, and Miles, though contested by the
-surviving Roman tradition's own framing) that **Carthage was
+The site takes the position (against the surviving Roman tradition's own framing) that **Carthage was
 destroyed in 146 BCE not because it had become weak but because it
 had not become weak enough**: the recovery's visibility across the
 [preceding long peace](/periods/07-the-long-peace) was itself the

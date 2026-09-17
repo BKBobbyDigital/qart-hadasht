@@ -34,8 +34,7 @@ toponymic. Greco-Roman sources identify him with Kronos and Saturn, an
 identification with consequences for how the Tophet evidence has been read.
 His title and image appear on stelae from the Tophet precinct in greater
 numbers than any other deity. Whether he ranked above or alongside the other
-principal Carthaginian deities is debated; the consensus is that he was
-preeminent in the early Carthaginian period and shared that status with
+principal Carthaginian deities is debated; the better-supported reading is that he was preeminent in the early Carthaginian period and shared that status with
 Tanit from approximately the 5th century BCE onward.
 
 **Tanit** (𐤕𐤍𐤕, *Tinnit* in Punic), styled "face of Baal" (*Pene Baʿal*) in

@@ -272,7 +272,17 @@ const REGRESSIONS = [
 
 // Review terms: overstated confidence and outcome-read-as-design.
 const REVIEW = [
-  { id: 'consensus', re: /(?<!scholarly_)\bconsensus\b/i, ask: 'Is there a source for the consensus, or is it our impression?' },
+  // Asserting a consensus is the fault. Denying one ("no consensus", "not
+  // the consensus position"), or describing an ancient body failing to
+  // reach one, is not, so those forms are skipped to keep the count
+  // meaningful. Historiographical narration of how a consensus shifted over
+  // time still trips this and has to be judged by eye; the tophet
+  // controversy narrative is the main legitimate case.
+  {
+    id: 'consensus',
+    re: /(?<!scholarly_)(?<!no )(?<!not a )(?<!not the )(?<!without )(?<!established )\bconsensus\b/i,
+    ask: 'Is there a source for the consensus, or is it our impression?',
+  },
   { id: 'universal', re: /\b(universally|overwhelmingly|invariably)\b|\b(all|most) (modern )?(scholars|historians)\b|\b(scholars|historians) agree\b/i, ask: 'Who, exactly? Name a holder or describe the reading.' },
   { id: 'inevitable', re: /\binevitabl[ey]\b/i, ask: 'Does a source say this, or does the outcome?' },
   { id: 'design-from-outcome', re: /\bcalibrated\b(?! (to approximately|dates|radiocarbon))|\bplanned outputs?\b|\bfrom the (outset|start)\b|\bdeliberately impossible\b|\bby design\b/i, ask: 'Is intent attested, or read back from what happened?' },
