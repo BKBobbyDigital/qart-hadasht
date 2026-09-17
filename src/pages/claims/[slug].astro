@@ -196,13 +196,9 @@ const title = stripMarkdownForMeta(d.statement, 80);
 
     {siblings.length > 0 && subject && (
       <section class="mt-10">
-        <h2 class="font-serif text-xl mb-1">
+        <h2 class="font-serif text-xl mb-3">
           Other claims on {subject.title}
         </h2>
-        <p class="text-sm text-sand-700 mb-3">
-          What the site records about this subject, one statement at a time. It
-          is what has been written up, not everything that is known.
-        </p>
         <ul class="space-y-2">
           {siblings.map((c: any) => (
             <li class="flex items-start gap-3 text-sm border-l-2 border-sand-300 pl-3">

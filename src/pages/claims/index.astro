@@ -32,6 +32,13 @@ const order = ['attested', 'inferred', 'contested', 'legendary'];
       contradict it. Grouped here by confidence; on each entity page
       claims appear filtered to that entity.
     </p>
+    <p class="text-sand-700 mb-8 max-w-2xl">
+      Coverage is uneven. A claim exists where a statement needed pinning to
+      its sources or turned out to be disputed, so there are twelve on
+      Hannibal and none on many subjects the site covers well in prose. Read
+      the collection as a record of what has been examined closely, not as a
+      measure of what matters.
+    </p>
 
     {order.filter((c) => byConfidence[c]?.length > 0).map((conf) => (
       <section class="mb-10">
