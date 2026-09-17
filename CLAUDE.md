@@ -2631,8 +2631,9 @@ rest of that theme still leans integrationist and deserves its own pass.
   on modern overviews nobody has read and on no ancient or
   excavation-report source. The archaeology is not in doubt; the
   citation is. An excavation report for each would fix them.
-- **The ~20 claims that call their reading "the consensus modern" one**,
-  plus the remaining `consensus` / `universal` hits in the review half.
+- **The `universal` review term, 34 hits in 32 files.** Same family as
+  the consensus pass (Sep 2026), which took `consensus` from 43 to 9 and
+  cleared `prose-attribution` to 0. Not yet reviewed.
 - **`themes/phoenician-colonial-network`** still leans integrationist
   after its opening was qualified in audit 11; it deserves its own pass,
   read against the empire take.
@@ -2768,6 +2769,26 @@ The rule itself was refined at the same time: a name is not flagged when
 the same claim cites that scholar with a `passage_ref`, because then the
 characterization has been checked. That is why Bailey keeps his name and
 Hoyos does not.
+
+**The consensus assertions went the same way (43 → 9).** Twenty-four
+places claimed a modern consensus with nothing behind it, usually the
+formula "is the consensus modern interpretation" appended to a reading.
+In most the honest replacement was to own the inference rather than
+borrow authority for it (Akragas plunder economics, the Rhegium
+precedent, the Libyan tribute reading, the treaty-sequence trajectory,
+the Magonid ascendancy, Malchus, the Saguntum suicide distinction). Two
+were redundant: Alalia is attested at Herodotus 1.166 and needed no
+consensus behind it. Period 08 and the Hoyos Companion source entry
+carried the same unverified-attribution fault as the claims layer.
+
+The check was tightened the same way: denying a consensus, or describing
+an ancient body failing to reach one, is not the fault, so those forms
+are skipped. **The remaining 9 were read and are all legitimate** (four
+narrate the tophet debate's own shifts, two are ancient bodies, two are
+historiographical and name Mommsen and Tenney Frank, one refers to the
+Greco-Roman sources). Historiographical narration still trips the rule
+and must be judged by eye, which the script's comment records. Do not
+"fix" these.
 
 ### Active work queue (complete)
 
