@@ -62,7 +62,8 @@ stops:
     slug: roman-declaration-of-war-149
     note: >
       The deliberate demand sequence: hostages → disarmament →
-      relocation. Designed for refusal at the third stage.
+      relocation. Structured so that accepting or refusing the last demand
+      both ended Carthage as it existed.
   - type: claim
     slug: 149-demands-as-deliberate-trap
     note: >
@@ -81,7 +82,7 @@ stops:
     slug: destruction-of-carthage
     note: >
       The siege, the fall, the systematic demolition.
-last_revised: "2026-05-10"
+last_revised: "2026-09-17"
 ---
 
 The destruction of Carthage in spring 146 BCE is a single event with a

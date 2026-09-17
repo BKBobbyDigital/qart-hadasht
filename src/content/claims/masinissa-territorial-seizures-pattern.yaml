@@ -1,58 +1,106 @@
 slug: masinissa-territorial-seizures-pattern
 statement: >
-  Masinissa's encroachments on Carthaginian territory across
-  the half-century from Zama (202 BCE) to his death (148 BCE)
-  followed a consistent pattern: a Numidian seizure of a
-  contested Carthaginian-frontier zone, followed by a
-  Carthaginian appeal to Rome under the Treaty of 201's
-  allied-protection clause, followed by a Roman commission
-  ruling in Masinissa's favor. The pattern repeated through
-  multiple territorial transfers, including the
-  Emporia/Lesser Syrtis coast in the 190s, Carthaginian
-  border districts in the central African plain across
-  the 170s and 160s, and the "Great Plains" agricultural
-  region (Latin: *Campi Magni*) and the Tysca/Thusca
-  district in the 150s. The cumulative territorial loss
-  reduced Carthaginian Africa to a substantially smaller
-  hinterland than the Treaty of 201 had nominally
-  preserved.
-confidence: attested
+  In the half-century after Zama, Masinissa repeatedly seized land that
+  Carthage held under the Treaty of 201, and Carthage repeatedly took
+  the disputes to Rome. How Rome handled those disputes is contested.
+  The ancient accounts describe Roman arbitration that favored Masinissa,
+  by decision or by delay; recent scholarship argues that Rome largely
+  upheld the settlement of 201 until the 160s and that some decisions
+  went Carthage's way.
+confidence: contested
 scholarly_consensus: >
-  The pattern itself is firmly attested across Polybius's
-  surviving fragments, Appian, and Livy's surviving
-  coverage, with broad acceptance in modern scholarship.
-  Specific seizure-by-seizure chronology is imperfectly
-  preserved, the surviving sources name principal
-  episodes but not a complete inventory, and modern
-  reconstructions vary somewhat in exact dating. The
-  structural pattern is uncontested.
+  The seizures and the Carthaginian appeals are attested. The older
+  modern view took the ancient picture of Roman favoritism as a
+  description of the whole period, a fifty-year policy of weakening
+  Carthage through Masinissa that ended in the Third Punic War. Dexter
+  Hoyos argues that Rome in fact rebuffed Masinissa's annexation attempts
+  until after 167 BCE, and Colin Bailey argues that Rome sought to keep
+  the territorial division of 201 through most of the period and ruled
+  for Carthage more than once. Because the record of individual rulings
+  is fragmentary, the question turns on how far the ancient
+  generalizations can be trusted.
+dispute_summary: >
+  The surviving episodes point in more than one direction.
+
+  In 193 Masinissa seized the Emporia, the rich coastal district on the
+  Lesser Syrtis. Rome sent a commission that included Scipio Africanus,
+  and it decided nothing, which left the land with the stronger party
+  (Livy 34.62). Appian generalizes this into a method: Roman envoys
+  confirmed Masinissa's gains by declining to rule or by delaying until
+  Carthaginian interests were ruined, as he says happened over the Great
+  Plains and the district of Tysca with its fifty towns (*Punica* 68).
+
+  In the 160s Masinissa took the open country of the Emporia again and
+  then pressed for the towns. Polybius, a contemporary living in Rome,
+  says Carthage lost not only the land and towns but five hundred talents
+  of revenue, and that Carthage always came off worse at Rome, not
+  because it lacked right on its side but because the judges thought a
+  ruling against it served Rome (31.21). This is the strongest ancient
+  testimony for favoritism, and the revisionist case has to account for
+  it.
+
+  Other episodes do not fit a simple pattern. Livy's summary records a
+  delegation sent to settle a border dispute in the 150s without
+  recording its outcome (*Periochae* 47). The embassy on which Cato
+  served issued no ruling at all: Masinissa agreed to arbitration, but
+  Carthage, fearing it would not receive justice, refused to reopen the
+  treaty made with Scipio, and the envoys went home (Appian *Punica* 69).
+
+  The site's reading is that Roman restraint of Masinissa weakened over
+  time, most sharply after the 160s, rather than that Rome followed one
+  policy of deciding against Carthage from Zama to 150. The cumulative
+  loss of territory was real either way, and it was one of the pressures
+  behind Carthage's decision to fight Masinissa in 150.
 sources:
-  - source: polybius-histories
-    stance: supports
-    passage_ref: "31 (fragments)"
-    passage_summary: >
-      Polybius's surviving fragments from the post-Zama
-      period preserve specific territorial-seizure episodes
-      with attention to the Roman commission pattern.
-  - source: appian-punica
-    stance: supports
-    passage_summary: >
-      Appian's account of the pre-Third-Punic-War period
-      preserves the cumulative territorial-loss pattern
-      and the role of the Roman commissions in enabling
-      it.
   - source: livy-auc
     stance: supports
+    passage_ref: "34.62"
     passage_summary: >
-      Livy's surviving coverage and his Periochae preserve
-      multiple specific commissions and territorial
-      transfers across the period.
-  - source: hoyos-carthaginians-2010
+      Masinissa seizes the Emporia in 193; a commission including Scipio
+      Africanus inspects the dispute and leaves it undecided, so the land
+      stays with the stronger party.
+  - source: appian-punica
     stance: supports
+    passage_ref: "68"
     passage_summary: >
-      Hoyos analyzes the pattern explicitly as the
-      structural mechanism producing the conditions for
-      the Third Punic War.
+      Roman envoys confirm Masinissa in possession of what he has taken
+      by declining to rule, and over the Great Plains and Tysca delay
+      arbitration until Carthaginian interests are ruined.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "31.21"
+    passage_summary: >
+      Masinissa seizes the Emporia country and presses for its towns;
+      Carthage loses the land, the towns and five hundred talents, and
+      Polybius says the Carthaginians always lost at Rome because the
+      judges thought it in Rome's interest.
+  - source: appian-punica
+    stance: qualifies
+    passage_ref: "69"
+    passage_summary: >
+      The embassy including Cato: Masinissa accepts arbitration,
+      Carthage refuses to reopen Scipio's treaty, and the envoys return
+      without a ruling.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "Periochae 47"
+    passage_summary: >
+      A senatorial delegation is sent to settle a border dispute between
+      Masinissa and Carthage; no outcome is recorded.
+  - source: hoyos-third-punic-war-diplomacy-2018
+    stance: contradicts
+    passage_summary: >
+      Contrary to the general view, Rome rebuffed Masinissa's attempts
+      to annex Carthaginian territory until after 167 BCE.
+  - source: bailey-rome-carthage-numidia-2018
+    stance: contradicts
+    passage_ref: "pp. 43–71"
+    passage_summary: >
+      Rome sought to maintain the territorial division imposed after
+      the Second Punic War throughout most of the inter-war period, and
+      several of its decisions favored Carthage; the Third Punic War
+      should not be read as the product of fifty years of Roman
+      favoritism toward Masinissa.
 entities:
   - type: person
     slug: masinissa

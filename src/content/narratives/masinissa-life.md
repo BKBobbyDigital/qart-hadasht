@@ -32,7 +32,7 @@ primary_entities:
     slug: masinissa
     role: subject
 referenced_claims: []
-last_revised: "2026-05-11"
+last_revised: "2026-09-17"
 ---
 
 ## Origins (c. 238 BCE) and early Carthaginian alignment
@@ -160,8 +160,13 @@ encroached on Carthaginian territory across the post-Zama
 period. The encroachments were incremental: a frontier
 village here, a disputed agricultural zone there, occasional
 larger raids. Carthage appealed repeatedly to Rome for
-enforcement of the treaty; Roman responses consistently
-favored Masinissa or refused to act. By the 150s BCE
+enforcement of the treaty. The ancient accounts say Rome
+favored Masinissa, by ruling for him or by declining to rule
+(Polybius 31.21; Appian *Punica* 68); recent scholarship argues
+that Rome mostly upheld the settlement of 201 until after 167
+and sometimes decided for Carthage, a dispute set out in the
+[claim on his territorial seizures](/claims/masinissa-territorial-seizures-pattern).
+By the 150s BCE
 Masinissa had absorbed substantial Carthaginian territory in
 the African hinterland.
 

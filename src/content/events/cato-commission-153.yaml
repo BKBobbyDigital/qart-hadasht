@@ -5,8 +5,8 @@ date_start:
   value: -153
   precision: year
   notes: >
-    Mid 153 BCE; the Roman senatorial commission's report to
-    the senate followed in late 153 or early 152.
+    Conventionally 153 BCE, with the report to the senate in late 153
+    or 152; the chronology of the embassies of the 150s is not secure.
 place: carthage
 participants:
   - person: cato-the-elder
@@ -25,51 +25,43 @@ related_events:
   - event: war-with-masinissa
     relation: pre-history of (the diplomatic context the commission inflamed)
   - event: third-punic-war
-    relation: structural cause of (Cato's "delenda est" advocacy began on returning from this commission)
+    relation: structural cause of (Cato's advocacy of destruction is dated from his return)
   - event: roman-declaration-of-war-149
     relation: pre-history of
 summary: >
-  The Roman senatorial commission of 153 BCE that turned
-  M. Porcius Cato (Cato the Elder) decisively against
-  Carthage and produced his subsequent decade-long
-  rhetorical campaign for the city's destruction. The
-  immediate occasion was an arbitration mission: Carthage
-  and Masinissa had submitted yet another in their
-  long-running series of border disputes for Roman
-  judgment, and the senate dispatched a commission to
-  investigate on the ground.
+  The Roman embassy to Africa, conventionally dated to 153 BCE, on which
+  M. Porcius Cato served, and which the ancient tradition makes the
+  starting point of his campaign for Carthage's destruction. It was sent
+  to arbitrate another of the border disputes between Carthage and
+  Masinissa, and it never did. Masinissa, confident of Roman support,
+  accepted arbitration. The Carthaginians, fearing from past experience
+  that they would not receive justice, refused to let the treaty made
+  with Scipio be reopened and asked only that violations of it be
+  judged; the envoys would not rule on the dispute piecemeal and went
+  home (Appian *Punica* 69).
 
-  Cato's reported reaction to what he found at Carthage
-  is preserved in detail in Plutarch (*Cato Major* 26-27)
-  and Appian (*Punica* 69). The city was prosperous —
-  substantial harbor traffic, full markets, agricultural
-  hinterland visibly recovered, fifty years after the
-  Treaty of 201 indemnity that was supposed to have
-  permanently broken Carthaginian capacity. Cato's
-  conclusion was strategic rather than legalistic: a
-  Carthage this prosperous represented an ongoing threat
-  to Roman interests, regardless of the treaty's formal
-  terms or the specific dispute the commission had been
-  sent to arbitrate.
+  What mattered was what they saw. Appian says they found the country
+  carefully cultivated, with large estates, and a city grown in wealth
+  and population since Scipio's victory, and that Cato told the senate
+  Rome's liberty would never be secure until Carthage was destroyed
+  (*Punica* 69). Plutarch's Cato found Carthage full of fighting men,
+  overflowing with wealth, and stocked with arms and military supplies,
+  and warned the senate of the danger (*Cato Major* 26). The summary of
+  Livy records a later embassy rebuking the Carthaginian senate for
+  collecting an army and ship timber contrary to the treaty (*Periochae*
+  48). In the sources, then, Carthaginian recovery is presented as
+  rearmament, a security threat, rather than as prosperity alone.
 
-  The commission's formal report to the senate appears
-  to have ruled in Masinissa's favor on the immediate
-  border dispute (consistent with prior Roman commissions
-  of 162 and 157 BCE), but Cato's larger conclusion was
-  the more consequential outcome: from his return through
-  his death in 149 BCE, Cato systematically advocated
-  for Carthage's destruction at every senatorial
-  occasion. The famous formula *Carthago delenda est*, "Carthage must be destroyed", became the rhetorical
-  signature of the campaign, with Cato reportedly ending
-  every senatorial speech, on whatever subject, with the
-  formula. (See claim: cato-delenda-est-historicity for
-  the textual transmission.)
-
-  The commission's broader significance is as the moment
-  when Roman policy shifted from arbitration-and-
-  containment of the Carthaginian-Numidian dispute to
-  active preparation for Carthage's elimination. The
-  Carthaginian decision two years later (151 BCE) to
-  respond to Masinissa's continued encroachments with
-  military force gave Cato's faction the formal legal
-  pretext his strategic argument had been waiting for.
+  From his return until his death in 149, Cato argued for Carthage's
+  destruction, reportedly ending his speeches in the senate with the
+  demand whatever the subject, while Scipio Nasica argued that Rome
+  needed Carthage as a rival to keep its own discipline (Plutarch *Cato
+  Major* 27; *Periochae* 48). Appian says the senate resolved on war at
+  this point but waited for a pretext; Polybius, the contemporary
+  witness, establishes only that war had been decided before the
+  Carthaginian surrender of 149. How far the embassy changed Roman
+  policy, rather than becoming its most memorable symbol, is weighed in
+  the editorial take
+  [Why was Carthage destroyed in 146 BCE?](/editorialTakes/destruction-not-weak-enough)
+  (See claim: cato-delenda-est-historicity for the transmission of the
+  famous formula.)

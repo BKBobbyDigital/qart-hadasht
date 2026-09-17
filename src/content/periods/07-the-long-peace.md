@@ -6,7 +6,7 @@ summary: >
   The fifty years between Zama and the Carthaginian expedition against
   Masinissa in 150 BCE. Hannibal's suffeteship and constitutional
   reforms, his exile under Roman pressure and his eventual suicide at
-  Bithynia, the systematic Numidian encroachment under Roman cover
+  Bithynia, the Numidian encroachment and disputed Roman arbitration
   across three reigns of Carthaginian senatorial coalitions, the
   substantive economic recovery that allowed Carthage to pay down the
   201 indemnity ahead of schedule, and the late-period strategic shift
@@ -37,7 +37,7 @@ principal_sources:
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
   - miles-carthage-2010
-last_revised: "2026-08-27"
+last_revised: "2026-09-17"
 ---
 
 The fifty years between Zama and the Carthaginian expedition against
@@ -100,18 +100,25 @@ the systematic exploitation of that prohibition by
 through three reigns of Carthaginian senatorial coalitions, through
 the Hannibal reforms and exile, through the gradual Roman shift from
 Greek-eastern preoccupation back to Mediterranean western — Masinissa
-encroached steadily on Carthaginian territory. Each Carthaginian
-appeal to Rome for arbitration produced commissions that invariably
-ruled in Masinissa's favor; each Carthaginian attempt to respond
-militarily would have constituted treaty violation; the encroachments
-continued.
+encroached steadily on Carthaginian territory. Carthage took the
+disputes to Rome, and any attempt to respond militarily would have
+broken the treaty. How Rome judged them is disputed. Polybius, who
+lived in Rome through these years, says Carthage always lost its cases
+because the judges thought that served Rome (31.21), and Appian
+describes envoys favoring Masinissa by delay. Hoyos and Bailey argue
+that Rome mostly upheld the settlement of 201 until after 167 and
+sometimes ruled for Carthage. The surviving rulings are few, and the
+site reads them as Roman restraint of Masinissa weakening over time,
+most sharply in the last decades of the peace (see the
+[claim on Masinissa's seizures](/claims/masinissa-territorial-seizures-pattern)).
+The encroachments continued.
 
 The pattern's strategic logic on the site's reading involves three
 parallel actors, not two. Masinissa was pursuing his
 own Numidian aggrandizement program, not Roman bidding, with full
 understanding of how far Roman patronage would back his pressure;
-Rome was enabling the program because Carthaginian
-containment served Roman strategic interests; and the Carthaginian
+Rome, at least in the later decades, tolerated the program because
+Carthaginian containment served Roman interests; and the Carthaginian
 state was unable to respond except through the
 treaty-violating military action that would eventually trigger the
 Roman intervention all three actors' positions made structurally
@@ -164,14 +171,14 @@ for destruction is treated separately in
 The political shift that converted the Roman approach from arbitration
 to active preparation for Carthage's elimination is conventionally
 dated to the [Roman commission of 153 BCE](/events/cato-commission-153)
-on which [Cato the Elder](/people/cato-the-elder) served. Cato's
-report to the senate is preserved in Plutarch and Appian: the city he
-saw at Carthage was prosperous, with full markets, substantial harbor
-traffic, agricultural hinterland visibly recovered. Whatever the
-specific border dispute the commission had been sent to arbitrate,
-Cato's strategic conclusion was that a Carthage this prosperous
-represented an ongoing threat to Roman interests regardless of treaty
-terms.
+on which [Cato the Elder](/people/cato-the-elder) served. The embassy
+issued no ruling, because Carthage refused to reopen the treaty, but
+what its members saw is preserved in Appian and Plutarch: carefully
+cultivated country, large estates and a city grown in wealth and
+population (Appian *Punica* 69), and in Plutarch's version a city full
+of fighting men, arms and military supplies (*Cato Major* 26). Cato's
+conclusion was that a Carthage able to recover like this was a threat
+to Rome whatever the treaty said.
 
 The famous formula *Carthago delenda est* ("Carthage must be
 destroyed," with which Cato reportedly ended every senatorial speech
