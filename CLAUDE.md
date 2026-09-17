@@ -2862,6 +2862,76 @@ the Barcid material is audit 4's nested-purposes framing with the
 "planned outputs" position quoted so it can be rejected. That last case
 is the rule working, not failing.
 
+### Reader orientation: the synthesis pages (Sep 2026)
+
+Prompted by the user's navigation document and their own complaint that
+the site has "way too much stuff and it's hard to navigate". Before
+acting on the document's four initiatives, one observation was worth
+recording: **the site already had most of what the document proposed**.
+Guided paths exist as `threads`; a newcomer door exists at `/start`;
+entity pages already aggregate claims, narratives, comparisons and takes
+by reverse-lookup, which is most of what a "topic hub" would do. What the
+document got right is the vocabulary problem, that Narratives / Themes /
+Threads / Periods are four nav words a reader cannot tell apart.
+
+**What was actually broken: the three synthesis page types were
+orphans.** A reader arriving from a search result on a claim, an open
+question or a take could not see what topic it belonged to or what else
+the site said about it. The relationships were all in the data and
+rendered nowhere. Fixed in three commits (`2d96231`, `69e263c`,
+`45fd1a9`), building only from references that already existed:
+
+- **Claim pages.** The `<h1>` was the literal word "Claim"; it is now the
+  statement, with `ClaimCard` taking a `hideStatement` prop so it is not
+  printed twice. The eyebrow names the subject entity. Three sections:
+  where the claim is used (takes, narratives, themes, comparisons: 110 of
+  179 claims are referenced by at least one), other claims on the same
+  subject (29 subjects have more than one), and where the argument is
+  (debates on the subject that do not cite this claim, kept separate so
+  "used here" reads differently from "argued here").
+- **Open questions.** Subject in the eyebrow; **"Where the site does take
+  a position"** (takes on the same subject, 15 of 20); the claims
+  underneath, capped at six; sibling questions.
+- **Takes.** Open questions on the same subject (11 of 25) and the
+  long-form narrative (19 of 25). **Sibling takes were deliberately not
+  built**: only two takes share a subject, so the section would have
+  fired twice.
+
+**Three things worth carrying forward.**
+1. **Cross-linking exposes framing errors that prose hides.** Two
+   headings were wrong on first pass and the rendered page showed it. The
+   takes section was headed "What this take does not settle" and then
+   listed the open question asking the same question the take answers;
+   the overlap is the site's design (questions weigh candidates, takes
+   commit) and the heading claimed the opposite. Name the relationship,
+   and you find out whether you understand it.
+2. **A caveat in the right place beats a caveat on every page.** The
+   sibling-claims section first carried a line saying the list was what
+   had been written up rather than everything known. True, but the
+   heading "other claims" never implied otherwise, and repeated across
+   every claim page it became a tic. Moved to the `/claims` index and
+   rewritten as information: coverage is uneven, a claim exists where a
+   statement needed pinning to sources, read it as what has been examined
+   rather than what matters. **This is the failure mode of a week spent
+   adding qualifications; watch for it.**
+3. **Collection ids for `.md` content carry the extension.** The entity
+   resolver already stripped it and the new lookups did not: 107 broken
+   links on the first build. The link audit caught it immediately.
+
+**Still open from the navigation document, pending analytics.** The user
+is pulling GoatCounter data before anything else is built. The number
+that decides most of it: **do sessions have more than one pageview?** If
+the median visit is one deep page from search, then subject navigation
+and guided paths move very little and everything belongs in on-page
+orientation, which is what the three commits above already did. Also
+worth reading: landing pages versus all pages, referrers, the contents of
+`search-query` (the best evidence for whether the nav vocabulary is the
+problem), `not-found` paths, and the `read-complete` rate.
+
+**Small content job this surfaced:** 25 claims mark no subject entity, so
+their pages fall back to the first entity that resolves. Setting proper
+subject roles on those 25 would improve them.
+
 ### Active work queue (complete)
 
 The 6-item next-level queue plus the follow-on additions all
@@ -3033,6 +3103,22 @@ not surface unsolicited.
      his return / Scipio from Lilybaeum / Hasdrubal to the Metaurus,
      dashed uncertain legs, legend and scale. That is the design
      brief for an in-house zoomed Italy map when the maps pass opens.
+
+9. **Evidence Atlas (tabled Sep 2026).** From the user's navigation
+   document: a map plus timeline plus evidence-type filters answering
+   "where does the evidence come from", as distinct from the existing
+   maps, which answer where things happened. Click a place, pick a
+   period, follow the evidence. **Deferred deliberately, not rejected.**
+   It needs coordinates, date ranges and evidence categories standardized
+   across artifacts and places, it is a large build, and the whole maps
+   surface is already tabled as item 0 pending the user's direction.
+   There is also a demand question: the site's one real signal, the
+   Reddit launch, said readers come for arguments (the tophet
+   controversy beat Hannibal and the featured take), not for an
+   exploration interface. **Worth stealing whatever happens to it:** its
+   proposed permanent note that evidence density reflects survival,
+   excavation history and publication bias as much as ancient activity.
+   That belongs on the artifacts index regardless.
 
 ### Residual prose work — COMPLETE (June 2026)
 
@@ -3358,6 +3444,18 @@ collection:
   lookup interlinking on event / editorialTake / openQuestion /
   narrative routes — adding a new entry surfaces automatically
   in the right places.
+
+**Cross-page orientation (Sep 2026).** The claim, open-question and
+editorial-take routes derive their context sections from references that
+already exist, not from new metadata: `claims.entities` (role `subject`),
+`openQuestions.relevant_entities`, `editorialTakes.subject_entity` and
+`weighed_claims`, `narratives`/`themes.referenced_claims`,
+`narratives.primary_entities`, and `sourceComparisons.related_claims` /
+`related_takes` / `related_questions` / `subject_event`. If you add a page
+type that should participate, wire it to those fields rather than
+inventing a parallel tagging scheme. Note that `.md` collection ids
+(narratives, themes) carry the extension and must be stripped when
+building hrefs.
 
 The battle-diagram system uses data files at
 `src/data/battles/<event-slug>.ts`. Each file exports a
