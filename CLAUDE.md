@@ -2342,6 +2342,38 @@ one sentence.
 - `cannae-march-on-rome`: one sentence reading Livy 30.20's Cannae regret
   as Livy's own verdict put in Hannibal's mouth.
 
+**The peace-of-203 comparison is new and unaudited.** Source comparisons
+are the site's most error-prone format (see the second-read audits), so
+it should be early in any future review batch. It was drafted from the
+texts in the scratchpad, not from summaries.
+
+### Open threads (as of 21 Sep 2026)
+
+The user has **finished Miles's *Carthage Must Be Destroyed***; the
+Miles-driven passes above (Barcid, Heracles, Alps, Cannae, 211, Croton,
+peace of 203) are complete. Nothing below is in progress. Pick one up
+only when the user asks.
+
+- **Heracles/Alexander editorial take**: re-tabled by the user. Material
+  runs Gades → Alps → Colline Gate, with Avernus (Livy 24.12, a pretext
+  in Livy, piety in Miles) as the test case. Do not draft unprompted.
+- **Miles notes 106–109** (Juno as patron, Juno–Tanit, Uni–Astarte at
+  Pyrgi): check them before anything from p. 305 goes on the site.
+- **Page references still owed from reading**: Miles on the Third Punic
+  War and the Demeter-Kore incense burners; MacDonald's *Hannibal*;
+  Hoyos 2018 and *Truceless War* (see "Open items" under the second-read
+  audits).
+- **Index-page nav vocabulary** (Narratives / Themes / Threads /
+  Periods): reopened, scoped down, after the analytics; design options
+  not yet drawn up.
+- **25 claims with no subject entity**: a small content job that would
+  improve their pages' eyebrows and sibling lists.
+- **A new evidence-audit rule** for pages stating a position more firmly
+  than the take they link to (three cases found this month).
+- **User action, not a code change**: visit
+  `qart-hadasht.org/#toggle-goatcounter` once per browser to exclude
+  their own visits from analytics.
+
 ### The Alps: hard or ordinary (Sep 2026)
 
 From Miles pp. 258–259 (user photos). Commit `d517de4`. Hannibal's
