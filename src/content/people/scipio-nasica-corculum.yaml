@@ -8,9 +8,13 @@ etymology: >
   Nasica, the *vir optimus* selected to receive the Magna
   Mater in 204 BCE) and his son (Scipio Nasica Serapio).
 birth:
-  value: -227
-  precision: year
+  value: -205
+  precision: decade
   circa: true
+  notes: >
+    Not recorded. His consulship of 162 puts his birth around 205 or
+    earlier; the date of about 227 sometimes given belongs to his father,
+    consul in 191.
 death:
   value: -141
   precision: year
@@ -19,66 +23,39 @@ roles:
   - consul (162 and 155 BCE)
   - censor (159 BCE)
   - princeps senatus (147–141 BCE)
-  - principal senatorial opponent of Cato's "delenda est" advocacy
+  - principal senatorial opponent of Cato's campaign for war on Carthage
 polity: Rome
 summary: >
-  The Roman senator who served as the principal sustained
-  opponent of Cato the Elder's decade-long advocacy for
-  Carthage's destruction. Scipio Nasica Corculum was the
-  son-in-law of Scipio Africanus (married to Africanus's
-  daughter Cornelia), held the consulship twice (162 and
-  155 BCE), the censorship in 159 BCE, and was elected
-  *princeps senatus* (head of the senate's speaking order)
-  in 147 BCE, a position he held until his death in 141.
+  The Roman senator who led the opposition to Cato the Elder's campaign
+  for war on Carthage in the late 150s. Scipio Nasica Corculum was the
+  son-in-law of Scipio Africanus (married to Africanus's daughter
+  Cornelia), consul in 162 and 155 BCE and censor in 159, and is usually
+  said to have been *princeps senatus*, first in the senate's speaking
+  order, from 147 until his death in 141.
 
-  His political importance for Carthaginian history lies
-  in his consistent senatorial opposition to Cato's
-  campaign for the city's destruction. Where Cato ended
-  every senatorial speech with the famous formula
-  advocating destruction, Nasica reportedly ended his with
-  the counter-formula *Carthago servanda est*, "Carthage
-  must be preserved", though the surviving textual
-  evidence for this exact formula is, like Cato's
-  *delenda est*, somewhat reconstructed from Plutarch's
-  Greek-language preservation.
+  His importance for Carthaginian history is that he won the argument
+  for several years before losing it. The summary of Livy's Book 48 has
+  Cato move for war three times and the senate each time follow Nasica,
+  sending envoys to investigate and then passing a conditional
+  resolution, on his grounds that nothing should be done rashly and that
+  no just cause for war yet existed. Plutarch (*Cato Maior* 27) says that
+  where Cato added to every vote that Carthage must not exist, Nasica
+  added that it should be spared; Florus (1.31) gives the Latin as
+  *servandam*. On why the popular tags are modern, see
+  [the claim on Cato's phrase](/claims/cato-delenda-est-historicity).
 
-  The substantive political argument Nasica made, preserved
-  most fully in Plutarch (*Cato Major* 27) and in Diodorus
-  (34/35 fragment), was structural: Carthage's
-  preservation was strategically valuable to Rome
-  precisely *because* it kept the Roman political class
-  disciplined. The fear of an external rival, Nasica
-  argued, was the principal mechanism preventing the
-  internal moral and political decay that would otherwise
-  follow Roman Mediterranean dominance. The famous
-  Augustinian critique of Roman virtue as
-  fear-of-Carthage-dependent (*De Civitate Dei* 1.30)
-  draws explicitly on this Nasica-tradition argument
-  preserved through the Stoic-Roman moral-political
-  literature.
+  The reason he is remembered for is a different one: that Rome needed a
+  Carthage to fear, to keep its people disciplined and its rule over its
+  allies restrained. Plutarch, Appian, Florus and a fragment of Diodorus
+  give it, and Augustine (*City of God* 1.30) later cited it as a
+  prophecy that came true. All of them wrote after the Gracchi and the
+  civil wars, and Plutarch offers the motive as his own guess, so the
+  argument may owe more to later Roman explanations of the republic's
+  decline than to what Nasica said in the 150s. The two reasons are
+  weighed in [the claim on his opposition](/claims/nasica-opposition-to-delenda-est).
 
-  Nasica's position lost the senatorial debate. Cato died
-  in 149 BCE shortly after the war's outbreak; the war
-  proceeded without him; the destruction occurred in 146
-  BCE while Nasica was *princeps senatus*. Whether
-  Nasica's continued senatorial influence affected the
-  war's prosecution is contested in modern scholarship:
-  the evidence is consistent with persistent Nasica
-  opposition that did not prevent the destruction but
-  may have shaped its terms. After 146 BCE Nasica's
-  position was reportedly vindicated in his own framing:
-  the Roman political class did indeed shift toward the
-  internal conflicts of the Gracchan period within a
-  generation of Carthage's destruction, consistent with
-  his earlier prediction.
-
-  Nasica is one of the more morally interesting figures
-  of late-republican-era Roman senatorial politics.
-  Plutarch, Diodorus, and the later Stoic tradition treat
-  him as the exemplary case of strategic-moral foresight
-  in the senatorial debate; modern scholarship has been
-  more cautious about taking his preserved arguments at
-  face value, since they reach us through filters
-  (Plutarch, Augustine) that have their own reasons to
-  preserve a counter-narrative to the destruction-as-
-  inevitable framing.
+  The war was declared in 149, over his objection, after Carthage had
+  fought Masinissa without Roman consent. The name Nasica was also borne
+  by his father, the *vir optimus* chosen to receive the Magna Mater in
+  204, and by his son Serapio, who led the killing of Tiberius Gracchus
+  in 133; the later tradition sometimes runs the three together.

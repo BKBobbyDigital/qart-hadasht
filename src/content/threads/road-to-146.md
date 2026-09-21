@@ -106,8 +106,8 @@ where they belong in the chronology.
 
 The thread is also a survey of how to read pre-modern strategic
 diplomacy. The Roman commissions of 162, 157, and 153 BCE are not
-individual decisions; they're a pattern. Cato's *delenda est* is not
-a sudden conviction; it's the conclusion of a strategic analysis
-that the surviving Carthaginian recovery had been forcing for years.
+individual decisions; they're a pattern. Cato's campaign is not a
+sudden conviction; it answers a recovery the envoys had been
+reporting as rearmament for years.
 The 149 demand sequence is not a negotiation; it's an instrument.
 Each stop preserves a piece of evidence; the pattern is the point.

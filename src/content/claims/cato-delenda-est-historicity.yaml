@@ -1,65 +1,89 @@
 slug: cato-delenda-est-historicity
 statement: >
-  The famous formula *Carthago delenda est* ("Carthage must be
-  destroyed"), with which Cato the Elder reportedly ended every
-  senatorial speech regardless of topic from his return from the
-  153 BCE commission through his death in 149 BCE, does not
-  survive in any contemporary source in this exact wording. Plutarch
-  (*Cato Major* 27) preserves the rhetorical pattern but
-  gives the phrase as *Δοκεῖ δέ μοι καὶ Καρχηδόνα μὴ εἶναι*
-  ("It seems to me that Carthage must not exist"). The
-  Latin tagline most cited in modern usage is a post-
-  classical retrojection of Plutarch's Greek into idiomatic
-  Latin form.
-confidence: contested
-dispute_summary: |
-  Three layers of contestation:
+  Cato's habit of calling for the destruction of Carthage in the senate,
+  whatever the question, is reported only by writers of the first and
+  second centuries CE, more than two hundred years after his death; the
+  earlier Latin texts give his hostility but not the refrain. No ancient
+  text contains the famous phrase *Carthago delenda est* or *ceterum
+  censeo Carthaginem esse delendam*; both are modern forms.
+confidence: attested
+dispute_summary: >
+  Nothing Cato wrote that survives contains the saying. The texts that
+  report it, in order of date:
 
-  1. The rhetorical practice. That Cato systematically
-     advocated for Carthage's destruction in his senatorial
-     speeches across the 150s BCE is firmly attested in
-     Plutarch and broadly accepted. The structural fact
-     of the campaign is uncontroversial.
+  - **Cicero, *De senectute* 18 (44 BCE).** A dialogue set in 150 in which
+  Cato says he will not stop fearing Carthage until he learns it has been
+  destroyed (*excisam*). A century after the event, in Cicero's words, and
+  not a refrain.
 
-  2. The exact formula. No source preserves "Carthago
-     delenda est" or "Ceterum censeo Carthaginem esse
-     delendam" (the most common modern citation form) in
-     the exact words. Plutarch's Greek formula is the
-     closest surviving attestation; the canonical Latin
-     phrase as cited today is a post-classical refinement
-     reaching its current standard form in modern usage,
-     possibly via 18th-century editorial conventions.
+  - **The summary of Livy's Book 49.** Cato urged war and that Carthage be
+  removed and destroyed (*tolleretur delereturque*), Nasica opposing. Livy's
+  own book is lost, and the wording may be the epitomator's.
 
-  3. The figure on the Senate floor. Some scholarship
-     has questioned whether the speech-ending pattern
-     itself is a Plutarchan literary structure rather
-     than preserved senatorial practice. The minority
-     skeptical position holds that the pattern reflects
-     Plutarch's biographical method (giving the figure a
-     defining rhetorical signature) more than it reflects
-     Cato's actual senatorial conduct.
+  - **Pliny, *Natural History* 15.74 (77 CE).** Cato shouted at every meeting
+  of the senate that Carthage must be destroyed (*Carthaginem delendam*),
+  the first surviving report of the refrain and the nearest ancient Latin
+  to the modern phrase.
 
-  The structural fact, Cato's anti-Carthaginian advocacy
-  through the 150s, is firmly attested. The exact words
-  and the precise rhetorical practice are what is
-  contested. The modern dominance of the Latin form
-  reflects later transmission rather than Catonian
-  attestation.
+  - **Plutarch, *Cato Maior* 27, and Appian, *Punica* 69** (both second
+  century CE, in Greek). Plutarch has Cato add to his vote on any question
+  "it seems to me that Carthage must not exist", and Nasica answer that it
+  should be spared. Appian says it is said that Cato from then on kept
+  voicing this opinion.
+
+  - **Florus 1.31 (second century CE).** Cato declared *delendam esse
+  Carthaginem* even when consulted on other matters; Nasica *servandam*.
+
+  So the habit is well reported but only late, and the reporters do not
+  agree on the words. The modern tagline, with its *ceterum censeo* and its
+  finished gerundive sentence, is a later compression of these.
 sources:
   - source: plutarch-lives
     stance: supports
-    passage_ref: "Cato Major 27"
+    passage_ref: "Cato Maior 27"
     passage_summary: >
-      Plutarch's Greek-language preservation of Cato's
-      campaign and the rhetorical formula. The principal
-      source.
+      Cato added to his vote on any question whatsoever "it seems to me
+      that Carthage must not exist" (often translated "must be destroyed");
+      Nasica always ended with the opinion that Carthage should be spared.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "69"
+    passage_summary: >
+      After the embassy Cato said Rome's liberty would never be secure until
+      Carthage was destroyed, and "it is said" that he continually voiced
+      that opinion in the senate from then on.
+  - source: pliny-natural-history
+    stance: supports
+    passage_ref: "15.74–75"
+    passage_summary: >
+      Cato shouted at every senate meeting that Carthage must be destroyed
+      (*Carthaginem delendam*), and produced an early fig, asking when the
+      senators thought it had been picked.
+  - source: florus-epitome
+    stance: supports
+    passage_ref: "1.31"
+    passage_summary: >
+      Cato declared that Carthage must be destroyed even when consulted on
+      other matters; Nasica that it must be preserved.
   - source: livy-auc
     stance: supports
+    passage_ref: "Periochae 49"
     passage_summary: >
-      Livy's surviving accounts and the Periochae of his
-      lost books preserve traces of Cato's advocacy
-      without giving the exact formula in the modern
-      cited form.
+      The epitome of the lost Book 49 records the debate: Cato urging war
+      and the destruction of Carthage, Nasica arguing against.
+  - source: cicero-de-senectute
+    stance: qualifies
+    passage_ref: "18"
+    passage_summary: >
+      The earliest surviving Latin version, a century after Cato: in a
+      dialogue set in 150, Cato says he will not stop fearing Carthage until
+      he learns it has been destroyed. No refrain and no formula.
+notes: >
+  The fig is told two ways. Plutarch has Cato let it fall from his toga and
+  say the land it grew in was three days' sail from Rome. Pliny has him ask
+  when it was picked and answer *tertium ante diem*, which in Roman
+  inclusive counting is the day before yesterday (literally "three days
+  ago"). Modern retellings often combine the two.
 further_reading:
   - source: hoyos-carthaginians-2010
 entities:

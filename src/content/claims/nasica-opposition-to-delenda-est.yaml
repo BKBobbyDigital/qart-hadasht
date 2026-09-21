@@ -1,69 +1,77 @@
 slug: nasica-opposition-to-delenda-est
 statement: >
-  Publius Cornelius Scipio Nasica Corculum led the principal
-  sustained senatorial opposition to Cato the Elder's
-  decade-long advocacy for Carthage's destruction across
-  the 150s BCE. Where Cato ended every senatorial speech
-  with the formula advocating destruction, Nasica
-  reportedly ended his with the counter-formula
-  *Carthago servanda est* — "Carthage must be preserved."
-  Nasica's substantive argument, preserved most fully
-  in Plutarch (*Cato Major* 27) and in Diodorus
-  (34/35 fragment), was structural: Carthage's
-  preservation kept the Roman political class disciplined
-  by maintaining an external rival whose presence
-  prevented internal moral and political decay.
-confidence: attested
-scholarly_consensus: >
-  The fact of Nasica's opposition is firmly attested in
-  the surviving sources. The exact wording of the
-  *servanda est* counter-formula is reconstructed from
-  Plutarch's Greek-language preservation, like Cato's
-  own *delenda est* formula. The substantive structural
-  argument, that Carthage's preservation served Roman
-  political-moral interests, is preserved consistently
-  across multiple sources and is broadly accepted in
-  modern scholarship as authentic Nasica position rather
-  than later attribution.
-dispute_summary: |
-  Two interpretive questions are open in modern scholarship:
+  Publius Cornelius Scipio Nasica Corculum opposed Cato's calls for war
+  on Carthage in the late 150s and more than once carried the senate with
+  him. The sources give him two different reasons: that Rome did not yet
+  have a just cause for war, and that Rome needed a Carthage to fear. The
+  second is reported only by writers who knew what followed the city's
+  destruction.
+confidence: contested
+dispute_summary: >
+  The opposition is not in doubt. The summary of Livy's Book 48 has Cato
+  move for war three times in the years before 149, and each time the
+  senate follows Nasica instead: envoys are sent to see what is happening,
+  then ten envoys to investigate, then a conditional resolution, war only
+  if Carthage does not burn its fleet and disband its army. Nasica's stated
+  grounds there are that nothing should be done rashly and that no just
+  cause for war yet seemed to exist.
 
-  1. Was Nasica's argument primarily strategic or
-     primarily moral? The surviving sources frame it as
-     a structural-moral argument about Roman virtue
-     requiring external pressure. Some modern readings
-     treat this framing as a Stoic-philosophical overlay
-     on what was actually a more conventional strategic
-     argument about Carthage's diminished military
-     capacity making destruction unnecessary. The strict
-     historical-evidence base supports both readings.
+  The other reason is the famous one. Plutarch (*Cato Maior* 27) says
+  Nasica "probably" wanted fear of Carthage to curb a Roman people already
+  running to excess, a Carthage not strong enough to conquer Rome nor weak
+  enough to be despised; Appian (*Punica* 69) says he wanted Carthage
+  spared so that fear of it would preserve a Roman discipline already
+  slackening; Florus (1.31) that its removal would let Rome's good fortune
+  turn to luxury. Diodorus, in a fragment of his lost later books, gives
+  the fullest version, with civil strife at home and hatred among the
+  allies as the price of destruction. Augustine (*City of God* 1.30)
+  repeats it as a prophecy fulfilled.
 
-  2. How much did Nasica's opposition actually shape
-     senatorial deliberations? Cato's position
-     eventually prevailed, the war was launched and
-     Carthage destroyed, but Nasica was *princeps
-     senatus* during the war years (147-141 BCE) and his
-     continued opposition is attested. Whether Nasica's
-     position influenced specific war-prosecution
-     decisions or remained purely an alternative
-     position that lost the underlying debate is
-     unclear from the surviving evidence.
-
-  The Augustinian critique of Roman virtue as
-  fear-of-Carthage-dependent (*De Civitate Dei* 1.30)
-  draws explicitly on the Nasica-tradition argument
-  preserved through later Stoic-Roman moral-political
-  literature. The continued life of Nasica's position
-  in subsequent moralizing literature is itself
-  evidence for its genuine senatorial authenticity.
+  Every one of these writers lived after the Gracchi and the civil wars,
+  and Plutarch's "probably" marks the motive as his own inference. The
+  argument fits the later Roman theory that the republic decayed once it
+  had no enemy to fear, which is where these authors found it useful. The
+  reason in Livy's summary is less memorable and knows nothing of the
+  future, and it is an objection to going to war without a pretext, not to
+  destroying Carthage. Miles makes the same point about Diodorus writing
+  with hindsight (*Carthage Must Be Destroyed*, p. 337). Nasica may have
+  argued both; the fear-of-Carthage version cannot be taken as his words.
 sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "Periochae 48–49"
+    passage_summary: >
+      Cato repeatedly urges war; Nasica argues that nothing should be done
+      rashly and that no just cause yet exists, and the senate follows him,
+      sending envoys and passing a conditional resolution. In 149 the two
+      debate again and war is declared.
   - source: plutarch-lives
     stance: supports
-    passage_ref: "Cato Major 27"
+    passage_ref: "Cato Maior 27"
     passage_summary: >
-      Plutarch's preserved account of the senatorial
-      debate, including Nasica's counter-formula and
-      the structural-moral argument.
+      Nasica always ended his vote with the opinion that Carthage should be
+      spared; Plutarch suggests he wanted fear of Carthage as a bridle on
+      the populace.
+  - source: appian-punica
+    stance: supports
+    passage_ref: "69"
+    passage_summary: >
+      Nasica held that Carthage should be spared so that fear of it would
+      preserve Roman discipline, already relaxing.
+  - source: florus-epitome
+    stance: supports
+    passage_ref: "1.31"
+    passage_summary: >
+      Nasica held that Carthage should be preserved, lest the removal of
+      fear of a rival city turn Rome's prosperity to luxury.
+  - source: miles-carthage-2010
+    stance: qualifies
+    passage_ref: "pp. 336–337"
+    passage_summary: >
+      Quotes Diodorus's version of Nasica's argument and cautions that
+      Diodorus, writing a century later, already knew of the civil wars;
+      notes that Livy grounds Nasica's opposition in the lack of a just
+      cause.
 further_reading:
   - source: hoyos-carthaginians-2010
 entities:

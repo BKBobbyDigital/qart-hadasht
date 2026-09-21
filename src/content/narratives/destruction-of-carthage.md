@@ -25,13 +25,13 @@ primary_entities:
     slug: destruction-of-carthage
     role: subject
 referenced_claims:
-  - cato-delenda-est
+  - cato-delenda-est-historicity
   - tpw-roman-ultimatum
   - tpw-polybius-eyewitness
   - tpw-scipio-aemilianus-command
   - tpw-final-assault-destruction
   - tpw-hasdrubals-wife-immolation
-last_revised: "2026-09-17"
+last_revised: "2026-09-21"
 ---
 
 ## The half-century before
@@ -65,18 +65,19 @@ implied. He had been to Carthage on a senatorial embassy in the
 late 150s BCE; he had returned convinced that the city's
 recovery and continued existence as an independent state were
 themselves Roman strategic problems that no further indemnity
-could address. His response was to make the destruction of
-Carthage a regular feature of his senatorial speeches, on whatever
-subject. The Latin formulation tradition records as
-*Carthago delenda est* is later crystallization; the pattern of
-repetitive advocacy is firmly attested.
+could address. His response, as writers two centuries later tell it,
+was to add the demand for Carthage's destruction to his vote on
+any question. The famous phrase *Carthago delenda est* is modern and
+appears in no ancient text
+([claim](/claims/cato-delenda-est-historicity)), and the senate
+followed Scipio Nasica against him several times before 149
+(Livy *Periochae* 48).
 
-Whether Cato's advocacy actually produced the senatorial
-decision, or whether his speeches articulated a position the
-senate was reaching on its own timeline, is debated. The site's
-position (treated separately as an editorial take) is that Cato
-gave voice to a strategic conclusion the senate was reaching
-independently; he was the articulation, not the cause.
+Whether Cato's advocacy produced the senatorial decision, or voiced
+a position the senate was reaching on its own timeline, the sources
+do not let us say. The site's
+[editorial take](/editorialTakes/destruction-not-weak-enough) treats
+his advocacy as real and its causal weight as unrecoverable.
 
 ## How the war began
 

@@ -159,7 +159,7 @@ The Third Punic War mobilization. After the Treaty of 201
 BCE capped the Carthaginian war fleet at 10 warships, the
 state-managed naval shipbuilding apparatus was substantially
 disassembled across the next fifty years. Yet when the Roman
-demands of 149 BCE escalated to the *delenda* decision and
+demands of 149 BCE escalated to the decision to destroy the city and
 Carthage faced siege, the city reportedly built 120 warships
 within two months from scratch, drawing on stockpiled timber
 and the labor of the besieged population (Appian 8.93–96; the

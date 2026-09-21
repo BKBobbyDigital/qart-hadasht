@@ -24,6 +24,12 @@
   to = "/editorialTakes/destruction-not-weak-enough"
   status = 301
 
+# Duplicate Cato claim merged into cato-delenda-est-historicity.
+[[redirects]]
+  from = "/claims/cato-delenda-est"
+  to = "/claims/cato-delenda-est-historicity"
+  status = 301
+
 # Civilization hub was folded into Themes; preserve any external links.
 [[redirects]]
   from = "/civilization"

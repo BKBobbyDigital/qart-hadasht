@@ -757,8 +757,8 @@ the last build.
 | events | 97 |
 | people | 82 |
 | places | 63 |
-| sources | 89 |
-| claims | 179 |
+| sources | 91 |
+| claims | 178 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
@@ -2510,6 +2510,44 @@ Maior* 26–27; Pliny *NH* 15.74–75; *Periochae* 48.
 - `themes/carthaginian-coinage` gained "After 201": bronze-only coinage
   read by Miles as no army to pay rather than poverty, which qualifies
   the theme's own fiscal reading of metal.
+
+### Cato and "Carthage must be destroyed", checked against Miles pp. 335–337 (Sep 2026)
+
+Checked against Plutarch *Cato Maior* 1, 3, 26–27; Appian *Pun.* 68–70;
+Pliny *NH* 15.74–75; Florus 1.31; Cicero *De senectute* 10, 18; Nepos
+*Cato* 1; Livy 38.54 and *Periochae* 47–49; Augustine *City of God* 1.30.
+Diodorus 34/35 is not online (LacusCurtius stops at Book 32), so his
+Nasica fragment is cited without a section number, via Miles.
+
+- **The phrase.** No ancient text has *Carthago delenda est* or *ceterum
+  censeo*. The refrain is reported only in the first and second centuries
+  CE (Pliny *Carthaginem delendam*, Plutarch's Greek "must not exist",
+  Appian "it is said", Florus *delendam esse*); Cicero's dialogue (44 BCE)
+  and *Per.* 49 give the hostility without the refrain. User-confirmed:
+  attribute the tag as later. The two duplicate claims were merged into
+  `claims/cato-delenda-est-historicity` (301 for the old slug). New
+  sources `cicero-de-senectute`, `florus-epitome`.
+- **Nasica won first.** *Per.* 48 has the senate follow Nasica against
+  Cato three times (envoys; ten envoys; war only if Carthage kept fleet
+  and army), on the ground that there was no just cause yet; Cato's
+  motion to hold to the war decree carried only after the 149 surrender
+  (*Per.* 49). The fear-of-Carthage argument is reported only by writers
+  after the Gracchi (Plutarch offers it as a guess), which is Miles's
+  hindsight caution, adopted with his page. "Carthago servanda est" is
+  not in any source.
+- **The fig:** Plutarch has three days' sail and the toga; Pliny has
+  *tertium ante diem*, the day before yesterday. Miles merges them.
+- The old Cato narrative was rewritten (it had the "Lutatius indemnity"
+  paid by 153, a "decade" of advocacy, Livy 46–50 "largely preserved",
+  Cato dying before the declaration, and stated "articulation, not cause"
+  as the site's position when the take says unrecoverable; the same
+  overstatement was on the destruction narrative). Nasica's birth date
+  (c. 227) belonged to his father. REGRESSION rules added.
+- **Miles errors not on the site:** Cato's embassy "decided to leave the
+  seized territory in Numidian hands" (Appian 69: no ruling; the later
+  *Per.* 48 embassy proposed Masinissa give the land up); "all"
+  pro-Masinissa politicians expelled (Appian 70: about forty). His
+  "Capua" for Cato's service is right (Cicero *Sen.* 10).
 
 ### Open threads (as of 21 Sep 2026)
 

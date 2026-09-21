@@ -8,9 +8,10 @@ death:
   value: -149
   precision: year
   notes: >
-    Died at 85, in the same year that the war he had advocated
-    finally broke out, before the Roman declaration of war on
-    Carthage was formally voted.
+    Died at 85 in 149, after the war he had urged had begun: Plutarch
+    (*Cato Maior* 27) says he died as soon as it started, and the summary
+    of Livy's Book 49 has him in the senate praising Scipio Aemilianus's
+    service at the siege.
 roles:
   - consul
   - censor
@@ -26,35 +27,33 @@ offices_held:
   - office: 'Roman censor'
     year: -184
 summary: >
-  Roman consul of 195 BCE, censor of 184 BCE, and the most
-  insistent senatorial advocate for the destruction of Carthage
-  in the years leading up to the Third Punic War. Cato had served
-  as a young military tribune in the late phase of the Second
-  Punic War, traveled to Carthage on a senatorial embassy in the
-  late 150s BCE, and reportedly returned shocked at the city's
-  recovery and continued prosperity. From that point until his
-  death in 149 BCE he made the destruction of Carthage a regular
-  feature of his senatorial speeches, ending unrelated speeches
-  on agriculture, religion, finance, and war alike with the
-  formulation tradition records as "moreover, I think Carthage
-  must be destroyed" (*ceterum censeo Carthaginem esse
-  delendam*). The exact wording varies across the sources;
-  Plutarch's *Cato* preserves the tradition with characteristic
-  detail.
+  Roman consul of 195 BCE, censor of 184 BCE, and the senator most
+  associated with the destruction of Carthage. His first campaign, at
+  seventeen, fell in the years when Hannibal was in Italy (Plutarch
+  *Cato Maior* 1); Cicero has him at Capua in 214, at Tarentum in 209 and
+  quaestor in 204 (*De senectute* 10), and Nepos adds a military
+  tribunate in Sicily and service at the Metaurus (*Cato* 1). He served
+  on the embassy to Africa conventionally dated to 153, returned alarmed
+  at Carthage's recovery, and argued for war from then until his death in
+  149 (Appian *Punica* 69; Plutarch *Cato Maior* 26–27).
 
-  Modern scholarship treats Cato's role as substantially historical
-  while flagging the *delenda est* formulation itself as
-  reconstructed. The pattern of repetitive senatorial advocacy is
-  attested. Whether Cato's persistent advocacy actually shaped the
-  Roman decision to destroy Carthage, or whether the decision was
-  driven by structural factors that Cato articulated rather than
-  caused, is treated separately as an editorial position on this
-  site.
+  Later writers say he added the demand to his vote on any question
+  whatever. Plutarch gives it in Greek as "it seems to me that Carthage
+  must not exist"; Pliny (*Natural History* 15.74) and Florus (1.31) give
+  the Latin *Carthaginem delendam (esse)*. The familiar tags *Carthago
+  delenda est* and *ceterum censeo Carthaginem esse delendam* are modern,
+  and nothing Cato wrote that survives contains the saying; see
+  [the claim on the phrase](/claims/cato-delenda-est-historicity). He did
+  not win at once. The summary of Livy's Book 48 has the senate follow
+  Scipio Nasica against him three times, and it was only after Carthage
+  offered its surrender in 149 that Cato's motion to hold to the decree
+  of war carried (*Periochae* 49). How much his advocacy decided the war
+  is weighed in the editorial take
+  [Why was Carthage destroyed in 146 BCE?](/editorialTakes/destruction-not-weak-enough)
 
-  Cato's broader career was substantially more than the
-  "Carthage must be destroyed" mantra: he was a major figure in
-  Roman political and cultural life, the author of the earliest
-  surviving Latin prose work (*De Agricultura*), an opponent of
+  Cato's career was much more than the saying: he was a major figure
+  in Roman political and cultural life, the author of the oldest
+  complete Latin prose work to survive (*De Agricultura*), an opponent of
   Hellenizing trends in Roman culture, and a moralist whose
   political-cultural program shaped Roman conservative thought for
   centuries. The persona preserved in the surviving tradition

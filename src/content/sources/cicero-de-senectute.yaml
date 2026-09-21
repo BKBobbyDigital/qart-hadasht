@@ -1,0 +1,36 @@
+slug: cicero-de-senectute
+title: De senectute (Cato Maior)
+author: Marcus Tullius Cicero
+type: literary
+is_primary: false
+language: latin
+date_composed:
+  value: -44
+  precision: year
+  circa: true
+  notes: >
+    Written in 44 BCE. The dialogue is set in 150 BCE, the year before
+    the Third Punic War began, with Cato as the main speaker.
+temporal_distance_years: 106
+access_to_witnesses: literary_tradition
+bias_notes: >
+  A philosophical dialogue on old age, not a record of what Cato said.
+  Cicero makes Cato his spokesman and gives him Cicero's prose, so a
+  remark in Cato's mouth tells us how Cato was remembered a century
+  later, not his words. Cicero had read Cato's speeches and *Origines*,
+  and draws on them for biographical detail, which is why the dialogue's
+  facts about Cato's career are worth using where they can be checked.
+summary: >
+  Cicero's dialogue on old age, written in 44 BCE and set in 150 BCE,
+  with the eighty-four-year-old Cato speaking to Scipio Aemilianus and
+  Laelius. It matters on this site for two passages.
+
+  At 10 Cato recalls his early service: as a very young soldier he went
+  to Capua in the year of Fabius Maximus's fourth consulship (214), to
+  Tarentum four years later, and was quaestor four years after that
+  (204). At 18 he says that he is declaring war on Carthage, which has
+  long been plotting harm, and that he will not stop fearing the city
+  until he learns it has been destroyed. That sentence, written about a
+  century after Cato's death, is the earliest surviving Latin version of
+  his campaign against Carthage, and it is not the famous formula. See
+  [the claim on the phrase](/claims/cato-delenda-est-historicity).

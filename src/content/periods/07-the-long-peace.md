@@ -186,18 +186,18 @@ of fighting men, arms and military supplies (*Cato Major* 26). Cato's
 conclusion was that a Carthage able to recover like this was a threat
 to Rome whatever the treaty said.
 
-The famous formula *Carthago delenda est* ("Carthage must be
-destroyed," with which Cato reportedly ended every senatorial speech
-across the years from his return through his death in 149) is
-contested in its exact wording. The structural fact of Cato's
-decade-long advocacy is firmly attested; the precise Latin phrase as
-cited in modern usage is post-classical refinement of Plutarch's
-preserved Greek formula. Whatever the words, the rhetorical campaign
-was effective: by the late 150s the Roman senatorial faction
-committed to Carthage's destruction had become the dominant strategic
-position, awaiting only the legal pretext that the Carthaginian
-response to Masinissa's continued encroachments would eventually
-provide.
+From his return until his death in 149 Cato argued for war. Writers
+of the first and second centuries CE say he added the demand to his
+vote on any question (Plutarch *Cato Major* 27; Pliny *Natural History*
+15.74); the famous tag *Carthago delenda est* is modern, and no ancient
+text contains it (see [the claim on the phrase](/claims/cato-delenda-est-historicity)).
+He did not carry the senate at once. The summary of Livy's Book 48 has
+it follow Scipio Nasica against him three times, sending envoys and
+then threatening war only if Carthage kept its fleet and army, on
+Nasica's ground that there was not yet a just cause. Appian says the
+senate had decided on war after the embassy and was waiting for a
+pretext (*Punica* 69), and Carthage's war with Masinissa in 150 would
+supply one.
 
 The period closes with that pretext still future and the Carthaginian
 state still nominally at peace. The conversion of these structural

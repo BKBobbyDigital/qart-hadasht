@@ -1,0 +1,32 @@
+slug: florus-epitome
+title: Epitome of Roman History
+author: Lucius Annaeus Florus
+type: literary
+is_primary: false
+language: latin
+date_composed:
+  value: 125
+  precision: century
+  circa: true
+  notes: >
+    Usually placed in the reign of Hadrian, in the first half of the
+    second century CE.
+temporal_distance_years: 275
+access_to_witnesses: late
+bias_notes: >
+  A short rhetorical survey of Rome's wars, written to praise the Roman
+  people, and heavily dependent on Livy. Florus compresses and
+  dramatizes; his value is in preserving how the Livian tradition put
+  things, not in independent information.
+summary: >
+  A brief history of Rome's wars in two books, written in the second
+  century CE and drawn largely from Livy. Its chapter on the Third Punic
+  War (1.31) gives the Cato and Nasica debate in Latin: Cato, "with
+  implacable hatred", declared that Carthage must be destroyed
+  (*delendam esse Carthaginem*) even when consulted on other matters;
+  Nasica that it must be preserved (*servandam*), so that the removal
+  of fear of a rival city would not let Rome's good fortune turn to
+  luxury. Florus says the senate chose a middle course, moving the city
+  rather than destroying it. It is one of the ancient texts behind the
+  modern forms of Cato's saying, none of which it uses. See
+  [the claim on the phrase](/claims/cato-delenda-est-historicity).

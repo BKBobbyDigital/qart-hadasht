@@ -9,7 +9,7 @@ import type { FamilyTreeConfig } from '../../lib/familyTree';
  * the name by adoption, not birth, Scipio Aemilianus destroyed the
  * city in 146. The tree also carries the internal Roman argument over
  * Carthage's fate: Scipio Nasica Corculum, of the cousin branch, was
- * the standing voice against Cato's "Carthago delenda est."
+ * the standing voice against Cato's campaign for war on Carthage.
  *
  * The adoption is the load-bearing relationship and is encoded by
  * color: Aemilianus was born an Aemilius (gray, another gens) and

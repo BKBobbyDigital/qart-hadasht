@@ -136,17 +136,21 @@ reasoning: >
   pressure with force, made the war of 150 increasingly likely, though
   not inevitable.
 
-  Cato is the hardest figure to weigh. The *delenda est* tradition makes
-  him the cause: a man who ended every speech with the same demand until
+  Cato is the hardest figure to weigh. The tradition of his refrain, known
+  only from writers two centuries later and never in the modern Latin
+  tag ([claim](/claims/cato-delenda-est-historicity)), makes him the
+  cause: a man who ended every speech with the same demand until
   he got his war. The site treats his advocacy as real and his causal
   weight as unrecoverable, because the evidence pulls two ways. Against
   the singular reading, the embassy he served on issued no ruling
   (Appian *Punica* 69), several years passed between it and the decision
-  for war, Nasica argued the other side and was answered rather than
-  ignored (*Periochae* 48; Plutarch *Cato Major* 27), and both Polybius
+  for war, Nasica argued the other side and the senate followed him at
+  least three times (*Periochae* 48; Plutarch *Cato Major* 27), and both Polybius
   and Appian describe a senate deliberating about timing and appearances
   rather than one being swept along. For it, the sources that survive
-  put his name on the argument that carried, and Appian has him say
+  put his name on the argument that carried, above all after Carthage
+  offered its surrender in 149, when his motion to hold to the decree of
+  war prevailed (*Periochae* 49), and Appian has him say
   Rome's liberty would never be secure while Carthage stood. What cannot
   be recovered is whether he moved the senate or articulated where it
   was already going, and the site declines to decide it.
@@ -159,7 +163,7 @@ confidence: moderate
 weighed_claims:
   - 149-demands-as-deliberate-trap
   - masinissa-territorial-seizures-pattern
-  - cato-delenda-est
+  - cato-delenda-est-historicity
 competing_positions:
   - position: >
       The destruction was Rome's response to a genuine Carthaginian

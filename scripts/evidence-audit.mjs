@@ -209,6 +209,42 @@ const REGRESSIONS = [
     fixed: 'Carthage after 201, Miles pp. 324-328',
   },
   {
+    id: 'cato-fig-appian',
+    re: /\bAppian\b[^.;]{0,80}\bfigs?\b|\bfigs?\b[^.;]{0,80}\bAppian\b/,
+    right: 'Cato\'s fig is in Plutarch Cato Maior 27 (three days\' sail) and Pliny NH 15.74-75 (picked tertium ante diem). Appian Punica 69 has no fig.',
+    fixed: 'Cato, Miles pp. 335-337',
+  },
+  {
+    id: 'cato-fig-picked-three-days',
+    re: /picked[^.]{0,40}three days ago|three days ago[^.]{0,40}picked/i,
+    right: 'Plutarch: three days\' sail from Rome. Pliny: picked tertium ante diem, the day before yesterday by inclusive counting. Do not merge them.',
+    fixed: 'Cato, Miles pp. 335-337',
+  },
+  {
+    id: 'nasica-servanda-est',
+    re: /servanda est/,
+    right: 'No source has "Carthago servanda est". Plutarch gives Nasica\'s opinion in Greek; Florus 1.31 has servandam.',
+    fixed: 'Cato, Miles pp. 335-337',
+  },
+  {
+    id: 'cato-decade-of-advocacy',
+    re: /(Cato|Nasica)[^.]{0,80}decade(-long)? (of )?(senatorial )?advocacy|decade(-long)? (of )?(senatorial )?advocacy[^.]{0,60}Cato/i,
+    right: 'Cato argued for war from the embassy (c. 153) to his death in 149, about four years.',
+    fixed: 'Cato, Miles pp. 335-337',
+  },
+  {
+    id: 'cato-died-before-declaration',
+    re: /Cato[^.]{0,80}before the (formal )?(Roman )?declaration/i,
+    right: 'Cato died in 149 after the war had begun (Plutarch Cato Maior 27; Periochae 49 has him praising Aemilianus at the siege).',
+    fixed: 'Cato, Miles pp. 335-337',
+  },
+  {
+    id: 'lutatius-indemnity-paid-by-153',
+    re: /Lutatius indemnity had been paid/i,
+    right: 'The Lutatius indemnity was paid off in the 230s. The indemnity running in the 150s was the 10,000 talents of 201.',
+    fixed: 'Cato, Miles pp. 335-337',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',
