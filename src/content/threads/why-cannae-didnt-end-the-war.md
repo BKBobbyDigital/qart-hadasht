@@ -62,7 +62,7 @@ stops:
   - type: event
     slug: battle-of-zama
     note: >
-      The closing. Sixteen years after Cannae, Scipio's reformed
+      The closing. Fourteen years after Cannae, Scipio's reformed
       tactics defeat Hannibal's last army. The same Roman
       polity that refused to negotiate after Cannae produced
       this outcome.
@@ -71,7 +71,7 @@ stops:
     note: >
       The full period synthesis for additional context on each
       stop's place in the war's arc.
-last_revised: "2026-06-10"
+last_revised: "2026-09-21"
 ---
 
 The Battle of Cannae in August 216 BCE produced approximately 50,000

@@ -1,50 +1,68 @@
 slug: zama-troop-numbers
 statement: >
-  The forces engaged at Zama were comparable in infantry strength but Rome
-  held a decisive advantage in cavalry, likely 6,000 horse to roughly
-  3,000–4,000 for Carthage.
+  Only Appian gives army totals for Zama, and his 50,000 for Hannibal is not
+  corroborated. The figure Polybius and Livy share is Masinissa's: he joined
+  Scipio just before the battle with 6,000 infantry and 4,000 cavalry, which
+  with the Roman horse gave Scipio the stronger cavalry.
 confidence: contested
 scholarly_consensus: >
-  The cavalry asymmetry is firmly attested and undisputed. Total infantry
-  numbers are debated: ancient figures vary between sources, modern estimates
-  place each side roughly 30,000–40,000 strong, and the surviving accounts
-  do not give consistent overall totals.
-dispute_summary: |
-  Ancient and modern figures diverge in characteristic ways:
+  The Roman advantage in cavalry follows from the sources' own figures and
+  is not in dispute. The total strength of either army cannot be recovered
+  from Polybius or Livy, who give none.
+dispute_summary: >
+  The surviving figures are partial and come from different traditions.
 
-  - **Polybius** is precise about cavalry (Masinissa's 6,000 horse plus
-    Roman cavalry under Laelius vs. Tychaeus's 2,000 Numidian horse with
-    a smaller Carthaginian contingent) but does not give explicit infantry
-    totals at Zama. He describes Hannibal's army as drawn up in three lines
-    of similar depth without naming a number.
+  **Polybius** gives no total for either army. He gives the parts: Tychaeus
+  brought Hannibal 2,000 Numidian horse (15.3.7); Masinissa brought Scipio
+  6,000 foot and 4,000 horse the day before the parley (15.5.12); Hannibal
+  put more than eighty elephants in front and about 12,000 mercenaries,
+  Ligurians, Celts, Balearic Islanders and Moors, in his first line, with
+  Libyans and Carthaginians in the second and his troops from Italy in the
+  third (15.11.1–2). His casualty figures, more than 1,500 Roman dead
+  against 20,000 Carthaginian dead and nearly as many prisoners (15.14.9),
+  imply a large Carthaginian army without stating its size.
 
-  - **Livy** (30.29, 30.32) and **Appian** report higher figures and offer
-    explicit totals, but their numbers conflict with one another and with
-    Polybius's disposition; Livy in particular is generally treated as
-    rhetorically inflated where troop counts are concerned.
+  **Livy** agrees on Masinissa's 6,000 foot and 4,000 horse (30.29) and on
+  eighty elephants, and also gives no totals. His order of battle differs in
+  two places: a legion of Macedonians stands in the second line, and the
+  Italians of the third are "mainly Bruttians" whose loyalty Hannibal
+  doubted (30.33, 30.35), where Polybius's third line is simply the troops
+  from Italy.
 
-  - **Modern reconstructions** typically estimate ~30,000–40,000 infantry
-    on each side. The cavalry advantage, about 2:1
-    in Rome's favor, is the figure the sources agree on and the one
-    that mattered.
+  **Appian** alone gives totals: Hannibal about 50,000 men and eighty
+  elephants (*Punica* 40); Scipio about 23,000 foot and 1,500 Italian and
+  Roman horse, with Masinissa's Numidian horse, "a large number", and 1,600
+  more under a prince named Dacamas (41). His battle narrative departs from
+  Polybius's throughout, and his figures cannot be checked against either
+  of the other accounts.
 
-  The substantive point is that the cavalry asymmetry, not the infantry
-  count, decided the battle.
+  Modern accounts that give totals for both armies are reconstructing them
+  from these fragments. Some modern accounts credit Masinissa with a cavalry figure
+  of 6,000, which is his infantry figure; Polybius and Livy both give
+  4,000 horse.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "15.3, 15.9"
+    passage_ref: "15.3.5–7, 15.5.12, 15.11.1–3, 15.14.9"
     passage_summary: >
-      Polybius reports Tychaeus's 2,000 Numidian cavalry joining Hannibal
-      and describes the combined Roman-Numidian cavalry as substantially
-      larger; he gives no explicit infantry total.
+      Tychaeus's 2,000 horse for Hannibal; Masinissa's 6,000 foot and 4,000
+      horse for Scipio; Hannibal's order of battle with over eighty
+      elephants and about 12,000 mercenaries in front; casualties of 1,500
+      Roman and 20,000 Carthaginian dead. No army totals.
   - source: livy-auc
-    stance: qualifies
-    passage_ref: "30.29, 30.32"
+    stance: supports
+    passage_ref: "30.29, 30.33, 30.35"
     passage_summary: >
-      Livy gives explicit troop figures that conflict with both Polybius
-      and with one another across passages; treated cautiously by modern
-      scholarship.
+      Masinissa's 6,000 infantry and 4,000 cavalry; eighty elephants; a
+      Macedonian legion in the second line and Bruttians in the third;
+      casualties matching Polybius. No army totals.
+  - source: appian-punica
+    stance: qualifies
+    passage_ref: "40–41"
+    passage_summary: >
+      The only totals: about 50,000 men and eighty elephants for Hannibal;
+      about 23,000 foot and 1,500 Italian and Roman horse for Scipio, plus
+      Masinissa's Numidians and 1,600 horse under Dacamas.
 further_reading:
   - source: hoyos-hannibal-2003
 entities:

@@ -20,7 +20,7 @@ referenced_claims:
   - zama-hannibal-scipio-parley
   - zama-casualties
   - zama-ended-carthage
-last_revised: "2026-05-09"
+last_revised: "2026-09-21"
 ---
 
 ## The strategic situation
@@ -31,17 +31,29 @@ Italy since the failure of his brother Hasdrubal's relief expedition at the
 Metaurus in 207 BCE. Scipio had completed the conquest of Iberia in 206 BCE
 and had crossed to Africa in 204 BCE. The Carthaginian senate, after Scipio's
 victories at the Great Plains and over Syphax, had recalled Hannibal from
-Italy. He landed at Hadrumetum that summer with the veteran core of his Italian
-army and immediately began assembling a new force from Carthaginian and African
-levies.
+Italy. He had crossed late in 203 with the core of his Italian army, landing
+at Leptis in Livy's account (30.25) and at Hadrumetum in Appian's (*Punica* 33),
+and he based himself at Hadrumetum, well south of Carthage, while he built a
+new force. It was from there, after Scipio began storming the towns of the
+Carthaginian countryside and selling their people as slaves (Polybius 15.4)
+and Carthage begged him to fight, that he marched west toward Zama (15.5).
 
-The army he led to Zama was not the army of Cannae. The veteran third line
-from Italy was intact, but the first two lines were freshly raised, and the
-eighty elephants were recently acquired and inadequately conditioned. Cavalry
+The army he led to Zama was not the army of Cannae. Polybius's order of battle
+puts about 12,000 mercenaries, Ligurians, Celts, Balearic Islanders and Moors,
+in the first line, Libyans and Carthaginians in the second, and the troops
+Hannibal had brought from Italy in the third (15.11). Livy adds a Macedonian
+legion to the second line and describes the third as mostly Bruttians, whose
+loyalty Hannibal doubted (30.33, 30.35); Appian calls them the men in whom he
+placed the greatest confidence (*Punica* 40). The eighty elephants were
+recently acquired and inadequately conditioned. Cavalry
 was the largest gap. Carthage had relied on Numidian horsemen for generations.
 With Masinissa now allied to Rome and Syphax captured, only a 2,000-strong
 contingent under the prince Tychaeus joined Hannibal in time for the battle.
-Scipio's combined Roman and Numidian cavalry was probably twice as numerous.
+Masinissa had joined Scipio just before the battle with 6,000 infantry and
+4,000 cavalry (Polybius 15.5.12; Livy 30.29), so Scipio's combined Roman and
+Numidian cavalry was probably much the larger. Neither Polybius nor Livy gives
+a total for either army; Appian's 50,000 for Hannibal stands alone (see the
+[claim on troop numbers](/claims/zama-troop-numbers)).
 
 ## The parley
 
@@ -69,8 +81,8 @@ Laelius and the Numidian cavalry under Masinissa took advantage of the disorder
 to drive the Carthaginian and allied Numidian horse off the field entirely.
 Hannibal's left and right flanks were now naked.
 
-In the infantry battle that followed, Hannibal's first two lines, the freshly
-raised levies, were broken or absorbed by the advancing Roman hastati and
+In the infantry battle that followed, Hannibal's first two lines, the
+mercenaries and the levies behind them, were broken or absorbed by the advancing Roman hastati and
 principes. His veteran third line, the survivors of Italy, held. The fight
 between them and the reformed Roman line was, by Polybius's account, prolonged
 and uncertain.
@@ -85,10 +97,13 @@ disproportion they describe is real.
 
 ## The aftermath
 
-Hannibal escaped. He returned to Carthage and counseled acceptance of Rome's
-terms, reportedly silencing the war party in the senate himself. The Treaty
-of 201 BCE that followed stripped Carthage of its overseas territories, its
-fleet, its elephants, and its right to wage war without Roman consent. The
+Hannibal escaped with a few horsemen to Hadrumetum (Polybius 15.15.3). Summoned
+to Carthage, he told the senate that it had lost not a battle but the war
+(Livy 30.35), and when the terms came back he dragged a speaker who opposed
+them off the platform, a man Polybius leaves unnamed and Livy calls Gisgo
+(Polybius 15.19; Livy 30.37). The Treaty of 201 BCE that followed stripped
+Carthage of its overseas territories, all but ten of its warships, its
+elephants, and its right to wage war without Roman consent. The
 city retained its African hinterland and, as later events would show, its
 capacity for economic recovery.
 

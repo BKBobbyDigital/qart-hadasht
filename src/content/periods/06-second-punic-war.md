@@ -102,7 +102,7 @@ map_caption: >
   the dashed line. Battle markers at Trebia (218), Trasimene (217),
   Cannae (216), and Zama (202). Polygons and route adapted from
   Hoyos 2010 and Goldsworthy 2003.
-last_revised: "2026-09-17"
+last_revised: "2026-09-21"
 ---
 
 The Second Punic War is the most thoroughly documented war of antiquity
@@ -264,7 +264,7 @@ Gisco and [Syphax](/people/syphax); Syphax was captured and the
 Masaesylian alliance collapsed; Masinissa's Massylian forces had
 already defected to Rome.
 
-Hannibal's [recall from Italy](/people/hannibal-barca) in autumn 203 (sixteen years after the crossing of the Alps, with no Roman defeat
+Hannibal's [recall from Italy](/people/hannibal-barca) in autumn 203 (fifteen years after the crossing of the Alps, with no Roman defeat
 having forced negotiation) produced the [Battle of Zama](/events/battle-of-zama)
 in October 202 BCE. Scipio's tactical reform — the maniple lanes that
 allowed elephant charges to pass through harmless, the integrated
@@ -273,8 +273,8 @@ in the envelopment Cannae had taught — defeated Hannibal's last army.
 The war was over.
 
 The [Treaty of 201 BCE](/events/treaty-of-201-bce) imposed terms more
-severe than the Lutatius settlement: surrender of the Carthaginian
-fleet, fifty-year indemnity of 10,000 talents, prohibition on
+severe than the Lutatius settlement: surrender of all but ten Carthaginian
+warships, fifty-year indemnity of 10,000 talents, prohibition on
 Carthaginian warfare without Roman authorization, formal recognition
 of Masinissa's Numidian kingdom. The Carthaginian Mediterranean
 position was reduced to the African hinterland; the structural

@@ -161,6 +161,18 @@ const REGRESSIONS = [
     fixed: 'inevitable/design pass',
   },
   {
+    id: 'masinissa-6000-horse-zama',
+    re: /Masinissa'?s?[^.]{0,40}6,000 [a-z -]{0,25}(horse|cavalry)|6,000 [a-z -]{0,25}(horse|cavalry)[^.]{0,40}Masinissa/i,
+    right: 'At Zama Masinissa brought 6,000 foot and 4,000 horse (Polybius 15.5.12; Livy 30.29). The 6,000 horse conflates the two figures; Miles repeats it.',
+    fixed: 'Zama troop numbers, Miles pp. 315-317',
+  },
+  {
+    id: 'zama-sixteen-years-after-cannae',
+    re: /sixteen years after Cannae/i,
+    right: 'Cannae 216 to Zama 202 is fourteen years. Sixteen is right only from the Alps (218).',
+    fixed: 'Zama troop numbers, Miles pp. 315-317',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',

@@ -94,7 +94,7 @@ source_passages:
       Livy used Polybius for parts of his narrative and Roman annalists
       for others; the speeches are his compositions.
   - source: appian-punica
-    passage_ref: "31–35"
+    passage_ref: "31–39"
     paraphrase: >
       Carthage seeks either peace or delay until Hannibal arrives. At
       Rome some senators dwell on Carthaginian faithlessness; others
@@ -116,7 +116,13 @@ source_passages:
       once the escort leaves. When the news reaches Rome, the
       Carthaginian envoys, still there treating for peace, are ordered to
       leave as enemies; storm-driven to Scipio's camp, they are released
-      unharmed.
+      unharmed. Appian alone then has a second armistice. Short of food,
+      Hannibal asks Masinissa to persuade Scipio to renew the treaty,
+      blaming the earlier breaches on the common people and the fools who
+      stirred them up; Scipio agrees in return for the seized ships and
+      cargo and a penalty of 1,000 talents. The council welcomes it, the
+      people suspect their generals of a private deal, and Carthage orders
+      Hannibal to end the truce and fight (36–39).
     source_note: >
       Appian's sources cannot be identified. The site treats his
       divergences as a separate tradition rather than as corrections or
@@ -262,7 +268,9 @@ points_of_difference:
       the attack came from elsewhere. Two of the three accounts
       therefore have leading Carthaginians, the magistrates in Livy and
       Hanno the Great and Hasdrubal the Kid in Appian, acting in good
-      faith. The accounts do not agree on names either. Livy's Hasdrubal
+      faith. Livy describes the same Hasdrubal, "Haedus", the Kid, as a
+      consistent advocate of peace and an opponent of the Barcid party,
+      when he leads the embassy to Rome in 201 (30.42). The accounts do not agree on names either. Livy's Hasdrubal
       leads the seizure of the ships, and the attacking fleet is under
       a Hanno; Appian's Hanno the Great is the envoys' protector, and his
       attacker is an admiral Hasdrubal, as in Polybius. The
@@ -282,7 +290,9 @@ points_of_difference:
         what_it_says: >
           He sails against his will, knowing the people's bad faith
           toward their magistrates, doubting a treaty would be made or, if made,
-          would last (*Punica* 33).
+          would last (*Punica* 33). Later, seeking a second truce, he
+          blames the breaches on the common people and the fools who
+          stirred them up (37).
     commentary: >
       Both have Hannibal blaming Carthage rather than Rome, which fits
       the long hostility between the Barcids and their opponents at
@@ -314,7 +324,9 @@ working_reconstruction: >
   envoys. Which body decided to seize the ships, and who ordered the
   attack, are told three ways, and the episodes themselves are absent
   from the papyrus Miles cites, which should keep any reconstruction of
-  them provisional. The recurring feature is the defense of the
+  them provisional. Appian's second truce, which Carthage itself ordered
+  Hannibal to end, has no counterpart in Polybius or Livy and cannot be
+  checked. The recurring feature is the defense of the
   unauthorized commander. Carthage used it for Hasdrubal's Ebro
   agreement in 218, its envoys used it for Hannibal in 203, and Livy
   offers it for the fleet commander in the same year. Whether that says

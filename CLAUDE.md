@@ -2363,6 +2363,50 @@ second audit batch:
   (Polybius 15.4.9–12, Livy 30.25, Appian 35), now noted as the one
   agreement, and a Roman moral.
 
+### Zama, checked against Miles pp. 315–317 (Sep 2026)
+
+The user's pages on Hannibal's return (Hadrumetum rather than Carthage),
+the broken truce, Zama and the 201 terms. The site already had the
+narrative; checking it against Polybius 15.3–19, Livy 30.29–42 and Appian
+*Pun.* 36–41 found errors, two of them shared with Miles.
+
+- **Masinissa brought 6,000 foot and 4,000 horse** (Polybius 15.5.12;
+  Livy 30.29). `claims/zama-troop-numbers` said "Masinissa's 6,000 horse"
+  and a 2:1 cavalry ratio "the sources agree on"; Miles has "6,000
+  Numidian cavalry". Claim rewritten: Polybius and Livy give no army
+  totals; Polybius gives the parts (12,000 mercenaries in the first line,
+  over 80 elephants); **Appian alone gives totals** (Hannibal ~50,000;
+  Scipio ~23,000 foot, 1,500 horse, plus Masinissa and Dacamas's 1,600).
+  Miles's 50,000 v. 29,000 is Appian plus reconstruction. REGRESSION rule
+  added.
+- **Hannibal's first line was mercenaries**, not "freshly raised levies"
+  (narrative, Zama take). Livy's third line is "mainly Bruttians" of
+  doubtful loyalty plus a Macedonian legion in the second; Appian's
+  Italians are the men he trusted most. All three now in the narrative.
+- The narrative had Hannibal land at Hadrumetum "that summer" (i.e. 202);
+  he crossed late in 203 (Leptis in Livy, Hadrumetum in Appian).
+- The diagram text called Scipio's maniples "staggered"; Polybius 15.9.7
+  says one behind another, not staggered. The drawing was already right,
+  so only the text changed (visual review stays tabled).
+- **"Sixteen years after Cannae"** in the why-Cannae thread: fourteen.
+  REGRESSION rule added. Period 06's "sixteen years after the Alps" to
+  203 corrected to fifteen.
+- 201 treaty: "surrender of the fleet" is all but ten warships (Polybius
+  15.18; Livy 30.37). Polybius bans war outside Africa outright and in
+  Africa without consulting Rome; Livy requires permission for both, so
+  the site's "without Roman consent" phrasings follow Livy and were left.
+
+**Miles errors not on the site, do not introduce:** the 201 indemnity
+"nearly ten times" the 241 figure (10,000 against 2,200, or 3,200 after
+the amendment, so roughly three to four and a half times); "26,000
+kilograms" for 10,000 talents (at ~26 kg a talent that is ~260 metric
+tons); the truce broken "by the spring of 202" (Livy 30.24–26 puts the
+breach in 203). His "anti-Barcid faction" for Hanno and Hasdrubal Haedus
+is supported by Livy 30.42, now cited on the peace-of-203 comparison,
+which also gained **Appian's second armistice** (*Pun.* 36–39: brokered
+by Masinissa, 1,000-talent penalty, ended on Carthage's orders), found
+nowhere else.
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the

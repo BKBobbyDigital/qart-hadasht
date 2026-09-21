@@ -5,8 +5,8 @@ import type { BattleDiagramConfig } from '../../lib/battleDiagram';
  *
  * Hannibal deployed three infantry lines with 80 elephants in front
  * and weak cavalry on both wings; Scipio deployed the standard
- * triplex acies with maniples specifically staggered to leave
- * lateral channels that funneled the elephant charge through the
+ * triplex acies with the maniples placed one behind another rather
+ * than staggered (Polybius 15.9.7), leaving lanes that funneled the elephant charge through the
  * line. The Roman cavalry (Laelius's Italians and Masinissa's
  * Numidians, the latter formerly Carthaginian allies under Syphax)
  * routed the weak Punic cavalry on both wings; the infantry struggle
@@ -31,7 +31,7 @@ const config: BattleDiagramConfig = {
       label: 'Initial deployment',
       title: 'Initial deployment at Zama',
       description:
-        'Hannibal deploys three infantry lines with 80 elephants in front and weak cavalry on both wings, his Italian veterans held well back as a fresh reserve. Scipio answers with the triplex acies, its maniples staggered to leave lateral channels, with Laelius’s Italian horse on his left and Masinissa’s Numidians on his right.',
+        'Hannibal deploys three infantry lines with 80 elephants in front and weak cavalry on both wings, his Italian veterans held well back as a fresh reserve. Scipio answers with the triplex acies, its maniples placed one behind another instead of staggered, leaving open lanes, with Laelius’s Italian horse on his left and Masinissa’s Numidians on his right.',
       northArrow: true,
       units: [
         // Roman (north side, facing south)
@@ -75,7 +75,7 @@ const config: BattleDiagramConfig = {
       label: 'Elephant charge and cavalry rout',
       title: 'The elephant charge funnels through Roman channels and the Punic cavalry is routed',
       description:
-        'The elephant charge funnels through the lateral channels Scipio left in his line rather than breaking it, and some panicked animals crash back into the Punic left. Laelius and Masinissa rout the weak Carthaginian cavalry on both wings and pursue it off the field.',
+        'The elephant charge funnels through the lanes Scipio left in his line rather than breaking it, and some panicked animals crash back into the Punic left. Laelius and Masinissa rout the weak Carthaginian cavalry on both wings and pursue it off the field.',
       units: [
         // Roman cavalry advancing (Laelius drives left)
         { rect: { x: 50, y: 70, w: 55, h: 20, rx: 2 }, fill: ROME, stroke: ROME_DK, patternFill: 'hatch', label: 'Laelius drives left', labelPosition: 'above', labelSize: 7, labelColor: ROME_DK },
