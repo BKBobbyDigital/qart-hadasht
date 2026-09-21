@@ -11,8 +11,9 @@ thesis: >
   two things the war does not: a Carthaginian politician working
   through the popular assembly against an entrenched elite, and a
   Rome whose pursuit of him was intermittent and contested at Rome
-  itself. Whether his own countrymen or Rome did more to drive him
-  out is the question the sources leave most open.
+  itself. No single cause drove him out: his own confrontational
+  politics, enemies at home who took the quarrel to Rome, and a Rome
+  ready to use it closed around him until staying meant surrender.
 primary_entities:
   - type: person
     slug: hannibal-barca
@@ -214,17 +215,46 @@ man he had beaten; others held that Hannibal remained a fire that
 needed only fanning, since what had made him dangerous was not his arm
 but his experience and his hatred (*Flamininus* 21).
 
-## Who drove him out
+## Why he had to go
 
-Two readings meet in these years. One makes Hannibal a victim of Roman
-vindictiveness, pursued from Carthage to Bithynia. The other, which
-Miles presses, puts his fall mainly at the door of his own countrymen:
-the Carthaginian elite he had attacked denounced him to Rome and later
-reported his agent, and he was a stranger to the city he governed,
-having left it at nine. The sources support parts of both. Livy has the
-Carthaginian accusers and a Rome already looking for its chance acting
-together in 195, with Scipio holding Rome back; Plutarch has Rome
-indifferent in 183 until one man chose otherwise. On this site's
-reading, neither side acted alone: the domestic enemies supplied the
-occasion both times, and Roman willingness to use it varied with who
-held the argument at Rome.
+No one thing drove him out; several things converged, and the sources
+support each of them.
+
+The first is his own conduct in office. Livy counts the cost of the
+reforms as he describes them: the law on the judges won him the people
+and lost him much of the aristocracy, and the financial inquiry made
+personal enemies of the men who had been profiting (33.46–47). The
+manner mattered as much as the measures. He had a defiant quaestor
+arrested and made one man's insult into an indictment of the whole
+order, and he took both reforms to the assembly over the heads of the
+leading men. The same impatience had shown in 202, when he dragged
+Gisgo from the platform and then apologized that, having left the city
+at nine, he had the customs of the forum still to learn (Livy 30.37).
+Richard Miles makes the underlying point: he was a stranger to the
+Carthaginian elite, as Hamilcar had not been.
+
+The second is his domestic enemies, who took the quarrel to Rome.
+Their letters supplied the charge, and years later the city reported
+his agent Aristo.
+
+The third is Rome: Livy describes "the Romans, who were on their own
+account looking out for an opportunity" (33.47), though Scipio held it back
+for a long time and Plutarch describes a Rome indifferent to Hannibal
+by 183 until Flamininus acted (*Flamininus* 20).
+
+What made the charge believable was his record. Livy says the
+accusations found ready belief because he was remembered as the man
+who had begun the last war (33.45). Whether he was already planning a
+new one before 195 is another matter. His advocacy of war at
+Antiochus's court is fully attested (Livy 34.60), but it came after the
+flight, and using it to explain why he fled would read the outcome back
+into the cause; the site's
+[take on the denunciation](/editorialTakes/hannibal-195-denunciation-as-fabrication)
+treats the charge of prior contact as probably fabricated or
+exaggerated.
+
+By the time the envoys arrived, the pieces had closed around him.
+Livy presents the flight as Hannibal's own reading of the situation,
+that he was the embassy's real target, and Carthage's answer to the
+envoys, that it would do whatever Rome thought right (33.49), shows the
+reading was sound. Staying meant being surrendered.
