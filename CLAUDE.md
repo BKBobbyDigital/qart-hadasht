@@ -747,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~747 pages** as of
+parked until the day version settles. The site is **~751 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -756,7 +756,7 @@ the last build.
 |---|---|
 | events | 97 |
 | people | 82 |
-| places | 62 |
+| places | 63 |
 | sources | 89 |
 | claims | 179 |
 | editorialTakes | 25 |
@@ -770,7 +770,7 @@ the last build.
 | institutions | 6 |
 | deities | 10 |
 | causalLinks | 12 |
-| sourceComparisons | 10 |
+| sourceComparisons | 11 |
 
 ### Headline state (post next-level pass)
 
@@ -2304,6 +2304,44 @@ from Miles as stated:
   defection, and the defection had a Roman cause too. Do not collapse the
   two groups into one; Livy does not connect them.
 
+### Croton and the peace of 203 (Sep 2026)
+
+From Miles pp. 309–318 and his notes (user photos). Two new pages and
+one sentence.
+
+- **`places/croton.yaml`**, Hannibal's last Italian base, built around
+  the sanctuary of Hera Lacinia: Livy 24.3 (grove, sacred cattle, golden
+  column, windless altar ashes); the 215 capture; Appian *Hann.* 57
+  (Thurians moved in, magazines and headquarters); the 205 bilingual altar
+  (Livy 28.46), linked to the Lacinian inscription; Polybius 15.1.11 (the
+  Roman envoys' "shut in there and almost besieged"); Cicero *Div.* 1.48
+  on the golden column via Coelius. **Cicero ties Silenus explicitly only
+  to the dream at 1.49**, so the column story's Silenus origin is stated
+  as inference. The departure massacre in Juno's precinct (Livy 30.20) is
+  set against Appian 59 (no temple) and against **Livy himself at 42.3**,
+  where the temple is one "neither Pyrrhus nor Hannibal had violated";
+  that self-contradiction is the stronger ground for doubt than Miles's
+  suggestion. Coin hoards cited as Miles citing Crawford 1985. Landing at
+  Leptis (Livy 30.25) or Hadrumetum (Appian *Pun.* 33). Photo: Capo
+  Colonna column, CC BY-SA 4.0.
+- **`sourceComparisons/peace-of-203.yaml`**, checked against Polybius
+  15.1–3 and 15.7–8, Livy 30.16–25 and Appian *Pun.* 31–34. Six points:
+  what the envoys admitted, the terms, whether Rome accepted, who seized
+  the ships, who attacked the envoys, Hannibal's view. **Miles's
+  "grudgingly ratified" is not adopted**: his note cites Polybius and Livy
+  together, but Polybius has the senate and people ratify (15.1, 15.8.9)
+  and Livy has the senate send the envoys off with no prospect of peace
+  (30.23); Appian has the senate refer it to Scipio. Blame for the ship
+  seizure moves from the governing class (Polybius) to council and people
+  as one body (Livy) to a mob defying its council (Appian). The
+  reconstruction notes the unauthorized-commander defense recurring
+  (Hasdrubal's Ebro agreement in 218, Hannibal in 203, Livy's Hanno the
+  same year). **P. Rylands III 491** (before c. 130 BCE; no ship seizure,
+  no ambush) is reported only as Miles describes it, with no scholars
+  named; the site has not seen it.
+- `cannae-march-on-rome`: one sentence reading Livy 30.20's Cannae regret
+  as Livy's own verdict put in Hannibal's mouth.
+
 ### The Alps: hard or ordinary (Sep 2026)
 
 From Miles pp. 258–259 (user photos). Commit `d517de4`. Hannibal's
@@ -3548,7 +3586,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **747 pages**.
+output. As of the last CLAUDE.md refresh it was around **751 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
