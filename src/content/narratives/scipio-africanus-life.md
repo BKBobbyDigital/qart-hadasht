@@ -10,7 +10,7 @@ thesis: >
   206, Zama 202) that progressively dismantled the
   Carthaginian strategic position. The post-war career
   produced the trial-and-withdrawal pattern that ended at
-  Liternum in 183 BCE — the same year Hannibal died at
+  Liternum in the early 180s, at about the time Hannibal died at
   Libyssa. The two principal commanders of the Second Punic
   War shared not only the war but also the political
   afterlife the war's resolution produced.
@@ -19,7 +19,7 @@ primary_entities:
     slug: scipio-africanus
     role: subject
 referenced_claims: []
-last_revised: "2026-05-11"
+last_revised: "2026-09-21"
 ---
 
 ## Background and the Ticinus rescue (236-218 BCE)
@@ -176,16 +176,19 @@ inscription (or the late-tradition's version of it) read
 *ingrata patria, ne ossa quidem mea habeas* ("ungrateful
 fatherland, you shall not even have my bones").
 
-## Death (183 BCE)
+## Death (the early 180s)
 
-Africanus died at Liternum in 183 BCE, age approximately 53.
-Hannibal Barca died at Libyssa in Bithynia in the same year,
-age approximately 64. The coincidence was preserved in the
-ancient tradition with explicit attention: the two principal
-commanders of the Second Punic War ended their lives within
-months of each other, both in forms of internal political
-marginalization rather than at the height of their public
-power.
+Africanus died at Liternum in his early fifties. Polybius and
+Rutilius put his death in the same year as Hannibal's; Livy
+disagreed, arguing that Scipio was already dead by the censorship
+of 184, and allowed only that the two, with Philopoemen, died at
+about the same time, none of them in his own country (39.52; see
+the [claim on the paired deaths](/claims/hannibal-scipio-same-year-deaths)).
+Hannibal's own year was disputed between 183 and 181 (Nepos
+*Hannibal* 13.1). On any dating, the two principal commanders of
+the Second Punic War ended their lives within a few years of each
+other, both away from public life rather than at the height of
+their power.
 
 The Hannibal-Scipio symmetry has been read by ancient and
 modern observers in various ways. The simplest reading is the

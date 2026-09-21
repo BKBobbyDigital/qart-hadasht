@@ -37,7 +37,7 @@ principal_sources:
   - hoyos-carthaginians-2010
   - lancel-carthage-1995
   - miles-carthage-2010
-last_revised: "2026-09-17"
+last_revised: "2026-09-21"
 ---
 
 The fifty years between Zama and the Carthaginian expedition against
@@ -81,15 +81,13 @@ ratification, against aristocratic resistance) demonstrated that the
 in the second century BCE.
 
 The reforms' political consequences were rapid and severe. The
-displaced aristocratic faction sent envoys to Rome alleging that
-Hannibal was negotiating with Antiochus III of Syria for a renewed
-war against Rome — possibly true, possibly partial truth, possibly
-fabrication. Roman pressure produced demands for Hannibal's
-extradition; in late 195 BCE,
+displaced aristocratic faction wrote to friends at Rome that
+Hannibal was in contact with Antiochus III of Syria (Livy 33.45),
+whether truly or not. When a Roman embassy arrived in the summer of
+195 BCE,
 [Hannibal fled Carthage](/events/hannibal-exile-and-death) for the
 eastern Mediterranean. The exile that followed lasted until his
-suicide at Bithynia c. 183 BCE, the consequence of Roman pursuit
-through successive eastern courts.
+suicide in Bithynia in the early 180s.
 
 ## The Masinissa pattern
 

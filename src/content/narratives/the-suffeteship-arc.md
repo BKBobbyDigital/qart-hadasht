@@ -32,7 +32,7 @@ primary_entities:
     slug: carthaginian-governance
     role: subject
 referenced_claims: []
-last_revised: "2026-09-17"
+last_revised: "2026-09-21"
 ---
 
 The Carthaginian suffeteship (*šofeṭ* in Punic, plural
@@ -222,11 +222,11 @@ suffeteship was what he held after that career, in a
 distinct civic role. The separation between suffeteship and
 military command is unusually clear in his case.
 
-The political reaction. The displaced aristocratic faction
-denounced Hannibal to Rome, alleging conspiracy with
-Antiochus III against Roman interests, and produced the
-Roman pressure that forced Hannibal's flight from Carthage
-in late 195 BCE. The episode (treated under the editorial
+The political reaction. Hannibal's opponents wrote to their
+friends at Rome that he was in contact with Antiochus III
+(Livy 33.45), and a Roman embassy, long opposed by Scipio
+Africanus (33.47), forced his flight from Carthage in the
+summer of 195 BCE. The episode (treated under the editorial
 take on the
 [195 denunciation as fabrication](/editorialTakes/hannibal-195-denunciation-as-fabrication))
 shows the constitutional mechanism's vulnerability to

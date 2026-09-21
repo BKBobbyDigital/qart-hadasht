@@ -7,7 +7,7 @@ date_start:
 date_end:
   value: -195
   precision: year
-  notes: Hannibal served as suffete in 196 BCE; his flight from Carthage followed in late 195 BCE after senatorial denunciation to Rome.
+  notes: Hannibal served as suffete in 196 BCE; his flight from Carthage followed in the summer of 195 BCE (Livy 33.48) after his opponents denounced him to Rome. Nepos dates both a year earlier.
 place: carthage
 participants:
   - person: hannibal-barca
@@ -31,7 +31,7 @@ summary: >
   Hannibal's election to the Carthaginian suffeteship in 196
   BCE, his subsequent program of financial and constitutional
   reform, and the senatorial reaction that produced his flight
-  into exile in late 195 BCE. The episode is one of the few
+  into exile in the summer of 195 BCE. The episode is one of the few
   well-attested moments of post-Zama Carthaginian internal
   politics and reveals a Hannibal who, after Zama, turned his
   political and administrative talents to the reform of his
@@ -43,12 +43,12 @@ summary: >
   meet the annual installments to Rome without a special tax on
   citizens, the shortfall being explained by waste and
   embezzlement by leading men (Livy 33.46–47). **Constitutional
-  reform**: Hannibal moved against the Council of 104, the
-  judicial body whose life-tenure had given the senatorial
-  aristocracy its principal mechanism for controlling
-  successful generals. The council was reformed to be elected
-  annually rather than for life, substantially reducing the
-  senatorial faction's institutional power.
+  reform**: Hannibal moved against what Livy calls the order of
+  judges, usually identified with the Council of 104, whose
+  members held office for life and with it power over every
+  citizen's property, reputation and life. A law carried in
+  the assembly made them elected annually, with no one to
+  serve two consecutive years (Livy 33.46).
 
   The political reaction was severe. Hannibal's aristocratic
   opponents wrote to their friends at Rome that he was
@@ -61,12 +61,9 @@ summary: >
   [editorial take on the denunciation](/editorialTakes/hannibal-195-denunciation-as-fabrication). His subsequent exile
   and death are treated as a separate event on this site.
 
-  The episode illustrates several features of Carthaginian
-  politics that would otherwise be invisible. The
-  senatorial-aristocratic resistance to financial accountability;
-  the institutional mechanisms through which the senate
-  controlled successful military commanders; the willingness of
-  Carthaginian senatorial factions to use Roman pressure
-  against domestic rivals; the limited room for genuine
-  reform in a state operating under the Treaty of 201's
-  external constraints.
+  The episode shows Carthaginian politics that would otherwise be
+  invisible: a magistrate taking measures to the popular assembly
+  over the resistance of the leading men, a judicial order whose
+  life tenure gave it power over every citizen, and a faction
+  willing to use Roman pressure against a domestic rival, which
+  Rome, over Scipio's objection, chose to use.

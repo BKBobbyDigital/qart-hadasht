@@ -1,42 +1,52 @@
 slug: hannibal-death-libyssa
 statement: >
-  Hannibal took poison at his fortified residence at Libyssa in
-  Bithynia in 183 BCE rather than be surrendered to a Roman
-  embassy under Titus Quinctius Flamininus that had demanded
-  his extradition from King Prusias I.
+  Hannibal took his own life at Libyssa in Bithynia, with his house
+  surrounded, when King Prusias I moved to give him up after a Roman
+  embassy in which Titus Quinctius Flamininus took the lead. The year
+  was disputed in antiquity (183, 182 or 181 BCE).
 confidence: attested
 sources:
   - source: livy-auc
     stance: supports
     passage_ref: "39.51"
     passage_summary: >
-      Livy preserves the episode with characteristic detail,
-      including the geography of the residence (the seven
-      tunnels Hannibal had reportedly prepared as escape routes
-      against just this kind of demand) and the closing
-      speech.
+      Flamininus reproaches Prusias for sheltering Hannibal; the king sets
+      his own soldiers to guard the house, which had seven exits, some of
+      them hidden; all are watched, and Hannibal takes the poison he had
+      long kept ready. Livy gives him a closing speech and a curse on
+      Prusias for breaking the laws of hospitality.
   - source: nepos-hannibal
     stance: supports
-    passage_ref: "Han. 12-13"
+    passage_ref: "Hannibal 12–13"
     passage_summary: >
-      Cornelius Nepos preserves the death with sympathetic
-      framing, including the famous closing speech and the
-      Roman senate's reaction.
+      The senate sends envoys, Flamininus among them; Prusias will not
+      hand Hannibal over himself but says where he is; men with the Roman
+      envoys surround his castle, which had exits on every side, and he
+      takes the poison he always carried. Nepos records three dates for
+      the death: 183 (Atticus), 182 (Polybius), 181 (Sulpicius Blitho).
   - source: plutarch-lives
-    stance: supports
-    passage_ref: "Flam. 20-21"
+    stance: qualifies
+    passage_ref: "Flamininus 20–21"
     passage_summary: >
-      Plutarch's Life of Flamininus preserves the closing
-      speech and treats Flamininus's role in the episode with
-      ambivalence.
+      Flamininus acts on his own initiative while in Bithynia on other
+      business; the house had seven underground passages; the king's
+      guards block them. Plutarch gives three versions of the death
+      (strangling with his cloak, bull's blood, and Livy's poison) and
+      reports divided opinion at Rome.
+  - source: justin-epitome
+    stance: supports
+    passage_ref: "32.4.8"
+    passage_summary: >
+      Roman envoys sent to make peace between Prusias and Eumenes and to
+      demand Hannibal; he forestalls them with poison.
 notes: >
-  The closing speech traditionally attributed to Hannibal
-  ("let us release the Romans of their long anxiety, since
-  they consider it too tedious to wait for the death of an
-  old man") is preserved in multiple late sources but is
-  almost certainly rhetorical reconstruction. The
-  underlying fact of the suicide at Libyssa is firmly
-  attested.
+  The sources agree on the suicide and the place and differ on the
+  details: who surrounded the house (the king's soldiers in Livy and
+  Plutarch, men with the Roman envoys in Nepos), whether Flamininus
+  acted on the senate's instruction or his own, and the means of death
+  (Plutarch alone offers alternatives to poison). The poison ring of
+  later tradition is Juvenal's (Satires 10), not any historian's. The
+  closing speech is Livy's composition; Plutarch quotes it from Livy.
 entities:
   - type: person
     slug: hannibal-barca

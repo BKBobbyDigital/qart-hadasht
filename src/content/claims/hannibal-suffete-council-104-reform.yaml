@@ -1,28 +1,32 @@
 slug: hannibal-suffete-council-104-reform
 statement: >
-  As suffete, Hannibal reformed the Council of 104 from a
-  life-tenure body into an annually-elected one, substantially
-  reducing the senatorial-aristocratic faction's institutional
-  control over military commanders.
+  As suffete, Hannibal carried a law through the assembly making the
+  judges, who had held office for life, elected annually, with no one
+  to serve two consecutive years. Livy calls the body the order of
+  judges; its identification with the court of one hundred and four is
+  modern.
 confidence: attested
 sources:
   - source: livy-auc
     stance: supports
     passage_ref: "33.46"
     passage_summary: >
-      Livy describes the constitutional reform as part of
-      Hannibal's broader program against the senatorial
-      faction's entrenched institutional power.
+      The order of judges held office for life and with it power over
+      the property, reputation and lives of all. Hannibal, as presiding
+      magistrate, had a defiant quaestor, who expected promotion to the
+      judges, brought before the assembly, denounced the whole order, and
+      carried the law for annual election and no consecutive terms. The
+      law won him the people and cost him much of the aristocracy.
 further_reading:
   - source: hoyos-hannibal-2003
 notes: >
-  The Council of 104 had historically held the
-  post-campaign judgment of military commanders, sometimes with
-  severe consequences (the crucifixion of Hanno after the
-  Aegates is the canonical example). Hannibal had personal
-  reason to reform an institution that could threaten
-  successful commanders; his constitutional reform was both
-  politically self-interested and structurally significant.
+  Aristotle describes a Carthaginian court of one hundred and four
+  (*Politics* 2.11), and Justin a hundred judges set up to call generals
+  to account (19.2). Identifying Livy's order of judges with that body
+  is the usual reading and a reasonable one, but it is an inference;
+  Livy says nothing about generals, and describes the judges' power as
+  reaching every citizen. Whether Hannibal had personal reasons to fear
+  the court, as a returning general, is not stated in any source.
 entities:
   - type: event
     slug: hannibal-as-suffete

@@ -1,8 +1,8 @@
 slug: hannibal-196-reforms-mechanism
 statement: >
-  Hannibal's 196 BCE reforms targeted the Council of 104's
-  oligarchic-hereditary character by limiting members'
-  tenure to one year and barring anyone from serving
+  Hannibal's 196 BCE reforms ended the life tenure of the
+  judges (Livy's "order of judges", usually identified with
+  the Council of 104) by limiting members' tenure to one year and barring anyone from serving
   two consecutive years (Livy 33.46.6). The reform was passed through the
   popular assembly with explicit suffete sponsorship, a
   procedural sequence demonstrating that the Carthaginian
@@ -12,25 +12,25 @@ statement: >
   aristocratic resistance.
 confidence: attested
 scholarly_consensus: >
-  The reform's content and procedural mechanism are firmly
-  attested in Livy 33.46-47 and Cornelius Nepos's *Hannibal*.
-  Both sources are pro-Roman in their broader framing but
-  give the reform episode in operational detail that
-  modern scholarship has accepted as reliable.
+  The reform's content and procedure rest on Livy 33.46–47,
+  who gives the episode in circumstantial detail. Nepos
+  mentions only the financial side (*Hannibal* 7.5).
 sources:
   - source: livy-auc
     stance: supports
     passage_ref: "33.46-47"
     passage_summary: >
-      Livy's detailed account of Hannibal's suffeteship,
-      the financial investigation, the reform of the
-      Council of 104, and the political backlash that
-      followed.
+      Livy's detailed account of Hannibal's suffeteship:
+      the quarrel with a quaestor, the law making the
+      judges annual, the financial investigation, and the
+      backlash that followed.
   - source: nepos-hannibal
-    stance: supports
+    stance: qualifies
+    passage_ref: "Hannibal 7.5"
     passage_summary: >
-      Nepos's brief biography of Hannibal preserves the
-      reform episode with consistent operational detail.
+      Nepos says only that as suffete Hannibal found new
+      revenues that paid Rome and left a surplus; he does
+      not mention the judges.
 further_reading:
   - source: hoyos-hannibal-2003
 entities:

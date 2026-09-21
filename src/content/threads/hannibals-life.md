@@ -62,7 +62,7 @@ stops:
   - type: event
     slug: hannibal-exile-and-death
     note: >
-      Eighteen years of flight across the eastern Mediterranean.
+      Twelve years of exile across the eastern Mediterranean.
   - type: event
     slug: hannibal-suicide-at-bithynia
     note: >
@@ -77,7 +77,7 @@ stops:
     note: >
       The site's narrative on the post-Zama political career, the
       suffeteship, and the long exile.
-last_revised: "2026-05-10"
+last_revised: "2026-09-21"
 ---
 
 Hannibal Barca is the figure through whom most readers approach

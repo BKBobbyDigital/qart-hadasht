@@ -173,6 +173,30 @@ const REGRESSIONS = [
     fixed: 'Zama troop numbers, Miles pp. 315-317',
   },
   {
+    id: 'hannibal-eighteen-year-exile',
+    re: /eighteen[- ]years?(?: of)? exile|exile[^.]{0,20}eighteen years/i,
+    right: 'Hannibal fled in 195 and died in the early 180s: a twelve-year exile. Eighteen years runs from the 201 treaty.',
+    fixed: 'Hannibal after Zama, Miles pp. 317-321',
+  },
+  {
+    id: 'hannibal-flight-late-195',
+    re: /Hannibal[^.]{0,80}late 195|late 195[^.]{0,80}Hannibal/i,
+    right: 'Livy 33.48: Hannibal fled in the middle of the summer of 195. Nepos dates the embassy to 196.',
+    fixed: 'Hannibal after Zama, Miles pp. 317-321',
+  },
+  {
+    id: 'hannibal-poison-ring-nepos',
+    re: /Nepos[^.]{0,80}\bring\b|\bring\b[^.]{0,60}Nepos/i,
+    right: 'No historian has the poison ring; it is Juvenal (Satires 10). Nepos says he always carried poison.',
+    fixed: 'Hannibal after Zama, Miles pp. 317-321',
+  },
+  {
+    id: 'side-roman-fleet',
+    re: /(\bSide\b|Pamphylia|Eurymedon)[^.]{0,80}Roman fleet|Roman fleet[^.]{0,80}(\bSide\b|Pamphylia)/,
+    right: 'At Side (190) Hannibal fought the Rhodian fleet under Eudamus; no Roman ships were present (Livy 37.23-24). Miles has a Roman fleet.',
+    fixed: 'Hannibal after Zama, Miles pp. 317-321',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',

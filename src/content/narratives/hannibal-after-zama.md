@@ -2,18 +2,17 @@
 title: Hannibal After Zama
 scope: biography
 thesis: >
-  Hannibal Barca's life did not end at Zama. The eighteen years
-  between the Treaty of 201 BCE and his suicide at Libyssa in
-  183 BCE constitute a substantive late-career arc that most
-  popular accounts omit and that shows a different Hannibal
-  than the Italian-campaign general: a financial reformer at
-  Carthage, a political opponent of senatorial peculation, an
-  exile at multiple Hellenistic courts, an adviser in the
-  Roman-Seleucid war, and ultimately a man who chose suicide
-  over Roman extradition. The arc is one of the most directly
-  attested late-Hellenistic biographies of any non-king and
-  preserves a Hannibal whose interest extends well beyond
-  the wartime narrative.
+  Hannibal lived nineteen years after Zama, and the sources for them
+  are fuller than their neglect in popular accounts suggests. He kept an army in Africa until
+  Rome objected, was elected suffete and attacked the power of the
+  judges and the leakage of public revenue, fled when a Roman embassy
+  arrived, and spent twelve years as an adviser and commander at
+  eastern courts before taking poison in Bithynia. The period shows
+  two things the war does not: a Carthaginian politician working
+  through the popular assembly against an entrenched elite, and a
+  Rome whose pursuit of him was intermittent and contested at Rome
+  itself. Whether his own countrymen or Rome did more to drive him
+  out is the question the sources leave most open.
 primary_entities:
   - type: person
     slug: hannibal-barca
@@ -23,207 +22,209 @@ referenced_claims:
   - hannibal-suffete-council-104-reform
   - hannibal-death-libyssa
   - hannibal-scipio-same-year-deaths
-last_revised: "2026-09-17"
+last_revised: "2026-09-21"
 ---
 
-## The political-administrative phase (201-195 BCE)
+## After the peace (201–196 BCE)
 
-Hannibal returned from Zama to a Carthage that had been spared
-destruction by the Treaty of 201 BCE but reduced from imperial
-power to regional state. The treaty had imposed a 10,000-talent
-indemnity over fifty years, surrender of overseas territories
-and most of the fleet, and prohibitions on warfare both within
-and outside Africa without Roman permission. The political
-configuration at Carthage was tense: the Barcid family's
-authority had been damaged by the war's outcome, while the
-senatorial faction around Hanno the Great (who had opposed the
-Italian campaign throughout) saw an opportunity to reassert
-control.
+Hannibal did not retire after Zama. Nepos says that he went on
+commanding the army in Africa after the peace, with his brother Mago,
+until 200, when Carthaginian envoys at Rome asked for the return of
+their prisoners and were refused on the ground that Hannibal, the man
+who had caused the war, still held a command. Carthage then recalled
+him (*Hannibal* 7.1–4). A single late notice, in the fourth-century
+writer Aurelius Victor, says that Hannibal set his soldiers to planting
+much of Africa with olive trees, because their idleness worried the
+state and its leaders (*De Caesaribus* 37.3). It is an aside in a life
+of the emperor Probus, who did the same with vines, and it cannot be
+checked; but it fits Nepos's picture of a general still at the head of
+troops in peacetime.
 
-For five years (201-196 BCE) Hannibal held no formal political
-office. The surviving record preserves him as withdrawn from
-public life, supervising his estates and remaining outside
-the senatorial debates. Whether the withdrawal was tactical
-(waiting for senatorial overreach to produce political
-opening) or imposed (excluded by the post-war senatorial
-ascendancy) is not preserved with sufficient detail to settle.
+Nepos and Livy differ on the dates of what followed. Nepos puts
+Hannibal's suffeteship in 197 and the Roman embassy in 196; the
+conventional dates, taken from Livy's narrative, are 196 for the
+suffeteship and 195 for the flight.
 
-The opening came in 196 BCE. Hannibal was elected suffete, one
-of the two annual chief magistrates of Carthage. The election
-was apparently produced by popular-assembly support rather
-than by senatorial preference; the configuration would persist
-through the events that followed.
+## The suffete (196 BCE)
 
-## The reforms
+Livy's account of the year begins with an incident rather than a
+program (33.46). A body he calls the order of judges held office for
+life, and through that tenure held power over the property, reputation
+and lives of every citizen. Hannibal, as one of the two presiding
+magistrates, summoned a quaestor; the quaestor, expecting promotion to
+the judges, ignored him. Hannibal had him arrested and brought before
+the assembly, turned the complaint into an attack on the whole order,
+and carried a law that the judges be elected annually and that no one
+serve two consecutive years. The order is usually identified with the
+court of one hundred and four that Aristotle describes, though Livy
+does not use that name (see the
+[claim on the reform](/claims/hannibal-suffete-council-104-reform)).
 
-Hannibal's program as suffete had two principal components.
+He then turned to the revenue. The public income, Livy says, was being
+lost to careless management and to theft by some of the leading men
+and magistrates, so that a heavy tax on citizens seemed likely in
+order to meet the annual payment to Rome. Hannibal worked out what the
+state took in, what it spent and what had been embezzled, and told the
+assembly that if the balance were recovered the state could pay Rome
+without taxing anyone (33.46–47). Nepos's short version credits him
+with new revenues that covered the payment to Rome and left a surplus
+for the treasury (*Hannibal* 7.5). The offer to pay off the whole
+indemnity at once came later, in 191, from Carthaginian envoys after
+Hannibal had gone, and Rome refused it (Livy 36.4).
 
-Financial reform. Hannibal investigated the Carthaginian
-state finances and found that the annual installments of the
-indemnity could be met from current revenues without taxing
-citizens (Livy 33.46). The
-apparent revenue shortfall that had been requiring additional
-tax measures was explained by senatorial-aristocratic
-peculation: state funds had been systematically diverted into
-elite hands. Hannibal exposed the misappropriation before the
-assembly and pressed for the revenues to be collected, which
-made the state solvent without new taxes and made enemies of
-the men who had been profiting. (The offer to pay off the whole
-indemnity at once came later, in 191, from Carthaginian envoys
-after Hannibal had fled, and Rome refused it; Livy 36.4.)
-
-Constitutional reform. Hannibal moved against the Council
-of 104, the judicial body whose life-tenure had given the
-senatorial-aristocratic faction its principal mechanism for
-controlling successful generals. The council was reformed to
-be elected annually rather than for life. The reform reduced
-the senatorial faction's institutional power substantially and
-made future commanders less vulnerable to senatorial
-prosecution after campaigns.
-
-Both reforms had personal as well as systemic dimensions.
-Hannibal had reasons to fear the Council of 104 (his own
-post-Zama position depended partly on senatorial restraint);
-he had reasons to recover state funds (Carthaginian fiscal
-recovery was the structural condition for any political
-project the Barcid faction might pursue). The reforms were
-substantive policy as well as personal-political move.
+Livy counts the cost in the same breath: the law on the judges won him
+the people and lost him much of the aristocracy, and the financial
+inquiry made personal enemies of the men who had been profiting.
+Richard [Miles](/sources/miles-carthage-2010) sees in the method,
+measures carried through the popular assembly over the heads of the
+elite, the same politics that had served Hamilcar and Hasdrubal a
+generation earlier. That is his reading, and a fair one; the sources
+say nothing about Hannibal's motives beyond what his measures imply.
 
 ## The flight (195 BCE)
 
-The senatorial reaction was severe. Hannibal's opponents
-denounced him to Rome on charges of conspiring with Antiochus
-III of the Seleucid kingdom against Roman interests. Whether
-Hannibal had actually been in such communication before the
-denunciation cannot be recovered. What the charge was for is
-clearer than whether it was true: the accusers were the
-aristocratic faction his reforms had displaced, and the
-accusation reached Rome at the moment it was most useful to
-them. The site's reading, set out in the editorial take
-[Was the 195 denunciation real or fabricated?](/editorialTakes/hannibal-195-denunciation-as-fabrication),
-is that the denunciation was certainly a political weapon and
-was probably fabricated or heavily exaggerated. It does not
-settle whether some contact preceded the flight, because the
-surviving evidence cannot. Nepos preserves a tradition framing
-the denunciation as factional and declines to judge the charge;
-Livy's narrative presents it as substantively true; Polybius's
-account, which might have decided the question, is lost.
+His opponents wrote to their friends at Rome that he was exchanging
+messengers with Antiochus III (Livy 33.45). Livy is explicit that the
+pressure ran both ways. The Carthaginians who had lost their
+pilferings urged on "the Romans, who were on their own account looking
+out for an opportunity", and for a long time the embassy was blocked
+by Scipio Africanus, who thought it beneath Rome to take part in
+Carthaginian party politics or to prosecute a man it had beaten in the
+field (33.47). Whether there was substance to the charge is weighed in
+the editorial take
+[Was the 195 denunciation real or fabricated?](/editorialTakes/hannibal-195-denunciation-as-fabrication):
+the site reads it as a political weapon, probably fabricated or
+exaggerated, and does not claim to know whether any contact preceded
+the flight.
 
-A Roman embassy arrived at Carthage in late 195 BCE. Hannibal,
-recognizing the political configuration (the Carthaginian
-senate's willingness to surrender him to Rome to placate the
-external pressure), fled the city by night. The flight is
-preserved in Livy and Cornelius Nepos with characteristic
-detail: Hannibal departed Carthage in haste with limited
-baggage, sailed to Tyre, and from there made his way to the
-Seleucid court at Antioch.
+The envoys arrived in the summer of 195, giving out that they had come
+to settle a dispute with Masinissa. Hannibal showed himself in the
+forum that day, left by the gate at dark, rode through the night,
+reached his own castle on the coast between Acylla and Thapsus the
+next day, and sailed.
+At Cercina he found Phoenician merchant ships, said he was on a
+mission to Tyre, and held a feast for their captains so that none
+would sail ahead with news of him (Livy 33.47–48). Carthage told the
+Roman envoys it would do whatever Rome thought right (33.49); by
+Nepos's account it sent two ships after him, confiscated his property,
+razed his house and declared him an exile (*Hannibal* 7.7).
 
-## The Seleucid years (195-189 BCE)
+## With Antiochus (195–189 BCE)
 
-Hannibal arrived at Antioch as a notable refugee. Antiochus
-III was preparing for war with Rome; Hannibal was the most
-prominent surviving anti-Roman commander available to the
-Seleucid court. He was received with honor and assigned a
-position as adviser, with eventual operational responsibility
-for a small naval force in the Aegean theater of the
-Roman-Seleucid war.
+He sailed to Tyre, where the founders of Carthage received him, then to
+Antioch, where the king had already left for Asia; he met Antiochus's
+son at the games at Daphne and found the king himself at Ephesus
+(Livy 33.49). His advice, as Livy gives it, never changed: Rome could
+be beaten only in Italy, whose men and supplies would otherwise go on
+feeding its wars abroad. He asked for a hundred decked ships, 10,000
+foot and 1,000 horse, to take first to Africa, where he expected to
+bring Carthage back into the war, and then to Italy, while the king
+held his main army in Greece as a threat (34.60).
 
-The Seleucid court's strategic culture differed from what
-Hannibal's Italian campaign had relied on. The court was
-factional, with substantial pro-Roman and anti-Roman elements
-contesting policy; Antiochus's strategic decisions were often
-shaped by the political contests at court rather than by
-operational analysis. Hannibal's advice (substantially more
-aggressive against Rome than the eventual Seleucid execution
-produced) was received but not acted on with the consistency
-his Italian command had benefited from.
+The Carthaginian end of the plan failed first. Hannibal sent a Tyrian
+named Aristo to Carthage with a list of men to see and secret signs to
+prove his commission. Aristo was soon noticed; the senate debated
+arresting him as a spy; and he escaped by night after posting a notice
+over the magistrates' tribunal saying that his instructions were
+addressed not to private men but to the council of elders as a whole.
+Carthage reported the affair to Rome (Livy 34.61–62). Nepos adds that
+in 193 Hannibal came to the coast of Cyrenaica with five ships, hoping
+to draw Carthage into the war, and that Carthage passed on his brother
+Mago the same sentence of exile it had passed on him (*Hannibal* 8.1–2).
+Nepos's Mago is a problem, since Livy has the Mago of the Italian war
+die of his wound at sea in 203 (30.19); the episode is reported here as
+Nepos's.
 
-The war's outcome is largely outside this encyclopedia's
-scope. The Battle of Magnesia in 190 BCE produced the Seleucid
-defeat; the peace of Apamea in 188 BCE included a Roman demand
-for Hannibal's surrender. Hannibal fled before the demand
-could be executed.
+Carthage, meanwhile, was offering Rome grain, a fleet at its own
+expense and early payment of the whole indemnity; Rome took the grain
+at a price, refused the money and declined the fleet beyond the ships
+the treaty required (Livy 36.4). Those treaty ships served: a
+Carthaginian vessel was the one Roman loss at the sea battle off
+Corycus in 191 (36.44–45).
 
-## The exile years (189-184 BCE)
+Hannibal's own command came in 190. Sent to bring a fleet from Syria
+to Asia Minor (Nepos *Hannibal* 8.4), he met the Rhodian fleet under Eudamus off
+Side in Pamphylia at midsummer. Livy says Hannibal, on the seaward
+wing, nearly surrounded Eudamus until the victorious Rhodian ships on
+the other wing came to help, and then fled; afterwards he did not
+venture beyond the coast of Lycia (37.23–24). Nepos, closer to Hannibal
+in sympathy, says that although the fleet as a whole was beaten, the
+wing Hannibal commanded had the better of it (*Hannibal* 8.4). No Roman
+ships fought at Side. Antiochus lost the war on land at Magnesia, and
+the Roman terms that followed demanded Hannibal's surrender before
+all else (Livy 37.45; Justin 32.4).
 
-Hannibal's itinerary in exile is preserved with detail in the
-surviving sources. He stopped briefly in Crete (the famous
-episode of depositing earthenware jars filled with lead at a
-temple, the gold he actually possessed concealed in bronze
-statues outside the temple, the stratagem to protect his
-wealth from local plundering). He moved east to Armenia in
-189 BCE, where he reportedly advised King Artaxias on the
-foundation of Artaxata. By 184 BCE he was in Bithynia under
-King Prusias I.
+## Crete, Armenia and Bithynia (189–183 BCE)
 
-The Bithynian period was brief but operationally substantial.
-Hannibal advised Prusias in the Bithynian operations against
-Pergamum and contributed to a naval engagement in which
-(according to Cornelius Nepos) he ordered jars of poisonous
-snakes flung onto the Pergamene ships, a device improvised
-because the Bithynian fleet was numerically inferior. The
-detail is preserved with confidence in Nepos but not in the
-other surviving sources; whether the snake-jar tactic was
-real or later embellishment is not securely settled.
+He went first to Gortyn in Crete. Nepos tells the story of his money:
+he filled amphorae with lead, covered the tops with gold and silver,
+and deposited them with ceremony in the temple of Diana, while his
+real fortune went into the bronze statues he carried, left lying in
+the courtyard of his house (*Hannibal* 9). Justin has the same trick
+(32.4). Two later writers say he went to Artaxias of Armenia and laid
+out Artaxata, the new royal city, for him (Strabo 11.14.6; Plutarch
+*Lucullus* 31); the order of these movements is not recorded.
+
+His last refuge was the court of Prusias I of Bithynia, then at war
+with Eumenes of Pergamum. Nepos and Justin both tell how, with the
+Bithynian fleet outnumbered, Hannibal had earthenware jars filled with
+live snakes thrown onto the Pergamene ships, and Nepos adds that he
+first sent a herald to find out which ship carried the king
+(*Hannibal* 10–11; Justin 32.4). That two authors preserve it does not
+make it true, but it is not, as it is sometimes said to be, a story
+with a single source.
 
 ## The death (183 BCE)
 
-The Roman embassy under Titus Quinctius Flamininus arrived at
-the Bithynian court in late 183 BCE. The pretext was Roman
-interest in mediating Bithynian-Pergamene relations; the
-operative purpose was to demand Hannibal's surrender. Prusias,
-recognizing that he could not refuse a Roman demand at this
-scale, prepared to comply.
+The accounts disagree on who moved against him. Livy has Titus
+Quinctius Flamininus sent to Prusias on a special mission and
+reproaching him for sheltering Rome's deadliest enemy; the king, out of
+fear or to please the Romans, set his own soldiers to guard Hannibal's
+house (39.51). Nepos has the senate send envoys, Flamininus among them,
+to ask for Hannibal's surrender; Prusias refuses to violate
+hospitality himself but tells them where to find him, and the house is
+surrounded by men with the Roman envoys (*Hannibal* 12). Plutarch
+makes it Flamininus's own initiative, taken while he was in Bithynia on
+other business, and says that at Rome everyone had known where Hannibal
+was and ignored him as an old man of no account (*Flamininus* 20).
 
-Hannibal's response is preserved in detail across Livy 39.51,
-Cornelius Nepos *Hannibal* 12-13, and Plutarch *Flamininus*
-20-21. His residence at Libyssa had been built with seven
-underground escape passages, prepared specifically against
-the kind of demand that had now arrived. He recognized that
-all the passages were already covered by Roman troops; the
-political configuration had foreclosed escape. He took poison
-he had carried with him (Cornelius Nepos preserves the
-specific detail of poison concealed in his ring) and died at
-Libyssa in 183 BCE.
+Hannibal had prepared for it. Livy gives the house seven exits, some
+of them hidden; Plutarch calls them underground passages; Nepos says
+only that there were exits on every side. All were watched. Livy and
+Nepos have him take the poison he had long kept ready. Plutarch adds
+two other versions, strangling with his own cloak and a drink of bull's
+blood, before giving Livy's. The poison ring of later tradition is
+Juvenal's (*Satires* 10). The last words, that he would relieve the
+Romans of an anxiety they found too long to wait out on an old man's
+death, and his curse on Prusias for breaking the laws of hospitality,
+are Livy's composition (39.51), quoted by Plutarch from Livy.
 
-The closing speech traditionally attributed to him ("let us
-release the Romans of their long anxiety, since they consider
-it too tedious to wait for the death of an old man") is
-preserved in multiple late sources but is almost certainly
-rhetorical reconstruction. The underlying fact of the suicide
-is firmly attested.
+The year was disputed in antiquity. Nepos found 183 in Atticus, 182 in
+Polybius and 181 in Sulpicius Blitho (*Hannibal* 13.1). The tradition
+that Hannibal, Scipio and Philopoemen died in the same year is in
+Justin (32.4) and was in Polybius, but Livy argues that Scipio died
+earlier, allowing only that the three died at about the same time and
+that none of them died at home (39.52); see the
+[claim on the paired deaths](/claims/hannibal-scipio-same-year-deaths).
 
-He was buried at Libyssa. Septimius Severus reportedly built
-a marble mausoleum at the location centuries later; no
-archaeological remains have been securely identified.
+Plutarch reports the reaction at Rome as divided. Many thought
+Flamininus's act officious and cruel, the killing of an old bird that
+could no longer fly, and set it against Scipio's refusal to hound the
+man he had beaten; others held that Hannibal remained a fire that
+needed only fanning, since what had made him dangerous was not his arm
+but his experience and his hatred (*Flamininus* 21).
 
-## What this arc shows
+## Who drove him out
 
-Three observations.
-
-Hannibal's competence extended beyond the battlefield. The
-financial reforms at Carthage, the political navigation of
-the Seleucid court, the operational adaptations in Bithynia
-all demonstrate a Hannibal whose ability to read complex
-political-administrative situations was substantial. The
-"Hannibal as great general" framing captures something real
-but undersells the broader intelligence the late-career arc
-preserves.
-
-The Carthaginian senatorial faction's power was structural.
-Hannibal's eviction from Carthage in 195 BCE through senatorial
-denunciation rather than through formal Roman action shows
-that the Carthaginian internal political configuration was the
-operative cause of his exile. Rome's role was to receive and
-act on senatorial denunciation; Carthage's senatorial faction
-was the engine of his removal.
-
-The Hannibal-Scipio symmetry is real. Both Hannibal and
-Scipio Africanus died in 183 BCE. Both died in forms of
-internal political marginalization rather than at the height
-of their public power: Scipio after political prosecution at
-Rome and withdrawal to his estate at Liternum; Hannibal in
-exile in Bithynia. The two principal commanders of the Second
-Punic War shared not only the war but the political afterlife
-that the war's resolution had produced. The symmetry was
-preserved in the surviving tradition with explicit attention.
+Two readings meet in these years. One makes Hannibal a victim of Roman
+vindictiveness, pursued from Carthage to Bithynia. The other, which
+Miles presses, puts his fall mainly at the door of his own countrymen:
+the Carthaginian elite he had attacked denounced him to Rome and later
+reported his agent, and he was a stranger to the city he governed,
+having left it at nine. The sources support parts of both. Livy has the
+Carthaginian accusers and a Rome already looking for its chance acting
+together in 195, with Scipio holding Rome back; Plutarch has Rome
+indifferent in 183 until one man chose otherwise. On this site's
+reading, neither side acted alone: the domestic enemies supplied the
+occasion both times, and Roman willingness to use it varied with who
+held the argument at Rome.

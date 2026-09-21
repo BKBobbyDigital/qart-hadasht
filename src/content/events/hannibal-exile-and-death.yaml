@@ -4,11 +4,11 @@ type: political
 date_start:
   value: -195
   precision: year
-  notes: Flight from Carthage in late 195 BCE following senatorial denunciation to Rome.
+  notes: Flight from Carthage in the summer of 195 BCE (Livy 33.48) after his opponents denounced him to Rome.
 date_end:
   value: -183
   precision: year
-  notes: Suicide by poison at Libyssa in Bithynia, 183 BCE.
+  notes: Suicide at Libyssa in Bithynia; the year was disputed in antiquity between 183, 182 and 181 BCE (Nepos, Hannibal 13.1).
 place: bithynia
 places:
   - bithynia
@@ -21,75 +21,49 @@ principal_sources:
   - livy-auc
   - nepos-hannibal
   - plutarch-lives
-  - polybius-histories
+  - justin-epitome
 related_events:
   - event: hannibal-suicide-at-bithynia
-    relation: focal closing event of (the eighteen-year exile)
+    relation: focal closing event of (the twelve-year exile)
   - event: hannibal-196-reforms
     relation: produced by (the political backlash of 196 BCE that triggered the flight)
 summary: >
-  The twelve-year exile and eventual death of Hannibal Barca,
-  beginning with his flight from Carthage in late 195 BCE and
-  ending with his suicide by poison at Libyssa in Bithynia in
-  183 BCE. The arc, preserved with substantial detail across
-  Livy, Cornelius Nepos, Plutarch, and the Polybian fragments,
-  is one of the more directly attested episodes in the
-  Hellenistic-period biography of any non-king. Hannibal's
-  itinerary in exile traces, in compressed form, the geography
-  of late-Hellenistic resistance to Roman power.
+  The twelve-year exile and death of Hannibal Barca, from his flight
+  from Carthage in the summer of 195 BCE to his suicide at Libyssa in
+  Bithynia in the early 180s. The narrative rests on Livy, Cornelius
+  Nepos, Plutarch and Justin, who agree on the outline and differ on
+  many details. The full account, with the sources set side by side,
+  is in the narrative
+  [Hannibal after Zama](/narratives/hannibal-after-zama).
 
-  Phase 1 (195-189 BCE): the Seleucid court of Antiochus III.
-  Hannibal fled Carthage to Tyre, then to Antioch, where he was
-  received by Antiochus III as an honored counselor in the
-  Seleucid king's developing conflict with Rome. Hannibal
-  advised Antiochus on the war against Rome (against, in
-  general, the consensus of the Seleucid court, which he found
-  insufficiently committed to a coherent western strategy);
-  commanded a small Seleucid naval force in the Aegean and
-  eastern Mediterranean theater; was probably present, in some
-  capacity, at the catastrophic Battle of Magnesia in 190 BCE
-  that ended Antiochus's war. The Apamea peace treaty of 188
-  BCE included a Roman demand for Hannibal's surrender; he
-  fled before it could be executed.
+  With Antiochus III (195–189 BCE). Hannibal sailed to Tyre and then
+  to Antioch, found that the king had left for Asia, and joined him at
+  Ephesus (Livy 33.49). He urged a war fought in Italy, with himself
+  leading a force to Africa to bring Carthage back in (34.60), and sent
+  an agent, Aristo of Tyre, to his supporters at Carthage; the mission
+  was exposed and reported to Rome (34.61–62). His one command was a
+  fleet brought from Syria, beaten by the Rhodians off Side in
+  Pamphylia in 190; Livy has his wing flee, Nepos has it hold its own
+  (Livy 37.23–24; Nepos *Hannibal* 8.4). After Antiochus's defeat at
+  Magnesia, Rome's terms demanded his surrender before all else (Livy
+  37.45).
 
-  Phase 2 (189-184 BCE): Crete and the eastern Mediterranean.
-  Hannibal reportedly stopped briefly in Crete before moving
-  east to the kingdom of Bithynia under Prusias I. The Cretan
-  episode is preserved in some sources with the famous detail
-  of Hannibal depositing earthenware jars filled with lead at a
-  temple, the gold he actually possessed concealed in bronze
-  statues outside the temple — a stratagem to protect his
-  wealth from local plundering while appearing to entrust it
-  to the priests.
+  Crete and Armenia (189 BCE onward). At Gortyn he deposited jars of
+  lead topped with gold and silver in the temple of Diana, keeping his
+  real fortune in bronze statues left in the courtyard of his house
+  (Nepos *Hannibal* 9; Justin 32.4). Strabo and Plutarch say he laid
+  out Artaxata for Artaxias of Armenia (Strabo 11.14.6; Plutarch
+  *Lucullus* 31).
 
-  Phase 3 (184-183 BCE): Bithynia. Hannibal advised
-  Prusias I in the Bithynian operations against Pergamum and
-  contributed to a naval engagement in which (according to
-  the surviving tradition) he ordered jars of poisonous snakes
-  flung onto the Pergamene ships, a device improvised because
-  the Bithynian fleet was numerically inferior. In 183 BCE the
-  Roman embassy under Titus Quinctius Flamininus demanded his
-  surrender from Prusias. Hannibal, recognizing that Prusias
-  would comply, took poison at his fortified residence at
-  Libyssa rather than be handed over.
+  Bithynia. At the court of Prusias I, at war with Eumenes of Pergamum,
+  he is said to have had jars of live snakes thrown onto the Pergamene
+  ships (Nepos *Hannibal* 10–11; Justin 32.4). When Flamininus came to
+  Bithynia and Prusias moved to give him up, he took poison in his
+  surrounded house (Livy 39.51; Nepos *Hannibal* 12; Plutarch
+  *Flamininus* 20). The closing speech is Livy's composition, which
+  Plutarch quotes.
 
-  The famous closing speech preserved in Plutarch (*Flamininus*
-  20) and elsewhere is rhetorical reconstruction of one of the
-  most-cited moments in ancient biography: "Let us release the
-  Romans of their long anxiety, since they consider it too
-  tedious to wait for the death of an old man." Whether
-  Hannibal actually said anything of the kind is uncertain;
-  that he died at Libyssa in 183 BCE rather than be surrendered
-  is firmly attested. He was buried at Libyssa; Septimius
-  Severus reportedly built a mausoleum at the site centuries
-  later, though no archaeological remains have been securely
-  identified.
-
-  Hannibal's death in 183 BCE is conventionally noted as
-  occurring in the same year as Scipio Africanus's death in
-  Italy. The two principal commanders of the Second Punic War
-  thus ended their lives within months of each other, both in
-  forms of internal political marginalization rather than at
-  the height of their public power. The coincidence is one of
-  the more striking biographical pairings in ancient
-  historiography.
+  The death was paired in antiquity with Scipio Africanus's and
+  Philopoemen's as falling in the same year, a tradition Livy rejected
+  for Scipio (39.52); see the
+  [claim on the paired deaths](/claims/hannibal-scipio-same-year-deaths).

@@ -2407,6 +2407,64 @@ which also gained **Appian's second armistice** (*Pun.* 36–39: brokered
 by Masinissa, 1,000-talent penalty, ended on Carthage's orders), found
 nowhere else.
 
+### Hannibal after Zama, checked against Miles pp. 317–321 (Sep 2026)
+
+`narratives/hannibal-after-zama.md` predated every audit and was
+rewritten from Livy 30.43–45, 33.45–49, 34.60–62, 36.4, 36.44–45,
+37.23–24, 37.45, 39.51–52; Nepos *Hannibal* 7–13; Justin 32.4; Plutarch
+*Flamininus* 20–21; Aurelius Victor *Caes.* 37.3; Strabo 11.14.6;
+Plutarch *Lucullus* 31. It closed on a "Three observations" section;
+now "Who drove him out" weighs Miles's own-countrymen reading against
+the Roman-vindictiveness one (Livy 33.47 has both acting together, with
+Scipio blocking the embassy; Plutarch 20 has Rome indifferent until
+Flamininus).
+
+**Errors fixed across the narrative, both exile events, the Bithynia
+page, the death and paired-deaths claims, both suffete events, the
+reform claims, period 07, the suffeteship arc, the Scipio life and the
+Hannibal's-life thread:**
+- "Withdrawn, supervising his estates" 201–196: Nepos 7 has him
+  commanding the army in Africa until 200; Aurelius Victor has the
+  olive-planting (one late source; Miles says "several").
+- Flight in "late 195": Livy 33.48 says midsummer. Route: castle between
+  Acylla and Thapsus, Cercina, Tyre, Antioch (king absent), Ephesus.
+- "Council of 104" as Livy's term: Livy says the order of judges; the
+  identification is modern. "Hereditary" and "controlling generals"
+  are not in Livy; Nepos does not mention the judges at all.
+- Naval command "in the Aegean": a fleet from Syria, beaten by the
+  **Rhodians** off Side in 190 (Livy flees, Nepos holds his wing).
+  Miles says a **Roman** fleet and "Carthaginian ships among the Roman
+  fleet"; those were at Corycus in 191 (Livy 36.44–45), without
+  Hannibal. REGRESSION rule added.
+- "Probably present at Magnesia": no source. Removed.
+- Snakes "in Nepos but not other sources": Justin 32.4 has them too.
+- Crete statues "outside the temple": left in his house's courtyard.
+- "Roman troops" surrounding the house: the king's soldiers in Livy and
+  Plutarch, the Roman envoys' men in Nepos. Seven "underground" exits is
+  Plutarch; Livy has seven, some hidden.
+- Poison ring credited to Nepos: it is Juvenal. REGRESSION rule added.
+- Closing speech "in multiple late sources": it is Livy 39.51, quoted by
+  Plutarch.
+- **"Eighteen-year exile"** in four places: twelve (195 to the early
+  180s). REGRESSION rule added.
+- **Same-year deaths of Hannibal and Scipio** was tagged `attested` with
+  Livy as support; Livy 39.52 argues against it. Now `contested`, with
+  Justin 32.4.9 for and Nepos 13.1's three death dates (183/182/181).
+
+**New to the site:** Livy 34.60's plan (100 ships, 10,000 foot, 1,000
+horse to Africa, then Italy), the Aristo affair (34.61–62), Nepos's
+Cyrenaica landing in 193 with a problematic Mago, Carthage's 191 offers
+to Rome, Scipio's opposition to the 195 embassy, the quaestor incident
+that began the judges reform, Carthage's confiscation and razing of
+Hannibal's house (Nepos 7.7). The Byrsa "Hannibal Quarter" now says the
+name is a modern label.
+
+**Miles errors not on the site:** Side as a battle with the Roman
+fleet; olive planting in "several Roman sources"; Hanno's renewed
+support in the Aristo affair (Livy does not name him); Plutarch misquoted
+("when he was not in his prime" for "when he was in his prime").
+Review baseline now `consensus` 8.
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the
@@ -2866,7 +2924,7 @@ cannot do from the open web.
   the best candidate for the next check in `evidence-audit.mjs`.
 
 **The review half has a reviewed baseline, not a backlog:** `consensus`
-9, `universal` 0, `inevitable` 11, `design-from-outcome` 11,
+8, `universal` 0, `inevitable` 11, `design-from-outcome` 11,
 `prose-attribution` 0, `unpaged-modern` 6, `named-holders` 3. If a number
 rises, something new was written. **Do not drive one to zero without
 reading the hits**; what remains in each is the site arguing correctly
