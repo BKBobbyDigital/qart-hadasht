@@ -2488,7 +2488,17 @@ Maior* 26–27; Pliny *NH* 15.74–75; *Periochae* 48.
   only Appian says warships, perhaps a tolerated merchant fleet feeding
   Rome's eastern wars. The other reading, a treaty breach, fits Appian
   and the rearmament charges. The dating range reaches back before 201.
-  **Not yet added to `destruction-not-weak-enough`; offered to the user.**
+  **Resolved (user-confirmed): tolerated, but naval, not merchant.**
+  The user held "certainly a tolerated merchant fleet"; the site keeps
+  the tolerance and rejects the merchant use, because Appian 96 puts the
+  merchantmen in the outer harbor and the sheds, hidden from merchants,
+  in the inner one, and ship-sheds with slipways are warship
+  technology. Rome knew (repeated commissions) and let it stand while
+  Carthage was a paying ally obliged by treaty to supply ships (Livy
+  36.4; a Carthaginian ship at Corycus, 36.44–45), until the recovery
+  read as rearmament ("ships held against the treaty", *Per.* 49). Now
+  a paragraph in `destruction-not-weak-enough` and on both harbor pages.
+  Do not describe the harbor as a merchant fleet.
 - Period 07's recovery section rewritten from evidence (Livy 36.4 offers;
   Appian 68's three factions "in periods of prosperity", pro-Masinissa
   party under **Hannibal the Starling**, not Miles's "Hasdrubal",
