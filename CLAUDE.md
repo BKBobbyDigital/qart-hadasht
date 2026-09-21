@@ -2342,10 +2342,26 @@ one sentence.
 - `cannae-march-on-rome`: one sentence reading Livy 30.20's Cannae regret
   as Livy's own verdict put in Hannibal's mouth.
 
-**The peace-of-203 comparison is new and unaudited.** Source comparisons
-are the site's most error-prone format (see the second-read audits), so
-it should be early in any future review batch. It was drafted from the
-texts in the scratchpad, not from summaries.
+**Reviewed the same day against the texts** (Polybius 15.1–8, Livy
+30.16–25, Appian *Pun.* 31–35). The draft had no invented facts, but it
+had left out evidence already in the cited passages, the pattern from the
+second audit batch:
+- **Appian 35 was missing.** After the attack, Rome orders the
+  Carthaginian envoys, "still there treating for peace", out as enemies.
+  So Appian is not simply "peace made": he contradicts his own ch. 32,
+  and the ratification rests on Polybius against Livy and Appian's ending.
+- **Livy 30.25's escort was given by magistrates protecting the envoys
+  from the mob.** With Appian's Hanno the Great and Hasdrubal the Kid, two
+  of three accounts make the escort protection; only Polybius makes it
+  the plot. This is now the lead of the "who attacked" point.
+- Livy 30.23's Metellus motion (leave it to Scipio), defeated, is what
+  Appian's senate does. Polybius 15.4.8 has senate and people accept
+  "readily", which sharpens the answer to Miles's "grudgingly".
+- Appian's crowd cites hunger (34); his Hannibal distrusts the people's
+  bad faith toward their **magistrates**, not "commanders".
+- All three have Scipio release the returning Carthaginian envoys
+  (Polybius 15.4.9–12, Livy 30.25, Appian 35), now noted as the one
+  agreement, and a Roman moral.
 
 ### Open threads (as of 21 Sep 2026)
 

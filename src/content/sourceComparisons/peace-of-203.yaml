@@ -8,8 +8,8 @@ summary: >
   from Italy, and within months the truce had collapsed: storm-driven
   Roman supply ships were seized at Carthage, the envoys Scipio sent to
   protest were attacked on their way back, and the war resumed toward
-  Zama. Three accounts survive in detail, Polybius (15.1–3, 15.7–8),
-  Livy (30.16–25) and Appian (*Punica* 31–34), and they disagree on
+  Zama. Three accounts survive in detail, Polybius (15.1–4, 15.7–8),
+  Livy (30.16–25) and Appian (*Punica* 31–35), and they disagree on
   nearly every point that bears on blame: what the Carthaginian envoys
   admitted, whether Rome ever accepted the peace, who decided to seize
   the ships, and who ordered the attack.
@@ -17,7 +17,10 @@ summary: >
   The episode is also a study in blame being moved around. Carthage's
   envoys lay the war on Hannibal; Hannibal lays his recall on the
   Carthaginian senate and on Hanno; and each surviving author assigns
-  the breach of the truce to a different Carthaginian body. A fourth
+  the breach of the truce to a different Carthaginian body. On one thing
+  all three agree, and it is the Roman moral: when the Carthaginian
+  envoys came back from Rome after the attack, Scipio let them go
+  unharmed (Polybius 15.4.9–12; Livy 30.25; Appian *Punica* 35). A fourth
   witness complicates it further. Richard
   [Miles](/sources/miles-carthage-2010), in a note, points to a papyrus
   from Egypt, P. Rylands III 491, dated before about 130 BCE, which
@@ -30,7 +33,7 @@ summary: >
 
 source_passages:
   - source: polybius-histories
-    passage_ref: "15.1–3, 15.7–8"
+    passage_ref: "15.1–4, 15.7–8"
     paraphrase: >
       Scipio sends three legates to Carthage to protest the seizure of
       his transports and to announce that the Roman people have
@@ -48,7 +51,9 @@ source_passages:
       the cession Hannibal was now offering (Sicily, Sardinia, Spain,
       the islands between Italy and Africa), plus prisoners returned
       without ransom, the war fleet surrendered, 5,000 talents and
-      hostages. He says the senate agreed and the people consented.
+      hostages. He says the senate agreed and the people consented; the
+      envoys returning from Rome had reported that both "readily
+      accepted" the treaty (15.4.8).
     source_note: >
       Polybius survives only in excerpts for this stretch, and much of
       what he says about Carthaginian behavior comes through speeches
@@ -57,7 +62,8 @@ source_passages:
   - source: livy-auc
     passage_ref: "30.16, 30.19–25"
     paraphrase: >
-      The Thirty Seniors, the most senior council at Carthage, prostrate
+      The Thirty Seniors, whom Livy calls the most august council at
+      Carthage, prostrate
       themselves before Scipio and throw the responsibility for the war
       on Hannibal and his supporters. Scipio's terms: prisoners and
       deserters returned, the armies withdrawn from Italy and Gaul, Spain
@@ -69,19 +75,26 @@ source_passages:
       Hannibal had no orders to cross the Ebro, much less the Alps, and
       ask to return to the treaty of Lutatius; young men, they cannot
       answer questions about its terms. The senate adopts Laevinus's
-      motion and dismisses them with no prospect of peace. When Roman
-      transports are scattered by a storm, the senate and people,
-      almost merged into one body, vote to send Hasdrubal with fifty
-      ships to seize them. Scipio's protesting envoys are attacked on
-      their return by quadriremes from the fleet under Hanno, on secret
-      orders from Carthage or on Hanno's own responsibility. Hannibal,
+      motion, against Metellus's proposal to leave the decision to
+      Scipio, and dismisses them with no prospect of peace. When Roman
+      transports are scattered by a storm, the crowd in the vestibule of
+      the senate house protests at the booty slipping away; some object
+      that seizing it would break faith; then senate and people, almost
+      merged into one body, vote unanimously to send Hasdrubal with
+      fifty ships to seize them. Scipio's protesting envoys, threatened
+      by the mob, ask the magistrates who have protected them for an
+      escort and are given two triremes. After the escort turns back,
+      three quadriremes from the fleet off Utica attack them, on secret
+      orders from Carthage or on the commander Hanno's own
+      responsibility. The Carthaginian envoys, back from Rome, are
+      dismissed unharmed. Hannibal,
       recalled, blames the senate's envy and Hanno, and curses himself
       for not marching on Rome after Cannae. He lands at Leptis.
     source_note: >
       Livy used Polybius for parts of his narrative and Roman annalists
       for others; the speeches are his compositions.
   - source: appian-punica
-    passage_ref: "31–34"
+    passage_ref: "31–35"
     paraphrase: >
       Carthage seeks either peace or delay until Hannibal arrives. At
       Rome some senators dwell on Carthaginian faithlessness; others
@@ -92,12 +105,18 @@ source_passages:
       warships, Carthage confined within the "Phoenician trenches,"
       prisoners and deserters returned, 6,000 talents, and Masinissa to
       have his kingdom and as much of Syphax's as he can take. Hannibal
-      sails unwillingly, distrusting Carthage's bad faith toward its
-      commanders, and lands at Hadrumetum. The common people of Carthage
+      sails unwillingly, knowing the people's bad faith toward their
+      magistrates, and lands at Hadrumetum. The common people of
+      Carthage, saying hunger is more dangerous than breaking a treaty,
       plunder Scipio's storm-driven stores in spite of their council's
-      warnings; Hanno the Great and Hasdrubal the Kid rescue Scipio's
-      messengers from the mob and send them off in two galleys; "some
-      others" send word to the admiral Hasdrubal, who attacks them.
+      threats and warnings. When Scipio sends to demand reparation, the
+      people try to seize his messengers as hostages; Hanno the Great and
+      Hasdrubal the Kid rescue them and send them off in two galleys;
+      "some others" send word to the admiral Hasdrubal, who attacks them
+      once the escort leaves. When the news reaches Rome, the
+      Carthaginian envoys, still there treating for peace, are ordered to
+      leave as enemies; storm-driven to Scipio's camp, they are released
+      unharmed.
     source_note: >
       Appian's sources cannot be identified. The site treats his
       divergences as a separate tradition rather than as corrections or
@@ -172,16 +191,22 @@ points_of_difference:
         what_it_says: >
           The senate could not agree and left the decision to Scipio,
           who made the peace; envoys crossed in both directions to take
-          the oaths (*Punica* 32).
+          the oaths (*Punica* 32). Yet when the attack was reported,
+          the Carthaginian envoys were "still there treating for peace"
+          and were ordered out as enemies (35).
     commentary: >
-      The three versions cannot be reconciled. The stakes are not small.
-      In Livy, Carthage broke an armistice while a peace was still in
-      doubt; in Polybius it broke a treaty the Roman people had
-      ratified, the graver charge, and the one a historian close to
-      Scipio had reason to press. Appian alone preserves senators who
-      argued that Rome needed peace too, a voice Livy's senate does not
-      have. Wherever the ratification is stated as fact, it rests on
-      Polybius, against Livy.
+      Polybius and Livy cannot be reconciled, and Appian is not
+      consistent with himself: a peace Scipio made and sent for oaths,
+      and envoys still negotiating at Rome when the truce broke. The
+      stakes are not small. In Livy, Carthage broke an armistice while a
+      peace was still in doubt; in Polybius it broke a treaty the Roman
+      people had readily ratified, the graver charge, and the one a
+      historian close to Scipio had reason to press. Appian's senators
+      who argued that Rome needed peace too have a partial counterpart
+      in Livy: Metellus proposed leaving the decision to Scipio, and
+      lost (30.23). Appian's senate in effect adopts the motion Livy's
+      rejects. Wherever the ratification is stated as fact, it rests on
+      Polybius, against Livy and the end of Appian's account.
   - topic: Who decided to seize the supply ships
     positions:
       - source_slug: polybius-histories
@@ -196,13 +221,20 @@ points_of_difference:
           with fifty ships (30.24).
       - source_slug: appian-punica
         what_it_says: >
-          The common people, in spite of their council's threats and
-          warnings not to break the treaty (*Punica* 34).
+          The common people, saying hunger was more dangerous than
+          breaking a treaty, in spite of their council's threats and
+          warnings (*Punica* 34).
     commentary: >
       The same act passes from a decision of the governing class, to a
-      joint decision of council and people, to a mob acting against its
-      council. Appian's version clears the council; Polybius's makes it
-      responsible.
+      joint decision of council and people under pressure from a crowd,
+      to a hungry crowd acting against its council. Appian's version
+      clears the council; Polybius's makes it responsible. Livy and
+      Appian both start the seizure in the street, and both record
+      voices at Carthage calling it a breach of faith. Appian alone gives
+      the crowd a reason other than greed or hope of Hannibal, that the
+      city was short of food. Polybius points the same way when he says
+      the Carthaginians would not give up the supplies the ships carried
+      (15.2.2).
   - topic: Who attacked Scipio's envoys
     positions:
       - source_slug: polybius-histories
@@ -212,18 +244,28 @@ points_of_difference:
           Hasdrubal to attack once it turned back (15.2).
       - source_slug: livy-auc
         what_it_says: >
-          Quadriremes from the fleet under Hanno, either on secret
-          orders from Carthage or on Hanno's own responsibility without
-          his government's connivance (30.25).
+          Quadriremes from the fleet off Utica, either on secret orders
+          from Carthage or on its commander Hanno's own responsibility
+          without his government's connivance; the escort was supplied
+          by the magistrates who had protected the envoys from the mob
+          (30.25).
       - source_slug: appian-punica
         what_it_says: >
           "Some others," who sent word to the admiral Hasdrubal; Hanno
           the Great and Hasdrubal the Kid had rescued the envoys from
           the mob (*Punica* 34).
     commentary: >
-      The accounts do not even agree on names. Livy's fleet commander is
-      a Hanno; Appian's Hanno the Great is the envoys' protector, and
-      his attacker is an admiral Hasdrubal, as in Polybius. The
+      The escort is the sharpest difference. In Polybius it is part of
+      the plot, a courtesy designed to leave the envoys alone at a known
+      point. In Livy and in Appian it is protection, given by
+      Carthaginians who were trying to get the envoys home safely, and
+      the attack came from elsewhere. Two of the three accounts
+      therefore have leading Carthaginians, the magistrates in Livy and
+      Hanno the Great and Hasdrubal the Kid in Appian, acting in good
+      faith. The accounts do not agree on names either. Livy's Hasdrubal
+      leads the seizure of the ships, and the attacking fleet is under
+      a Hanno; Appian's Hanno the Great is the envoys' protector, and his
+      attacker is an admiral Hasdrubal, as in Polybius. The
       possibility Livy raises, a commander acting without his
       government, is the same defense the Carthaginian envoys made for
       Hannibal. No account leaves the Carthaginian state simply guilty
@@ -238,8 +280,8 @@ points_of_difference:
           Cannae (30.20).
       - source_slug: appian-punica
         what_it_says: >
-          He sails against his will, knowing Carthage's bad faith toward
-          its commanders, doubting a treaty would be made or, if made,
+          He sails against his will, knowing the people's bad faith
+          toward their magistrates, doubting a treaty would be made or, if made,
           would last (*Punica* 33).
     commentary: >
       Both have Hannibal blaming Carthage rather than Rome, which fits
@@ -257,17 +299,19 @@ working_reconstruction: >
   to Livy. An embassy went to Rome. What Rome decided cannot be
   recovered: Polybius says the senate and people ratified the peace,
   Livy that the senate rejected it, Appian that it left the matter to
-  Scipio. Hannibal was recalled and sailed from Croton, where he had
+  Scipio and later sent the envoys away. Hannibal was recalled and sailed from Croton, where he had
   spent his last years in Italy (see [Croton](/places/croton)). Roman
   transports driven ashore near Carthage were then seized, and the
-  envoys Scipio sent to protest were attacked on their way back. The
-  war resumed, and ended at Zama in 202.
+  envoys Scipio sent to protest were attacked on their way back. Scipio
+  released the Carthaginian envoys when they returned. The war resumed,
+  and ended at Zama in 202.
 
   On blame, the site's reading is that the breakdown happened but that
   its allocation is precisely what each tradition shaped. A Carthaginian
   party that wanted to keep fighting, strengthened by Hannibal's
   return, and a party that wanted the peace are both plain in all three
-  accounts. Which body decided to seize the ships, and who ordered the
+  accounts, and in Livy and Appian the second party protected Scipio's
+  envoys. Which body decided to seize the ships, and who ordered the
   attack, are told three ways, and the episodes themselves are absent
   from the papyrus Miles cites, which should keep any reconstruction of
   them provisional. The recurring feature is the defense of the
