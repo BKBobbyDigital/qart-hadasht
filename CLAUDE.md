@@ -2275,6 +2275,35 @@ Sep 2026**, after reaching the end of Miles's book. The material for it
 now runs from Gades through the Alps to the Colline Gate. Still do not
 draft it unprompted.
 
+**Miles pp. 304–305, same day.** Three things, none of them adopted
+from Miles as stated:
+- **He dates the twelve Latin colonies' refusal to 208. The site's 209 is
+  right**: Livy 27.7 opens the consular year of Fabius and Fulvius, and
+  the refusal falls in it (27.9). He also calls them "Roman colonies in
+  Latium"; Livy's are Latin colonies across Italy. Do not change the
+  site to 208.
+- **Lake Avernus, recorded for the tabled take and not yet on the
+  site.** Miles says it "seems likely" Hannibal worshipped Astarte or
+  Melqart at Avernus. Livy 24.12 says he went "ostensibly for the purpose
+  of offering sacrifice, but really to make an attempt on Puteoli." The
+  only surviving account calls the rite a pretext, and Miles reads
+  against it; his "at least two occasions" is not in Livy, who has one
+  visit. **This is a clean test case for the piety-versus-messaging
+  question the Heracles/Alexander take will have to answer**, because
+  Livy supplies the cynical reading and Miles the pious one. The same
+  page carries Miles on Juno as Carthage's patron, the later Juno–Tanit
+  identification, and Uni–Astarte on the Pyrgi Tablets; check his notes
+  106–109 before using any of it.
+- **Found in passing, and added (`hannibal-italian-objective-alliance-dismemberment`):**
+  Livy 24.13 has five young Tarentine nobles, freed after Trasimene and
+  Cannae, come to Hannibal at Avernus in 214 saying they had won
+  Tarentum's youth over to him. He marched on the city and withdrew
+  empty-handed (24.20). The 212 betrayal was carried out by a different
+  thirteen, moved by Rome's execution of escaped Tarentine and Thurian
+  hostages (25.7–8). So the prisoner policy produced contacts before a
+  defection, and the defection had a Roman cause too. Do not collapse the
+  two groups into one; Livy does not connect them.
+
 ### The Alps: hard or ordinary (Sep 2026)
 
 From Miles pp. 258–259 (user photos). Commit `d517de4`. Hannibal's
