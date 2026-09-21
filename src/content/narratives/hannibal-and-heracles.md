@@ -34,7 +34,7 @@ referenced_claims:
   - hannibal-campaign-heraclean-presentation
   - hannibal-alexander-model
   - melqart-heracles-identification
-last_revised: "2026-09-15"
+last_revised: "2026-09-21"
 ---
 
 Every general in the Hellenistic world claimed the gods were with him.
@@ -258,6 +258,59 @@ edge of the program, and it fits the site's reading of the
 [institutionally mixed Carthaginian army](/editorialTakes/carthaginian-army-institutionally-mixed):
 something had to hold such a force together, and it was not a common
 citizenship.
+
+## At the gates of Rome
+
+The image went with Hannibal to the last point of his offensive in
+Italy. In 211, unable to break the Roman siege of Capua, he marched on
+Rome to draw the besiegers off. Polybius gives him a double purpose: to
+gain what he could against the city by surprise, and failing that to
+force the Roman commander at Capua to lift the siege (9.4.7–8). He
+camped on the Anio, three miles out in Livy's figure, and rode with
+2,000 horsemen toward the Colline Gate "as far as the temple of
+Hercules," from where he looked over the walls (Livy 26.10). The detail
+is Livy's, and it is topographical. Whether Hannibal chose the spot for
+its god, the text does not say.
+
+What gives it weight is a fragment of Silenus.
+[Solinus](/sources/solinus-collectanea), a compiler of the Roman
+imperial period, reports that the Palatine took its name, "as
+Silenus shows," from Palantho, daughter of Hyperboreus, whom Hercules
+lay with on the hill (1.15). Dionysius of Halicarnassus tells a related
+story without naming his source: that Latinus, founder of the Latin
+people, was Hercules' son by a Hyperborean girl whom the hero later
+married to Faunus, king of the Aborigines, which is why Latinus was
+usually counted Faunus's son (1.43). Modern scholars have attached that
+story to Silenus too. The attachment is an inference from the Palantho
+fragment; Dionysius does not make it.
+
+Together the two stories give the Latins an ancestry that runs through
+Hercules rather than through Rome. Richard Miles, following Briquel,
+reads this as propaganda aimed at the Latin cities, the core
+of the alliance Hannibal was trying to break, and suggests that the
+Hyperboreans stood in for the Gauls who marched in his army. On that
+reading the ride to the temple of Hercules told the watching Latins
+that a new Hercules had come. It fits the method the site attributes
+to Hannibal in Italy,
+[detaching Rome's allies](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)
+rather than destroying Rome, and it is the one place where the
+Heraclean program and that strategy can be seen aimed at the same
+audience. It remains a reading. The fragments survive without their
+context, and nothing records a Latin city answering. None went over to
+him, and Capua fell that same year.
+
+Miles pushes the argument further in two places where the sources do
+not follow. He suggests that Livy's stories of hailstorms twice parting
+the armies outside Rome, and of Hannibal's camp ground selling at full
+price while he sat on it (26.11), were a Roman answer to Carthaginian
+claims of divine favor; that is possible and cannot be shown. He also
+reads a move by Fabius Maximus in 209 as a response to Hannibal's
+visit. The sources record something narrower: after taking Tarentum,
+Fabius carried off a colossal Hercules as spoil and set it up on the
+Capitol, with a bronze statue of himself on horseback beside it
+(Plutarch *Fabius* 22.6; Pliny *NH* 34.40). That Rome was keen to keep
+Hercules on its own side in these years is a fair suspicion. Neither
+author says that was why the statue came.
 
 ## Polybius says no
 

@@ -1,0 +1,31 @@
+slug: solinus-collectanea
+title: Collectanea rerum memorabilium
+author: Gaius Julius Solinus
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: 250
+  precision: century
+  circa: true
+temporal_distance_years: 460
+access_to_witnesses: late
+bias_notes: >
+  A Latin compiler of geographical curiosities, usually placed in the
+  third century CE, who took most of his material from Pliny the Elder
+  and from earlier handbooks. He is a late and derivative witness, and
+  nothing he reports about the Punic wars carries weight on his own
+  authority. His value to this site is narrower: now and then he names
+  the earlier writer a story came from, and so preserves a trace of a
+  lost author.
+summary: >
+  A collection of marvels and notable facts arranged by region, opening
+  with Rome and Italy. The site cites it for a single passage. Discussing
+  the origin of the Palatine's name, Solinus lists several derivations
+  and reports that, "as Silenus shows," the hill was named for Palantho,
+  daughter of Hyperboreus, whom Hercules lay with there (1.15). That makes
+  him one of the few writers to preserve something of
+  [Silenus of Caleacte](/sources/silenus-caleacte), the Greek historian
+  in Hannibal's camp. The fragment and what it may have been for are
+  treated in
+  [The march as a labor](/narratives/hannibal-and-heracles).

@@ -747,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~746 pages** as of
+parked until the day version settles. The site is **~747 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -757,7 +757,7 @@ the last build.
 | events | 97 |
 | people | 82 |
 | places | 62 |
-| sources | 88 |
+| sources | 89 |
 | claims | 179 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
@@ -2223,6 +2223,58 @@ reconstructed from lost text. New contested claim
 `fernandez-camacho-silencing-silenus-2025`. Strabo and Silenus source
 pages now describe the silencing and the invention argument.
 
+### At the gates of Rome, 211 (Sep 2026)
+
+From Miles pp. 294–296 and his notes 53–69 (p. 438), all checked against
+the texts before use. The user's question was whether Hannibal ever
+reached Rome: yes, in 211, camped on the Anio and riding to the Colline
+Gate, then withdrawing; Capua fell that year.
+
+**New section "At the gates of Rome" in `narratives/hannibal-and-heracles`.**
+Livy 26.10 has Hannibal ride with 2,000 horsemen "as far as the temple of
+Hercules" at the Colline Gate. Solinus 1.15 cites Silenus by name for the
+Palatine being named after Palantho, daughter of Hyperboreus, whom
+Hercules lay with there. Dionysius 1.43 tells, anonymously, that Latinus
+was Hercules' son by a Hyperborean girl. **Keep those layers apart:** the
+Palantho etymology is attributed to Silenus in an ancient source; the
+Latinus story is attached to him only by modern inference (Briquel,
+followed by Miles). Miles reads the pair as propaganda aimed at the Latin
+cities, which joins the Heraclean self-presentation to the
+alliance-detachment strategy; the site reports that as his reading and
+notes that no Latin city went over. New source entry
+`solinus-collectanea`; the Silenus entry now records the fragment.
+
+**Two things in Miles that the texts do not support, both left off the
+site as stated:**
+- He says Fabius Maximus moved "the temple of Hercules" to the Capitol in
+  209/208 because Hannibal's visit was a propaganda coup, citing Pliny
+  *NH* 34.40. Pliny and Plutarch *Fabius* 22.6 describe a colossal
+  Hercules **carried off from captured Tarentum as spoil** and set on the
+  Capitol beside an equestrian statue of Fabius. Not a temple, not a
+  relocation to safety, and no motive stated. The narrative gives the
+  statue correctly and Miles's reading as a suspicion.
+- His note 68 suggests Livy's hailstorm and land-auction stories were a
+  Roman answer to Carthaginian propaganda. Reported as possible and
+  unprovable.
+
+**Correction to `cannae-march-on-rome` (the 211 paragraph).** It presented
+Polybius's version as settled and said Rome was held by "a crowd of
+volunteers". The sources split: in Polybius the Capua besiegers never
+moved (9.7.7) and the city happened to have a legion assembling that day
+(9.6.5–7); in Livy Q. Fulvius brought 15,000 foot and 1,000 horse from
+Capua (26.8–10). And "not an attempt to take the city" was stated too
+flatly: Polybius gives Hannibal a double aim, surprise against the city
+if possible and relief of Capua failing that (9.4.7–8), and both authors
+describe a moment when he was ready to fight (Polybius 9.6.8; Livy
+26.11). The take now says chiefly pressure, never a siege, with room for
+an opportunist. Note Miles's own claim that neither side expected an
+assault runs against both ancient accounts.
+
+**The Heracles/Alexander editorial take was re-tabled by the user on 21
+Sep 2026**, after reaching the end of Miles's book. The material for it
+now runs from Gades through the Alps to the Colline Gate. Still do not
+draft it unprompted.
+
 ### The Alps: hard or ordinary (Sep 2026)
 
 From Miles pp. 258–259 (user photos). Commit `d517de4`. Hannibal's
@@ -3467,7 +3519,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **746 pages**.
+output. As of the last CLAUDE.md refresh it was around **747 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
