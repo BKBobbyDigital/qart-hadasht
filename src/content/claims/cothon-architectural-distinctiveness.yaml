@@ -1,38 +1,46 @@
 slug: cothon-architectural-distinctiveness
 statement: >
-  The Cothon, Carthage's circular military harbor with
-  central admiralty island and 220 perimeter ship-sheds, is the most architecturally distinctive military-naval
-  installation surviving from the ancient Mediterranean.
-  Appian's literary description (Punica 96) was confirmed
-  in unusually close detail by 1970s-1980s UNESCO
-  excavation. The harbor's combination of weather-protected
-  dry-dock capacity, intelligence-shielded inner basin, and
-  monumental architectural ambition has no clear parallel
-  in surviving Greek or Roman naval infrastructure of the
-  period.
+  Carthage's circular harbor, with ship-sheds ringing the basin and a
+  central island holding the admiral's house, matches Appian's
+  description in plan, though the excavated remains suggest room for
+  about 170 ships rather than his 220. In its excavated form it dates
+  to the late third or early second century BCE, and its only
+  comparable ancient complex is the ship-shed harbors of Piraeus.
 confidence: inferred
 scholarly_consensus: >
-  The architectural distinctiveness is firmly attested
-  through the convergence of literary description (Appian)
-  and modern archaeological evidence. The interpretive
-  question, how far the Cothon's design was a
-  Carthaginian innovation versus a Phoenician
-  inheritance, is more open. Similar harbor configurations
-  at Motya and the Phoenician homeland cities (Sidon, Tyre)
-  suggest the form may have been a Phoenician colonial-
-  network feature, with Carthage building the largest and
-  most monumental example.
+  The plan is attested by the convergence of Appian's description and
+  excavation. The capacity figure and the date are where the literary
+  and archaeological evidence part: Appian gives 220 sheds, the remains
+  imply fewer, and the stone sheds are dated after the First and
+  Second Punic Wars had been fought, or very near the end of the second.
 sources:
   - source: appian-punica
     stance: supports
     passage_ref: "96"
     passage_summary: >
-      Appian's literary description of the harbor's
-      configuration: 220 ship-sheds, central admiralty
-      island, defensive double-harbor arrangement.
+      Common entrance closed by chains; outer merchant port; inner port
+      and island ringed with sheds for 220 vessels, fronted by paired
+      Ionic columns; the admiral's house on the island overlooking harbor
+      and sea; a double wall hiding the docks from passing merchants.
+  - source: miles-carthage-2010
+    stance: qualifies
+    passage_ref: "pp. 325–328"
+    passage_summary: >
+      Places the construction in the peace after 201 and reports the
+      excavated capacity as about 170 ships (some thirty sheds on the
+      island, some 140 around the circumference), with about 235,000
+      cubic meters of earth excavated.
 further_reading:
   - source: lancel-carthage-1995
   - source: hoyos-carthaginians-2010
+notes: >
+  The Greek word kothon was used of artificial harbor basins more
+  widely, and Motya has a basin long called by the name, now also read
+  as a sacred pool; how far Carthage's harbor followed a Phoenician
+  form is open. The naval harbors of Athens at Piraeus, with their own
+  large ship-shed complexes, are the one clear comparison, so the
+  circular plan with a command island is distinctive, but the scale of
+  covered docking is not unique.
 entities:
   - type: place
     slug: cothon

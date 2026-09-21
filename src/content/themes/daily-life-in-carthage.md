@@ -36,8 +36,10 @@ The harbors. Carthage's two interconnected harbors (a
 rectangular commercial harbor and a circular military harbor
 at its northern end) were the structural center of the city's
 economic life. The military harbor, with its central island
-admiralty building and its docking slots for approximately 220
-warships, was a major piece of urban infrastructure.
+admiralty building and ship-sheds for 220 vessels in Appian's
+description (about 170 on the excavated evidence), was a major
+piece of urban infrastructure, built in its excavated form in the
+late third or early second century BCE.
 
 The Byrsa. The citadel hill at the city's center, with
 the temple of Eshmun at its summit and an extensive

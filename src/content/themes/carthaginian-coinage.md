@@ -31,7 +31,7 @@ related_themes:
 referenced_claims:
   - barcid-iberia-silver-funded-spw
   - mw-cause-indemnity-cash-flow
-last_revised: "2026-09-10"
+last_revised: "2026-09-21"
 ---
 
 ## The late adoption
@@ -172,6 +172,22 @@ coin was wanted rather than everything a treasury held, and
 bullion travels without being struck. What the coins support
 is that Carthage was not turning Iberian silver into its own
 currency, which is narrower than saying none of it came home.
+
+## After 201
+
+After the Second Punic War Carthage struck mainly bronze. Read as a
+fiscal record in the way the earlier series is read above, that would
+look like poverty, and it sits awkwardly beside the literary evidence
+for a prosperous city that could offer Rome its whole remaining
+indemnity in one payment in 191 (Livy 36.4). Richard
+[Miles](/sources/miles-carthage-2010) resolves the difficulty: Carthage
+had historically paid its mercenaries in silver, gold and electrum and
+used bronze for the domestic market, so a city with no overseas empire
+to defend and no standing army to pay had little call for
+precious-metal coin. He sets this against Rome in the same years, whose
+heavy bronze issues and scarce silver he reads as strain from its
+eastern wars. The point qualifies the fiscal reading of the metal: a
+coinage records what a state needed to pay out, not only what it had.
 
 ## What coins are evidence for
 

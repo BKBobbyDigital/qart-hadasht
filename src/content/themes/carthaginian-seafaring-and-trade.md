@@ -223,8 +223,8 @@ tactical patterns Polybius described.
 Harbor architecture survives in the Carthage Cothon, the paired
 circular military and rectangular commercial basins still visible
 as topographic features in the modern archaeological park. The
-Motya Kothon, predating the Carthage cothon by approximately two
-centuries, is the earliest substantial Phoenician-colonial harbor
+Motya Kothon, centuries older than the Carthage harbors in their
+excavated form (late third or early second century BCE), is the earliest substantial Phoenician-colonial harbor
 (or sacred-pool, per recent reinterpretation) installation in the
 western Mediterranean.
 

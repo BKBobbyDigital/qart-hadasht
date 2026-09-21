@@ -197,6 +197,18 @@ const REGRESSIONS = [
     fixed: 'Hannibal after Zama, Miles pp. 317-321',
   },
   {
+    id: 'cothon-polybius-description',
+    re: /Polybius'?s? (description|account) of the (circular |military |naval )?harbou?r|harbou?r[^.]{0,40}described by Polybius|Polybius \(1\.73/i,
+    right: 'The harbor description is Appian Punica 96; Appian names no source (Polybius is a modern inference). Polybius 1.73-74 is the Mercenary War.',
+    fixed: 'Carthage after 201, Miles pp. 324-328',
+  },
+  {
+    id: 'pro-numidian-faction-hasdrubal',
+    re: /(pro-Numidian|pro-Masinissa|favou?red Masinissa)[^.]{0,60}Hasdrubal/i,
+    right: 'Appian Punica 68: the pro-Masinissa faction was led by Hannibal the Starling. Miles has "a certain Hasdrubal".',
+    fixed: 'Carthage after 201, Miles pp. 324-328',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',

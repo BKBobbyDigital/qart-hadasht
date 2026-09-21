@@ -2465,6 +2465,42 @@ support in the Aristo affair (Livy does not name him); Plutarch misquoted
 ("when he was not in his prime" for "when he was in his prime").
 Review baseline now `consensus` 8.
 
+### Carthage after 201, checked against Miles pp. 321–328 (Sep 2026)
+
+The user's theme: relieved of empire and army, Carthage prospered.
+Checked against Appian *Pun.* 68–69, 96, 121; Livy 36.4; Plutarch *Cato
+Maior* 26–27; Pliny *NH* 15.74–75; *Periochae* 48.
+
+- **The harbor date was wrong on four pages.** The artifact dated the
+  circular harbor c. 250 "based on Polybius's description … during the
+  First Punic War" and cited "Polybius 1.73–74" (the Mercenary War).
+  The description is **Appian 96**, who names no source (Polybius is a
+  modern inference). The British excavation of the 1970s dated the
+  island and stone ship-sheds to the **late third or early second
+  century**; Miles puts construction after 201. So the place page's
+  "fleet of 200+ at readiness through the Roman-Carthaginian wars" was
+  anachronistic. Rewritten: artifact, claim, place page, Carthage page,
+  daily-life and seafaring themes. Capacity: Appian 220, excavation ~170
+  (Miles's figures). The claim's "no clear parallel" is gone: Piraeus's
+  ship-shed harbors compare. REGRESSION rule added.
+- **Open question now stated on the harbor pages:** sheds for ~170 ships
+  under a treaty allowing ten warships. Miles: Rome must have known,
+  only Appian says warships, perhaps a tolerated merchant fleet feeding
+  Rome's eastern wars. The other reading, a treaty breach, fits Appian
+  and the rearmament charges. The dating range reaches back before 201.
+  **Not yet added to `destruction-not-weak-enough`; offered to the user.**
+- Period 07's recovery section rewritten from evidence (Livy 36.4 offers;
+  Appian 68's three factions "in periods of prosperity", pro-Masinissa
+  party under **Hannibal the Starling**, not Miles's "Hasdrubal",
+  REGRESSION rule; the harbor; bronze coinage) in place of an unsourced
+  "pre-war levels by the 160s". Its Hannibal-reforms paragraph lost the
+  invented "special taxation" and "hereditary" council.
+- **Cato's fig:** "three days' sail from Rome" is Plutarch; "picked the
+  day before yesterday" is Pliny. Period 07 had merged them.
+- `themes/carthaginian-coinage` gained "After 201": bronze-only coinage
+  read by Miles as no army to pay rather than poverty, which qualifies
+  the theme's own fiscal reading of metal.
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the
