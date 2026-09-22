@@ -2633,6 +2633,27 @@ out of scope. Taken from it, checked against the texts:
   religious offerings" (Appian 133: he reserved them, and the Sicilians
   reclaimed their temple treasures).
 
+### Aristotle's Carthage, checked against Miles p. 119 (Sep 2026)
+
+`aristotle-carthaginian-governance-praise-qualified` (a May take) was
+rewritten against *Politics* 2.11 (Bekker 1272b24–1273b26; "2.8" in
+Miles's numbering), 2.1, 3.1, 3.9, 5.7, 5.12, 6.5 and *Poetics* 23.
+Headline kept (praise real but qualified). Errors fixed: the qualification
+rested on Carthage "not being a polis", which Aristotle never says (he
+puts it with Sparta and Crete and judges it by the same standard; the
+qualification is the one he applies to every existing constitution, per
+2.1); the suffetes as a "checked executive" (he calls them kings and
+praises their election by merit); the assembly's role when kings and
+council disagree presented as praised (he lists it as a democratic
+tendency); the chapter "closes Book II" (ch. 12 follows). Added: the
+colonies safety valve, criticized in 2.11 but recommended in 6.5, and
+*Poetics* 23 rejecting the Salamis–Himera coordination story.
+**Miles error, not on the site:** p. 119 credits the Pindar lines on
+Cumae to a poem "in praise of Gelon's brother and successor Theron"; they
+are *Pythian* 1, for Hieron (Theron ruled Akragas). **For the Himera
+pass:** Herodotus 7.166 has Himera on the day of Salamis; Miles p. 142
+says Timaeus moved it to the day of Thermopylae (Diodorus 11.24).
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the
