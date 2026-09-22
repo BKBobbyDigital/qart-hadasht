@@ -2649,8 +2649,7 @@ only when the user asks.
   *Odes* 4.4 with Hannibal's lament; all unchecked. Do not draft unprompted.
 - **Miles notes 106–109** (Juno as patron, Juno–Tanit, Uni–Astarte at
   Pyrgi): check them before anything from p. 305 goes on the site.
-- **Page references still owed from reading**: Miles on the Third Punic
-  War and the Demeter-Kore incense burners; MacDonald's *Hannibal*;
+- **Page references still owed from reading**: MacDonald's *Hannibal*;
   Hoyos 2018 and *Truceless War* (see "Open items" under the second-read
   audits).
 - **Index-page nav vocabulary** (Narratives / Themes / Threads /
@@ -2871,10 +2870,10 @@ on the take, the Demeter-Kore deity page and the 396 claim); war
 elephants were already at Agrigentum in 262 (Polybius 1.19), not
 "later third century"; Carthaginian envoys went **to** Tyre for
 Melqart's festival (Arrian 2.24; Curtius 4.2.10). Malta bilinguals
-(KAI 47) added for the Phoenician side of Melqart-Heracles. **Open:**
-the Demeter-Kore incense-burner point came only from an unattributed
-web article that reads like Miles; the user may find the page in *Carthage
-Must Be Destroyed*, otherwise soften it.
+(KAI 47) added for the Phoenician side of Melqart-Heracles. **Resolved:**
+the Demeter-Kore incense-burner point is Miles pp. 142–143 (notes 17–20),
+now cited on the take and the deity page, with his argument that the cult
+reached Carthage from Punic Sicily before 396.
 
 **4. `barcid-iberian-state-as-state`** (commit `f400aa0`).
 User-confirmed: **nested purposes** replace the "integrated" reading;
@@ -3071,9 +3070,8 @@ rest of that theme still leans integrationist and deserves its own pass.
 and evidence-hygiene work is done; what remains is verification the site
 cannot do from the open web.
 
-- **Page references from the user's reading.** Miles on the Third Punic
-  War (Cato, the 149 ultimatum) and on the Demeter-Kore incense burners;
-  MacDonald's *Hannibal* for the Barcid readings and for the post-Cannae
+- **Page references from the user's reading.** (Miles on the Third Punic
+  War and on the incense burners is done, Sep 2026.) MacDonald's *Hannibal* for the Barcid readings and for the post-Cannae
   defections claim; Hoyos's *Truceless War* if his name is to go back on
   the Mercenary War material. Two attributions would be restored
   immediately by a page: **Hoyos 2018** on Third Punic War diplomacy,
