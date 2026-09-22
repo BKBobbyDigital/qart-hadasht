@@ -2746,6 +2746,26 @@ scratchpad `him/`.
   the Himera event, the Hamilcar Magonid page, the Himera place. Five
   REGRESSION rules (73).
 
+### The flagship take's headline changed (22 Sep 2026)
+
+**User-confirmed wording: "Carthage was destroyed because defeat had not
+made it disappear."** The old line, "not because it had become weak but
+because it had not become weak enough", predated the Third Punic War
+pass and had stopped matching the site's own pages: by 149 Carthage had
+lost 58,000 men to Masinissa, surrendered, given hostages and handed over
+its arms, and Rome's intent to raze was already fixed and concealed. What
+Rome would not tolerate was a city that had survived defeat and could
+recover, which is what Censorinus tells the envoys (Appian 86–89: while
+they can see their harbors they will long for their old power; the
+medicine for all evils is oblivion). The user's alternative, "survival was
+still a form of power", is kept as a line inside the take.
+
+Changed on the take's position and gloss, period 08, the
+what-the-war-cost narrative and the homepage lead (whose standfirst now
+notes Numidia destroyed the army first). **The slug stays
+`destruction-not-weak-enough`** so the URL and inbound links keep working;
+do not rename it without a redirect.
+
 ### Open threads (as of 22 Sep 2026)
 
 The user **finished Miles's *Carthage Must Be Destroyed*** on 22 Sep 2026,

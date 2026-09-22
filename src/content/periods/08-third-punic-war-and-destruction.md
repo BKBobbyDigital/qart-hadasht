@@ -67,11 +67,12 @@ waiting for; it ends with the systematic razing of one of the largest
 cities of the ancient Mediterranean and the formal end of the
 Carthaginian state.
 
-The site takes the position (against the surviving Roman tradition's own framing) that **Carthage was
-destroyed in 146 BCE not because it had become weak but because it
-had not become weak enough**: the recovery's visibility across the
-[preceding long peace](/periods/07-the-long-peace) was itself the
-structural cause of the destruction. The reasoning, the weighed
+The site takes the position (against the surviving Roman tradition's own
+framing) that **Carthage was destroyed in 146 BCE because defeat had not
+made it disappear**: by 149 the city had been disarmed and its army
+destroyed by Masinissa, and what Rome would not tolerate was its
+[recovery across the long peace](/periods/07-the-long-peace) and its
+capacity to recover again. The reasoning, the weighed
 claims (including
 [the 149-demands-as-deliberate-trap](/claims/149-demands-as-deliberate-trap)
 position), and the competing readings (including the Roman-tradition

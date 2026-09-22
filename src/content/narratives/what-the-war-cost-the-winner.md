@@ -169,7 +169,7 @@ willingness to end a city's existence as a community when that city had
 proved it could not be trusted. Capua was the rehearsal.
 
 This site argues elsewhere that Carthage was destroyed
-[because it had not become weak enough](/editorialTakes/destruction-not-weak-enough),
+[because defeat had not made it disappear](/editorialTakes/destruction-not-weak-enough),
 and that reading stands. But it describes one side of a relationship. The
 other side is a state that had been hurt badly enough, half a century
 earlier, to have lost its appetite for arrangements that depended on a
