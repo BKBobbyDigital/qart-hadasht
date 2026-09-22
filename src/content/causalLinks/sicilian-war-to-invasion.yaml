@@ -8,10 +8,11 @@ mechanism: |
   defeat at the Himera River, loss of most of Greek Sicily, the siege of
   Syracuse, the depletion of his treasury, the deterioration of his
   political position at home, created the strategic crisis that the
-  African invasion was a desperate response to. Agathocles is reported
-  by Diodorus (20.3) to have decided on the invasion specifically as a
-  way to force Carthage to fight on its own ground rather than continue
-  the siege of Syracuse. The causal connection is direct and
+  African invasion was a desperate response to. Diodorus (20.3) gives
+  his reasoning: that an inexperienced Carthaginian citizenry would lose
+  to veterans, that Carthage's Libyan subjects would revolt, that the
+  unravaged country would supply plunder, and that the war would be
+  drawn away from Syracuse and Sicily. The causal connection is direct and
   consciously articulated in the surviving narrative tradition.
 sources:
   - source: diodorus-library
@@ -29,9 +30,11 @@ sources:
       Justin's epitome of Trogus preserves substantively the same
       causal narrative.
 notes: >
-  The reverse causation also holds: the invasion altered the course of
-  the war in Sicily by forcing Hamilcar son of Gisco's eventual recall
-  and contributing to his death. That feedback effect is treated in
+  The reverse causation also holds, though not by a recall: Carthage
+  asked Hamilcar son of Gisco for help and he sent 5,000 men home
+  (Diodorus 20.15–16), and his failed attack on Syracuse in 309, in
+  which he was captured and killed, came while the war in Africa
+  absorbed Carthage's attention. That feedback effect is treated in
   the narrative rather than as a separate causal link, since the two
   events are best read as phases of a single conflict whose tactical
   geography Agathocles deliberately changed.

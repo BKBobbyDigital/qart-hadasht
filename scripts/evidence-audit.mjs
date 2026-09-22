@@ -305,6 +305,24 @@ const REGRESSIONS = [
     fixed: 'Carthage after 146, Miles pp. 338-347',
   },
   {
+    id: 'hamilcar-gisco-recalled',
+    re: /Hamilcar son of Gisco[^.]{0,80}(?<!not |not been |no )\brecall(ed)?\b|(?<!not by a |not |no |a )\brecall(ed)?\b[^.:]{0,60}Hamilcar son of Gisco/i,
+    right: 'Hamilcar son of Gisco was not recalled: he sent 5,000 men home (Diodorus 20.16), stayed, and was captured and killed attacking Syracuse in 309 (20.29-30).',
+    fixed: 'Agathocles, Miles pp. 142-149',
+  },
+  {
+    id: 'ophellas-banquet',
+    re: /Ophellas[^.]{0,120}(?<!(popular|murder at a) )\bbanquet\b|(?<!(popular|murder at a) )\bbanquet\b[^.]{0,80}\bOphellas\b/i,
+    right: 'Diodorus 20.42: Agathocles attacked Ophellas\'s camp and Ophellas died fighting; Justin 22.7 has them dine together often. No banquet murder in either.',
+    fixed: 'Agathocles, Miles pp. 142-149',
+  },
+  {
+    id: 'hamilcar-abd-melqart',
+    re: /[ʿ']Abd-Melqart[^.]{0,80}Hamilcar|Hamilcar[^.]{0,80}[ʿ']Abd-Melqart/,
+    right: 'Hamilcar is usually given as Punic ḤMLQRT; ʿAbd-Melqart (servant of Melqart) is a different name.',
+    fixed: 'Agathocles, Miles pp. 142-149',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',

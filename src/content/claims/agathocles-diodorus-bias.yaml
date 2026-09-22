@@ -1,48 +1,51 @@
 slug: agathocles-diodorus-bias
 statement: >
-  The principal surviving narrative of Agathocles's African campaign,
-  Diodorus Books 19–20, is shaped by the now-lost history of Timaeus
-  of Tauromenium, a Sicilian Greek contemporary of Agathocles whose
-  treatment of the tyrant was personally hostile. Modern scholarship
-  reads Diodorus's portrayal of Agathocles partly as a transmission
-  of Timaeus's anti-Agathoclean framing rather than a neutral account.
+  The history of Agathocles was contested in antiquity. Timaeus of
+  Tauromenium, whom Agathocles had exiled, wrote about him with open
+  hostility; Callias of Syracuse, according to Diodorus, was paid to
+  praise him. Diodorus says he cannot accept Timaeus's books on
+  Agathocles, and Polybius attacks Timaeus for the same bias. How much
+  hostile Timaean material nonetheless reached Diodorus's own narrative
+  is a modern inference, not something the texts settle.
 confidence: inferred
-scholarly_consensus: >
-  Strongly held in modern source-critical scholarship. The Timaean
-  influence on Diodorus's account of fourth-century Sicily and Africa
-  is a standard finding; the question is which specific details are
-  Timaean coloring versus historical fact.
+dispute_summary: >
+  The ancient testimony is unusually direct. Polybius devotes much of Book
+  12 to Timaeus's faults and singles out his treatment of Agathocles as
+  malicious (12.15). Diodorus, at Agathocles' death, complains that Timaeus
+  blamed him even for misfortunes that were not his fault and called him a
+  coward throughout, when "none acquired a greater kingdom with fewer
+  resources" (21.17). Diodorus also names the other historians of the
+  reign: Callias of Syracuse, whom he accuses of being bribed to praise
+  Agathocles, and Antander, Agathocles' own brother (21.16–17). He goes
+  further: because Timaeus gave up historical candor to indulge a personal
+  grudge, "we cannot fairly accept the last five books of this writer's
+  history, in which he covers the deeds of Agathocles" (21.17.3). Modern
+  accounts, Miles's among them, often treat Diodorus's narrative as
+  essentially Timaeus's; Diodorus's own statement is against that,
+  although he does not name his sources passage by passage, and the
+  hostile tone of much of his account shows the Timaean view was not
+  excluded. The site treats the moral coloring as contested and the
+  military narrative as the firmer part.
 sources:
-  - source: timaeus
-    stance: supports
-    passage_summary: >
-      Timaeus is the source of the hostile Agathocles tradition. His
-      personal quarrel with the tyrant who exiled him shaped the
-      emphasis on treachery and cruelty that Diodorus then transmits;
-      the bias originates here rather than with Diodorus.
-  - source: diodorus-library
-    stance: supports
-    passage_summary: >
-      Diodorus himself acknowledges Timaeus as a principal source
-      while criticizing Timaeus's hostility to Agathocles in
-      particular. The acknowledgement permits modern scholars to
-      identify Timaean material with reasonable confidence in many
-      passages.
   - source: polybius-histories
     stance: supports
     passage_ref: "12.15"
     passage_summary: >
-      Polybius's surviving polemic against Timaeus (in Book 12, partly
-      preserved) explicitly criticizes Timaeus's treatment of
-      Agathocles as biased and provides external evidence for the
-      hostility that Diodorus partially transmits.
-notes: >
-  This is a meta-claim about source reliability rather than about the
-  events themselves. It bears on every other Agathocles claim on the
-  site: the bare facts of his campaign are reasonably secure, but the
-  moral framing, the systematic emphasis on treachery, cruelty, and
-  abandonment, owes more to Timaeus's hostile pen than the events
-  themselves necessarily required.
+      Polybius accuses Timaeus of malicious misrepresentation of
+      Agathocles.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "21.16–17"
+    passage_summary: >
+      Diodorus criticizes Timaeus's hostility to Agathocles and says he
+      cannot accept Timaeus's last five books, names Callias as a bribed
+      panegyrist and Antander as a historian of the reign, and credits
+      Agathocles with building a great kingdom from small means.
+  - source: timaeus
+    stance: qualifies
+    passage_summary: >
+      The lost history itself, known through Diodorus, Polybius and other
+      citations; the source of the hostile tradition.
 entities:
   - type: person
     slug: agathocles

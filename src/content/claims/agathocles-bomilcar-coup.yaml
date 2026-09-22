@@ -1,37 +1,35 @@
 slug: agathocles-bomilcar-coup
 statement: >
-  During the Agathocles crisis, the Carthaginian commander Bomilcar
-  attempted a coup against the Carthaginian government, marched his
-  troops into the city, and was defeated when the citizenry rallied
-  against him; he was captured, tortured, and crucified in the agora.
+  In 308 BCE, during the Agathocles crisis, the Carthaginian general
+  Bomilcar declared himself tyrant with some 500 citizens and 1,000
+  mercenaries and fought his way into the agora. The citizens drove him
+  back, offered terms, and then tortured and killed him despite their
+  oaths; Justin says he was crucified in the forum.
 confidence: attested
-scholarly_consensus: >
-  Firmly attested in Diodorus's extended account. The episode is one
-  of the few internal Carthaginian political events of any period
-  preserved in detail in the surviving sources and is treated by
-  modern scholarship as substantially reliable, though the dramatic
-  framing may exceed the bare facts.
 sources:
   - source: diodorus-library
     stance: supports
-    passage_ref: "20.43-44"
+    passage_ref: "20.10, 20.43–44"
     passage_summary: >
-      Diodorus narrates the coup at length: Bomilcar's troop concentration,
-      the march into Carthage, the citizenry's defense, the betrayal by
-      Bomilcar's supporters, the capture, the crucifixion in the agora.
-      The level of preserved detail is unusual for Carthaginian internal
-      politics.
+      Bomilcar, long bent on tyranny, is appointed general with Hanno, his
+      family enemy; in 308 he declares himself tyrant at a review in the
+      New City, fights his way into the agora, is driven back by citizens
+      firing from the surrounding buildings, and after terms are agreed is
+      tortured and killed.
   - source: justin-epitome
     stance: supports
-    passage_ref: "22.7"
+    passage_ref: "22.7.7–10"
     passage_summary: >
-      Justin preserves the coup attempt and the execution in summary form.
+      Bomilcar, who would have gone over to Agathocles, is crucified in the
+      middle of the forum, and from the cross accuses the Carthaginians of
+      injustice to Hanno, Gisco and his uncle Hamilcar.
 notes: >
-  The coup is one of the very few moments where the surviving sources
-  open a window onto Carthaginian internal politics. Most modern
-  scholarship treats it as a significant data point for understanding
-  Carthaginian factional dynamics, even if the specific narrative
-  detail is filtered through Diodorus's hostile-to-Carthage framing.
+  One of the few internal Carthaginian political events recorded in any
+  detail. Diodorus prefaces it with his explanation of why Carthaginian
+  generals turned to tyranny: the city's habit of prosecuting its
+  commanders once the war was over (20.10.3–4). Justin's version makes
+  Bomilcar the nephew of the Hamilcar who had backed Agathocles in 317,
+  which ties the coup to a family already at odds with the council.
 entities:
   - type: person
     slug: bomilcar

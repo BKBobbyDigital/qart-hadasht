@@ -15,7 +15,7 @@ primary_entities: []
 related_themes:
   - punic-identity
 referenced_claims: []
-last_revised: "2026-05-11"
+last_revised: "2026-09-22"
 ---
 
 ## The script
@@ -35,8 +35,9 @@ Unicode block (U+10900 to U+1091F), rendered with the Noto Sans
 Phoenician font where available. The Carthaginian name in
 Phoenician script is 𐤒𐤓𐤕𐤇𐤃𐤔𐤕 (*Qart-Hadasht*, "New City").
 Other recurring Punic names on the site include 𐤇𐤍𐤁𐤏𐤋
-(*Ḥannibaʿl*, "grace of Baʿal"), 𐤏𐤁𐤃𐤌𐤋𐤒𐤓𐤕 (*ʿAbd-Melqart*,
-"servant of Melqart," rendered Hamilcar in Greek and Latin),
+(*Ḥannibaʿl*, "grace of Baʿal"), 𐤇𐤌𐤋𐤒𐤓𐤕 (*ḤMLQRT*,
+usually read "Melqart is gracious," rendered Hamilcar in Greek and
+Latin, though the exact form is not certain),
 and 𐤁𐤓𐤒 (*Brq*, "lightning," the Barca family epithet).
 
 The script's broader historical significance is large.

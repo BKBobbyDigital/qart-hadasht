@@ -1,29 +1,43 @@
 slug: agathocles-hamilcar-recalled
 statement: >
-  The African crisis forced the Carthaginian recall of Hamilcar son of
-  Gisco from his Sicilian command; he died in 309 BCE in a Greek
-  counterattack near Syracuse, with his head reportedly sent as a
-  trophy to Agathocles in Africa.
+  Hamilcar son of Gisco was not recalled from Sicily when Agathocles
+  invaded Africa. Carthage asked him for help, and after a failed assault
+  on Syracuse he sent 5,000 men home; he stayed with the rest, and in 309
+  BCE, attacking Syracuse by night, he was routed near Euryalus, captured
+  and put to death. His head was carried to Agathocles in Africa, who
+  showed it to the Carthaginian army.
 confidence: attested
-scholarly_consensus: >
-  The Sicilian death is firmly attested. The detail of the head being
-  sent to Agathocles as a trophy is in Diodorus and is generally
-  accepted, though it is the kind of dramatic motif that ancient
-  historiography sometimes inserts; modern scholarship treats it as
-  plausibly true rather than certainly so.
+dispute_summary: >
+  The site formerly described Hamilcar as recalled, and built an argument
+  on it: that the invasion "worked" by drawing Carthage's Sicilian
+  commander home. Diodorus does not support that. After the defeat in
+  Africa the Carthaginians sent to Hamilcar "begging him to send aid"
+  (20.15); he tried to storm Syracuse, failed, and sent a relief force of
+  5,000 to Carthage (20.16). He remained in Sicily, and the next year led
+  his whole army against Syracuse, where a night march in confusion ended
+  with his capture by the Syracusans holding Euryalus; he was tortured and
+  killed (20.29–30). His head was taken to Africa, and Agathocles rode up
+  to the Carthaginian camp and showed it to them (20.33). Justin credits
+  the destruction of the army in Sicily to Agathocles' brother Antander
+  (22.7.2) and dates events after "Hamilcar son of Gisco was killed"
+  (22.8.2). The invasion did divert Carthaginian strength from Sicily; it
+  did not bring Hamilcar home.
 sources:
   - source: diodorus-library
     stance: supports
-    passage_ref: "20.29-30"
+    passage_ref: "20.15–16, 20.29–30, 20.33"
     passage_summary: >
-      Diodorus narrates the Greek counterattack near Syracuse, Hamilcar's
-      death, and the trophy-head sent to Agathocles in Africa as a
-      morale-restoring gesture for the Greek troops there.
+      Carthage asks Hamilcar to send aid; he sends 5,000 men after a
+      failed assault on Syracuse; in 309 he is routed at night near
+      Euryalus, captured and killed; Agathocles shows his head to the
+      Carthaginian army in Africa.
   - source: justin-epitome
     stance: supports
-    passage_ref: "22.7"
+    passage_ref: "22.7.2, 22.8.2"
     passage_summary: >
-      Justin preserves Hamilcar's death in less detail.
+      The Carthaginian army in Sicily is destroyed with its commander by
+      Antander, Agathocles' brother; a new army is sent after Hamilcar son
+      of Gisco's death.
 entities:
   - type: person
     slug: hamilcar-son-of-gisco

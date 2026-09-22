@@ -755,7 +755,7 @@ the last build.
 | Collection | Count |
 |---|---|
 | events | 97 |
-| people | 83 |
+| people | 84 |
 | places | 63 |
 | sources | 94 |
 | claims | 178 |
@@ -2094,9 +2094,10 @@ Three commits:
    "map after 270" paragraph; the SPW take's asymmetry section was
    updated to match.
 
-**Held back from the podcast, pending a verifiable source:** walls of
-Carthage draped in black after naval defeats (attributed to Diodorus;
-passage not located); Hamilcar as descended from 4th-century immigrant
+**Held back from the podcast, pending a verifiable source:** (the walls
+of Carthage hung with black sackcloth is now located, Diodorus 19.106.4,
+after the storm of 311, "their custom whenever any major disaster has
+befallen the city"; on the site since Sep 2026); Hamilcar as descended from 4th-century immigrant
 soldiers, and a unit transcribed as "Nix Helenes"; Suetonius on
 Claudius Pulcher's recruiting problems. Do not add these unless the
 user brings a citation.
@@ -2653,6 +2654,53 @@ Cumae to a poem "in praise of Gelon's brother and successor Theron"; they
 are *Pythian* 1, for Hieron (Theron ruled Akragas). **For the Himera
 pass:** Herodotus 7.166 has Himera on the day of Salamis; Miles p. 142
 says Timaeus moved it to the day of Thermopylae (Diodorus 11.24).
+
+### Agathocles, checked against Miles pp. 142–149 (Sep 2026)
+
+Checked against Diodorus 19.2–9, 19.71–72, 19.106–110, 20.3–79, 21.16–17;
+Justin 22–23; Polybius 12.15, 15.35; Livy 28.43. Texts in scratchpad
+`aga/`. All pages predated the audits.
+
+- **Hamilcar son of Gisco was never recalled.** Carthage asked him for
+  help; he sent 5,000 men (20.15–16), stayed, and was captured and killed
+  attacking Syracuse by night in 309 (20.29–30); his head was shown to
+  the Carthaginian army in Africa (20.33). The old take's core argument
+  ("the recall worked") rested on this. Diodorus 20.3 does say the
+  diversion of the war from Sicily "was accomplished". Slug
+  `agathocles-hamilcar-recalled` kept, content reversed.
+- **Take rewritten (position changed, flag for the user):** from "both
+  masterstroke and gamble" to "a well-judged gamble that failed for
+  structural reasons" (no command of the sea, no pay, fickle Libyan
+  allies). Needs user confirmation.
+- Other errors fixed: no banquet for Ophellas (Diodorus 20.42: surprise
+  attack on his camp, he died fighting; Justin: they dined together
+  often); the victory over Hanno and Bomilcar was not *at* White Tunis
+  (20.8); ships burned as a vow to Demeter and Kore (20.7); Carthage's
+  home army 40,000 foot, 2,000 chariots (20.10), not "little to deploy";
+  the peace of 306 had Carthage pay Agathocles 300 talents' worth of gold
+  and 200,000 measures of grain (20.79); Agathocles' death was at the
+  instigation of his grandson Archagathus, who murdered the king's son
+  Agathocles (21.16), not the reverse; Polybius 15.35 is Scipio naming
+  Agathocles and Dionysius as the greatest, not a "model of ruthless
+  rule". **Diodorus rejects Timaeus's last five books (21.17.3)**, so
+  "Diodorus/Timaeus" (Miles) overstates the dependence.
+- New: the 317 pact (Justin 22.2: oath on the emblems of Ceres, 5,000
+  Africans; Diodorus 19.6–9 has no Carthaginian troops), the 314 peace
+  (19.71), the council's sealed-urn vote on Hamilcar (Justin 22.3), and
+  Bomilcar as his nephew (22.7). New page
+  `people/hamilcar-ally-of-agathocles`. Livy 28.43 (Scipio cites
+  Agathocles) and Polybius 15.35 now on the pages.
+- **Hamilcar's Punic name** was given as ʿAbd-Melqart ("servant of
+  Melqart") on four pages; the usual form is ḤMLQRT ("Melqart is
+  gracious", Geus), now stated as uncertain. REGRESSION rules added (68).
+- Rewritten: both Agathocles narratives, the take, six claims, the event,
+  the Third Sicilian War event, the causal link, the how-close open
+  question, and the Agathocles, Ophellas, Bomilcar and Hamilcar son of
+  Gisco pages.
+- **Miles errors not on the site:** p. 142 treats Diodorus and Timaeus as
+  one source; none else found on these pages. His note 17 cites KAI 83
+  for a Carthage dedication to "Lady Ammas [Demeter]" (unchecked; could
+  replace the unsourced epithet on the Demeter-Kore page).
 
 ### Open threads (as of 21 Sep 2026)
 

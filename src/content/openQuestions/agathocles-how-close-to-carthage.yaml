@@ -2,7 +2,7 @@ slug: agathocles-how-close-to-carthage
 question: >
   How close did Agathocles actually come to taking Carthage?
 why_unknown: >
-  The principal source, Diodorus (transmitting Timaeus),
+  The principal source, Diodorus,
   records an Agathoclean army repeatedly defeating
   Carthaginian forces in the field and operating in the
   immediate hinterland of the city, but does not give a
@@ -15,10 +15,11 @@ why_unknown: >
   by the surviving evidence and have produced a wide
   range of modern reconstructions.
 evidence_summary: >
-  Diodorus reports victories at White Tunis (310), the
-  second battle of Tunis (309), and unspecified engagements
-  in the Carthaginian hinterland through 308. The siege of
-  Utica is attempted in 307. There is no clear ancient
+  Diodorus reports the victory over Hanno and Bomilcar in
+  310, the capture of towns across the hinterland and along
+  the coast, a camp near Tunis, and in 307 the storming of
+  Utica and Hippou Acra (20.8–18, 54–55). Agathocles never
+  laid siege to Carthage itself. There is no clear ancient
   assessment of whether Carthage itself was a realistic
   objective. Modern scholarship has to infer from the
   operational context, from comparative evidence (the much
@@ -46,21 +47,21 @@ candidate_answers:
       force, even reinforced, was probably too small to
       maintain a sustained siege without reliable supply.
     held_by: >
-      Some modern military histories that emphasize what
-      was operationally possible.
+      No specific holder; a reading that weights the coup
+      attempt and the defeats in the field.
   - answer: >
       Carthage was never a realistic objective. Agathocles's
-      goal was always to force a Carthaginian recall from
-      Sicily and a negotiated peace, not to take the city
-      itself.
+      goal was to draw the war away from Sicily, live off
+      Carthaginian territory and force a negotiated peace,
+      not to take the city itself.
     arguments_for: >
       Greek armies of this period rarely took fortified
       cities of Carthage's scale by storm or sustained
       siege. Agathocles's stated strategic logic, as
-      preserved in Diodorus, was about relieving Sicily,
-      not conquering Africa. The campaign achieved its
-      actual strategic goal (Hamilcar's recall, Sicilian
-      relief) well before its catastrophic end.
+      preserved in Diodorus, was about plunder, Libyan revolt
+      and drawing the war away from Sicily, which Diodorus
+      says was accomplished (20.3); taking Carthage is not
+      among his stated aims.
     arguments_against: >
       Under-weights the operational reach Agathocles
       achieved. If taking the city was implausible, why did
@@ -68,9 +69,8 @@ candidate_answers:
       attempt? The answer the ancient sources implicitly
       give is that the city was in real danger.
     held_by: >
-      Approximately the dominant view in current
-      scholarship, with the strategic-relief reading as
-      primary.
+      No specific holder; the reading closest to Diodorus's
+      own account of Agathocles' aims.
   - answer: >
       The question is unanswerable in principle.
     arguments_for: >
@@ -86,8 +86,7 @@ candidate_answers:
       evidence and produce defensible if uncertain
       conclusions.
     held_by: >
-      A minority skeptical view; rarely held as the primary
-      position but often acknowledged as a fallback.
+      No specific holder; stated as the skeptical limit.
 relevant_entities:
   - type: event
     slug: agathocles-invasion-of-africa

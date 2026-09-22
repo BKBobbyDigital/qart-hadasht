@@ -1,29 +1,50 @@
 slug: agathocles-white-tunis-victory
 statement: >
-  At White Tunis (Leukon Tyneta), shortly after his landing, Agathocles
-  defeated the Carthaginian field army under Hanno and Bomilcar in a
-  major engagement that established him in the Carthaginian hinterland
-  and put Greek troops within striking distance of Carthage itself.
+  Shortly after landing in 310 BCE, Agathocles took the towns of
+  Megalepolis and White Tunis and then defeated the first Carthaginian
+  army sent against him, under Hanno and Bomilcar, near Carthage. Hanno
+  was killed, and Bomilcar, who already aimed at tyranny, withdrew. The
+  battle is often called the battle of White Tunis, but Diodorus does
+  not name the battlefield.
 confidence: attested
-scholarly_consensus: >
-  Firmly attested. The victory's tactical details are preserved in
-  Diodorus with characteristic specificity; the strategic significance
-  is not disputed.
+dispute_summary: >
+  Diodorus has Agathocles storm a town he calls Megalepolis and then
+  White Tunis, some distance from Carthage (20.8), before the Carthaginian
+  generals, appointed as rivals so that neither could seize power (20.10),
+  march out against him with, Diodorus says, 40,000 foot, 1,000 horse and
+  2,000 chariots (20.10). Agathocles' army was about 13,500 men: 2,500 under
+  his son Archagathus, 3,500 Syracusans, 3,000 Greek mercenaries, 3,000
+  Samnites, Etruscans and Celts, 1,000 hoplites facing the Sacred Band,
+  and 500 archers and slingers, with unarmed rowers given dummy shields
+  (20.11). He loosed owls, Athena's birds, among the ranks to hearten
+  them. Hanno fell fighting with the Sacred Band, and Bomilcar pulled back
+  (20.12). Diodorus gives 200 Greek dead and Carthaginian losses of not
+  more than 1,000, or by other accounts over 6,000, and says 20,000 pairs
+  of manacles were found in the Carthaginian camp (20.13); Justin gives
+  Hanno 30,000 men and 3,000 Carthaginian dead against 2 Sicilians (22.6).
+  After the defeat Carthage sacrificed two hundred children of the
+  leading families to the god Diodorus calls Cronus, usually identified
+  with Baal Hammon, and three hundred others offered themselves (Diodorus
+  20.14).
 sources:
   - source: diodorus-library
     stance: supports
-    passage_ref: "20.10-12"
+    passage_ref: "20.8–14"
     passage_summary: >
-      Diodorus describes the disposition of forces, the battle, and
-      the Carthaginian retreat to the city, noting that Hanno was
-      killed in the fighting and Bomilcar withdrew with the surviving
-      forces.
+      The capture of White Tunis, the appointment of Hanno and Bomilcar,
+      the order of battle, Hanno's death and Bomilcar's withdrawal, the
+      casualty figures and manacles, and the child sacrifice that followed.
   - source: justin-epitome
     stance: supports
     passage_ref: "22.6"
     passage_summary: >
-      Justin preserves the victory with the same
-      account, briefer in detail.
+      Hanno meets Agathocles with 30,000 men and is killed with 3,000
+      Carthaginians.
+notes: >
+  The manacles, like Justin's two Sicilian dead, are the kind of detail
+  Miles attributes to Sicilian Greek propaganda, which cast every
+  Carthaginian war as an attempt to enslave the Greeks (*Carthage Must Be
+  Destroyed*, p. 142).
 entities:
   - type: event
     slug: agathocles-invasion-of-africa
