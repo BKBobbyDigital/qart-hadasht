@@ -747,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~751 pages** as of
+parked until the day version settles. The site is **~756 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -2746,12 +2746,13 @@ scratchpad `him/`.
   the Himera event, the Hamilcar Magonid page, the Himera place. Five
   REGRESSION rules (73).
 
-### Open threads (as of 21 Sep 2026)
+### Open threads (as of 22 Sep 2026)
 
-The user has **finished Miles's *Carthage Must Be Destroyed*** and
-closed it with the Himera pass (22 Sep 2026); the Miles-driven passes above (Barcid, Heracles, Alps, Cannae, 211, Croton,
-peace of 203) are complete. Nothing below is in progress. Pick one up
-only when the user asks.
+The user **finished Miles's *Carthage Must Be Destroyed*** on 22 Sep 2026,
+closing with the Himera pass. **Next book: Eve MacDonald, *Hannibal: A
+Hellenistic Life* (Yale, 2015)**, source `macdonald-hannibal-2015`; see
+the next section. Nothing below is in progress. Pick one up only when the
+user asks.
 
 - **Heracles/Alexander editorial take**: re-tabled by the user. Material
   runs Gades → Alps → Colline Gate, with Avernus (Livy 24.12, a pretext
@@ -2759,12 +2760,22 @@ only when the user asks.
   Augustan sequel: the triple triumph of 13–15 August 29 BC timed after
   the Ara Maxima festival of Hercules (12 Aug), the Via Julia Augusta
   (13 BC) and Via Augusta (8–2 BC) along the Heraclean Way, and Horace
-  *Odes* 4.4 with Hannibal's lament; all unchecked. Do not draft unprompted.
+  *Odes* 4.4 with Hannibal's lament; all unchecked. MacDonald is the
+  natural second opinion. Do not draft unprompted.
+- **Seven May-2026 editorial takes still unchecked**:
+  `first-treaty-trust-polybius`, `alalia-locked-western-mediterranean-take`,
+  `lutatius-treaty-too-harsh`, `punic-religion-archaeological-vs-literary`,
+  `zama-decisive`, `iberian-side-switching-as-agency-take`,
+  `family-vs-institution-tension`. Aristotle, Agathocles and Himera were
+  done in the Miles passes. Every
+  older page checked against the texts this month had errors.
 - **Miles notes 106–109** (Juno as patron, Juno–Tanit, Uni–Astarte at
-  Pyrgi): check them before anything from p. 305 goes on the site.
-- **Page references still owed from reading**: MacDonald's *Hannibal*;
-  Hoyos 2018 and *Truceless War* (see "Open items" under the second-read
-  audits).
+  Pyrgi): check them before anything from p. 305 goes on the site. His
+  note 17 (p. 413) cites KAI 83 for a Carthage dedication to "Lady Ammas
+  [Demeter]": unchecked; could replace the unsourced "goddesses of the
+  Sicilian Greeks" epithet on `deities/demeter-kore`.
+- **Page references still owed**: Hoyos 2018 (Third Punic War diplomacy)
+  and *Truceless War* (see "Open items" under the second-read audits).
 - **Index-page nav vocabulary** (Narratives / Themes / Threads /
   Periods): reopened, scoped down, after the analytics; design options
   not yet drawn up.
@@ -2775,6 +2786,43 @@ only when the user asks.
 - **User action, not a code change**: visit
   `qart-hadasht.org/#toggle-goatcounter` once per browser to exclude
   their own visits from analytics.
+
+### Reading MacDonald's *Hannibal* (from 22 Sep 2026)
+
+Same method as Miles: the user sends page photos, and notes pages where
+possible; check her against the ancient texts before anything goes on the
+site; fix the site's own errors everywhere they appear; report where she
+goes beyond her sources without adopting it; cite her with page numbers.
+Her podcast and AMA remain shape-only; her book is citable.
+
+What to look for, agreed with the user:
+
+1. **Six claims carry her book in `further_reading`, unchecked:**
+   `saguntum-strategic-resource-consolidation`,
+   `saguntum-hannibal-wounded-falarica`, `barcid-iberia-silver-funded-spw`,
+   `pre-italy-iberia-army-formation`, `tagus-tactical-template-for-italy`,
+   `cannae-allies-defected`. With a page reference each can be promoted
+   into `sources` with a `passage_ref` (and a stance), per the citation
+   separation. For `cannae-allies-defected`, note whether she argues the
+   defections reading or only narrates it.
+2. **Her Hellenistic framing against the site's positions:** the Heracles
+   /Alexander material (site says "self-presentation", attributes
+   "propaganda" to Miles; she is the second opinion for the tabled take);
+   the Barcid "franchise" and formal-authority/practical-control reading;
+   Hasdrubal's quasi-royal standing, the Carthago Nova palace (Polybius
+   10.10) and the Barcid coin portraits; "Hellenistic court forms", which
+   audit 4 removed from Hannibal's page as unsupported.
+3. **Items held back from her podcast:** Hamilcar descended from
+   fourth-century immigrant soldiers, and a unit transcribed "Nix
+   Helenes"; Suetonius on Claudius Pulcher's recruiting. (The black
+   sackcloth on the walls was found in Diodorus 19.106.)
+4. **Settled site positions where she may differ from Miles:** Imilce and
+   her son (Silius only); the Alpine pass (open question); aims after
+   Cannae (misjudged Rome, limited war aims); the 195 denunciation
+   (probably fabricated or exaggerated); the death at Libyssa and the
+   same-year deaths (contested).
+5. Her closing chapters on Hannibal's afterlife are likely reception,
+   which is out of scope; skim for facts about his lifetime.
 
 ### The Alps: hard or ordinary (Sep 2026)
 
@@ -3220,7 +3268,8 @@ reject it).
 flagged as wrong; these are simply the pages the eleven audits did not
 reach. The remaining source comparisons come first, because that format
 failed twice out of the three reviewed. Then the **ten editorial takes
-still stamped May 2026**, which predate every audit and every rule in
+stamped May 2026** (Aristotle, Agathocles and Himera since done in the
+Miles passes, Sep 2026), which predate every audit and every rule in
 "Evidence discipline" above, and which the hygiene passes touched only
 where a pattern caught them (`himera-greek-pairing`,
 `agathocles-masterstroke-or-gamble`, `alalia-locked-western-mediterranean-take`,
@@ -4019,7 +4068,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **751 pages**.
+output. As of the last CLAUDE.md refresh it was around **756 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
