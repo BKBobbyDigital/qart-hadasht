@@ -1,42 +1,52 @@
 slug: tpw-final-assault-destruction
 statement: >
-  The final Roman assault on Carthage in spring 146 BCE produced
-  six days of street fighting through the city's residential
-  quarters before the surviving defenders surrendered on the
-  Byrsa hill. Scipio Aemilianus then ordered the systematic
-  destruction of the city: the buildings demolished, the
-  population enslaved, the site burned for seventeen days, the
-  ruins plowed over to ensure the city could not be reoccupied.
+  In spring 146 BCE Scipio Aemilianus took the wall around the naval
+  harbor and the forum, then fought for six days and nights up the three
+  streets to the Byrsa, burning them as he went. On the seventh day
+  50,000 men and women came out of the citadel under guard. The
+  commissioners sent by the senate then ordered whatever remained to be
+  obliterated and forbade anyone to live there. Two details often added
+  come from much later writers: Orosius's fire of seventeen days, and a
+  plow drawn over the site, known only from the jurist Modestinus.
 confidence: attested
-scholarly_consensus: >
-  The basic sequence (final assault, six days of fighting,
-  destruction, enslavement of survivors) is firmly attested.
-  Specific details (the seventeen-day burning, the plowing of
-  the site) vary across the sources and are accepted by modern
-  scholarship in broad outline but with the standard caveats
-  about dramatic embellishment.
+dispute_summary: >
+  Appian gives the sequence: the Cothon wall taken and the forum seized
+  (127); six-story houses fought for roof by roof along the three streets,
+  then fired (128–130); six days and nights of fighting; the surrender of
+  50,000 men and women from the Byrsa, with the deserters excluded (130).
+  After the victory the senate's ten commissioners decreed that anything
+  left of Carthage be obliterated and no one live there, with dire threats
+  against rebuilding the Byrsa or Megara, though walking on the ground was
+  not forbidden (135).
+
+  Two popular details are late. Orosius, writing in the early fifth
+  century CE, says the city burned for seventeen days without a break
+  (4.23.5) and gives the captives as 25,000 women and 30,000 men (4.23.3).
+  The plow comes from a third-century CE legal writer, Modestinus, who
+  says a city over which a plow is drawn ceases to be a city, "as happened
+  to Carthage" (*Digest* 7.4.21); no historian of the war mentions it.
+  Appian does not say what became of the 50,000; enslavement was the
+  normal fate of a surrendered population and is the usual reading. On the
+  salt, which no ancient source mentions, see the
+  [open question](/openQuestions/tpw-salt-the-earth).
 sources:
   - source: appian-punica
     stance: supports
-    passage_ref: "Pun. 127-135"
+    passage_ref: "127–135"
     passage_summary: >
-      Appian gives the fullest preserved narrative of the final
-      assault: Scipio's storming of the harbor walls, the six
-      days of street fighting through the residential quarters,
-      the surrender of the survivors on the Byrsa, the systematic
-      destruction of the buildings and the burning of the site.
+      The assault on the Cothon and the forum, the six days and nights of
+      street fighting and burning, the surrender of 50,000 from the Byrsa,
+      the looting, and the commissioners' decree that nothing be left and
+      no one live on the site.
   - source: polybius-histories
     stance: supports
-    passage_ref: "38.21-22 (fragments)"
+    passage_ref: "38.19–22"
     passage_summary: >
-      Polybius's surviving fragments preserve eyewitness details
-      of the destruction, including the famous passage of
-      Scipio's tears at the burning city and the Homer quotation.
+      The eyewitness fragments: Hasdrubal's surrender, his wife's
+      reproach, and Scipio's words to Polybius as the city burned.
 notes: >
-  The number of survivors enslaved is given by Appian (Pun. 130)
-  as approximately 50,000. Modern scholarship treats this as
-  approximate; the order of magnitude is consistent with the
-  pre-war population estimates.
+  Orosius's seventeen days and Modestinus's plow are cited in the dispute
+  summary above; neither author has an entry on the site.
 entities:
   - type: event
     slug: destruction-of-carthage

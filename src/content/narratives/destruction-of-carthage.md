@@ -2,306 +2,246 @@
 title: The Destruction of Carthage
 scope: event
 thesis: >
-  The Third Punic War was not the working-out of a contested
-  strategic outcome. The Roman senate decided on destruction
-  before the war began, structured the legal-procedural framework
-  to ensure that destruction was the only path the Carthaginian
-  response could produce, and executed the war with that end as
-  the pre-determined goal. Cato's persistent advocacy gave voice
-  to the strategic conclusion the senate was reaching
-  independently; the structural conditions (the Lutatius treaty's
-  allied-protection clause, Masinissa's enabled encroachments, the
-  Carthaginian impossibility of either accepting territorial loss
-  indefinitely or defending against it) were the mechanism. The
-  iconic moments preserved by Polybius's eyewitness account
-  (Scipio's tears at the burning city, the Homer-quotation, the
-  Carthaginian noblewoman's self-immolation in the temple of
-  Eshmun) are real human responses to a strategic decision that
-  human responses did not control. The destruction of Carthage is
-  one of the most directly attested major events in ancient
-  history. It is also one of the most institutionally engineered.
+  By the time Carthage surrendered itself to Rome in 149 BCE, the senate
+  had already decided to raze the city. Appian says the consuls sailed
+  with secret orders to that effect, Diodorus that the senate's promises
+  left the city out to hide the intention, and Polybius, who was there,
+  that war was decided before the Carthaginian envoys arrived. The
+  demands that followed, hostages, then arms, then the abandonment of the
+  city, left Carthage no answer that preserved it. What the Romans had not
+  planned for was three years of resistance by a disarmed city. The
+  scenes that end the story, Hasdrubal's surrender, his wife's death, and
+  Scipio weeping over the burning city, rest on an eyewitness whose
+  account is mostly lost and reach us largely through later writers who
+  drew on him.
 primary_entities:
   - type: event
     slug: destruction-of-carthage
     role: subject
 referenced_claims:
   - cato-delenda-est-historicity
+  - 149-demands-as-deliberate-trap
   - tpw-roman-ultimatum
-  - tpw-polybius-eyewitness
   - tpw-scipio-aemilianus-command
   - tpw-final-assault-destruction
   - tpw-hasdrubals-wife-immolation
+  - tpw-polybius-eyewitness
 last_revised: "2026-09-22"
 ---
 
-## The half-century before
+## The road to war
 
-Carthage in the half-century after Zama recovered economically
-faster than the Roman post-war settlement had anticipated. The
-Treaty of 201 BCE had stripped the city of its overseas territories
-and military capacity but had left intact its African hinterland,
-its commercial networks, and its capacity to pay the indemnity
-Rome had imposed. In 196 BCE Hannibal Barca, serving as
-suffete, reformed Carthaginian finances; in 191 Carthage offered to
-pay off the rest of the indemnity at once, which Rome refused; by
-the 150s the city was sufficiently wealthy that visiting Roman senators (Cato among
-them) returned shocked at its prosperity.
+Carthage in the half-century after Zama paid its indemnity, offered in
+191 to pay the rest at once, and grew rich again (Livy 36.4; Appian
+*Punica* 69). Roman envoys in the 150s, Cato among them, came home
+describing a city full of people, weapons and ship timber, and read the
+recovery as rearmament. How Rome came to decide on destruction, and how
+much Cato had to do with it, is weighed in the editorial take
+[Why was Carthage destroyed in 146 BCE?](/editorialTakes/destruction-not-weak-enough).
+Cato's famous refrain is reported only by writers two centuries later,
+and the Latin tag *Carthago delenda est* is modern
+([claim](/claims/cato-delenda-est-historicity)).
 
-The visible recovery had a less visible companion. Masinissa,
-confirmed as Roman ally by the Treaty of 201, had been encroaching
-on Carthaginian territory along the Numidian-Carthaginian frontier
-for decades. The treaty's allied-protection clause prohibited
-Carthage from waging war against Roman allies without Roman
-permission. Carthage's repeated appeals to Rome to enforce the
-treaty produced no Roman action. The structural position was
-clear: Carthage could lose territory indefinitely, or it could
-violate the treaty by self-defense. The framework had been
-designed by the post-Zama settlement; Masinissa's specific
-encroachments were the operational mechanism by which the
-framework produced pressure.
+The occasion came from Numidia. In 150 Masinissa besieged Oroscopa, a
+town Appian says he wanted contrary to the treaty, and Carthage sent an
+army against him without Roman consent, which the treaty of 201 forbade.
+The army was trapped and starved, and of 58,000 men only a few returned
+(Appian 70–73; see the [war with Masinissa](/events/war-with-masinissa)).
+Carthage condemned its general Hasdrubal to death and sent envoys to Rome
+to blame him. The senate asked why they had not condemned him at the
+start, and told them only that they must satisfy the Roman people (74).
 
-Cato the Elder articulated what the structural situation
-implied. He had been to Carthage on a senatorial embassy in the
-late 150s BCE; he had returned convinced that the city's
-recovery and continued existence as an independent state were
-themselves Roman strategic problems that no further indemnity
-could address. His response, as writers two centuries later tell it,
-was to add the demand for Carthage's destruction to his vote on
-any question. The famous phrase *Carthago delenda est* is modern and
-appears in no ancient text
-([claim](/claims/cato-delenda-est-historicity)), and the senate
-followed Scipio Nasica against him several times before 149
-(Livy *Periochae* 48).
+## Surrender and the three demands
 
-Whether Cato's advocacy produced the senatorial decision, or voiced
-a position the senate was reaching on its own timeline, the sources
-do not let us say. The site's
-[editorial take](/editorialTakes/destruction-not-weak-enough) treats
-his advocacy as real and its causal weight as unrecoverable.
+When Utica went over to Rome, Carthage was left with nothing to bargain
+with. Its envoys, sent with full powers, found war declared and the
+consuls Manius Manilius and Lucius Marcius Censorinus already under way
+with 80,000 foot and about 4,000 horse, carrying, Appian says, secret
+orders not to stop until Carthage was razed (75). The envoys surrendered
+Carthage to Rome's discretion, which in Polybius's explanation meant
+giving up land, cities, people, harbors, temples and tombs (36.4). The
+senate promised freedom, laws, territory and property. It did not mention
+the city. Polybius says the Carthaginians noticed and were alarmed;
+Diodorus says the omission hid the intention to destroy it (Polybius
+36.4; Diodorus 32.6).
 
-## How the war began
+Then the demands came one at a time. Three hundred children of the
+leading families were sent as hostages to Lilybaeum, amid scenes of grief
+that both Polybius and Appian describe (Polybius 36.5; Appian 77). At
+Utica the consuls demanded every weapon in the city and received armor
+for 200,000 men and 2,000 catapults (Appian 80). Only then did Censorinus
+give the last order: yield Carthage and settle at least eighty stades,
+about fifteen kilometers, from the sea, "for we are resolved to raze your
+city to the ground" (81).
 
-In 150 BCE Carthage finally fought back against Masinissa's
-encroachments, sending an army into disputed territory under
-Hasdrubal (the future commander of the city's defense). The
-expedition was defeated by Masinissa. The strategic outcome was
-catastrophic; the legal outcome was worse. Carthage had made war in
-Africa without Roman consent, which the Treaty of 201 forbade,
-though Appian says Masinissa's siege of Oroscopa, which began the
-war, was itself contrary to the treaty (*Punica* 70). Rome had its
-pretext.
+Appian gives both sides a speech. The envoy Banno argued that Rome was
+breaking its word and offending the gods by destroying a city that had
+surrendered and done everything asked of it (83–85). Censorinus replied
+that the sea had been Carthage's ruin, that a people who could see their
+old harbors would always long for their old power, that the temples and
+tombs would be spared, and that Rome had promised freedom to the
+Carthaginians, not to the ground they lived on (86–89). The speeches are
+Appian's composition, but the arguments are the ones the situation
+required, and the last is the legal hinge of the whole affair.
 
-The Roman declaration of war came in 149 BCE. The Carthaginian
-senate, recognizing that resistance was structurally
-inadvisable, sent envoys to Rome to negotiate. The Roman terms
-escalated stepwise:
+Whether the order was meant to be refused, the sources do not say. They
+do not need to: a Carthage moved inland would have ceased to be the
+maritime city Rome feared, and refusal meant a war fought to the same
+end. The evidence is set out in the
+[claim on the 149 demands](/claims/149-demands-as-deliberate-trap).
 
-- First, 300 hostages from Carthaginian aristocratic families.
-  Carthage complied.
+## The city arms again
 
-- Second, the surrender of all Carthaginian weapons.
-  Approximately 200,000 panoplies and 2,000 catapults were
-  delivered to the Roman consuls outside the city. Carthage
-  complied.
+When the envoys reported, the city erupted. The crowd killed senators who
+had advised giving up the hostages and the arms, stoned the envoys, and
+attacked Italians caught in the city. The same day the senate declared
+war, freed the slaves, and reinstated the condemned Hasdrubal, who had
+gathered 30,000 men in the countryside, begging him not to hold against
+them a wrong done from fear of Rome. Temples and squares became
+workshops, where men and women working in shifts made each day 100
+shields, 300 swords, 1,000 catapult bolts and 500 javelins; the women cut
+their hair for catapult cords (Appian 92–93). The consuls, Appian says,
+perhaps hesitated to do something so terrible at once, and waited (94).
 
-- Third, the abandonment of the city itself. The population was
-  ordered to relocate at least ten miles inland and refound
-  itself as an agricultural community without harbor or
-  fortification. Whether the order was framed in the expectation that it would be refused is not attested, and does not need to be. Carthage was a maritime commercial city, its economy depended on the harbor, and no inland refoundation could have preserved the conditions that made it what it was. Acceptance and refusal alike ended the city.
-
-The third demand was the Roman mechanism for ensuring that the
-destruction the senate had decided on would be the war's outcome.
-Carthage rejected it. The war began.
-
-## The first two years
-
-The Roman expedition of 149-148 BCE produced minimal progress
-against the city's defenses. The two consuls who held command in
-those years were ineffective; the Carthaginian government, having
-recovered some weapons capacity through emergency manufacture and
-the requisitioning of bronze from temples and private holdings,
-mounted a credible defense. Hasdrubal, having been condemned in
-absentia by the Carthaginian senate as a scapegoat for the
-Masinissa engagement, withdrew with a force of approximately
-30,000 to operate against the Romans in the Carthaginian
-hinterland. The senate eventually reversed the condemnation and
-recalled him to command the city's defense.
-
-By the end of 148 BCE the war was structurally going badly for
-Rome. The siege had not produced the expected rapid surrender;
-the Roman commanders had been outmatched; the Carthaginian
-position, though hopeless in the long run, was holding in the
-short.
+That delay cost them the war's first two years. Assaults on the walls
+failed, the Carthaginians sent fireships against the Roman fleet, and
+Hasdrubal's army in the field beat off attacks near Nepheris (97–104).
+Piso, consul in 148, turned instead on the towns of the interior (110).
+Inside the city, Hasdrubal had his rival, the city's other general and a
+grandson of Masinissa, beaten to death with benches in the assembly on a
+charge of treason (111).
 
 ## Scipio Aemilianus
 
-The senate's response to the impasse was unusual. In the consular
-elections of 147 BCE, Publius Cornelius Scipio Aemilianus was
-elected consul below the legal age, with a special exemption
-specifically to take command of the Carthaginian war. The
-election was irregular by every standard of Roman political
-practice; the senate authorized it because the war's prosecution
-required leadership the regular consular pool was not providing.
+Scipio Aemilianus, the son of Aemilius Paullus adopted into Africanus's
+family, had served at Carthage as a military tribune and made his name
+there. Standing for the aedileship, below the legal age for the
+consulship, he was elected consul for 147 by a people who overrode the
+law, and a tribune's bill gave him Africa without the usual lot (Appian
+112). In spring 147 he rescued Mancinus, who had forced his way into the
+city at a weak point and was trapped there (113–114).
 
-Scipio's pedigree made the election politically possible. Born
-the son of Aemilius Paullus (the Roman victor of Pydna 168 BCE),
-adopted in adolescence into the Cornelii Scipiones (the family
-of Africanus, victor of Zama), Scipio Aemilianus was the heir of
-the two Roman families that had ended the Macedonian and
-Carthaginian threats to Rome. He was 38 in 147 BCE, well below
-the consular age of 42, but his name carried enough weight to
-override the procedural objection.
+He then closed the city. A night attack on the suburb of Megara drove
+Hasdrubal's field army inside the walls (117). A fortified line across
+the isthmus, built in twenty days, cut Carthage off by land (119–120).
+A mole across the harbor mouth cut it off by sea; the Carthaginians
+answered by digging a new entrance and sailing out a fleet built from old
+timber, but lost the battle that followed when their ships jammed the new
+mouth on the way back (121–123). Scipio took the quay outside the walls
+after Carthaginians swam out naked with unlit torches and burned his first
+engines (124–125), and that winter destroyed the last Carthaginian army
+outside the city at Nepheris (126).
 
-His command transformed the siege. The blockade was tightened;
-a mole was constructed across the harbor mouth to deny Carthage
-seaborne supply; the outer defenses were methodically reduced
-through the autumn and winter of 147-146 BCE. By the spring of
-146 the city was effectively isolated, starving, and its
-defensive perimeter had been compressed to the citadel and the
-inner residential quarters.
+Hasdrubal, now in command inside, had Roman prisoners tortured on the
+walls in sight of the besiegers, so that the Carthaginians would believe
+there was no peace to be had, and put to death councillors who objected
+(118). Polybius, who disliked him, describes him meeting Gulussa in armor
+and a purple cloak with ten swordsmen, fat and red-faced while his people
+starved, and turning down Scipio's offer of safety for himself, his family
+and ten others (38.7–8). That portrait is hostile and comic, and some
+modern accounts turn it into a regime; it is better read as what it is,
+Polybius's verdict on a man he held responsible for the city's last
+months.
 
-## The final assault
+## The fall
 
-In April or early May 146 BCE Scipio launched the final assault.
-Roman forces stormed the harbor walls, breached the outer
-defenses, and entered the city. The fighting that followed lasted
-six days as Roman soldiers worked through the residential quarters
-street by street, building by building. Appian's narrative
-preserves the difficulty of this phase: Roman casualties were
-substantial, the Carthaginian defenders fought from rooftops and
-upper stories, the streets were narrow and easy to defend.
+In spring 146 the Romans took the wall around the naval harbor while the
+defenders were distracted by a fire at the other end, and seized the
+forum; soldiers stripped the gold from the temple of Apollo against their
+officers' orders (Appian 127). Three streets of six-story houses climbed
+from the forum to the Byrsa, and the Romans took them house by house,
+bridging from roof to roof, until Scipio reached the citadel and set the
+streets on fire. Appian describes the dead and the living dragged
+together into the rubble. The fighting lasted six days and nights (128–
+130).
 
-By the end of the sixth day the surviving defenders had been
-compressed onto the Byrsa hill, the city's citadel and religious
-center. Hasdrubal surrendered to Scipio personally, in
-circumstances that Appian preserves with hostile detail (Hasdrubal
-prostrating himself, begging for his life, surrendering rather
-than dying with his soldiers). His wife, whose name is not
-preserved, appeared on the balcony of the temple of Eshmun on
-the Byrsa, denounced her husband as a coward in a speech
-addressed to Scipio across the walls, killed her two children,
-and threw herself into the burning temple. The episode was
-witnessed by Scipio Aemilianus and Polybius from the Roman lines.
+On the seventh day suppliants came out from the temple of Aesculapius,
+the Carthaginian Eshmun, and Scipio granted the lives of all who would
+leave the Byrsa except the Roman deserters. Fifty thousand men and women
+came out through a narrow gate (130). Hasdrubal slipped out and
+surrendered; the deserters, some nine hundred, set fire to the temple
+and died in it. His wife, the surviving fragment of Polybius says,
+came out holding her two children, called on him by name, and when he
+looked at the ground, denounced him before the Romans (38.20). Appian,
+Livy's summary and Orosius finish the scene: she killed the children and
+followed them into the fire (Appian 131; *Periochae* 51; Orosius 4.23).
+The versions are compared in the
+[claim on her death](/claims/tpw-hasdrubals-wife-immolation).
 
-## Polybius's testimony
+## Scipio's tears
 
-What follows is the most directly attested moment in any major
-event in ancient history.
+Polybius was beside Scipio. In a fragment of his own account, Scipio
+turns, grasps his hand, and says it is a glorious moment but that he
+fears the same doom will one day be pronounced on his own country
+(38.21). Appian and Diodorus give the fuller scene: Scipio weeps,
+reflects on Troy, Assyria, Media, Persia and Macedon, and quotes Hector's
+lines on the day when sacred Troy will perish; asked by Polybius what he
+meant, he names Rome, and Polybius, Appian says, heard it and recorded it
+(Appian 132; Diodorus 32.24).
 
-Polybius had been brought to Rome as a hostage in 167 BCE after
-Pydna. He had become Scipio Aemilianus's intellectual companion
-through the 160s and 150s BCE, traveling with him on military
-campaigns, educating him in Greek historical and political
-thought, and writing the *Histories* with the explicit purpose
-of explaining Rome's rise to Mediterranean dominance. He was
-present at Carthage in 146 BCE.
+The scene is well sourced for antiquity: a contemporary witness, one
+fragment in his own words, and two later writers who name him. It is also
+the scene Polybius's history was built to reach, the rise of Rome set
+against the fall of every empire before it, and Scipio's fear for Rome
+was the lesson Polybius wanted drawn. Miles reads the tears as being for
+Rome rather than for Carthage, which is what the words say. The
+[claim on the eyewitness](/claims/tpw-polybius-eyewitness) sets out the
+chain.
 
-The eyewitness passage, preserved in fragments of *Histories*
-38.21-22 (transmitted to us through Appian's quotation in *Punica*
-132), records what Scipio Aemilianus said and did as he watched
-the city burn. Scipio wept openly. He recited the lines from
-*Iliad* VI in which Hector foretells the fall of Troy ("There
-will come a day when sacred Troy shall perish, and Priam, and
-the people of Priam of the strong ash spear"). He turned to
-Polybius and remarked, in private, that the same fate would
-someday come to Rome.
+## What was done to the city
 
-The passage is preserved with sufficient detail and through
-sufficiently direct attestation that modern scholarship treats
-it as substantially historical: not a literary composition by a
-later author, but the actual words of Scipio Aemilianus as
-recorded by an eyewitness who knew him intimately and recorded
-them within years of the event. The passage is therefore one of
-the very few moments in ancient military history where we have
-access to what a Roman commander said and felt at the moment
-of his greatest victory, transmitted through the most direct
-chain ancient historiography preserves.
+Scipio gave the soldiers some days to plunder, reserving the gold,
+silver and temple offerings, and invited the Sicilian cities to reclaim
+the treasures Carthage had taken from them (Appian 133). At Rome the news
+set off a night of celebration. The senate sent ten commissioners, who
+ordered that anything left of Carthage be obliterated and that no one
+live there, with curses on anyone who rebuilt the Byrsa or Megara;
+walking on the ground was not forbidden. The towns that had held with
+Carthage were destroyed, Utica and the other loyal towns were rewarded
+with land, the rest paid tribute, and a praetor was sent each year to
+govern what became the province of Africa (135).
 
-## The destruction
-
-What Scipio ordered after the surrender was the systematic
-elimination of the city. The buildings were demolished; the site
-was burned for seventeen days; the surviving population
-(approximately 50,000 by Appian's figure) was enslaved and
-distributed across the Roman world. The territory was reorganized
-as the Roman province of Africa, with the city's harbor
-deliberately silted and the urban site itself plowed over to
-ensure no immediate reoccupation.
-
-The "salting of the earth" tradition, popular in modern accounts,
-is not attested in any ancient source. It appears to have entered
-the historiographic tradition in 19th-century European
-scholarship, possibly through biblical echo and possibly through
-misreading of Roman ritual demolition practice. The site treats
-this myth explicitly as one of the most common modern
-misconceptions about the destruction.
-
-What the Romans actually did was thorough enough not to need
-salting. The agricultural development of the territory in the
-following decades (Carthage's African hinterland became one of
-the principal grain-producing regions of the Roman Empire)
-indicates that the territory was not made permanently
-uncultivable. The destruction was institutional, military, and
-symbolic; it was not agricultural sabotage.
+Some details in modern accounts come from much later writers. The
+seventeen days of burning are Orosius's, in the fifth century CE
+(4.23.5). The plow drawn over the site is known only from a
+third-century legal writer, Modestinus, who says a city ceases to exist
+when a plow is drawn over it, "as happened to Carthage" (*Digest*
+7.4.21). The salting of the earth is not ancient at all (see the
+[open question](/openQuestions/tpw-salt-the-earth)). Appian does not say
+what happened to the 50,000 who surrendered; enslavement was the normal
+fate and the usual reading.
 
 ## What it meant
 
-Three structural consequences shaped Mediterranean history for
-the centuries that followed.
+Carthage was not the only city Rome destroyed that year. Lucius Mummius
+sacked Corinth after the Achaean revolt, and both cities' works of art
+went to Rome. Rome had done something like it before: at Capua in 211 the
+leading men were executed, much of the population sold or moved, and the
+city stripped of its magistrates and civic existence, though its
+buildings were left standing (see
+[what the war cost the winner](/narratives/what-the-war-cost-the-winner)).
+What was new at Carthage was the scale, and that the city was razed
+after it had surrendered and disarmed.
 
-Carthage as a continuous urban civilization ended. The city
-that had been founded by Tyrian colonists in the late 9th to
-late 8th century BCE, that had built the Mediterranean's largest
-maritime empire of the 5th to 3rd centuries BCE, that had
-produced the longest sustained military challenge to Roman power
-in the central Mediterranean, ceased to exist as an active
-political and cultural community. What survived archaeologically (the Tophet Stelae corpus, the Carthage Cothon, the Carthage
-Votive Inscription Slab corpus, the broader inscriptional and
-material record) is the residue of that ending. The Punic
-religious-cultural tradition would persist for centuries longer
-in the Numidian interior (attested by the El Hofra Stele Cache at
-Cirta and the Libyco-Punic Mausoleum of Dougga, both built in
-the period after 146 BCE), but the metropolitan city itself was
-gone. The Roman Carthage that
-Augustus would refound a century later was a different city in
-substantively different terms, on the same site but without
-continuous institutional, religious, or cultural connection to
-the destroyed city.
-
-Roman strategic culture was visibly transformed. The
-willingness to destroy a major Mediterranean city, deliberately
-and with extended preparation, marked a step in Roman strategic
-practice that the wars of the 4th and 3rd centuries BCE had not
-required. Subsequent Roman conduct in conquest (Numantia in 133
-BCE, Corinth in 146 BCE in the same year as Carthage, eventually
-Jerusalem in 70 CE) draws on the precedent the Third Punic War
-established.
-
-The historiographic tradition was given its closing piece.
-Polybius's *Histories*, which had been conceived as the
-explanation of Rome's rise to Mediterranean dominance, found its
-proper conclusion in the destruction the historian himself
-witnessed. The "tears of Scipio" passage is not just a moment
-in ancient history; it is the climactic moment of one of the
-foundational works of Western historiography, written by a man
-who saw what he wrote about and was honest enough to report his
-patron's confession that the destruction implied Rome's own
-eventual fall.
+The Carthaginian state ended in 146. Punic culture did not: its language,
+religion and names ran on for centuries in Numidia and Roman Africa (see
+[Punic continuity in Roman Africa](/narratives/punic-continuity-in-roman-africa)).
+The site was not left empty for good. A Gracchan colony was planned there
+in 122 and Caesar planned another, and the Roman city founded under
+Augustus became one of the great cities of the western empire. It was a
+new city on the old ground, which Censorinus had told the envoys was all
+Rome had ever promised to spare.
 
 ## A note on sources
 
-The destruction of Carthage is the best-attested major event of
-the entire Punic period. **Polybius** was personally present
-at the destruction with Scipio Aemilianus; his account survives
-only in fragments (most of *Histories* 36-39 is lost) but the
-preserved fragments include the key eyewitness moments, and his
-narrative was the principal source for **Appian's** *Punica*
-67-135, which preserves the fullest continuous narrative of the
-war that survives. Appian wrote in the 2nd century CE, ~300
-years after the events, drawing principally on Polybius and other
-now-lost sources. **Plutarch** preserves elements of the Cato
-tradition in his *Cato Maior*. The combination of Polybian
-eyewitness fragments, Appian's continuous narrative drawing on
-Polybius, and the broader Roman literary tradition makes the
-destruction one of the most directly attested ancient events of
-its scale, despite the loss of Polybius's full account.
+Polybius was an eyewitness, but his books on the war survive only in
+excerpts: the negotiations of 149 (36.1–6), the portrait of Hasdrubal
+(38.7–8), and the last scenes on the Byrsa (38.19–22). The continuous
+narrative is Appian's (*Punica* 74–135), written in the second century
+CE and generally thought to follow Polybius closely for this war, though
+he does not say so except at the tears. Diodorus 32 preserves a parallel
+version from the same tradition. Livy's books are lost and survive only
+in the summaries; Orosius adds late figures. The archaeology of the last
+city, above all the houses on the south slope of the
+[Byrsa](/places/byrsa) and the triple defenses of the isthmus, is the
+check on all of them.

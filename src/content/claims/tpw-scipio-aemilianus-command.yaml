@@ -1,35 +1,29 @@
 slug: tpw-scipio-aemilianus-command
 statement: >
-  Scipio Aemilianus took command of the Roman siege in 147 BCE
-  through a special election to the consulship below the legal
-  age, after two years of ineffective Roman command had produced
-  minimal progress. His command turned the siege into a methodical
-  reduction of the city's defenses through 147-146 BCE, culminating
-  in the final assault and destruction in spring 146.
+  Scipio Aemilianus, a candidate for the aedileship and below the legal
+  age, was elected consul for 147 BCE after two years in which the Roman
+  commanders had made little progress, and was given Africa without the
+  usual lot. Through 147 he drove Hasdrubal's field army into the city,
+  walled off the isthmus and closed the harbor mouth with a mole, then
+  destroyed the last Carthaginian army outside the walls at Nepheris that
+  winter, before the final assault in spring 146.
 confidence: attested
 sources:
   - source: appian-punica
     stance: supports
-    passage_ref: "Pun. 109-131"
+    passage_ref: "112–126"
     passage_summary: >
-      Appian narrates Scipio's appointment, his immediate
-      tightening of the blockade, the construction of the harbor
-      mole that denied Carthage seaborne supply, the methodical
-      reduction of the outer defenses, and the final assault on
-      the citadel.
-  - source: polybius-histories
+      The illegal election and the assignment of Africa (112); Scipio
+      rescues Mancinus (113–114); the attack on Megara and Hasdrubal's
+      withdrawal into the city (117); the isthmus fortification (119–120);
+      the mole, the new harbor mouth and the sea battle (121–123); the
+      fight for the quay (124–125); Nepheris (126).
+  - source: livy-auc
     stance: supports
-    passage_ref: "38.20-21 (fragments)"
+    passage_ref: "Periochae 51"
     passage_summary: >
-      Polybius's surviving fragments preserve substantial detail
-      on Scipio's command, including Polybius's own observations
-      from his eyewitness position with Scipio's headquarters.
-  - source: plutarch-lives
-    stance: supports
-    passage_summary: >
-      Plutarch's relevant biographies (especially Aemilius
-      Paullus and the lost or fragmentary Scipio Aemilianus)
-      preserve elements of the command tradition.
+      Africa given to Scipio outside the lot; the new harbor, the naval
+      defeat, and the destruction of Hasdrubal's camp at Nepheris.
 entities:
   - type: person
     slug: scipio-aemilianus

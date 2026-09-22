@@ -1,54 +1,49 @@
 slug: tpw-polybius-eyewitness
 statement: >
-  Polybius was personally present at the destruction of Carthage in
-  146 BCE, traveling with Scipio Aemilianus as his intellectual
-  companion and eyewitness historian. The most famous moment of
-  the destruction tradition, Scipio weeping at the burning city
-  and reciting Homer's lines on the fall of Troy, comes to us
-  through Polybius's direct testimony in the surviving fragments
-  of *Histories* 38.21-22.
+  Polybius was at Carthage with Scipio Aemilianus in 146 BCE. A surviving
+  fragment of his *Histories* has Scipio turn to him, grasp his hand and
+  say that it was a glorious moment but that he feared the same doom would
+  one day be pronounced on his own country. The fuller scene, Scipio
+  weeping and quoting Homer on the fall of Troy, survives in Appian and
+  Diodorus, both of whom name Polybius as the witness.
 confidence: attested
-scholarly_consensus: >
-  Firmly attested and treated by modern scholarship as the most
-  important single source-critical fact about the destruction
-  narrative. Polybius's eyewitness presence makes the Third Punic
-  War's surviving record exceptional in directly attested ancient
-  history; most ancient events of comparable significance are
-  preserved through sources writing decades or centuries later.
+dispute_summary: >
+  The scene reaches us by three routes. Polybius 38.21.1 survives in the
+  Byzantine excerpts, in his own words and in the first person: Scipio
+  grasps his hand and speaks of his fear for Rome. Appian (*Punica*
+  132) gives the tears, the meditation on Troy, Assyria, Media, Persia
+  and Macedon, and the lines from the *Iliad* (6.448–449), then says
+  Polybius asked what he meant and that Scipio named his own country;
+  "Polybius actually heard him," he adds, "and recalls it in his history."
+  Diodorus (32.24) gives the tears, Polybius's question and the Homer.
+  Appian and Diodorus both mark it as report ("is said to have").
+
+  That is a good chain for antiquity, but not an unbroken one: most of
+  Polybius's account of the war is lost, and the famous tears and verses
+  are known through two later writers who were drawing on it. Whether
+  Scipio said exactly this cannot be known, and the scene suits
+  Polybius's own theme, the rise and fall of empires, very well.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "38.21-22 (preserved in Appian Pun. 132 and elsewhere)"
+    passage_ref: "38.21.1"
     passage_summary: >
-      Polybius's account of Scipio's tears and Homer-quotation
-      survives in fragmentary form preserved by Appian, who quotes
-      it explicitly: Scipio, watching Carthage burn, weeps openly
-      and recites the lines from Iliad VI in which Hector
-      foretells the fall of Troy ("There will come a day when
-      sacred Troy shall perish..."). Scipio reportedly added a
-      private remark to Polybius about the same fate awaiting
-      Rome itself.
+      Scipio, grasping Polybius's hand: "A glorious moment, Polybius; but I
+      have a dread foreboding that some day the same doom will be
+      pronounced on my own country."
   - source: appian-punica
     stance: supports
-    passage_ref: "Pun. 132"
+    passage_ref: "132"
     passage_summary: >
-      Appian preserves the Polybian eyewitness passage explicitly,
-      attributing the account to Polybius and noting that
-      Polybius was present with Scipio at the moment.
-notes: >
-  The preservation chain is: Polybius witnesses the event 146 BCE,
-  records it in Histories 38; Polybius's full account is later
-  lost; Appian, writing in the 2nd century CE, quotes Polybius's
-  passage in *Punica* 132. So we have a direct chain from
-  eyewitness to surviving text, even though the surviving text is
-  not Polybius's own continuous narrative but a quotation
-  preserved in a later author.
-
-  This is the single best source-critical situation for any major
-  event of the Punic period: the principal narrator was present,
-  his account was preserved by a later author who quotes
-  it directly, and the most famous moments of the destruction
-  tradition can be traced back to the eyewitness.
+      Scipio is said to have wept, reflected on the fall of cities and
+      empires, and quoted Homer; asked by Polybius, he named Rome, and
+      Polybius heard him and recorded it.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "32.24"
+    passage_summary: >
+      Scipio wept as Carthage burned; asked by Polybius why, he spoke of
+      the fickleness of Fortune and quoted Homer.
 entities:
   - type: event
     slug: destruction-of-carthage

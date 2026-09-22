@@ -1,41 +1,68 @@
 slug: 149-demands-as-deliberate-trap
 statement: >
   The Roman demands of 149 BCE (hostages, then the surrender of arms,
-  then the abandonment of the city for a new site inland) were
-  structured so that either Carthaginian answer ended Carthage as it then
-  existed. Accepting the last demand would have dissolved the maritime
-  city; refusing it led to a war of destruction. The sequence shows that
-  by 149 Rome's objective was the end of Carthage in its existing form,
-  not its submission.
+  then the abandonment of the city for a new site inland) were made by a
+  senate that, according to Appian and Diodorus, had already decided to
+  raze Carthage and kept that decision hidden until the city was
+  disarmed. Either Carthaginian answer ended Carthage as it then existed.
+  Whether Rome expected or wanted the last demand to be refused is not
+  attested.
 confidence: inferred
 scholarly_consensus: >
-  That Rome wanted more than Carthaginian submission in 149 is widely
-  accepted, because Carthage had already surrendered to Rome's
-  discretion, given hostages and handed over its arms before the
-  relocation demand was made. Whether the demands were a trap meant to
-  be refused is less certain. No ancient source says so, and the
-  relocation demand made refusal unnecessary for Rome's purpose: a
-  Carthage moved inland would no longer have been the city Rome feared.
-  The reading is inferred from the order and content of the demands,
-  supported by Polybius's statement that war had already been decided
-  when the Carthaginian envoys reached Rome.
+  The sequence is attested in detail. The intention behind it is attested
+  too, though only in writers who knew the outcome. Appian says the
+  consuls sailed with secret orders not to stop the war until Carthage was
+  razed (*Punica* 75). Diodorus says the senate's promise of freedom,
+  laws, territory, sanctuaries and property left the city out, "their
+  intention to destroy it being suppressed" (32.6). Polybius, a
+  contemporary, notes the same omission and the Carthaginians' alarm at it
+  (36.4), and says the envoys who came to surrender found war already
+  decided (36.3). Appian and Diodorus probably follow Polybius here, so
+  this is one tradition, not three witnesses. What none of them says is
+  that the relocation order was framed to be refused: acceptance would
+  have destroyed the city as surely as defeat, which is why the site calls
+  the result the end of Carthage either way rather than a trap that
+  needed a refusal to work.
+dispute_summary: >
+  The demands in order. After Utica went over to Rome, Carthage sent
+  envoys with full powers, who found war declared and the army gone, and
+  surrendered the city to Rome's discretion (Polybius 36.3; Appian 76).
+  The senate promised freedom, laws, territory and property, with no word
+  of the city, if Carthage sent three hundred children of its leading
+  families as hostages to Lilybaeum within thirty days and obeyed the
+  consuls (Polybius 36.4; Diodorus 32.6; Appian 76). The hostages went.
+  At Utica the consuls demanded all arms, and received armor for 200,000
+  men and 2,000 catapults (Appian 80; Polybius 36.6). Only then did
+  Censorinus tell the envoys to yield Carthage and settle at least eighty
+  stades, about fifteen kilometers, from the sea, "for we are resolved to
+  raze your city to the ground" (Appian 81; Diodorus 32.6).
 sources:
   - source: appian-punica
     stance: supports
-    passage_ref: "75–86"
+    passage_ref: "75–81"
     passage_summary: >
-      Appian gives the sequence in detail: the Carthaginian surrender,
-      the three hundred hostages, the handing over of arms, and then the
-      consuls' order that the population abandon the city and settle at
-      least eighty stades from the sea, followed by a long Carthaginian plea against the order.
+      War is declared and the consuls sent with secret orders not to stop
+      until Carthage is razed (75); the hostage demand (76); the arms, for
+      200,000 men with 2,000 catapults (80); the order to abandon the city
+      and settle eighty stades from the sea, because Rome has resolved to
+      raze it (81).
   - source: polybius-histories
     stance: supports
-    passage_ref: "36.2–3"
+    passage_ref: "36.2–6"
     passage_summary: >
-      The Romans had resolved on war and were seeking an occasion that
-      would look just abroad; the Carthaginian envoys who came to Rome
-      found war already decided and the armies departed, and surrendered
-      Carthage to Rome's discretion.
+      Rome had long decided on war and sought a pretext that would look
+      just abroad; the envoys found war decided and surrendered Carthage to
+      Rome's faith; the senate's promise named freedom, laws and territory
+      but not the city, which alarmed the Carthaginians; the hostages were
+      sent to Lilybaeum; the arms were demanded and surrendered.
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "32.6"
+    passage_summary: >
+      The senate's grant omitted the city of Carthage, its intention to
+      destroy the city being suppressed; after the hostages and arms, the
+      envoys were told the senate had decreed that they abandon the city
+      and found another eighty stades from the sea.
   - source: livy-auc
     stance: qualifies
     passage_ref: "Periochae 49"

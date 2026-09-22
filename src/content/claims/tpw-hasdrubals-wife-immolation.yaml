@@ -1,47 +1,53 @@
 slug: tpw-hasdrubals-wife-immolation
 statement: >
-  As Hasdrubal the Boetharch surrendered to Scipio Aemilianus on
-  the day of the final Roman breakthrough, his wife (whose name is
-  not preserved) appeared on a balcony of the temple of Eshmun on
-  the Byrsa, denounced her husband as a coward, killed her two
-  children, and threw herself into the burning temple.
+  When Hasdrubal surrendered to Scipio Aemilianus on the Byrsa in 146 BCE,
+  his wife, whose name is not recorded, reproached him before the Romans.
+  Appian, Livy's summary and Orosius say she then killed herself and her
+  two sons in the fire; the surviving fragment of Polybius, the
+  eyewitness, breaks off before her death.
 confidence: attested
-scholarly_consensus: >
-  The episode is preserved in Appian and is treated as
-  substantially historical by modern scholarship, which notes
-  that the dramatic framing (the speech to Scipio, the killing of
-  the children, the leap into the fire) is the kind of element
-  that ancient historians tend to elaborate but that the
-  underlying event (defiant suicide of a Carthaginian noblewoman
-  in the temple) is consistent with attested patterns of
-  Carthaginian aristocratic conduct in the city's final phase.
+dispute_summary: >
+  The versions differ. In Polybius (38.20) she comes out from the crowd of
+  deserters, dressed like a great lady, holding her two children in
+  their smocks, calls on Hasdrubal by name and, when he looks at the
+  ground, calls on the gods and denounces him; the fragment ends
+  mid-speech. In Appian (131), introduced with "it is said", the
+  deserters set fire to the temple of Aesculapius (the Carthaginian
+  Eshmun) after Hasdrubal slips out to Scipio with an olive branch; his
+  wife, in her finest clothes, speaks within Scipio's hearing, kills her
+  children, throws them into the fire and follows them. Livy's summary
+  (51) has her throw herself and the two children from the citadel into
+  the burning city, and adds that a few days earlier she had failed to
+  persuade her husband to desert to the victor with her. Orosius
+  (4.23.4) calls her the last queen of Carthage, dying as the first,
+  Elissa, had.
+
+  The speeches are literary. The core, her public reproach of Hasdrubal,
+  rests on Polybius; the suicide on later writers who agree on it; and
+  the comparison with Elissa shows how quickly the scene was shaped into
+  a closing symmetry for the city's history.
 sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "38.20"
+    passage_summary: >
+      She comes out of the crowd of deserters with her children and
+      denounces Hasdrubal as he sits beside Scipio; the fragment breaks off
+      before her death.
   - source: appian-punica
     stance: supports
-    passage_ref: "Pun. 131"
+    passage_ref: "131"
     passage_summary: >
-      Appian preserves the episode with characteristic dramatic
-      detail: the wife's appearance on the temple balcony, her
-      denunciation of Hasdrubal in a preserved speech directed
-      at Scipio, the killing of the children, the self-
-      immolation. The speech as Appian preserves it is almost
-      certainly a literary composition; the underlying act is
-      historically grounded.
-  - source: polybius-histories
-    stance: qualifies
-    passage_ref: "38.21 (fragments)"
+      "It is said" that as the deserters fired the temple of Aesculapius
+      she reproached Hasdrubal, killed her children and threw herself into
+      the fire.
+  - source: livy-auc
+    stance: supports
+    passage_ref: "Periochae 51"
     passage_summary: >
-      The Polybian fragments preserve elements of the same scene,
-      consistent with Appian's account though less rhetorically
-      developed. Polybius witnessed the destruction in person and
-      his preservation of the episode (in whatever form) is the
-      strongest evidence for its historical core.
-notes: >
-  The episode has had an extensive literary afterlife in European
-  reception (Flaubert, opera, etc.); the historical core is
-  modest and the dramatic elaboration is substantial. The site
-  treats the basic act as historical and the specific verbal
-  detail as later embellishment.
+      She threw herself and her two children from the citadel into the
+      burning city, having earlier failed to persuade Hasdrubal to desert
+      with her.
 entities:
   - type: event
     slug: third-punic-war

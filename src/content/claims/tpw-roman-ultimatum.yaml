@@ -1,37 +1,41 @@
 slug: tpw-roman-ultimatum
 statement: >
-  After Carthage surrendered 300 hostages and 200,000 panoplies
-  plus 2,000 catapults to Rome in 149 BCE, the Roman consuls
-  delivered a final ultimatum: the population must abandon the
-  city of Carthage entirely and resettle at least ten miles inland.
-  The ultimatum was structurally rejected by the Carthaginians and
-  formed the immediate trigger for the resistance the war
-  required.
+  After Carthage surrendered itself to Rome, sent three hundred hostages
+  and handed over armor for 200,000 men and 2,000 catapults in 149 BCE,
+  the consul Censorinus ordered the population to leave the city, which
+  Rome had resolved to raze, and settle at least eighty stades (about
+  fifteen kilometers) from the sea. Carthage refused, and the siege
+  began.
 confidence: attested
-scholarly_consensus: >
-  Firmly attested. The sequence of escalating Roman demands
-  (hostages, weapons, abandonment of the city) is preserved
-  consistently across Polybius's surviving fragments, Appian, and
-  the broader tradition. What the final demand would have done is clear enough without a claim about what it was for: a maritime commercial city ordered inland would have ceased to be that city, so acceptance and refusal alike ended Carthage as it existed. Whether Rome framed the demand expecting refusal is not attested, and the site does not assert it.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "36.4-7 (fragments)"
+    passage_ref: "36.3–6"
     passage_summary: >
-      The surviving Polybian fragments preserve the surrender of
-      hostages and weapons and the demand for relocation,
-      treating the demand as deliberately calculated to produce
-      Carthaginian rejection.
+      The surrender to Rome's faith, the senate's promise that omitted the
+      city, the hostages sent to Lilybaeum, and the surrender of arms. The
+      surviving fragments break off before the relocation order.
   - source: appian-punica
     stance: supports
-    passage_ref: "Pun. 75-91"
+    passage_ref: "76–93"
     passage_summary: >
-      Appian's continuous narrative gives the fullest account of
-      the negotiation, the surrender of weapons, the Roman
-      ultimatum, and the Carthaginian response (including the
-      famous detail of the Carthaginian envoys returning home and
-      the population's grief and rage when the ultimatum was
-      announced).
+      The fullest account: the hostages (76–77), the arms (80), the order
+      to abandon the city (81), Banno's plea (83–85), Censorinus's reply
+      that the sea had ruined Carthage and that temples and tombs would be
+      spared (86–89), the envoys' return, the killing of those who had
+      advised compliance and of Italians in the city, and the vote for war
+      the same day, with slaves freed and Hasdrubal reinstated (92–93).
+  - source: diodorus-library
+    stance: supports
+    passage_ref: "32.6"
+    passage_summary: >
+      The same sequence, with the order to found a new city eighty stades
+      from the sea and Blanno's (Banno's) plea.
+notes: >
+  The rearmament that followed is Appian's: temples and open spaces
+  turned into workshops where men and women worked in shifts, making each
+  day 100 shields, 300 swords, 1,000 catapult bolts and 500 javelins, with
+  the women's hair cut for catapult cords (93).
 entities:
   - type: event
     slug: third-punic-war

@@ -13,18 +13,18 @@ thesis: >
   in Spain, politically formed through the irregular consulship
   that produced his Carthage command, Scipio Aemilianus is the
   central Roman aristocratic figure of the mid-second-century
-  BCE. The "tears of Scipio" passage Polybius preserved from
-  the burning city is among the most directly attested moments
-  in any ancient history; the figure standing on the smoking
-  ruins of Carthage and quoting Homer to his Greek tutor is
-  recoverable from the sources with unusual precision.
+  BCE. The "tears of Scipio" scene at the burning city rests on
+  Polybius, who was beside him; one fragment survives in
+  Polybius's own words, and the tears and the lines from Homer
+  come through Appian and Diodorus, who name him as their
+  witness.
 primary_entities:
   - type: person
     slug: scipio-aemilianus
     role: subject
 referenced_claims:
   - tpw-polybius-eyewitness
-last_revised: "2026-05-11"
+last_revised: "2026-09-22"
 ---
 
 ## Birth and the two families (185-168 BCE)
@@ -129,16 +129,12 @@ Roman commanders had produced minimal progress against
 Carthage's defenses; the senate's strategic frustration was
 substantial; the consular election for 147 BCE was approaching.
 
-Scipio was approximately thirty-eight, well below the
-consular age of forty-two. He had been elected aedile for 147
-BCE and was campaigning for the censorship; the consulship
-was not within the normal political-procedural sequence
-available to him. The popular assembly's demand that he be
-elected consul, with an exemption from the age requirement
-specifically to take command of the Carthaginian war,
-overrode the senate's procedural objections. The senate
-ratified the irregular election; Scipio was given consular
-imperium and the Carthaginian command.
+Scipio was about thirty-eight, below the legal age for the
+consulship, and was standing only for the aedileship. The people
+elected him consul anyway; when the presiding consuls cited the
+law, the people insisted, and the senate let the tribunes suspend
+the law for a year. A tribune's bill then gave him Africa without
+the usual lot (Appian *Punica* 112; Livy *Periochae* 51).
 
 The 147-146 BCE campaign — the methodical reduction of
 Carthage's defenses, the harbor mole that denied seaborne
@@ -153,31 +149,25 @@ had committed to before the war's beginning.
 
 ## The "tears of Scipio" passage
 
-The most famous moment of Scipio Aemilianus's career is
-preserved through the most direct chain of attestation any
-ancient event possesses: the burning of Carthage in 146 BCE,
-witnessed by Polybius standing beside Scipio at the
-operational headquarters, recorded in *Histories* 38.21-22,
-and quoted explicitly by Appian in *Punica* 132.
+The most famous moment of Scipio Aemilianus's career comes
+from a witness who stood beside him. A fragment of Polybius's
+own account survives: Scipio turns, grasps his hand, and says
+it is a glorious moment but that he fears the same doom will
+one day be pronounced on his own country (38.21). Appian
+(*Punica* 132) and Diodorus (32.24) give the fuller scene:
+Scipio weeps, reflects on the fall of Troy, Assyria, Media,
+Persia and Macedon, and quotes Hector's lines on the day when
+sacred Troy will perish (*Iliad* 6.448–449); asked by Polybius
+what he meant, he names Rome. Appian adds that Polybius heard
+it and recorded it in his history.
 
-The passage as preserved: Scipio, observing the burning city,
-wept openly. He recited the lines from *Iliad* VI in which
-Hector foretells the fall of Troy ("there will come a day
-when sacred Troy shall perish, and Priam, and the people of
-Priam of the strong ash spear"). He turned to Polybius, the
-preserved passage explicitly names Polybius as the
-addressee, and remarked, in private, that the same fate
-would someday come to Rome.
-
-The episode is one of the most directly attested moments of
-ancient military history. The eyewitness was the historian;
-the historian recorded the words; the recording reached us
-through the quotation in Appian's surviving narrative; the
-chain is unbroken. Whether Scipio's actual sentiment was
-exactly as Polybius preserved it is unrecoverable; but the
-words and the framing are his, recorded by a man who had
-been beside him for thirty years and was beside him at this
-specific moment.
+For antiquity that is a strong chain, but not an unbroken
+one: most of Polybius's account is lost, and the tears and the
+verses are known through two later writers who both introduce
+them as report. Whether Scipio said exactly this cannot be
+known, and the scene expresses Polybius's own theme, the rise
+and fall of empires, precisely. See the
+[claim on the eyewitness](/claims/tpw-polybius-eyewitness).
 
 The cultural-political reading of the passage is one of the
 substantive interpretive questions of Roman intellectual

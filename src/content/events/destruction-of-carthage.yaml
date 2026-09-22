@@ -1,7 +1,7 @@
 slug: destruction-of-carthage
 name: Destruction of Carthage
 type: siege
-outcome: "Roman victory; Carthage razed, population enslaved, the agri Romani imposed"
+outcome: "Roman victory; Carthage razed and its site forbidden to settlement; its territory became the province of Africa"
 date_start:
   value: -149
   precision: year
@@ -39,39 +39,45 @@ related_events:
       causation; this event preserves the siege itself, the
       Polybian eyewitness testimony, and the destruction.
 summary: >
-  The four-year Roman siege of Carthage (149-146 BCE) and the
-  systematic destruction of the city in spring 146 BCE. Following
-  the Roman ultimatum to abandon the city (issued after Carthage
-  surrendered hostages and weapons in 149 BCE), the Carthaginians
-  refused and the siege began. Two years of ineffective Roman
-  command (149-148 BCE) produced minimal progress; the senate's
-  appointment of Scipio Aemilianus to consular command in 147 BCE
-  transformed the siege into a methodical reduction of the city's
-  defenses. By spring 146 BCE the city was effectively isolated,
-  starving, and its defensive perimeter compressed to the citadel
-  and inner residential quarters.
+  The Roman siege of Carthage (149–146 BCE) and the destruction of the
+  city in spring 146. After Carthage refused to abandon its site, the
+  consuls of 149 tried the walls and failed; the Carthaginians burned
+  part of their fleet with fireships and kept an army in the field under
+  Hasdrubal (Appian *Punica* 97–99, 102–104). In 148 Piso attacked the
+  towns of the interior instead (110). Inside the city Hasdrubal had his
+  rival, Masinissa's grandson Hasdrubal, beaten to death in the assembly
+  on a charge of treason (111).
 
-  The final assault produced six days of street fighting through
-  the residential quarters before the surviving defenders
-  surrendered on the Byrsa hill. Hasdrubal the Boetharch
-  surrendered to Scipio personally; his wife and children chose
-  self-immolation in the temple of Eshmun rather than surrender.
-  Scipio then ordered the systematic destruction of the city: the
-  buildings demolished, the population enslaved (approximately
-  50,000 survivors per Appian), the site burned for seventeen
-  days, the urban site itself plowed over to ensure no
-  reoccupation.
+  Scipio Aemilianus arrived as consul in 147. He drove Hasdrubal's army
+  into the city by a night attack on the suburb of Megara, walled off the
+  isthmus, and began a mole across the harbor mouth. The Carthaginians cut
+  a new entrance and sailed out a fleet built from old timber, but lost
+  the sea battle that followed; Scipio then took the quay outside the
+  walls and, that winter, destroyed the last Carthaginian army at
+  Nepheris (113–126). Hasdrubal, now commanding in the city, had Roman
+  prisoners tortured on the walls in sight of their comrades and put to
+  death councillors who objected (118); Polybius describes him as a
+  corpulent braggart in armor and a purple cloak, refusing Scipio's offer
+  of safety for himself and ten families (38.7–8).
 
-  The "salting of the earth" tradition, popular in modern
-  accounts, is not attested in any ancient source and is treated
-  as a 19th-century elaboration; see the open question on the
-  matter.
+  In spring 146 the Romans took the wall of the naval harbor and the
+  forum, looted the gold of the temple of Apollo, and fought for six days
+  and nights up the three streets to the Byrsa, burning them as they went
+  (127–130). On the seventh day 50,000 men and women came out under guard.
+  Hasdrubal slipped out to surrender; the Roman deserters burned
+  themselves in the temple of Aesculapius (Eshmun), and his wife, after
+  reproaching him, died in the fire with their two sons (Polybius 38.20;
+  Appian 131). Scipio returned to the Sicilian cities the treasures
+  Carthage had taken from them, and the senate's commissioners ordered
+  whatever remained obliterated and forbade anyone to live on the site;
+  Carthage's territory became a province under an annual praetor (Appian
+  133–135). A fire of seventeen days (Orosius) and a plow over the ruins
+  (Modestinus) are late details, and the salting of the earth is not
+  ancient at all; see the
+  [claim on the final assault](/claims/tpw-final-assault-destruction).
 
-  The eyewitness presence of **Polybius**, traveling with Scipio
-  Aemilianus, makes this the most directly attested major event
-  of the entire Punic period. The famous "tears of Scipio" passage (Histories
-  38.21-22), in which Scipio weeps at the burning city and
-  recites Homer's lines on the fall of Troy before privately
-  predicting the same fate for Rome, comes to us through the
-  most direct chain ancient historiography preserves: eyewitness
-  to surviving text via Appian's quotation in Punica 132.
+  Polybius was present with Scipio. A fragment of his own account survives
+  in which Scipio grasps his hand and says he fears the same fate for Rome
+  (38.21); Appian and Diodorus add the tears and the lines from Homer, and
+  name Polybius as their witness. Most of Polybius's narrative is lost, and
+  the continuous account is Appian's, written about three centuries later.

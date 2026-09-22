@@ -2572,6 +2572,46 @@ Appian 68. The 150 event pages and Hasdrubal the boetharch's page were
 rewritten from Appian (the latter had him recalled in 147; it was 149,
 Appian 93, with the city command after 148, 111).
 
+### The Third Punic War, checked against Miles pp. 337–347 (Sep 2026)
+
+Every TPW page predated the audits and was checked against Appian *Pun.*
+74–135, Polybius 36.1–6 and 38.7–8, 38.19–22, Diodorus 32.6 and 32.24,
+Livy *Per.* 49–51, Orosius 4.23, Strabo 17.3.15 and Modestinus *Digest*
+7.4.21. Texts in scratchpad `tpw/`.
+
+- **Intent is attested, not only inferred.** Appian 75: the consuls
+  sailed with secret orders not to stop until Carthage was razed.
+  Diodorus 32.6: the senate's promise omitted the city, "their intention
+  to destroy it being suppressed"; Polybius 36.4 notes the omission and
+  the Carthaginians' alarm. The site had said no source attests intent.
+  Now: the intention and its concealment are attested (one Polybian
+  tradition, written after the outcome); an expectation of refusal is
+  not, and acceptance would have ended the city anyway. The 149 claim,
+  the declaration event, period 08, the take and the narrative say this.
+- **Late details now attributed:** the seventeen days of burning are
+  Orosius 4.23.5; the plow is only Modestinus (*Digest* 7.4.21); Appian
+  does not say the 50,000 were enslaved (the usual reading). Invented and
+  removed: a deliberately silted harbor, an "*agri Romani*" boundary,
+  "bowstrings" (catapult cords, Appian 93), a "balcony" for Hasdrubal's
+  wife, Hasdrubal "recalled in 147" (149, Appian 93), "Lutatius" clauses
+  for 150, "four-year siege", and the tears reaching us by an "unbroken
+  chain" (one Polybian fragment, 38.21, plus Appian 132 and Diodorus
+  32.24). Polybius's surviving text has the wife's reproach but breaks off
+  before her death; *Per.* 51 adds that she had earlier urged Hasdrubal
+  to desert. Scipio Aemilianus did take the cognomen Africanus.
+- The destruction narrative was rewritten; the three events, six claims,
+  period 08, the Scipio narrative and person page, Hasdrubal's page, the
+  Carthage and Byrsa places and the salt question were corrected. The
+  salt question no longer asserts a nineteenth-century origin (unchecked);
+  it notes Judges 9:45. REGRESSION rules added (65 total).
+- **Miles errors not on the site:** armor "for 20,000 men" (Appian 80
+  and Strabo: 200,000); Piso "consul in 147" (148, Appian 110);
+  Hasdrubal "took on the insignia of supreme general" (Polybius 38.7's
+  armor, purple and ten swordsmen are a hostile caricature at a meeting
+  with Gulussa); 700,000 inhabitants as fact (Strabo's figure); Cato's
+  "dossier of six instances" (Gellius 10.1.10 quotes one sentence from the
+  *Origines*: the Carthaginians broke the treaty for the sixth time).
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the

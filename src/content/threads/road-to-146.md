@@ -57,8 +57,9 @@ stops:
     slug: battle-of-oroscopa
     note: >
       The focal engagement of the 150 BCE expedition. 88-year-old
-      Masinissa commanding in person; young Scipio Aemilianus
-      observing as Roman tribune.
+      Masinissa commanding in person; young Scipio Aemilianus,
+      in Africa to fetch elephants for the army in Spain, watching
+      from a hill.
   - type: event
     slug: roman-declaration-of-war-149
     note: >
@@ -68,8 +69,9 @@ stops:
   - type: claim
     slug: 149-demands-as-deliberate-trap
     note: >
-      The site's reading of the demand sequence as a strategic
-      instrument rather than a negotiation.
+      Appian and Diodorus say the intention to raze the city was
+      fixed and hidden before the demands were made; why the site
+      still does not call it a trap that needed a refusal.
   - type: editorial-take
     slug: destruction-not-weak-enough
     note: >
@@ -83,7 +85,7 @@ stops:
     slug: destruction-of-carthage
     note: >
       The siege, the fall, the systematic demolition.
-last_revised: "2026-09-17"
+last_revised: "2026-09-22"
 ---
 
 The destruction of Carthage in spring 146 BCE is a single event with a
