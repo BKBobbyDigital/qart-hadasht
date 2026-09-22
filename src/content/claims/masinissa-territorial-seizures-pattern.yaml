@@ -47,6 +47,11 @@ dispute_summary: >
   served issued no ruling at all: Masinissa agreed to arbitration, but
   Carthage, fearing it would not receive justice, refused to reopen the
   treaty made with Scipio, and the envoys went home (Appian *Punica* 69).
+  A later embassy recorded in Livy's summary rebuked Carthage for keeping
+  an army and ship timber against the treaty but proposed a peace in which
+  Masinissa would give up the disputed land; the Carthaginian senate said
+  it would comply, and a magistrate named Gisgo roused the people against
+  it until the envoys fled (*Periochae* 48).
 
   The site's reading is that Roman restraint of Masinissa weakened over
   time, most sharply after the 160s, rather than that Rome followed one
@@ -89,7 +94,15 @@ sources:
     passage_ref: "Periochae 47"
     passage_summary: >
       A senatorial delegation is sent to settle a border dispute between
-      Masinissa and Carthage; no outcome is recorded.
+      Masinissa and Carthage; no outcome is recorded, but envoys sent to
+      arbitrate report finding a store of ship timber at Carthage.
+  - source: livy-auc
+    stance: qualifies
+    passage_ref: "Periochae 48"
+    passage_summary: >
+      A later embassy proposes a peace in which Masinissa gives up the
+      disputed land; Gisgo son of Hamilcar rouses the Carthaginian people
+      against it and the envoys flee.
   - source: bailey-rome-carthage-numidia-2018
     stance: contradicts
     passage_ref: "pp. 43–71"

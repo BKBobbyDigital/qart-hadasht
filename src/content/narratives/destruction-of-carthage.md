@@ -31,7 +31,7 @@ referenced_claims:
   - tpw-scipio-aemilianus-command
   - tpw-final-assault-destruction
   - tpw-hasdrubals-wife-immolation
-last_revised: "2026-09-21"
+last_revised: "2026-09-22"
 ---
 
 ## The half-century before
@@ -85,9 +85,11 @@ In 150 BCE Carthage finally fought back against Masinissa's
 encroachments, sending an army into disputed territory under
 Hasdrubal (the future commander of the city's defense). The
 expedition was defeated by Masinissa. The strategic outcome was
-catastrophic; the legal outcome was worse. Carthage had violated
-the Lutatius treaty's allied-protection clause and the Treaty of
-201's reaffirmed version. Rome had its pretext.
+catastrophic; the legal outcome was worse. Carthage had made war in
+Africa without Roman consent, which the Treaty of 201 forbade,
+though Appian says Masinissa's siege of Oroscopa, which began the
+war, was itself contrary to the treaty (*Punica* 70). Rome had its
+pretext.
 
 The Roman declaration of war came in 149 BCE. The Carthaginian
 senate, recognizing that resistance was structurally

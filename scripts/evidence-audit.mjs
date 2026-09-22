@@ -162,7 +162,7 @@ const REGRESSIONS = [
   },
   {
     id: 'masinissa-6000-horse-zama',
-    re: /Masinissa'?s?[^.]{0,40}6,000 [a-z -]{0,25}(horse|cavalry)|6,000 [a-z -]{0,25}(horse|cavalry)[^.]{0,40}Masinissa/i,
+    re: /Masinissa'?s?[^.]{0,40}6,000 [a-z -]{0,25}(horse|cavalry)|6,000 [a-z -]{0,25}(horse|cavalry)(?![^.]{0,16}desert)[^.]{0,40}Masinissa/i,
     right: 'At Zama Masinissa brought 6,000 foot and 4,000 horse (Polybius 15.5.12; Livy 30.29). The 6,000 horse conflates the two figures; Miles repeats it.',
     fixed: 'Zama troop numbers, Miles pp. 315-317',
   },

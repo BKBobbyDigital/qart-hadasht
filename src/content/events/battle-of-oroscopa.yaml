@@ -1,7 +1,7 @@
 slug: battle-of-oroscopa
 name: Battle of Oroscopa
 type: battle
-outcome: "Numidian (Masinissa) victory over the Carthaginian expedition; treaty-violating Carthaginian action that became the Third Punic War trigger"
+outcome: "Numidian victory; the Carthaginian army was besieged, surrendered and was largely destroyed"
 date_start:
   value: -150
   precision: year
@@ -17,12 +17,10 @@ participants:
     role: Numidian commander (~88 years old)
     side: Numidian / Roman ally
   - person: scipio-aemilianus
-    role: Roman observer (military tribune attending the engagement on behalf of the senate)
+    role: observer (in Africa to obtain elephants for Lucullus's army in Spain)
     side: Roman (observer)
 principal_sources:
   - appian-punica
-  - polybius-histories
-  - hoyos-carthaginians-2010
 related_events:
   - event: war-with-masinissa
     relation: focal engagement of (the umbrella event)
@@ -31,54 +29,33 @@ related_events:
 referenced_themes:
   - carthaginian-economy
 summary: >
-  The decisive engagement of Carthage's 150 BCE expedition
-  against Masinissa, fought near a place the surviving
-  sources call Oroscopa (location not securely identified
-  in modern terms; modern scholarship places it
-  somewhere in the contested zone of central-northern
-  modern Tunisia). The Carthaginian expedition under
-  [Hasdrubal the Boetharch](/people/hasdrubal-boetharch) (approximately 25,000 troops) had advanced into
-  Numidian territory in response to fifty years of
-  accumulated Masinissan encroachment, conducted under
-  the Treaty of 201's allied-protection clause and Roman
-  refusal to enforce the treaty against Masinissa.
+  The battle of 150 BCE in which Masinissa defeated the Carthaginian army
+  under [Hasdrubal the boetharch](/people/hasdrubal-boetharch). The name
+  is a modern convenience: Oroscopa is the town Masinissa was besieging
+  when Carthage marched against him (Appian *Punica* 70), and Appian does
+  not name the battlefield or say where it was.
 
-  The engagement is preserved most fully in Appian
-  (*Punica* 70-72) and in Polybius's surviving fragments.
-  What the sources give us is consistent: the
-  Carthaginian force was caught in unfavorable terrain by
-  Masinissa's mobile cavalry; the engagement turned into
-  a siege as the Carthaginian troops took refuge in a
-  fortified position; supplies ran out across several
-  weeks; the Carthaginian survivors negotiated a
-  capitulation that was reportedly violated as they
-  withdrew, with substantial casualties among the
-  retreating column. Hasdrubal the Boetharch survived
-  and would later command the defense of Carthage in
-  149-146 BCE.
+  Appian (70–73) is the only account. Hasdrubal, with 25,000 foot and 400
+  citizen cavalry and 6,000 Numidian horse who had deserted to him, won
+  some skirmishes, then followed Masinissa's feigned retreat into a
+  desert ringed by hills and crags. The battle lasted from morning to
+  night, and Masinissa, eighty-eight and riding bareback in the Numidian
+  way, seemed to have the advantage. Scipio Aemilianus, who had come from
+  Spain to obtain elephants for Lucullus, watched it from a height and
+  later said he had seen 110,000 men join battle, a spectacle granted
+  before only to Zeus and Poseidon at Troy.
 
-  Two features of the engagement preserve in unusual
-  detail. First, the 88-year-old Masinissa reportedly
-  commanded in person, riding with his cavalry — a
-  preserved detail about the Numidian king's continued
-  military capacity at the end of his long reign that
-  modern scholarship has generally accepted as
-  historical. Second, the future Scipio Aemilianus, then a young military tribune serving on Roman
-  diplomatic missions in Africa, observed the
-  engagement personally, reportedly at Masinissa's
-  invitation. The detail is preserved in Polybius
-  through his close personal connection to Aemilianus
-  and is one of the more direct surviving witnesses to
-  pre-Third-Punic-War Carthaginian-Numidian military
-  operations.
+  Aemilianus tried to arrange terms; Carthage offered the Emporia
+  territory and 1,000 talents but refused to hand over the deserters,
+  and the talks failed. Masinissa then walled in the Carthaginian camp on
+  its hill. Roman envoys arrived with orders to end the war if he was
+  losing and to spur him on if he was winning, and they spurred him on
+  (72). Hunger and disease wasted the army until it surrendered, and
+  Gulussa's cavalry attacked the unarmed men as they came out. Of 58,000,
+  Appian says, only a few returned to Carthage (73).
 
-  The engagement's strategic significance was decisive
-  rather than tactical. Whatever the specific Roman
-  attitude before the engagement, the Carthaginian
-  expedition's launch and conduct constituted a treaty
-  violation under the Treaty of 201's prohibition on
-  Carthaginian operations against Roman allies. Rome
-  had its legal pretext for the Third Punic War. The
-  expedition's military failure was less consequential
-  than the diplomatic-political fact of its having been
-  attempted at all.
+  The battle mattered twice over. Rome treated the war as Carthage's
+  breach of the treaty of 201, and it gave Rome its pretext; and it cost
+  Carthage an army, 5,000 talents owed to Masinissa and its general,
+  whom the city condemned to death to placate Rome (74). See the
+  [war with Masinissa](/events/war-with-masinissa).

@@ -17,17 +17,17 @@ participants:
     side: Numidian / Roman ally
 principal_sources:
   - appian-punica
-  - polybius-histories
+  - livy-auc
 related_events:
   - event: battle-of-oroscopa
     relation: focal engagement of (the principal battle of the expedition)
   - event: third-punic-war
     relation: casus belli (provided the Roman legal pretext)
     notes: >
-      Carthage's military operation against Masinissa was a
-      treaty violation under the Treaty of 201's allied-protection
-      clause. Rome treated it as such and used it as the
-      formal legal trigger for the Third Punic War.
+      The Treaty of 201 barred Carthage from war in Africa without
+      Roman consent. Rome treated Carthage's war as the breach, though
+      Appian says Masinissa's siege of Oroscopa, which began it, was
+      itself contrary to the treaty.
   - event: roman-commission-162
     relation: pre-history of (the cumulative arbitration sequence that produced the conditions)
   - event: roman-commission-157
@@ -35,35 +35,44 @@ related_events:
 referenced_themes:
   - carthaginian-economy
 summary: >
-  The Carthaginian military expedition against Masinissa in 150
-  BCE that gave Rome the legal pretext for declaring the Third
-  Punic War. After fifty years of Masinissa's incremental
-  encroachments on Carthaginian territory, conducted under
-  the protection of the Treaty of 201's allied-protection
-  clause and Roman refusal to enforce the treaty against
-  Masinissa, Carthage finally responded with military action.
-  The expedition was conducted by Hasdrubal the Boetharch
-  (the same Hasdrubal who would later command the city's
-  defense in 149-146 BCE) at the head of approximately
-  25,000 troops.
+  The war of 150 BCE between Carthage and Masinissa, which destroyed
+  Carthage's army and gave Rome its formal reason for the Third Punic
+  War. Appian (*Punica* 70–74) is the only full account.
 
-  The engagement itself was a Carthaginian defeat. Masinissa,
-  approaching ninety years old, commanded a Numidian force in
-  person; the Carthaginian army was defeated in the field and
-  eventually surrendered after extended siege of its camp.
-  Hasdrubal escaped with a portion of the survivors but was
-  condemned to death in absentia by the Carthaginian senate
-  in an attempt to placate Roman demands for accountability.
+  It began in Carthaginian politics. Appian's popular party, led by
+  Hamilcar the Samnite and Carthalo, had been harrying Masinissa's
+  subjects on disputed land since around 180 (68). In the 150s the
+  people voted, and swore an oath, to exile about forty leaders of the
+  party that favored Masinissa, and never to take them back. The exiles
+  fled to the king and urged war. He sent his sons Gulussa and Micipsa to
+  demand their return; they were refused entry, and Hamilcar the Samnite
+  attacked Gulussa on the road home. Masinissa made that his excuse to
+  besiege Oroscopa, a town Appian says he wanted "contrary to the treaty"
+  (70).
 
-  The Roman response was mobilization. The senate had been
-  prepared, under Cato the Elder's persistent advocacy, to use
-  any Carthaginian violation of the Treaty of 201 as a casus
-  belli for the destruction of the city. The 150 BCE
-  engagement provided that violation. Roman embassies arrived
-  at Carthage through 149 BCE with escalating demands; the
-  Carthaginian senate's compliance with the surrender of
-  hostages and weapons was followed by the Roman ultimatum to
-  abandon the city; rejection of that ultimatum produced the
-  Third Punic War. The structural causation runs from this
-  engagement: Carthage could not have continued to lose
-  territory to Masinissa indefinitely, and any military response broke the post-Zama settlement, which forbade war in Africa without Roman consent.
+  Carthage sent Hasdrubal, its boetharch, with 25,000 foot and 400
+  citizen cavalry, and was reinforced by 6,000 Numidian horse who
+  deserted Masinissa's lieutenants. After early success Hasdrubal
+  followed a feigned retreat into barren hill country and fought a
+  day-long battle, watched from a height by the young Scipio Aemilianus,
+  who had come from Spain to fetch elephants; Appian says Masinissa, at
+  eighty-eight, commanded on horseback and seemed to have the better of
+  it. Aemilianus's attempt to mediate failed when Carthage would give up
+  the Emporia territory and 1,000 talents but not the deserters. Roman
+  envoys then arrived with instructions to end the war if Masinissa was
+  losing and to urge him on if he was winning, and they did (71–72).
+
+  Masinissa walled in the Carthaginian camp. Starving and diseased, the
+  army surrendered: the deserters handed over, the exiles restored in
+  breach of the people's oath, 5,000 talents to Masinissa over fifty
+  years. As the men filed out unarmed, Gulussa's cavalry fell on them.
+  Of 58,000 only a few, Hasdrubal among them, got back (73).
+
+  Carthage, much weakened and afraid of both Masinissa and Rome,
+  condemned Hasdrubal, Carthalo and the others responsible to death and
+  sent envoys to Rome to blame them (74). Rome treated the war as a breach
+  of the treaty of 201, which forbade Carthage to make war in Africa
+  without Roman consent, and it became the pretext for the Third Punic
+  War. How far the war was Masinissa's doing, and how far Rome's, is
+  weighed in the
+  [take on Masinissa](/editorialTakes/masinissa-strategic-opportunist).

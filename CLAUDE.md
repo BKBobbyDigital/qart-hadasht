@@ -2549,6 +2549,29 @@ Nasica fragment is cited without a section number, via Miles.
   pro-Masinissa politicians expelled (Appian 70: about forty). His
   "Capua" for Cato's service is right (Cicero *Sen.* 10).
 
+### Masinissa and the war of 150, Miles p. 337 (Sep 2026)
+
+User-confirmed: strengthen Numidia's part in the downfall. Masinissa is
+now the **principal cause of the weakness Rome exploited**; Rome remains
+the author of the decision to destroy the city, and he is still a
+strategic opportunist (no fifty-year plan). Evidence, all Appian:
+secret instructions to favor him (67, and again c. 180 with silence
+confirming his seizures, 68); the Tusca delay (68); his siege of
+Oroscopa "contrary to the treaty" began the 150 war (70), and only
+Carthage's response was treated as the breach; Roman envoys in 150 told
+to stop the war if he was losing and urge him on if winning (72); 58,000
+lost, 5,000 talents owed him (73); Carthage "much weakened", condemned
+Hasdrubal and Carthalo (74); his verdict at 106. Counterweight kept:
+*Per.* 48's embassy proposed Masinissa give the land back.
+**Not adopted:** "constant rulings in their favor" (a pattern, not every
+ruling) and "Carthage let Hamilcar take over" (Hamilcar the Samnite led
+the popular faction, active from c. 180; the exile of ~40 was a popular
+vote and oath; the army was Hasdrubal's). Miles's "no assistance could
+be expected from Rome" manifesto, his note 56 (Appian 68), is not in
+Appian 68. The 150 event pages and Hasdrubal the boetharch's page were
+rewritten from Appian (the latter had him recalled in 147; it was 149,
+Appian 93, with the city command after 148, 111).
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the
