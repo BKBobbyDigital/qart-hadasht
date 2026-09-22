@@ -323,6 +323,36 @@ const REGRESSIONS = [
     fixed: 'Agathocles, Miles pp. 142-149',
   },
   {
+    id: 'herodotus-himera-own-claim',
+    re: /Herodotus(?:'s)? (?:claims|argues|asserts|emphasi[sz]es)[^.]{0,80}same day/i,
+    right: 'Herodotus 7.166 reports the Salamis synchronism as what the Sicilians say (\'they add this tale too\'), not as his own claim.',
+    fixed: 'Himera, Miles pp. 117-124',
+  },
+  {
+    id: 'hamilcar-fire-greek-motif',
+    re: /(fire|pyre|flames)[^.]{0,120}Greek (historiographic )?motif|Greek (historiographic )?motif[^.]{0,120}(fire|pyre|flames)/i,
+    right: 'Herodotus 7.167 gives the leap into the fire as the Carthaginians\' own account, the one he finds credible, followed by a cult of Hamilcar.',
+    fixed: 'Himera, Miles pp. 117-124',
+  },
+  {
+    id: 'therma-himeran-survivors',
+    re: /(survivors|refugees)[^.]{0,80}(founded|seed)[^.]{0,80}Therm|Therm[^.]{0,60}founded by[^.]{0,40}(survivors|refugees)/i,
+    right: 'Diodorus 13.79: Carthage founded Therma in 407 with its own citizens and Libyans.',
+    fixed: 'Himera, Miles pp. 117-124',
+  },
+  {
+    id: 'diocles-athenian-threat',
+    re: /Diocles[^.]{0,160}Athenian/,
+    right: 'Diodorus 13.61: Diocles left Himera because of a rumor that Hannibal would sail on Syracuse.',
+    fixed: 'Himera, Miles pp. 117-124',
+  },
+  {
+    id: 'hamilcar-great-grandfather-409',
+    re: /great-grandfather Hamilcar/i,
+    right: 'Diodorus 13.43: Hannibal son of Gisco was Hamilcar\'s grandson.',
+    fixed: 'Himera, Miles pp. 117-124',
+  },
+  {
     id: 'capua-second-city',
     re: /second(-largest)? city (of|in) Italy|largest (Italian-)?allied city after Rome/i,
     right: 'Attribute it: Plutarch (Fab. 17) calls Capua the most considerable city after Rome; Polybius 3.91 "once the wealthiest of cities". Do not assert a size ranking unattributed.',

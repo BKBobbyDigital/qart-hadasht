@@ -1,64 +1,35 @@
 slug: himera-troop-numbers
 statement: >
-  The surviving sources give Carthaginian troop figures at Himera
-  ranging from 200,000 to 300,000 men. These numbers cannot be literal, since no 5th-century state could move or feed a force of that size, though
-  they are consistent in pointing to a major expedition by the
-  standards of the period.
+  Herodotus and Diodorus both give Hamilcar 300,000 men at Himera, and
+  Diodorus adds over 200 warships and more than 3,000 transports, and
+  150,000 Carthaginian dead. No state of the period could have moved or
+  fed a force of that size; the figures show a large expedition and a
+  Greek interest in magnifying the victory, not its real strength.
 confidence: contested
-scholarly_consensus: >
-  The order of magnitude (a major Carthaginian expedition rather
-  than a routine punitive force) is firmly attested. The specific
-  totals are not. Modern reconstructions typically estimate
-  20,000-50,000 Carthaginian effectives, an order of magnitude
-  smaller than the ancient figures.
-dispute_summary: |
-  Herodotus (7.165) gives 300,000; Diodorus (11.20) gives 300,000
-  troops plus 200,000 in support; later traditions vary. The
-  pattern is characteristic of Greek and Roman casualty
-  reporting for non-Greek invasions, where round-number figures
-  in the hundreds of thousands serve rhetorical purposes (the
-  scale of the threat, the magnitude of the Greek victory) more
-  than they describe actual force structure.
-
-  Modern reconstructions work from comparative evidence:
-
-  - Logistical capacity. Carthaginian transport and supply
-    capability in 480 BCE could not have moved 300,000 men across
-    the central Mediterranean in any plausible reading of period
-    naval and supply technology.
-
-  - Demographic constraints. A Carthaginian field army of
-    300,000 would have required mobilization of essentially the
-    entire male population of Carthage and its dependencies, which
-    is incompatible with what we know of the city's size in the
-    early 5th century BCE.
-
-  - Comparative engagement scales. Even the largest verified
-    ancient battle scales (Cannae, Cape Ecnomus) involve forces
-    in the tens of thousands, not the hundreds of thousands. A
-    Himera figure of 30,000-50,000 would be comparable to those.
-
-  Modern estimates therefore place the actual Carthaginian
-  expedition at somewhere between 20,000 and 50,000 effectives.
-  The Greek victory was substantial regardless of the exact
-  figures; the scale-inflation is a historiographic feature
-  rather than a fundamental challenge to the basic outcome.
+dispute_summary: >
+  Herodotus gives 300,000, drawn from Phoenicians, Libyans, Iberians,
+  Ligurians, Elisyci, Sardinians and Corsicans (7.165). Diodorus gives not
+  less than 300,000 men, over 200 warships and over 3,000 cargo ships
+  (11.20), 50,000 foot and over 5,000 horse for Gelon (11.21), and 150,000
+  Carthaginian dead with the rest captured (11.22). The same round
+  300,000 appears in both, which suggests a figure fixed early in the
+  Sicilian tradition rather than two estimates. For comparison, the
+  largest armies whose numbers are better grounded, those at Cannae in
+  216, were in the tens of thousands on each side. The site does not
+  offer its own total, since no source gives a usable one.
 sources:
   - source: herodotus-histories
     stance: supports
     passage_ref: "7.165"
     passage_summary: >
-      Herodotus reports 300,000 Carthaginian troops, treated by
-      modern scholarship as inflated but indicative of a major
-      expedition.
+      300,000 men from Phoenicia, Libya, Iberia, Liguria, the Elisyci,
+      Sardinia and Corsica.
   - source: diodorus-library
     stance: supports
-    passage_ref: "11.20-22"
+    passage_ref: "11.20–22"
     passage_summary: >
-      Diodorus elaborates the figures with troop-type breakdowns
-      that follow the same pattern of inflation; modern
-      scholarship reads the breakdown as Timaean rather than
-      historical.
+      Over 300,000 men, 200 warships and 3,000 transports; Gelon's 50,000
+      foot and 5,000 horse; 150,000 Carthaginian dead.
 further_reading:
   - source: aubet-phoenicians-west-2001
 entities:

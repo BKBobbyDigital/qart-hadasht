@@ -14,17 +14,15 @@ sources:
     stance: supports
     passage_ref: "7.165-167"
     passage_summary: >
-      Herodotus narrates the Carthaginian expedition, the
-      engagement at Himera, the destruction of the Carthaginian
-      army, and Hamilcar's death in the camp. The account is brief
-      but unambiguous on the outcome.
+      Herodotus gives the cause (Terillus's appeal) and the defeat briefly,
+      with three accounts of Hamilcar's death, among them the Carthaginian
+      one. He gives no battle narrative.
   - source: diodorus-library
     stance: supports
     passage_ref: "11.20-26"
     passage_summary: >
       Diodorus provides the fullest preserved narrative of the
-      battle, drawing on Timaeus and other now-lost Sicilian-Greek
-      sources. The tactical detail is more developed than in
+      battle, from lost Greek sources he does not name here. The tactical detail is more developed than in
       Herodotus and is the principal basis for modern
       reconstructions.
 entities:

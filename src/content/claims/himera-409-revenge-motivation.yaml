@@ -1,31 +1,26 @@
 slug: himera-409-revenge-motivation
 statement: >
-  The 409 BCE sack of Himera was understood by both the
-  surviving Greek tradition and (apparently) by the
-  Carthaginians themselves as deliberate revenge for the 480
-  BCE defeat at Himera that had killed Hannibal son of
-  Gisco's grandfather Hamilcar Magonid. Diodorus reports
-  Hannibal performing ritual sacrifice on the supposed site
-  of his grandfather's death and executing 3,000 Himeran
-  prisoners there, in deliberate inversion of the earlier
-  engagement. The episode is one of the clearest surviving
-  instances of Carthaginian dynastic political memory
-  driving operational choice.
+  Diodorus presents the 409 BCE sack of Himera as revenge. Hannibal son of
+  Gisco was the grandson of the Hamilcar who died there in 480 and the son
+  of a man exiled for that defeat, and after taking the city he led the
+  3,000 men captured to the spot where Hamilcar had died, tortured them,
+  and put them to death.
 confidence: attested
-scholarly_consensus: >
-  The revenge framing is firmly attested in Diodorus and is
-  consistent with the broader Magonid-family pattern of
-  dynastic-honor politics that the surviving sources
-  preserve. The framing is broadly accepted in modern
-  scholarship; the precise number (3,000 executed) bears the
-  standard ancient-numbers caveat.
+dispute_summary: >
+  The motive is Diodorus's reading, stated at the outset of the campaign
+  (13.43: Hannibal, "by nature a hater of the Greeks", wanted to wipe out
+  the disgrace done to his family) and repeated at Himera (13.59, 13.62).
+  The execution at Hamilcar's place of death is the act that supports it.
+  Diodorus does not describe a sacrifice there; he says the prisoners were
+  tortured and killed.
 sources:
   - source: diodorus-library
     stance: supports
     passage_ref: "13.62"
     passage_summary: >
-      Diodorus narrates the ritualized executions and the
-      explicit revenge framing in detail.
+      Hannibal's motive (13.43), the siege and fall of Himera, and the
+      torture and execution of 3,000 prisoners at the place where
+      Hamilcar died (13.59–62).
 further_reading:
   - source: hoyos-carthaginians-2010
 entities:

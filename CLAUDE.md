@@ -2705,10 +2705,51 @@ Justin 22–23; Polybius 12.15, 15.35; Livy 28.43. Texts in scratchpad
   for a Carthage dedication to "Lady Ammas [Demeter]" (unchecked; could
   replace the unsourced epithet on the Demeter-Kore page).
 
+### Himera 480 and 409, checked against Miles pp. 117–124 (Sep 2026)
+
+The last Miles pass; the user is done with the book. Checked against
+Herodotus 7.157–167, Pindar *Pythian* 1.71–80, Diodorus 11.1, 11.20–26,
+13.43, 13.54–62, 13.79, Justin 19.1, Aristotle *Poetics* 23. Texts in
+scratchpad `him/`.
+
+- **The pairing began as Syracusan self-presentation.** Pindar's ode for
+  Hieron (c. 470) sets Himera beside Salamis and Plataea; Herodotus
+  reports the same-day synchronism as a Sicilian tale (7.166), not his
+  own claim; Diodorus adds a Xerxes–Carthage agreement (11.1.4–5, Ephorus
+  per Miles) and moves the date to Thermopylae (11.24, Timaeus per Miles);
+  Aristotle rejects the connection (*Poetics* 23); Justin 19.1 has
+  Carthage *refusing* Darius's request for help. Take
+  `himera-greek-pairing` rewritten on this basis (position refined, not
+  reversed: still no good evidence of coordination).
+- **Hamilcar's death in the fire is the Carthaginian account** (Herodotus
+  7.167, "a show of truth"), followed by sacrifices and monuments in the
+  Punic cities; the site had called it a Greek motif. The Sicilian
+  version is that he vanished; Diodorus has disguised cavalry kill him at
+  a sacrifice to Poseidon. Diodorus 13.43: his son Gisco was exiled for
+  the defeat (against Miles's "undiminished" Magonid prestige, p. 117).
+- Other fixes: Diodorus's "200,000 in support" (no such figure), the
+  20,000–50,000 modern estimate (unsourced, removed), "Ecnomus" as a
+  tens-of-thousands battle, the indemnity paid "to Syracuse and Akragas"
+  (to Gelon, with two treaty temples and Damarete's crown), the
+  Olympieion begun with the spoils (Diodorus says the largest temples),
+  "483" for Theron's seizure (not in the sources), "great-grandfather"
+  Hamilcar (grandfather), Therma founded by Himeran survivors (by
+  Carthage with its own citizens and Libyans, 13.79), Diocles leaving for
+  fear of Athens (a rumor that Hannibal would sail on Syracuse, 13.61), a
+  "ritual sacrifice" at Hamilcar's death-place (torture and execution),
+  and the 409 army given only as Ephorus's 200,000 (Timaeus ~100,000).
+  Selinus's survivors were allowed back on tribute (13.59).
+- **Against Miles:** p. 123 says we rely almost wholly on a hostile
+  Timaeus for 409; Diodorus names Ephorus and Timaeus and Timaeus gives
+  the lower figures each time. p. 119's Pindar "for Theron" is for Hieron.
+- Rewritten: narrative, take, five claims, both 409 events and claims,
+  the Himera event, the Hamilcar Magonid page, the Himera place. Five
+  REGRESSION rules (73).
+
 ### Open threads (as of 21 Sep 2026)
 
-The user has **finished Miles's *Carthage Must Be Destroyed***; the
-Miles-driven passes above (Barcid, Heracles, Alps, Cannae, 211, Croton,
+The user has **finished Miles's *Carthage Must Be Destroyed*** and
+closed it with the Himera pass (22 Sep 2026); the Miles-driven passes above (Barcid, Heracles, Alps, Cannae, 211, Croton,
 peace of 203) are complete. Nothing below is in progress. Pick one up
 only when the user asks.
 
