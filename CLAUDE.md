@@ -2668,10 +2668,13 @@ Justin 22–23; Polybius 12.15, 15.35; Livy 28.43. Texts in scratchpad
   ("the recall worked") rested on this. Diodorus 20.3 does say the
   diversion of the war from Sicily "was accomplished". Slug
   `agathocles-hamilcar-recalled` kept, content reversed.
-- **Take rewritten (position changed, flag for the user):** from "both
-  masterstroke and gamble" to "a well-judged gamble that failed for
-  structural reasons" (no command of the sea, no pay, fickle Libyan
-  allies). Needs user confirmation.
+- **Take rewritten, user-confirmed:** "Agathocles was no master." From
+  "both masterstroke and gamble" to **a desperate gamble, not a
+  masterstroke**: early gains owed mainly to Carthage's divisions (feuding
+  generals, Bomilcar holding back, Libyan defection), his own
+  contribution boldness and treachery; failed for structural reasons (no
+  command of the sea, no pay, fickle allies). Only the absolute "owed
+  nothing to him" reading is rejected. Do not re-inflate his generalship.
 - Other errors fixed: no banquet for Ophellas (Diodorus 20.42: surprise
   attack on his camp, he died fighting; Justin: they dined together
   often); the victory over Hanno and Bomilcar was not *at* White Tunis

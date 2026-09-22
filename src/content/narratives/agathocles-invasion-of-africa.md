@@ -3,10 +3,11 @@ title: "Agathocles in Africa"
 scope: event
 thesis: >
   Agathocles invaded Africa in 310 BCE because he was losing in Sicily,
-  and for three years the gamble paid better than anyone could have
-  expected: he beat the first Carthaginian army sent against him, drew
-  Numidians and Libyan towns to his side, absorbed the army of an ally he
-  murdered, and nearly saw Carthage's own general seize the city. It
+  and for three years the gamble went better than he had reason to
+  expect, mostly thanks to Carthage's own divisions: he beat a home army
+  split between feuding generals, drew Libyan towns to his side,
+  absorbed the army of an ally he murdered, and watched Carthage's own
+  general try to seize the city. It
   ended with his army destroyed, his sons killed by his own soldiers, and
   a peace that left Carthage where it had started. Carthage came through
   by holding its walls and its sea, and by waiting. The campaign showed
