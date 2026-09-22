@@ -1,0 +1,81 @@
+slug: clitomachus
+name_display: Clitomachus (Hasdrubal)
+name_punic: ʿZRBʿL
+name_punic_script: 𐤏𐤆𐤓𐤁𐤏𐤋
+name_greek: Κλειτόμαχος
+name_latin: Clitomachus
+etymology: >
+  His Carthaginian name was Hasdrubal, Punic *ʿAzrubaʿl*, "Baal is my
+  help", one of the commonest names in the city. Clitomachus, "famed in
+  battle", is the Greek name he used in Athens. Diogenes Laertius gives
+  both (4.67).
+floruit:
+  value: -146
+  precision: decade
+  circa: true
+  notes: >
+    Diogenes Laertius gives no dates. He was at Athens and writing when
+    Carthage fell in 146, since he sent a book to the captives; modern
+    chronologies of the Academy put his headship in the 120s, which the
+    site has not checked against their sources.
+roles:
+  - philosopher
+  - head of the Academy at Athens
+polity: Carthage
+summary: >
+  A Carthaginian philosopher who became head of Plato's Academy at
+  Athens, and one of the few Carthaginians of the Punic period whose
+  intellectual life is recorded at all. Almost everything known about him
+  comes from two short passages, one in
+  [Diogenes Laertius](/sources/diogenes-laertius-lives) and one in
+  [Cicero](/sources/cicero-tusculan-disputations).
+
+  ## Philosophy in Punic
+
+  Diogenes Laertius says that Clitomachus was a Carthaginian whose real
+  name was Hasdrubal, and that he taught philosophy at Carthage in his
+  own language (4.67). He went to Athens at the age of forty, became a
+  pupil of Carneades, who saw his industry and helped train him, and
+  wrote more than four hundred treatises. He succeeded Carneades as head
+  of the school and was well acquainted with the Academic, Peripatetic
+  and Stoic traditions.
+
+  The first sentence is the important one for Carthage. It means that
+  Greek philosophy was being taught in the city, in Punic, by a
+  Carthaginian, before he ever left for Athens. The site's
+  [open question on Carthaginian literacy](/openQuestions/carthaginian-literacy-extent)
+  and its reading of Carthage as an
+  [active cultural integrator](/editorialTakes/carthage-as-cultural-integrator)
+  both rest mostly on inscriptions and objects; here is a literary
+  statement that learned Greek culture was taken up and taught at
+  Carthage in the Carthaginians' own language. Nothing he wrote in Punic
+  survives, and the passage does not say how many pupils he had or whom.
+
+  ## A book for the captives
+
+  Cicero says he had read the book Clitomachus sent, after Carthage was
+  destroyed, to console the captives, his fellow citizens. It set out an
+  argument Carneades had made against the view that a wise man would be
+  grieved by the capture of his country, which Clitomachus said he had
+  written down (*Tusculan Disputations* 3.54). Cicero's point is that
+  such comfort comes too soon to heal a fresh wound.
+
+  The book is lost, but the passage matters twice. It is the only
+  Carthaginian response to 146 that any ancient author reports reading.
+  And it confirms that Carthaginians taken in the fall of the city were
+  held as captives: Zonaras, abridging Cassius Dio, says most of the men
+  captured died in prison and a few were sold (9.30; see the
+  [claim on the final assault](/claims/tpw-final-assault-destruction)).
+  Clitomachus had left before the war and was spared their fate.
+
+  ## Where he fits
+
+  He belongs with the site's other Carthaginian voices that survived
+  through someone else's hands: [Mago](/people/mago-agronomist), whose
+  farming manual Rome had translated, and the Greek historians who
+  wrote for Hannibal (see [Hannibal's historians](/narratives/hannibals-historians)).
+  Clitomachus is the reverse case. A Carthaginian took up Greek
+  philosophy, first at home and in Punic, and then at its center, and
+  what survives of him is a Greek career rather than a Punic one. Miles
+  closes his book with him as one of the few Carthaginians who escaped
+  the city's fate (*Carthage Must Be Destroyed*, p. 352).

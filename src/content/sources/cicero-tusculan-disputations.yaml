@@ -1,0 +1,27 @@
+slug: cicero-tusculan-disputations
+title: Tusculan Disputations
+author: Marcus Tullius Cicero
+type: literary
+is_primary: false
+language: latin
+date_composed:
+  value: -45
+  precision: year
+  circa: true
+  notes: >
+    Written in 45 BCE.
+temporal_distance_years: 101
+access_to_witnesses: one_step
+bias_notes: >
+  A philosophical dialogue on death, pain and grief. Cicero's historical
+  remarks are asides, but the one used here reports a book he says he had
+  read himself.
+summary: >
+  Cicero's five books on the conditions of happiness, written in 45 BCE.
+  At 3.54, discussing whether philosophy can console grief, he says he
+  has read the book that [Clitomachus](/people/clitomachus) sent after the
+  destruction of Carthage to console the captives, his fellow citizens,
+  which set out an argument of Carneades on whether a wise man would
+  grieve at the capture of his country. It is the nearest thing to a
+  Carthaginian response to 146 that any ancient author reports reading,
+  and it shows that Carthaginians taken in 146 were held as captives.

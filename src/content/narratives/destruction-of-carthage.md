@@ -208,8 +208,13 @@ third-century legal writer, Modestinus, who says a city ceases to exist
 when a plow is drawn over it, "as happened to Carthage" (*Digest*
 7.4.21). The salting of the earth is not ancient at all (see the
 [open question](/openQuestions/tpw-salt-the-earth)). Appian does not say
-what happened to the 50,000 who surrendered; enslavement was the normal
-fate and the usual reading.
+what happened to the 50,000 who surrendered. Zonaras, abridging Cassius
+Dio, says most of the men died in prison and a few were sold, while the
+leading men, the hostages and Hasdrubal lived out their lives in
+honorable confinement in Italy (9.30). One Carthaginian answered from
+abroad: the philosopher [Clitomachus](/people/clitomachus), head of the
+Academy at Athens, sent the captives a book of consolation, which Cicero
+read (*Tusculan Disputations* 3.54).
 
 ## What it meant
 

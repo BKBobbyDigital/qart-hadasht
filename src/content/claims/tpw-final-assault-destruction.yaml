@@ -25,8 +25,13 @@ dispute_summary: >
   The plow comes from a third-century CE legal writer, Modestinus, who
   says a city over which a plow is drawn ceases to be a city, "as happened
   to Carthage" (*Digest* 7.4.21); no historian of the war mentions it.
-  Appian does not say what became of the 50,000; enslavement was the
-  normal fate of a surrendered population and is the usual reading. On the
+  Appian does not say what became of the 50,000. Zonaras, abridging the
+  lost books of Cassius Dio, says most of the men captured were thrown
+  into prison and died there and a few were sold, while the leading men,
+  the hostages and Hasdrubal lived out their lives in honorable
+  confinement in Italy (9.30). Cicero had read a book of consolation that
+  the Carthaginian philosopher Clitomachus sent to the captives after the
+  city fell (*Tusculan Disputations* 3.54). On the
   salt, which no ancient source mentions, see the
   [open question](/openQuestions/tpw-salt-the-earth).
 sources:
@@ -38,6 +43,19 @@ sources:
       street fighting and burning, the surrender of 50,000 from the Byrsa,
       the looting, and the commissioners' decree that nothing be left and
       no one live on the site.
+  - source: zonaras-epitome
+    stance: supports
+    passage_ref: "9.30"
+    passage_summary: >
+      Most of the men captured died in prison and a few were sold; the
+      leading men, the hostages and Hasdrubal lived in honorable
+      confinement in Italy; the site was cursed against settlement.
+  - source: cicero-tusculan-disputations
+    stance: supports
+    passage_ref: "3.54"
+    passage_summary: >
+      Clitomachus sent a book of consolation to the Carthaginian captives,
+      his fellow citizens, after the destruction.
   - source: polybius-histories
     stance: supports
     passage_ref: "38.19–22"

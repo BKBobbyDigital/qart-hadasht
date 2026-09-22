@@ -755,9 +755,9 @@ the last build.
 | Collection | Count |
 |---|---|
 | events | 97 |
-| people | 82 |
+| people | 83 |
 | places | 63 |
-| sources | 91 |
+| sources | 94 |
 | claims | 178 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
@@ -2612,6 +2612,27 @@ Livy *Per.* 49–51, Orosius 4.23, Strabo 17.3.15 and Modestinus *Digest*
   "dossier of six instances" (Gellius 10.1.10 quotes one sentence from the
   *Origines*: the Carthaginians broke the treaty for the sixth time).
 
+### Miles's last chapter, "Punic Faith" (pp. 352–373), Sep 2026
+
+Mostly reception (Augustus, Statius, Severus, Hannibalianus), which stays
+out of scope. Taken from it, checked against the texts:
+- **`people/clitomachus`** (new): Diogenes Laertius 4.67, a Carthaginian
+  named Hasdrubal who **taught philosophy at Carthage in Punic** before
+  going to Athens at forty and heading the Academy; Cicero *Tusc.* 3.54,
+  his book of consolation to the captives after 146. Miles omits the
+  Punic teaching. Linked from the literacy question. Headship date (Miles
+  129; often 127/6) left unstated.
+- **Fate of the captives:** Zonaras 9.30 (abridging Dio): most of the men
+  died in prison, a few were sold; Hasdrubal, Bithyas, the hostages and
+  the leading men lived in honorable confinement in Italy; Scipio took
+  the name Africanus for his own deeds (also Eutropius 4.12). Replaces
+  "enslavement is the usual reading" everywhere.
+- New sources: `diogenes-laertius-lives`, `cicero-tusculan-disputations`,
+  `zonaras-epitome`.
+- **Miles errors:** Scipio "personally distributed all gold, silver and
+  religious offerings" (Appian 133: he reserved them, and the Sicilians
+  reclaimed their temple treasures).
+
 ### Open threads (as of 21 Sep 2026)
 
 The user has **finished Miles's *Carthage Must Be Destroyed***; the
@@ -2621,7 +2642,11 @@ only when the user asks.
 
 - **Heracles/Alexander editorial take**: re-tabled by the user. Material
   runs Gades → Alps → Colline Gate, with Avernus (Livy 24.12, a pretext
-  in Livy, piety in Miles) as the test case. Do not draft unprompted.
+  in Livy, piety in Miles) as the test case. Miles pp. 361–362 add the
+  Augustan sequel: the triple triumph of 13–15 August 29 BC timed after
+  the Ara Maxima festival of Hercules (12 Aug), the Via Julia Augusta
+  (13 BC) and Via Augusta (8–2 BC) along the Heraclean Way, and Horace
+  *Odes* 4.4 with Hannibal's lament; all unchecked. Do not draft unprompted.
 - **Miles notes 106–109** (Juno as patron, Juno–Tanit, Uni–Astarte at
   Pyrgi): check them before anything from p. 305 goes on the site.
 - **Page references still owed from reading**: Miles on the Third Punic

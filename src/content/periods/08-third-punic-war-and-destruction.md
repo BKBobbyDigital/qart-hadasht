@@ -130,8 +130,10 @@ and the forum and then six days and nights of street fighting up the
 three streets to the Byrsa (Appian 112–130).
 
 The [destruction](/events/destruction-of-carthage) that followed
-was total. Fifty thousand people came out of the citadel under guard,
-presumably to be sold. The senate's ten commissioners ordered whatever
+was total. Fifty thousand people came out of the citadel under guard;
+Zonaras, abridging Cassius Dio, says most of the men died in prison and
+a few were sold, while Hasdrubal and the leading men were kept in Italy
+(9.30). The senate's ten commissioners ordered whatever
 remained obliterated and forbade anyone to live on the site, with curses
 on rebuilding the Byrsa or Megara, and Carthage's territory became the
 province of Africa under an annual praetor (Appian 130, 135). The libraries were given to the Numidian allies; only

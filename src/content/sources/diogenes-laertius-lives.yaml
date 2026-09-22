@@ -1,0 +1,27 @@
+slug: diogenes-laertius-lives
+title: Lives of the Eminent Philosophers
+author: Diogenes Laertius
+type: literary
+is_primary: false
+language: greek
+date_composed:
+  value: 225
+  precision: century
+  circa: true
+  notes: >
+    Usually placed in the first half of the third century CE; nothing
+    certain is known of the author.
+temporal_distance_years: 350
+access_to_witnesses: late
+bias_notes: >
+  A compilation of philosophers' lives, anecdotes and doctrines drawn from
+  earlier biographers and handbooks, uneven in quality and rarely naming
+  its sources. Its short entries preserve facts found nowhere else, and
+  its anecdotes need the usual caution.
+summary: >
+  Ten books of lives of Greek philosophers, written about the third
+  century CE. It matters on this site for one short entry (4.67) on
+  [Clitomachus](/people/clitomachus): a Carthaginian whose real name was
+  Hasdrubal, who taught philosophy at Carthage in his own language before
+  going to Athens at forty, studied under Carneades, wrote more than four
+  hundred treatises and succeeded him as head of the Academy.
