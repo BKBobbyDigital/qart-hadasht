@@ -30,8 +30,9 @@ primary_entities:
   - type: theme
     slug: punic-religion
     role: subject
-referenced_claims: []
-last_revised: "2026-09-17"
+referenced_claims:
+  - barcid-numidian-royal-marriage
+last_revised: "2026-09-24"
 ---
 
 The conventional Anglophone treatment of the Carthaginian-
@@ -220,6 +221,34 @@ and into late antiquity. The naming evidence is direct
 prosopographic continuity of Punic religious identity
 within the Berber substrate across the political
 transitions.
+
+## Marriage between the houses
+
+The interface had a dynastic side, and it ran in both
+directions. Hamilcar Barca swore to give Naravas his daughter
+if he stayed loyal to Carthage, and kept the promise, which put
+a Carthaginian woman into a Numidian princely household in 239
+(Polybius 1.78). A generation later Livy records the reverse
+transaction from the Numidian end: when Mazaetullus seized the
+Massylian kingdom in about 206, he married the widow of the
+dead king Oezalces, "a noble Carthaginian woman, the daughter
+of Hannibal's sister", because he wanted Carthage behind his
+usurpation (29.29). A Barcid woman was therefore already inside
+the Massylian royal house before
+[Sophonisba](/people/sophonisba) was given to Syphax, which
+makes the famous case an instance of a practice rather than an
+improvisation
+([claim](/claims/barcid-numidian-royal-marriage)).
+
+What the practice did not do is bind. Carthage worked to stop
+Masinissa's reconciliation with the usurper it was connected
+to, then sent Syphax against him; Syphax, married to
+Sophonisba, was captured fighting for Carthage while Masinissa,
+who had grown up in the city, was riding for Rome. The
+marriages gave each side a channel into the other's politics,
+and the politics decided what the channel carried. None of the
+women is named in the Carthaginian record, and only Sophonisba
+is named at all.
 
 ## Masinissa and the consolidation of the elite culture
 

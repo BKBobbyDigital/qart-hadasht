@@ -19,8 +19,9 @@ primary_entities:
   - type: person
     slug: hamilcar-barca
     role: subject
-referenced_claims: []
-last_revised: "2026-09-17"
+referenced_claims:
+  - barcid-numidian-royal-marriage
+last_revised: "2026-09-24"
 ---
 
 ## Origins
@@ -35,10 +36,24 @@ not preserved with confidence; modern reconstructions place
 him in the mid-280s or 270s BCE, making him approximately
 40 at the start of his Sicilian command. His marriage produced
 three sons (Hannibal, Hasdrubal Barca, Mago Barca) and at
-least three daughters, two of whom married into the
-Carthaginian-allied Iberian-Numidian alliance network
-Hasdrubal the Fair would later build (one to Hasdrubal the
-Fair himself, one to Naravas of the Massylii).
+least two daughters, who married into the alliance network the
+family was building: one to Hasdrubal the Fair, who became
+Hamilcar's political successor in Iberia, and one to Naravas
+the Numidian, whose 2,000 horse during the Mercenary War
+brought Hamilcar the cavalry he lacked. None of the daughters is named
+in any source. A third marriage is sometimes reconstructed from
+Appian's description of the Cannae left wing as commanded by
+Hannibal's nephew Hanno (*Hannibalica* 20) together with Livy's
+Hanno son of Bomilcar at the Rhône (21.27), but no text links
+the two notices or names the nephew's parents, and Livy also
+records a niece of Hannibal, his sister's daughter, married to
+the Massylian king Oezalces
+([claim](/claims/barcid-numidian-royal-marriage)). The only
+ancient statement of a number is a rhetorical one:
+[Valerius Maximus](/sources/valerius-maximus) has Hamilcar look
+at his four sons and call them lion cubs he was rearing for the
+ruin of Rome's empire (9.3.ext.2), which is one more son than
+history knows.
 
 ## Sicily, 247-241 BCE
 
@@ -101,9 +116,9 @@ minimal progress through the early phase of the war. By 240
 BCE the senate transferred command to Hamilcar. The transfer
 was the structural turning point: Hamilcar's command
 delivered the engagement at the Bagradas River that broke
-the rebel forces in the field, the alliance with Naravas of
-the Massylii (sealed by the marriage of one of Hamilcar's
-daughters to Naravas) that gave him the cavalry capability
+the rebel forces in the field, the alliance with the Numidian
+prince Naravas (sealed by the marriage of one of Hamilcar's
+daughters to him) that gave him the cavalry capability
 the rebels could not match, and the climactic engagement at
 "the Saw" or Defile in 238 BCE that destroyed the principal
 rebel concentrations through encirclement and starvation.

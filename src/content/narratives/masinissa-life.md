@@ -5,9 +5,9 @@ thesis: >
   Masinissa ruled the Massylii, and then most of Numidia, for more
   than half a century, from his recovery of the kingdom in 203 to
   his death at about ninety in 148. He fought for Carthage in
-  Iberia, changed sides around 206, lost his father's kingdom to
-  Syphax, won it back with Roman help, and led Scipio's Numidian
-  cavalry at Zama. For the next fifty years he pressed territorial
+  Iberia, changed sides around 206, took his father's kingdom back
+  from a usurper and then lost it to Syphax, was restored by the
+  Roman landing, and led Scipio's Numidian cavalry at Zama. For the next fifty years he pressed territorial
   claims against a Carthage the peace of 201 had forbidden to fight
   him, and he built a kingdom with its own farms, treasury and army.
   The site reads him as a strategic opportunist rather than a Roman
@@ -19,8 +19,9 @@ primary_entities:
   - type: person
     slug: masinissa
     role: subject
-referenced_claims: []
-last_revised: "2026-09-17"
+referenced_claims:
+  - barcid-numidian-royal-marriage
+last_revised: "2026-09-24"
 ---
 
 ## Origins (c. 238 BCE) and early Carthaginian alignment
@@ -70,14 +71,40 @@ arranged the marriage with Syphax, and there is no earlier
 betrothal (29.23). The personal grievance is Appian's
 explanation, and it should be held loosely.
 
-The Massylii succession. On the death of Masinissa's
-father Gala (c. 206 BCE), the Massylii throne passed
-through a contested succession in which Syphax (acting in
-Carthaginian interest) intervened to install a rival
-claimant. Masinissa's exile from his own kingdom for
-approximately two years followed, with substantial
-operations to reclaim his throne against Syphax-aligned
-opposition.
+The Massylii succession. Livy tells this part at length,
+in the one digression he allows himself on a Numidian
+(29.29–32). Gala died while Masinissa was in Iberia, and the
+kingdom went to Gala's brother Oezalces, an old man, because
+"such is the custom among the Numidians": seniority within the
+royal kin rather than descent from father to son. Oezalces died
+soon after and his elder son Capussa succeeded, holding the
+throne by that custom and by little else. Mazaetullus, of a
+rival branch of the royal family, raised the commons, forced a
+battle and killed him. He took the guardianship rather than the
+crown, called Oezalces's surviving son Lacumazes king, and
+married Oezalces's widow, a Carthaginian noblewoman who was
+Hannibal's niece, hoping to bring Carthage in behind him; he
+also renewed an old friendship with Syphax
+([claim](/claims/barcid-numidian-royal-marriage)).
+
+Masinissa returned from Iberia through Mauretania, whose king
+Baga lent him four thousand Moors as far as the frontier, took
+Thapsus, beat Mazaetullus in a battle in which he was
+outnumbered, and recovered his father's kingdom. He then
+offered Lacumazes the standing Oezalces had held under Gala and
+Mazaetullus his property and impunity, and both accepted, "the
+Carthaginians doing everything they could to prevent it"
+(29.30). What removed him was not the succession but Carthage:
+Hasdrubal Gisco, at Syphax's court, argued that Masinissa was a
+fire to be put out while it was small, and Syphax invaded,
+beat him, and took the Massylii into his own allegiance.
+Masinissa held out on a mountain the locals called Bellus with
+a few hundred followers, raiding Carthaginian land and selling
+the plunder to traders on the coast, until Bucar's pursuit cut
+him down to fifty horsemen and then to four; he escaped across
+a river, and the report that he had drowned went back to
+Carthage (29.31–32). The exile was a year or two of banditry,
+not a campaign.
 
 The Roman approach. Scipio Africanus, planning the
 African expedition that would culminate at Zama, opened

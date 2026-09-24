@@ -5,12 +5,13 @@ name_latin: Naravas
 etymology: >
   The Numidian name *Naravas* is preserved only in Greek and Latin
   transliteration. The underlying Numidian-language form and
-  etymology are not recoverable. He is the principal attested
-  Massylii royal figure of the third quarter of the 3rd century
-  BCE; the broader Massylii royal genealogy of the period is
-  fragmentary, and his exact relationship to subsequent Massylii
-  rulers (and to [Gala](/people/gala), [Masinissa](/people/masinissa)'s
-  father) is not securely preserved.
+  etymology are not recoverable. Polybius calls him simply "a
+  Numidian of high rank" (1.78.1) and names no people; the
+  Massylian identification usual in modern accounts, including on
+  this site, is an inference from his hereditary Carthaginian
+  attachment and from where the Massylii lived, and his
+  relationship to [Gala](/people/gala) and the later royal house
+  is not preserved.
 floruit:
   value: -239
   precision: year
@@ -27,11 +28,12 @@ death:
 roles:
   - prince
   - cavalry commander
-polity: Numidia (Massylii)
+polity: Numidia (Massylii, on the modern identification)
 referenced_themes:
   - punic-identity
 summary: >
-  Naravas was the Numidian Massylii prince whose defection to
+  Naravas was the Numidian prince, usually taken to be Massylian,
+  whose alliance with
   [Hamilcar Barca](/people/hamilcar-barca) during the
   [Mercenary War](/events/mercenary-war) in 239 BCE substantively
   changed the war's tactical balance and was one of the decisive
@@ -62,7 +64,7 @@ summary: >
   configuration could not supply.
 
   The defection (239 BCE). Naravas's defection to the
-  Carthaginian side with approximately 2,000 Massylii cavalry was
+  Carthaginian side with approximately 2,000 Numidian cavalry was
   the resource Hamilcar's configuration needed. Polybius (1.78)
   preserves the meeting between Naravas and Hamilcar: Naravas
   approached the Carthaginian camp during operations against
@@ -95,10 +97,10 @@ summary: >
   in the Second Punic War's African phase). Naravas's marriage to
   Hamilcar's daughter is the founding instance.
 
-  The cavalry's tactical contribution. Naravas's 2,000 Massylii
+  The cavalry's tactical contribution. Naravas's 2,000 Numidian
   cavalry changed the tactical balance of the
   Mercenary War. Cavalry was the rebel forces' principal weakness
-  and Hamilcar's principal need; with the Massylii cavalry attached
+  and Hamilcar's principal need; with that cavalry attached
   to his command, Hamilcar could pursue rebel field operations with
   the speed and envelopment-capability the previous configuration
   had not allowed. The subsequent campaign that contained and

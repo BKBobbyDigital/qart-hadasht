@@ -63,7 +63,7 @@ principal_sources:
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
   - huss-karthager-2004
-last_revised: "2026-09-17"
+last_revised: "2026-09-24"
 ---
 
 The twenty-three years between the [Treaty of Lutatius](/events/treaty-of-lutatius)
@@ -114,8 +114,8 @@ atrocity by both sides.
 The recovery began with [Hamilcar Barca](/people/hamilcar-barca)'s
 transfer to overall command in 240 BCE. His
 [maneuver across the Bagradas](/events/battle-of-bagradas-238) broke
-the rebel siege of Utica; the [defection of Naravas](/people/naravas)
-of the Massylian Numidians in 239 with 2,000 cavalry consolidated the
+the rebel siege of Utica; the arrival of the Numidian prince
+[Naravas](/people/naravas) in 239 with 2,000 cavalry consolidated the
 turn; and the climactic envelopment at the
 [Saw](/events/battle-of-the-saw) in late 238 destroyed Spendius's
 principal army through siege and starvation. The remaining rebellion

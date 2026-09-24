@@ -2844,6 +2844,65 @@ What to look for, agreed with the user:
 5. Her closing chapters on Hannibal's afterlife are likely reception,
    which is out of scope; skim for facts about his lifetime.
 
+### MacDonald's Barcid family tree (24 Sep 2026)
+
+The user sent a photograph of the family tree in her front matter
+before starting the book. Checked against Appian *Hannibalica* 20,
+Livy 21.27, 23.41, 23.49, 24.36, 25.25–27, 29.29–32, Polybius 1.77–78
+and Valerius Maximus 9.3.ext.2–3. Her tree gives Hamilcar three sons,
+three daughters (married to Bomilcar, Hasdrubal the Fair and Naravas),
+a grandson Hanno commanding at Cannae, and a niece married into the
+Numidian royal house. Two of those are reconstructions and one is a
+gap the site had.
+
+- **The niece is real and was missing.** Livy 29.29 says the widow of
+  the Massylian king Oezalces, whom the usurper Mazaetullus married in
+  about 206 to court Carthage, was the daughter of Hannibal's sister.
+  New `claims/barcid-numidian-royal-marriage` (attested), wired into
+  Hannibal's page, Hamilcar's life, the women-and-family theme, Gala's
+  page, and a new "Marriage between the houses" section in
+  `narratives/the-numidian-punic-interface`. The point it carries:
+  a Barcid woman was inside the Massylian royal house before
+  Sophonisba, and the tie bought access without binding anyone.
+- **The third daughter is not.** Appian gives the Cannae left to
+  "his nephew Hanno" and names no parents; Livy has a Hanno son of
+  Bomilcar at the Rhône (21.27) and a Hannibal son of Bomilcar at
+  Iliturgi (23.49). Joining them is modern inference, and the site
+  says so where it mentions it. Hamilcar's life now reads "at least
+  two daughters".
+- **The Massylian succession was wrong on three pages.** Livy
+  29.29–32 narrates it in detail, and the site called it fragmentary
+  and had Syphax installing a rival claimant. Right: the throne passed
+  by Numidian seniority to Gala's brother Oezalces, then to his son
+  Capussa, whom Mazaetullus killed; Masinissa came back through
+  Mauretania and took the kingdom by war, pardoned Lacumazes and
+  Mazaetullus against Carthaginian efforts, and only then was driven
+  out by Syphax, whom Hasdrubal Gisco had pressed to attack him. His
+  exile was a year or two of raiding from a mountain, ending in
+  Bucar's pursuit. Rewritten on Gala's page, Masinissa's page and his
+  life narrative.
+- **Naravas is not attested as a Massylian.** Polybius 1.78 calls him
+  a Numidian of high rank with an inherited attachment to Carthage,
+  names no people, and does not say he had been with the rebels. The
+  label was stated as fact on six pages and is now marked as the
+  modern identification it is.
+- **The Bomilcar link on Hannibal's page went to the wrong man**, the
+  would-be tyrant of 308. The SPW bearer is the admiral of Livy 23.41,
+  24.36 and 25.25–27; `people/bomilcar` now carries an identification
+  note for the three later homonyms.
+- **Valerius Maximus** is now a source entry: the lion-cub saying with
+  four sons (9.3.ext.2), one more than history knows, and a late
+  witness to the oath at nine (9.3.ext.3), added to the oath open
+  question.
+- **The trees themselves were not redrawn.** Both captions now name
+  what they leave out (the nephew and the niece on the Barcids; the
+  collateral succession on the Massylii). Adding nodes means hand
+  placing coordinates, which belongs with the tabled visual-assets
+  pass.
+
+Three REGRESSION rules added (76 total): `masinissa-kingdom-only-with-rome`,
+`syphax-installed-claimant`, `naravas-massylian-as-fact`.
+
 ### The Alps: hard or ordinary (Sep 2026)
 
 From Miles pp. 258–259 (user photos). Commit `d517de4`. Hannibal's

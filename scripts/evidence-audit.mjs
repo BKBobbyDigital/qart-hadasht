@@ -466,6 +466,24 @@ const REGRESSIONS = [
     right: 'Self-congratulation; say what the reading does instead.',
     fixed: 'cc2d26f',
   },
+  {
+    id: 'masinissa-kingdom-only-with-rome',
+    re: /(recover|regain|reclaim|retook|took back)\w*[^.]{0,50}(kingdom|throne)[^.]{0,50}only with Roman/i,
+    right: 'Livy 29.30: Masinissa took his father’s kingdom from Mazaetullus by war before Syphax drove him out; Rome restored him in 203.',
+    fixed: 'MacDonald family-tree pass',
+  },
+  {
+    id: 'syphax-installed-claimant',
+    re: /Syphax[^.]{0,80}install\w*[^.]{0,40}claimant/i,
+    right: 'Livy 29.29–31: Mazaetullus installed Lacumazes; Syphax invaded only after Masinissa had won the kingdom.',
+    fixed: 'MacDonald family-tree pass',
+  },
+  {
+    id: 'naravas-massylian-as-fact',
+    re: /Naravas[^.]{0,20}(of|from) the Massyl|Massyli\w*[^.]{0,20}(prince|chief|noble)[^.]{0,20}Naravas/i,
+    right: 'Polybius 1.78 calls Naravas a Numidian of high rank and names no people; the Massylian label is a modern identification.',
+    fixed: 'MacDonald family-tree pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

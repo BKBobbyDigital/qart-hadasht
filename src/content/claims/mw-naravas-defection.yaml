@@ -1,27 +1,31 @@
 slug: mw-naravas-defection
 statement: >
-  The defection of Naravas, a Numidian Massylian commander, to
-  the Carthaginian side in 239 BCE was a turning point of the
+  The alliance of Naravas, a Numidian prince of high rank, with
+  Hamilcar in 239 BCE was a turning point of the
   war. Naravas brought 2,000 Numidian cavalry, the troops
   Hamilcar most needed for hinterland operations, and a
-  marriage alliance with Hamilcar's daughter consolidated the
-  defection. The cavalry advantage was a precondition of the
-  later envelopment at the Saw.
+  marriage alliance with Hamilcar's daughter sealed it. The
+  cavalry advantage was a precondition of the later envelopment
+  at the Saw.
 confidence: attested
 scholarly_consensus: >
-  The defection and its terms are firmly attested in Polybius
-  and broadly accepted. The marriage alliance is a Polybian
-  detail, sometimes questioned in older scholarship as a
-  Roman-tradition romanticization, but is generally accepted.
+  The episode and its terms are firmly attested in Polybius and
+  not in dispute. Two things are read into it: that Naravas was
+  Massylian, which Polybius does not say, and that he came over
+  from the rebel side, which Polybius also does not say, though
+  Numidian reinforcements had just joined Spendius (1.77).
 sources:
   - source: polybius-histories
     stance: supports
     passage_ref: "1.78"
     passage_summary: >
-      Polybius narrates the defection in detail: Naravas's
-      arrival in person at the Carthaginian camp, the
-      negotiation with Hamilcar, the marriage offer, and the
-      transfer of the 2,000 cavalry contingent.
+      Polybius describes Naravas as a Numidian of high rank and
+      spirit whose family had always been attached to Carthage,
+      and narrates his unarmed ride into the camp, his offer of
+      service, Hamilcar's oath to give him his daughter if he
+      stayed loyal, and his arrival with the 2,000 Numidians
+      under his command. He names no tribe and does not say
+      Naravas had been serving with the rebels.
 further_reading:
   - source: hoyos-truceless-war-2007
 entities:

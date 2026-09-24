@@ -22,6 +22,18 @@ evidence_summary: >
   Hannibal told this story to Antiochus III decades later. Livy
   preserves a more elaborate version with the formula "I swear to
   be the eternal enemy of Rome" or similar.
+
+  A fourth witness is later and shorter.
+  [Valerius Maximus](/sources/valerius-maximus), writing under
+  Tiberius, files the oath under anger: Hannibal at nine years old,
+  holding the altar while his father sacrificed before taking the army
+  across to Iberia, swore to be Rome's bitterest enemy as soon as his
+  age allowed (9.3.ext.3). The age and the setting agree with Polybius.
+  The entry immediately before it has Hamilcar look at his four sons
+  and call them lion cubs he was rearing for the ruin of Rome's empire
+  (9.3.ext.2), which no earlier surviving text gives, and which shows
+  the kind of tradition the oath story traveled in by the first century
+  CE.
 candidate_answers:
   - answer: The oath story is substantially historical
     arguments_for: >
@@ -37,8 +49,8 @@ candidate_answers:
       every political reason to dramatize his anti-Roman commitment.
       Polybius's restraint does not by itself make the underlying
       event historical.
-    held_by: The dominant view in modern scholarship; defended by
-      Hoyos and others on grounds of source quality.
+    held_by: The common modern position, argued from the quality of
+      Polybius's line of transmission.
   - answer: An oath occurred but the dramatic content is later embroidery
     arguments_for: >
       The basic premise (a Carthaginian altar, a nine-year-old taken

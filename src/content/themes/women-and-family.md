@@ -30,7 +30,7 @@ related_themes:
   - punic-religion
   - punic-inscriptional-record
 referenced_claims: []
-last_revised: "2026-09-14"
+last_revised: "2026-09-24"
 ---
 
 A note on framing before the evidence. The surviving record's
@@ -128,13 +128,18 @@ Barcid daughters. Hamilcar Barca's daughters, none named in
 the surviving record, appear in passing as marriage
 instruments of Barcid political integration. One married
 Hasdrubal the Fair, making him Hamilcar's son-in-law and the
-successor in command. Another married Naravas the Numidian
-during the Mercenary War to seal his defection. Others
-married into Iberian and Numidian aristocratic families. The
+successor in command. Another was promised to Naravas the
+Numidian during the Mercenary War, on Hamilcar's oath, to hold
+him to the Carthaginian side (Polybius 1.78). A third
+Carthaginian woman of the family reaches us one generation on
+and no better named: Livy says the widow of the Massylian king
+Oezalces, whom the usurper Mazaetullus married in about 206 to
+court Carthage, was the daughter of Hannibal's sister (29.29;
+see the [claim](/claims/barcid-numidian-royal-marriage)). The
 pattern attests Carthaginian aristocratic marriage diplomacy
-as a real political instrument; the women themselves are
-recoverable only as political instruments, not as named
-individuals.
+as a real political instrument, and it attests the limit of
+what the record keeps: three women whose marriages are
+politically legible and whose names are gone.
 
 Dido / Elissa. The legendary founder of Carthage, treated on
 the site as a
@@ -242,8 +247,10 @@ leave a permanent inscriptional trace.
 
 Aristocratic marriage in the Carthaginian elite worked as a
 political instrument across the surviving record. Hamilcar
-Barca's daughters married Hasdrubal the Fair, Naravas the
-Numidian, and others, securing alliances at each step.
+Barca's daughters married Hasdrubal the Fair and Naravas the
+Numidian, and a niece of Hannibal was married to a Massylian
+king, so the family's marriages ran into Iberia and into the
+Numidian royal houses alike.
 Hannibal married a woman of Castulo, the Imilce of later epic,
 contributing to the Barcid Iberian state's aristocratic
 integration policy (see

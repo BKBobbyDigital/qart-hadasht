@@ -1,0 +1,72 @@
+slug: barcid-numidian-royal-marriage
+statement: >
+  A niece of Hannibal, the daughter of one of his sisters, was married to
+  Oezalces, king of the Massylii, and after his death the usurper
+  Mazaetullus married her in the hope of a Carthaginian alliance. It is
+  the one attested Barcid marriage into a Numidian royal house besides
+  Hamilcar's gift of a daughter to Naravas, and it shows the family's
+  marriage diplomacy still working on the Numidian kingdoms in the
+  decade when Numidia decided the African war.
+confidence: attested
+scholarly_consensus: >
+  The marriage is taken from Livy without argument in accounts of the
+  Massylian succession. What is not settled is which of Hannibal's
+  sisters was her mother, since Livy says only that she was a sister's
+  daughter.
+dispute_summary: >
+  Livy mentions the woman once, in the digression on Masinissa's loss
+  and recovery of his father's kingdom, and mentions her for the same
+  reason he mentions Hannibal's wife: to explain a political
+  alignment. Oezalces, Gala's brother, had succeeded Gala by Numidian
+  seniority; when he died, his elder son Capussa held the throne
+  briefly before Mazaetullus killed him in battle and set up the
+  younger son Lacumazes as a puppet king. Mazaetullus then married
+  Oezalces's widow, "a noble Carthaginian woman, the daughter of
+  Hannibal's sister", because he wanted Carthage behind him
+  (29.29).
+
+  Two things follow. The first is that a Barcid woman was already
+  inside the Massylian royal house before Sophonisba's marriages, so
+  the Sophonisba episode is not the isolated case it can look like:
+  Carthaginian aristocratic families married into the Numidian
+  dynasties, and a usurper could treat such a marriage as a way of
+  reaching Carthage. The second is that the tie worked in both
+  directions and did not bind. Livy has the Carthaginians doing
+  everything they could to stop Masinissa's reconciliation with
+  Mazaetullus and Lacumazes, and then Hasdrubal Gisco, at Syphax's
+  court, pressing Syphax to attack Masinissa before he grew strong
+  (29.30–31). Marriage bought access to a Numidian house; it did not
+  decide which Numidian the house would back.
+
+  She is unnamed, like Hannibal's wife and Hamilcar's daughters, and
+  nothing else about her survives: not her mother, not her age, not
+  what became of her after Masinissa defeated Mazaetullus. The
+  evidence is enough to establish the connection and not enough for a
+  biography.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "29.29"
+    passage_summary: >
+      In the account of the Massylian succession after Gala's death,
+      Livy says Mazaetullus, having killed Capussa and installed the
+      boy Lacumazes as king under his own guardianship, married a
+      noble Carthaginian woman, the daughter of Hannibal's sister, who
+      had lately been married to King Oezalces, in the hope of an
+      alliance with Carthage, and renewed an old friendship with
+      Syphax by embassy.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: person
+    slug: masinissa
+    role: context
+  - type: person
+    slug: gala
+    role: context
+notes: >
+  Oezalces, Capussa, Lacumazes and Mazaetullus have no pages of their
+  own; they are treated on Gala's page and in the narrative on
+  Masinissa's life. Neither the Barcid nor the Massylii family tree
+  shows this marriage yet.

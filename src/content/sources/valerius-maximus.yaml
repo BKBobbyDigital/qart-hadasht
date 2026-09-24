@@ -1,0 +1,37 @@
+slug: valerius-maximus
+title: Memorable Deeds and Sayings
+author: Valerius Maximus
+type: literary
+is_primary: false
+language: latin
+date_composed:
+  value: 30
+  precision: decade
+  circa: true
+  notes: >
+    Compiled under Tiberius, in the 20s or 30s CE.
+temporal_distance_years: 265
+access_to_witnesses: late
+bias_notes: >
+  Not a history but a handbook of examples for speakers, arranged by
+  moral heading, with Roman cases first and foreign ones appended at the
+  end of each chapter. Valerius takes his material from earlier writers,
+  Livy and Cicero above all, and shapes each item to the virtue or vice
+  it is filed under. Where he preserves a detail no historian gives, the
+  detail may come from a lost source or from the rhetorical tradition
+  that shaped the anecdote, and there is usually no way to tell which.
+summary: >
+  A collection of about a thousand anecdotes, grouped under headings
+  such as courage, cruelty, gratitude and anger, made for the use of
+  orators. Two items in the chapter on anger (9.3) belong to the Barcid
+  material. In the first, Hamilcar, looking at his four sons of
+  childhood age, said he was rearing that number of lion cubs for the
+  ruin of Rome's empire; in the second, Hannibal, at nine years old and
+  holding the altar while his father sacrificed before taking the army
+  over to Iberia, swore to be Rome's bitterest enemy as soon as his age
+  allowed. The oath is the story Polybius has Hannibal tell Antiochus
+  (3.11); Valerius is a late witness to it, and to the lion-cub saying,
+  which no earlier surviving text gives. The four sons are a problem:
+  three are known to history, and this is the only ancient statement of
+  a number. See the [open question on the
+  oath](/openQuestions/hamilcar-oath-tradition).
