@@ -747,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~756 pages** as of
+parked until the day version settles. The site is **~759 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -757,8 +757,8 @@ the last build.
 | events | 97 |
 | people | 84 |
 | places | 63 |
-| sources | 94 |
-| claims | 178 |
+| sources | 97 |
+| claims | 179 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
@@ -2766,14 +2766,22 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 22 Sep 2026)
+### Open threads (as of 13 Oct 2026)
 
-The user **finished Miles's *Carthage Must Be Destroyed*** on 22 Sep 2026,
-closing with the Himera pass. **Next book: Eve MacDonald, *Hannibal: A
-Hellenistic Life* (Yale, 2015)**, source `macdonald-hannibal-2015`; see
-the next section. Nothing below is in progress. Pick one up only when the
+The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
+is now **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
+2015)**, source `macdonald-hannibal-2015`, sending pages as they go; the
+introduction and the first chapter have been worked (see the MacDonald
+sections below). Nothing below is in progress. Pick one up only when the
 user asks.
 
+- **The *fides Punica* page**: the evidence is now all on the site and
+  the page is not written. See "MacDonald's introduction and first
+  chapter" for the dossier and the framing. Do not draft it unprompted.
+- **`narratives/carthaginian-sea-power-as-system` needs a pass**: a May
+  2026 page that contradicts the audited harbor position and repeats a
+  line the Miles pass removed from period 07. Details under "A Reddit
+  exchange on the navy".
 - **Heracles/Alexander editorial take**: re-tabled by the user. Material
   runs Gades → Alps → Colline Gate, with Avernus (Livy 24.12, a pretext
   in Livy, piety in Miles) as the test case. Miles pp. 361–362 add the
@@ -2902,6 +2910,131 @@ gap the site had.
 
 Three REGRESSION rules added (76 total): `masinissa-kingdom-only-with-rome`,
 `syphax-installed-claimant`, `naravas-massylian-as-fact`.
+
+### MacDonald's introduction and first chapter (Oct 2026)
+
+Two commits off the opening pages, both checked against the texts
+before anything was written.
+
+**From the introduction (`94227e4`).** Two citations she points at,
+each better than the use she makes of it:
+
+- **Cicero, *Pro Sestio* 68.142** (her p. 2), new source entry: who
+  among the Carthaginians surpassed Hannibal, and his own citizens
+  threw him out of the state while Rome honors him in its literature.
+  A Roman statement earlier than Livy on the "who drove him out"
+  question, now in `narratives/hannibal-after-zama` with the caution
+  that Hannibal is there as an example of the ungrateful city in an
+  argument for Cicero's own recall.
+- **Valerius Maximus 7.4.4**, added to the entry created in September
+  and to the Metaurus event. She quotes "Punic cunning infamous
+  throughout the world" as evidence of the stereotype; the sentence is
+  actually about Claudius Nero's deception before the Metaurus, so the
+  stereotype is attached to a Roman trick.
+
+**From the first chapter, pp. 15-17 (`89e4bf0`, `b07c2da`).**
+
+- **`sources/plautus-poenulus`** (new), the find of the pass. The
+  earliest surviving portrait of a Carthaginian in Latin, staged at
+  the end of the Hannibalic war; the site had one passing mention of
+  Plautus. Verified in the Latin: *docte atque astu* (111), the man
+  who knows every language and hides it, "plainly a Carthaginian"
+  (112-113), *facies quidem edepol Punicast* (977), the slaves with
+  rings in their ears (981). **Her gloss of 975-977 as "with the long
+  tunic as if an innkeeper's slave" is wrong**: the Latin asks what
+  bird this is arriving in tunics and whether he was walked out of his
+  cloak at the baths. The two things that matter more than the jokes
+  are Hanno's long Punic passage in Latin letters at 930 onward, which
+  is not nonsense, and the Carthaginian-born youth taken from the city
+  at six who remembers none of the language. Wired into
+  `themes/punic-identity` and the literacy open question.
+- **`themes/punic-identity` gained "What the word carried at Rome"**,
+  running Plautus to Livy 21.4.9 to Valerius Maximus, and citing her
+  p. 3 that Punic is the conquerors' name for the conquered and almost
+  certainly not a word Hannibal used of himself. The section also
+  keeps her good observation that Plautus's Hanno is devout and
+  sympathetic as well as tricky, so the Roman picture was not one
+  hostile note.
+- **Valerius Maximus 7.4.ext.2** (Cannae: the Romans "deceived rather
+  than beaten"), on the source entry and in the Cannae narrative
+  beside 7.4.4. One chapter uses Punic cunning to credit a Roman
+  stratagem and to subtract a Carthaginian victory.
+- **Metellus's elephants**, on the Panormus event: *Periochae* 19 has
+  120 elephants and thirteen enemy commanders in the triumph; Pliny
+  *NH* 8.6 (8.16-17 modern) has 142 taken, or 140, ferried on rafts
+  built across lines of jars and then destroyed in the Circus, killed
+  with javelins because nobody could think what else to do with them.
+- **Cicero, *De lege agraria* 2.87**, on the Carthage place page.
+  She uses it to describe the city; Cicero is explaining the
+  destruction. Girt with harbors, armed with walls, Carthage seemed to
+  run out of Africa and loom over two of Rome's most productive
+  islands. That sits beside the flagship take and Censorinus at Appian
+  86-89.
+- **Appian 127**, on the Reshef page: the temple of Apollo beside the
+  forum, its statue in a shrine of beaten gold weighing a thousand
+  talents, hacked apart by Roman troops in 146 against their officers'
+  orders. The identification with Reshef is marked as modern
+  inference, since Appian gives only the Greek name.
+- **Left off**: her pork argument (Plautus implying no pork aboard
+  plus Polybius omitting pigs from African wildlife is an argument
+  from silence twice over, and she hedges it) and the circumcision
+  note (Herodotus 2.104 is about Levantine Phoenicians, and she says
+  the Carthaginian continuation is unknown).
+
+**Two arithmetic errors found in our own Cannae narrative**: Hannibal
+spent "the next fifteen years" in Italy after the battle (thirteen;
+fifteen is the whole stay from 218), and the war would "last another
+fifteen years" (fourteen). Both are now REGRESSION rules,
+`cannae-next-fifteen-years` and `war-another-fifteen-years`, 78 total.
+
+**The *fides Punica* dossier is now complete on the site** and the
+page can be written from site material alone: Plautus, Livy 21.4.9,
+Valerius Maximus in both directions, Virgil's double-tongued Tyrians
+(*Aeneid* 1.661), with the Polybian character digression
+(`claims/hannibal-circle-polybian-exculpation`) and the Mercenary War
+comparison already in place. Her p. 3 question, did the man create the
+stereotype or the stereotype the man, is the natural
+`subject_question`. Not drafted; the user has not asked for it.
+
+### A Reddit exchange on the navy (Oct 2026)
+
+Not a site change, but the positions are worth keeping, since the
+question recurs. An article asked why Carthage did not rebuild its
+navy during the Second Punic War and answered that it chose a land
+strategy and judged a fleet unprofitable. The reply the site supports:
+
+- The bottleneck was crews, not hulls. Livy 21.22 gives Hasdrubal 57
+  ships of which only 32 quinqueremes and 5 triremes were "aptae
+  instructaeque remigio"; Polybius 6.52.1 puts the Carthaginian edge
+  at sea down to seamanship as a hereditary trade, which is what the
+  First Punic War consumed (500 quinqueremes lost, 1.63.6, plus
+  Sicily and the bases). An Ecnomus-sized fleet, about 350
+  quinqueremes (1.25-26), needs something near a hundred thousand
+  rowers.
+- The money sat in the wrong place. Iberia struck abundant fine silver
+  while Carthage went on issuing debased base metal, and a battle
+  fleet is a state project built in the state's harbor.
+- "They chose a land strategy" is read back from the outcome: no
+  source records such a decision, and the senate voted Hannibal
+  reinforcements after Cannae with great unanimity (Livy 23.13: 4,000
+  Numidians, 40 elephants, silver, Mago to hire 20,000 foot and 4,000
+  horse), which Livy criticizes as done *segniter otioseque* before
+  Sardinia's revolt diverted it (23.32). Bomilcar landed troops and
+  elephants at Locri in 215 (23.41); Mago landed 12,000 foot at Genoa
+  in 205 (28.46).
+- The answer to "they rebuilt in 149, so they could have earlier":
+  Appian 121 has them building from old material under siege and
+  coming out with 50 triremes, whose sortie ended pinned against a
+  quay (123). And they were not starting from nothing, because the
+  ship-sheds were already there.
+
+**A real finding from it:** `narratives/carthaginian-sea-power-as-system`
+(May 2026, untouched by every audit) says naval power "did not return
+in any institutional sense until the emergency rebuild of 149," which
+contradicts the audited harbor position that the sheds for 170-220
+hulls were built in the peace after 201, and it still carries the
+"commerce recovered to pre-war levels" line the Miles pass struck from
+period 07. That page needs a pass before it is linked anywhere.
 
 ### The Alps: hard or ordinary (Sep 2026)
 
@@ -4147,7 +4280,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **756 pages**.
+output. As of the last CLAUDE.md refresh it was around **759 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
