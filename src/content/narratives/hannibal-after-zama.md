@@ -23,7 +23,7 @@ referenced_claims:
   - hannibal-suffete-council-104-reform
   - hannibal-death-libyssa
   - hannibal-scipio-same-year-deaths
-last_revised: "2026-09-21"
+last_revised: "2026-10-13"
 ---
 
 ## After the peace (201–196 BCE)
@@ -235,7 +235,20 @@ Carthaginian elite, as Hamilcar had not been.
 
 The second is his domestic enemies, who took the quarrel to Rome.
 Their letters supplied the charge, and years later the city reported
-his agent Aristo.
+his agent Aristo. A Roman voice states that side of it without
+hedging, and earlier than Livy. Cicero asks who among the
+Carthaginians surpassed Hannibal in judgment, courage and
+achievement, the one man who contended with so many Roman generals
+for so many years over empire and glory, and answers that his own
+citizens threw him out of the state while Rome honors him in its
+literature even as an enemy
+([*Pro Sestio*](/sources/cicero-pro-sestio) 68.142). The speech is
+an argument for Cicero's own recall, and Hannibal is there as an
+example of the ungrateful city, so it is evidence for what the Roman
+tradition held in the 50s BCE rather than an independent report on
+Carthaginian politics. What it shows is that the expulsion was
+remembered at Rome as something Carthage did, not something Rome
+extracted.
 
 The third is Rome: Livy describes "the Romans, who were on their own
 account looking out for an opportunity" (33.47), though Scipio held it back
