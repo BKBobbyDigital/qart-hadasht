@@ -479,6 +479,18 @@ const REGRESSIONS = [
     fixed: 'MacDonald family-tree pass',
   },
   {
+    id: 'cannae-next-fifteen-years',
+    re: /(spent|for) the next fifteen years|(after|since) Cannae[^.]{0,60}fifteen years|fifteen years[^.]{0,40}after Cannae/i,
+    right: 'Thirteen years in Italy after Cannae (216–203). Fifteen is the whole Italian stay from 218.',
+    fixed: 'MacDonald pp. 15–17 pass',
+  },
+  {
+    id: 'war-another-fifteen-years',
+    re: /last(ed)? another fifteen years/i,
+    right: 'From Cannae (216) to Zama (202) is fourteen years.',
+    fixed: 'MacDonald pp. 15–17 pass',
+  },
+  {
     id: 'naravas-massylian-as-fact',
     re: /Naravas[^.]{0,20}(of|from) the Massyl|Massyli\w*[^.]{0,20}(prince|chief|noble)[^.]{0,20}Naravas/i,
     right: 'Polybius 1.78 calls Naravas a Numidian of high rank and names no people; the Massylian label is a modern identification.',

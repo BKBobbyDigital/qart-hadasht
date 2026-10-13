@@ -16,7 +16,7 @@ primary_entities: []
 related_themes:
   - punic-religion
 referenced_claims: []
-last_revised: "2026-08-14"
+last_revised: "2026-10-13"
 ---
 
 ## The category problem
@@ -118,6 +118,39 @@ inscriptions) rather than as an ethnic or national category. This
 is a compromise: "Punic" is convenient and widely understood, but
 the encyclopedia tries to avoid using it in ways that imply a
 unified people the surviving record does not warrant.
+
+## What the word carried at Rome
+
+The label was never neutral. By the 190s *Poenus* already had a comic
+and moral charge, and the earliest surviving portrait of a
+Carthaginian in Latin is built on it:
+[Plautus's *Poenulus*](/sources/plautus-poenulus), staged at the end
+of the Hannibalic war or just after, introduces Hanno as a man who
+knows every language and hides that he knows, "plainly a
+Carthaginian" (111-113), and gets its laughs from his tunic, his
+slaves' earrings and his merchant's cargo of Sardinian fleeces, salt
+fish and garlic. Virgil would later call the Tyrians double-tongued
+(*Aeneid* 1.661). In Livy the worst of Hannibal's vices is a
+treachery more than Punic (21.4.9), and
+[Valerius Maximus](/sources/valerius-maximus) can use Punic cunning
+both to praise a Roman trick and to explain away Cannae, where the
+Romans were "deceived rather than vanquished" (7.4.4,
+7.4.ext.2).
+
+[Eve MacDonald](/sources/macdonald-hannibal-2015) draws the
+conclusion that matters here: Punic is the
+name the conquerors gave the conquered, carrying the stereotype its
+users had built, and it is almost certainly not a word Hannibal would
+have used of himself (*Hannibal: A Hellenistic Life*, p. 3). The site
+uses it anyway, for the reasons given above, but the usage is a
+convenience and not a description of how anyone in Carthage saw
+themselves.
+
+What the comedy also shows is that the picture was not uniform.
+Plautus's Hanno is tricky, and he is also devout, patient and in the
+end sympathetic, which is awkward for any account that treats the
+Roman view of Carthage as a single hostile line held from Cannae to
+146.
 
 ## What the question opens
 

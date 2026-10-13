@@ -23,7 +23,7 @@ referenced_claims:
   - cannae-maharbal-anecdote
   - cannae-tactical-legacy
   - hannibal-limited-war-aims
-last_revised: "2026-09-17"
+last_revised: "2026-10-13"
 ---
 
 ## The road to Cannae
@@ -159,15 +159,28 @@ to Carthage. The fact that it did not is the structural fact of the
 Roman Republic that the rest of Polybius's narrative is designed to
 explain: the constitutional and demographic depth that allowed Rome to
 absorb a defeat no contemporary state could have absorbed. The ancient
-sources understood this. So did Hannibal, who spent the next fifteen
+sources understood this. So did Hannibal, who spent the next thirteen
 years in Italy waiting for a strategic opportunity that the Roman
 refusal to break ensured would never come.
+
+Rome also had to explain the defeat, and the explanation it settled
+on is worth noticing. Writing under Tiberius,
+[Valerius Maximus](/sources/valerius-maximus) files Cannae among the
+stratagems and says that such was Punic valor, equipped with tricks
+and treachery and deceit, that the Romans were deceived rather than
+beaten (7.4.ext.2). A few entries earlier the same chapter praises
+Claudius Nero's deception before the Metaurus as Roman foresight
+outplaying world-famous Punic cunning (7.4.4). The stereotype of
+Carthaginian bad faith was useful in both directions: it credited a
+Roman trick and it subtracted a Carthaginian victory. Polybius, who
+had no such need, explains Cannae by the ground, the wind and the
+cavalry.
 
 The battle's deeper legacy is therefore not what it accomplished but
 what it revealed. Cannae was the test that demonstrated, in the
 clearest possible terms, the structural limits of what military victory
 could achieve against a state with Rome's resources and political
-character. The Second Punic War would last another fifteen years and
+character. The Second Punic War would last another fourteen years and
 end at Zama. But the war's outcome, the reason Hannibal could not win
 it even at the height of his tactical mastery, was visible in the days
 after Cannae, in the senate that refused to negotiate.
