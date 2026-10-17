@@ -4007,6 +4007,43 @@ not surface unsolicited.
    excavation history and publication bias as much as ancient activity.
    That belongs on the artifacts index regardless.
 
+10. **The whole-arc read-through (tabled Oct 2026).** Prompted by the
+    user watching *Fall of Civilizations* ep. 17 ("Carthage — Empire of
+    the Phoenicians", Paul Cooper) and liking the single narrative
+    across the rise and fall. **The podcast itself is shape-only and
+    never cited**, same rule as MacDonald's; it leans on Miles, whom the
+    site has already worked cover to cover, so expect little that is new
+    and checkable. If the user brings a specific claim from it, verify
+    against the texts as usual.
+
+    The gap is real and is not a missing piece of prose. `/start` gives
+    six moments for a newcomer; the eight period pages are the synthesis
+    and already chain prev → next; the seven threads are all narrow. What
+    is missing is anything that invites the read-through or says the eight
+    chapters are one thing. **Two options, in the order recommended:**
+    (a) a whole-arc thread, stops across the eight periods plus the pages
+    carrying the turns, using infrastructure that already exists;
+    (b) a framing paragraph on `/periods` plus a one-or-two-sentence hinge
+    closing each period on the question the next one answers, which turns
+    eight chapters into a book without a new prose surface.
+    **A single long-form "rise and fall" narrative was argued against**
+    and should stay off the table: it would duplicate the periods, and a
+    continuous story has to smooth over the places where the evidence
+    cannot decide, which is charter principle 8 exactly.
+
+    **The point that makes it worth doing at all.** The rise-and-fall
+    frame is one the site already argues against: the continuity
+    narrative denies a hard endpoint at 146, the network theme denies a
+    hard opening at 814, and the flagship take says Carthage was
+    destroyed because defeat had not made it disappear. So the thread
+    should run founding → destruction **and then two stops past 146**
+    (`narratives/punic-continuity-in-roman-africa`, the
+    duration-of-Punic-identity question), telling the arc and then taking
+    the frame away from the reader. That is the version nobody else does.
+
+    Found while answering: the `/periods` intro said "seven eras" after
+    the May 2026 split made it eight (commit `a94f1ec`).
+
 ### Residual prose work — COMPLETE (June 2026)
 
 The long-held residual em-dash backlog was cleared in a manual
