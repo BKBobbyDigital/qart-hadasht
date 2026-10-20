@@ -17,7 +17,7 @@ primary_entities: []
 related_themes:
   - carthaginian-seafaring-and-trade
 referenced_claims: []
-last_revised: "2026-05-11"
+last_revised: "2026-10-20"
 ---
 
 ## The hinterland
@@ -32,6 +32,20 @@ this hinterland systematically across the centuries of the
 city's existence, with large aristocratic estates concentrating
 production and a substantial dependent and slave labor force
 working them.
+
+The one extended ancient description of that hinterland is
+Diodorus 20.8.3–5, on the country Agathocles crossed in 310
+BCE: land divided into gardens and plantations of every kind,
+streams channeled through it for irrigation, houses finished
+in stucco, farm buildings stocked with goods, vines and olives
+and fruit trees, cattle and sheep on the plain, horses filling
+the meadows, and the private estates of the leading men of
+Carthage. Diodorus gives the description to explain why an
+invading army took heart, and says in the same breath that the
+troops expected rich rewards from victory, which colors the
+picture without inventing it. The
+[agricultural landscape narrative](/narratives/the-carthaginian-agricultural-landscape)
+reads the passage against the excavated record.
 
 The Roman annexation in 146 BCE inherited this developed
 agricultural infrastructure. The province of Africa became the

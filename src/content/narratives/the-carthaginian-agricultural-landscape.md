@@ -26,7 +26,7 @@ primary_entities:
     slug: carthaginian-agriculture
     role: subject
 referenced_claims: []
-last_revised: "2026-05-11"
+last_revised: "2026-10-20"
 ---
 
 The Carthaginian state was sustained by an agricultural economy
@@ -197,13 +197,33 @@ population at Kerkouane plainly did.
 
 The Carthaginian agricultural surplus that fed the export
 economy was produced substantially on aristocratic estates.
-Greek-Roman literary sources (Diodorus, Polybius) characterize
-the Carthaginian countryside as dominated by large estates
-worked by dependent and slave labor. The archaeological record
-broadly corroborates the literary characterization: substantial
-villa sites are documented across the Cap Bon peninsula and
-inland Tunisia, with the size and infrastructure of installations
-indicating capital-intensive aristocratic operation rather than
+The fullest surviving description of that countryside is
+Diodorus 20.8.3–5, written about the land Agathocles marched
+his army through in 310 BCE: country divided into gardens and
+plantations of every kind, streams channeled through it for
+irrigation, houses finished in stucco, farm buildings stocked
+with goods, vines and olives and fruit trees under
+cultivation, cattle and sheep on the plain and horses filling
+the meadows, and private estates there belonging to the
+leading men of Carthage.
+
+That passage needs reading for what it is. Diodorus gives the
+description to explain a change of mood. Agathocles had just
+burned his ships, his men were regretting it, and the march
+through this country restored them; the section closes by
+saying they admired its prosperity and expected rich rewards
+from victory. The wealth is on the page to size the prize.
+That is a reason to weigh the framing rather than to discard
+the detail, because the things an invading army notices are
+irrigation works, stocked buildings, standing crops and
+horses, and those are the things excavation independently
+finds.
+
+The archaeological record broadly corroborates the literary
+characterization: substantial villa sites are documented
+across the Cap Bon peninsula and inland Tunisia, with the size
+and infrastructure of installations indicating
+capital-intensive aristocratic operation rather than
 smallholder agriculture.
 
 The relationship between aristocratic estates and the smaller
@@ -353,8 +373,8 @@ provide the technical-agricultural reference; the
 [Mago of Carthage narrative](/narratives/mago-of-carthage)
 treats the transmission chain. For literary sources, Polybius
 (particularly 1.72 on the Libyan-tribute increase) and Diodorus
-(scattered references to Carthaginian estates) are the principal
-ancient sources. For modern syntheses, Hoyos's *The Carthaginians*
+(20.8.3–5, the march of Agathocles through the estate country)
+are the principal ancient sources. For modern syntheses, Hoyos's *The Carthaginians*
 (2010) provides accessible English-language overview; Devillers
 and Krings, "Mago de Carthage et l'agronomie punique" (in the
 [Krings-edited handbook](/sources/krings-manuel-1995), 1995),

@@ -26,7 +26,7 @@ referenced_claims:
   - agathocles-hamilcar-recalled
   - agathocles-collapse-307
   - agathocles-diodorus-bias
-last_revised: "2026-09-22"
+last_revised: "2026-10-20"
 ---
 
 ## A war he was losing
@@ -209,6 +209,43 @@ precedent was part of the Roman argument.
 
 Whether the invasion was a masterstroke or a gamble is weighed in the
 [editorial take](/editorialTakes/agathocles-masterstroke-or-gamble).
+
+## The Successor model reaches Carthage
+
+[Eve MacDonald](/sources/macdonald-hannibal-2015) calls Agathocles the
+first leader of the Hellenistic mold to make a direct impact on
+Carthage, and reads the expedition as the expansionist habit of the
+Hellenistic age arriving in the central and western Mediterranean
+(p. 26). The framing is worth having if it is kept narrow. Carthage had
+been fighting Greek rulers of Syracuse since Dionysius I, so Agathocles
+was not the first Greek autocrat to come at it, and a Sicilian tyrant
+crossing to Africa required no help from Alexander's example. What is
+new here is the company he keeps and the terms he thinks in.
+
+The ally he recruited was Ophellas, a companion of Alexander holding the
+Cyrenean cities, who marched an army for two months on the promise of
+Libya for himself. The bargain the two struck divided Africa and Sicily
+between them as though the two were provinces waiting for owners, which
+is how the men who had carved up Alexander's empire conducted business
+and not how Carthage and Syracuse had quarreled over Sicilian borders
+for a century. And after the campaign Agathocles called himself king,
+declining the diadem, on the stated ground that he was inferior to the
+other princes neither in power nor in territory nor in what he had done
+(Diodorus 20.54). The comparison with the Successors is Diodorus's own,
+not a modern gloss.
+
+What follows is a question of scale rather than of character. The
+Agathocles crisis files naturally with the Sicilian wars and belongs
+there. It is also the first time Carthage faces a neighbor whose
+politics are being written elsewhere, by the men dividing Alexander's
+inheritance, and the pattern recurs: Pyrrhus, the Roman landing of 256,
+and in time a Barcid general who presented himself in an idiom the same
+world had made (see
+[Hannibal and Heracles](/narratives/hannibal-and-heracles)).
+[The cultural-integrator take](/editorialTakes/carthage-as-cultural-integrator)
+treats Carthage's Hellenistic absorption as something the city chose.
+This is the other half of the encounter, the Hellenistic world turning
+up as an army.
 
 ## A note on sources
 
