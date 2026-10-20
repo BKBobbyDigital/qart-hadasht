@@ -1,26 +1,43 @@
 slug: pyrrhic-sicily-political-failure
 statement: >
-  Pyrrhus's Sicilian campaign succeeded militarily (driving
-  Carthage from most of Sicily within two years) but failed
-  politically. His autocratic command style, substantial
-  requisitions from the Greek-Sicilian cities, and treatment
-  of those cities as subordinate to his strategic project
-  alienated the very communities that had invited him.
+  Pyrrhus's Sicilian campaign succeeded in the field, reducing
+  Carthaginian Sicily to Lilybaeum, and ended with the Greek-Sicilian
+  cities that had invited him turning against him: some went over to
+  Carthage, some called in the Mamertines, and he left the island.
+  That much both surviving accounts give. The explanation is Plutarch's
+  and is a further step: that the requisitions for his African fleet,
+  the compulsion used to collect rowers, and the execution of Thoenon
+  were what turned them.
 confidence: attested
 sources:
   - source: plutarch-lives
     stance: supports
-    passage_ref: "Pyrrhus 22-23"
+    passage_ref: "Pyrrhus 22.4–24.1"
     passage_summary: >
-      Plutarch's Life of Pyrrhus preserves the alienation of
-      Greek-Sicilian opinion in detail and treats the political
-      collapse as the immediate cause of Pyrrhus's withdrawal.
+      Pyrrhus advances against the Carthaginians with thirty thousand
+      foot, twenty-five hundred horse and two hundred ships and storms
+      Eryx, their strongest fortress (22.4–22.6). He then needs rowers
+      for an African expedition, many of his ships being undermanned,
+      and uses compulsion to collect them; he puts the Syracusan leader
+      Thoenon to death on suspicion of collusion with Sosistratus.
+      Cities go over to Carthage, others call in the Mamertines, and he
+      faces open secession (23.3–23.5). Plutarch has him leave because
+      Sicily was like a storm-tossed ship and he wanted out of her
+      rather than mastery of her (23.6), and the Carthaginians take
+      many of his ships in the strait as he crosses (24.1).
   - source: diodorus-library
-    stance: supports
-    passage_ref: "22"
+    stance: qualifies
+    passage_ref: "22.10"
     passage_summary: >
-      Diodorus's surviving fragments preserve the
-      same political analysis.
+      Diodorus gives the military limit rather than the political one.
+      Pyrrhus takes Eryx by storm and garrisons it (10.3), but a
+      Carthaginian army reaches Lilybaeum by sea with grain, engines
+      and missiles, and after about two months he despairs of the siege
+      and lifts it (10.4–10.7). On the peace talks he differs from
+      Plutarch: Pyrrhus is willing to leave Carthage Lilybaeum and it
+      is his own Friends and the delegates of the Greek cities who
+      refuse to grant that foothold (10.5–10.6), which places the
+      obstruction with the Sicilian Greeks rather than with him.
 entities:
   - type: event
     slug: pyrrhic-war-in-sicily
