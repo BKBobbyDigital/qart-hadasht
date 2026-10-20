@@ -46,7 +46,7 @@ const config: BattleDiagramConfig = {
         { rect: { x: 110, y: 235, w: 180, h: 18, rx: 2 }, fill: '#3d0a21', stroke: '#1a0410' },
 
         // Cavalry wings — large
-        { rect: { x: 30, y: 215, w: 60, h: 22, rx: 2 }, fill: '#92400e', stroke: '#451a03', patternFill: 'dots', label: 'Numidian + mercenary cav. (~2,000)', labelPosition: 'above', labelSize: 7, labelColor: '#451a03' },
+        { rect: { x: 30, y: 215, w: 60, h: 22, rx: 2 }, fill: '#92400e', stroke: '#451a03', patternFill: 'dots', label: 'Mercenary + allied cav. (~2,000)', labelPosition: 'above', labelSize: 7, labelColor: '#451a03' },
         { rect: { x: 310, y: 215, w: 60, h: 22, rx: 2 }, fill: '#5b0f31', stroke: '#1a0410', patternFill: 'hatch', label: 'Carthaginian heavy cav. (~2,000)', labelPosition: 'above', labelSize: 7, labelColor: '#1a0410' },
       ],
       annotations: [
@@ -78,7 +78,7 @@ const config: BattleDiagramConfig = {
         { rect: { x: 110, y: 235, w: 180, h: 18, rx: 2 }, fill: '#3d0a21', stroke: '#1a0410' },
 
         // Cavalry sweeping around the wings (now near Roman position)
-        { rect: { x: 30, y: 100, w: 50, h: 22, rx: 2 }, fill: '#92400e', stroke: '#451a03', patternFill: 'dots', label: 'Numidian + mercenary cav.', labelPosition: 'inside', labelSize: 7, labelColor: '#1a0410', labelWeight: 600 },
+        { rect: { x: 30, y: 100, w: 50, h: 22, rx: 2 }, fill: '#92400e', stroke: '#451a03', patternFill: 'dots', label: 'Mercenary + allied cav.', labelPosition: 'inside', labelSize: 7, labelColor: '#1a0410', labelWeight: 600 },
         { rect: { x: 320, y: 100, w: 50, h: 22, rx: 2 }, fill: '#5b0f31', stroke: '#1a0410', patternFill: 'hatch', label: 'Carthaginian cav.', labelPosition: 'inside', labelSize: 7, labelColor: '#1a0410', labelWeight: 600 },
       ],
       arrows: [
@@ -108,7 +108,7 @@ const config: BattleDiagramConfig = {
         { rect: { x: 310, y: 200, w: 70, h: 18, rx: 2 }, fill: '#1e3a8a', stroke: '#172554', opacity: 0.5, label: '~2,000 flee to Aspis', labelPosition: 'inside', labelSize: 8, labelColor: '#fff', labelItalic: true },
 
         // Cavalry now striking Roman rear from the north
-        { rect: { x: 50, y: 50, w: 100, h: 22, rx: 2 }, fill: '#92400e', stroke: '#451a03', patternFill: 'dots', label: 'Numidian + mercenary cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#1a0410', labelWeight: 600 },
+        { rect: { x: 50, y: 50, w: 100, h: 22, rx: 2 }, fill: '#92400e', stroke: '#451a03', patternFill: 'dots', label: 'Mercenary + allied cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#1a0410', labelWeight: 600 },
         { rect: { x: 250, y: 50, w: 100, h: 22, rx: 2 }, fill: '#5b0f31', stroke: '#1a0410', patternFill: 'hatch', label: 'Carthaginian cav.', labelPosition: 'inside', labelSize: 8, labelColor: '#1a0410', labelWeight: 600 },
 
         // Phalanx pressing from south
@@ -133,7 +133,7 @@ const config: BattleDiagramConfig = {
     { label: 'Carthaginian / Libyan phalanx', fill: '#3d0a21', stroke: '#1a0410' },
     { label: 'War elephants', fill: '#9ca3af', stroke: '#374151' },
     { label: 'Carthaginian cavalry', fill: '#5b0f31', stroke: '#1a0410', pattern: 'hatch' },
-    { label: 'Numidian / mercenary cavalry', fill: '#92400e', stroke: '#451a03', pattern: 'dots' },
+    { label: 'Mercenary / allied cavalry', fill: '#92400e', stroke: '#451a03', pattern: 'dots' },
   ],
   caption:
     'Schematic, not to scale. Xanthippus’s reorganization combined three weapons that the Romans had no answer to in 255: elephants in a single line forward (Regulus had not encountered them in mass before), a deep Carthaginian phalanx behind them ready to exploit the disorder, and overwhelming cavalry superiority on both wings. Regulus’s deepening of his infantry to absorb the elephant charge gave the elephants more men to crush rather than fewer; the small Roman cavalry collapsed in minutes against four times its number; the trap closed from front and rear at once. The defeat ended the Roman African expedition and reset the strategic balance of the war for a decade.',

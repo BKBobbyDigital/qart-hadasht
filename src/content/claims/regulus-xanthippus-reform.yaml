@@ -1,28 +1,37 @@
 slug: regulus-xanthippus-reform
 statement: >
-  The Carthaginian government recruited the Spartan mercenary
-  general Xanthippus in early 255 BCE to reorganize the
-  Carthaginian field army. Xanthippus's combined-arms doctrine
-  (integration of Carthaginian elephants, Numidian cavalry,
-  and African heavy infantry on terrain favorable to maneuver)
-  defeated Regulus at the Battle of the Bagradas River later
-  that year.
+  The Carthaginian generals handed their field army to the Spartan
+  Xanthippus in 255 BCE, on his argument that their defeats came from
+  their own inexperience and that an army with cavalry and elephants
+  should fight on level ground. He retrained it, deployed the
+  elephants in one line ahead of the phalanx with the cavalry massed
+  on both wings, and destroyed Regulus's army.
 confidence: attested
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "1.32-34"
+    passage_ref: "1.32–1.34"
     passage_summary: >
-      Polybius treats Xanthippus as the operational genius of
-      the engagement and notes that the Carthaginian army he
-      had been given to work with had been incapable of similar
-      success under its previous commanders.
+      Xanthippus arrives among recruits brought from Greece by a
+      Carthaginian recruiting officer, criticizes the generals'
+      handling of the war, is summoned and questioned, and is given
+      the army (1.32.1–1.32.5). It takes the field with twelve
+      thousand foot, four thousand horse and nearly a hundred
+      elephants (1.32.9). On the day the generals give him authority
+      to conduct operations as he thinks best (1.33.5): elephants in
+      a single line in front, the Carthaginian phalanx behind,
+      mercenaries on the right wing, the most active troops with the
+      cavalry before both wings (1.33.6–7). About five hundred Romans
+      are captured including Regulus, about two thousand escape, and
+      the rest are killed (1.34.8–1.34.11).
 notes: >
-  The Xanthippus episode is one of the few well-attested cases
-  of foreign mercenary command transforming a state's military
-  capability in a single campaigning season. Approximately
-  12,000 Roman troops were killed or captured at the Bagradas;
-  Regulus was among the captured.
+  Polybius gives the cavalry no national label here, and the only
+  Numidians in his account of this campaign are raiding Carthaginian
+  territory alongside the Romans (1.31.2). Earlier versions of this
+  page gave that cavalry a Numidian label; nothing in the source
+  supports it. Polybius also does not name the river or locate
+  the battle, saying only that it was fought on level ground;
+  "Bagradas" is the conventional modern name.
 entities:
   - type: person
     slug: xanthippus

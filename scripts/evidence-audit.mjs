@@ -491,6 +491,12 @@ const REGRESSIONS = [
     fixed: 'MacDonald pp. 15–17 pass',
   },
   {
+    id: 'xanthippus-numidian-cavalry',
+    re: /Xanthippus[^.]{0,150}Numidian cav|Numidian cav\w*[^.]{0,150}Xanthippus/i,
+    right: 'Polybius gives the cavalry at the 255 battle no national label (1.33.6-7); the only Numidians in his account of the campaign are raiding Carthaginian territory alongside the Romans (1.31.2).',
+    fixed: 'MacDonald p. 40 pass',
+  },
+  {
     id: 'naravas-massylian-as-fact',
     re: /Naravas[^.]{0,20}(of|from) the Massyl|Massyli\w*[^.]{0,20}(prince|chief|noble)[^.]{0,20}Naravas/i,
     right: 'Polybius 1.78 calls Naravas a Numidian of high rank and names no people; the Massylian label is a modern identification.',
