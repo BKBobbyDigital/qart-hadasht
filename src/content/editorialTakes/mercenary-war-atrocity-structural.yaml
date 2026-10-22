@@ -47,7 +47,8 @@ reasoning: >
   Hanno pleaded the state's poverty and asked them to give up part of
   their pay (1.66–68). Diodorus says bluntly that Carthage "defrauded"
   its troops (25.2), and Appian that the soldiers were claiming rewards
-  Hamilcar had promised them in Sicily (*Iberica* 4–5). The war joined
+  Hamilcar had promised them in Sicily
+  ([*Iberica*](/sources/appian-iberica) 4–5). The war joined
   two crises, a mutiny over pay and a revolt of subject communities with
   older grievances. Polybius himself calls it the Libyan war (1.88).
 
@@ -110,9 +111,21 @@ reasoning: >
   Nor was the revolt a single national movement: the rebel side joined
   foreign soldiers, Libyan subjects, runaway slaves and leaders whose own
   survival depended on the war continuing. Rome, for its part, kept to
-  its treaty during the war, refusing both the Sardinian mutineers and
-  Utica when they offered themselves (Polybius 1.83); the seizure of
-  Sardinia came afterward.
+  its treaty during the war, and the one incident that looks like an
+  exception is worth setting out, because it invites being read backward
+  from Sardinia. Carthaginian warships seized Italian traders carrying
+  supplies to the rebels and held about five hundred of them. Rome
+  protested, sent an embassy, recovered them by negotiation, and in
+  return released the prisoners still held from the Sicilian war. It
+  then allowed its merchants to export to Carthage while forbidding them
+  to supply the enemy, declined the offer of the mutineers in Sardinia
+  to hand the island over, and declined Utica's offer to surrender
+  (Polybius 1.83.5–1.83.11). Private Italian traders were in fact
+  selling to the rebels, which is what makes the opposite reading
+  tempting; the state's response on being confronted was to ban the
+  trade and refuse two free territorial gifts. The seizure of Sardinia
+  came afterward and was a change of policy, not the continuation of
+  one.
 confidence: moderate
 weighed_claims:
   - mercenary-war-truceless
@@ -151,5 +164,5 @@ competing_positions:
     held_by: >
       The reading suggested by Polybius's moral language about the
       rebel leaders, though not by his whole analysis.
-last_reviewed: "2026-09-17"
+last_reviewed: "2026-10-22"
 open_to_revision: true

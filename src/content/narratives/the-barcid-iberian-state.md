@@ -36,7 +36,7 @@ primary_entities:
 referenced_claims:
   - barcid-dynastic-succession-as-state-form
   - carthago-nova-as-planned-foundation
-last_revised: "2026-09-17"
+last_revised: "2026-10-22"
 ---
 
 The usual treatment of the Carthaginian project in Iberia from 237 to
@@ -162,6 +162,28 @@ negotiable, as the shifting alignments of the Ilergetes under
 The pattern is state-building through conquest, tribute, alliance,
 marriage and recruitment together, not through garrisoned occupation
 alone and not through incorporation alone.
+
+## A reading from the other tradition
+
+One late source gives a motive for the whole project that the Polybian
+tradition does not. Appian says Hamilcar's enemies prosecuted him after
+the Mercenary War, holding him answerable for the promises that caused
+it and for the loss of Sardinia; that he escaped through the backing of
+leading men, Hasdrubal chief among them; that he later held a joint
+command while still not having rendered an account of his earlier
+generalship; and that when he crossed to Gades and began raiding, this
+gave him a reason to stay out of the country while winning glory and
+popularity ([*Iberica*](/sources/appian-iberica) 4).
+
+The site does not adopt that as the explanation. It is late, it is
+unfriendly to the family, and a man who spent nine years in Iberia and
+died fighting there was doing something larger than avoiding a
+courtroom. But it should not be dismissed either, because it supplies
+what the other readings leave out: a reason why the Carthaginian state
+tolerated the arrangement. A general who is useful abroad and
+inconvenient at home is one a government has its own motives for
+leaving where he is. That sits alongside the fiscal argument below
+rather than against it.
 
 ## Succession within one family
 

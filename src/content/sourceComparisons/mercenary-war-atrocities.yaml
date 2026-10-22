@@ -75,21 +75,25 @@ source_passages:
       reflection that injustice brings misfortune on nations as well as
       individuals (25.1). They also preserve both sides of the pay dispute:
       Carthage defrauding its troops, and the troops demanding too much.
-  - source: appian-punica
-    passage_ref: "*Iberica* 4–5"
+  - source: appian-iberica
+    passage_ref: "4–5"
     paraphrase: >
       In introducing Hamilcar's Iberian command, Appian says Hamilcar had
       promised large rewards to his Celtic mercenaries and African allies in
       Sicily, which they demanded after he returned to Africa, and that this
       kindled the African war. Hamilcar's enemies later prosecuted him as
-      responsible for the disaster, and he escaped punishment through his
-      political connections.
+      responsible for the disaster, and he escaped punishment by securing
+      the support of leading men, chief among them Hasdrubal, who had
+      married his daughter.
     source_note: >
       Appian wrote in the second century CE. His passing reference places
       responsibility on Hamilcar's promises, a version hostile to the
       Barcids and at odds with Polybius, who has the soldiers blaming
       Hamilcar for not coming to them (1.68) but credits him with winning
-      the war. The passage is cited here from Appian's *Spanish Wars*.
+      the war. Appian also has Hamilcar holding a later joint command with
+      Hanno while still not having rendered an account of his Sicilian
+      generalship, which is the clearest surviving indication of how far
+      that audit could be deferred for a man with backing.
 
 points_of_difference:
   - topic: Who caused the war
@@ -211,4 +215,4 @@ related_narratives:
 related_questions:
   - mercenary-war-brutality-cause
 
-last_revised: "2026-09-17"
+last_revised: "2026-10-22"
