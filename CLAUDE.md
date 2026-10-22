@@ -747,7 +747,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~759 pages** as of
+parked until the day version settles. The site is **~763 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -757,7 +757,7 @@ the last build.
 | events | 97 |
 | people | 84 |
 | places | 63 |
-| sources | 97 |
+| sources | 100 |
 | claims | 179 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
@@ -2766,18 +2766,33 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 13 Oct 2026)
+### Open threads (as of 22 Oct 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
-is now **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
-2015)**, source `macdonald-hannibal-2015`, sending pages as they go; the
-introduction and the first chapter have been worked (see the MacDonald
-sections below). Nothing below is in progress. Pick one up only when the
+is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
+2015)**, source `macdonald-hannibal-2015`, sending pages as they go.
+Worked so far: the introduction and first chapter, the Barcid family
+tree, the Hellenistic setup chapters (pp. 26–40) and the Hamilcar
+chapter (pp. 44–60). See the MacDonald sections below, and the note at
+the end of the Hamilcar section on how to use her. **Regression rules
+stand at 80.** Nothing below is in progress. Pick one up only when the
 user asks.
 
-- **The *fides Punica* page**: the evidence is now all on the site and
-  the page is not written. See "MacDonald's introduction and first
-  chapter" for the dossier and the framing. Do not draft it unprompted.
+- **The *fides Punica* page**: the evidence is all on the site and the
+  page is not written. See "MacDonald's introduction and first chapter"
+  for the dossier, and the Xanthippus pass under "MacDonald's Hellenistic
+  setup chapters" for its strongest item, Valerius Maximus 9.6.ext.1,
+  which opens the foreign half of his chapter on treachery by calling
+  Carthage the fountainhead of perfidy itself. Do not draft it unprompted.
+- **A source comparison on the peace Pyrrhus refused**: Plutarch
+  *Pyrrhus* 23.2 and Diodorus 22.10.5–6 put the refusal in different
+  hands, which changes who prolonged the war. Flagged as a candidate and
+  not built, since source comparisons are the most error-prone format on
+  the site. Details under "MacDonald's Hellenistic setup chapters".
+- **The year Pyrrhus left Sicily**: the site and MacDonald both say 275,
+  the conventional date is 276, and Plutarch gives only six years for
+  Italy and Sicily together (26.1). The pages now say the dates are the
+  conventional reconstruction rather than implying a source.
 - **`narratives/carthaginian-sea-power-as-system` needs a pass**: a May
   2026 page that contradicts the audited harbor position and repeats a
   line the Miles pass removed from period 07. Details under "A Reddit
@@ -2842,8 +2857,10 @@ What to look for, agreed with the user:
    audit 4 removed from Hannibal's page as unsupported.
 3. **Items held back from her podcast:** Hamilcar descended from
    fourth-century immigrant soldiers, and a unit transcribed "Nix
-   Helenes"; Suetonius on Claudius Pulcher's recruiting. (The black
-   sackcloth on the walls was found in Diodorus 19.106.)
+   Helenes". (The black sackcloth on the walls was found in Diodorus
+   19.106. The Suetonius item is resolved: she supplied *Tiberius* 2.3
+   in the Hamilcar chapter, it was verified, and the Claudia anecdote is
+   now on the Drepana event.)
 4. **Settled site positions where she may differ from Miles:** Imilce and
    her son (Silius only); the Alpine pass (open question); aims after
    Cannae (misjudged Rome, limited war aims); the 195 denunciation
@@ -2995,6 +3012,255 @@ Valerius Maximus in both directions, Virgil's double-tongued Tyrians
 comparison already in place. Her p. 3 question, did the man create the
 stereotype or the stereotype the man, is the natural
 `subject_question`. Not drafted; the user has not asked for it.
+
+### MacDonald's Hellenistic setup chapters (20 Oct 2026)
+
+Her pp. 26–40, where she sets Carthage in the Hellenistic world before
+reaching Hannibal. Three commits. The pattern of the whole run: her
+citations are reliable, her glosses on them are not, and most of what
+the site took came from going to the passage she pointed at and finding
+something she had passed over.
+
+**Agathocles, p. 26 (`f882c63`).** Checked against Diodorus 20.7, 20.8,
+20.40–42, 20.54. Nothing changed a site position; the Sep 2026 Miles
+pass had already rebuilt this from the texts. Two things came out of it:
+
+- **Diodorus 20.8.3–5**, the march through the estate country: gardens
+  and plantations of every kind, channeled irrigation, stucco-finished
+  houses, stocked farm buildings, vines and olives, cattle and sheep on
+  the plain, horses in the meadows, private estates of leading
+  Carthaginians. It is the fullest surviving description of the Punic
+  estate landscape and the site did not cite it.
+  `narratives/the-carthaginian-agricultural-landscape` had said only
+  that "Greek-Roman literary sources (Diodorus, Polybius) characterize"
+  the countryside that way, and its sources note said "Diodorus
+  (scattered references to Carthaginian estates)". Both now give the
+  passage, with the framing kept visible: Diodorus describes the wealth
+  to explain why an invading army took heart, and says the troops
+  expected rich rewards from victory. Same in `themes/carthaginian-agriculture`.
+- **A new section in `narratives/agathocles-invasion-of-africa`,** "The
+  Successor model reaches Carthage", citing her p. 26 and **narrowed**.
+  She calls Agathocles the first leader of the Hellenistic mold to reach
+  Carthage; "first" is not adopted, since Carthage had fought Greek
+  rulers of Syracuse since Dionysius I. What is new is the company and
+  the terms: Ophellas, a companion of Alexander, marching two months for
+  a promised Libya; a bargain dividing Africa and Sicily as though they
+  awaited owners; and Agathocles calling himself king while declining
+  the diadem because he reckoned himself no inferior to the other
+  princes in power, territory or deeds (Diodorus 20.54), where the
+  comparison with the Successors is Diodorus's own sentence.
+
+**Her errors, all already right on the site:** Ophellas as "the
+Ptolemaic king of Cyrene" (Diodorus 20.40 gives no royal title and does
+not say Ptolemy sent him); his death as "inexplicable treachery, nowhere
+well explained" (Diodorus has the Libya-for-Ophellas offer and says
+Agathocles had no interest in Libya); the ships burned "leaving his fate
+to fortune" (Diodorus 20.7 has the vow to Demeter and Kore); "four
+event-filled years" for 310 to 307.
+
+**Pyrrhus, pp. 29–31 (`58083de`).** The site had a person page, two
+events, the 279 treaty and a political-failure claim, all written in May
+2026 from summaries. Checked against Plutarch *Pyrrhus* 9–10, 22–26 and
+Diodorus 22.6, 22.10. The vague prose was covering real detail:
+
+- **Eryx.** Plutarch 22.4–22.6 has Pyrrhus storm it as the strongest
+  fortress Carthage held, vowing games and a sacrifice to **Heracles**
+  and going over the wall first; Diodorus 22.10.3 adds the garrison left
+  behind. The place page had the sanctuary and Hamilcar and nothing
+  between. The vow is noted as a measure of how far Heracles and Melqart
+  had been mapped onto each other in the west, **not** as a gesture
+  Pyrrhus aimed at anyone; no source gives him an intention.
+- **Carthage sued for peace, and the two accounts disagree about who
+  refused.** Plutarch 23.2: Carthage offers money and ships, Pyrrhus
+  demands they quit Sicily and make the Libyan Sea the boundary.
+  Diodorus 22.10.5–6: Pyrrhus is willing to leave them Lilybaeum, and
+  his own Friends and the Greek delegates refuse to grant the foothold.
+  The refusal moves between different hands, which changes who prolonged
+  the war. **A candidate for a source comparison**; not built, given
+  that format's record.
+- The mechanism of the collapse, replacing "autocratic command style":
+  rowers for the African fleet, compulsion to collect them, Thoenon
+  executed over Sosistratus, cities going to Carthage and others calling
+  in the **Mamertines** (23.3–23.5), the strait crossing and the lost
+  ships (24.1). The Mamertines page now carries their part: the band
+  Greek Sicily invited in against a Hellenistic king is the one whose
+  appeal a decade later brought Rome across the strait.
+- **Lilybaeum is not in Plutarch.** Diodorus 22.10.4–7 has a
+  Carthaginian army reach the city by sea with grain, engines and
+  missiles, and the siege lifted after about two months.
+- Plutarch 22.4's figures (30,000 foot, 2,500 horse, 200 ships) replace
+  an unsourced "approximately 30,000 troops". Polybius names neither the
+  river nor the place at the 255 battle either; pages now say "Bagradas"
+  is the conventional modern name.
+
+**Not adopted from her:** the crossing to Italy in 281 (the site keeps
+280, which is what Plutarch 26.1's six years for Italy and Sicily
+together fits); brother-in-law to Demetrius through Antigone (Plutarch
+4.2 gives it through Pyrrhus's sister Deidameia); the marriage to
+Lanassa tying him to Syracuse in 278, when she had left him for
+Demetrius years before (9.1, 10.4–5). The tie that survived is their son
+Alexander, Agathocles's grandson, now on the Pyrrhus page with the note
+that no source connects it to the invitation. **Open:** the year Pyrrhus
+left Sicily. The site says 275 and so does she; the conventional date is
+276; Plutarch gives only six years for Italy and Sicily together. The
+page now says the dates are the conventional reconstruction.
+
+**Xanthippus, p. 40 (`37313cb`).** Her page is the conventional account
+and correct where the site was not.
+
+- **Our error, on six files.** Five content pages and the battle diagram
+  put **Numidian cavalry** in Xanthippus's line. Polybius gives that
+  cavalry no national label (1.33.6–7), and the only Numidians in his
+  account of the campaign are raiding Carthaginian territory **alongside
+  the Romans** (1.31.2). Our own Regulus narrative already said that, so
+  the site contradicted itself a few pages apart. REGRESSION rule 79,
+  unit-tested against the Zama and Mercenary War cases.
+- **The gap.** The page ended "his subsequent career is not preserved in
+  detail." It is, twice. Polybius 1.36.1–4 has him sail home shortly
+  after the victory, calls it prudent because sudden success breeds envy
+  and foreigners who attract it come to grief, then says there is
+  **another account of his departure** which he will give on a more
+  suitable occasion, and never does. Valerius Maximus tells it: opening
+  the foreign examples of his chapter on treachery by announcing that he
+  will contemplate the fountainhead of perfidy itself, *ipsum fontem
+  perfidiae*, he has the Carthaginians pretend to convey Xanthippus home
+  and drown him at sea, so that no partner in their victory should
+  survive (9.6.ext.1). The site reads the drowning as a growth of the
+  treachery tradition, not a fact, while noting that Polybius shows a
+  darker version was already current and that he pointed at it and
+  declined. **This is the strongest statement of the stereotype anywhere
+  in Valerius and is now the lead item of the *fides Punica* dossier.**
+- Also corrected from Polybius 1.32: he did not arrive leading a force
+  of Greek mercenaries but came among recruits a Carthaginian recruiting
+  officer brought back from Greece.
+
+**Not adopted:** that Hamilcar may have fought under Xanthippus and
+Hannibal may have studied the victory, both offered as possibilities
+with no source.
+
+### MacDonald's Hamilcar chapter (22 Oct 2026)
+
+Her pp. 44–60, "His Father's Son", covering the family, the young
+Hamilcar, his First Punic War command, the Mercenary War, the split with
+Hanno and the return to power. Sent in two batches; two commits.
+
+**Sicily, pp. 44–48 (`7ff1183`).** Checked against Polybius 1.56–63 and
+3.27, Nepos *Hamilcar* 1–2 and *De Regibus* 3.5, Appian *Sicelica*, and
+Suetonius *Tiberius* 2.
+
+Two errors of ours, both on the Eryx material:
+
+- **Heirkte was not near Eryx.** The place page had Hamilcar seizing
+  Eryx "having already fortified nearby Heircte". Polybius 1.56.3 puts
+  Heirkte by the sea between Eryx and Panormus, identified with Monte
+  Pellegrino above Palermo, at the far end of that coast. REGRESSION
+  rule 80.
+- **He did not hold the peak.** Polybius 1.58.2–3 has the Romans holding
+  the summit with the temple on it **and** a second garrison at the
+  foot, with Hamilcar taking the town between them, cut off above and
+  below. The sanctuary stayed Roman for the whole three years, which
+  matters on a page built around the sanctuary. Hamilcar's page said
+  "holding Mount Eryx" and dated his whole command from Eryx; he was at
+  Heirkte from 247 and moved in 244.
+
+Also found: Hamilcar's page called the Barcid arc "three-generation",
+the error audit 4 corrected elsewhere. The existing rule missed it
+because it only matched the unhyphenated plural; **widened**.
+
+New from the sources:
+
+- **`sources/nepos-hamilcar`.** Carthage left the peace to Hamilcar's
+  judgment; he wanted to fight on and judged the country could not; and
+  Catulus demanded his men lay down their arms before leaving Sicily,
+  Hamilcar refused, and **Catulus gave way** (1.3–1.5). That is the
+  negotiation behind the evacuation under arms the site already
+  asserted without a source. Polybius 1.62.3 gives him full powers to
+  deal with the situation, now on his page and the Aegates event: the
+  terms were settled by the one Carthaginian commander in Sicily who had
+  not been beaten. The entry also carries *Ham.* 2.1 on the Mercenary
+  War and the compressed 2.2–2.5, whose figures must be checked against
+  Polybius rather than used alone.
+- **`De Regibus` 3.5**, on Hamilcar's page: Nepos closes a catalog of
+  Hellenistic kings by appending Hamilcar and Hannibal as surpassing all
+  Africans in greatness of spirit and in *calliditas*, the cunning the
+  treachery tradition uses as a charge, here as praise.
+- **`sources/appian-sicelica`.** In 252 both sides were out of money and
+  Rome could not build ships for exhaustion by taxation; Carthage sent
+  to Ptolemy II to borrow 2,000 talents; he tried to broker peace and
+  refused, saying one should help friends against enemies but not
+  against friends. Wired into `themes/carthaginian-economy` as the
+  clearest surviving evidence of where Carthage stood for credit.
+- The economy theme also now gives the **Lutatius indemnity's
+  structure**, not just its total: Polybius 3.27.5 has 2,200 within ten
+  years plus 1,000 **at once**, so a thousand talents had to be found
+  immediately by a state that had just lost its fleet.
+- Aegates: untrained crews put aboard in an emergency, marines recent
+  levies, ships loaded with supplies and unfit to fight (1.61.4),
+  prisoners near ten thousand (1.61.8).
+- Drepana: Suetonius *Tiberius* 2.2–2.3 on the Roman reception, where
+  Claudia wished her brother could come back to life and lose another
+  fleet to thin the crowds, and was tried for treason for saying it.
+  (This closes the item held back from her podcast.)
+
+**Not adopted:** her block quote of the treaty, which gives "2200
+Euboean talents over twenty years" citing Polybius 3.27.1–6, where
+3.27.5 says 2,200 within ten plus 1,000 at once; the twenty-year figure
+belongs to the terms Lutatius first agreed and the Roman people rejected
+(1.62.7–63.3). Also: three daughters, where the site holds at least two;
+and the walls draped in black at the Aegates news, extending the custom
+Diodorus attests for 311 to an occasion no source gives.
+
+**The Mercenary War, pp. 49–60 (`28dc63f`).** Audit 9 had rebuilt this
+from the same passages, so most of her twelve pages the site already had
+and agreed with. Three things were not.
+
+- **Rome's conduct, where she is wrong and the chapter she cites says
+  so.** She writes that Rome's first instinct was to help the rebels,
+  betraying Roman intentions. Polybius 1.83.5–11 has Carthaginian
+  warships seizing Italian traders supplying the rebels and holding
+  about five hundred; Rome protesting, sending an embassy, recovering
+  them by negotiation, and releasing in return the prisoners still held
+  from the Sicilian war; then allowing its merchants to export to
+  Carthage **while forbidding them to supply the enemy**, declining the
+  Sardinian mutineers' offer of the island, and declining Utica's
+  surrender. The take held the right position in one clause and now sets
+  the episode out in full, because private Italian traders really were
+  selling to the rebels and that is what makes the misreading tempting.
+  The Sardinia seizure was a change of policy, not a continuation.
+- **`sources/appian-iberica`** (new; the site had been citing the
+  *Spanish Wars* under the *Punica* entry). Chapter 4 carries
+  Carthaginian politics Polybius does not: Hamilcar prosecuted after the
+  war as answerable for the promises that caused it and for Sardinia;
+  escaping through the backing of leading men, **Hasdrubal chief among
+  them**; later holding a joint command while still not having rendered
+  an account of his Sicilian generalship, the clearest surviving
+  indication of how far that audit could be deferred for a man with
+  backing; and crossing to Gades in a way that gave him reason to stay
+  out of the country while winning glory.
+- Two places that changes. **Hasdrubal the Fair** now appears as a
+  political operator before he appears as a commander, so the Iberian
+  succession looks less like a soldier handing on a command than like a
+  partnership with one man in the field and one at Carthage. And
+  `narratives/the-barcid-iberian-state` gains a section, "A reading from
+  the other tradition", weighing Appian's motive without adopting it:
+  it is late and hostile and a man who spent nine years there and died
+  fighting was doing more than avoiding a courtroom, but it supplies
+  what the other readings leave out, a reason the **state** tolerated
+  the arrangement.
+
+**Not adopted:** Naravas as a prince of the Massyli, which she states as
+fact and which rule `naravas-massylian-as-fact` has guarded since
+September (Polybius 1.78 calls him a Numidian of high rank and names no
+people). Also the rebel legend read as LIBYA, where the coinage theme
+has the attested ΛΙΒΥΩΝ, "of the Libyans".
+
+**What the chapter establishes about using her.** She is reliable about
+where to look and loose about what is there. The two clearest cases are
+the same shape: she cites the right passage and misstates it (the treaty
+draft under the ratified treaty's citation; Polybius 1.83 for a claim
+that chapter contradicts). **Photograph the citation, not her summary.**
+She was also right against the site twice, on Heirkte and on Xanthippus
+arriving among the recruits, so the ledger is not one-directional.
 
 ### A Reddit exchange on the navy (Oct 2026)
 
@@ -4317,7 +4583,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **759 pages**.
+output. As of the last CLAUDE.md refresh it was around **763 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
