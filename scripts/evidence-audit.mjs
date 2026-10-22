@@ -120,7 +120,7 @@ const REGRESSIONS = [
   },
   {
     id: 'barcid-three-generations',
-    re: /three generations of (the )?Barcid|Barcid[^.]{0,40}three generations/i,
+    re: /three[- ]generations? of (the )?Barcid|Barcid[^.]{0,40}three[- ]generation/i,
     right: 'Barcid rule ran two generations; Hasdrubal the Fair was a son-in-law.',
     fixed: 'f400aa0',
   },
@@ -489,6 +489,12 @@ const REGRESSIONS = [
     re: /last(ed)? another fifteen years/i,
     right: 'From Cannae (216) to Zama (202) is fourteen years.',
     fixed: 'MacDonald pp. 15–17 pass',
+  },
+  {
+    id: 'heirkte-near-eryx',
+    re: /(nearby|near)\s+(Heircte|Heirkte|Hercte)|(Heircte|Heirkte|Hercte)[^.]{0,40}near(by)?\s+Eryx|Eryx[^.]{0,40}near(by)?\s+(Heircte|Heirkte|Hercte)/i,
+    right: 'Polybius 1.56.3 puts Heirkte by the sea between Eryx and Panormus; it is identified with Monte Pellegrino above Palermo, at the far end of that coast from Eryx.',
+    fixed: 'MacDonald pp. 44-48 pass',
   },
   {
     id: 'xanthippus-numidian-cavalry',

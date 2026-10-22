@@ -1,0 +1,51 @@
+slug: appian-sicelica
+title: "Roman History: The Sicilian and Other Wars (Sicelica)"
+author: Appian of Alexandria
+type: literary
+is_primary: false
+language: greek
+date_composed:
+  value: 150
+  precision: decade
+  circa: true
+  notes: >
+    Written in the middle of the second century CE, like the rest of
+    Appian's Roman History.
+temporal_distance_years: 400
+access_to_witnesses: late
+bias_notes: >
+  The book that covered Sicily and the First Punic War survives only in
+  fragments, most of them excerpts made for Byzantine anthologies,
+  including the collection "On Embassies" that preserves the Ptolemy
+  episode. An excerptor chose these passages for what they illustrated,
+  not for what a historian would want, so the fragments are
+  disconnected and their numbering varies between editions. What
+  survives is worth having because Appian often preserves material from
+  a tradition other than the Polybian one; it is thin enough that
+  nothing here should carry an argument by itself.
+summary: >
+  The fragments of Appian's lost book on Sicily, chiefly useful on this
+  site for one passage about how the First Punic War was paid for.
+
+  Dated in the excerpt to 252 BCE, it opens by saying that both Romans
+  and Carthaginians were out of money, and that the Romans could no
+  longer build ships, being exhausted by taxation. The Carthaginians
+  then sent an embassy to Ptolemy, son of Ptolemy son of Lagus, king of
+  Egypt, asking to borrow two thousand talents. Ptolemy was on friendly
+  terms with both sides and tried to reconcile them. When he could not,
+  he refused the loan with the remark that one ought to help friends
+  against enemies, but not against friends.
+
+  The refusal is the most direct surviving evidence of where Carthage
+  stood for credit during the war, and of the position a Hellenistic
+  king took between the two powers: close enough to both to be asked,
+  unwilling to fund either. A later fragment, dated 242, says the
+  Carthaginians were by then short of money, ships and men, which is
+  the state in which they fought the
+  [Aegates Islands](/events/battle-of-aegates-islands).
+
+  Polybius describes the same exhaustion from the other end, saying
+  both sides' strength was worn out by protracted taxation and expense
+  (1.58.9), and the debased silver Carthage struck in these years is
+  the material trace of it (see
+  [Carthaginian coinage](/themes/carthaginian-coinage)).

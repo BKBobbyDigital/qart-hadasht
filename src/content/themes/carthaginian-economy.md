@@ -20,7 +20,7 @@ related_themes:
   - carthaginian-agriculture
   - slavery-and-labor
 referenced_claims: []
-last_revised: "2026-09-17"
+last_revised: "2026-10-22"
 ---
 
 ## Scale
@@ -32,13 +32,32 @@ Carthaginian economy is therefore reconstructed indirectly
 from observable indicators:
 
 The indemnities. The Treaty of Lutatius (241 BCE) imposed
-3,200 talents of silver paid over ten years; the Treaty of 201
-BCE imposed 10,000 talents over fifty years; the Sardinian
-extortion (238 BCE) added 1,200 talents. Total: approximately
-14,400 talents, plus various smaller earlier-war exactions.
-That Carthage paid these indemnities in full, while continuing
-to fund its own military and economic life, indicates a
-sustained capacity for very large state cash flow.
+3,200 talents of silver, and the structure matters as much as
+the total: Polybius gives 2,200 payable within ten years and a
+further 1,000 demanded at once (3.27.5), so a thousand talents
+had to be found immediately by a state that had just lost its
+fleet. The terms Lutatius first agreed were 2,200 over twenty
+years with no down payment, and the Roman people rejected them,
+sending ten commissioners who halved the term and added the
+thousand (1.62.7–1.63.3). The Treaty of 201 BCE imposed 10,000
+talents over fifty years; the Sardinian extortion (238 BCE)
+added 1,200 talents. Total: approximately 14,400 talents, plus
+various smaller earlier-war exactions. That Carthage paid these
+indemnities in full, while continuing to fund its own military
+and economic life, indicates a sustained capacity for very
+large state cash flow.
+
+What that capacity did not include was credit abroad. In 252,
+with both sides out of money and Rome unable to build ships for
+exhaustion by taxation, Carthage sent to Ptolemy II of Egypt to
+borrow two thousand talents. Ptolemy was on good terms with
+both powers and tried to reconcile them; when that failed he
+refused the loan, saying that one ought to help friends against
+enemies, but not against friends
+([Appian, *Sicelica*](/sources/appian-sicelica)). A decade of
+war later the same source has Carthage short of money, ships and
+men. The debased silver of these years is the material trace of
+the same squeeze.
 
 Military mobilizations. The Carthaginian fleet at Cape
 Ecnomus (256 BCE) of approximately 350 quinqueremes, manned
