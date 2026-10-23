@@ -119,6 +119,33 @@ network he built with Iberian aristocracy through marriages
 and political arrangements became the structural foundation
 of Carthaginian authority in the peninsula.
 
+The one extended description of Hannibal in these years is
+Livy's, and it is worth reading whole, because both halves of
+it are rhetoric and only one half usually gets quoted. The
+older soldiers, Livy says, thought a young Hamilcar had been
+given back to them: the same force in the face, the same
+fire in the eyes, the same features. Hasdrubal preferred him
+for anything requiring dash, and no officer gave the ranks
+more confidence. Only the time left over from his duties went
+to sleep, and no soft bed or quiet brought it on, since many
+saw him lying on the ground among the sentries wrapped in a
+soldier's cloak; on horse or on foot he was far the best, the
+first into the fight and the last to leave it (21.4.2–8).
+Then the turn, in the same chapter: inhuman cruelty, perfidy
+worse than Punic, no regard for truth, for anything sacred,
+for the gods, for an oath (21.4.9).
+
+These are one passage and one device. Livy builds the
+greatest possible soldier and then withdraws the moral
+ground from under him, which is how the war gets an enemy
+worth four hundred pages and a defeat worth surviving. The
+site has long quoted the second half on
+[what the word Punic carried at Rome](/themes/punic-identity)
+and not the first, which is the mirror image of quoting the
+virtues and dropping the vices. Neither half is evidence
+about Hannibal's habits. Together they are good evidence
+about what Rome needed him to be.
+
 Hannibal served under Hasdrubal through the period with
 substantial responsibilities. By 224 BCE he was apparently
 commanding cavalry contingents in Hasdrubal's operations; by
