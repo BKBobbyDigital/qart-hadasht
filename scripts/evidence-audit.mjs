@@ -497,6 +497,18 @@ const REGRESSIONS = [
     fixed: 'MacDonald pp. 44-48 pass',
   },
   {
+    id: 'hannibal-refused-roman-envoys-audience',
+    re: /Hannibal (refused|denied)[^.]{0,80}(audience|to receive)|refused the (embassy|envoys)[^.]{0,40}audience/i,
+    right: 'Polybius 3.15 has Hannibal grant the Roman envoys an audience and answer them at length, charging Rome with executing leading men at Saguntum, then send to Carthage asking for instructions (3.15.8).',
+    fixed: 'MacDonald pp. 73-81 pass',
+  },
+  {
+    id: 'polybius-names-turdetani',
+    re: /Polybius[^.]{0,80}Turdetani|Turdetani[^.]{0,60}Polybius/i,
+    right: 'Polybius 3.15.8 says only that the Saguntines were wronging peoples subject to Carthage, and names none of them. The Turdetani are Livy 21.6.1.',
+    fixed: 'MacDonald pp. 73-81 pass',
+  },
+  {
     id: 'hamilcar-fire-wagons-misattributed',
     // The guard lets a sentence that contrasts the traditions through; it
     // flags only an attribution with no Appian/Dio correction nearby.

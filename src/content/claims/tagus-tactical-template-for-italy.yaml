@@ -26,9 +26,22 @@ sources:
       Polybius narrates the Tagus engagement and the Italian
       engagements separately; the continuity-of-method reading
       is a synthesis from comparison of his accounts.
+  - source: macdonald-hannibal-2015
+    stance: qualifies
+    passage_ref: "pp. 74, 263 n. 56"
+    passage_summary: >
+      MacDonald gives the Tagus the fullest treatment of any
+      modern account the site has checked, and reads it as an
+      early display of Hannibal's ability and adaptability
+      rather than as a rehearsal for Italy; she draws no line
+      from it to Trebia or Cannae. She also records that
+      Polybius's figures here, including the more than one
+      hundred thousand put to flight, are certainly
+      exaggerated. The continuity-of-method reading therefore
+      remains the site's own, and the scale of the engagement
+      it rests on is smaller than Polybius makes it.
 further_reading:
   - source: hoyos-hannibal-2003
-  - source: macdonald-hannibal-2015
 entities:
   - type: event
     slug: battle-of-the-tagus

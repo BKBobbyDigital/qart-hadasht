@@ -73,6 +73,47 @@ source_passages:
       narrative weight at the cost of analytical clarity.
 
 points_of_difference:
+  - topic: Whether the Roman senate debated the war at all
+    positions:
+      - source_slug: polybius-histories
+        what_it_says: >
+          There was no debate. Polybius states flatly that the
+          Romans did not hold a deliberation on the question of
+          the war, as some authors allege, and that those authors
+          invent the debate and compose speeches for both sides
+          (3.20.1–7). It is in the same chapter that he dismisses
+          Chaereas and Sosylus as writing not history but the
+          common gossip of a barber's shop (3.20.5).
+      - source_slug: livy-auc
+        what_it_says: >
+          A senate that is not unanimous. The Carthaginians were
+          an enemy of old, Livy says, but the path to war was not
+          agreed (21.16.5).
+    commentary: >
+      This point exists because of what the Dio tradition carries.
+      [Eve MacDonald](/sources/macdonald-hannibal-2015) quotes
+      Zonaras (8.22.2–3) for exactly the debate Polybius denies: a
+      Cornelius Lentulus urging that they not delay but vote for war
+      and divide the consuls and armies, one force to Iberia and one
+      to Africa, and a Q. Fabius Maximus answering that they should
+      send an embassy first, so that if the Carthaginians were proved
+      in the wrong "we may cast the responsibility for war against
+      them" (pp. 78–79). The site has not read Zonaras here and
+      reports it as she gives it; her own note records the doubt that
+      this is the Fabius who later fought Hannibal, and the praenomen
+      of the Lentulus varies across the tradition.
+
+      What makes it worth recording is not which account is right. It
+      is that the surviving Dio material contains the kind of
+      two-sided senatorial debate, with a speech for war and a speech
+      for procedure, that Polybius says his predecessors fabricated.
+      Either Polybius is suppressing a real debate that embarrassed
+      the picture of a Rome responding to a clear injury, or the later
+      tradition invented one of the sort he warned about. The Fabius
+      speech is suspicious on its own terms, since its stated purpose
+      is to transfer the blame for the war, which is precisely what
+      the surviving tradition accomplishes.
+
   - topic: Whether the toga-gesture actually happened
     positions:
       - source_slug: polybius-histories
@@ -193,4 +234,4 @@ related_claims: []
 related_narratives: []
 related_questions: []
 
-last_revised: "2026-05-22"
+last_revised: "2026-10-23"

@@ -1,19 +1,22 @@
 slug: roman-embassy-to-hannibal-219
-name: Roman Embassy to Hannibal at Saguntum
+name: The Roman Embassy to Hannibal
 type: political
 date_start:
-  value: -219
+  value: -220
   precision: year
   notes: >
-    Summer 219 BCE, during the early phase of the eight-month
-    siege of Saguntum.
-place: saguntum
+    Autumn 220 BCE in Polybius, who places the meeting at New Carthage
+    before the siege of Saguntum began. Livy has the envoys go to
+    Hannibal at Saguntum with the siege already under way, which would
+    put it in 219; the site follows Polybius and sets the disagreement
+    out below. The slug keeps its original year.
+place: carthago-nova
 participants:
   - person: valerius-flaccus
-    role: leader of the Roman embassy
+    role: Roman envoy (named by Livy)
     side: Roman
   - person: baebius-tamphilus
-    role: Roman co-envoy (also served on the 218 embassy)
+    role: Roman envoy (named by Livy; also served on the 218 embassy)
     side: Roman
   - person: hannibal-barca
     role: Carthaginian commander; recipient of the embassy
@@ -28,38 +31,57 @@ related_events:
   - event: roman-declaration-of-war-218
     relation: preceded (the failed first embassy that produced the second)
 summary: >
-  The first of the two Roman embassies to the Carthaginian
-  side in the diplomatic crisis of 219-218 BCE, and the
-  one that produced the formal Roman casus belli when its
-  demands were refused. A Roman delegation of two
-  ex-consuls arrived at Hannibal's siege camp at Saguntum
-  in summer 219 BCE with a formal demand: cease the siege
-  immediately and refer the dispute over Saguntine status
-  to arbitration.
+  The first Roman approach to Hannibal, and the last occasion on which
+  the quarrel over Saguntum might have been settled by talking. This
+  page said until October 2026 that the envoys were turned away without
+  a hearing and told they had no standing to raise the matter. Neither
+  of those is in any source.
 
-  Hannibal refused the embassy access to formal audience.
-  Polybius (3.15) preserves the diplomatic detail: Hannibal
-  cited the Roman embassy's lack of standing to address
-  the situation directly, framing the engagement as a
-  Saguntine internal matter on which Carthaginian Iberian
-  command was competent to act without Roman supervision.
-  The Roman envoys, refused at Saguntum, proceeded directly
-  to Carthage to present their case to the Carthaginian
-  senate.
+  ## When and where
 
-  At Carthage the embassy fared little better. The
-  Carthaginian senate, divided between a pro-Hannibal
-  Barcid faction and a more cautious senatorial coalition
-  under Hanno the Great, eventually refused to repudiate
-  Hannibal's action. Whether this was a positive
-  Carthaginian commitment to the Saguntum operation or a
-  failure to constrain a field commander whose family
-  faction dominated the Iberian command is contested in
-  the surviving record.
+  [Polybius](/sources/polybius-histories) has the Romans send envoys to
+  Hannibal while he is wintering at New Carthage, before the siege of
+  Saguntum opens (3.15). [Livy](/sources/livy-auc) sends P. Valerius
+  Flaccus and Q. Baebius Tamphilus "to Hannibal at Saguntum and from
+  there to Carthage" with the attack already begun (21.6). The two
+  cannot both stand, and Livy knew his own chronology here was in
+  trouble: he reports that some writers put the city's fall eight months
+  after the siege opened, says that cannot be squared with the consuls
+  of the year, and offers a choice between compressing everything or
+  assuming Saguntum had already fallen (21.15). Most modern work treats
+  the two accounts as one embassy and follows Polybius, and so does this
+  page; [Eve MacDonald](/sources/macdonald-hannibal-2015) sets it in
+  late 220 (pp. 74–75, with her note 58). The envoys' names come from
+  Livy alone.
 
-  The embassy's failure produced two consequences. First,
-  Saguntum fell in autumn 219 BCE, with the city destroyed
-  and its population enslaved. Second, the Roman senate,
-  now committed to a forcing-the-issue diplomatic strategy,
-  prepared the second embassy of spring 218 BCE: the one
-  that would deliver the formal declaration of war.
+  ## What was said
+
+  The Romans protested that Hannibal was attacking Saguntum, which they
+  said was under their protection, and warned him not to cross the Ebro
+  against the earlier agreement. He granted them an audience and
+  answered at length, and his answer was an accusation: the Romans had
+  unjustly put to death leading men at Saguntum, and Carthage would not
+  overlook a breach of good faith (3.15.7). Polybius's verdict on the
+  reply is severe, that he did not give his real reasons but took refuge
+  in groundless pretexts, which is the historian's judgment and not a
+  report of what was said.
+
+  **The detail most worth having is the last one.** Hannibal sent to
+  Carthage asking for instructions, saying the Saguntines were relying
+  on their alliance with Rome to wrong peoples subject to Carthage
+  (3.15.8). The commander whom both ancient traditions present as acting
+  on his own referred the question home before the siege, which belongs
+  with the
+  [source comparison on Barcid autonomy](/sourceComparisons/barcid-autonomy-in-iberia)
+  and complicates the picture of a general who simply started a war. It
+  does not settle it: asking for instructions is not the same as waiting
+  for them, and Polybius does not record an answer.
+
+  ## What followed
+
+  The envoys sailed on to Carthage and got no repudiation of Hannibal
+  there. Saguntum was besieged for eight months and fell; the Roman
+  declaration came in 218, after a second and much more senior embassy.
+  Whether the Carthaginian senate was endorsing the operation or failing
+  to restrain a commander whose family dominated the Iberian command is
+  contested, and the site does not decide it.

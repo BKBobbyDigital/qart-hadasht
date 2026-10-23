@@ -38,10 +38,10 @@ source_passages:
       Polybius preserves as a underlying ambiguity rather than
       as anyone's bad faith. Hannibal's campaign against the
       Olcades and Vaccaei established Barcid strategic
-      dominance in the Iberian interior; Saguntine intrigues
-      against pro-Carthaginian tribes (the Turdetani in
-      particular) gave Hannibal a casus belli the Ebro Treaty
-      did not foreclose. He moves on Saguntum in spring 219;
+      dominance in the Iberian interior; Saguntine wrongs
+      against peoples subject to Carthage, whom Polybius does
+      not name (3.15.8), gave Hannibal a casus belli the Ebro
+      Treaty did not foreclose. He moves on Saguntum in spring 219;
       a Roman embassy reaches Carthage to demand his
       withdrawal; the Carthaginian senate, Polybius says,
       neither disavows him nor immediately authorizes
@@ -73,9 +73,14 @@ source_passages:
       treatment; Hannibal's character is foregrounded as the
       explanation for the war's outbreak in a way Polybius's
       broader account resists. The Saguntine pro-Roman
-      faction is presented sympathetically; the Turdetanian
-      grievances Polybius treats as providing Hannibal's
-      casus belli are downplayed. The Roman embassies
+      faction is presented sympathetically. Livy is also the
+      source of the one name attached to the grievance, the
+      Turdetani (21.6.1), a people of the Gades region a long
+      way from Saguntum;
+      [Eve MacDonald](/sources/macdonald-hannibal-2015) counts
+      this among his confusions over the Saguntum affair and
+      reports the suggestion that the Torboletae are meant
+      (p. 263 n. 65). The Roman embassies
       receive substantial dramatic treatment, with set-piece
       speeches that bear Livian rhetorical features (the
       formal demands, the Carthaginian responses, the
@@ -127,12 +132,13 @@ points_of_difference:
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          The Saguntine intrigues against pro-Carthaginian
-          tribes (Turdetani in particular) gave Hannibal a
-          casus belli the Ebro Treaty did not foreclose.
-          The sequence is presented as Saguntine provocation
-          producing Hannibal's defensive response, framed
-          within the broader Barcid strategic project.
+          The Saguntines, relying on their alliance with Rome,
+          were wronging peoples subject to Carthage, whom he
+          leaves unnamed (3.15.8); that gave Hannibal a casus
+          belli the Ebro Treaty did not foreclose. The sequence
+          is presented as Saguntine provocation producing
+          Hannibal's response. The Turdetani, often attached
+          to this point, are Livy's (21.6.1), not his.
       - source_slug: livy-auc
         what_it_says: >
           Hannibal's personal initiative is foregrounded.
@@ -324,4 +330,4 @@ related_narratives: []
 related_questions:
   - hannibal-italian-objective
 
-last_revised: "2026-09-11"
+last_revised: "2026-10-23"
