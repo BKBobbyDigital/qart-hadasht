@@ -16,16 +16,29 @@ scholarly_consensus: >
   does not connect it to the wound. Conflating the two gives the
   episode a distinctive local weapon it does not have in the source.
 
-  Whether the wound happened at all is a separate question and a more
-  interesting one. Polybius covers the siege at 3.17 and says the
-  opposite of what a wound would imply: that Hannibal pressed the
-  siege vigorously, shared the labor of the battering operations, and
-  exposed himself to danger. A commander laid up for weeks is not in
-  that sentence. The episode also does work for Livy, who uses it to
-  pause his narrative, raise the stakes and then resume the assault
-  with greater violence, which is a reason for caution rather than
-  proof of invention. The site reports it as Livy's and does not
+  Whether the wound happened at all is a separate question, and the
+  answer is less adversarial than this page first suggested on 23
+  October 2026. Polybius covers the siege at 3.17 and does not mention
+  a wound; he says Hannibal pressed the siege vigorously, shared the
+  labor of the batteries, and exposed himself to danger. That reads
+  like a contradiction only if Livy has him out of action for long,
+  and Livy does not. Livy limits the absence himself: Hannibal
+  withdrew to recover, but for most of the siege he was on hand in
+  person, urging the attack forward beside the mobile tower and
+  promising the army the plunder of the city (21.11). On the thing
+  Polybius actually asserts, that Hannibal ran risks at the wall in
+  person, the two agree, and "approaching the wall with insufficient
+  caution" is almost a gloss on it. What is left is a silence about
+  one episode, not a conflict of accounts.
+
+  The episode does work for Livy, who uses it to halt the narrative,
+  raise the stakes and resume the assault harder, so it earns caution
+  rather than acceptance. The site reports it as Livy's and does not
   treat it as established.
+  [Eve MacDonald](/sources/macdonald-hannibal-2015) keeps the two
+  weapons properly apart on the same page, citing Livy 21.7.10 for the
+  spear-wound and 21.8 for the *phalarica* separately (p. 77), which
+  the site did not.
 sources:
   - source: livy-auc
     stance: supports
@@ -37,13 +50,15 @@ sources:
       he is treated and resume with more force. The *falarica* is
       described separately at the end of 21.8 as a Saguntine weapon.
   - source: polybius-histories
-    stance: contradicts
+    stance: qualifies
     passage_ref: "3.17.8"
     passage_summary: >
       In the only other narrative of the siege, Hannibal presses it
-      vigorously throughout, taking part in the work himself,
-      encouraging the troops and exposing himself to danger. No
-      wound, and no interruption of his personal direction.
+      vigorously throughout, taking part in the battering work
+      himself, encouraging the troops and exposing himself to danger.
+      He records no wound. The picture of a commander taking risks at
+      the wall is the same one Livy gives, so the passage is a silence
+      about the episode rather than a denial of it.
 further_reading:
   - source: hoyos-hannibal-2003
   - source: macdonald-hannibal-2015
