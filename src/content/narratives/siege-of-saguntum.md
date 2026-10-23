@@ -19,7 +19,7 @@ primary_entities:
 referenced_claims:
   - saguntum-eight-month-siege
   - saguntum-ebro-treaty-question
-last_revised: "2026-05-11"
+last_revised: "2026-10-23"
 ---
 
 ## The strategic background
@@ -56,24 +56,35 @@ forbidding it.
 
 ## The siege
 
-Hannibal began the siege in spring 219 BCE. The Saguntines
-defended the city with substantial energy: the surviving
-record (especially Livy 21.7-15) preserves repeated sallies,
-defensive engineering, and the kind of urban-defensive
-tactics that produced the eight-month duration of the siege.
-Hannibal himself was wounded in the early phase by a thrown
-spear and convalesced for some weeks, with the siege continuing
-under subordinate command.
+Hannibal opened the siege in spring 219 BCE, and the two
+accounts of what followed are of very different sizes.
+Polybius gives it eleven sections and almost no narrative: he
+says Hannibal pressed the siege vigorously, took part in the
+battering work himself, encouraged the men and exposed himself
+to danger, and after eight months took the place by storm
+(3.17.8-9). Livy gives it nine chapters, and everything
+memorable about the siege is in them: the attack at an angle of
+the wall, Hannibal struck in the thigh and the works nearly
+abandoned, the assault resumed harder, the mobile tower and the
+sappers, Maharbal keeping up the pressure, Alco and Alorcus
+carrying terms, and the fire in the forum into which the
+leading men threw the city's gold and silver and then
+themselves (21.7-14). The
+[event page](/events/siege-of-saguntum) sets the two out side by
+side and says which detail comes from where.
 
-The siege's length is itself a substantive observation. A
-Carthaginian army of the size and quality Hannibal commanded
-should have reduced a single Iberian city in less than the
-eight months that the engagement actually required. The
-duration suggests both Saguntine resilience (probably
-substantially because of the city's defensive geography on
-its hilltop position) and Hannibal's operational caution
-(probably to avoid heavy casualties in his army before the
-Italian campaign that the Iberian project was preparing).
+The length is the fact most in need of explaining, and neither
+ancient writer explains it. An earlier version of this page
+offered Hannibal's "operational caution," a wish to spare his
+army before the Italian campaign. That reads a later outcome
+back into an earlier decision, and it contradicts the one
+sentence Polybius gives on his conduct of the siege, which has
+him driving it hard and taking risks in person. What the
+sources actually support is narrower: the city sat on a ridge,
+it resisted a storm for eight months, and Livy preserves a
+defense energetic enough to clear a breach once. Why an army
+that would cross the Alps the next year needed eight months
+here is a real question the record leaves open.
 
 The city fell in late autumn 219 BCE. The Carthaginian
 treatment of the captured population was severe by the

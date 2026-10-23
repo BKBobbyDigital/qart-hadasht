@@ -1,7 +1,7 @@
 slug: siege-of-saguntum
 name: Siege of Saguntum
 type: siege
-outcome: "Carthaginian victory; the eight-month siege fell, Saguntum destroyed"
+outcome: "Carthaginian victory; the city taken by storm after eight months and destroyed"
 date_start:
   value: -219
   precision: year
@@ -26,20 +26,86 @@ related_events:
   - event: ebro-treaty
     relation: contested under (the treaty whose interpretation the siege forced)
   - event: roman-embassy-to-hannibal-219
-    relation: produced (the first Roman embassy received during the siege)
+    relation: preceded by (in Polybius; Livy puts the embassy during the siege)
   - event: roman-declaration-of-war-218
     relation: led to (the formal declaration of war following Saguntum's fall)
 summary: >
-  Hannibal's siege and capture of the Iberian city of Saguntum in
-  219 BCE, the casus belli of the Second Punic War. Saguntum had
-  been a Roman ally through a treaty of friendship of uncertain
-  date and terms, but lay south of the Ebro river that the 226
-  BCE Ebro Treaty between Rome and Hasdrubal the Fair had nominally
-  established as the boundary of Carthaginian operations in Iberia.
-  Hannibal's siege, lasting eight months, ended with the city's
-  capture and destruction. Roman embassies during and after the
-  siege failed to halt the Carthaginian action; in spring 218 BCE
-  Rome declared war.
+  Hannibal's siege and capture of the Iberian city of Saguntum,
+  conventionally 219 BCE, and the casus belli of the Second Punic War.
+  Saguntum had a Roman friendship of uncertain date and terms but lay
+  south of the Ebro, the line the 226 agreement with Hasdrubal had set
+  on Carthaginian operations. Eight months later the city was taken by
+  storm and destroyed; Rome declared war in spring 218.
+
+  ## What Polybius gives
+
+  Less than the fame of the episode suggests, and more than is usually
+  quoted from him. Saguntum lay about seven stades from the sea on the
+  seaward slope of the hills joining Iberia and Celtiberia, in what he
+  calls the most fertile territory in all Iberia (3.17.2-3). He then
+  lists five aims for taking it: to deny Rome a base for a campaign in
+  Iberia, to spread fear so that peoples already subject stayed quiet
+  and those still independent grew careful, to leave no enemy behind
+  him, to gather funds and supplies for the expedition in prospect, and
+  to raise his troops' spirits with booty while winning over opinion at
+  Carthage with the spoils sent home (3.17.4-7). Hannibal pressed the
+  siege himself, sharing the labor of the batteries and exposing
+  himself to danger; after eight months he took the place by storm
+  (3.17.8-9). The money he set aside for his own purposes, the captives
+  he divided among the army by rank, and the rest of the property he
+  sent to Carthage, and all three of his calculations answered
+  (3.17.10-11). That is the whole of it. He gives no assault narrative,
+  no wound, no negotiation and no siege engines.
+
+  ## What Livy adds, and at what discount
+
+  Nine chapters against Polybius's eleven sections, and almost
+  everything famous about the siege is in them. Saguntum founded from
+  Zacynthus with Rutulian settlers from Ardea, about a mile from the
+  sea; an attack pressed at three points and concentrated on an angle
+  of the wall; Hannibal struck heavily in the front of the thigh by a
+  *tragula* and the works nearly abandoned in the alarm; the assault
+  resumed harder once he recovered, with walls and towers brought down
+  and the Saguntines fighting in the ruins; the *falarica* described in
+  its own right, shafted, wrapped in tow and pitch, and thrown alight
+  (21.7-8). Then a sally that clears the breach, Roman envoys turned
+  back on the coast, Hanno's speech against the war at Carthage, a
+  mobile tower and sappers, Maharbal keeping up the pressure, and part
+  of the citadel taken (21.9-12). Then the negotiation: Alco goes out
+  to treat and stays with Hannibal; Alorcus, a Spaniard who was the
+  city's friend, carries the terms to the Saguntine senate, which are
+  to give up the city and keep their fields and a site for a new town,
+  surrender all gold and silver, and leave with two garments each
+  (21.12-13). The leading men throw the public and private silver and
+  gold into a fire in the forum and many throw themselves in after it;
+  a tower falls, a cohort enters, and Hannibal orders every male of
+  military age killed (21.14). The booty was large though much had been
+  spoiled by its owners (21.15).
+
+  **Read the two together and the discount is visible.** Livy's detail
+  is not all of one kind. The topography, the siege tower and the
+  sappers are the sort of thing a military tradition carries; the
+  terms Alorcus brings are circumstantial in a way invention rarely
+  bothers with. The treasure fire and the citizens leaping into it are
+  the staple of a city-fall set piece and have a Roman purpose, since a
+  people who destroy themselves rather than submit make the failure to
+  relieve them easier to bear. The site uses Livy for the shape of the
+  siege, attributes the scenes to him, and does not convert them into
+  facts Polybius declined to mention. The famous wound is treated under
+  [its own claim](/claims/saguntum-hannibal-wounded-falarica); the
+  weapon is not the one the slug says.
+
+  ## The duration
+
+  Eight months is Polybius's figure and the one the site uses. Livy
+  reports it and cannot make it fit: some writers, he says, put the
+  fall eight months after the siege opened, and that cannot be squared
+  with the consuls he has in office, so either everything was
+  considerably shorter or Saguntum was taken rather than first
+  attacked at the start of the year (21.15). An eight-month siege of
+  one Iberian city by the army that would cross the Alps the following
+  year is the fact most in need of explanation here, and neither
+  ancient account explains it.
 
   The legal-procedural question of whether Saguntum's status as a
   Roman ally was protected by the Ebro Treaty (which seemed to

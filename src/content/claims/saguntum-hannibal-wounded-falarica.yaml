@@ -1,28 +1,49 @@
 slug: saguntum-hannibal-wounded-falarica
 statement: >
-  Hannibal was wounded during the siege of Saguntum, struck in
-  the thigh by a heavy javelin (the *falarica*, an Iberian
-  weapon Livy treats as distinctively Saguntine). The wound
-  forced him to suspend personal direction of operations for
-  some weeks. The detail is preserved in Livy and is generally
-  treated by modern scholarship as a credible battlefield
-  episode rather than dramatic fiction.
-confidence: attested
+  Livy alone reports that Hannibal was badly wounded in the thigh
+  early in the siege of Saguntum, and the weapon he names is a
+  *tragula*, not the *falarica*. The wound stopped the assault
+  while he was treated. Polybius, who narrates the siege, does not
+  mention it.
+confidence: contested
 scholarly_consensus: >
-  Livy's account is the principal source. The detail is broadly
-  accepted in modern scholarship as plausible: the falarica is
-  attested independently as an Iberian weapon, the eight-month
-  siege provides ample opportunity for command-level wounding,
-  and the episode does not serve any obvious dramatic function
-  Livy would have invented. Modern narrative treatments generally accept it.
+  The slug keeps the word *falarica* because inbound links use it,
+  but the identification is an error the site made and corrected in
+  October 2026. Livy says Hannibal fell struck heavily in the front
+  of the thigh by a *tragula* (21.7). The *falarica* appears in the
+  next chapter as a Saguntine missile described in its own right, a
+  shafted weapon wrapped in tow and pitch and set alight, and Livy
+  does not connect it to the wound. Conflating the two gives the
+  episode a distinctive local weapon it does not have in the source.
+
+  Whether the wound happened at all is a separate question and a more
+  interesting one. Polybius covers the siege at 3.17 and says the
+  opposite of what a wound would imply: that Hannibal pressed the
+  siege vigorously, shared the labor of the battering operations, and
+  exposed himself to danger. A commander laid up for weeks is not in
+  that sentence. The episode also does work for Livy, who uses it to
+  pause his narrative, raise the stakes and then resume the assault
+  with greater violence, which is a reason for caution rather than
+  proof of invention. The site reports it as Livy's and does not
+  treat it as established.
 sources:
   - source: livy-auc
     stance: supports
-    passage_ref: "21.7-8"
+    passage_ref: "21.7-21.8"
     passage_summary: >
-      Livy gives the wounding episode in the context of his
-      extended siege narrative, treating it as one episode
-      of the siege among many.
+      Hannibal, attacking at an angle of the wall, is struck heavily
+      in the front of the thigh by a *tragula* and falls; the siege
+      works are nearly abandoned in the alarm. Operations slow while
+      he is treated and resume with more force. The *falarica* is
+      described separately at the end of 21.8 as a Saguntine weapon.
+  - source: polybius-histories
+    stance: contradicts
+    passage_ref: "3.17.8"
+    passage_summary: >
+      In the only other narrative of the siege, Hannibal presses it
+      vigorously throughout, taking part in the work himself,
+      encouraging the troops and exposing himself to danger. No
+      wound, and no interruption of his personal direction.
 further_reading:
   - source: hoyos-hannibal-2003
   - source: macdonald-hannibal-2015

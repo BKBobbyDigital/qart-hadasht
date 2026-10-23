@@ -497,9 +497,17 @@ const REGRESSIONS = [
     fixed: 'MacDonald pp. 44-48 pass',
   },
   {
-    id: 'hannibal-refused-roman-envoys-audience',
-    re: /Hannibal (refused|denied)[^.]{0,80}(audience|to receive)|refused the (embassy|envoys)[^.]{0,40}audience/i,
-    right: 'Polybius 3.15 has Hannibal grant the Roman envoys an audience and answer them at length, charging Rome with executing leading men at Saguntum, then send to Carthage asking for instructions (3.15.8).',
+    // Narrowed 23 Oct 2026: the refusal itself is real, it is Livy 21.9.
+    // What was wrong was crediting it to Polybius, who has the opposite.
+    id: 'polybius-hannibal-refused-envoys',
+    re: /Polybius[^;]{0,140}(refused|denied|did not admit)[^.]{0,70}(audience|admission)/i,
+    right: 'Polybius 3.15 has Hannibal receive the Roman envoys and answer them at length. The refusal to admit them is Livy 21.9, in a different place and a different year.',
+    fixed: 'MacDonald pp. 73-81 pass',
+  },
+  {
+    id: 'saguntum-envoys-no-standing',
+    re: /(lack(ed|ing)? (of )?|no |without )standing[^.]{0,90}(embassy|envoys|legates|address|raise|situation)/i,
+    right: 'No source has Hannibal tell the Roman envoys they had no standing. Polybius 3.15 has him answer the charge; Livy 21.9 has him plead danger on the roads and the press of his affairs.',
     fixed: 'MacDonald pp. 73-81 pass',
   },
   {
