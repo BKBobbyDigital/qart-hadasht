@@ -2766,17 +2766,29 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 22 Oct 2026)
+### Open threads (as of 23 Oct 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
 is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
 2015)**, source `macdonald-hannibal-2015`, sending pages as they go.
 Worked so far: the introduction and first chapter, the Barcid family
-tree, the Hellenistic setup chapters (pp. 26–40) and the Hamilcar
-chapter (pp. 44–60). See the MacDonald sections below, and the note at
-the end of the Hamilcar section on how to use her. **Regression rules
-stand at 80.** Nothing below is in progress. Pick one up only when the
-user asks.
+tree, the Hellenistic setup chapters (pp. 26–40), the Hamilcar chapter
+(pp. 44–60) and the Barcid Iberia chapter (pp. 61–81). **Chapter 5,
+"Legend: Hannibal into Italy", is next**, and it is the first chapter on
+her own subject rather than setup; the remaining five claims carrying
+her book in `further_reading` live from there on. She now sends her
+endnotes alongside each chunk, which is where her value is: see the
+notes at the end of the Hamilcar and Barcid Iberia sections on how to
+use her, including the comparison with Miles. **Regression rules stand
+at 86.** Nothing below is in progress. Pick one up only when the user
+asks.
+
+- **The pattern to watch in our own corrections.** Two corrections on
+  23 Oct had to be corrected again the same day, both for treating one
+  source's silence as a denial of what another reports. Before calling
+  two accounts incompatible, check whether the reporting source already
+  limits the claim. Details at the end of "MacDonald's Barcid Iberia
+  chapter".
 
 - **The *fides Punica* page**: the evidence is all on the site and the
   page is not written. See "MacDonald's introduction and first chapter"
@@ -2840,14 +2852,19 @@ Her podcast and AMA remain shape-only; her book is citable.
 
 What to look for, agreed with the user:
 
-1. **Six claims carry her book in `further_reading`, unchecked:**
+1. **Five claims still carry her book in `further_reading`, unchecked:**
    `saguntum-strategic-resource-consolidation`,
    `saguntum-hannibal-wounded-falarica`, `barcid-iberia-silver-funded-spw`,
-   `pre-italy-iberia-army-formation`, `tagus-tactical-template-for-italy`,
-   `cannae-allies-defected`. With a page reference each can be promoted
-   into `sources` with a `passage_ref` (and a stance), per the citation
-   separation. For `cannae-allies-defected`, note whether she argues the
-   defections reading or only narrates it.
+   `pre-italy-iberia-army-formation`, `cannae-allies-defected`. With a
+   page reference each can be promoted into `sources` with a
+   `passage_ref` (and a stance), per the citation separation. For
+   `cannae-allies-defected`, note whether she argues the defections
+   reading or only narrates it. **One promoted so far**,
+   `tagus-tactical-template-for-italy`, on her p. 74 with a `qualifies`
+   stance; see the Barcid Iberia section for why the stance is not
+   `supports`. The lesson from that one: she often narrates what the
+   site argues, so the honest promotion is frequently `qualifies`
+   rather than `supports`, and the site's own reading stays the site's.
 2. **Her Hellenistic framing against the site's positions:** the Heracles
    /Alexander material (site says "self-presentation", attributes
    "propaganda" to Miles; she is the second opinion for the tabled take);
@@ -3261,6 +3278,215 @@ draft under the ratified treaty's citation; Polybius 1.83 for a claim
 that chapter contradicts). **Photograph the citation, not her summary.**
 She was also right against the site twice, on Heirkte and on Xanthippus
 arriving among the recruits, so the ledger is not one-directional.
+
+### MacDonald's Barcid Iberia chapter (23 Oct 2026)
+
+Her ch. 4, "Barcid Iberia from Gades to Saguntum", pp. 61–81, sent in
+three chunks with her endnotes alongside each. Five commits: `42c5b66`,
+`75a2d96`, `e324ee6`, `8423619`, `0fff3fc`. **This was the pass where
+the site's own errors outnumbered hers by a wide margin**, and where
+two of the corrections had to be corrected again the same day.
+
+**Hamilcar's death was fused out of four incompatible accounts
+(`42c5b66`), on nine files.** The burning ox-drawn wagons are
+[Appian](/sources/appian-iberica) *Iberica* 5 and Cassius Dio, neither
+of whom names a place or a people; the site credited them to Polybius
+and to Diodorus. The Vettones are Nepos *Hamilcar* 4.2 alone, who gives
+no place and no stratagem, and they held the upper Tagus, far from
+where Helike is placed; "Vettonian ambush" was stated as fact, once
+explicitly "according to Diodorus 25.10", which says nothing of the
+kind. Diodorus 25.10.3–4 has a **king of the Orissi** and has Hamilcar
+**besieging** Helike, where the site had him leading a relief column to
+lift a siege. Polybius 2.1.8 gives only a brave death against a warlike
+tribe. The drowning and the fire-wagons are not plausibly the same
+event and are no longer merged. Diodorus is internally consistent on
+the Orissi: Hasdrubal's first act in command is to attack that king,
+kill the men responsible for the rout and take their twelve cities
+(25.12), so the Vettones rest on one sentence and the Orissi on a
+sequence.
+
+**Other corrections of ours.** Hasdrubal's succession read as field-army
+acclamation ratified by Carthage; Polybius 2.1.9 has the Carthaginians
+hand over the command, and calls him "son-in-law and chief naval
+officer", the only indication of what he had done in the preceding nine
+years. (The army-first pattern is attested for **Hannibal**, Polybius
+3.13.3–4, not for Hasdrubal.) The "planned colonial capital (designed
+harbor, administrative quarters, mint)" description of Carthago Nova
+that audit 4 removed elsewhere had survived on period 05, Hasdrubal's
+page and the place page; Polybius walked the site and lists its
+buildings without a mint, so that is now marked as modern inference. A
+nine-year command was called a "ten-year conquest" in its own page's
+closing sentence.
+
+**The Saguntum pages were the worst of it (`e324ee6`, `8423619`).** The
+embassy event said Hannibal refused the envoys an audience and told
+them they had no standing. The standing argument is in no source. The
+refusal **is** real but it is Livy 21.9 (met on the coast, told they
+would not be safe among so many unbridled peoples and that he had no
+leisure for embassies), while the page cited Polybius 3.15, which has
+him receive them and answer at length. The page also made both envoys
+ex-consuls and set the meeting at Saguntum during the siege, following
+Livy against Polybius, who has it at New Carthage before the siege;
+Livy knew his own chronology here was broken and says so at 21.15. The
+event is redated to 220 with the disagreement set out and the slug
+unchanged. **The omission mattered more than the invention:** at
+3.15.8 Hannibal sends to Carthage asking for instructions, so the
+commander both traditions present as acting alone referred the question
+home before the siege. The Saguntum comparison also credited the
+Turdetani to Polybius twice; Polybius 3.15.8 names nobody, the
+Turdetani are Livy 21.6.1, and they belong to the Gades region.
+`claims/saguntum-hannibal-wounded-falarica` named the wrong weapon:
+Livy 21.7 has a *tragula*, and the *falarica* is described separately
+at 21.8 as a Saguntine missile in its own right. The slug stays for
+inbound links.
+
+**Two overcorrections, both mine, both the same mistake: treating a
+silence as a denial.** (a) I wrote that the refusal of the envoys was
+"in no source" when it is Livy 21.9; the regression rule was narrowed
+to flag the attribution to Polybius and the invented standing argument
+rather than the refusal itself. (b) I put Polybius 3.17.8 on the wound
+claim as a *contradicting* source, reasoning that a commander laid up
+for weeks is not the one pressing the siege in person. Livy limits the
+absence himself at 21.11: Hannibal withdrew to recover but for most of
+the siege was beside the mobile tower urging it forward and promising
+the army the plunder. On what Polybius actually asserts, that Hannibal
+ran risks at the wall in person, the two agree. Stance changed to
+`qualifies`. **Record this as a class of error in its own right**: when
+one source omits what another reports, check whether the reporting
+source also limits it before calling the pair incompatible.
+
+**New from the sources.** Diodorus 25.10.1–2 gives the only named
+engagements of Hamilcar's command and a consistent method (Istolatius
+and his brother killed with three thousand survivors enrolled; Indortes
+blinded and crucified with ten thousand prisoners released), so the
+army grew by defeating people. Nepos *Hamilcar* 3.2 supplies the gossip
+behind the Hasdrubal marriage and a *praefectus morum*, a Carthaginian
+office concerned with conduct attested nowhere else; **Livy 21.2.4 has
+the same rumor** (*flore aetatis, uti ferunt*) without the mechanism, so
+Nepos is not alone, as this file said on 23 Oct before the second chunk
+arrived. Livy 21.2.4 also has the Barcine faction carried by soldiers
+and commons against the leading men, a second indication after Appian 4
+that the Barcid position rested on a faction with organized opposition.
+Diodorus 25.10.3 has Hasdrubal sent from Spain to Carthage against the
+revolted Numidians, eight thousand killed and the rest, who had been
+paying tribute, enslaved. Diodorus 25.12 gives a second, unnamed city
+foundation and makes the command nine years where Livy says about eight
+and the conventional dates give seven. **Livy 21.4 is now on the site
+whole**: we had quoted only the vices half ("perfidy worse than Punic")
+on the Punic-identity theme, the mirror image of MacDonald quoting only
+the virtues; the chapter builds the best soldier in the army and then
+withdraws the moral ground from under him, and either half alone
+misrepresents the device. Akra Leuke is Diodorus alone, winter quarters
+for the army and the elephants, with her p. 66 on how far that leaves
+even its existence open.
+
+**Saguntum, built out (`8423619`, `0fff3fc`).** The event page gave the
+hinge event of the war one clause and spent the rest on the legal
+question. It now sets Polybius's eleven sections against Livy's nine
+chapters with the discount stated per kind of detail: Polybius's five
+stated aims for taking the city (3.17.4–7), the eight months and the
+storm, and the accounting of the plunder (3.17.10–11, money reserved,
+captives divided by rank, the rest sent to Carthage); Livy's assault,
+wound, tower and sappers, Alco and Alorcus, the terms, the fire in the
+forum and the order to kill every male of military age. The *falarica*
+is described properly from 21.8 (fir shaft, three-foot iron head
+through armor and body, tow and pitch, lit before throwing, and lethal
+even when it only fixed in a shield). Livy 21.11 adds the interruption
+that was not the wound: the Oretani and Carpetani rose over harsh
+levies and Maharbal son of Himilco held the siege in Hannibal's
+absence. `saguntum-strategic-resource-consolidation` gains what
+Polybius actually says rather than a vague "systematic distribution",
+with the caution that an aim supplied by a historian who knows the
+outcome is not an aim recorded at the time.
+
+**The best single find was Polybius 3.30.1–2**, which the site had
+cited vaguely for "the ambiguity" and never used. He states as
+acknowledged fact that Saguntum placed itself under Roman protection a
+good many years before Hannibal, and dates it by the civil disturbance
+in which the citizens called in Rome rather than Carthage and Roman
+intervention restored order. **That is the event behind Hannibal's
+charge at 3.15.7** that Rome had unjustly executed leading men at
+Saguntum: the same intervention described from the other side, as
+arbitration rather than a purge, fifteen chapters apart. On
+`saguntum-ebro-treaty-question`.
+
+**Into the causation take (`e324ee6`).** Polybius states the site's own
+governing distinction and states it about this war: the siege of
+Saguntum and the crossing of the Ebro were the beginnings, and "I can
+by no means allow that they were its causes" (3.6.3). Against that, his
+9.22.1 on one man and one mind, his 2.36.3–4, and Livy 21.2.1, 21.5.1
+and 21.10.4 are intention recovered from outcome, which charter
+principle 1 excludes as evidence of plans. **Her best argument in the
+book so far** is the reason the tradition is uniform: after the war
+both sides blamed Hannibal and a scapegoat suited both, Rome because it
+excuses examining Roman conduct and Carthage because the alternative is
+collective responsibility for defeat. A charge the winner and the loser
+agree on is not corroborated. Also added to
+`sourceComparisons/declaration-of-war-218`: Polybius 3.20.1–7 denies
+there was any senatorial debate and says those who report one invent
+speeches for both sides, in the same chapter as the barber's-shop
+remark; the Dio tradition carries exactly such a debate, which she
+quotes from Zonaras 8.22 (Lentulus for immediate war on two fronts,
+Fabius for an embassy first "that we may cast the responsibility for
+war against them"). Reported as she gives it, unread here.
+
+**One `further_reading` promotion, of six.**
+`tagus-tactical-template-for-italy` now cites her p. 74 with a
+`qualifies` stance: she gives the Tagus the fullest modern treatment the
+site has checked and reads it as an early display of ability, drawing no
+line to Trebia or Cannae, so the template reading stays ours, and her
+note 56 records that Polybius's figures there are exaggerated. The other
+five gain nothing from this chapter.
+
+**Adopted from her, with attribution:** note 48, that a man who thought
+himself a Hellenistic monarch in waiting would have named the city after
+himself as Alexandria and Antioch were named, and Hasdrubal named it
+after Carthage, which is evidence for the formal-authority reading and
+against the monarchical one (on `barcid-iberian-state-as-state`); note
+43, that "New Carthage" is the New New City; note 47, the size argument
+from Polybius 10.17.6 (a little less than ten thousand prisoners in 209,
+against roughly fifty thousand at Agrigentum and at Carthage in 146);
+her p. 66 caution on Akra Leuke; and her p. 76 on the strength of
+Saguntum's position.
+
+**Not adopted.** The 231 Roman embassy to Hamilcar (Cassius Dio frag.
+48, her pp. 63 and 66): Dio alone preserves it, the surviving Dio text
+on Thayer does not contain it, and the site reports it as she gives it,
+flagged as unseen. Her conclusion that Hannibal learned at Saguntum what
+a long siege costs and avoided them in Italy. Her motive for his going
+to Castulo in person (Livy gives the levies as the cause of the rising
+and no motive for the journey). Naravas as a Massylian prince, still.
+
+**Her errors this chapter**, all small: Istolatius and Indortes merged;
+"including Tartessi" her own note-24 inference, not Diodorus; the 56,000
+summed from Diodorus 25.12 without noting he gives a larger second
+figure for the same army; the barber's-shop remark cited as 2.20.5 when
+it is 3.20.5; and p. 66 giving the Numidian command as a reconstruction
+after Miles while p. 68 states it flat with the Diodorus citation, which
+turns out to be the right one. **She was right against the site twice
+more**, on the *tragula* and *phalarica* being different weapons (p. 77,
+citing 21.7.10 and 21.8 separately) and on the chronology of the embassy.
+
+**Her against Miles, asked and answered (23 Oct 2026).** Both fail in
+the same place, the sentence that summarizes a correctly cited passage.
+Her citations land, and his sometimes point at a passage that does not
+contain the claim at all (Pliny 34.40 for a relocated temple that is a
+statue taken as spoil; his note 56 for a manifesto not in Appian 68).
+Her notes hedge more honestly than her text. She is much better on
+historiography and on treating the Roman account as constructed. He has
+been worth more to the site in new material by a wide margin, and he
+engages archaeology far more. His errors are the more severe ("nearly
+ten times" for a three-to-four-fold increase, 26,000 kilograms for
+10,000 talents, Cato's "dossier of six instances" from one sentence of
+Gellius); hers are compressions and glosses. **Caveat recorded with the
+verdict:** we have read Miles cover to cover and her through four
+chapters of twelve, and those four are setup chapters furthest from her
+subject.
+
+**Practical note.** The user may send `.HEIC` photographs. Convert with
+`sips -s format jpeg --resampleHeightWidthMax 2400 in.HEIC --out out.jpg`
+into the scratchpad before reading. Use absolute paths in Bash; a bare
+`cd` into the scratchpad silently moves the session working directory.
 
 ### A Reddit exchange on the navy (Oct 2026)
 
