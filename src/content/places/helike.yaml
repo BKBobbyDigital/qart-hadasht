@@ -10,32 +10,44 @@ candidates:
     lon: -2.0500
     confidence: possible
     notes: >
-      The most-cited modern candidate. The interior location is
-      consistent with the surviving narrative that Hamilcar's
-      drowning followed a withdrawal from a Vettonian or
-      Oretanian ambush in the upper-Tagus or upper-Segura zone.
+      The most-cited modern candidate. An interior location suits
+      Diodorus's large river and his winter quarters at Akra Leuke,
+      which is the only geography the sources supply.
   - label: Elche (Alicante, Spain) — coastal Bastetanian zone
     lat: 38.2667
     lon: -0.7000
     confidence: possible
     notes: >
-      A second-place candidate in older scholarship. Less
-      consistent with the river-drowning narrative since the
-      coastal location does not match the surviving terrain
-      detail in the sources.
+      A second-place candidate in older scholarship, less consistent
+      with Diodorus's river.
 modern_location: Likely Albacete-region interior Spain; precise identification contested
 summary: >
-  An Iberian town in the interior of southeastern Spain, the
-  reported site of the engagement in 228 BCE in which Hamilcar
-  Barca was killed during a withdrawal from a Vettonian or
-  Oretanian ambush. The surviving accounts (Diodorus, Justin,
-  later Roman tradition) describe Hamilcar leading a relief
-  column toward Helike to lift a Vettonian siege; the
-  Vettonians ambushed the column with cattle-driven fire-carts,
-  and Hamilcar drowned during the retreat across an unnamed
-  river. The town's exact identification is contested in modern
-  scholarship; Elche de la Sierra (interior Albacete) is the
-  most commonly cited candidate, though coastal Elche has its
-  defenders. The site's importance is as the location of the
-  end of the first Barcid commander in Iberia and the
-  succession crisis that brought Hasdrubal the Fair to command.
+  An Iberian town of the southeastern interior, known almost entirely
+  from one passage. [Diodorus](/sources/diodorus-library) is the only
+  ancient author who names Helike, and in his account Hamilcar Barca is
+  **besieging** it, not relieving it: he was encamped before the city and
+  had it under siege, having sent the greater part of his army and the
+  elephants into winter quarters at Akra Leuke. The king of the Orissi
+  came to the city's relief and routed him by a feigned offer of
+  friendship and alliance; Hamilcar drew the pursuit off along another
+  road so that his sons and his friends could escape, was overtaken, and
+  plunged on horseback into a large river, perishing in the flood under
+  his horse (25.10.3–25.10.4). The river is not named.
+
+  Three things commonly attached to Helike are not in this passage and
+  not in any source that mentions the town. The oxen yoked to burning
+  wagons belong to [Appian](/sources/appian-iberica) (*Iberica* 5) and to
+  Cassius Dio, neither of whom names Helike. The
+  [Vettones](/groups/vettones) belong to
+  [Nepos](/sources/nepos-hamilcar) (*Hamilcar* 4.2), who names no place.
+  And [Polybius](/sources/polybius-histories), the fullest source for the
+  Iberian command, says only that Hamilcar died bravely against one of
+  the most warlike and powerful tribes (2.1.8). The traditions are set
+  out separately on
+  [the death event](/events/death-of-hamilcar-at-helike).
+
+  The town's identification is contested. Elche de la Sierra in interior
+  Albacete is the most commonly cited candidate; coastal Elche in
+  Alicante has its defenders and sits less well with Diodorus's river.
+  Since Diodorus is the only witness to the name, the place is as
+  uncertain as the account that preserves it.

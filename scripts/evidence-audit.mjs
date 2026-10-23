@@ -497,6 +497,26 @@ const REGRESSIONS = [
     fixed: 'MacDonald pp. 44-48 pass',
   },
   {
+    id: 'hamilcar-fire-wagons-misattributed',
+    // The guard lets a sentence that contrasts the traditions through; it
+    // flags only an attribution with no Appian/Dio correction nearby.
+    re: /(Diodorus|Polybius)(?:(?!nobody else|Appian|Dio\b)[^.]){0,120}(fire-cart|fire cart|flaming wagon|burning wagon)|(fire-cart|fire cart|flaming wagon|burning wagon)(?:(?!nobody else|Appian|Dio\b)[^.]){0,120}(Diodorus|Polybius)/i,
+    right: 'The oxen yoked to burning wagons are Appian Iberica 5 and Cassius Dio. Diodorus 25.10 has a feigned offer of friendship and a drowning; Polybius 2.1.8 has no stratagem at all.',
+    fixed: 'MacDonald pp. 61-67 pass',
+  },
+  {
+    id: 'helike-relief-operation',
+    re: /(relief (operation|column)|relieving force)[^.]{0,60}Helik[ée]|Helik[ée][^.]{0,60}(relief (operation|column))/i,
+    right: 'Diodorus 25.10.3 has Hamilcar encamped before Helike and besieging it; the king of the Orissi was the one who came to relieve the city.',
+    fixed: 'MacDonald pp. 61-67 pass',
+  },
+  {
+    id: 'vettonian-ambush-as-fact',
+    re: /Vetton(ian|ic)?\s+(ambush|engagement)|withdrawal from a Vetton/i,
+    right: 'Nepos Hamilcar 4.2 alone names the Vettones, and names no place or stratagem. Diodorus names a king of the Orissi, Appian a combination of Spanish kings, Polybius nobody.',
+    fixed: 'MacDonald pp. 61-67 pass',
+  },
+  {
     id: 'xanthippus-numidian-cavalry',
     re: /Xanthippus[^.]{0,150}Numidian cav|Numidian cav\w*[^.]{0,150}Xanthippus/i,
     right: 'Polybius gives the cavalry at the 255 battle no national label (1.33.6-7); the only Numidians in his account of the campaign are raiding Carthaginian territory alongside the Romans (1.31.2).',

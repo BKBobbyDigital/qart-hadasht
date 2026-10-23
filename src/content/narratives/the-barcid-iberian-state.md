@@ -36,7 +36,7 @@ primary_entities:
 referenced_claims:
   - barcid-dynastic-succession-as-state-form
   - carthago-nova-as-planned-foundation
-last_revised: "2026-10-22"
+last_revised: "2026-10-23"
 ---
 
 The usual treatment of the Carthaginian project in Iberia from 237 to
@@ -153,7 +153,22 @@ governed rather than by Carthage. Hannibal married a woman of
 Iberian contingents later made up a large part of the army that crossed
 the Alps.
 
-Force was never far away. Hannibal's first campaigns as commander were
+Force was never far away, and Diodorus preserves the only sequence of
+named engagements from Hamilcar's command, which shows how the army
+grew. Against the Celts under Istolatius and his brother, Hamilcar
+destroyed the whole force, killed the leaders, and enrolled three
+thousand of the survivors in his own army. Against Indortes, who
+raised fifty thousand men and fled before fighting, he took the hill
+the army had occupied, captured Indortes alive, had him blinded and
+crucified, and released the other prisoners, more than ten thousand of
+them (25.10.1–2). The method is consistent and it is not simply
+terror: exemplary violence on the leader, absorption or release for
+everyone else, so that each victory enlarged the force that won the
+next one. A conquest that recruits from the conquered is a different
+instrument from one that garrisons them, and it is part of why the
+Iberian army could be raised faster than the territory could be held.
+
+Hannibal's first campaigns as commander were
 conquests of the [Olcades](/groups/olcades), the
 [Vaccaei](/groups/vaccaei) and the [Carpetani](/groups/carpetani), and
 Saguntum was taken by an eight-month siege. Iberian loyalties stayed
@@ -281,6 +296,21 @@ the coinage supports is that Carthage was not converting Iberian
 silver into its own currency at scale. That is narrower than the claim
 that nothing came home.
 
+One ancient statement cuts the other way and should be weighed rather
+than filed. [Nepos](/sources/nepos-hamilcar) says Hamilcar subdued
+very great and warlike peoples and "enriched all Africa with horses,
+arms, men and money" (*Hamilcar* 4.1). That is a Roman writer
+asserting, in the only direct sentence anyone wrote on the question,
+that the Iberian project paid the metropole. It is also a summary
+verdict in a four-chapter life built to admire its subject, and
+*totam Africam* is rhetoric rather than an accounting; horses, arms
+and men are not silver, and a flow of soldiers and material is exactly
+what an army on the frontier produces whether or not the treasury at
+Carthage fills. The honest position is that the one literary witness
+says the money came home and the coinage says it did not arrive as
+coin, and the two can be reconciled only by reading one of them
+loosely.
+
 What Carthage did get was real without being cash in hand. The
 indemnity obligations from 241 and the Sardinian extortion of 238 ran
 into the early 230s, and the Iberian project opened in 237; how much
@@ -316,6 +346,23 @@ And Rome noticed what was being built. Polybius says the Romans, seeing
 Hasdrubal on the way to a larger empire than Carthage had held before,
 turned their attention to Iberia and made the Ebro agreement with him
 (2.13).
+
+It may have started earlier than that.
+[Eve MacDonald](/sources/macdonald-hannibal-2015) rests on a fragment
+of Cassius Dio (frag. 48) for a Roman delegation sent in 231 to
+investigate Hamilcar, who answered that Rome's seizure of Sardinia and
+the payments imposed with it had left him no choice but to expand
+elsewhere (pp. 63, 66). Dio is the only source, modern opinion divides
+on whether the embassy happened, and the site has not reached the
+fragment, so this is reported as she gives it rather than adopted. If
+it is genuine it does two things: it puts Roman attention on
+Carthaginian Iberia six years into Hamilcar's command rather than at
+Hasdrubal's expansion, and it has a Barcid commander stating the
+Sardinian grievance as the reason for the project, which is the
+argument the site's
+[causation take](/editorialTakes/spw-causation) makes on other
+grounds. It would be a convenient fragment, and that is a reason to
+hold it loosely.
 
 What the evidence does not show is that any Barcid institution was
 designed for an Italian war. The harbor at Carthago Nova served trade,

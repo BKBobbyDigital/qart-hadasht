@@ -19,9 +19,11 @@ death:
   value: -228
   precision: year
   notes: >
-    Drowned crossing a river in Iberia while withdrawing from a
-    Vettonian ambush, according to Diodorus 25.10. Other sources give
-    variant accounts.
+    Killed on campaign in Iberia in the ninth year of his command. The
+    four surviving accounts disagree: Polybius 2.1.8 gives only a brave
+    death against a warlike tribe, Diodorus 25.10 a drowning in a river
+    after a reverse at Helike, Nepos 4.2 a battle against the Vettones,
+    Appian *Iberica* 5 a defeat by burning ox-drawn wagons.
 roles:
   - general
   - statesman
@@ -78,6 +80,31 @@ summary: >
   228 BCE he conquered substantial parts of southern Iberia,
   establishing the Carthaginian Iberian dominion that his
   son-in-law Hasdrubal the Fair and his son Hannibal would extend.
+
+  ## How the conquest worked
+
+  [Diodorus](/sources/diodorus-library) preserves the only sequence of
+  named engagements, and it shows a consistent method. Against the
+  Celts under Istolatius and his brother he destroyed the whole force,
+  killed the two leaders, and enrolled three thousand of the survivors
+  in his own army. Against Indortes, who raised fifty thousand men and
+  fled before fighting, he besieged the hill the army had taken,
+  captured Indortes alive, had him blinded and crucified, and released
+  the other prisoners, more than ten thousand of them (25.10.1–25.10.2).
+  Exemplary violence against the leader, absorption of the rank and
+  file: an army that grew by defeating people. [Nepos](/sources/nepos-hamilcar)
+  summarizes the result from the Carthaginian end, saying Hamilcar
+  subdued very great and warlike peoples and "enriched all Africa with
+  horses, arms, men and money" (*Hamilcar* 4.1).
+
+  Diodorus also gives the one city Hamilcar is said to have founded,
+  Akra Leuke, the White Citadel, which he calls a very large city and
+  which served as the winter quarters for the army and the elephants
+  (25.10.3). He is the only source for it, there is no secure material
+  evidence, and
+  [Eve MacDonald](/sources/macdonald-hannibal-2015) notes that this
+  leaves even its existence open to question (p. 66). Alicante is the
+  usual identification and is not established.
   Father of Hannibal, Hasdrubal Barca, and Mago Barca; the founder of
   the family that would carry the war to Rome a generation after his
   death. The "oath of eternal enmity" his son Hannibal allegedly

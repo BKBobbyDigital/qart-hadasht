@@ -63,7 +63,7 @@ principal_sources:
   - lancel-carthage-1995
   - goldsworthy-fall-carthage-2003
   - huss-karthager-2004
-last_revised: "2026-09-24"
+last_revised: "2026-10-23"
 ---
 
 The twenty-three years between the [Treaty of Lutatius](/events/treaty-of-lutatius)
@@ -165,11 +165,28 @@ This section walks the period's principal commanders and outputs.
 
 Hamilcar's nine-year command (237–228 BCE) opened the project: the
 conquest of southern Iberia, the foundation of Akra Leuke ("White
-Citadel," probably modern Alicante) as the first Barcid Iberian
-administrative center, and the establishment of the silver-mine
-revenue stream that would fund what followed. Hamilcar's
-[death at Helike](/events/death-of-hamilcar-at-helike) in 228 BCE, drowned during a withdrawal from a Vettonian ambush, closed
-the founding phase.
+Citadel"), and the establishment of the silver-mine revenue stream
+that would fund what followed. Diodorus is the only source for Akra
+Leuke, which he calls a very large city and the winter quarters of
+the army and the elephants (25.10.3); Alicante is the usual
+identification and there is no secure material evidence, so its
+character and even its existence are open. Hamilcar's
+[death](/events/death-of-hamilcar-at-helike) in 228 BCE closed the
+founding phase. Four accounts survive and they are incompatible, so
+the site reports them separately rather than merging them into the
+drowning at Helike that the retellings prefer.
+
+Rome was paying attention earlier than the Saguntum crisis implies.
+[Eve MacDonald](/sources/macdonald-hannibal-2015) builds on a
+fragment of Cassius Dio (frag. 48) recording a Roman delegation sent
+in 231 BCE to investigate Hamilcar, who told the envoys that Rome's
+seizure of Sardinia and the increased payments left him no choice but
+to expand elsewhere (pp. 63, 66). Dio alone preserves it and modern
+opinion divides on whether it happened; the site has not reached the
+fragment and reports it as she gives it. If it is genuine, Roman
+interest in Carthaginian Iberia predates Hannibal's command by a
+decade, which bears on the
+[causation take](/editorialTakes/spw-causation).
 
 Command passed to his son-in-law [Hasdrubal the Fair](/people/hasdrubal-the-fair),
 whose [seven-year command](/events/hasdrubal-the-fairs-command)
@@ -177,8 +194,11 @@ whose [seven-year command](/events/hasdrubal-the-fairs-command)
 extended Carthaginian control through military operations,
 Hasdrubal extended it through political-administrative
 infrastructure: the [foundation of Carthago Nova](/events/founding-of-carthago-nova)
-in 228 BCE as a planned colonial capital (designed harbor,
-residential and administrative quarters, sanctuary, mint), the
+in 228 BCE on one of the finest harbors of the coast, which Polybius
+describes with a temple of Asclepius on one hill and a palace on
+another said to have been built when Hasdrubal aspired to royal
+power, and where the Carthaginians kept the bulk of their money and
+war material (10.10), the
 marriage to an Iberian princess that anchored a network of
 aristocratic intermediaries, and the formalized treaty-and-tribute
 structures with the named Iberian polities of southern and eastern

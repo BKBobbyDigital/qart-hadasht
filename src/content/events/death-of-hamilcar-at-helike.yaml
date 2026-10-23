@@ -11,13 +11,16 @@ participants:
     role: commander (killed in action)
     side: Carthaginian
   - person: hannibal-barca
-    role: junior officer (aged 19; present)
+    role: junior officer (aged about 19; present in Diodorus's account only)
     side: Carthaginian
   - person: hasdrubal-barca
-    role: junior officer (Hannibal's brother; present)
+    role: junior officer (Hannibal's brother; present in Diodorus's account only)
     side: Carthaginian
 principal_sources:
   - polybius-histories
+  - diodorus-library
+  - nepos-hamilcar
+  - appian-iberica
   - hoyos-hannibal-2003
   - macdonald-hannibal-2015
 referenced_themes:
@@ -30,20 +33,56 @@ related_events:
       command and triggered the succession to Hasdrubal the
       Fair.
 summary: >
-  The engagement that ended the first phase of the Barcid
-  Iberian project and triggered the command succession to
-  Hasdrubal the Fair. Hamilcar Barca, conducting a winter
-  relief operation against the Vettonian or Oretanian siege of
-  the Iberian town of Helike, walked into a stratagem
-  Polybius and the later tradition both describe as
-  characteristically Iberian: cattle-driven fire-carts, oxen yoked to flaming wagons, driven into the Carthaginian
-  formation to break order, followed by Vettonian assault.
-  Hamilcar's withdrawal across an unnamed river ended in his
-  drowning, possibly while drawing pursuit away from his sons
-  Hannibal (then 19) and Hasdrubal (younger). Polybius
-  treats the death as the definitive close of Hamilcar's
-  Iberian command. Command in Iberia passed to Hasdrubal the
-  Fair (Hamilcar's son-in-law and senior lieutenant);
-  Hannibal would not assume command until Hasdrubal's
-  assassination seven years later. The exact location of
-  Helike is contested in modern scholarship.
+  The engagement that ended the first phase of the Barcid Iberian
+  project and passed the command to Hasdrubal the Fair. Four ancient
+  accounts survive and they agree on almost nothing beyond the fact
+  that Hamilcar was killed campaigning in Iberia in the ninth year of
+  his command. Pages elsewhere, including this one until October 2026,
+  tend to fuse them into a single scene; they are better kept apart.
+
+  ## What each source says
+
+  [Polybius](/sources/polybius-histories) gives the bare fact. Hamilcar
+  spent about nine years in Iberia, brought many peoples under Carthage
+  by force or by diplomacy, and died bravely in battle against one of
+  the most warlike and powerful tribes, having exposed himself to danger
+  (2.1.7–2.1.8). He names no place, no people and no stratagem.
+
+  [Diodorus](/sources/diodorus-library) alone sets it at Helike and
+  alone has the drowning, and in his account Hamilcar is the besieger,
+  not a relieving force. Hamilcar was encamped before Helike and had it
+  under siege, having sent most of the army and the elephants into winter
+  quarters at Akra Leuke. The king of the Orissi came to the city's
+  relief and, by a feigned offer of friendship and alliance, routed him.
+  Hamilcar saved his sons and friends by taking a different road and
+  drawing the pursuit onto himself; overtaken, he plunged on horseback
+  into a large river and perished in the flood under his horse, while
+  Hannibal and Hasdrubal got away to Akra Leuke (25.10.3–25.10.4).
+
+  [Nepos](/sources/nepos-hamilcar) says only that he was killed fighting
+  in battle against the **Vettones** in the ninth year after coming into
+  Spain (*Hamilcar* 4.2). He is the one source for that people, and the
+  Vettones of the upper Tagus are a long way from where Helike is usually
+  placed.
+
+  [Appian](/sources/appian-iberica) and Cassius Dio carry the stratagem
+  the modern retellings like best, and neither attaches it to Helike or
+  to a drowning. Spanish kings and chieftains combined against Hamilcar
+  and drove wagons loaded with wood and pitch ahead of their line, yoked
+  to oxen; the Carthaginians laughed at the approach until the wagons
+  were fired and the burning teams were driven into them, and in the
+  disorder Hamilcar was killed along with many of his men
+  (*Iberica* 5; Dio's surviving fragments give the same episode).
+
+  ## What the site holds
+
+  That Hamilcar died on campaign in 229/228 and that the command passed
+  to his son-in-law is firmly attested. The siege of Helike, the river
+  and the self-sacrifice for his sons are Diodorus and nobody else; the
+  burning wagons are Appian and Dio and nobody else; the Vettones are
+  Nepos and nobody else. Whether any two of these describe the same
+  action cannot be recovered, and the drowning and the fire-wagons are
+  not obviously compatible. The site reports them as separate traditions
+  and does not reconcile them, which is
+  [charter principle 8](/charter). Hannibal was about nineteen; his
+  presence rests on Diodorus's account alone.

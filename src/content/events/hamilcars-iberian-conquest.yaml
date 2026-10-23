@@ -7,7 +7,7 @@ date_start:
 date_end:
   value: -228
   precision: year
-  notes: Ending with Hamilcar's death by drowning during a withdrawal from a Vettonian ambush in 228 BCE.
+  notes: Ending with Hamilcar's death on campaign in 228 BCE, which the four surviving accounts describe differently.
 place: iberia
 participants:
   - person: hamilcar-barca
@@ -25,8 +25,8 @@ related_events:
   - event: death-of-hamilcar-at-helike
     relation: terminating event (228 BCE)
     notes: >
-      Hamilcar's death in the Vettonian/Oretanian ambush ended
-      the first phase of the Barcid Iberian project.
+      Hamilcar's death in 228 BCE ended the first phase of the
+      Barcid Iberian project.
 summary: >
   Hamilcar Barca's nine-year campaign of Iberian conquest from
   237 to 228 BCE, the project that transformed the Carthaginian
@@ -46,7 +46,14 @@ summary: >
   the senatorial opposition around
   [Hanno the Great](/people/hanno-the-great) is well attested as a
   standing political position but its role in this specific decision
-  is not. The broader question of how independently the Barcids
+  is not. Two later authors say otherwise. Cassius Dio, in the
+  surviving fragments, has Hamilcar depart for Spain "contrary to the
+  wishes of the magistrates at home", and
+  [Appian](/sources/appian-iberica) has him cross to Gades in a way
+  that gave him reason to stay out of the country while winning glory
+  (4). Both are late and neither is friendly to the Barcids, but they
+  agree against Polybius on the one point that matters here, that the
+  expedition was not simply a commission the state issued. The broader question of how independently the Barcids
   then governed the province was already disputed in antiquity, with
   Fabius Pictor and Polybius taking opposite views, and is set out in
   the site's
@@ -65,13 +72,16 @@ summary: >
   losses of the First Punic War and the seizure of Sardinia,
   and underwrote the army that fought the Second Punic War.
 
-  Hamilcar's death in 228 BCE during a withdrawal from a
-  Vettonian ambush ended the campaign's first phase. Command
-  passed to his son-in-law Hasdrubal the Fair (who would
-  consolidate the conquest, found Carthago Nova as the new
-  Carthaginian Iberian capital, and negotiate the Ebro Treaty
-  with Rome before his assassination in 221 BCE), and then to
-  Hannibal. The ten-year conquest under Hamilcar is the
-  structural foundation of everything that followed in the
-  Barcid Iberian project, and indirectly the foundation of the
+  Hamilcar's death in 228 BCE ended the campaign's first phase.
+  How he died is told four different ways and the accounts are
+  set out separately on
+  [the death event](/events/death-of-hamilcar-at-helike); the
+  common ground is only that he was killed in the field in the
+  ninth year of the command. Polybius says the Carthaginians then
+  handed the army over to Hasdrubal the Fair, Hamilcar's son-in-law
+  and chief naval officer (2.1.9), who would consolidate the
+  conquest, found Carthago Nova and reach the Ebro agreement with
+  Rome before his assassination in 221, and then to Hannibal. The
+  nine-year conquest under Hamilcar is the foundation of everything
+  that followed in the Barcid Iberian project, and indirectly of the
   Second Punic War.

@@ -21,7 +21,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - barcid-numidian-royal-marriage
-last_revised: "2026-09-24"
+last_revised: "2026-10-23"
 ---
 
 ## Origins
@@ -163,16 +163,22 @@ the continued campaign. How much of it reached Carthage itself
 is uncertain; the coinage suggests comparatively little (see
 [the Barcid Iberian state](/narratives/the-barcid-iberian-state)).
 
-Hamilcar's death in 228 BCE during a withdrawal from a
-Vettonian ambush ended the campaign's first phase. According
-to Diodorus (25.10), he drowned crossing a river while
-withdrawing from a Celtiberian (or Vettonian) attack, having
-diverted the pursuing enemy by riding toward a different
-river crossing while his sons (Hannibal and Hasdrubal Barca)
-escaped in the opposite direction. The detail of the
-deliberate self-sacrifice for his sons' escape is preserved
-with characteristic dramatic framing; the broader fact of
-his death in operational circumstances is firmly attested.
+Hamilcar's death in 228 BCE ended the campaign's first phase,
+and the four accounts of it have nothing in common beyond the
+fact. Polybius says he died bravely against one of the most
+warlike and powerful tribes and gives no place, people or
+stratagem (2.1.8). Diodorus sets it at Helike, where Hamilcar
+was the besieger: the king of the Orissi came to the city's
+relief, routed him by a feigned offer of friendship, and
+Hamilcar drew the pursuit onto himself along another road so
+that his sons could escape, was overtaken, and drowned under
+his horse in a large river (25.10.3–4). Nepos says he was
+killed fighting the Vettones (*Hamilcar* 4.2). Appian and
+Cassius Dio have a combination of Spanish kings drive burning
+ox-drawn wagons into the Carthaginian line and kill him in
+the disorder (*Iberica* 5). The drowning and the fire-wagons
+are not easily the same event, and the site does not merge
+them; see [the death event](/events/death-of-hamilcar-at-helike).
 
 Command passed to his son-in-law Hasdrubal the Fair, who
 would consolidate the conquest, found Carthago Nova (228 or

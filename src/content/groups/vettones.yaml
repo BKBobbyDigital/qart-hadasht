@@ -5,7 +5,7 @@ name_alt:
   latin: Vettones
   modern: Iberian people of the upper Tagus / Toledo and Salamanca regions of central-western Spain
 type: tribal
-polity_affiliation: independent Iberian people; principal opposition to Hamilcar Barca's Iberian conquest in 228 BCE
+polity_affiliation: independent Iberian people; named by Nepos alone as the people Hamilcar Barca died fighting in 228 BCE
 active_from:
   value: -400
   precision: century
@@ -17,24 +17,29 @@ active_to:
 summary: >
   An Iberian people occupying the upper Tagus river region
   of central-western Iberia (modern provinces of Cáceres,
-  Salamanca, and Ávila in Spain). The Vettones are
-  principally remembered in the surviving Carthaginian
-  record as the people responsible for the death of
-  Hamilcar Barca in 228 BCE — through what Diodorus and
-  the later Roman tradition preserve as the famous
-  cattle-driven fire-cart stratagem at Helike: oxen yoked
-  to flaming wagons driven into the Carthaginian formation
-  to break order, followed by Vettonian assault on the
-  disordered force.
+  Salamanca, and Ávila in Spain).
 
-  The historicity of the fire-cart stratagem is contested
-  in modern scholarship. Some treatments take Diodorus's
-  detail as preserved historical reportage; others read
-  it as a Hellenistic literary topos applied to a real
-  underlying ambush whose actual tactical detail is not
-  recoverable. The structural fact, Hamilcar's death
-  during a withdrawal from a Vettonian engagement, is
-  firmly attested.
+  They are best known for the death of Hamilcar Barca, and the
+  attribution rests on one sentence in one author.
+  [Nepos](/sources/nepos-hamilcar) writes that Hamilcar was killed
+  fighting in battle against the Vettones in the ninth year after he
+  came into Spain (*Hamilcar* 4.2). No other source names them in this
+  connection: [Polybius](/sources/polybius-histories) says only that he
+  died against one of the most warlike and powerful tribes (2.1.8),
+  [Diodorus](/sources/diodorus-library) names a king of the Orissi
+  at Helike (25.10.3), and [Appian](/sources/appian-iberica) has a
+  combination of Spanish kings and the burning ox-drawn wagons
+  (*Iberica* 5). The wagons are sometimes credited to this page's
+  people, and to Diodorus; they belong to Appian and Cassius Dio, who
+  name no people at all. The traditions are set out separately on
+  [the death event](/events/death-of-hamilcar-at-helike).
+
+  Nepos's attribution also sits oddly with the geography. The Vettones
+  held the upper Tagus, while Helike, the only place any source puts
+  the death at, is placed in the southeastern interior. Either the
+  campaign ranged much further north than the Diodoran account
+  suggests, or the two traditions are not describing the same
+  engagement.
 
   Beyond the Hamilcar episode, the Vettones appear in the
   surviving record principally as one of the central-

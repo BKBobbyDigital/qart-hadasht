@@ -25,7 +25,7 @@ referenced_claims:
   - hasdrubal-fair-carthago-nova
   - ebro-treaty
   - hasdrubal-fair-dynastic-strategy
-last_revised: "2026-09-10"
+last_revised: "2026-10-23"
 ---
 
 ## Background and family connections
@@ -59,24 +59,29 @@ authority is firmly attested.
 
 ## The succession to Iberian command (228 BCE)
 
-Hamilcar Barca's death in 228 BCE during a withdrawal from a
-Vettonian ambush produced the question of succession. The
-Iberian field army required immediate command; the
-Carthaginian senate could authorize formal succession but
-not provide on-the-ground operational continuity; the Barcid
-family-political network had preferences but could not
-unilaterally appoint.
+Hamilcar Barca's death in 228 BCE produced the question of
+succession. The Iberian field army needed a commander at once;
+Carthage alone could confer formal authority; the Barcid
+connection had preferences but no power to appoint.
 
-Hasdrubal's succession was acclamation by the Iberian field
-army, ratified subsequently by the Carthaginian senate. The
-pattern would recur six years later when Hannibal succeeded
-to the same command: the Iberian army treating its
-succession as its own to determine, with formal Carthaginian
-authority operating subordinately. The structural character
-of Barcid-Iberian politics, autonomous military authority
-with substantial independence from senatorial control, was
-established or at least confirmed through this succession
-event.
+The order the sources give is the reverse of the one usually
+reported here. Polybius says that on Hamilcar's death the
+Carthaginians handed over the command of the army to
+Hasdrubal, "his son-in-law and chief naval officer" (2.1.9).
+Diodorus has both the army and the Carthaginians involved
+(25.12). Neither describes an acclamation in the field that
+Carthage then rubber-stamped, and this page said so until
+October 2026. The naval title is worth keeping: the man who
+took over the Iberian command had held the fleet, which fits
+a project whose base was a port and whose supply ran by sea
+better than the picture of a soldier promoted in camp.
+
+What does hold is that the same family kept the command
+across three successions, which is the pattern the site reads
+as a state form rather than a series of appointments. On the
+army's part in choosing commanders, the homegrown precedent
+is 239 in Africa, not a Macedonian model; see
+[the claim on the army's choice](/claims/mercenary-war-army-chose-hamilcar).
 
 Hannibal's age in 228 BCE was nineteen — old enough for
 substantial military responsibility but too young for

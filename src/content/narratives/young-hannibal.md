@@ -20,7 +20,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - hamilcar-iberia-young-hannibal
-last_revised: "2026-09-14"
+last_revised: "2026-10-23"
 ---
 
 ## Birth and early education (247-237 BCE)
@@ -96,13 +96,17 @@ Barca and Mago Barca, and with his brother-in-law Hasdrubal
 the Fair (who had married one of Hamilcar's daughters), was
 the core network of the Iberian command that he would inherit.
 
-Hamilcar's death in 228 BCE in the Vettonian ambush is
-preserved with the dramatic detail that Hamilcar deliberately
-diverted the pursuing enemy by riding toward a different
-river crossing, allowing his sons (Hannibal and Hasdrubal
-Barca) to escape. The framing is partly literary; the broader
-fact of the death and the survival of the sons is firmly
-attested. Hannibal was nineteen.
+Hamilcar died in 228 BCE, and the detail that matters here
+comes from one of the four competing accounts. Diodorus has
+Hamilcar take a different road to draw the pursuit onto
+himself so that his sons could get clear, and drown under his
+horse in a river while Hannibal and Hasdrubal reached Akra
+Leuke safely (25.10.4). No other source puts the sons on the
+field at all, and the other three tell the death differently
+(see [the death event](/events/death-of-hamilcar-at-helike)).
+So a boy watching his father die for him is a scene the site
+can report from Diodorus and cannot confirm. Hannibal was
+about nineteen.
 
 ## Under Hasdrubal the Fair (228-221 BCE)
 
