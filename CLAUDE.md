@@ -2766,22 +2766,31 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 23 Oct 2026)
+### Open threads (as of 26 Oct 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
 is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
 2015)**, source `macdonald-hannibal-2015`, sending pages as they go.
 Worked so far: the introduction and first chapter, the Barcid family
 tree, the Hellenistic setup chapters (pp. 26–40), the Hamilcar chapter
-(pp. 44–60) and the Barcid Iberia chapter (pp. 61–81). **Chapter 5,
-"Legend: Hannibal into Italy", is next**, and it is the first chapter on
-her own subject rather than setup; the remaining five claims carrying
-her book in `further_reading` live from there on. She now sends her
-endnotes alongside each chunk, which is where her value is: see the
-notes at the end of the Hamilcar and Barcid Iberia sections on how to
-use her, including the comparison with Miles. **Regression rules stand
-at 86.** Nothing below is in progress. Pick one up only when the user
-asks.
+(pp. 44–60), the Barcid Iberia chapter (pp. 61–81) and the march into
+Italy (pp. 82–99). **Chapter 6, "Hannibal the Conqueror: From the
+Trebia to Trasimeno", is next.** She now sends her endnotes alongside
+each chunk, which is where her value is: see the notes at the end of
+the Hamilcar, Barcid Iberia and march-into-Italy sections on how to use
+her, including the comparison with Miles and the point that her error
+rate fell sharply once she reached her own subject. **Regression rules
+stand at 86.** Nothing below is in progress. Pick one up only when the
+user asks.
+
+- **A book of her own, floated 23 Oct 2026, not a task.** The user asked
+  whether they could write one. The agreed shape, if it ever becomes
+  work: not a narrative history competing with Miles, which needs Greek,
+  Latin and the excavation reports, but an approachable entry-point book
+  whose real subject is how anyone knows anything about Carthage, with
+  the myth corrections as the hook and the method as the payoff rather
+  than the premise. Their being new to it eighteen months ago is the
+  qualification, not the handicap. Do not start drafting it unprompted.
 
 - **The pattern to watch in our own corrections.** Two corrections on
   23 Oct had to be corrected again the same day, both for treating one
@@ -2852,19 +2861,19 @@ Her podcast and AMA remain shape-only; her book is citable.
 
 What to look for, agreed with the user:
 
-1. **Five claims still carry her book in `further_reading`, unchecked:**
+1. **Four claims still carry her book in `further_reading`, unchecked:**
    `saguntum-strategic-resource-consolidation`,
-   `saguntum-hannibal-wounded-falarica`, `barcid-iberia-silver-funded-spw`,
-   `pre-italy-iberia-army-formation`, `cannae-allies-defected`. With a
+   `saguntum-hannibal-wounded-falarica`,
+   `barcid-iberia-silver-funded-spw`, `cannae-allies-defected`. With a
    page reference each can be promoted into `sources` with a
    `passage_ref` (and a stance), per the citation separation. For
    `cannae-allies-defected`, note whether she argues the defections
-   reading or only narrates it. **One promoted so far**,
-   `tagus-tactical-template-for-italy`, on her p. 74 with a `qualifies`
-   stance; see the Barcid Iberia section for why the stance is not
-   `supports`. The lesson from that one: she often narrates what the
-   site argues, so the honest promotion is frequently `qualifies`
-   rather than `supports`, and the site's own reading stays the site's.
+   reading or only narrates it; that one is in chapter 7 or later.
+   **Two promoted so far**, `tagus-tactical-template-for-italy` (p. 74)
+   and `pre-italy-iberia-army-formation` (pp. 85–86), both `qualifies`.
+   The lesson, now holding twice: she narrates what the site argues, so
+   the honest promotion is `qualifies` rather than `supports`, and the
+   site's own reading stays the site's.
 2. **Her Hellenistic framing against the site's positions:** the Heracles
    /Alexander material (site says "self-presentation", attributes
    "propaganda" to Miles; she is the second opinion for the tabled take);
@@ -3488,6 +3497,158 @@ subject.
 into the scratchpad before reading. Use absolute paths in Bash; a bare
 `cd` into the scratchpad silently moves the session working directory.
 
+### MacDonald's chapter on the march into Italy (26 Oct 2026)
+
+Her ch. 5, "Legend: Hannibal into Italy", pp. 82–99, in three chunks with
+the endnotes. Three commits: `0983aca`, `6c5c2ae`, `6b155cc`. **The error
+profile shifted, as expected.** This is the first chapter on her own
+subject rather than setup, and nothing in it had to be corrected against
+her; one slip in her text is corrected by her own note. The finds came
+from following her citations, and twice her observations changed the
+site rather than the reverse.
+
+**The Lacinian inscription entry described a document for a year without
+saying what is in it (`0983aca`).** What Polybius rests on the tablet is
+an administrative disposition, not a war memorial. The core is an
+exchange: Hannibal moved troops from Iberia to Africa and from Africa to
+Iberia, "binding by this measure the two provinces to reciprocal
+loyalty" (3.33.7–8), which is Polybius stating a method of provincial
+control rather than inferring one. Hasdrubal's Iberian force is now
+given component by component (3.33.14–16), and one component is worth
+the rest: **300 of its cavalry were Ilergetes**, the people whose later
+switching between Rome and Carthage the site treats as agency. The
+Africa-side foot total is given in round terms only, because the
+translations reachable from here split the Balearic slingers out of it
+differently and the figure could not be fixed; MacDonald's 13,850 foot
+plus 870 slingers is the standard reading and Thayer's renders it as a
+single 13,870.
+
+**Polybius contradicts 6.52 and the contradiction is the better
+evidence.** At 11.19.3–5 he says Hannibal held the army sixteen years
+without disbanding it and without sedition against him or between its
+parts, though it contained "Africans, Spaniards, Ligurians, Celts,
+Phoenicians, Italians and Greeks" who shared nothing by nature in laws,
+customs or language, and that it took extraordinary ability to make such
+men obey one command. Book 6 is constitutional theory written to explain
+why Rome deserved to win; Book 11 is the same author conceding what the
+army actually did. On `carthaginian-army-institutionally-mixed`.
+
+**A trap, and she walked into it.** Cicero is quoted for Hannibal holding
+that men should contend in his camp by merit and not birth (*Verrines*
+2.5.31). In place the sentence is sarcasm aimed at Verres, *iste autem
+Hannibal*, and the merit at issue is a governor's attachment to a
+courtesan he carried off from his province. Her epigraph from Ennius
+(*Annales* 234–235) is the same kind of thing. Both attest a Roman
+literary commonplace about Hannibal's army, which is interesting because
+the joke needs the image to be familiar, and neither is evidence about
+Carthaginian recruitment. **Do not let either back on the site as
+policy.**
+
+**Polybius 3.60.5 is finally read (`6c5c2ae`), closing an item open since
+September.** 38,000 foot and more than 8,000 horse setting out from the
+Rhône crossing, about half the force lost in the passes. Reading it
+exposed an arithmetic problem the site had the parts of and never
+stated: 90,000 foot leave New Carthage, about 22,000 are accounted for
+at the Pyrenees between Hanno's command and the men sent home, and
+Polybius then gives 50,000, covering a gap of some 18,000 with "many
+severe engagements and great loss" in a clause (3.35.3–4); then a second
+gap, 50,000 at the Pyrenees against 38,000 at the Rhône, with no battle
+recorded between. `alps-troop-losses` now reports the figures as he
+gives them and says plainly they do not reconcile. She flags the first
+gap in her note 42 and passes over the second.
+
+**Correction, ours: the vinegar is not Livy's alone and not a Latin
+elaboration.** Juvenal has the vinegar with no fire at all, the version
+popular memory kept and the one that makes least physical sense,
+*diducit scopulos et montem rumpit aceto* (*Satire* 10.153). Appian has
+it in Greek and by a different mechanism, the ashes quenched with water
+and vinegar and the brittle rock then broken with iron hammers
+(*Hannibalica* 4). Ammianus is reported to carry it too, unread here.
+Three tellings that explain one detail three ways point to something
+circulating rather than one man's invention copied forward, which makes
+it older than Livy and no better attested. **Polybius's silence remains
+the strongest reason to doubt it.** Fixed on the comparison, the
+narrative and the event. Appian's other detail is on the which-pass
+question: the road was still in use in his day and still called
+Hannibal's pass, which cannot narrow the candidates but shows a single
+route carried the name by the second century CE.
+
+**Two things that cut against both the heroic and the deflationary
+tellings of the crossing.** At the Island, Hannibal backed one of two
+brothers disputing an Allobrogian kingship and was paid in supplies,
+replacement weapons, and warm clothing and footwear for the whole army,
+with an escort as far as the hostile country (3.49.8–12), ten days and
+140 km before the ascent. An army re-equipped for cold is not an army
+that did not know what was coming. And Livy's road-building passage
+carries the part always dropped for the vinegar: the scorched cliff
+opened with picks and the gradient eased with short switchbacks so the
+elephants could be brought down (21.37.3), which is ordinary engineering
+needing no chemistry.
+
+**The best thing in the chapter is an objection to a criterion the site
+was using (`6b155cc`).** Polybius has Hannibal halt at the summit and
+lift the army's spirits with the sight of Italy, showing the men the
+plain of the Po and pointing out where Rome lay, and remarks that the
+Alps stand to Italy as a citadel to a city (3.54.1–4). `alps-which-pass`
+listed a clear view of the Po from the summit as an argument for the Col
+du Clapier. She reports that no Alpine pass offers that view, and
+carries a suggestion, **credited to a conversation with Michael Crawford
+and not to anything in print**, that the scene describes a real view
+from the wrong place: north from the edge of the Apennines across the Po
+to the Alps, a view a Roman would have, pointing to Fabius Pictor as
+Polybius's source here. Not adopted, since there is nothing to check and
+she cites Mahaney on the other side for the Traversette. The caution
+follows either way and is now on the question: a criterion that may be a
+literary set-piece should not be deciding between passes, and it was.
+
+**Her casualty argument is better than the one the site had**, and is now
+on the comparison. The site's deflationary case rested on literary
+suspicion. Hers is military: Polybius says the army came down in
+wretched condition from scarcity of provisions and neglect of their
+persons (3.60.3), so that Hannibal had to restore men and horses in body
+and spirit among the Insubres (3.60.7–8), and that army then fought and
+won twice within about a month. A force that lost half its strength and
+arrived starving does not do that; she notes Walbank calls the numbers
+scarcely credible. It tests the figures against what the same source
+reports happening next.
+
+**Also added.** Two loss figures each claim Hannibal as their source and
+disagree: the Lacinian tablet, and Cincius Alimentus, who wrote that he
+had been Hannibal's prisoner and heard from the man himself that he lost
+36,000 after the Rhône (Livy 21.38.3–5). Treated as a reason for
+suspicion, not corroboration; she gives the figure as Livy's and drops
+the attribution. Polybius 3.15.13, that Rome never supposed the war
+would be fought in Italy and expected to fight in Iberia with Saguntum
+for a base, is on `spw-causation` and sharpens what "beginnings" means
+there. The crossing date is now shown as the inference it is, resting on
+Polybius's phrase about the setting of the Pleiades (3.54.1), which was
+also used loosely for the onset of bad weather, on which reading the
+whole crossing moves a month earlier. And on the Heracles narrative,
+Devillier and Krings via her note 37, questioning whether Livy's
+placement of the dream can stand, since the natural settings are Gades
+before the god, the Alps, or the eve of the first battle: **the same
+displacement Fernández Camacho argues from the Gades spring, reached
+independently.** Recorded as convergence, not proof.
+
+**`further_reading` promotions: two now, of the original six.**
+`pre-italy-iberia-army-formation` joins the Tagus claim on a `qualifies`
+stance (pp. 85–86). She supports the force being formed in Iberia and
+bound to Hannibal personally, a paid professional army rather than hired
+contingents, and cites Polybius 11.19.4 for its nationalities; she does
+not argue that the 221–220 campaigns were the shakedown that produced
+it, and credits the cohesion to the commander rather than to prior
+operations. **The pattern now holds twice: she narrates what the site
+argues, so the honest stance is `qualifies` and the reading stays ours.**
+
+**Her one slip is corrected by her own note.** Her text gives "90,000
+infantry, 12,000 cavalry and thirty-seven elephants (Polyb. 3.35.1)";
+3.35.1 has no elephants, and her note 32 says so, giving the 37 as the
+Rhône figure from Appian. The site already had it right at 3.42.
+
+**Not adopted.** Her Napoleon pages (98–99) are reception and stay off
+the site. Her "kilometres" went in verbatim and the spelling audit caught
+it; **watch for her British spellings when quoting her closely.**
+
 ### A Reddit exchange on the navy (Oct 2026)
 
 Not a site change, but the positions are worth keeping, since the
@@ -3556,8 +3717,11 @@ question and `claims/alps-troop-losses`:**
   50,000 / 9,000 after the Pyrenees (3.35); 37 elephants at the Rhône
   (3.42); 12,000 African + 8,000 Iberian foot, ≤6,000 horse on arrival
   (3.56); elephants fought at the Trebia and nearly all died after
-  (3.74). The Rhône army figure (3.60.5) was never read in the text,
-  so the site does not use it.
+  (3.74). The Rhône army figure (3.60.5) was read on 26 Oct 2026 and is
+  now in use: 38,000 foot and more than 8,000 horse setting out from the
+  crossing, with about half the force lost in the passes. See
+  "MacDonald's chapter on the march into Italy" for the arithmetic
+  problem that reading it exposed.
 
 The comparison was also rewritten for style (it predated the prose
 passes).

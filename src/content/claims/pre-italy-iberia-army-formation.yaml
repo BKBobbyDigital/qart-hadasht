@@ -28,9 +28,22 @@ sources:
       across the Pyrenees, Rhone, and Alps in 218 BCE. The
       army-formation continuity is implicit in the parallel
       accounts.
+  - source: macdonald-hannibal-2015
+    stance: qualifies
+    passage_ref: "pp. 85-86"
+    passage_summary: >
+      MacDonald supports half of this and not the other half. She
+      treats the force as formed in Iberia and bound to Hannibal
+      personally, a paid professional army rather than hired
+      contingents, organized in units loyal to their commander, and
+      calls it the quintessential Hellenistic army, dependent on his
+      skills; she cites Polybius 11.19.4 for its seven nationalities.
+      She does not argue that the campaigns of 221-220 were the
+      shakedown that produced it, and she attributes the army's
+      cohesion to the commander rather than to prior operations. The
+      formation reading therefore remains the site's own.
 further_reading:
   - source: hoyos-hannibal-2003
-  - source: macdonald-hannibal-2015
 entities:
   - type: event
     slug: hannibals-olcades-campaign
