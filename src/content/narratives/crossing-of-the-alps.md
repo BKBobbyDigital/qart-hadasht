@@ -94,6 +94,14 @@ descent would deliver him.
 ## The crossing
 
 The Alpine ascent began in October or early November 218 BCE.
+The date rests on one phrase: Polybius says it was close on the
+setting of the Pleiades and snow had already gathered on the
+summit (3.54.1). That sets it in late October by the strict
+astronomical reckoning, but the expression was also used more
+loosely for the onset of bad weather, and on that reading the
+crossing could fall a month earlier, in late September or early
+October. The site keeps the conventional date and notes that it
+is an inference from an idiom.
 The specific pass Hannibal used is contested; Polybius's
 account suggests one set of geographic features (most
 consistent with the Col du Clapier or the Col de la Traversette
@@ -142,6 +150,26 @@ and adds that the road was still in use in his day and called
 Hannibal's pass (*Hannibalica* 4). A detail that three writers
 explain three ways was circulating rather than being copied,
 which makes it older than any of them and no better attested.
+Livy's account also carries the part that usually gets dropped
+for the vinegar: after scorching the cliff face they opened it
+with picks and eased the gradient with short switchbacks, so
+that the elephants and not only the pack animals could be
+brought down (21.37.3). Zigzagging a slope to reduce its angle
+is ordinary road engineering, and it is the one piece of the
+Livian passage that needs no chemistry to work.
+
+A separate problem sits at the summit. Polybius has Hannibal
+halt the army there and lift its spirits with the sight of
+Italy, showing the men the plain of the Po and pointing out
+where Rome lay, and remarks that the Alps stand to Italy as a
+citadel to a city (3.54.1–4). No proposed pass commands that
+view, which has prompted the suggestion that the scene is
+borrowed from the view north from the Apennines, a Roman's
+view, and so points to Fabius Pictor as the source Polybius
+used here. The argument is weighed on the
+[open question about the pass](/openQuestions/alps-which-pass);
+what matters for the narrative is that the most quoted moment
+of the crossing may be the least reliable part of it.
 The accounts, and the ancient quarrel over whether the Alps
 were impassable or ordinary, are set side by side in the
 [source comparison](/sourceComparisons/alps-crossing).

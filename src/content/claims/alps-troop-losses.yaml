@@ -46,11 +46,16 @@ sources:
       perished in the cold after the Trebia (3.74).
   - source: livy-auc
     stance: qualifies
-    passage_ref: "21.38"
+    passage_ref: "21.38.2-21.38.5"
     passage_summary: >
       Reports that estimates of the army reaching Italy ranged from 20,000
-      foot and 6,000 horse to 100,000 foot and 20,000 horse, and that
-      Cincius Alimentus put the losses after the Rhône at 36,000 men.
+      foot and 6,000 horse to 100,000 foot and 20,000 horse. For the
+      losses he cites Cincius Alimentus, who wrote that he had been
+      Hannibal's prisoner and heard from Hannibal himself that he lost
+      36,000 men and a great number of horses and other animals after
+      crossing the Rhône. That makes two competing figures each claiming
+      Hannibal as its source, one published by him on bronze and one
+      reported from conversation by a captured Roman annalist.
   - source: lacinian-inscription
     stance: supports
     passage_summary: >
