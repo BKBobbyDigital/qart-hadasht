@@ -19,7 +19,7 @@ primary_entities:
     role: subject
 referenced_claims:
   - alps-troop-losses
-last_revised: "2026-09-15"
+last_revised: "2026-10-26"
 ---
 
 ## The strategic decision
@@ -104,21 +104,47 @@ dated to the Hannibalic period has shifted modern scholarship
 toward the Traversette identification, though without
 consensus.
 
+One stop before the mountains complicates the picture of an
+army stumbling unprepared into winter. At the place Polybius
+calls the Island, where the Rhône and a second river meet,
+Hannibal intervened in a quarrel between two brothers disputing
+a kingship among the Allobroges, backed the elder, and was paid
+for it: the new king replenished the army's supplies, replaced
+worn weapons, and fitted out the whole force with warm clothing
+and footwear for the mountains, then escorted the rear of the
+column as far as the hostile country (3.49.8–12). That is ten
+days and about 140 kilometers before the ascent proper (3.50.1).
+An army re-equipped for cold by a local ruler is not an army
+that did not know what was coming, which is worth holding
+against both the heroic and the deflationary tellings.
+
 The crossing took approximately fifteen days. Conditions were
 extreme: cold beyond the army's preparation, snow obstructing
-the passes, hostile Allobroges and other Alpine peoples
-attacking the column from defensive positions on slopes above
+the passes, hostile Allobroges (a less friendly part of the
+same people whose king had just equipped him) and other Alpine
+peoples attacking the column from defensive positions above
 the path, narrow trails that required laborious individual
 movement of pack animals and elephants, water sources frozen
 or contaminated. In the descent a landslide had carried away
 the path, and Polybius (3.55) describes the army cutting a new
 one along the cliff: a day's work for the horses and pack
 animals, three days for the elephants, with Numidians working
-in relays. The better-known version, in which the rock is split
-with fire and vinegar, is Livy's (21.37) and does not appear in
-Polybius; the two accounts, and the ancient quarrel over whether
-the Alps were impassable or ordinary, are set side by side in
-the [source comparison](/sourceComparisons/alps-crossing).
+in relays.
+
+The better-known version, in which the rock is split with fire
+and vinegar, is absent from Polybius and present in three later
+tellings that do not agree on the method. Livy has trees burned
+against the rock and vinegar poured on the heated stone (21.37).
+Juvenal has the vinegar and no fire at all (*Satire* 10.153).
+Appian has the wood burned, the ashes quenched with water and
+vinegar, and the brittle rock then broken with iron hammers,
+and adds that the road was still in use in his day and called
+Hannibal's pass (*Hannibalica* 4). A detail that three writers
+explain three ways was circulating rather than being copied,
+which makes it older than any of them and no better attested.
+The accounts, and the ancient quarrel over whether the Alps
+were impassable or ordinary, are set side by side in the
+[source comparison](/sourceComparisons/alps-crossing).
 
 Casualties through the crossing were substantial. Hannibal
 descended into the Po Valley with 12,000 African and 8,000

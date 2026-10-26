@@ -1,10 +1,12 @@
 slug: alps-troop-losses
 statement: >
   According to Polybius, Hannibal crossed the Pyrenees with about 50,000
-  infantry and 9,000 cavalry and reached the Po Valley after the Alps
-  with 12,000 African and 8,000 Iberian infantry and no more than 6,000
-  cavalry. The 37 elephants that crossed the Rhône came through the
-  mountains; nearly all died in the winter after the Trebia.
+  infantry and 9,000 cavalry, set out from the Rhône crossing with 38,000
+  infantry and more than 8,000 cavalry, and reached the Po Valley with
+  12,000 African and 8,000 Iberian infantry and no more than 6,000
+  cavalry, having lost about half his force in the passes. The 37
+  elephants that crossed the Rhône came through the mountains; nearly all
+  died in the winter after the Trebia.
 confidence: attested
 scholarly_consensus: >
   Polybius's arrival figures are generally preferred because he took them
@@ -12,18 +14,36 @@ scholarly_consensus: >
   are still Hannibal's own numbers, published years later, and the Roman
   tradition Livy reports had no agreed count. The order of magnitude,
   heavy losses between the Pyrenees and the Po and an army of roughly
-  26,000 still able to fight, is secure; the division of losses between
-  the march through Gaul and the Alps is not recoverable.
+  26,000 still able to fight, is secure.
+
+  **The sequence does not add up, and saying so is part of reporting it.**
+  Polybius has 90,000 foot and 12,000 horse leave New Carthage (3.35.1).
+  Hanno is left at the Pyrenees with 10,000 foot and 1,000 horse and a
+  like number sent home, which accounts for about 22,000 (3.35.6). That
+  should leave something near 68,000 foot, and Polybius gives 50,000
+  (3.35.7). He covers the gap with "many severe engagements and great
+  loss" between the Ebro and the Pyrenees (3.35.3-4), which is a great
+  deal of loss to pass over in a clause. A second gap follows: 50,000
+  foot at the Pyrenees against 38,000 at the Rhône (3.60.5), with no
+  battle recorded in between. The site reports the figures as Polybius
+  gives them and does not reconcile them. Whether the departure figure is
+  inflated, the intermediate figures are, or the march simply bled men at
+  a rate nobody wrote down, the arithmetic is the author's problem and
+  not a modern misreading. The division of losses between Gaul and the
+  Alps remains unrecoverable.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "3.35, 3.42, 3.56, 3.74"
+    passage_ref: "3.35, 3.42, 3.56, 3.60.5, 3.74"
     passage_summary: >
-      Gives about 50,000 foot and 9,000 horse after the Pyrenees (3.35),
-      37 elephants at the Rhône (3.42), and 12,000 African and 8,000
-      Iberian foot with no more than 6,000 horse on arrival in Italy
-      (3.56), citing the Lacinian tablet for the arrival figures. The
-      elephants mostly perished in the cold after the Trebia (3.74).
+      Gives 90,000 foot and 12,000 horse leaving New Carthage and about
+      50,000 foot and 9,000 horse after the Pyrenees (3.35), 37 elephants
+      at the Rhône (3.42), 38,000 foot and more than 8,000 horse setting
+      out from the Rhône crossing with about half the force lost in the
+      passes (3.60.5), and 12,000 African and 8,000 Iberian foot with no
+      more than 6,000 horse on arrival in Italy (3.56), citing the
+      Lacinian tablet for the arrival figures. The elephants mostly
+      perished in the cold after the Trebia (3.74).
   - source: livy-auc
     stance: qualifies
     passage_ref: "21.38"

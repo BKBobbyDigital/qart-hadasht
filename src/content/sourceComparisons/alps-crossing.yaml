@@ -195,18 +195,42 @@ points_of_difference:
         what_it_says: >
           Trees are felled and burned against the rock, and vinegar is
           poured on the heated stone to split it (21.37).
+      - source_slug: appian-iberica
+        what_it_says: >
+          A third version, mechanically different from Livy's. In the
+          *Hannibalica* (4) Hannibal cuts and burns wood, quenches the
+          ashes with water **and vinegar**, and then shatters the
+          brittle rock with iron hammers. Appian adds that the road so
+          opened was still in use in his own day and was called
+          Hannibal's pass.
     commentary: >
-      The vinegar story is the most retold detail of the crossing and it is
-      not in Polybius, who was interested in exactly this kind of practical
-      detail and describes the road-building at length. That silence is the
-      strongest reason to doubt it. The technique itself is not absurd.
-      Fire-setting was a real way of breaking rock, and Pliny (*Natural
-      History* 33.71) describes miners splitting hard stone with fire and
-      vinegar, though whether the vinegar did any work is debated. So the
-      episode may be a Latin elaboration built on a known mining practice,
-      or a garbled memory of fire used somewhere on the route. What the
-      evidence does not support is telling it, as popular accounts
-      usually do, as the way Hannibal got down the mountain.
+      The vinegar story is the most retold detail of the crossing, and it
+      is not in Polybius, who was interested in exactly this kind of
+      practical detail and describes the road-building at length. That
+      silence is still the strongest reason to doubt it. But the site
+      described the episode as Livy's alone and as a Latin elaboration
+      until October 2026, and neither is right.
+
+      The later tradition is wider than one author and crosses languages.
+      Juvenal has the vinegar without any fire at all, the version that
+      makes least physical sense and the one popular memory kept: *diducit
+      scopulos et montem rumpit aceto*, he splits the rocks and bursts the
+      mountain with vinegar (*Satire* 10.153). Appian has fire, vinegar
+      and hammers, in Greek, with the vinegar quenching ashes rather than
+      poured on hot stone as in Livy. Ammianus is reported to carry it
+      too, though the site has not read him. Three surviving tellings that
+      differ in mechanism are more likely a detail that circulated and was
+      re-explained by each writer than one man's invention copied forward.
+
+      The technique is not absurd. Fire-setting was a real way of breaking
+      rock, and Pliny (*Natural History* 33.71) describes miners splitting
+      hard stone with fire and vinegar, though whether the vinegar did any
+      work is debated. What the evidence does not support is telling it,
+      as popular accounts usually do, as the way Hannibal got down the
+      mountain. Appian's other detail is worth more than his chemistry: a
+      pass still bearing Hannibal's name three and a half centuries later
+      is evidence of local memory attaching to a route, which bears on
+      [which pass it was](/openQuestions/alps-which-pass).
 
   - topic: How many men came through
     positions:
@@ -266,4 +290,4 @@ related_narratives:
 related_questions:
   - alps-which-pass
 
-last_revised: "2026-09-15"
+last_revised: "2026-10-26"
