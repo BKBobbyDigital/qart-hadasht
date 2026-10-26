@@ -34,7 +34,7 @@ referenced_claims:
   - hannibal-campaign-heraclean-presentation
   - hannibal-alexander-model
   - melqart-heracles-identification
-last_revised: "2026-09-21"
+last_revised: "2026-10-26"
 ---
 
 Every general in the Hellenistic world claimed the gods were with him.
@@ -224,6 +224,23 @@ furniture of Greek epic. The dream as Silenus told it put Hannibal
 among the Olympians, commissioned by the king of the gods, which is
 exactly the kind of sanction a Hellenistic historian would give a
 Hellenistic king.
+
+A second line of argument reaches the same suspicion from the other
+end. [Eve MacDonald](/sources/macdonald-hannibal-2015) reports
+Devillier and Krings questioning whether Livy's placement can be right
+at all, on the ground that the dream sits awkwardly where he puts it:
+the natural settings would be Gades in the presence of the god, or the
+Alps, or the eve of the first battle with Rome, and the march up to the
+Ebro is none of these (p. 266 n. 37). That is a literary judgment
+rather than evidence, and it was reached independently of Fernández
+Camacho's argument from the Gades spring. Two readings converging on
+the same displacement is worth more than either alone, and it is still
+not proof. What the site holds is that the dream circulated in more
+than one setting, that Livy's is the latest and least motivated of
+them, and that nobody can now say where Silenus put it. MacDonald also
+lists Valerius Maximus and Zonaras among the witnesses to the dream;
+the site has not read either and does not know which version each
+carries.
 
 ## Who it was for
 
