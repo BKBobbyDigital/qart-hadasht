@@ -6,11 +6,11 @@ export default {
       fontFamily: {
         // `serif` is a legacy class name kept to avoid churning 200+
         // usages — it now maps to the modern display grotesque
-        // (Bricolage) that carries all headings/leads. The masthead
+        // (Libre Franklin) that carries all headings/leads. The masthead
         // wordmark uses `heritage` (Cormorant) as the one nod to the
         // ancient identity.
-        serif: ['Bricolage Grotesque', 'system-ui', 'sans-serif'],
-        display: ['Bricolage Grotesque', 'system-ui', 'sans-serif'],
+        serif: ['Libre Franklin', 'system-ui', 'sans-serif'],
+        display: ['Libre Franklin', 'system-ui', 'sans-serif'],
         heritage: ['Fraunces', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
         phoenician: ['Noto Sans Phoenician', 'serif'],
