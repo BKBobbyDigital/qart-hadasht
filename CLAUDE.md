@@ -453,11 +453,31 @@ from accent to a small graphic system. The masthead is the one
 heritage element kept.
 
 **Fonts** (loaded in `global.css` `@import`):
-- **Bricolage Grotesque** — the display face for ALL headings and
-  leads. Wired via the Tailwind `serif` family (kept that legacy
-  class name to avoid churning 200+ `font-serif` usages — it now
-  resolves to Bricolage, NOT Cormorant). Also aliased as `display`.
-- **Inter** — body / UI (`sans`), 18px base, prose 19px.
+- **Libre Franklin** — the display face for ALL headings and leads.
+  Wired via the Tailwind `serif` family (kept that legacy class name
+  to avoid churning 200+ `font-serif` usages — it resolves to Libre
+  Franklin, NOT Cormorant and no longer Bricolage). Also aliased as
+  `display`. **Swapped in on 27 Oct 2026** (commit `3e285fc`),
+  replacing **Bricolage Grotesque**, which the user flagged as the
+  signature typeface of AI product sites. Libre Franklin is in the
+  Franklin Gothic line, the American newspaper headline face, which
+  is closer to the magazine brief Direction C was reaching for.
+  Options mocked up and rejected: Archivo and Instrument Sans (both
+  neutral, no gain over Bricolage), Fraunces promoted from the
+  masthead (tempting, since it would drop a family, but it is a
+  serif and Direction C moved away from one), Newsreader, Source
+  Serif 4, Bodoni Moda. **Tracking was retuned with the swap**,
+  because the old negative values were set against Bricolage, whose
+  default fit is much tighter: at `-0.038em` Franklin's rounder
+  forms closed up the word gaps on the homepage lead. Now
+  `-0.024em` on `h1`, `-0.018em` on `h2`, `-0.012em` on `h3`/`h4`,
+  `-0.014em` on the shared rule. If the scale ever needs to move
+  again, that is the lever.
+- **Inter** — body / UI (`sans`), 18px base, prose 19px. Noted as
+  the other half of the generic-modern-web look if that ever
+  bothers the user again; not changed, and a bigger decision than
+  the display face since it governs reading comfort across the
+  whole corpus.
 - **Fraunces** — the masthead + footer wordmark only, via the
   `heritage` Tailwind family. A modern editorial serif (replaced
   Cormorant, which read too delicate/old). The one serif on the site.
@@ -472,7 +492,7 @@ heritage element kept.
   lead standfirst rule.
 
 **Signature elements:**
-- `.eyebrow` — Bricolage, tyrian, uppercase, with a short tyrian
+- `.eyebrow` — Libre Franklin, tyrian, uppercase, with a short tyrian
   **leading rule** (`::before` bar). Add `.no-bar` for tight/label
   contexts (masthead tagline, nav group labels).
 - `.lead` — Inter-medium standfirst behind a 4px tyrian left-rule.
@@ -490,7 +510,8 @@ heritage element kept.
   `01 / 02` tyrian section heads** (CSS counters) on its `h2`s.
   Scoped so short entity summaries (also `.prose-encyclopedia`) stay
   plain.
-- Headings: Bricolage 700/800, tight tracking, `text-wrap: balance`.
+- Headings: Libre Franklin 700/800, tight tracking (see the font note
+  above for the exact values, retuned Oct 2026), `text-wrap: balance`.
   `h1` uses one fluid `clamp(2.35rem, 4.8vw, 3.85rem)` in global.css
   (dialed down Aug 2026 from an earlier `5rem`-cap that read oversized
   once the shell widened to `max-w-6xl` — single-word index titles like
@@ -498,7 +519,7 @@ heritage element kept.
   (`text-4xl` etc.) were stripped off every `<h1>` (38 files) so the
   global scale actually governs.
 - Infobox: white card with a **filled tyrian header bar** ("QUICK
-  FACTS" in white Bricolage), not the small kicker-bar.
+  FACTS" in white Libre Franklin), not the small kicker-bar.
 - Prose h2: strong 2px near-black top rule.
 - Oldstyle figures were DROPPED (they read "old"); prose uses normal
   lining figures now.
@@ -747,7 +768,7 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~763 pages** as of
+parked until the day version settles. The site is **~766 pages** as of
 the last build.
 
 ### Collection counts (current)
@@ -758,7 +779,7 @@ the last build.
 | people | 84 |
 | places | 63 |
 | sources | 100 |
-| claims | 179 |
+| claims | 182 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
@@ -2766,22 +2787,36 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 26 Oct 2026)
+### Open threads (as of 27 Oct 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
 is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
 2015)**, source `macdonald-hannibal-2015`, sending pages as they go.
 Worked so far: the introduction and first chapter, the Barcid family
 tree, the Hellenistic setup chapters (pp. 26–40), the Hamilcar chapter
-(pp. 44–60), the Barcid Iberia chapter (pp. 61–81) and the march into
-Italy (pp. 82–99). **Chapter 6, "Hannibal the Conqueror: From the
-Trebia to Trasimeno", is next.** She now sends her endnotes alongside
-each chunk, which is where her value is: see the notes at the end of
-the Hamilcar, Barcid Iberia and march-into-Italy sections on how to use
-her, including the comparison with Miles and the point that her error
-rate fell sharply once she reached her own subject. **Regression rules
-stand at 86.** Nothing below is in progress. Pick one up only when the
-user asks.
+(pp. 44–60), the Barcid Iberia chapter (pp. 61–81), the march into
+Italy (pp. 82–99) and the Trebia-to-Trasimeno chapter (pp. 100–118).
+**Chapter 7, "The Apogee: Cannae and the War in Italy", is next**, and
+it is where `cannae-allies-defected` should finally get its page
+reference, the last of the original six `further_reading` claims still
+owing one. She now sends her endnotes alongside each chunk, which is
+where her value is: see the notes at the end of the Hamilcar, Barcid
+Iberia and Trebia-to-Trasimeno sections on how to use her, including
+the comparison with Miles and the point that her error rate fell
+sharply once she reached her own subject. **Doing a pre-audit of what
+the site holds before her pages arrive is worth the time**; it paid for
+itself on ch. 6. **Regression rules stand at 94.** Nothing below is in
+progress. Pick one up only when the user asks.
+
+- **The Felsnas epitaph** (Tarquinia, TLE 890), held back on 27 Oct
+  2026. MacDonald gives it as an Etruscan who lived to 106 and claimed
+  to have fought with Hannibal's men at Capua. Real inscription, and it
+  would be material evidence in a third language for Italians serving
+  with Hannibal, which is exactly the site's discipline. But the
+  Hannibal reading goes back to Pfiffig and rests on verbs (*murce*,
+  *tleche*) whose meaning is not settled, and only a summary of the
+  Italian discussion has been seen. **Add it only from the editio
+  princeps**, and frame the reading as a reading.
 
 - **A book of her own, floated 23 Oct 2026, not a task.** The user asked
   whether they could write one. The agreed shape, if it ever becomes
@@ -3649,6 +3684,169 @@ Rhône figure from Appian. The site already had it right at 3.42.
 the site. Her "kilometres" went in verbatim and the spelling audit caught
 it; **watch for her British spellings when quoting her closely.**
 
+### MacDonald's Trebia-to-Trasimeno chapter (27 Oct 2026)
+
+Her ch. 6, pp. 100–118, in three chunks with the endnotes. Three
+commits: `7b50e51`, `acf70c3`, `da7c423`. **Nothing of hers needed
+correcting on the battles themselves.** The errors were ours, in
+quantity, and the best material came from following her citations to
+passages the site had never used. Checked against Polybius 3.60–3.96,
+Livy 21.41–63 and 22.1–22.46, Nepos *Hann.* 4.3 and Plutarch
+*Sertorius* 1.4.
+
+**A pre-audit before her pages arrived paid for itself** and is worth
+repeating next chapter: it predicted three of the gaps (the religious
+response, the Arno marshes and the eye, Servilius and Minucius having
+no pages) and sized the thin spots, so the work started from the
+site's holes rather than from her text.
+
+**Our errors, and they ran across pages as usual.**
+- **The Ticinus rescue.** The claim said Livy follows Polybius and that
+  "some Roman antiquarian tradition" disputed it. Polybius 3.65 names
+  no rescuer at all; the son appears only at 10.3, in the digression on
+  the younger Scipio, on Laelius's authority. The competing version is
+  **Coelius Antipater's**, named by Livy, giving the credit to a
+  Ligurian slave, and Livy prefers the son because more authorities
+  recorded it and report had settled on it, which is weight of numbers
+  and repute. Retagged `attested` → `contested`.
+- **Trebia casualties.** "Approximately 20,000 Romans were killed" is
+  not in Polybius, who gives only that not less than ten thousand held
+  together as far as Placentia and most of the rest died near the river
+  (3.74).
+- **The Trasimene superlative, on five pages.** "The largest ambush in
+  the history of warfare" was an unsourced modern comparative that the
+  June 2026 confidence re-audit had retagged without rewriting. The new
+  regression rule then found it on the second-punic-war event, period
+  06, the Trasimene place page and the battle diagram's header comment
+  after the claim was fixed. **Rule 10 working; a single grep would
+  have missed two.** Also removed: an invented 25,000 for Hannibal's
+  strength, which no source gives, and Plestia for the Centenius
+  action, which Livy puts in Umbria.
+- **Venus Erycina** was dated on the Eryx page only to "after 241".
+
+**The gaps that are now filled.**
+- **Rome's religious response**, absent entirely. The load-bearing item
+  is `supplicatio ad aedem Herculis nominatim`, a supplication at the
+  temple of Hercules *named specifically*, among the expiations drawn
+  from the Sibylline Books in the winter after the Trebia (Livy 21.62).
+  New claim. **The reading is kept off the fact**: Miles and MacDonald
+  take it as answering Hannibal's Heraclean presentation; Livy gives no
+  motive for any god on the list and Hercules had held cult at the Ara
+  Maxima for ever. What keeps it alive is the sequence, since Livy
+  21.41.7 has the elder Scipio mock the claim a few months earlier.
+- **Venus Erycina's Roman temple**, vowed by Fabius as dictator in 217
+  on the Books' instruction, with the temple to Mens vowed by the
+  praetor Otacilius, games to Jupiter, a lectisternium and a *ver
+  sacrum* (Livy 22.9–10). On the Eryx and Astarte pages. **The pairing
+  is the point**: two cult actions in two years, both read as
+  appropriation, both without a stated motive. Two inferences of one
+  shape is the strongest thing that can be said for either.
+- **The eye and the wigs**, both missing. Polybius 3.79.12 has
+  ophthalmia ending in the loss of one eye; Livy 22.2 gives the causes;
+  **Nepos 4.3 has the right eye never as good again rather than lost**,
+  and has him carried in a litter at Trasimene. Plutarch *Sert.* 1.4
+  makes the one-eyed commander a category (Philip, Antigonus, Hannibal,
+  Sertorius), which is a reason for care. The wigs (3.78.1–4) are a
+  precaution against assassination by his own Celts, reported by
+  Polybius with no moral; the Punic-deception coloring is the
+  tradition's.
+- **The dictatorship was irregular.** One consul dead and the other cut
+  off, so the people appointed a dictator themselves, which Polybius
+  calls unprecedented, and **Minucius was elected to the mastership of
+  the horse rather than chosen by Fabius**, described as the dictator's
+  successor when otherwise occupied (3.86.7, 3.87.9; Livy 22.8.5–7).
+- **Indibilis's first appearance**, missed because Polybius calls him
+  **Andobales**: captured at Cissa in 218 with the commander Hanno and
+  the heavy baggage Hannibal left behind, "despot of central Iberia"
+  and a firm supporter of Carthage (3.76.6–7). The site's type case for
+  side-switching began as a Carthaginian partisan, was taken by Rome in
+  its first Iberian campaign, and was back with Carthage to be taken
+  again in 209.
+
+**Two findings that strengthen standing site positions.**
+- **Carthaginian naval effort in both years.** Two new claims. For 218
+  (Livy 21.49–51): twenty quinqueremes against the Italian coast,
+  squadrons off Lipari, an attempt on Lilybaeum, a garrison on Malta
+  surrendered by a Hamilcar with about two thousand men, all failed
+  within the season. For 217: the Ostia convoy taken off Cosa (Livy
+  22.11) and, after the Ebro defeat, **seventy ships sent via Sardinia
+  to Pisa, the commander expecting to join Hannibal**, withdrawing
+  without a fight when a Roman fleet of a hundred and twenty came out
+  (Polybius 3.96.7–9). Polybius's own words for the motive, "regarding
+  the command of the sea as necessary for all their projects", are
+  Carthage naming the problem the site says it never solved. Also
+  Polybius 3.87: after Trasimene the news was received with great
+  rejoicing and Carthage moved to support both Italy and Iberia.
+- **The African infantry re-armed from the enemy.** Polybius 3.87 has
+  Hannibal re-equip them in the Roman fashion after Trasimene, and Livy
+  22.46.4 has them at Cannae looking like a Roman line, armed from the
+  Trebia and mostly from Trasimene. Into the army-composition take: the
+  detail concedes that African equipment was worth replacing, and at
+  the same time describes a decision nobody takes with hired troops.
+
+**A first-rate *fides Punica* item**, now on `themes/punic-identity`.
+The six thousand of the vanguard who broke out of the defile
+surrendered next day to Maharbal on his pledge that they should go free
+with one garment each; Hannibal chained them all, and Livy's comment is
+**`Punica religione seruata fides`**, a word for religious exactness
+used to mean its opposite (22.6). Two things are held beside it: the
+pledge is Maharbal's and the breach is not, and the same campaign
+releases the Italian allies without ransom twice without the tradition
+reaching for a national adjective.
+
+**Flaminius rewritten**, because the site reads hostile framing against
+itself everywhere else and had simply reproduced it here. Polybius's
+mob-courtier (3.80.3) and Livy's auspices charge are both post-defeat.
+Against them: he had beaten the Insubres as consul in 223; going north
+early has an explanation other than impiety; and following Hannibal is
+intelligible with Servilius closing from Ariminum. The failure to scout
+the defile is real and the page says so. **The formal verdict is the
+tell**: Fabius told the senate the fault lay more in neglect of the
+ceremonies than in rashness or ignorance (Livy 22.9.7), which put the
+cause where expiation could reach it and required nobody living to
+answer.
+
+**Her errors this chapter**, all of the established shape, right
+citation and overstated content:
+- **Mago's ambush force** as "2,000 cavalry"; Polybius 3.71.5–9 has a
+  thousand horse and a thousand foot, picked by having a hundred of
+  each choose ten apiece.
+- **The disguises and languages.** She cites Livy 22.1.1–4 for Hannibal
+  speaking different languages; the Latin has dress and head-coverings
+  only, and the languages come from her own note's Zonaras 8.24.8.
+- **"A pre-arranged meeting" off Etruria** (Polybius 3.96.7–9), where
+  Polybius has the commander sail to Pisa *believing* he would meet
+  Hannibal. Her next sentence grants the sources allow no coherent
+  reconstruction, so her text outruns her own hedge.
+- **"Praetor" Centenius**; Livy 22.8 calls him propraetor and Polybius
+  gives no title.
+- She credits Polybius 3.87.1 to Livy.
+- The **coordination thesis** generally, declined in chunk 1 and again
+  in chunk 3. Her own ch. 6 says in one place that a coordinated
+  strategy is more apparent here than anywhere in the war and in
+  another that a lack of tangible support forced Hannibal to live off
+  the country. The evidence carries attempted support that failed.
+
+**Held back, deliberately: the Felsnas epitaph** (Tarquinia, TLE 890),
+which she gives as an Etruscan who lived to 106 and claimed to have
+fought with Hannibal's men at Capua. The inscription is real and would
+be valuable, since it would be material evidence in a third language
+for Italians serving with Hannibal. But **the Hannibal reading goes
+back to Pfiffig and rests on verbs (*murce*, *tleche*) whose meaning is
+not settled**, and only a summary of the Italian discussion was seen.
+Add it only from the editio princeps.
+
+**A process note worth keeping.** The new `pre-arranged meeting` rule
+fired on the site's own prose, which quotes her wording in order to
+reject it. Because REGRESSIONS is a **gate** and must print CLEAN,
+unlike the report-only review terms, a gate rule cannot be left firing
+on correct prose. The rule now skips the phrase when a named modern
+scholar appears in the same sentence, which encodes
+reporting-not-asserting rather than weakening the check. Three other
+rules this chapter needed narrowing after false positives, one of them
+on prose written in the same commit. **Unit-test every rule against
+both the wrong and the right wording before committing it.**
+
 ### A Reddit exchange on the navy (Oct 2026)
 
 Not a site change, but the positions are worth keeping, since the
@@ -4123,14 +4321,16 @@ cannot do from the open web.
   the best candidate for the next check in `evidence-audit.mjs`.
 
 **The review half has a reviewed baseline, not a backlog:** `consensus`
-8, `universal` 0, `inevitable` 11, `design-from-outcome` 11,
+8, `universal` 0, `inevitable` 10, `design-from-outcome` 12,
 `prose-attribution` 0, `unpaged-modern` 6, `named-holders` 3. If a number
 rises, something new was written. **Do not drive one to zero without
 reading the hits**; what remains in each is the site arguing correctly
 and tripping a blunt pattern (the `spw-causation` take weighing degrees
 of inevitability, the tophet narrative recounting how a consensus
 shifted, the Barcid take quoting a "planned outputs" position so it can
-reject it).
+reject it). `design-from-outcome` rose to 12 on 27 Oct 2026 on a
+sentence in `claims/carthage-naval-offensive-218` describing the
+reading the site rejects, which is the same legitimate category.
 
 **Next pages for review, if the batch continues.** Nothing here is
 flagged as wrong; these are simply the pages the eleven audits did not
@@ -4831,7 +5031,7 @@ tyrian graphic system, and varied card weights. Structure of
 `pages/index.astro`, top to bottom:
 
 - **Lead story** — a two-column marquee (`lg:grid-cols-[1.55fr_1fr]`)
-  closed by a 3px ink rule. Left: a big Bricolage headline
+  closed by a 3px ink rule. Left: a big Libre Franklin headline
   (`text-[clamp(2.2rem,4.4vw,3.5rem)]`) + standfirst + byline, linking
   to a flagship piece. Right: a "Where this site differs" note in
   Fraunces italic. **The lead is a single hand-curated slot** (the
@@ -4973,7 +5173,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **763 pages**.
+output. As of the last CLAUDE.md refresh it was around **766 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
