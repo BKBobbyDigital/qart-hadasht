@@ -588,6 +588,22 @@ const REGRESSIONS = [
     right: 'Livy 22.1 has Hannibal changing his dress and head-coverings only; the detail about speaking different languages is Zonaras, not Livy.',
     fixed: 'MacDonald ch. 6 pass',
   },
+  {
+    id: 'etruria-fleet-prearranged-meeting',
+    // Skipped when attributed to a named modern scholar in the same
+    // sentence: the site may report the stronger reading in order to
+    // decline it, which is not the same as asserting it.
+    re: /(?<!(?:MacDonald|Miles|Hoyos|Lazenby|Walbank|Seibert|Goldsworthy)[^.]{0,90})(pre-arranged|prearranged|appointed|agreed) (meeting|rendezvous)[^.]{0,60}(Etruria|Pisa|fleet|ships)/i,
+    right: 'Polybius 3.96.7-9 has the commander sail to Pisa expecting to meet Hannibal there; no arrangement between Hannibal and Carthage is attested.',
+    fixed: 'MacDonald ch. 6 pass',
+  },
+  {
+    id: 'venus-erycina-rome-temple-after-241',
+    // The Rome temple was vowed in 217, not at the FPW settlement.
+    re: /(temple|aedes)[^.]{0,60}Venus Erycina[^.]{0,40}\b241|Venus Erycina[^.]{0,40}(temple|aedes)[^.]{0,40}\b241|\b241[^.]{0,50}(temple|aedes)[^.]{0,40}Venus Erycina|\b241[^.]{0,50}Venus Erycina[^.]{0,40}(temple|aedes)/i,
+    right: "Rome's temple to Venus Erycina was vowed by Fabius Maximus in 217 on the Sibylline Books' instruction after Trasimene (Livy 22.9-10); 241 is when Eryx itself passed to Rome.",
+    fixed: 'MacDonald ch. 6 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

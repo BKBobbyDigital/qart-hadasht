@@ -1,0 +1,72 @@
+slug: carthage-naval-effort-to-reach-hannibal-217
+statement: >
+  In 217 BCE a Carthaginian fleet took a Roman supply convoy bound
+  from Ostia to the army in Iberia, off the harbor of Cosa in
+  Etruria; and after the naval defeat at the Ebro, Carthage manned
+  and sent out seventy ships which touched at Sardinia and then at
+  Pisa, their commander expecting to join Hannibal there. They
+  turned back on news that a Roman fleet of a hundred and twenty
+  quinqueremes had put to sea.
+confidence: attested
+scholarly_consensus: >
+  Polybius gives Carthage's reason for the effort in his own voice:
+  they regarded the command of the sea as necessary for all their
+  projects. That is the Carthaginian government in 217 identifying
+  the problem the site argues was never solved, and acting on it.
+
+  Taken with the operations of 218, the first two years of the war
+  do not support the familiar picture of a Carthage that left
+  Hannibal to his own devices. What they support is a state that
+  tried twice and was outmatched at sea. Seventy ships withdrew
+  from a hundred and twenty without fighting, and
+  [MacDonald](/sources/macdonald-hannibal-2015) adds the structural
+  reason that goes with the arithmetic: there was no friendly port
+  on the Italian coast from which a Carthaginian fleet could work.
+
+  One qualification matters, because it is the difference between
+  an attempt and a plan. MacDonald writes that Polybius suggests a
+  pre-arranged meeting for the Carthaginian ships off Etruria.
+  Polybius says the commander sailed to Pisa believing he would
+  meet Hannibal there, which is an expectation held by an admiral
+  and not an arrangement attested between a general and his
+  government. She is careful about this in her own next sentence,
+  granting that the sources do not allow a coherent reconstruction,
+  and the site holds to the weaker reading. The same page also says
+  that a lack of tangible support from Carthage forced Hannibal to
+  live off the country, which sits awkwardly beside her argument
+  elsewhere for a coordinated strategy; the evidence will carry
+  attempted support that failed, and not much more.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.11"
+    passage_summary: >
+      Dispatches reached the dictator that transport ships carrying
+      provisions from Ostia to the army in Spain had been captured
+      by the Punic fleet near the harbor of Cosa.
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.96.7-3.96.9"
+    passage_summary: >
+      After the defeat at the Ebro the Carthaginians manned and
+      dispatched seventy ships, regarding the command of the sea as
+      necessary for all their projects. The fleet touched first at
+      Sardinia and then at Pisa in Italy, its commander expecting to
+      meet Hannibal there. Learning that the Romans had put to sea
+      from Rome with a hundred and twenty quinqueremes, they
+      withdrew to Sardinia and then to Carthage. Gnaeus Servilius
+      pursued for a distance and gave up, left far behind.
+notes: >
+  The naval engagement at the mouth of the Ebro that preceded this
+  is the action the one surviving fragment of
+  [Sosylus](/sources/sosylus-sparta) is usually taken to describe,
+  which makes it the only episode of the war for which a
+  Hannibal-aligned narrative survives in anything like its own
+  words.
+entities:
+  - type: event
+    slug: second-punic-war
+    role: context
+  - type: person
+    slug: hannibal-barca
+    role: object
