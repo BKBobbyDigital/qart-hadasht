@@ -34,7 +34,7 @@ referenced_claims:
   - hannibal-campaign-heraclean-presentation
   - hannibal-alexander-model
   - melqart-heracles-identification
-last_revised: "2026-10-26"
+last_revised: "2026-10-27"
 ---
 
 Every general in the Hellenistic world claimed the gods were with him.
@@ -259,6 +259,21 @@ and Greek, speaks to the same double audience. Miles adds the peoples of
 central Italy, among whom Hercules was a major cult figure, especially
 in Samnium, whose long hostility to Rome made them obvious allies, and
 the Celts, whose chiefs traveled with bards who sang their deeds.
+
+There was a fifth audience, and it is the one that shows the message
+had carried. Livy gives the elder Scipio a speech to his men just
+before the Ticinus in which he asks whether this Hannibal is really
+the rival of the journeys of Hercules, *as he himself claims*, or a
+tribute-paying slave of the Roman people left behind by his father
+(21.41.7). The taunt only works if the claim is already in the air,
+and Livy's phrase puts it in Hannibal's own mouth. That is not
+evidence of what a consul said on the Po in 218, since the speech is
+Livy's composition written two centuries later, and it may equally
+record what Romans of Livy's day knew about Hannibal's
+self-presentation rather than what Romans of 218 did. Taken for what
+it is, a Roman writer acknowledging the claim in order to sneer at
+it, it is the only place in the surviving record where the enemy
+answers the program directly. The answer is to call him a slave.
 
 The Barcid silver coinage of Iberia, with its portrait head that can be
 read as Melqart, as Heracles, or as a Barcid in the god's guise, belongs

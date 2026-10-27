@@ -1,40 +1,74 @@
 slug: ticinus-young-scipio-rescue
 statement: >
-  The teenage Scipio (the future Africanus, then approximately
-  seventeen) saved his wounded father at the Ticinus by
-  charging the Carthaginian cavalry that had surrounded him.
-  The episode is preserved in Polybius on the authority of
-  Laelius, who was present with the future Africanus.
-confidence: attested
+  Publius Cornelius Scipio the elder was wounded at the Ticinus in
+  218 BCE and brought off the field alive. Who saved him was already
+  disputed in antiquity. Polybius credits the consul's teenage son,
+  the future Africanus, on the authority of Laelius, but does so in a
+  later digression rather than in his account of the battle; Coelius
+  Antipater credited a Ligurian slave. Livy reports both and prefers
+  the son.
+confidence: contested
 scholarly_consensus: >
-  The episode is attested with an unusually direct chain of
-  transmission (Laelius was Polybius's source for many Scipionic
-  details; Laelius was present at the engagement). Modern
-  scholarship treats it as substantially historical, while
-  noting that the dramatic framing in some later sources
-  (notably Livy) is rhetorically heightened.
+  The wound is not in doubt and neither is the survival. The rescuer
+  is, and the shape of the evidence is worth stating plainly, because
+  the episode is usually repeated as settled fact.
+
+  Polybius's narrative of the cavalry engagement (3.65) names no
+  rescuer at all. It says only that the Romans scattered and that a
+  few gathered closely round the consul, and the wound itself is
+  mentioned afterwards, as the reason Publius moved his force to
+  safety (3.66.2). The rescue appears in Polybius only at 10.3, in
+  the digression introducing the younger Scipio, where it is
+  attributed to Laelius. That is a good chain, Laelius having been
+  the future Africanus's lifelong companion, but it is also
+  testimony collected decades later from a friend of the man it
+  honors, and it sits in a passage whose purpose is to establish his
+  character.
+
+  Livy knows a competing version and names its source: Coelius
+  Antipater gave the credit to a slave of Ligurian birth. Livy
+  prefers the son, and says why, that more authorities handed it
+  down and that the report had prevailed. Weight of numbers and
+  established repute are weak grounds for choosing between accounts,
+  and they are the grounds Livy gives.
+
+  The site therefore treats the wound and the rescue as fact and the
+  rescuer as unresolved, while noting that the version which became
+  canonical is the one that founds a famous career, and the version
+  that did not is the one in which a slave saves a consul.
 sources:
   - source: polybius-histories
-    stance: supports
-    passage_ref: "10.3"
+    stance: qualifies
+    passage_ref: "3.65, 3.66.2, 10.3"
     passage_summary: >
-      Polybius preserves the episode explicitly, attributing the
-      account to Laelius, the future Africanus's lifelong
-      companion who was present at the engagement.
+      The battle narrative has the Roman cavalry broken and a few men
+      gathered closely round the consul, with no rescuer named, and
+      gives the wound as the reason he withdrew his force. The rescue
+      by the son appears separately at 10.3, in the digression on the
+      younger Scipio, on Laelius's authority.
   - source: livy-auc
     stance: supports
     passage_ref: "21.46"
     passage_summary: >
-      Livy preserves the episode with characteristic dramatic
-      framing; some Roman antiquarian tradition disputed the
-      detail, attributing the rescue instead to a Ligurian
-      slave, but Livy follows Polybius.
+      Says the danger to the wounded consul was driven off by the
+      intervention of his son, then just coming of age. Immediately
+      adds that Coelius assigns the credit for saving the consul to a
+      slave of Ligurian birth, and states his own preference for the
+      version about the son on the ground that more authorities
+      recorded it and common report had settled on it.
+  - source: coelius-antipater
+    stance: contradicts
+    passage_ref: "ap. Livy 21.46"
+    passage_summary: >
+      Survives only in Livy's citation. Gave the rescue to a Ligurian
+      slave rather than to the consul's son.
 notes: >
-  The episode connects the two principal Roman families of the
-  Punic Wars in a single moment: the elder Scipio's son becomes
-  the victor of Zama; his subsequent adopted grandson, Scipio
-  Aemilianus, destroys Carthage in 146 BCE. The Ticinus rescue
-  is the inception of that family arc.
+  The episode is the inception of a family arc the site follows
+  elsewhere: the elder Scipio's son wins at Zama, and his adoptive
+  grandson destroys Carthage in 146. That is a reason to be careful
+  with it rather than a reason to accept it, since a founding scene
+  for the most celebrated Roman house of the war is exactly the kind
+  of detail a tradition improves.
 entities:
   - type: person
     slug: scipio-africanus

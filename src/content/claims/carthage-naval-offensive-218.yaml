@@ -1,0 +1,81 @@
+slug: carthage-naval-offensive-218
+statement: >
+  Carthage fought an offensive naval campaign in the central
+  Mediterranean in 218 BCE, in the same season Hannibal crossed the
+  Alps. Livy records twenty quinqueremes with a thousand troops sent
+  to ravage the Italian coast, squadrons stationed off the Lipari
+  islands, an attempt on Lilybaeum that was beaten at sea, and a
+  garrison on Malta whose commander Hamilcar surrendered with about
+  two thousand men. Every one of these operations had failed by the
+  end of the year.
+confidence: attested
+scholarly_consensus: >
+  The operations themselves are narrated in detail and are not in
+  doubt. What they mean is a separate question, and the site keeps
+  the two apart.
+
+  They matter because the common account of the war has Carthage
+  leaving Hannibal unsupported from the start, and the first year
+  does not look like that. A state that sends a raiding squadron
+  against the Italian coast, tries to recover its old Sicilian
+  fortress and holds a garrison on Malta is not a state that has
+  decided to fight on land only. The site reads the later
+  thinness of Carthaginian naval effort as a shortage of trained
+  crews rather than a policy, and 218 is the year that shows the
+  intent was there before the means ran out.
+
+  [MacDonald](/sources/macdonald-hannibal-2015) goes further and
+  argues that a comprehensive and coordinated strategy between
+  Hannibal and Carthage is more apparent at this point than at any
+  other in the war. The site does not adopt that. Part of her case
+  rests on the recall of the consul from Lilybaeum, but the passage
+  records Rome ordering Sempronius home because Hannibal had reached
+  Italy, which is a Roman reaction and not evidence of a
+  Carthaginian plan. What is attested is that two Carthaginian
+  efforts ran in the same season against the same enemy, and that
+  Hannibal's arrival ended the invasion of Africa that Sempronius
+  was preparing. Reading a single design behind that is reading
+  intent from effect, which the
+  [charter](/charter) rules out as evidence.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.49-21.51"
+    passage_summary: >
+      Twenty quinqueremes with a thousand armed men sent by the
+      Carthaginians to ravage the coast of Italy, with nine held at
+      the Lipari islands and eight off Vulcan and three carried into
+      the strait; twelve Syracusan ships under Hiero taking
+      Carthaginian vessels near Messana unopposed; particular care
+      taken to seize Lilybaeum, where seven Punic ships were
+      surrounded and the attempt failed; Sempronius reaching Messana
+      and sailing on Lilybaeum with Hiero's support, then crossing to
+      Malta, which the Carthaginians held, where Hamilcar surrendered
+      with about two thousand men; and finally his recall north on
+      news that Hannibal was in Italy, joining his colleague at the
+      Trebia.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "3.61.7-3.61.11"
+    passage_summary: >
+      Records the Roman side only. News that Hannibal was in Italy
+      and already besieging cities struck Rome as astounding, and
+      urgent orders went to Tiberius at Lilybaeum to abandon his
+      present project and come to the help of his own country. He
+      sent the fleet home and put his soldiers under oath to be at
+      Ariminum by a fixed day. Polybius says nothing here about
+      Carthaginian naval operations or about any concerted plan.
+notes: >
+  The campaign also puts Hiero II on the Roman side at the opening
+  of the second war, as he had been for most of the first, which is
+  the context for the Syracusan reversal after his death.
+entities:
+  - type: event
+    slug: second-punic-war
+    role: context
+  - type: person
+    slug: sempronius-longus
+    role: object
+  - type: place
+    slug: lilybaeum
+    role: object

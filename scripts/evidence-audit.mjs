@@ -548,6 +548,27 @@ const REGRESSIONS = [
     right: 'Polybius 1.78 calls Naravas a Numidian of high rank and names no people; the Massylian label is a modern identification.',
     fixed: 'MacDonald family-tree pass',
   },
+  {
+    id: 'ticinus-rescue-in-polybius-battle',
+    // The rescue is absent from Polybius 3.65 and appears only at 10.3.
+    // Guard the attribution to his battle narrative, and the claim that
+    // Livy is following him. A sentence that keeps 10.3 distinct passes.
+    re: /Livy[^.]{0,60}follows? Polybius[^.]{0,40}(rescue|sav)|Polybius[^.]{0,30}3\.6[456](?:(?!names no|no rescuer|no one|not )[^.]){0,60}(rescue|saved|son)/i,
+    right: "Polybius 3.65 names no rescuer; the son appears only at 10.3, on Laelius's authority, and Livy names Coelius Antipater for a Ligurian slave instead.",
+    fixed: 'MacDonald ch. 6 pass',
+  },
+  {
+    id: 'trebia-twenty-thousand-roman-dead',
+    re: /(20,000|twenty thousand)[^.]{0,40}Romans?[^.]{0,30}(killed|dead|died|lost)[^.]{0,40}Trebia|Trebia[^.]{0,60}(20,000|twenty thousand)[^.]{0,30}(killed|dead|Roman dead)/i,
+    right: 'Polybius 3.74 gives no total for the Roman dead: not less than ten thousand held together as far as Placentia and most of the rest were killed near the river.',
+    fixed: 'MacDonald ch. 6 pass',
+  },
+  {
+    id: 'mago-trebia-two-thousand-cavalry',
+    re: /Mago[^.]{0,60}(2,000|two thousand) (picked |hand-picked |selected )?cavalry|(2,000|two thousand) (picked |hand-picked )?cavalry[^.]{0,40}Mago/i,
+    right: 'Polybius 3.71.5-9 gives Mago a thousand horse and a thousand foot, picked by having a hundred of each choose ten apiece.',
+    fixed: 'MacDonald ch. 6 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.
