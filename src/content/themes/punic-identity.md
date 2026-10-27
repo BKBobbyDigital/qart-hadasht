@@ -16,7 +16,7 @@ primary_entities: []
 related_themes:
   - punic-religion
 referenced_claims: []
-last_revised: "2026-10-13"
+last_revised: "2026-10-27"
 ---
 
 ## The category problem
@@ -151,6 +151,21 @@ Plautus's Hanno is tricky, and he is also devout, patient and in the
 end sympathetic, which is awkward for any account that treats the
 Roman view of Carthage as a single hostile line held from Cannae to
 146.
+
+Livy supplies the phrase in its sharpest form, and it is worth seeing
+what it is attached to. After Trasimene about six thousand Romans of
+the vanguard cut their way out of the defile and surrendered the next
+day to Maharbal, who pledged that they should go free with one garment
+apiece. Hannibal put them all in chains, and Livy's comment is that the
+faith was kept by Hannibal with Punic scruple, *Punica religione
+seruata fides* (22.6). The construction is the joke: a word for
+religious exactness is used to mean its opposite, and the adjective
+carries the whole charge. Two things are worth holding alongside it.
+The breach is attributed to Hannibal and the pledge to Maharbal, so the
+sentence needs a Carthaginian to give his word and a Carthaginian to
+break it. And the same campaign has Hannibal releasing the Italian
+allies among his prisoners without ransom, twice, which the Roman
+tradition records without finding a national adjective for it.
 
 ## What the question opens
 

@@ -102,7 +102,7 @@ map_caption: >
   the dashed line. Battle markers at Trebia (218), Trasimene (217),
   Cannae (216), and Zama (202). Polygons and route adapted from
   Hoyos 2010 and Goldsworthy 2003.
-last_revised: "2026-09-21"
+last_revised: "2026-10-27"
 ---
 
 The Second Punic War is the most thoroughly documented war of antiquity
@@ -152,10 +152,11 @@ in December was Hannibal's first major engagement of a Roman consular
 army, demonstrating the operational pattern (terrain feature as
 tactical instrument, elephant screen, cavalry envelopment) that would
 characterize his Italian campaign. The [Battle of Lake Trasimene](/events/battle-of-lake-trasimene)
-in June 217 BCE was the largest ambush in the history of warfare:
-[Flaminius](/people/flaminius)'s consular army was destroyed in a
-defile along the lake's wooded shore, with the consul killed and
-approximately 15,000 Romans dead.
+in June 217 BCE destroyed a consular army before it could form a
+line of battle: [Flaminius](/people/flaminius) led his column into a
+defile along the lake's wooded shore without scouting it, the attack
+came out of morning mist, and the fighting was over in about three
+hours, with the consul killed and 15,000 Romans dead.
 
 The Roman response to Trasimene was the appointment of
 [Fabius Maximus](/people/fabius-maximus-cunctator) as dictator and the

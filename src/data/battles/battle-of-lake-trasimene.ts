@@ -13,8 +13,8 @@ import type { BattleDiagramConfig } from '../../lib/battleDiagram';
  * the column from the hills above. The Romans had no time to deploy
  * into battle order. Flaminius was killed in the fighting; ~15,000
  * Romans died, ~10,000 escaped, and ~6,000 of the lead element cut
- * through and surrendered the next day. It is the largest ambush
- * in surviving ancient military history.
+ * through and surrendered the next day. A consular army was
+ * destroyed on the march, before it could form a line of battle.
  */
 
 // Palette: navy Rome, tyrian Carthage, brown Numidia.

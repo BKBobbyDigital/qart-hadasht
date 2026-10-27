@@ -273,7 +273,25 @@ record what Romans of Livy's day knew about Hannibal's
 self-presentation rather than what Romans of 218 did. Taken for what
 it is, a Roman writer acknowledging the claim in order to sneer at
 it, it is the only place in the surviving record where the enemy
-answers the program directly. The answer is to call him a slave.
+answers the program directly in words. The answer is to call him a
+slave.
+
+Over the following winter Rome may have answered it in cult. After the
+Trebia the city went through a season of prodigies and expiation, and
+among the rites the decemvirs drew from the Sibylline Books was a
+supplication at the temple of Hercules, *named specifically* (Livy
+21.62). Miles and MacDonald read that as a response to Hannibal: if the
+invader was presenting himself as walking in the god's path, Rome had
+to work to keep the god. The site reports the reading and does not
+adopt it, for reasons set out in the
+[claim](/claims/rome-supplication-to-hercules-217). Livy gives no
+motive for any god on the list, and Hercules had held cult at the Ara
+Maxima since before Rome had a history worth the name, so a supplication
+to him needs no Carthaginian to explain it. What keeps the reading alive
+is the sequence. The taunt before the Ticinus shows Romans had heard the
+claim; the supplication comes a few months later; and Rome had a
+long habit of recruiting the gods of its enemies rather than merely
+defeating them.
 
 The Barcid silver coinage of Iberia, with its portrait head that can be
 read as Melqart, as Heracles, or as a Barcid in the god's guise, belongs

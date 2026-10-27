@@ -1,28 +1,65 @@
 slug: trasimene-ambush-largest
 statement: >
-  The Battle of Lake Trasimene is the largest ambush in the
-  history of warfare by number of combatants involved.
-  Approximately 25,000 Roman troops, marching in a column along
-  the narrow defile between Lake Trasimene and the surrounding
-  mountains, were attacked by approximately 25,000 Carthaginian
-  troops concealed on the hillsides above. The engagement was
-  decided in approximately three hours.
-confidence: inferred
+  At Lake Trasimene on 21 June 217 BCE a consular army was destroyed
+  on the march, before it could form a line of battle. Hannibal
+  placed his army overnight along the hills above a defile between
+  the lake and the heights, and attacked out of morning mist as the
+  Roman column filed through. Livy says the fighting lasted about
+  three hours.
+confidence: attested
+scholarly_consensus: >
+  The tactical shape is given in detail by Polybius and Livy and is
+  not in dispute. Two things that are often attached to it are, and
+  the claim keeps them off.
+
+  The first is the superlative. This page formerly called Trasimene
+  the largest ambush in the history of warfare by number of
+  combatants, which no ancient source says and which the site had
+  not checked against anything. It is also unprovable in the form
+  stated. What can be said is narrower and still remarkable: a
+  Roman consular army was annihilated without deploying, which is a
+  different kind of event from a battle lost.
+
+  The second is Hannibal's strength. The sources do not give it for
+  this engagement. Modern estimates run from forty to fifty
+  thousand by this point in the campaign, and this page once
+  asserted twenty-five thousand, matching it to the Roman figure to
+  produce an even contest. There is no warrant for that. The Roman
+  figure of about twenty-five thousand is itself a reconstruction
+  from two legions with their allied complement.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "3.83-85"
+    passage_ref: "3.82.9-3.85.5"
     passage_summary: >
-      Polybius gives the fullest tactical account: Hannibal's
-      reconnaissance of the terrain, the disposition of forces
-      on the hills, the morning fog, the timing of the ambush,
-      the duration and outcome of the engagement.
+      Hannibal passed Cortona and its hills on his left with the lake
+      on his right, burning the country as he went to draw Flaminius
+      after him. Moving in the night he placed his Spanish and
+      African troops on the hill facing the entrance of the defile,
+      brought the Balearic slingers and pikemen round by a detour
+      into an extended line under the hills on one side, and set the
+      cavalry and Celts in a continuous line under the hills on the
+      other. He led his vanguard along the lake and gave the signal
+      when he was just in touch with the head of the Roman column.
+      Gives fifteen thousand Roman dead and about fifteen hundred of
+      his own.
   - source: livy-auc
     stance: supports
-    passage_ref: "22.4-6"
+    passage_ref: "22.4.4-22.7.7"
     passage_summary: >
-      Livy reproduces the account with characteristic dramatic
-      framing of Flaminius's death and the broader catastrophe.
+      Flaminius sent no scouts ahead. The attack came out of fog so
+      dense that ears were more use than eyes, and the Romans felt
+      themselves surrounded before they could see that they were;
+      fighting broke out at the front and on the flanks before a line
+      could be formed. The fighting lasted about three hours. About
+      six thousand of the vanguard broke out through the enemy in
+      front of them and escaped the pass. Gives fifteen thousand
+      Roman dead and two thousand five hundred of the enemy, with
+      many more dying of wounds afterwards.
+notes: >
+  Livy's and Polybius's Carthaginian casualty figures differ, fifteen
+  hundred against two and a half thousand, and both record that the
+  heaviest losses fell on the Celts.
 entities:
   - type: event
     slug: battle-of-lake-trasimene

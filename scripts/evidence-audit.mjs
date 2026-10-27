@@ -569,6 +569,25 @@ const REGRESSIONS = [
     right: 'Polybius 3.71.5-9 gives Mago a thousand horse and a thousand foot, picked by having a hundred of each choose ten apiece.',
     fixed: 'MacDonald ch. 6 pass',
   },
+  {
+    id: 'trasimene-largest-ambush-superlative',
+    // The page may say the superlative was dropped; guard the assertion.
+    re: /(?<!(?:formerly|no longer|once called|no ancient|never)[^.]{0,80})(largest|biggest|greatest) ambush[^.]{0,60}(history|warfare|antiquity|ever)/i,
+    right: 'No ancient source makes the comparison and it is unprovable as stated; what is attested is a consular army destroyed on the march before it could form a line.',
+    fixed: 'MacDonald ch. 6 pass',
+  },
+  {
+    id: 'centenius-cavalry-at-plestia',
+    re: /Plestia|(?<!pro)praetor\s+(?:Gaius\s+|C\.\s*)?Centenius|Centenius[^.]{0,60}(?<!pro)praetor(?!ian)/i,
+    right: 'Livy 22.8 puts the destruction of the four thousand cavalry in Umbria and calls Centenius propraetor; Polybius 3.86 gives him no title and names no place.',
+    fixed: 'MacDonald ch. 6 pass',
+  },
+  {
+    id: 'livy-hannibal-disguise-languages',
+    re: /Livy[^.]{0,80}(different|various|several) languages|(different|various) languages[^.]{0,60}Livy 22\.1/i,
+    right: 'Livy 22.1 has Hannibal changing his dress and head-coverings only; the detail about speaking different languages is Zonaras, not Livy.',
+    fixed: 'MacDonald ch. 6 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

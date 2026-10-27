@@ -1,0 +1,72 @@
+slug: rome-supplication-to-hercules-217
+statement: >
+  Among the expiations Rome performed in the winter after the Trebia,
+  prescribed from the Sibylline Books, was a supplication at the
+  temple of Hercules, named specifically. Livy's phrase is
+  *supplicatio ad aedem Herculis nominatim*.
+confidence: attested
+scholarly_consensus: >
+  The rite is attested and the wording is unambiguous. What it means
+  is a separate question, and the site keeps the two apart.
+
+  Livy sets out the winter of 218/217 as a season of prodigies and
+  expiation: ships seen shining in the sky, the temple of Hope struck
+  by lightning, a crow settling on the very couch in Juno's temple at
+  Lanuvium, a rain of stones in Picenum that brought a nine-day
+  sacrifice, the lots shrinking at Caere. The city was purified, the
+  decemvirs consulted the Books, gold went to Juno at Lanuvium, the
+  matrons dedicated a bronze statue to Juno on the Aventine, there
+  were offerings to the Genius and to Fortuna on Algidus, and at Rome
+  a lectisternium for Iuventas and the named supplication to
+  Hercules. Livy closes by saying the vows and expiations had in
+  great part relieved men's minds of religious anxiety. He gives no
+  reason for the choice of any particular god.
+
+  [Miles](/sources/miles-carthage-2010) and
+  [MacDonald](/sources/macdonald-hannibal-2015) read the Hercules
+  item as a response to Hannibal, whose campaign was presented as a
+  journey in the god's path, so that Rome was working to win the god
+  back to its own side. The site reports that as a reading and does
+  not state it as fact. Livy supplies no motive; Hercules had held
+  cult at Rome at the Ara Maxima for as long as Romans told stories
+  about their own origins, so a supplication to him needs no enemy to
+  explain it; and the list contains several deities, which is what a
+  prescribed expiation looks like.
+
+  What makes the reading worth stating anyway is that the Romans
+  demonstrably knew about the claim. Livy has the elder Scipio ask
+  his troops before the Ticinus whether this Hannibal is really the
+  rival of the journeys of Hercules, as he himself claims (21.41.7).
+  A city that had heard the claim mocked in the autumn made a named
+  supplication to that god over the winter. The juxtaposition is
+  real; the causal link is inferred, and is the site's reason for
+  treating the question as open rather than settled.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "21.62"
+    passage_summary: >
+      Lists the prodigies of that winter and the expiations ordered,
+      including the lustration of the city, the nine-day sacrifice
+      for the rain of stones in Picenum, consultation of the Books by
+      the decemvirs, gifts to Juno at Lanuvium and on the Aventine,
+      offerings to the Genius and to Fortuna, a lectisternium for
+      Iuventas, and a supplication at the temple of Hercules named
+      specifically. Closes by saying the vows and expiations
+      performed from the Sibylline Books had largely relieved men's
+      minds in the matter of religion.
+notes: >
+  The site treats the Carthaginian side of this god under
+  [Melqart](/deities/melqart) and the campaign's use of him in the
+  narrative on
+  [Hannibal and Heracles](/narratives/hannibal-and-heracles). This
+  claim is the Roman end of the same question, and the only evidence
+  the site has for Rome answering the program in cult rather than in
+  words.
+entities:
+  - type: deity
+    slug: melqart
+    role: context
+  - type: event
+    slug: battle-of-trebia
+    role: context
