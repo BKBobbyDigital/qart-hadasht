@@ -159,13 +159,20 @@ came out of morning mist, and the fighting was over in about three
 hours, with the consul killed and 15,000 Romans dead.
 
 The Roman response to Trasimene was the appointment of
-[Fabius Maximus](/people/fabius-maximus-cunctator) as dictator and the
-delaying-attritional strategy that would later make his Cunctator
-epithet honorary. Fabius refused pitched battle, harassed Hannibal's
-foragers, and preserved the field army intact. The strategy was
-politically unpopular in 217 (his master of horse Minucius publicly
-disputed it) but is the principal reason the post-Trasimene Roman
-position survived to fight again.
+[Fabius Maximus](/people/fabius-maximus-cunctator) as dictator, and
+[the campaign that followed](/events/fabian-campaign-217) filled the
+fourteen months to Cannae without a battle in it. Fabius refused
+pitched battle, shadowed Hannibal, and ordered the country ahead of him
+stripped and burned. The strategy was his own and not a charge laid on
+him with the office, which is why it could be fought over: his elected
+master of the horse [Minucius](/people/minucius-rufus) attacked it in
+public, an assembly gave Minucius power equal to the dictator's, and
+the army was divided between them. Hannibal escaped encirclement in
+Campania by driving two thousand oxen with burning faggots on their
+horns at the troops holding the pass, wintered at Geronium, and then
+drew the divided Roman command onto an ambush from which Fabius had to
+rescue his colleague. Rome mocked the strategy, overruled it, watched
+the alternative fail, and came back to it after Cannae.
 
 ## Cannae and the limit of victory
 

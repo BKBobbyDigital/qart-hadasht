@@ -604,6 +604,22 @@ const REGRESSIONS = [
     right: "Rome's temple to Venus Erycina was vowed by Fabius Maximus in 217 on the Sibylline Books' instruction after Trasimene (Livy 22.9-10); 241 is when Eryx itself passed to Rome.",
     fixed: 'MacDonald ch. 6 pass',
   },
+  {
+    id: 'fabius-charged-to-avoid-battle',
+    // Guard the claim that the strategy was imposed with the office.
+    // A sentence saying it was his own choice passes.
+    // Skipped where the page is correcting or denying the claim, as the
+    // claim page itself does by quoting the old wording.
+    re: /(?<!(?:formerly|no source|never|not|wrongly)[^.]{0,90})((charge|charged|instructed|instruction|ordered|mandate)[^.]{0,60}(avoid|decline|refuse)[^.]{0,40}(battle|engagement|engaging)|(appointed|dictator)[^.]{0,50}with the (explicit |express )?charge[^.]{0,50}(avoid|decline))/i,
+    right: "No source records an instruction: Polybius 3.87 describes the office only, and the strategy enters at 3.89.2 as Fabius's own determination, which is why his own command could contest it.",
+    fixed: 'MacDonald ch. 7 pass',
+  },
+  {
+    id: 'hasdrubal-four-thousand-cavalry-geronium',
+    re: /Hasdrubal[^.]{0,60}(4,000|four thousand) cavalry|(4,000|four thousand) cavalry[^.]{0,40}Hasdrubal/i,
+    right: 'Polybius 3.102 has Hasdrubal arrive with about four thousand men who had fallen back on the camp before Geronium and does not call them cavalry.',
+    fixed: 'MacDonald ch. 7 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

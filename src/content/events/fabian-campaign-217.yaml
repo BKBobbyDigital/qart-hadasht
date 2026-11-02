@@ -1,0 +1,182 @@
+slug: fabian-campaign-217
+name: The Fabian Campaign
+type: expedition
+outcome: "No pitched battle; Hannibal escaped encirclement in Campania and wintered at Geronium"
+date_start:
+  value: -217
+  precision: year
+  notes: From the dictatorship after Trasimene in June 217 BCE to its expiry in December.
+date_end:
+  value: -217
+  precision: year
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+  - person: fabius-maximus-cunctator
+    role: dictator
+    side: Roman
+  - person: minucius-rufus
+    role: master of the horse, then given equal power
+    side: Roman
+principal_sources:
+  - polybius-histories
+  - livy-auc
+  - plutarch-lives
+related_events: []
+summary: >
+  The fourteen months between Trasimene and Cannae, and the
+  campaign that gave the Latin language a word for delay as a
+  strategy. No battle was fought in it, which is why it is easy
+  to skip; what happened instead decided how Rome would fight
+  for the next decade.
+
+  ## The summer
+
+  After Trasimene there was no Roman army in the field to stop
+  him, and Hannibal moved where he liked, resting his troops on
+  the Adriatic and receiving envoys from Italian cities, some
+  come to test the ground and some simply to see the man (Livy
+  22.13). He went south into Apulia because the Roman alliance
+  looked weakest there, plundering as he went, taking the
+  country around the colony of Luceria and moving into the
+  Gargano near Arpi (Polybius 3.88).
+
+  When Fabius came up, Hannibal led his army out and drew it up
+  a short distance from the Roman camp; nobody came out, and he
+  went back to his own camp (3.89.1). That was the shape of the
+  whole year.
+
+  ## What Fabius actually did
+
+  Polybius calls Fabius a man of admirable judgment and great
+  natural gifts, and states the strategy as a decision of his
+  own: he determined not to expose himself to any risk or to
+  venture a battle, and made the safety of the army his first
+  and chief aim (3.87.6, 3.89.2). He was mocked as a coward
+  before he was admired. What he relied on, in Polybius's
+  phrase, was that the Roman advantages lay in inexhaustible
+  supplies of provisions and men (3.89.9), and his method was to
+  march parallel to Hannibal, taking in advance the ground his
+  knowledge of the country told him was best (3.90.1).
+
+  The policy had a second half that is less often quoted. Livy
+  gives the edict: people in unwalled settlements were to move
+  to safety and those along Hannibal's likely route were to
+  leave their farms, having first burned the buildings and
+  spoiled the crops, so that the enemy should have supplies of
+  nothing (22.11.4). How well it worked is hard to judge, since
+  Polybius has the Carthaginians in possession of a great
+  quantity of booty by the end of the season (3.92.9), though
+  Livy reports severe shortages the following winter (22.32.3).
+
+  ## Campania and the oxen
+
+  Hannibal answered by crossing into Campania and the *ager
+  Falernus*, the plain around Capua that Polybius calls the most
+  celebrated in all Italy for fertility and beauty (3.91.2).
+  The choice was political: he expected either to force Fabius
+  to fight or to make it plain to everyone that the Romans were
+  abandoning the country to him, and hoped that would turn the
+  towns from Rome (3.90.10-12). Polybius adds the fact that
+  measures the year: after two lost battles, no Italian city had
+  yet gone over (3.90.13).
+
+  Fabius shadowed him from the hills and would not come down.
+  Hannibal widened the attack on him. Livy says he had the whole
+  district burned except one estate, the dictator's own, from
+  which alone sword and fire and all violence were ordered kept
+  away, so that it should look as though a secret bargain had
+  been struck and this was the payment (22.23). The Roman
+  command turned on itself: Minucius, the master of the horse,
+  asked whether they had come as spectators to watch their
+  allies butchered and their property burned (Livy 22.14.3), and
+  in Plutarch jeered that the dictator had taken great trouble
+  to give the army splendid seats for the spectacle of Italy
+  being laid waste (*Fabius* 5.5).
+
+  Then Fabius nearly won the war. Hannibal, turning back toward
+  Apulia for winter quarters, found the passes held and four
+  thousand Romans in the narrowest part, with Fabius himself
+  camped on a hill in front of it; Polybius has the dictator
+  expecting to take the booty and perhaps end the whole campaign
+  (3.93.1). Livy has Hannibal notice that his own strategy was
+  being turned against him (22.16.4-5).
+
+  The escape is the best-known stratagem of the war. Hasdrubal,
+  his officer in charge of services, was told to gather dry
+  faggots, and about two thousand of the strongest plow oxen
+  were taken from the captured stock; bundles of twigs and dry
+  vine-shoots were bound to their horns (Polybius 3.93.3-4; Livy
+  22.16). In the third watch of the night the bundles were lit
+  and the oxen driven up toward the ridge with pikemen alongside
+  to keep them together. The Romans holding the narrow pass saw
+  the lights climbing the slope, left the defile to meet what
+  they took for the army, and were left standing among burning
+  cattle. Hannibal took the gorge with his heavy infantry
+  leading, then the cavalry, then the captured herds, with the
+  Spaniards and Celts last (3.93.10). Fabius heard the commotion,
+  suspected a trick, and would not fight in the dark (Livy
+  22.18.1). At dawn the Spaniards came back for the light
+  infantry and killed about a thousand Romans on the way out
+  (3.94.6).
+
+  ## Geronium and the two dictators
+
+  Hannibal wintered at Geronium, chosen for the corn around it
+  and Luceria. He offered the inhabitants an alliance with
+  pledges; when they ignored him he stormed the place and put
+  them to the sword, keeping the walls and most of the houses
+  undamaged to serve as his granary (Polybius 3.100.1-4). Livy
+  says instead that the town was already abandoned, and later in
+  his own narrative says Hannibal took it and burned it (22.18.7
+  against 22.23.9). Polybius's version is the one that explains
+  why the buildings were standing.
+
+  Feeding the army tied Hannibal down, since his cavalry was the
+  arm he relied on above all others and the horses needed pasture
+  (3.101.11), and with most of his men out foraging Minucius
+  caught him short-handed. The Romans took a hill in front of
+  Geronium, and then, on a day when the foragers were scattered,
+  Minucius drew up his legions before the Carthaginian camp and
+  sent cavalry and light troops against them with orders to take
+  no prisoners. It was close to a disaster. What stopped it was
+  Hasdrubal coming up with about four thousand men who had fallen
+  back on the camp (3.102); Polybius does not call them cavalry.
+
+  Rome heard the news in terms that exaggerated it, and welcomed
+  anything good (3.103.1). The tribune Metilius spoke for
+  Minucius from the rostrum (Plutarch *Fabius* 8.3-4), and the
+  assembly gave him power equal to the dictator's, so that, as
+  Polybius puts it, two dictators held command in the same
+  theater, which had never happened before. Fabius offered him
+  the choice of alternating days or dividing the army; Minucius
+  took the division, and the camps sat about twelve stades apart
+  (3.103.6-8).
+
+  Hannibal, who missed nothing that happened among the enemy
+  because he had deserters and spies (Livy 22.28.1; Polybius
+  3.104.1), put troops in the hollows of a bare hill between the
+  camps overnight and occupied it at dawn. Minucius came out as
+  expected, the ambush closed, and he was saved by Fabius
+  bringing up his legions, which made Hannibal break off. The
+  armies went back into one camp and obeyed Fabius thereafter
+  (3.105). The dictatorship expired in December.
+
+  ## How to read the year
+
+  The hostile and the admiring traditions are the same tradition
+  read twice. Plutarch has the soldiers calling Fabius
+  Hannibal's *paedagogus*, the slave who walked a boy to school
+  (*Fabius* 5.4), and the Campanian escape bringing more abuse on
+  him than anything before (7.2); Ennius, a generation later,
+  gave him the line Rome kept, that one man by delaying restored
+  the state. Polybius's own closing judgment, that the day showed
+  how far a general's foresight differs from the recklessness of
+  a mere soldier (3.105.9), is written by a man whose patrons
+  were the family of Aemilius Paullus. MacDonald's caution is
+  worth keeping with the whole year: the wisdom of Fabius and the
+  foolishness of Minucius are probably sharpened in Polybius,
+  Livy and Plutarch alike for the sake of the narrative, and the
+  two men stand in for the extremes of a Roman argument about
+  what to do.

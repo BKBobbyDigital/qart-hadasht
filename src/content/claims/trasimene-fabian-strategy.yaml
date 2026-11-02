@@ -1,34 +1,86 @@
 slug: trasimene-fabian-strategy
 statement: >
-  The Roman political response to Trasimene was the appointment
-  of Quintus Fabius Maximus as dictator, with the explicit charge
-  of avoiding direct engagement with Hannibal. The Fabian
-  strategy that followed (delay, shadow Hannibal's army, decline
-  decisive battle) was the Roman response Trasimene's
-  catastrophe forced.
+  The Roman answer to Trasimene was the dictatorship of Quintus Fabius
+  Maximus and the strategy of refusing battle, shadowing Hannibal and
+  wasting the country ahead of him. The strategy was Fabius's own
+  choice, not a charge laid on him with the office, and it was
+  contested inside his own command for as long as he held it.
 confidence: attested
+scholarly_consensus: >
+  This page formerly said Fabius was appointed "with the explicit
+  charge of avoiding direct engagement with Hannibal." No source says
+  so. Polybius's account of the appointment describes the office and
+  not an instruction: the twenty-four lictors, the absolute power, the
+  suspension of the other magistracies, the master of the horse as
+  deputy (3.87.7-9). The strategy enters the narrative two chapters
+  later as a decision of Fabius's own, that he determined not to
+  expose himself to any risk or to venture a battle and made the
+  safety of his army his first and chief aim (3.89.2).
+
+  The distinction is not pedantry. If the senate had handed Fabius a
+  policy, the year's quarrel would make no sense. Because the policy
+  was his, his elected master of the horse could attack it in public,
+  a tribune could carry an assembly against it, and
+  [Minucius](/people/minucius-rufus) could be given power equal to the
+  dictator's in order to try something else. A charge from above would
+  also make Rome's eventual adoption of the strategy look like
+  continuity, when what the sources show is a city that mocked it,
+  overruled it, watched the alternative fail at Geronium and again at
+  Cannae, and then came back to it.
+
+  What Fabius relied on is stated plainly and is the part worth
+  keeping: the Roman advantages lay in inexhaustible supplies of
+  provisions and men (3.89.9). That is an argument about resources, not
+  about caution, and it is the one the site treats as the real
+  substance of the Fabian year.
 sources:
   - source: polybius-histories
     stance: supports
-    passage_ref: "3.86-88"
+    passage_ref: "3.87.6-3.87.9, 3.89.1-3.89.9, 3.90.1"
     passage_summary: >
-      Polybius describes the political crisis at Rome and the
-      dictatorship of Fabius Maximus that followed. The strategy
-      is treated as the central example of Roman strategic
-      adjustment under pressure.
+      Describes the dictatorship as an office without recording any
+      instruction about battle, and calls Fabius a man of admirable
+      judgment and great natural gifts. Gives the strategy as his own
+      determination not to risk a battle but to make the army's safety
+      his first aim, notes that he was at first thought a coward and
+      later judged to have taken the only sensible course, locates the
+      Roman advantage in inexhaustible provisions and men, and
+      describes the method as marching parallel to Hannibal and taking
+      the best ground in advance.
   - source: livy-auc
     stance: supports
-    passage_ref: "22.7-12"
+    passage_ref: "22.11.4, 22.12.5-22.12.6, 22.14.3, 22.15.1"
     passage_summary: >
-      Livy gives a fuller political-narrative account of Fabius's
-      appointment and the senatorial debates that produced it.
+      Gives the other half of the policy, an edict that people in
+      unwalled places move to safety and those on Hannibal's likely
+      route leave their farms with the buildings burned and the crops
+      spoiled first, so the enemy should have supplies of nothing. Has
+      Hannibal apprehensive at the dictator's wariness. Also carries
+      the opposition: Minucius asking whether they have come as
+      spectators to watch their allies butchered, and the judgment that
+      the delaying had become discredited in Rome as well as in the
+      camp.
   - source: plutarch-lives
-    stance: supports
-    passage_ref: "Fabius 3-12"
+    stance: qualifies
+    passage_ref: "Fabius 5.4-5.5, 7.2, 8.3-8.4"
     passage_summary: >
-      Plutarch's Life of Fabius is the principal biographical
-      source for the strategy and its execution.
+      The principal source for how the strategy was received rather
+      than for the strategy. The soldiers called Fabius Hannibal's
+      paedagogus, the slave who walked a boy to school; Minucius jeered
+      that the dictator had provided splendid seats for the spectacle
+      of Italy being laid waste; the escape from Campania brought more
+      abuse on him than anything before; and the tribune Metilius
+      carried the assembly for Minucius. Written to vindicate Fabius,
+      and the contrast with Minucius is drawn harder than the events
+      require.
+notes: >
+  The campaign the strategy was carried out in is treated on its own
+  page, since the site had nothing between Trasimene and Cannae: see
+  [the Fabian campaign](/events/fabian-campaign-217).
 entities:
   - type: event
     slug: battle-of-lake-trasimene
     role: context
+  - type: person
+    slug: fabius-maximus-cunctator
+    role: subject
