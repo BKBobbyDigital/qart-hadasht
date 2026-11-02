@@ -768,18 +768,18 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~766 pages** as of
+parked until the day version settles. The site is **~770 pages** as of
 the last build.
 
 ### Collection counts (current)
 
 | Collection | Count |
 |---|---|
-| events | 97 |
-| people | 84 |
+| events | 98 |
+| people | 85 |
 | places | 63 |
-| sources | 100 |
-| claims | 182 |
+| sources | 101 |
+| claims | 183 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
@@ -950,8 +950,22 @@ across places, people, events, etc. Fixed via:
 | evidence-audit.mjs | Corrected-error regressions (gate, must be CLEAN) + overconfident-language review counts, incl. `unpaged-modern` and `prose-attribution`; see "Evidence discipline" |
 
 **Before every content commit** run the set: `npm run build`, then
-`node scripts/link-audit.mjs`, `prose-audit.mjs`, `spelling-audit.mjs`
-and `evidence-audit.mjs`.
+`node scripts/link-audit.mjs`, `prose-audit.mjs`, `spelling-audit.mjs`,
+`evidence-audit.mjs` and, **where the commit adds prose**,
+`tic-rank.mjs`.
+
+**`tic-rank.mjs` was added to this list on 2 Nov 2026** after the user
+asked whether the AI-language checks were actually being run and the
+answer turned out to be no. `prose-audit` had run on every commit, and
+it covers em-dash density, so the em-dash rule was being enforced; the
+AI-tic vocabulary rule was not being checked at all, through a chapter
+that added about five thousand words. Nothing bad got through, but
+that was luck rather than process. Two cautions when running it:
+its report prints only the top thirty files, so **a new file's absence
+from the list is not a score**, and the count has to be taken on the
+file directly; and `framing` is on its word list while "hostile
+framing" is the term the framing-discipline rules themselves use, so
+judge the hits rather than clearing them.
 
 All reusable; each prints results to stdout and (where applicable)
 modifies files only with --apply flag.
@@ -2787,7 +2801,7 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 27 Oct 2026)
+### Open threads (as of 2 Nov 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
 is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
@@ -2795,18 +2809,27 @@ is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
 Worked so far: the introduction and first chapter, the Barcid family
 tree, the Hellenistic setup chapters (pp. 26–40), the Hamilcar chapter
 (pp. 44–60), the Barcid Iberia chapter (pp. 61–81), the march into
-Italy (pp. 82–99) and the Trebia-to-Trasimeno chapter (pp. 100–118).
-**Chapter 7, "The Apogee: Cannae and the War in Italy", is next**, and
-it is where `cannae-allies-defected` should finally get its page
-reference, the last of the original six `further_reading` claims still
-owing one. She now sends her endnotes alongside each chunk, which is
-where her value is: see the notes at the end of the Hamilcar, Barcid
-Iberia and Trebia-to-Trasimeno sections on how to use her, including
-the comparison with Miles and the point that her error rate fell
-sharply once she reached her own subject. **Doing a pre-audit of what
-the site holds before her pages arrive is worth the time**; it paid for
-itself on ch. 6. **Regression rules stand at 94.** Nothing below is in
-progress. Pick one up only when the user asks.
+Italy (pp. 82–99), the Trebia-to-Trasimeno chapter (pp. 100–118) and
+the Cannae chapter (pp. 119–138).
+**Chapter 8, "After Cannae", is next**, and it is where
+`cannae-allies-defected` should finally get its page reference, the
+last of the original six `further_reading` claims still owing one. Ch.
+7 did not reach it: the defections are in Mago's report to the
+Carthaginian senate (Livy 23.11), which is ch. 8's material, so note
+whether she argues the defections reading or only narrates it. She
+sends her endnotes alongside each chunk, which is where her value is:
+see the notes at the end of the Hamilcar, Barcid Iberia and Cannae
+sections on how to use her, including the comparison with Miles and
+the point that her error rate fell sharply once she reached her own
+subject. **Doing a pre-audit of what the site holds before her pages
+arrive is worth the time**; it paid for itself on ch. 6 and again, more
+dramatically, on ch. 7. **Regression rules stand at 96.** Nothing below
+is in progress. Pick one up only when the user asks.
+
+- **`people/servilius-geminus` still does not exist.** Flagged since
+  ch. 6 and still owed: consul 217, his advance cavalry destroyed under
+  Centenius after Trasimene, proconsul commanding the center at Cannae
+  where he died. Minucius was written in ch. 7; Servilius was not.
 
 - **The Felsnas epitaph** (Tarquinia, TLE 890), held back on 27 Oct
   2026. MacDonald gives it as an Etruscan who lived to 106 and claimed
@@ -3846,6 +3869,154 @@ reporting-not-asserting rather than weakening the check. Three other
 rules this chapter needed narrowing after false positives, one of them
 on prose written in the same commit. **Unit-test every rule against
 both the wrong and the right wording before committing it.**
+
+### MacDonald's Cannae chapter (2 Nov 2026)
+
+Her ch. 7, "The Apogee: Cannae and the War in Italy", pp. 119–138, in
+three chunks with the endnotes. Commits `409293a`, `9d8a380`,
+`e7f9514`, plus `ecec1af`. Checked against Polybius 3.87–3.117, Livy
+22.11–22.58, Plutarch *Fabius*, Polyaenus 6.38 and Juvenal *Satires* 7.
+
+**The pre-audit found the largest hole any of these passes has turned
+up, which is the second time it has paid for itself.** Do it again for
+ch. 8. The site had event pages for Ticinus, Trebia, Trasimene and
+Cannae and **nothing at all in the fourteen months between the last
+two**. Ager Falernus, Geronium, Casilinum and Callicula returned zero
+files; Cannae appeared in eighty-two. The battle was saturated and the
+year that produced it was empty, represented by one abstract paragraph
+on period 06 about a policy, containing no events.
+
+**New event, `fabian-campaign-217`.** Apulia and Luceria, the offer of
+battle nobody accepted (Polybius 3.89.1), the scorched-earth edict
+(Livy 22.11.4), Campania and the *ager Falernus*, the oxen with burning
+faggots and the escape through the pass (Polybius 3.93–94; Livy
+22.16–18), Geronium, Minucius at the foraging camp, the two dictators,
+the ambush and the rescue. Where the accounts split it says so, and the
+sharpest case is Geronium: **Polybius has the town stormed and the
+inhabitants put to the sword with the walls and most houses
+deliberately spared as a granary (3.100.4); Livy has it already
+abandoned (22.18.7) and then later has Hannibal take and burn it
+(22.23.9).** Livy contradicts himself and Polybius's version is the one
+that explains why the buildings were standing. Same shape as the Croton
+case.
+
+**The invented detail, and why it mattered.** The Fabian-strategy claim
+said Fabius was appointed "with the explicit charge of avoiding direct
+engagement with Hannibal". No source says it. Polybius 3.87 describes
+the office only, the twenty-four lictors and the absolute power and the
+master of the horse as deputy; the strategy enters at 3.89.2 as his own
+determination. **The distinction carries the year**: because the policy
+was his, his elected second could attack it in public, an assembly
+could give Minucius equal power to try something else, and Rome could
+mock it, overrule it, watch the alternative fail and come back to it. A
+charge from above makes the quarrel unintelligible. Chunk 2 then showed
+the silence is meaningful rather than accidental, since Polybius
+**records such an order when one is given**: in 216 the consul Aemilius
+expressly ordered Servilius to avoid a general engagement and skirmish
+instead (3.106.4). The claim's three `passage_summary` fields had also
+described the sources rather than the passages, the rule-2 failure.
+
+**`people/minucius-rufus`**, flagged for two chapters and finally
+written. Consul in 221, so no novice; **elected** to the mastership
+rather than chosen, and a political opponent of the man he served. His
+case against Fabius is given in both forms and not treated as stupid,
+since an army that watches its allies burn is paying a price the
+surviving accounts are uninterested in counting. Polybius's closing
+verdict about a general's foresight against the recklessness of a mere
+soldier sits beside the fact that his patrons were Paullus's family.
+**Servilius Geminus still has no page.**
+
+**Chunk 2 was mostly confirmation**, because audit 10 had already
+rebuilt the Cannae comparison and the three claims from the texts.
+Four things were new:
+
+- **`sources/polyaenus-stratagems`**, and the half she drops is the
+  half that matters. At 6.38.2 Hannibal persuaded his soldiers that men
+  who died bravely would come back to life, **and produced a man
+  resembling a fallen soldier to say that he had returned**. MacDonald
+  quotes the first half and, following Huss, links it to the *egersis*.
+  The second half makes it a demonstration staged for the army, with an
+  impostor, which is why it sits in a handbook of tricks. The
+  [Melqart](/deities/melqart) page records the link and declines it:
+  Polyaenus names no god, sources nothing, writes four centuries later.
+  What survives is that the idea was thought usable on an army of
+  Libyans, Iberians, Celts and Italians. **His chapter also carries the
+  oxen (6.38.8) and the wind at Cannae (6.38.4)**, which is evidence
+  those episodes had hardened into exempla, not independent
+  confirmation of them.
+- **The Maharbal anecdote gains its best objection**: the advice may
+  belong after Trasimene, when the road was open, no consular army
+  stood between Hannibal and the city, and the distance was a fraction.
+  Cannae is where the story is most useful to a Roman narrative and
+  Trasimene is where the advice would have made sense. No holder named.
+- **Juvenal into the march-on-Rome take.** Dread Hannibal fills some
+  wretched pupil's head six days a week with the same deliberation:
+  make for the city from Cannae, or, made cautious by the storms, wheel
+  the rain-soaked cohorts about (7.160–164). The question was a
+  declamation with a stock case on either side. The take's objection is
+  not to the question but to the shape the sources give it, one
+  decisive moment turning on one man's nerve, which is the shape an
+  exercise needs.
+- Polybius 3.90.13, kept as the measure of the year: after two lost
+  battles no Italian city had yet revolted.
+
+**Chunk 3's find was a gap in the site's own most careful material.**
+The Forum Boarium burials of 216 were on the site in exactly one place,
+the Cannae source comparison where audit 10 put them, and **nowhere in
+the tophet take, theme or narrative**, which is where they bear on
+something. Livy 22.57: *Gallus et Galla, Graecus et Graeca in foro
+bouario sub terram uiui demissi sunt*, at a spot already stained
+before, *minime Romano sacro*; a convicted Vestal buried alive at the
+Colline Gate in the same chapter. New claim
+`rome-human-sacrifice-216`, and **the framing is the whole of it**.
+This is not evidence that Carthaginian child sacrifice did not happen,
+and the claim says so twice: the site holds the tophet very probably
+was sacrificial with an unrecoverable scale, and reaching for a Roman
+parallel to deflate the accusation is **charter principle 5, the site's
+own characteristic error**. What it bears on is the hostile layer: the
+writers who made human sacrifice the mark setting Carthage outside the
+civilized world belonged to a state that had done it, recorded doing
+it, and called its own version foreign to itself. A section saying that
+and no more closes the tophet controversy narrative.
+
+**Her errors this chapter**, the established shape of a right citation
+with overstated content:
+- **Hasdrubal arriving at Geronium "with 4,000 cavalry"**; Polybius
+  3.102 has about four thousand men who had fallen back on the camp and
+  does not call them cavalry. The same mistake as Mago's two thousand
+  in ch. 6.
+- **Fabius and Minucius jointly deciding to split the army**; Polybius
+  3.103 has Fabius offer the choice of alternating days or division and
+  Minucius take the division, which matters for who owned the
+  arrangement that nearly destroyed half the army.
+- **The order to avoid a general engagement given as the senate's and
+  addressed to both proconsuls**; in Polybius 3.106.4 it is a consul's
+  and names Servilius alone.
+- **"The Sibylline Books"** at Livy 22.57; Livy's words there are
+  *fatales libri*, the conventional label being for the same board.
+- **The eight thousand slaves** bought and armed, where she drops that
+  they were **asked first whether they were willing to serve**. They
+  are *volones*, volunteers, and Rome in its worst month chose to
+  recruit rather than conscript.
+
+**Held, not asserted:** her report that the live burials recur in 228
+and 114/113 and were banned by decree in 97 (Pliny *NH* 30.12). Perseus
+would not serve the chapter. Livy's own clause that the ground had been
+stained before is checked and carries the point that 216 was not the
+first time.
+
+**A process correction, prompted by the user asking.** `prose-audit`
+ran on every commit this chapter and reported 0, which covers em-dash
+density; **`tic-rank.mjs` was not run at all**, and about five thousand
+words of new prose went in without it. Running it afterwards: every
+file written from scratch scored **0.0 tics per 1,000 words and 0 em
+dashes**. Three hits existed in files that were edited, each checked
+rather than mass-fixed: "hostile framing" on Flaminius is the house
+term the framing-discipline rules use and stays; four in the Cannae
+narrative are pre-existing and not in the added paragraph; one, "the
+structural reason that goes with the arithmetic", was the empty
+adjective the rule exists for and was cut. **`tic-rank` now belongs in
+the per-commit routine, not the periodic one.**
 
 ### A Reddit exchange on the navy (Oct 2026)
 
@@ -5173,7 +5344,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **766 pages**.
+output. As of the last CLAUDE.md refresh it was around **770 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
