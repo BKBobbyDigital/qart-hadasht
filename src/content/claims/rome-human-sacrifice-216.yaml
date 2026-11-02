@@ -1,0 +1,74 @@
+slug: rome-human-sacrifice-216
+statement: >
+  After Cannae the Roman state buried four people alive as a sacrifice.
+  On the instruction of the sacred books a Gaulish man and woman and a
+  Greek man and woman were let down alive under the earth in the Forum
+  Boarium, at a spot Livy says had already been used for the same rite,
+  which he calls a sacrifice not Roman at all.
+confidence: attested
+scholarly_consensus: >
+  Livy's wording is the evidence and it is not ambiguous: *Gallus et
+  Galla, Graecus et Graeca in foro bouario sub terram uiui demissi
+  sunt*, with the comment *minime Romano sacro*. He is reporting a
+  state act performed on the advice of the decemvirs, in the same
+  season as the other expiations: the consultation of the books, Fabius
+  Pictor's mission to Delphi, and the punishment of the two Vestals,
+  one of whom was also buried alive, at the Colline Gate. Livy calls
+  the books the *fatales libri* here rather than the Sibylline Books,
+  which is the conventional modern label for the same board and texts.
+
+  The site records this for a reason that needs stating carefully,
+  because the obvious use of it is the wrong one. It is **not**
+  evidence that Carthaginian child sacrifice did not happen. The
+  site's position, set out in the
+  [tophet take](/editorialTakes/tophet-happened-scale-unrecoverable),
+  is that the practice very probably did happen and that its scale is
+  unrecoverable, and nothing here touches that. Reaching for a Roman
+  parallel to deflate a Carthaginian accusation is the failure mode the
+  [charter](/charter) names in its fifth principle: correcting the
+  Roman picture is not evidence for its opposite.
+
+  What it bears on is narrower and real. The literary tradition that
+  made human sacrifice the mark of Carthaginian barbarism belonged to a
+  state that had performed human sacrifice itself, recorded the fact,
+  and in Livy's case flagged it as foreign to Roman practice while
+  reporting that the same ground had served before. That tells us
+  something about how the category was used and nothing about what
+  happened at Salammbo. It is also a caution for reading the hostile
+  sources on the tophet: a writer who can describe his own city burying
+  foreigners alive as un-Roman is not applying a neutral standard when
+  he describes Carthaginians burning children.
+
+  MacDonald reports that the rite is recorded on two other occasions,
+  in 228 and 114/113, and that it was banned by senatorial decree in 97
+  (Pliny *NH* 30.12). Those have not been checked here and are given as
+  hers. Livy's own clause that the spot had already been used is
+  checked and is enough to establish that 216 was not the first time.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "22.57"
+    passage_summary: >
+      Reports the conviction of the Vestals Opimia and Floronia for
+      unchastity, one buried alive at the Colline Gate and the other a
+      suicide, and the man guilty with one of them flogged to death.
+      The decemvirs were ordered to consult the books, Quintus Fabius
+      Pictor was sent to Delphi, and among the extraordinary sacrifices
+      a Gaulish man and woman and a Greek man and woman were let down
+      alive under the earth in the Forum Boarium, in a place already
+      stained before by human victims, a rite Livy calls not Roman at
+      all. The same chapter has about eight thousand able-bodied young
+      slaves bought at public expense and armed, having first been
+      asked whether they were willing to serve.
+notes: >
+  The companion fact on the Roman side the year before is the named
+  supplication to Hercules among the expiations after the Trebia; see
+  [that claim](/claims/rome-supplication-to-hercules-217). Taken
+  together the two years show a state answering military catastrophe
+  through its own religious machinery on a scale the site has no
+  comparable evidence for on the Carthaginian side, which is a fact
+  about what survives rather than about what was done.
+entities:
+  - type: event
+    slug: battle-of-cannae
+    role: context

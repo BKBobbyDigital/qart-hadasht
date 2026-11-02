@@ -23,7 +23,7 @@ primary_entities:
 referenced_claims:
   - tophet-child-sacrifice-contested
   - tophet-stratigraphic-continuity
-last_revised: "2026-09-17"
+last_revised: "2026-11-02"
 ---
 
 Ask a casual reader what they know about Carthage, and there's a good
@@ -280,6 +280,41 @@ the wider rebuttal, and
 reply; and recognize that competent scholars
 currently disagree about a substantive historical question, in
 ways that the available evidence may not be sufficient to settle.
+
+## A footnote on the accusers
+
+One fact belongs in a historiographical account of this question and
+has been missing from it. In 216, in the panic after Cannae, the Roman
+state buried four people alive. On the advice of the decemvirs a
+Gaulish man and woman and a Greek man and woman were let down alive
+under the earth in the Forum Boarium, at a spot Livy says had been
+used for the same rite before, and he calls it a sacrifice not Roman
+at all (22.57). In the same chapter a convicted Vestal was buried
+alive at the Colline Gate.
+
+Two things have to be said about what that does and does not do, and
+the second matters more than the first.
+
+It does not make the Carthaginian practice less likely. The site's
+position is that the tophet very probably was sacrificial and that its
+scale cannot be recovered, and a Roman parallel is no evidence either
+way. Using one to deflate the other is the move the
+[charter](/charter) calls the site's own characteristic error:
+correcting the Roman picture is not evidence for its opposite.
+
+What it does is tell you something about the people whose testimony
+makes up the hostile layer of this controversy. The writers who
+treated child sacrifice as the thing that marked Carthage off from the
+civilized world belonged to a state that had done human sacrifice,
+remembered doing it, and described its own version as foreign to
+itself. That is not hypocrisy exactly; it is the ordinary way a
+culture handles an act it finds necessary and intolerable at once. But
+it means the ancient accusation was not made from outside the
+practice, and a reader weighing
+[Diodorus on the bronze statue](/claims/tophet-child-sacrifice-contested)
+should know that the tradition he belongs to had its own version in
+living memory. The [claim](/claims/rome-human-sacrifice-216) sets out
+the evidence.
 
 The encyclopedia's [Punic religion theme](/themes/punic-religion)
 covers Carthaginian religious practice more broadly. The

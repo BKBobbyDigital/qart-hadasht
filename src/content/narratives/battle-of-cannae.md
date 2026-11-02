@@ -23,7 +23,7 @@ referenced_claims:
   - cannae-maharbal-anecdote
   - cannae-tactical-legacy
   - hannibal-limited-war-aims
-last_revised: "2026-10-13"
+last_revised: "2026-11-02"
 ---
 
 ## The road to Cannae
@@ -133,8 +133,14 @@ campaign, to break Rome's confederation and force negotiation, was
 working.
 
 It was, however, not enough. The Roman senate refused to negotiate. It
-refused to ransom prisoners. It raised replacement legions, including
-men under the legal age and slaves armed at state expense, and
+refused to ransom prisoners, and would not let private citizens buy
+back their own sons, husbands and brothers either. It raised
+replacement legions, including boys still wearing the *toga
+praetexta* and about eight thousand young slaves bought at public
+expense and armed, who Livy says were asked first whether they were
+willing to serve (22.57.11). That question is worth noticing: the men
+are *volones*, volunteers, and Rome in its worst month chose to
+recruit them rather than simply conscript them. The senate also
 prosecuted survivors of Cannae who had fled. Within a year of the
 battle, Rome had fielded enough men to resume the war on terms
 approaching parity in the field, even with most of Italy now actively
