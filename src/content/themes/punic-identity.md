@@ -198,6 +198,19 @@ Carthaginian but that he is barely African and that his soldiers are
 not people, which makes it a different weapon from *fides Punica* and
 a more useful one against a man offering Italians their freedom.
 
+One passage describes Carthaginians being recognized as
+Carthaginians, and it is worth setting beside the jokes because it is
+practical rather than literary. In 215 the envoys carrying the
+treaty with Philip V back to Macedon were stopped at sea by a Roman
+squadron. Their Athenian companion had a story ready, and it failed:
+Punic dress and bearing made Hannibal's envoys suspect, Livy says, and
+when they were questioned their speech gave them away (23.34.6). Dress,
+bearing and speech, reported by a Roman historian as the three things
+that identified them, and reported without a slur attached. The site
+has the Carthaginian diplomatic document preserved at
+[Polybius 7.9](/events/treaty-with-philip-v) only because those three
+things were legible to a Roman naval officer in the Adriatic.
+
 Varro's closing line belongs with it: if Campanian loyalty matches
 Roman fortune, Hannibal will not feel that he has conquered, nor the
 Romans that they have been conquered. The speech is Livy's

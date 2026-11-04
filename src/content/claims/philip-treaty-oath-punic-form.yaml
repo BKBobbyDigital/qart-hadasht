@@ -1,0 +1,110 @@
+slug: philip-treaty-oath-punic-form
+statement: >
+  The treaty between Hannibal and Philip V, preserved in Greek by
+  Polybius at 7.9, is argued by modern scholarship to be a translation
+  from a Punic original, and its oath formula follows the pattern of
+  Near Eastern treaty oaths rather than Greek or Roman practice:
+  divine witnesses in triads, then the gods who campaign with the
+  army, then Sun, Moon and Earth, then rivers, lakes and waters, then
+  the gods of the other party's territory. If the argument holds, it
+  is the clearest surviving evidence that Carthaginian diplomacy kept
+  Phoenician legal forms into the late third century.
+confidence: inferred
+scholarly_consensus: >
+  The oath as Polybius gives it runs: in the presence of Zeus, Hera
+  and Apollo; in the presence of the Genius of Carthage, of Heracles
+  and Iolaus; in the presence of Ares, Triton and Poseidon; in the
+  presence of the gods who campaign with us and of Sun, Moon and
+  Earth; in the presence of Rivers, Lakes and Waters; in the presence
+  of all the gods who hold Macedonia and the rest of Greece; in the
+  presence of all the gods of the army who preside over this oath
+  (7.9.2-3).
+
+  Two features carry the argument. Calling natural features to witness
+  and naming the other party's gods alongside your own is a Near
+  Eastern treaty convention and is not how Greek or Roman oaths were
+  framed. And the triadic grouping of the divine witnesses matches
+  the same tradition. MacDonald sets this out at pp. 151-152 and
+  cites three studies for it, listed under further reading. None of
+  them has been read here, so the argument is reported as hers, and
+  the site's own judgment on it rests on the shape of the text alone.
+
+  ## Which gods
+
+  The Greek names are an interpretatio, and the usual identifications
+  are modern. MacDonald's note gives the first triad as the Greek
+  forms of Baal Hammon, Tanit and Reshef; the second, the Genius of
+  Carthage with Heracles and Iolaus, is generally read as the city's
+  tutelary spirit with [Melqart](/deities/melqart) and a second god
+  most often taken as Eshmun. None of this is stated in the text and
+  the site presents it as inference rather than as a reading of the
+  document.
+
+  What is attested is the structure, and the structure is the
+  argument. Three Punic triads come before the Greek ones, the
+  Carthaginian gods are named in their own group, and the Macedonian
+  gods are invoked as a separate block at the end. That is a document
+  drawn up on one party's template with the other party's deities
+  accommodated inside it.
+
+  ## The dispute the site does not settle
+
+  MacDonald records that scholars divide over whether the gods named
+  were particularly Hannibal's own or the official pantheon of the
+  state, and notes the counter that the Carthaginian state was the
+  principal party to the alliance. The site has no basis for choosing
+  and states both readings. It is worth saying that the clause naming
+  members of the Carthaginian senate as co-swearers, treated on the
+  [treaty event](/events/treaty-with-philip-v), tends toward the
+  second, since a personal pantheon is a strange thing to swear a
+  senatorial delegation to.
+
+  ## Why it matters here
+
+  The site argues repeatedly that the Carthaginian voice reaches us
+  almost entirely through its enemies, and in
+  [Hannibal's historians](/narratives/hannibals-historians) it
+  complicates that by noting the Carthaginian account of the war was
+  written in Greek by Greeks. This document runs the other way. It is
+  a Carthaginian state instrument, drafted in Punic, surviving because
+  a Roman patrol caught the men carrying it, and preserved by a Greek
+  historian who copied it out. Whatever else it shows, the Carthage
+  that produced it was still conducting its foreign relations on
+  Phoenician forms six centuries after the foundation, which is
+  evidence for the continuity the theme on the
+  [inscriptional record](/themes/punic-inscriptional-record) argues
+  from material in Punic.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "7.9.1-3"
+    passage_summary: >
+      Gives the treaty as a document. It names Hannibal the general,
+      Mago, Myrcan, Barmocar and such other members of the
+      Carthaginian senate as were with him, and all Carthaginians
+      serving under him, with Xenophanes the Athenian, son of
+      Cleomachus, the envoy sent by King Philip on behalf of himself,
+      the Macedonians and their allies. The oath follows: in the
+      presence of Zeus, Hera and Apollo; of the Genius of Carthage, of
+      Heracles and Iolaus; of Ares, Triton and Poseidon; of the gods
+      who campaign with us and of the Sun, Moon and Earth; of Rivers,
+      Lakes and Waters; of all the gods who possess Macedonia and the
+      rest of Greece; of all the gods of the army who preside over
+      this oath.
+further_reading:
+  - source: macdonald-hannibal-2015
+    note: >
+      Sets out the Punic-original and Near Eastern form arguments at
+      pp. 151-152, citing Bickerman 1952, Barré 1983 and Lancel 1999.
+      None of those has been read here.
+  - source: miles-carthage-2010
+    note: >
+      Cited by MacDonald at pp. 289-290 on the god list. Not checked
+      against his text for this claim.
+entities:
+  - type: event
+    slug: treaty-with-philip-v
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: object

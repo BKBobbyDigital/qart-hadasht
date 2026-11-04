@@ -26,7 +26,7 @@ referenced_claims:
   - tpw-final-assault-destruction
   - tpw-hasdrubals-wife-immolation
   - tpw-polybius-eyewitness
-last_revised: "2026-09-22"
+last_revised: "2026-11-04"
 ---
 
 ## The road to war
@@ -187,6 +187,22 @@ was the lesson Polybius wanted drawn. Miles reads the tears as being for
 Rome rather than for Carthage, which is what the words say. The
 [claim on the eyewitness](/claims/tpw-polybius-eyewitness) sets out the
 chain.
+
+One thing a reader should know before taking the scene as unique. Livy
+gives the same situation to Marcellus sixty-six years earlier, looking
+down from Epipolae on Syracuse in 212: he is said to have wept, partly
+in joy and partly for the city's ancient glory, running over the
+Athenian fleets sunk there and the armies destroyed and the wars with
+Carthage, until the thought struck him that in the space of an hour all
+of it would burn and be ashes (25.24.11-13). The furniture is the same,
+and the weeping conqueror above a doomed city was a shape a Roman
+historian had to hand. That does not make Scipio's tears a fiction,
+since Polybius says he was holding the man's hand and his own words
+survive, while Livy marks his own scene as something reported. What it
+means is set out in the
+[claim on the scene](/claims/weeping-conqueror-before-a-burning-city),
+along with the detail that tells the two apart: Marcellus is made to
+grieve over the city's past, and Scipio over Rome's future.
 
 ## What was done to the city
 

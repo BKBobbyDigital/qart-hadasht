@@ -1,0 +1,104 @@
+slug: weeping-conqueror-before-a-burning-city
+statement: >
+  The scene of a Roman commander weeping as he looks down on a great
+  city he is about to destroy, reflecting on the fall of empires, is
+  attested twice within sixty-six years and for two different
+  commanders. Livy gives it to Marcellus above Syracuse in 212; the
+  Polybian tradition gives it to Scipio Aemilianus above Carthage in
+  146. The repetition does not show that either is invented, but it
+  does mean the Carthage scene belongs to a recognized literary
+  situation and should not be read as a unique moment of conscience.
+confidence: attested
+scholarly_consensus: >
+  Livy's Marcellus, having broken in at the Hexapylon, looks down from
+  the high ground on a city he calls about the most beautiful of that
+  age and is said to have wept, partly for joy at so great a thing
+  accomplished and partly for the city's ancient glory. What came into
+  his mind, Livy says, was the Athenian fleets sunk there, two huge
+  armies destroyed with two famous commanders, the many wars fought
+  with the Carthaginians at such hazard, and the wealthy tyrants and
+  kings, above all Hiero. Then the thought struck him that in the
+  space of an hour all of it would burn and be reduced to ashes, and
+  before moving on Achradina he sent Syracusan exiles ahead to try
+  persuasion (25.24.11-15).
+
+  Polybius was standing beside Scipio Aemilianus at Carthage and
+  reports in a surviving fragment that Scipio took his hand and said
+  it was a glorious moment but that he feared the same sentence would
+  one day be passed on his own country (38.21); Appian and Diodorus
+  give the fuller version with Troy, Assyria, Media, Persia and
+  Macedon and the lines of Hector. The site sets that chain out in the
+  [eyewitness claim](/claims/tpw-polybius-eyewitness) and in the
+  [destruction narrative](/narratives/destruction-of-carthage).
+
+  ## What follows and what does not
+
+  What follows is a caution about reading, not a demotion of the
+  evidence. The Carthage scene remains the better attested of the two
+  by a wide margin: a named contemporary who says he was present and
+  whose own words survive in a fragment, against Livy's *inlacrimasse
+  dicitur*, he is said to have wept, which marks his own scene as
+  report. MacDonald's note points to a collection of weeping generals
+  in the scholarship, so the pair is not even the whole set.
+
+  What the parallel does establish is that a Roman historian had a
+  shape available for this moment, with its standard furniture: the
+  view from above, the catalog of the city's past greatness, the
+  thought of ashes, and the turn from the conquered city to the
+  conqueror's own. Livy fits Marcellus into it in a passage whose
+  Syracusan material is argued to draw on Cicero's prosecution of
+  Verres. A reader meeting Scipio's tears for the first time should
+  know the scene had a form, and should then notice what in the
+  Carthage version does not fit it: the reflection there is not on the
+  city's past but on Rome's future, which is the lesson Polybius built
+  his history to deliver and the reason the scene is in it.
+
+  ## A note on the site's own temptation
+
+  The site's characteristic error, named in the fifth principle of the
+  [charter](/charter), is to treat a correction of the Roman picture
+  as evidence for its opposite. The risk runs the other way here.
+  Scipio's tears are the most sympathetic moment the Roman record
+  affords Carthage, so a site arguing Carthage's case has an interest
+  in keeping them, and that is a reason to state the parallel rather
+  than leave it out.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "25.24.11-15"
+    passage_summary: >
+      Marcellus, entering the walls and seeing from the higher ground
+      the city lying below him, about the most beautiful of that time,
+      is said to have wept, partly for joy at so great an achievement
+      and partly for the ancient glory of the city. The Athenian
+      fleets sunk and two great armies destroyed with two famous
+      leaders came to mind, and the many wars fought with the
+      Carthaginians at such hazard, and so many wealthy tyrants and
+      kings, above all Hiero. When all this came together in his mind
+      and the thought struck him that within the space of an hour all
+      of it would burn and be turned to ashes, he sent ahead the
+      Syracusans who had been inside the Roman lines, to try gentle
+      words first.
+  - source: polybius-histories
+    stance: qualifies
+    passage_ref: "38.21"
+    passage_summary: >
+      Polybius, standing beside Scipio as Carthage burned, reports
+      that Scipio took his hand and said that it was a glorious moment
+      but that he feared the day would come when the same sentence
+      would be pronounced on his own country. The passage is his own
+      account of a conversation at which he says he was present, which
+      is a different order of evidence from Livy's report about
+      Marcellus.
+further_reading:
+  - source: macdonald-hannibal-2015
+    note: >
+      Gives the Marcellus scene at p. 158 and points to a discussion
+      of weeping generals in Hoyos 2006, which has not been read here.
+entities:
+  - type: person
+    slug: marcellus
+    role: subject
+  - type: place
+    slug: carthage
+    role: object

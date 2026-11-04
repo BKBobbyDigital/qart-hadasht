@@ -1,58 +1,109 @@
 slug: treaty-with-philip-v
 name: Treaty between Hannibal and Philip V of Macedon
 type: treaty
+outcome: "Sworn in Hannibal's camp in summer 215; the document was intercepted and brought to Rome, which declared war on Macedon"
 date_start:
   value: -215
   precision: year
-  notes: Summer 215 BCE; the treaty was negotiated through Macedonian envoys to Hannibal's Italian camp.
-place: carthage
+  notes: Summer 215 BCE, in Hannibal's camp in Italy.
 participants:
   - person: hannibal-barca
-    role: principal negotiator
+    role: principal
     side: Carthaginian
 principal_sources:
   - polybius-histories
   - livy-auc
 related_events: []
 summary: >
-  The treaty of joint operations between Hannibal and Philip V
-  of Macedon, negotiated in summer 215 BCE through Macedonian
-  envoys to Hannibal's Italian camp. The treaty's text is
-  preserved in Polybius (7.9) in what is generally treated as a
-  faithful Greek translation of the original Punic-Greek
-  diplomatic document, making it one of the few near-verbatim
-  ancient diplomatic instruments to survive.
+  The alliance between Hannibal and Philip V, sworn in Hannibal's camp
+  in the summer of 215. Its interest for this site is less the
+  alliance, which achieved little, than the document, which is the
+  most substantial Carthaginian state instrument that survives in
+  anything close to its own words. Polybius says he read it and gives
+  the text (7.9); Livy supplies the surrounding story and a summary of
+  the terms that his own source contradicts.
 
-  The substantive terms: Carthage and Macedon undertake mutual
-  defensive obligations; Philip V will support Carthaginian
-  operations against Rome in Italy; Carthage will support
-  Macedonian operations against Roman interests in the Adriatic;
-  neither side will conclude a separate peace with Rome without
-  the other's consent; specific military and territorial
-  arrangements concerning Roman holdings in the Adriatic. The
-  treaty did not commit either side to specific operational
-  contributions; its principal effect was to make the
-  Carthaginian-Macedonian alliance a framework Rome had to take
-  seriously.
+  ## The mission and the capture
 
-  The treaty's strategic consequences were limited but real. The
-  First Macedonian War (215-205 BCE) opened a second Roman front
-  that absorbed substantial Roman resources through the Hannibalic
-  period and culminated in the Roman peace settlement of 205 BCE.
-  Philip V's support of Hannibal was less material than the
-  treaty implied, and Roman counter-diplomacy (the Aetolian
-  League alliance of 211 BCE) effectively neutralized
-  Macedonian operations against Rome's eastern position. The
-  treaty's longer-term significance is structural: it
-  established Macedon as a state whose interests intersected
-  Roman interests in ways that the post-Hannibalic period would
-  resolve through the Second Macedonian War (200-197 BCE) and
-  the eventual Roman conquest of Macedon at Pydna in 168 BCE.
+  Philip sent Xenophanes of Athens, son of Cleomachus, to Italy. The
+  Macedonian ship avoided the Roman harbors of Brundisium and Tarentum
+  and put in near Locri by the temple of Juno Lacinia, the sanctuary
+  that also holds the
+  [bronze tablet](/sources/lacinian-inscription) on which Hannibal
+  later published his own figures. Terms were agreed and sworn, and
+  three Carthaginian envoys, Gisgo, Bostar and Mago, went back with
+  Xenophanes to take the king's own oath.
 
-  The Roman capture of the original treaty document in 215 BCE
-  (intercepted with the Macedonian envoys returning from
-  Hannibal's camp) gave the Roman senate the formal pretext for
-  its declaration of war on Macedon. The First Macedonian War
-  was, in this sense, a war declared on the strength of an
-  intercepted document that Polybius then preserved in Greek
-  translation for later readers.
+  They were sighted at sea by the Roman squadron guarding the Calabrian
+  coast under Publius Valerius Flaccus, who sent light craft after
+  them. Xenophanes tried the lie that had worked on the outward
+  voyage, that Philip had sent him to the Romans. Then, Livy says,
+  Punic dress and bearing made Hannibal's envoys suspect, and when
+  they were questioned their speech gave them away; their attendants
+  were taken aside and frightened, and the letters from Hannibal to
+  Philip and the agreed terms were found (23.34.1-9). The envoys were
+  sent to Rome in five fast ships, each kept apart from the others.
+
+  So the one Carthaginian diplomatic document to survive does so
+  because three Carthaginians at sea could be recognized as
+  Carthaginians. That detail is treated under
+  [what the word Punic carried at Rome](/themes/punic-identity).
+
+  ## What the text says
+
+  Polybius 7.9 gives the instrument whole, and its shape matters as
+  much as its clauses. It opens by naming the parties: Hannibal the
+  general, Mago, Myrcan, Barmocar, such other members of the
+  Carthaginian senate as were present with him, and all Carthaginians
+  serving under him, on the one side, and Xenophanes on behalf of
+  Philip, the Macedonians and their allies on the other.
+
+  That clause is evidence on a question the site treats elsewhere. The
+  post-war Carthaginian defense that Hannibal had acted on his own
+  authority, used over the Ebro agreement and again in 203 and set out
+  in the comparison on
+  [Barcid autonomy](/sourceComparisons/barcid-autonomy-in-iberia), has
+  to be read against a document in which members of the Carthaginian
+  senate are standing in his camp in Italy and swearing with him.
+  MacDonald, following Bickerman, takes it as confirmation that he
+  acted for the state, and the site agrees that this is what the text
+  shows. She also notes that Hannibal referred his treaties with
+  Tarentum and Syracuse home for ratification, and suggests the
+  senators' presence made referral unnecessary here; that last step is
+  her inference and is reported as such.
+
+  The terms themselves are mutual protection, a common enmity toward
+  anyone at war with either party, Macedonian help in the Roman war,
+  and the provision that if the Romans ask for terms the peace will
+  include Philip, bar Rome from making war on him, and strip it of
+  Corcyra, Apollonia and its other Adriatic holdings (7.9.5-13). The
+  peace it imagines is a peace with a Rome that still exists, which is
+  why the document is central to the
+  [claim on Hannibal's limited war aims](/claims/hannibal-limited-war-aims).
+  Livy's summary, which has the two of them intent on destroying Rome
+  and dividing the world (23.33), contradicts the text Polybius
+  preserves, and the site follows Polybius.
+
+  ## The oath
+
+  Before the terms comes a list of gods, in triads: Zeus, Hera and
+  Apollo; the Genius of Carthage, Heracles and Iolaus; Ares, Triton
+  and Poseidon; the gods who campaign with us, and Sun, Moon and
+  Earth; Rivers, Lakes and Waters; all the gods who hold Macedonia
+  and the rest of Greece; all the gods of the army who preside over
+  this oath. The site treats this under its own
+  [claim](/claims/philip-treaty-oath-punic-form), because the argument
+  built on it is the most interesting thing in the chapter that
+  produced this page.
+
+  ## What came of it
+
+  Little, and the little was expensive. Livy has Rome see a war of
+  great size with Macedon opening while it could barely carry the
+  Punic one (23.38.5), and answer by going at Philip at once. Roman
+  command of the sea held through the whole war, which is the
+  condition that made the alliance unusable: Philip had no fleet worth
+  the name, and Carthage could not spare one. MacDonald records that
+  when the admiral Bomilcar did take his fleet from Tarentum to Philip
+  in 209 or 208, the cost to Carthage was the loss of Tarentum. The
+  site has not traced that to a passage and reports it as hers.

@@ -660,6 +660,22 @@ const REGRESSIONS = [
     right: "Livy 23.18.10-16 is a moral set piece, ranked by him against the march-on-Rome charge as a pair of hindsight verdicts by unnamed experts. Report it as Livy's framing, not as what happened to the army.",
     fixed: 'MacDonald ch. 8 pass',
   },
+  {
+    id: 'syracuse-single-treaty-whole-of-sicily',
+    // There were two embassies and two sets of terms.
+    re: /(treaty|alliance|terms)[^.]{0,80}(recognition|recognizing|granting|granted)[^.]{0,40}Syracusan rule over (all|the whole)/i,
+    right: 'Polybius 7.4 has two embassies: the first offered partition at the river Himeras, the second claimed the whole island by right. Do not collapse them into one grant.',
+    fixed: 'MacDonald ch. 8 pass',
+  },
+  {
+    id: 'hippocrates-epicydes-sent-by-hannibal-first',
+    // Hieronymus sent to Hannibal first; the brothers were the answer.
+    // A sentence saying they were sent in reply, or naming the Syracusan
+    // embassy first, passes.
+    re: /(?<!(?:reply|answer|response|replied|answered|return)[^.]{0,90})Hannibal[^.]{0,60}(dispatched|sent)[^.]{0,30}(the brothers )?Hippocrates/i,
+    right: 'Polybius 7.2.2-3: Hieronymus sent envoys to Hannibal first, and Hannibal answered by sending Hannibal the trireme commander with Hippocrates and Epicydes. The initiative was Syracusan.',
+    fixed: 'MacDonald ch. 8 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.
