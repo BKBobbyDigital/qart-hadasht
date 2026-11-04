@@ -23,7 +23,7 @@ referenced_claims:
   - cannae-maharbal-anecdote
   - cannae-tactical-legacy
   - hannibal-limited-war-aims
-last_revised: "2026-11-02"
+last_revised: "2026-11-04"
 ---
 
 ## The road to Cannae
@@ -121,9 +121,13 @@ Italian power, not a Rome destroyed (see the
 [claim on Hannibal's limited war aims](/claims/hannibal-limited-war-aims)).
 
 What Hannibal did instead was characteristic. He sent his brother Mago
-back to Carthage to deliver the news (and, in the famous and probably
-exaggerated tradition, a bushel of equestrian gold rings taken from
-Roman dead). He opened negotiations with Italian communities. Capua,
+back to Carthage to deliver the news, and poured out on the senate
+floor the gold rings taken from the Roman dead. Livy gives two
+measures for the heap and prefers the smaller: some authorities said
+three and a half *modii*, but the report that prevailed, which he
+calls nearer the truth, was that there was not more than one
+(23.12.1). Mago added that only knights wore the ring, and of them
+the leading ones. He opened negotiations with Italian communities. Capua,
 which Polybius calls once the wealthiest of cities, defected within
 weeks, and much of Samnium, Bruttium, Lucania and part of Apulia went
 over. The Greek cities of the south followed over the next few years,

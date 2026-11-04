@@ -1,0 +1,91 @@
+slug: italian-defections-local-politics
+statement: >
+  The Italian communities that went over to Hannibal after Cannae did
+  so through their own internal politics, and in the surviving
+  accounts the initiative is usually theirs rather than his. At Compsa
+  a local noble sent for him and promised to hand the town over; Arpi
+  and some Campanian towns invited him; the Capuans approached him
+  after an embassy to the Roman consul had failed. The splits that
+  decided a city took two different shapes, a quarrel between rival
+  leading families at Compsa and a division between council and
+  commons at Capua and Nola.
+confidence: attested
+scholarly_consensus: >
+  The direction of the initiative is worth stating because the usual
+  telling reverses it. Polybius says that after Cannae "Argyrippa and
+  some Campanian towns invited Hannibal to come to them" (3.118.3),
+  and Livy opens the Compsa episode with Hannibal *accitus*, sent for,
+  by Statius Trebius, who promised to deliver the town (23.1.1). At
+  Capua the envoys who made the treaty were the same men who had just
+  been to the consul at Venusia (23.5-23.7). A campaign of detachment
+  run by a general who approached cities is a different thing from a
+  set of communities using a general for their own purposes, and the
+  sources describe the second more often than the first.
+
+  The mechanism is local in a second sense. Livy's Compsa is a
+  quarrel between households: Trebius was a noble among his own
+  people but held down by the faction of the Mopsii, a family
+  powerful through Roman favor, and when the Mopsii left the city it
+  was handed over without a fight (23.1.1-3). Nola and Capua divide
+  along a different line. At Nola the senate and above all its leading
+  men stood by Rome while the commons were wholly for Hannibal
+  (23.14.7); at Capua the plebs and the greater part of the senate
+  moved together toward defection and were held back for a few days by
+  the authority of the older men (23.6.5). The first shape is a feud
+  between elites, the second a division by class, and an account that
+  offers only one of them is describing half of what happened.
+
+  One caution belongs with the class reading. Livy's phrase at Nola is
+  *plebs novarum, ut solet, rerum*, the commons, as usual, for
+  revolution, which is an annalistic formula about the lower orders
+  and not an observation made at Nola. The division is probably real,
+  since the practical consequences Livy then narrates depend on it,
+  but the explanation attached to it is a Roman historian's standing
+  view of what commons do. The site treats the split as attested and
+  the motive as his.
+
+  What the pattern argues against is a picture of southern Italy as
+  territory that changed hands. These were communities with their own
+  governments making decisions about their own interests under
+  conditions neither Rome nor Carthage controlled, which is the same
+  reading the site applies to
+  [Iberian side-switching](/claims/iberian-side-switching-as-agency)
+  and has been slower to apply in Italy.
+sources:
+  - source: polybius-histories
+    stance: supports
+    passage_ref: "3.118.3"
+    passage_summary: >
+      After Cannae the Carthaginians became masters of almost all the
+      rest of the coast: Tarentum surrendered at once, while Argyrippa
+      and some of the Campanian towns invited Hannibal to come to
+      them. (Tarentum in fact fell in 212.)
+  - source: livy-auc
+    stance: supports
+    passage_ref: "23.1, 23.6, 23.14"
+    passage_summary: >
+      Hannibal moved from Apulia into Samnium, sent for among the
+      Hirpini by Statius Trebius, who promised to hand over Compsa.
+      Trebius was a noble among his own people but was pressed by the
+      faction of the Mopsii, a family powerful through Roman favor;
+      when news of Cannae spread and Trebius talked of Hannibal's
+      approach, the Mopsians left the city and it was handed over
+      without a contest. At Capua the plebs and the greater part of
+      the senate looked to defection at once, and the business was
+      drawn out a few days by the authority of the older men. At Nola
+      the senate and especially its leading men stayed loyal while the
+      commons were wholly for Hannibal, and there was no lack of men
+      urging revolt.
+further_reading:
+  - source: fronda-between-rome-and-carthage-2010
+    note: >
+      A monograph on the southern Italian communities and the question
+      of why particular cities defected and their neighbors did not.
+  - source: macdonald-hannibal-2015
+    note: >
+      Treats the city-by-city mechanism at pp. 140-141, with Compsa as
+      the example.
+entities:
+  - type: event
+    slug: battle-of-cannae
+    role: context

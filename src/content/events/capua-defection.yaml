@@ -1,49 +1,148 @@
 slug: capua-defection
 name: Capua's Defection to Hannibal
 type: political
+outcome: "Capua joined Hannibal on terms conceding him no authority in the city; recovered by Rome in 211 and stripped of its government"
 date_start:
   value: -216
   precision: year
-  notes: Late summer or autumn 216 BCE, in the weeks following the Battle of Cannae.
+  notes: >
+    Autumn 216 BCE. Livy has Hannibal enter the city in the days
+    after the negotiation; MacDonald puts the entry in late September
+    or early October.
 place: capua
 participants:
   - person: hannibal-barca
     role: counterparty
     side: Carthaginian
+  - person: terentius-varro
+    role: consul who received the Capuan embassy at Venusia
+    side: Roman
 principal_sources:
-  - polybius-histories
   - livy-auc
+  - polybius-histories
 related_events: []
 summary: >
-  The defection of Capua, which Plutarch calls the most considerable
-  city after Rome (*Fabius* 17), from the Roman alliance to Hannibal's side in
-  late 216 BCE. Capua's defection was the largest single
-  political defection of Hannibal's Italian campaign and the
-  central example of the broader Italian-allied movement away
-  from Roman control after Cannae. The Capuan negotiations
-  with Hannibal produced a treaty preserved by Livy with
-  characteristic political detail: Capua to retain its
-  autonomy and political institutions; no Capuan citizen to
-  be conscripted into Carthaginian service against his will;
-  Capua to be the Italian capital of the new political order
-  Hannibal's victory was understood to be producing.
+  The largest political defection of Hannibal's Italian campaign, and
+  the one the surviving sources describe in enough detail to show how
+  such a thing was actually done. Almost all of that detail is Livy's,
+  in a stretch of narrative (23.2-23.10) that is also one of his most
+  openly hostile, so the episode has to be read with the two layers
+  kept apart.
 
-  The defection's strategic consequences were substantial.
-  Most of the Italian south followed within months: the
-  Bruttii, the Lucanians, much of Apulia, the Greek cities
-  of Magna Graecia (especially after Tarentum's defection in
-  213/212). The Roman strategic situation became one of
-  containing both Hannibal's army and an active Italian
-  rebellion against Roman hegemony. Capua's recovery by Rome
-  through prolonged siege in 212-211 BCE, and the subsequent
-  punishment of the Capuan leadership (~70 senators executed,
-  the city's autonomy abolished), was the central Roman
-  political-symbolic act of the post-Cannae recovery.
+  ## The embassy to Varro
 
-  The Capuan defection illustrates Hannibal's broader Italian
-  strategy in operation: the war was not about destroying Rome
-  through assault on the city, but about detaching Rome's
-  Italian confederation. The strategy was working in 216-212
-  BCE; what defeated it was Roman strategic patience and the
-  structural manpower depth that allowed Rome to recover Capua
-  while continuing to contain Hannibal's army elsewhere.
+  The approach did not begin with Hannibal. A Capuan embassy went
+  first to the surviving consul, Gaius Terentius Varro, and found him
+  at Venusia with a few half-armed men. They said the Campanian senate
+  and people regretted that anything had gone badly for Rome and
+  promised whatever the war required. Varro answered that they had
+  kept the form of speaking to allies rather than spoken to the
+  present state of Roman fortune, and set out what was left: legions,
+  cavalry, arms, standards, horses and men, money and supplies all
+  lost in the line or in two camps on the following day. He reminded
+  them that Rome had taken them in at Saticula and fought the Samnites
+  for nearly a hundred years on their account, and had given them an
+  equal treaty, their own laws and Roman citizenship for a great part
+  of them. He asked for thirty thousand foot and four thousand horse
+  from Campania, and closed by saying that if their loyalty matched
+  their fortune, Hannibal would not feel that he had won nor the
+  Romans that they had lost (Livy 23.5).
+
+  The speech is Livy's composition and its middle section is wartime
+  propaganda of a specific kind, treated separately under
+  [what the word Punic carried at Rome](/themes/punic-identity). What
+  matters here is the sequence. On the way home one of the envoys,
+  Vibius Virrius, said the moment had come when the Campanians could
+  not only recover the land Rome had taken from them but take
+  possession of the rule of Italy: they could make a treaty with
+  Hannibal on whatever terms they liked, and when he had finished the
+  war and withdrawn in triumph to Africa, the rule of Italy would be
+  left to Capua (23.6.1-2). The rest agreed and reported the embassy
+  in terms that made the Roman name look finished. Livy's imperialist
+  reading of Capuan intentions is therefore a speech he gives to a
+  named envoy, not a judgment in his own voice, and the site keeps it
+  that way.
+
+  ## The terms
+
+  The same envoys went to Hannibal and made a treaty on four
+  conditions, set out in the
+  [claim on the terms](/claims/capua-treaty-terms-216): no
+  Carthaginian commander or magistrate to have jurisdiction over a
+  Capuan citizen, no Capuan citizen to serve or perform any duty
+  against his will, Capua to keep its own laws and magistrates, and
+  three hundred Roman prisoners to be handed over for exchange
+  against the Campanian cavalry serving with Rome in Sicily (23.7.1-2).
+
+  Those terms are the measure of the thing. Hannibal gained a city and
+  no power in it. Capua kept its government, owed him no soldiers, and
+  took three hundred prisoners off him. Against the Roman arrangement
+  they were leaving, a citizenship without the vote that carried
+  direct taxation and compulsory service, the treaty reads as the deal
+  the Capuans had wanted from Rome. It also tells against the idea
+  that a defecting city was changing masters.
+
+  Livy then records, as conduct beyond the agreement, that the Capuan
+  commons seized the Roman officers and citizens in the city and shut
+  them in the baths until they suffocated.
+
+  ## The entry
+
+  Hannibal sent word ahead to the Campanian praetor Marius Blossius
+  that he would be at Capua the next day. Blossius called an assembly
+  and ordered the people to go out to meet him in crowds with their
+  wives and children, and Livy says they did it not merely obediently
+  but eagerly, the common people genuinely wanting to see a commander
+  by then famous for so many victories (23.7.10-12). The reception was
+  both staged and real, which is worth saying plainly because the two
+  readings are usually offered as alternatives.
+
+  Hannibal spent the first day touring the city at the request of the
+  leading Capuans, who asked that he transact no serious business on a
+  day they wanted to keep as a festival. On the next he addressed the
+  senate, thanked the Campanians for preferring his friendship to the
+  Roman alliance, and promised among other magnificent things that
+  Capua would shortly be the capital of all Italy and that the Roman
+  people too would come there for their laws (23.10.1-2). In the same
+  speech he demanded that Decius Magius be handed over. The senate
+  voted it.
+
+  He lodged with the Ninnii Celeres, Sthenius and Pacuvius, and was
+  entertained at a banquet that began before sunset. Livy's comment on
+  it is more interesting than the moralizing it is usually read as
+  supporting: the dinner was not in the Punic manner or by military
+  discipline, but furnished with every allurement of pleasure as in a
+  wealthy and luxurious city and house (23.8.6). The luxury in Livy's
+  own sentence is Capuan and is contrasted with Carthaginian practice.
+  At that dinner, by Livy's account, the son of Pacuvius Calavius had
+  planned to kill Hannibal and was talked out of it by his father in
+  the garden afterward (23.8.7-23.9). Whatever the anecdote is worth,
+  it belongs with the fact that the city had an organized opposition
+  led by a man Hannibal had just had arrested.
+
+  ## What it was worth
+
+  The political effect on Rome was large and the military effect was
+  not. Livy calls the Capuans arrogant and untrustworthy (23.5.1), and
+  the anger is intelligible: leading Capuans were tied to Roman
+  senatorial families by patronage and marriage, and Pacuvius Calavius
+  himself had children by a daughter of Appius Claudius and had
+  married a daughter to a Livius at Rome (23.2.6). Those ties cut both
+  ways. The three hundred Campanian horsemen serving with Rome in
+  Sicily, whose exchange was written into the treaty, declined in the
+  end to come home and were offered Roman citizenship instead, which
+  split families in Capua between the two sides.
+
+  Hannibal left a garrison and moved on. He had been trying since
+  before Capua to take a port on the Italian west coast, which would
+  have given his reinforcements a direct route from Africa without
+  rounding Sicily, and Livy gives that aim twice (23.1.5-10,
+  23.15.1-2). Neapolis refused him twice in 216 and he did not besiege
+  it; Livy says the sight of the walls deterred him. He never took
+  such a port. Capua was not one.
+
+  Rome recovered the city in 211 after a siege, executed the leading
+  Capuans and abolished its government, which the site treats under
+  [what the war cost the winner](/narratives/what-the-war-cost-the-winner)
+  as the rehearsal for what Rome would later do to a community that had
+  proved it could not be trusted.

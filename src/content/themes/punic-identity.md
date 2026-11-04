@@ -16,7 +16,7 @@ primary_entities: []
 related_themes:
   - punic-religion
 referenced_claims: []
-last_revised: "2026-10-27"
+last_revised: "2026-11-04"
 ---
 
 ## The category problem
@@ -166,6 +166,46 @@ sentence needs a Carthaginian to give his word and a Carthaginian to
 break it. And the same campaign has Hannibal releasing the Italian
 allies among his prisoners without ransom, twice, which the Roman
 tradition records without finding a national adjective for it.
+
+The sharpest surviving case of the vocabulary being put to work is
+not a judgment at all but a piece of wartime persuasion, and its
+audience was Italian. In the autumn of 216 a Campanian embassy found
+the consul Varro at Venusia, and Livy gives him a speech aimed at
+keeping Capua in the alliance. Its middle section is an argument from
+barbarism. The Punic enemy, Varro says, is not even a native of
+Africa, and drags with him a soldier from the farthest shores of the
+earth, from the Ocean strait and the pillars of Hercules, a man
+without any law or civil status or almost human language; and the
+general has made that soldier, savage already by nature and custom,
+worse still, by building bridges and causeways out of heaps of human
+bodies and by teaching him, a thing it shames one even to say, to
+feed on human flesh. Men fed on such banquets are to be your masters,
+and Italy is to endure being a province of Numidians and Moors
+(23.5.11-13).
+
+Three things follow from it. The charge is addressed to wavering
+allies, so the stereotype here is not a literary attitude but an
+instrument of alliance politics, deployed against Hannibal's own
+pitch that he had come to free the peoples of Italy. The cannibalism
+accusation is the same one Polybius answers a century later by
+assigning it to a single officer, Hannibal Monomachus, who proposed
+it and was refused, which is treated under the
+[claim on the Polybian character digression](/claims/hannibal-circle-polybian-exculpation):
+Varro's speech shows the charge in circulation as a thing to say to
+allies, which is the context Polybius's exculpation needs. And the
+ethnic move is worth marking. The slur is not that Hannibal is
+Carthaginian but that he is barely African and that his soldiers are
+not people, which makes it a different weapon from *fides Punica* and
+a more useful one against a man offering Italians their freedom.
+
+Varro's closing line belongs with it: if Campanian loyalty matches
+Roman fortune, Hannibal will not feel that he has conquered, nor the
+Romans that they have been conquered. The speech is Livy's
+composition and cannot be used as a record of what was said at
+Venusia. What it is good evidence for is the shape of the Roman case
+to the allies as a Roman historian two centuries later understood it,
+which is the same thing the Plautus material gives from the other
+end.
 
 ## What the question opens
 

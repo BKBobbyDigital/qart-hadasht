@@ -620,6 +620,30 @@ const REGRESSIONS = [
     right: 'Polybius 3.102 has Hasdrubal arrive with about four thousand men who had fallen back on the camp before Geronium and does not call them cavalry.',
     fixed: 'MacDonald ch. 7 pass',
   },
+  {
+    id: 'cannae-rings-a-bushel',
+    re: /(a |the )?bushels?[^.]{0,40}rings|rings[^.]{0,40}\bbushels?\b/i,
+    right: "Livy 23.12.1 gives two measures and prefers the smaller: some authorities said three and a half modii, but the account he calls nearer the truth was not more than one modius. A modius is about a quarter of a bushel, so 'a bushel' overstates even the larger figure and drops Livy's own doubt.",
+    fixed: 'MacDonald ch. 8 pass',
+  },
+  {
+    id: 'cannae-rings-senatorial',
+    re: /(senatorial|senators'|senators) (gold )?rings|rings[^.]{0,20}of (the )?senators/i,
+    right: 'Mago says at Livy 23.12.2 that none but knights wore the ring, and of them only the leading ones. The Cannae rings are equestrian.',
+    fixed: 'MacDonald ch. 8 pass',
+  },
+  {
+    id: 'capua-capital-of-italy-as-treaty-term',
+    re: /Capua to be the [^.]{0,30}capital|(treaty|terms|agreement)[^.]{0,50}(provided|stipulated|included|required)[^.]{0,60}capital of (all )?Italy/i,
+    right: "The four terms are at Livy 23.7.1-2. The promise that Capua would shortly be the capital of all Italy is at 23.10.1, in Hannibal's speech to the Capuan senate, where Livy marks it as one of his magnificent promises.",
+    fixed: 'MacDonald ch. 8 pass',
+  },
+  {
+    id: 'hanno-thirty-five-latin-colonies',
+    re: /(thirty-five|35) Latin colonies/i,
+    right: "Hanno's second question at Livy 23.13.2 asks whether any individual man out of the thirty-five tribes had deserted, meaning the Roman citizen body. The Latin colonies were thirty (Livy 27.9), and they are the subject of his first question, which asks after peoples of the Latin name.",
+    fixed: 'MacDonald ch. 8 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

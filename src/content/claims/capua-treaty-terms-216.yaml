@@ -1,0 +1,110 @@
+slug: capua-treaty-terms-216
+statement: >
+  The treaty Capua made with Hannibal in 216 BCE set four terms: no
+  Carthaginian commander or magistrate was to have any jurisdiction
+  over a Capuan citizen; no Capuan citizen was to serve as a soldier
+  or perform any service against his will; Capua was to keep its own
+  laws and its own magistrates; and Hannibal was to hand over three
+  hundred Roman prisoners of the Capuans' own choosing, to be
+  exchanged for the Campanian cavalry then serving with Rome in
+  Sicily. The promise that Capua would shortly be the capital of all
+  Italy was not a term of the treaty but part of Hannibal's speech to
+  the Capuan senate afterward.
+confidence: attested
+scholarly_consensus: >
+  Livy gives the terms as a list at 23.7.1-2 and the capital promise
+  separately at 23.10.1, where he marks it as one of Hannibal's
+  magnificent promises. The site had previously carried the promise as
+  though it were a clause, which is worth correcting for a reason
+  beyond tidiness: the terms are a settlement that costs Hannibal
+  something and the promise costs him nothing, and running them
+  together turns a hard bargain into a grant.
+
+  What the terms describe is a city that conceded nothing. Hannibal
+  acquired no authority over a Capuan, no obligation of Capuan
+  military service, no change in Capuan government, and gave up three
+  hundred prisoners. Set beside the Roman arrangement the Capuans were
+  leaving, which carried direct taxation and compulsory service under
+  a citizenship without the vote, the treaty reads as what the city
+  had wanted from Rome and had not been given.
+
+  ## The first clause used against him
+
+  The clause on jurisdiction was tested within days, and the test is
+  the best evidence that both sides took it seriously. Decius Magius
+  had argued against the embassy and then against admitting a
+  Carthaginian garrison, citing the arrogant domination of Pyrrhus and
+  the pitiable servitude of the Tarentines, and had urged that the
+  garrison be killed and the city returned to Rome. Hannibal summoned
+  him to the camp; Magius refused on the ground that Hannibal had no
+  jurisdiction over a Capuan citizen, which is the treaty's first
+  clause quoted back at him. Hannibal then demanded in the senate that
+  Magius be handed over, and the senate voted it, though Livy says
+  many thought the man did not deserve it and that it was no small
+  beginning of a reduction in their liberty. Magius, in chains and
+  bareheaded, harangued the crowd in the forum: you have the liberty
+  you asked for; what worse would be done if Capua had been taken by
+  storm; go out to meet Hannibal and consecrate the day of his
+  arrival, so that you can watch this triumph over one of your own
+  citizens (23.10.3-13).
+
+  The sequel is the part that is usually dropped. The ship carrying
+  him to Carthage was driven by a storm to Cyrene, he took refuge at a
+  statue of the king, and at Alexandria he showed Ptolemy IV that he
+  had been bound by Hannibal contrary to the law of the treaty. He was
+  freed on that ground and offered passage to Rome or Capua. He
+  declined both, saying Capua was not safe for him and Rome in wartime
+  would house him as a deserter rather than a guest, and stayed in the
+  kingdom of the man who had been the champion of his liberty
+  (23.10.11-13). A Capuan treaty clause was thus argued twice and
+  upheld once, by a Hellenistic king, against the general who had
+  signed it.
+
+  ## What the Capuans did beyond the terms
+
+  Livy is explicit that the killing of the Romans in the city was not
+  covered by the agreement: he gives the terms, and then writes that
+  beyond what was agreed the Campanians committed the following
+  outrages. The plebs seized the Roman officers and citizens in Capua,
+  some on military business and some on private business, and shut
+  them in the baths, where they suffocated in the heat (23.7.3). The
+  agent is the Capuan commons and the act is marked as a breach of the
+  settlement, which is how the site reports it. MacDonald's note
+  records that Cassius Dio tells a similar story about Nuceria
+  (fragment 57.30), which may mean the details have migrated between
+  the two; the site has not seen the Dio fragment and reports the
+  doubt as hers.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "23.7, 23.10"
+    passage_summary: >
+      The envoys came to Hannibal and made peace on these conditions:
+      that no Carthaginian commander or magistrate should have any
+      jurisdiction over a Capuan citizen, that no Capuan citizen
+      should serve as a soldier or perform any service against his
+      will, that Capua should have its own laws and its own
+      magistrates, and that the Carthaginian should give the
+      Campanians three hundred Roman prisoners of their own choosing,
+      with whom an exchange would be made for the Campanian cavalry
+      serving in Sicily. These were the terms. Beyond what was agreed
+      the Campanians committed outrages: the plebs seized the Roman
+      officers of allies and other Roman citizens and shut them in the
+      baths, where they died of the heat. At 23.10 Hannibal thanks the
+      Capuan senate for preferring his friendship to the Roman
+      alliance and promises among other magnificent things that Capua
+      will shortly be the capital of all Italy and that the Roman
+      people too will come there for their laws; in the same speech he
+      demands the surrender of Decius Magius.
+further_reading:
+  - source: macdonald-hannibal-2015
+    note: >
+      Gives the terms and the Capuan background at pp. 142-143, with
+      Decius Magius in a note.
+entities:
+  - type: event
+    slug: capua-defection
+    role: subject
+  - type: place
+    slug: capua
+    role: object

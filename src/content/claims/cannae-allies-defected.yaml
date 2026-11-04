@@ -14,6 +14,12 @@ scholarly_consensus: >
   The site reads them as evidence that Hannibal's strategy of detaching
   Rome's allies partly worked (see the
   [editorial take](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)).
+
+  MacDonald argues the same compression point and the same limit, so
+  her entry here is the first of the site's MacDonald citations to
+  carry a `supports` stance rather than a qualifying one. On how the
+  individual cities decided, and on who approached whom, see the
+  [claim on local politics](/claims/italian-defections-local-politics).
 sources:
   - source: polybius-histories
     stance: supports
@@ -25,16 +31,35 @@ sources:
       Polybius's own list of defectors does not survive.
   - source: livy-auc
     stance: supports
-    passage_ref: "22.61, 23.1-7"
+    passage_ref: "22.61, 23.1-7, 23.11"
     passage_summary: >
       Lists those who revolted: the Atellani, Calatini and Hirpini, part
-      of Apulia, the Samnites except the Pentri, the Bruttii and
-      Lucanians, the Uzentini, most of the Greek coast (Tarentum, Croton,
-      Locri) and Cisalpine Gaul. Gives a full account of Capua's
-      defection and its terms.
-further_reading:
+      of Apulia, the Samnites except the Pentri, all the Bruttii, the
+      Lucanians, the Uzentini, almost all the Greek coast (Tarentum,
+      Metapontum, Croton, Locri) and all the Cisalpine Gauls. Gives a
+      full account of Capua's defection and its terms. At 23.11 Mago
+      reports a shorter and differently shaped list to the Carthaginian
+      senate: the Bruttii and Apulians, part of the Samnites and
+      Lucanians, and Capua.
   - source: macdonald-hannibal-2015
+    stance: supports
+    passage_ref: "p. 140 with notes 5 and 9"
+    passage_summary: >
+      Argues that Livy's portrayal overstates the scale: the list at
+      22.61 gathers defections from 216 to 212 rather than the
+      immediate aftermath of Cannae, far from every city in the
+      regions named went over, and Rome still held substantial
+      territory and influence in the south. Holds that what rings true
+      in Livy is the sentence at 22.61.10 that allied loyalty had
+      stood firm until Cannae and then began to waver from despair of
+      the empire.
+further_reading:
   - source: rawlings-celts-spaniards-samnites-1996
+  - source: fronda-between-rome-and-carthage-2010
+    note: >
+      A monograph on the southern Italian communities and why
+      particular cities defected while their neighbors did not.
+      MacDonald's treatment of the defections rests on it throughout.
 entities:
   - type: event
     slug: battle-of-cannae

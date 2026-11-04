@@ -26,7 +26,7 @@ primary_entities:
 referenced_claims:
   - barcid-iberia-silver-funded-spw
   - barcid-dynastic-succession-as-state-form
-last_revised: "2026-05-11"
+last_revised: "2026-11-04"
 ---
 
 ## The least foregrounded brother
@@ -38,8 +38,8 @@ anchored by someone else. He commanded the African heavy
 infantry that closed the trap at
 [Cannae](/events/battle-of-cannae), but the battle belongs
 to Hannibal in every account. He carried the news of the
-victory back to Carthage and poured out a bushel of
-equestrian rings at the senate floor, but the scene is the
+victory back to Carthage and poured out the equestrian
+rings on the senate floor, but the scene is the
 senate debate between Hanno the Great and the Barcid
 faction. He was one of three Carthaginian commanders at the
 [Upper Baetis](/events/battle-of-the-upper-baetis) in 211
@@ -83,9 +83,12 @@ like 50,000 Roman dead and the most complete tactical
 envelopment in the surviving record of ancient warfare.
 
 Hannibal sent Mago back to Carthage with the news. The
-mission included the famous gesture of pouring out a bushel
-of equestrian rings, taken from the Roman dead, at the senate
-floor (Livy 23.11–13). The senate debate that followed,
+mission included the famous gesture of pouring out the
+equestrian rings, taken from the Roman dead, on the senate
+floor (Livy 23.11–13). Livy gives two measures and prefers the
+smaller: some authorities said three and a half *modii*, but the
+account that prevailed, and which he calls nearer the truth, was
+that there was not more than one. The senate debate that followed,
 between Hanno the Great and the Barcid faction, is the
 best-documented moment of Carthaginian wartime politics that
 survives. Reinforcements were granted, but smaller than what
