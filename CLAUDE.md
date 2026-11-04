@@ -768,18 +768,18 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~770 pages** as of
+parked until the day version settles. The site is **~778 pages** as of
 the last build.
 
 ### Collection counts (current)
 
 | Collection | Count |
 |---|---|
-| events | 98 |
+| events | 99 |
 | people | 85 |
 | places | 63 |
-| sources | 101 |
-| claims | 183 |
+| sources | 103 |
+| claims | 189 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
@@ -2801,7 +2801,7 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 2 Nov 2026)
+### Open threads (as of 4 Nov 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
 is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
@@ -2809,27 +2809,49 @@ is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
 Worked so far: the introduction and first chapter, the Barcid family
 tree, the Hellenistic setup chapters (pp. 26–40), the Hamilcar chapter
 (pp. 44–60), the Barcid Iberia chapter (pp. 61–81), the march into
-Italy (pp. 82–99), the Trebia-to-Trasimeno chapter (pp. 100–118) and
-the Cannae chapter (pp. 119–138).
-**Chapter 8, "After Cannae", is next**, and it is where
-`cannae-allies-defected` should finally get its page reference, the
-last of the original six `further_reading` claims still owing one. Ch.
-7 did not reach it: the defections are in Mago's report to the
-Carthaginian senate (Livy 23.11), which is ch. 8's material, so note
-whether she argues the defections reading or only narrates it. She
-sends her endnotes alongside each chunk, which is where her value is:
-see the notes at the end of the Hamilcar, Barcid Iberia and Cannae
-sections on how to use her, including the comparison with Miles and
-the point that her error rate fell sharply once she reached her own
-subject. **Doing a pre-audit of what the site holds before her pages
-arrive is worth the time**; it paid for itself on ch. 6 and again, more
-dramatically, on ch. 7. **Regression rules stand at 96.** Nothing below
-is in progress. Pick one up only when the user asks.
+Italy (pp. 82–99), the Trebia-to-Trasimeno chapter (pp. 100–118), the
+Cannae chapter (pp. 119–138) and the After Cannae chapter
+(pp. 139–159).
+**Chapter 9, "Hannibal's Dilemma, 212–209", is next**, by the heading
+on her notes page. Expect Tarentum, the recovery of Capua and the
+march on Rome in 211, all of which the site holds positions on: the
+Tarentine betrayal as political action rather than treachery, the 211
+march as pressure and never a siege, and Capua's punishment as the
+rehearsal for 146. **Three of the six original `further_reading`
+claims are now promoted** (`tagus-tactical-template-for-italy`,
+`pre-italy-iberia-army-formation`, `cannae-allies-defected`); the
+other three are not pending a chapter but closed as not promotable,
+since the chapters covering their material came and went without her
+adding anything that warranted it. See item 1 below. She sends her
+endnotes alongside each chunk, which is where her value is: see the
+notes at the end of the Hamilcar, Barcid Iberia, Cannae and After
+Cannae sections on how to use her, including the comparison with Miles
+and the standing finding that **her notes hedge more honestly than her
+text**. **Doing a pre-audit of what the site holds before her pages
+arrive is worth the time**; it paid for itself on ch. 6, more
+dramatically on ch. 7, and on ch. 8 it was right about the gaps and
+wrong about where the value would be, which is its own lesson: it
+found Nola missing and Sicily covered, and the best material turned
+out to be a document on a page it had not flagged. **Regression rules
+stand at 104.** Nothing below is in progress. Pick one up only when
+the user asks.
 
 - **`people/servilius-geminus` still does not exist.** Flagged since
   ch. 6 and still owed: consul 217, his advance cavalry destroyed under
   Centenius after Trasimene, proconsul commanding the center at Cannae
-  where he died. Minucius was written in ch. 7; Servilius was not.
+  where he died. Minucius was written in ch. 7; Servilius was not. Ch.
+  8 did not reach him either.
+
+- **Group pages for the Italian peoples who went over to Hannibal.**
+  The site has eight for Iberian and Numidian peoples, because the
+  Iberian side-switching material is built on recovering their agency,
+  and none for the Samnites, Bruttii, Lucanians or Campanians, who did
+  the same thing on a larger scale. No place page for Tarentum either,
+  though `sourceComparisons/tarentine-betrayal` already argues that
+  the defection was political action rather than treachery. Ch. 8 put
+  the argument on `claims/italian-defections-local-politics`; the
+  pages are still owed, and ch. 9's Tarentum material is the natural
+  occasion.
 
 - **The Felsnas epitaph** (Tarquinia, TLE 890), held back on 27 Oct
   2026. MacDonald gives it as an Etruscan who lived to 106 and claimed
@@ -2919,19 +2941,29 @@ Her podcast and AMA remain shape-only; her book is citable.
 
 What to look for, agreed with the user:
 
-1. **Four claims still carry her book in `further_reading`, unchecked:**
+1. **The six `further_reading` claims: three promoted, three closed.**
+   Promoted into `sources` with a `passage_ref` and a stance, per the
+   citation separation: `tagus-tactical-template-for-italy` (p. 74,
+   `qualifies`, ch. 4), `pre-italy-iberia-army-formation` (pp. 85–86,
+   `qualifies`, ch. 5) and `cannae-allies-defected` (p. 140 with notes
+   5 and 9, **`supports`**, ch. 8). Still carrying her in
+   `further_reading` with no page reference:
    `saguntum-strategic-resource-consolidation`,
-   `saguntum-hannibal-wounded-falarica`,
-   `barcid-iberia-silver-funded-spw`, `cannae-allies-defected`. With a
-   page reference each can be promoted into `sources` with a
-   `passage_ref` (and a stance), per the citation separation. For
-   `cannae-allies-defected`, note whether she argues the defections
-   reading or only narrates it; that one is in chapter 7 or later.
-   **Two promoted so far**, `tagus-tactical-template-for-italy` (p. 74)
-   and `pre-italy-iberia-army-formation` (pp. 85–86), both `qualifies`.
-   The lesson, now holding twice: she narrates what the site argues, so
-   the honest promotion is `qualifies` rather than `supports`, and the
-   site's own reading stays the site's.
+   `saguntum-hannibal-wounded-falarica` and
+   `barcid-iberia-silver-funded-spw`. **Those three are not waiting on
+   a chapter.** Ch. 4 covered the Saguntum siege and the Iberian
+   silver in detail and was read against all six; she added nothing on
+   them that warranted promotion, and on the *falarica* she was right
+   against the site on a point of fact without arguing the claim.
+   Treat them as closed unless a later chapter returns to the
+   material. **A correction worth recording**, because it was stated
+   wrongly in the ch. 8 commit message: `cannae-allies-defected` was
+   the last of the six that this file had flagged as awaiting a
+   specific chapter, not the last owing a page reference.
+   The lesson from the first two promotions, which ch. 8 then broke:
+   she usually narrates what the site argues, so the honest stance is
+   `qualifies` and the site's reading stays the site's. **On the
+   defections she argues it**, which is why that one is `supports`.
 2. **Her Hellenistic framing against the site's positions:** the Heracles
    /Alexander material (site says "self-presentation", attributes
    "propaganda" to Miles; she is the second opinion for the tabled take);
@@ -4017,6 +4049,244 @@ narrative are pre-existing and not in the added paragraph; one, "the
 structural reason that goes with the arithmetic", was the empty
 adjective the rule exists for and was cut. **`tic-rank` now belongs in
 the per-commit routine, not the periodic one.**
+
+### MacDonald's After Cannae chapter (4 Nov 2026)
+
+Her ch. 8, pp. 139-159, in three chunks with the endnotes. Commits
+`a9f4f5c`, `6b4421b`, `7003329`. Checked against Livy 22.13, 22.61,
+23.1-23.43, 24.15, 24.36-39, 25.23-25.31; Polybius 3.118, 7.2-7.9,
+11.19; Plutarch *Pyrrhus* 19. **The pre-audit was right about the
+holes and wrong about where the value would be**, which is itself
+worth knowing: it correctly predicted that Nola was absent and that
+Sicily was well covered, and the best material turned out to be a
+document on a page the audit had not flagged at all.
+
+**The chapter's organizing find, and it runs through all three
+chunks: the initiative usually ran the other way.** Polybius 3.118.3
+has Arpi and the Campanian towns *invite* Hannibal; Livy opens Compsa
+with Hannibal *accitus*, sent for by Statius Trebius, who promised to
+hand the town over; the Capuan envoys went to the consul at Venusia
+first and turned to Hannibal only after that failed; and Hieronymus
+sent to Hannibal before the brothers were sent to him. MacDonald
+describes a general approaching cities and making contact with their
+elites. New claim `italian-defections-local-politics` states the
+direction and also that the splits take two shapes, rival families at
+Compsa and council against commons at Capua and Nola, where she gives
+only the first. **The site had group pages for eight Iberian and
+Numidian peoples and none for the Samnites, Bruttii, Lucanians or
+Campanians**; the claim is the first installment of that, and the
+group pages are still owed.
+
+**Our errors, and the worst was on the page the site values most.**
+- **`people/hanno-the-great`'s 216 speech had an invented question.**
+  The site gave Hanno four questions, the fourth being "Has Hannibal
+  himself asked for reinforcements?", which is what Mago was doing, so
+  the site had turned Hanno's sarcasm into a question with the wrong
+  answer. A second asked whether "any of the thirty-five Latin
+  colonies" had defected. Livy 23.13 has two pairs: any people of the
+  Latin name, any individual man out of the **thirty-five tribes**
+  (the Roman citizen body), any peace envoys to Hannibal, any mention
+  of peace at Rome. Conflating tribes with colonies collapses the pair
+  that makes the argument work. Added: **Himilco**, "vir factionis
+  Barcinae", whose taunt provoked the speech; Hanno's real thesis,
+  that this was the moment to make peace while Carthage could seem to
+  grant one rather than accept one; the Aegates precedent; and Livy's
+  own reason the speech failed, that his feud with the Barcid family
+  made him a lighter authority. The silver in the decree stays
+  unquantified: **the manuscript is corrupt at that word and at the
+  name of the man sent to Iberia with Mago**, which is Hoyos via her
+  note 67 and is confirmed by the daggers in the Latin.
+- **The Capua treaty had a term that was not one.** "Capua to be the
+  Italian capital of the new political order" is Hannibal's promise in
+  his speech to the Capuan senate (Livy 23.10.1), which Livy marks as
+  one of his magnificent promises. The four actual terms (23.7.1-2)
+  give him no jurisdiction over a Capuan, no Capuan service, Capua's
+  own laws and magistrates, and three hundred Roman prisoners handed
+  over. Merging them turns a hard bargain into a grant.
+- **The Cannae rings were "a bushel" on five pages and "senatorial" on
+  one.** Livy 23.12.1 gives three and a half *modii* from some
+  authorities and **not more than one** as the report he calls nearer
+  the truth, and Mago's own line is that only knights wore the ring. A
+  modius is about a quarter of a bushel, so the site overstated even
+  the figure Livy rejects.
+- `events/capua-defection` and `events/treaty-with-philip-v` were both
+  pre-audit prose; the second named no clause and no god and placed
+  the treaty at Carthage.
+- `syracusan-defection-215` had one treaty where Polybius 7.4 has two,
+  and had Hannibal dispatching the brothers as his opening move.
+
+**The new material, in order of value.**
+
+1. **The Philip treaty as a document** (`treaty-with-philip-v`
+   rebuilt, plus `claims/philip-treaty-oath-punic-form`). Polybius 7.9
+   names the parties as Hannibal the general, Mago, Myrcan, Barmocar,
+   "and such other members of the Carthaginian senate as were present
+   with him". **Senators of Carthage were in his camp in Italy
+   swearing with him**, which bears directly on the post-war defense
+   that he acted on his own authority, used over the Ebro agreement
+   and again in 203. The oath claim carries the argument that the
+   Greek translates a Punic original and that the formula is Near
+   Eastern rather than Greek or Roman (natural features called to
+   witness, the other party's gods invoked as a block). **The three
+   studies behind that are unread here**, so it is reported as hers,
+   and the identification of Zeus/Hera/Apollo with Baal Hammon, Tanit
+   and Reshef is marked as modern inference. The dispute over whether
+   the gods are Hannibal's own or the state pantheon is stated and not
+   settled.
+2. **Scipio's tears have a form** (`claims/weeping-conqueror-before-a-burning-city`,
+   noted in `narratives/destruction-of-carthage`). Livy 25.24.11-13
+   gives Marcellus the identical situation above Syracuse in 212: the
+   view from the height, the catalog of the city's past, the thought
+   that within an hour all of it will be ash. **This does not make
+   Scipio's tears fiction**, and the claim says so twice: Polybius
+   says he was holding the man's hand and his own words survive in a
+   fragment, while Livy writes *inlacrimasse dicitur*, he is said to
+   have wept. What it establishes is that the scene had a recognized
+   shape, and the difference between the two is the thing to keep:
+   Marcellus grieves over the city's past, Scipio over Rome's future,
+   which is the lesson Polybius built his history to deliver. **Note
+   that charter principle 5 runs the opposite way here.** The tears
+   are the most sympathetic moment the Roman record affords Carthage,
+   so the site has an interest in keeping them, which is a reason to
+   state the parallel rather than omit it.
+3. **Her best argument, adopted**
+   (`claims/hannibal-allies-not-obliged-to-serve`). Hannibal's terms
+   imposed no military service, so the arrangement that made defection
+   attractive gave him allies to defend rather than troops to use. The
+   Capuan treaty is the documentary case. Her own qualification is
+   kept: southern Italians did serve, and Hanno's army at Beneventum
+   in 214 was mostly Bruttii and Lucani (Livy 24.15.1-2). The other
+   half is in Hannibal's mouth: in 215 he told Hirpinian envoys he
+   would not bring his army into their land so as not to burden them,
+   but onto Rome's allies' land, where he could resupply and push the
+   enemy off (23.43.1-5). With the Fronda and Miles point, credited:
+   **the promise of Capuan pre-eminence is what kept Neapolis, Nola
+   and Cumae loyal**, and he made that promise and the liberation
+   offer in the same autumn.
+4. **`events/first-battle-of-nola`**, the autumn of 216 from Livy
+   23.14-19. Livy's verdict is why the page exists: whether the
+   victory was as large as some writers claimed or smaller, **not to
+   be beaten by Hannibal was harder then than beating him was
+   afterward** (23.16.15-16). What Marcellus did next matters as much.
+   Once Hannibal withdrew to Acerrae he shut the gates, held an
+   inquiry, beheaded **more than seventy** Nolans and handed the
+   city's government to its senate (23.17.1-2). **A city stayed loyal
+   the same way a city defected**, by one faction beating the other,
+   and the pro-Roman settlement was imposed by execution. Also Nuceria
+   taken by hunger and burned after every inhabitant refused his offer
+   to serve, Acerrae burned, and the failed assault on Casilinum.
+5. **`claims/capua-winter-luxury-topos`.** The useful sentence is the
+   one always left out: Livy says that men skilled in war held the
+   ruin of the army by comfort **a greater fault in Hannibal than not
+   marching on Rome after Cannae**, because the delay only postponed
+   victory while this took away the strength to win (23.18.13-14). The
+   two charges are a matched pair of hindsight verdicts by the same
+   unnamed experts, now on `cannae-march-on-rome` beside the Juvenal
+   declamation point.
+6. **Henna**, on `siege-of-syracuse-marcellus`. The garrison massacred
+   an unarmed crowd in the theatre; **Marcellus did not disapprove and
+   gave them the plunder, reckoning the Sicilians would be frightened
+   out of betraying garrisons**, and Livy says the waverers went over
+   to Carthage instead (24.39.7-8). Her link to Nola is right and is
+   qualified on the page: a judicial inquiry and a massacre approved
+   after the fact are not the same act, but the reasoning is, and Livy
+   states it for one and records the result against it.
+7. **Punic identity gained two things.** Varro's speech at Venusia
+   (Livy 23.5.11-13), the bridges of corpses and the cannibalism
+   charge put to wavering allies, which is the context Polybius's
+   Monomachus exculpation answers. And the capture of the Philip
+   envoys: Punic dress and bearing made them suspect and **their
+   speech gave them away** (23.34.6), reported without a slur
+   attached. The one Carthaginian state instrument we have survives
+   because three Carthaginians were legible as Carthaginians.
+8. **`what-the-war-cost-the-winner`** gained the spring of 215.
+   Otacilius in Sicily and Mammula in Sardinia both told there was
+   nothing to send; Otacilius borrowing from Hiero, **whom Livy calls
+   the sole resource of the Roman people**; the repayment later
+   diverted to the Macedonian war while Hiero sent more grain; the
+   three public bankers appointed for the silver shortage. Plus the
+   earlier half of the prorogation story, Marcellus's 215 consulship
+   annulled by thunder.
+9. **The Lernaean hydra** on `cannae-roman-refusal-to-negotiate`,
+   **attributed to Cineas** (Plutarch *Pyrrhus* 19.5), in the same
+   chapter as the refusal the take already cites. His reason is a
+   headcount, which makes it better evidence than the moral version.
+10. `syracusan-defection-215` rebuilt: **Gelo**, the eldest and
+    co-regent, went over to Carthage and was arming the populace when
+    he died, "so timely a death as to cast suspicion even on his
+    father" (23.30.10-12); and **two treaties**, the first dividing
+    Sicily at the river Himeras and the second claiming the whole
+    island, which Carthage accepted although Polybius says its
+    negotiators had seen the boy's instability plainly, because it
+    needed the harbors.
+
+**`cannae-allies-defected` is promoted**, with p. 140 and notes 5 and
+9, on a **`supports`** stance, the first of her citations not to be
+`qualifies`: she argues the compression point the site already held,
+that Livy's 22.61 list gathers 216 to 212. It was the last of the six
+that the open-threads list had flagged as awaiting a particular
+chapter. **It was not, as the commit message says, the last owing a
+page reference**: three of the six still carry her in
+`further_reading`, and those are closed rather than pending. See item
+1 of "Reading MacDonald's *Hannibal*".
+
+**Her errors this chapter**, the established shape:
+- **Pacuvius Calavius "led the approach on behalf of Capua"**; Livy
+  23.6 gives that to **Vibius Virrius**, and Calavius is the man who
+  had just saved the Capuan senate and who had children by a daughter
+  of Appius Claudius. She also gives the imperialist Capuan outlook as
+  "Livy's view"; it is a speech Livy writes for Virrius.
+- **"A group of Capuan equites" at Trasimene**; Livy 22.13.2-3 says
+  three, and says they had already been bribed, which is the part that
+  matters, since it makes the prisoner release agent-recruitment.
+- **"The Roman consul Marcellus" at Nola in 216**, where her own p. 144
+  correctly has praetor. And **"500 denarii"** for Livy's *bigati*.
+- **The hydra given to Pyrrhus** instead of Cineas.
+- **Livy 23.18.10-16 cited for the Monte Tifata reconstruction.** Her
+  correction of the luxury legend is right and the citation belongs to
+  the legend: the passage says the army was under roofs for most of the
+  winter and mentions neither Tifata nor billeting. Her note credits
+  the reconstruction to Lazenby.
+- **Omits Livy's own explanation of the thunderclap** that annulled
+  Marcellus's consulship (the senators said the gods objected to two
+  plebeian consuls, 23.31.13) in favor of an unsupported suggestion
+  that Fabius engineered it.
+- **Archimedes credited with the Syracusan walls** on a Diodorus
+  citation about Dionysius, which her own note 73 then retracts.
+- **Strabo called a Roman geographer**; and Livy 24.11 and Polybius
+  2.24 cited for twenty-five legions in 212, when 24.11 is 215 and
+  2.24 is the 225 census.
+- **Doubtful and not used**: four to six two-legion armies "in
+  Campania alone" over 215-205, from Fronda. That is eight to fourteen
+  legions in Campania against a wartime peak of twenty-five
+  everywhere; it reads like "in Italy" compressed.
+
+**Her note 33 deserves credit** and is the pattern of the whole book:
+she states plainly that the Polybian manpower figures may be greatly
+exaggerated and gives de Ligt's argument against dismissing them,
+which is more careful than her text. **Her notes hedge more honestly
+than her text**, recorded since ch. 4 and holding.
+
+**Two things declined.** Her inference that Hannibal learned at
+Saguntum to avoid long sieges, for the third time: Livy 23.18 has him
+**invoking** Saguntum to shame his men into pressing the siege of
+Casilinum harder, and gives walls rather than policy as his reason for
+leaving Neapolis alone. And the Antigonids as Philip's "direct line
+reaching back to Alexander the Great", which they are not.
+
+**New sources:** `fronda-between-rome-and-carthage-2010` (the
+specialist study of the southern Italian defections, which her chapter
+leans on in twelve notes and which the site did not have; bibliographic
+only, unread) and `juvenal-satires` (the site had been citing him on
+the march-on-Rome take and the poison ring with no source page).
+
+**Regression rules stand at 104**, nine added this chapter, each
+unit-tested against both the wrong and the right wording.
+`prose-attribution` rose to 1 on a new claim that named the three
+unread studies in its reasoning; the names moved to `further_reading`
+and the baseline is 0 again. **That rule earning its keep on new prose
+within an hour of the prose being written is the argument for running
+the full set per commit.**
 
 ### A Reddit exchange on the navy (Oct 2026)
 
@@ -5344,7 +5614,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **770 pages**.
+output. As of the last CLAUDE.md refresh it was around **778 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
