@@ -1,0 +1,93 @@
+slug: hannibal-allies-not-obliged-to-serve
+statement: >
+  The terms on which Hannibal took Italian cities into alliance did
+  not oblige them to furnish him troops. The Capuan treaty says so
+  explicitly, and no surviving treaty of his imposes military service.
+  Roman alliance in Italy did impose it. The arrangement that made
+  defection attractive therefore converted allies into a drain on his
+  manpower rather than a source of it, since he also acquired the duty
+  of defending them.
+confidence: inferred
+scholarly_consensus: >
+  The one set of terms that survives is the Capuan one, and its second
+  clause is that no Capuan citizen should serve as a soldier or
+  perform any service against his will (Livy 23.7.1; see the
+  [claim on the terms](/claims/capua-treaty-terms-216)). Against that
+  stands the Roman system the Campanians were leaving, under which a
+  citizenship without the vote carried direct taxation and compulsory
+  service. The contrast is the reason the treaty was attractive, and
+  it is also the reason the alliance was worth little militarily.
+
+  This is MacDonald's argument and the site adopts it, with her own
+  qualification kept: some allies did supply men, particularly in
+  defense of their own ground. At Beneventum in 214 the army under
+  Hanno was seventeen thousand foot, mostly Bruttii and Lucani, and
+  twelve hundred horse of whom very few were Italians and almost all
+  the rest Numidians and Moors (Livy 24.15.1-2). So southern Italians
+  fought for Hannibal in numbers. What is missing is the obligation,
+  and with it any means of raising men from an ally that did not feel
+  like it.
+
+  The other half of the cost is attested in Hannibal's own mouth. When
+  the Hirpini and Samnites sent to complain in 215 that Marcellus was
+  devastating their territory from Nola and that they had been left
+  undefended, Hannibal answered that he would not bring his army into
+  Hirpinian or Samnite land, so as not to be a burden to them himself,
+  but into the nearest territory of Rome's allies, and that by
+  plundering there he would both resupply his own soldiers and push
+  the enemy away (Livy 23.43.1-5). An army that cannot be fed by its
+  allies and must live off the enemy's allies is an army whose
+  alliances cost it mobility and give it no logistics.
+
+  ## The rivalry the promise set off
+
+  A second cost came from the same bargain. MacDonald, following
+  Fronda and Miles, argues that Capua's defection helped Rome, because
+  the prospect of Capua holding the pre-eminence in Campania it had
+  been promised was reason enough for Neapolis, Nola and Cumae to stay
+  where they were, and that Rome worked the same rivalries
+  deliberately. The site treats this as persuasive and as theirs, and
+  notes that the site's own evidence fits it: the promise that Capua
+  would shortly be the capital of all Italy is in Hannibal's speech to
+  the Capuan senate (Livy 23.10.1), and the three Campanian cities he
+  could not get are precisely the ones that would have been
+  subordinated by it. Offering one city supremacy over its neighbors
+  is difficult to reconcile with a campaign advertised as the
+  liberation of Italy, and he made both offers in the same autumn.
+
+  The site states the whole of this as inference rather than as
+  attestation. No ancient writer says that Hannibal's terms cost him
+  soldiers or that his promise to Capua cost him Nola. What the
+  sources give are the terms, the composition of one allied army, his
+  own account of why he had to plunder elsewhere, and the list of
+  Campanian cities that did not come over.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "23.7.1, 23.43.1-5, 24.15.1-2"
+    passage_summary: >
+      The Capuan treaty provides that no Capuan citizen shall serve as
+      a soldier or perform any service against his will. In 215
+      Hannibal tells Hirpinian and Samnite envoys that he will not
+      bring his army into their land so as not to be a burden to them,
+      but into the nearest territory of Rome's allies, where he will
+      both resupply his men and drive the enemy off. At Beneventum in
+      214 the force under Hanno is seventeen thousand foot, for the
+      most part Bruttii and Lucani, and twelve hundred horse, among
+      whom very few Italians, the rest almost all Numidians and
+      Moors.
+further_reading:
+  - source: macdonald-hannibal-2015
+    note: >
+      Sets out the argument at p. 146, with the inter-urban rivalry
+      point at pp. 146-147.
+  - source: fronda-between-rome-and-carthage-2010
+    note: >
+      The study the rivalry argument rests on. Unread here.
+entities:
+  - type: person
+    slug: hannibal-barca
+    role: subject
+  - type: event
+    slug: second-punic-war
+    role: context

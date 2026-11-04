@@ -1,0 +1,96 @@
+slug: capua-winter-luxury-topos
+statement: >
+  Livy says that Hannibal's army, quartered under roofs at Capua for
+  the greater part of the winter of 216/215, was ruined by comfort:
+  sleep, wine, feasts, prostitutes, baths and idleness unnerved men
+  whom no hardship had broken, so that afterward past victories
+  protected them more than present strength. He ranks this as a
+  greater fault in the general than not marching on Rome after Cannae.
+  The passage is a moral set piece and the site treats it as one, but
+  it is not pure invention: Livy's own detail is that desertion rose
+  through the next summer and that Capua was where the deserters
+  hid.
+confidence: contested
+scholarly_consensus: >
+  The passage is Livy 23.18.10-16, and the site's reasons for not
+  taking it at face value are the ones it applies to hostile framing
+  everywhere else. Luxury ruining an army is a standing Roman moral
+  figure, used of Romans as often as of foreigners. It explains a
+  reverse in the general's own virtue rather than in Roman effort,
+  which suits a historian explaining how a man who had won three
+  battles in two years stopped winning them. And the specific pairing
+  Livy makes is the giveaway.
+
+  That pairing is the most useful thing in the chapter and is usually
+  left out. Livy writes that among men skilled in the art of war this
+  error was held a greater fault in the commander than his failure to
+  lead straight from the field of Cannae to Rome, because the delay
+  could seem only to have postponed victory while this took away the
+  strength to win. The two charges are therefore a matched pair of
+  hindsight verdicts, delivered by the same anonymous experts, and the
+  site already treats the other one as a literary question rather than
+  a military one in the take on
+  [whether Hannibal could have marched on Rome](/editorialTakes/cannae-march-on-rome).
+  Neither is evidence about 216; both are the tradition deciding
+  afterward where the war was lost.
+
+  What survives the discount is smaller and more interesting. Livy
+  says that when the army took the field again its men failed like
+  recruits, that through the whole summer large numbers slipped away
+  from the standards without leave, and that Capua was the only
+  hiding place deserters had. Desertion needs somewhere to desert to,
+  and for the first time since the Alps the army was operating next to
+  a friendly city full of people. That is a fact about having allies,
+  not about soft beds, and it belongs with the other costs of the
+  alliance policy set out in the
+  [claim on the terms Hannibal gave](/claims/hannibal-allies-not-obliged-to-serve).
+
+  ## A note on where the army actually wintered
+
+  MacDonald observes that the winter was probably less luxurious than
+  the legend for most of the troops, that the bulk of the army more
+  likely camped on Monte Tifata behind Capua, and that others were
+  billeted in allied cities, and she cites Livy 23.18.10-16 for it.
+  The passage does not contain any of that. It says the opposite of
+  the first part, that Hannibal kept the army under roofs for the
+  greater part of the winter, and it mentions neither Tifata nor
+  billeting elsewhere. Her note credits the reconstruction to Lazenby,
+  and as a reconstruction it is reasonable: Hannibal certainly used a
+  camp on Tifata, and Livy puts him there in the next campaigning
+  season (23.43.5). But the citation belongs to the legend she is
+  correcting, not to the correction, and the site does not repeat it
+  as though Livy supplied it.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "23.18.10-16"
+    passage_summary: >
+      Hannibal kept the army under roofs at Capua for the greater part
+      of the winter. Men whom no force of hardship had conquered were
+      ruined by excessive comfort and immoderate pleasures, and the
+      more deeply because they plunged into them greedily out of
+      unfamiliarity. Sleep, wine, feasting, prostitutes, baths and
+      idleness, growing sweeter by habit every day, so unnerved their
+      bodies and minds that from then on past victories protected them
+      more than present strength. Among those skilled in military
+      matters this was held a greater fault in the commander than not
+      having led from the field of Cannae straight to Rome, since that
+      delay could seem only to have postponed victory while this error
+      took away the strength to conquer. He left Capua as if with a
+      different army: many came back entangled with prostitutes, and
+      once they were under canvas again and marching they failed like
+      raw recruits, and through the whole summer large numbers left
+      the standards without leave, with Capua the only refuge the
+      deserters had.
+further_reading:
+  - source: macdonald-hannibal-2015
+    note: >
+      Discusses the winter at pp. 145-146 and treats the luxury story
+      as a Roman literary figure.
+entities:
+  - type: place
+    slug: capua
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: object

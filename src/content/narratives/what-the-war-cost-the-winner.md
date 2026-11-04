@@ -34,7 +34,7 @@ referenced_claims:
   - cannae-casualties
   - cannae-rome-resilience
   - treaty-201-terms
-last_revised: "2026-08-27"
+last_revised: "2026-11-04"
 ---
 
 This page is about Rome, on a site about Carthage, and it is worth saying
@@ -107,6 +107,32 @@ rebuilt around a new silver coin, the denarius, introduced during the war
 itself. A state does not redesign its money in the middle of a war for
 any reason other than that the old arrangement has stopped working.
 
+The spring of 215 shows what running out of money looked like
+administratively. Letters reached the senate from both Sicily and
+Sardinia: Titus Otacilius wrote that his soldiers and crews were
+getting neither pay nor grain on time and that there was nothing to
+pay them from, and Aulus Cornelius Mammula wrote almost the same from
+Sardinia. The senate replied to both that there was nothing to send
+and told them to provide for their own fleets and armies. Otacilius
+then sent envoys to Hiero of Syracuse, whom Livy at that point calls
+the sole resource of the Roman people, and got as much silver as the
+pay required and six months' grain; Mammula was supplied by the
+allied communities of Sardinia. At Rome itself a commission of three
+public bankers was created by a tribune's bill because of the
+shortage of silver (Livy 23.21.1-6). Later the same year the money
+set aside in Sicily to repay Hiero was diverted to the fleet and the
+new Macedonian war, and Hiero sent two hundred thousand measures of
+wheat and a hundred thousand of barley on top of it (23.38.12-13).
+
+Two things follow from that. The state's answer to an unpayable army
+in 215 was a foreign king's credit, and when the debt came due the
+money went to the next war instead. The measures that came after fit
+the same picture: the property qualification for legionary service
+was lowered, slaves and the urban poor were put into the fleet, and
+new crews were provided and paid for by individual citizens
+according to income, which is a wealth levy run through private
+hands because the treasury could not do it.
+
 The indemnity Carthage paid after 201 has a section on this site of its
 own, and the [terms of the settlement](/claims/treaty-201-terms) are
 usually read, correctly, as a burden imposed on the defeated. It is worth
@@ -118,7 +144,26 @@ The most consequential damage was to the way the Republic worked, and it
 did not look like damage at the time. Fighting in Italy, Sicily, Iberia,
 and eventually Africa at once required commanders in the field for years
 on end, which meant extending commands far beyond the annual term the
-system was built around. Prorogation stopped being exceptional. In 210
+system was built around. Prorogation stopped being exceptional.
+
+It began earlier than Scipio, and in the consulship rather than the
+provinces. Marcellus was elected consul for 215 in place of a man
+killed before taking office, entered on the magistracy, and resigned
+it when thunder made the augurs declare his election faulty; Livy
+reports the senators saying generally that the real objection was
+that two plebeians had held the consulship together for the first
+time. Fabius Maximus took the place, his third consulship, and
+Marcellus went back to his army as propraetor (Livy 23.31.12-14,
+23.39.8). Gracchus, the other consul, kept the army of slave
+volunteers in Campania and Apulia for three years, as consul and
+then with proconsular power (23.32.1). Fabius was consul again in
+214 with Marcellus as colleague, and his son in 213. For three
+years the Fabii or their associates held one of the two places
+every year. MacDonald suggests Fabius engineered the annulment, a
+reading no source supports; what the sources do show is a religious
+rule used to undo an election, a command continued outside the
+magistracy that was supposed to carry it, and the same few men
+returning. In 210
 the command in Iberia went to a man of about twenty-five who had held no
 qualifying office, on the strength of his name and the fact that nobody
 else wanted the job. Scipio justified the choice completely. He also

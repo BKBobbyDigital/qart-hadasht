@@ -644,6 +644,22 @@ const REGRESSIONS = [
     right: "Hanno's second question at Livy 23.13.2 asks whether any individual man out of the thirty-five tribes had deserted, meaning the Roman citizen body. The Latin colonies were thirty (Livy 27.9), and they are the subject of his first question, which asks after peoples of the Latin name.",
     fixed: 'MacDonald ch. 8 pass',
   },
+  {
+    id: 'pyrrhus-said-hydra',
+    // The hydra is Cineas reporting to Pyrrhus, not Pyrrhus speaking.
+    // A sentence naming Cineas as the speaker passes.
+    re: /Pyrrhus[^.]{0,60}(compared|likened|called)[^.]{0,50}(hydra|Hydra)|(hydra|Hydra)[^.]{0,60}(said|remark|comparison) of Pyrrhus/i,
+    right: "Plutarch Pyrrhus 19.5 gives the remark to Cineas, reporting to Pyrrhus after his embassy: the senate struck him as a council of many kings, and he feared the people might prove a Lernaean hydra, because the consul had already collected twice as many men as before.",
+    fixed: 'MacDonald ch. 8 pass',
+  },
+  {
+    id: 'capua-luxury-ruined-the-army',
+    // Livy's moral set piece must not be restated as fact.
+    // Sentences reporting it as Livy's, a topos, a legend or a tradition pass.
+    re: /(?<!(?:Livy|topos|legend|tradition|moraliz\w+|says|claims|figure|charge)[^.]{0,90})(luxur\w+|comfort|pleasures|soft living)[^.]{0,60}(ruined|destroyed|corrupted|sapped|unnerved)[^.]{0,40}(army|soldiers|troops)/i,
+    right: "Livy 23.18.10-16 is a moral set piece, ranked by him against the march-on-Rome charge as a pair of hindsight verdicts by unnamed experts. Report it as Livy's framing, not as what happened to the army.",
+    fixed: 'MacDonald ch. 8 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

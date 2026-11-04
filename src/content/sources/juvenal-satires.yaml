@@ -1,0 +1,34 @@
+slug: juvenal-satires
+title: "Satires"
+author: "Juvenal (Decimus Iunius Iuvenalis)"
+type: literary
+is_primary: true
+language: latin
+date_composed:
+  value: 120
+  precision: decade
+  notes: >
+    The sixteen satires were published in books between roughly 110
+    and 130 CE. The dating of individual poems is argued from
+    internal references and is not secure.
+summary: >
+  Sixteen verse satires on life at Rome under the early empire. They
+  are evidence for Carthage only at second hand, and only because
+  Hannibal had by then become a figure of the schoolroom and the
+  moralizing tradition rather than of history. Two passages are cited
+  on this site. In *Satire* 7.160-164 a worn-out teacher's pupils
+  declaim the same question six days a week, whether to make for the
+  city from Cannae or, made cautious by the storms, to wheel the
+  rain-soaked cohorts about, which shows that the march-on-Rome
+  question was a standing rhetorical exercise with a stock case on
+  either side. In *Satire* 10.147-167 Hannibal is the specimen of
+  futile ambition, and that passage supplies two details the
+  tradition kept: the vinegar splitting the Alpine rock, with no fire
+  at all, and the poison carried in a ring at Libyssa.
+bias_notes: >
+  Juvenal is a satirist writing three centuries after the events and
+  is not a witness to any of them. What he attests is what educated
+  Romans of his own day had been taught about Hannibal, which is why
+  the site uses him for the shape of the tradition and never for the
+  facts of the war. The vinegar and the ring are both cases where the
+  most memorable version of a story turns out to be his.
