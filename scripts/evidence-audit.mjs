@@ -734,6 +734,12 @@ const REGRESSIONS = [
     right: 'Indibilis led the Ilergetes. Livy 25.34.6 has him approaching with seven thousand five hundred Suessetani, a people of the Ebro valley; neither he nor they were Celtiberian.',
     fixed: 'MacDonald ch. 9 pass',
   },
+  {
+    id: 'new-carthage-northern-lagoon',
+    re: /(northern lagoon|lagoon (?:on|to) the north)[^.]{0,140}(New Carthage|Carthago Nova)|(New Carthage|Carthago Nova)[^.]{0,140}(northern lagoon|lagoon (?:on|to) the north)/i,
+    right: 'Polybius 10.10.6, who saw the site: sea on the east and south, lagoon on the west, and a neck of land to the north no more than two stades wide. The assault went in on the northern isthmus and the wading party crossed the western lagoon.',
+    fixed: 'MacDonald ch. 9 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

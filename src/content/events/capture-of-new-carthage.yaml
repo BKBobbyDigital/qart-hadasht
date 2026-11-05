@@ -1,7 +1,7 @@
 slug: capture-of-new-carthage
 name: Capture of New Carthage
 type: siege
-outcome: "Decisive Roman victory; Scipio took the Barcid capital of Iberia in a single day, seizing the treasury, the arsenal, and the Spanish hostages"
+outcome: "Decisive Roman victory in a single day; the treasury, the arsenal and the Iberian hostages taken, and the population massacred before the plunder began"
 date_start:
   value: -209
   precision: year
@@ -11,71 +11,181 @@ participants:
     role: commander
     side: Roman
   - person: laelius
-    role: fleet commander
+    role: fleet commander, and the only officer told the plan
     side: Roman
 principal_sources:
   - polybius-histories
   - livy-auc
 related_events:
+  - event: battle-of-the-upper-baetis
+    relation: consequence of
+    notes: >
+      Scipio had the command because nobody else would take it, and
+      Polybius says he had worked out at Rome that his father and
+      uncle were destroyed by dividing their forces and relying on
+      Celtiberian auxiliaries.
   - event: founding-of-carthago-nova
     relation: subject-place origin
-    notes: >
-      The city Scipio took was the Barcid capital that
-      Hasdrubal the Fair had founded around 227 BCE as the seat
-      of Carthaginian power in Iberia. Its capture in 209
-      transferred that seat, and everything stored in it, to Rome.
   - event: battle-of-baecula
     relation: precursor
-    notes: >
-      New Carthage gave Scipio the base, the war materiel, and
-      the diplomatic leverage with which he opened the 208
-      offensive that met Hasdrubal Barca at Baecula.
 referenced_themes:
   - carthaginian-warfare
 summary: >
-  Scipio's seizure of [Carthago Nova](/places/carthago-nova),
-  the Barcid capital of Iberia, in a single day in 209 BCE, and
-  the turning point of the Iberian war. The city that
-  [Hasdrubal the Fair](/people/hasdrubal-the-fair) had founded
-  around 227 as the seat of Carthaginian power in Spain held the
-  treasury, the arsenal and dockyards, the administration of the
-  silver mines, and the hostages taken from the Iberian tribes to
-  guarantee their loyalty. It was, in one place, the material and
-  political base of the whole Carthaginian position in the
-  peninsula.
+  Scipio took the Barcid capital of Iberia in a day in 209, and with
+  it the Carthaginian war chest, the arsenal, the only harbor in Spain
+  fit for a fleet, and the hostages of the whole peninsula. It is the
+  turning point of the Iberian war. It is also one of the clearest
+  descriptions in any ancient source of what a Roman army did to a
+  city when it got inside, and the site's older version of this page
+  left that part out.
 
-  [Scipio Africanus](/people/scipio-africanus) recognized that
-  the three Carthaginian field armies, under
-  [Hasdrubal Barca](/people/hasdrubal-barca),
-  [Mago Barca](/people/mago-barca), and
-  [Hasdrubal Gisco](/people/hasdrubal-gisco), were dispersed many
-  days' march away, leaving the capital lightly garrisoned. He
-  marched fast on the city while [Laelius](/people/laelius)
-  brought the fleet down the coast to close the seaward side. The
-  assault turned on the lagoon along the northern wall: the water
-  fell, whether by tide, by wind, or by the local knowledge
-  Polybius credits, and Scipio's men waded across and scaled the
-  under-defended landward defenses while the frontal attack held
-  the garrison's attention. Scipio presented the ebb as the gift
-  of Neptune; Polybius (10.2, 10.11) is pointedly skeptical of the
-  divine framing and reads it as calculated exploitation of the
-  ground, a rare early instance of the source correcting the
-  Scipionic legend at its origin.
+  ## The intelligence
 
-  The haul decided the campaign. Rome took the Carthaginian war
-  chest, large stores of arms and artillery, the ship-sheds, and
-  the tribal hostages. Scipio's decision to release the hostages
-  to their peoples turned the capture into a diplomatic
-  instrument: it removed the coercion that had held the Iberian
-  tribes to Carthage and let their leaders recalculate, part of
-  the wider pattern of Iberian side-switching the site reads as
-  [tribal agency rather than fickleness](/editorialTakes/iberian-side-switching-as-agency-take).
-  With its capital, treasury, and hostage leverage gone, the
-  Carthaginian hold on Iberia unravelled over the next three
+  Polybius makes the capture a case study in planning against the
+  common opinion that Scipio was lucky, and his account is unusually
+  specific about where the information came from. At Rome, before he
+  sailed, Scipio had made careful inquiries about the treachery of the
+  Celtiberians and the separation of the Roman armies, and concluded
+  that those were what had destroyed his father. In Spain he asked
+  everyone about the enemy and learned that the three Carthaginian
+  armies were far apart:
+  [Mago](/people/mago-barca) among the Conii beyond the pillars of
+  Heracles, [Hasdrubal Gisco](/people/hasdrubal-gisco) in Lusitania by
+  the mouth of the Tagus, and
+  [Hasdrubal Barca](/people/hasdrubal-barca) besieging a town among
+  the Carpetani, none of them within ten days' march of New Carthage.
+  He also heard that the Carthaginian commanders had fallen out with
+  each other and were treating their subjects harshly (10.7).
+
+  About the city itself he learned over the winter that it stood
+  almost alone among Spanish cities in having harbors fit for a fleet,
+  that it was well placed for the direct crossing from Africa, that
+  the Carthaginians kept the bulk of their money and war material
+  there along with the hostages from the whole of Spain, and, most
+  important, that the trained garrison of the citadel was only about a
+  thousand men, because nobody imagined that while Carthage held
+  nearly all Spain anyone would think of besieging it. The rest of the
+  population was very large and consisted of artisans, tradesmen and
+  sailors with no military experience (10.8.1-5).
+
+  And he knew about the water. Polybius says he had it from fishermen
+  who worked the lagoon: it was shallow and fordable in most places,
+  and the water usually receded toward evening (10.8.6-7). What Scipio
+  afterward presented to his men as the gift of Neptune was a daily
+  occurrence that the local fishing trade could have told anyone who
+  asked. Polybius says so in the same book in which he argues that
+  Scipio's divine inspiration was a technique for making men attempt
+  dangerous things, and that his projects were in fact the product of
+  calculation (10.2.9-13). Livy, independently, offers the same two
+  explanations of the same habit and declines to choose between them
+  (26.19).
+
+  ## The city Polybius saw
+
+  His description is the only eyewitness account of Punic New Carthage
+  that survives, and it is worth having in detail for that reason
+  alone. The city stands on a peninsular hill in the innermost corner
+  of a land-locked gulf, with an island across the mouth breaking the
+  sea, water on the east and south, and the lagoon to the west, so
+  that the land connection is not more than two stades wide. Five
+  hills ring it. On the largest, to the east, stands a temple that
+  Polybius calls a temple of Asclepius, which is to say of
+  [Eshmun](/deities/eshmun). Opposite it on the west is a magnificent
+  palace, said to have been built by
+  [Hasdrubal the Fair](/people/hasdrubal-the-fair) when he aspired to
+  royal power. Of the three lower hills to the north, one is called
+  the hill of Vulcan, one the hill of Saturn, and one the hill of
+  Aletes, who is said to have received divine honors for discovering
+  the silver mines. A channel had been cut between the lagoon and the
+  sea for shipping, with a bridge over it for the carts bringing
+  supplies in from the country (10.10).
+
+  The Greek and Roman god-names are an interpretation, Hasdrubal's
+  royal ambition is Polybius's gloss on a building, and a man deified
+  for finding a silver mine is the kind of detail nobody would invent.
+  The site treats the question of what Barcid Carthago Nova was at
+  [the narrative on the Iberian state](/narratives/the-barcid-iberian-state).
+
+  ## The day
+
+  Scipio told nobody his destination except [Laelius](/people/laelius),
+  who took the fleet while the army marched, and the two appeared
+  together. Polybius says the march from the Ebro took seven days,
+  which would be something near five hundred kilometers in a week, and
+  modern commentators doubt it. He gives Scipio twenty-eight thousand
+  foot and three thousand horse, some of whom must have been left with
+  the baggage.
+
+  The Carthaginian commander, Mago, sent his men out of the north gate
+  to keep the Romans off the wall, a usual answer to scaling ladders.
+  They fought well and were pushed back by numbers; a thousand trained
+  soldiers and two thousand citizens armed in a hurry were what the
+  city had. While the assault went in on the isthmus, Scipio sent men
+  across the lagoon at the ebb, and they found the western wall
+  undefended and were over it, in Polybius's phrase, without striking
+  a blow (10.14).
+
+  ## What happened next
+
+  This is the part the site had omitted, and it is Polybius, not a
+  hostile source. When enough troops were inside, Scipio sent most of
+  them against the inhabitants, as is the Roman custom, with orders to
+  kill everyone they met and spare nobody, and not to begin plundering
+  until the signal was given. Polybius adds his own explanation: they
+  do this, he thinks, to inspire terror, so that in towns taken by the
+  Romans one may often see not only human corpses but dogs cut in half
+  and the dismembered limbs of other animals; and on this occasion
+  there were very many such sights because of the numbers of people in
+  the place. The killing stopped when the signal was given, and the
+  plundering began (10.15.4-8). Mago, watching from the citadel,
+  surrendered it and asked for his life.
+
+  Two things follow for this site. The first is that the Roman
+  treatment of a captured city in 209 is described as standing
+  practice by a historian who admired Rome, which belongs with how the
+  site reads
+  [146](/editorialTakes/destruction-not-weak-enough) and
+  [the fate of Capua two years later](/events/siege-of-capua). The
+  second is a caution in the other direction, since the site has an
+  interest in Roman atrocity evidence and should be careful with it:
+  Polybius is describing a storm, the city had refused a summons, and
+  the Greek and Roman law of war allowed it. What makes the passage
+  worth citing is not that it proves Roman cruelty but that it states
+  a method and a purpose, in the same chapter in which the same author
+  praises the man who ordered it.
+
+  ## The hostages, and who made the argument
+
+  Scipio kept the hostages of the Iberian peoples and sent them home
+  over the following winter, and the usual telling makes this his
+  stroke of policy. Polybius has somebody else think of it first.
+  Edeco, prince of the Edetani, whose wife and sons were in Scipio's
+  hands, came to Tarraco ahead of everyone and set out the case: the
+  other Iberian leaders were still corresponding with Carthage while
+  holding out their hands to Rome, and if Scipio received him and gave
+  him back his family, the rest would all come for the same reason,
+  wanting their relatives back and the Roman alliance with them, and
+  would be bound for the future by the kindness (10.34). It is the
+  same argument Abelux had made to
+  [Bostar](/people/bostar) in 217 when he talked a Carthaginian
+  garrison commander into releasing the same kind of hostages, and the
+  Romans had gained the credit for that too.
+
+  So the diplomatic masterstroke of 209 had been explained to both
+  sides in advance by Iberians who understood what their own peoples
+  would do, which is the site's reading of
+  [side-switching as agency](/editorialTakes/iberian-side-switching-as-agency-take)
+  stated by the participants.
+
+  Livy adds ten thousand male citizens taken and a great quantity of
+  plunder (26.47). With its capital, its treasury and its hostages
+  gone, the Carthaginian hold on Iberia came apart over the next three
   years, through [Baecula](/events/battle-of-baecula) in 208 and
-  [Ilipa](/events/battle-of-ilipa) in 206. The fuller treatment
-  is at the
-  [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state).
-  Polybius (10.2–15) and Livy (26.42–51) preserve the assault in
-  detail; the reconstruction is secure on the outcome and debated
-  on the mechanics of the lagoon crossing.
+  [Ilipa](/events/battle-of-ilipa) in 206.
+
+  ## On his age
+
+  Polybius makes Scipio twenty-seven at the time of this campaign
+  (10.6.10); Livy gives him about twenty-four at his election
+  (26.18.7), which he places a year earlier than the date now usually
+  accepted. The site reports both rather than averaging them.

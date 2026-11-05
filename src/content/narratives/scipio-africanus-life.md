@@ -72,9 +72,12 @@ for counsel, turned to the magistrates, and looked round at the faces
 of the leading men while those men looked at each other, muttering
 that things were so desperate that nobody dared take a command in
 Iberia. Then Publius Cornelius Scipio, son of the Publius who had
-fallen there, about twenty-four years old, declared himself and went
-and stood where he could be seen, and every century and every man
-voted him the command (26.18).
+fallen there, declared himself and went and stood where he could be
+seen, and every century and every man voted him the command (26.18).
+Livy makes him about twenty-four here; Polybius makes him twenty-seven
+in the campaign of 209 (10.6.10), and Livy's year for the election is
+itself usually corrected forward by one. The site gives both figures
+rather than splitting the difference.
 
 Then the second half of the scene, which the site's older account left
 out. When the impulse had subsided there was a sudden silence and a
@@ -120,15 +123,18 @@ declines to treat either case as proof of a plan.
 The Iberian campaign Scipio conducted was strategically
 transformative. Three principal phases:
 
-Carthago Nova (209 BCE). Scipio's first major operation
-was the capture of Carthago Nova, the Carthaginian Iberian
-capital, in a single-day combined-arms assault that
-exploited a low-tide period in the lagoon protecting the
-city's northern wall. The capture produced not only the
-Carthaginian capital but the substantial silver-mining
-revenue and military stores that had been stockpiled there;
-the political consequences for Carthaginian Iberian authority
-were structural.
+Carthago Nova (209 BCE). His first operation was the capture of
+the Carthaginian Iberian capital in a single day, by assaulting
+the landward neck while the fleet closed the harbor and sending
+men across the western lagoon at the ebb. It gave him the
+treasury, the arsenal, the best harbor in Spain and the hostages
+of the Iberian peoples. Polybius, who treats it as a case study
+in planning against the opinion that Scipio was lucky, also
+records that when the troops were inside Scipio sent most of them
+against the inhabitants with orders to kill everyone they met,
+as was the Roman custom, and not to plunder until the signal was
+given (10.15.4-5). The event is at
+[its own page](/events/capture-of-new-carthage).
 
 Operations against Hasdrubal Barca (208-207 BCE). Scipio's
 operations through the central peninsula in 208-207 BCE

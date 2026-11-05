@@ -242,11 +242,13 @@ BCE under the elder Scipio brothers (Publius and Gnaeus), continued
 through their deaths in coordinated Carthaginian counter-offensive in
 211 BCE, and was reset by the appointment of the younger
 [Scipio](/people/scipio-africanus), Publius's son, to the Iberian
-command in 210 at age twenty-five.
+command in 210; Livy makes him about twenty-four at the election and
+Polybius twenty-seven at the campaign of 209.
 
-Scipio's [capture of New Carthage](/places/carthago-nova) in 209 BCE
-through a surprise attack at the lagoon's low-tide phase was the
-operational masterstroke that transformed the theater. The capture
+Scipio's [capture of New Carthage](/events/capture-of-new-carthage) in
+209 BCE, by assaulting the landward neck while the fleet closed the
+harbor and crossing the western lagoon at the ebb, transformed the
+theater in a day. The capture
 produced the Carthaginian Iberian command center, the principal
 treasury, hostage families that included [Indibilis](/people/indibilis)
 and [Mandonius](/people/mandonius), and the strategic initiative that
