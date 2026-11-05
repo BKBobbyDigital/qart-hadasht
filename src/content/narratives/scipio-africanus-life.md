@@ -19,7 +19,7 @@ primary_entities:
     slug: scipio-africanus
     role: subject
 referenced_claims: []
-last_revised: "2026-09-21"
+last_revised: "2026-11-05"
 ---
 
 ## Background and the Ticinus rescue (236-218 BCE)
@@ -59,18 +59,63 @@ generally treated as historical though heightened.
 
 ## The Iberian command (210-206 BCE)
 
-Scipio's special election to command the Iberian theater in
-210 BCE is one of the most striking moments of the Second
-Punic War's domestic Roman politics. The elder Scipios
-(Scipio's father and uncle) had been killed in the
-Carthaginian counter-offensive in Iberia in 211 BCE; the
-Roman position in the peninsula was precarious; no senior
-Roman commander was willing to take the Iberian command at
-the political and personal risk it represented. Scipio, then
-approximately 25 (well below the conventional age for the
-proconsular imperium the assignment required), volunteered.
-The popular assembly authorized the appointment, overruling
-the senatorial reluctance.
+His father and his uncle had been
+[killed in Iberia within a month of each other](/events/battle-of-the-upper-baetis)
+and their armies destroyed. Rome sent Gaius Claudius Nero out with
+reinforcements, and then decided that a commander with proconsular
+power was needed and that the people should elect one, which was
+itself irregular. Livy describes what happened at the election. They
+waited first for men who thought themselves worthy of so great a
+command to put their names down, and nobody did; the grief for the
+disaster came back. The city came down to the field almost at a loss
+for counsel, turned to the magistrates, and looked round at the faces
+of the leading men while those men looked at each other, muttering
+that things were so desperate that nobody dared take a command in
+Iberia. Then Publius Cornelius Scipio, son of the Publius who had
+fallen there, about twenty-four years old, declared himself and went
+and stood where he could be seen, and every century and every man
+voted him the command (26.18).
+
+Then the second half of the scene, which the site's older account left
+out. When the impulse had subsided there was a sudden silence and a
+quiet reckoning of what they had done, and whether favor had counted
+for more than reason. They regretted his age most of all, and some
+shrank at the fortune of the house, and at a name out of two families
+in mourning going to a province where he would have to campaign among
+the graves of his father and his uncle. It is not the story of a bold
+people overruling a timid senate, which is how the site used to put
+it; it is a city with nobody else to send, frightening itself the
+morning after.
+
+Livy's character sketch belongs with it, because it is the closest a
+Roman source comes to describing how a commander of this war managed
+his own reputation. Scipio, he says, was admirable not only for real
+qualities but had been composed from his youth by a certain art for
+the display of them, doing much before a crowd as though on the
+authority of visions in the night or prompting from a god, whether
+because he was himself held by some superstition or so that his orders
+would be obeyed without hesitation as though they came from an oracle.
+From the day he took the man's toga he did no business, public or
+private, before going up to the Capitol, entering the shrine and
+sitting there, generally alone. The habit gave currency to the opinion
+that he was of divine descent, and revived a story told earlier about
+Alexander the Great, equal in vanity and fable: that he had been
+conceived by an enormous serpent, whose shape was often seen in his
+mother's bedroom and slipped suddenly out of sight when anyone came
+in. He never undermined belief in these wonders, and rather increased
+it by an art of neither denying nor openly affirming them (26.19).
+
+The site treats
+[Hannibal's own self-presentation](/narratives/hannibal-and-heracles)
+as a deliberate thing built around Heracles and Melqart, and reports
+the argument that the Gades material was written on the template of
+Alexander at Siwah. Livy attaches the same serpent to the Roman, and
+says his countrymen thought it vain and fabulous while believing it
+anyway. The resemblance is a reason for care in both directions. A
+Hellenistic commander presenting himself as under divine protection
+was doing a normal thing, and a historian writing one up in the
+Alexander mode was also doing a normal thing, which is why the site
+declines to treat either case as proof of a plan.
 
 The Iberian campaign Scipio conducted was strategically
 transformative. Three principal phases:

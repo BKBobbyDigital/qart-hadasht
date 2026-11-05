@@ -1,63 +1,204 @@
 slug: battle-of-the-upper-baetis
-name: Battle of the Upper Baetis
+name: The Deaths of the Scipios
 type: battle
-outcome: "Decisive Carthaginian victory; killed both Scipio brothers and broke Roman command in Iberia"
+outcome: "Decisive Carthaginian victory; both Roman commanders in Iberia killed within twenty-nine days and their armies destroyed"
 date_start:
   value: -211
   precision: year
+  notes: >
+    Livy narrates the campaign under 212 and his chronology here is
+    doubted: the deaths are usually placed in 211, close in time to
+    Hannibal's march on Rome.
 place: iberia
 participants:
   - person: hasdrubal-barca
-    role: commander
+    role: commander against Gnaeus Scipio
     side: Carthaginian
   - person: mago-barca
-    role: commander
+    role: commander against Publius Scipio
     side: Carthaginian
   - person: hasdrubal-gisco
-    role: commander
+    role: commander against Publius Scipio
+    side: Carthaginian
+  - person: masinissa
+    role: commanded the Numidian cavalry; his first appearance in the war
     side: Carthaginian
 principal_sources:
-  - polybius-histories
   - livy-auc
 related_events:
-  - event: second-punic-war
-    relation: theater engagement
+  - event: capture-of-new-carthage
+    relation: led to
     notes: >
-      The 211 BCE Iberian disaster produced the command vacuum
-      the Roman senate filled by sending the young
-      [Scipio Africanus](/people/scipio-africanus) to take over
-      the Iberian theater the following year. The Carthaginian
-      victory was complete tactically but
-      politically produced the conditions for the Carthaginian
-      Iberian state's eventual collapse under Scipio's
-      209–206 BCE command.
+      The destruction of both Roman armies produced the command
+      vacancy that was filled, after nobody else would take it, by the
+      son of one of the dead commanders.
+  - event: second-punic-war
+    relation: phase of
 summary: >
-  The 211 BCE engagement in southern Iberia that killed both Roman
-  Iberian commanders, Publius Cornelius Scipio (the elder Scipio,
-  consul of 218 BCE) and his brother Gnaeus Cornelius Scipio
-  Calvus, and substantially destroyed the Roman field force in
-  the Iberian theater. The engagement was actually two related
-  battles fought within a few weeks of each other: the elder
-  Scipio was killed first in an engagement with a Carthaginian
-  army under [Hasdrubal Barca](/people/hasdrubal-barca) and
-  [Mago Barca](/people/mago-barca); Gnaeus Scipio was killed
-  shortly afterward in a separate engagement with the army of
-  [Hasdrubal Gisco](/people/hasdrubal-gisco), having been
-  abandoned by his Celtiberian auxiliaries who had been bought off
-  by Carthaginian gold.
+  The high point of the Carthaginian war in Iberia, and the only
+  occasion in the whole war on which two Roman commanders were
+  destroyed in a single campaign. The site's older account of this
+  page was written from summaries and said very little that is in
+  Livy; what follows is from the text.
 
-  The Carthaginian victory was the high-water mark of Carthaginian
-  Iberian operations during the Second Punic War. The Roman senate
-  responded by sending the elder Scipio's 25-year-old son
-  [Scipio Africanus](/people/scipio-africanus), technically too
-  young for the constitutional command, to take over the
-  Iberian theater in 210 BCE. The young Scipio's subsequent
-  five-year campaign (Carthago Nova 209, Baecula 208, Ilipa 206)
-  produced the systematic collapse of Carthaginian Iberia and the
-  conditions for the African invasion that ended the war.
+  ## Why the Romans divided
 
-  The site's substantive treatment of the Iberian theater is at
-  the
-  [Barcid Iberian state narrative](/narratives/the-barcid-iberian-state).
-  Polybius (frag.; the relevant book is partially preserved) and
-  Livy (25.32–36) preserve the engagement.
+  Publius and Gnaeus Scipio had been in Iberia for years, and Livy
+  says that for two of them almost nothing memorable had happened and
+  the war was being conducted by negotiation more than by arms.
+  Coming out of winter quarters they joined forces and held a
+  council, at which everyone agreed on the same thing: all they had
+  achieved so far was to keep [Hasdrubal](/people/hasdrubal-barca)
+  from going to Italy, and it was time to finish the war in Iberia.
+  Twenty thousand Celtiberians called up that winter were thought to
+  have made that possible.
+
+  There were three Carthaginian armies.
+  [Hasdrubal Gisco](/people/hasdrubal-gisco) and
+  [Mago](/people/mago-barca) were in a joint camp about five days'
+  march away; nearer was Hasdrubal son of Hamilcar, the old commander
+  in Iberia, at a town called Amtorgis. The Romans decided to crush
+  him first and were worried only that the other two would withdraw
+  into trackless country and drag the war out. So they split: Publius
+  took two-thirds of the Roman and allied army against Mago and
+  Hasdrubal Gisco, and Gnaeus took a third of the old army with the
+  Celtiberians against Hasdrubal Barca (Livy 25.32).
+
+  Amtorgis is otherwise unknown. Its placing on the upper Baetis is an
+  assumption, and the site keeps the conventional name of this event
+  while noting that neither the town nor the river is secure.
+
+  ## How the Celtiberians were bought
+
+  Hasdrubal Barca saw that the Roman force in front of him was small
+  and that all its strength lay in the Celtiberians. Livy says he knew
+  the ways of the peoples among whom he had campaigned for years, and
+  that he had an easy command of the language, so he negotiated
+  privately with the Celtiberian chiefs. The price was large, and what
+  it bought was not treachery but departure.
+
+  Livy's own analysis of why it worked is better than the usual
+  version of this episode and the site adopts it. The Celtiberians
+  were not asked to turn their weapons on the Romans, so it did not
+  look to them like a crime. The money was as much as they would have
+  earned for fighting, paid for not fighting. Rest, going home, and
+  seeing their families and their property were welcome in
+  themselves. And there was no fear of the Romans, who were too few
+  to hold them by force. The chiefs were not more easily persuaded
+  than the rank and file. Then the standards went up and they left,
+  telling the Romans who begged them to stay that they were called
+  away by a war at home.
+
+  Livy draws a lesson from it, and it is a lesson about Roman policy
+  rather than about barbarian faithlessness: Roman commanders should
+  always guard against this, and these cases should be taken as real
+  instruction, not to trust foreign auxiliaries so far as to keep less
+  of their own strength in camp than of theirs (25.33). The site reads
+  the episode as it reads
+  [Iberian side-switching generally](/editorialTakes/iberian-side-switching-as-agency-take):
+  a calculation made by people with interests of their own, in a
+  situation Rome had arranged badly.
+
+  ## The death of the elder Scipio
+
+  Publius Scipio meanwhile was being destroyed by a kind of pressure
+  the Roman army had no answer to. Livy introduces the man applying
+  it: [Masinissa](/people/masinissa) was a young man, at that time an
+  ally of the Carthaginians, whom Roman friendship afterward made
+  famous and powerful. He met Publius on the march with the Numidian
+  cavalry and then stayed on him day and night, cutting off the men
+  who went out for wood or fodder, riding up to the camp itself,
+  charging into the middle of the outposts, and raising alarms at the
+  gates and the rampart by night, until the Romans were penned inside
+  the works and cut off from the use of everything.
+
+  It was nearly a siege and about to get worse, because
+  [Indibilis](/people/indibilis) was reported to be coming with seven
+  thousand five hundred Suessetani. So Publius, whom Livy calls a
+  cautious and far-seeing commander beaten by necessity, took the rash
+  course: he left a small garrison under the legate Tiberius Fonteius
+  and marched at midnight to meet Indibilis wherever he found him.
+  Columns rather than lines fought, and the Roman was getting the
+  better of it as such a scrambling action goes. Then the Numidian
+  horse, whom he thought he had given the slip, came round his flanks.
+  Then a third enemy arrived behind him, the Carthaginian commanders
+  having followed. A lance went through his right side while he was
+  fighting and encouraging his men and putting himself where the work
+  was heaviest, and the enemy wedge that had struck at the crowd round
+  him saw him fall from his horse and ran down the whole line shouting
+  that the Roman commander was dead, which made it so (25.34).
+
+  ## His brother, twenty-nine days later
+
+  The victorious commanders marched at once to join Hasdrubal Barca,
+  and the three armies met in mutual congratulation. Gnaeus had no
+  news of the disaster, but Livy gives him a very exact kind of dread.
+  He could see that his allies had left him and that the enemy's
+  forces had grown, and he reasoned his way to the truth, since
+  Hasdrubal and Mago could not have brought their armies up without a
+  battle unless their own war was finished, and his brother would
+  either have blocked them or followed them.
+
+  He fell back by night and got some distance before they noticed. The
+  Numidians caught him before dark and forced him to halt and protect
+  his column. At nightfall he collected his men on a hill that was not
+  safe, only higher than the ground around it. The hill was bare and
+  the soil hard: no brushwood for a palisade, no earth for turf or a
+  ditch, nothing steep enough to make the climb difficult, everything
+  sloping gently up. So they built a likeness of a rampart out of
+  pack-saddles tied to their loads, piled to the usual height, with
+  heaps of baggage where the saddles ran out.
+
+  The Carthaginians came up the hill easily and then stopped, held for
+  a moment as though by a marvel, while their commanders shouted from
+  all sides asking why they were standing there instead of pulling
+  apart that joke of a defense, hardly strong enough to hold back
+  women or children, and whether they could not see that the enemy was
+  already caught and hiding behind his luggage. It was not in fact
+  easy to jump, or shift, or cut through packed saddles buried under
+  baggage, but they levered the loads away with poles in several
+  places at once and the camp was taken from every side. Most of the
+  men who got away reached Fonteius in Publius's camp. Of Gnaeus, some
+  say he was killed on the hill in the first rush, others that he got
+  away with a few to a tower near the camp, which was surrounded with
+  fire and taken when the doors burned through, and everyone inside
+  killed with him.
+
+  He died in the eighth year after he came to Iberia, on the
+  twenty-ninth day after his brother (25.35-36).
+
+  ## What the record says about the mourning
+
+  Livy's closing sentence complicates the picture of a province held
+  by force, and the site keeps it for that reason. The grief at the
+  deaths was not greater at Rome than through the whole of Iberia.
+  Among Roman citizens part of it belonged to the army lost and the
+  province given up; the Spaniards mourned the commanders themselves,
+  and Gnaeus more, because he had been there longer, had won their
+  regard first, and was the first to give them a specimen of Roman
+  justice and self-restraint.
+
+  ## What followed
+
+  Rome sent [Gaius Claudius Nero](/people/claudius-nero) later in 211
+  with twelve thousand foot and eleven hundred horse, and then decided
+  that a commander with proconsular power was needed and that the
+  people should elect one for Iberia. Nobody came forward. The city
+  came down to the voting ground almost at a loss for counsel, turned
+  to the magistrates, looked round at the faces of the leading men
+  while they looked at each other, and muttered that things were so
+  desperate that nobody dared accept a command there. Then Publius
+  Cornelius Scipio, son of the Publius who had fallen in Iberia, about
+  twenty-four years old, declared himself and stood on higher ground
+  where he could be seen; every century and every man voted him the
+  command. Afterward, when the impulse had subsided, there was a
+  silence and a quiet reckoning of what they had done. They regretted
+  his age most, and some shrank at the luck of the house, and at a
+  name out of two families in mourning going to provinces where he
+  would campaign among the graves of his father and his uncle (26.18).
+
+  The Carthaginian position in Iberia was never stronger than in the
+  weeks after this campaign, and five years later it was gone. The
+  site treats what Scipio did with the command at
+  [New Carthage](/events/capture-of-new-carthage) and the longer arc
+  at [the Barcid Iberian state](/narratives/the-barcid-iberian-state).

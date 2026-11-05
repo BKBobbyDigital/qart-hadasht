@@ -4,22 +4,68 @@ name_latin: Gaius Claudius Nero
 floruit:
   value: -207
   precision: year
+  range_end: -207
 roles:
   - consul
   - general
 polity: Rome
+offices_held:
+  - office: Praetor
+    year: -212
+  - office: Commander in Iberia
+    year: -211
+  - office: Consul
+    year: -207
 summary: >
-  Roman consul of 207 BCE, co-commander with Marcus Livius
-  Salinator at the Metaurus. Claudius Nero is the operational
-  hero of the engagement: while holding command in southern
-  Italy against Hannibal, he intercepted dispatches from
-  Hasdrubal Barca to his brother detailing the planned
-  rendezvous in Umbria, executed a forced march of approximately
-  300 miles in seven days with a picked force of about 6,000
-  infantry and 1,000 cavalry to join Livius in the north
-  unannounced, and contributed the decisive intervention in the
-  Metaurus engagement itself. The march and the surprise
-  reinforcement is one of the most-praised tactical-strategic
-  decisions in the surviving Roman military tradition. Honored
-  with an ovation after the engagement (the lesser triumph,
-  reflecting that he had not held overall command).
+  Consul of 207 and the man who brought
+  [Hasdrubal Barca's](/people/hasdrubal-barca) march into Italy to an
+  end at the [Metaurus](/events/battle-of-metaurus). He appears twice
+  on this site, and the first time is usually left out.
+
+  ## Iberia, 211
+
+  After both Scipio brothers were killed within a month of each other
+  and their armies broken up, Rome sent Nero out with twelve thousand
+  foot and eleven hundred horse to hold what was left, which was
+  probably around eight thousand men under two surviving lieutenants.
+  He was the stopgap. The senate then decided that a commander with
+  proconsular power was needed, the people elected the young
+  [Scipio](/people/scipio-africanus) because nobody else would stand,
+  and Nero's troops were folded into the new command. The episode is
+  at [the deaths of the Scipios](/events/battle-of-the-upper-baetis).
+
+  ## The Metaurus, 207
+
+  Holding the command in southern Italy against
+  [Hannibal](/people/hannibal-barca), he intercepted dispatches from
+  Hasdrubal naming the planned meeting place in Umbria. He then took a
+  picked force of about six thousand foot and a thousand horse north
+  by forced march to join his colleague Marcus Livius Salinator, whose
+  camp he entered without the enemy learning that a second consular
+  army had arrived, and the battle was fought the next day. The march
+  is the most admired decision in the Roman tradition of the war, and
+  it worked because the two consular armies were kept apart by
+  Hannibal's presence, which is the strategic position the site
+  describes at
+  [the take on his Italian objective](/editorialTakes/hannibal-italian-objective-alliance-dismemberment).
+
+  He picked six thousand foot and a thousand horse out of the whole
+  army, citizens and allies, gave out that he meant to seize a nearby
+  town in Lucania with a Carthaginian garrison in it, and turned north
+  by night into Picenum, having sent ahead to the districts on his
+  route to bring supplies and draft animals down to the road (Livy
+  27.43).
+
+  A triumph was decreed to each consul and they agreed not to hold two,
+  since the battle had been fought in Livius's province, the auspices
+  of the day had happened to be his, and his army had come home while
+  Nero's could not leave its province. Livius rode in a four-horse
+  chariot with his soldiers behind him and Nero on a single horse
+  without any. Livy then gives the crowd's talk: that the horseman had
+  crossed the length of Italy in six days and fought Hasdrubal in Gaul
+  on the day Hannibal thought his camp was pitched opposite him in
+  Apulia; that Nero's name alone had been enough to keep Hannibal in
+  camp; and that the other consul might ride as high as he liked, but
+  the true triumph went through the city on one horse. Not an ovation,
+  which is what the site used to say: a shared triumph in which the man
+  with no army and no chariot got the attention (Livy 28.9).
