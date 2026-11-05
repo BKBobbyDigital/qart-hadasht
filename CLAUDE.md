@@ -768,18 +768,18 @@ additions.
 ## What's been recently shipped
 
 The visual redesign is **Phase 1 + 2 complete**. Phase 3 (dark mode) is
-parked until the day version settles. The site is **~778 pages** as of
+parked until the day version settles. The site is **~784 pages** as of
 the last build.
 
 ### Collection counts (current)
 
 | Collection | Count |
 |---|---|
-| events | 99 |
-| people | 85 |
-| places | 63 |
+| events | 102 |
+| people | 86 |
+| places | 64 |
 | sources | 103 |
-| claims | 189 |
+| claims | 190 |
 | editorialTakes | 25 |
 | openQuestions | 20 |
 | artifacts | 41 |
@@ -2801,7 +2801,7 @@ notes Numidia destroyed the army first). **The slug stays
 `destruction-not-weak-enough`** so the URL and inbound links keep working;
 do not rename it without a redirect.
 
-### Open threads (as of 4 Nov 2026)
+### Open threads (as of 5 Nov 2026)
 
 The user finished Miles's *Carthage Must Be Destroyed* on 22 Sep 2026 and
 is **reading Eve MacDonald, *Hannibal: A Hellenistic Life* (Yale,
@@ -2810,48 +2810,55 @@ Worked so far: the introduction and first chapter, the Barcid family
 tree, the Hellenistic setup chapters (pp. 26–40), the Hamilcar chapter
 (pp. 44–60), the Barcid Iberia chapter (pp. 61–81), the march into
 Italy (pp. 82–99), the Trebia-to-Trasimeno chapter (pp. 100–118), the
-Cannae chapter (pp. 119–138) and the After Cannae chapter
-(pp. 139–159).
-**Chapter 9, "Hannibal's Dilemma, 212–209", is next**, by the heading
-on her notes page. Expect Tarentum, the recovery of Capua and the
-march on Rome in 211, all of which the site holds positions on: the
-Tarentine betrayal as political action rather than treachery, the 211
-march as pressure and never a siege, and Capua's punishment as the
-rehearsal for 146. **Three of the six original `further_reading`
-claims are now promoted** (`tagus-tactical-template-for-italy`,
+Cannae chapter (pp. 119–138), the After Cannae chapter (pp. 139–159)
+and "Hannibal's Dilemma" (pp. 160–179).
+**Chapter 10, "Over the Alps, Again", is next**, by the heading on her
+notes page, and her ch. 10 notes 1–10 arrived with the last chunk.
+Expect the Metaurus and Hasdrubal's march, with Baecula before it. Two
+things from those notes to use when it comes: she credits the location
+of the 208 battle to Bellón et al. 2009 at Cerro de las Albahacas,
+against older placements west of Castulo, so **the Baecula page should
+not state a site**; and her note 9 observes that the description of
+Scipio's better troops against Hasdrubal's greater numbers is the
+mirror image of Hannibal's victories over the Romans, which is a
+reason for care with Ilipa as well. **Three of the six original
+`further_reading` claims are promoted** (`tagus-tactical-template-for-italy`,
 `pre-italy-iberia-army-formation`, `cannae-allies-defected`); the
-other three are not pending a chapter but closed as not promotable,
-since the chapters covering their material came and went without her
-adding anything that warranted it. See item 1 below. She sends her
-endnotes alongside each chunk, which is where her value is: see the
-notes at the end of the Hamilcar, Barcid Iberia, Cannae and After
-Cannae sections on how to use her, including the comparison with Miles
-and the standing finding that **her notes hedge more honestly than her
+other three are closed rather than pending, since the chapters
+covering their material came and went without her adding anything that
+warranted it. See item 1 below. She sends her endnotes alongside each
+chunk, which is where her value is: see the notes at the end of the
+Hamilcar, Barcid Iberia, Cannae, After Cannae and Hannibal's Dilemma
+sections on how to use her, including the comparison with Miles and
+the standing finding that **her notes hedge more honestly than her
 text**. **Doing a pre-audit of what the site holds before her pages
 arrive is worth the time**; it paid for itself on ch. 6, more
-dramatically on ch. 7, and on ch. 8 it was right about the gaps and
-wrong about where the value would be, which is its own lesson: it
-found Nola missing and Sicily covered, and the best material turned
-out to be a document on a page it had not flagged. **Regression rules
-stand at 104.** Nothing below is in progress. Pick one up only when
-the user asks.
+dramatically on ch. 7, and on ch. 9 it found the most of all, catching
+a broken source comparison before her pages arrived. Ch. 8 is the
+caution attached to it: there the audit was right about the gaps and
+wrong about where the value would be, so treat it as a predictor of
+holes and not of value. **Regression rules stand at 114.** Nothing
+below is in progress. Pick one up only when the user asks.
 
 - **`people/servilius-geminus` still does not exist.** Flagged since
   ch. 6 and still owed: consul 217, his advance cavalry destroyed under
   Centenius after Trasimene, proconsul commanding the center at Cannae
-  where he died. Minucius was written in ch. 7; Servilius was not. Ch.
-  8 did not reach him either.
+  where he died. Minucius was written in ch. 7; Servilius was not.
+  Chapters 8 and 9 did not reach him either, so this is the fourth
+  chapter it has been owed.
 
 - **Group pages for the Italian peoples who went over to Hannibal.**
   The site has eight for Iberian and Numidian peoples, because the
   Iberian side-switching material is built on recovering their agency,
   and none for the Samnites, Bruttii, Lucanians or Campanians, who did
-  the same thing on a larger scale. No place page for Tarentum either,
-  though `sourceComparisons/tarentine-betrayal` already argues that
-  the defection was political action rather than treachery. Ch. 8 put
-  the argument on `claims/italian-defections-local-politics`; the
-  pages are still owed, and ch. 9's Tarentum material is the natural
-  occasion.
+  the same thing on a larger scale. Ch. 8 put the argument on
+  `claims/italian-defections-local-politics` and ch. 9 added
+  `places/tarentum`, `events/fall-of-tarentum-212` and
+  `events/siege-of-capua`, so the material is now there and the group
+  pages are the piece still missing. The Lucanians have a particular
+  claim on one: they appear in ch. 9 split between a pro-Roman part
+  under an elected praetor and a part that had gone over, which is the
+  shape the site argues the Italian defections took.
 
 - **The Felsnas epitaph** (Tarquinia, TLE 890), held back on 27 Oct
   2026. MacDonald gives it as an Etruscan who lived to 106 and claimed
@@ -2905,14 +2912,27 @@ the user asks.
   the Ara Maxima festival of Hercules (12 Aug), the Via Julia Augusta
   (13 BC) and Via Augusta (8–2 BC) along the Heraclean Way, and Horace
   *Odes* 4.4 with Hannibal's lament; all unchecked. MacDonald is the
-  natural second opinion. Do not draft unprompted.
+  natural second opinion. **Ch. 9 added the strongest ancient evidence
+  for the messaging side, and it is about the Roman**: Polybius 10.2
+  argues that Scipio's divine promptings were a technique, because most
+  men will not take great risks without the hope of divine help, as
+  Lycurgus used the Pythia for a constitution of his own devising; Livy
+  26.19 gives the same two explanations, declines to choose, and
+  attaches to Scipio the serpent told of Alexander. Both are on the
+  site (Polybius's source page, the Scipio narrative, the New Carthage
+  event), so the take has a second case to argue from and a reason for
+  symmetry. Do not draft unprompted.
 - **Seven May-2026 editorial takes still unchecked**:
   `first-treaty-trust-polybius`, `alalia-locked-western-mediterranean-take`,
   `lutatius-treaty-too-harsh`, `punic-religion-archaeological-vs-literary`,
   `zama-decisive`, `iberian-side-switching-as-agency-take`,
   `family-vs-institution-tension`. Aristotle, Agathocles and Himera were
-  done in the Miles passes. Every
-  older page checked against the texts this month had errors.
+  done in the Miles passes. Every older page checked against the texts
+  in these passes had errors, and the side-switching take is now a
+  worked example: ch. 9 touched it to fix Muttines and found, in the
+  site's own voice, that the Massylian Numidians under Naravas moved
+  from Carthage to Rome, which never happened. One sentence was
+  corrected; the page has still not had its pass.
 - **Miles notes 106–109** (Juno as patron, Juno–Tanit, Uni–Astarte at
   Pyrgi): check them before anything from p. 305 goes on the site. His
   note 17 (p. 413) cites KAI 83 for a Carthage dedication to "Lady Ammas
@@ -4288,6 +4308,303 @@ and the baseline is 0 again. **That rule earning its keep on new prose
 within an hour of the prose being written is the argument for running
 the full set per commit.**
 
+### MacDonald's "Hannibal's Dilemma" chapter (5 Nov 2026)
+
+Her ch. 9, pp. 160-179, in three chunks with the endnotes. Six
+commits: `49e389f`, `60715a3`, `9da7559`, `cbe0f92`, `45b3271`,
+`d20ba71`. Checked against Polybius 3.75, 3.118, 8.24-34, 9.3-11,
+10.1-10.34; Livy 22.22, 24.20, 25.7-25.40, 26.7-26.21, 27.15-27.25,
+28.9; Plutarch *Fabius* 21-23. Texts in scratchpad `ch9/`.
+
+**The pre-audit paid for itself a fourth time and found more than any
+of the others.** Keep doing it. It identified the Tarentine-betrayal
+comparison as broken before her pages arrived, and the two things it
+missed were both better than what it found.
+
+**The chapter's organizing thread, and it was not planned: hostages.**
+Three episodes in the same war, none of them connected by any ancient
+author, and the site now states the pattern carefully rather than
+loudly. Rome held hostages from the Greek cities of the south; it
+flogged the escaped Tarentine and Thurian ones in the comitium and
+threw them from the rock, and lost Tarentum and Thurii for it (Livy
+25.7-8, 25.15). Carthage held the Iberian hostages at Saguntum, and
+Abelux talked the prefect [Bostar](/people/bostar) into releasing them
+into a Roman ambush, after which Rome got the credit for the kindness
+(Livy 22.22). And Scipio took the Iberian hostages at New Carthage and
+sent them home, which is the site's example of his judgment, except
+that Polybius 10.34 has Edeco of the Edetani make the argument to him
+first. **Both times an Iberian explained to the power holding the
+hostages what releasing them was worth, and both times a Roman got the
+credit.**
+
+**1. Tarentum (`49e389f`).** `sourceComparisons/tarentine-betrayal`
+was a May 2026 page, never audited, and wrong at its center: it had
+Nico and Philemenus captured at Trasimene and released by Hannibal as
+his agents, which is the separate group of five who came to him at
+Lake Avernus in 214 and whose attempt failed. **CLAUDE.md had already
+recorded that distinction from the Miles pass and said not to collapse
+them.** Three other things on it were in no source: the garrison
+diverted by an outbreak in the lower city, a formal assembly ratifying
+the defection, and a Plutarchan exchange in which Fabius is asked who
+taught him to take cities.
+
+What both sources have: the thirteen went out to Hannibal themselves,
+under pretext of hunting, and had themselves arrested by his pickets,
+*ultro id petentes*. Polybius adds that they brought charges against
+Rome so as not to seem to have come without reasons. **Polybius's
+opening reverses the page's other claim**: what survives at 8.24.1 is
+a judgment that democracies long in power sicken of their condition
+and look for a master, and then the text breaks off, so the moralizing
+about Tarentine character is his and the concrete grievance is not in
+him at all. The real sayings are Hannibal's at Livy 27.16 (the Romans
+too have their Hannibal, and Tarentum was lost by the same art it was
+taken by) and Fabius's retort in the senate at 27.25 (the city would
+not have needed recovering had Livius not lost it).
+
+New: `places/tarentum` (long owed) and `events/fall-of-tarentum-212`.
+`people/carthalo` rebuilt around the three appearances Livy gives him,
+the Cannae embassy, carrying Gracchus's head in 212, and his death at
+Tarentum in 209, replacing a cavalry command at 25.21 that is not
+there.
+
+**The terms are a standing formula**, now on `capua-treaty-terms-216`.
+Capua (Livy 23.7.1-2), Tarentum (Livy 25.8 and Polybius 8.25.2, which
+preserve different halves: the garrison clause and the plunder clause)
+and the Lucanians under Flavus (Livy 25.16) all get the same two or
+three clauses: no tribute, your own laws, nothing imposed. Three
+regions, three sets of negotiators. The inference is the site's own.
+
+Also on `cannae-allies-defected`: Polybius 3.118.3 has Tarentum
+surrender immediately after Cannae, in the same sentence the site uses
+for the direction of the Italian defections. Both summary lists are
+compressed, and a passage can be good evidence for one clause and
+wrong in the next.
+
+**2. Muttines was not a Numidian (`60715a3`).** Livy 25.40.5:
+*Libyphoenicum generis Hippacritanus*, a Libyphoenician of Hippo whom
+his own people called Muttines, sent by Hannibal to replace
+Hippocrates; the Numidians were auxiliaries given to him. The site had
+him as Numidian of Numidian descent and had built a Masinissa parallel
+on it. Corrected on his page, the Agrigentum event, period 06 and
+`iberian-side-switching-as-agency-take` (which also said the Massylian
+Numidians under Naravas went over to Rome; they did not, and the take
+is still one of the seven unchecked May-2026 ones).
+
+The episode is better than the version it replaces. Hanno resented him
+twice in the same terms: was Muttines to set limits to him, *degenerem
+Afrum* to a Carthaginian commander sent out by the senate and people
+(25.40.12-13)? In 210 Hanno gave the command to his own son, which
+increased Muttines's standing instead of removing it, and Muttines
+handed Agrigentum to Laevinus; Hanno took the noise for another
+Numidian riot, heard a Roman shout and ran (26.40). He was made a
+Roman citizen by a bill the tribunes carried to the plebs (27.5).
+**So the site's clearest evidence of hierarchy inside the Carthaginian
+command is evidence against Carthage on its own terms.**
+
+Also here: **Marcellus did not get a triumph**, and Livy's stated
+reason is not senatorial rivalry (MacDonald's suggestion) but that the
+army was still in the province and the war unfinished, which was true,
+since a Punic fleet landed 8,000 foot and 3,000 Numidian horse after
+he sailed (26.21). His ovation paraded **Sosis and Moericus in golden
+crowns**, the men who had opened Syracuse, both voted citizenship and
+land. Set that beside Tarentum, where Plutarch has Fabius order the
+Bruttians who opened the gate cut down so the capture should not be
+known to be owed to treachery, and Livy gives it as one of three
+possible reasons. **Rome could parade its traitors or bury them.**
+
+**Polybius 9.10 is now on the site** and had been missing entirely: a
+whole chapter arguing that stripping Syracuse of its art was wrong,
+because Rome had conquered while living simply and whoever looks at
+such objects pities the people they came from. It sits in the same
+book as his fullest praise of Hannibal's generalship, which
+complicates the Polybius the site argues with constantly. Added to the
+Syracuse event and to `what-the-war-cost-the-winner`, with Livy
+25.40.1-3 (the first beginning of admiring Greek works and of the
+license to plunder) marked as a verdict written 150 years later.
+
+**3. Capua, Herdonea, Gracchus (`9da7559`).** Three gaps, all
+Carthaginian-facing. New `events/siege-of-capua`, which the site had
+as one clause: Beneventum in 212, the blockade, Hannibal's own
+reasoning for the march on Rome, and the surrender.
+
+**The best thing in the chapter is Livy's speech for Vibius Virrius**
+(26.13), the man who led the approach to Hannibal in 216. He recites
+what Rome would not be turned from: Hannibal took part of their camp
+and they did not stir, burned Cales and they did not stir, marched on
+Rome and camped three miles out and they did not let Capua go. Wild
+beasts turn back for their cubs; the Romans were not turned by their
+own wives and children, whose weeping could almost be heard from here.
+*And perhaps not unjustly, since we would have done the same.* They
+razed Alba, from which they were descended; they will not spare Capua,
+**to whom they are more hostile than to Carthage**. That last clause
+is now on `destruction-not-weak-enough`, which argued the 146 reading
+without the Roman precedent behind it: the senate debated destroying
+Capua in 211 and spared it because the land was the best in Italy and
+would need farmers, while abolishing the city as a community (26.16).
+**Rome had already decided it could end a community; utility stopped
+it ending the city too.**
+
+Also found there: Appius Claudius wanted the senate at Rome to ask
+which Latin allies had been in on the defection; Fulvius said that
+inquiry must be crushed, rode to Teanum by night and beheaded the
+prisoners, and at Cales put the arriving senate decree into his lap
+unopened and told the herald to proceed (26.15).
+
+New `events/battle-of-herdonea-212` (18,000 Romans, not more than
+2,000 out, the praetor away with 200 horse, and Livy measuring the
+commander against Centenius after Trasimene; her doubt about whether
+the first battle happened at all is reported, not settled) and
+`people/sempronius-gracchus` (killed by his own guest-friend, who
+asked that the Lucanians come over free and under their own laws;
+three deaths and two funerals in Livy, who says plainly that neither
+the place nor the manner is established; the army of volunteer slaves
+left the standards when he died, as though discharged by it).
+
+**4. The deaths of the Scipios (`cbe0f92`).**
+`events/battle-of-the-upper-baetis` was 63 lines written from
+summaries with almost nothing in it from Livy. Rebuilt from 25.32-36.
+
+The thing worth having is **how the Celtiberians were bought**:
+Hasdrubal Barca negotiated privately, with an easy command of the
+language, and what the money bought was departure, not treachery. They
+were not asked to turn their arms on the Romans, so it did not look to
+them like a crime; the price was what they would have earned for
+fighting, paid for going home; and the Romans were too few to hold
+them. **Livy's moral is about Roman overreliance on foreign
+auxiliaries, not about barbarian faithlessness** (25.33), which is the
+site's own reading of side-switching reached by a Roman annalist.
+
+Masinissa enters the war here, introduced as "a new enemy", and earns
+it: his cavalry penned Publius Scipio inside his works until Scipio
+broke out at midnight to intercept **Indibilis with 7,500 Suessetani**
+(not, as MacDonald has it, a Celtiberian prince with 7,000) and was
+killed. Gnaeus died twenty-nine days later on a bare hill behind a
+rampart of pack-saddles which the Carthaginian commanders had to shout
+at their men to pull apart; Livy gives two versions of his death.
+**His closing sentence is kept**: the grief was not greater at Rome
+than through the whole of Iberia, and the Spaniards mourned Gnaeus
+more because he was the first to show them a specimen of Roman justice
+and restraint.
+
+`people/claudius-nero` was a 25-line Metaurus stub; he was also the
+stopgap sent to Iberia in 211. **And his honor was not an ovation**,
+which the page said and `livius-salinator` said too: Livy 28.9 has a
+triumph decreed to each consul and the two agreeing not to divide it,
+so Livius rode in a four-horse chariot with his soldiers and Nero on
+one horse with none, and the crowd said the true triumph was the
+single horse. The new rule found the second page immediately.
+
+The election is now on the Scipio narrative as Livy tells it, **both
+halves**: nobody would stand, the city looked round at the faces of
+its leading men and muttered that things were desperate, a young man
+declared himself and was voted it unanimously, and then the impulse
+over there was a silence while they wondered whether favor had beaten
+reason (26.18). Not a bold people overruling a timid senate, which is
+what the page used to say.
+
+**5. The letter out of Capua, and Bostar (`45b3271`).** New claim
+`capua-garrison-letter-to-hannibal`. Bostar and Hanno, commanding the
+garrison inside the besieged city, wrote to Hannibal accusing him of
+handing them over to every kind of torture and of going to Bruttium as
+though turning away so Capua should not fall in his sight; the Romans
+could not be dragged from the siege even by an attack on Rome, **so
+much more constant is the Roman as an enemy than the Carthaginian as a
+friend**; and they had not crossed the Alps to make war on Rhegines
+and Tarentines, since where the Roman legions are, there the
+Carthaginian armies ought to be (26.12). **It is the only surviving
+criticism of Hannibal's Italian strategy from anyone serving under
+him**, and it objects to exactly the policy the site says he was
+pursuing. Contested, because the wording is Livy's even though he
+presents the text as captured; and Livy says the two were anxious for
+their own danger and not their allies', which is a judgment.
+
+`people/bostar` was built around a capture at Carthago Nova that is
+not in Livy's account of the assault, plus a Bostar of the African
+operations and a Bostar the envoy, neither findable. Rebuilt on the
+two attested men.
+
+**6. New Carthage (`d20ba71`), and the part the site had left out.**
+The page went from the lagoon to the hostage release with nothing in
+between. **Polybius 10.15.4-6**: Scipio sent most of the troops
+against the inhabitants, *as is the Roman custom*, with orders to kill
+everyone they met and spare nobody and not to plunder until the
+signal; he thinks this is done to inspire terror, so that in towns the
+Romans take one may often see not only human corpses but dogs cut in
+half and the dismembered limbs of other animals. The page states it
+with a caution in the other direction, since the site has an interest
+in Roman atrocity evidence: this was a storm, and what makes the
+passage worth citing is that it gives a method and a purpose in the
+same chapter that praises the man who ordered it.
+
+**The lagoon was local knowledge.** Polybius 10.8.7: Scipio had it
+from fishermen who worked there that it was shallow, fordable in most
+parts, and usually fell toward evening. The site had him "pointedly
+skeptical of the divine framing", which understates him.
+
+**That belongs with Polybius 10.2, now on his source page.** He opens
+his Scipio by saying other writers' estimates are wide of the truth
+and that they make him fortune's favorite, and argues the divine
+promptings were a method, since most men will not take great risks
+without the hope of divine help, exactly as Lycurgus used the Pythia
+for a constitution of his own devising. **Livy 26.19 offers the same
+two explanations and declines to choose**, and attaches to Scipio the
+serpent told of Alexander, with an art of neither denying nor
+affirming it. Two ancient authors settle for the Roman commander the
+question the site has been careful not to settle about Hannibal's
+Heraclean self-presentation. **Recorded now, before the tabled
+Heracles/Alexander take is ever drafted**; it is the strongest ancient
+statement of the messaging position and it is about the other side.
+
+Also added: Polybius 10.10, the only eyewitness description of Punic
+New Carthage (temple of Eshmun on the eastern hill, Hasdrubal's palace
+on the western, the hill of Aletes who was given divine honors for
+discovering the silver mines), and Polybius 10.1 on why Tarentum
+mattered (no harbor at all on that side of Italy between Rhegium and
+Tarentum).
+
+**Our errors this commit:** the lagoon was called northern on three
+pages, when Polybius puts it west with the two-stade neck to the
+north; `places/carthago-nova` listed captured
+"political-administrative archives", which no source mentions; and
+Scipio's age was given flatly as twenty-five, where Livy says about
+twenty-four at the election and Polybius twenty-seven at the campaign.
+
+**Her errors this chapter**, the established shape:
+- **Polybius 8.28.6 "connects" Tarentine intra-mural burial to Sparta.**
+  The oracle is there, Sparta is not; she supplies it from Plutarch's
+  *Lycurgus* separately.
+- **Muttines as "a Libyphoenician cavalry commander"**, dropping the
+  city and the appointment, which are what make the episode work.
+- **Marcellus denied a triumph by senatorial rivals**, where Livy
+  gives a stated and sufficient reason.
+- **"C. Fulvius Flaccus"** at Herdonea; Livy has Cn. Fulvius.
+- **Hanno's losses at Beneventum** as 6,000 killed and 7,000
+  prisoners; Livy's seven thousand *capita* are taken together with
+  the Campanian foragers and the wagons, so it is a captured convoy.
+- **Mago who betrayed Gracchus "known as the Samnite"**; Livy says
+  only "Mago, who commanded in Bruttium", and the Samnite is
+  Polybius's man in the character digression.
+- **Indibilis as a Celtiberian prince with 7,000 troops.**
+- **Hannibal "paid homage to his protector" at the temple of
+  Hercules**; Livy 26.10 has him ride as far as it, and her note
+  credits the reading to Miles, whom the site already names.
+- Scipio at twenty-five and 25,000 men at New Carthage, both of which
+  her own notes handle properly.
+
+**Her notes keep hedging better than her text**, now holding for a
+sixth chapter: notes 73, 76 and 80 all state doubts the text does not.
+Her best contribution this chapter is note 11, that Carthage held
+Iberian hostages at New Carthage for the same purpose Rome held
+Tarentine ones at Rome, which is the thread above; note 12, that
+Livy's "young men" are a device rather than a compliment, is also
+right.
+
+**Regression rules stand at 114**, ten added this chapter, each
+unit-tested against both the wrong and the right wording. Three of
+them had to be narrowed after firing on correcting prose, which is now
+routine enough to expect: a rule written the same hour as the
+correction will usually match the correction.
+
 ### A Reddit exchange on the navy (Oct 2026)
 
 Not a site change, but the positions are worth keeping, since the
@@ -5614,7 +5931,7 @@ issues.
 ### Page count signal
 
 A useful sanity check: the page count is reported in the `npm run build`
-output. As of the last CLAUDE.md refresh it was around **778 pages**.
+output. As of the last CLAUDE.md refresh it was around **784 pages**.
 New entity additions will increase it; render-page additions for
 already-existing collections will increase it dramatically.
 
