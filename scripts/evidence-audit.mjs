@@ -716,6 +716,24 @@ const REGRESSIONS = [
     right: 'Polybius 1.78: Naravas came over to Hamilcar during the Mercenary War and was promised his daughter. Nothing has him going to Rome.',
     fixed: 'MacDonald ch. 9 pass',
   },
+  {
+    id: 'bostar-captured-at-new-carthage',
+    re: /(?<!(?:earlier|older|previously|wrongly|not|never|removed|no longer)[^.]{0,110})(Bostar[^.]{0,80}(captured|taken prisoner)[^.]{0,40}(Carthago Nova|New Carthage)|(Carthago Nova|New Carthage)[^.]{0,60}captur\w+[^.]{0,30}Bostar)/i,
+    right: "Livy book 26 names Bostar only as the commander of the Punic garrison inside Capua (26.6, 26.12). His other attested appearance is at Saguntum in 217, tricked by Abelux into releasing the Iberian hostages (22.22). The Carthago Nova capture was not found in the accounts of that assault.",
+    fixed: 'MacDonald ch. 9 pass',
+  },
+  {
+    id: 'nero-ovation-after-metaurus',
+    re: /Nero[^.]{0,120}\bovation\b|\bovation\b[^.]{0,80}Nero/i,
+    right: 'Livy 28.9: a triumph was decreed to each consul and the two agreed not to divide it, so Livius entered in a four-horse chariot with his soldiers and Nero rode a single horse without any. Not an ovation.',
+    fixed: 'MacDonald ch. 9 pass',
+  },
+  {
+    id: 'indibilis-celtiberian',
+    re: /(?<!(?:not|never|neither|nor|wrongly|calls|call|called|describes|labels)[^.]{0,90})(Indibilis[^.]{0,60}\bCeltiberian\b|\bCeltiberian\b[^.]{0,60}(prince|chief|chieftain)[^.]{0,45}Indibilis)/i,
+    right: 'Indibilis led the Ilergetes. Livy 25.34.6 has him approaching with seven thousand five hundred Suessetani, a people of the Ebro valley; neither he nor they were Celtiberian.',
+    fixed: 'MacDonald ch. 9 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.

@@ -5,87 +5,100 @@ name_punic_script: 𐤁𐤃𐤏𐤔𐤕𐤓𐤕
 name_greek: Βόσταρ
 name_latin: Bostar
 etymology: >
-  Phoenician *Bod-Ashtart* ("in the hand of Astarte"),
-  invoking the principal Phoenician-Punic goddess. The name was
-  reasonably common in the Carthaginian aristocratic register;
-  at least three distinct Bostars feature in the surviving
-  Greco-Roman record across the Second Punic War period alone.
-  This page treats the most-attested Bostar: the Carthaginian
-  commander captured by [Scipio Africanus](/people/scipio-africanus)
-  in Iberia during the 209 BCE Carthago Nova operation.
+  Phoenician *Bod-Ashtart*, "in the hand of Astarte", invoking the
+  principal Phoenician and Punic goddess. A common name in the
+  Carthaginian aristocratic register, so more than one bearer appears
+  in the record of the Second Punic War and they cannot always be told
+  apart.
 floruit:
-  value: -209
-  precision: year
-  notes: >
-    Bostar's principal documented role is as a Carthaginian
-    commander in Iberia during the 210s BCE; his life before
-    and after this period is not securely attested.
+  value: -217
+  precision: decade
+  range_end: -211
 roles:
   - general
 polity: Carthage
 summary: >
-  Carthaginian commander of the Second Punic War, principally
-  documented through his role in the Iberian theater and his
-  capture by [Scipio Africanus](/people/scipio-africanus) during
-  the 209 BCE Roman assault on [Carthago Nova](/places/carthago-nova).
-  Bostar is one of multiple Carthaginian officers of the period
-  named Bostar; this page treats the Iberian-theater commander,
-  the most-attested of the group in the surviving sources.
+  A Carthaginian officer attested twice in Livy, in two episodes that
+  happen to sit at opposite ends of the same question: what hostages
+  were worth, and what happened when they were mishandled. Both times
+  he was the man left holding something while his general was
+  elsewhere.
 
+  ## Saguntum, 217: the hostages given away
 
-  ## The Carthago Nova capture
+  Carthage held the children of the Iberian peoples' leading families
+  at [Saguntum](/places/saguntum) as a guarantee of their loyalty, and
+  Bostar commanded the garrison there, camped outside the town on the
+  shore to block that approach to the Romans. Abelux, a Spaniard of
+  standing who had decided to go over to Rome, judged that a deserter
+  who arrives without betraying something substantial is only one
+  cheap and disgraced body, and looked round for the largest thing in
+  his reach. He settled on the hostages.
 
-  The 209 BCE Roman assault on Carthago Nova under Scipio
-  Africanus was the principal Roman operational achievement of
-  the Iberian theater's middle phase: a surprise attack on the
-  Carthaginian Iberian capital that exploited tidal-lagoon
-  conditions to bypass the city's principal defenses. The
-  Carthaginian garrison commander was Mago Barca's lieutenant
-  Bostar; the city fell within a day. Polybius (10.10–14) and
-  Livy (26.42–46) preserve the engagement in substantive detail.
+  Knowing their guards would do nothing without the prefect's order,
+  he worked on Bostar himself. Taken aside, Bostar was told the
+  position as though he did not know it: fear had held the Spaniards
+  so far because the Romans were far off, and now there was a Roman
+  camp south of the Ebro, a refuge for anyone wanting a change, so
+  those whom fear did not hold must be bound by kindness. Asked what
+  gift could possibly serve, Abelux said: send the hostages home. It
+  will please their parents privately and their peoples publicly;
+  everyone wants to be trusted, and trust given is usually what
+  creates trust. And let me conduct them myself, so that I may add
+  what gratitude I can to a thing that is grateful by nature.
 
+  Livy's aside at this point is the stereotype doing its usual work:
+  he calls Bostar a man not shrewd by the standard of other Punic
+  characters. Abelux went out by night, had himself brought to Scipio,
+  arranged the time and place, came back, and spent the next day
+  taking his instructions from Bostar for the operation. Then he led
+  the children into the ambush he had prepared, and the handover was
+  carried out exactly as agreed with Bostar, except that it was done
+  in Rome's name. Livy adds the sentence that matters: the Romans got
+  considerably more credit for the same act than the Carthaginians
+  would have, because the Carthaginians could be taken for harsh men
+  whom misfortune and fear had softened, while the Roman, newly
+  arrived and previously unknown, had begun with an act of mercy and
+  generosity (22.22).
 
-  Bostar was captured rather than killed in the assault and
-  features in the subsequent Roman administrative-political
-  episode at Carthago Nova: the famous "continence of Scipio"
-  episode (Polybius 10.18–19; Livy 26.50) involves Scipio's
-  return of high-status Iberian hostages to their families
-  rather than retaining them as the Carthaginian command had
-  done. Bostar's status as captured Carthaginian commander is
-  one of the pieces of evidence in the broader Carthago Nova
-  political reconfiguration; he features in the surviving
-  sources as the official Carthaginian counterparty to Scipio's
-  diplomatic-political work with the Iberian populations.
+  That is the first of three hostage episodes in this war, and the
+  site reads them together. Carthage lost the Iberian hostages by a
+  trick in 217 and the goodwill with them;
+  [Rome executed the Tarentine hostages](/events/fall-of-tarentum-212)
+  in 213 and lost a city for it; and
+  [Scipio released the Iberian hostages](/events/capture-of-new-carthage)
+  he took at New Carthage in 209 and bought a coalition. Abelux's
+  argument in 217 is the one Scipio acted on twelve years later.
 
+  ## Capua, 211: the letter
 
-  ## The Bostar prosopographic problem
+  He commanded the Carthaginian garrison inside
+  [Capua](/events/siege-of-capua) with a Hanno during the Roman siege,
+  and led its share of the joint sortie when Hannibal attacked the
+  Roman camps from outside. When that failed and Hannibal went to
+  Bruttium, the two of them wrote him a letter which Livy describes as
+  not merely free but harsh, accusing him of abandoning them, telling
+  him that the Roman was a more constant enemy than the Carthaginian
+  was a friend, and that they had not crossed the Alps to make war on
+  Rhegines and Tarentines. It is the only surviving objection to
+  Hannibal's Italian strategy from anyone under his command, and is
+  treated at
+  [its own claim](/claims/capua-garrison-letter-to-hannibal). Livy says
+  the two were anxious for their own danger rather than their allies',
+  which is a judgment and not a fact, and worth marking as one.
 
-  At least three distinct Bostars feature in the surviving
-  Greco-Roman record of the period:
+  What became of him is not recorded. The garrison was arrested when
+  the gate was opened.
 
-  - **Bostar at Carthago Nova** (this page): the Iberian-theater
-    commander captured in 209 BCE
-  - **Bostar of the African mainland**: a Carthaginian commander
-    sometimes mentioned in the post-Cannae African operations,
-    not always clearly distinguishable from the Iberian Bostar
-  - **Bostar the envoy**: a Carthaginian official involved in
-    diplomatic operations during the SPW, possibly distinct from
-    the military commanders
+  ## Other men of the name
 
-
-  Modern prosopographic work (Hoyos and others) has worked to
-  separate the three but the surviving evidence is sometimes
-  thin enough that secure assignment of specific source
-  references is not always possible. The pattern is the broader
-  one of Carthaginian aristocratic onomastics: the name pool
-  was narrow and surnames or patronymics that would distinguish
-  individuals are inconsistently preserved.
-
-
-  ## Sources
-
-  The principal sources are Polybius (Book 10) and Livy (Book
-  26) for the Carthago Nova operations. Modern treatments
-  include [Hoyos's *Hannibal's Dynasty* (2003)](/sources/hoyos-hannibal-2003)
-  for the Iberian theater context and the broader Barcid command
-  network within which Bostar operated.
+  A Bostar commanded in Sardinia with a Hanno in the First Punic War
+  (Polybius 1.79). The site's earlier version of this page made its
+  principal Bostar a commander captured by Scipio at
+  [Carthago Nova](/places/carthago-nova) in 209, and also listed a
+  Bostar of the African operations and a Bostar the envoy. Neither of
+  those two appears in the passages checked for this page, and the
+  Carthago Nova capture could not be found in Livy's account of the
+  assault; the claims have been removed rather than repeated. Where
+  the name recurs the usual Carthaginian difficulty applies: a narrow
+  name pool, and patronymics preserved only sometimes.

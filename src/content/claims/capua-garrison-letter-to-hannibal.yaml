@@ -1,0 +1,106 @@
+slug: capua-garrison-letter-to-hannibal
+statement: >
+  In 211 the two Carthaginian officers commanding the garrison inside
+  besieged Capua, Bostar and Hanno, sent Hannibal a letter accusing
+  him of abandoning them and the Capuans, arguing that the Romans had
+  proved more constant as enemies than the Carthaginians as friends,
+  and telling him that he had not crossed the Alps to make war on
+  Rhegines and Tarentines: where the Roman legions were, there the
+  Carthaginian armies ought to be. It is the only surviving criticism
+  of Hannibal's Italian strategy attributed to men serving under him.
+confidence: contested
+scholarly_consensus: >
+  Livy reports the letter at 26.12 and says its contents were produced
+  in evidence after the couriers were caught, which is a different kind
+  of claim from the speeches he composes; but the wording is his, and a
+  reader should treat the argument as a position Livy thought
+  Carthaginian officers could hold rather than as a transcript.
+
+  ## What it says
+
+  The context is the end of Capua. The Capuan nobility had given up on
+  the state, the senate could not be convened, and none of the leading
+  men appeared even in the forum; shut in their houses, they waited for
+  their country's fall. The proconsuls had published an edict offering
+  immunity to any Capuan who came over before a fixed day, and nobody
+  did, held back, Livy says, more by fear than by loyalty, because
+  what they had done in the defection was past pardon. Everything
+  therefore fell on Bostar and Hanno, the prefects of the Punic
+  garrison, whom Livy describes as anxious about their own danger and
+  not their allies'.
+
+  Their letter was written, he says, not only freely but harshly. Not
+  only Capua but they and the garrison had been handed over to the
+  enemy for every kind of torture. Hannibal had gone off into Bruttium
+  as though turning away so that Capua should not be taken in his
+  sight. The Romans, by contrast, could not be dragged from the siege
+  of Capua even by an attack on the city of Rome: so much more constant
+  is the Roman as an enemy than the Carthaginian as a friend. If he
+  came back and turned the whole war to Capua, they and the Campanians
+  would be ready to break out. And then the line that makes the letter
+  worth a page of its own: they had not crossed the Alps to make war on
+  Rhegines or Tarentines, and where the Roman legions were, there the
+  Carthaginian armies ought to be; that was how things had gone well at
+  Cannae and at Trasimene, by closing with the enemy, pitching camp
+  against his, and putting fortune to the test.
+
+  ## What it is evidence of
+
+  Not of Hannibal's strategy, which it misdescribes: he had spent the
+  previous two years precisely where the Roman legions were, and the
+  reason he was in Bruttium was that he had tried both to force the
+  Roman camps at Capua and to draw them into battle, and failed at
+  both. What it attests is that the strategy was contested inside his
+  own command, by officers who thought the war should be decided
+  against field armies rather than by holding cities.
+
+  The site reads the Italian campaign as an attempt to detach Rome's
+  allies, set out at
+  [the editorial take](/editorialTakes/hannibal-italian-objective-alliance-dismemberment),
+  and the letter is the sharpest objection to that policy from anyone
+  in a position to make it. It also bears on the terms, since the thing
+  that made the alliances attractive is the thing that made them
+  expensive:
+  [they obliged nobody to serve](/claims/hannibal-allies-not-obliged-to-serve),
+  so each one had to be protected and none of them added troops he
+  could rely on. Holding Capua, Tarentum and the Greek south meant
+  garrisons in places a mobile army could not cover at once, and in
+  211 two of his own officers told him so.
+
+  ## How it was caught
+
+  Numidians were paid to carry it out as pretended deserters, and the
+  famine at Capua made the pretext plausible. A Campanian woman, the
+  mistress of one of them, came into the Roman camp and told Flaccus
+  that they had crossed by arrangement and were carrying letters to
+  Hannibal, and offered to identify the man who had told her. He
+  denied knowing her steadily enough until he saw the instruments of
+  torture being called for and prepared, and then confessed; the
+  letters were produced, and he added that other Numidians were going
+  about the Roman camp in the same disguise. More than seventy were
+  taken, flogged along with the new deserters, had their hands cut
+  off, and were driven back to Capua. Livy says the sight of so savage
+  a punishment broke the Capuans' spirit, and the surrender followed.
+sources:
+  - source: livy-auc
+    stance: supports
+    passage_ref: "26.12"
+    passage_summary: >
+      Gives the situation inside Capua, the proconsuls' offer of
+      immunity and its failure, the letter of Bostar and Hanno with its
+      arguments, the Numidian couriers, the woman who informed on them,
+      the confession under threat of torture, and the mutilation of
+      more than seventy men who were sent back into the city.
+further_reading:
+  - source: macdonald-hannibal-2015
+    note: >
+      Summarizes the letter at p. 169 and quotes the line about the
+      Roman being a more dedicated enemy than the Carthaginian was a
+      friend.
+entities:
+  - type: event
+    slug: siege-of-capua
+    role: subject
+  - type: person
+    slug: hannibal-barca
+    role: object
