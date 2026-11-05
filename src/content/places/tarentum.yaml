@@ -1,0 +1,109 @@
+slug: tarentum
+name_display: Tarentum
+names_alt:
+  greek: Τάρας (Taras)
+  latin: Tarentum
+  modern: Taranto, Puglia, Italy
+type: city
+primary:
+  label: Tarentum, on the gulf of the same name in southern Italy
+  lat: 40.4762
+  lon: 17.2290
+  confidence: certain
+  notes: >
+    The city occupied the neck of land between the open gulf and the
+    enclosed lagoon now called the Mare Piccolo. The citadel stood on
+    the promontory commanding the entrance to the inner harbor, which
+    is why the Roman garrison could hold it for three years after the
+    rest of the city had gone.
+modern_location: >
+  Taranto, in Puglia. The old city sits on what is now an island
+  between the two harbors; two columns of an archaic Doric temple
+  stand in it.
+founded:
+  founder: Spartans
+  date:
+    value: -706
+    precision: year
+    circa: true
+  notes: >
+    The one Spartan colony of consequence in the west. The site has not
+    examined the foundation traditions and gives the conventional date
+    as the tradition's.
+cultural_sphere: greek
+current_status: >
+  A working port and naval base. The ancient city lies almost entirely
+  under the modern one.
+summary: >
+  The largest and richest of the Greek cities of southern Italy, and
+  for three years the most valuable thing
+  [Hannibal](/people/hannibal-barca) held in Italy apart from
+  [Capua](/places/capua). Its fall in 212 and its recapture in 209
+  frame the stretch of the war in which his position in the south
+  stopped expanding and began to be taken back from him.
+
+  ## A city used to choosing
+
+  Tarentum had changed its great-power alignment before. It called in
+  [Pyrrhus](/people/pyrrhus) against Rome in 280, and when he left
+  Italy the city passed under Roman control in the 270s and became an
+  ally without having chosen to be one. That history is the reason
+  Hannibal expected it to come over after
+  [Cannae](/events/battle-of-cannae), and it is why Rome did not wait
+  to find out: after the [Trebia](/events/battle-of-trebia), among the
+  first measures the senate took was to send garrisons to Tarentum and
+  other suitable places (Polybius 3.75.4). Members of the leading
+  families were also held at Rome as hostages, as they were from other
+  cities of the south.
+
+  Polybius states at 3.118.3 that after Cannae the Carthaginians became
+  masters of almost all the coast, "Tarentum immediately surrendering."
+  It did not. The city held for four more years, and the same sentence
+  that the site relies on for the direction of the Italian defections,
+  since it has Arpi and the Campanian towns inviting Hannibal to them,
+  also contains a surrender that had not happened. Both of the surviving
+  summary lists of the post-Cannae defections compress; the point is
+  treated at
+  [the claim on the defections](/claims/cannae-allies-defected).
+
+  ## What it was worth
+
+  A port on the Ionian coast was worth more to Hannibal in 214 than it
+  had been in 216, because he now had a treaty with
+  [Philip V](/events/treaty-with-philip-v) and no harbor in which a
+  Macedonian force could land. Tarentum was the best harbor available
+  and it faced the right way. In the autumn of 214 he brought his army
+  up to the walls, deliberately left the countryside unharmed, and
+  waited for the city to open its gates. It did not, and he withdrew
+  (Livy 24.20).
+
+  The city that let him in two years later did so for a different
+  reason, and the reason came from Rome. See
+  [the fall of Tarentum](/events/fall-of-tarentum-212).
+
+  ## The dead inside the walls
+
+  Polybius remarks, in the middle of the account of the night attack,
+  that the whole eastern quarter of Tarentum was full of tombs, because
+  the Tarentines buried their dead inside the walls on the authority of
+  an ancient oracle: the god had answered that they would fare better
+  if they made their dwelling-place with the majority, and they
+  concluded they would be best off with the departed inside the circuit
+  too (8.28.6-8). He gives it because the cemetery is where the
+  conspirators waited for the fire signal, so the custom is preserved
+  in the record by an accident of tactics. MacDonald connects the
+  practice to Sparta, Tarentum's mother city, where Plutarch has
+  Lycurgus permit burial inside the town; Polybius himself names only
+  the oracle, and the Spartan link is a modern one.
+
+  ## Afterward
+
+  Fabius Maximus retook the city in 209 and it never recovered its
+  position. Livy gives thirty thousand persons taken and sold, three
+  thousand and eighty pounds of gold, and statues and paintings that
+  nearly equaled the ornaments of Syracuse (27.16). The citadel the
+  Romans had held throughout was now joined to a city with a fraction
+  of its people. What Tarentum is chiefly remembered for in the war is
+  not its three years with Hannibal but the two sentences at either end
+  of them: the flogging and execution of its hostages at Rome, which
+  bought him the city, and his own remark when he lost it.

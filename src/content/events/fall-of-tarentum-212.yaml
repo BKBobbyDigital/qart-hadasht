@@ -1,0 +1,134 @@
+slug: fall-of-tarentum-212
+name: The Fall of Tarentum
+type: siege
+outcome: "Carthaginian success; the city taken in a night, the Roman citadel never taken, and Metapontum, Thurii and Heraclea following within months"
+date_start:
+  value: -212
+  precision: year
+  notes: >
+    Livy records that his authorities disagreed whether the defection
+    belonged to this year or the previous one, and follows the more
+    numerous and those nearer in time to the events (25.11).
+place: tarentum
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - polybius-histories
+  - livy-auc
+related_events:
+  - event: battle-of-cannae
+    relation: aftermath context
+    notes: >
+      Polybius 3.118.3 has Tarentum surrender immediately after Cannae.
+      It held for four more years, and Rome had garrisoned it three
+      years before that.
+  - event: treaty-with-philip-v
+    relation: motivated by
+    notes: >
+      The alliance with Macedon gave Hannibal a reason to want a port
+      on the Ionian coast that he had not had in 216.
+  - event: second-punic-war
+    relation: phase of
+summary: >
+  The largest Greek city in Italy went over to
+  [Hannibal](/people/hannibal-barca) in a night operation organized
+  from inside it, and he held it for three years without ever taking
+  the citadel that commanded its harbor. The capture is the best
+  documented of all the Italian defections and
+  [the source comparison](/sourceComparisons/tarentine-betrayal) sets
+  the three accounts of the night against each other. What follows here
+  is the event: why he wanted the city, why it took him two attempts,
+  and what he got.
+
+  ## Why a port, and why this one
+
+  Hannibal's treaty with [Philip V](/events/treaty-with-philip-v),
+  sworn in 215, committed Macedon to a war in which Philip's forces
+  would cross to Italy. Nothing crossed. One reason among others is
+  that there was no harbor on the Ionian coast in Carthaginian hands
+  for anything to cross to, and Tarentum was the best harbor on that
+  coast. Rome had seen the risk early: among the measures the senate
+  took after the [Trebia](/events/battle-of-trebia) was to send
+  garrisons to Tarentum and other suitable places (Polybius 3.75.4).
+  It also held hostages from the leading families of the Greek cities
+  of the south at Rome, Tarentum's among them.
+
+  In the autumn of 214 Hannibal brought his army up to the walls. He
+  had come through everything in his path with the usual destruction,
+  and in Tarentine territory the column began to march peaceably:
+  nothing was touched and nobody left the road. Livy says it was plain
+  this was not the restraint of the soldiers or their commander but
+  was done to win the Tarentines over (24.20). It did not work. Three
+  days before he arrived, Marcus Livius had been sent in from the
+  fleet at Brundisium, had enrolled the young men, and had posted
+  guards at every gate and along the walls, giving nothing to attempt
+  either to the enemy or, in Livy's phrase, to doubtful allies. None of
+  the Tarentines who had come to Hannibal at Lake Avernus earlier that
+  year sent word. He camped a mile off, wasted some days, and left.
+
+  ## What changed
+
+  What changed was done at Rome. Phileas of Tarentum, who had been in
+  the city a long time under color of an embassy, got access to the
+  Tarentine and Thurian hostages in the Atrium Libertatis, bribed two
+  of their keepers, and led them out at dusk. They were caught at
+  Tarracina, brought back, flogged in the comitium with the people's
+  approval, and thrown from the rock. Livy says the savagery of it
+  inflamed the two most famous Greek cities in Italy, and that about
+  thirteen young Tarentine nobles conspired in consequence (25.7-8).
+
+  They went out to Hannibal themselves, under pretext of hunting, and
+  had themselves arrested by his pickets. The terms they got were the
+  ones he had given [Capua](/events/capua-defection): a free city, its
+  own laws, its own property, no tribute, no garrison imposed on it.
+  Then they spent the winter making a habit out of going through the
+  gates at night, until the guards opened to a whistle. In 212 he
+  marched ten thousand picked men through a night and was let in at two
+  gates at once, and by daylight the Romans who had survived were in
+  the citadel.
+
+  ## An incomplete conquest
+
+  The citadel is the whole difficulty. It stands on the promontory
+  commanding the mouth of the inner harbor, and while Rome held it
+  Rome controlled the water the city lived by. Hannibal walled the
+  citadel off from the town with a ditch and rampart, which cost the
+  Romans a sortie and a good many men, and then found the blockade
+  useless: the garrison had the sea open and the besiegers were nearer
+  to famine than the besieged. His answer was to have the Tarentine
+  ships, shut in the inner harbor behind a Roman boom, dragged on
+  wagons along the street that crosses the city from harbor to sea.
+  Livy gives him the remark that many things impeded by nature are set
+  free by planning, and the fleet was round the citadel and anchored
+  off the harbor mouth within a few days (25.11). It did not take the
+  citadel either. Carthage never put enough at sea off that coast to
+  close it, and when the admiral Bomilcar failed off Syracuse in 212 he
+  sailed past Sicily and made for Tarentum (25.27), which is as close
+  to a coordinated naval move in support of the Italian army as the
+  record comes.
+
+  ## What it bought, and what it cost Rome
+
+  The city carried the region with it. Metapontum went over at once,
+  and the reason is exact: its Roman garrison had been moved to help
+  hold the citadel at Tarentum, so the fear that had kept Metapontum
+  quiet was removed. Thurii followed on the same coast, and Livy says
+  the Thurians were moved less by the example of their Achaean kinsmen
+  than by anger at Rome over the hostages lately killed; their friends
+  and relatives wrote to Hanno and Mago in Bruttium offering to hand
+  the city over (25.15). Heraclea followed. By the summer of 212, apart
+  from the garrison holding the Tarentine citadel, Rhegium was
+  effectively the only city of Magna Graecia left to Rome.
+
+  That is the high-water mark of the Italian strategy, and it is worth
+  noticing how it was reached. Three cities in a season, two of them
+  explicitly because Rome had killed their hostages and one because
+  Rome had moved a garrison, and in every case the approach came from
+  inside the city rather than from the general outside it. The pattern
+  is the argument of
+  [the claim on local politics](/claims/italian-defections-local-politics).
+  Rome took Tarentum back in 209 by the same means it had lost it, and
+  Hannibal's comment on that is at
+  [the comparison](/sourceComparisons/tarentine-betrayal).

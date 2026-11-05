@@ -1,278 +1,407 @@
 slug: tarentine-betrayal
-title: "The Tarentine betrayal across the ancient sources"
+title: "Tarentum: how the city was lost and taken back"
+subject_event: fall-of-tarentum-212
 summary: >
-  The defection of Tarentum to Hannibal in 212 BCE, the
-  largest and strategically most important of the Italian
-  Greek cities to break with Rome during the
-  [post-Cannae alliance crisis](/claims/cannae-allies-defected), is preserved in three substantial sources with markedly
-  different treatments. Polybius 8.24–34 gives the fullest
-  analytical account, drawing on what reads like participant
-  or near-participant detail; Livy 25.7–11 follows the broad
-  sequence with Latin moral-narrative expansion; Plutarch
-  *Fabius* 21–22 preserves the episode from the perspective
-  of the Roman recovery of the city in 209 BCE under Fabius
-  Maximus's command. The comparison surfaces how internal
-  betrayals were actually organized in classical-period
-  Greek cities, how the surviving sources read "treachery"
-  versus political agency, and what the Tarentine case
-  tells us about the broader pattern of Italian-allied
-  defection to Hannibal that the
-  [Hannibal-Italian-objective editorial take](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)
-  reads as the strategic engine of his Italian campaign.
+  [Tarentum](/places/tarentum) went over to
+  [Hannibal](/people/hannibal-barca) in 212 and was recovered by Rome
+  in 209, and both ends of that were done by betrayal from inside. The
+  three surviving accounts are unusually full and they disagree about
+  almost everything except the sequence: why the conspirators acted,
+  what they were promised, whether the confusion in the streets was
+  planned or accidental, whether the Romans massacred their own
+  collaborators to conceal how they had won, and what the two sides
+  made of it afterward. Polybius 8.24-34 is the fullest narrative of
+  the night itself; Livy 25.7-11 supplies the grievance that set it off
+  and 27.15-16 and 27.25 the recapture and its aftermath at Rome;
+  Plutarch *Fabius* 21-23 writes the recapture as a chapter in a Roman
+  life and judges it harshly.
+
+  The comparison matters to the site because
+  [the editorial take on Hannibal's Italian objective](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)
+  reads detaching Rome's allies as the method of his campaign, and
+  Tarentum is the best-documented case of how a detachment was actually
+  organized. It is also the case where the method ran backward.
 
 source_passages:
   - source: polybius-histories
-    passage_ref: "8.24–34"
+    passage_ref: "8.24-34"
     paraphrase: >
-      Polybius gives the fullest surviving analytical account.
-      Two young Tarentine aristocrats, Nikon and Philomenos,
-      had been captured at the
-      [battle of Trasimene](/events/battle-of-lake-trasimene)
-      and held in Hannibal's camp. Hannibal cultivated them
-      politically and released them to return to Tarentum as
-      agents of a planned defection. They built a faction
-      among the Tarentine elite, established communication
-      protocols with Hannibal's camp, arranged signals and
-      meeting points, and coordinated the night-operation
-      timing with Hannibal's approach. The actual seizure of
-      the city was a carefully staged combined operation:
-      Philomenos's known habit of nighttime boar-hunting
-      gave him a routine excuse to be outside the walls;
-      the Roman garrison was diverted by an outbreak in
-      the lower city; a small Carthaginian force was let
-      in through a guarded postern; the Roman garrison
-      withdrew to the citadel (which the Carthaginians did
-      not take); the Tarentine assembly then formally
-      committed the city to alliance with Carthage.
-      Polybius's account treats Nikon and Philomenos
-      throughout as political actors operating within
-      Tarentine domestic politics, not as moral traitors.
+      The fullest account of the night attack. Thirteen young
+      Tarentines, led by Nicon, Philemenus and Tragiscus, left the city
+      as though on an expedition, approached Hannibal's camp by night,
+      had themselves arrested by the pickets and asked to see the
+      general, giving their names to nobody. They laid their own case
+      and their city's before him with many charges against Rome, so as
+      not to seem to have come without reasons. Hannibal sent them back
+      with instructions to drive off the first herd of Carthaginian
+      cattle they met, so that their countrymen would believe they went
+      out on forays; they sold some of the beasts and feasted on the
+      rest, and acquired both credit and imitators. At a second meeting
+      he pledged that Tarentum would be free, that Carthage would exact
+      no tribute and impose no other burden, and that the conspirators
+      might plunder the Roman houses when the city fell. Philemenus,
+      whose passion for hunting was proverbial, worked his way into the
+      habit of bringing game to Gaius Livius the commandant and to the
+      guards of the tower by the Temenid gate, until they would open
+      the postern whenever he whistled. Hannibal, who had been feigning
+      illness to explain a long stay in one camp, picked about ten
+      thousand infantry and cavalry for their speed and courage, sent
+      eighty Numidian horse ahead to spread over the roads so that the
+      army would be taken for a raiding party, and marched through the
+      night. Livius had been drinking in the Museum since early in the
+      day; the conspirators met him coming home, joking as though they
+      too were returning from a party, saw him to bed, and then divided
+      into three bodies to watch the streets. Fire signals were
+      exchanged between the tomb of Hyacinthus outside and the tomb of
+      Pythionicus in the cemetery inside; the gate guards were killed
+      and the bolts cut. Philemenus came in separately at the postern
+      with a wild boar on a stretcher and about thirty Libyans behind
+      him. Two thousand cavalry stayed outside the wall as a reserve.
+      The conspirators had provided Roman bugles and men trained to
+      sound them, and blew the call to arms in the theater, so that
+      Romans running to the citadel in the usual way would meet the
+      Carthaginians in the streets. Livius, recognizing that he was too
+      drunk to be of use, escaped by boat to the citadel.
     source_note: >
-      Polybius's level of detail on the internal organization
-      of the betrayal is unusual for ancient historiography
-      and suggests access to either participant memory or to
-      detailed Greek sources lost to later traditions. The
-      analytical mode (political actors with motives,
-      coordinated operation, formal assembly ratification) is methodologically careful and distinguishes
-      Polybius's treatment from the Latin moral-narrative
-      tradition.
+      The detail is extraordinary and reads like participant knowledge;
+      Walbank, via MacDonald, judged his source here to be
+      pro-Hannibalic, which would make it one of the few places where a
+      narrative from that side reaches us. The opening of the account
+      does not survive. What stands at 8.24.1 is a general judgment
+      that the pride bred by prosperity made the Tarentines call in
+      Pyrrhus, and that a democracy long in power sickens of its
+      condition, looks for a master, and soon hates him; the text then
+      breaks off and resumes with the young men already on their way to
+      Hannibal's camp. So the moralizing about Tarentine political
+      character is Polybius's, and the concrete grievance is not in him
+      at all.
   - source: livy-auc
-    passage_ref: "25.7–11"
+    passage_ref: "25.7-11; 27.15-16; 27.25"
     paraphrase: >
-      Livy follows the broad Polybian sequence but with
-      different emphases. The young Tarentine aristocrats
-      are presented in more morally charged terms (youthful
-      folly, ambition, the corruption of being cultivated by
-      Hannibal in captivity) and the organization of the
-      betrayal is given more dramatic narrative shape. The
-      Roman garrison commander's negligence in failing to
-      detect the developing plot is foregrounded; the formal
-      Tarentine assembly's role is downplayed. The Latin
-      treatment renders the defection principally as a
-      moral-narrative episode (corruption, treachery, just
-      punishment in the eventual Roman recovery) rather
-      than as the actual political event Polybius preserves.
+      Livy alone gives the cause. Phileas of Tarentum, long at Rome
+      under color of an embassy, reached the Thurian and Tarentine
+      hostages held in the Atrium Libertatis, where they were guarded
+      the more loosely because deceiving Rome served neither them nor
+      their cities. He bribed two keepers, led the hostages out at
+      dusk, and fled with them; they were taken at Tarracina, brought
+      back to the comitium, flogged with the people's approval, and
+      thrown from the rock. The savagery of the punishment inflamed the
+      two most famous Greek cities in Italy, and about thirteen young
+      Tarentine nobles conspired, Nico and Philemenus at their head.
+      The terms Livy gives are that the Tarentines should be free, keep
+      their own laws and all their own property, pay no tribute to the
+      Carthaginian, and receive no garrison against their will. He has
+      the two-gate attack, Hannibal entering by the Temenid gate while
+      Philemenus came in with the boar, and two thousand Gauls sent
+      through the city in three parties with two Tarentine guides each.
+      In the dark neither side knew what was happening: the Tarentines
+      thought the Romans had risen to sack the city and the Romans
+      thought the townspeople had started a riot, and a Roman trumpet
+      sounding from the theater, blown by a Greek who did not know how,
+      left it uncertain who was signaling whom. At daylight Punic and
+      Gallic arms settled it. Hannibal then called the Tarentines
+      together unarmed, cited what he had done for their citizens taken
+      at Trasimene and Cannae, and ordered every man to write his name
+      on his door; unmarked houses would be plundered at a signal, and
+      anyone writing his name on a Roman's lodging would be treated as
+      an enemy. The Roman lodgings were then sacked. The citadel held.
+      Hannibal cut it off with a ditch and rampart, and when that
+      failed for want of command of the water he had the Tarentine
+      ships dragged on wagons along the street that crosses the city,
+      remarking that many things impeded by nature are set free by
+      planning. In 209 Fabius took the city back through a Bruttian
+      garrison commander in love with a woman whose brother served in
+      the Roman army, and Livy gives thirty thousand persons sold,
+      three thousand and eighty pounds of gold, and statues and
+      paintings that nearly equaled the ornaments of Syracuse.
     source_note: >
-      Livy worked from Polybius (named) and from earlier
-      Latin annalistic traditions that took the moral-
-      treachery reading largely at face value. The Livian
-      expansion adds dramatic detail at the cost of
-      analytical clarity; modern reading should retain
-      Polybius's political-action account as the more honest
-      reconstruction.
+      Livy closes the 212 narrative by recording that his authorities
+      disagreed whether the defection fell in the previous year or in
+      this one, and that he follows the more numerous and those closer
+      in time to the events. It is the same rule he applies to the
+      rescue at the Ticinus, and it is worth noting that he states it
+      rather than concealing the disagreement.
   - source: plutarch-lives
-    passage_ref: "*Fabius Maximus* 21–22"
+    passage_ref: "*Fabius Maximus* 21-23"
     paraphrase: >
-      Plutarch treats Tarentum from the perspective of
-      Fabius Maximus's 209 BCE recapture rather than from
-      the 212 betrayal itself. The 212 events are preserved
-      briefly as background; the main treatment is of the
-      recapture operation, the violence of the Roman
-      handling of the recaptured city, and the famous
-      anecdote in which Fabius is asked who taught him to
-      take cities and replies "Hannibal" — the indirect
-      acknowledgment that the same combined-arms-with-
-      internal-faction approach Hannibal had used was now
-      being used against him. The cast is biographical-
-      moral, treating the episode as the vindication of
-      Fabian patient strategy.
+      Plutarch begins at the recapture. Fabius drew Hannibal away by
+      throwing in front of him the troops Marcellus had sent from
+      Sicily in disgrace, then besieged Tarentum. Rather than let the
+      whole enterprise rest on the betrayal, he attacked the walls by
+      land and sea with great shouting while leading a detachment to
+      the spot the Bruttian had agreed to open. He then ordered the
+      Bruttians cut down first of all, so that the city should not be
+      known to have been taken by treachery; he failed to conceal it
+      and incurred the reproach of perfidy and cruelty besides. Thirty
+      thousand Tarentines were sold and three thousand talents brought
+      into the treasury. Asked by the accountant what was to be done
+      about the gods, meaning the pictures and statues, Fabius said to
+      leave the Tarentines their angry gods; but he took the colossal
+      Heracles to the Capitol and set a bronze equestrian statue of
+      himself beside it, which Plutarch says made him look far stranger
+      in these matters than Marcellus. He gives Hannibal's public
+      remark that the Romans had another Hannibal, and adds that in
+      private he then admitted to his friends for the first time that
+      Italy could not be mastered with the forces they had.
     source_note: >
-      Plutarch wrote roughly 300 years after the events,
-      working from earlier biographical-historiographical
-      sources. His value for the 212 betrayal specifically
-      is principally as preserving Roman reception
-      (the 209 recovery as morally satisfying vindication)
-      rather than as an independent source for the 212
-      events.
+      Written about three centuries later and shaped as biography: the
+      loss of Tarentum becomes the moment the war turns in Hannibal's
+      own mind, which is a biographer's hinge rather than a record of
+      what he said among friends. Plutarch is nonetheless the harsher
+      of the two Roman-side accounts on Fabius, and on the massacre of
+      the Bruttians he states as an order what Livy offers as one
+      possibility among three.
 
 points_of_difference:
-  - topic: How the Tarentine conspirators' motives are read
+  - topic: What set the conspiracy off
     positions:
-      - source_slug: polybius-histories
-        what_it_says: >
-          Political actors operating within Tarentine
-          domestic politics. Nikon and Philomenos had real
-          factional support; the defection was a coordinated
-          political move with broad-enough elite support to
-          carry the formal assembly. Motives presented as
-          political calculation rather than moral defect.
       - source_slug: livy-auc
         what_it_says: >
-          Morally charged. Youthful folly, ambition,
-          corruption by Hannibal in captivity. The defection
-          is treachery rather than political action.
+          The execution of the hostages. Rome flogged and threw from
+          the rock the Tarentine and Thurian hostages who had been led
+          out of the Atrium Libertatis, and the conspiracy formed in
+          response among men connected to them by kinship or
+          friendship.
+      - source_slug: polybius-histories
+        what_it_says: >
+          Nothing survives. The narrative resumes with the young men
+          already on the road to Hannibal's camp; the preserved opening
+          is a judgment on the political character of democracies that
+          have long held power, attached to the Pyrrhus episode.
       - source_slug: plutarch-lives
         what_it_says: >
-          Briefly preserved; the cast is biographical-
-          moral but with less weight on the conspirators'
-          characters than on the broader Fabian strategic
-          context.
+          Not treated. The revolt is background to Fabius's recovery of
+          the city.
     commentary: >
-      The Polybian political-action reading is preferable
-      methodologically. Italian-allied defection to Hannibal
-      after Cannae followed a recurring pattern (Rawlings 1996
-      treats this as
-      [substantive political choice by Italian communities](/sources/rawlings-celts-spaniards-samnites-1996)
-      operating within their own military and political
-      traditions, not as passive response or moral failure),
-      and the Tarentine case fits the broader pattern. The
-      Livian moral-treachery reading reproduces Roman
-      political rhetoric about Italian-allied defection
-      rather than the actual political behavior of the
-      defecting communities.
+      The grievance rests on Livy alone, and it is specific enough to
+      carry weight: a named man, a named building, a named place of
+      recapture, and a public execution the people approved. It also
+      fits what Rome had done, since hostage-taking is how Rome held
+      the Greek south, and MacDonald's observation that the executions
+      removed the hold is exactly right. The symmetry is worth stating
+      plainly. Carthage held hostages from the Iberian peoples at
+      [New Carthage](/places/carthago-nova) for the same purpose, and
+      when Scipio
+      [took the city in 209](/events/capture-of-new-carthage) he sent
+      them home and bought a great deal with them. The same instrument,
+      handled two ways within three years, lost Rome a city and won
+      Rome a peninsula.
 
-  - topic: The role of the Tarentine assembly
+  - topic: Who approached whom, and what was promised
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          The formal Tarentine assembly ratified the
-          defection. The event is presented as a
-          constitutionally legitimate political decision
-          by the city's institutions.
+          The Tarentines came to Hannibal, concealed their identities
+          from the pickets, and argued their case. He pledged freedom,
+          no tribute and no other burdens, and the right to plunder the
+          Roman houses once the city was taken.
       - source_slug: livy-auc
         what_it_says: >
-          The assembly's role is downplayed; the defection
-          is rendered more as the action of the conspirators
-          and Hannibal than as a city-level political
-          decision.
+          The same approach, with the men going out under pretext of
+          hunting and deliberately getting themselves taken. The terms
+          are freedom, their own laws, all their own property, no
+          tribute, and no garrison received against their will.
     commentary: >
-      The Polybian account preserves what was probably the
-      actual constitutional shape of the event: Tarentum
-      was a Greek polis with its own democratic
-      institutions, and the formal assembly was the proper
-      authority for an alliance decision. Treating the
-      defection as the conspirators' coup obscures the
-      city's actual political agency. The methodological
-      point connects to the broader site reading of
-      Italian-allied political action as substantive
-      rather than as passive instrument.
+      Both have the initiative running from the city to the general,
+      which is the pattern the site reads across the Italian
+      defections at
+      [the claim on local politics](/claims/italian-defections-local-politics).
+      The terms are the more interesting agreement. Set beside the four
+      clauses at [Capua](/claims/capua-treaty-terms-216) and beside
+      what the Lucanian Flavus demanded in 212, that his people should
+      come over free and under their own laws, the same formula appears
+      three times in three regions. Hannibal was offering a standard
+      package, and the two sources preserve different halves of it:
+      Polybius keeps the plunder clause, which is the part that paid
+      the conspirators, and Livy keeps the garrison clause, which is
+      the part that mattered to the city. Neither imposes military
+      service, which is the burden
+      [his allies were never put under](/claims/hannibal-allies-not-obliged-to-serve).
 
-  - topic: The Fabian recovery and the "Hannibal taught me"
+  - topic: The confusion in the streets
     positions:
       - source_slug: polybius-histories
         what_it_says: >
-          The 212 events are the principal focus; the
-          eventual Roman recovery is treated as the
-          natural sequel without the famous anecdote.
+          Deliberate. The conspirators had supplied themselves with
+          Roman bugles and men trained to sound them, and blew the call
+          to arms in the theater so that Romans answering it in the
+          usual way would run into the Carthaginians in the streets.
       - source_slug: livy-auc
         what_it_says: >
-          The recovery is treated; the violence of the
-          Roman recapture is preserved; the broader Latin
-          moral-narrative shape of Roman victory as
-          just punishment is foregrounded.
+          Accidental, or half so. The trumpet was Roman and had been
+          prepared by the conspirators for the purpose, but it was
+          blown inexpertly by a Greek, so that nobody could tell who
+          was signaling to whom; the Tarentines thought the Romans had
+          risen against the city and the Romans thought the townsmen
+          had.
+    commentary: >
+      The same instrument, prepared by the same people, with the
+      outcome credited to design in one account and to incompetence in
+      the other. It is a small thing and a useful check on both: a
+      night operation inside a large city produced chaos, and each
+      author has filled in a cause for the chaos that suits the kind of
+      history he is writing. Polybius is explaining a plan; Livy is
+      describing what it was like. The difference over the troops sent
+      through the city, two thousand Gauls in Livy and Libyans in
+      Polybius, is of the same order and cannot be resolved.
+
+  - topic: What Hannibal did with the city
+    positions:
+      - source_slug: livy-auc
+        what_it_says: >
+          He assembled the Tarentines unarmed, invoked his treatment of
+          their citizens captured at Trasimene and Cannae, and ordered
+          each man to write his name on his door. Houses without a name
+          would be plundered; a Tarentine who wrote his name on a
+          Roman's lodging would be counted an enemy. The Roman lodgings
+          were then sacked.
+      - source_slug: polybius-histories
+        what_it_says: >
+          The right to plunder the Roman houses was part of the
+          original bargain.
+    commentary: >
+      The two fit together and the procedure deserves more notice than
+      it gets. A sack was promised to the men who opened the gates and
+      then administered by writing, with the line between a protected
+      house and a plundered one drawn by its owner the same morning.
+      Livy's detail that Hannibal cited the prisoner releases of 217 and
+      216 is also the one place where that policy is shown being used as
+      a credential rather than as recruitment, which is how the site
+      reads it at
+      [the Italian objective take](/editorialTakes/hannibal-italian-objective-alliance-dismemberment).
+
+  - topic: The Bruttians who let the Romans in
+    positions:
       - source_slug: plutarch-lives
         what_it_says: >
-          The Fabian recovery is the principal focus, with
-          the famous "Hannibal taught me" anecdote
-          preserved as the dramatic-moral climax of the
-          biographical treatment.
-    commentary: >
-      The Fabian anecdote, "who taught you to take cities
-      like this?" "Hannibal", is preserved only in
-      Plutarch and has the literary marks of a Plutarchan
-      moral construction (the symmetric inversion, the
-      brief epigrammatic structure, the perfect
-      biographical fit). Modern reading should treat it as
-      Plutarchan elaboration rather than as historical
-      record. The underlying point the anecdote captures, that the Roman recovery used similar internal-
-      faction-with-combined-arms methods to those Hannibal
-      had used, is independently supported by what
-      Polybius preserves of the recovery operations.
-
-  - topic: The violence of the Roman recovery
-    positions:
-      - source_slug: polybius-histories
-        what_it_says: >
-          The recovery operations are preserved but with
-          less moral-rhetorical weight than the Latin
-          tradition gives them.
+          Fabius ordered them killed first of all so that his
+          possession of the city should not be known to be owed to
+          treachery. He did not succeed in hiding it and was reproached
+          for perfidy and cruelty.
       - source_slug: livy-auc
         what_it_says: >
-          The violence of the Roman recapture is preserved
-          in dramatic detail; the killings, the
-          enslavements, the punitive treatment of the
-          population are foregrounded as the natural
-          consequences of treachery.
+          Many Bruttians were killed indiscriminately, and Livy offers
+          three possible reasons: error in the confusion, old hatred,
+          or a wish to stamp out the report of a betrayal so that
+          Tarentum should seem to have been taken by force of arms.
+    commentary: >
+      Livy's third possibility is Plutarch's flat statement, and
+      between them they make a serious charge: that the Romans
+      massacred the men who had given them the city in order to be able
+      to say they had stormed it. The site does not treat the charge as
+      proved, because Livy declines to choose and a night assault
+      produces indiscriminate killing without anyone ordering it. What
+      can be said is that two independent traditions found the
+      explanation plausible enough to record, which tells us how such a
+      victory was expected to be presented. Set it beside Marcellus's
+      ovation two years earlier, where
+      [Sosis and Moericus](/events/siege-of-syracuse-marcellus), the
+      men who had opened Syracuse, walked in front of the procession in
+      golden crowns and were voted citizenship and land. Rome could
+      parade its traitors or bury them, depending on how the capture
+      needed to read.
+
+  - topic: The art, and the two verdicts on Fabius
+    positions:
+      - source_slug: livy-auc
+        what_it_says: >
+          Fabius abstained from plunder of that kind with a greater
+          spirit than Marcellus had shown, and when the accountant
+          asked what should be done with the colossal statues of the
+          gods he ordered that their angry gods be left to the
+          Tarentines.
       - source_slug: plutarch-lives
         what_it_says: >
-          The violence is preserved more briefly, with
-          a moral shift toward Fabius's restraint relative
-          to what Roman political pressure demanded.
+          The same remark about the angry gods, followed immediately by
+          the removal of the colossal Heracles to the Capitol and the
+          setting up of an equestrian statue of Fabius himself beside
+          it, which Plutarch calls far stranger conduct than
+          Marcellus's and says made Marcellus look humane by contrast.
     commentary: >
-      The Roman recovery's violence is well-attested across
-      sources. Modern reading should retain the underlying
-      events (the killings, the enslavements, the
-      population's punitive treatment) while reading the
-      moral overlay (treachery deserves punishment, Fabian
-      restraint moderating Roman demands) as the surviving
-      sources' rhetorical work rather than as the events'
-      actual moral character. Punitive treatment of
-      defecting populations was a routine Roman political-
-      military practice; the moral-rhetorical overlay
-      serves Roman ideological needs.
+      One anecdote, two conclusions, and the conclusions are opposite.
+      Plutarch is not contradicting Livy about what happened; he has
+      the same joke and adds the sequel, and the sequel is what makes
+      the restraint look like selection. The Heracles is attested
+      independently by Pliny, who reports it on the Capitol beside the
+      statue of Fabius. For the site the interest is in what the god
+      was: Hannibal had spent the war presenting himself under the
+      protection of Heracles and Melqart, treated at
+      [the narrative on the march as a labor](/narratives/hannibal-and-heracles),
+      and in 209 the largest Heracles in Italy was carried from a city
+      he had held to the hill at the center of Rome. No source says
+      that was the point, and the site does not claim it was.
+
+  - topic: What Hannibal said when he lost it
+    positions:
+      - source_slug: livy-auc
+        what_it_says: >
+          Marching to relieve the city and hearing on the way that it
+          had fallen, he said that the Romans too had their Hannibal,
+          and that they had lost Tarentum by the same art by which they
+          had taken it. He then camped five miles off for a few days so
+          as not to look as though he were turning back in flight, and
+          withdrew to Metapontum.
+      - source_slug: plutarch-lives
+        what_it_says: >
+          Publicly the same remark, that the Romans had another
+          Hannibal. Privately, Plutarch says, he admitted to his
+          friends for the first time that Italy could not be mastered
+          with the forces they had.
+    commentary: >
+      The public line is in both and is almost certainly a real saying,
+      or at least an old one: it is exactly accurate, since the city
+      was lost and regained by the same method, and it is the kind of
+      remark that survives because it is quotable. The private
+      admission is Plutarch alone and is the hinge of a biography,
+      placed where a Life needs its turn. Livy's own version of the
+      turn is quieter and better: Hannibal stayed camped nearby for a
+      few days so that the withdrawal should not look like flight. A
+      second saying has been confused with this one on the site and
+      elsewhere. The exchange about who deserved the credit is Fabius's,
+      not Hannibal's, and it was made in the senate: when Marcus Livius,
+      who had lost the city and then held the citadel for five years,
+      claimed the recovery for himself, Fabius agreed, since Tarentum
+      would not have needed recovering had Livius not lost it (Livy
+      27.25; Plutarch *Fab.* 23.3).
 
 working_reconstruction: >
-  The Tarentine betrayal is the largest single Italian-allied
-  defection to Hannibal and the most operationally
-  diagrammable in the surviving record. The broad sequence is
-  well established: prisoners-of-war cultivated as agents,
-  faction-building inside the target city, coordinated
-  night-operation with internal cooperation, formal assembly
-  ratification of the defection, three years of Tarentine
-  alliance with Hannibal, Roman recapture in 209 BCE with
-  punitive treatment.
+  The sequence is secure. Rome garrisoned Tarentum early in the war and
+  held hostages from its leading families at Rome. In 214 Hannibal
+  brought his army to the walls, kept it from touching Tarentine land,
+  and waited for the gates to open; Livy says it was obvious the
+  restraint was policy and not discipline, and the city did not move.
+  In 212, after Rome executed the escaped hostages, thirteen young
+  nobles went out to Hannibal, negotiated terms, and let him in by two
+  gates on a night when the Roman commander was drunk. The citadel
+  never fell. Hannibal cut it off by land and, lacking command of the
+  water, had the Tarentine fleet hauled across the city on wagons to
+  blockade it from the sea. In 209 Fabius took the city back by the
+  same means it had been lost, sold thirty thousand of its people, and
+  left Rome's senate to defer the question of what to do with the rest.
 
-  The methodological points the comparison surfaces: the
-  Polybian political-action reading of the conspirators is
-  preferable to the Livian moral-treachery reading; the
-  Tarentine assembly's constitutionally legitimate role
-  should be retained against Latin treatments that downplay
-  it; the Plutarchan "Hannibal taught me" anecdote is
-  literary construction rather than historical record; the
-  violence of the Roman recovery is well-attested and the
-  reading of it as "treachery's just punishment" is Roman
-  ideological work rather than the events' actual moral
-  character.
-
-  The deeper point connects to the broader Italian-allied
-  defection pattern that the
-  [editorial take on Hannibal's Italian objective](/editorialTakes/hannibal-italian-objective-alliance-dismemberment)
-  reads as the strategic engine of his Italian campaign.
-  Italian Greek cities defecting from Rome to Carthage after
-  Cannae were not exhibiting moral collapse; they were
-  making political-strategic decisions within their own
-  institutional traditions about which great-power
-  alignment served their interests better. The Tarentine
-  case is the most documented instance of how those
-  decisions were actually organized, and the source
-  comparison surfaces the readings that have made the
-  pattern hard to see clearly in popular reception.
+  Three things in the comparison are worth carrying away. The
+  initiative came from inside the city both times, which is the
+  argument of
+  [the claim on the Italian defections](/claims/italian-defections-local-politics)
+  and not a point the Roman tradition has any interest in making. The
+  terms Hannibal offered are the same terms he offered Capua and the
+  same the Lucanians asked for, so there was a standing formula, and
+  it bought alliances by promising that nothing would be asked of
+  them. And hostages decided the matter at both ends of the
+  Mediterranean in the same two years: Rome killed the Tarentine
+  hostages and lost a city, Scipio released the Iberian hostages and
+  gained a coalition. None of the surviving authors draws that
+  parallel, which is a reason to state it carefully rather than
+  loudly.
 
 related_takes:
   - hannibal-italian-objective-alliance-dismemberment
 related_claims:
   - cannae-allies-defected
+  - italian-defections-local-politics
+  - hannibal-allies-not-obliged-to-serve
+  - capua-treaty-terms-216
 related_narratives: []
 related_questions: []
 
-last_revised: "2026-05-22"
+last_revised: "2026-11-05"

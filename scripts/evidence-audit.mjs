@@ -676,6 +676,32 @@ const REGRESSIONS = [
     right: 'Polybius 7.2.2-3: Hieronymus sent envoys to Hannibal first, and Hannibal answered by sending Hannibal the trireme commander with Hippocrates and Epicydes. The initiative was Syracusan.',
     fixed: 'MacDonald ch. 8 pass',
   },
+  {
+    id: 'tarentine-conspirators-taken-at-trasimene',
+    // The 212 conspirators are not the 214 Avernus delegation. Livy keeps
+    // them apart and so must we.
+    re: /(Nico|Nikon|Philemenus|Philomenos)[^.]{0,120}(captured|taken|prisoners?)[^.]{0,40}(Trasimene|Trasimeno|Cannae)|(captured|taken)[^.]{0,40}(Trasimene|Cannae)[^.]{0,120}(Nico|Nikon|Philemenus)/i,
+    right: 'Livy 25.8: the thirteen conspirators of 212 acted after Rome flogged and executed the escaped Tarentine and Thurian hostages, and they went out to Hannibal themselves. The released prisoners who approached him at Lake Avernus are the separate group of five in 214 (Livy 24.13), whose attempt came to nothing.',
+    fixed: 'MacDonald ch. 9 pass',
+  },
+  {
+    id: 'hannibal-taught-me-to-take-cities',
+    re: /(who |what )?taught (you|him|me)[^.]{0,30}to take cities|taught me to take cities/i,
+    right: "No such exchange is in the sources. Hannibal's line is in Livy 27.16 and Plutarch Fab. 23.1: the Romans too have their Hannibal, and Tarentum was lost by the same art it was taken by. The other famous saying is Fabius's retort in the senate to Marcus Livius, that the city would not have needed recovering had Livius not lost it (Livy 27.25; Plutarch Fab. 23.3).",
+    fixed: 'MacDonald ch. 9 pass',
+  },
+  {
+    id: 'tarentine-assembly-ratified-defection',
+    re: /(formal |Tarentine )?assembly[^.]{0,60}(ratified|ratifying|committed the city|voted)[^.]{0,40}(defection|alliance with Carthage)|assembly[^.]{0,30}ratification of the defection/i,
+    right: "Neither Polybius 8.24-34 nor Livy 25.8-11 records an assembly vote at Tarentum. What Livy has after the city fell is Hannibal convening the Tarentines unarmed and ordering each man to write his name on his door, with unmarked houses given over to plunder (25.10).",
+    fixed: 'MacDonald ch. 9 pass',
+  },
+  {
+    id: 'carthalo-cavalry-command-livy-25-21',
+    re: /Carthalo[^.]{0,80}25\.21|25\.21[^.]{0,80}Carthalo/i,
+    right: "Livy 25.21 is the first battle of Herdonea and does not mention Carthalo. His second appearance is 25.17, carrying the head of Gracchus to the Roman camp; his third and last is 27.16, killed at Tarentum.",
+    fixed: 'MacDonald ch. 9 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.
