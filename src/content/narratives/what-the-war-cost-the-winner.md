@@ -87,10 +87,14 @@ once, because a Roman force shadowing Hannibal fed itself the same way he
 did.
 
 Then there was what Rome did to the communities that changed sides.
-Capua went over after Cannae and was retaken in 211. Its leading men were
-executed, its self-government was abolished, and its territory was taken
-into public ownership. Tarentum was stormed in 209 and its population
-sold. These were not incidental reprisals but a deliberate policy of
+[Capua](/events/siege-of-capua) went over after Cannae and was retaken
+in 211. Its leading men were executed, its self-government was
+abolished, and its territory was taken into public ownership; the senate
+debated destroying the city outright and spared it because the land was
+the best in Italy and somebody had to farm it.
+[Tarentum](/events/fall-of-tarentum-212) was stormed in 209 and thirty
+thousand of its people sold. These were not incidental reprisals but a
+deliberate policy of
 making defection unsurvivable, and the confiscated land is the piece with
 the longest tail: a great deal of southern Italy entered the Roman public
 domain in these years, and the question of who was farming it became the

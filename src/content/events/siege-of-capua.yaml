@@ -1,0 +1,173 @@
+slug: siege-of-capua
+name: The Siege and Fall of Capua
+type: siege
+outcome: "Roman victory; Capua surrendered, its governing class executed or imprisoned, its people sold, and the city kept as land while abolished as a community"
+date_start:
+  value: -212
+  precision: year
+date_end:
+  value: -211
+  precision: year
+place: capua
+participants:
+  - person: hannibal-barca
+    role: attempted twice to break the blockade
+    side: Carthaginian
+principal_sources:
+  - livy-auc
+  - polybius-histories
+related_events:
+  - event: capua-defection
+    relation: consequence of
+  - event: second-punic-war
+    relation: phase of
+summary: >
+  The largest city that went over to
+  [Hannibal](/people/hannibal-barca) was taken back by siege in 211,
+  and what Rome then did to it is the clearest statement in the whole
+  war of what Rome did to a community that had proved it could not be
+  trusted. The site reads the treatment of Capua as the rehearsal for
+  146, and the argument is at
+  [the take on the destruction of Carthage](/editorialTakes/destruction-not-weak-enough).
+
+  ## Shutting it in
+
+  The Capuans had been prevented from sowing and were already hungry
+  when they asked Hannibal for grain in 212. He sent Hanno from
+  Bruttium, who camped on high ground three miles from Beneventum and
+  collected grain from the allied peoples around, then sent word to
+  Capua to come and fetch it with every wagon and pack animal they
+  could find. The Capuans sent a little over four hundred wagons and a
+  few animals, were scolded by Hanno for letting hunger fail to move
+  them when it moves dumb beasts, and were given another day. The
+  Beneventans reported all of it to the consuls. Fulvius came by night,
+  learned that Hanno had gone out foraging with part of the army, and
+  attacked the camp at first light. It was on a slope and nearly took
+  the attackers' lives; Livy has the consul actually sounding the
+  retreat, and the shout of soldiers refusing so unenterprising an
+  order breaking up the council. A Paelignian prefect threw his
+  standard over the enemy rampart and a centurion of the third legion
+  took another from its bearer, and the camp was carried. Over six
+  thousand were killed and more than seven thousand taken, the
+  Campanian grain-carriers among them, with all the wagons and animals
+  (Livy 25.13-14).
+
+  That was the relief. For the rest of the year and into the next, the
+  consuls ringed the city with a ditch and rampart, drew supplies from
+  magazines at Casilinum and the mouth of the Volturnus, and waited.
+
+  ## Hannibal's dilemma
+
+  He came back to Campania in 211 and could do nothing. Polybius puts
+  it in one line: he could not force his way into Capua and he could
+  not draw the Romans out of their camp (9.3.4-5). Having failed at
+  both, and with new consuls threatening his own supply, he decided to
+  march on Rome.
+
+  Livy gives his reasoning. The chance missed after Cannae was
+  something others complained about and he did not conceal; a sudden
+  panic might let him seize some part of the city; and if Rome were in
+  danger the Roman commanders would leave Capua, either both of them or
+  one, and if they divided their forces each would be weaker. The one
+  thing that worried him was that Capua might surrender the moment he
+  left, so he bribed a Numidian to go into the Roman camp as a deserter
+  and out the other side into the city with a letter telling the
+  Capuans that his departure was for their safety and that a few days'
+  endurance would lift the whole siege. Then he collected boats on the
+  Volturnus, prepared ten days' rations, and crossed before dawn (Livy
+  26.7).
+
+  What happened at Rome is treated at
+  [the take on the march](/editorialTakes/cannae-march-on-rome). What
+  matters here is the result: the besiegers did not go. Capua
+  surrendered within weeks.
+
+  ## The speech
+
+  Before it did, Livy gives Vibius Virrius, the man who had led the
+  approach to Hannibal in 216, a speech against surrender, and the
+  speech is the best single statement of the site's reading of Roman
+  behavior toward communities that had defected. He recites what Capua
+  had done: killed the Roman garrison by torture and insult, sallied
+  against the besiegers, called Hannibal in, and most recently sent him
+  from here to attack Rome. Then what Rome had done. With a foreign
+  enemy in Italy and the whole country ablaze, they left everything,
+  left Hannibal himself, and sent both consuls and two consular armies
+  to besiege Capua. Hannibal attacked their camp and partly took it,
+  and they did not stir from the siege. He burned the land of Cales,
+  and they were not called away. He marched on Rome, and they despised
+  the threat; he crossed the Anio and camped three miles out, came up
+  to the walls and the gates, and showed that he would take Rome from
+  them unless they let Capua go. They did not let go.
+
+  Then the image that makes the speech. Wild beasts driven by blind
+  rage, if you go toward their dens and their cubs, will turn back to
+  defend their own; the Romans were not turned from Capua by Rome
+  besieged, nor by wives and children whose weeping could almost be
+  heard from here, nor by altars and hearths and the shrines of the
+  gods and the violated tombs of their ancestors. Such is their
+  appetite for exacting punishment, such their thirst for our blood.
+  And then, which is why the speech is worth quoting rather than
+  summarizing: and perhaps not unjustly, for we would have done the
+  same if fortune had allowed it. They razed Alba, from which they were
+  themselves descended, so that no stock and no memory of their origin
+  should survive; so I am not to believe they will spare Capua, to whom
+  they are more hostile than they are to Carthage (26.13).
+
+  Twenty-seven senators dined with him and took poison. The wine and
+  food made it slow, and most of them were all night and part of the
+  next day dying, but all of them were dead before the gates were
+  opened.
+
+  ## What was done
+
+  The gate of Jupiter was opened and a legion and two allied wings came
+  in. Arms were collected, guards set on every gate, the Carthaginian
+  garrison arrested, and the Campanian senate ordered out to the Roman
+  camp, where all of them were put in chains on arrival and made to
+  hand over their gold and silver: two thousand and seventy pounds of
+  gold, thirty-one thousand two hundred of silver. Twenty-five senators
+  were sent to Cales and twenty-eight to Teanum (26.14).
+
+  The two Roman commanders then disagreed, and the disagreement is the
+  part of this episode least often told. Appius Claudius wanted the
+  whole question of punishment referred to the senate at Rome, and
+  wanted the senate to have the opportunity of asking whether the
+  Campanians had shared their plans with any of the Latin allies and
+  been helped by them. Fulvius said that must on no account be allowed,
+  because loyal allies should not be troubled by doubtful charges and
+  exposed to informers, and that he would crush and extinguish that
+  inquiry. He then rode through the night to Teanum with two thousand
+  picked horse, had the Campanians there flogged and beheaded at first
+  light, and galloped to Cales. While the prisoners were being tied to
+  the stake a courier arrived from Rome with a letter from the praetor
+  and a decree of the senate. A murmur went through the assembly that
+  the matter was being deferred. Fulvius, taking the murmur for the
+  truth, put the letter into his lap unopened and told the herald to
+  order the lictor to proceed. The letter was read afterward (26.15).
+
+  About seventy of the leading senators were killed, about three
+  hundred Campanian nobles imprisoned, others distributed into custody
+  among the Latin towns where they died in various ways, and the rest
+  of the Campanian population sold.
+
+  ## The city that was kept and the community that was not
+
+  Then they debated the city itself, and some were for destroying it:
+  a strong city, close by, and hostile. Livy says present advantage
+  won, because of the land, which was agreed to be the most fertile in
+  Italy, so the city was preserved to be somewhere for farmers to live.
+  A population of residents, freedmen, traders and craftsmen was kept
+  to fill it, and all the land and all the buildings became the public
+  property of the Roman people. Capua was to be a place and not a
+  community: no senate, no assembly, no magistrates of its own (26.16).
+
+  Three things in that are worth carrying into the site's reading of
+  146. The proposal to destroy a captured city outright was made in the
+  Roman senate's own camp in 211 and lost on grounds of utility, not
+  principle. The city that was spared was abolished as a political
+  community all the same. And a Capuan is given a sentence, by a Roman
+  historian, saying that Rome was more hostile to Capua than to
+  Carthage, which is the kind of thing Livy would not have written if
+  it had been unthinkable. Sixty-five years later the utility argument
+  ran the other way, and nothing was kept.

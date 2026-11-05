@@ -1,0 +1,90 @@
+slug: battle-of-herdonea-212
+name: First Battle of Herdonea
+type: battle
+outcome: "Decisive Carthaginian victory; of eighteen thousand Romans not more than two thousand escaped"
+date_start:
+  value: -212
+  precision: year
+participants:
+  - person: hannibal-barca
+    role: commander
+    side: Carthaginian
+principal_sources:
+  - livy-auc
+related_events:
+  - event: battle-of-cannae
+    relation: compared with
+    notes: >
+      Hannibal's largest battlefield victory in the four years after
+      Cannae, and fought on the same principle.
+  - event: siege-of-capua
+    relation: alternative to
+    notes: >
+      Hannibal turned away from Campania toward Apulia when the chance
+      of this battle offered, which is one reading of why Capua was not
+      relieved in 212.
+  - event: second-punic-war
+    relation: phase of
+summary: >
+  The largest Carthaginian victory in Italy between
+  [Cannae](/events/battle-of-cannae) in 216 and the end of the war,
+  and the one that is least remembered, partly because the site of it
+  was the scene of a second Roman disaster two years later and the two
+  may have been confused in the tradition.
+
+  ## What happened
+
+  Hannibal had been unable to help Capua. Apulian envoys brought him
+  word that the praetor Gnaeus Fulvius Flaccus, who had begun well
+  against the Apulian towns that had gone over, had since been so
+  filled with success and plunder, he and his soldiers alike, that
+  there was no discipline left in the army. Hannibal, having recently
+  seen for himself what an army under an ignorant commander looks like,
+  moved his camp into Apulia (Livy 25.20.6-7).
+
+  When he arrived the Roman soldiers nearly took the standards up and
+  went out to fight without orders. That night he heard the uproar in
+  their camp and knew that most of them were pressing their commander
+  to give the signal, so he placed three thousand light troops in the
+  farm buildings, thickets and woods round about, to rise all together
+  from cover at a signal, and sent a commander named Mago with about
+  two thousand horse to sit on every road the flight would take. Livy
+  does not say which Mago, and it is not
+  [Mago Barca](/people/mago-barca), who was in Iberia that year. At
+  first light he led
+  out. Fulvius did not hesitate, drawn not by any confidence of his own
+  but by the rush of his men, and the line was formed with the same
+  recklessness as it went out, the soldiers running forward and halting
+  wherever they felt like it and then leaving the ground from whim or
+  fear. The tribunes shouted that there was no strength or depth
+  anywhere behind the front and that the enemy would break through
+  wherever they struck, and nothing salutary got as far as his ears,
+  let alone his mind. The Romans did not stand even the first shout.
+  Fulvius, Livy says, was the equal of Centenius in stupidity and
+  recklessness and in no way his equal in spirit: seeing the thing
+  going and his men wavering, he seized a horse and got away with about
+  two hundred cavalry. The rest were driven in at the front and
+  surrounded from behind and on the wings, and of eighteen thousand men
+  not more than two thousand escaped. The camp was taken (Livy
+  25.21).
+
+  ## Why it matters, and the doubt about it
+
+  Livy's comparison with Centenius is the point of the chapter. After
+  Trasimene a Roman force under Centenius had been destroyed the same
+  way, and here is a Roman commander four years and several disasters
+  later walking into a battle with Hannibal casually and unprepared.
+  The victory is evidence that Hannibal was still, in the year he lost
+  Capua, able to destroy a consular-sized army in an afternoon when a
+  Roman commander gave him the opening, which is worth stating on a
+  site whose other pages describe his position contracting.
+
+  The site reports MacDonald's caution with it. A second Roman defeat
+  was suffered at Herdonea in 210 under a commander with a similar
+  name, Gnaeus Fulvius Centumalus, and described in similar terms
+  (Livy 27.1), and some scholars have doubted whether the first battle
+  happened at all or whether one event has been doubled. She takes the
+  first as historical on the ground that Herdonea sat on the route
+  between Beneventum and Brundisium and was worth fighting over twice.
+  The site has not read the arguments on either side and reports the
+  doubt rather than settling it.
