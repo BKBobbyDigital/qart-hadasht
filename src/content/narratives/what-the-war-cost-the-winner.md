@@ -34,7 +34,7 @@ referenced_claims:
   - cannae-casualties
   - cannae-rome-resilience
   - treaty-201-terms
-last_revised: "2026-11-04"
+last_revised: "2026-11-05"
 ---
 
 This page is about Rome, on a site about Carthage, and it is worth saying
@@ -180,6 +180,26 @@ wealth from abroad was corrupting Roman life. It is easy to read that
 literature as conventional grumbling. It is at least as plausible to read
 it as a governing class noticing that its own society had changed
 underneath it and not being able to say why.
+
+Roman writers themselves fixed the moment, and they fixed it in this
+war. Livy puts it at the sack of Syracuse in 211: Marcellus took the
+statues and paintings of the city to Rome, lawful spoils of an enemy,
+and from that came the first beginning of admiring Greek works of art
+and of the license to plunder everything sacred and profane alike,
+which turned in the end against Roman gods and first of all against
+the very temple Marcellus had adorned with them (25.40.1-3). It is a
+tidy origin for a long process and should be treated as one. The
+better evidence is that a contemporary thought the same at the time.
+Polybius, who was living in Rome among the men who ran it, argued in a
+whole chapter that the transfer was a mistake: Rome had conquered
+while living simply and beating people who owned the finest examples
+of such work, so to adopt the habits of the conquered was an error,
+and whoever looks at the objects feels pity and envy for the people
+they were taken from rather than admiration for the men who took them
+(9.10). The site treats the episode on
+[the Syracuse page](/events/siege-of-syracuse-marcellus). It belongs
+here because it is a cost the Romans counted themselves, in a ledger
+they kept for two centuries afterward.
 
 ## The argument about the aftermath
 

@@ -230,7 +230,8 @@ undefended wall section during a religious festival. The
 of 213-211 (Himilco's land expedition, Bomilcar's withdrawing naval
 relief, the plague-destroyed combined effort) failed to break the
 siege. The [fall of Akragas in 210 BCE](/events/fall-of-akragas-210)
-through the Numidian commander Mottones's defection closed the
+through the defection of Muttines, the Libyphoenician officer Hannibal
+had sent to Sicily, closed the
 Sicilian theater and freed substantial Roman resources for Iberian
 and Italian operations.
 

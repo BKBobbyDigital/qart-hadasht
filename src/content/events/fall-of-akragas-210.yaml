@@ -1,21 +1,20 @@
 slug: fall-of-akragas-210
 name: Fall of Akragas (210 BCE)
 type: siege
+outcome: "Roman victory by betrayal; the last Carthaginian base in Sicily lost, and the island's war ended within the year"
 date_start:
   value: -210
   precision: year
   notes: >
-    Spring 210 BCE; the city fell through betrayal rather
-    than direct assault.
+    Late in Laevinus's consular year. The city was handed over, not
+    stormed.
 place: akragas
 participants:
-  - person: hanno-the-great
-    role: Carthaginian commander (probably; the "Hanno" of Livy's account is most likely Hanno the Great, though identification is contested)
-    side: Carthaginian
+  - person: mottones
+    role: commander of the Numidian cavalry; handed the city over
+    side: Carthaginian, then Roman
 principal_sources:
   - livy-auc
-  - polybius-histories
-  - hoyos-hannibal-2003
 related_events:
   - event: carthaginian-sicilian-relief-213-211
     relation: continuation of (the closing engagement of the failed relief sequence)
@@ -24,32 +23,54 @@ related_events:
   - event: second-punic-war
     relation: phase of (the Sicilian theater's closure)
 summary: >
-  The Roman conquest of Akragas in 210 BCE (by Marcus
-  Valerius Laevinus, replacing Marcellus on the Sicilian
-  command) that closed the Carthaginian Sicilian theater of
-  the Second Punic War. After Syracuse's fall in 211 BCE,
-  Akragas was the last major Carthaginian-aligned Greek-
-  Sicilian city. Carthaginian forces under a commander Livy
-  names as "Hanno" (probably Hanno the Great) held the city
-  together with substantial Numidian cavalry contingents
-  under Mottones — a Numidian commander whose subsequent
-  defection became the operation's decisive event.
+  The end of the Carthaginian war in Sicily, lost not to a siege but
+  to a quarrel inside the Carthaginian command.
 
-  The siege's outcome turned on Mottones rather than on
-  Roman pressure. Hanno had reportedly mistreated Mottones
-  and his Numidian troops; Mottones in response opened
-  negotiations with Laevinus and, at the agreed moment,
-  opened a city gate to admit the Roman force. Akragas fell
-  with limited fighting; Hanno escaped the city; the
-  Carthaginian and Greek leaders who had organized the
-  resistance were executed by Laevinus.
+  After Syracuse fell, Agrigentum was what remained, held by a strong
+  garrison and serving as the base from which the war was carried
+  across the island. Livy says the Carthaginians there had a commander
+  in Hanno but had placed all their hope in
+  [Muttines](/people/mottones) and the Numidians, who ranged over the
+  whole island taking plunder from Rome's allies and could neither be
+  shut out of Agrigentum nor prevented from breaking out of it
+  wherever they liked. His reputation had begun to stand in the way of
+  the commander's own, until it turned to open resentment and Hanno
+  took no pleasure even in successes because of who had won them
+  (26.40).
 
-  The strategic consequence was the end of effective
-  Carthaginian operations in Sicily for the duration of the
-  Second Punic War. Mottones, rewarded with Roman
-  citizenship and honors, became the prototype of the
-  Numidian-Roman alliance pattern that would culminate in
-  Masinissa's role at Zama. The Sicilian theater's closure
-  freed substantial Roman resources for the Iberian and
-  Italian theaters just as the Scipionic Iberian operations
-  began producing decisive results.
+  Hanno's answer was to transfer the command to his own son, expecting
+  that taking the office would take Muttines's authority among the
+  Numidians with it. It did the reverse. Muttines sent secretly to the
+  consul Marcus Valerius Laevinus, terms were agreed, and the
+  Numidians took the gate toward the sea and let the Romans in. Hanno
+  heard the uproar in the forum and took it for another Numidian riot,
+  which had happened before; he came out to quell it, saw a crowd too
+  large for Numidians and heard a Roman shout he knew, and fled before
+  he was within range. He escaped by a rear gate with Epicydes, found
+  a small boat, and crossed to Africa, leaving Sicily to the enemy
+  after so many years of fighting over it.
+
+  Laevinus had the leading men of Agrigentum flogged and beheaded,
+  sold the rest of the population and the plunder, and sent the money
+  to Rome. Livy says the news ran across the island and everything
+  went over at once: twenty towns betrayed, six taken by force, about
+  forty surrendering of their own accord. He then set the Sicilians to
+  farming again, so that the island would feed its own people and
+  relieve the grain supply of Rome and Italy, and reported to the
+  senate that there was no Carthaginian left in Sicily and no Sicilian
+  who was not (27.5).
+
+  ## How to read it
+
+  The site's older account of this page made Muttines a Numidian and
+  the episode an early instance of the Numidian drift toward Rome that
+  ends with Masinissa. He was a Libyphoenician of Hippo whom Hannibal
+  had sent to Sicily, and the Numidians were the troops he had been
+  given. What the episode actually shows is something harder for
+  Carthage: the officer who was holding the island together was broken
+  by his own commander for doing it too well, in language that called
+  him a degenerate African, and he took the island with him when he
+  went. It belongs with the side-switching material not as another
+  case of tribal realignment but as a case of a command structure
+  failing from the inside, which is also how
+  [Muttines's own page](/people/mottones) treats it.

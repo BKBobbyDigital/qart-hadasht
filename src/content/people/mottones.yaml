@@ -1,55 +1,111 @@
 slug: mottones
-name_display: Mottones (Muttines)
-name_greek: Μύττωνος
+name_display: Muttines
+name_greek: Μόττωνης
 name_latin: Muttines
 etymology: >
-  A Punic-Numidian compound name; the surviving Greek and
-  Latin forms preserve a similar phonetic shape. Modern
-  scholarly transliteration varies between Mottones,
-  Muttines, and related forms.
+  Livy says that his own people called him Muttines, which is the
+  nearest thing the record gives to a Punic form of the name. The
+  usual modern derivation is from the root behind Mattan, "gift",
+  common in Punic personal names; the site has not checked that
+  against an inscriptional study and offers it as the standard
+  identification rather than a fact.
 floruit:
-  value: -213
-  precision: year
-  range_end: -210
+  value: -212
+  precision: decade
+  range_end: -207
 roles:
-  - Carthaginian-Numidian cavalry commander (Sicilian theater)
-  - defector to Rome (210 BCE)
-polity: Numidian (in Carthaginian service, then Roman service after 210 BCE)
+  - Carthaginian commander in Sicily
+  - cavalry commander in Roman service after 210
+polity: Carthage, then Rome
 summary: >
-  A Numidian-descent cavalry commander in Carthaginian
-  service during the Sicilian theater of the Second Punic
-  War, principally remembered for the defection that ended
-  Carthaginian power in Sicily. Mottones commanded the
-  Numidian cavalry contingents attached to the Carthaginian
-  army defending Akragas during the closing phase of the
-  Sicilian theater under the Carthaginian commander Hanno
-  (probably Hanno the Great, though the identification is
-  contested). Mottones's reputation in the surviving sources
-  is for personal military skill: Livy describes his
-  cavalry as the most effective Carthaginian-aligned arm
-  on the Sicilian battlefield in the closing campaigns.
+  The best Carthaginian officer in Sicily in the last years of the
+  war there, and the man who ended Carthaginian Sicily by handing
+  [Akragas](/places/akragas) to Rome in 210. His career is worth
+  following because of why he changed sides, which is recorded with
+  unusual directness and is not the sort of thing the Roman tradition
+  had any reason to invent.
 
-  The defection of 210 BCE, when Mottones opened a city
-  gate of [Akragas](/places/akragas) to admit the Roman
-  forces under Marcus Valerius Laevinus, was the
-  immediate cause of the city's fall and the structural
-  closure of the Carthaginian Sicilian theater. The
-  defection's motivation, per Livy (26.40), was personal:
-  Hanno had reportedly mistreated Mottones and his
-  Numidian troops over a period of months; Mottones
-  responded by negotiating directly with Laevinus and
-  arranging the betrayal of the city.
+  ## Who he was
 
-  The Roman reward for the defection was substantial:
-  Mottones was granted Roman citizenship, an unusual
-  recognition for a non-Italian non-Roman ally figure of
-  the period, and continued operating with Roman forces
-  through the rest of the war. The episode is the
-  prototype of the Numidian-Roman alliance pattern that
-  would culminate in Masinissa's role at Zama and in the
-  long-term Numidian client-kingdom relationship of the
-  second century BCE. The mechanism, a Numidian
-  commander whose mistreatment by Carthaginian leadership
-  produced strategic-political defection to Rome, is
-  the same pattern Masinissa would follow on a much
-  larger scale four years later.
+  Livy introduces him among the commanders left to Carthage around
+  Agrigentum after Syracuse fell: Epicydes and Hanno, survivors of the
+  earlier fighting, and a third sent newly by Hannibal in the place of
+  Hippocrates, "a Libyphoenician by race, a man of Hippo, whom his own
+  people called Muttines, an energetic man, taught all the arts of war
+  under Hannibal as his master" (25.40.5). He was given Numidian
+  auxiliaries by Epicydes and Hanno, and with them he ranged over
+  enemy territory and, in the sentence MacDonald quotes, went to each
+  ally in turn with help at the right moment so as to hold them to
+  their loyalty, until in a short time he had filled the whole of
+  Sicily with his name.
+
+  The site had previously described him as a Numidian and built a
+  parallel with [Masinissa](/people/masinissa) on that basis. He was
+  not. A Libyphoenician of Hippo is a man from the old Phoenician
+  settlement belt of the African coast, treated on this site at
+  [the group page](/groups/libyo-phoenicians), and commanding Numidian
+  cavalry is not the same as being Numidian. The correction matters
+  because the whole interest of his case lies in his standing inside
+  the Carthaginian service rather than outside it.
+
+  ## What Hanno said about him
+
+  Twice the surviving account has a Carthaginian commander destroy a
+  better officer rather than be outshone by him, and both times the
+  contempt is put in terms of where the man came from. When Muttines
+  left camp to recall mutinous Numidians and warned the generals not
+  to engage in his absence, Hanno took it badly: was Muttines to set
+  limits to him, a degenerate African to a Carthaginian commander sent
+  out by the senate and people? He pushed the hesitant Epicydes into
+  crossing the river and fighting without him, on the reasoning that
+  if they waited and won, the glory would be Muttines's (25.40.12-13).
+
+  Two years later, at Agrigentum, Hanno took the command away from
+  Muttines and gave it to his own son, reckoning that taking the
+  office would take his standing among the Numidians with it. Livy
+  says it went quite otherwise: Hanno's own ill-will increased the old
+  affection for him. Muttines did not bear the insult, and sent secret
+  messengers to the consul Laevinus offering to hand over Agrigentum
+  (26.40).
+
+  ## The gate
+
+  The Numidians seized the gate leading to the sea, drove off or
+  killed the guards, and let in the Romans sent for the purpose. Hanno
+  heard the noise in the forum and assumed it was another Numidian
+  riot, which had happened before; he went out to put down the
+  mutiny, saw a larger crowd than the Numidians and heard a Roman
+  shout he knew perfectly well, and ran before he came within range of
+  a weapon. He got out by a rear gate with Epicydes, found a small
+  boat, and crossed to Africa, leaving Sicily, says Livy, after so
+  many years of fighting over it. Laevinus flogged and beheaded the
+  leading men of Agrigentum, sold the rest of the population and the
+  plunder, and sent the money to Rome. Twenty more towns were betrayed
+  to him, six taken by force, and about forty surrendered of their own
+  accord (26.40).
+
+  ## Afterward
+
+  Muttines was brought before the senate at Rome with others who had
+  deserved well of the Roman people, received the consul's honors, and
+  was made a Roman citizen by a bill which the tribunes carried to the
+  plebs on the senate's authority (27.5). He kept his command: Laevinus
+  afterward toured the province with Muttines's cavalry, inspecting the
+  fields and praising or scolding the landowners according to what he
+  found (27.8).
+
+  ## What the case shows
+
+  It is the clearest surviving evidence of a hierarchy inside the
+  Carthaginian command that the sources otherwise let us only guess
+  at, and it is evidence against the Carthaginian side on its own
+  terms. A man from the African coastal towns could rise to command an
+  army in a theater of the war by Hannibal's appointment, and a
+  Carthaginian of the governing class could still call him a
+  degenerate African and break him for being better at the work. The
+  site reads this alongside
+  [the take on the army as an institution](/editorialTakes/carthaginian-army-institutionally-mixed),
+  which argues that the Polybian division of the army into Carthaginians
+  and mercenaries misdescribes it. The reply this episode makes is not
+  that the division was false but that the Carthaginians themselves
+  sometimes used it, and lost a province by it.

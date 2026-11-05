@@ -702,6 +702,20 @@ const REGRESSIONS = [
     right: "Livy 25.21 is the first battle of Herdonea and does not mention Carthalo. His second appearance is 25.17, carrying the head of Gracchus to the Roman camp; his third and last is 27.16, killed at Tarentum.",
     fixed: 'MacDonald ch. 9 pass',
   },
+  {
+    id: 'muttines-numidian',
+    // Livy 25.40.5 gives his origin exactly. A sentence that says he
+    // commanded Numidians, or that corrects the old label, passes.
+    re: /(?<!(?:not|never|rather than|commanded|commanding|leading|led|with|made|called|described|labell?ed|older|previously|wrongly|treated)[^.]{0,90})(?:(Muttines|Mottones)[^.]{0,60}(?:\bNumidian-descent\b|\ba Numidian\b|\bNumidian prince\b)|(Muttines|Mottones)[^.]{0,60}\bNumidian\b(?![^.]{0,40}(cavalry|auxiliar|troops|horse|contingent))|\bNumidian-descent\b[^.]{0,80}(Muttines|Mottones)|\bNumidian\s+(?:cavalry\s+)?(?:commander|officer|general|prince)\s+(Muttines|Mottones))/i,
+    right: 'Livy 25.40.5: Libyphoenicum generis Hippacritanus, a Libyphoenician of Hippo whom his own people called Muttines. He was given Numidian auxiliaries by Epicydes and Hanno; commanding Numidians is not being one.',
+    fixed: 'MacDonald ch. 9 pass',
+  },
+  {
+    id: 'naravas-went-over-to-rome',
+    re: /Naravas[^.]{0,60}(moved|went over|defected|switched)[^.]{0,30}(from Carthage )?to (the )?Rome/i,
+    right: 'Polybius 1.78: Naravas came over to Hamilcar during the Mercenary War and was promised his daughter. Nothing has him going to Rome.',
+    fixed: 'MacDonald ch. 9 pass',
+  },
 ];
 
 // Review terms: overstated confidence and outcome-read-as-design.
